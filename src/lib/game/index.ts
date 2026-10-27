@@ -1,3 +1,5 @@
+export { orderChoicesForRetry, shuffleChoices } from "./choices";
+export { explanationRevealIssues, textContainsChoice } from "./reveal";
 export {
   acknowledgeTeaching,
   shouldShowExtended,

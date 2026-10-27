@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { MascotMark } from "@/components/MascotMark";
 import {
   acknowledgeTeaching,
+  orderChoicesForRetry,
   mascotLineAudioSrc,
   pickMascotLine,
   pickWording,
@@ -86,6 +87,10 @@ export function QuestionSession({
 
   const showExtended = attempt.phase === "teaching" && shouldShowExtended(attempt.missCount);
   const showTakeaway = shouldShowTakeaway(attempt);
+  const displayedChoices =
+    attempt.missCount === 0
+      ? question.choices
+      : orderChoicesForRetry(question.choices, `${question.id}:${attempt.missCount}`);
 
   return (
     <section data-testid="question-screen" className="grid gap-5">
@@ -103,7 +108,7 @@ export function QuestionSession({
             {prompt}
           </h1>
           <div className="grid gap-3" role="group" aria-label="Answers">
-            {question.choices.map((choice) => (
+            {displayedChoices.map((choice) => (
               <button
                 key={choice.id}
                 type="button"

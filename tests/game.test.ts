@@ -2,6 +2,10 @@ import { describe, expect, it } from "vitest";
 import {
   acknowledgeTeaching,
   applyMastery,
+  explanationRevealIssues,
+  orderChoicesForRetry,
+  shuffleChoices,
+  textContainsChoice,
   emptyProgress,
   knowledgeStage,
   mascotLineAudioSrc,
@@ -274,6 +278,67 @@ describe("progression", () => {
     expect(step.event.type).toBe("caught_up");
     expect(step.progress.cycle).toBe(1);
     expect(nextQuestion(only, step.progress)).toBeNull();
+  });
+});
+
+describe("answer privacy", () => {
+  it("treats the choice text as revealed only when the wording contains it", () => {
+    expect(textContainsChoice("Look at Genesis 1:1 and find the name.", "God")).toBe(false);
+    expect(textContainsChoice("The answer is God.", "God")).toBe(true);
+    expect(textContainsChoice("Count the plagues in Exodus.", "10")).toBe(false);
+  });
+
+  it("flags an explanation that states the correct choice", () => {
+    const sample = question({
+      id: "sample",
+      book: "Genesis",
+      section: "Genesis 1-11",
+      cycle: 1,
+      tier: "foundation",
+      answer: "b",
+      choices: [
+        { id: "a", text: "Adam" },
+        { id: "b", text: "God" },
+        { id: "c", text: "The angels" },
+        { id: "d", text: "Noah" },
+      ],
+      teaching: {
+        verses: [
+          {
+            ref: "Genesis 1:1",
+            text: "In the beginning God created the heavens and the earth.",
+            translation: "NKJV",
+          },
+        ],
+        explanation: { adult: "The correct answer is God." },
+        extended_explanation: "Scripture answers with one name: God.",
+        takeaway: "God created the heavens and the earth.",
+      },
+    });
+    const issues = explanationRevealIssues(sample);
+    expect(issues.some((issue) => issue.includes("explanation.adult"))).toBe(true);
+    expect(issues.some((issue) => issue.includes("extended_explanation"))).toBe(true);
+  });
+});
+
+describe("retry choice order", () => {
+  const choices = [
+    { id: "a", text: "Adam" },
+    { id: "b", text: "God" },
+    { id: "c", text: "The angels" },
+    { id: "d", text: "Noah" },
+  ];
+
+  it("shuffles by the injected random source and keeps each id with its text", () => {
+    const shuffled = shuffleChoices(choices, () => 0);
+    expect(shuffled.map((choice) => choice.id)).toEqual(["b", "c", "d", "a"]);
+    expect(shuffled.find((choice) => choice.id === "b")?.text).toBe("God");
+  });
+
+  it("changes the order when the question is asked again", () => {
+    const again = orderChoicesForRetry(choices, "c1-gen-0001:1");
+    expect(again.map((choice) => choice.id)).not.toEqual(choices.map((choice) => choice.id));
+    expect(again.map((choice) => choice.id).sort()).toEqual(["a", "b", "c", "d"]);
   });
 });
 

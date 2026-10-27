@@ -2,6 +2,7 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import { describe, expect, it } from "vitest";
+import { explanationRevealIssues } from "@/lib/game/reveal";
 import { MOMENTS } from "@/lib/game/types";
 import { loadCatalog } from "@/lib/content/load";
 import { questionBatchSchema } from "@/lib/content/schema";
@@ -36,6 +37,7 @@ describe("sample content", () => {
     ).toBe(true);
     expect(questions.some((question) => question.type === "true_false")).toBe(true);
     expect(questions.some((question) => question.type === "multiple_choice")).toBe(true);
+    expect(questions.flatMap((question) => explanationRevealIssues(question))).toEqual([]);
 
     for (const mascot of ["judah", "agnes", "shalom", "zion", "hunter"]) {
       for (const moment of MOMENTS) {
@@ -93,6 +95,21 @@ describe("schema rejects a bad file", () => {
     const result = validateContentTree(dir);
     expect(result.ok).toBe(false);
     expect(result.errors.some((error) => error.includes("c9-bad-001.json"))).toBe(true);
+  });
+
+  it("fails when an explanation contains the correct choice", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "questions", "c1-genesis-001.json");
+    const batch = JSON.parse(fs.readFileSync(file, "utf8")) as {
+      questions: { id: string; teaching: { explanation: { adult: string } } }[];
+    };
+    const creation = batch.questions.find((question) => question.id === "c1-gen-0001");
+    creation!.teaching.explanation.adult = "The correct answer is God.";
+    fs.writeFileSync(file, JSON.stringify(batch));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors.some((error) => error.includes("c1-gen-0001") && error.includes("God"))).toBe(true);
   });
 
   it("fails when Hunter states that he swallowed Jonah", () => {

@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { explanationRevealIssues } from "../game/reveal";
 import { MASCOT_IDS, MOMENTS } from "../game/types";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
 
@@ -89,6 +90,9 @@ export function validateContentTree(root: string): ValidationResult {
       const prior = questionIds.get(question.id);
       if (prior) errors.push(`${file}: duplicate question id ${question.id} (also in ${prior})`);
       questionIds.set(question.id, file);
+      for (const issue of explanationRevealIssues(question)) {
+        errors.push(`${file}: ${issue}`);
+      }
     }
   }
 
