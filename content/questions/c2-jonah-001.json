@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "batch_id": "c2-jonah-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c2-jon-0001",
+      "cycle": 2,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 1",
+      "topics": ["Jonah", "great fish"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How long was Jonah in the belly of the great fish?",
+        "child": "How many days and nights was Jonah inside the great fish?"
+      },
+      "choices": [
+        { "id": "a", "text": "One day and one night" },
+        { "id": "b", "text": "Three days and three nights" },
+        { "id": "c", "text": "Seven days and seven nights" },
+        { "id": "d", "text": "Forty days and forty nights" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 1:17",
+            "text": "Now the LORD had prepared a great fish to swallow Jonah. And Jonah was in the belly of the fish three days and three nights.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 1:17 says the LORD prepared a great fish, and Jonah was in its belly three days and three nights. The answer is three days and three nights.",
+          "child": "The Bible says Jonah was inside the great fish for three days and three nights. That is the answer."
+        },
+        "extended_explanation": "One, seven, and forty are famous Bible numbers, but they are not this one. Jonah 1:17 says Jonah was in the belly of the fish three days and three nights. The LORD prepared that fish. The answer is three days and three nights.",
+        "takeaway": "Jonah was in the great fish three days and three nights."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

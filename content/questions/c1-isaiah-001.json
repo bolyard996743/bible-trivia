@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-isa-0001",
+      "cycle": 1,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 53",
+      "topics": ["Messiah", "Isaiah"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Isaiah 53:5, the Servant was wounded for our what?",
+        "older": "Isaiah speaks of One who suffered for others. He was wounded for our what?"
+      },
+      "choices": [
+        { "id": "a", "text": "Transgressions" },
+        { "id": "b", "text": "Battles" },
+        { "id": "c", "text": "Flocks" },
+        { "id": "d", "text": "Crowns" }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 53:5",
+            "text": "But He was wounded for our transgressions, He was bruised for our iniquities; The chastisement for our peace was upon Him, And by His stripes we are healed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah 53:5 says He was wounded for our transgressions. The suffering is for sin, not for battles, flocks, or crowns. The answer is transgressions.",
+          "older": "The verse is quiet and exact: wounded for our transgressions, bruised for our iniquities. The answer is transgressions."
+        },
+        "extended_explanation": "Isaiah 53 describes a Servant who bears what belongs to others. The first line of verse 5 says He was wounded for our transgressions. That word is the answer. The verse goes on to peace and healing, which rest on that same gift.",
+        "takeaway": "He was wounded for our transgressions."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

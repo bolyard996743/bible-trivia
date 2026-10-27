@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "batch_id": "c2-revelation-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c2-rev-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 5",
+      "topics": ["Jesus", "Lion of Judah"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 5:5 calls Jesus the Lion of which tribe?"
+      },
+      "choices": [
+        { "id": "a", "text": "Levi" },
+        { "id": "b", "text": "Judah" },
+        { "id": "c", "text": "Benjamin" },
+        { "id": "d", "text": "Dan" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 5:5",
+            "text": "But one of the elders said to me, \"Do not weep. Behold, the Lion of the tribe of Judah, the Root of David, has prevailed to open the scroll and to loose its seven seals.\"",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The elder says, \"Behold, the Lion of the tribe of Judah.\" The tribe named in Revelation 5:5 is Judah."
+        },
+        "extended_explanation": "Revelation 5:5 comforts John and names the one who can open the scroll: the Lion of the tribe of Judah, the Root of David. Levi, Benjamin, and Dan are tribes of Israel, but they are not the tribe in this verse. The answer is Judah.",
+        "takeaway": "Jesus is called the Lion of the tribe of Judah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

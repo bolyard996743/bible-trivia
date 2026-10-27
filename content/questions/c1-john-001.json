@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-jhn-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1-3",
+      "topics": ["Jesus", "God's love"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In John 3:16, whom did God give because He loved the world?"
+      },
+      "choices": [
+        { "id": "a", "text": "His only begotten Son" },
+        { "id": "b", "text": "A mighty angel" },
+        { "id": "c", "text": "The city of Jerusalem" },
+        { "id": "d", "text": "A golden temple" }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:16",
+            "text": "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:16 says God loved the world and gave His only begotten Son. The answer is His only begotten Son."
+        },
+        "extended_explanation": "The gift in this verse is a person, not an angel, a city, or a temple. God gave His only begotten Son so that whoever believes in Him should not perish but have everlasting life. The answer is His only begotten Son.",
+        "takeaway": "God gave His only begotten Son."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

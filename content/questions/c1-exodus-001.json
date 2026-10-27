@@ -1,0 +1,52 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-exodus-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-exo-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 1-15",
+      "topics": ["Moses", "plagues"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How many plagues did God send on Egypt?",
+        "child": "How many plagues did God send to Egypt to free His people?",
+        "teen": "God sent how many plagues on Egypt before Pharaoh let Israel go?",
+        "older": "In the account of Israel's deliverance, how many plagues did God send on Egypt?"
+      },
+      "choices": [
+        { "id": "a", "text": "7" },
+        { "id": "b", "text": "10" },
+        { "id": "c", "text": "12" },
+        { "id": "d", "text": "40" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 12:29",
+            "text": "And it came to pass at midnight that the LORD struck all the firstborn in the land of Egypt, from the firstborn of Pharaoh who sat on his throne to the firstborn of the captive who was in the dungeon, and all the firstborn of livestock.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 7-12 tells of ten plagues. The last is the death of the firstborn, described in Exodus 12:29. The answer is 10.",
+          "child": "God sent ten plagues so His people could go free. The last one came at midnight. The answer is 10.",
+          "teen": "Count the plagues in Exodus 7-12 and you get ten. Exodus 12:29 is the final one. The answer is 10.",
+          "older": "The deliverance from Egypt comes through ten plagues, ending with the firstborn in Exodus 12:29. The answer is 10."
+        },
+        "extended_explanation": "The plagues are water turned to blood, frogs, lice, flies, livestock, boils, hail, locusts, darkness, and the death of the firstborn. That is ten. Exodus 12:29 shows the last of them. Seven, twelve, and forty show up in other stories, but not as the number of plagues on Egypt.",
+        "takeaway": "God sent ten plagues on Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

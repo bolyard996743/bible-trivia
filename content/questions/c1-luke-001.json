@@ -1,0 +1,57 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-luk-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 1-2",
+      "topics": ["Jesus", "Bethlehem"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In which town was Jesus born?",
+        "child": "Where was baby Jesus born?",
+        "teen": "Jesus was born in which town?",
+        "older": "In which town does Luke place the birth of Jesus?"
+      },
+      "choices": [
+        { "id": "a", "text": "Nazareth" },
+        { "id": "b", "text": "Bethlehem" },
+        { "id": "c", "text": "Jerusalem" },
+        { "id": "d", "text": "Capernaum" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:4",
+            "text": "Joseph also went up from Galilee, out of the city of Nazareth, into Judea, to the city of David, which is called Bethlehem, because he was of the house and lineage of David,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 2:11",
+            "text": "For there is born to you this day in the city of David a Savior, who is Christ the Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joseph travels from Nazareth to the city of David, which Luke 2:4 calls Bethlehem. Jesus is born there. The answer is Bethlehem.",
+          "child": "Mary and Joseph went to Bethlehem, and that is where Jesus was born. The answer is Bethlehem.",
+          "teen": "Nazareth is where they came from. Luke 2:4 says the city of David is called Bethlehem, and that is the birthplace. The answer is Bethlehem.",
+          "older": "Luke is careful with the place. They leave Nazareth for Bethlehem, the city of David, and the Savior is born there. The answer is Bethlehem."
+        },
+        "extended_explanation": "Nazareth is the town they leave. Jerusalem and Capernaum matter later, but they are not the birthplace. Luke 2:4 names Bethlehem, and Luke 2:11 announces the Savior born that day in the city of David. The answer is Bethlehem.",
+        "takeaway": "Jesus was born in Bethlehem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

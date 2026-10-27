@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-act-0001",
+      "cycle": 1,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": ["Pentecost", "Holy Spirit"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the day of Pentecost, what filled the disciples?",
+        "teen": "Acts 2 says the disciples were filled with whom on Pentecost?"
+      },
+      "choices": [
+        { "id": "a", "text": "The Holy Spirit" },
+        { "id": "b", "text": "The Roman army" },
+        { "id": "c", "text": "A fear of the sea" },
+        { "id": "d", "text": "Only the high priest's blessing" }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:4",
+            "text": "And they were all filled with the Holy Spirit and began to speak with other tongues, as the Spirit gave them utterance.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 2:4 says they were all filled with the Holy Spirit. That is the answer, not an army or a merely human blessing.",
+          "teen": "Pentecost is the day they were filled with the Holy Spirit and spoke as the Spirit gave them utterance. The answer is the Holy Spirit."
+        },
+        "extended_explanation": "Acts 2 is the account of Pentecost. Verse 4 does not say Rome arrived or that fear filled them. It says they were all filled with the Holy Spirit and began to speak as the Spirit gave them utterance. The answer is the Holy Spirit.",
+        "takeaway": "On Pentecost the disciples were filled with the Holy Spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

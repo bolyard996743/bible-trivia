@@ -1,0 +1,132 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-gen-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1-11",
+      "topics": ["creation", "God"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Who created the heavens and the earth?",
+        "child": "Who made the heavens and the earth?",
+        "teen": "In the beginning, who created the heavens and the earth?",
+        "older": "According to the opening of Genesis, who created the heavens and the earth?"
+      },
+      "choices": [
+        { "id": "a", "text": "Adam" },
+        { "id": "b", "text": "God" },
+        { "id": "c", "text": "The angels" },
+        { "id": "d", "text": "Noah" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:1",
+            "text": "In the beginning God created the heavens and the earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The Bible begins with God. Genesis 1:1 says He created the heavens and the earth, so the answer is God.",
+          "child": "The very first sentence of the Bible tells a big true story: God made the heavens and the earth. The answer is God.",
+          "teen": "Genesis does not start with a hero or an accident. It starts with God creating the heavens and the earth. The answer is God.",
+          "older": "Before any person enters the story, Scripture says God created the heavens and the earth. The answer is God."
+        },
+        "extended_explanation": "This verse is the doorway to the whole Bible. People, promises, and rescue all rest on God as the Maker. When the question asks who created the heavens and the earth, Scripture answers with one name: God.",
+        "takeaway": "God created the heavens and the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    },
+    {
+      "id": "c1-gen-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1-11",
+      "topics": ["Noah", "faithfulness"],
+      "placement_eligible": true,
+      "type": "true_false",
+      "prompt": {
+        "adult": "True or false: Noah walked with God.",
+        "child": "True or false: The Bible says Noah walked with God."
+      },
+      "choices": [
+        { "id": "true", "text": "True" },
+        { "id": "false", "text": "False" }
+      ],
+      "answer": "true",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 6:9",
+            "text": "This is the genealogy of Noah. Noah was a just man, perfect in his generations. Noah walked with God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 6:9 says Noah was a just man, perfect in his generations, and that Noah walked with God. The statement is true.",
+          "child": "The Bible says Noah walked with God. That means the sentence is true."
+        },
+        "extended_explanation": "The world around Noah was full of violence, and his life is still described as a walk with God. Genesis 6:9 says it in plain words, so the true answer is True.",
+        "takeaway": "Noah walked with God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    },
+    {
+      "id": "c1-gen-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": ["Joseph", "Egypt"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joseph told his brothers they had sold him into which land?",
+        "teen": "Where did Joseph's brothers sell him, as he later told them?"
+      },
+      "choices": [
+        { "id": "a", "text": "Egypt" },
+        { "id": "b", "text": "Babylon" },
+        { "id": "c", "text": "Nineveh" },
+        { "id": "d", "text": "Rome" }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 45:4",
+            "text": "And Joseph said to his brothers, \"Please come near to me.\" So they came near. Then he said: \"I am Joseph your brother, whom you sold into Egypt.\"",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joseph names the land himself. He tells his brothers, \"I am Joseph your brother, whom you sold into Egypt.\" The answer is Egypt.",
+          "teen": "Years later Joseph says it outright: his brothers sold him into Egypt. That is the answer."
+        },
+        "extended_explanation": "Joseph's story moves from a pit to a palace, but the place his brothers sold him is not Babylon, Nineveh, or Rome. In Genesis 45:4 he says they sold him into Egypt. God used that hard road to preserve life.",
+        "takeaway": "Joseph's brothers sold him into Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

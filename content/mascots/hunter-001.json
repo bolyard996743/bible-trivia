@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mascot": "hunter",
+  "author": "Hunter the Great Fish",
+  "lines": [
+    {
+      "id": "hunter-welcome-001",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "Name's Hunter. Big waters, long stories. Come on in — the Word is solid ground.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-welcome-002",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "You found me. I have been through some weather. Learning Scripture is how we get our bearings.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-mascot-selected-003",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "All right. I will swim this with you. When it gets dark, we look at the text.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-mascot-selected-004",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "Good. I do not leave people in the deep. We learn the truth and come back up.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-placement-intro-005",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "A few questions to find your depth. No trick tides. Just answer true.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-placement-intro-006",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "This only finds where we start. I have started over more than once. It is fine.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-placement-result-007",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "Everyone starts in a different place. That is normal and good. You are exactly where you need to be to grow.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-placement-result-008",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "This is your depth for now. We will go further when you are ready.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-wrong-intro-009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "I have been in deep water before. You do not want to stay in the dark on this one. Let's get it clear.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-wrong-intro-010",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Easy. Missing it is not the end of you. Here is the truth from the Book.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-retry-prompt-011",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "All right. Ready to surface and answer it right?",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-retry-prompt-012",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "When you are ready, we go back to the same question. Clearer this time.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-correct-013",
+      "moment": "correct",
+      "audience": "all",
+      "text": "There it is. You came up with the right answer.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-correct-014",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Good. That one is solid now.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-correct-after-retry-015",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "You did not stay down there. Yes — now you've got it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-correct-after-retry-016",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Second pass, right answer. That is how a sailor learns a coast.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-streak-017",
+      "moment": "streak",
+      "audience": "all",
+      "text": "A steady streak. Keep your eyes on the Word, not the waves.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-streak-018",
+      "moment": "streak",
+      "audience": "all",
+      "text": "You are stringing true answers together. I respect that.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-section-complete-019",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "This stretch of water is charted. Section complete.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-section-complete-020",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "You finished the section. We did not skip the deep parts.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-cycle-complete-021",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "A full cycle. You stayed aboard the whole way.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-cycle-complete-022",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "Cycle complete. The next sea is wider, and you know more of the map.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-level-up-023",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "Deeper water ahead, and you are more ready than you were.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-level-up-024",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "We go further into the story. I will not let it stay murky.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-leaderboard-reassurance-025",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "Boards are coming later, and they are only for sport. They do not say who is faithful.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-leaderboard-reassurance-026",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "I have seen people start in very different places. The ones who keep learning are the ones I trust.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-daily-return-027",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "Back again. Good. The story keeps.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-daily-return-028",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "You surfaced today. That counts.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-encouragement-general-029",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "Do not stay in the dark on the things that matter. The Word turns the light on.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-encouragement-general-030",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "I have been through serious weather. Scripture is how you find the way home.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-wrong-intro-031",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Trust me, the dark is a poor place to stop. Let's read what actually happened.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "hunter-encouragement-general-032",
+      "moment": "encouragement_general",
+      "audience": "older",
+      "text": "I have been down in the deep and come back up. The Word is the way home.",
+      "audio_file": null,
+      "question_id": null
+    }
+  ]
+}
