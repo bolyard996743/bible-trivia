@@ -2,6 +2,7 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { MainNav } from "@/components/MainNav";
 import { useProfile } from "@/lib/use-profile";
 import { saveState } from "@/lib/storage";
 
@@ -32,13 +33,9 @@ export function Shell({ children }: { children: ReactNode }) {
               Sound {state.soundOn ? "on" : "off"}
             </button>
           ) : null}
-          {ready && state ? (
-            <Link href="/settings" className="tap inline-flex items-center rounded-full border border-line bg-card px-4 text-base text-ink">
-              Settings
-            </Link>
-          ) : null}
         </div>
       </header>
+      <MainNav />
       <main className="flex-1">{children}</main>
     </div>
   );

@@ -34,6 +34,9 @@ You can add the site to your home screen. After a production build, pages you ha
 3. From home, follow your private Knowledge Path: Seed, Sprout, Rooted, Growing, Established, Fruitful, Deep Roots. You also see the current cycle, section, and first-try streak.
 4. Play. A wrong answer brings your guide’s words, one to three verses, and a guiding explanation for your age group (adult if that wording is missing). The explanation points you toward the verse. It does not state the correct choice, and the choices are not highlighted. Press **I’m ready** and the same question returns with the choices in a new order. After two misses, a longer explanation appears, still without giving the choice away. A correct answer after a retry shows the one-sentence takeaway, which may state the answer. The next question waits until this one is correct.
 5. Leaderboards are not in this demo. That screen says they are coming.
+6. The Bible tab is a placeholder. It does not show Bible text. Reading, highlights, and notes are still to come.
+
+The main navigation (Home, Play, Bible, Leaderboards, Settings) stays on the page on a phone, a tablet, and a desktop.
 
 Sound plays `public/audio/<mascot>/<line-id>.mp3` when that file is in the project, and when a line names `audio_file`. A missing recording stays silent. The words are always on screen. Turn sound off from the header or from Settings. There are no mascot animations. Hunter never says outright that he swallowed Jonah.
 
@@ -54,3 +57,9 @@ npm run validate-content
 ```
 
 The validator uses Zod. It also runs inside `npm test` and `npm run build`.
+
+## Bible tab
+
+`BibleProvider` in `src/lib/bible/types.ts` is the scripture source: `listBooks`, `getChapter(bookId, chapter)`, and `getPassage(ref)`. `getBibleProvider()` in `src/lib/bible/index.ts` is the only place that picks an implementation. Today it returns a local placeholder with the book list and reference parsing, and with no verse text and no network call. A later API.Bible NKJV provider can replace that return value without changing the screen.
+
+Highlights and notes, when they are saved, use `createVerseMarkStore` in `src/lib/bible/marks.ts`. Each mark stores a book id, chapter, verse range, optional color, the player's note, and timestamps. It does not store verse wording. The key is `bible-trivia-marks-v1` in localStorage, separate from game progress.
