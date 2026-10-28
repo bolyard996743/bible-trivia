@@ -8,7 +8,7 @@ import { pickMascotLine, scorePlacement, selectPlacementQuestions } from "@/lib/
 import type { MascotLine, PlacementAttempt, Question } from "@/lib/game/types";
 import { MASCOTS } from "@/lib/game/types";
 import { emptyProgress } from "@/lib/game/progression";
-import { saveState } from "@/lib/storage";
+import { savePlayerState } from "@/lib/account/repository";
 import { useProfile } from "@/lib/use-profile";
 
 export function PlacementClient({
@@ -26,6 +26,7 @@ export function PlacementClient({
   const [started, setStarted] = useState(false);
   const [index, setIndex] = useState(0);
   const [attempts, setAttempts] = useState<PlacementAttempt[]>([]);
+  const [missCounts, setMissCounts] = useState<Record<string, number>>({});
   const finishing = useRef(false);
 
   useEffect(() => {
@@ -76,19 +77,21 @@ export function PlacementClient({
       soundOn={state.soundOn}
       audioFiles={audioFiles}
       progressLabel={`Placement ${index + 1} of ${quiz.length}`}
-      onContinue={({ firstAttemptCorrect }) => {
+      onContinue={({ firstAttemptCorrect, missCount }) => {
         const nextAttempts = [
           ...attempts,
           { questionId: question.id, tier: question.tier, firstAttemptCorrect },
         ];
+        const nextMisses = { ...missCounts, [question.id]: missCount };
         if (index + 1 < quiz.length) {
           setAttempts(nextAttempts);
+          setMissCounts(nextMisses);
           setIndex(index + 1);
           return;
         }
         const result = scorePlacement(nextAttempts);
         finishing.current = true;
-        saveState({
+        savePlayerState({
           ...state,
           placementComplete: true,
           placement: {
@@ -98,7 +101,7 @@ export function PlacementClient({
             possible: result.possible,
             stage: result.stage,
           },
-          progress: emptyProgress(result.cycle, result.tier),
+          progress: { ...emptyProgress(result.cycle, result.tier), missCounts: nextMisses },
           celebration: null,
         });
         router.push("/results");

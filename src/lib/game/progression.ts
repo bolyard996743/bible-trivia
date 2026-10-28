@@ -96,6 +96,7 @@ export function emptyProgress(cycle = 1, tier: Tier = "foundation"): GameProgres
     cycle,
     tier,
     masteredIds: [],
+    missCounts: {},
     streak: 0,
     bestStreak: 0,
     seasonMasteredCount: 0,

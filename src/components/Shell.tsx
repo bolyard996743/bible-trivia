@@ -4,14 +4,14 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { MainNav } from "@/components/MainNav";
 import { useProfile } from "@/lib/use-profile";
-import { saveState } from "@/lib/storage";
+import { savePlayerState } from "@/lib/account/repository";
 
 export function Shell({ children }: { children: ReactNode }) {
   const { state, ready } = useProfile();
 
   function toggleSound() {
     if (!state) return;
-    saveState({ ...state, soundOn: !state.soundOn });
+    savePlayerState({ ...state, soundOn: !state.soundOn });
   }
 
   return (

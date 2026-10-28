@@ -191,5 +191,8 @@ export function createVerseMarkStore(
     remove(id: string) {
       write(read().filter((mark) => mark.id !== id));
     },
+    replace(next: VerseMark[]) {
+      write(next.filter(isMark).map(pickStored));
+    },
   };
 }

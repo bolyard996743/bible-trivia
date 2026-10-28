@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { MascotMark } from "@/components/MascotMark";
 import { pickMascotLine } from "@/lib/game";
 import { MASCOTS, TIER_LABELS, type MascotLine, type Moment } from "@/lib/game/types";
-import { saveState } from "@/lib/storage";
+import { savePlayerState } from "@/lib/account/repository";
 import { useProfile } from "@/lib/use-profile";
 
 function momentFor(type: string): Moment {
@@ -66,7 +66,7 @@ export function CompleteClient({ lines }: { lines: MascotLine[] }) {
         <button
           type="button"
           onClick={() => {
-            saveState({ ...state, celebration: null });
+            savePlayerState({ ...state, celebration: null });
             router.push("/play");
           }}
           className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white"

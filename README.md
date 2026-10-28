@@ -58,6 +58,28 @@ npm run validate-content
 
 The validator uses Zod. It also runs inside `npm test` and `npm run build`.
 
+## Accounts
+
+Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_ANON_KEY` from the Supabase dashboard (Project Settings → API → anon public key). `NEXT_PUBLIC_SUPABASE_URL` is already filled in for this project. Leave both unset and the app stays in guest mode: progress remains in this browser, and nothing tries to reach Supabase.
+
+```bash
+# later, when you are ready to create the tables. This repo does not apply them for you.
+supabase link --project-ref wmopoyxwghddtkbmrfyy
+supabase db push
+```
+
+In the Supabase Auth settings, add `http://localhost:3000/auth/callback` (and your real site) as a redirect URL before magic links will return to the app. That dashboard change is not made from this repo.
+
+Sign-in is an email magic link. Google is not connected; the auth helper leaves room for `signInWithOAuth({ provider: "google" })` later. Teen, adult, and older players can stay guests or sign in. A child never sees a sign-in form, and a child profile is rejected by the database. That is the COPPA line: a child's progress stays on the device.
+
+On sign-in, if this device already has progress, the account page asks before uploading. The merge keeps every mastered question, the higher miss count, the further cycle and tier, and both sets of notes.
+
+The browser uses the anon key only. There is no service-role key in this app. Row-level security is on `profiles`, `question_progress`, and `verse_marks`. Each policy allows a row only when `auth.uid()` is that row's `user_id`. `verse_marks` stores a book id, chapter, verse range, color, note, and timestamps. It does not store verse wording. The Knowledge Path is not a separate table: it is derived from the saved cycle and tier.
+
+`getPlayerRepository()` is what the screens save through. It is the local repository until a signed-in teen, adult, or older player is syncing; then it writes the device copy first and the account second.
+
+`npm test` reads the migration and checks that row-level security is enabled and that every policy uses `auth.uid()`. `supabase/tests/rls.test.sql` is the same check in pgTAP. Run it with `supabase test db` once the Supabase CLI and a local database are available. They are not required to play or to run the app tests.
+
 ## Bible tab
 
 `BibleProvider` in `src/lib/bible/types.ts` is the scripture source: `listBooks`, `getChapter(bookId, chapter)`, and `getPassage(ref)`. `getBibleProvider()` in `src/lib/bible/index.ts` is the only place that picks an implementation. Today it returns a local placeholder with the book list and reference parsing, and with no verse text and no network call. A later API.Bible NKJV provider can replace that return value without changing the screen.

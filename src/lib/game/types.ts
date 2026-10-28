@@ -100,6 +100,8 @@ export type GameProgress = {
   cycle: number;
   tier: Tier;
   masteredIds: string[];
+  /** Misses before the question was mastered. Never stores the verse or the answer text. */
+  missCounts?: Record<string, number>;
   streak: number;
   bestStreak: number;
   /** Seasonal counter. Never feeds the Knowledge Path. */

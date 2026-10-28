@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { canOfferAccount } from "@/lib/account/policy";
+import { useProfile } from "@/lib/use-profile";
 
 const LINKS = [
   { href: "/home", label: "Home" },
@@ -13,9 +15,13 @@ const LINKS = [
 
 export function MainNav() {
   const pathname = usePathname();
+  const { state } = useProfile();
+  const links = canOfferAccount(state?.ageGroup)
+    ? [...LINKS, { href: "/account", label: "Account" }]
+    : LINKS;
   return (
     <nav aria-label="Main" className="mb-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
-      {LINKS.map((link) => {
+      {links.map((link) => {
         const current = pathname === link.href;
         return (
           <Link

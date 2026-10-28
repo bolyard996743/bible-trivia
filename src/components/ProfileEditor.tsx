@@ -5,7 +5,10 @@ import { useRouter } from "next/navigation";
 import { MascotMark } from "@/components/MascotMark";
 import { mascotLineAudioSrc, pickMascotLine } from "@/lib/game";
 import { AGE_GROUPS, AGE_LABELS, MASCOT_IDS, MASCOTS, type AgeGroup, type MascotId, type MascotLine } from "@/lib/game/types";
-import { createState, saveState } from "@/lib/storage";
+import { canOfferAccount } from "@/lib/account/policy";
+import { savePlayerState } from "@/lib/account/repository";
+import { signOut } from "@/lib/account/supabase";
+import { createState } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
 export function ProfileEditor({
@@ -54,14 +57,15 @@ export function ProfileEditor({
   function save(event: FormEvent) {
     event.preventDefault();
     if (!ageGroup || !mascot) return;
+    if (ageGroup === "child") void signOut();
     if (mode === "settings" && state) {
-      saveState({ ...state, ageGroup, mascot, soundOn });
+      savePlayerState({ ...state, ageGroup, mascot, soundOn });
       router.push(state.placementComplete ? "/home" : "/placement");
       return;
     }
     const next = createState(ageGroup, mascot);
     next.soundOn = soundOn;
-    saveState(next);
+    savePlayerState(next);
     router.push("/placement");
   }
 
@@ -152,13 +156,28 @@ export function ProfileEditor({
         )}
       </div>
 
+      {ageGroup === "child" ? (
+        <p className="text-lg text-ink-soft" data-testid="child-local-only">
+          Progress stays on this device. Accounts aren&apos;t used for children.
+        </p>
+      ) : null}
       <button
         type="submit"
         disabled={!ageGroup || !mascot}
         className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-50"
       >
-        {mode === "setup" ? "Continue" : "Save"}
+        {mode === "setup" ? (canOfferAccount(ageGroup) ? "Continue as guest" : "Continue") : "Save"}
       </button>
+      {mode === "setup" && canOfferAccount(ageGroup) ? (
+        <a href="/account" data-testid="sign-in-link" className="text-center text-lg text-grove-deep">
+          Sign in with email
+        </a>
+      ) : null}
+      {mode === "settings" && canOfferAccount(ageGroup) ? (
+        <a href="/account" data-testid="sign-in-link" className="text-center text-lg text-grove-deep">
+          Sign in with email
+        </a>
+      ) : null}
     </form>
   );
 }
