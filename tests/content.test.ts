@@ -2,8 +2,9 @@ import fs from "fs";
 import os from "os";
 import path from "path";
 import { describe, expect, it } from "vitest";
+import { pickMascotLine, selectPlacementQuestions } from "@/lib/game";
 import { explanationRevealIssues } from "@/lib/game/reveal";
-import { MOMENTS } from "@/lib/game/types";
+import { MOMENTS, TIERS } from "@/lib/game/types";
 import { loadCatalog } from "@/lib/content/load";
 import { questionBatchSchema } from "@/lib/content/schema";
 import { validateContentTree } from "@/lib/content/validate";
@@ -18,8 +19,7 @@ describe("sample content", () => {
 
   it("covers both testaments, every tier, and draft placeholder review", () => {
     const { questions, lines } = loadCatalog();
-    expect(questions.length).toBeGreaterThanOrEqual(12);
-    expect(questions.length).toBeLessThanOrEqual(15);
+    expect(questions.length).toBeGreaterThanOrEqual(13);
     expect(new Set(questions.map((question) => question.testament))).toEqual(new Set(["OT", "NT"]));
     expect(new Set(questions.map((question) => question.tier))).toEqual(
       new Set(["foundation", "intermediate", "advanced", "expert"]),
@@ -50,6 +50,26 @@ describe("sample content", () => {
     const hunter = lines.filter((line) => line.mascot === "hunter").map((line) => line.text).join("\n");
     expect(hunter.toLowerCase()).not.toContain("swallowed jonah");
     expect(hunter.toLowerCase()).not.toContain("i swallowed");
+  });
+
+  it("uses the approved placement set in tier order and the guide's question lines", () => {
+    const { questions, lines } = loadCatalog();
+    const quiz = selectPlacementQuestions(questions);
+    expect(quiz).toHaveLength(13);
+    expect(quiz.every((question) => question.placement_eligible)).toBe(true);
+    const tierIndex = quiz.map((question) => TIERS.indexOf(question.tier));
+    expect(tierIndex).toEqual([...tierIndex].sort((a, b) => a - b));
+    expect(quiz[0]?.id).toBe("c1-gen-0002");
+
+    const line = pickMascotLine(lines, "judah", "wrong_intro", "adult", { questionId: "c1-gen-0002" });
+    expect(line?.question_id).toBe("c1-gen-0002");
+    expect(line?.audience).toBe("adult");
+    expect(line?.audio_file).toBeNull();
+    expect(line?.text.length).toBeGreaterThan(0);
+
+    const childLine = pickMascotLine(lines, "agnes", "correct", "child", { questionId: "c1-luk-0001" });
+    expect(childLine?.audience).toBe("child");
+    expect(childLine?.question_id).toBe("c1-luk-0001");
   });
 });
 

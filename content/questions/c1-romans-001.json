@@ -10,18 +10,33 @@
       "testament": "NT",
       "book": "Romans",
       "section": "Romans 3-6",
-      "topics": ["gift of God", "eternal life"],
-      "placement_eligible": true,
+      "topics": [
+        "gift of God",
+        "eternal life"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "Romans 6:23 says the gift of God is what?",
         "older": "In Romans 6:23, what does Paul call the gift of God?"
       },
       "choices": [
-        { "id": "a", "text": "Eternal life in Christ Jesus our Lord" },
-        { "id": "b", "text": "Silver from Rome" },
-        { "id": "c", "text": "A life with no sorrow at all" },
-        { "id": "d", "text": "The throne of Caesar" }
+        {
+          "id": "a",
+          "text": "Eternal life in Christ Jesus our Lord"
+        },
+        {
+          "id": "b",
+          "text": "Silver from Rome"
+        },
+        {
+          "id": "c",
+          "text": "A life with no sorrow at all"
+        },
+        {
+          "id": "d",
+          "text": "The throne of Caesar"
+        }
       ],
       "answer": "a",
       "teaching": {

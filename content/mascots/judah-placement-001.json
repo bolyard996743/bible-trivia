@@ -1,0 +1,839 @@
+{
+  "format_version": 1,
+  "mascot": "judah",
+  "author": "Judah the Lion",
+  "lines": [
+    {
+      "id": "judah-placement-wrong-001-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Big storm, little miss! Let's peek at Genesis 7:12 and count with me.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-wrong-001-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Close, but let's check the source. Genesis 7:12 has the number.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-wrong-001-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Genesis 7:12 tells us exactly how long the rain fell. Let's read it.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-wrong-001-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No harm in that miss. Let's let Genesis 7:12 settle it for us.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-correct-001-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Forty days and forty nights! You counted it right!",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-correct-001-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Forty days of rain, and you nailed it.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-correct-001-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. Forty days and forty nights, just as Genesis 7:12 says.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-correct-001-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well done. Forty days of rain, and God kept Noah through every one.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "judah-placement-wrong-002-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Ooh, this is an amazing one! Let's see what Moses saw in Exodus 3:2.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-wrong-002-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not that one. Exodus 3:2 shows what caught Moses' eye. Take a look.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-wrong-002-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Exodus 3:2 describes how the Angel of the LORD appeared. Let's read it together.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-wrong-002-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "That's all right. Let's turn to Exodus 3:2 and see what Moses saw that day.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-correct-002-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! A bush on fire that didn't burn up. So cool!",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-correct-002-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Got it. A flame in a bush that never burned out.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-correct-002-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "That's right. A flame of fire from the midst of a bush.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-correct-002-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well remembered. The bush burned, yet it was not consumed.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "judah-placement-wrong-003-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Numbers 21:9 tells us what Moses made. Let's look!",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-wrong-003-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Missed it, no big deal. Numbers 21:9 has what Moses put on the pole.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-wrong-003-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Numbers 21:9 describes what Moses made. Let's read it closely.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-wrong-003-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No trouble at all. Numbers 21:9 holds the answer. Let's read it slowly.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-correct-003-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! A bronze snake on a pole. Look and live!",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-correct-003-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Correct. A bronze serpent, and whoever looked lived.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-correct-003-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. Moses made a bronze serpent, and those who looked lived.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-correct-003-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well done. Look and live, and Jesus pointed to that very picture in John 3.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "judah-placement-wrong-004-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Brave try! Let's see what David reached for in 1 Samuel 17:49.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-004-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. 1 Samuel 17:49 shows what came out of David's bag. Check it out.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-004-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this one. 1 Samuel 17:49 tells us exactly what David used. Let's read it.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-004-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "That's fine. 1 Samuel 17:49 tells the story plainly. Let's look together.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-correct-004-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! One little stone, one big win. Roar!",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-correct-004-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nailed it. One stone, one sling, one mighty God.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-correct-004-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "That's right. A single stone, thrown in the name of the LORD.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-correct-004-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well remembered. A shepherd's stone, and God gave the victory.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-005-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good guess! 2 Chronicles 34:1 tells us how old Josiah was. Let's read it!",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-wrong-005-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not that age. 2 Chronicles 34:1 has the number. Take a look.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-wrong-005-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. 2 Chronicles 34:1 gives Josiah's age. Let's read it.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-wrong-005-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No worry. 2 Chronicles 34:1 gives us Josiah's age. Let's read it together.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-correct-005-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Eight years old! A kid king, and you got it!",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-correct-005-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Right. Eight years old and already leading a nation.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-correct-005-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Josiah was eight when he began to reign.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-correct-005-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well done. Eight years old, and he grew into a king who sought the LORD.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "judah-placement-wrong-006-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Nice try! Psalm 119:105 tells us what God's Word is like. Let's read it!",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-006-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Psalm 119:105 gives a picture of God's Word. Look closely.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-006-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this one. Let's read Psalm 119:105 and see the picture the psalmist paints.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-006-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "That's all right. Psalm 119:105 is worth reading slowly. Let's look at it together.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-correct-006-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God's Word is a lamp that lights your way!",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-correct-006-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Got it. A lamp to your feet and a light to your path.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-correct-006-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "That's right. A lamp to my feet and a light to my path.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-correct-006-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Beautifully remembered. His Word still lights every step.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "judah-placement-wrong-007-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Proverbs 9:10 has the answer. Let's read it together!",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-wrong-007-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Missed it, that's okay. Proverbs 9:10 says it plainly. Check it out.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-wrong-007-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Proverbs 9:10 names what understanding is. Let's read it.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-wrong-007-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No shame in that. Let's let Proverbs 9:10 speak for itself.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-correct-007-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Knowing God, the Holy One, is understanding!",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-correct-007-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Correct. Knowing the Holy One is real understanding.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-correct-007-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. The knowledge of the Holy One is understanding.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-correct-007-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well done. To know the Holy One is true understanding.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "judah-placement-wrong-008-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Roar, lions! Let's see who Daniel said God sent in Daniel 6:22.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-wrong-008-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not that one. Daniel 6:22 has Daniel's own words. Take a look.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-wrong-008-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Daniel 6:22 tells us what Daniel said God sent. Let's read it.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-wrong-008-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "That's all right. Daniel told the king himself in Daniel 6:22. Let's read his words.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-correct-008-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God sent His angel. No lion could bite Daniel!",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-correct-008-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nailed it. God sent His angel, and not one lion moved.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-correct-008-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "That's right. God sent His angel and shut the lions' mouths.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-correct-008-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well remembered. God's angel stood guard all night long.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "judah-placement-wrong-009-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Micah 5:2 names a little town. Let's find it!",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-wrong-009-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Micah 5:2 names the town. Look closely.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-wrong-009-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this one. Micah 5:2 names the place. Let's read the prophecy together.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-wrong-009-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No worry. Micah 5:2 names the town clearly. Let's read it slowly.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-correct-009-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Bethlehem, little town, big promise!",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-correct-009-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Correct. Bethlehem, called out centuries before Jesus came.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-correct-009-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. Bethlehem Ephrathah, small among the clans of Judah.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-correct-009-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well done. Little Bethlehem, chosen long before the manger.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "judah-placement-wrong-010-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Aww, baby Jesus! Let's see where Mary laid Him in Luke 2:7.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-wrong-010-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Luke 2:7 tells us exactly where. Check it out.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-wrong-010-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this one. Luke 2:7 shows where Mary laid Him. Let's read it.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-wrong-010-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "That's fine. Luke 2:7 tells it simply. Let's read it together.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-correct-010-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! A manger, a cozy spot for baby Jesus!",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-correct-010-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Got it. The King of kings started out in a manger.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-correct-010-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "That's right. Mary laid Him in a manger, since there was no room at the inn.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-correct-010-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well remembered. A humble manger for the Savior of the world.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "judah-placement-wrong-011-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good guess! Acts 11:26 names the city. Let's look!",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-wrong-011-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not that city. Acts 11:26 names it. Take a look.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-wrong-011-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Acts 11:26 tells us where it happened. Let's read it.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-wrong-011-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No trouble. Acts 11:26 tells us the city. Let's read it together.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-correct-011-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Antioch! That's where the name Christian started!",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-correct-011-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Correct. Antioch is where the name started.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-correct-011-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. The disciples were first called Christians in Antioch.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-correct-011-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well done. Antioch, where the name first stuck.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "judah-placement-wrong-012-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Ephesians 2:8 has a great answer. Let's read it!",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-wrong-012-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Ephesians 2:8 says it clearly. Check it out.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-wrong-012-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this one. Ephesians 2:8 tells us how we're saved. Let's read it.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-wrong-012-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "That's all right. Ephesians 2:8 is a treasure. Let's read it slowly.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-correct-012-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! By grace, God's free gift. That's great news!",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-correct-012-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nailed it. Saved by grace, a gift you can't earn.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-correct-012-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "That's right. By grace, through faith, and it is the gift of God.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-correct-012-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well remembered. By grace alone, and what a gift it is.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "judah-placement-wrong-013-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Let's hear what Jesus told the church in Revelation 2:4.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "judah-placement-wrong-013-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Revelation 2:4 has Jesus' words to Ephesus. Take a look.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "judah-placement-wrong-013-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this one. Revelation 2:4 tells us what Jesus had against them. Let's read it.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "judah-placement-wrong-013-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No worry. Jesus spoke plainly in Revelation 2:4. Let's read His words together.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "judah-placement-correct-013-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! They forgot to love Jesus like they did at first.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "judah-placement-correct-013-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Correct. They had left their first love.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "judah-placement-correct-013-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. They had left their first love, a call worth hearing today.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "judah-placement-correct-013-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Well done. Their first love had cooled, and Jesus called them home.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    }
+  ]
+}

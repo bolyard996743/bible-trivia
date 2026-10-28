@@ -11,8 +11,8 @@ export type ValidationResult = {
   lineCount: number;
 };
 
-const QUESTION_FILE = /^c\d+-[a-z0-9]+-\d+\.json$/;
-const MASCOT_FILE = /^(judah|agnes|shalom|zion|hunter)-\d+\.json$/;
+const QUESTION_FILE = /^[a-z0-9]+(?:-[a-z0-9]+)*\.json$/;
+const MASCOT_FILE = /^(judah|agnes|shalom|zion|hunter)-[a-z0-9]+(?:-[a-z0-9]+)*\.json$/;
 
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
@@ -101,6 +101,7 @@ export function validateContentTree(root: string): ValidationResult {
     .filter((name) => name.endsWith(".json"))
     .sort();
   const seenMascots = new Set<string>();
+  const linesByMascot = new Map<string, { moment: string; audience: string }[]>();
 
   for (const name of mascotFiles) {
     const file = path.posix.join("content/mascots", name);
@@ -121,15 +122,9 @@ export function validateContentTree(root: string): ValidationResult {
       errors.push(`${file}: filename must start with the mascot id "${result.data.mascot}"`);
     }
     seenMascots.add(result.data.mascot);
-    for (const moment of MOMENTS) {
-      const lines = result.data.lines.filter((line) => line.moment === moment);
-      if (lines.length < 2) {
-        errors.push(`${file}: moment "${moment}" needs at least two lines`);
-      }
-      if (!lines.some((line) => line.audience === "all")) {
-        errors.push(`${file}: moment "${moment}" needs an audience "all" line`);
-      }
-    }
+    const collected = linesByMascot.get(result.data.mascot) ?? [];
+    collected.push(...result.data.lines.map((line) => ({ moment: line.moment, audience: line.audience })));
+    linesByMascot.set(result.data.mascot, collected);
     for (const line of result.data.lines) {
       lineCount += 1;
       const prior = lineIds.get(line.id);
@@ -150,6 +145,16 @@ export function validateContentTree(root: string): ValidationResult {
 
   for (const mascot of MASCOT_IDS) {
     if (!seenMascots.has(mascot)) errors.push(`Missing mascot lines for ${mascot}`);
+    const lines = linesByMascot.get(mascot) ?? [];
+    for (const moment of MOMENTS) {
+      const momentLines = lines.filter((line) => line.moment === moment);
+      if (momentLines.length < 2) {
+        errors.push(`${mascot}: moment "${moment}" needs at least two lines`);
+      }
+      if (!momentLines.some((line) => line.audience === "all")) {
+        errors.push(`${mascot}: moment "${moment}" needs an audience "all" line`);
+      }
+    }
   }
 
   return { ok: errors.length === 0, errors, questionCount, lineCount };

@@ -10,6 +10,14 @@ export type LinePickerOptions = {
  * A line tied to the current question wins over a general line.
  * A line for the player's age wins over audience "all".
  */
+function pickFromPool(pool: MascotLine[], audience: AgeGroup, random: () => number): MascotLine | null {
+  const ageMatch = pool.filter((line) => line.audience === audience);
+  const usable = ageMatch.length > 0 ? ageMatch : pool.filter((line) => line.audience === "all");
+  if (usable.length === 0) return null;
+  const index = Math.min(usable.length - 1, Math.max(0, Math.floor(random() * usable.length)));
+  return usable[index] ?? null;
+}
+
 export function pickMascotLine(
   lines: MascotLine[],
   mascot: MascotId,
@@ -20,19 +28,21 @@ export function pickMascotLine(
   const forMoment = lines.filter((line) => line.mascot === mascot && line.moment === moment);
   if (forMoment.length === 0) return null;
 
-  const questionId = options.questionId ?? null;
-  const specific = questionId
-    ? forMoment.filter((line) => line.question_id === questionId)
-    : [];
-  const pool = specific.length > 0 ? specific : forMoment.filter((line) => line.question_id == null);
-
-  const ageMatch = pool.filter((line) => line.audience === audience);
-  const usable = ageMatch.length > 0 ? ageMatch : pool.filter((line) => line.audience === "all");
-  if (usable.length === 0) return null;
-
   const random = options.random ?? Math.random;
-  const index = Math.min(usable.length - 1, Math.max(0, Math.floor(random() * usable.length)));
-  return usable[index] ?? null;
+  const questionId = options.questionId ?? null;
+  if (questionId) {
+    const specific = pickFromPool(
+      forMoment.filter((line) => line.question_id === questionId),
+      audience,
+      random,
+    );
+    if (specific) return specific;
+  }
+  return pickFromPool(
+    forMoment.filter((line) => line.question_id == null),
+    audience,
+    random,
+  );
 }
 
 /** Conventional voiceover path. Plays only if that file exists at runtime. */

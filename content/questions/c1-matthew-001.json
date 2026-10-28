@@ -10,18 +10,33 @@
       "testament": "NT",
       "book": "Matthew",
       "section": "Matthew 14",
-      "topics": ["Jesus", "feeding the multitude"],
-      "placement_eligible": true,
+      "topics": [
+        "Jesus",
+        "feeding the multitude"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "About how many men ate when Jesus multiplied five loaves and two fish, besides women and children?",
         "child": "Jesus fed a huge crowd with five loaves and two fish. About how many men ate, besides the women and children?"
       },
       "choices": [
-        { "id": "a", "text": "About 500" },
-        { "id": "b", "text": "About 1,000" },
-        { "id": "c", "text": "About 5,000" },
-        { "id": "d", "text": "About 12,000" }
+        {
+          "id": "a",
+          "text": "About 500"
+        },
+        {
+          "id": "b",
+          "text": "About 1,000"
+        },
+        {
+          "id": "c",
+          "text": "About 5,000"
+        },
+        {
+          "id": "d",
+          "text": "About 12,000"
+        }
       ],
       "answer": "c",
       "teaching": {

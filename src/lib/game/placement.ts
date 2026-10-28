@@ -48,42 +48,16 @@ export function scorePlacement(attempts: PlacementAttempt[]): PlacementResult {
   };
 }
 
-const TESTAMENT_ORDER = ["OT", "NT"] as const;
-
 /**
- * 8–12 placement questions, balanced across tiers and testaments.
- * Order is stable so the same bank always yields the same quiz.
+ * Every placement-eligible question, easiest tier first.
+ * Order inside a tier stays the order the questions were given (file order).
+ * Scoring uses a ratio, so a 13-question quiz uses the same bands as a shorter one.
  */
-export function selectPlacementQuestions(questions: Question[], requested = 10): Question[] {
-  const eligible = questions
-    .filter((question) => question.placement_eligible)
-    .slice()
-    .sort((a, b) => a.id.localeCompare(b.id));
-
-  const target = Math.min(eligible.length, Math.min(12, Math.max(8, requested)));
-  const buckets = new Map<string, Question[]>();
-  for (const tier of TIERS) {
-    for (const testament of TESTAMENT_ORDER) {
-      buckets.set(
-        `${tier}:${testament}`,
-        eligible.filter((question) => question.tier === tier && question.testament === testament),
-      );
-    }
+export function selectPlacementQuestions(questions: Question[]): Question[] {
+  const grouped = new Map<Tier, Question[]>(TIERS.map((tier) => [tier, []]));
+  for (const question of questions) {
+    if (!question.placement_eligible) continue;
+    grouped.get(question.tier)?.push(question);
   }
-
-  const picked: Question[] = [];
-  const keys = [...buckets.keys()];
-  while (picked.length < target) {
-    let took = false;
-    for (const key of keys) {
-      const bucket = buckets.get(key);
-      const next = bucket?.shift();
-      if (!next) continue;
-      picked.push(next);
-      took = true;
-      if (picked.length >= target) break;
-    }
-    if (!took) break;
-  }
-  return picked;
+  return TIERS.flatMap((tier) => grouped.get(tier) ?? []);
 }
