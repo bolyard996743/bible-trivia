@@ -1,0 +1,255 @@
+{
+  "format_version": 1,
+  "mascot": "agnes",
+  "author": "Agnes the Lamb",
+  "lines": [
+    {
+      "id": "agnes-welcome-001",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "Hello, dear one. I am Agnes. We can learn slowly, and that is perfectly all right.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-welcome-002",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "I am glad you are here. There is no hurry in this place.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-mascot-selected-003",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "I will stay gentle with you. If we miss something, we will read it together.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-mascot-selected-004",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "Thank you for choosing me. We will be kind to ourselves while we learn.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-placement-intro-005",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "These questions are only to find a kind starting place. You cannot fail this.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-placement-intro-006",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "Answer as you can. If one is new, we will learn it before we move on.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-placement-result-007",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "Everyone starts in a different place. That is normal and good. You are exactly where you need to be to grow.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-placement-result-008",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "What a good place to begin. I am glad you showed up.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-wrong-intro-009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "It's okay. We're still learning. Let's slow down and read this together.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-wrong-intro-010",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "No trouble at all. Let's look at the verses with soft attention.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-retry-prompt-011",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "Whenever you are ready, you can try the question once more.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-retry-prompt-012",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "Take your time. The question will wait kindly for you.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-correct-013",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Yes. You have it, and I am so glad.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-correct-014",
+      "moment": "correct",
+      "audience": "all",
+      "text": "That is right. See? You are learning.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-correct-after-retry-015",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "You stayed with it, and now it is yours. I am glad we slowed down.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-correct-after-retry-016",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Yes — now you've got it. Thank you for trying again.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-streak-017",
+      "moment": "streak",
+      "audience": "all",
+      "text": "What a gentle, steady streak. Little by little is a beautiful way.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-streak-018",
+      "moment": "streak",
+      "audience": "all",
+      "text": "You are remembering. I see it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-section-complete-019",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "We finished this part together. You were patient, and it shows.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-section-complete-020",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "Section complete. Rest in that for a moment if you like.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-cycle-complete-021",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "A whole cycle, done with care. I hope you feel how much you have held.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-cycle-complete-022",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "You walked the whole way. That is faithfulness.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-level-up-023",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "You are growing, quietly and truly. The next part will be kind, too.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-level-up-024",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "A new step on the path. We will take it together.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-leaderboard-reassurance-025",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "Any future boards are just for play. They do not measure your heart.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-leaderboard-reassurance-026",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "You are not behind. Everyone starts in a different place, and you are learning.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-daily-return-027",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "You came back. I am happy to see you.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-daily-return-028",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "Welcome back, friend. We can begin softly.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-encouragement-general-029",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "You are doing a good and faithful thing by learning Scripture.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-encouragement-general-030",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "Be gentle with yourself. Growth is still growth when it is slow.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "agnes-wrong-intro-031",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That one was tricky. Come sit with the verse, and we will read it slowly.",
+      "audio_file": null,
+      "question_id": null
+    }
+  ]
+}

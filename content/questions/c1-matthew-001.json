@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-mat-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 14",
+      "topics": ["Jesus", "feeding the multitude"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "About how many men ate when Jesus multiplied five loaves and two fish, besides women and children?",
+        "child": "Jesus fed a huge crowd with five loaves and two fish. About how many men ate, besides the women and children?"
+      },
+      "choices": [
+        { "id": "a", "text": "About 500" },
+        { "id": "b", "text": "About 1,000" },
+        { "id": "c", "text": "About 5,000" },
+        { "id": "d", "text": "About 12,000" }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 14:17",
+            "text": "And they said to Him, \"We have here only five loaves and two fish.\"",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 14:21",
+            "text": "Now those who had eaten were about five thousand men, besides women and children.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The disciples had a small lunch. Matthew 14:21 gives the size of the crowd of men, besides women and children. Read that number and match the choice.",
+          "child": "A little bit of food fed a giant crowd. Matthew 14:21 tells how many men ate, besides women and children. Find that number in the verse."
+        },
+        "extended_explanation": "Matthew records both the small lunch and the size of the crowd. Verse 17 names the food. Verse 21 names how many men ate, besides women and children. Read that number rather than the other counts on the list.",
+        "takeaway": "About five thousand men ate, besides women and children."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

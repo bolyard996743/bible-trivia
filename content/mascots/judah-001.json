@@ -1,0 +1,263 @@
+{
+  "format_version": 1,
+  "mascot": "judah",
+  "author": "Judah the Lion",
+  "lines": [
+    {
+      "id": "judah-welcome-001",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "Welcome. I am Judah. We will walk through God's Word with courage.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-welcome-002",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "You belong here. Strength grows one true thing at a time.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-mascot-selected-003",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "I will walk with you. When a question is hard, we stand on Scripture.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-mascot-selected-004",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "Good. Courage is not never missing. Courage is coming back to the truth.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-placement-intro-005",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "These questions find a starting place, not a score to fear. Answer honestly.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-placement-intro-006",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "No one is ahead of you in God's love. We are only finding where to begin.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-placement-result-007",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "Everyone starts in a different place. That is normal and good. You are exactly where you need to be to grow.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-placement-result-008",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "This is your trailhead. We will cover the ground together.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-wrong-intro-009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "No shame in missing that one. Even the strongest need the truth. Let's look at what the Word actually says.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-wrong-intro-010",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Hold on. A miss is just a moment to stand on something solid.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-retry-prompt-011",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "Now try it again. You've got this.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-retry-prompt-012",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "When you are ready, answer once more. I am right here.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-correct-013",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Yes. That is the truth, and you stood on it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-correct-014",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Well done. God's Word is strong enough to stand on.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-correct-after-retry-015",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Yes — now you've got it. The truth stayed, and so did you.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-correct-after-retry-016",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "That is courage. You came back and got it right.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-streak-017",
+      "moment": "streak",
+      "audience": "all",
+      "text": "Look at you, staying with it. A steady heart learns a lot.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-streak-018",
+      "moment": "streak",
+      "audience": "all",
+      "text": "Keep that streak. Faithfulness shows up in small right answers.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-section-complete-019",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "This section is yours now. You did not skip the hard parts.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-section-complete-020",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "Section complete. We learned it, not just guessed it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-cycle-complete-021",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "A whole cycle finished. You went through the story and held on.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-cycle-complete-022",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "Cycle complete. The next pass can go deeper, and you are ready to grow.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-level-up-023",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "You have grown. The path ahead is a little deeper, and you can take it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-level-up-024",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "New ground. Same promise: we learn until it is clear.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-leaderboard-reassurance-025",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "Boards are only for fun, and they are not here yet. Your real progress is the verses you are learning.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-leaderboard-reassurance-026",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "Different starting points, same goal — knowing God's Word better. Keep going.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-daily-return-027",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "You came back. That is a brave, quiet kind of strength.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-daily-return-028",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "Welcome back. We can pick up right where the story left off.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-encouragement-general-029",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "God's Word is strong enough to stand on. Take the next step.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-encouragement-general-030",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "One question at a time is how a whole Bible gets learned.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-wrong-intro-031",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "It's all right, friend. Let's look at the real story together.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "judah-wrong-intro-032",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Ten is a lot to remember. No shame in that. Let's look at the last plague and count them from the Word.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ruth-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-rut-0001",
+      "cycle": 1,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 4",
+      "topics": ["Ruth", "David", "family line"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Obed, the son born to Ruth and Boaz, was the grandfather of which king?",
+        "older": "Looking at the family line in Ruth, Obed became the grandfather of which king?"
+      },
+      "choices": [
+        { "id": "a", "text": "Saul" },
+        { "id": "b", "text": "David" },
+        { "id": "c", "text": "Josiah" },
+        { "id": "d", "text": "Hezekiah" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 4:17",
+            "text": "Also the neighbor women gave him a name, saying, \"There is a son born to Naomi.\" And they called his name Obed. He is the father of Jesse, the father of David.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 4:17 names three generations. Obed is the father of Jesse, and the verse ends with the king after Jesse. Choose that king.",
+          "older": "The book closes by tying a quiet family story to a royal line. Follow Obed to Jesse, then to the king named at the end of Ruth 4:17."
+        },
+        "extended_explanation": "Ruth's loyalty sits inside a larger story. Obed is not linked here to Saul, Josiah, or Hezekiah. Ruth 4:17 ends with the king who comes after Jesse. Choose that name.",
+        "takeaway": "Obed was the grandfather of King David."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

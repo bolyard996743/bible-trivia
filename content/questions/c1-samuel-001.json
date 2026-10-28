@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-samuel-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-1sa-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": ["David", "Goliath"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David defeated Goliath with which weapon?",
+        "teen": "What did David use when he faced Goliath?"
+      },
+      "choices": [
+        { "id": "a", "text": "A sword and a shield" },
+        { "id": "b", "text": "A sling and a stone" },
+        { "id": "c", "text": "A bow and arrows" },
+        { "id": "d", "text": "A chariot" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:50",
+            "text": "So David prevailed over the Philistine with a sling and a stone, and struck the Philistine and killed him. But there was no sword in the hand of David.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "David did not win with the weapon a soldier would expect. 1 Samuel 17:50 names what he used, and it says what was not in his hand. Choose the weapon the verse names.",
+          "teen": "The text is specific about the weapon and about the sword. Let 1 Samuel 17:50 tell you which choice matches."
+        },
+        "extended_explanation": "Goliath had heavy armor. David refused Saul's armor. 1 Samuel 17:50 says there was no sword in David's hand when he struck the Philistine. Use the weapon the verse names.",
+        "takeaway": "David defeated Goliath with a sling and a stone."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

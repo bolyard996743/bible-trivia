@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "batch_id": "c2-john-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c2-jhn-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": ["Jesus", "Lamb of God"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When John saw Jesus coming, he called Him the what of God?"
+      },
+      "choices": [
+        { "id": "a", "text": "Lion" },
+        { "id": "b", "text": "Lamb" },
+        { "id": "c", "text": "Eagle" },
+        { "id": "d", "text": "King of Rome" }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:29",
+            "text": "The next day John saw Jesus coming toward him, and said, \"Behold! The Lamb of God who takes away the sin of the world!\"",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 1:29 records the title John uses as Jesus walks toward him. Read the title after \"Behold\" and choose that word."
+        },
+        "extended_explanation": "Other pictures of Jesus appear elsewhere in Scripture, including a lion from Judah's tribe. In this verse John says something particular as Jesus walks toward him. Read the title he uses and choose that word.",
+        "takeaway": "John called Jesus the Lamb of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

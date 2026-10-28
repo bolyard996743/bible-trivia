@@ -1,0 +1,53 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-001",
+  "author": "Sample (placeholder)",
+  "questions": [
+    {
+      "id": "c1-rom-0001",
+      "cycle": 1,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 3-6",
+      "topics": ["gift of God", "eternal life"],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 6:23 says the gift of God is what?",
+        "older": "In Romans 6:23, what does Paul call the gift of God?"
+      },
+      "choices": [
+        { "id": "a", "text": "Eternal life in Christ Jesus our Lord" },
+        { "id": "b", "text": "Silver from Rome" },
+        { "id": "c", "text": "A life with no sorrow at all" },
+        { "id": "d", "text": "The throne of Caesar" }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 3:23",
+            "text": "for all have sinned and fall short of the glory of God,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 6:23",
+            "text": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 6:23 sets a wage beside a gift. Read what the gift is called, after the contrast, and choose that whole phrase.",
+          "older": "Paul is plain. Sin pays a wage. The gift is named at the end of Romans 6:23. Choose that phrase, not silver or a throne."
+        },
+        "extended_explanation": "Romans 3:23 says all have sinned and fall short of the glory of God. Romans 6:23 answers with a gift, not a wage someone could earn. Read the gift's name at the end of the verse. It is not silver, a sorrow-free promise, or Caesar's throne.",
+        "takeaway": "The gift of God is eternal life in Christ Jesus our Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+      }
+    }
+  ]
+}

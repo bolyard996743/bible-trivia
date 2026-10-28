@@ -1,0 +1,255 @@
+{
+  "format_version": 1,
+  "mascot": "zion",
+  "author": "Zion the Eagle",
+  "lines": [
+    {
+      "id": "zion-welcome-001",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "Welcome, friend. I am Zion. Every step up is worth it, and we start from right here.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-welcome-002",
+      "moment": "welcome",
+      "audience": "all",
+      "text": "Lift your eyes. There is a lot of Bible ahead, and you can rise into it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-mascot-selected-003",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "I will remind you to keep going. Misses are just places to rise from.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-mascot-selected-004",
+      "moment": "mascot_selected",
+      "audience": "all",
+      "text": "Good. We will look up, look at the Word, and keep moving.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-placement-intro-005",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "These questions lift us to the right starting height. They are not a cliff.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-placement-intro-006",
+      "moment": "placement_intro",
+      "audience": "all",
+      "text": "Answer freely. Wherever we land, we can climb from there.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-placement-result-007",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "Everyone starts in a different place. That is normal and good. You are exactly where you need to be to grow.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-placement-result-008",
+      "moment": "placement_result",
+      "audience": "all",
+      "text": "This is a strong place to spread your wings. Onward, when you are ready.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-wrong-intro-009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Keep going. Every miss is just a chance to rise higher. Here's the truth from Scripture.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-wrong-intro-010",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "You have not fallen behind. Let's read and rise from here.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-retry-prompt-011",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "Now spread your wings and try it again.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-retry-prompt-012",
+      "moment": "retry_prompt",
+      "audience": "all",
+      "text": "Ready to rise into the answer? It is the same question, and you are more ready now.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-correct-013",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Yes. You caught it. Onward.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-correct-014",
+      "moment": "correct",
+      "audience": "all",
+      "text": "That is right. Hold it and keep climbing.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-correct-after-retry-015",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "You rose on the second wind. Yes — now you've got it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-correct-after-retry-016",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "See? Coming back is how we go higher. Well done.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-streak-017",
+      "moment": "streak",
+      "audience": "all",
+      "text": "Your streak is lifting. Stay with it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-streak-018",
+      "moment": "streak",
+      "audience": "all",
+      "text": "Look at that run of truth. You are finding your wind.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-section-complete-019",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "Section complete. You climbed this ridge.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-section-complete-020",
+      "moment": "section_complete",
+      "audience": "all",
+      "text": "This part of the story is under your wings now. Beautiful work.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-cycle-complete-021",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "A whole cycle — you stayed with it the entire way.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-cycle-complete-022",
+      "moment": "cycle_complete",
+      "audience": "all",
+      "text": "Cycle complete. The horizon just got wider.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-level-up-023",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "Higher ground. You earned this view by learning, not by rushing.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-level-up-024",
+      "moment": "level_up",
+      "audience": "all",
+      "text": "The next questions reach a little farther, and so can you.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-leaderboard-reassurance-025",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "Any board is just a breeze, not the mountain. Your Knowledge Path is the real climb.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-leaderboard-reassurance-026",
+      "moment": "leaderboard_reassurance",
+      "audience": "all",
+      "text": "Someone else's start does not change your sky. Keep learning.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-daily-return-027",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "You came back. I like that about you.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-daily-return-028",
+      "moment": "daily_return",
+      "audience": "all",
+      "text": "Welcome back. The path is right where you left it.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-encouragement-general-029",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "Those who wait on the Lord renew their strength. You are doing that by showing up.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-encouragement-general-030",
+      "moment": "encouragement_general",
+      "audience": "all",
+      "text": "One more question is one more chance to see further.",
+      "audio_file": null,
+      "question_id": null
+    },
+    {
+      "id": "zion-wrong-intro-031",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Missing it does not shrink you. Here is the passage. Then we rise.",
+      "audio_file": null,
+      "question_id": null
+    }
+  ]
+}
