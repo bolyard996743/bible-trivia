@@ -11,9 +11,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Simeon",
-        "brothers"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -62,7 +60,8 @@
       "review": {
         "status": "draft",
         "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0017",
@@ -72,9 +71,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Simeon",
-        "hostage"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -123,7 +120,8 @@
       "review": {
         "status": "draft",
         "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0018",
@@ -133,10 +131,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "silver cup",
-        "steward",
-        "Benjamin"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -185,7 +180,8 @@
       "review": {
         "status": "draft",
         "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Growing"
     },
     {
       "id": "c1-gen-0019",
@@ -195,9 +191,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "silver cup",
-        "Benjamin"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -246,7 +240,8 @@
       "review": {
         "status": "draft",
         "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     }
   ]
 }

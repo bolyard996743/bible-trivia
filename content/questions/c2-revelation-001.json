@@ -11,8 +11,7 @@
       "book": "Revelation",
       "section": "Revelation 5",
       "topics": [
-        "Jesus",
-        "Lion of Judah"
+        "revelation"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -55,7 +54,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Rooted"
     }
   ]
 }

@@ -100,6 +100,13 @@ export function emptyProgress(cycle = 1, tier: Tier = "foundation"): GameProgres
     streak: 0,
     bestStreak: 0,
     seasonMasteredCount: 0,
+    stage: "Seed",
+    seasonId: "season-1",
+    clearedTopics: [],
+    clearedBooks: [],
+    scoredIds: [],
+    draw: 0,
+    points: 0,
   };
 }
 

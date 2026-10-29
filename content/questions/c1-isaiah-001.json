@@ -11,8 +11,7 @@
       "book": "Isaiah",
       "section": "Isaiah 53",
       "topics": [
-        "Messiah",
-        "Isaiah"
+        "isaiah-53-6"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -57,7 +56,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Growing"
     }
   ]
 }

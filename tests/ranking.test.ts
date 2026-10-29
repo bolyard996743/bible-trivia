@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { aroundScore, nearYouWindow, rankPlayers, topBoard } from "@/lib/account/ranking";
-import { pointsFromProgress } from "@/lib/account/points";
+import { attemptPoints } from "@/lib/game/ladder";
 import { aroundScoreUrl } from "@/lib/account/leaderboard";
 
 const players = Array.from({ length: 20 }, (_, index) => ({
@@ -39,14 +39,11 @@ describe("leaderboard windows", () => {
 });
 
 describe("leaderboard points", () => {
-  it("weights mastered questions by tier and ignores the rest", () => {
-    const questions = [
-      { id: "a", tier: "foundation" as const },
-      { id: "b", tier: "expert" as const },
-      { id: "c", tier: "advanced" as const },
-    ];
-    expect(pointsFromProgress(questions, ["a", "b"])).toBe(5);
-    expect(pointsFromProgress(questions, [])).toBe(0);
+  it("scores the attempt once and gives review nothing", () => {
+    expect(attemptPoints(0, false, false)).toBe(10);
+    expect(attemptPoints(1, false, false)).toBe(5);
+    expect(attemptPoints(3, false, false)).toBe(2);
+    expect(attemptPoints(0, true, false)).toBe(0);
   });
 
   it("puts only the point total on the read-only request", () => {

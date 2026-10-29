@@ -1,4 +1,4 @@
-import { emptyProgress } from "./game/progression";
+import { emptyProgress, knowledgeStage } from "./game/progression";
 import {
   AGE_GROUPS,
   KNOWLEDGE_PATH,
@@ -87,6 +87,15 @@ export function parseState(raw: string | null): StoredState | null {
     if (value.version !== 1 || !isAge(value.ageGroup) || !isMascot(value.mascot)) return null;
     if (typeof value.soundOn !== "boolean" || typeof value.placementComplete !== "boolean") return null;
     if (!isProgress(value.progress)) return null;
+    if (!isStage(value.progress.stage)) {
+      value.progress.stage = knowledgeStage(value.progress.cycle, value.progress.tier);
+    }
+    value.progress.seasonId ??= "season-1";
+    value.progress.clearedTopics ??= [];
+    value.progress.clearedBooks ??= [];
+    value.progress.scoredIds ??= [];
+    value.progress.draw ??= 0;
+    value.progress.points ??= 0;
     if (value.placement) {
       if (
         typeof value.placement.cycle !== "number" ||

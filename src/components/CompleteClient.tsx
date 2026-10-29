@@ -37,8 +37,8 @@ export function CompleteClient({ lines }: { lines: MascotLine[] }) {
     title = `${celebration.section} is complete`;
     detail = "Every question in this section was learned, not skipped.";
   } else if (celebration.type === "level_up") {
-    title = "The path goes a little deeper";
-    detail = `Next we walk Cycle ${celebration.to.cycle}, ${TIER_LABELS[celebration.to.tier]}.`;
+    title = `${state.progress.stage ?? "The next stage"} is open`;
+    detail = "The checklist for this stage is ready when you are.";
   } else if (celebration.type === "cycle_complete") {
     title = `Cycle ${celebration.cycle} is complete`;
     detail = `Cycle ${celebration.nextCycle} is ready when you are, at ${TIER_LABELS[celebration.tier]}.`;

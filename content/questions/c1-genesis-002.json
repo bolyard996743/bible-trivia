@@ -11,9 +11,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Jacob",
-        "favoritism"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -62,7 +60,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0005",
@@ -72,9 +71,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "dreams",
-        "brothers"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -123,7 +120,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0006",
@@ -133,10 +131,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "sold into slavery",
-        "Midianites",
-        "Ishmaelites"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -185,7 +180,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Growing"
     },
     {
       "id": "c1-gen-0007",
@@ -195,9 +191,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Potiphar",
-        "prison"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -246,7 +240,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0008",
@@ -256,10 +251,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "prison",
-        "cupbearer",
-        "dreams"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -308,7 +300,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0009",
@@ -318,9 +311,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Pharaoh",
-        "dreams"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -369,7 +360,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0010",
@@ -379,9 +371,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Pharaoh",
-        "dreams",
-        "famine"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -430,7 +420,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0011",
@@ -440,9 +431,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Pharaoh",
-        "Egypt"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -491,7 +480,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Growing"
     },
     {
       "id": "c1-gen-0012",
@@ -501,9 +491,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Jacob",
-        "Benjamin",
-        "famine"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -552,7 +540,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0013",
@@ -562,10 +551,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Jacob",
-        "Goshen",
-        "Egypt"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -614,7 +600,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-gen-0014",
@@ -624,10 +611,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Jacob",
-        "blessings",
-        "Judah",
-        "tribes"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -676,7 +660,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Growing"
     },
     {
       "id": "c1-gen-0015",
@@ -686,9 +671,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "forgiveness",
-        "providence"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -737,7 +720,8 @@
       "review": {
         "status": "draft",
         "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     }
   ]
 }
