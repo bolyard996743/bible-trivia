@@ -54,9 +54,10 @@ test("age 13 and older can play on this device after a warning", async ({ page }
   await page.goto("/play");
   await expect(page.getByTestId("account-required")).toHaveCount(0);
   await page.goto("/leaderboards");
+  await expect(page.getByTestId("top-board")).toBeVisible();
   await expect(page.getByTestId("near-you-board")).toBeVisible();
   await expect(page.getByTestId("device-points")).toContainText("just on this device");
-  await expect(page.getByTestId("top-board")).toHaveCount(0);
+  await expect(page.getByText(/not here yet/i)).toHaveCount(0);
   expect(writes).toEqual([]);
   for (const url of urls) expect(url).not.toContain(String(year));
 });
@@ -94,9 +95,10 @@ test("a child keeps the birthday on the device and is not listed", async ({ page
   await page.goto("/settings");
   await expect(page.getByTestId("create-account")).toHaveCount(0);
   await page.goto("/leaderboards");
+  await expect(page.getByTestId("top-board")).toBeVisible();
   await expect(page.getByTestId("near-you-board")).toBeVisible();
   await expect(page.getByTestId("device-points")).toContainText("just on this device");
-  await expect(page.getByTestId("top-board")).toHaveCount(0);
+  await expect(page.getByText(/not here yet/i)).toHaveCount(0);
   expect(writes).toEqual([]);
   for (const url of urls) expect(url).not.toContain(String(year));
 });

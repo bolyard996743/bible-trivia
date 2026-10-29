@@ -1,17 +1,117 @@
 @import "tailwindcss";
 
+:root,
+[data-theme="default"] {
+  --parchment: #f4efe4;
+  --card: #fffaf3;
+  --ink: #241c14;
+  --ink-soft: #5c5146;
+  --grove: #2f5d45;
+  --grove-deep: #1e3d2d;
+  --gold: #6d5318;
+  --gold-soft: #f3e6c8;
+  --line: #e3d5c0;
+  --calm: #3e5c73;
+  --button-text: #ffffff;
+  --logo-ink: #1e3d2d;
+  --logo-accent: #6d5318;
+}
+
+[data-theme="hunter"] {
+  --parchment: #e5f6f8;
+  --card: #f4fcfd;
+  --ink: #062e36;
+  --ink-soft: #1a5560;
+  --grove: #0b4f5e;
+  --grove-deep: #08343c;
+  --gold: #0e5c6a;
+  --gold-soft: #d4eef3;
+  --line: #b7d6de;
+  --calm: #1d6a78;
+  --button-text: #ffffff;
+  --logo-ink: #08343c;
+  --logo-accent: #0e6a78;
+}
+
+[data-theme="agnes"] {
+  --parchment: #f2f6e8;
+  --card: #fbfdf4;
+  --ink: #1c3214;
+  --ink-soft: #3c582e;
+  --grove: #1f5c28;
+  --grove-deep: #163f1c;
+  --gold: #5a4a12;
+  --gold-soft: #e6efc4;
+  --line: #c9d7b0;
+  --calm: #3d6b48;
+  --button-text: #ffffff;
+  --logo-ink: #1a4a22;
+  --logo-accent: #6a5614;
+}
+
+[data-theme="judah"] {
+  --parchment: #fbf4ea;
+  --card: #fff9f3;
+  --ink: #3a1214;
+  --ink-soft: #6b2e2e;
+  --grove: #7a1c28;
+  --grove-deep: #541018;
+  --gold: #7a5410;
+  --gold-soft: #f3e2c0;
+  --line: #e4cfc0;
+  --calm: #8a4038;
+  --button-text: #ffffff;
+  --logo-ink: #6e1824;
+  --logo-accent: #8a5e12;
+}
+
+[data-theme="zion"] {
+  --parchment: #f3f7fb;
+  --card: #ffffff;
+  --ink: #102844;
+  --ink-soft: #2a4c70;
+  --grove: #1a4e86;
+  --grove-deep: #123656;
+  --gold: #1c5874;
+  --gold-soft: #d9e8f5;
+  --line: #c5d6e6;
+  --calm: #3d6d94;
+  --button-text: #ffffff;
+  --logo-ink: #143e66;
+  --logo-accent: #1c5874;
+}
+
+[data-theme="shalom"] {
+  --parchment: #f7f4ee;
+  --card: #fffcf8;
+  --ink: #3a322c;
+  --ink-soft: #5c5148;
+  --grove: #5c4638;
+  --grove-deep: #3e3026;
+  --gold: #6e5434;
+  --gold-soft: #efe4d4;
+  --line: #e2d6c6;
+  --calm: #7a6856;
+  --button-text: #ffffff;
+  --logo-ink: #4a382c;
+  --logo-accent: #7a5c38;
+}
+
 @theme {
   --font-sans: "Iowan Old Style", Palatino, Georgia, "Times New Roman", serif;
-  --color-parchment: #f4efe4;
-  --color-ink: #241c14;
-  --color-ink-soft: #5c5146;
-  --color-grove: #2f5d45;
-  --color-grove-deep: #1e3d2d;
-  --color-gold: #8d6b2f;
-  --color-gold-soft: #f3e6c8;
-  --color-card: #fffaf3;
-  --color-line: #e3d5c0;
-  --color-calm: #3e5c73;
+}
+
+@theme inline {
+  --color-parchment: var(--parchment);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-grove: var(--grove);
+  --color-grove-deep: var(--grove-deep);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-calm: var(--calm);
 }
 
 html {
@@ -21,10 +121,39 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--color-parchment);
-  color: var(--color-ink);
+  background: var(--parchment);
+  color: var(--ink);
   font-family: var(--font-sans);
   line-height: 1.5;
+}
+
+.logo-lockup {
+  position: relative;
+  display: block;
+  height: 3.25rem;
+  aspect-ratio: 462 / 160;
+  max-width: min(68vw, 16rem);
+}
+
+.logo-layer {
+  position: absolute;
+  inset: 0;
+  background: var(--logo-ink);
+  -webkit-mask: url("/brand/logo-ink-mask.png") center / contain no-repeat;
+  mask: url("/brand/logo-ink-mask.png") center / contain no-repeat;
+}
+
+.logo-accent {
+  background: var(--logo-accent);
+  -webkit-mask-image: url("/brand/logo-accent-mask.png");
+  mask-image: url("/brand/logo-accent-mask.png");
+}
+
+@media (min-width: 40rem) {
+  .logo-lockup {
+    height: 4.25rem;
+    max-width: 24rem;
+  }
 }
 
 button,
@@ -33,7 +162,7 @@ a.tap {
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-gold);
+  outline: 3px solid var(--gold);
   outline-offset: 3px;
 }
 

@@ -11,6 +11,10 @@ export function normalizePoints(points: number): number {
   return Math.max(0, Math.floor(points));
 }
 
+export function topBoardUrl(supabaseUrl: string): string {
+  return new URL("/rest/v1/rpc/leaderboard_top", supabaseUrl).toString();
+}
+
 /** GET URL for the read-only score window. The only query value is the point total. */
 export function aroundScoreUrl(supabaseUrl: string, points: number): string {
   const url = new URL("/rest/v1/rpc/leaderboard_around_score", supabaseUrl);
@@ -34,18 +38,31 @@ function rowsFromJson(value: unknown): PublicBoardRow[] {
   });
 }
 
+function anonHeaders(): Record<string, string> {
+  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string;
+  return {
+    apikey: key,
+    Authorization: `Bearer ${key}`,
+    Accept: "application/json",
+  };
+}
+
+/** Read-only top 15. GET only, so a signed-out player sends no identifier. */
+export async function fetchTopBoard(): Promise<PublicBoardRow[]> {
+  if (!isSupabaseConfigured()) return [];
+  const base = process.env.NEXT_PUBLIC_SUPABASE_URL as string;
+  const response = await fetch(topBoardUrl(base), { method: "GET", headers: anonHeaders() });
+  if (!response.ok) return [];
+  return rowsFromJson(await response.json());
+}
+
 /** Read-only. Sends the point total and no name, email, or device id. */
 export async function fetchAroundScore(points: number): Promise<PublicBoardRow[]> {
   if (!isSupabaseConfigured()) return [];
   const base = process.env.NEXT_PUBLIC_SUPABASE_URL as string;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string;
   const response = await fetch(aroundScoreUrl(base, points), {
     method: "GET",
-    headers: {
-      apikey: key,
-      Authorization: `Bearer ${key}`,
-      Accept: "application/json",
-    },
+    headers: anonHeaders(),
   });
   if (!response.ok) return [];
   return rowsFromJson(await response.json());

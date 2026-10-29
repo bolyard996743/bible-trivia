@@ -7,6 +7,7 @@ import { MascotMark } from "@/components/MascotMark";
 import { mascotLineAudioSrc, pickMascotLine } from "@/lib/game";
 import { MASCOT_IDS, MASCOTS, type AgeGroup, type MascotId, type MascotLine } from "@/lib/game/types";
 import { showCreateAccountLink } from "@/lib/account/policy";
+import { applyTheme, themeForMascot } from "@/lib/theme";
 import { savePlayerState } from "@/lib/account/repository";
 import { signOut } from "@/lib/account/supabase";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
@@ -123,6 +124,7 @@ export function ProfileEditor({
               onChange={() => {
                 setMascot(id);
                 setGreeting(null);
+                applyTheme(themeForMascot(id));
               }}
             />
             <MascotMark mascot={id} />

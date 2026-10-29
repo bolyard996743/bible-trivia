@@ -5,6 +5,8 @@ import Link from "next/link";
 import { AgeGate } from "@/components/AgeGate";
 import { BirthDatePrompt } from "@/components/BirthDatePrompt";
 import { MainNav } from "@/components/MainNav";
+import { SiteLogo } from "@/components/SiteLogo";
+import { ThemeSync } from "@/components/ThemeSync";
 import { Turn13Prompt } from "@/components/Turn13Prompt";
 import { UsernamePrompt } from "@/components/UsernamePrompt";
 import { useAgeGate } from "@/lib/account/use-access";
@@ -22,11 +24,12 @@ export function Shell({ children }: { children: ReactNode }) {
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col px-4 py-4 sm:px-6">
-      <header className="mb-6 flex items-center justify-between gap-3">
-        <Link href={state?.placementComplete ? "/home" : "/"} className="tap inline-flex items-center text-xl font-semibold text-grove-deep">
-          Noble Bereans
+      <ThemeSync />
+      <header className="mb-6 flex flex-nowrap items-center justify-between gap-3">
+        <Link href={state?.placementComplete ? "/home" : "/"} className="inline-flex min-w-0 items-center">
+          <SiteLogo />
         </Link>
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center gap-2">
           {ready && state ? (
             <button
               type="button"
