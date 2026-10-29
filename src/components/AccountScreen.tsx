@@ -229,6 +229,9 @@ export function AccountScreen() {
                 className="min-h-14 rounded-2xl border border-line bg-card px-4"
                 required
               />
+              <span className="text-base text-ink-soft" data-testid="username-permanent">
+                Your username can&apos;t be changed later.
+              </span>
             </label>
           ) : null}
           <label className="grid gap-2 text-lg" htmlFor="account-email">

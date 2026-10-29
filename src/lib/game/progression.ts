@@ -212,6 +212,11 @@ export function applyMastery(
       (item) => item.section === section && !next.masteredIds.includes(item.id),
     ),
   );
+  // A one-question section is a sample, not a finished chapter range.
+  // Still advance the path when nothing else remains in this tier.
+  if (moreInTier && inSection.length < 2) {
+    return { progress: next, event: { type: "mastered" } };
+  }
   if (moreInTier) {
     return { progress: next, event: { type: "section_complete", section: question.section } };
   }

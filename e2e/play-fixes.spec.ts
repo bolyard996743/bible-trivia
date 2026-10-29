@@ -38,5 +38,22 @@ test("13+ navigation stays on one row at desktop widths", async ({ page }) => {
     );
     expect(tops).toHaveLength(6);
     expect(Math.max(...tops) - Math.min(...tops)).toBeLessThanOrEqual(1);
+    await expect(page.getByTestId("nav-menu")).toBeHidden();
   }
+});
+
+test("phone navigation stays behind a menu at 375px", async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem(
+      "bible-trivia-age-gate-v1",
+      JSON.stringify({ version: 1, bracket: "adult", under13: false }),
+    );
+  });
+  await page.setViewportSize({ width: 375, height: 800 });
+  await page.goto("/");
+  const menu = page.getByTestId("nav-menu");
+  await expect(menu).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "Main" }).getByRole("link")).toHaveCount(0);
+  await menu.click();
+  await expect(page.getByRole("navigation", { name: "Main" }).getByRole("link", { name: "Account" })).toBeVisible();
 });
