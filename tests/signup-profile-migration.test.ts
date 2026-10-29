@@ -16,6 +16,9 @@ describe("profile from signup migration", () => {
     expect(sql).toContain("public.username_is_allowed");
     expect(sql).toContain("chosen_username := null");
     expect(sql).toContain("execute function public.handle_new_user()");
+    expect(sql).toContain("pg_catalog.strpos(candidate, '@')");
+    expect(sql).toContain("pg_catalog.strpos(lowered, part)");
+    expect(sql).not.toMatch(/position\s*\(/);
     for (const name of [
       "public.age_group_from_birth_date",
       "public.apply_birth_date",

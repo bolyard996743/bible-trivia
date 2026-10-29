@@ -61,7 +61,7 @@ begin
   if candidate is null or candidate !~ '^[A-Za-z0-9_]{3,20}$' then
     return false;
   end if;
-  if pg_catalog.position('@' in candidate) > 0 then
+  if pg_catalog.strpos(candidate, '@') > 0 then
     return false;
   end if;
   if candidate ~* 'https?://' or candidate ~* 'www\.' then
@@ -71,7 +71,7 @@ begin
     return false;
   end if;
   foreach part in array blocked loop
-    if pg_catalog.position(part in lowered) > 0 then
+    if pg_catalog.strpos(lowered, part) > 0 then
       return false;
     end if;
   end loop;
