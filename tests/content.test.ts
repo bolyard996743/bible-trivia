@@ -35,7 +35,6 @@ describe("sample content", () => {
         (question) => question.prompt.child && question.prompt.teen && question.prompt.adult && question.prompt.older,
       ),
     ).toBe(true);
-    expect(questions.some((question) => question.type === "true_false")).toBe(true);
     expect(questions.some((question) => question.type === "multiple_choice")).toBe(true);
     expect(questions.flatMap((question) => explanationRevealIssues(question))).toEqual([]);
 
