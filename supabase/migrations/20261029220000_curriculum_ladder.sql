@@ -8,7 +8,7 @@ alter table public.question_progress add column if not exists first_try_correct 
 alter table public.question_progress add column if not exists season_id text;
 alter table public.question_progress add column if not exists stage text;
 
-update public.profiles set points = 0;
+update public.profiles set points = 0 where true;
 
 create table if not exists public.stage_progress (
   user_id uuid not null references auth.users (id) on delete cascade,
@@ -54,6 +54,7 @@ language plpgsql
 security definer
 set search_path = ''
 as $$
+#variable_conflict use_column
 declare
   uid uuid := auth.uid();
   earned integer;
