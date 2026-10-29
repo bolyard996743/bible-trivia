@@ -10,18 +10,33 @@
       "testament": "NT",
       "book": "Acts",
       "section": "Acts 2",
-      "topics": ["Pentecost", "Holy Spirit"],
-      "placement_eligible": true,
+      "topics": [
+        "Pentecost",
+        "Holy Spirit"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "On the day of Pentecost, what filled the disciples?",
         "teen": "Acts 2 says the disciples were filled with whom on Pentecost?"
       },
       "choices": [
-        { "id": "a", "text": "The Holy Spirit" },
-        { "id": "b", "text": "The Roman army" },
-        { "id": "c", "text": "A fear of the sea" },
-        { "id": "d", "text": "Only the high priest's blessing" }
+        {
+          "id": "a",
+          "text": "The Holy Spirit"
+        },
+        {
+          "id": "b",
+          "text": "The Roman army"
+        },
+        {
+          "id": "c",
+          "text": "A fear of the sea"
+        },
+        {
+          "id": "d",
+          "text": "Only the high priest's blessing"
+        }
       ],
       "answer": "a",
       "teaching": {

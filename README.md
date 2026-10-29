@@ -30,7 +30,7 @@ You can add the site to your home screen. After a production build, pages you ha
 ## How a round works
 
 1. Choose an age group (child, teen, adult, or older) and a guide: Judah the Lion, Agnes the Lamb, Shalom the Dove, Zion the Eagle, or Hunter the Great Fish.
-2. Take a placement quiz of 10 questions. Only the first try counts. The score picks a starting cycle and tier. The results screen always says: everyone starts in a different place.
+2. Take the placement quiz (13 questions, foundation through expert). Only the first try counts. The score is a ratio, so the same bands work for this longer quiz. It picks a starting cycle and tier. The results screen always says: everyone starts in a different place. The chosen guide's lines for that question are shown as text. Recordings are not included yet.
 3. From home, follow your private Knowledge Path: Seed, Sprout, Rooted, Growing, Established, Fruitful, Deep Roots. You also see the current cycle, section, and first-try streak.
 4. Play. A wrong answer brings your guide’s words, one to three verses, and a guiding explanation for your age group (adult if that wording is missing). The explanation points you toward the verse. It does not state the correct choice, and the choices are not highlighted. Press **I’m ready** and the same question returns with the choices in a new order. After two misses, a longer explanation appears, still without giving the choice away. A correct answer after a retry shows the one-sentence takeaway, which may state the answer. The next question waits until this one is correct.
 5. Leaderboards are not in this demo. That screen says they are coming.

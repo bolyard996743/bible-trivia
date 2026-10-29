@@ -130,6 +130,59 @@ describe("pickMascotLine", () => {
     ).toBe("specific");
   });
 
+  it("falls back from a question line to all, then to a generic line", () => {
+    const bank: MascotLine[] = [
+      {
+        id: "teen-specific",
+        mascot: "judah",
+        moment: "wrong_intro",
+        audience: "teen",
+        text: "For this teen",
+        audio_file: null,
+        question_id: "c1-gen-0002",
+      },
+      {
+        id: "all-specific",
+        mascot: "judah",
+        moment: "wrong_intro",
+        audience: "all",
+        text: "For this question",
+        audio_file: null,
+        question_id: "c1-gen-0002",
+      },
+      {
+        id: "generic-child",
+        mascot: "judah",
+        moment: "wrong_intro",
+        audience: "child",
+        text: "Generic child",
+        audio_file: null,
+        question_id: null,
+      },
+      {
+        id: "generic-all",
+        mascot: "judah",
+        moment: "wrong_intro",
+        audience: "all",
+        text: "Generic all",
+        audio_file: null,
+        question_id: null,
+      },
+    ];
+    expect(pickMascotLine(bank, "judah", "wrong_intro", "teen", { questionId: "c1-gen-0002" })?.id).toBe(
+      "teen-specific",
+    );
+    expect(pickMascotLine(bank, "judah", "wrong_intro", "adult", { questionId: "c1-gen-0002" })?.id).toBe(
+      "all-specific",
+    );
+    expect(pickMascotLine(bank, "judah", "wrong_intro", "child", { questionId: "c2-num-0001" })?.id).toBe(
+      "generic-child",
+    );
+    expect(pickMascotLine(bank, "judah", "wrong_intro", "older", { questionId: "c2-num-0001" })?.id).toBe(
+      "generic-all",
+    );
+  });
+
   it("builds a voiceover path and keeps a declared file", () => {
     expect(mascotLineAudioSrc("judah", { id: "judah-wrong-001", audio_file: null })).toBe(
       "/audio/judah/judah-wrong-001.mp3",
@@ -343,31 +396,28 @@ describe("retry choice order", () => {
 });
 
 describe("selectPlacementQuestions", () => {
-  it("asks for a stable set of 8 to 12 questions", () => {
-    const questions = ["foundation", "intermediate", "advanced", "expert"].flatMap((tier, tierIndex) =>
-      ["OT", "NT"].map((testament, testamentIndex) =>
-        question({
-          id: `${tier}-${testament}`,
-          book: testament === "OT" ? "Genesis" : "John",
-          section: testament,
-          cycle: 1,
-          tier: tier as Tier,
-          testament: testament as "OT" | "NT",
-          placement_eligible: true,
-        }) &&
-        question({
-          id: `${tier}-${testament}-${tierIndex}-${testamentIndex}`,
-          book: testament === "OT" ? "Genesis" : "John",
-          section: "S",
-          cycle: 1,
-          tier: tier as Tier,
-          testament: testament as "OT" | "NT",
-        }),
-      ),
-    );
-    const picked = selectPlacementQuestions(questions, 10);
-    expect(picked.length).toBeGreaterThanOrEqual(8);
-    expect(picked.length).toBeLessThanOrEqual(12);
-    expect(new Set(picked.map((item) => item.testament)).size).toBe(2);
+  it("orders eligible questions by tier and keeps file order inside a tier", () => {
+    const questions = [
+      question({ id: "expert-first", book: "Revelation", section: "S", cycle: 3, tier: "expert" }),
+      question({ id: "foundation-a", book: "Genesis", section: "S", cycle: 1, tier: "foundation" }),
+      question({ id: "advanced-a", book: "Acts", section: "S", cycle: 2, tier: "advanced" }),
+      question({ id: "foundation-b", book: "Luke", section: "S", cycle: 1, tier: "foundation" }),
+      question({
+        id: "skipped",
+        book: "Ruth",
+        section: "S",
+        cycle: 1,
+        tier: "intermediate",
+        placement_eligible: false,
+      }),
+      question({ id: "intermediate-a", book: "Psalms", section: "S", cycle: 3, tier: "intermediate" }),
+    ];
+    expect(selectPlacementQuestions(questions).map((item) => item.id)).toEqual([
+      "foundation-a",
+      "foundation-b",
+      "intermediate-a",
+      "advanced-a",
+      "expert-first",
+    ]);
   });
 });

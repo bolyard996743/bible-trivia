@@ -1,0 +1,839 @@
+{
+  "format_version": 1,
+  "mascot": "agnes",
+  "author": "Agnes the Lamb",
+  "lines": [
+    {
+      "id": "agnes-pl-wrong-01-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Genesis 7:12 together and look for the rain.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-correct-01-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Forty days and forty nights of rain, and God kept Noah safe the whole time.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-wrong-01-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Genesis 7:12 slowly and look for the rain.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-correct-01-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's it. Forty days of rain, and God never let go of Noah's family.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-wrong-01-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Genesis 7:12 show us the rain.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-correct-01-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. Forty days and nights, and through it all God kept His promise to Noah.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-wrong-01-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Genesis 7:12 for a moment and notice the rain.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-correct-01-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. Forty days of rain, and God was faithful through every one of them.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "agnes-pl-wrong-02-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Exodus 3:2 together and look for how He appeared.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-correct-02-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! A fire in a bush that didn't burn up. God really got Moses' attention!",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-02-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Exodus 3:2 slowly and look for how He appeared.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-correct-02-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Exactly. A burning bush that wasn't burned up, and that's how God called Moses.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-02-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Exodus 3:2 show us how He appeared.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-correct-02-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Yes, a flame of fire from the midst of a bush. God met Moses in an ordinary place.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-02-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Exodus 3:2 for a moment and notice how He appeared.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-correct-02-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. A flame in the bush, and the bush was not consumed. What a holy moment.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-03-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Numbers 21:9 together and look for what Moses made.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-correct-03-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "You got it! A bronze serpent on a pole. When people looked, they lived.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-03-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Numbers 21:9 slowly and look for what Moses made.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-correct-03-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Yes. A bronze serpent, and Jesus later said it pointed to Him (John 3:14).",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-03-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Numbers 21:9 show us what Moses made.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-correct-03-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, a bronze serpent. Look and live, a picture Jesus applied to Himself.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-03-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Numbers 21:9 for a moment and notice what Moses made.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-correct-03-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. The bronze serpent, a picture of looking to the Lord and living.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-04-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read 1 Samuel 17:49 together and look for what David reached for.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-04-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Just one little stone, and God gave David the victory.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-04-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read 1 Samuel 17:49 slowly and look for what David reached for.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-04-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's it. One stone from a shepherd's bag, because the battle was the Lord's.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-04-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let 1 Samuel 17:49 show us what David reached for.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-04-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, a stone. David's confidence was never in the sling but in the Lord.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-04-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in 1 Samuel 17:49 for a moment and notice what David reached for.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-04-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes, a single stone. God delights to use small things in faithful hands.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-05-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read 2 Chronicles 34:1 together and look for Josiah's age.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-correct-05-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Josiah was only eight, and he still followed God. Kids can love God too!",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-05-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read 2 Chronicles 34:1 slowly and look for Josiah's age.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-correct-05-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Exactly. Eight years old, and he still chose to seek God. Age doesn't hold you back.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-05-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let 2 Chronicles 34:1 show us Josiah's age.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-correct-05-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, eight years old. Young Josiah led Judah back toward the Lord.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-05-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in 2 Chronicles 34:1 for a moment and notice Josiah's age.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-correct-05-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. Just eight, and his faithfulness shaped a whole nation.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-06-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Psalm 119:105 together and look for what God's word is like.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-06-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God's Word is a lamp for our feet, so we never have to walk in the dark.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-06-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Psalm 119:105 slowly and look for what God's word is like.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-06-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "You got it. A lamp to your feet and a light to your path, one step at a time.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-06-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Psalm 119:105 show us what God's word is like.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-06-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Yes, a lamp and a light. God's Word shows us the next faithful step.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-06-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Psalm 119:105 for a moment and notice what God's word is like.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-correct-06-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. A lamp to our feet. His Word has lit every step of the way.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-07-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Proverbs 9:10 together and look for what understanding is.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-correct-07-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Knowing God, the Holy One, is what real understanding is.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-07-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Proverbs 9:10 slowly and look for what understanding is.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-correct-07-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's it. Knowing the Holy One is understanding. Wisdom starts with Him.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-07-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Proverbs 9:10 show us what understanding is.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-correct-07-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. The knowledge of the Holy One is understanding.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-07-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Proverbs 9:10 for a moment and notice what understanding is.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-correct-07-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. To know the Holy One, that is understanding. What a gift.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-08-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Daniel 6:22 together and look for who God sent.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-correct-08-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God sent His angel to shut the lions' mouths. Daniel was safe!",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-08-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Daniel 6:22 slowly and look for who God sent.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-correct-08-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Exactly. God sent His angel, and the lions never touched Daniel.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-08-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Daniel 6:22 show us who God sent.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-correct-08-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, His angel. God protected Daniel in the very place meant to destroy him.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-08-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Daniel 6:22 for a moment and notice who God sent.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-correct-08-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. God sent His angel, and Daniel came out unharmed.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-09-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Micah 5:2 together and look for the town Micah named.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-correct-09-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Bethlehem, the little town where Jesus would be born.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-09-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Micah 5:2 slowly and look for the town Micah named.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-correct-09-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's it. Bethlehem, a small town, chosen for the biggest story ever.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-09-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Micah 5:2 show us the town Micah named.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-correct-09-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, Bethlehem. Micah named it centuries before Jesus was born there.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-09-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Micah 5:2 for a moment and notice the town Micah named.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-correct-09-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes, little Bethlehem. God's promises are kept to the very place.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-10-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Luke 2:7 together and look for where Mary laid Jesus.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-correct-10-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Baby Jesus was laid in a manger, a feeding box for animals.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-10-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Luke 2:7 slowly and look for where Mary laid Jesus.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-correct-10-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "You got it. A manger. The King of kings started out in the humblest place.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-10-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Luke 2:7 show us where Mary laid Jesus.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-correct-10-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, a manger. The Son of God came humbly, with no room in the inn.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-10-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Luke 2:7 for a moment and notice where Mary laid Jesus.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-correct-10-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. A manger. Such humble beginnings for our Savior.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-11-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Acts 11:26 together and look for the city.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-correct-11-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! In Antioch, people first called Jesus' followers Christians.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-11-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Acts 11:26 slowly and look for the city.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-correct-11-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Exactly. Antioch. People saw Jesus in them and named them for Him.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-11-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Acts 11:26 show us the city.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-correct-11-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, Antioch. Their lives pointed so clearly to Christ that the name stuck.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-11-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Acts 11:26 for a moment and notice the city.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-correct-11-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes, Antioch. May our lives point to Him just as clearly.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-12-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Ephesians 2:8 together and look for what saves us.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-correct-12-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! We're saved by grace. It's God's free gift to us.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-12-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Ephesians 2:8 slowly and look for what saves us.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-correct-12-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's it. By grace, through faith. A gift, not something we earn.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-12-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Ephesians 2:8 show us what saves us.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-correct-12-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right, by grace. Salvation is the gift of God, not our own doing.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-12-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Ephesians 2:8 for a moment and notice what saves us.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-correct-12-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. By grace we are saved. Rest in that gift today.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-13-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Revelation 2:4 together and look for what Jesus said.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "agnes-pl-correct-13-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! They forgot to love Jesus like they did at first. We can always love Him more!",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-13-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries, this one trips people up. Read Revelation 2:4 slowly and look for what Jesus said.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "agnes-pl-correct-13-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Exactly. They left their first love. Jesus wants our hearts, not just our effort.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-13-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's alright, we're still learning. Let's let Revelation 2:4 show us what Jesus said.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "agnes-pl-correct-13-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. They had left their first love, and Jesus lovingly called them back.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "agnes-pl-wrong-13-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "No hurry at all. Let's rest in Revelation 2:4 for a moment and notice what Jesus said.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "agnes-pl-correct-13-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. Their first love. He still calls us back to it, gently.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    }
+  ]
+}

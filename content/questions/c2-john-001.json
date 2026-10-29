@@ -10,17 +10,32 @@
       "testament": "NT",
       "book": "John",
       "section": "John 1",
-      "topics": ["Jesus", "Lamb of God"],
-      "placement_eligible": true,
+      "topics": [
+        "Jesus",
+        "Lamb of God"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "When John saw Jesus coming, he called Him the what of God?"
       },
       "choices": [
-        { "id": "a", "text": "Lion" },
-        { "id": "b", "text": "Lamb" },
-        { "id": "c", "text": "Eagle" },
-        { "id": "d", "text": "King of Rome" }
+        {
+          "id": "a",
+          "text": "Lion"
+        },
+        {
+          "id": "b",
+          "text": "Lamb"
+        },
+        {
+          "id": "c",
+          "text": "Eagle"
+        },
+        {
+          "id": "d",
+          "text": "King of Rome"
+        }
       ],
       "answer": "b",
       "teaching": {

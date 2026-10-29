@@ -10,18 +10,33 @@
       "testament": "OT",
       "book": "Jonah",
       "section": "Jonah 1",
-      "topics": ["Jonah", "great fish"],
-      "placement_eligible": true,
+      "topics": [
+        "Jonah",
+        "great fish"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "How long was Jonah in the belly of the great fish?",
         "child": "How many days and nights was Jonah inside the great fish?"
       },
       "choices": [
-        { "id": "a", "text": "One day and one night" },
-        { "id": "b", "text": "Three days and three nights" },
-        { "id": "c", "text": "Seven days and seven nights" },
-        { "id": "d", "text": "Forty days and forty nights" }
+        {
+          "id": "a",
+          "text": "One day and one night"
+        },
+        {
+          "id": "b",
+          "text": "Three days and three nights"
+        },
+        {
+          "id": "c",
+          "text": "Seven days and seven nights"
+        },
+        {
+          "id": "d",
+          "text": "Forty days and forty nights"
+        }
       ],
       "answer": "b",
       "teaching": {

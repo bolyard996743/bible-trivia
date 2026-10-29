@@ -1,0 +1,839 @@
+{
+  "format_version": 1,
+  "mascot": "zion",
+  "author": "Zion the Eagle",
+  "lines": [
+    {
+      "id": "zion-placement-001-q01-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's peek at Genesis 7:12 again and listen for how long the rain fell.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q01-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite, but no stress. Reread Genesis 7:12 and watch for the time it mentions.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q01-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Go back to Genesis 7:12 and read what it says about the rain.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q01-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's slow down and sit with Genesis 7:12 again. The verse speaks plainly about the rain.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q01-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Forty days of splashing rain, and God kept Noah safe the whole time!",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q01-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nailed it. Forty days and nights of rain, and God had Noah covered.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q01-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Forty days and forty nights, just as Genesis 7:12 records.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q01-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. Forty days and forty nights, and God's care for Noah never wavered.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "zion-placement-001-q02-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Let's look at Exodus 3:2 again and picture what Moses saw.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q02-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Close, but check Exodus 3:2 again. Picture the scene Moses walked up on.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q02-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Return to Exodus 3:2 and notice how the verse describes the appearance.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q02-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's go back to Exodus 3:2 and read it slowly. Moses saw something remarkable that day.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q02-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "You got it! Moses saw a fire that didn't burn up the bush. Wow!",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q02-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Yes! A bush on fire that wouldn't burn up. Imagine seeing that.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q02-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Right. A flame in the bush that was not consumed, and God spoke from it.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q02-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Correct. God met Moses in a flame from the bush, and the bush was not consumed.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's read Numbers 21:9 together and find what Moses lifted up.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not this time. Check Numbers 21:9 and see what Moses actually made.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Read Numbers 21:9 again and note what Moses made and set up.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's turn back to Numbers 21:9 and read it carefully. The verse names what he made.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Anyone who looked at that bronze serpent on the pole was healed!",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Right! Look at the bronze serpent and live. God's wilderness rescue.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Moses made a bronze serpent, and everyone who looked at it lived.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q03-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. A bronze serpent on a pole, and life for all who looked to it.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "No problem, friend! Let's read 1 Samuel 17:49 and see what David reached for.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Almost. Check 1 Samuel 17:49 and look at what David pulled from his bag.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Read 1 Samuel 17:49 again, and notice what David took from his bag.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's reread 1 Samuel 17:49 together. The verse tells what David took in hand.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! One little stone, and God helped David beat the giant!",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Boom, one stone. David trusted God, and Goliath went down.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. David took a single stone from his bag, and the giant fell.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q04-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. A single stone in a shepherd's hand, and the battle was the LORD's.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's look at 2 Chronicles 34:1 and find how old Josiah was.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Check 2 Chronicles 34:1 and read the number it gives for Josiah.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Read 2 Chronicles 34:1 and note the age it gives at the start of his reign.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's read 2 Chronicles 34:1 again, slowly. The verse states Josiah's age plainly.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "You did it! Josiah was only eight when he became king. That's amazing!",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Yep. Eight years old and already king of Judah. Wild.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Josiah began to reign at eight years old and sought the LORD.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q05-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. Josiah was eight when he took the throne, and he walked in the ways of David.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Let's read Psalm 119:105 again and think about walking on a path.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Look at Psalm 119:105 and picture how God's word helps you walk.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Return to Psalm 119:105 and see how the psalmist describes God's word.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's sit quietly with Psalm 119:105 again. The psalmist says what God's word is for our steps.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God's word is a lamp for our feet. It helps us see where to go!",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Right on. God's word is a lamp and a light, so you can see your next step.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. God's word is a lamp to our feet and a light to our path.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q06-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. His word is a lamp to our feet and a light for the path ahead.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's read Proverbs 9:10 together and look at the second half.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Close. Check Proverbs 9:10, especially the second half of the verse.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Read Proverbs 9:10 again, noting the two parallel statements.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's read Proverbs 9:10 once more. The verse sets two thoughts side by side.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Knowing the Holy One is what real understanding is. Great reading!",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "You got it. The knowledge of the Holy One is understanding. Solid proverb.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Proverbs says the knowledge of the Holy One is understanding.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q07-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. Understanding is the knowledge of the Holy One, as Proverbs teaches.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "No worries! Let's read Daniel 6:22 and see who God sent to help Daniel.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Check Daniel 6:22 and notice how God protected Daniel in the den.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Read Daniel 6:22 again and see what Daniel says about God's rescue.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's look again at Daniel 6:22. Daniel tells us plainly how he was kept safe.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God sent His angel, and the lions' mouths stayed shut. Daniel was safe!",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Right. God sent His angel and shut the lions' mouths. Daniel was safe.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Daniel trusted God, who sent His angel to shut the lions' mouths.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q08-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. God's angel shut the lions' mouths, and faithful Daniel was kept safe.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's read Micah 5:2 and find the name of the town.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Check Micah 5:2 and look for the town the prophet names.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Read Micah 5:2 again and note the place named for the coming Ruler.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's read Micah 5:2 slowly. The prophet names the very place the Ruler would come from.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Bethlehem, the little town where the Ruler would be born!",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Yes! Bethlehem. Micah called it centuries before Jesus was born.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Micah named Bethlehem as the place the Ruler of Israel would come from.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q09-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. Little Bethlehem, named by Micah long before the Savior's birth.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Good try! Let's read Luke 2:7 again and listen for where Mary laid baby Jesus.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Look at Luke 2:7 and see where Mary placed Jesus and why.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Read Luke 2:7 closely, including the reason given at the end.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's read Luke 2:7 again, gently. Luke tells us where she laid Him and why.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Baby Jesus slept in a manger. What a humble bed for our King!",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Yep, a manger. The King of kings started out in a feeding trough.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. With no room at the inn, Mary laid Jesus in a manger.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q10-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. The Son of God was laid in a manger, and humility met us there.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's read Acts 11:26 and find the name of the city.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Close. Check the last sentence of Acts 11:26 for the city name.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not quite. Read Acts 11:26 again, and focus on its final sentence.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's take another look at the end of Acts 11:26. It names the city for us.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! In Antioch, Jesus' followers were first called Christians!",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's it. Antioch is where the name Christians began.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. In Antioch, the disciples were first called Christians.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q11-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. It was in Antioch that believers first bore the name Christians.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "No problem! Let's read Ephesians 2:8 and find what comes right after \"For by.\"",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Almost. Check Ephesians 2:8. Notice the difference between \"by\" and \"through.\"",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Reread Ephesians 2:8 and distinguish what saves us from how we receive it.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's go back to Ephesians 2:8. Paul is careful with the words \"by\" and \"through.\"",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! We're saved by grace. It's a free gift from God!",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Exactly. Saved by grace through faith. It's a gift, not something you earn.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Salvation is by grace, through faith, and it is the gift of God.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q12-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. By grace we have been saved, a gift we receive and could never earn.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-wrong-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's read Revelation 2:4 and listen to what Jesus told the church.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-wrong-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Not quite. Check Revelation 2:4 and read what comes after \"I have this against you.\"",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-wrong-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Not this time. Read Revelation 2:4 again and match it to the letter written to Ephesus.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-wrong-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Let's read Revelation 2:4 once more, slowly. It is a word spoken to the church in Ephesus.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-correct-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Jesus wanted them to remember their first love. He always welcomes us back!",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-correct-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Right. They'd left their first love, and Jesus called them back to it.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-correct-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Jesus said the church in Ephesus had left its first love.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "zion-placement-001-q13-correct-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "That's right. Ephesus had left its first love, and Jesus tenderly called them home.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    }
+  ]
+}

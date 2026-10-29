@@ -10,18 +10,33 @@
       "testament": "OT",
       "book": "Isaiah",
       "section": "Isaiah 53",
-      "topics": ["Messiah", "Isaiah"],
-      "placement_eligible": true,
+      "topics": [
+        "Messiah",
+        "Isaiah"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "In Isaiah 53:5, the Servant was wounded for our what?",
         "older": "Isaiah speaks of One who suffered for others. He was wounded for our what?"
       },
       "choices": [
-        { "id": "a", "text": "Transgressions" },
-        { "id": "b", "text": "Battles" },
-        { "id": "c", "text": "Flocks" },
-        { "id": "d", "text": "Crowns" }
+        {
+          "id": "a",
+          "text": "Transgressions"
+        },
+        {
+          "id": "b",
+          "text": "Battles"
+        },
+        {
+          "id": "c",
+          "text": "Flocks"
+        },
+        {
+          "id": "d",
+          "text": "Crowns"
+        }
       ],
       "answer": "a",
       "teaching": {

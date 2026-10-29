@@ -4,14 +4,17 @@
   "author": "Sample (placeholder)",
   "questions": [
     {
-      "id": "c1-luk-0001",
+      "id": "c1-luk-9001",
       "cycle": 1,
       "tier": "foundation",
       "testament": "NT",
       "book": "Luke",
       "section": "Luke 1-2",
-      "topics": ["Jesus", "Bethlehem"],
-      "placement_eligible": true,
+      "topics": [
+        "Jesus",
+        "Bethlehem"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "In which town was Jesus born?",
@@ -20,10 +23,22 @@
         "older": "In which town does Luke place the birth of Jesus?"
       },
       "choices": [
-        { "id": "a", "text": "Nazareth" },
-        { "id": "b", "text": "Bethlehem" },
-        { "id": "c", "text": "Jerusalem" },
-        { "id": "d", "text": "Capernaum" }
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Bethlehem"
+        },
+        {
+          "id": "c",
+          "text": "Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "Capernaum"
+        }
       ],
       "answer": "b",
       "teaching": {

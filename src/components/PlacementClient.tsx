@@ -22,7 +22,7 @@ export function PlacementClient({
 }) {
   const router = useRouter();
   const { state, ready } = useProfile();
-  const quiz = useMemo(() => selectPlacementQuestions(questions, 10), [questions]);
+  const quiz = useMemo(() => selectPlacementQuestions(questions), [questions]);
   const [started, setStarted] = useState(false);
   const [index, setIndex] = useState(0);
   const [attempts, setAttempts] = useState<PlacementAttempt[]>([]);

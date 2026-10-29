@@ -10,17 +10,32 @@
       "testament": "NT",
       "book": "Revelation",
       "section": "Revelation 5",
-      "topics": ["Jesus", "Lion of Judah"],
-      "placement_eligible": true,
+      "topics": [
+        "Jesus",
+        "Lion of Judah"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "Revelation 5:5 calls Jesus the Lion of which tribe?"
       },
       "choices": [
-        { "id": "a", "text": "Levi" },
-        { "id": "b", "text": "Judah" },
-        { "id": "c", "text": "Benjamin" },
-        { "id": "d", "text": "Dan" }
+        {
+          "id": "a",
+          "text": "Levi"
+        },
+        {
+          "id": "b",
+          "text": "Judah"
+        },
+        {
+          "id": "c",
+          "text": "Benjamin"
+        },
+        {
+          "id": "d",
+          "text": "Dan"
+        }
       ],
       "answer": "b",
       "teaching": {

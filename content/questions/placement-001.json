@@ -1,0 +1,789 @@
+{
+  "format_version": 1,
+  "batch_id": "placement-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 6-9",
+      "topics": [
+        "Noah",
+        "flood"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the account of the flood, how long did the rain fall on the earth?",
+        "child": "When God sent the flood in Noah's time, how long did the rain keep falling?",
+        "teen": "During the flood, how long did it rain on the earth?",
+        "older": "In the story of Noah and the flood, for how long did the rain fall upon the earth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seven days and seven nights"
+        },
+        {
+          "id": "b",
+          "text": "Forty days and forty nights"
+        },
+        {
+          "id": "c",
+          "text": "One hundred days and one hundred nights"
+        },
+        {
+          "id": "d",
+          "text": "One hundred fifty days and nights"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 7:12",
+            "text": "And the rain was on the earth forty days and forty nights.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 7:12 closely. The verse tells you exactly how long the rain was on the earth. Notice the length of time it names, and whether it names it more than once.",
+          "child": "Look at the verse again. It says how long the rain fell. Find the amount of time and match it to a choice.",
+          "teen": "Check Genesis 7:12. It states how long the rain lasted. Find that length of time in the verse, then pick the matching choice.",
+          "older": "Take a careful look at Genesis 7:12. The verse itself gives the length of time the rain was on the earth. Read it slowly and match what you find."
+        },
+        "extended_explanation": "This is a single short verse, so read every word. It gives a measure of time for the rain. Some choices describe other periods mentioned elsewhere in the flood account; look for the one that matches this verse exactly.",
+        "takeaway": "The rain fell on the earth for forty days and forty nights."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-exo-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 3-4",
+      "topics": [
+        "Moses",
+        "burning bush"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the Angel of the LORD first appeared to Moses, how did He appear?",
+        "child": "How did the Angel of the LORD appear to Moses when God first spoke to him?",
+        "teen": "How did the Angel of the LORD show up when He first appeared to Moses?",
+        "older": "In what manner did the Angel of the LORD first appear to Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In a flame of fire from a bush"
+        },
+        {
+          "id": "b",
+          "text": "In a pillar of cloud by day"
+        },
+        {
+          "id": "c",
+          "text": "In a thick cloud on a mountaintop"
+        },
+        {
+          "id": "d",
+          "text": "In a dream at night"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 3:2",
+            "text": "And the Angel of the LORD appeared to him in a flame of fire from the midst of a bush. So he looked, and behold, the bush was burning with fire, but the bush was not consumed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Exodus 3:2 closely. Notice what the verse says the Angel of the LORD appeared in, and where it came from. Then read the second sentence to see what Moses noticed about it.",
+          "child": "Look at the verse again. Find the words about how the Angel appeared and where He appeared from. Then see what Moses saw when he looked.",
+          "teen": "Check Exodus 3:2. It describes the way the Angel appeared and the place it came from. Pick the choice that matches those details.",
+          "older": "Take a careful look at Exodus 3:2. The first sentence describes how the Angel appeared and from where. The second sentence adds what Moses saw."
+        },
+        "extended_explanation": "Compare each choice with the first sentence of the verse. Only one choice matches both how the Angel appeared and what it appeared from. The other choices describe ways God was present with Israel at other times.",
+        "takeaway": "The Angel of the LORD appeared to Moses in a flame of fire from the midst of a bush."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c2-num-0001",
+      "cycle": 2,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 21",
+      "topics": [
+        "Moses",
+        "wilderness",
+        "bronze serpent"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Numbers 21, what did Moses make and put on a pole so that anyone who looked at it would live?",
+        "child": "In the wilderness, what did Moses make and put up on a pole so people who looked at it would live?",
+        "teen": "In Numbers 21, what did Moses make and put on a pole so that anyone who looked at it lived?",
+        "older": "In the book of Numbers, what did Moses make and set upon a pole so that those who looked at it would live?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bronze serpent"
+        },
+        {
+          "id": "b",
+          "text": "A golden calf"
+        },
+        {
+          "id": "c",
+          "text": "A bronze laver"
+        },
+        {
+          "id": "d",
+          "text": "A silver trumpet"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 21:9",
+            "text": "So Moses made a bronze serpent, and put it on a pole; and so it was, if a serpent had bitten anyone, when he looked at the bronze serpent, he lived.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Numbers 21:9 closely. Notice what the verse says Moses made, what it was made of, and what it was meant to answer for anyone who had been harmed.",
+          "child": "Look at the verse again. Find what Moses made and what it was made from. Then see what happened to people who looked at it.",
+          "teen": "Check Numbers 21:9. It tells you what Moses made, its material, and what happened when someone looked at it. Match those clues to a choice.",
+          "older": "Take a careful look at Numbers 21:9. The verse names what Moses made and the material used, and it tells what happened to those who looked."
+        },
+        "extended_explanation": "Read the whole verse and watch for two details: the object Moses made and the material it was made from. The wrong choices include objects from other places in the Old Testament, but only one matches both details in this verse.",
+        "takeaway": "Moses made a bronze serpent and put it on a pole, and whoever looked at it lived."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-1sa-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": [
+        "David",
+        "Goliath"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In his fight with Goliath, what did David take out of his bag and use to strike the Philistine?",
+        "child": "When David fought the giant Goliath, what did he take out of his bag to strike him?",
+        "teen": "In David's fight against Goliath, what did he pull out of his bag to take him down?",
+        "older": "In David's battle with Goliath, what did he take from his bag and use to strike the Philistine?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A stone"
+        },
+        {
+          "id": "b",
+          "text": "A spear"
+        },
+        {
+          "id": "c",
+          "text": "A sword"
+        },
+        {
+          "id": "d",
+          "text": "An arrow"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:49",
+            "text": "Then David put his hand in his bag and took out a stone; and he slung it and struck the Philistine in his forehead, so that the stone sank into his forehead, and he fell on his face to the earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1 Samuel 17:49 closely. Notice what David's hand took out of his bag, and what the verse says he did with it.",
+          "child": "Look at the verse again. Find what David took out of his bag. Then see what he did with it.",
+          "teen": "Check 1 Samuel 17:49. It names the one thing David took from his bag. Find it and pick the matching choice.",
+          "older": "Take a careful look at 1 Samuel 17:49. The verse tells what David reached for in his bag and how he used it against the Philistine."
+        },
+        "extended_explanation": "Follow the verse step by step: David puts his hand in his bag, takes something out, and uses it. Pay attention to what the verse says he took out, not what Goliath carried or what David used at other times.",
+        "takeaway": "David took a stone from his bag, slung it, and struck down Goliath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c2-2ch-0001",
+      "cycle": 2,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 34-35",
+      "topics": [
+        "Josiah",
+        "kings of Judah"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How old was Josiah when he became king of Judah?",
+        "child": "How old was King Josiah when he began to be king?",
+        "teen": "How old was Josiah when he became king?",
+        "older": "At what age did Josiah become king of Judah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eight years old"
+        },
+        {
+          "id": "b",
+          "text": "Twelve years old"
+        },
+        {
+          "id": "c",
+          "text": "Sixteen years old"
+        },
+        {
+          "id": "d",
+          "text": "Twenty-five years old"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 34:1",
+            "text": "Josiah was eight years old when he became king, and he reigned thirty-one years in Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2 Chronicles 34:1 closely. The opening words of the verse give Josiah's age at the start of his reign, and the rest tells how long he reigned. Be careful not to mix up the two numbers.",
+          "child": "Look at the verse again. It has two numbers. One is Josiah's age when he became king and the other is how long he was king. Which number is his age?",
+          "teen": "Check 2 Chronicles 34:1. There are two numbers in the verse. Sort out which one is his age at the start and which one is the length of his reign.",
+          "older": "Take a careful look at 2 Chronicles 34:1. The verse gives two numbers. One is Josiah's age when he became king; the other is the length of his reign. Take care to separate them."
+        },
+        "extended_explanation": "The verse gives two different numbers, and only one answers this question. Find the words that say when he became king, then read the number attached to them. Other kings of Judah began their reigns at different ages, so do not rely on memory of those.",
+        "takeaway": "Josiah was eight years old when he became king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c3-psa-0001",
+      "cycle": 3,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 119",
+      "topics": [
+        "God's word",
+        "Psalm 119"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 119:105, what does the psalmist say God's word is?",
+        "child": "Psalm 119:105 says something about God's word. What does it say God's word is?",
+        "teen": "In Psalm 119:105, God's word is compared to what?",
+        "older": "According to Psalm 119:105, what is the psalmist's description of God's word?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A lamp and a light for the path"
+        },
+        {
+          "id": "b",
+          "text": "A sword and a shield for battle"
+        },
+        {
+          "id": "c",
+          "text": "A rock and a fortress"
+        },
+        {
+          "id": "d",
+          "text": "A shepherd's rod and staff"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 119:105",
+            "text": "Your word is a lamp to my feet And a light to my path.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Psalm 119:105 slowly. The psalmist uses two images for God's word. Notice both images and what each one is said to go with.",
+          "child": "Look at the verse again. It uses two pictures to describe God's word. Find both pictures and match them to a choice.",
+          "teen": "Check Psalm 119:105. It gives two images for God's word and ties each to something. Find them, then pick the matching choice.",
+          "older": "Take a careful look at Psalm 119:105. The psalmist offers two images of God's word, each one paired with something. Read the verse slowly and match both parts."
+        },
+        "extended_explanation": "The verse is a single sentence with two parts. Each part names an image and what it relates to. The wrong choices come from other psalms and images of God as protector or shepherd, so make sure your choice matches both parts of this verse.",
+        "takeaway": "God's word is a lamp to my feet and a light to my path."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c3-pro-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 9",
+      "topics": [
+        "wisdom",
+        "understanding"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Proverbs 9:10, what is said to be understanding?",
+        "child": "Proverbs 9:10 says that something is understanding. What is it?",
+        "teen": "According to Proverbs 9:10, what is understanding?",
+        "older": "In Proverbs 9:10, what does Solomon's proverb say is understanding?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The counsel of the wise"
+        },
+        {
+          "id": "b",
+          "text": "The keeping of the law"
+        },
+        {
+          "id": "c",
+          "text": "The knowledge of the Holy One"
+        },
+        {
+          "id": "d",
+          "text": "The instruction of a father"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 9:10",
+            "text": "The fear of the LORD is the beginning of wisdom, And the knowledge of the Holy One is understanding.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Proverbs 9:10 carefully. The verse has two halves, and each half names something different. Find the half that ends with the word the question asks about, and see what comes right before it.",
+          "child": "Look at the verse again. It has two parts. Find the part that ends with the word the question asks about. What does that part begin with?",
+          "teen": "Check Proverbs 9:10. It has two halves that say different things. Find the half that ends with the word in the question and see what it says.",
+          "older": "Take a careful look at Proverbs 9:10. The verse has two halves, each describing something different. Find the half that finishes with the word named in the question."
+        },
+        "extended_explanation": "Do not mix up the two halves of the verse. The first half is about the beginning of wisdom; the second half is about understanding. Reading each half separately will show which choice belongs to the question.",
+        "takeaway": "The knowledge of the Holy One is understanding."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-dan-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "Daniel",
+        "lions' den"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After a night in the lions' den, what did Daniel say God had sent to shut the lions' mouths?",
+        "child": "After Daniel spent the night in the lions' den, what did he say God sent to shut the lions' mouths?",
+        "teen": "After surviving the lions' den, what did Daniel say God sent to shut the lions' mouths?",
+        "older": "After his night in the den of lions, what did Daniel say God had sent to shut the lions' mouths?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A great wind"
+        },
+        {
+          "id": "b",
+          "text": "A voice from heaven"
+        },
+        {
+          "id": "c",
+          "text": "His angel"
+        },
+        {
+          "id": "d",
+          "text": "A fiery chariot"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:22",
+            "text": "My God sent His angel and shut the lions’ mouths, so that they have not hurt me, because I was found innocent before Him; and also, O king, I have done no wrong before you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Daniel 6:22 closely. Daniel is speaking to the king. Notice what he says God sent, and what that did for the lions.",
+          "child": "Look at the verse again. Daniel tells the king who or what God sent. Find it, then see what it did to the lions.",
+          "teen": "Check Daniel 6:22. Daniel explains to the king what God sent. Find it in the verse and match it to a choice.",
+          "older": "Take a careful look at Daniel 6:22. Daniel is speaking to the king and tells what God sent to keep him safe. Read his words slowly."
+        },
+        "extended_explanation": "Daniel's answer to the king comes in the opening words of the verse. Find what he says God sent. The other choices include things that appear elsewhere in Scripture, so match only what this verse says.",
+        "takeaway": "Daniel said God sent His angel and shut the lions' mouths."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c2-mic-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 5",
+      "topics": [
+        "Messianic prophecy",
+        "Micah"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which town did the prophet Micah name as the place out of which the coming Ruler of Israel would come?",
+        "child": "Which town did the prophet Micah say the coming Ruler of Israel would come out of?",
+        "teen": "Which town did Micah name as the origin of Israel's coming Ruler?",
+        "older": "According to the prophet Micah, from which town would the coming Ruler of Israel come forth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nazareth"
+        },
+        {
+          "id": "b",
+          "text": "Jerusalem"
+        },
+        {
+          "id": "c",
+          "text": "Bethlehem"
+        },
+        {
+          "id": "d",
+          "text": "Hebron"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 5:2",
+            "text": "But you, Bethlehem Ephrathah, Though you are little among the thousands of Judah, Yet out of you shall come forth to Me The One to be Ruler in Israel, Whose goings forth are from of old, From everlasting.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Micah 5:2 closely. The prophet addresses a town by name at the very start of the verse. Find the name, then see what the verse says will come out of it.",
+          "child": "Look at the verse again. The prophet speaks to a town, right at the beginning. Find its name and match it to a choice.",
+          "teen": "Check Micah 5:2. The verse opens by addressing a specific town. Spot the name and see what is promised to come from there.",
+          "older": "Take a careful look at the opening of Micah 5:2. The prophet speaks directly to a town and names it. Then read on to see what will come from it."
+        },
+        "extended_explanation": "The verse opens with the name of a town and a second name that goes with it, and then says what will come out of that town. The other choices are places tied to the life of Jesus or to Israel's history, so choose only the town the prophet actually names.",
+        "takeaway": "Micah named Bethlehem as the town out of which the coming Ruler of Israel would come."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-luk-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 2",
+      "topics": [
+        "birth of Jesus",
+        "Christmas"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Luke, where did Mary lay the baby Jesus after He was born?",
+        "child": "After baby Jesus was born, where did Mary lay Him?",
+        "teen": "In Luke's account, where did Mary lay Jesus after His birth?",
+        "older": "According to the Gospel of Luke, where did Mary lay her firstborn Son after His birth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In a manger"
+        },
+        {
+          "id": "b",
+          "text": "In a cradle at the inn"
+        },
+        {
+          "id": "c",
+          "text": "In a basket by the river"
+        },
+        {
+          "id": "d",
+          "text": "In a shepherd's tent"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:7",
+            "text": "And she brought forth her firstborn Son, and wrapped Him in swaddling cloths, and laid Him in a manger, because there was no room for them in the inn.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Luke 2:7 closely. Notice where the verse says Mary laid Him, and read the reason it gives for why He was not placed somewhere else.",
+          "child": "Look at the verse again. Find where Mary laid baby Jesus. The verse also tells why they did not have a room.",
+          "teen": "Check Luke 2:7. It says where Mary laid Him and gives the reason. Use both clues to pick your answer.",
+          "older": "Take a careful look at Luke 2:7. The verse names the place where she laid Him and explains why it was not a room at the inn."
+        },
+        "extended_explanation": "The verse gives the place where Mary laid her firstborn Son and then the reason. The wrong choices are places that do not appear in this verse, so match only what Luke wrote.",
+        "takeaway": "Mary laid the baby Jesus in a manger."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c2-act-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 11",
+      "topics": [
+        "early church",
+        "Antioch",
+        "Christians"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In which city were the disciples first called Christians?",
+        "child": "In which city did Jesus' followers first get the name Christians?",
+        "teen": "In which city were Jesus' disciples first called Christians?",
+        "older": "In which city were the disciples first given the name Christians?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "Damascus"
+        },
+        {
+          "id": "c",
+          "text": "Antioch"
+        },
+        {
+          "id": "d",
+          "text": "Ephesus"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 11:26",
+            "text": "And when he had found him, he brought him to Antioch. So it was that for a whole year they assembled with the church and taught a great many people. And the disciples were first called Christians in Antioch.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Acts 11:26 closely. The last sentence of the verse tells where the disciples were first called by a new name. Find the city's name there.",
+          "child": "Look at the verse again. The last sentence tells where the disciples first got their new name. Find the city.",
+          "teen": "Check Acts 11:26. The final sentence says where the disciples were first called Christians. Spot the city name and match it to a choice.",
+          "older": "Take a careful look at the final sentence of Acts 11:26. It names the city where the disciples were first called by this name."
+        },
+        "extended_explanation": "The same city is named twice in this verse: once where Barnabas brought Saul, and once at the end of the verse. Read the last sentence for the place the question asks about. The other cities are all important in Acts, so rely on the verse rather than memory.",
+        "takeaway": "The disciples were first called Christians in Antioch."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c3-eph-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 2",
+      "topics": [
+        "salvation",
+        "faith"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Ephesians 2:8, by what are we saved through faith?",
+        "child": "Ephesians 2:8 says we are saved through faith. What does it say we are saved by?",
+        "teen": "According to Ephesians 2:8, what are we saved by, through faith?",
+        "older": "In Ephesians 2:8, the apostle Paul says we are saved through faith, and by what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Works"
+        },
+        {
+          "id": "b",
+          "text": "The law"
+        },
+        {
+          "id": "c",
+          "text": "Grace"
+        },
+        {
+          "id": "d",
+          "text": "Obedience"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 2:8",
+            "text": "For by grace you have been saved through faith, and that not of yourselves; it is the gift of God,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Ephesians 2:8 closely. The verse names two things in one sentence: one that we are saved by and one that we are saved through. Find the one that comes right after the opening words.",
+          "child": "Look at the verse again. It starts by telling what we are saved by. Find it, and do not mix it up with what we are saved through.",
+          "teen": "Check Ephesians 2:8. It names what we are saved by and what we are saved through. Make sure you pick the first one, not the second.",
+          "older": "Take a careful look at Ephesians 2:8. The verse gives two details: what we are saved by and what we are saved through. Keep them separate."
+        },
+        "extended_explanation": "Notice the two different words the verse uses: by and through. Each is followed by a different noun. Also read the rest of the verse, which says this does not come from ourselves, and use it to rule out the choices that depend on human effort.",
+        "takeaway": "We are saved by grace, through faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c3-rev-0001",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 2-3",
+      "topics": [
+        "seven churches",
+        "Ephesus"
+      ],
+      "placement_eligible": true,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Revelation 2, what did Jesus say He had against the church in Ephesus?",
+        "child": "In Revelation 2, Jesus spoke to the church in Ephesus. What did He say He had against them?",
+        "teen": "What did Jesus say He had against the church in Ephesus in Revelation 2?",
+        "older": "In the letter to the church in Ephesus in Revelation 2, what complaint did the Lord make against them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They tolerated that woman Jezebel"
+        },
+        {
+          "id": "b",
+          "text": "They were neither cold nor hot"
+        },
+        {
+          "id": "c",
+          "text": "They held the doctrine of Balaam"
+        },
+        {
+          "id": "d",
+          "text": "They had left their first love"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 2:4",
+            "text": "Nevertheless I have this against you, that you have left your first love.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Revelation 2:4 closely. The verse begins with the words “I have this against you.” Read what follows. Then compare it with the other choices, each of which belongs to a letter to a different church.",
+          "child": "Look at the verse again. It tells what Jesus held against the church in Ephesus. Find His complaint and match it to a choice.",
+          "teen": "Check Revelation 2:4. The complaint comes right after “I have this against you.” The other choices are complaints made to other churches, so match only this verse.",
+          "older": "Take a careful look at Revelation 2:4. After the words “I have this against you,” Jesus states His complaint. Read it slowly and compare each choice."
+        },
+        "extended_explanation": "Each of the seven letters in Revelation 2 and 3 has its own complaint or praise. Three of the choices come from letters to other cities. Find the one that this verse, written to the church in Ephesus, actually states.",
+        "takeaway": "Jesus said the church in Ephesus had left its first love."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
+      }
+    }
+  ]
+}

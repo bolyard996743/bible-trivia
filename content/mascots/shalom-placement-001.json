@@ -1,0 +1,839 @@
+{
+  "format_version": 1,
+  "mascot": "shalom",
+  "author": "Shalom the Dove",
+  "lines": [
+    {
+      "id": "shalom-placement-wrong-001-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Peace, little friend. Let's rest with Genesis 7:12 and read it slowly together.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-wrong-001-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No pressure. Take a breath and sit with Genesis 7:12 for a moment.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-wrong-001-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's all right. Let's turn back to Genesis 7:12 and read it with a quiet mind.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-wrong-001-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Be at peace. Let us dwell a while in Genesis 7:12 and let the words settle.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-correct-001-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! You found it in the story of Noah, well done.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-correct-001-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's right. The flood account is clearly in your memory.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-correct-001-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. You read the account of the flood faithfully.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-correct-001-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes, that is it. The days of Noah's flood are well remembered.",
+      "audio_file": null,
+      "question_id": "c1-gen-0002"
+    },
+    {
+      "id": "shalom-placement-wrong-002-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's go look at Exodus 3:2 together, nice and slow.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-002-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "All good. Let's slow down and read Exodus 3:2 again.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-002-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "No worries. Let's open to Exodus 3:2 and take it in calmly.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-002-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Rest easy. Let us return to Exodus 3:2 and read it with unhurried eyes.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-correct-002-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! You remembered the burning bush, what a wonder.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-correct-002-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nice. Moses and the burning bush are clear in your mind.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-correct-002-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. What Moses saw that day was truly remarkable.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-correct-002-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. That holy ground in Exodus is a gift to remember.",
+      "audio_file": null,
+      "question_id": "c1-exo-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-003-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Peace, there's no hurry. Let's read Numbers 21:9 together, one word at a time.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-003-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "It's alright. Give Numbers 21:9 a calm, careful read.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-003-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's fine. Let's quietly look at Numbers 21:9 together.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-003-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Take heart. Let us sit quietly with Numbers 21:9 and listen to what it says.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-correct-003-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Everyone who looked up was healed, good remembering.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-correct-003-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's right. You've got the wilderness story down.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-correct-003-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Those who looked in faith in the wilderness lived.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-correct-003-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. The lifting up in the wilderness is a story worth treasuring.",
+      "audio_file": null,
+      "question_id": "c2-num-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-004-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay! Let's read 1 Samuel 17:49 together, nice and slowly.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-004-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No stress. Let's look at 1 Samuel 17:49 together and take our time.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-004-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Peace, no rush. Let's rest in 1 Samuel 17:49 for a moment.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-004-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Be gentle with yourself. Let us ponder 1 Samuel 17:49 once more.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-004-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! David trusted God against the giant, good job.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-004-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Right on. You remembered how David faced Goliath.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-004-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. David met the giant with trust in the LORD.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-004-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. The shepherd boy and the giant, a story that never grows old.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-005-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Don't worry, friend. Let's read 2 Chronicles 34:1 together, nice and calm.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-005-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "You're good. Let's check out 2 Chronicles 34:1 and read it slowly.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-005-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "No problem at all. Let's take a moment with 2 Chronicles 34:1.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-005-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "There's no need to hurry. Let us linger over 2 Chronicles 34:1 together.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-correct-005-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Josiah was just a young king, and you remembered well.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-correct-005-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's right. Josiah began his reign very young.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-correct-005-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Josiah's early start as king is a hopeful part of Scripture.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-correct-005-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. It is a quiet marvel how young Josiah was when he began to reign.",
+      "audio_file": null,
+      "question_id": "c2-2ch-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-006-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's alright, sweet friend. Let's read Psalm 119:105 together, softly and slowly.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-006-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "Totally fine. Let's pause on Psalm 119:105 and let it sink in.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-006-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Peace to you. Let's settle in with Psalm 119:105 for a moment.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-006-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Be still a moment. Let us rest in Psalm 119:105 and read it as a prayer.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-006-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God's Word shows us where to walk, how lovely.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-006-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's it. You know how Psalm 119 describes God's Word.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-006-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. The psalmist's picture of God's Word is a comfort for any road.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-correct-006-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. Those words from Psalm 119 have steadied many a heart.",
+      "audio_file": null,
+      "question_id": "c3-psa-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-007-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "It's okay, friend. Let's read Proverbs 9:10 together and take our time.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-007-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No big deal. Let's take another calm look at Proverbs 9:10.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-007-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's all right. Let's turn gently to Proverbs 9:10 and read it carefully.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-007-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Wisdom is never rushed. Let us sit with Proverbs 9:10 and read it slowly.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-correct-007-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! That's the start of wisdom, you did it.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-correct-007-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nice work. You caught what Proverbs says about understanding.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-correct-007-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Proverbs 9:10 shows where understanding begins.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-correct-007-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. The beginning of wisdom is something you have clearly pondered.",
+      "audio_file": null,
+      "question_id": "c3-pro-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-008-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, dear friend. Let's look at Daniel 6:22 together, nice and gently.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-008-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "All good. Let's read Daniel 6:22 again, no rush.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-008-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Peace, friend. Let's quietly look at Daniel 6:22 together.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-008-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Rest in peace and read again. Let us spend a quiet moment in Daniel 6:22.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-correct-008-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! God protected Daniel in the lions' den, what a good God.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-correct-008-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's right. You remembered how God shut the lions' mouths.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-correct-008-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Daniel was kept safe in the den, and you recalled how.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-correct-008-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. God's care for Daniel among the lions is a peaceful truth to hold.",
+      "audio_file": null,
+      "question_id": "c1-dan-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-009-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "No worries, friend. Let's read Micah 5:2 together and find the clue.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-009-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "You're fine. Let's take a slow look at Micah 5:2 together.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-009-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's okay. Let's go back to Micah 5:2 and read it with a settled heart.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-009-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Take a gentle breath. Let us return to Micah 5:2 and read what the prophet wrote.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-correct-009-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! You found the little town the prophet named, good job.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-correct-009-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nice. Micah pointed to the very place, and you caught it.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-correct-009-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Micah's prophecy about the coming Ruler is well recalled.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-correct-009-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. The prophet's words about a small place are a sweet thing to remember.",
+      "audio_file": null,
+      "question_id": "c2-mic-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-010-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Luke 2:7 together, nice and slow.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-010-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "It's alright. Take a calm look at Luke 2:7 once more.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-010-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Peace, there's no rush. Let's read Luke 2:7 together with fresh attention.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-010-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Be at ease. Let us sit with Luke 2:7 and read it as if for the first time.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-correct-010-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! You remembered where baby Jesus was laid, wonderful.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-correct-010-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's right. The Christmas story is solid with you.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-correct-010-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. You recalled the humble place Mary laid her newborn Son.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-correct-010-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. The humble setting of Jesus' birth is a gentle mercy to recall.",
+      "audio_file": null,
+      "question_id": "c1-luk-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-011-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Don't worry, little friend. Let's read Acts 11:26 together, one step at a time.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-011-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No stress at all. Let's read through Acts 11:26 again, especially the end.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-011-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's fine. Let's take a quiet moment with Acts 11:26.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-011-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Be at peace. Let us dwell in Acts 11:26 and read it to the very last words.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-correct-011-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! That's where Jesus' followers got their new name.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-correct-011-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Nice. You know where believers were first called by that name.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-correct-011-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Acts shows where the disciples first received that name.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-correct-011-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. That early church setting in Acts is well remembered.",
+      "audio_file": null,
+      "question_id": "c2-act-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-012-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "That's okay, friend. Let's read Ephesians 2:8 together, softly and slowly.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-012-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "You're alright. Let's slow down and read Ephesians 2:8 carefully.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-012-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "Peace to you. Let's rest in Ephesians 2:8 and read each phrase in turn.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-012-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Take your time, friend. Let us meditate on Ephesians 2:8 and let its words speak.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-correct-012-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! It's a gift from God, and you did great.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-correct-012-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "That's right. You caught what Paul wrote about being saved.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-correct-012-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Paul's words in Ephesians 2:8 remind us salvation is God's gift.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-correct-012-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. It is a restful truth that salvation is God's gift, and you have held it.",
+      "audio_file": null,
+      "question_id": "c3-eph-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-013-child",
+      "moment": "wrong_intro",
+      "audience": "child",
+      "text": "Peace, dear friend. Let's read Revelation 2:4 together, nice and slowly.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-013-teen",
+      "moment": "wrong_intro",
+      "audience": "teen",
+      "text": "No worries. Let's give Revelation 2:4 another quiet read.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-013-adult",
+      "moment": "wrong_intro",
+      "audience": "adult",
+      "text": "That's all right. Let's stay a moment with Revelation 2:4 and read it with care.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "shalom-placement-wrong-013-older",
+      "moment": "wrong_intro",
+      "audience": "older",
+      "text": "Be calm, friend. Let us sit quietly with Revelation 2:4 and hear what is written.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "shalom-placement-correct-013-child",
+      "moment": "correct",
+      "audience": "child",
+      "text": "Yes! Jesus cared about the church's love, nice work.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "shalom-placement-correct-013-teen",
+      "moment": "correct",
+      "audience": "teen",
+      "text": "Right. You caught what Jesus said to the Ephesian church.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "shalom-placement-correct-013-adult",
+      "moment": "correct",
+      "audience": "adult",
+      "text": "Correct. Jesus' word to Ephesus in Revelation 2 is well understood.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    },
+    {
+      "id": "shalom-placement-correct-013-older",
+      "moment": "correct",
+      "audience": "older",
+      "text": "Yes. His loving call to Ephesus is a gentle message you have kept in mind.",
+      "audio_file": null,
+      "question_id": "c3-rev-0001"
+    }
+  ]
+}

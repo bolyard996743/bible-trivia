@@ -10,8 +10,11 @@
       "testament": "OT",
       "book": "Genesis",
       "section": "Genesis 1-11",
-      "topics": ["creation", "God"],
-      "placement_eligible": true,
+      "topics": [
+        "creation",
+        "God"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "Who created the heavens and the earth?",
@@ -20,10 +23,22 @@
         "older": "According to the opening of Genesis, who created the heavens and the earth?"
       },
       "choices": [
-        { "id": "a", "text": "Adam" },
-        { "id": "b", "text": "God" },
-        { "id": "c", "text": "The angels" },
-        { "id": "d", "text": "Noah" }
+        {
+          "id": "a",
+          "text": "Adam"
+        },
+        {
+          "id": "b",
+          "text": "God"
+        },
+        {
+          "id": "c",
+          "text": "The angels"
+        },
+        {
+          "id": "d",
+          "text": "Noah"
+        }
       ],
       "answer": "b",
       "teaching": {
@@ -49,22 +64,31 @@
       }
     },
     {
-      "id": "c1-gen-0002",
+      "id": "c1-gen-9002",
       "cycle": 1,
       "tier": "foundation",
       "testament": "OT",
       "book": "Genesis",
       "section": "Genesis 1-11",
-      "topics": ["Noah", "faithfulness"],
-      "placement_eligible": true,
+      "topics": [
+        "Noah",
+        "faithfulness"
+      ],
+      "placement_eligible": false,
       "type": "true_false",
       "prompt": {
         "adult": "True or false: Noah walked with God.",
         "child": "True or false: The Bible says Noah walked with God."
       },
       "choices": [
-        { "id": "true", "text": "True" },
-        { "id": "false", "text": "False" }
+        {
+          "id": "true",
+          "text": "True"
+        },
+        {
+          "id": "false",
+          "text": "False"
+        }
       ],
       "answer": "true",
       "teaching": {
@@ -94,18 +118,33 @@
       "testament": "OT",
       "book": "Genesis",
       "section": "Genesis 37-50",
-      "topics": ["Joseph", "Egypt"],
-      "placement_eligible": true,
+      "topics": [
+        "Joseph",
+        "Egypt"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "Joseph told his brothers they had sold him into which land?",
         "teen": "Where did Joseph's brothers sell him, as he later told them?"
       },
       "choices": [
-        { "id": "a", "text": "Egypt" },
-        { "id": "b", "text": "Babylon" },
-        { "id": "c", "text": "Nineveh" },
-        { "id": "d", "text": "Rome" }
+        {
+          "id": "a",
+          "text": "Egypt"
+        },
+        {
+          "id": "b",
+          "text": "Babylon"
+        },
+        {
+          "id": "c",
+          "text": "Nineveh"
+        },
+        {
+          "id": "d",
+          "text": "Rome"
+        }
       ],
       "answer": "a",
       "teaching": {

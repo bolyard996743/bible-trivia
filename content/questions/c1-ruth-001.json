@@ -10,18 +10,34 @@
       "testament": "OT",
       "book": "Ruth",
       "section": "Ruth 4",
-      "topics": ["Ruth", "David", "family line"],
-      "placement_eligible": true,
+      "topics": [
+        "Ruth",
+        "David",
+        "family line"
+      ],
+      "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
         "adult": "Obed, the son born to Ruth and Boaz, was the grandfather of which king?",
         "older": "Looking at the family line in Ruth, Obed became the grandfather of which king?"
       },
       "choices": [
-        { "id": "a", "text": "Saul" },
-        { "id": "b", "text": "David" },
-        { "id": "c", "text": "Josiah" },
-        { "id": "d", "text": "Hezekiah" }
+        {
+          "id": "a",
+          "text": "Saul"
+        },
+        {
+          "id": "b",
+          "text": "David"
+        },
+        {
+          "id": "c",
+          "text": "Josiah"
+        },
+        {
+          "id": "d",
+          "text": "Hezekiah"
+        }
       ],
       "answer": "b",
       "teaching": {
