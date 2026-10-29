@@ -2,9 +2,11 @@ import type { Metadata, Viewport } from "next";
 import { AccountSync } from "@/components/AccountSync";
 import { RegisterSW } from "@/components/RegisterSW";
 import { Shell } from "@/components/Shell";
+import { siteOrigin } from "@/lib/site-url";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteOrigin()),
   title: "Lamp & Path",
   description: "Lamp & Path teaches from Scripture and waits until you know the answer.",
   applicationName: "Lamp & Path",

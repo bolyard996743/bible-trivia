@@ -1,4 +1,5 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
+import { authCallbackUrl } from "../site-url";
 
 let browserClient: SupabaseClient | null = null;
 
@@ -37,7 +38,10 @@ export async function signUpWithPassword(input: {
   const { data, error } = await supabase.auth.signUp({
     email: input.email,
     password: input.password,
-    options: { data: { username: input.username } },
+    options: {
+      data: { username: input.username },
+      emailRedirectTo: authCallbackUrl(),
+    },
   });
   if (error) throw error;
   return { needsConfirmation: !data.session };
@@ -54,7 +58,7 @@ export async function sendPasswordReset(email: string): Promise<void> {
   const supabase = getSupabaseBrowserClient();
   if (!supabase) throw new Error("Sign-in is not configured.");
   const { error } = await supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: `${window.location.origin}/auth/callback`,
+    redirectTo: authCallbackUrl(),
   });
   if (error) throw error;
 }
@@ -85,7 +89,7 @@ export async function createProfileForNewAccount(input: {
 
 /**
  * Google can be added later with supabase.auth.signInWithOAuth({ provider: "google" })
- * and the same redirect. It is intentionally not wired up.
+ * and redirectTo: authCallbackUrl(). It is intentionally not wired up.
  */
 export async function signOut(): Promise<void> {
   const supabase = getSupabaseBrowserClient();

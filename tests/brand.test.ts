@@ -26,5 +26,10 @@ describe("Lamp & Path", () => {
     expect(manifest.short_name).toBe("Lamp & Path");
     const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8")) as { name: string };
     expect(pkg.name).toBe("bible-trivia");
+    const readme = fs.readFileSync(path.join(root, "README.md"), "utf8");
+    expect(readme).toContain("https://lamp-and-path.vercel.app");
+    expect(readme).toContain("https://github.com/bolyard996743/lamp-and-path");
+    expect(readme).not.toContain("bible-trivia.vercel.app");
+    expect(readme).not.toContain("github.com/bolyard996743/bible-trivia");
   });
 });

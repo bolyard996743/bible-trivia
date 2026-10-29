@@ -12,7 +12,7 @@ npx playwright install chromium
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). On a phone, tablet, or desktop the layout stays one column with large tap targets.
+Open [http://localhost:3000](http://localhost:3000) while developing. The deployed app is [https://lamp-and-path.vercel.app](https://lamp-and-path.vercel.app). Preview URLs look like `https://lamp-and-path-git-*.vercel.app`. Source is [bolyard996743/lamp-and-path](https://github.com/bolyard996743/lamp-and-path); GitHub redirects the previous repository name. On a phone, tablet, or desktop the layout stays one column with large tap targets.
 
 To check the production build, lint, and tests:
 
@@ -68,7 +68,7 @@ supabase link --project-ref wmopoyxwghddtkbmrfyy
 supabase db push
 ```
 
-In the Supabase Auth settings, add `http://localhost:3000/auth/callback` (and your real site) as a redirect URL so password reset and email confirmation can return to the app. That dashboard change is not made from this repo.
+Sign-up confirmation and password reset send the player to `/auth/callback` on the origin they are using (`window.location.origin`). A build without a browser uses `https://$VERCEL_URL`, and otherwise [https://lamp-and-path.vercel.app](https://lamp-and-path.vercel.app). In the Supabase Auth settings, allow `http://localhost:3000/auth/callback` and `https://lamp-and-path.vercel.app/auth/callback`, plus any preview host you use. That dashboard change is not made from this repo.
 
 The first screen asks for a birthday with a month, day, and year, and it does not suggest an age. The birth date is stored on this device only. A date under 13 keeps the child audience, has no account, and sends nothing to the server. That first answer stays if they leave and come back. When the stored date computes to 13 or older, the app asks once about creating an account, with Not now remembered. Age 13 and older can create an account or play on this device. Playing without an account shows a warning first: progress stays on this device and cannot be moved unless they create an account later. Settings shows Create account only while signed out. Sign-up or sign-in asks before moving this device's questions, placement, and mentor into the account. Sign-up saves `birth_date` on their own profile row. The audience is derived from that date when the row is read and whenever it is saved, so it moves as they age. The database rejects a birth date under 13. A signed-in player who has no birth date is asked once. Password reset is an email link. Google is not connected.
 
