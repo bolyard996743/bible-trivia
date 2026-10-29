@@ -32,6 +32,8 @@ export type StoredState = {
   progress: GameProgress;
   lastVisitedOn: string | null;
   celebration: Celebration | null;
+  /** Public leaderboard name. Omitted for a child. Never changed after it is set. */
+  username?: string;
 };
 
 export function createState(ageGroup: AgeGroup, mascot: MascotId): StoredState {

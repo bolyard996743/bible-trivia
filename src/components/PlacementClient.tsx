@@ -35,7 +35,8 @@ export function PlacementClient({
     else if (state.placementComplete && !finishing.current) router.replace("/home");
   }, [ready, state, router]);
 
-  if (!ready || !state || (state.placementComplete && !finishing.current)) {
+  if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!state || (state.placementComplete && !finishing.current)) {
     return <p className="text-lg text-ink-soft">Opening…</p>;
   }
 

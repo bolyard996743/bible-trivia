@@ -1,5 +1,13 @@
 import { createVerseMarkStore } from "../bible/marks";
 import type { StoredState } from "../storage";
+import {
+  ageGateFromBracket,
+  ageGroupFromBirthDate,
+  calendarToday,
+  loadDeviceBirthDate,
+  stateWithBirthAge,
+  writeAgeGate,
+} from "./age-gate";
 import { hasDeviceProgress, mergeAccountProgress } from "./merge";
 import { canOfferAccount } from "./policy";
 import {
@@ -76,10 +84,21 @@ export function declineMerge() {
   notify();
 }
 
+function alignLocalAge(local: StoredState | null): StoredState | null {
+  const birth = loadDeviceBirthDate();
+  if (!birth) return local;
+  const today = calendarToday();
+  const group = ageGroupFromBirthDate(birth, today);
+  writeAgeGate(ageGateFromBracket(group));
+  if (!local) return local;
+  return stateWithBirthAge(local, birth, today);
+}
+
 async function adoptSession(userId: string) {
   if (typeof window === "undefined") return;
   const localRepo = createLocalPlayerRepository(window.localStorage);
-  const local = await localRepo.load();
+  const local = alignLocalAge(await localRepo.load());
+  if (local) await localRepo.save(local);
   if (local && !canOfferAccount(local.ageGroup)) {
     offer = null;
     setPlayerRepository(localRepo);

@@ -3,6 +3,7 @@ import { HIGHLIGHT_COLORS, type HighlightColor } from "../bible/marks";
 import { emptyProgress } from "../game/progression";
 import { KNOWLEDGE_PATH, MASCOT_IDS, TIERS, type GameProgress, type KnowledgeStage, type MascotId, type Tier } from "../game/types";
 import type { StoredState } from "../storage";
+import { ageGroupFromBirthDate, type CalendarDate } from "./age-gate";
 import type { AccountAgeGroup } from "./policy";
 
 export type ProfileRow = {
@@ -22,6 +23,9 @@ export type ProfileRow = {
   best_streak: number;
   season_mastered_count: number;
   last_visited_on: string | null;
+  points: number;
+  username?: string;
+  birth_date?: string | null;
 };
 
 export type QuestionRow = {
@@ -81,11 +85,23 @@ export function profileToRow(userId: string, state: StoredState): ProfileRow {
     best_streak: state.progress.bestStreak,
     season_mastered_count: state.progress.seasonMasteredCount,
     last_visited_on: state.lastVisitedOn,
+    points: state.progress.points ?? 0,
+    ...(state.username ? { username: state.username } : {}),
   };
 }
 
+function birthParts(value: string): CalendarDate | null {
+  const match = /^(\d{4})-(\d{2})-(\d{2})/.exec(value);
+  if (!match) return null;
+  return { year: Number(match[1]), month: Number(match[2]), day: Number(match[3]) };
+}
+
 export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredState | null {
-  if (!isAccountAge(row.age_group) || !isMascot(row.mascot) || !isTier(row.tier)) return null;
+  const derived = row.birth_date ? birthParts(row.birth_date) : null;
+  const derivedGroup = derived ? ageGroupFromBirthDate(derived) : null;
+  if (derivedGroup === "child") return null;
+  const ageGroup = derivedGroup ?? row.age_group;
+  if (!isAccountAge(ageGroup) || !isMascot(row.mascot) || !isTier(row.tier)) return null;
   const masteredIds = questions.filter((question) => question.mastered).map((question) => question.question_id);
   const missCounts: Record<string, number> = {};
   for (const question of questions) {
@@ -98,6 +114,7 @@ export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredSta
     streak: row.streak,
     bestStreak: row.best_streak,
     seasonMasteredCount: row.season_mastered_count,
+    points: row.points,
   };
   const placement =
     row.placement_cycle != null && isTier(row.placement_tier) && isStage(row.placement_stage)
@@ -111,7 +128,7 @@ export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredSta
       : null;
   return {
     version: 1,
-    ageGroup: row.age_group,
+    ageGroup,
     mascot: row.mascot,
     soundOn: row.sound_on,
     placementComplete: row.placement_complete,
@@ -119,6 +136,7 @@ export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredSta
     progress,
     lastVisitedOn: row.last_visited_on,
     celebration: null,
+    ...(row.username ? { username: row.username } : {}),
   };
 }
 

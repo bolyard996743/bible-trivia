@@ -1,7 +1,7 @@
 {
-  "name": "Bible Trivia",
-  "short_name": "Bible Trivia",
-  "description": "A wholesome Bible trivia game that teaches from Scripture.",
+  "name": "Lamp & Path",
+  "short_name": "Lamp & Path",
+  "description": "Lamp & Path teaches from Scripture and waits until you know the answer.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

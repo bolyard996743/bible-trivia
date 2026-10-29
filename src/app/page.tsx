@@ -10,13 +10,13 @@ export default function WelcomePage() {
 
   return (
     <section className="grid gap-6">
-      <p className="text-base tracking-wide text-gold uppercase">Learn the Word</p>
+      <p className="text-base tracking-wide text-gold">Lamp &amp; Path</p>
       <h1 className="text-4xl leading-tight font-semibold text-grove-deep">A quiet place to learn the Bible, one question at a time.</h1>
       <p className="text-lg text-ink">
         If you miss a question, we stop. Your guide reads a verse with you, and the same question waits until you know it. There is no shame in learning.
       </p>
       <p className="text-lg text-ink-soft">
-        No account. Your progress stays on this device.
+        Progress stays on this device until you create an account.
       </p>
       {ready ? (
         <Link href={href} className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-6 text-lg font-semibold text-white">

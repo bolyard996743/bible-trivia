@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { canOfferAccount } from "@/lib/account/policy";
+import { useAgeGate } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
 
 const LINKS = [
@@ -16,7 +17,9 @@ const LINKS = [
 export function MainNav() {
   const pathname = usePathname();
   const { state } = useProfile();
-  const links = canOfferAccount(state?.ageGroup)
+  const gate = useAgeGate();
+  const showAccount = gate.value ? !gate.value.under13 : canOfferAccount(state?.ageGroup);
+  const links = showAccount
     ? [...LINKS, { href: "/account", label: "Account" }]
     : LINKS;
   return (

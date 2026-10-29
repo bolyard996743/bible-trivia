@@ -5,13 +5,13 @@ import { Shell } from "@/components/Shell";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Bible Trivia",
-  description: "A wholesome Bible trivia game that teaches from Scripture and waits until you know the answer.",
-  applicationName: "Bible Trivia",
+  title: "Lamp & Path",
+  description: "Lamp & Path teaches from Scripture and waits until you know the answer.",
+  applicationName: "Lamp & Path",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
-    title: "Bible Trivia",
+    title: "Lamp & Path",
     statusBarStyle: "default",
   },
   icons: {

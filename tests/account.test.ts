@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
+import { stateWithBirthAge } from "@/lib/account/age-gate";
 import { mergeAccountProgress } from "@/lib/account/merge";
-import { canOfferAccount } from "@/lib/account/policy";
+import { canOfferAccount, showCreateAccountLink } from "@/lib/account/policy";
 import { createLocalPlayerRepository, createSyncingRepository } from "@/lib/account/repository";
 import { createSupabasePlayerRepository, type AccountQuery } from "@/lib/account/supabase-db";
 import type { VerseMark } from "@/lib/bible/marks";
@@ -52,6 +53,14 @@ describe("account policy", () => {
     expect(canOfferAccount("adult")).toBe(true);
     expect(canOfferAccount("older")).toBe(true);
   });
+
+  it("shows Create account only while signed out and old enough", () => {
+    expect(showCreateAccountLink({ signedIn: false, age: "teen" })).toBe(true);
+    expect(showCreateAccountLink({ signedIn: false, age: "adult" })).toBe(true);
+    expect(showCreateAccountLink({ signedIn: true, age: "adult" })).toBe(false);
+    expect(showCreateAccountLink({ signedIn: false, age: "child" })).toBe(false);
+    expect(showCreateAccountLink({ signedIn: false, age: null })).toBe(false);
+  });
 });
 
 describe("merge", () => {
@@ -88,6 +97,24 @@ describe("merge", () => {
     expect(merged.state?.ageGroup).toBe("adult");
     expect(merged.marks.map((item) => item.id).sort()).toEqual(["local", "remote"]);
     expect(merged.marks.find((item) => item.id === "local")?.note).toBe("On this device");
+  });
+
+  it("moves questions, placement, and mentor into an account after a child turns 13", () => {
+    const today = { year: 2026, month: 10, day: 29 };
+    const local = state("child", { masteredIds: ["q1"], missCounts: { q1: 2 } });
+    local.mascot = "hunter";
+    const promoted = stateWithBirthAge(local, { year: 2013, month: 10, day: 29 }, today);
+    expect(promoted.ageGroup).toBe("teen");
+    const merged = mergeAccountProgress(promoted, null);
+    expect(merged.upload).toBe(true);
+    expect(merged.state?.mascot).toBe("hunter");
+    expect(merged.state?.placementComplete).toBe(true);
+    expect(merged.state?.placement?.tier).toBe("foundation");
+    expect(merged.state?.progress.masteredIds).toEqual(["q1"]);
+    expect(merged.state?.progress.missCounts).toEqual({ q1: 2 });
+    const dayBefore = stateWithBirthAge(local, { year: 2013, month: 10, day: 30 }, today);
+    expect(dayBefore.ageGroup).toBe("child");
+    expect(mergeAccountProgress(dayBefore, null).upload).toBe(false);
   });
 
   it("does not upload a child's device", () => {

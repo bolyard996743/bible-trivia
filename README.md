@@ -1,6 +1,6 @@
-# Bible Trivia
+# Lamp & Path
 
-A small, playable Bible trivia demo. It teaches from Scripture: a missed question stops the game, shows a verse and a short explanation, then asks that same question again. Progress stays in this browser. There are no accounts and no external services.
+A small, playable Lamp & Path demo, named from Psalm 119:105. It teaches from Scripture: a missed question stops the game, shows a verse and a short explanation, then asks that same question again. Progress stays in this browser until a player creates an account.
 
 The sample questions are placeholders (`review.status` is `draft`). The verses are short quotations from the New King James Version.
 
@@ -29,11 +29,11 @@ You can add the site to your home screen. After a production build, pages you ha
 
 ## How a round works
 
-1. Choose an age group (child, teen, adult, or older) and a guide: Judah the Lion, Agnes the Lamb, Shalom the Dove, Zion the Eagle, or Hunter the Great Fish.
+1. Enter a birthday. The app stores that date on this device and derives the audience (child, teen, adult, or older) from it, then you choose a guide: Judah the Lion, Agnes the Lamb, Shalom the Dove, Zion the Eagle, or Hunter the Great Fish.
 2. Take the placement quiz (13 questions, foundation through expert). Only the first try counts. The score is a ratio, so the same bands work for this longer quiz. It picks a starting cycle and tier. The results screen always says: everyone starts in a different place. The chosen guide's lines for that question are shown as text. Recordings are not included yet.
 3. From home, follow your private Knowledge Path: Seed, Sprout, Rooted, Growing, Established, Fruitful, Deep Roots. You also see the current cycle, section, and first-try streak.
 4. Play. A wrong answer brings your guide’s words, one to three verses, and a guiding explanation for your age group (adult if that wording is missing). The explanation points you toward the verse. It does not state the correct choice, and the choices are not highlighted. Press **I’m ready** and the same question returns with the choices in a new order. After two misses, a longer explanation appears, still without giving the choice away. A correct answer after a retry shows the one-sentence takeaway, which may state the answer. The next question waits until this one is correct.
-5. Leaderboards are not in this demo. That screen says they are coming.
+5. Leaderboards score mastered questions. Signed out, the board is read-only and your points stay on this device. With an account, your username is listed.
 6. The Bible tab is a placeholder. It does not show Bible text. Reading, highlights, and notes are still to come.
 
 The main navigation (Home, Play, Bible, Leaderboards, Settings) stays on the page on a phone, a tablet, and a desktop.
@@ -68,13 +68,17 @@ supabase link --project-ref wmopoyxwghddtkbmrfyy
 supabase db push
 ```
 
-In the Supabase Auth settings, add `http://localhost:3000/auth/callback` (and your real site) as a redirect URL before magic links will return to the app. That dashboard change is not made from this repo.
+In the Supabase Auth settings, add `http://localhost:3000/auth/callback` (and your real site) as a redirect URL so password reset and email confirmation can return to the app. That dashboard change is not made from this repo.
 
-Sign-in is an email magic link. Google is not connected; the auth helper leaves room for `signInWithOAuth({ provider: "google" })` later. Teen, adult, and older players can stay guests or sign in. A child never sees a sign-in form, and a child profile is rejected by the database. That is the COPPA line: a child's progress stays on the device.
+The first screen asks for a birthday with a month, day, and year, and it does not suggest an age. The birth date is stored on this device only. A date under 13 keeps the child audience, has no account, and sends nothing to the server. That first answer stays if they leave and come back. When the stored date computes to 13 or older, the app asks once about creating an account, with Not now remembered. Age 13 and older can create an account or play on this device. Playing without an account shows a warning first: progress stays on this device and cannot be moved unless they create an account later. Settings shows Create account only while signed out. Sign-up or sign-in asks before moving this device's questions, placement, and mentor into the account. Sign-up saves `birth_date` on their own profile row. The audience is derived from that date when the row is read and whenever it is saved, so it moves as they age. The database rejects a birth date under 13. A signed-in player who has no birth date is asked once. Password reset is an email link. Google is not connected.
+
+A username is 3–20 letters, numbers, or underscores. It is unique ignoring case, checked for profanity and for email, phone, or web-address shapes, and it cannot be changed after it is saved. The database trigger rejects a username update. The username is the leaderboard name.
+
+Leaderboard points are the sum of mastered questions by tier: foundation 1, intermediate 2, advanced 3, expert 4. Signed-in players see the top 15 and a window of 10 above, themselves, and 4 below. Those reads return username, points, and rank only. Signed-out players of any age are not listed and submit nothing. They see the same read-only window around their on-device point total, with `You: N points (just on this device)` underneath. That request sends only the point number.
 
 On sign-in, if this device already has progress, the account page asks before uploading. The merge keeps every mastered question, the higher miss count, the further cycle and tier, and both sets of notes.
 
-The browser uses the anon key only. There is no service-role key in this app. Row-level security is on `profiles`, `question_progress`, and `verse_marks`. Each policy allows a row only when `auth.uid()` is that row's `user_id`. `verse_marks` stores a book id, chapter, verse range, color, note, and timestamps. It does not store verse wording. The Knowledge Path is not a separate table: it is derived from the saved cycle and tier.
+The browser uses the anon key only. There is no service-role key in this app. Row-level security is on `profiles`, `question_progress`, and `verse_marks`. Each policy allows a row only when `(select auth.uid())` is that row's `user_id`. `verse_marks` stores a book id, chapter, verse range, color, note, and timestamps. It does not store verse wording. The Knowledge Path is not a separate table: it is derived from the saved cycle and tier.
 
 `getPlayerRepository()` is what the screens save through. It is the local repository until a signed-in teen, adult, or older player is syncing; then it writes the device copy first and the account second.
 

@@ -27,13 +27,58 @@ export function getSupabaseBrowserClient(): SupabaseClient | null {
   return browserClient;
 }
 
-export async function signInWithEmail(email: string): Promise<void> {
+export async function signUpWithPassword(input: {
+  email: string;
+  password: string;
+  username: string;
+}): Promise<{ needsConfirmation: boolean }> {
   const supabase = getSupabaseBrowserClient();
   if (!supabase) throw new Error("Sign-in is not configured.");
-  const redirectTo = `${window.location.origin}/auth/callback`;
-  const { error } = await supabase.auth.signInWithOtp({
-    email,
-    options: { emailRedirectTo: redirectTo },
+  const { data, error } = await supabase.auth.signUp({
+    email: input.email,
+    password: input.password,
+    options: { data: { username: input.username } },
+  });
+  if (error) throw error;
+  return { needsConfirmation: !data.session };
+}
+
+export async function signInWithPassword(input: { email: string; password: string }): Promise<void> {
+  const supabase = getSupabaseBrowserClient();
+  if (!supabase) throw new Error("Sign-in is not configured.");
+  const { error } = await supabase.auth.signInWithPassword(input);
+  if (error) throw error;
+}
+
+export async function sendPasswordReset(email: string): Promise<void> {
+  const supabase = getSupabaseBrowserClient();
+  if (!supabase) throw new Error("Sign-in is not configured.");
+  const { error } = await supabase.auth.resetPasswordForEmail(email, {
+    redirectTo: `${window.location.origin}/auth/callback`,
+  });
+  if (error) throw error;
+}
+
+export async function createProfileForNewAccount(input: {
+  username: string;
+  ageGroup: "teen" | "adult" | "older";
+  birthDate: string;
+  mascot?: "judah" | "agnes" | "shalom" | "zion" | "hunter";
+}): Promise<void> {
+  const supabase = getSupabaseBrowserClient();
+  if (!supabase) return;
+  const { data } = await supabase.auth.getUser();
+  const userId = data.user?.id;
+  if (!userId) return;
+  const existing = await supabase.from("profiles").select("user_id").eq("user_id", userId).maybeSingle();
+  if (existing.data) return;
+  const { error } = await supabase.from("profiles").insert({
+    user_id: userId,
+    username: input.username,
+    age_group: input.ageGroup,
+    birth_date: input.birthDate,
+    mascot: input.mascot ?? "judah",
+    points: 0,
   });
   if (error) throw error;
 }

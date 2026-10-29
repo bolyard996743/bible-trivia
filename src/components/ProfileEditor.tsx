@@ -1,13 +1,15 @@
 "use client";
 
 import { useMemo, useState, type FormEvent } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { MascotMark } from "@/components/MascotMark";
 import { mascotLineAudioSrc, pickMascotLine } from "@/lib/game";
-import { AGE_GROUPS, AGE_LABELS, MASCOT_IDS, MASCOTS, type AgeGroup, type MascotId, type MascotLine } from "@/lib/game/types";
-import { canOfferAccount } from "@/lib/account/policy";
+import { MASCOT_IDS, MASCOTS, type AgeGroup, type MascotId, type MascotLine } from "@/lib/game/types";
+import { showCreateAccountLink } from "@/lib/account/policy";
 import { savePlayerState } from "@/lib/account/repository";
 import { signOut } from "@/lib/account/supabase";
+import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { createState } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
@@ -22,16 +24,20 @@ export function ProfileEditor({
 }) {
   const router = useRouter();
   const { state, ready } = useProfile();
+  const gate = useAgeGate();
+  const auth = useSignedIn();
   const [ageGroup, setAgeGroup] = useState<AgeGroup | null>(null);
   const [mascot, setMascot] = useState<MascotId | null>(null);
   const [soundOn, setSoundOn] = useState(true);
   const [greeting, setGreeting] = useState<string | null>(null);
   const [hydrated, setHydrated] = useState(false);
 
-  if (ready && !hydrated) {
+  if (ready && gate.ready && !hydrated) {
     setHydrated(true);
+    const locked = gate.value?.bracket ?? null;
+    if (locked) setAgeGroup(locked);
+    else if (state) setAgeGroup(state.ageGroup);
     if (state) {
-      setAgeGroup(state.ageGroup);
       setMascot(state.mascot);
       setSoundOn(state.soundOn);
     }
@@ -69,39 +75,39 @@ export function ProfileEditor({
     router.push("/placement");
   }
 
-  if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!ready || !gate.ready || !auth.ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  const offerAccount = showCreateAccountLink({
+    signedIn: Boolean(auth.email),
+    age: gate.value?.bracket ?? ageGroup,
+  });
 
   return (
     <form onSubmit={save} className="grid gap-8">
       <div className="grid gap-3">
         <h1 className="text-3xl font-semibold text-grove-deep">
-          {mode === "setup" ? "Who is learning today?" : "Settings"}
+          {mode === "setup" ? "Choose a mentor" : "Settings"}
         </h1>
         <p className="text-lg text-ink">
           {mode === "setup"
-            ? "Pick an age group so the wording fits, and a guide who will talk you through the verses. You can change both later."
-            : "Change your age group, your guide, or the sound. Your place on the path stays put."}
+            ? "Pick a guide who will talk you through the verses."
+            : "You can change your guide or the sound. A username cannot be changed."}
         </p>
+        {mode === "settings" && offerAccount ? (
+          <Link
+            href="/account?mode=sign-up"
+            data-testid="create-account"
+            className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white"
+          >
+            Create account
+          </Link>
+        ) : null}
       </div>
 
-      <fieldset className="grid gap-3">
-        <legend className="mb-2 text-xl font-semibold">Age group</legend>
-        {AGE_GROUPS.map((age) => (
-          <label key={age} className="flex cursor-pointer items-center gap-3 rounded-2xl border border-line bg-card px-4 py-3 text-lg">
-            <input
-              type="radio"
-              name="age"
-              className="h-5 w-5"
-              checked={ageGroup === age}
-              onChange={() => setAgeGroup(age)}
-            />
-            <span>
-              <span className="font-semibold">{AGE_LABELS[age].title}</span>
-              <span className="mt-0.5 block text-base text-ink-soft">{AGE_LABELS[age].detail}</span>
-            </span>
-          </label>
-        ))}
-      </fieldset>
+      {gate.value?.under13 ? (
+        <p className="text-lg text-ink-soft" data-testid="child-local-only">
+          Progress stays on this device. Accounts aren&apos;t used for children.
+        </p>
+      ) : null}
 
       <fieldset className="grid gap-3">
         <legend className="mb-2 text-xl font-semibold">Choose a guide</legend>
@@ -156,28 +162,13 @@ export function ProfileEditor({
         )}
       </div>
 
-      {ageGroup === "child" ? (
-        <p className="text-lg text-ink-soft" data-testid="child-local-only">
-          Progress stays on this device. Accounts aren&apos;t used for children.
-        </p>
-      ) : null}
       <button
         type="submit"
         disabled={!ageGroup || !mascot}
         className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-50"
       >
-        {mode === "setup" ? (canOfferAccount(ageGroup) ? "Continue as guest" : "Continue") : "Save"}
+        {mode === "setup" ? "Continue" : "Save"}
       </button>
-      {mode === "setup" && canOfferAccount(ageGroup) ? (
-        <a href="/account" data-testid="sign-in-link" className="text-center text-lg text-grove-deep">
-          Sign in with email
-        </a>
-      ) : null}
-      {mode === "settings" && canOfferAccount(ageGroup) ? (
-        <a href="/account" data-testid="sign-in-link" className="text-center text-lg text-grove-deep">
-          Sign in with email
-        </a>
-      ) : null}
     </form>
   );
 }
