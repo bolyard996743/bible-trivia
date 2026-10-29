@@ -7,13 +7,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin()),
-  title: "Lamp & Path",
-  description: "Lamp & Path teaches from Scripture and waits until you know the answer.",
-  applicationName: "Lamp & Path",
+  title: "Noble Bereans",
+  description: "Noble Bereans teaches from Scripture and waits until you know the answer.",
+  applicationName: "Noble Bereans",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
-    title: "Lamp & Path",
+    title: "Noble Bereans",
     statusBarStyle: "default",
   },
   icons: {

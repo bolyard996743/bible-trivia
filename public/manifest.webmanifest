@@ -1,7 +1,7 @@
 {
-  "name": "Lamp & Path",
-  "short_name": "Lamp & Path",
-  "description": "Lamp & Path teaches from Scripture and waits until you know the answer.",
+  "name": "Noble Bereans",
+  "short_name": "Noble Bereans",
+  "description": "Noble Bereans teaches from Scripture and waits until you know the answer.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

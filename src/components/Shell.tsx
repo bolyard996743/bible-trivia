@@ -24,7 +24,7 @@ export function Shell({ children }: { children: ReactNode }) {
     <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col px-4 py-4 sm:px-6">
       <header className="mb-6 flex items-center justify-between gap-3">
         <Link href={state?.placementComplete ? "/home" : "/"} className="tap inline-flex items-center text-xl font-semibold text-grove-deep">
-          Lamp &amp; Path
+          Noble Bereans
         </Link>
         <div className="flex items-center gap-2">
           {ready && state ? (

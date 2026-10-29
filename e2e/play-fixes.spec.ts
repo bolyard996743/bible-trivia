@@ -8,6 +8,11 @@ test("a child landing and settings do not mention an account", async ({ page }) 
     );
   });
   await page.goto("/");
+  await expect(page.getByRole("heading", { name: "Noble Bereans" })).toBeVisible();
+  await expect(page.getByTestId("name-pronunciation")).toHaveText("(NO-bul buh-REE-unz)");
+  await expect(page.getByTestId("name-meaning")).toHaveText(
+    "The Bereans checked the Scriptures every day to see what was true. (See Acts 17:11)",
+  );
   await expect(page.getByTestId("landing-note")).toHaveText("Your progress is saved on this device.");
   await expect(page.getByText(/create an account/i)).toHaveCount(0);
   await page.goto("/settings");

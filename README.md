@@ -1,6 +1,6 @@
-# Lamp & Path
+# Noble Bereans
 
-A small, playable Lamp & Path demo, named from Psalm 119:105. It teaches from Scripture: a missed question stops the game, shows a verse and a short explanation, then asks that same question again. Progress stays in this browser until a player creates an account.
+A small, playable Noble Bereans demo (NO-bul buh-REE-unz). The Bereans checked the Scriptures every day to see what was true (Acts 17:11). It teaches from Scripture: a missed question stops the game, shows a verse and a short explanation, then asks that same question again. Progress stays in this browser until a player creates an account.
 
 The sample questions are placeholders (`review.status` is `draft`). The verses are short quotations from the New King James Version.
 
@@ -12,7 +12,7 @@ npx playwright install chromium
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) while developing. The deployed app is [https://lamp-and-path.vercel.app](https://lamp-and-path.vercel.app). Preview URLs look like `https://lamp-and-path-git-*.vercel.app`. Source is [bolyard996743/lamp-and-path](https://github.com/bolyard996743/lamp-and-path); GitHub redirects the previous repository name. On a phone, tablet, or desktop the layout stays one column with large tap targets.
+Open [http://localhost:3000](http://localhost:3000) while developing. The deployed app is [https://noble-bereans.vercel.app](https://noble-bereans.vercel.app). Preview URLs look like `https://noble-bereans-git-*.vercel.app`. Source is [bolyard996743/lamp-and-path](https://github.com/bolyard996743/lamp-and-path); GitHub redirects the previous repository name. On a phone, tablet, or desktop the layout stays one column with large tap targets.
 
 To check the production build, lint, and tests:
 
@@ -68,7 +68,7 @@ supabase link --project-ref wmopoyxwghddtkbmrfyy
 supabase db push
 ```
 
-Sign-up confirmation and password reset send the player to `/auth/callback` on the origin they are using (`window.location.origin`). A build without a browser uses `https://$VERCEL_URL`, and otherwise [https://lamp-and-path.vercel.app](https://lamp-and-path.vercel.app). In the Supabase Auth settings, allow `http://localhost:3000/auth/callback` and `https://lamp-and-path.vercel.app/auth/callback`, plus any preview host you use. That dashboard change is not made from this repo.
+Sign-up confirmation and password reset send the player to `/auth/callback` on the origin they are using (`window.location.origin`). A build without a browser uses `https://$VERCEL_URL`, and otherwise [https://noble-bereans.vercel.app](https://noble-bereans.vercel.app). In the Supabase Auth settings, allow `http://localhost:3000/auth/callback` and `https://noble-bereans.vercel.app/auth/callback`, plus any preview host you use. That dashboard change is not made from this repo.
 
 The first screen asks for a birthday with a month, day, and year, and it does not suggest an age. The birth date is stored on this device only. A date under 13 keeps the child audience, has no account, and sends nothing to the server. That first answer stays if they leave and come back. When the stored date computes to 13 or older, the app asks once about creating an account, with Not now remembered. Age 13 and older can create an account or play on this device. Playing without an account shows a warning first: progress stays on this device and cannot be moved unless they create an account later. Settings shows Create account only while signed out. Sign-up stores the username, birth date, and audience in user metadata and returns to `/auth/callback`. When email confirmation is on, there is no session yet; `supabase/migrations/20261029200000_profile_from_signup.sql` creates the profile row from that metadata. This repo does not apply that migration. Progress stays on the device until the first sign-in, which uses the existing merge. A profile with no username asks for one then. Sign-up or sign-in asks before moving this device's questions, placement, and mentor into the account. The audience is derived from that date when the row is read and whenever it is saved, so it moves as they age. The database rejects a birth date under 13. A signed-in player who has no birth date is asked once. Password reset is an email link. Google is not connected.
 

@@ -16,7 +16,7 @@ function watchSupabaseWrites(page: import("@playwright/test").Page) {
 
 test("the birthday screen does not suggest an age", async ({ page }) => {
   await page.goto("/");
-  await expect(page.getByRole("link", { name: "Lamp & Path" })).toBeVisible();
+  await expect(page.getByRole("link", { name: "Noble Bereans" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "When is your birthday?" })).toBeVisible();
   await expect(page.getByTestId("birth-month")).toHaveValue("");
   await expect(page.getByTestId("birth-day")).toHaveValue("");

@@ -12,8 +12,14 @@ export default function WelcomePage() {
 
   return (
     <section className="grid gap-6">
-      <p className="text-base tracking-wide text-gold">Lamp &amp; Path</p>
-      <h1 className="text-4xl leading-tight font-semibold text-grove-deep">A quiet place to learn the Bible, one question at a time.</h1>
+      <h1 className="text-4xl leading-tight font-semibold text-grove-deep">Noble Bereans</h1>
+      <p className="text-lg text-ink-soft" data-testid="name-pronunciation">
+        (NO-bul buh-REE-unz)
+      </p>
+      <p className="text-lg text-ink" data-testid="name-meaning">
+        The Bereans checked the Scriptures every day to see what was true. (See Acts 17:11)
+      </p>
+      <p className="text-2xl leading-tight font-semibold text-grove-deep">A quiet place to learn the Bible, one question at a time.</p>
       <p className="text-lg text-ink">
         If you miss a question, we stop. Your guide reads a verse with you, and the same question waits until you know it. There is no shame in learning.
       </p>

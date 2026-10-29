@@ -1,5 +1,5 @@
-/** Production host after the Vercel project rename. Previews use lamp-and-path-git-*. */
-export const PRODUCTION_ORIGIN = "https://lamp-and-path.vercel.app";
+/** Production host. Preview hosts look like noble-bereans-git-*.vercel.app. */
+export const PRODUCTION_ORIGIN = "https://noble-bereans.vercel.app";
 
 function vercelOrigin(): string | null {
   const host = process.env.VERCEL_URL?.trim().replace(/^https?:\/\//, "").replace(/\/$/, "");
