@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { canOfferAccount } from "@/lib/account/policy";
@@ -22,10 +23,26 @@ export function MainNav() {
   const links = showAccount
     ? [...LINKS, { href: "/account", label: "Account" }]
     : LINKS;
+  const [open, setOpen] = useState(false);
+  useEffect(() => {
+    setOpen(false);
+  }, [pathname]);
   return (
+    <div className="mb-6">
+      <button
+        type="button"
+        className="sm:hidden rounded-2xl border border-line bg-card px-4 text-base text-ink"
+        data-testid="nav-menu"
+        aria-expanded={open}
+        aria-controls="main-nav"
+        onClick={() => setOpen((value) => !value)}
+      >
+        Menu
+      </button>
     <nav
+      id="main-nav"
       aria-label="Main"
-      className={`mb-6 grid grid-cols-2 gap-1.5 sm:grid-cols-3 ${showAccount ? "lg:grid-cols-6" : "lg:grid-cols-5"}`}
+      className={`${open ? "mt-2 grid" : "hidden"} grid-cols-2 gap-1.5 sm:mt-0 sm:grid sm:grid-cols-3 ${showAccount ? "lg:grid-cols-6" : "lg:grid-cols-5"}`}
     >
       {links.map((link) => {
         const current = pathname === link.href;
@@ -43,5 +60,6 @@ export function MainNav() {
         );
       })}
     </nav>
+    </div>
   );
 }

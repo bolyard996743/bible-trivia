@@ -2,11 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { MascotMark } from "@/components/MascotMark";
 import { STARTING_REASSURANCE } from "@/lib/copy";
-import { pickMascotLine } from "@/lib/game";
-import { MASCOTS, type MascotLine, type Question } from "@/lib/game/types";
-import { fetchAroundScore, fetchSignedInBoards, type PublicBoardRow } from "@/lib/account/leaderboard";
+import type { MascotLine, Question } from "@/lib/game/types";
+import { fetchAroundScore, fetchSignedInBoards, fetchTopBoard, type PublicBoardRow } from "@/lib/account/leaderboard";
 import { pointsFromProgress } from "@/lib/account/points";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
@@ -30,15 +28,12 @@ function BoardList({ rows }: { rows: PublicBoardRow[] }) {
   );
 }
 
-export function LeaderboardClient({ questions, lines }: { questions: Question[]; lines: MascotLine[] }) {
+export function LeaderboardClient({ questions }: { questions: Question[]; lines: MascotLine[] }) {
   const { state, ready } = useProfile();
   const gate = useAgeGate();
   const auth = useSignedIn();
   const [rows, setRows] = useState<PublicBoardRow[]>([]);
   const [near, setNear] = useState<PublicBoardRow[]>([]);
-  const mascot = state?.mascot ?? "shalom";
-  const age = state?.ageGroup ?? (gate.value?.under13 ? "child" : "adult");
-  const line = pickMascotLine(lines, mascot, "leaderboard_reassurance", age, { random: () => 0 });
   const points = pointsFromProgress(questions, state?.progress.masteredIds ?? []);
   const under13 = gate.value?.under13 || state?.ageGroup === "child";
   const localBoard = !auth.email || under13;
@@ -46,8 +41,10 @@ export function LeaderboardClient({ questions, lines }: { questions: Question[];
   useEffect(() => {
     if (!gate.ready || !auth.ready || !localBoard) return;
     let active = true;
-    void fetchAroundScore(points).then((next) => {
-      if (active) setRows(next);
+    void Promise.all([fetchTopBoard(), fetchAroundScore(points)]).then(([top, around]) => {
+      if (!active) return;
+      setRows(top);
+      setNear(around);
     });
     return () => {
       active = false;
@@ -77,13 +74,19 @@ export function LeaderboardClient({ questions, lines }: { questions: Question[];
         Points come from questions you have mastered: 1 for foundation, 2 for intermediate, 3 for advanced, and 4 for expert.
       </p>
       {localBoard ? (
-        <div className="grid gap-3" data-testid="near-you-board">
-          <h2 className="text-2xl font-semibold text-grove-deep">Near your score</h2>
-          <BoardList rows={rows} />
+        <>
+          <div className="grid gap-3" data-testid="top-board">
+            <h2 className="text-2xl font-semibold text-grove-deep">Top 15</h2>
+            <BoardList rows={rows} />
+          </div>
+          <div className="grid gap-3" data-testid="near-you-board">
+            <h2 className="text-2xl font-semibold text-grove-deep">Near your score</h2>
+            <BoardList rows={near} />
+          </div>
           <p className="text-lg text-ink" data-testid="device-points">
             You: {points} points (just on this device)
           </p>
-        </div>
+        </>
       ) : (
         <>
           <div className="grid gap-3" data-testid="top-board">
@@ -97,13 +100,6 @@ export function LeaderboardClient({ questions, lines }: { questions: Question[];
           </div>
         </>
       )}
-      <div className="flex gap-3 rounded-3xl border border-line bg-card p-5">
-        <MascotMark mascot={mascot} />
-        <div>
-          <p className="text-base text-ink-soft">{MASCOTS[mascot].name}</p>
-          <p className="text-lg text-ink">{line?.text}</p>
-        </div>
-      </div>
       <Link href={state?.placementComplete ? "/home" : "/"} className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
         Back
       </Link>

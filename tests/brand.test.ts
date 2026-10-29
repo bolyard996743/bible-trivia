@@ -11,7 +11,7 @@ describe("Noble Bereans", () => {
       "public/manifest.webmanifest",
       "src/app/layout.tsx",
       "src/app/page.tsx",
-      "src/components/Shell.tsx",
+      "src/components/SiteLogo.tsx",
     ];
     for (const file of files) {
       const text = fs.readFileSync(path.join(root, file), "utf8");
@@ -25,6 +25,29 @@ describe("Noble Bereans", () => {
     };
     expect(manifest.name).toBe("Noble Bereans");
     expect(manifest.short_name).toBe("Noble Bereans");
+    const manifestIcons = (
+      JSON.parse(fs.readFileSync(path.join(root, "public/manifest.webmanifest"), "utf8")) as {
+        icons: { src: string; purpose: string }[];
+      }
+    ).icons;
+    expect(manifestIcons.some((icon) => icon.purpose === "any" && icon.src.endsWith("icon-512.png"))).toBe(true);
+    expect(manifestIcons.some((icon) => icon.purpose === "maskable")).toBe(true);
+    for (const file of [
+      "public/brand/logo-full-source.jpg",
+      "public/brand/icon-source.jpg",
+      "public/brand/logo-ink-mask.png",
+      "public/brand/logo-accent-mask.png",
+      "public/favicon.ico",
+      "public/apple-touch-icon.png",
+      "public/icons/icon-192.png",
+      "public/icons/icon-512.png",
+      "public/icons/icon-maskable-512.png",
+    ]) {
+      expect(fs.existsSync(path.join(root, file)), file).toBe(true);
+    }
+    const shell = fs.readFileSync(path.join(root, "src/components/Shell.tsx"), "utf8");
+    expect(shell).toContain("SiteLogo");
+    expect(shell).not.toContain(">Noble Bereans<");
     const page = fs.readFileSync(path.join(root, "src/app/page.tsx"), "utf8");
     expect(page).toContain("(NO-bul buh-REE-unz)");
     expect(page).toContain("The Bereans checked the Scriptures every day to see what was true. (See Acts 17:11)");
