@@ -27,6 +27,10 @@ describe("Genesis 37-50 completion", () => {
       "c1-gen-0013",
       "c1-gen-0014",
       "c1-gen-0015",
+      "c1-gen-0016",
+      "c1-gen-0017",
+      "c1-gen-0018",
+      "c1-gen-0019",
     ]);
 
     const foundation = inSectionTier(questions, "foundation");
