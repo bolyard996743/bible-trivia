@@ -1,0 +1,252 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0016",
+      "cycle": 1,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "Simeon",
+        "brothers"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While Joseph held one of the brothers in Egypt, whom did he tell the others to bring to him so that their words would be verified?",
+        "child": "Joseph kept one brother in Egypt. Who did he tell the others to bring to him to prove they were telling the truth?",
+        "teen": "While one brother was held in Egypt, whom did Joseph tell the others to bring to him to verify their words?",
+        "older": "While one of the brothers was held in Egypt, whom did Joseph tell the rest to bring to him so that their words would be verified?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their youngest brother"
+        },
+        {
+          "id": "b",
+          "text": "Their father Jacob"
+        },
+        {
+          "id": "c",
+          "text": "Their wives and children"
+        },
+        {
+          "id": "d",
+          "text": "A gift of balm and honey"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 42:20",
+            "text": "And bring your youngest brother to me; so your words will be verified, and you shall not die.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 42:20 closely. Joseph begins with a command that starts with “bring.” Find who he says to bring and the reason he gives for it.",
+          "child": "Look at the verse again. Find who Joseph says to bring to him. The verse also tells why he asks.",
+          "teen": "Check Genesis 42:20. Joseph gives a command and a reason. Find the command, then match it to a choice.",
+          "older": "Take a careful look at Genesis 42:20. Joseph gives a command that begins with “bring,” and then states what it would prove."
+        },
+        "extended_explanation": "The verse gives one command followed by a reason. Match the person Joseph asks them to bring, not someone else who is important elsewhere in the story. Some of the other choices appear later in the story, but not in this verse.",
+        "takeaway": "Joseph told the brothers to bring their youngest brother to him so that their words would be verified."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0017",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "Simeon",
+        "hostage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which brother did Joseph take from the others and bind before their eyes?",
+        "child": "Joseph took one brother and tied him up in front of the others. Which brother was it?",
+        "teen": "Which brother did Joseph take from the others and bind while they watched?",
+        "older": "Which of the brothers did Joseph take from the others and bind before their eyes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Simeon"
+        },
+        {
+          "id": "b",
+          "text": "Reuben"
+        },
+        {
+          "id": "c",
+          "text": "Levi"
+        },
+        {
+          "id": "d",
+          "text": "Judah"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 42:24",
+            "text": "And he turned himself away from them and wept. Then he returned to them again, and talked with them. And he took Simeon from them and bound him before their eyes.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 42:24 closely. The last sentence names the brother Joseph took and says what he did to him. Find the name there.",
+          "child": "Look at the verse again. Find the last sentence. It names the brother that Joseph took from them.",
+          "teen": "Check Genesis 42:24. The final sentence says whom Joseph took and what he did. Match the name to a choice.",
+          "older": "Take a careful look at the last sentence of Genesis 42:24. It names the brother Joseph took and says what was done to him in front of the others."
+        },
+        "extended_explanation": "The first two sentences tell how Joseph reacted; the final sentence names the brother he took. The other names among the choices are real brothers in the story, so use only the name the verse gives.",
+        "takeaway": "Joseph took Simeon from his brothers and bound him before their eyes."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0018",
+      "cycle": 1,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "silver cup",
+        "steward",
+        "Benjamin"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Besides the youngest brother's grain money, what did Joseph tell his steward to put in the mouth of his sack?",
+        "child": "Joseph told his steward to put something special in the youngest brother's sack, along with his grain money. What was it?",
+        "teen": "Besides the youngest brother's grain money, what did Joseph tell his steward to put in his sack?",
+        "older": "In addition to the youngest brother's grain money, what did Joseph order his steward to put in the mouth of his sack?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His silver cup"
+        },
+        {
+          "id": "b",
+          "text": "A gold chain"
+        },
+        {
+          "id": "c",
+          "text": "A sealed letter"
+        },
+        {
+          "id": "d",
+          "text": "A bag of spices"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 44:2",
+            "text": "Also put my cup, the silver cup, in the mouth of the sack of the youngest, and his grain money.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 44:2 closely. Joseph begins with a command that starts with “Also put.” Find the item he names and the way he describes it.",
+          "child": "Look at the verse again. Find what Joseph says to put in the sack. He describes it twice.",
+          "teen": "Check Genesis 44:2. The verse names the item and then repeats it with a description. Find both parts, then pick the matching choice.",
+          "older": "Take a careful look at Genesis 44:2. Joseph names the item and then describes it a second time. Read the beginning of the verse slowly."
+        },
+        "extended_explanation": "The verse names the item twice, once plainly and once with a description of what it is made of. The other choices are objects that appear elsewhere in Joseph's story, so match only the item and description in this verse.",
+        "takeaway": "Joseph told his steward to put his silver cup in the mouth of the youngest brother's sack."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0019",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "silver cup",
+        "Benjamin"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In whose sack was Joseph's silver cup found?",
+        "child": "Joseph's silver cup was found in one brother's sack. Whose sack was it?",
+        "teen": "Whose sack was Joseph's silver cup found in?",
+        "older": "In which brother's sack was Joseph's silver cup found?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Benjamin's"
+        },
+        {
+          "id": "b",
+          "text": "Judah's"
+        },
+        {
+          "id": "c",
+          "text": "Levi's"
+        },
+        {
+          "id": "d",
+          "text": "Naphtali's"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 44:12",
+            "text": "So he searched. He began with the oldest and left off with the youngest; and the cup was found in Benjamin’s sack.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 44:12 closely. The steward searched from the oldest to the youngest, and the verse ends by saying whose sack held the cup. Find the name at the end.",
+          "child": "Look at the verse again. The last part of the verse says where the cup was found. Find the name there.",
+          "teen": "Check Genesis 44:12. The end of the verse says in whose sack the cup was found. Match the name to a choice.",
+          "older": "Take a careful look at the end of Genesis 44:12. After the steward's search, the verse names the owner of the sack in which the cup was found."
+        },
+        "extended_explanation": "The steward searched in order, and the verse tells you where the search ended. Find the name at the end of the verse and choose the matching sack. The other names among the choices are brothers in the story but not the one named here.",
+        "takeaway": "Joseph's silver cup was found in Benjamin's sack."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Simeon and silver cup follow-up; verse text verified against NKJV (BibleGateway)."
+      }
+    }
+  ]
+}

@@ -1,0 +1,743 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "Jacob",
+        "favoritism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What special garment did Jacob (Israel) make for Joseph, showing that he loved him more than his other sons?",
+        "child": "Joseph's father Jacob loved him more than his brothers. What special thing did Jacob make for Joseph?",
+        "teen": "What did Jacob make for Joseph that showed he was his favorite son?",
+        "older": "What special garment did Jacob make for Joseph, a sign of the love he had for him above all his other sons?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tunic of many colors"
+        },
+        {
+          "id": "b",
+          "text": "A shepherd's staff"
+        },
+        {
+          "id": "c",
+          "text": "A signet ring"
+        },
+        {
+          "id": "d",
+          "text": "A woven belt of gold"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 37:3",
+            "text": "Now Israel loved Joseph more than all his children, because he was the son of his old age. Also he made him a tunic of many colors.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 37:3 closely. Notice the reason the verse gives for Israel's love for Joseph, and then read the last sentence to see what he made for him.",
+          "child": "Look at the verse again. Find what Jacob made for Joseph in the last sentence.",
+          "teen": "Check Genesis 37:3. The last sentence names what Jacob made for Joseph. Find it and match it to a choice.",
+          "older": "Take a careful look at Genesis 37:3. After telling why Israel loved Joseph so much, the verse names what he made for him."
+        },
+        "extended_explanation": "The verse first gives a reason for Israel's special love, and then it names something he made. Read to the end of the verse and match the garment it describes, including its distinctive look. The other choices are objects that appear elsewhere in Scripture or the story.",
+        "takeaway": "Jacob made Joseph a tunic of many colors, showing his special love for him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "dreams",
+        "brothers"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Joseph's second dream, what bowed down to him?",
+        "child": "Joseph had a second dream and told it to his brothers. What bowed down to him in that dream?",
+        "teen": "In Joseph's second dream, which things bowed down to him?",
+        "older": "In the second of Joseph's dreams, what is described as bowing down to him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sun, the moon, and eleven stars"
+        },
+        {
+          "id": "b",
+          "text": "Eleven sheaves of grain"
+        },
+        {
+          "id": "c",
+          "text": "Eleven lambs from the flock"
+        },
+        {
+          "id": "d",
+          "text": "Eleven olive trees"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 37:9",
+            "text": "Then he dreamed still another dream and told it to his brothers, and said, “Look, I have dreamed another dream. And this time, the sun, the moon, and the eleven stars bowed down to me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 37:9 closely. Joseph says what happened “this time.” Find the things he saw bowing down and count them as the verse describes them.",
+          "child": "Look at the verse again. Joseph tells his brothers what bowed down to him in this dream. Find the list and match it to a choice.",
+          "teen": "Check Genesis 37:9. Joseph says what bowed down “this time.” Find it in the verse, then pick the choice that matches.",
+          "older": "Take a careful look at Genesis 37:9. Joseph tells what he saw bowing down in this dream, and the verse lists it for you."
+        },
+        "extended_explanation": "This is Joseph's second dream, told to his brothers; his first dream used a different picture. The verse lists what bowed down this time, including a number. Choose the choice that matches that list, not the picture from the first dream.",
+        "takeaway": "In his second dream, the sun, the moon, and eleven stars bowed down to Joseph."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0006",
+      "cycle": 1,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "sold into slavery",
+        "Midianites",
+        "Ishmaelites"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "For what price did Joseph's brothers sell him to the Ishmaelites?",
+        "child": "Joseph's brothers pulled him out of the pit and sold him to traders. How much did they get for him?",
+        "teen": "What price did Joseph's brothers get when they sold him to the Ishmaelites?",
+        "older": "For how much did Joseph's brothers sell him to the Ishmaelites?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ten shekels of silver"
+        },
+        {
+          "id": "b",
+          "text": "Twenty shekels of silver"
+        },
+        {
+          "id": "c",
+          "text": "Thirty shekels of silver"
+        },
+        {
+          "id": "d",
+          "text": "Fifty shekels of silver"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 37:28",
+            "text": "Then Midianite traders passed by; so the brothers pulled Joseph up and lifted him out of the pit, and sold him to the Ishmaelites for twenty shekels of silver. And they took Joseph to Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 37:28 closely. The verse names the buyers and then gives the price. Find the amount and the metal, and be careful to match both.",
+          "child": "Look at the verse again. It says how much the brothers were paid. Find the amount and match it to a choice.",
+          "teen": "Check Genesis 37:28. It gives the price of the sale. Find the amount and pick the choice that matches it exactly.",
+          "older": "Take a careful look at Genesis 37:28. The verse names the buyers and then states the price they paid. Read it slowly and match the amount."
+        },
+        "extended_explanation": "Several different sums of money appear in the Bible, so rely only on this verse. Find the phrase that follows the word “for” after the buyers are named. The right choice matches that amount exactly.",
+        "takeaway": "Joseph's brothers sold him to the Ishmaelites for twenty shekels of silver."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "Potiphar",
+        "prison"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Potiphar's wife falsely accused him, where did Joseph's master put him?",
+        "child": "Potiphar's wife told a lie about Joseph. After that, where did his master put Joseph?",
+        "teen": "After the false accusation by Potiphar's wife, where did Joseph's master send him?",
+        "older": "Where did Joseph's master put him after the false charge made by Potiphar's wife?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In the prison"
+        },
+        {
+          "id": "b",
+          "text": "In a pit in the wilderness"
+        },
+        {
+          "id": "c",
+          "text": "In the fields to tend sheep"
+        },
+        {
+          "id": "d",
+          "text": "Back to his father's tents in Canaan"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 39:20",
+            "text": "Then Joseph’s master took him and put him into the prison, a place where the king’s prisoners were confined. And he was there in the prison.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 39:20 closely. Notice where the verse says Joseph's master put him, and who else was kept there.",
+          "child": "Look at the verse again. Find the place where Joseph's master put him. The verse tells you who else was there.",
+          "teen": "Check Genesis 39:20. It names the place Joseph's master put him and who else was there. Match it to a choice.",
+          "older": "Take a careful look at Genesis 39:20. The verse tells where Joseph's master put him and describes the other people kept in that place."
+        },
+        "extended_explanation": "The verse names the place twice and describes what kind of place it was. Compare each choice with those details. Joseph was in a pit earlier in the story and in the fields before that, but this verse is about what happened after the accusation.",
+        "takeaway": "Joseph's master put him into the prison, where the king's prisoners were confined."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "prison",
+        "cupbearer",
+        "dreams"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In prison, Joseph interpreted the dreams of two of Pharaoh's officers. Which one did Pharaoh restore to his position?",
+        "child": "In prison, Joseph explained the dreams of two of Pharaoh's servants. Which one got his job back?",
+        "teen": "Joseph interpreted dreams for two of Pharaoh's officers in prison. Which of them did Pharaoh restore to his position?",
+        "older": "While in prison, Joseph interpreted the dreams of two of Pharaoh's officers. Which of them did Pharaoh restore to his former position?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The chief butler"
+        },
+        {
+          "id": "b",
+          "text": "The chief baker"
+        },
+        {
+          "id": "c",
+          "text": "The captain of the guard"
+        },
+        {
+          "id": "d",
+          "text": "The chief steward"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 40:21",
+            "text": "Then he restored the chief butler to his butlership again, and he placed the cup in Pharaoh’s hand.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 40:21 closely. Notice who Pharaoh restored and what the verse says he placed in Pharaoh's hand. That detail tells you the man's job.",
+          "child": "Look at the verse again. Find who got his position back. The verse also tells what he put in Pharaoh's hand.",
+          "teen": "Check Genesis 40:21. It names the officer who was restored and what he placed in Pharaoh's hand. Use that clue to match the right job.",
+          "older": "Take a careful look at Genesis 40:21. The verse names the officer who was restored, and the last part tells what he did in Pharaoh's presence."
+        },
+        "extended_explanation": "The verse describes one officer being restored and gives a clue about his duties. Match that clue to the choices. The other officer who had a dream is not the one restored in this verse.",
+        "takeaway": "Pharaoh restored the chief butler to his position, and he placed the cup in Pharaoh's hand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "Pharaoh",
+        "dreams"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Pharaoh asked Joseph to interpret his dream, who did Joseph say would give Pharaoh an answer?",
+        "child": "Pharaoh asked Joseph to explain his dream. Who did Joseph say would give the answer?",
+        "teen": "When Pharaoh asked Joseph to interpret his dream, who did Joseph say would give the answer?",
+        "older": "When Pharaoh asked Joseph to interpret his dream, whom did Joseph say would give Pharaoh an answer?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "God"
+        },
+        {
+          "id": "b",
+          "text": "The magicians of Egypt"
+        },
+        {
+          "id": "c",
+          "text": "The chief butler"
+        },
+        {
+          "id": "d",
+          "text": "An angel"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 41:16",
+            "text": "So Joseph answered Pharaoh, saying, “It is not in me; God will give Pharaoh an answer of peace.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 41:16 closely. Joseph first says what is not in him, and then names who will give the answer. Find that name in the verse.",
+          "child": "Look at the verse again. Joseph says who will give Pharaoh an answer. Find who he names and match it to a choice.",
+          "teen": "Check Genesis 41:16. Joseph gives credit for the answer, and the verse says to whom. Find it in the second half of his sentence.",
+          "older": "Take a careful look at Genesis 41:16. Joseph begins by saying what is not in him, and then he names the One who will answer Pharaoh."
+        },
+        "extended_explanation": "Joseph's reply has two parts separated by a semicolon. The first part tells where the answer does not come from; the second part tells who gives it. Choose the choice that matches the second part.",
+        "takeaway": "Joseph said that God would give Pharaoh an answer."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0010",
+      "cycle": 1,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Pharaoh",
+        "dreams",
+        "famine"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Joseph's interpretation of Pharaoh's dream, what did the seven good cows represent?",
+        "child": "Pharaoh dreamed about seven good cows. What did Joseph say they meant?",
+        "teen": "In Pharaoh's dream, Joseph said the seven good cows stood for what?",
+        "older": "In Joseph's interpretation of Pharaoh's dream, what did the seven good cows stand for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seven years"
+        },
+        {
+          "id": "b",
+          "text": "Seven kings"
+        },
+        {
+          "id": "c",
+          "text": "Seven cities"
+        },
+        {
+          "id": "d",
+          "text": "Seven rivers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 41:26",
+            "text": "The seven good cows are seven years, and the seven good heads are seven years; the dreams are one.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 41:26 closely. Joseph begins with the good cows and says what they are. Find how he completes that sentence.",
+          "child": "Look at the verse again. Find how Joseph finishes the sentence that begins with the good cows.",
+          "teen": "Check Genesis 41:26. The first part of the verse tells what the good cows are. Find it and match it to a choice.",
+          "older": "Take a careful look at Genesis 41:26. Joseph begins by naming the good cows and then tells what they are. Read the first half carefully."
+        },
+        "extended_explanation": "The verse has two halves that work the same way: one about the good cows and one about the good heads of grain. Both end with the same kind of answer. Read the first half and match how it ends.",
+        "takeaway": "The seven good cows were seven years."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0011",
+      "cycle": 1,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "Pharaoh",
+        "Egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How old was Joseph when he stood before Pharaoh?",
+        "child": "How old was Joseph when he stood in front of Pharaoh?",
+        "teen": "How old was Joseph when he first stood before Pharaoh?",
+        "older": "At what age did Joseph stand before Pharaoh, king of Egypt?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seventeen years old"
+        },
+        {
+          "id": "b",
+          "text": "Thirty years old"
+        },
+        {
+          "id": "c",
+          "text": "Forty years old"
+        },
+        {
+          "id": "d",
+          "text": "Fifty years old"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 41:46",
+            "text": "Joseph was thirty years old when he stood before Pharaoh king of Egypt. And Joseph went out from the presence of Pharaoh, and went throughout all the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 41:46 closely. The verse opens with Joseph's age at the time he stood before Pharaoh. Find the number in the first sentence.",
+          "child": "Look at the verse again. The very first words give Joseph's age. Find the number.",
+          "teen": "Check Genesis 41:46. The first sentence gives Joseph's age when he stood before Pharaoh. Match it to a choice.",
+          "older": "Take a careful look at the first sentence of Genesis 41:46. It states his age at this point in his story."
+        },
+        "extended_explanation": "Joseph's age appears at different points in his story. This verse states his age at the moment he stood before Pharaoh, so a number you remember from earlier, such as his age when his brothers sold him, does not apply here.",
+        "takeaway": "Joseph was thirty years old when he stood before Pharaoh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0012",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Jacob",
+        "Benjamin",
+        "famine"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Joseph's brothers first went to Egypt to buy grain, which brother did Jacob not send with them?",
+        "child": "Jacob sent Joseph's brothers to Egypt to buy grain, but he kept one at home. Which brother stayed?",
+        "teen": "When Jacob sent his sons to Egypt for grain the first time, which brother did he keep at home?",
+        "older": "When Jacob first sent his sons to Egypt for grain, which of them did he not send with the others?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Benjamin"
+        },
+        {
+          "id": "b",
+          "text": "Reuben"
+        },
+        {
+          "id": "c",
+          "text": "Judah"
+        },
+        {
+          "id": "d",
+          "text": "Simeon"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 42:4",
+            "text": "But Jacob did not send Joseph’s brother Benjamin with his brothers, for he said, “Lest some calamity befall him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 42:4 closely. The verse says who Jacob did not send and why. Find his name in the first sentence.",
+          "child": "Look at the verse again. Find the brother Jacob did not send, and read why.",
+          "teen": "Check Genesis 42:4. It names the brother Jacob kept at home and gives Jacob's fear. Match the name to a choice.",
+          "older": "Take a careful look at Genesis 42:4. The verse names the son Jacob would not send and states what Jacob feared might happen."
+        },
+        "extended_explanation": "The verse names one son who stayed home and also gives a reason in Jacob's own words. The other names among the choices are brothers who made the trip or who stayed in Egypt later, so match only the one named in this verse.",
+        "takeaway": "Jacob did not send Benjamin with his brothers, because he feared some calamity might befall him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0013",
+      "cycle": 1,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "Jacob",
+        "Goshen",
+        "Egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In which land did Joseph tell his brothers that their father and their families should dwell?",
+        "child": "Joseph wanted his family close to him. In which land did he tell them to live?",
+        "teen": "In which land did Joseph tell his brothers their father and families should dwell?",
+        "older": "In which land did Joseph tell his brothers that their father and their households should dwell?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Goshen"
+        },
+        {
+          "id": "b",
+          "text": "Canaan"
+        },
+        {
+          "id": "c",
+          "text": "Midian"
+        },
+        {
+          "id": "d",
+          "text": "Moab"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 45:10",
+            "text": "You shall dwell in the land of Goshen, and you shall be near to me, you and your children, your children’s children, your flocks and your herds, and all that you have.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 45:10 closely. Joseph says where they shall dwell and who is to come. Find the name of the land.",
+          "child": "Look at the verse again. Joseph names the land where his family will live. Find its name and match it to a choice.",
+          "teen": "Check Genesis 45:10. Joseph names a land at the start of the verse. Find it, then pick the matching choice.",
+          "older": "Take a careful look at the first part of Genesis 45:10. Joseph names the land where his family shall dwell near him."
+        },
+        "extended_explanation": "The first words of the verse give the name of the land where the family would live near Joseph. The other lands in the choices are places the family came from or places that appear elsewhere in the Bible, so use only the name in this verse.",
+        "takeaway": "Joseph told his family they would dwell in the land of Goshen, near him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0014",
+      "cycle": 1,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Jacob",
+        "blessings",
+        "Judah",
+        "tribes"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jacob's blessing of his sons, which son was told that the scepter shall not depart from him?",
+        "child": "When Jacob blessed his sons, he said the scepter would not leave one of them. Which son was it?",
+        "teen": "When Jacob blessed his sons, which one was told the scepter shall not depart from him?",
+        "older": "Among Jacob's blessings upon his sons, which son was told that the scepter shall not depart from him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judah"
+        },
+        {
+          "id": "b",
+          "text": "Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Levi"
+        },
+        {
+          "id": "d",
+          "text": "Reuben"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 49:10",
+            "text": "The scepter shall not depart from Judah, Nor a lawgiver from between his feet, Until Shiloh comes; And to Him shall be the obedience of the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 49:10 closely. The verse names the son whom the scepter shall not leave. Find his name in the first line.",
+          "child": "Look at the verse again. Find the name of the son in the first line. That is who Jacob is speaking about.",
+          "teen": "Check Genesis 49:10. The first line names the son who will keep the scepter. Match the name to a choice.",
+          "older": "Take a careful look at Genesis 49:10. Jacob names the son whom the scepter shall not depart from in the first line of the verse."
+        },
+        "extended_explanation": "The verse is poetry, and its first line names the son. The other three choices are sons who also received blessings in Genesis 49, so use only the name this verse gives.",
+        "takeaway": "Jacob said the scepter shall not depart from Judah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    },
+    {
+      "id": "c1-gen-0015",
+      "cycle": 1,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37-50",
+      "topics": [
+        "Joseph",
+        "forgiveness",
+        "providence"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Genesis 50:20, what did Joseph tell his brothers God meant their actions for?",
+        "child": "At the end of the story, Joseph tells his brothers what God meant their actions for. What did he say?",
+        "teen": "In Genesis 50:20, Joseph tells his brothers what God meant their actions for. What does he say?",
+        "older": "In Genesis 50:20, what purpose did Joseph say God had for his brothers' actions?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For good, to save many people alive"
+        },
+        {
+          "id": "b",
+          "text": "As a punishment for their jealousy"
+        },
+        {
+          "id": "c",
+          "text": "As a test of Joseph's patience"
+        },
+        {
+          "id": "d",
+          "text": "To make Joseph ruler over his brothers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 50:20",
+            "text": "But as for you, you meant evil against me; but God meant it for good, in order to bring it about as it is this day, to save many people alive.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 50:20 closely. The verse sets what his brothers meant against what God meant. Look at what follows “God meant it.”",
+          "child": "Look at the verse again. Joseph says what God meant. Find the words that come after “God meant it”.",
+          "teen": "Check Genesis 50:20. The verse has two parts, one about what his brothers did and one about what God meant. Focus on the second part.",
+          "older": "Take a careful look at Genesis 50:20. Joseph first speaks of his brothers' intent and then of what God meant. Read the second part slowly."
+        },
+        "extended_explanation": "The verse sets two intentions side by side, joined by the word “but”. Joseph's point is in the second part, where he says what God meant and for what result. Find the choice that matches that whole second part.",
+        "takeaway": "Joseph told his brothers that God meant it for good, to save many people alive."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Joseph batch; verse text verified against NKJV (BibleGateway)."
+      }
+    }
+  ]
+}
