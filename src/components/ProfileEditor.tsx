@@ -90,7 +90,9 @@ export function ProfileEditor({
         <p className="text-lg text-ink">
           {mode === "setup"
             ? "Pick a guide who will talk you through the verses."
-            : "You can change your guide or the sound. A username cannot be changed."}
+            : gate.value?.under13
+              ? "You can change your guide or the sound."
+              : "You can change your guide or the sound. A username cannot be changed."}
         </p>
         {mode === "settings" && offerAccount ? (
           <Link
@@ -105,7 +107,7 @@ export function ProfileEditor({
 
       {gate.value?.under13 ? (
         <p className="text-lg text-ink-soft" data-testid="child-local-only">
-          Progress stays on this device. Accounts aren&apos;t used for children.
+          Your progress is saved on this device.
         </p>
       ) : null}
 

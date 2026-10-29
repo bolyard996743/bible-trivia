@@ -6,6 +6,7 @@ import { AgeGate } from "@/components/AgeGate";
 import { BirthDatePrompt } from "@/components/BirthDatePrompt";
 import { MainNav } from "@/components/MainNav";
 import { Turn13Prompt } from "@/components/Turn13Prompt";
+import { UsernamePrompt } from "@/components/UsernamePrompt";
 import { useAgeGate } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
 import { savePlayerState } from "@/lib/account/repository";
@@ -45,6 +46,7 @@ export function Shell({ children }: { children: ReactNode }) {
         {!gate.ready ? <p className="text-lg text-ink-soft">Opening…</p> : gate.value ? children : <AgeGate />}
       </main>
       {gate.value && !gate.value.under13 ? <BirthDatePrompt /> : null}
+      {gate.value && !gate.value.under13 ? <UsernamePrompt /> : null}
       {gate.value ? <Turn13Prompt /> : null}
     </div>
   );

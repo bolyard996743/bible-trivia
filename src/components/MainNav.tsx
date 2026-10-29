@@ -23,7 +23,10 @@ export function MainNav() {
     ? [...LINKS, { href: "/account", label: "Account" }]
     : LINKS;
   return (
-    <nav aria-label="Main" className="mb-6 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-5">
+    <nav
+      aria-label="Main"
+      className={`mb-6 grid grid-cols-2 gap-1.5 sm:grid-cols-3 ${showAccount ? "lg:grid-cols-6" : "lg:grid-cols-5"}`}
+    >
       {links.map((link) => {
         const current = pathname === link.href;
         return (
@@ -31,7 +34,7 @@ export function MainNav() {
             key={link.href}
             href={link.href}
             aria-current={current ? "page" : undefined}
-            className={`tap inline-flex items-center justify-center rounded-2xl border px-3 text-center text-base ${
+            className={`tap inline-flex min-w-0 items-center justify-center rounded-2xl border px-1.5 text-center text-sm whitespace-nowrap ${
               current ? "border-grove bg-grove font-semibold text-white" : "border-line bg-card text-ink"
             }`}
           >

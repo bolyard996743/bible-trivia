@@ -3,11 +3,14 @@
 import Link from "next/link";
 import { useEffect, useState, type FormEvent } from "react";
 import { ageGroupFromBirthDate, birthDateIso, loadDeviceBirthDate, type DeviceBirth } from "@/lib/account/age-gate";
+import { CONFIRM_EMAIL_MESSAGE, PASSWORD_RULE, signupErrorMessage, USERNAME_TAKEN } from "@/lib/account/auth-errors";
 import { acceptMerge, declineMerge, getMergeOffer, subscribeAccount } from "@/lib/account/session";
 import {
   createProfileForNewAccount,
   getSupabaseBrowserClient,
   isSupabaseConfigured,
+  isUsernameAvailable,
+  resendSignupConfirmation,
   sendPasswordReset,
   signInWithPassword,
   signOut,
@@ -37,6 +40,7 @@ export function AccountScreen() {
   const [username, setUsername] = useState("");
   const [message, setMessage] = useState<string | null>(null);
   const [sending, setSending] = useState(false);
+  const [confirmEmail, setConfirmEmail] = useState<string | null>(null);
   const [offer, setOffer] = useState(getMergeOffer());
 
   useEffect(() => subscribeAccount(() => setOffer(getMergeOffer())), []);
@@ -53,7 +57,7 @@ export function AccountScreen() {
       <section className="grid gap-4">
         <h1 className="text-3xl font-semibold text-grove-deep">On this device</h1>
         <p className="text-lg text-ink" data-testid="child-local-only">
-          Progress for a child stays on this device. There is no account to sign in to.
+          Your progress is saved on this device.
         </p>
         <Link href="/home" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
           Continue
@@ -85,7 +89,7 @@ export function AccountScreen() {
         return;
       }
       if (password.length < 8) {
-        setMessage("Use a password of at least 8 characters.");
+        setMessage(mode === "sign-up" ? PASSWORD_RULE : "Use a password of at least 8 characters.");
         return;
       }
       if (mode === "sign-up") {
@@ -99,14 +103,20 @@ export function AccountScreen() {
           setMessage("Enter your birthday before creating an account.");
           return;
         }
+        if (!(await isUsernameAvailable(name.username))) {
+          setMessage(USERNAME_TAKEN);
+          return;
+        }
         const result = await signUpWithPassword({
           email: email.trim(),
           password,
           username: name.username,
+          birthDate: birthDateIso(readyBirth.birth),
+          ageGroup: readyBirth.age,
         });
         if (result.needsConfirmation) {
-          setMessage("Check your email to confirm the account, then sign in. Your username is saved with the sign-up.");
-          setMode("sign-in");
+          setConfirmEmail(email.trim());
+          setMessage(null);
           return;
         }
         await createProfileForNewAccount({
@@ -130,11 +140,44 @@ export function AccountScreen() {
         });
       }
       setMessage("You're signed in.");
-    } catch {
-      setMessage("We couldn't finish that. Check the email and password, and try again.");
+    } catch (error) {
+      setMessage(
+        mode === "sign-in"
+          ? "We couldn't sign in. Check the email and password, and try again."
+          : signupErrorMessage(error),
+      );
     } finally {
       setSending(false);
     }
+  }
+
+  if (confirmEmail && !auth.email) {
+    return (
+      <section className="grid gap-4" data-testid="confirm-email">
+        <h1 className="text-3xl font-semibold text-grove-deep">Check your email</h1>
+        <p className="text-lg text-ink">{CONFIRM_EMAIL_MESSAGE}</p>
+        <button
+          type="button"
+          data-testid="resend-confirmation"
+          disabled={sending}
+          onClick={() => {
+            setSending(true);
+            setMessage(null);
+            void resendSignupConfirmation(confirmEmail)
+              .then(() => setMessage("We sent another email."))
+              .catch((error: unknown) => setMessage(signupErrorMessage(error)))
+              .finally(() => setSending(false));
+          }}
+          className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-60"
+        >
+          Resend confirmation email
+        </button>
+        <button type="button" className="text-lg text-grove-deep" onClick={() => setConfirmEmail(null)}>
+          Sign in
+        </button>
+        {message ? <p className="text-lg text-ink">{message}</p> : null}
+      </section>
+    );
   }
 
   return (

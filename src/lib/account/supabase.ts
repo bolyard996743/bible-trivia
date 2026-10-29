@@ -1,5 +1,6 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
 import { authCallbackUrl } from "../site-url";
+import { signupUserMetadata, type SignupAgeGroup } from "./signup-metadata";
 
 let browserClient: SupabaseClient | null = null;
 
@@ -28,10 +29,20 @@ export function getSupabaseBrowserClient(): SupabaseClient | null {
   return browserClient;
 }
 
+export async function isUsernameAvailable(username: string): Promise<boolean> {
+  const supabase = getSupabaseBrowserClient();
+  if (!supabase) throw new Error("Sign-in is not configured.");
+  const { data, error } = await supabase.rpc("username_available", { candidate: username });
+  if (error) throw error;
+  return data === true;
+}
+
 export async function signUpWithPassword(input: {
   email: string;
   password: string;
   username: string;
+  birthDate: string;
+  ageGroup: SignupAgeGroup;
 }): Promise<{ needsConfirmation: boolean }> {
   const supabase = getSupabaseBrowserClient();
   if (!supabase) throw new Error("Sign-in is not configured.");
@@ -39,12 +50,27 @@ export async function signUpWithPassword(input: {
     email: input.email,
     password: input.password,
     options: {
-      data: { username: input.username },
+      data: signupUserMetadata({
+        username: input.username,
+        birthDate: input.birthDate,
+        ageGroup: input.ageGroup,
+      }),
       emailRedirectTo: authCallbackUrl(),
     },
   });
   if (error) throw error;
   return { needsConfirmation: !data.session };
+}
+
+export async function resendSignupConfirmation(email: string): Promise<void> {
+  const supabase = getSupabaseBrowserClient();
+  if (!supabase) throw new Error("Sign-in is not configured.");
+  const { error } = await supabase.auth.resend({
+    type: "signup",
+    email,
+    options: { emailRedirectTo: authCallbackUrl() },
+  });
+  if (error) throw error;
 }
 
 export async function signInWithPassword(input: { email: string; password: string }): Promise<void> {
