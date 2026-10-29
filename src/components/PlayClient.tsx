@@ -6,7 +6,9 @@ import { useRouter } from "next/navigation";
 import { QuestionSession } from "@/components/QuestionSession";
 import { applyMastery, nextQuestion } from "@/lib/game";
 import type { MascotLine, Question } from "@/lib/game/types";
-import { saveState, type Celebration } from "@/lib/storage";
+import { pointsFromProgress } from "@/lib/account/points";
+import { savePlayerState } from "@/lib/account/repository";
+import type { Celebration } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
 export function PlayClient({
@@ -27,7 +29,8 @@ export function PlayClient({
     else if (!state.placementComplete) router.replace("/placement");
   }, [ready, state, router]);
 
-  if (!ready || !state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
   const question = nextQuestion(questions, state.progress);
   if (!question) {
@@ -54,10 +57,18 @@ export function PlayClient({
       soundOn={state.soundOn}
       audioFiles={audioFiles}
       progressLabel={`Cycle ${state.progress.cycle} · ${question.section}`}
-      onContinue={({ firstAttemptCorrect }) => {
+      onContinue={({ firstAttemptCorrect, missCount }) => {
         const result = applyMastery(questions, state.progress, question.id, firstAttemptCorrect);
         const celebration: Celebration | null = result.event.type === "mastered" ? null : result.event;
-        saveState({ ...state, progress: result.progress, celebration });
+        savePlayerState({
+          ...state,
+          progress: {
+            ...result.progress,
+            missCounts: { ...(result.progress.missCounts ?? {}), [question.id]: missCount },
+            points: pointsFromProgress(questions, result.progress.masteredIds),
+          },
+          celebration,
+        });
         if (celebration) router.push("/complete");
       }}
     />

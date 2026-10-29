@@ -1,6 +1,6 @@
-# Bible Trivia
+# Noble Bereans
 
-A small, playable Bible trivia demo. It teaches from Scripture: a missed question stops the game, shows a verse and a short explanation, then asks that same question again. Progress stays in this browser. There are no accounts and no external services.
+A small, playable Noble Bereans demo (NO-bul buh-REE-unz). The Bereans checked the Scriptures every day to see what was true (Acts 17:11). It teaches from Scripture: a missed question stops the game, shows a verse and a short explanation, then asks that same question again. Progress stays in this browser until a player creates an account.
 
 The sample questions are placeholders (`review.status` is `draft`). The verses are short quotations from the New King James Version.
 
@@ -12,7 +12,7 @@ npx playwright install chromium
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). On a phone, tablet, or desktop the layout stays one column with large tap targets.
+Open [http://localhost:3000](http://localhost:3000) while developing. The deployed app is [https://noble-bereans.vercel.app](https://noble-bereans.vercel.app). Preview URLs look like `https://noble-bereans-git-*.vercel.app`. Source is [bolyard996743/lamp-and-path](https://github.com/bolyard996743/lamp-and-path); GitHub redirects the previous repository name. On a phone, tablet, or desktop the layout stays one column with large tap targets.
 
 To check the production build, lint, and tests:
 
@@ -29,11 +29,11 @@ You can add the site to your home screen. After a production build, pages you ha
 
 ## How a round works
 
-1. Choose an age group (child, teen, adult, or older) and a guide: Judah the Lion, Agnes the Lamb, Shalom the Dove, Zion the Eagle, or Hunter the Great Fish.
+1. Enter a birthday. The app stores that date on this device and derives the audience (child, teen, adult, or older) from it, then you choose a guide: Judah the Lion, Agnes the Lamb, Shalom the Dove, Zion the Eagle, or Hunter the Great Fish.
 2. Take the placement quiz (13 questions, foundation through expert). Only the first try counts. The score is a ratio, so the same bands work for this longer quiz. It picks a starting cycle and tier. The results screen always says: everyone starts in a different place. The chosen guide's lines for that question are shown as text. Recordings are not included yet.
 3. From home, follow your private Knowledge Path: Seed, Sprout, Rooted, Growing, Established, Fruitful, Deep Roots. You also see the current cycle, section, and first-try streak.
 4. Play. A wrong answer brings your guide’s words, one to three verses, and a guiding explanation for your age group (adult if that wording is missing). The explanation points you toward the verse. It does not state the correct choice, and the choices are not highlighted. Press **I’m ready** and the same question returns with the choices in a new order. After two misses, a longer explanation appears, still without giving the choice away. A correct answer after a retry shows the one-sentence takeaway, which may state the answer. The next question waits until this one is correct.
-5. Leaderboards are not in this demo. That screen says they are coming.
+5. Leaderboards score mastered questions. Signed out, the board is read-only and your points stay on this device. With an account, your username is listed.
 6. The Bible tab is a placeholder. It does not show Bible text. Reading, highlights, and notes are still to come.
 
 The main navigation (Home, Play, Bible, Leaderboards, Settings) stays on the page on a phone, a tablet, and a desktop.
@@ -57,6 +57,32 @@ npm run validate-content
 ```
 
 The validator uses Zod. It also runs inside `npm test` and `npm run build`.
+
+## Accounts
+
+Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_ANON_KEY` from the Supabase dashboard (Project Settings → API → anon public key). `NEXT_PUBLIC_SUPABASE_URL` is already filled in for this project. Leave both unset and the app stays in guest mode: progress remains in this browser, and nothing tries to reach Supabase.
+
+```bash
+# later, when you are ready to create the tables. This repo does not apply them for you.
+supabase link --project-ref wmopoyxwghddtkbmrfyy
+supabase db push
+```
+
+Sign-up confirmation and password reset send the player to `/auth/callback` on the origin they are using (`window.location.origin`). A build without a browser uses `https://$VERCEL_URL`, and otherwise [https://noble-bereans.vercel.app](https://noble-bereans.vercel.app). In the Supabase Auth settings, allow `http://localhost:3000/auth/callback` and `https://noble-bereans.vercel.app/auth/callback`, plus any preview host you use. That dashboard change is not made from this repo.
+
+The first screen asks for a birthday with a month, day, and year, and it does not suggest an age. The birth date is stored on this device only. A date under 13 keeps the child audience, has no account, and sends nothing to the server. That first answer stays if they leave and come back. When the stored date computes to 13 or older, the app asks once about creating an account, with Not now remembered. Age 13 and older can create an account or play on this device. Playing without an account shows a warning first: progress stays on this device and cannot be moved unless they create an account later. Settings shows Create account only while signed out. Sign-up stores the username, birth date, and audience in user metadata and returns to `/auth/callback`. When email confirmation is on, there is no session yet; `supabase/migrations/20261029200000_profile_from_signup.sql` creates the profile row from that metadata. This repo does not apply that migration. Progress stays on the device until the first sign-in, which uses the existing merge. A profile with no username asks for one then. Sign-up or sign-in asks before moving this device's questions, placement, and mentor into the account. The audience is derived from that date when the row is read and whenever it is saved, so it moves as they age. The database rejects a birth date under 13. A signed-in player who has no birth date is asked once. Password reset is an email link. Google is not connected.
+
+A username is 3–20 letters, numbers, or underscores. It is unique ignoring case, checked for profanity and for email, phone, or web-address shapes, and it cannot be changed after it is saved. The database trigger rejects a username update. The username is the leaderboard name.
+
+Leaderboard points are the sum of mastered questions by tier: foundation 1, intermediate 2, advanced 3, expert 4. Signed-in players see the top 15 and a window of 10 above, themselves, and 4 below. Those reads return username, points, and rank only. Signed-out players of any age are not listed and submit nothing. They see the same read-only window around their on-device point total, with `You: N points (just on this device)` underneath. That request sends only the point number.
+
+On sign-in, if this device already has progress, the account page asks before uploading. The merge keeps every mastered question, the higher miss count, the further cycle and tier, and both sets of notes.
+
+The browser uses the anon key only. There is no service-role key in this app. Row-level security is on `profiles`, `question_progress`, and `verse_marks`. Each policy allows a row only when `(select auth.uid())` is that row's `user_id`. `verse_marks` stores a book id, chapter, verse range, color, note, and timestamps. It does not store verse wording. The Knowledge Path is not a separate table: it is derived from the saved cycle and tier.
+
+`getPlayerRepository()` is what the screens save through. It is the local repository until a signed-in teen, adult, or older player is syncing; then it writes the device copy first and the account second.
+
+`npm test` reads the migration and checks that row-level security is enabled and that every policy uses `auth.uid()`. `supabase/tests/rls.test.sql` is the same check in pgTAP. Run it with `supabase test db` once the Supabase CLI and a local database are available. They are not required to play or to run the app tests.
 
 ## Bible tab
 

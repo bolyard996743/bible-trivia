@@ -32,6 +32,8 @@ export type StoredState = {
   progress: GameProgress;
   lastVisitedOn: string | null;
   celebration: Celebration | null;
+  /** Public leaderboard name. Omitted for a child. Never changed after it is set. */
+  username?: string;
 };
 
 export function createState(ageGroup: AgeGroup, mascot: MascotId): StoredState {
@@ -100,13 +102,22 @@ export function parseState(raw: string | null): StoredState | null {
   }
 }
 
+export function readLocalState(storage: { getItem(key: string): string | null }): StoredState | null {
+  return parseState(storage.getItem(STORAGE_KEY));
+}
+
+export function writeLocalState(state: StoredState, storage: { setItem(key: string, value: string): void }): void {
+  storage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
 export function loadState(): StoredState | null {
   if (typeof window === "undefined") return null;
-  return parseState(window.localStorage.getItem(STORAGE_KEY));
+  return readLocalState(window.localStorage);
 }
 
 export function saveState(state: StoredState): void {
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  if (typeof window === "undefined") return;
+  writeLocalState(state, window.localStorage);
   window.dispatchEvent(new Event("bible-trivia-storage"));
 }
 

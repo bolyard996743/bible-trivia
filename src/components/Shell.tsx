@@ -2,23 +2,29 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { AgeGate } from "@/components/AgeGate";
+import { BirthDatePrompt } from "@/components/BirthDatePrompt";
 import { MainNav } from "@/components/MainNav";
+import { Turn13Prompt } from "@/components/Turn13Prompt";
+import { UsernamePrompt } from "@/components/UsernamePrompt";
+import { useAgeGate } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
-import { saveState } from "@/lib/storage";
+import { savePlayerState } from "@/lib/account/repository";
 
 export function Shell({ children }: { children: ReactNode }) {
   const { state, ready } = useProfile();
+  const gate = useAgeGate();
 
   function toggleSound() {
     if (!state) return;
-    saveState({ ...state, soundOn: !state.soundOn });
+    savePlayerState({ ...state, soundOn: !state.soundOn });
   }
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col px-4 py-4 sm:px-6">
       <header className="mb-6 flex items-center justify-between gap-3">
         <Link href={state?.placementComplete ? "/home" : "/"} className="tap inline-flex items-center text-xl font-semibold text-grove-deep">
-          Bible Trivia
+          Noble Bereans
         </Link>
         <div className="flex items-center gap-2">
           {ready && state ? (
@@ -35,8 +41,13 @@ export function Shell({ children }: { children: ReactNode }) {
           ) : null}
         </div>
       </header>
-      <MainNav />
-      <main className="flex-1">{children}</main>
+      {gate.ready && gate.value ? <MainNav /> : null}
+      <main className="flex-1">
+        {!gate.ready ? <p className="text-lg text-ink-soft">Opening…</p> : gate.value ? children : <AgeGate />}
+      </main>
+      {gate.value && !gate.value.under13 ? <BirthDatePrompt /> : null}
+      {gate.value && !gate.value.under13 ? <UsernamePrompt /> : null}
+      {gate.value ? <Turn13Prompt /> : null}
     </div>
   );
 }

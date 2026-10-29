@@ -9,7 +9,8 @@ import { PATH_PRIVACY } from "@/lib/copy";
 import { knowledgeStage, pickMascotLine } from "@/lib/game";
 import { currentSection } from "@/lib/game/progression";
 import { MASCOTS, TIER_LABELS, type MascotLine, type Question } from "@/lib/game/types";
-import { saveState, todayKey } from "@/lib/storage";
+import { savePlayerState } from "@/lib/account/repository";
+import { todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
 export function HomeClient({ questions, lines }: { questions: Question[]; lines: MascotLine[] }) {
@@ -32,10 +33,11 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
     }
     const today = todayKey();
     if (state.lastVisitedOn === today) return;
-    saveState({ ...state, lastVisitedOn: today });
+    savePlayerState({ ...state, lastVisitedOn: today });
   }, [ready, state, router]);
 
-  if (!ready || !state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
   const stage = knowledgeStage(state.progress.cycle, state.progress.tier);
   const section = currentSection(questions, state.progress);
