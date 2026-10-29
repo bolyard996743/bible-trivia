@@ -11,8 +11,7 @@
       "book": "Acts",
       "section": "Acts 2",
       "topics": [
-        "Pentecost",
-        "Holy Spirit"
+        "pentecost"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -57,7 +56,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Rooted"
     }
   ]
 }

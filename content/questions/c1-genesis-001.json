@@ -11,8 +11,7 @@
       "book": "Genesis",
       "section": "Genesis 1-11",
       "topics": [
-        "creation",
-        "God"
+        "creation"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -61,7 +60,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Seed"
     },
     {
       "id": "c1-gen-0003",
@@ -71,8 +71,7 @@
       "book": "Genesis",
       "section": "Genesis 37-50",
       "topics": [
-        "Joseph",
-        "Egypt"
+        "joseph"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -117,7 +116,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Rooted"
     }
   ]
 }

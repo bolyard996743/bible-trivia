@@ -11,8 +11,7 @@
       "book": "John",
       "section": "John 1-3",
       "topics": [
-        "Jesus",
-        "God's love"
+        "john-3-16-17"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -55,7 +54,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Seed"
     }
   ]
 }

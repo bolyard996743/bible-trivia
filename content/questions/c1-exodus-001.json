@@ -11,8 +11,7 @@
       "book": "Exodus",
       "section": "Exodus 1-15",
       "topics": [
-        "Moses",
-        "plagues"
+        "moses"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -61,7 +60,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Seed"
     }
   ]
 }

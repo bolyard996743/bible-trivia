@@ -11,8 +11,7 @@
       "book": "Genesis",
       "section": "Genesis 6-9",
       "topics": [
-        "Noah",
-        "flood"
+        "noah"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -61,7 +60,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Seed"
     },
     {
       "id": "c1-exo-0001",
@@ -71,8 +71,7 @@
       "book": "Exodus",
       "section": "Exodus 3-4",
       "topics": [
-        "Moses",
-        "burning bush"
+        "moses"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -121,7 +120,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Sprout"
     },
     {
       "id": "c2-num-0001",
@@ -131,9 +131,7 @@
       "book": "Numbers",
       "section": "Numbers 21",
       "topics": [
-        "Moses",
-        "wilderness",
-        "bronze serpent"
+        "moses"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -182,7 +180,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Growing"
     },
     {
       "id": "c1-1sa-0001",
@@ -192,8 +191,7 @@
       "book": "1 Samuel",
       "section": "1 Samuel 17",
       "topics": [
-        "David",
-        "Goliath"
+        "david-goliath"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -242,7 +240,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Seed"
     },
     {
       "id": "c2-2ch-0001",
@@ -252,8 +251,7 @@
       "book": "2 Chronicles",
       "section": "2 Chronicles 34-35",
       "topics": [
-        "Josiah",
-        "kings of Judah"
+        "ot-overview"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -302,7 +300,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Growing"
     },
     {
       "id": "c3-psa-0001",
@@ -312,8 +311,7 @@
       "book": "Psalms",
       "section": "Psalm 119",
       "topics": [
-        "God's word",
-        "Psalm 119"
+        "wisdom-books"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -362,7 +360,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Established"
     },
     {
       "id": "c3-pro-0001",
@@ -372,8 +371,7 @@
       "book": "Proverbs",
       "section": "Proverbs 9",
       "topics": [
-        "wisdom",
-        "understanding"
+        "wisdom-books"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -422,7 +420,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Established"
     },
     {
       "id": "c1-dan-0001",
@@ -432,8 +431,7 @@
       "book": "Daniel",
       "section": "Daniel 6",
       "topics": [
-        "Daniel",
-        "lions' den"
+        "daniel"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -482,7 +480,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Sprout"
     },
     {
       "id": "c2-mic-0001",
@@ -492,8 +491,7 @@
       "book": "Micah",
       "section": "Micah 5",
       "topics": [
-        "Messianic prophecy",
-        "Micah"
+        "jesus-birth"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -542,7 +540,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c1-luk-0001",
@@ -552,8 +551,7 @@
       "book": "Luke",
       "section": "Luke 2",
       "topics": [
-        "birth of Jesus",
-        "Christmas"
+        "jesus-birth"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -602,7 +600,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Seed"
     },
     {
       "id": "c2-act-0001",
@@ -612,9 +611,7 @@
       "book": "Acts",
       "section": "Acts 11",
       "topics": [
-        "early church",
-        "Antioch",
-        "Christians"
+        "early-church"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -663,7 +660,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Rooted"
     },
     {
       "id": "c3-eph-0001",
@@ -673,8 +671,7 @@
       "book": "Ephesians",
       "section": "Ephesians 2",
       "topics": [
-        "salvation",
-        "faith"
+        "epistles"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -723,7 +720,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Fruitful"
     },
     {
       "id": "c3-rev-0001",
@@ -733,8 +731,7 @@
       "book": "Revelation",
       "section": "Revelation 2-3",
       "topics": [
-        "seven churches",
-        "Ephesus"
+        "revelation"
       ],
       "placement_eligible": true,
       "type": "multiple_choice",
@@ -783,7 +780,8 @@
       "review": {
         "status": "draft",
         "notes": "Placement quiz; verse text verified against NKJV (BibleGateway)."
-      }
+      },
+      "stage": "Growing"
     }
   ]
 }

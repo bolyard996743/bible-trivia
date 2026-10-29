@@ -65,6 +65,8 @@ export type Question = {
   id: string;
   cycle: number;
   tier: Tier;
+  /** Earliest Knowledge Path stage where this question may appear. */
+  stage?: KnowledgeStage;
   testament: Testament;
   book: string;
   section: string;
@@ -106,9 +108,20 @@ export type GameProgress = {
   bestStreak: number;
   /** Seasonal counter. Never feeds the Knowledge Path. */
   seasonMasteredCount: number;
+  /** Current Knowledge Path stage. This drives which questions are served. */
+  stage?: KnowledgeStage;
+  seasonId?: string;
+  /** Topics cleared with a first-try correct answer. */
+  clearedTopics?: string[];
+  /** Books cleared with a first-try correct answer. */
+  clearedBooks?: string[];
+  /** Questions that already earned season points. */
+  scoredIds?: string[];
+  /** Increments on each served question so the 80/20 mix stays stable. */
+  draw?: number;
   /**
-   * Leaderboard points: sum of tier weights for mastered questions.
-   * Foundation 1, intermediate 2, advanced 3, expert 4.
+   * Season points on this device. Signed-in totals are awarded by the database.
+   * Placement answers never add points.
    */
   points?: number;
 };

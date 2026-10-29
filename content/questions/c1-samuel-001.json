@@ -11,8 +11,7 @@
       "book": "1 Samuel",
       "section": "1 Samuel 17",
       "topics": [
-        "David",
-        "Goliath"
+        "david-goliath"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -57,7 +56,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Sprout"
     }
   ]
 }

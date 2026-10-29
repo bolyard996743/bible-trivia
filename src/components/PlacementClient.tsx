@@ -102,7 +102,11 @@ export function PlacementClient({
             possible: result.possible,
             stage: result.stage,
           },
-          progress: { ...emptyProgress(result.cycle, result.tier), missCounts: nextMisses },
+          progress: {
+            ...emptyProgress(result.cycle, result.tier),
+            stage: result.stage,
+            missCounts: nextMisses,
+          },
           celebration: null,
         });
         router.push("/results");

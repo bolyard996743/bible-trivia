@@ -39,7 +39,7 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
-  const stage = knowledgeStage(state.progress.cycle, state.progress.tier);
+  const stage = state.progress.stage ?? knowledgeStage(state.progress.cycle, state.progress.tier);
   const section = currentSection(questions, state.progress);
   const returning = visitOnArrival.current != null && visitOnArrival.current !== todayKey();
   const line = pickMascotLine(
@@ -60,7 +60,7 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
       <KnowledgePath stage={stage} />
       <div className="grid gap-2 rounded-3xl border border-line bg-card p-5 text-lg">
         <p>
-          Cycle {state.progress.cycle} · {TIER_LABELS[state.progress.tier]}
+          {stage} · Cycle {state.progress.cycle} · {TIER_LABELS[state.progress.tier]}
         </p>
         <p>{section ? `Current section: ${section}` : "More of this part is still being written."}</p>
         <p data-testid="streak">
@@ -76,6 +76,9 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
           {line?.text}
         </p>
       </div>
+      <Link href="/path" data-testid="stage-map-link" className="tap inline-flex items-center justify-center rounded-2xl border border-grove px-4 text-lg text-grove-deep">
+        Stage map
+      </Link>
       <Link href="/play" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
         Play
       </Link>

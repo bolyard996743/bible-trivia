@@ -11,8 +11,7 @@
       "book": "Romans",
       "section": "Romans 3-6",
       "topics": [
-        "gift of God",
-        "eternal life"
+        "roman-road"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -62,7 +61,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Growing"
     }
   ]
 }

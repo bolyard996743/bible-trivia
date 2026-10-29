@@ -5,7 +5,6 @@ import Link from "next/link";
 import { STARTING_REASSURANCE } from "@/lib/copy";
 import type { MascotLine, Question } from "@/lib/game/types";
 import { fetchAroundScore, fetchSignedInBoards, fetchTopBoard, type PublicBoardRow } from "@/lib/account/leaderboard";
-import { pointsFromProgress } from "@/lib/account/points";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
 
@@ -28,13 +27,13 @@ function BoardList({ rows }: { rows: PublicBoardRow[] }) {
   );
 }
 
-export function LeaderboardClient({ questions }: { questions: Question[]; lines: MascotLine[] }) {
+export function LeaderboardClient({ questions, lines }: { questions: Question[]; lines: MascotLine[] }) {
   const { state, ready } = useProfile();
   const gate = useAgeGate();
   const auth = useSignedIn();
   const [rows, setRows] = useState<PublicBoardRow[]>([]);
   const [near, setNear] = useState<PublicBoardRow[]>([]);
-  const points = pointsFromProgress(questions, state?.progress.masteredIds ?? []);
+  const points = state?.progress.points ?? 0;
   const under13 = gate.value?.under13 || state?.ageGroup === "child";
   const localBoard = !auth.email || under13;
 
@@ -67,11 +66,11 @@ export function LeaderboardClient({ questions }: { questions: Question[]; lines:
   if (!ready || !gate.ready || !auth.ready) return <p className="text-lg text-ink-soft">Opening…</p>;
 
   return (
-    <section className="grid gap-5">
+    <section className="grid gap-5" data-questions={questions.length} data-lines={lines.length}>
       <h1 className="text-3xl font-semibold text-grove-deep">Leaderboards</h1>
       <p className="text-lg text-ink">{STARTING_REASSURANCE}</p>
       <p className="text-base text-ink-soft">
-        Points come from questions you have mastered: 1 for foundation, 2 for intermediate, 3 for advanced, and 4 for expert.
+        A first-try correct answer is 10 points, a correct answer after the verse is 5, and a later try is 2. Review of a question you already learned is 0. Placement does not add points.
       </p>
       {localBoard ? (
         <>

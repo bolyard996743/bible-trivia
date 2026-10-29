@@ -1,7 +1,9 @@
 import { z } from "zod";
+import { CURRICULUM_TOPICS } from "../curriculum";
 import {
   AGE_GROUPS,
   AUDIENCES,
+  KNOWLEDGE_PATH,
   MASCOT_IDS,
   MOMENTS,
   TESTAMENTS,
@@ -37,10 +39,11 @@ export const questionSchema = z
     id: z.string().min(1),
     cycle: z.number().int().positive(),
     tier: z.enum(TIERS),
+    stage: z.enum(KNOWLEDGE_PATH),
     testament: z.enum(TESTAMENTS),
     book: z.string().min(1),
     section: z.string().min(1),
-    topics: z.array(z.string().min(1)).min(1),
+    topics: z.array(z.enum(CURRICULUM_TOPICS)).min(1),
     placement_eligible: z.boolean(),
     type: z.enum(["multiple_choice", "true_false"]),
     prompt: wordingSchema,

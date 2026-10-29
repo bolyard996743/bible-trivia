@@ -11,8 +11,7 @@
       "book": "Jonah",
       "section": "Jonah 1",
       "topics": [
-        "Jonah",
-        "great fish"
+        "jonah"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -57,7 +56,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Seed"
     }
   ]
 }

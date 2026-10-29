@@ -58,6 +58,41 @@ test("phone navigation stays behind a menu at 375px", async ({ page }) => {
   await expect(page.getByRole("navigation", { name: "Main" }).getByRole("link", { name: "Account" })).toBeVisible();
 });
 
+test("the stage map lists Seed topics and hides later checklists", async ({ page }) => {
+  await page.addInitScript((key) => {
+    localStorage.setItem(
+      "bible-trivia-age-gate-v1",
+      JSON.stringify({ version: 1, bracket: "child", under13: true }),
+    );
+    localStorage.setItem(
+      key,
+      JSON.stringify({
+        version: 1,
+        ageGroup: "child",
+        mascot: "judah",
+        soundOn: false,
+        placementComplete: true,
+        placement: { cycle: 1, tier: "foundation", earned: 0, possible: 1, stage: "Seed" },
+        progress: {
+          cycle: 1,
+          tier: "foundation",
+          stage: "Seed",
+          masteredIds: [],
+          streak: 0,
+          bestStreak: 0,
+          seasonMasteredCount: 0,
+        },
+        lastVisitedOn: "2026-10-29",
+        celebration: null,
+      }),
+    );
+  }, "bible-trivia-v1");
+  await page.goto("/path");
+  await expect(page.getByTestId("stage-map")).toBeVisible();
+  await expect(page.getByTestId("topic-creation")).toHaveAttribute("data-state", "open");
+  await expect(page.getByTestId("topic-twelve-disciples")).toHaveCount(0);
+});
+
 test("choosing a mascot changes the theme immediately", async ({ page }) => {
   await page.addInitScript(() => {
     localStorage.setItem(

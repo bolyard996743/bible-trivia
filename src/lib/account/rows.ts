@@ -23,7 +23,7 @@ export type ProfileRow = {
   best_streak: number;
   season_mastered_count: number;
   last_visited_on: string | null;
-  points: number;
+  points?: number;
   username?: string;
   birth_date?: string | null;
 };
@@ -85,7 +85,6 @@ export function profileToRow(userId: string, state: StoredState): ProfileRow {
     best_streak: state.progress.bestStreak,
     season_mastered_count: state.progress.seasonMasteredCount,
     last_visited_on: state.lastVisitedOn,
-    points: state.progress.points ?? 0,
     ...(state.username ? { username: state.username } : {}),
   };
 }

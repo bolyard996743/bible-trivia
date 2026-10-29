@@ -11,8 +11,7 @@
       "book": "Luke",
       "section": "Luke 1-2",
       "topics": [
-        "Jesus",
-        "Bethlehem"
+        "jesus-birth"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -66,7 +65,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Seed"
     }
   ]
 }

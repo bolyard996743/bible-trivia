@@ -11,8 +11,7 @@
       "book": "Matthew",
       "section": "Matthew 14",
       "topics": [
-        "Jesus",
-        "feeding the multitude"
+        "miracles"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
@@ -62,7 +61,8 @@
       "review": {
         "status": "draft",
         "notes": "Placeholder sample for the playable demo. Not reviewed for release."
-      }
+      },
+      "stage": "Sprout"
     }
   ]
 }
