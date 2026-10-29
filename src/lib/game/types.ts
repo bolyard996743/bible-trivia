@@ -106,6 +106,11 @@ export type GameProgress = {
   bestStreak: number;
   /** Seasonal counter. Never feeds the Knowledge Path. */
   seasonMasteredCount: number;
+  /**
+   * Leaderboard points: sum of tier weights for mastered questions.
+   * Foundation 1, intermediate 2, advanced 3, expert 4.
+   */
+  points?: number;
 };
 
 export type AttemptPhase = "asking" | "teaching" | "mastered";

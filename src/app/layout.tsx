@@ -2,16 +2,18 @@ import type { Metadata, Viewport } from "next";
 import { AccountSync } from "@/components/AccountSync";
 import { RegisterSW } from "@/components/RegisterSW";
 import { Shell } from "@/components/Shell";
+import { siteOrigin } from "@/lib/site-url";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Bible Trivia",
-  description: "A wholesome Bible trivia game that teaches from Scripture and waits until you know the answer.",
-  applicationName: "Bible Trivia",
+  metadataBase: new URL(siteOrigin()),
+  title: "Noble Bereans",
+  description: "Noble Bereans teaches from Scripture and waits until you know the answer.",
+  applicationName: "Noble Bereans",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
-    title: "Bible Trivia",
+    title: "Noble Bereans",
     statusBarStyle: "default",
   },
   icons: {

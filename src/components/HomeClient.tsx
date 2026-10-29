@@ -36,7 +36,8 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
     savePlayerState({ ...state, lastVisitedOn: today });
   }, [ready, state, router]);
 
-  if (!ready || !state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
   const stage = knowledgeStage(state.progress.cycle, state.progress.tier);
   const section = currentSection(questions, state.progress);

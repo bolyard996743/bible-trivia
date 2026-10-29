@@ -19,10 +19,14 @@ async function teachingOutsideVerses(page: import("@playwright/test").Page) {
 test("a wrong answer teaches, then asks the same question again", async ({ page }) => {
   await page.addInitScript((key) => {
     localStorage.setItem(
+      "bible-trivia-age-gate-v1",
+      JSON.stringify({ version: 1, bracket: "child", under13: true }),
+    );
+    localStorage.setItem(
       key,
       JSON.stringify({
         version: 1,
-        ageGroup: "adult",
+        ageGroup: "child",
         mascot: "judah",
         soundOn: false,
         placementComplete: true,
@@ -49,7 +53,7 @@ test("a wrong answer teaches, then asks the same question again", async ({ page 
 
   await page.goto("/play");
   const prompt = page.getByTestId("prompt");
-  await expect(prompt).toHaveText("Who created the heavens and the earth?");
+  await expect(prompt).toHaveText("Who made the heavens and the earth?");
   const firstOrder = await choiceOrder(page);
 
   await page.getByTestId("choice-a").click();
@@ -66,7 +70,7 @@ test("a wrong answer teaches, then asks the same question again", async ({ page 
 
   await page.getByTestId("ready-button").click();
   await expect(page.getByTestId("teaching")).toHaveCount(0);
-  await expect(page.getByTestId("prompt")).toHaveText("Who created the heavens and the earth?");
+  await expect(page.getByTestId("prompt")).toHaveText("Who made the heavens and the earth?");
   const retryOrder = await choiceOrder(page);
   expect(retryOrder).not.toEqual(firstOrder);
   expect([...(retryOrder ?? [])].sort()).toEqual([...(firstOrder ?? [])].sort());
@@ -77,7 +81,7 @@ test("a wrong answer teaches, then asks the same question again", async ({ page 
   expect((await teachingOutsideVerses(page)).toLowerCase()).not.toContain("god");
 
   await page.getByTestId("ready-button").click();
-  await expect(page.getByTestId("prompt")).toHaveText("Who created the heavens and the earth?");
+  await expect(page.getByTestId("prompt")).toHaveText("Who made the heavens and the earth?");
   await page.getByTestId("choice-b").click();
 
   await expect(page.getByTestId("takeaway")).toHaveText("God created the heavens and the earth.");
