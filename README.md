@@ -2,7 +2,7 @@
 
 A small, playable Noble Bereans demo (NO-bul buh-REE-unz). The Bereans checked the Scriptures every day to see what was true (Acts 17:11). It teaches from Scripture: a missed question stops the game, shows a verse and a short explanation, then asks that same question again. Progress stays in this browser until a player creates an account.
 
-The sample questions are placeholders (`review.status` is `draft`). The verses are short quotations from the New King James Version.
+The sample questions are placeholders (`review.status` is `draft`). Each question names an NKJV reference. The words on screen come from API.Bible when `API_BIBLE_KEY` is set. The short quotations in the content files are for review only and are not shown.
 
 ## Run it
 
@@ -34,7 +34,7 @@ You can add the site to your home screen. After a production build, pages you ha
 3. From home, follow your private Knowledge Path: Seed, Sprout, Rooted, Growing, Established, Fruitful, Deep Roots. You also see the current cycle, section, and first-try streak.
 4. Play. A wrong answer brings your guide’s words, one to three verses, and a guiding explanation for your age group (adult if that wording is missing). The explanation points you toward the verse. It does not state the correct choice, and the choices are not highlighted. Press **I’m ready** and the same question returns with the choices in a new order. After two misses, a longer explanation appears, still without giving the choice away. A correct answer after a retry shows the one-sentence takeaway, which may state the answer. The next question waits until this one is correct.
 5. Leaderboards score mastered questions. Signed out, the board is read-only and your points stay on this device. With an account, your username is listed.
-6. The Bible tab is a placeholder. It does not show Bible text. Reading, highlights, and notes are still to come.
+6. The Bible tab opens the NKJV one chapter at a time: book, then chapter, then the text from API.Bible. A player can highlight a verse and write a note. The note stores the reference and the player's words. It does not store the verse. NKJV is licensed for non-commercial apps with up to 5,000 monthly users.
 
 The main navigation (Home, Play, Bible, Leaderboards, Settings) stays on the page on a phone, a tablet, and a desktop.
 
@@ -62,6 +62,8 @@ The validator uses Zod. It also runs inside `npm test` and `npm run build`.
 
 Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_ANON_KEY` from the Supabase dashboard (Project Settings → API → anon public key). `NEXT_PUBLIC_SUPABASE_URL` is already filled in for this project. Leave both unset and the app stays in guest mode: progress remains in this browser, and nothing tries to reach Supabase.
 
+`API_BIBLE_KEY` is the server-only API.Bible key for the NKJV (Bible id `63097d2a0a2f7db3-01`). Set it in Vercel for Production and Preview. Do not prefix it with `NEXT_PUBLIC_`, and do not commit a real value. Without it, verse text shows a short message instead of a quotation. The app calls `https://rest.api.bible/v1` only from server route handlers. Scripture is fetched when it is displayed, is not saved in the database or the service worker, and is not offered as an export. Highlights and notes are references plus the player's own note. NKJV on a Starter or Pro plan is for non-commercial apps with no more than 5,000 monthly users.
+
 ```bash
 # later, when you are ready to create the tables. This repo does not apply them for you.
 supabase link --project-ref wmopoyxwghddtkbmrfyy
@@ -86,6 +88,8 @@ The browser uses the anon key only. There is no service-role key in this app. Ro
 
 ## Bible tab
 
-`BibleProvider` in `src/lib/bible/types.ts` is the scripture source: `listBooks`, `getChapter(bookId, chapter)`, and `getPassage(ref)`. `getBibleProvider()` in `src/lib/bible/index.ts` is the only place that picks an implementation. Today it returns a local placeholder with the book list and reference parsing, and with no verse text and no network call. A later API.Bible NKJV provider can replace that return value without changing the screen.
+`getBibleProvider()` in `src/lib/bible/index.ts` is what screens call. It reads `/api/bible/chapter` and `/api/bible/passage`. Those route handlers are the only callers of API.Bible. They send `API_BIBLE_KEY` and `fums-version=3`, then return the verses, the copyright line, and a FUMS token. The browser reports that token with `https://pkg.api.bible/fumsV3.min.js`. Every place that shows verse text also shows the NKJV copyright and a link to API.Bible.
 
-Highlights and notes, when they are saved, use `createVerseMarkStore` in `src/lib/bible/marks.ts`. Each mark stores a book id, chapter, verse range, optional color, the player's note, and timestamps. It does not store verse wording. The key is `bible-trivia-marks-v1` in localStorage, separate from game progress.
+A wrong answer still shows the verse that contains the answer. The explanation does not state the choice. If the key is missing, the player sees a short message and the reference, not a stored quotation.
+
+Highlights and notes use `createVerseMarkStore` in `src/lib/bible/marks.ts` and, for an account, `verse_marks`. Each mark stores a book id, chapter, verse range, optional color, the player's note, and timestamps. It does not store verse wording. The local key is `bible-trivia-marks-v1`. `supabase/migrations/20261102180000_bible_reader_marks.sql` restates owner-only row access for that table. This repo does not apply it.

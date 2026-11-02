@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getBibleProvider } from "@/lib/bible";
+import { placeholderBibleProvider } from "@/lib/bible/placeholder";
 import { createVerseMarkStore, type StorageLike, type VerseMarkDraft } from "@/lib/bible/marks";
 
 function memory(): StorageLike & { raw(): string | null } {
@@ -97,22 +97,33 @@ describe("verse mark store", () => {
 
 describe("placeholder Bible provider", () => {
   it("answers with references and no verse text", async () => {
-    const provider = getBibleProvider();
+    const provider = placeholderBibleProvider;
     expect(provider.id).toBe("placeholder");
     const books = await provider.listBooks();
     expect(books).toHaveLength(66);
     const chapter = await provider.getChapter("JHN", 3);
-    expect(chapter).toEqual({ bookId: "JHN", chapter: 3, verses: [] });
+    expect(chapter).toEqual({
+      ok: true,
+      data: { bookId: "JHN", chapter: 3, verses: [], copyright: "", fumsToken: null },
+    });
     const passage = await provider.getPassage("John 3:16-17");
     expect(passage).toEqual({
-      ref: "John 3:16-17",
-      bookId: "JHN",
-      chapter: 3,
-      verseStart: 16,
-      verseEnd: 17,
-      verses: [],
+      ok: true,
+      data: {
+        ref: "John 3:16-17",
+        bookId: "JHN",
+        chapter: 3,
+        verseStart: 16,
+        verseEnd: 17,
+        verses: [],
+        copyright: "",
+        fumsToken: null,
+      },
     });
     expect(JSON.stringify(passage)).not.toMatch(/loved the world/i);
-    expect(await provider.getChapter("JHN", 99)).toBeNull();
+    expect(await provider.getChapter("JHN", 99)).toEqual({
+      ok: false,
+      message: "That chapter isn't in this Bible.",
+    });
   });
 });

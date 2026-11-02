@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { FetchedPassage } from "@/components/FetchedPassage";
 import { MascotMark } from "@/components/MascotMark";
 import {
   acknowledgeTeaching,
@@ -135,12 +136,7 @@ export function QuestionSession({
           </div>
           <div className="grid gap-3">
             {question.teaching.verses.map((verse) => (
-              <figure key={verse.ref} data-testid="verse" className="rounded-2xl bg-gold-soft px-4 py-3">
-                <blockquote className="text-lg text-ink">{verse.text}</blockquote>
-                <figcaption className="mt-2 text-base text-ink-soft">
-                  {verse.ref} · {verse.translation}
-                </figcaption>
-              </figure>
+              <FetchedPassage key={verse.ref} reference={verse.ref} />
             ))}
           </div>
           <p data-testid="explanation" className="text-lg text-ink">

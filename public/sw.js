@@ -1,4 +1,4 @@
-const CACHE = "bible-trivia-v1";
+const CACHE = "bible-trivia-v2";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(self.skipWaiting());
@@ -18,11 +18,17 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+  // Scripture is fetched on display. Do not keep chapter HTML or API responses in this cache.
+  if (url.pathname === "/bible" || url.pathname.startsWith("/bible/") || url.pathname.startsWith("/api/bible")) {
+    event.respondWith(fetch(request));
+    return;
+  }
 
   event.respondWith(
     fetch(request)
       .then((response) => {
-        if (response.ok) {
+        const cacheControl = response.headers.get("Cache-Control") ?? "";
+        if (response.ok && !cacheControl.includes("no-store") && response.headers.get("X-Scripture-Cache") !== "no-store") {
           const copy = response.clone();
           caches.open(CACHE).then((cache) => cache.put(request, copy)).catch(() => {});
         }

@@ -143,6 +143,18 @@ body {
   mask: url("/brand/logo-ink-mask.png") center / contain no-repeat;
 }
 
+.verse-gold {
+  background: var(--gold-soft);
+}
+
+.verse-grove {
+  background: color-mix(in srgb, var(--grove) 16%, var(--card));
+}
+
+.verse-calm {
+  background: color-mix(in srgb, var(--calm) 16%, var(--card));
+}
+
 .logo-accent {
   background: var(--logo-accent);
   -webkit-mask-image: url("/brand/logo-accent-mask.png");
