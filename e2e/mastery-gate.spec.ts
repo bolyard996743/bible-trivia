@@ -16,7 +16,35 @@ async function teachingOutsideVerses(page: import("@playwright/test").Page) {
   });
 }
 
-test("a wrong answer teaches, then asks the same question again", async ({ page }) => {
+test("a wrong answer teaches from the fetched verse, then asks the same question again", async ({ page }) => {
+  await page.route("**/api/bible/passage**", async (route) => {
+    const ref = new URL(route.request().url()).searchParams.get("ref");
+    await route.fulfill({
+      status: 200,
+      contentType: "application/json",
+      body: JSON.stringify({
+        ok: true,
+        passage: {
+          ref,
+          bookId: "GEN",
+          chapter: 1,
+          verseStart: 1,
+          verseEnd: 1,
+          copyright:
+            "Scripture taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
+          fumsToken: "fums-token-test",
+          verses: [
+            {
+              bookId: "GEN",
+              chapter: 1,
+              verse: 1,
+              text: "In the beginning God created the heavens and the earth.",
+            },
+          ],
+        },
+      }),
+    });
+  });
   await page.addInitScript((key) => {
     localStorage.setItem(
       "bible-trivia-age-gate-v1",
@@ -62,7 +90,9 @@ test("a wrong answer teaches, then asks the same question again", async ({ page 
   await expect(page.getByTestId("mascot-line")).not.toBeEmpty();
   await expect(page.getByTestId("verse")).toContainText("Genesis 1:1");
   await expect(page.getByTestId("verse")).toContainText("NKJV");
-  await expect(page.getByTestId("verse")).toContainText("In the beginning God created the heavens and the earth.");
+  await expect(page.getByTestId("verse-text")).toContainText("In the beginning God created the heavens and the earth.");
+  await expect(page.getByTestId("scripture-notice")).toContainText("Thomas Nelson");
+  await expect(page.getByTestId("scripture-notice").getByRole("link", { name: "API.Bible" })).toBeVisible();
   await expect(page.getByTestId("explanation")).toBeVisible();
   await expect(page.getByTestId("extended-explanation")).toHaveCount(0);
   await expect(page.getByTestId("ready-button")).toHaveText("I'm ready");

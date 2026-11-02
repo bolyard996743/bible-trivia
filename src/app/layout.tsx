@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { AccountSync } from "@/components/AccountSync";
 import { RegisterSW } from "@/components/RegisterSW";
 import { Shell } from "@/components/Shell";
@@ -41,6 +42,10 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
       </head>
       <body>
+        <Script id="fums-queue" strategy="beforeInteractive">
+          {`window.fumsData=window.fumsData||[];window.fums=window.fums||function(){window.fumsData.push(arguments);};`}
+        </Script>
+        <Script src="https://pkg.api.bible/fumsV3.min.js" strategy="afterInteractive" />
         <RegisterSW />
         <AccountSync />
         <Shell>{children}</Shell>
