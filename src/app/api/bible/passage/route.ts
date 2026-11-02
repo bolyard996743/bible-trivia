@@ -10,7 +10,11 @@ export async function GET(request: Request) {
   const result = await loadPassage(ref);
   if (!result.ok) {
     return Response.json(
-      { ok: false, message: result.message },
+      {
+        ok: false,
+        message: result.message,
+        ...(result.upstreamStatus ? { upstreamStatus: result.upstreamStatus } : {}),
+      },
       { status: result.status, headers: scriptureHeaders() },
     );
   }

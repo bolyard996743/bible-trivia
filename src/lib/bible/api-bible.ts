@@ -15,7 +15,7 @@ export const NKJV_BIBLE_ID = "63097d2a0a2f7db3-01";
 
 export type LoadResult<T> =
   | { ok: true; status: 200; data: T }
-  | { ok: false; status: number; message: string };
+  | { ok: false; status: number; message: string; upstreamStatus?: number };
 
 type FetchLike = (input: string, init?: RequestInit) => Promise<Response>;
 
@@ -66,7 +66,7 @@ async function fetchScripture(
   path: string,
   fetchImpl: FetchLike,
   key: string,
-): Promise<{ ok: true; body: ApiEnvelope } | { ok: false; status: number; message: string }> {
+): Promise<{ ok: true; body: ApiEnvelope } | { ok: false; status: number; message: string; upstreamStatus?: number }> {
   let response: Response;
   try {
     // Fetch on display. Do not persist the body. A stored copy would have to be
@@ -81,19 +81,24 @@ async function fetchScripture(
       cache: "no-store",
     });
   } catch {
+    console.error("API.Bible request failed before a status was returned");
     return { ok: false, status: 502, message: SCRIPTURE_RETRY_MESSAGE };
-  }
-  if (response.status === 404) {
-    return { ok: false, status: 404, message: UNKNOWN_PASSAGE_MESSAGE };
   }
   if (!response.ok) {
-    return { ok: false, status: 502, message: SCRIPTURE_RETRY_MESSAGE };
+    console.error(`API.Bible responded with status ${response.status}`);
+    return {
+      ok: false,
+      status: response.status === 404 ? 404 : 502,
+      message: response.status === 404 ? UNKNOWN_PASSAGE_MESSAGE : SCRIPTURE_RETRY_MESSAGE,
+      upstreamStatus: response.status,
+    };
   }
   try {
     const body = (await response.json()) as ApiEnvelope;
     return { ok: true, body };
   } catch {
-    return { ok: false, status: 502, message: SCRIPTURE_RETRY_MESSAGE };
+    console.error(`API.Bible response was not JSON (status ${response.status})`);
+    return { ok: false, status: 502, message: SCRIPTURE_RETRY_MESSAGE, upstreamStatus: response.status };
   }
 }
 
@@ -115,7 +120,7 @@ export async function loadChapter(
   );
   if (!fetched.ok) {
     return fetched.status === 404
-      ? { ok: false, status: 404, message: UNKNOWN_CHAPTER_MESSAGE }
+      ? { ok: false, status: 404, message: UNKNOWN_CHAPTER_MESSAGE, upstreamStatus: fetched.upstreamStatus }
       : fetched;
   }
   const verses = versesFromContent(fetched.body.data?.content, {

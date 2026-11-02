@@ -107,6 +107,13 @@ describe("API.Bible NKJV client", () => {
     expect(result.data.ref).toBe("John 3:16-17");
   });
 
+  it("records the API.Bible status without returning the key", async () => {
+    const fetchImpl = vi.fn(async () => new Response("no", { status: 401 }));
+    const result = await loadChapter("GEN", 1, { fetch: fetchImpl, key: KEY });
+    expect(result).toMatchObject({ ok: false, status: 502, upstreamStatus: 401, message: expect.any(String) });
+    expect(JSON.stringify(result)).not.toContain(KEY);
+  });
+
   it("returns a friendly message and does not call the network when the key is missing", async () => {
     const fetchImpl = vi.fn();
     const missing = await loadChapter("Genesis", 1, { fetch: fetchImpl, key: null });
