@@ -1,15 +1,17 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { QuestionSession } from "@/components/QuestionSession";
-import { attemptPoints, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
-import type { MascotLine, Question } from "@/lib/game/types";
+import { attemptForQuestion } from "@/lib/game";
+import { attemptPoints, questionMarkers, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
+import type { AttemptState, MascotLine, Question } from "@/lib/game/types";
 import { awardQuestionPoints } from "@/lib/account/scoring";
 import { savePlayerState } from "@/lib/account/repository";
 import { useSignedIn } from "@/lib/account/use-access";
-import type { Celebration } from "@/lib/storage";
+import type { Celebration, StoredState } from "@/lib/storage";
+import { saveState } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
 export function PlayClient({
@@ -24,6 +26,8 @@ export function PlayClient({
   const router = useRouter();
   const { state, ready } = useProfile();
   const auth = useSignedIn();
+  const stateRef = useRef(state);
+  stateRef.current = state;
 
   useEffect(() => {
     if (!ready) return;
@@ -50,6 +54,27 @@ export function PlayClient({
   }
 
   const { question, review } = pick;
+  const markers = questionMarkers({
+    review,
+    tier: question.tier,
+    showDifficulty: state.showDifficulty === true,
+  });
+
+  function rememberAttempt(attempt: AttemptState) {
+    const current = stateRef.current;
+    if (!current) return;
+    const next: StoredState = {
+      ...current,
+      progress: {
+        ...current.progress,
+        openAttempt: attempt,
+        missCounts: { ...(current.progress.missCounts ?? {}), [attempt.questionId]: attempt.missCount },
+      },
+    };
+    stateRef.current = next;
+    saveState(next);
+  }
+
   return (
     <QuestionSession
       key={`${question.id}:${state.progress.draw ?? 0}`}
@@ -60,13 +85,18 @@ export function PlayClient({
       soundOn={state.soundOn}
       audioFiles={audioFiles}
       progressLabel={`${state.progress.stage ?? "Seed"} · ${question.section}`}
+      reviewLabel={markers.review}
+      difficultyLabel={markers.difficulty}
+      initialAttempt={attemptForQuestion(question.id, state.progress)}
+      onAttemptChange={rememberAttempt}
       onContinue={({ firstAttemptCorrect, missCount }) => {
-        const scored = new Set(state.progress.scoredIds ?? []);
+        const current = stateRef.current ?? state;
+        const scored = new Set(current.progress.scoredIds ?? []);
         const gained = attemptPoints(missCount, review, scored.has(question.id));
         if (gained > 0) scored.add(question.id);
-        const mastered = new Set(state.progress.masteredIds);
-        let streak = state.progress.streak;
-        let seasonMasteredCount = state.progress.seasonMasteredCount;
+        const mastered = new Set(current.progress.masteredIds);
+        let streak = current.progress.streak;
+        let seasonMasteredCount = current.progress.seasonMasteredCount;
         if (!review && !mastered.has(question.id)) {
           mastered.add(question.id);
           streak = firstAttemptCorrect ? streak + 1 : 0;
@@ -74,15 +104,16 @@ export function PlayClient({
         }
         let progress = recordClear(
           {
-            ...state.progress,
+            ...current.progress,
             masteredIds: [...mastered],
             streak,
-            bestStreak: Math.max(state.progress.bestStreak, streak),
+            bestStreak: Math.max(current.progress.bestStreak, streak),
             seasonMasteredCount,
             scoredIds: [...scored],
-            points: (state.progress.points ?? 0) + gained,
-            draw: (state.progress.draw ?? 0) + 1,
-            missCounts: { ...(state.progress.missCounts ?? {}), [question.id]: missCount },
+            points: (current.progress.points ?? 0) + gained,
+            draw: (current.progress.draw ?? 0) + 1,
+            openAttempt: null,
+            missCounts: { ...(current.progress.missCounts ?? {}), [question.id]: missCount },
           },
           question,
           firstAttemptCorrect && !review,
@@ -91,10 +122,12 @@ export function PlayClient({
         progress = advanceStage(questions, progress);
         const celebration: Celebration | null =
           progress.stage !== before
-            ? { type: "level_up", from: { cycle: state.progress.cycle, tier: state.progress.tier }, to: { cycle: state.progress.cycle, tier: state.progress.tier } }
+            ? { type: "level_up", from: { cycle: current.progress.cycle, tier: current.progress.tier }, to: { cycle: current.progress.cycle, tier: current.progress.tier } }
             : null;
-        savePlayerState({ ...state, progress, celebration });
-        if (state.ageGroup !== "child" && auth.email && !review) {
+        const next = { ...current, progress, celebration };
+        stateRef.current = next;
+        savePlayerState(next);
+        if (current.ageGroup !== "child" && auth.email && !review) {
           void awardQuestionPoints({ questionId: question.id, missCount, seasonId: progress.seasonId ?? "season-1" });
         }
         if (celebration) router.push("/complete");

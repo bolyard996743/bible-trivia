@@ -2,6 +2,8 @@ export { orderChoicesForRetry, shuffleChoices } from "./choices";
 export { explanationRevealIssues, textContainsChoice } from "./reveal";
 export {
   acknowledgeTeaching,
+  attemptForQuestion,
+  resumeAttempt,
   shouldShowExtended,
   shouldShowTakeaway,
   startAttempt,
