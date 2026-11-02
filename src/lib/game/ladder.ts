@@ -1,5 +1,6 @@
 import {
   BOOK_GATES,
+  BOOK_SECTIONS,
   CANONICAL_BOOKS,
   GOSPELS,
   PENTATEUCH,
@@ -9,9 +10,10 @@ import {
   isBookGated,
   nextStage,
   stageRank,
+  topicLabel,
 } from "../curriculum";
 import type { GameProgress, KnowledgeStage, Question, Tier } from "./types";
-import { TIERS } from "./types";
+import { TIER_LABELS, TIERS } from "./types";
 
 export type LadderPick = {
   question: Question;
@@ -82,9 +84,15 @@ export function tierForRoll(stage: KnowledgeStage, roll: number, available: Set<
 }
 
 function matchesStage(question: Question, stage: KnowledgeStage): boolean {
+  // A question's stage is the earliest point it may appear. Later questions stay locked.
+  if (stageRank(stageOf(question)) > stageRank(stage)) return false;
   if (stageOf(question) === stage) return true;
   const topics = new Set<string>(STAGE_TOPICS[stage]);
   return question.topics.some((topic) => topics.has(topic));
+}
+
+function excludedIds(progress: GameProgress): Set<string> {
+  return new Set(progress.placementIds ?? []);
 }
 
 export function nextOpenBook(questions: Question[], progress: GameProgress): string | null {
@@ -99,16 +107,22 @@ export function nextOpenBook(questions: Question[], progress: GameProgress): str
 export function selectLadderQuestion(questions: Question[], progress: GameProgress): LadderPick | null {
   const stage = progress.stage ?? "Seed";
   const mastered = new Set(progress.masteredIds);
+  const placed = excludedIds(progress);
   const draw = progress.draw ?? 0;
   const reviewTurn = draw % 5 === 4;
-  const earlier = questions.filter(
-    (question) => mastered.has(question.id) && stageRank(stageOf(question)) < stageRank(stage),
+  const reviewPool = questions.filter(
+    (question) =>
+      mastered.has(question.id) &&
+      !placed.has(question.id) &&
+      stageRank(stageOf(question)) <= stageRank(stage),
   );
-  if (reviewTurn && earlier.length > 0) {
-    return { question: earlier[draw % earlier.length]!, review: true };
+  if (reviewTurn && reviewPool.length > 0) {
+    return { question: reviewPool[draw % reviewPool.length]!, review: true };
   }
 
-  const fresh = questions.filter((question) => !mastered.has(question.id) && matchesStage(question, stage));
+  const fresh = questions.filter(
+    (question) => !mastered.has(question.id) && !placed.has(question.id) && matchesStage(question, stage),
+  );
   const book = isBookGated(stage) ? nextOpenBook(questions, progress) : null;
   const scoped = book ? fresh.filter((question) => question.book === book) : fresh;
   const pool = scoped.length > 0 ? scoped : fresh;
@@ -120,12 +134,40 @@ export function selectLadderQuestion(questions: Question[], progress: GameProgre
   return { question: chosen[0]!, review: false };
 }
 
+function topicCanCount(
+  topic: string,
+  questions: Question[],
+  stage: KnowledgeStage,
+  mastered: Set<string>,
+  clearedTopics: Set<string>,
+): boolean {
+  if (clearedTopics.has(topic)) return true;
+  return questions.some(
+    (question) =>
+      question.topics.includes(topic) &&
+      stageRank(stageOf(question)) <= stageRank(stage) &&
+      !mastered.has(question.id),
+  );
+}
+
+/** A checklist with nothing left to clear is not "done" while this stage still has questions. */
+function emptyGate(questions: Question[], progress: GameProgress, stage: KnowledgeStage) {
+  const mastered = new Set(progress.masteredIds);
+  const own = questions.filter((question) => stageOf(question) === stage);
+  if (own.length === 0) return { ready: true, cleared: 0, required: 0 };
+  const unfinished = own.some((question) => !mastered.has(question.id));
+  return { ready: !unfinished, cleared: 0, required: 0 };
+}
+
 export function gateStatus(questions: Question[], progress: GameProgress): { ready: boolean; cleared: number; required: number } {
   const stage = progress.stage ?? "Seed";
   const clearedTopics = new Set(progress.clearedTopics ?? []);
   const clearedBooks = new Set(progress.clearedBooks ?? []);
+  const mastered = new Set(progress.masteredIds);
   if (!isBookGated(stage)) {
-    const topics = activeTopics(questions, stage);
+    const topics = activeTopics(questions, stage).filter((topic) =>
+      topicCanCount(topic, questions, stage, mastered, clearedTopics),
+    );
     let required = topics.length;
     let cleared = topics.filter((topic) => clearedTopics.has(topic)).length;
     if (stage === "Seed") {
@@ -147,12 +189,54 @@ export function gateStatus(questions: Question[], progress: GameProgress): { rea
         );
       }
     }
-    return { ready: required === 0 || cleared >= required, cleared, required };
+    if (required === 0) return emptyGate(questions, progress, stage);
+    return { ready: cleared >= required, cleared, required };
   }
-  const available = booksWithContent(questions, stage).length;
-  const required = Math.min(BOOK_GATES[stage] ?? 66, available);
-  const cleared = Math.min(clearedBooks.size, required);
-  return { ready: required === 0 || cleared >= required, cleared, required };
+  const availableBooks = booksWithContent(questions, stage);
+  const required = Math.min(BOOK_GATES[stage] ?? availableBooks.length, availableBooks.length);
+  // Books with no questions are skipped. A cleared name that has no content does not count.
+  const cleared = availableBooks.filter((book) => clearedBooks.has(book)).length;
+  if (required === 0) return emptyGate(questions, progress, stage);
+  return { ready: cleared >= required, cleared, required };
+}
+
+export type ChecklistItem = {
+  id: string;
+  label: string;
+  state: "cleared" | "open" | "coming-soon";
+};
+
+export function stageChecklist(questions: Question[], progress: GameProgress): ChecklistItem[] {
+  const stage = progress.stage ?? "Seed";
+  const clearedTopics = new Set(progress.clearedTopics ?? []);
+  const clearedBooks = new Set(progress.clearedBooks ?? []);
+  if (isBookGated(stage)) {
+    const live = new Set(booksWithContent(questions, stage));
+    return BOOK_SECTIONS.flatMap((section) =>
+      section.books.map((book) => ({
+        id: book,
+        label: book,
+        state: !live.has(book) ? "coming-soon" : clearedBooks.has(book) ? "cleared" : "open",
+      })),
+    );
+  }
+  const live = new Set(activeTopics(questions, stage));
+  return STAGE_TOPICS[stage].map((topic) => ({
+    id: topic,
+    label: topicLabel(topic),
+    state: !live.has(topic) ? "coming-soon" : clearedTopics.has(topic) ? "cleared" : "open",
+  }));
+}
+
+export function questionMarkers(input: {
+  review: boolean;
+  tier: Tier;
+  showDifficulty: boolean;
+}): { review: string | null; difficulty: string | null } {
+  return {
+    review: input.review ? "Review" : null,
+    difficulty: input.showDifficulty ? TIER_LABELS[input.tier] : null,
+  };
 }
 
 export function recordClear(

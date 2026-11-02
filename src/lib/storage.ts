@@ -5,6 +5,7 @@ import {
   MASCOT_IDS,
   TIERS,
   type AgeGroup,
+  type AttemptState,
   type GameProgress,
   type KnowledgeStage,
   type MascotId,
@@ -34,6 +35,8 @@ export type StoredState = {
   celebration: Celebration | null;
   /** Public leaderboard name. Omitted for a child. Never changed after it is set. */
   username?: string;
+  /** Difficulty names on questions. Off unless the player turns them on. */
+  showDifficulty?: boolean;
 };
 
 export function createState(ageGroup: AgeGroup, mascot: MascotId): StoredState {
@@ -47,6 +50,7 @@ export function createState(ageGroup: AgeGroup, mascot: MascotId): StoredState {
     progress: emptyProgress(),
     lastVisitedOn: null,
     celebration: null,
+    showDifficulty: false,
   };
 }
 
@@ -64,6 +68,20 @@ function isTier(value: unknown): value is Tier {
 
 function isStage(value: unknown): value is KnowledgeStage {
   return typeof value === "string" && KNOWLEDGE_PATH.includes(value as KnowledgeStage);
+}
+
+function stringList(value: unknown): string[] {
+  if (!Array.isArray(value)) return [];
+  return value.filter((item): item is string => typeof item === "string");
+}
+
+function readOpenAttempt(value: GameProgress["openAttempt"]): AttemptState | null {
+  if (!value || typeof value !== "object") return null;
+  if (typeof value.questionId !== "string" || value.questionId.length === 0) return null;
+  if (value.phase !== "asking" && value.phase !== "teaching" && value.phase !== "mastered") return null;
+  const missCount = typeof value.missCount === "number" && Number.isFinite(value.missCount) ? Math.max(0, Math.floor(value.missCount)) : 0;
+  if (value.phase === "asking" && missCount === 0) return null;
+  return { questionId: value.questionId, missCount, phase: value.phase };
 }
 
 function isProgress(value: unknown): value is GameProgress {
@@ -91,11 +109,14 @@ export function parseState(raw: string | null): StoredState | null {
       value.progress.stage = knowledgeStage(value.progress.cycle, value.progress.tier);
     }
     value.progress.seasonId ??= "season-1";
-    value.progress.clearedTopics ??= [];
-    value.progress.clearedBooks ??= [];
-    value.progress.scoredIds ??= [];
+    value.progress.clearedTopics = stringList(value.progress.clearedTopics);
+    value.progress.clearedBooks = stringList(value.progress.clearedBooks);
+    value.progress.scoredIds = stringList(value.progress.scoredIds);
+    value.progress.placementIds = stringList(value.progress.placementIds);
+    value.progress.openAttempt = readOpenAttempt(value.progress.openAttempt);
     value.progress.draw ??= 0;
     value.progress.points ??= 0;
+    value.showDifficulty = value.showDifficulty === true;
     if (value.placement) {
       if (
         typeof value.placement.cycle !== "number" ||

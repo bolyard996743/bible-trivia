@@ -42,6 +42,56 @@ export const CURRICULUM_TOPICS = [
 
 export type CurriculumTopic = (typeof CURRICULUM_TOPICS)[number];
 
+/** Player-facing names. The checklist must not show the stored slug. */
+export const TOPIC_LABELS: Record<CurriculumTopic, string> = {
+  creation: "Creation",
+  noah: "Noah",
+  moses: "Moses",
+  "david-goliath": "David and Goliath",
+  jonah: "Jonah",
+  "jesus-birth": "Jesus' Birth",
+  miracles: "Miracles",
+  "cross-resurrection": "Cross and Resurrection",
+  "john-3-16-17": "John 3:16–17",
+  "twelve-disciples": "The Twelve Disciples",
+  "nt-books-overview": "New Testament Books",
+  "isaiah-53-6": "Isaiah 53",
+  "ten-commandments": "The Ten Commandments",
+  "psalm-23": "Psalm 23",
+  "ot-overview": "Old Testament Overview",
+  "great-commission": "The Great Commission",
+  "1-john-1-9": "1 John 1:9",
+  "roman-road": "The Roman Road",
+  "cross-references": "Cross References",
+  "lords-prayer": "The Lord's Prayer",
+  "psalm-1": "Psalm 1",
+  "greatest-commandment": "The Greatest Commandment",
+  "wisdom-books": "Wisdom Books",
+  beatitudes: "The Beatitudes",
+  "armor-of-god": "The Armor of God",
+  "fruit-of-spirit": "The Fruit of the Spirit",
+  epistles: "The Epistles",
+  joseph: "Joseph",
+  patriarchs: "The Patriarchs",
+  "jesus-identity": "Who Jesus Is",
+  pentecost: "Pentecost",
+  "early-church": "The Early Church",
+  daniel: "Daniel",
+  revelation: "Revelation",
+  ruth: "Ruth",
+};
+
+export function topicLabel(topic: string): string {
+  if (Object.prototype.hasOwnProperty.call(TOPIC_LABELS, topic)) {
+    return TOPIC_LABELS[topic as CurriculumTopic];
+  }
+  return topic
+    .split("-")
+    .filter((part) => part.length > 0)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
 export const STAGES = KNOWLEDGE_PATH;
 
 export const STAGE_TOPICS: Record<KnowledgeStage, readonly CurriculumTopic[]> = {

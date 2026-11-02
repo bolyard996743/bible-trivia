@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { QuestionSession } from "@/components/QuestionSession";
 import { MascotMark } from "@/components/MascotMark";
 import { pickMascotLine, scorePlacement, selectPlacementQuestions } from "@/lib/game";
-import type { MascotLine, PlacementAttempt, Question } from "@/lib/game/types";
+import { questionMarkers, recordClear } from "@/lib/game/ladder";
+import type { GameProgress, MascotLine, PlacementAttempt, Question } from "@/lib/game/types";
 import { MASCOTS } from "@/lib/game/types";
 import { emptyProgress } from "@/lib/game/progression";
 import { savePlayerState } from "@/lib/account/repository";
@@ -68,6 +69,12 @@ export function PlacementClient({
     );
   }
 
+  const markers = questionMarkers({
+    review: false,
+    tier: question.tier,
+    showDifficulty: state.showDifficulty === true,
+  });
+
   return (
     <QuestionSession
       key={question.id}
@@ -78,6 +85,7 @@ export function PlacementClient({
       soundOn={state.soundOn}
       audioFiles={audioFiles}
       progressLabel={`Placement ${index + 1} of ${quiz.length}`}
+      difficultyLabel={markers.difficulty}
       onContinue={({ firstAttemptCorrect, missCount }) => {
         const nextAttempts = [
           ...attempts,
@@ -92,6 +100,19 @@ export function PlacementClient({
         }
         const result = scorePlacement(nextAttempts);
         finishing.current = true;
+        const placementIds = nextAttempts.map((attempt) => attempt.questionId);
+        let progress: GameProgress = {
+          ...emptyProgress(result.cycle, result.tier),
+          stage: result.stage,
+          missCounts: nextMisses,
+          masteredIds: placementIds,
+          placementIds,
+        };
+        for (const attempt of nextAttempts) {
+          if (!attempt.firstAttemptCorrect) continue;
+          const answered = quiz.find((item) => item.id === attempt.questionId);
+          if (answered) progress = recordClear(progress, answered, true);
+        }
         savePlayerState({
           ...state,
           placementComplete: true,
@@ -102,11 +123,7 @@ export function PlacementClient({
             possible: result.possible,
             stage: result.stage,
           },
-          progress: {
-            ...emptyProgress(result.cycle, result.tier),
-            stage: result.stage,
-            missCounts: nextMisses,
-          },
+          progress,
           celebration: null,
         });
         router.push("/results");

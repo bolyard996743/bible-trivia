@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { stateWithBirthAge } from "@/lib/account/age-gate";
-import { mergeAccountProgress } from "@/lib/account/merge";
+import { mergeAccountProgress, mergeLadderProgress } from "@/lib/account/merge";
 import { canOfferAccount, showCreateAccountLink } from "@/lib/account/policy";
-import { createLocalPlayerRepository, createSyncingRepository } from "@/lib/account/repository";
+import { createLocalPlayerRepository, createSyncingRepository, type PlayerRepository } from "@/lib/account/repository";
 import { createSupabasePlayerRepository, type AccountQuery } from "@/lib/account/supabase-db";
 import type { VerseMark } from "@/lib/bible/marks";
 import { emptyProgress } from "@/lib/game/progression";
@@ -124,6 +124,46 @@ describe("merge", () => {
     expect(merged.upload).toBe(false);
     expect(merged.state?.ageGroup).toBe("child");
     expect(merged.state?.progress.masteredIds).toEqual(["a"]);
+  });
+});
+
+describe("ladder progress on an account", () => {
+  it("keeps the device checklist when the account row has no ladder fields", async () => {
+    const localStore = memory();
+    const local = createLocalPlayerRepository(localStore);
+    const remoteState = state("adult", { masteredIds: ["q1"] });
+    const device = state("adult", {
+      masteredIds: ["q1"],
+      stage: "Sprout",
+      clearedTopics: ["creation"],
+      clearedBooks: ["Genesis"],
+      draw: 4,
+      placementIds: ["c1-gen-0002"],
+      openAttempt: { questionId: "c1-exo-9001", missCount: 2, phase: "asking" },
+    });
+    device.showDifficulty = true;
+    await local.save(device);
+    const remote: PlayerRepository = {
+      kind: "supabase",
+      async load() {
+        return remoteState;
+      },
+      async save() {},
+      async loadMarks() {
+        return [];
+      },
+      async saveMarks() {},
+    };
+    const syncing = createSyncingRepository(local, remote, true);
+    const loaded = await syncing.load();
+    expect(loaded?.progress.stage).toBe("Sprout");
+    expect(loaded?.progress.clearedTopics).toEqual(["creation"]);
+    expect(loaded?.progress.clearedBooks).toEqual(["Genesis"]);
+    expect(loaded?.progress.draw).toBe(4);
+    expect(loaded?.progress.placementIds).toEqual(["c1-gen-0002"]);
+    expect(loaded?.progress.openAttempt).toEqual({ questionId: "c1-exo-9001", missCount: 2, phase: "asking" });
+    expect(loaded?.showDifficulty).toBe(true);
+    expect(mergeLadderProgress(device.progress, remoteState.progress).missCounts).toEqual({});
   });
 });
 

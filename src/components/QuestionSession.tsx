@@ -8,13 +8,13 @@ import {
   mascotLineAudioSrc,
   pickMascotLine,
   pickWording,
+  resumeAttempt,
   shouldShowExtended,
   shouldShowTakeaway,
-  startAttempt,
   submitAnswer,
   wasFirstAttempt,
 } from "@/lib/game";
-import { MASCOTS, type AgeGroup, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
+import { MASCOTS, type AgeGroup, type AttemptState, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
 
 type MasteryResult = {
   questionId: string;
@@ -30,6 +30,10 @@ export function QuestionSession({
   soundOn,
   audioFiles,
   progressLabel,
+  reviewLabel,
+  difficultyLabel,
+  initialAttempt,
+  onAttemptChange,
   onContinue,
 }: {
   question: Question;
@@ -39,9 +43,13 @@ export function QuestionSession({
   soundOn: boolean;
   audioFiles: string[];
   progressLabel?: string;
+  reviewLabel?: string | null;
+  difficultyLabel?: string | null;
+  initialAttempt?: AttemptState | null;
+  onAttemptChange?: (attempt: AttemptState) => void;
   onContinue: (result: MasteryResult) => void;
 }) {
-  const [attempt, setAttempt] = useState(() => startAttempt(question.id));
+  const [attempt, setAttempt] = useState(() => resumeAttempt(question.id, initialAttempt));
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const prompt = pickWording(question.prompt, ageGroup);
   const explanation = pickWording(question.teaching.explanation, ageGroup);
@@ -80,9 +88,14 @@ export function QuestionSession({
     };
   }, [audioFiles, mascot, soundOn, spoken]);
 
+  function updateAttempt(next: AttemptState) {
+    setAttempt(next);
+    onAttemptChange?.(next);
+  }
+
   function choose(choiceId: string) {
     if (attempt.phase !== "asking") return;
-    setAttempt(submitAnswer(attempt, choiceId === question.answer));
+    updateAttempt(submitAnswer(attempt, choiceId === question.answer));
   }
 
   const showExtended = attempt.phase === "teaching" && shouldShowExtended(attempt.missCount);
@@ -99,6 +112,16 @@ export function QuestionSession({
         <div>
           <p className="text-base text-ink-soft">{info.name}</p>
           {progressLabel ? <p className="text-base text-ink-soft">{progressLabel}</p> : null}
+          {reviewLabel ? (
+            <p data-testid="review-label" className="text-base font-semibold text-gold">
+              {reviewLabel}
+            </p>
+          ) : null}
+          {difficultyLabel ? (
+            <p data-testid="difficulty-label" className="text-base text-ink-soft">
+              {difficultyLabel}
+            </p>
+          ) : null}
         </div>
       </div>
 
@@ -156,7 +179,7 @@ export function QuestionSession({
           <button
             type="button"
             data-testid="ready-button"
-            onClick={() => setAttempt(acknowledgeTeaching(attempt))}
+            onClick={() => updateAttempt(acknowledgeTeaching(attempt))}
             className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white"
           >
             I&apos;m ready

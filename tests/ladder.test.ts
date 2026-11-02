@@ -1,8 +1,18 @@
 import { describe, expect, it } from "vitest";
-import { TIER_MIX } from "@/lib/curriculum";
+import { TIER_MIX, topicLabel } from "@/lib/curriculum";
 import { loadCatalog } from "@/lib/content/load";
-import { attemptPoints, gateStatus, recordClear, selectLadderQuestion, tierForRoll } from "@/lib/game/ladder";
+import { attemptForQuestion } from "@/lib/game/mastery";
+import {
+  attemptPoints,
+  gateStatus,
+  questionMarkers,
+  recordClear,
+  selectLadderQuestion,
+  stageChecklist,
+  tierForRoll,
+} from "@/lib/game/ladder";
 import { emptyProgress } from "@/lib/game/progression";
+import { createState, parseState } from "@/lib/storage";
 import type { Question, Tier } from "@/lib/game/types";
 
 function sample(id: string, tier: Tier, stage: Question["stage"], topics: string[], book = "Genesis"): Question {
@@ -94,5 +104,133 @@ describe("curriculum ladder", () => {
     const pick = selectLadderQuestion(questions, emptyProgress());
     expect(pick?.review).toBe(false);
     expect(pick?.question.id).toBe("c1-gen-0001");
+  });
+
+  it("reviews a mastered question on every 5th draw, including the first stage", () => {
+    const questions = [
+      sample("first", "foundation", "Seed", ["creation"]),
+      sample("second", "foundation", "Seed", ["noah"], "Exodus"),
+    ];
+    const progress = {
+      ...emptyProgress(),
+      stage: "Seed" as const,
+      masteredIds: ["first"],
+      draw: 4,
+    };
+    const review = selectLadderQuestion(questions, progress);
+    expect(review?.review).toBe(true);
+    expect(review?.question.id).toBe("first");
+    const fresh = selectLadderQuestion(questions, { ...progress, draw: 5 });
+    expect(fresh?.review).toBe(false);
+    expect(fresh?.question.id).toBe("second");
+  });
+
+  it("does not serve a later stage's question before that stage", () => {
+    const questions = [
+      sample("later", "foundation", "Growing", ["creation"], "Genesis"),
+      sample("now", "foundation", "Seed", ["noah"], "Exodus"),
+    ];
+    expect(selectLadderQuestion(questions, emptyProgress())?.question.id).toBe("now");
+  });
+
+  it("does not ask a placement question again", () => {
+    const questions = [
+      sample("placed", "foundation", "Seed", ["noah"]),
+      sample("fresh", "foundation", "Seed", ["creation"], "Exodus"),
+    ];
+    const pick = selectLadderQuestion(questions, {
+      ...emptyProgress(),
+      masteredIds: ["placed"],
+      placementIds: ["placed"],
+    });
+    expect(pick?.question.id).toBe("fresh");
+    expect(pick?.review).toBe(false);
+    const again = selectLadderQuestion(questions, {
+      ...emptyProgress(),
+      stage: "Sprout",
+      masteredIds: ["placed"],
+      placementIds: ["placed"],
+      draw: 4,
+    });
+    expect(again?.question.id).not.toBe("placed");
+  });
+
+  it("does not count a book with no content as cleared", () => {
+    const questions = [
+      sample("gen", "foundation", "Growing", ["roman-road"], "Genesis"),
+      sample("exo", "foundation", "Growing", ["roman-road"], "Exodus"),
+      sample("lev", "foundation", "Growing", ["roman-road"], "Leviticus"),
+    ];
+    const status = gateStatus(questions, {
+      ...emptyProgress(),
+      stage: "Growing",
+      clearedBooks: ["Genesis", "Obadiah", "Jude"],
+    });
+    expect(status.cleared).toBe(1);
+    expect(status.required).toBe(3);
+    expect(status.ready).toBe(false);
+  });
+
+  it("does not treat an empty Sprout checklist as already met", () => {
+    const { questions } = loadCatalog();
+    const sprout = questions.filter((question) => question.stage === "Sprout");
+    expect(sprout.length).toBeGreaterThan(0);
+    const open = gateStatus(questions, { ...emptyProgress(), stage: "Sprout" });
+    expect(open.ready).toBe(false);
+    expect(open.required).toBe(0);
+    const done = gateStatus(questions, {
+      ...emptyProgress(),
+      stage: "Sprout",
+      masteredIds: sprout.map((question) => question.id),
+    });
+    expect(done.ready).toBe(true);
+  });
+
+  it("names checklist topics and marks a cleared one", () => {
+    const questions = [sample("create", "foundation", "Seed", ["creation"])];
+    const before = stageChecklist(questions, emptyProgress());
+    const creation = before.find((item) => item.id === "creation");
+    expect(creation).toMatchObject({ label: "Creation", state: "open" });
+    expect(creation?.label).not.toBe("creation");
+    expect(topicLabel("david-goliath")).toBe("David and Goliath");
+    const cleared = stageChecklist(questions, recordClear(emptyProgress(), questions[0]!, true));
+    expect(cleared.find((item) => item.id === "creation")?.state).toBe("cleared");
+    expect(cleared.find((item) => item.id === "noah")?.state).toBe("coming-soon");
+  });
+
+  it("hides difficulty until the player turns it on and labels a review", () => {
+    expect(questionMarkers({ review: true, tier: "foundation", showDifficulty: false })).toEqual({
+      review: "Review",
+      difficulty: null,
+    });
+    expect(questionMarkers({ review: false, tier: "expert", showDifficulty: true })).toEqual({
+      review: null,
+      difficulty: "Expert",
+    });
+    expect(questionMarkers({ review: false, tier: "intermediate", showDifficulty: false }).difficulty).toBeNull();
+  });
+
+  it("keeps the miss count after a reload so the score stays 5 or 2", () => {
+    const saved = parseState(
+      JSON.stringify({
+        ...createState("child", "judah"),
+        progress: {
+          ...emptyProgress(),
+          openAttempt: { questionId: "c1-gen-0001", missCount: 1, phase: "teaching" },
+          missCounts: { "c1-gen-0001": 1 },
+        },
+      }),
+    );
+    const resumed = attemptForQuestion("c1-gen-0001", saved!.progress);
+    expect(resumed.missCount).toBe(1);
+    expect(resumed.phase).toBe("teaching");
+    expect(attemptPoints(resumed.missCount, false, false)).toBe(5);
+    const fromMissesOnly = attemptForQuestion("c1-gen-0001", {
+      ...emptyProgress(),
+      missCounts: { "c1-gen-0001": 2 },
+    });
+    expect(fromMissesOnly.missCount).toBe(2);
+    expect(attemptPoints(fromMissesOnly.missCount, false, false)).toBe(2);
+    expect(attemptForQuestion("other", saved!.progress).missCount).toBe(0);
   });
 });

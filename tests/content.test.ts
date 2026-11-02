@@ -49,6 +49,8 @@ describe("sample content", () => {
     const hunter = lines.filter((line) => line.mascot === "hunter").map((line) => line.text).join("\n");
     expect(hunter.toLowerCase()).not.toContain("swallowed jonah");
     expect(hunter.toLowerCase()).not.toContain("i swallowed");
+    expect(hunter).toContain("Don't stop down here. Three days in the dark taught me the best part comes after.");
+    expect(hunter).not.toContain("Trust me, the dark is a poor place to stop");
   });
 
   it("uses the approved placement set in tier order and the guide's question lines", () => {

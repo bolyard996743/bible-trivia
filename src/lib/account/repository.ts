@@ -1,3 +1,4 @@
+import { mergeAccountProgress } from "./merge";
 import { createVerseMarkStore, type StorageLike, type VerseMark } from "../bible/marks";
 import { readLocalState, writeLocalState, type StoredState } from "../storage";
 
@@ -48,14 +49,16 @@ export function createSyncingRepository(
   return {
     kind: allowRemote && remote ? "supabase" : "local",
     async load() {
-      if (!allowRemote || !remote) return local.load();
+      const localState = await local.load();
+      if (!allowRemote || !remote) return localState;
       try {
         const remoteState = await remote.load();
-        if (remoteState) return remoteState;
+        if (!remoteState) return localState;
+        if (!localState) return remoteState;
+        return mergeAccountProgress(localState, remoteState).state ?? remoteState;
       } catch {
-        return local.load();
+        return localState;
       }
-      return local.load();
     },
     async save(state) {
       await local.save(state);
@@ -94,7 +97,7 @@ export function setPlayerRepository(repository: PlayerRepository) {
 export function savePlayerState(state: StoredState): void {
   void getPlayerRepository()
     .save(state)
-    .then(() => {
+    .finally(() => {
       if (typeof window !== "undefined") window.dispatchEvent(new Event("bible-trivia-storage"));
     });
 }

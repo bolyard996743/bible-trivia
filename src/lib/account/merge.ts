@@ -1,5 +1,6 @@
+import { stageRank } from "../curriculum";
 import { knowledgeStage } from "../game/progression";
-import { TIERS, type GameProgress, type Tier } from "../game/types";
+import { TIERS, type AttemptState, type GameProgress, type KnowledgeStage, type Tier } from "../game/types";
 import type { VerseMark } from "../bible/marks";
 import type { StoredState } from "../storage";
 import { isAccountAge } from "./policy";
@@ -31,6 +32,39 @@ function maxMisses(left: GameProgress | undefined, right: GameProgress | undefin
 
 function unionIds(left: string[] | undefined, right: string[] | undefined): string[] {
   return [...new Set([...(left ?? []), ...(right ?? [])])];
+}
+
+function furtherStage(left?: KnowledgeStage, right?: KnowledgeStage): KnowledgeStage {
+  const a = left ?? "Seed";
+  const b = right ?? "Seed";
+  return stageRank(a) >= stageRank(b) ? a : b;
+}
+
+function preferAttempt(local: GameProgress, remote: GameProgress): AttemptState | null {
+  if ("openAttempt" in local) return local.openAttempt ?? null;
+  return remote.openAttempt ?? null;
+}
+
+export function mergeLadderProgress(local: GameProgress, remote: GameProgress): GameProgress {
+  const stage = furtherStage(local.stage, remote.stage);
+  return {
+    cycle: local.cycle,
+    tier: local.tier,
+    masteredIds: unionIds(local.masteredIds, remote.masteredIds),
+    missCounts: maxMisses(local, remote),
+    streak: Math.max(local.streak, remote.streak),
+    bestStreak: Math.max(local.bestStreak, remote.bestStreak),
+    seasonMasteredCount: Math.max(local.seasonMasteredCount, remote.seasonMasteredCount),
+    stage,
+    seasonId: local.seasonId ?? remote.seasonId ?? "season-1",
+    clearedTopics: unionIds(local.clearedTopics, remote.clearedTopics),
+    clearedBooks: unionIds(local.clearedBooks, remote.clearedBooks),
+    scoredIds: unionIds(local.scoredIds, remote.scoredIds),
+    placementIds: unionIds(local.placementIds, remote.placementIds),
+    draw: Math.max(local.draw ?? 0, remote.draw ?? 0),
+    points: Math.max(local.points ?? 0, remote.points ?? 0),
+    openAttempt: preferAttempt(local, remote),
+  };
 }
 
 function laterDate(left: string | null | undefined, right: string | null | undefined): string | null {
@@ -80,22 +114,20 @@ export function mergeAccountProgress(
   const remoteFurther = pathScore(remote.progress.cycle, remote.progress.tier);
   const further = localFurther >= remoteFurther ? local.progress : remote.progress;
   const placement = choosePlacement(local, remote);
+  const ladder = mergeLadderProgress(local.progress, remote.progress);
 
   const state: StoredState = {
     version: 1,
     ageGroup: local.ageGroup,
     mascot: local.mascot,
     soundOn: local.soundOn,
+    showDifficulty: local.showDifficulty === true || remote.showDifficulty === true,
     placementComplete: local.placementComplete || remote.placementComplete,
     placement,
     progress: {
+      ...ladder,
       cycle: further.cycle,
       tier: further.tier,
-      masteredIds: unionIds(local.progress.masteredIds, remote.progress.masteredIds),
-      missCounts: maxMisses(local.progress, remote.progress),
-      streak: Math.max(local.progress.streak, remote.progress.streak),
-      bestStreak: Math.max(local.progress.bestStreak, remote.progress.bestStreak),
-      seasonMasteredCount: Math.max(local.progress.seasonMasteredCount, remote.progress.seasonMasteredCount),
     },
     lastVisitedOn: laterDate(local.lastVisitedOn, remote.lastVisitedOn),
     celebration: null,

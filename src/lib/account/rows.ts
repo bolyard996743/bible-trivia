@@ -114,6 +114,7 @@ export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredSta
     bestStreak: row.best_streak,
     seasonMasteredCount: row.season_mastered_count,
     points: row.points,
+    stage: isStage(row.placement_stage) ? row.placement_stage : "Seed",
   };
   const placement =
     row.placement_cycle != null && isTier(row.placement_tier) && isStage(row.placement_stage)

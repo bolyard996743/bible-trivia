@@ -119,6 +119,10 @@ export type GameProgress = {
   scoredIds?: string[];
   /** Increments on each served question so the 80/20 mix stays stable. */
   draw?: number;
+  /** Question ids already answered in placement. They are not served again. */
+  placementIds?: string[];
+  /** Misses on the question currently on screen. Survives a reload. */
+  openAttempt?: AttemptState | null;
   /**
    * Season points on this device. Signed-in totals are awarded by the database.
    * Placement answers never add points.
