@@ -1,0 +1,1735 @@
+{
+  "format_version": 1,
+  "mascot": "judah",
+  "author": "Judah the Lion",
+  "lines": [
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0020",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "In the beginning, God spoke. Let's read Genesis 1:3.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0020",
+      "moment": "correct",
+      "audience": "all",
+      "text": "In the beginning, God spoke. Let's read Genesis 1:3.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0020",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "In the beginning, God spoke. Let's read Genesis 1:3.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0021",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "On day one, God was busy! Let's read Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0021",
+      "moment": "correct",
+      "audience": "all",
+      "text": "On day one, God was busy! Let's read Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0021",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "On day one, God was busy! Let's read Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0022",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Picture God shaping the very first person. Let's read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0022",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Picture God shaping the very first person. Let's read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0022",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Picture God shaping the very first person. Let's read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0023",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Picture the garden, quiet and new. Let's read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0023",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Picture the garden, quiet and new. Let's read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0023",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Picture the garden, quiet and new. Let's read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0024",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Adam had an important job. Let's read Genesis 2:19.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0024",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Adam had an important job. Let's read Genesis 2:19.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0024",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Adam had an important job. Let's read Genesis 2:19.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0025",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's hear what God said about all He made, in Genesis 1:31.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0025",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's hear what God said about all He made, in Genesis 1:31.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0025",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's hear what God said about all He made, in Genesis 1:31.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0026",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Adam was about to get a partner! Let's read Genesis 2:22.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0026",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Adam was about to get a partner! Let's read Genesis 2:22.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0026",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Adam was about to get a partner! Let's read Genesis 2:22.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0027",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Day five was busy! Let's read Genesis 1:21.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0027",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Day five was busy! Let's read Genesis 1:21.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0027",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Day five was busy! Let's read Genesis 1:21.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0028",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God gave Noah clear instructions. Let's read them in Genesis 6:14.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0028",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God gave Noah clear instructions. Let's read them in Genesis 6:14.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0028",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God gave Noah clear instructions. Let's read them in Genesis 6:14.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0029",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's watch the animals line up in Genesis 7:9.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0029",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's watch the animals line up in Genesis 7:9.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0029",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's watch the animals line up in Genesis 7:9.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0030",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's read Genesis 6:9 and see what kind of man Noah was.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0030",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's read Genesis 6:9 and see what kind of man Noah was.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0030",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's read Genesis 6:9 and see what kind of man Noah was.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0031",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Everyone was aboard, and the rain was coming. Let's read Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0031",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Everyone was aboard, and the rain was coming. Let's read Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0031",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Everyone was aboard, and the rain was coming. Let's read Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0032",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Good news was flying in! Let's read Genesis 8:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0032",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Good news was flying in! Let's read Genesis 8:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0032",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Good news was flying in! Let's read Genesis 8:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0033",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's see what Noah did first, in Genesis 8:20.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0033",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's see what Noah did first, in Genesis 8:20.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0033",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's see what Noah did first, in Genesis 8:20.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0034",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God keeps His promises. Let's read this one in Genesis 9:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0034",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God keeps His promises. Let's read this one in Genesis 9:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0034",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God keeps His promises. Let's read this one in Genesis 9:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-gen-0035",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God made a special promise to Noah. Let's read Genesis 9:13.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "judah-seed-correct-c1-gen-0035",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God made a special promise to Noah. Let's read Genesis 9:13.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-gen-0035",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God made a special promise to Noah. Let's read Genesis 9:13.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A mother's brave plan! Let's read Exodus 2:3 together.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A mother's brave plan! Let's read Exodus 2:3 together.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A mother's brave plan! Let's read Exodus 2:3 together.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's see who came along in Exodus 2:5. God was watching over that little one.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's see who came along in Exodus 2:5. God was watching over that little one.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's see who came along in Exodus 2:5. God was watching over that little one.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Someone was keeping watch. Let's find out who in Exodus 2:4.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Someone was keeping watch. Let's find out who in Exodus 2:4.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Someone was keeping watch. Let's find out who in Exodus 2:4.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Holy ground calls for a careful look. Let's read Exodus 3:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Holy ground calls for a careful look. Let's read Exodus 3:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Holy ground calls for a careful look. Let's read Exodus 3:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God had big plans for Moses. Let's hear them in Exodus 3:10.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God had big plans for Moses. Let's hear them in Exodus 3:10.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God had big plans for Moses. Let's hear them in Exodus 3:10.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Nothing stands in God's way! Let's read Exodus 14:21.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Nothing stands in God's way! Let's read Exodus 14:21.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Nothing stands in God's way! Let's read Exodus 14:21.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "This one's close to home. Let's read Exodus 20:12 together.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "This one's close to home. Let's read Exodus 20:12 together.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "This one's close to home. Let's read Exodus 20:12 together.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-exo-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God spoke from the mountain, loud and clear. Let's read Exodus 20:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "judah-seed-correct-c1-exo-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God spoke from the mountain, loud and clear. Let's read Exodus 20:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-exo-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God spoke from the mountain, loud and clear. Let's read Exodus 20:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's find young David in 1 Samuel 16:11. God's Word tells us right where he was.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's find young David in 1 Samuel 16:11. God's Word tells us right where he was.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's find young David in 1 Samuel 16:11. God's Word tells us right where he was.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Samuel had a special job to do for David. Let's read 1 Samuel 16:13.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Samuel had a special job to do for David. Let's read 1 Samuel 16:13.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Samuel had a special job to do for David. Let's read 1 Samuel 16:13.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Giants have a hometown too. Let's check 1 Samuel 17:4 together.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Giants have a hometown too. Let's check 1 Samuel 17:4 together.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Giants have a hometown too. Let's check 1 Samuel 17:4 together.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Every morning and every evening, the giant shouted. Let's read 1 Samuel 17:16.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Every morning and every evening, the giant shouted. Let's read 1 Samuel 17:16.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Every morning and every evening, the giant shouted. Let's read 1 Samuel 17:16.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's hear David tell it in his own words, in 1 Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's hear David tell it in his own words, in 1 Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's hear David tell it in his own words, in 1 Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David spoke bold words to Goliath. Let's read them in 1 Samuel 17:45.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David spoke bold words to Goliath. Let's read them in 1 Samuel 17:45.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David spoke bold words to Goliath. Let's read them in 1 Samuel 17:45.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's watch what David did next, in 1 Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's watch what David did next, in 1 Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's watch what David did next, in 1 Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-1sa-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David knew where real strength comes from. Let's read 1 Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "judah-seed-correct-c1-1sa-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David knew where real strength comes from. Let's read 1 Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-1sa-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David knew where real strength comes from. Let's read 1 Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God gave Jonah a mission. Let's read Jonah 1:2.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God gave Jonah a mission. Let's read Jonah 1:2.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God gave Jonah a mission. Let's read Jonah 1:2.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's follow Jonah's steps in Jonah 1:3.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's follow Jonah's steps in Jonah 1:3.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's follow Jonah's steps in Jonah 1:3.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Big storm up top! Let's see what Jonah was doing in Jonah 1:5.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Big storm up top! Let's see what Jonah was doing in Jonah 1:5.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Big storm up top! Let's see what Jonah was doing in Jonah 1:5.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Things got stormy on that ship. Let's read Jonah 1:15.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Things got stormy on that ship. Let's read Jonah 1:15.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Things got stormy on that ship. Let's read Jonah 1:15.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Even in the deep, Jonah wasn't alone. Let's read Jonah 2:1.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Even in the deep, Jonah wasn't alone. Let's read Jonah 2:1.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Even in the deep, Jonah wasn't alone. Let's read Jonah 2:1.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Three days in the deep, and then something happened. Let's read Jonah 2:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Three days in the deep, and then something happened. Let's read Jonah 2:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Three days in the deep, and then something happened. Let's read Jonah 2:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A whole city was waiting to see what God would do. Let's read Jonah 3:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A whole city was waiting to see what God would do. Let's read Jonah 3:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A whole city was waiting to see what God would do. Let's read Jonah 3:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jon-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's read Jonah 4:6 and see what God provided.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "judah-seed-correct-c1-jon-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's read Jonah 4:6 and see what God provided.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jon-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's read Jonah 4:6 and see what God provided.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-luk-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Good news came in the night! Let's read Luke 2:8.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "judah-seed-correct-c1-luk-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Good news came in the night! Let's read Luke 2:8.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-luk-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Good news came in the night! Let's read Luke 2:8.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-luk-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A long, dusty road to Bethlehem! Let's read Luke 2:3 and 5.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "judah-seed-correct-c1-luk-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A long, dusty road to Bethlehem! Let's read Luke 2:3 and 5.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-luk-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A long, dusty road to Bethlehem! Let's read Luke 2:3 and 5.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-luk-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The angel brought big news. Let's read Luke 2:11.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "judah-seed-correct-c1-luk-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The angel brought big news. Let's read Luke 2:11.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-luk-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The angel brought big news. Let's read Luke 2:11.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-luk-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's read Luke 2:20 and see how the shepherds went home.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "judah-seed-correct-c1-luk-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's read Luke 2:20 and see how the shepherds went home.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-luk-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's read Luke 2:20 and see how the shepherds went home.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mat-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The angel told Joseph something wonderful. Let's read Matthew 1:21.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "judah-seed-correct-c1-mat-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The angel told Joseph something wonderful. Let's read Matthew 1:21.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mat-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The angel told Joseph something wonderful. Let's read Matthew 1:21.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mat-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The wise men traveled a long way. Let's read Matthew 2:2.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "judah-seed-correct-c1-mat-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The wise men traveled a long way. Let's read Matthew 2:2.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mat-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The wise men traveled a long way. Let's read Matthew 2:2.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mat-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's open the treasure chest of Matthew 2:11.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "judah-seed-correct-c1-mat-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's open the treasure chest of Matthew 2:11.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mat-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's open the treasure chest of Matthew 2:11.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mat-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God protected Jesus. Let's read Matthew 2:12.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "judah-seed-correct-c1-mat-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God protected Jesus. Let's read Matthew 2:12.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mat-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God protected Jesus. Let's read Matthew 2:12.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mat-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Dark night, rough waves, tired disciples. Let's read Matthew 14:25.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "judah-seed-correct-c1-mat-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Dark night, rough waves, tired disciples. Let's read Matthew 14:25.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mat-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Dark night, rough waves, tired disciples. Let's read Matthew 14:25.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mat-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Even brave hearts get scared. Let's read Matthew 14:30.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "judah-seed-correct-c1-mat-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Even brave hearts get scared. Let's read Matthew 14:30.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mat-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Even brave hearts get scared. Let's read Matthew 14:30.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mrk-0001",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Now those are good friends! Let's read Mark 2:4.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "judah-seed-correct-c1-mrk-0001",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Now those are good friends! Let's read Mark 2:4.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mrk-0001",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Now those are good friends! Let's read Mark 2:4.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mrk-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "What a night on the water! Let's read Mark 4:39 together.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "judah-seed-correct-c1-mrk-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "What a night on the water! Let's read Mark 4:39 together.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mrk-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "What a night on the water! Let's read Mark 4:39 together.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mrk-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A hillside full of hungry people! Let's read Mark 6:43.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "judah-seed-correct-c1-mrk-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A hillside full of hungry people! Let's read Mark 6:43.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mrk-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A hillside full of hungry people! Let's read Mark 6:43.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mrk-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A man by the road called out to Jesus. Let's read Mark 10:51.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "judah-seed-correct-c1-mrk-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A man by the road called out to Jesus. Let's read Mark 10:51.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mrk-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A man by the road called out to Jesus. Let's read Mark 10:51.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus' first sign! Let's read John 2:9 together.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus' first sign! Let's read John 2:9 together.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus' first sign! Let's read John 2:9 together.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus spoke with power at the tomb. Let's read John 11:43.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus spoke with power at the tomb. Let's read John 11:43.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus spoke with power at the tomb. Let's read John 11:43.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-luk-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "These words show Jesus' heart. Let's read Luke 23:34.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "judah-seed-correct-c1-luk-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "These words show Jesus' heart. Let's read Luke 23:34.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-luk-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "These words show Jesus' heart. Let's read Luke 23:34.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-luk-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Early morning, sad hearts, a surprise waiting. Let's read Luke 24:2.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "judah-seed-correct-c1-luk-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Early morning, sad hearts, a surprise waiting. Let's read Luke 24:2.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-luk-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Early morning, sad hearts, a surprise waiting. Let's read Luke 24:2.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-luk-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The women stood at the tomb, wondering. Let's hear what was said in Luke 24:6.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "judah-seed-correct-c1-luk-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The women stood at the tomb, wondering. Let's hear what was said in Luke 24:6.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-luk-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The women stood at the tomb, wondering. Let's hear what was said in Luke 24:6.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-mat-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The women were hurrying down the road. Let's read Matthew 28:9.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "judah-seed-correct-c1-mat-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The women were hurrying down the road. Let's read Matthew 28:9.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-mat-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The women were hurrying down the road. Let's read Matthew 28:9.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Above the cross hung a sign for everyone to see. Let's read John 19:19.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Above the cross hung a sign for everyone to see. Let's read John 19:19.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Above the cross hung a sign for everyone to see. Let's read John 19:19.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Even on the cross, Jesus cared for His family. Let's read John 19:26 and 27.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Even on the cross, Jesus cared for His family. Let's read John 19:26 and 27.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Even on the cross, Jesus cared for His family. Let's read John 19:26 and 27.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "These words matter forever. Let's read John 19:30.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "These words matter forever. Let's read John 19:30.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "These words matter forever. Let's read John 19:30.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Let's read John 20:16 and see the moment Mary knew Him.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Let's read John 20:16 and see the moment Mary knew Him.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Let's read John 20:16 and see the moment Mary knew Him.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Every gift has a giver. Let's read John 3:16 again.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Every gift has a giver. Let's read John 3:16 again.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Every gift has a giver. Let's read John 3:16 again.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Something big moved this gift. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Something big moved this gift. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Something big moved this gift. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0010",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "There's a promise for those who believe. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0010",
+      "moment": "correct",
+      "audience": "all",
+      "text": "There's a promise for those who believe. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0010",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "There's a promise for those who believe. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0011",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "This is the best news a heart can hear. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0011",
+      "moment": "correct",
+      "audience": "all",
+      "text": "This is the best news a heart can hear. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0011",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "This is the best news a heart can hear. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0012",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:17 keeps the good news going. Let's read it.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0012",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:17 keeps the good news going. Let's read it.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0012",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:17 keeps the good news going. Let's read it.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0013",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus came on a mission from heaven. Let's read John 3:17.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0013",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus came on a mission from heaven. Let's read John 3:17.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0013",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus came on a mission from heaven. Let's read John 3:17.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0014",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "One little word makes a huge difference. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0014",
+      "moment": "correct",
+      "audience": "all",
+      "text": "One little word makes a huge difference. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0014",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "One little word makes a huge difference. Let's read John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "judah-seed-wrong-intro-c1-jhn-0015",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus came with a purpose. Let's read John 3:17.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    },
+    {
+      "id": "judah-seed-correct-c1-jhn-0015",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus came with a purpose. Let's read John 3:17.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    },
+    {
+      "id": "judah-seed-correct-after-retry-c1-jhn-0015",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus came with a purpose. Let's read John 3:17.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    }
+  ]
+}

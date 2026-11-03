@@ -1,0 +1,1735 @@
+{
+  "format_version": 1,
+  "mascot": "zion",
+  "author": "Zion the Eagle",
+  "lines": [
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0020",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God spoke, and everything began! Hear His first words in Genesis 1:3.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0020",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God spoke, and everything began! Hear His first words in Genesis 1:3.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0020",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God spoke, and everything began! Hear His first words in Genesis 1:3.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0021",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "On day one, God spoke over the dark too. Read Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0021",
+      "moment": "correct",
+      "audience": "all",
+      "text": "On day one, God spoke over the dark too. Read Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0021",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "On day one, God spoke over the dark too. Read Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0022",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God shaped the first man with care. Genesis 2:7 tells what He used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0022",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God shaped the first man with care. Genesis 2:7 tells what He used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0022",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God shaped the first man with care. Genesis 2:7 tells what He used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0023",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The first man lay still, and then God did something special. Read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0023",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The first man lay still, and then God did something special. Read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0023",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The first man lay still, and then God did something special. Read Genesis 2:7.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0024",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Every animal came to meet Adam. See what he did in Genesis 2:19.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0024",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Every animal came to meet Adam. See what he did in Genesis 2:19.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0024",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Every animal came to meet Adam. See what he did in Genesis 2:19.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0025",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God looked at everything He made on day six. Read Genesis 1:31.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0025",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God looked at everything He made on day six. Read Genesis 1:31.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0025",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God looked at everything He made on day six. Read Genesis 1:31.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0026",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God put Adam into a deep sleep, then did something new. Read Genesis 2:22.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0026",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God put Adam into a deep sleep, then did something new. Read Genesis 2:22.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0026",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God put Adam into a deep sleep, then did something new. Read Genesis 2:22.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0027",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The water and the sky began to fill up. See who came in Genesis 1:21.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0027",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The water and the sky began to fill up. See who came in Genesis 1:21.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0027",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The water and the sky began to fill up. See who came in Genesis 1:21.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0028",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Noah heard God's plan before the first cloud came. Read Genesis 6:14.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0028",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Noah heard God's plan before the first cloud came. Read Genesis 6:14.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0028",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Noah heard God's plan before the first cloud came. Read Genesis 6:14.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0029",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The animals came to Noah's door. See how they came in Genesis 7:9.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0029",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The animals came to Noah's door. See how they came in Genesis 7:9.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0029",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The animals came to Noah's door. See how they came in Genesis 7:9.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0030",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Read what Genesis 6:9 says about Noah.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0030",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Read what Genesis 6:9 says about Noah.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0030",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Read what Genesis 6:9 says about Noah.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0031",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The rain was about to fall, and someone closed the door. Read Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0031",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The rain was about to fall, and someone closed the door. Read Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0031",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The rain was about to fall, and someone closed the door. Read Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0032",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Noah waited and waited on the water. See what came back in Genesis 8:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0032",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Noah waited and waited on the water. See what came back in Genesis 8:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0032",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Noah waited and waited on the water. See what came back in Genesis 8:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0033",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Noah stepped out into a fresh, clean place. See what he built in Genesis 8:20.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0033",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Noah stepped out into a fresh, clean place. See what he built in Genesis 8:20.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0033",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Noah stepped out into a fresh, clean place. See what he built in Genesis 8:20.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0034",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God made a big promise to Noah's family. Listen in Genesis 9:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0034",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God made a big promise to Noah's family. Listen in Genesis 9:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0034",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God made a big promise to Noah's family. Listen in Genesis 9:11.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-gen-0035",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "After the storm, God set a sign of His promise. Read Genesis 9:13.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "zion-seed-correct-c1-gen-0035",
+      "moment": "correct",
+      "audience": "all",
+      "text": "After the storm, God set a sign of His promise. Read Genesis 9:13.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-gen-0035",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "After the storm, God set a sign of His promise. Read Genesis 9:13.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Someone made a safe hiding place for baby Moses. Read Exodus 2:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Someone made a safe hiding place for baby Moses. Read Exodus 2:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Someone made a safe hiding place for baby Moses. Read Exodus 2:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Someone new came to the water that day. See who in Exodus 2:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Someone new came to the water that day. See who in Exodus 2:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Someone new came to the water that day. See who in Exodus 2:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Someone watched nearby to see what would happen. Read Exodus 2:4.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Someone watched nearby to see what would happen. Read Exodus 2:4.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Someone watched nearby to see what would happen. Read Exodus 2:4.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God spoke from a bush on fire. Read His words in Exodus 3:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God spoke from a bush on fire. Read His words in Exodus 3:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God spoke from a bush on fire. Read His words in Exodus 3:5.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "At the bush, God had a big job for Moses. Hear it in Exodus 3:10.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "At the bush, God had a big job for Moses. Hear it in Exodus 3:10.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "At the bush, God had a big job for Moses. Hear it in Exodus 3:10.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The water was in front of Israel. See what happened to it in Exodus 14:21.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The water was in front of Israel. See what happened to it in Exodus 14:21.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The water was in front of Israel. See what happened to it in Exodus 14:21.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "This rule comes with a promise. See who it's for in Exodus 20:12.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "This rule comes with a promise. See who it's for in Exodus 20:12.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "This rule comes with a promise. See who it's for in Exodus 20:12.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-exo-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God's very first rule came at Sinai. Read it in Exodus 20:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "zion-seed-correct-c1-exo-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God's very first rule came at Sinai. Read it in Exodus 20:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-exo-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God's very first rule came at Sinai. Read it in Exodus 20:3.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Samuel asked for the youngest son. See what David was doing in 1 Samuel 16:11.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Samuel asked for the youngest son. See what David was doing in 1 Samuel 16:11.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Samuel asked for the youngest son. See what David was doing in 1 Samuel 16:11.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Samuel held up a horn for David. See what was inside in 1 Samuel 16:13.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Samuel held up a horn for David. See what was inside in 1 Samuel 16:13.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Samuel held up a horn for David. See what was inside in 1 Samuel 16:13.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A giant stood in the valley. See which army he joined in 1 Samuel 17:4.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A giant stood in the valley. See which army he joined in 1 Samuel 17:4.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A giant stood in the valley. See which army he joined in 1 Samuel 17:4.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Morning and evening, the giant shouted at Israel. Count along in 1 Samuel 17:16.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Morning and evening, the giant shouted at Israel. Count along in 1 Samuel 17:16.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Morning and evening, the giant shouted at Israel. Count along in 1 Samuel 17:16.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David told Saul about scary things he had faced. Read them in 1 Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David told Saul about scary things he had faced. Read them in 1 Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David told Saul about scary things he had faced. Read them in 1 Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David faced the giant and spoke up. Hear his words in 1 Samuel 17:45.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David faced the giant and spoke up. Hear his words in 1 Samuel 17:45.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David faced the giant and spoke up. Hear his words in 1 Samuel 17:45.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Saul wanted to help David get ready. See what David decided in 1 Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Saul wanted to help David get ready. See what David decided in 1 Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Saul wanted to help David get ready. See what David decided in 1 Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-1sa-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David told the crowd how battles are won. Read his words in 1 Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "zion-seed-correct-c1-1sa-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David told the crowd how battles are won. Read his words in 1 Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-1sa-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David told the crowd how battles are won. Read his words in 1 Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "God sent Jonah to a big city. Read where in Jonah 1:2.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "God sent Jonah to a big city. Read where in Jonah 1:2.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "God sent Jonah to a big city. Read where in Jonah 1:2.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jonah wanted to run and hide. See what he found in Jonah 1:3.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jonah wanted to run and hide. See what he found in Jonah 1:3.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jonah wanted to run and hide. See what he found in Jonah 1:3.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The storm was loud, but Jonah was down below. Read Jonah 1:5.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The storm was loud, but Jonah was down below. Read Jonah 1:5.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The storm was loud, but Jonah was down below. Read Jonah 1:5.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The waves kept getting bigger. See what the sailors did in Jonah 1:15.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The waves kept getting bigger. See what the sailors did in Jonah 1:15.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The waves kept getting bigger. See what the sailors did in Jonah 1:15.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jonah was inside the fish. Read what he did there in Jonah 2:1.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jonah was inside the fish. Read what he did there in Jonah 2:1.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jonah was inside the fish. Read what he did there in Jonah 2:1.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Someone spoke to the fish. Read who in Jonah 2:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Someone spoke to the fish. Read who in Jonah 2:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Someone spoke to the fish. Read who in Jonah 2:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The city turned from its bad ways. See what God did in Jonah 3:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The city turned from its bad ways. See what God did in Jonah 3:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The city turned from its bad ways. See what God did in Jonah 3:10.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jon-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jonah sat in the hot sun. See how God helped him in Jonah 4:6.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "zion-seed-correct-c1-jon-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jonah sat in the hot sun. See how God helped him in Jonah 4:6.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jon-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jonah sat in the hot sun. See how God helped him in Jonah 4:6.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-luk-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "It was late on a quiet hill when the angel spoke. See who heard in Luke 2:8.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "zion-seed-correct-c1-luk-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "It was late on a quiet hill when the angel spoke. See who heard in Luke 2:8.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-luk-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "It was late on a quiet hill when the angel spoke. See who heard in Luke 2:8.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-luk-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Mary and Joseph went on a long trip. Find out why in Luke 2:3 and Luke 2:5.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "zion-seed-correct-c1-luk-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Mary and Joseph went on a long trip. Find out why in Luke 2:3 and Luke 2:5.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-luk-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Mary and Joseph went on a long trip. Find out why in Luke 2:3 and Luke 2:5.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-luk-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The angel shared happy news about a baby. Read His special title in Luke 2:11.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "zion-seed-correct-c1-luk-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The angel shared happy news about a baby. Read His special title in Luke 2:11.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-luk-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The angel shared happy news about a baby. Read His special title in Luke 2:11.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-luk-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "They went home with a story to tell. Read what they did in Luke 2:20.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "zion-seed-correct-c1-luk-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "They went home with a story to tell. Read what they did in Luke 2:20.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-luk-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "They went home with a story to tell. Read what they did in Luke 2:20.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mat-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "An angel told Joseph about the baby's special job. Read Matthew 1:21.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "zion-seed-correct-c1-mat-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "An angel told Joseph about the baby's special job. Read Matthew 1:21.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mat-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "An angel told Joseph about the baby's special job. Read Matthew 1:21.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mat-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Wise men from the East saw something that made them leave home. Read Matthew 2:2.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "zion-seed-correct-c1-mat-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Wise men from the East saw something that made them leave home. Read Matthew 2:2.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mat-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Wise men from the East saw something that made them leave home. Read Matthew 2:2.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mat-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "They opened their treasure boxes for Jesus. See what was inside in Matthew 2:11.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "zion-seed-correct-c1-mat-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "They opened their treasure boxes for Jesus. See what was inside in Matthew 2:11.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mat-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "They opened their treasure boxes for Jesus. See what was inside in Matthew 2:11.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mat-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The wise men got a warning before going home. See how in Matthew 2:12.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "zion-seed-correct-c1-mat-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The wise men got a warning before going home. See how in Matthew 2:12.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mat-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The wise men got a warning before going home. See how in Matthew 2:12.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mat-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The friends were in the boat in the dark. See how Jesus came, Matthew 14:25.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "zion-seed-correct-c1-mat-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The friends were in the boat in the dark. See how Jesus came, Matthew 14:25.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mat-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The friends were in the boat in the dark. See how Jesus came, Matthew 14:25.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mat-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Peter felt afraid and began to sink. Hear what he cried out in Matthew 14:30.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "zion-seed-correct-c1-mat-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Peter felt afraid and began to sink. Hear what he cried out in Matthew 14:30.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mat-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Peter felt afraid and began to sink. Hear what he cried out in Matthew 14:30.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mrk-0001",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A big crowd filled the doorway. See what his friends did in Mark 2:4.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "zion-seed-correct-c1-mrk-0001",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A big crowd filled the doorway. See what his friends did in Mark 2:4.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mrk-0001",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A big crowd filled the doorway. See what his friends did in Mark 2:4.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mrk-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A big storm shook the boat. See what happened when Jesus spoke in Mark 4:39.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "zion-seed-correct-c1-mrk-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A big storm shook the boat. See what happened when Jesus spoke in Mark 4:39.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mrk-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A big storm shook the boat. See what happened when Jesus spoke in Mark 4:39.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mrk-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Everyone ate until they were full. See what was left over in Mark 6:43.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "zion-seed-correct-c1-mrk-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Everyone ate until they were full. See what was left over in Mark 6:43.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mrk-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Everyone ate until they were full. See what was left over in Mark 6:43.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mrk-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus paused and asked a man what he wanted. Hear his answer in Mark 10:51.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "zion-seed-correct-c1-mrk-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus paused and asked a man what he wanted. Hear his answer in Mark 10:51.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mrk-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus paused and asked a man what he wanted. Hear his answer in Mark 10:51.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "At the wedding, the helpers filled the jars. See what came out in John 2:9.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "At the wedding, the helpers filled the jars. See what came out in John 2:9.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "At the wedding, the helpers filled the jars. See what came out in John 2:9.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus spoke loudly outside the tomb. See who He called in John 11:43.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus spoke loudly outside the tomb. See who He called in John 11:43.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus spoke loudly outside the tomb. See who He called in John 11:43.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-luk-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "On the cross, Jesus spoke words for others. Hear what He asked in Luke 23:34.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "zion-seed-correct-c1-luk-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "On the cross, Jesus spoke words for others. Hear what He asked in Luke 23:34.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-luk-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "On the cross, Jesus spoke words for others. Hear what He asked in Luke 23:34.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-luk-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The women came to the tomb early. See what they found in Luke 24:2.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "zion-seed-correct-c1-luk-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The women came to the tomb early. See what they found in Luke 24:2.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-luk-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The women came to the tomb early. See what they found in Luke 24:2.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-luk-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Some men in bright clothes spoke at the tomb. Read their words in Luke 24:6.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "zion-seed-correct-c1-luk-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Some men in bright clothes spoke at the tomb. Read their words in Luke 24:6.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-luk-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Some men in bright clothes spoke at the tomb. Read their words in Luke 24:6.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-mat-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus met the women on the road. See what they did in Matthew 28:9.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "zion-seed-correct-c1-mat-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus met the women on the road. See what they did in Matthew 28:9.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-mat-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus met the women on the road. See what they did in Matthew 28:9.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Pilate wrote a sign and put it on the cross. Read it in John 19:19.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Pilate wrote a sign and put it on the cross. Read it in John 19:19.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Pilate wrote a sign and put it on the cross. Read it in John 19:19.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus asked His close friend to care for someone. See who in John 19:26 and John 19:27.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus asked His close friend to care for someone. See who in John 19:26 and John 19:27.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus asked His close friend to care for someone. See who in John 19:26 and John 19:27.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus said some last words, then bowed His head. Hear them in John 19:30.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus said some last words, then bowed His head. Hear them in John 19:30.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus said some last words, then bowed His head. Hear them in John 19:30.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Mary cried in the garden, until a special moment came. Read John 20:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Mary cried in the garden, until a special moment came. Read John 20:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Mary cried in the garden, until a special moment came. Read John 20:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Read the first words of John 3:16 and see who is named.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Read the first words of John 3:16 and see who is named.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Read the first words of John 3:16 and see who is named.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Something moved the giver to give the gift. Find it in John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Something moved the giver to give the gift. Find it in John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Something moved the giver to give the gift. Find it in John 3:16.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0010",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:16 has a promise for all who trust Jesus. Read the end.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0010",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:16 has a promise for all who trust Jesus. Read the end.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0010",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:16 has a promise for all who trust Jesus. Read the end.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0011",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:16 tells what won't happen to those who trust Jesus. Look in the middle.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0011",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:16 tells what won't happen to those who trust Jesus. Look in the middle.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0011",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:16 tells what won't happen to those who trust Jesus. Look in the middle.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0012",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:17 tells what Jesus was never sent to do. Read it slowly.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0012",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:17 tells what Jesus was never sent to do. Read it slowly.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0012",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:17 tells what Jesus was never sent to do. Read it slowly.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0013",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:17 tells where Jesus was sent. Read along with me.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0013",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:17 tells where Jesus was sent. Read along with me.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0013",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:17 tells where Jesus was sent. Read along with me.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0014",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Read John 3:16 slowly and find the word that shows who is welcome.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0014",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Read John 3:16 slowly and find the word that shows who is welcome.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0014",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Read John 3:16 slowly and find the word that shows who is welcome.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "zion-seed-wrong-intro-c1-jhn-0015",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:17 ends with why Jesus was sent. Read the last part to find out.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    },
+    {
+      "id": "zion-seed-correct-c1-jhn-0015",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:17 ends with why Jesus was sent. Read the last part to find out.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    },
+    {
+      "id": "zion-seed-correct-after-retry-c1-jhn-0015",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:17 ends with why Jesus was sent. Read the last part to find out.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    }
+  ]
+}

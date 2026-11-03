@@ -72,6 +72,58 @@ describe("sample content", () => {
     expect(childLine?.audience).toBe("child");
     expect(childLine?.question_id).toBe("c1-luk-0001");
   });
+
+  it("plays the approved Seed line after every answer", () => {
+    const { lines } = loadCatalog();
+    const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
+      stages: { stage: string; badges: { id: string; questionIds: string[] }[] }[];
+    };
+    const seed = pathFile.stages.find((stage) => stage.stage === "Seed");
+    const badges = seed?.badges ?? [];
+    const ids = badges.flatMap((badge) => badge.questionIds);
+    expect(badges).toHaveLength(9);
+    expect(ids).toHaveLength(72);
+    expect(new Set(ids).size).toBe(72);
+
+    const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
+    const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
+    for (const mascot of mascots) {
+      const owned = lines.filter((line) => line.mascot === mascot && ids.includes(line.question_id ?? ""));
+      expect(owned).toHaveLength(72 * moments.length);
+      expect(new Set(owned.map((line) => line.text)).size).toBe(72);
+      expect(owned.every((line) => line.audience === "all" && line.audio_file === null && line.text === line.text.trim())).toBe(
+        true,
+      );
+    }
+
+    for (const id of ids) {
+      for (const mascot of mascots) {
+        const spoken = moments.map((moment) =>
+          pickMascotLine(lines, mascot, moment, "adult", { questionId: id }),
+        );
+        expect(spoken.every((line) => line?.question_id === id && line.audience === "all")).toBe(true);
+        expect(new Set(spoken.map((line) => line?.text)).size).toBe(1);
+        expect(pickMascotLine(lines, mascot, "correct", "child", { questionId: id })?.text).toBe(spoken[0]?.text);
+        expect(pickMascotLine(lines, mascot, "wrong_intro", "older", { questionId: id })?.text).toBe(spoken[0]?.text);
+      }
+    }
+
+    expect(pickMascotLine(lines, "agnes", "correct", "child", { questionId: "c1-gen-0020" })?.text).toBe(
+      "This is the very beginning of God's story. Let's read Genesis 1:3.",
+    );
+    expect(pickMascotLine(lines, "judah", "wrong_intro", "teen", { questionId: "c1-gen-0020" })?.text).toBe(
+      "In the beginning, God spoke. Let's read Genesis 1:3.",
+    );
+    expect(pickMascotLine(lines, "shalom", "correct_after_retry", "older", { questionId: "c1-gen-0020" })?.text).toBe(
+      "A great hush lay over the deep before anything had its place. Let's rest in Genesis 1:3.",
+    );
+    expect(pickMascotLine(lines, "zion", "correct", "adult", { questionId: "c1-gen-0020" })?.text).toBe(
+      "God spoke, and everything began! Hear His first words in Genesis 1:3.",
+    );
+    expect(pickMascotLine(lines, "hunter", "wrong_intro", "child", { questionId: "c1-gen-0020" })?.text).toBe(
+      "Every story has a first word, friend. Genesis 1:3 tells what the Maker said first.",
+    );
+  });
 });
 
 describe("schema rejects a bad file", () => {
@@ -131,6 +183,34 @@ describe("schema rejects a bad file", () => {
     const result = validateContentTree(dir);
     expect(result.ok).toBe(false);
     expect(result.errors.some((error) => error.includes("c1-gen-0001") && error.includes("God"))).toBe(true);
+  });
+
+  it("fails when a mascot line names an unknown question", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes-seed-001.json");
+    const batch = JSON.parse(fs.readFileSync(file, "utf8")) as {
+      lines: { id: string; question_id: string }[];
+    };
+    batch.lines[0]!.question_id = "c1-missing-0001";
+    fs.writeFileSync(file, JSON.stringify(batch));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors.some((error) => error.includes("c1-missing-0001"))).toBe(true);
+  });
+
+  it("fails when a Seed question is missing one guide's answer line", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes-seed-001.json");
+    const batch = JSON.parse(fs.readFileSync(file, "utf8")) as {
+      lines: { question_id: string; moment: string }[];
+    };
+    batch.lines = batch.lines.filter((line) => !(line.question_id === "c1-gen-0020" && line.moment === "correct"));
+    fs.writeFileSync(file, JSON.stringify(batch));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("Seed question c1-gen-0020 is missing a correct line for agnes");
   });
 
   it("fails when Hunter states that he swallowed Jonah", () => {

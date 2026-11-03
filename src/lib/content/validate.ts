@@ -35,6 +35,10 @@ export type ValidationResult = {
 const QUESTION_FILE = /^[a-z0-9]+(?:-[a-z0-9]+)*\.json$/;
 const MASCOT_FILE = /^(judah|agnes|shalom|zion|hunter)-[a-z0-9]+(?:-[a-z0-9]+)*\.json$/;
 
+/** Moments the question screen speaks after an answer, for every age. */
+const ANSWER_MOMENTS = ["wrong_intro", "correct", "correct_after_retry"] as const;
+const SEED_QUESTION_COUNT = 72;
+
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
   /swallow(?:ed|s|ing)?\s+jonah/i,
@@ -123,6 +127,7 @@ export function validateContentTree(root: string): ValidationResult {
     .sort();
   const seenMascots = new Set<string>();
   const linesByMascot = new Map<string, { moment: string; audience: string }[]>();
+  const answerLinesByQuestion = new Map<string, Map<string, Set<string>>>();
 
   for (const name of mascotFiles) {
     const file = path.posix.join("content/mascots", name);
@@ -161,6 +166,18 @@ export function validateContentTree(root: string): ValidationResult {
           }
         }
       }
+      if (line.question_id) {
+        if (!questionIds.has(line.question_id)) {
+          errors.push(`${file}: ${line.id} references unknown question ${line.question_id}`);
+        }
+        if (line.audience === "all" && (ANSWER_MOMENTS as readonly string[]).includes(line.moment)) {
+          const byMascot = answerLinesByQuestion.get(line.question_id) ?? new Map<string, Set<string>>();
+          const moments = byMascot.get(result.data.mascot) ?? new Set<string>();
+          moments.add(line.moment);
+          byMascot.set(result.data.mascot, moments);
+          answerLinesByQuestion.set(line.question_id, byMascot);
+        }
+      }
     }
   }
 
@@ -196,6 +213,7 @@ export function validateContentTree(root: string): ValidationResult {
     }
     const seenBadges = new Set<string>();
     const seenQuestions = new Set<string>();
+    const seedQuestionIds: string[] = [];
     let badgeCount = 0;
     stages.forEach((stage, index) => {
       const expected = KNOWLEDGE_PATH[index];
@@ -223,10 +241,27 @@ export function validateContentTree(root: string): ValidationResult {
           if (seenQuestions.has(id)) errors.push(`content/knowledge_path.json: ${id} is listed on more than one badge`);
           seenQuestions.add(id);
           if (!questionIds.has(id)) errors.push(`content/knowledge_path.json: ${badge.id} lists unknown question ${id}`);
+          if (expected === "Seed") seedQuestionIds.push(id);
         }
       }
     });
     if (badgeCount !== 218) errors.push(`content/knowledge_path.json: expected 218 badges, found ${badgeCount}`);
+    if (seedQuestionIds.length !== SEED_QUESTION_COUNT) {
+      errors.push(
+        `content/knowledge_path.json: Seed badges should list ${SEED_QUESTION_COUNT} questions, found ${seedQuestionIds.length}`,
+      );
+    }
+    for (const id of seedQuestionIds) {
+      const byMascot = answerLinesByQuestion.get(id) ?? new Map<string, Set<string>>();
+      for (const mascot of MASCOT_IDS) {
+        const moments = byMascot.get(mascot) ?? new Set<string>();
+        for (const moment of ANSWER_MOMENTS) {
+          if (!moments.has(moment)) {
+            errors.push(`Seed question ${id} is missing a ${moment} line for ${mascot}`);
+          }
+        }
+      }
+    }
   }
 
   return { ok: errors.length === 0, errors, questionCount, lineCount };
