@@ -1,0 +1,1735 @@
+{
+  "format_version": 1,
+  "mascot": "hunter",
+  "author": "Hunter the Great Fish",
+  "lines": [
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0020",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Every story has a first word, friend. Genesis 1:3 tells what the Maker said first.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0020",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Every story has a first word, friend. Genesis 1:3 tells what the Maker said first.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0020",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Every story has a first word, friend. Genesis 1:3 tells what the Maker said first.",
+      "audio_file": null,
+      "question_id": "c1-gen-0020"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0021",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "On day one, the Maker was busy. Peek at Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0021",
+      "moment": "correct",
+      "audience": "all",
+      "text": "On day one, the Maker was busy. Peek at Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0021",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "On day one, the Maker was busy. Peek at Genesis 1:5.",
+      "audio_file": null,
+      "question_id": "c1-gen-0021"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0022",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Picture the Maker's hands shaping something wonderful. Genesis 2:7 tells what He used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0022",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Picture the Maker's hands shaping something wonderful. Genesis 2:7 tells what He used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0022",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Picture the Maker's hands shaping something wonderful. Genesis 2:7 tells what He used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0022"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0023",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Genesis 2:7 is a close moment between the Maker and the first man. Read slowly.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0023",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Genesis 2:7 is a close moment between the Maker and the first man. Read slowly.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0023",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Genesis 2:7 is a close moment between the Maker and the first man. Read slowly.",
+      "audio_file": null,
+      "question_id": "c1-gen-0023"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0024",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Adam had quite a parade in the garden! Genesis 2:19 shows what he did.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0024",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Adam had quite a parade in the garden! Genesis 2:19 shows what he did.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0024",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Adam had quite a parade in the garden! Genesis 2:19 shows what he did.",
+      "audio_file": null,
+      "question_id": "c1-gen-0024"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0025",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The Maker looked over all His work. Genesis 1:31 says what He thought.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0025",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The Maker looked over all His work. Genesis 1:31 says what He thought.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0025",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The Maker looked over all His work. Genesis 1:31 says what He thought.",
+      "audio_file": null,
+      "question_id": "c1-gen-0025"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0026",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Genesis 2:22 tells how the first woman was made. See what the Maker used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0026",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Genesis 2:22 tells how the first woman was made. See what the Maker used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0026",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Genesis 2:22 tells how the first woman was made. See what the Maker used.",
+      "audio_file": null,
+      "question_id": "c1-gen-0026"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0027",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "I've a soft spot for day five. Genesis 1:21 shows who moved in.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0027",
+      "moment": "correct",
+      "audience": "all",
+      "text": "I've a soft spot for day five. Genesis 1:21 shows who moved in.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0027",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "I've a soft spot for day five. Genesis 1:21 shows who moved in.",
+      "audio_file": null,
+      "question_id": "c1-gen-0027"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0028",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The Maker gave Noah a big building plan. Genesis 6:14 even names the wood.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0028",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The Maker gave Noah a big building plan. Genesis 6:14 even names the wood.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0028",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The Maker gave Noah a big building plan. Genesis 6:14 even names the wood.",
+      "audio_file": null,
+      "question_id": "c1-gen-0028"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0029",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Picture that parade at Noah's door! Genesis 7:9 shows how they came.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0029",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Picture that parade at Noah's door! Genesis 7:9 shows how they came.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0029",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Picture that parade at Noah's door! Genesis 7:9 shows how they came.",
+      "audio_file": null,
+      "question_id": "c1-gen-0029"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0030",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Genesis 6:9 says something special about Noah and the Maker. Go take a look.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0030",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Genesis 6:9 says something special about Noah and the Maker. Go take a look.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0030",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Genesis 6:9 says something special about Noah and the Maker. Go take a look.",
+      "audio_file": null,
+      "question_id": "c1-gen-0030"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0031",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Right before the rain, someone did one last thing for Noah. See Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0031",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Right before the rain, someone did one last thing for Noah. See Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0031",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Right before the rain, someone did one last thing for Noah. See Genesis 7:16.",
+      "audio_file": null,
+      "question_id": "c1-gen-0031"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0032",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Noah waited so long for good news. Genesis 8:11 shows who brought it.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0032",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Noah waited so long for good news. Genesis 8:11 shows who brought it.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0032",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Noah waited so long for good news. Genesis 8:11 shows who brought it.",
+      "audio_file": null,
+      "question_id": "c1-gen-0032"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0033",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Noah climbed out onto dry ground. Genesis 8:20 tells what he did first.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0033",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Noah climbed out onto dry ground. Genesis 8:20 tells what he did first.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0033",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Noah climbed out onto dry ground. Genesis 8:20 tells what he did first.",
+      "audio_file": null,
+      "question_id": "c1-gen-0033"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0034",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Genesis 9:11 holds a promise for every living thing. Read what won't happen again.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0034",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Genesis 9:11 holds a promise for every living thing. Read what won't happen again.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0034",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Genesis 9:11 holds a promise for every living thing. Read what won't happen again.",
+      "audio_file": null,
+      "question_id": "c1-gen-0034"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-gen-0035",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "After the storm, the Maker gave a sign. Genesis 9:13 tells what it was.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "hunter-seed-correct-c1-gen-0035",
+      "moment": "correct",
+      "audience": "all",
+      "text": "After the storm, the Maker gave a sign. Genesis 9:13 tells what it was.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-gen-0035",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "After the storm, the Maker gave a sign. Genesis 9:13 tells what it was.",
+      "audio_file": null,
+      "question_id": "c1-gen-0035"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A brave mother made a safe spot for her baby. Exodus 2:3 says where.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A brave mother made a safe spot for her baby. Exodus 2:3 says where.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A brave mother made a safe spot for her baby. Exodus 2:3 says where.",
+      "audio_file": null,
+      "question_id": "c1-exo-0002"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Someone came to the water and found a surprise. Exodus 2:5 tells who.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Someone came to the water and found a surprise. Exodus 2:5 tells who.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Someone came to the water and found a surprise. Exodus 2:5 tells who.",
+      "audio_file": null,
+      "question_id": "c1-exo-0003"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Someone stayed close, watching and hoping. Exodus 2:4 tells who it was.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Someone stayed close, watching and hoping. Exodus 2:4 tells who it was.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Someone stayed close, watching and hoping. Exodus 2:4 tells who it was.",
+      "audio_file": null,
+      "question_id": "c1-exo-0004"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Moses was standing somewhere very special. Exodus 3:5 tells what he was told to do.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Moses was standing somewhere very special. Exodus 3:5 tells what he was told to do.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Moses was standing somewhere very special. Exodus 3:5 tells what he was told to do.",
+      "audio_file": null,
+      "question_id": "c1-exo-0005"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A voice from a burning bush gave Moses a big job. Exodus 3:10 says what.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A voice from a burning bush gave Moses a big job. Exodus 3:10 says what.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A voice from a burning bush gave Moses a big job. Exodus 3:10 says what.",
+      "audio_file": null,
+      "question_id": "c1-exo-0006"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The LORD rules the sea, I can tell you. Exodus 14:21 shows what He made.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The LORD rules the sea, I can tell you. Exodus 14:21 shows what He made.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The LORD rules the sea, I can tell you. Exodus 14:21 shows what He made.",
+      "audio_file": null,
+      "question_id": "c1-exo-0007"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "This commandment has a promise with it. Exodus 20:12 names two special people.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "This commandment has a promise with it. Exodus 20:12 names two special people.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "This commandment has a promise with it. Exodus 20:12 names two special people.",
+      "audio_file": null,
+      "question_id": "c1-exo-0008"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-exo-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Hear the first commandments. Exodus 20:3 tells what not to put before Him.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "hunter-seed-correct-c1-exo-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Hear the first commandments. Exodus 20:3 tells what not to put before Him.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-exo-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Hear the first commandments. Exodus 20:3 tells what not to put before Him.",
+      "audio_file": null,
+      "question_id": "c1-exo-0009"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Everyone waited for the youngest son. First Samuel 16:11 says what he was doing.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Everyone waited for the youngest son. First Samuel 16:11 says what he was doing.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Everyone waited for the youngest son. First Samuel 16:11 says what he was doing.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0002"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Samuel's horn held something for David's big day. First Samuel 16:13 tells what.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Samuel's horn held something for David's big day. First Samuel 16:13 tells what.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Samuel's horn held something for David's big day. First Samuel 16:13 tells what.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0003"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Goliath was huge, but he came from somewhere. First Samuel 17:4 says whose army.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Goliath was huge, but he came from somewhere. First Samuel 17:4 says whose army.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Goliath was huge, but he came from somewhere. First Samuel 17:4 says whose army.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0004"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The same loud shout rang out, morning and evening. First Samuel 17:16 says how long.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The same loud shout rang out, morning and evening. First Samuel 17:16 says how long.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The same loud shout rang out, morning and evening. First Samuel 17:16 says how long.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0005"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David told Saul a story from the wild. Hear it in First Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David told Saul a story from the wild. Hear it in First Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David told Saul a story from the wild. Hear it in First Samuel 17:36.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0006"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David spoke brave words to Goliath. First Samuel 17:45 tells in whose name.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David spoke brave words to Goliath. First Samuel 17:45 tells in whose name.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David spoke brave words to Goliath. First Samuel 17:45 tells in whose name.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0007"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Saul gave David a gift, and David chose what to do. First Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Saul gave David a gift, and David chose what to do. First Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Saul gave David a gift, and David chose what to do. First Samuel 17:39.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0008"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-1sa-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "David said where real victory comes from. His words are in First Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "hunter-seed-correct-c1-1sa-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "David said where real victory comes from. His words are in First Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-1sa-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "David said where real victory comes from. His words are in First Samuel 17:47.",
+      "audio_file": null,
+      "question_id": "c1-1sa-0009"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "I know what it's like to dodge a call. Jonah 1:2 shows where it pointed.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "I know what it's like to dodge a call. Jonah 1:2 shows where it pointed.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "I know what it's like to dodge a call. Jonah 1:2 shows where it pointed.",
+      "audio_file": null,
+      "question_id": "c1-jon-0002"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jonah reached Joppa with his mind made up. Jonah 1:3 tells what he found.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jonah reached Joppa with his mind made up. Jonah 1:3 tells what he found.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jonah reached Joppa with his mind made up. Jonah 1:3 tells what he found.",
+      "audio_file": null,
+      "question_id": "c1-jon-0003"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Everything around Jonah was loud and wild. Jonah 1:5 tells what he was doing below.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Everything around Jonah was loud and wild. Jonah 1:5 tells what he was doing below.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Everything around Jonah was loud and wild. Jonah 1:5 tells what he was doing below.",
+      "audio_file": null,
+      "question_id": "c1-jon-0004"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The sailors made a big choice. Jonah 1:15 tells what they did.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The sailors made a big choice. Jonah 1:15 tells what they did.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The sailors made a big choice. Jonah 1:15 tells what they did.",
+      "audio_file": null,
+      "question_id": "c1-jon-0005"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jonah was somewhere no one plans to be. Jonah 2:1 tells what he did there.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jonah was somewhere no one plans to be. Jonah 2:1 tells what he did there.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jonah was somewhere no one plans to be. Jonah 2:1 tells what he did there.",
+      "audio_file": null,
+      "question_id": "c1-jon-0006"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jonah 2:10 shows who gave the order that ended the waiting.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jonah 2:10 shows who gave the order that ended the waiting.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jonah 2:10 shows who gave the order that ended the waiting.",
+      "audio_file": null,
+      "question_id": "c1-jon-0007"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A whole city turned around. Jonah 3:10 shows how the LORD answered.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A whole city turned around. Jonah 3:10 shows how the LORD answered.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A whole city turned around. Jonah 3:10 shows how the LORD answered.",
+      "audio_file": null,
+      "question_id": "c1-jon-0008"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jon-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jonah sat and waited in the heat. Jonah 4:6 shows what the LORD got ready.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jon-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jonah sat and waited in the heat. Jonah 4:6 shows what the LORD got ready.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jon-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jonah sat and waited in the heat. Jonah 4:6 shows what the LORD got ready.",
+      "audio_file": null,
+      "question_id": "c1-jon-0009"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-luk-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "It was a quiet night in the fields. Luke 2:8 tells who was there.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "hunter-seed-correct-c1-luk-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "It was a quiet night in the fields. Luke 2:8 tells who was there.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-luk-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "It was a quiet night in the fields. Luke 2:8 tells who was there.",
+      "audio_file": null,
+      "question_id": "c1-luk-0002"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-luk-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Joseph and Mary took a long trip. Luke 2:3 and 2:5 tell why.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "hunter-seed-correct-c1-luk-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Joseph and Mary took a long trip. Luke 2:3 and 2:5 tell why.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-luk-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Joseph and Mary took a long trip. Luke 2:3 and 2:5 tell why.",
+      "audio_file": null,
+      "question_id": "c1-luk-0003"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-luk-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The angel had big news about the baby. Luke 2:11 tells what he called Him.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "hunter-seed-correct-c1-luk-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The angel had big news about the baby. Luke 2:11 tells what he called Him.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-luk-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The angel had big news about the baby. Luke 2:11 tells what he called Him.",
+      "audio_file": null,
+      "question_id": "c1-luk-0004"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-luk-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The shepherds went home changed. Luke 2:20 shows what they did on the way.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "hunter-seed-correct-c1-luk-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The shepherds went home changed. Luke 2:20 shows what they did on the way.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-luk-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The shepherds went home changed. Luke 2:20 shows what they did on the way.",
+      "audio_file": null,
+      "question_id": "c1-luk-0005"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mat-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The angel told Joseph why the baby's name mattered. Matthew 1:21 explains.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mat-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The angel told Joseph why the baby's name mattered. Matthew 1:21 explains.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mat-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The angel told Joseph why the baby's name mattered. Matthew 1:21 explains.",
+      "audio_file": null,
+      "question_id": "c1-mat-0002"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mat-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The wise men traveled far for something they noticed. Matthew 2:2 tells what.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mat-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The wise men traveled far for something they noticed. Matthew 2:2 tells what.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mat-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The wise men traveled far for something they noticed. Matthew 2:2 tells what.",
+      "audio_file": null,
+      "question_id": "c1-mat-0003"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mat-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The wise men knelt and opened their treasures. Matthew 2:11 lists what they gave.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mat-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The wise men knelt and opened their treasures. Matthew 2:11 lists what they gave.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mat-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The wise men knelt and opened their treasures. Matthew 2:11 lists what they gave.",
+      "audio_file": null,
+      "question_id": "c1-mat-0004"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mat-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The wise men got a warning about Herod. Matthew 2:12 tells how it came.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mat-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The wise men got a warning about Herod. Matthew 2:12 tells how it came.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mat-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The wise men got a warning about Herod. Matthew 2:12 tells how it came.",
+      "audio_file": null,
+      "question_id": "c1-mat-0005"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mat-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "I know rough water and long nights. Matthew 14:25 tells how Jesus came to them.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mat-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "I know rough water and long nights. Matthew 14:25 tells how Jesus came to them.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mat-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "I know rough water and long nights. Matthew 14:25 tells how Jesus came to them.",
+      "audio_file": null,
+      "question_id": "c1-mat-0006"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mat-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Peter was doing something amazing, then looked away. Matthew 14:30 has the words he cried.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mat-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Peter was doing something amazing, then looked away. Matthew 14:30 has the words he cried.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mat-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Peter was doing something amazing, then looked away. Matthew 14:30 has the words he cried.",
+      "audio_file": null,
+      "question_id": "c1-mat-0007"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mrk-0001",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Good friends would not let a crowd stop them. Mark 2:4 shows what they did.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mrk-0001",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Good friends would not let a crowd stop them. Mark 2:4 shows what they did.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mrk-0001",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Good friends would not let a crowd stop them. Mark 2:4 shows what they did.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0001"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mrk-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "I've been tossed by rough water myself. Mark 4:39 shows what happened when Jesus spoke.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mrk-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "I've been tossed by rough water myself. Mark 4:39 shows what happened when Jesus spoke.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mrk-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "I've been tossed by rough water myself. Mark 4:39 shows what happened when Jesus spoke.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0002"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mrk-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Everyone ate until full, then the disciples gathered the extras. Mark 6:43 gives the count.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mrk-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Everyone ate until full, then the disciples gathered the extras. Mark 6:43 gives the count.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mrk-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Everyone ate until full, then the disciples gathered the extras. Mark 6:43 gives the count.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0003"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mrk-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "A man called out to Jesus by the road. Mark 10:51 tells what he asked.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mrk-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "A man called out to Jesus by the road. Mark 10:51 tells what he asked.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mrk-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "A man called out to Jesus by the road. Mark 10:51 tells what he asked.",
+      "audio_file": null,
+      "question_id": "c1-mrk-0004"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0002",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus did His first miracle at a party. John 2:9 shows the big change.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0002",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus did His first miracle at a party. John 2:9 shows the big change.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0002",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus did His first miracle at a party. John 2:9 shows the big change.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0002"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0003",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus spoke loudly outside a tomb to a dear friend. John 11:43 tells who.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0003",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus spoke loudly outside a tomb to a dear friend. John 11:43 tells who.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0003",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus spoke loudly outside a tomb to a dear friend. John 11:43 tells who.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0003"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-luk-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Even on the cross, Jesus prayed for others. Luke 23:34 has His words.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "hunter-seed-correct-c1-luk-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Even on the cross, Jesus prayed for others. Luke 23:34 has His words.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-luk-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Even on the cross, Jesus prayed for others. Luke 23:34 has His words.",
+      "audio_file": null,
+      "question_id": "c1-luk-0006"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-luk-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "The women came early Sunday with worried hearts. Luke 24:2 shows what they found.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "hunter-seed-correct-c1-luk-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "The women came early Sunday with worried hearts. Luke 24:2 shows what they found.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-luk-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "The women came early Sunday with worried hearts. Luke 24:2 shows what they found.",
+      "audio_file": null,
+      "question_id": "c1-luk-0007"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-luk-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Two men in shining clothes had news. Luke 24:6 has their words.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "hunter-seed-correct-c1-luk-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Two men in shining clothes had news. Luke 24:6 has their words.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-luk-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Two men in shining clothes had news. Luke 24:6 has their words.",
+      "audio_file": null,
+      "question_id": "c1-luk-0008"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-mat-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus met the women with a happy word. Matthew 28:9 shows what they did.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "hunter-seed-correct-c1-mat-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus met the women with a happy word. Matthew 28:9 shows what they did.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-mat-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus met the women with a happy word. Matthew 28:9 shows what they did.",
+      "audio_file": null,
+      "question_id": "c1-mat-0008"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0004",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Pilate had a sign written for everyone to read. John 19:19 says what it said.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0004",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Pilate had a sign written for everyone to read. John 19:19 says what it said.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0004",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Pilate had a sign written for everyone to read. John 19:19 says what it said.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0004"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0005",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Even in pain, Jesus made sure someone dear was cared for. John 19:26-27 shows who.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0005",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Even in pain, Jesus made sure someone dear was cared for. John 19:26-27 shows who.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0005",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Even in pain, Jesus made sure someone dear was cared for. John 19:26-27 shows who.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0005"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0006",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Jesus' last words from the cross are in John 19:30. Listen closely.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0006",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Jesus' last words from the cross are in John 19:30. Listen closely.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0006",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Jesus' last words from the cross are in John 19:30. Listen closely.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0006"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0007",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Mary was crying and did not know who stood there. John 20:16 shows what changed.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0007",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Mary was crying and did not know who stood there. John 20:16 shows what changed.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0007",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Mary was crying and did not know who stood there. John 20:16 shows what changed.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0007"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0008",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:16 starts with the giver. Read the first few words and see.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0008",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:16 starts with the giver. Read the first few words and see.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0008",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:16 starts with the giver. Read the first few words and see.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0008"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0009",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:16 tells what moved the giver to give. Read the first part.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0009",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:16 tells what moved the giver to give. Read the first part.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0009",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:16 tells what moved the giver to give. Read the first part.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0009"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0010",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:16 ends with a promise for everyone who believes. Read the last words.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0010",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:16 ends with a promise for everyone who believes. Read the last words.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0010",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:16 ends with a promise for everyone who believes. Read the last words.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0010"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0011",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:16 has a big word. Read what it says will not happen to believers.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0011",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:16 has a big word. Read what it says will not happen to believers.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0011",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:16 has a big word. Read what it says will not happen to believers.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0011"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0012",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:17 tells what Jesus was not sent to do. That's good news!",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0012",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:17 tells what Jesus was not sent to do. That's good news!",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0012",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:17 tells what Jesus was not sent to do. That's good news!",
+      "audio_file": null,
+      "question_id": "c1-jhn-0012"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0013",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:17 tells where the Father sent His Son. Read the first half.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0013",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:17 tells where the Father sent His Son. Read the first half.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0013",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:17 tells where the Father sent His Son. Read the first half.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0013"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0014",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "Read John 3:16 slowly and find the one little word that opens the door wide.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0014",
+      "moment": "correct",
+      "audience": "all",
+      "text": "Read John 3:16 slowly and find the one little word that opens the door wide.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0014",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "Read John 3:16 slowly and find the one little word that opens the door wide.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0014"
+    },
+    {
+      "id": "hunter-seed-wrong-intro-c1-jhn-0015",
+      "moment": "wrong_intro",
+      "audience": "all",
+      "text": "John 3:17 ends with why Jesus was sent. Read to the very end.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    },
+    {
+      "id": "hunter-seed-correct-c1-jhn-0015",
+      "moment": "correct",
+      "audience": "all",
+      "text": "John 3:17 ends with why Jesus was sent. Read to the very end.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    },
+    {
+      "id": "hunter-seed-correct-after-retry-c1-jhn-0015",
+      "moment": "correct_after_retry",
+      "audience": "all",
+      "text": "John 3:17 ends with why Jesus was sent. Read to the very end.",
+      "audio_file": null,
+      "question_id": "c1-jhn-0015"
+    }
+  ]
+}
