@@ -104,6 +104,7 @@ export function emptyProgress(cycle = 1, tier: Tier = "foundation"): GameProgres
     seasonId: "season-1",
     clearedTopics: [],
     clearedBooks: [],
+    firstTryIds: [],
     scoredIds: [],
     draw: 0,
     points: 0,
@@ -129,10 +130,28 @@ export function sectionsFor(questions: Question[], cycle: number, tier: Tier): s
   return sections;
 }
 
+function stageQuestions(questions: Question[], progress: GameProgress): Question[] {
+  const stage = progress.stage ?? knowledgeStage(progress.cycle, progress.tier);
+  return questions
+    .filter((question) => (question.stage ?? "Seed") === stage)
+    .slice()
+    .sort((a, b) => bookRank(a.book) - bookRank(b.book) || a.id.localeCompare(b.id));
+}
+
+/**
+ * The section the player is working on in their stage.
+ * Cycle and tier are a separate axis. Using them alone showed Established's
+ * Psalm 119 to a Seed player whose saved cycle was 3 and tier was intermediate,
+ * because that is the only question with that cycle and tier.
+ */
 export function currentSection(questions: Question[], progress: GameProgress): string | null {
-  const sections = sectionsFor(questions, progress.cycle, progress.tier);
+  const pool = stageQuestions(questions, progress);
+  const sections: string[] = [];
+  for (const question of pool) {
+    if (!sections.includes(question.section)) sections.push(question.section);
+  }
   for (const section of sections) {
-    const open = questionsForPlacement(questions, progress.cycle, progress.tier).some(
+    const open = pool.some(
       (question) => question.section === section && !progress.masteredIds.includes(question.id),
     );
     if (open) return section;
@@ -143,10 +162,9 @@ export function currentSection(questions: Question[], progress: GameProgress): s
 export function nextQuestion(questions: Question[], progress: GameProgress): Question | null {
   const section = currentSection(questions, progress);
   if (!section) return null;
+  const pool = stageQuestions(questions, progress);
   return (
-    questionsForPlacement(questions, progress.cycle, progress.tier).find(
-      (question) => question.section === section && !progress.masteredIds.includes(question.id),
-    ) ?? null
+    pool.find((question) => question.section === section && !progress.masteredIds.includes(question.id)) ?? null
   );
 }
 

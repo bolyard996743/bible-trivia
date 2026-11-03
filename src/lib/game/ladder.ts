@@ -1,10 +1,6 @@
 import {
-  BOOK_GATES,
   BOOK_SECTIONS,
   CANONICAL_BOOKS,
-  GOSPELS,
-  PENTATEUCH,
-  SEED_BOOK_GATE,
   STAGE_TOPICS,
   TIER_MIX,
   isBookGated,
@@ -12,6 +8,7 @@ import {
   stageRank,
   topicLabel,
 } from "../curriculum";
+import { gateFromSections } from "./badges";
 import type { GameProgress, KnowledgeStage, Question, Tier } from "./types";
 import { TIER_LABELS, TIERS } from "./types";
 
@@ -134,70 +131,8 @@ export function selectLadderQuestion(questions: Question[], progress: GameProgre
   return { question: chosen[0]!, review: false };
 }
 
-function topicCanCount(
-  topic: string,
-  questions: Question[],
-  stage: KnowledgeStage,
-  mastered: Set<string>,
-  clearedTopics: Set<string>,
-): boolean {
-  if (clearedTopics.has(topic)) return true;
-  return questions.some(
-    (question) =>
-      question.topics.includes(topic) &&
-      stageRank(stageOf(question)) <= stageRank(stage) &&
-      !mastered.has(question.id),
-  );
-}
-
-/** A checklist with nothing left to clear is not "done" while this stage still has questions. */
-function emptyGate(questions: Question[], progress: GameProgress, stage: KnowledgeStage) {
-  const mastered = new Set(progress.masteredIds);
-  const own = questions.filter((question) => stageOf(question) === stage);
-  if (own.length === 0) return { ready: true, cleared: 0, required: 0 };
-  const unfinished = own.some((question) => !mastered.has(question.id));
-  return { ready: !unfinished, cleared: 0, required: 0 };
-}
-
 export function gateStatus(questions: Question[], progress: GameProgress): { ready: boolean; cleared: number; required: number } {
-  const stage = progress.stage ?? "Seed";
-  const clearedTopics = new Set(progress.clearedTopics ?? []);
-  const clearedBooks = new Set(progress.clearedBooks ?? []);
-  const mastered = new Set(progress.masteredIds);
-  if (!isBookGated(stage)) {
-    const topics = activeTopics(questions, stage).filter((topic) =>
-      topicCanCount(topic, questions, stage, mastered, clearedTopics),
-    );
-    let required = topics.length;
-    let cleared = topics.filter((topic) => clearedTopics.has(topic)).length;
-    if (stage === "Seed") {
-      const books = booksWithContent(questions, stage);
-      const pentateuchAvailable = books.filter((book) => (PENTATEUCH as readonly string[]).includes(book));
-      const gospelAvailable = books.filter((book) => (GOSPELS as readonly string[]).includes(book));
-      if (pentateuchAvailable.length > 0) {
-        required += SEED_BOOK_GATE.pentateuch;
-        cleared += Math.min(
-          SEED_BOOK_GATE.pentateuch,
-          pentateuchAvailable.filter((book) => clearedBooks.has(book)).length,
-        );
-      }
-      if (gospelAvailable.length > 0) {
-        required += SEED_BOOK_GATE.gospels;
-        cleared += Math.min(
-          SEED_BOOK_GATE.gospels,
-          gospelAvailable.filter((book) => clearedBooks.has(book)).length,
-        );
-      }
-    }
-    if (required === 0) return emptyGate(questions, progress, stage);
-    return { ready: cleared >= required, cleared, required };
-  }
-  const availableBooks = booksWithContent(questions, stage);
-  const required = Math.min(BOOK_GATES[stage] ?? availableBooks.length, availableBooks.length);
-  // Books with no questions are skipped. A cleared name that has no content does not count.
-  const cleared = availableBooks.filter((book) => clearedBooks.has(book)).length;
-  if (required === 0) return emptyGate(questions, progress, stage);
-  return { ready: cleared >= required, cleared, required };
+  return gateFromSections(questions, progress);
 }
 
 export type ChecklistItem = {
@@ -239,6 +174,11 @@ export function questionMarkers(input: {
   };
 }
 
+function knownFirstTries(progress: GameProgress): string[] {
+  if (progress.firstTryIds) return progress.firstTryIds;
+  return progress.masteredIds.filter((id) => (progress.missCounts?.[id] ?? 0) === 0);
+}
+
 export function recordClear(
   progress: GameProgress,
   question: Question,
@@ -246,14 +186,17 @@ export function recordClear(
 ): GameProgress {
   const clearedTopics = new Set(progress.clearedTopics ?? []);
   const clearedBooks = new Set(progress.clearedBooks ?? []);
+  const firstTryIds = new Set(knownFirstTries(progress));
   if (firstTry) {
     for (const topic of question.topics) clearedTopics.add(topic);
     clearedBooks.add(question.book);
+    firstTryIds.add(question.id);
   }
   return {
     ...progress,
     clearedTopics: [...clearedTopics],
     clearedBooks: [...clearedBooks],
+    firstTryIds: [...firstTryIds],
   };
 }
 
@@ -263,7 +206,7 @@ export function advanceStage(questions: Question[], progress: GameProgress): Gam
   if (!status.ready) return progress;
   const upcoming = nextStage(stage);
   if (!upcoming) return progress;
-  return { ...progress, stage: upcoming, draw: 0 };
+  return { ...progress, stage: upcoming, mapOrigin: progress.mapOrigin ?? stage, draw: 0 };
 }
 
 export { tierOrder };

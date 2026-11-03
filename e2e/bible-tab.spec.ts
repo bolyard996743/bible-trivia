@@ -57,7 +57,9 @@ test("a reader can open a chapter, see the notice, and save a note by reference"
   await expect(notice.getByRole("link", { name: "API.Bible" })).toHaveAttribute("href", "https://api.bible");
 
   await page.getByTestId("highlight-verse-1").click();
-  await page.getByTestId("highlight-gold").click();
+  await expect(page.getByTestId("verse-tools")).toBeVisible();
+  await page.getByTestId("highlight-yellow").click();
+  await page.getByTestId("verse-pen").click();
   await page.getByTestId("verse-note-input").fill("A note I wrote");
   await page.getByTestId("save-note").click();
   await expect(page.getByTestId("verse-1").getByTestId("verse-note-text")).toHaveText("A note I wrote");
@@ -70,5 +72,8 @@ test("a reader can open a chapter, see the notice, and save a note by reference"
 
   await page.reload();
   await expect(page.getByTestId("verse-1").getByTestId("verse-note-text")).toHaveText("A note I wrote");
-  await expect(page.getByTestId("verse-1")).toHaveAttribute("data-highlight", "gold");
+  await expect(page.getByTestId("verse-1")).toHaveAttribute("data-highlight", "yellow");
+  await page.getByTestId("verse-note-text").click();
+  await expect(page.getByTestId("verse-note-input")).toHaveValue("A note I wrote");
+  await expect(page.getByTestId("highlight-yellow")).toBeVisible();
 });

@@ -8,7 +8,7 @@ import { MascotMark } from "@/components/MascotMark";
 import { STARTING_REASSURANCE } from "@/lib/copy";
 import { pickMascotLine } from "@/lib/game";
 import { currentSection } from "@/lib/game/progression";
-import { MASCOTS, TIER_LABELS, type MascotLine, type Question } from "@/lib/game/types";
+import { MASCOTS, type MascotLine, type Question } from "@/lib/game/types";
 import { useProfile } from "@/lib/use-profile";
 
 export function ResultsClient({ questions, lines }: { questions: Question[]; lines: MascotLine[] }) {
@@ -41,8 +41,7 @@ export function ResultsClient({ questions, lines }: { questions: Question[]; lin
       </div>
       <div className="rounded-3xl border border-line bg-card p-5">
         <p className="text-lg text-ink">
-          We will begin at <span className="font-semibold">Cycle {state.placement.cycle}</span>,{" "}
-          <span className="font-semibold">{TIER_LABELS[state.placement.tier]}</span>
+          We will begin at <span className="font-semibold">Cycle {state.placement.cycle}</span>
           {section ? (
             <>
               , in <span className="font-semibold">{section}</span>

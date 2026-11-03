@@ -89,8 +89,9 @@ test("the stage map lists Seed topics and hides later checklists", async ({ page
   }, "bible-trivia-v1");
   await page.goto("/path");
   await expect(page.getByTestId("stage-map")).toBeVisible();
-  await expect(page.getByTestId("topic-creation")).toHaveAttribute("data-state", "open");
-  await expect(page.getByTestId("topic-twelve-disciples")).toHaveCount(0);
+  await expect(page.getByTestId("badge-genesis-1-11")).toHaveAttribute("data-state", "empty");
+  await expect(page.getByTestId("stage-block-sprout")).toHaveCount(0);
+  await expect(page.getByText("Twelve Disciples")).toHaveCount(0);
 });
 
 test("choosing a mascot changes the theme immediately", async ({ page }) => {

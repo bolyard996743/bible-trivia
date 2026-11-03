@@ -34,7 +34,7 @@ describe("verse mark store", () => {
       chapter: 3,
       verseStart: 16,
       verseEnd: 17,
-      color: "gold",
+      color: "yellow",
       note: "Come back to this.",
     });
     expect(saved).toMatchObject({
@@ -43,7 +43,7 @@ describe("verse mark store", () => {
       chapter: 3,
       verseStart: 16,
       verseEnd: 17,
-      color: "gold",
+      color: "yellow",
       note: "Come back to this.",
       createdAt: "2026-10-28T12:00:00.000Z",
       updatedAt: "2026-10-28T12:00:00.000Z",
@@ -59,7 +59,7 @@ describe("verse mark store", () => {
       chapter: 1,
       verseStart: 1,
       verseEnd: 1,
-      color: "grove",
+      color: "green",
       note: "The opening.",
       text: "In the beginning God created the heavens and the earth.",
       verseText: "In the beginning God created the heavens and the earth.",
@@ -74,7 +74,7 @@ describe("verse mark store", () => {
   it("updates the timestamp and can remove a mark", () => {
     const storage = memory();
     const store = storeFor(storage);
-    store.add({ bookId: "PSA", chapter: 23, verseStart: 1, verseEnd: 1, color: "calm" });
+    store.add({ bookId: "PSA", chapter: 23, verseStart: 1, verseEnd: 1, color: "blue" });
     clock.tick = new Date("2026-10-29T08:00:00.000Z");
     const updated = store.update("mark-1", { note: "A psalm to sit with." });
     expect(updated?.note).toBe("A psalm to sit with.");
@@ -82,6 +82,34 @@ describe("verse mark store", () => {
     expect(updated?.updatedAt).toBe("2026-10-29T08:00:00.000Z");
     store.remove("mark-1");
     expect(store.list()).toEqual([]);
+  });
+
+  it("reads an older gold highlight as yellow and still drops verse text", () => {
+    const storage = memory();
+    storage.setItem(
+      "bible-trivia-marks-v1",
+      JSON.stringify({
+        version: 1,
+        marks: [
+          {
+            id: "old",
+            bookId: "GEN",
+            chapter: 1,
+            verseStart: 1,
+            verseEnd: 1,
+            color: "gold",
+            note: "Kept",
+            createdAt: "2026-10-28T12:00:00.000Z",
+            updatedAt: "2026-10-28T12:00:00.000Z",
+            text: "In the beginning God created the heavens and the earth.",
+          },
+        ],
+      }),
+    );
+    const loaded = storeFor(storage).list();
+    expect(loaded[0]?.color).toBe("yellow");
+    expect(loaded[0]?.note).toBe("Kept");
+    expect(loaded[0]).not.toHaveProperty("text");
   });
 
   it("rejects a broken range and ignores a corrupt file", () => {

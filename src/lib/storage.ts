@@ -111,6 +111,12 @@ export function parseState(raw: string | null): StoredState | null {
     value.progress.seasonId ??= "season-1";
     value.progress.clearedTopics = stringList(value.progress.clearedTopics);
     value.progress.clearedBooks = stringList(value.progress.clearedBooks);
+    if (Array.isArray((value.progress as { firstTryIds?: unknown }).firstTryIds)) {
+      value.progress.firstTryIds = stringList(value.progress.firstTryIds);
+    } else {
+      delete value.progress.firstTryIds;
+    }
+    if (!isStage(value.progress.mapOrigin)) delete value.progress.mapOrigin;
     value.progress.scoredIds = stringList(value.progress.scoredIds);
     value.progress.placementIds = stringList(value.progress.placementIds);
     value.progress.openAttempt = readOpenAttempt(value.progress.openAttempt);

@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { QuestionSession } from "@/components/QuestionSession";
 import { attemptForQuestion } from "@/lib/game";
+import { showDifficultyLabels } from "@/lib/dev-flags";
 import { attemptPoints, questionMarkers, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
 import type { AttemptState, MascotLine, Question } from "@/lib/game/types";
 import { awardQuestionPoints } from "@/lib/account/scoring";
@@ -24,6 +25,7 @@ export function PlayClient({
   audioFiles: string[];
 }) {
   const router = useRouter();
+  const search = useSearchParams();
   const { state, ready } = useProfile();
   const auth = useSignedIn();
   const stateRef = useRef(state);
@@ -57,7 +59,7 @@ export function PlayClient({
   const markers = questionMarkers({
     review,
     tier: question.tier,
-    showDifficulty: state.showDifficulty === true,
+    showDifficulty: showDifficultyLabels(state.showDifficulty === true, search.toString()),
   });
 
   function rememberAttempt(attempt: AttemptState) {

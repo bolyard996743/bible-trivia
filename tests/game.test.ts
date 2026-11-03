@@ -1,7 +1,9 @@
 import { describe, expect, it } from "vitest";
+import { loadCatalog } from "@/lib/content/load";
 import {
   acknowledgeTeaching,
   applyMastery,
+  currentSection,
   explanationRevealIssues,
   orderChoicesForRetry,
   shuffleChoices,
@@ -229,8 +231,15 @@ describe("placement", () => {
     expect(placementFromRatio(0.4)).toEqual({ cycle: 1, tier: "advanced" });
     expect(placementFromRatio(0.55)).toEqual({ cycle: 1, tier: "expert" });
     expect(placementFromRatio(0.7)).toEqual({ cycle: 2, tier: "foundation" });
-    expect(placementFromRatio(0.85)).toEqual({ cycle: 2, tier: "intermediate" });
-    expect(placementFromRatio(1)).toEqual({ cycle: 2, tier: "advanced" });
+    expect(placementFromRatio(0.85)).toEqual({ cycle: 2, tier: "foundation" });
+    expect(placementFromRatio(1)).toEqual({ cycle: 2, tier: "foundation" });
+  });
+
+  it("caps a perfect score at Established", () => {
+    const result = scorePlacement([{ questionId: "a", tier: "expert", firstAttemptCorrect: true }]);
+    expect(result.ratio).toBe(1);
+    expect(result).toMatchObject({ cycle: 2, tier: "foundation", stage: "Established" });
+    expect(knowledgeStage(result.cycle, result.tier)).toBe("Established");
   });
 
   it("weights harder tiers and ignores retries", () => {
@@ -323,6 +332,25 @@ describe("progression", () => {
     expect(step.progress.cycle).toBe(2);
     expect(step.progress.tier).toBe("foundation");
     expect(step.progress.seasonMasteredCount).toBe(2);
+  });
+
+  it("does not show Psalm 119 to a Seed player", () => {
+    const { questions } = loadCatalog();
+    const psalm = questions.find((question) => question.section === "Psalm 119");
+    expect(psalm).toMatchObject({ id: "c3-psa-0001", cycle: 3, tier: "intermediate", stage: "Established" });
+    // Cycle and tier are stored apart from the stage. This is the saved shape that
+    // used to make currentSection ignore Seed and return Psalm 119.
+    const drifted = { ...emptyProgress(3, "intermediate"), stage: "Seed" as const };
+    expect(currentSection(questions, drifted)).toBe("Genesis 1-11");
+    expect(nextQuestion(questions, drifted)?.stage).toBe("Seed");
+    expect(nextQuestion(questions, drifted)?.section).not.toBe("Psalm 119");
+
+    const cycleOneSeed = questions.filter(
+      (question) => question.stage === "Seed" && question.cycle === 1 && question.tier === "foundation",
+    );
+    const afterThose = { ...emptyProgress(), masteredIds: cycleOneSeed.map((question) => question.id) };
+    expect(currentSection(questions, afterThose)).not.toBe("Genesis 37-50");
+    expect(nextQuestion(questions, afterThose)?.stage).toBe("Seed");
   });
 
   it("stops kindly when no further questions exist", () => {

@@ -1,91 +1,72 @@
 "use client";
 
-import { BOOK_SECTIONS, isBookGated } from "@/lib/curriculum";
-import { gateStatus, stageChecklist } from "@/lib/game/ladder";
-import { KNOWLEDGE_PATH, type KnowledgeStage, type Question } from "@/lib/game/types";
-import type { GameProgress } from "@/lib/game/types";
+import { BadgeArt } from "@/components/BadgeArt";
+import { STAGE_LEARNING } from "@/lib/curriculum";
+import {
+  questionsInSection,
+  sectionEarned,
+  sectionSlug,
+  stageSections,
+  stageSlug,
+  visibleMapStages,
+} from "@/lib/game/badges";
+import type { GameProgress, KnowledgeStage, Question } from "@/lib/game/types";
 
 export function StageMap({ questions, progress }: { questions: Question[]; progress: GameProgress }) {
-  const stage = progress.stage ?? "Seed";
-  const status = gateStatus(questions, progress);
-  const bookMode = isBookGated(stage);
-  const items = stageChecklist(questions, progress);
-  const byId = new Map(items.map((item) => [item.id, item]));
+  const stages = visibleMapStages(questions, progress);
 
   return (
-    <section className="grid gap-4" data-testid="stage-map">
+    <div className="grid gap-8" data-testid="stage-map">
+      {stages.map((stage) => (
+        <StageBlock key={stage} stage={stage} questions={questions} progress={progress} />
+      ))}
+    </div>
+  );
+}
+
+function StageBlock({
+  stage,
+  questions,
+  progress,
+}: {
+  stage: KnowledgeStage;
+  questions: Question[];
+  progress: GameProgress;
+}) {
+  const sections = stageSections(questions, stage);
+  return (
+    <section className="grid gap-4" data-testid={`stage-block-${stageSlug(stage)}`}>
       <div>
-        <p className="text-base text-gold">{stage}</p>
-        <h1 className="text-3xl font-semibold text-grove-deep">Your stage map</h1>
-        <p className="mt-2 text-lg text-ink" data-testid="stage-counter">
-          {status.cleared} of {status.required} cleared
+        <h2 className="text-3xl font-semibold text-grove-deep">{stage}</h2>
+        <p className="mt-1 text-lg text-ink" data-testid={`stage-learning-${stageSlug(stage)}`}>
+          {STAGE_LEARNING[stage]}
         </p>
       </div>
-      <ol className="flex flex-wrap gap-2" aria-label="Knowledge Path">
-        {KNOWLEDGE_PATH.map((name) => (
-          <li
-            key={name}
-            className={`rounded-full border px-3 py-1 text-base ${
-              name === stage ? "border-grove bg-grove text-white" : "border-line bg-card text-ink-soft"
-            }`}
-          >
-            {name}
-          </li>
-        ))}
-      </ol>
-      {bookMode ? (
-        <div className="grid gap-4">
-          {BOOK_SECTIONS.map((section) => (
-            <div key={section.id}>
-              <h2 className="mb-2 text-xl font-semibold text-grove-deep">{section.label}</h2>
-              <ul className="flex flex-wrap gap-2">
-                {section.books.map((book) => {
-                  const item = byId.get(book) ?? { id: book, label: book, state: "coming-soon" as const };
-                  return (
-                    <li key={book}>
-                      <Chip id={item.id} label={item.label} state={item.state} kind="book" />
-                    </li>
-                  );
-                })}
-              </ul>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <ul className="flex flex-wrap gap-2">
-          {items.map((item) => (
-            <li key={item.id}>
-              <Chip id={item.id} label={item.label} state={item.state} kind="topic" />
+      <ul className="flex flex-wrap gap-3" aria-label={`${stage} badges`}>
+        {sections.map((section) => {
+          const earned = sectionEarned(questions, progress, stage, section);
+          const topic = questionsInSection(questions, stage, section)[0]?.topics[0] ?? "";
+          return (
+            <li key={section}>
+              <span
+                data-testid={`badge-${sectionSlug(section)}`}
+                data-state={earned ? "earned" : "empty"}
+                role="img"
+                aria-label={earned ? "Earned badge" : "Empty badge"}
+                className={
+                  earned
+                    ? "inline-flex h-16 w-16 items-center justify-center rounded-full border-2 border-grove bg-gold-soft text-grove-deep"
+                    : "inline-flex h-16 w-16 rounded-full border-2 border-dashed border-ink-soft/40 bg-ink-soft/10"
+                }
+              >
+                {earned ? <BadgeArt topic={topic} /> : null}
+              </span>
             </li>
-          ))}
-        </ul>
-      )}
+          );
+        })}
+      </ul>
     </section>
   );
-}
-
-function Chip({
-  id,
-  label,
-  state,
-  kind,
-}: {
-  id: string;
-  label: string;
-  state: "cleared" | "open" | "coming-soon";
-  kind: "topic" | "book";
-}) {
-  return (
-    <span data-testid={`${kind}-${id}`} data-state={state} className={chipClass(state)}>
-      {label}
-    </span>
-  );
-}
-
-function chipClass(state: "cleared" | "open" | "coming-soon"): string {
-  if (state === "cleared") return "inline-flex rounded-full bg-grove px-3 py-1 text-base text-white";
-  if (state === "open") return "inline-flex rounded-full border border-grove bg-card px-3 py-1 text-base text-grove-deep";
-  return "inline-flex rounded-full border border-line bg-parchment px-3 py-1 text-base text-ink-soft";
 }
 
 export type { KnowledgeStage };

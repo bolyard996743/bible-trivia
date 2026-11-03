@@ -58,7 +58,10 @@ describe("curriculum ladder", () => {
     expect(tierForRoll("Seed", 0, new Set(["foundation"]))).toBe("foundation");
     expect(tierForRoll("Deep Roots", 90, new Set(["foundation"]))).toBe("foundation");
     expect(TIER_MIX.Seed.foundation).toBe(100);
-    expect(TIER_MIX["Deep Roots"].expert).toBe(55);
+    expect(TIER_MIX["Deep Roots"].expert).toBe(60);
+    expect(TIER_MIX.Rooted.advanced).toBe(0);
+    expect(TIER_MIX.Growing.intermediate).toBeGreaterThan(TIER_MIX.Growing.advanced);
+    expect(TIER_MIX.Established.intermediate).toBeGreaterThan(TIER_MIX.Established.advanced);
   });
 
   it("keeps about four new questions for every review", () => {
@@ -164,6 +167,8 @@ describe("curriculum ladder", () => {
     const status = gateStatus(questions, {
       ...emptyProgress(),
       stage: "Growing",
+      firstTryIds: ["gen"],
+      masteredIds: ["gen"],
       clearedBooks: ["Genesis", "Obadiah", "Jude"],
     });
     expect(status.cleared).toBe(1);
@@ -177,7 +182,7 @@ describe("curriculum ladder", () => {
     expect(sprout.length).toBeGreaterThan(0);
     const open = gateStatus(questions, { ...emptyProgress(), stage: "Sprout" });
     expect(open.ready).toBe(false);
-    expect(open.required).toBe(0);
+    expect(open.required).toBeGreaterThan(0);
     const done = gateStatus(questions, {
       ...emptyProgress(),
       stage: "Sprout",

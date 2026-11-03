@@ -114,15 +114,31 @@ export const STAGE_TOPICS: Record<KnowledgeStage, readonly CurriculumTopic[]> = 
   "Deep Roots": [],
 };
 
-/** Share of each tier inside a stage. A missing tier borrows the next lower one. */
+/**
+ * Share of each tier inside a stage. Weights sum to 100. A missing tier borrows the next lower one.
+ * foundation = easy, intermediate = intermediate, advanced and expert = hard.
+ * The age and difficulty guide that these weights follow lives in src/lib/content/gaps.ts.
+ * Do not render that guide, or these tier names, to players.
+ */
 export const TIER_MIX: Record<KnowledgeStage, Record<Tier, number>> = {
   Seed: { foundation: 100, intermediate: 0, advanced: 0, expert: 0 },
   Sprout: { foundation: 80, intermediate: 20, advanced: 0, expert: 0 },
-  Rooted: { foundation: 50, intermediate: 40, advanced: 10, expert: 0 },
-  Growing: { foundation: 25, intermediate: 45, advanced: 25, expert: 5 },
-  Established: { foundation: 10, intermediate: 30, advanced: 45, expert: 15 },
-  Fruitful: { foundation: 5, intermediate: 20, advanced: 40, expert: 35 },
-  "Deep Roots": { foundation: 0, intermediate: 10, advanced: 35, expert: 55 },
+  Rooted: { foundation: 60, intermediate: 40, advanced: 0, expert: 0 },
+  Growing: { foundation: 10, intermediate: 75, advanced: 15, expert: 0 },
+  Established: { foundation: 0, intermediate: 75, advanced: 20, expert: 5 },
+  Fruitful: { foundation: 0, intermediate: 40, advanced: 35, expert: 25 },
+  "Deep Roots": { foundation: 0, intermediate: 10, advanced: 30, expert: 60 },
+};
+
+/** Player-facing description of the current stage. No ages and no difficulty words. */
+export const STAGE_LEARNING: Record<KnowledgeStage, string> = {
+  Seed: "Big Bible stories, from the beginning.",
+  Sprout: "People who trusted God and got ready to follow.",
+  Rooted: "Law, songs, and the church just after Jesus.",
+  Growing: "More books, and how the story holds together.",
+  Established: "Prayer, wisdom, and words that tie Scripture together.",
+  Fruitful: "The letters, and a life that shows the Spirit's fruit.",
+  "Deep Roots": "Every book of the Bible, one story at a time.",
 };
 
 /** How many distinct books must be cleared. Topics and books with no content do not block. */
