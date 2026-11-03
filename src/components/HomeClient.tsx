@@ -8,7 +8,7 @@ import { MascotMark } from "@/components/MascotMark";
 import { PATH_PRIVACY } from "@/lib/copy";
 import { knowledgeStage, pickMascotLine } from "@/lib/game";
 import { currentSection } from "@/lib/game/progression";
-import { MASCOTS, TIER_LABELS, type MascotLine, type Question } from "@/lib/game/types";
+import { MASCOTS, type MascotLine, type Question } from "@/lib/game/types";
 import { savePlayerState } from "@/lib/account/repository";
 import { todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
@@ -59,8 +59,8 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
       </div>
       <KnowledgePath stage={stage} />
       <div className="grid gap-2 rounded-3xl border border-line bg-card p-5 text-lg">
-        <p>
-          {stage} · Cycle {state.progress.cycle} · {TIER_LABELS[state.progress.tier]}
+        <p data-testid="path-position">
+          {stage} · Cycle {state.progress.cycle}
         </p>
         <p>{section ? `Current section: ${section}` : "More of this part is still being written."}</p>
         <p data-testid="streak">

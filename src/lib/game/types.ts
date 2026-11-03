@@ -115,6 +115,10 @@ export type GameProgress = {
   clearedTopics?: string[];
   /** Books cleared with a first-try correct answer. */
   clearedBooks?: string[];
+  /** Questions passed on the first try. A missing list means older saves, inferred from mastery. */
+  firstTryIds?: string[];
+  /** First stage shown on the map. Earlier stages stay hidden when placement starts later. */
+  mapOrigin?: KnowledgeStage;
   /** Questions that already earned season points. */
   scoredIds?: string[];
   /** Increments on each served question so the 80/20 mix stays stable. */

@@ -58,7 +58,10 @@ describe("curriculum ladder", () => {
     expect(tierForRoll("Seed", 0, new Set(["foundation"]))).toBe("foundation");
     expect(tierForRoll("Deep Roots", 90, new Set(["foundation"]))).toBe("foundation");
     expect(TIER_MIX.Seed.foundation).toBe(100);
-    expect(TIER_MIX["Deep Roots"].expert).toBe(55);
+    expect(TIER_MIX["Deep Roots"].expert).toBe(60);
+    expect(TIER_MIX.Rooted.advanced).toBe(0);
+    expect(TIER_MIX.Growing.intermediate).toBeGreaterThan(TIER_MIX.Growing.advanced);
+    expect(TIER_MIX.Established.intermediate).toBeGreaterThan(TIER_MIX.Established.advanced);
   });
 
   it("keeps about four new questions for every review", () => {
@@ -91,12 +94,12 @@ describe("curriculum ladder", () => {
     expect(second?.question.id).toBe("exo");
   });
 
-  it("does not block a topic or book that has no content", () => {
+  it("does not open the next stage while empty badges remain", () => {
     const questions = [sample("create", "foundation", "Seed", ["creation"])];
-    const progress = recordClear(emptyProgress(), questions[0]!, true);
-    const status = gateStatus(questions, { ...progress, clearedBooks: ["Genesis", "Luke"] });
-    expect(status.ready).toBe(true);
-    expect(status.required).toBeLessThan(9);
+    const progress = recordClear({ ...emptyProgress(), stage: "Seed" }, questions[0]!, true);
+    const status = gateStatus(questions, progress);
+    expect(status.ready).toBe(false);
+    expect(status.required).toBe(9);
   });
 
   it("opens Seed on the creation question from the live catalog", () => {
@@ -155,7 +158,7 @@ describe("curriculum ladder", () => {
     expect(again?.question.id).not.toBe("placed");
   });
 
-  it("does not count a book with no content as cleared", () => {
+  it("does not treat a cleared book name as a finished stage", () => {
     const questions = [
       sample("gen", "foundation", "Growing", ["roman-road"], "Genesis"),
       sample("exo", "foundation", "Growing", ["roman-road"], "Exodus"),
@@ -164,10 +167,11 @@ describe("curriculum ladder", () => {
     const status = gateStatus(questions, {
       ...emptyProgress(),
       stage: "Growing",
+      firstTryIds: ["gen"],
+      masteredIds: ["gen"],
       clearedBooks: ["Genesis", "Obadiah", "Jude"],
     });
-    expect(status.cleared).toBe(1);
-    expect(status.required).toBe(3);
+    expect(status.required).toBe(27);
     expect(status.ready).toBe(false);
   });
 
@@ -177,13 +181,15 @@ describe("curriculum ladder", () => {
     expect(sprout.length).toBeGreaterThan(0);
     const open = gateStatus(questions, { ...emptyProgress(), stage: "Sprout" });
     expect(open.ready).toBe(false);
-    expect(open.required).toBe(0);
+    expect(open.required).toBeGreaterThan(0);
     const done = gateStatus(questions, {
       ...emptyProgress(),
       stage: "Sprout",
       masteredIds: sprout.map((question) => question.id),
+      firstTryIds: sprout.map((question) => question.id),
     });
-    expect(done.ready).toBe(true);
+    expect(done.ready).toBe(false);
+    expect(done.required).toBe(17);
   });
 
   it("names checklist topics and marks a cleared one", () => {

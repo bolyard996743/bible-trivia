@@ -2,10 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { QuestionSession } from "@/components/QuestionSession";
 import { attemptForQuestion } from "@/lib/game";
+import { showDifficultyLabels } from "@/lib/dev-flags";
+import { selectBadgeQuestion } from "@/lib/game/badges";
 import { attemptPoints, questionMarkers, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
+import { findPathBadge } from "@/lib/game/path";
 import type { AttemptState, MascotLine, Question } from "@/lib/game/types";
 import { awardQuestionPoints } from "@/lib/account/scoring";
 import { savePlayerState } from "@/lib/account/repository";
@@ -24,6 +27,7 @@ export function PlayClient({
   audioFiles: string[];
 }) {
   const router = useRouter();
+  const search = useSearchParams();
   const { state, ready } = useProfile();
   const auth = useSignedIn();
   const stateRef = useRef(state);
@@ -38,13 +42,28 @@ export function PlayClient({
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
-  const pick = selectLadderQuestion(questions, state.progress);
+  const badge = findPathBadge(search.get("badge") ?? "");
+  if (badge && badge.questionIds.length === 0) {
+    return (
+      <section className="grid gap-4" data-testid="badge-unwritten">
+        <h1 className="text-3xl font-semibold text-grove-deep">{badge.name}</h1>
+        <p className="text-lg text-ink">This story is still being written. The badge stays empty until its questions are ready.</p>
+        <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+          Back to the map
+        </Link>
+      </section>
+    );
+  }
+  const focused = badge ? selectBadgeQuestion(questions, state.progress, badge) : null;
+  const pick = badge ? (focused ? { question: focused, review: false } : null) : selectLadderQuestion(questions, state.progress);
   if (!pick) {
     return (
       <section className="grid gap-4">
-        <h1 className="text-3xl font-semibold text-grove-deep">You are caught up</h1>
+        <h1 className="text-3xl font-semibold text-grove-deep">{badge ? badge.name : "You are caught up"}</h1>
         <p className="text-lg text-ink">
-          You have learned every question we have for this part of the path. More Scripture is on the way, and what you learned stays with you.
+          {badge
+            ? "You have already seen the questions for this badge. It fills when they were right on the first try."
+            : "You have learned every question we have for this part of the path. More Scripture is on the way, and what you learned stays with you."}
         </p>
         <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
           See your stage map
@@ -57,7 +76,7 @@ export function PlayClient({
   const markers = questionMarkers({
     review,
     tier: question.tier,
-    showDifficulty: state.showDifficulty === true,
+    showDifficulty: showDifficultyLabels(state.showDifficulty === true, search.toString()),
   });
 
   function rememberAttempt(attempt: AttemptState) {

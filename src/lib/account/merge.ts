@@ -40,6 +40,12 @@ function furtherStage(left?: KnowledgeStage, right?: KnowledgeStage): KnowledgeS
   return stageRank(a) >= stageRank(b) ? a : b;
 }
 
+function earlierStage(left?: KnowledgeStage, right?: KnowledgeStage): KnowledgeStage | undefined {
+  if (!left) return right;
+  if (!right) return left;
+  return stageRank(left) <= stageRank(right) ? left : right;
+}
+
 function preferAttempt(local: GameProgress, remote: GameProgress): AttemptState | null {
   if ("openAttempt" in local) return local.openAttempt ?? null;
   return remote.openAttempt ?? null;
@@ -59,6 +65,8 @@ export function mergeLadderProgress(local: GameProgress, remote: GameProgress): 
     seasonId: local.seasonId ?? remote.seasonId ?? "season-1",
     clearedTopics: unionIds(local.clearedTopics, remote.clearedTopics),
     clearedBooks: unionIds(local.clearedBooks, remote.clearedBooks),
+    firstTryIds: unionIds(local.firstTryIds, remote.firstTryIds),
+    mapOrigin: earlierStage(local.mapOrigin, remote.mapOrigin),
     scoredIds: unionIds(local.scoredIds, remote.scoredIds),
     placementIds: unionIds(local.placementIds, remote.placementIds),
     draw: Math.max(local.draw ?? 0, remote.draw ?? 0),

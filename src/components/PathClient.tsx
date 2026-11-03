@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import { StageMap } from "@/components/StageMap";
-import type { Question } from "@/lib/game/types";
 import { useProfile } from "@/lib/use-profile";
 
-export function PathClient({ questions }: { questions: Question[] }) {
+export function PathClient() {
   const { state, ready } = useProfile();
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (!state) {
@@ -21,7 +20,7 @@ export function PathClient({ questions }: { questions: Question[] }) {
   }
   return (
     <div className="grid gap-5">
-      <StageMap questions={questions} progress={state.progress} />
+      <StageMap progress={state.progress} />
       <Link href="/home" className="tap inline-flex items-center justify-center rounded-2xl border border-line bg-card px-4 text-lg text-ink">
         Back to your path
       </Link>

@@ -1,7 +1,13 @@
 export const VERSE_MARKS_KEY = "bible-trivia-marks-v1";
 
-export const HIGHLIGHT_COLORS = ["gold", "grove", "calm"] as const;
+export const HIGHLIGHT_COLORS = ["red", "blue", "green", "orange", "yellow"] as const;
 export type HighlightColor = (typeof HIGHLIGHT_COLORS)[number];
+
+const LEGACY_COLORS: Record<string, HighlightColor> = {
+  gold: "yellow",
+  grove: "green",
+  calm: "blue",
+};
 
 /** A highlight or note. The reference is stored. The verse wording is not. */
 export type VerseMark = {
@@ -55,8 +61,15 @@ const STORED_KEYS = [
   "updatedAt",
 ] as const;
 
+export function normalizeHighlightColor(value: unknown): HighlightColor | null | undefined {
+  if (value === null) return null;
+  if (typeof value !== "string") return undefined;
+  if (HIGHLIGHT_COLORS.includes(value as HighlightColor)) return value as HighlightColor;
+  return LEGACY_COLORS[value];
+}
+
 function isColor(value: unknown): value is HighlightColor | null {
-  return value === null || (typeof value === "string" && HIGHLIGHT_COLORS.includes(value as HighlightColor));
+  return normalizeHighlightColor(value) !== undefined;
 }
 
 function isMark(value: unknown): value is VerseMark {
@@ -73,7 +86,7 @@ function isMark(value: unknown): value is VerseMark {
     mark.verseStart >= 1 &&
     Number.isInteger(mark.verseEnd) &&
     mark.verseEnd >= mark.verseStart &&
-    isColor(mark.color) &&
+    normalizeHighlightColor(mark.color) !== undefined &&
     typeof mark.note === "string" &&
     typeof mark.createdAt === "string" &&
     typeof mark.updatedAt === "string"
@@ -87,7 +100,7 @@ function pickStored(mark: VerseMark): VerseMark {
     chapter: mark.chapter,
     verseStart: mark.verseStart,
     verseEnd: mark.verseEnd,
-    color: mark.color,
+    color: normalizeHighlightColor(mark.color) ?? null,
     note: mark.note,
     createdAt: mark.createdAt,
     updatedAt: mark.updatedAt,

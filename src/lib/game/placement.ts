@@ -1,6 +1,10 @@
+import { stageRank } from "../curriculum";
 import { knowledgeStage } from "./progression";
-import type { PlacementAttempt, PlacementResult, Question, Tier } from "./types";
+import type { KnowledgeStage, PlacementAttempt, PlacementResult, Question, Tier } from "./types";
 import { TIERS } from "./types";
+
+/** Placement never starts above this stage, even with a perfect score. */
+export const PLACEMENT_STAGE_CAP: KnowledgeStage = "Established";
 
 /** Points per first-try correct answer. Harder tiers count more. */
 export const TIER_WEIGHT: Record<Tier, number> = {
@@ -11,8 +15,9 @@ export const TIER_WEIGHT: Record<Tier, number> = {
 };
 
 /**
- * Upper bounds are exclusive. A perfect score starts at Cycle 2, Advanced
- * (Deep Roots). Lower scores stay in earlier cycles so there is room to grow.
+ * Upper bounds are exclusive. Anything from the Established band upward,
+ * including a perfect score, starts at Cycle 2 Foundation (Established).
+ * Placement never starts a player at Fruitful or Deep Roots.
  */
 export const PLACEMENT_BANDS: { maxRatio: number; cycle: number; tier: Tier }[] = [
   { maxRatio: 0.2, cycle: 1, tier: "foundation" },
@@ -20,7 +25,6 @@ export const PLACEMENT_BANDS: { maxRatio: number; cycle: number; tier: Tier }[] 
   { maxRatio: 0.55, cycle: 1, tier: "advanced" },
   { maxRatio: 0.7, cycle: 1, tier: "expert" },
   { maxRatio: 0.85, cycle: 2, tier: "foundation" },
-  { maxRatio: 0.95, cycle: 2, tier: "intermediate" },
 ];
 
 export function placementFromRatio(ratio: number): { cycle: number; tier: Tier } {
@@ -28,7 +32,7 @@ export function placementFromRatio(ratio: number): { cycle: number; tier: Tier }
   for (const band of PLACEMENT_BANDS) {
     if (clamped < band.maxRatio) return { cycle: band.cycle, tier: band.tier };
   }
-  return { cycle: 2, tier: "advanced" };
+  return { cycle: 2, tier: "foundation" };
 }
 
 export function scorePlacement(attempts: PlacementAttempt[]): PlacementResult {
@@ -39,13 +43,15 @@ export function scorePlacement(attempts: PlacementAttempt[]): PlacementResult {
   const possible = attempts.reduce((sum, attempt) => sum + TIER_WEIGHT[attempt.tier], 0);
   const ratio = possible === 0 ? 0 : earned / possible;
   const place = placementFromRatio(ratio);
-  return {
-    ...place,
-    earned,
-    possible,
-    ratio,
-    stage: knowledgeStage(place.cycle, place.tier),
-  };
+  let cycle = place.cycle;
+  let tier = place.tier;
+  let stage = knowledgeStage(cycle, tier);
+  if (stageRank(stage) > stageRank(PLACEMENT_STAGE_CAP)) {
+    cycle = 2;
+    tier = "foundation";
+    stage = PLACEMENT_STAGE_CAP;
+  }
+  return { cycle, tier, earned, possible, ratio, stage };
 }
 
 /**

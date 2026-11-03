@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { MascotMark } from "@/components/MascotMark";
 import { pickMascotLine } from "@/lib/game";
-import { MASCOTS, TIER_LABELS, type MascotLine, type Moment } from "@/lib/game/types";
+import { MASCOTS, type MascotLine, type Moment } from "@/lib/game/types";
 import { savePlayerState } from "@/lib/account/repository";
 import { useProfile } from "@/lib/use-profile";
 
@@ -41,7 +41,7 @@ export function CompleteClient({ lines }: { lines: MascotLine[] }) {
     detail = "The checklist for this stage is ready when you are.";
   } else if (celebration.type === "cycle_complete") {
     title = `Cycle ${celebration.cycle} is complete`;
-    detail = `Cycle ${celebration.nextCycle} is ready when you are, at ${TIER_LABELS[celebration.tier]}.`;
+    detail = `Cycle ${celebration.nextCycle} is ready when you are.`;
   } else if (celebration.type === "caught_up") {
     title = "You have learned what we have here";
     detail = "More questions are on the way. Your path keeps the ground you have already gained.";

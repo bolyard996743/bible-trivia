@@ -9,18 +9,19 @@ import { getBibleProvider } from "@/lib/bible";
 import { BOOKS } from "@/lib/bible/books";
 import {
   createVerseMarkStore,
-  HIGHLIGHT_COLORS,
   type HighlightColor,
   type StorageLike,
   type VerseMark,
 } from "@/lib/bible/marks";
 import type { BibleBookSummary, BibleChapter } from "@/lib/bible/types";
 
-const COLOR_LABEL: Record<HighlightColor, string> = {
-  gold: "Gold",
-  grove: "Green",
-  calm: "Blue",
-};
+const MARK_COLORS: { id: HighlightColor; label: string }[] = [
+  { id: "red", label: "Red" },
+  { id: "blue", label: "Blue" },
+  { id: "green", label: "Green" },
+  { id: "orange", label: "Orange" },
+  { id: "yellow", label: "Yellow" },
+];
 
 function memoryStorage(initial: VerseMark[]): StorageLike {
   let raw: string | null = JSON.stringify({ version: 1, marks: initial });
@@ -59,7 +60,7 @@ export function BibleScreen() {
   const [chapterState, setChapterState] = useState<ChapterState>({ status: "idle" });
   const [marks, setMarks] = useState<VerseMark[]>([]);
   const [activeVerse, setActiveVerse] = useState<number | null>(null);
-  const [draftColor, setDraftColor] = useState<HighlightColor>("gold");
+  const [noteOpen, setNoteOpen] = useState(false);
   const [draftNote, setDraftNote] = useState("");
   const [saveError, setSaveError] = useState<string | null>(null);
 
@@ -80,6 +81,7 @@ export function BibleScreen() {
 
   useEffect(() => {
     setActiveVerse(null);
+    setNoteOpen(false);
     setSaveError(null);
     if (!book || !chapterNumber || !Number.isInteger(chapterNumber)) {
       setChapterState({ status: "idle" });
@@ -107,11 +109,16 @@ export function BibleScreen() {
     router.push(`/bible?book=${book.id}&chapter=${number}`);
   }
 
-  function openVerse(verse: number) {
+  function openVerse(verse: number, editNote: boolean) {
     if (!book || !chapterNumber) return;
     const mark = markFor(marks, book.id, chapterNumber, verse);
+    if (!editNote && activeVerse === verse) {
+      setActiveVerse(null);
+      setNoteOpen(false);
+      return;
+    }
     setActiveVerse(verse);
-    setDraftColor(mark?.color ?? "gold");
+    setNoteOpen(editNote || Boolean(mark?.note));
     setDraftNote(mark?.note ?? "");
     setSaveError(null);
   }
@@ -121,46 +128,51 @@ export function BibleScreen() {
     setMarks(next);
   }
 
-  async function saveNote() {
-    if (!book || !chapterNumber || activeVerse == null) return;
+  async function writeMark(verse: number, patch: { color: HighlightColor | null; note: string }) {
+    if (!book || !chapterNumber) return;
     const store = createVerseMarkStore(memoryStorage(marks));
-    const existing = markFor(store.list(), book.id, chapterNumber, activeVerse);
-    if (existing) store.update(existing.id, { color: draftColor, note: draftNote });
-    else {
+    const existing = markFor(store.list(), book.id, chapterNumber, verse);
+    if (!patch.color && patch.note.trim() === "") {
+      if (existing) store.remove(existing.id);
+    } else if (existing) {
+      store.update(existing.id, { color: patch.color, note: patch.note });
+    } else {
       store.add({
         bookId: book.id,
         chapter: chapterNumber,
-        verseStart: activeVerse,
-        verseEnd: activeVerse,
-        color: draftColor,
-        note: draftNote,
+        verseStart: verse,
+        verseEnd: verse,
+        color: patch.color,
+        note: patch.note,
       });
     }
+    await persist(store.list());
+  }
+
+  async function applyColor(verse: number, color: HighlightColor) {
+    if (!book || !chapterNumber) return;
+    const existing = markFor(marks, book.id, chapterNumber, verse);
+    const nextColor = existing?.color === color ? null : color;
     try {
-      await persist(store.list());
+      await writeMark(verse, { color: nextColor, note: existing?.note ?? "" });
+      setSaveError(null);
+    } catch {
+      setSaveError("That highlight could not be saved.");
+    }
+  }
+
+  async function saveNote() {
+    if (!book || !chapterNumber || activeVerse == null) return;
+    const existing = markFor(marks, book.id, chapterNumber, activeVerse);
+    try {
+      await writeMark(activeVerse, { color: existing?.color ?? null, note: draftNote });
+      setNoteOpen(false);
+      setActiveVerse(null);
       setSaveError(null);
     } catch {
       setSaveError("That note could not be saved.");
     }
   }
-
-  async function removeNote() {
-    if (!book || !chapterNumber || activeVerse == null) return;
-    const store = createVerseMarkStore(memoryStorage(marks));
-    const existing = markFor(store.list(), book.id, chapterNumber, activeVerse);
-    if (!existing) return;
-    store.remove(existing.id);
-    try {
-      await persist(store.list());
-      setDraftNote("");
-      setSaveError(null);
-    } catch {
-      setSaveError("That note could not be removed.");
-    }
-  }
-
-  const activeMark =
-    book && chapterNumber && activeVerse != null ? markFor(marks, book.id, chapterNumber, activeVerse) : null;
 
   return (
     <section className="grid gap-4">
@@ -247,103 +259,96 @@ export function BibleScreen() {
             </p>
           ) : null}
           {chapterState.status === "ready" ? (
-            <div className="grid gap-3">
-              <ol className="grid gap-2">
+            <div className="scripture-page rounded-3xl border border-line bg-card px-5 py-6 sm:px-8" data-testid="bible-page">
+              <div className="scripture-prose text-lg text-ink">
                 {chapterState.chapter.verses.map((verse) => {
                   const mark = markFor(marks, book.id, chapterNumber, verse.verse);
                   const selected = activeVerse === verse.verse;
+                  const showNote = Boolean(mark?.note) && !(selected && noteOpen);
                   return (
-                    <li
+                    <span
                       key={verse.verse}
                       data-testid={`verse-${verse.verse}`}
                       data-highlight={mark?.color ?? ""}
-                      className={`rounded-2xl border px-4 py-3 ${
-                        mark?.color === "gold"
-                          ? "verse-gold"
-                          : mark?.color === "grove"
-                            ? "verse-grove"
-                            : mark?.color === "calm"
-                              ? "verse-calm"
-                              : "border-line bg-card"
-                      } ${selected ? "border-grove" : "border-line"}`}
+                      className={selected || showNote ? "my-1 block" : "inline"}
                     >
                       <button
                         type="button"
                         data-testid={`highlight-verse-${verse.verse}`}
                         aria-pressed={selected}
-                        onClick={() => openVerse(verse.verse)}
-                        className="text-left text-lg text-ink"
+                        onClick={() => openVerse(verse.verse, false)}
+                        className={`verse-words ${mark?.color ? `hl-${mark.color}` : ""}`}
                       >
                         <span className="sr-only">{mark ? "Edit highlight. " : "Highlight. "}</span>
-                        <sup className="mr-2 text-gold">{verse.verse}</sup>
-                        {verse.text}
+                        <sup className="mr-1 text-gold">{verse.verse}</sup>
+                        {verse.text}{" "}
                       </button>
-                      {mark?.note ? (
-                        <p data-testid="verse-note-text" className="mt-2 text-base text-ink-soft">
-                          {mark.note}
-                        </p>
+                      {showNote ? (
+                        <button
+                          type="button"
+                          data-testid="verse-note-text"
+                          onClick={() => openVerse(verse.verse, true)}
+                          className="verse-note"
+                        >
+                          {mark?.note}
+                        </button>
                       ) : null}
-                    </li>
+                      {selected ? (
+                        <span className="my-2 flex items-center gap-2" data-testid="verse-tools">
+                          <span className="flex items-center gap-1.5" role="group" aria-label="Highlight color">
+                            {MARK_COLORS.map((color) => (
+                              <button
+                                key={color.id}
+                                type="button"
+                                data-testid={`highlight-${color.id}`}
+                                aria-label={`${color.label} highlight`}
+                                aria-pressed={mark?.color === color.id}
+                                onClick={() => void applyColor(verse.verse, color.id)}
+                                className={`mark-dot dot-${color.id} ${mark?.color === color.id ? "ring-2 ring-ink ring-offset-1" : ""}`}
+                              />
+                            ))}
+                          </span>
+                          <button
+                            type="button"
+                            data-testid="verse-pen"
+                            aria-label="Write a note"
+                            onClick={() => openVerse(verse.verse, true)}
+                            className="mark-pen"
+                          >
+                            <PenIcon />
+                          </button>
+                        </span>
+                      ) : null}
+                      {selected && noteOpen ? (
+                        <form
+                          className="mb-3 grid gap-2"
+                          data-testid="highlight-editor"
+                          onSubmit={(event) => {
+                            event.preventDefault();
+                            void saveNote();
+                          }}
+                        >
+                          <label htmlFor={`verse-note-${verse.verse}`} className="sr-only">
+                            Your note
+                          </label>
+                          <textarea
+                            id={`verse-note-${verse.verse}`}
+                            data-testid="verse-note-input"
+                            value={draftNote}
+                            onChange={(event) => setDraftNote(event.target.value)}
+                            rows={2}
+                            className="rounded-xl border border-line bg-parchment px-3 py-2 text-base text-ink"
+                          />
+                          {saveError ? <p className="text-base text-ink">{saveError}</p> : null}
+                          <button type="submit" data-testid="save-note" className="w-fit rounded-xl bg-grove px-3 text-base font-semibold text-white">
+                            Save note
+                          </button>
+                        </form>
+                      ) : null}
+                    </span>
                   );
                 })}
-              </ol>
-              {activeVerse != null ? (
-                <form
-                  className="grid gap-3 rounded-3xl border border-line bg-card p-5"
-                  data-testid="highlight-editor"
-                  onSubmit={(event) => {
-                    event.preventDefault();
-                    void saveNote();
-                  }}
-                >
-                  <h3 className="text-xl font-semibold text-grove-deep">
-                    {book.name} {chapterNumber}:{activeVerse}
-                  </h3>
-                  <div className="flex flex-wrap gap-2" role="group" aria-label="Highlight color">
-                    {HIGHLIGHT_COLORS.map((color) => (
-                      <button
-                        key={color}
-                        type="button"
-                        data-testid={`highlight-${color}`}
-                        aria-pressed={draftColor === color}
-                        onClick={() => setDraftColor(color)}
-                        className={`rounded-2xl border px-4 text-base ${
-                          draftColor === color ? "border-grove bg-grove text-white" : "border-line bg-parchment text-ink"
-                        }`}
-                      >
-                        {COLOR_LABEL[color]}
-                      </button>
-                    ))}
-                  </div>
-                  <label htmlFor="verse-note" className="text-base text-ink">
-                    Your note
-                  </label>
-                  <textarea
-                    id="verse-note"
-                    data-testid="verse-note-input"
-                    value={draftNote}
-                    onChange={(event) => setDraftNote(event.target.value)}
-                    rows={3}
-                    className="rounded-2xl border border-line bg-parchment px-4 py-3 text-lg text-ink"
-                  />
-                  {saveError ? <p className="text-base text-ink">{saveError}</p> : null}
-                  <div className="flex flex-wrap gap-2">
-                    <button type="submit" data-testid="save-note" className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
-                      Save note
-                    </button>
-                    {activeMark ? (
-                      <button
-                        type="button"
-                        data-testid="remove-note"
-                        onClick={() => void removeNote()}
-                        className="rounded-2xl border border-line bg-parchment px-4 text-lg text-ink"
-                      >
-                        Remove
-                      </button>
-                    ) : null}
-                  </div>
-                </form>
-              ) : null}
+              </div>
               <ScriptureNotice copyright={chapterState.chapter.copyright} />
               <FumsTrack tokens={[chapterState.chapter.fumsToken]} />
             </div>
@@ -351,5 +356,14 @@ export function BibleScreen() {
         </div>
       ) : null}
     </section>
+  );
+}
+
+function PenIcon() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-3.5 w-3.5" fill="none">
+      <path d="M4 20h4l10-10-4-4L4 16v4z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+      <path d="M12 6l4 4" stroke="currentColor" strokeWidth="1.8" />
+    </svg>
   );
 }

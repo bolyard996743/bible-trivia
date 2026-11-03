@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { QuestionSession } from "@/components/QuestionSession";
 import { MascotMark } from "@/components/MascotMark";
 import { pickMascotLine, scorePlacement, selectPlacementQuestions } from "@/lib/game";
+import { showDifficultyLabels } from "@/lib/dev-flags";
 import { questionMarkers, recordClear } from "@/lib/game/ladder";
 import type { GameProgress, MascotLine, PlacementAttempt, Question } from "@/lib/game/types";
 import { MASCOTS } from "@/lib/game/types";
@@ -22,6 +23,7 @@ export function PlacementClient({
   audioFiles: string[];
 }) {
   const router = useRouter();
+  const search = useSearchParams();
   const { state, ready } = useProfile();
   const quiz = useMemo(() => selectPlacementQuestions(questions), [questions]);
   const [started, setStarted] = useState(false);
@@ -72,7 +74,7 @@ export function PlacementClient({
   const markers = questionMarkers({
     review: false,
     tier: question.tier,
-    showDifficulty: state.showDifficulty === true,
+    showDifficulty: showDifficultyLabels(state.showDifficulty === true, search.toString()),
   });
 
   return (
@@ -104,6 +106,7 @@ export function PlacementClient({
         let progress: GameProgress = {
           ...emptyProgress(result.cycle, result.tier),
           stage: result.stage,
+          mapOrigin: result.stage,
           missCounts: nextMisses,
           masteredIds: placementIds,
           placementIds,

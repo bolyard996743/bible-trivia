@@ -1,5 +1,5 @@
 import type { VerseMark } from "../bible/marks";
-import { HIGHLIGHT_COLORS, type HighlightColor } from "../bible/marks";
+import { normalizeHighlightColor, type HighlightColor } from "../bible/marks";
 import { emptyProgress } from "../game/progression";
 import { KNOWLEDGE_PATH, MASCOT_IDS, TIERS, type GameProgress, type KnowledgeStage, type MascotId, type Tier } from "../game/types";
 import type { StoredState } from "../storage";
@@ -166,14 +166,15 @@ export function markToRow(userId: string, mark: VerseMark): VerseMarkRow {
 }
 
 export function rowToMark(row: VerseMarkRow): VerseMark | null {
-  if (row.color != null && !HIGHLIGHT_COLORS.includes(row.color)) return null;
+  const color = normalizeHighlightColor(row.color);
+  if (color === undefined) return null;
   return {
     id: row.id,
     bookId: row.book_id,
     chapter: row.chapter,
     verseStart: row.verse_start,
     verseEnd: row.verse_end,
-    color: row.color,
+    color,
     note: row.note,
     createdAt: row.created_at,
     updatedAt: row.updated_at,

@@ -14,8 +14,7 @@ export const UNKNOWN_PASSAGE_MESSAGE = "That passage isn't in this Bible.";
 
 /**
  * API.Bible requires any stored copy to be refreshed at least every 30 days.
- * Fourteen days stays inside that limit. This app does not store scripture text;
- * the cap is here so a future cache cannot outlive the license.
+ * Fourteen days stays inside that limit. The shared chapter cache uses this window.
  */
 export const SCRIPTURE_CACHE_MAX_AGE_MS = 14 * 24 * 60 * 60 * 1000;
 

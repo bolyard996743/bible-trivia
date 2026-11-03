@@ -62,7 +62,7 @@ The validator uses Zod. It also runs inside `npm test` and `npm run build`.
 
 Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_ANON_KEY` from the Supabase dashboard (Project Settings → API → anon public key). `NEXT_PUBLIC_SUPABASE_URL` is already filled in for this project. Leave both unset and the app stays in guest mode: progress remains in this browser, and nothing tries to reach Supabase.
 
-`API_BIBLE_KEY` is the server-only API.Bible key for the NKJV (Bible id `63097d2a0a2f7db3-01`). Set it in Vercel for Production and Preview. Do not prefix it with `NEXT_PUBLIC_`, and do not commit a real value. Without it, verse text shows a short message instead of a quotation. The app calls `https://rest.api.bible/v1` only from server route handlers. Scripture is fetched when it is displayed, is not saved in the database or the service worker, and is not offered as an export. Highlights and notes are references plus the player's own note. NKJV on a Starter or Pro plan is for non-commercial apps with no more than 5,000 monthly users.
+`API_BIBLE_KEY` is the server-only API.Bible key for the NKJV (Bible id `63097d2a0a2f7db3-01`). Set it in Vercel for Production and Preview. Do not prefix it with `NEXT_PUBLIC_`, and do not commit a real value. Without it, verse text shows a short message instead of a quotation. The app calls `https://rest.api.bible/v1` only from server route handlers. A chapter is fetched once and reused for later verses. That copy is sealed with `SCRIPTURE_CACHE_KEY` and stored with `SUPABASE_SECRET_KEY` in `scripture_chapter_cache`. Both are server-only. Set them in Vercel when you apply `supabase/migrations/20261103011530_scripture_chapter_cache.sql`. The anon key cannot read the table, and no route exports it. A row is refreshed within 14 days. If the monthly API quota runs out, the player sees the same short retry message. Highlights and notes are references plus the player's own note. NKJV on a Starter or Pro plan is for non-commercial apps with no more than 5,000 monthly users.
 
 ```bash
 # later, when you are ready to create the tables. This repo does not apply them for you.
@@ -80,7 +80,7 @@ Leaderboard points are the sum of mastered questions by tier: foundation 1, inte
 
 On sign-in, if this device already has progress, the account page asks before uploading. The merge keeps every mastered question, the higher miss count, the further cycle and tier, and both sets of notes.
 
-The browser uses the anon key only. There is no service-role key in this app. Row-level security is on `profiles`, `question_progress`, and `verse_marks`. Each policy allows a row only when `(select auth.uid())` is that row's `user_id`. `verse_marks` stores a book id, chapter, verse range, color, note, and timestamps. It does not store verse wording. The Knowledge Path is not a separate table: it is derived from the saved cycle and tier.
+The browser uses the anon key only. It never receives `SUPABASE_SECRET_KEY`. Row-level security is on `profiles`, `question_progress`, and `verse_marks`. Each policy allows a row only when `(select auth.uid())` is that row's `user_id`. `verse_marks` stores a book id, chapter, verse range, color, note, and timestamps. It does not store verse wording. The Knowledge Path is not a separate table: it is derived from the saved cycle and tier.
 
 `getPlayerRepository()` is what the screens save through. It is the local repository until a signed-in teen, adult, or older player is syncing; then it writes the device copy first and the account second.
 
@@ -88,7 +88,7 @@ The browser uses the anon key only. There is no service-role key in this app. Ro
 
 ## Bible tab
 
-`getBibleProvider()` in `src/lib/bible/index.ts` is what screens call. It reads `/api/bible/chapter` and `/api/bible/passage`. Those route handlers are the only callers of API.Bible. They send `API_BIBLE_KEY` and `fums-version=3`, then return the verses, the copyright line, and a FUMS token. The browser reports that token with `https://pkg.api.bible/fumsV3.min.js`. Every place that shows verse text also shows the NKJV copyright and a link to API.Bible.
+`getBibleProvider()` in `src/lib/bible/index.ts` is what screens call. It reads `/api/bible/chapter` and `/api/bible/passage`. Those route handlers are the only callers of API.Bible. They send `API_BIBLE_KEY` and `fums-version=3`, then return the verses, the copyright line, and a FUMS token. A passage is cut from the cached chapter, so a second verse in that chapter does not call API.Bible again. The browser still reports the FUMS token with `https://pkg.api.bible/fumsV3.min.js`, including when the chapter came from the cache. Every place that shows verse text also shows the NKJV copyright and a link to API.Bible.
 
 A wrong answer still shows the verse that contains the answer. The explanation does not state the choice. If the key is missing, the player sees a short message and the reference, not a stored quotation.
 

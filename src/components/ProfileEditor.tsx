@@ -30,7 +30,6 @@ export function ProfileEditor({
   const [ageGroup, setAgeGroup] = useState<AgeGroup | null>(null);
   const [mascot, setMascot] = useState<MascotId | null>(null);
   const [soundOn, setSoundOn] = useState(true);
-  const [showDifficulty, setShowDifficulty] = useState(false);
   const [greeting, setGreeting] = useState<string | null>(null);
   const [hydrated, setHydrated] = useState(false);
 
@@ -42,7 +41,6 @@ export function ProfileEditor({
     if (state) {
       setMascot(state.mascot);
       setSoundOn(state.soundOn);
-      setShowDifficulty(state.showDifficulty === true);
     }
   }
 
@@ -68,13 +66,12 @@ export function ProfileEditor({
     if (!ageGroup || !mascot) return;
     if (ageGroup === "child") void signOut();
     if (mode === "settings" && state) {
-      savePlayerState({ ...state, ageGroup, mascot, soundOn, showDifficulty });
+      savePlayerState({ ...state, ageGroup, mascot, soundOn });
       router.push(state.placementComplete ? "/home" : "/placement");
       return;
     }
     const next = createState(ageGroup, mascot);
     next.soundOn = soundOn;
-    next.showDifficulty = showDifficulty;
     savePlayerState(next);
     router.push("/placement");
   }
@@ -152,25 +149,6 @@ export function ProfileEditor({
             {soundOn ? "On" : "Off"}
           </button>
         </label>
-        {mode === "settings" ? (
-          <label className="flex items-center justify-between gap-3 text-lg">
-            <span>
-              Difficulty labels
-              <span className="mt-0.5 block text-base text-ink-soft">Foundation, Intermediate, Advanced, or Expert</span>
-            </span>
-            <button
-              type="button"
-              role="switch"
-              aria-checked={showDifficulty}
-              aria-label="Difficulty labels"
-              data-testid="difficulty-toggle"
-              onClick={() => setShowDifficulty((value) => !value)}
-              className="rounded-full border border-line bg-parchment px-4"
-            >
-              {showDifficulty ? "On" : "Off"}
-            </button>
-          </label>
-        ) : null}
         <button
           type="button"
           onClick={hearGreeting}

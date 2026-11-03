@@ -143,16 +143,94 @@ body {
   mask: url("/brand/logo-ink-mask.png") center / contain no-repeat;
 }
 
-.verse-gold {
-  background: var(--gold-soft);
+.scripture-prose {
+  line-height: 1.85;
 }
 
-.verse-grove {
-  background: color-mix(in srgb, var(--grove) 16%, var(--card));
+.verse-words,
+.verse-note,
+.mark-dot,
+.mark-pen,
+a.badge-link {
+  min-height: 0;
 }
 
-.verse-calm {
-  background: color-mix(in srgb, var(--calm) 16%, var(--card));
+.verse-words {
+  display: inline;
+  margin: 0;
+  padding: 0.05em 0.12em;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-align: left;
+  border-radius: 0.2em;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.verse-note {
+  display: block;
+  margin: 0.15rem 0 0.35rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.mark-dot,
+.mark-pen {
+  display: inline-flex;
+  height: 1.4rem;
+  width: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  border: 2px solid transparent;
+  padding: 0;
+}
+
+.mark-pen {
+  border-color: var(--line);
+  background: var(--card);
+  color: var(--ink);
+}
+
+.hl-red {
+  background: #f6c9c6;
+}
+.hl-blue {
+  background: #c9daf8;
+}
+.hl-green {
+  background: #d3ead4;
+}
+.hl-orange {
+  background: #fbe0c4;
+}
+.hl-yellow {
+  background: #fff1b8;
+}
+
+.dot-red {
+  background: #d94b4b;
+}
+.dot-blue {
+  background: #3d6fbf;
+}
+.dot-green {
+  background: #3d8c4a;
+}
+.dot-orange {
+  background: #e07a2f;
+}
+.dot-yellow {
+  background: #e2c04a;
 }
 
 .logo-accent {

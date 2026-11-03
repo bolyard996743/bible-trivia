@@ -1,8 +1,29 @@
 import fs from "fs";
 import path from "path";
 import { explanationRevealIssues } from "../game/reveal";
-import { MASCOT_IDS, MOMENTS } from "../game/types";
+import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS } from "../game/types";
+import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
+
+const BADGE_COUNTS: Record<(typeof KNOWLEDGE_PATH)[number], number> = {
+  Seed: 9,
+  Sprout: 17,
+  Rooted: 25,
+  Growing: 27,
+  Established: 29,
+  Fruitful: 69,
+  "Deep Roots": 42,
+};
+
+const BOOK_COUNTS: Record<(typeof KNOWLEDGE_PATH)[number], number> = {
+  Seed: 8,
+  Sprout: 15,
+  Rooted: 24,
+  Growing: 32,
+  Established: 40,
+  Fruitful: 60,
+  "Deep Roots": 66,
+};
 
 export type ValidationResult = {
   ok: boolean;
@@ -155,6 +176,57 @@ export function validateContentTree(root: string): ValidationResult {
         errors.push(`${mascot}: moment "${moment}" needs an audience "all" line`);
       }
     }
+  }
+
+  const pathFile = path.join(root, "content", "knowledge_path.json");
+  const loaded = readJson(pathFile);
+  if (loaded.error || loaded.value === undefined) {
+    errors.push(`content/knowledge_path.json: ${loaded.error ?? "Invalid JSON"}`);
+  } else {
+    const file = loaded.value as {
+      advanceRule?: string;
+      stages?: { stage?: string; books?: string[]; badges?: { id?: string; questionIds?: string[] }[] }[];
+    };
+    if (!ADVANCE_RULES.includes(file.advanceRule as (typeof ADVANCE_RULES)[number])) {
+      errors.push("content/knowledge_path.json: advanceRule must be every-badge or badges-with-questions");
+    }
+    const stages = file.stages ?? [];
+    if (stages.length !== KNOWLEDGE_PATH.length) {
+      errors.push(`content/knowledge_path.json: expected ${KNOWLEDGE_PATH.length} stages`);
+    }
+    const seenBadges = new Set<string>();
+    const seenQuestions = new Set<string>();
+    let badgeCount = 0;
+    stages.forEach((stage, index) => {
+      const expected = KNOWLEDGE_PATH[index];
+      if (stage.stage !== expected) {
+        errors.push(`content/knowledge_path.json: stage ${index + 1} should be ${expected ?? "missing"}`);
+        return;
+      }
+      const badges = stage.badges ?? [];
+      const books = stage.books ?? [];
+      badgeCount += badges.length;
+      if (badges.length !== BADGE_COUNTS[expected]) {
+        errors.push(`content/knowledge_path.json: ${expected} should have ${BADGE_COUNTS[expected]} badges`);
+      }
+      if (books.length !== BOOK_COUNTS[expected]) {
+        errors.push(`content/knowledge_path.json: ${expected} should list ${BOOK_COUNTS[expected]} books`);
+      }
+      for (const badge of badges) {
+        if (!badge.id) {
+          errors.push(`content/knowledge_path.json: ${expected} has a badge without an id`);
+          continue;
+        }
+        if (seenBadges.has(badge.id)) errors.push(`content/knowledge_path.json: duplicate badge ${badge.id}`);
+        seenBadges.add(badge.id);
+        for (const id of badge.questionIds ?? []) {
+          if (seenQuestions.has(id)) errors.push(`content/knowledge_path.json: ${id} is listed on more than one badge`);
+          seenQuestions.add(id);
+          if (!questionIds.has(id)) errors.push(`content/knowledge_path.json: ${badge.id} lists unknown question ${id}`);
+        }
+      }
+    });
+    if (badgeCount !== 218) errors.push(`content/knowledge_path.json: expected 218 badges, found ${badgeCount}`);
   }
 
   return { ok: errors.length === 0, errors, questionCount, lineCount };

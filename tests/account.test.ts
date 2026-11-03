@@ -38,7 +38,7 @@ function mark(id: string, note: string, updatedAt: string): VerseMark {
     chapter: 3,
     verseStart: 16,
     verseEnd: 16,
-    color: "gold",
+    color: "yellow",
     note,
     createdAt: updatedAt,
     updatedAt,
