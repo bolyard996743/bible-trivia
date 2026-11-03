@@ -171,7 +171,7 @@ describe("curriculum ladder", () => {
       masteredIds: ["gen"],
       clearedBooks: ["Genesis", "Obadiah", "Jude"],
     });
-    expect(status.required).toBe(19);
+    expect(status.required).toBe(27);
     expect(status.ready).toBe(false);
   });
 
@@ -189,7 +189,7 @@ describe("curriculum ladder", () => {
       firstTryIds: sprout.map((question) => question.id),
     });
     expect(done.ready).toBe(false);
-    expect(done.required).toBe(15);
+    expect(done.required).toBe(17);
   });
 
   it("names checklist topics and marks a cleared one", () => {

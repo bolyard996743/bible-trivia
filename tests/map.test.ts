@@ -15,19 +15,19 @@ describe("stage badge map", () => {
     }
   });
 
-  it("follows the outline: 145 badges and the cumulative book counts", () => {
+  it("follows the outline: 218 badges and the cumulative book counts", () => {
     expect(knowledgePath.advanceRule).toBe("every-badge");
     const counts = knowledgePath.stages.map((stage) => [stage.stage, stage.badges.length, stage.books.length]);
     expect(counts).toEqual([
       ["Seed", 9, 8],
-      ["Sprout", 15, 15],
-      ["Rooted", 17, 24],
-      ["Growing", 19, 32],
-      ["Established", 22, 40],
-      ["Fruitful", 35, 60],
-      ["Deep Roots", 28, 66],
+      ["Sprout", 17, 15],
+      ["Rooted", 25, 24],
+      ["Growing", 27, 32],
+      ["Established", 29, 40],
+      ["Fruitful", 69, 60],
+      ["Deep Roots", 42, 66],
     ]);
-    expect(knowledgePath.stages.reduce((sum, stage) => sum + stage.badges.length, 0)).toBe(145);
+    expect(knowledgePath.stages.reduce((sum, stage) => sum + stage.badges.length, 0)).toBe(218);
   });
 
   it("shows only the current stage until that stage is actually opened", () => {

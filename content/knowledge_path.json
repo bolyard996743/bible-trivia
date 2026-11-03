@@ -141,6 +141,12 @@
           "questionIds": []
         },
         {
+          "id": "sprout-palm-sunday",
+          "name": "Palm Sunday",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "sprout-supper",
           "name": "The Last Supper",
           "art": "cup",
@@ -198,16 +204,22 @@
         },
         {
           "id": "sprout-daniel",
-          "name": "Daniel and the Lions",
+          "name": "Daniel and the Lions' Den",
           "art": "daniel",
           "questionIds": [
             "c1-dan-0001"
           ]
         },
         {
-          "id": "sprout-books",
-          "name": "Books of the Bible",
-          "art": "books",
+          "id": "sprout-the-fiery-furnace",
+          "name": "The Fiery Furnace",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-books-of-the-bible-names-order-and-groups-of-boo",
+          "name": "Books of the Bible _(Names, order, and groups of books (Law, History, Poetry, Prophets, Gospels, Letters). See open decision 2.)_",
+          "art": "scroll",
           "questionIds": []
         }
       ]
@@ -270,6 +282,12 @@
           ]
         },
         {
+          "id": "rooted-the-temptation-and-the-call",
+          "name": "The Temptation and the Call",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "rooted-passover",
           "name": "Passover and the Plagues",
           "art": "door",
@@ -282,9 +300,21 @@
           "questionIds": []
         },
         {
+          "id": "rooted-joshua-the-promised-land",
+          "name": "Joshua: The Promised Land",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "rooted-gideon",
           "name": "Gideon",
           "art": "jar",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-deborah-and-barak",
+          "name": "Deborah and Barak",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -308,6 +338,12 @@
           "questionIds": []
         },
         {
+          "id": "rooted-david-friend-and-fighter",
+          "name": "David: Friend and Fighter",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "rooted-solomon",
           "name": "Solomon's Wisdom and Temple",
           "art": "temple",
@@ -317,6 +353,24 @@
           "id": "rooted-elijah",
           "name": "Elijah",
           "art": "raven",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-healings-of-jesus",
+          "name": "Healings of Jesus",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-psalms-for-hard-days",
+          "name": "Psalms for Hard Days",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-proverbs-words-and-friends",
+          "name": "Proverbs: Words and Friends",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -341,6 +395,12 @@
           "id": "rooted-fruit",
           "name": "Fruit of the Spirit",
           "art": "fruit-of-spirit",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-romans-peace-and-everyday-love",
+          "name": "Romans: Peace and Everyday Love",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -427,8 +487,20 @@
           ]
         },
         {
+          "id": "growing-manna-water-and-amalek",
+          "name": "Manna, Water and Amalek",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "growing-shema",
           "name": "Hear, O Israel",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "growing-moses-farewell-sermons",
+          "name": "Moses' Farewell Sermons",
           "art": "scroll",
           "questionIds": []
         },
@@ -436,6 +508,18 @@
           "id": "growing-elisha",
           "name": "Elisha",
           "art": "cloak",
+          "questionIds": []
+        },
+        {
+          "id": "growing-ahab-and-naboths-vineyard",
+          "name": "Ahab and Naboth's Vineyard",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "growing-hezekiahs-trust",
+          "name": "Hezekiah's Trust",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -448,6 +532,12 @@
           "id": "growing-job",
           "name": "Job",
           "art": "storm",
+          "questionIds": []
+        },
+        {
+          "id": "growing-job-faith-in-suffering",
+          "name": "Job: Faith in Suffering",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -465,9 +555,27 @@
           ]
         },
         {
+          "id": "growing-psalms-of-creation-and-worship",
+          "name": "Psalms of Creation and Worship",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "growing-proverbs-work-money-and-wisdom",
+          "name": "Proverbs: Work, Money and Wisdom",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "growing-parables",
           "name": "Parables of the Kingdom",
           "art": "seed",
+          "questionIds": []
+        },
+        {
+          "id": "growing-nicodemus-and-the-woman-at-the-well",
+          "name": "Nicodemus and the Woman at the Well",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -612,9 +720,21 @@
           "questionIds": []
         },
         {
+          "id": "established-ezra-and-nehemiah-confession-and-reform",
+          "name": "Ezra and Nehemiah: Confession and Reform",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "established-psalms",
           "name": "Psalms of Repentance and Refuge",
           "art": "hyssop",
+          "questionIds": []
+        },
+        {
+          "id": "established-psalms-israels-story-retold",
+          "name": "Psalms: Israel's Story Retold",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -638,9 +758,21 @@
           "questionIds": []
         },
         {
+          "id": "established-jeremiah-temple-sermon-and-false-prophets",
+          "name": "Jeremiah: Temple Sermon and False Prophets",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "established-ezekiel",
           "name": "Ezekiel: Visions and Dry Bones",
           "art": "bones",
+          "questionIds": []
+        },
+        {
+          "id": "established-ezekiel-the-watchman",
+          "name": "Ezekiel: The Watchman",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -653,6 +785,12 @@
           "id": "established-confession",
           "name": "Peter's Confession and the Transfiguration",
           "art": "mountain",
+          "questionIds": []
+        },
+        {
+          "id": "established-mark-the-cost-of-following-jesus",
+          "name": "Mark: The Cost of Following Jesus",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -673,6 +811,18 @@
           "id": "established-romans",
           "name": "Romans 8: Life in the Spirit",
           "art": "wind",
+          "questionIds": []
+        },
+        {
+          "id": "established-1-corinthians-unity-and-order",
+          "name": "1 Corinthians: Unity and Order",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "established-galatians-law-and-promise",
+          "name": "Galatians: Law and Promise",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -782,15 +932,45 @@
           ]
         },
         {
+          "id": "fruitful-genesis-abraham-to-jacob-in-context",
+          "name": "Genesis: Abraham to Jacob in Context",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-sinai",
           "name": "The Law at Sinai",
           "art": "ten-commandments",
           "questionIds": []
         },
         {
+          "id": "fruitful-leviticus-holiness-sabbath-year-and-jubilee",
+          "name": "Leviticus: Holiness, Sabbath Year and Jubilee",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-numbers-complaints-and-rebellion",
+          "name": "Numbers: Complaints and Rebellion",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-deuteronomy-moses-sermons",
+          "name": "Deuteronomy: Moses' Sermons",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-1chr",
           "name": "1 Chronicles: David's Heart for the Temple",
           "art": "blueprint",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-1-chronicles-davids-kingdom-established",
+          "name": "1 Chronicles: David's Kingdom Established",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -814,9 +994,9 @@
           "questionIds": []
         },
         {
-          "id": "fruitful-song",
-          "name": "Song of Solomon: Love Is Strong",
-          "art": "lily",
+          "id": "fruitful-song-of-solomon-love-is-strong-narrow-careful-sc",
+          "name": "Song of Solomon: Love Is Strong _(Narrow, careful scope (sensitive-passage rule).)_",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -832,24 +1012,42 @@
           "questionIds": []
         },
         {
+          "id": "fruitful-hosea-israels-unfaithfulness-and-return",
+          "name": "Hosea: Israel's Unfaithfulness and Return",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-joel",
           "name": "Joel: The Spirit Poured Out",
           "art": "locust",
           "questionIds": []
         },
         {
-          "id": "fruitful-amos",
-          "name": "Amos: Let Justice Roll",
-          "art": "plumb",
+          "id": "fruitful-amos-judgment-on-the-nations",
+          "name": "Amos: Judgment on the Nations",
+          "art": "scroll",
           "questionIds": []
         },
         {
-          "id": "fruitful-micah",
-          "name": "Micah: What Does the LORD Require?",
+          "id": "fruitful-amos-justice-and-visions",
+          "name": "Amos: Justice and Visions",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-micah-judgment-and-hope",
+          "name": "Micah: Judgment and Hope",
           "art": "scales",
           "questionIds": [
             "c2-mic-0001"
           ]
+        },
+        {
+          "id": "fruitful-micah-where-is-a-god-like-you",
+          "name": "Micah: Where Is a God Like You?",
+          "art": "scroll",
+          "questionIds": []
         },
         {
           "id": "fruitful-habakkuk",
@@ -864,9 +1062,45 @@
           "questionIds": []
         },
         {
-          "id": "fruitful-zechariah",
-          "name": "Zechariah: Visions and the Humble King",
-          "art": "donkey",
+          "id": "fruitful-zechariah-night-visions",
+          "name": "Zechariah: Night Visions",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-zechariah-the-humble-king-and-the-pierced-one",
+          "name": "Zechariah: The Humble King and the Pierced One",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-joshua-dividing-the-land",
+          "name": "Joshua: Dividing the Land",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-absaloms-rebellion",
+          "name": "Absalom's Rebellion",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-davids-mighty-men-and-the-census",
+          "name": "David's Mighty Men and the Census",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-solomons-decline-and-the-temple-dedication",
+          "name": "Solomon's Decline and the Temple Dedication",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-jehu-athaliah-and-joash",
+          "name": "Jehu, Athaliah and Joash",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -882,9 +1116,33 @@
           "questionIds": []
         },
         {
+          "id": "fruitful-isaiah-trust-in-the-lord-not-egypt",
+          "name": "Isaiah: Trust in the LORD, Not Egypt",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-isaiah-oracles-against-the-nations",
+          "name": "Isaiah: Oracles Against the Nations",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-isaiah-the-servant-and-salvation",
+          "name": "Isaiah: The Servant and Salvation",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-jeremiah",
           "name": "Jeremiah: The New Covenant and Jerusalem's Fall",
           "art": "heart",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-jeremiah-oracles-against-the-nations-and-baruch",
+          "name": "Jeremiah: Oracles Against the Nations and Baruch",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -900,8 +1158,38 @@
           "questionIds": []
         },
         {
+          "id": "fruitful-psalms-wisdom-psalms",
+          "name": "Psalms: Wisdom Psalms",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-psalms-hallel-and-the-songs-of-ascents",
+          "name": "Psalms: Hallel and the Songs of Ascents",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-proverbs-collected-sayings-and-agur",
+          "name": "Proverbs: Collected Sayings and Agur",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-job-the-friends-and-elihu",
+          "name": "Job: The Friends and Elihu",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-matthew",
           "name": "Matthew: Prophecy Fulfilled",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-matthew-signs-readiness-and-judgment",
+          "name": "Matthew: Signs, Readiness and Judgment",
           "art": "scroll",
           "questionIds": []
         },
@@ -912,9 +1200,27 @@
           "questionIds": []
         },
         {
+          "id": "fruitful-luke-the-road-to-jerusalem",
+          "name": "Luke: The Road to Jerusalem",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-mark-teaching-and-conflict",
+          "name": "Mark: Teaching and Conflict",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-john",
           "name": "John: Seven Signs",
           "art": "jar",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-john-conflict-and-controversy",
+          "name": "John: Conflict and Controversy",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -930,15 +1236,39 @@
           "questionIds": []
         },
         {
+          "id": "fruitful-romans-1-4-sin-and-faith",
+          "name": "Romans 1-4: Sin and Faith",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-romans-12-16-living-it-out",
+          "name": "Romans 12-16: Living It Out",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-resurrection",
           "name": "1 Corinthians 15: The Resurrection",
           "art": "seed",
           "questionIds": []
         },
         {
+          "id": "fruitful-2-corinthians-pauls-ministry-and-defense",
+          "name": "2 Corinthians: Paul's Ministry and Defense",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "fruitful-hebrews",
           "name": "Hebrews: A Better Covenant",
           "art": "breastplate",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-hebrews-warnings-and-endurance",
+          "name": "Hebrews: Warnings and Endurance",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -981,6 +1311,30 @@
           "id": "fruitful-2peter",
           "name": "2 Peter: Grow and Watch",
           "art": "ladder",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-james-wealth-patience-and-prayer",
+          "name": "James: Wealth, Patience and Prayer",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-1-peter-suffering-and-submission",
+          "name": "1 Peter: Suffering and Submission",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-1-john-test-the-spirits",
+          "name": "1 John: Test the Spirits",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-ephesians-walk-worthy",
+          "name": "Ephesians: Walk Worthy",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -1105,6 +1459,24 @@
           "questionIds": []
         },
         {
+          "id": "deep-eden-to-the-new-creation",
+          "name": "Eden to the New Creation",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-the-kingdom-of-god-across-scripture",
+          "name": "The Kingdom of God Across Scripture",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-the-holy-spirit-across-scripture",
+          "name": "The Holy Spirit Across Scripture",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "deep-law",
           "name": "Christ in the Law",
           "art": "lamb",
@@ -1117,15 +1489,45 @@
           "questionIds": []
         },
         {
+          "id": "deep-isaiah-the-final-chapters",
+          "name": "Isaiah: The Final Chapters",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-ezekiel-the-temple-and-the-land",
+          "name": "Ezekiel: The Temple and the Land",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "deep-wisdom",
           "name": "Wisdom Books Compared",
           "art": "wisdom-books",
           "questionIds": []
         },
         {
-          "id": "deep-twelve",
-          "name": "The Twelve Minor Prophets: Order and Setting",
-          "art": "scrolls",
+          "id": "deep-proverbs-collections-and-authors",
+          "name": "Proverbs: Collections and Authors",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-the-twelve-minor-prophets-order-and-setting-open",
+          "name": "The Twelve Minor Prophets: Order and Setting _(Opening verses (author and setting) of each of the twelve.)_",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-the-day-of-the-lord",
+          "name": "The Day of the LORD",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-the-remnant-and-the-restoration",
+          "name": "The Remnant and the Restoration",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -1141,9 +1543,9 @@
           "questionIds": []
         },
         {
-          "id": "deep-judges",
-          "name": "Judges: The Cycle of Sin and Deliverance",
-          "art": "arrows",
+          "id": "deep-judges-the-cycle-of-sin-and-deliverance-deborah-",
+          "name": "Judges: The Cycle of Sin and Deliverance _(Deborah and Barak now live in Rooted. Judges 19-21 are excluded (sensitive-passage rule).)_",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -1177,6 +1579,12 @@
           "questionIds": []
         },
         {
+          "id": "deep-psalms-the-five-books",
+          "name": "Psalms: The Five Books",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "deep-letters",
           "name": "Paul's Letters: Setting and Order",
           "art": "letter",
@@ -1189,15 +1597,39 @@
           "questionIds": []
         },
         {
+          "id": "deep-the-prison-letters",
+          "name": "The Prison Letters",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-the-pastoral-letters",
+          "name": "The Pastoral Letters",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "deep-philippians",
           "name": "Philippians: The Mind of Christ",
           "art": "basin",
           "questionIds": []
         },
         {
+          "id": "deep-hebrews-use-of-the-old-testament",
+          "name": "Hebrews' Use of the Old Testament",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
           "id": "deep-atonement",
           "name": "Atonement and Justification",
           "art": "scales",
+          "questionIds": []
+        },
+        {
+          "id": "deep-faith-and-works-paul-and-james",
+          "name": "Faith and Works: Paul and James",
+          "art": "scroll",
           "questionIds": []
         },
         {
@@ -1221,6 +1653,12 @@
         {
           "id": "deep-imagery",
           "name": "Revelation and Old Testament Imagery",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-revelation-structure-and-settings",
+          "name": "Revelation: Structure and Settings",
           "art": "scroll",
           "questionIds": []
         },

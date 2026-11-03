@@ -7,12 +7,12 @@ import { mascotBatchSchema, questionBatchSchema } from "./schema";
 
 const BADGE_COUNTS: Record<(typeof KNOWLEDGE_PATH)[number], number> = {
   Seed: 9,
-  Sprout: 15,
-  Rooted: 17,
-  Growing: 19,
-  Established: 22,
-  Fruitful: 35,
-  "Deep Roots": 28,
+  Sprout: 17,
+  Rooted: 25,
+  Growing: 27,
+  Established: 29,
+  Fruitful: 69,
+  "Deep Roots": 42,
 };
 
 const BOOK_COUNTS: Record<(typeof KNOWLEDGE_PATH)[number], number> = {
@@ -226,7 +226,7 @@ export function validateContentTree(root: string): ValidationResult {
         }
       }
     });
-    if (badgeCount !== 145) errors.push(`content/knowledge_path.json: expected 145 badges, found ${badgeCount}`);
+    if (badgeCount !== 218) errors.push(`content/knowledge_path.json: expected 218 badges, found ${badgeCount}`);
   }
 
   return { ok: errors.length === 0, errors, questionCount, lineCount };
