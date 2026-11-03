@@ -31,6 +31,10 @@ export interface AccountClient {
   from(table: "profiles" | "question_progress" | "verse_marks"): AccountQuery;
 }
 
+function isMissingBadgeRetriesColumn(message: string): boolean {
+  return message.includes("badge_retries") && /column|schema cache/i.test(message);
+}
+
 function unwrap<T>(result: { data: T | null; error: { message: string } | null }, label: string): T | null {
   if (result.error) throw new Error(result.error.message || label);
   return result.data;
@@ -51,7 +55,14 @@ export function createSupabasePlayerRepository(client: AccountClient | SupabaseC
     async save(state: StoredState): Promise<void> {
       const profile = profileToRow(userId, state);
       const saved = await db.from("profiles").upsert(profile);
-      if (saved.error) throw new Error(saved.error.message);
+      if (saved.error && isMissingBadgeRetriesColumn(saved.error.message)) {
+        const withoutRetries: ProfileRow = { ...profile };
+        delete withoutRetries.badge_retries;
+        const retry = await db.from("profiles").upsert(withoutRetries);
+        if (retry.error) throw new Error(retry.error.message);
+      } else if (saved.error) {
+        throw new Error(saved.error.message);
+      }
       const removed = await db.from("question_progress").delete().eq("user_id", userId);
       if (removed.error) throw new Error(removed.error.message);
       const rows = questionsToRows(userId, state.progress);

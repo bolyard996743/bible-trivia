@@ -132,6 +132,24 @@ export type GameProgress = {
    * Placement answers never add points.
    */
   points?: number;
+  /**
+   * One entry per badge id for this player. Never keyed by mascot.
+   * A miss stores the time the badge may be tried again.
+   */
+  badgeRetries?: Record<string, BadgeRetry>;
+};
+
+/**
+ * One player's attempt at one badge.
+ * Stored on the player and keyed by badge id. A mascot id is never a key.
+ */
+export type BadgeRetry = {
+  /** Question ids answered correctly on the first try in the open attempt. */
+  correctIds: string[];
+  /** ISO time when a failed attempt may be tried again. Absent while the attempt is open. */
+  retryAt?: string;
+  /** When this record was written. Two devices keep the newer one. */
+  updatedAt?: string;
 };
 
 export type AttemptPhase = "asking" | "teaching" | "mastered";

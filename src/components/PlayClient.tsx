@@ -1,12 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { BadgeRetryNotice } from "@/components/BadgeRetryNotice";
 import { QuestionSession } from "@/components/QuestionSession";
 import { attemptForQuestion } from "@/lib/game";
 import { showDifficultyLabels } from "@/lib/dev-flags";
-import { selectBadgeQuestion } from "@/lib/game/badges";
+import { badgeEarned, selectBadgeQuestion } from "@/lib/game/badges";
+import {
+  BADGE_EARNED_NOTE,
+  BADGE_PREPARING_NOTE,
+  badgeRetryDeadline,
+  recordBadgeAnswer,
+} from "@/lib/game/badge-retry";
 import { attemptPoints, questionMarkers, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
 import { findPathBadge } from "@/lib/game/path";
 import type { AttemptState, MascotLine, Question } from "@/lib/game/types";
@@ -32,6 +39,10 @@ export function PlayClient({
   const auth = useSignedIn();
   const stateRef = useRef(state);
   stateRef.current = state;
+  const [now, setNow] = useState(() => Date.now());
+  const badge = findPathBadge(search.get("badge") ?? "");
+  const retryAt = state && badge ? badgeRetryDeadline(state.progress, badge.id) : null;
+  const waiting = Boolean(retryAt && Date.parse(retryAt) > now);
 
   useEffect(() => {
     if (!ready) return;
@@ -39,10 +50,28 @@ export function PlayClient({
     else if (!state.placementComplete) router.replace("/placement");
   }, [ready, state, router]);
 
+  useEffect(() => {
+    if (!waiting) return;
+    const tick = () => setNow(Date.now());
+    tick();
+    const id = window.setInterval(tick, 1000);
+    return () => window.clearInterval(id);
+  }, [waiting]);
+
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
-  const badge = findPathBadge(search.get("badge") ?? "");
+  if (badge && waiting && retryAt) {
+    return (
+      <section className="grid gap-4" data-testid="badge-retry-screen">
+        <h1 className="text-3xl font-semibold text-grove-deep">{badge.name}</h1>
+        <BadgeRetryNotice now={Date.now()} retryAt={retryAt} />
+        <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+          See your stage map
+        </Link>
+      </section>
+    );
+  }
   if (badge && badge.questionIds.length === 0) {
     return (
       <section className="grid gap-4" data-testid="badge-unwritten">
@@ -54,15 +83,17 @@ export function PlayClient({
       </section>
     );
   }
-  const focused = badge ? selectBadgeQuestion(questions, state.progress, badge) : null;
+  const focused = badge ? selectBadgeQuestion(questions, state.progress, badge, new Date(now)) : null;
   const pick = badge ? (focused ? { question: focused, review: false } : null) : selectLadderQuestion(questions, state.progress);
   if (!pick) {
     return (
       <section className="grid gap-4">
         <h1 className="text-3xl font-semibold text-grove-deep">{badge ? badge.name : "You are caught up"}</h1>
-        <p className="text-lg text-ink">
+        <p className="text-lg text-ink" data-testid={badge ? "badge-closed" : undefined}>
           {badge
-            ? "You have already seen the questions for this badge. It fills when they were right on the first try."
+            ? badgeEarned(state.progress, badge)
+              ? BADGE_EARNED_NOTE
+              : BADGE_PREPARING_NOTE
             : "You have learned every question we have for this part of the path. More Scripture is on the way, and what you learned stays with you."}
         </p>
         <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
@@ -105,7 +136,7 @@ export function PlayClient({
       audioFiles={audioFiles}
       progressLabel={`${state.progress.stage ?? "Seed"} · ${question.section}`}
       reviewLabel={markers.review}
-      difficultyLabel={markers.difficulty}
+      difficultyLabel={badge ? null : markers.difficulty}
       initialAttempt={attemptForQuestion(question.id, state.progress)}
       onAttemptChange={rememberAttempt}
       onContinue={({ firstAttemptCorrect, missCount }) => {
@@ -137,6 +168,7 @@ export function PlayClient({
           question,
           firstAttemptCorrect && !review,
         );
+        if (badge) progress = recordBadgeAnswer(progress, badge, question.id, firstAttemptCorrect, new Date());
         const before = progress.stage;
         progress = advanceStage(questions, progress);
         const celebration: Celebration | null =
