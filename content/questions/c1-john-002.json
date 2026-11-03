@@ -1,0 +1,852 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jhn-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 2",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the wedding feast, what did the water become after Jesus' miracle?",
+        "child": "At a wedding feast, Jesus did something amazing with water. What did the water become?",
+        "teen": "At a wedding feast, Jesus did a miracle with some water. What did it become?",
+        "older": "According to John 2:9, what did the water become, as tasted by the master of the feast?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Milk"
+        },
+        {
+          "id": "b",
+          "text": "Honey"
+        },
+        {
+          "id": "c",
+          "text": "Oil"
+        },
+        {
+          "id": "d",
+          "text": "Wine"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 2:9",
+            "text": "When the master of the feast had tasted the water that was made wine",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 2:9 says what the master of the feast tasted. Read the first line.",
+          "child": "Read John 2:9. The master of the feast tasted the water, and the verse says what it had been made into.",
+          "teen": "Check John 2:9. The master of the feast tasted the water, and the verse says what it had been turned into.",
+          "older": "The first clause of John 2:9 states what the master of the feast had tasted."
+        },
+        "extended_explanation": "The servants had drawn water, but the master of the feast tasted something different. The verse tells what it had become.",
+        "takeaway": "Jesus made the water into wine."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 11",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Whom did Jesus call with a loud voice at the tomb?",
+        "child": "Jesus stood outside a tomb and called in a loud voice to a friend. Which friend did He call?",
+        "teen": "Jesus stood outside a tomb and called in a loud voice to a friend. Who was it?",
+        "older": "According to John 11:43, whom did Jesus call with a loud voice at the tomb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Simon Peter"
+        },
+        {
+          "id": "b",
+          "text": "Lazarus"
+        },
+        {
+          "id": "c",
+          "text": "Andrew"
+        },
+        {
+          "id": "d",
+          "text": "Philip"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 11:43",
+            "text": "Now when He had said these things, He cried with a loud voice, “Lazarus, come forth!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 11:43 records Jesus' loud call in quotation marks. The call begins with a name.",
+          "child": "Read John 11:43. Jesus' words are inside the quotation marks, and they start with a name.",
+          "teen": "Check John 11:43. Jesus' words are in the quotation marks, and they start with a name.",
+          "older": "John 11:43 records Jesus' loud cry in quotation marks, and it begins with a name."
+        },
+        "extended_explanation": "Jesus spoke loudly and called a friend by name. The verse gives His exact words.",
+        "takeaway": "Jesus called Lazarus out of the tomb."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 19",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the sign that Pilate put on the cross say about Jesus?",
+        "child": "Pilate put a sign on the cross. What did the sign say about Jesus?",
+        "teen": "Pilate had a sign put on the cross. What did it say about Jesus?",
+        "older": "According to John 19:19, what did the title that Pilate put on the cross say about Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A servant of the Roman Caesar"
+        },
+        {
+          "id": "b",
+          "text": "A friend of the governor Pilate"
+        },
+        {
+          "id": "c",
+          "text": "The King of the Jews"
+        },
+        {
+          "id": "d",
+          "text": "A teacher sent from far-off Rome"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 19:19",
+            "text": "Now Pilate wrote a title and put it on the cross. And the writing was: JESUS OF NAZARETH, THE KING OF THE JEWS.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 19:19 records the words on the sign in capital letters. Read the last part of the verse.",
+          "child": "Read John 19:19. The words on the sign are written in capital letters.",
+          "teen": "Check John 19:19. The words on the sign are written in capital letters.",
+          "older": "John 19:19 gives the writing on the title in capital letters, at the end of the verse."
+        },
+        "extended_explanation": "The sign named where Jesus was from and who He was. The words are written in capital letters at the end of the verse.",
+        "takeaway": "The sign said that Jesus is the King of the Jews."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 19",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Whom did Jesus ask His close friend to take care of from the cross?",
+        "child": "From the cross, Jesus asked a close friend standing nearby to take care of someone. Who was it?",
+        "teen": "From the cross, Jesus asked a close friend nearby to take care of someone. Who?",
+        "older": "According to John 19:26-27, whom did Jesus entrust to the care of the disciple whom He loved?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His mother"
+        },
+        {
+          "id": "b",
+          "text": "His brother"
+        },
+        {
+          "id": "c",
+          "text": "His neighbor"
+        },
+        {
+          "id": "d",
+          "text": "A soldier"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 19:26",
+            "text": "When Jesus therefore saw His mother, and the disciple whom He loved standing by, He said to His mother, “Woman, behold your son!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 19:27",
+            "text": "Then He said to the disciple, “Behold your mother!” And from that hour that disciple took her to his own home.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 19:26-27 records Jesus speaking to two people and tells who was taken to the disciple's home.",
+          "child": "Read John 19:26-27. Jesus speaks to two people, and the second verse says who went to a new home.",
+          "teen": "Check John 19:26-27. Jesus talks to two people, and verse 27 says who went to a new home.",
+          "older": "John 19:26-27 records Jesus' words to two persons and states who was taken to the disciple's home."
+        },
+        "extended_explanation": "Even on the cross, Jesus cared for someone close to Him. The two verses show who He spoke to and what the disciple did.",
+        "takeaway": "Jesus asked His friend to take care of His mother."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 19",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did Jesus say right before He bowed His head and gave up His spirit?",
+        "child": "Right before Jesus bowed His head and gave up His spirit, what did He say?",
+        "teen": "Right before Jesus bowed His head and gave up His spirit, what were His words?",
+        "older": "According to John 19:30, what did Jesus say right before He bowed His head and gave up His spirit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am hungry"
+        },
+        {
+          "id": "b",
+          "text": "Come down from here"
+        },
+        {
+          "id": "c",
+          "text": "Follow Me"
+        },
+        {
+          "id": "d",
+          "text": "It is finished!"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 19:30",
+            "text": "So when Jesus had received the sour wine, He said, “It is finished!” And bowing His head, He gave up His spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 19:30 records Jesus' last words in quotation marks, right before He bowed His head.",
+          "child": "Read John 19:30. Jesus' words are inside the quotation marks, before He bowed His head.",
+          "teen": "Check John 19:30. Jesus' words are in the quotation marks, right before He bowed His head.",
+          "older": "John 19:30 records His final words in quotation marks, spoken before He bowed His head."
+        },
+        "extended_explanation": "Jesus spoke, and then He bowed His head. The words in the quotation marks are what He said at the end.",
+        "takeaway": "Jesus said, \"It is finished!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 20",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the empty tomb, Mary did not recognize Jesus at first. What made her know it was Him?",
+        "child": "Mary was crying at the empty tomb and did not know Jesus at first. What made her know it was Him?",
+        "teen": "Mary was crying at the empty tomb and did not recognize Jesus at first. What made her know it was Him?",
+        "older": "According to John 20:16, what made Mary Magdalene recognize Jesus at the tomb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He walked through a door"
+        },
+        {
+          "id": "b",
+          "text": "He called her by name"
+        },
+        {
+          "id": "c",
+          "text": "He gave her a gift"
+        },
+        {
+          "id": "d",
+          "text": "An angel pointed to Him"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 20:16",
+            "text": "Jesus said to her, “Mary!” She turned and said to Him, “Rabboni!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 20:16 records the one word Jesus said and her response. Read the first sentence.",
+          "child": "Read John 20:16. Jesus says one word to her, and then she turns around.",
+          "teen": "Check John 20:16. Jesus says one word to her, and then she turns around.",
+          "older": "John 20:16 records the single word Jesus spoke and her response to it."
+        },
+        "extended_explanation": "Mary did not know Him until He spoke. The verse shows the one word He said and what she did next.",
+        "takeaway": "Jesus called Mary by name, and she knew Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In John 3:16, who is the giver of the gift?",
+        "child": "John 3:16 is about a gift. Who is the giver?",
+        "teen": "John 3:16 is all about a gift. Who gave it?",
+        "older": "According to John 3:16, who is the giver of the gift?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The angels"
+        },
+        {
+          "id": "b",
+          "text": "Moses"
+        },
+        {
+          "id": "c",
+          "text": "God"
+        },
+        {
+          "id": "d",
+          "text": "The king"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:16",
+            "text": "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:16 begins by naming the giver. Read the first words.",
+          "child": "Read John 3:16. The very first words tell who the giver is.",
+          "teen": "Check John 3:16. The first words tell who is giving.",
+          "older": "The opening words of John 3:16 name the giver."
+        },
+        "extended_explanation": "The whole verse is about something given. Before it says what was given, it tells who gave it.",
+        "takeaway": "God is the giver in John 3:16."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to John 3:16, what feeling led to the gift?",
+        "child": "John 3:16 tells about a gift. What feeling led to the gift?",
+        "teen": "John 3:16 says a feeling toward everyone led to the gift. What feeling?",
+        "older": "According to John 3:16, what feeling toward everyone moved the giver to give the gift?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Love"
+        },
+        {
+          "id": "b",
+          "text": "Anger"
+        },
+        {
+          "id": "c",
+          "text": "Fear"
+        },
+        {
+          "id": "d",
+          "text": "Worry"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:16",
+            "text": "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:16 begins with how God felt toward the world and then says what He did. Read the first half.",
+          "child": "Read the first part of John 3:16. It says how God felt about the world.",
+          "teen": "Check the first part of John 3:16. It says how God felt about the world.",
+          "older": "The first half of John 3:16 states God's attitude toward the world, then what He did."
+        },
+        "extended_explanation": "God did not give because He had to. The verse begins with the reason behind the gift.",
+        "takeaway": "God gave His Son because He loved the world."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to John 3:16, what will people who believe in Jesus have?",
+        "child": "What will people who believe in Jesus get, says John 3:16?",
+        "teen": "John 3:16 says what is in store for people who believe in Jesus. What is it?",
+        "older": "According to John 3:16, what is promised to those who believe in Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They will become kings of all lands"
+        },
+        {
+          "id": "b",
+          "text": "They will never feel hungry again"
+        },
+        {
+          "id": "c",
+          "text": "They will live in palaces of gold"
+        },
+        {
+          "id": "d",
+          "text": "They will have everlasting life"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:16",
+            "text": "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:16 ends by telling what believers will have. Read the last words.",
+          "child": "Read the end of John 3:16. It says what people get when they believe.",
+          "teen": "Check the end of John 3:16. It says what people get when they believe.",
+          "older": "The last words of John 3:16 state what is promised to the one who believes."
+        },
+        "extended_explanation": "The verse ends with a promise. It tells what believers will have, and it says how long it lasts.",
+        "takeaway": "People who believe in God's Son will have everlasting life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 3:16 uses the word \"perish,\" which means being lost forever. What will not happen to those who believe in Jesus?",
+        "child": "John 3:16 uses a big word, \"perish.\" It means being lost forever. What will not happen to people who believe in Jesus?",
+        "teen": "John 3:16 uses the word \"perish,\" which means being lost forever. What will not happen to people who believe in Jesus?",
+        "older": "John 3:16 uses the word \"perish,\" meaning to be lost forever. What will not happen to those who believe in Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They will not have any friends at all"
+        },
+        {
+          "id": "b",
+          "text": "They will not perish (be lost forever)"
+        },
+        {
+          "id": "c",
+          "text": "They will not need any sleep at night"
+        },
+        {
+          "id": "d",
+          "text": "They will not grow any older each year"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:16",
+            "text": "For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:16 says what will not happen to the one who believes, followed by \"but.\"",
+          "child": "Read the last part of John 3:16. It says what will not happen, and then what will.",
+          "teen": "Check the last part of John 3:16. It says what will not happen, and then what will.",
+          "older": "John 3:16 states what will not befall the believer, followed by the word \"but.\""
+        },
+        "extended_explanation": "The promise has two sides. One side tells what will not happen, and the other says what will.",
+        "takeaway": "Those who believe in Him will not perish, which means they will not be lost forever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to John 3:17, what was Jesus not sent to do?",
+        "child": "John 3:17 says what Jesus was not sent to do. What is it?",
+        "teen": "John 3:17 tells what Jesus was not sent to do. What is it?",
+        "older": "According to John 3:17, for what purpose was Jesus not sent?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To build a palace for the king"
+        },
+        {
+          "id": "b",
+          "text": "To collect taxes from the people"
+        },
+        {
+          "id": "c",
+          "text": "To condemn (declare guilty)"
+        },
+        {
+          "id": "d",
+          "text": "To visit a far-away country"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:17",
+            "text": "For God did not send His Son into the world to condemn the world",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:17 starts by saying what Jesus was not sent to do. Read the first part of the verse.",
+          "child": "Read the first part of John 3:17. It says what Jesus was not sent to do.",
+          "teen": "Check the first part of John 3:17. It says what Jesus was not sent to do.",
+          "older": "The first clause of John 3:17 states what Jesus was not sent to do."
+        },
+        "extended_explanation": "Before the verse says why Jesus was sent, it says what He was not sent to do. That helps us see God's kind purpose.",
+        "takeaway": "God did not send His Son into the world to condemn the world. To condemn means to declare guilty."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0013",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to John 3:17, where was Jesus sent?",
+        "child": "Where was Jesus sent, says John 3:17?",
+        "teen": "John 3:17 says Jesus was sent to a certain place. Where?",
+        "older": "According to John 3:17, into what place was Jesus sent?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Into the world"
+        },
+        {
+          "id": "b",
+          "text": "Into a palace"
+        },
+        {
+          "id": "c",
+          "text": "Into the desert"
+        },
+        {
+          "id": "d",
+          "text": "Into the sea"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:17",
+            "text": "For God did not send His Son into the world to condemn the world, but that the world through Him might be saved.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:17 states where God sent His Son. Read the first part of the verse.",
+          "child": "Read John 3:17. It says where God sent His Son.",
+          "teen": "Check John 3:17. It says where God sent His Son.",
+          "older": "The first part of John 3:17 states where God sent His Son."
+        },
+        "extended_explanation": "The verse starts with God sending His Son and tells where. It then gives the reason He sent Him.",
+        "takeaway": "God sent His Son into the world."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0014",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which word in John 3:16 shows that the gift is for anyone?",
+        "child": "John 3:16 uses one word that means anyone at all can receive the gift. What is the word?",
+        "teen": "John 3:16 uses one word that means anyone at all can receive the gift. Which word is it?",
+        "older": "According to John 3:16, which word shows that the offer extends to anyone?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Someone"
+        },
+        {
+          "id": "b",
+          "text": "Nobody"
+        },
+        {
+          "id": "c",
+          "text": "Special"
+        },
+        {
+          "id": "d",
+          "text": "Whoever"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:16",
+            "text": "whoever believes in Him should not perish but have everlasting life",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:16 uses a word right before it names what a person does. Read the last half of the verse.",
+          "child": "Read John 3:16. The word you want comes a few words before the words \"in Him.\"",
+          "teen": "Check John 3:16. The word you want comes a few words before the words \"in Him.\"",
+          "older": "In the last half of John 3:16, one word opens the promise to anyone. It comes before the verb."
+        },
+        "extended_explanation": "This word opens the gift to anyone at all. What follows it tells what a person does to receive it.",
+        "takeaway": "The word is whoever, so the gift is for anyone who believes in Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jhn-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "john-3-16-17"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to John 3:17, Jesus was sent so that everyone through Him might be what?",
+        "child": "Jesus was sent so that everyone, through Him, might be what?",
+        "teen": "Jesus was sent so that everyone, through Him, might be what, says John 3:17?",
+        "older": "According to John 3:17, what was the purpose of sending Jesus, that everyone through Him might be what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hidden"
+        },
+        {
+          "id": "b",
+          "text": "Saved"
+        },
+        {
+          "id": "c",
+          "text": "Taught"
+        },
+        {
+          "id": "d",
+          "text": "Counted"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:17",
+            "text": "For God did not send His Son into the world to condemn the world, but that the world through Him might be saved.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 3:17 ends with the purpose of the Son's coming. Read the last words.",
+          "child": "Read the end of John 3:17. It says what the world might be through Him.",
+          "teen": "Check the end of John 3:17. It says what the world might be through Him.",
+          "older": "The last words of John 3:17 state the purpose of the Son's coming."
+        },
+        "extended_explanation": "The second half of the verse says what God sent His Son to do for the world. It is the opposite of what the first half rules out.",
+        "takeaway": "God sent His Son so that the world through Him might be saved."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}

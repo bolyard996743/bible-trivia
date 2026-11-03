@@ -1,0 +1,967 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0020",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What was the first thing God spoke into being?",
+        "child": "When God spoke for the very first time in the Bible, what did He make appear?",
+        "teen": "What did God bring into being when He first spoke and said, \"Let there be...\"?",
+        "older": "According to Genesis 1, what did God first call into existence by His spoken word?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Birds"
+        },
+        {
+          "id": "b",
+          "text": "Mountains"
+        },
+        {
+          "id": "c",
+          "text": "Light"
+        },
+        {
+          "id": "d",
+          "text": "The moon"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:3",
+            "text": "Then God said, “Let there be light”; and there was light.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 1:3 records God's first spoken command. Read what He said, and the result follows in the same verse.",
+          "child": "Read Genesis 1:3. God said some words, and then something appeared right away. Look for what He told to be.",
+          "teen": "Check Genesis 1:3. God speaks, and the thing He names shows up on the spot. Find what He called for.",
+          "older": "Genesis 1:3 gives the first words God speaks in the account. The verse also records what came to be at His word."
+        },
+        "extended_explanation": "Genesis shows God creating by speaking. The verse gives His words and then tells what happened. Reading the quotation closely shows what God called for.",
+        "takeaway": "The first thing God spoke into being was light."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0021",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What name did God give to the darkness?",
+        "child": "God gave the dark a name on the very first day. What did He call it?",
+        "teen": "On the first day, God gave names to the day and the dark. What did He call the dark?",
+        "older": "According to Genesis 1:5, what name did God give to the darkness?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Night"
+        },
+        {
+          "id": "b",
+          "text": "Shadow"
+        },
+        {
+          "id": "c",
+          "text": "Winter"
+        },
+        {
+          "id": "d",
+          "text": "Cloud"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:5",
+            "text": "God called the light Day, and the darkness He called Night.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 1:5 records two names God gave. The second is the name He gave to the darkness.",
+          "child": "Read Genesis 1:5. God gives two names, and the second one is for the dark.",
+          "teen": "Check Genesis 1:5. God names two things, and the second name is for the dark.",
+          "older": "Genesis 1:5 records two names given by God, the second of which belongs to the darkness."
+        },
+        "extended_explanation": "On the first day God did more than make light. He also gave names, and the verse tells the name He gave to the darkness.",
+        "takeaway": "God called the darkness Night."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0022",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 2",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Genesis 2:7, what did God use to form the first man?",
+        "child": "What did God use to make the first man's body?",
+        "teen": "What did God form the first man out of?",
+        "older": "In the account of the first man's making, from what material did the LORD God form him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water from the sea"
+        },
+        {
+          "id": "b",
+          "text": "Stones from a mountain"
+        },
+        {
+          "id": "c",
+          "text": "Wood from a tree"
+        },
+        {
+          "id": "d",
+          "text": "Dust from the ground"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 2:7",
+            "text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living being.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 2:7 opens by telling what God formed the man from. Read the first part of the verse.",
+          "child": "Read the beginning of Genesis 2:7. It says what God used from the earth to form the man.",
+          "teen": "Check the first half of Genesis 2:7. It names the material God used to form the man.",
+          "older": "The first clause of Genesis 2:7 names the material from which the man was formed."
+        },
+        "extended_explanation": "Genesis 2:7 describes the making of the first man in two steps. The first step tells what he was formed from, and the second tells how he came alive.",
+        "takeaway": "God formed the first man from the dust of the ground."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0023",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 2",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did God put into the man's nostrils after forming him, so that he became a living being?",
+        "child": "God made the first man from the ground. What did God put into his nose to make him alive?",
+        "teen": "After God formed the man from the ground, what did He put into his nostrils so he would live?",
+        "older": "According to Genesis 2:7, what did God place in the man's nostrils so that he became a living being?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cool wind from the north"
+        },
+        {
+          "id": "b",
+          "text": "The breath of life"
+        },
+        {
+          "id": "c",
+          "text": "A loud shout from heaven"
+        },
+        {
+          "id": "d",
+          "text": "A bright light from the sky"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 2:7",
+            "text": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living being.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 2:7 names what God put into the man's nostrils. Read the middle of the verse, right before he became a living being.",
+          "child": "Read Genesis 2:7 slowly. The middle of the verse tells what went into the man's nostrils.",
+          "teen": "Look at the middle of Genesis 2:7. It tells what God put into the man so he would be alive.",
+          "older": "The middle of Genesis 2:7 identifies what the LORD God placed in the man, after which he became a living being."
+        },
+        "extended_explanation": "The man is not alive until God gives him something. The verse tells what God gave, and then says the man became a living being.",
+        "takeaway": "God put the breath of life into the man's nostrils, and he became a living being."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0024",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 2",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did Adam do with the animals God brought to him?",
+        "child": "God brought the animals to Adam. What did Adam do with them?",
+        "teen": "God brought all the animals to Adam. What did Adam do?",
+        "older": "According to Genesis 2:19, what did Adam do with the living creatures the LORD God brought to him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He built houses for them"
+        },
+        {
+          "id": "b",
+          "text": "He taught them to talk"
+        },
+        {
+          "id": "c",
+          "text": "He gave them names"
+        },
+        {
+          "id": "d",
+          "text": "He set them free"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 2:19",
+            "text": "And whatever Adam called each living creature, that was its name.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 2:19 reports what Adam called each living creature. Read the last sentence of the verse.",
+          "child": "Read Genesis 2:19. Look at what Adam called each animal, and what happened to that word.",
+          "teen": "Check Genesis 2:19. The verse says what Adam called each living creature, and then what that word became.",
+          "older": "The final sentence of Genesis 2:19 states what the man called each living creature and what that term became."
+        },
+        "extended_explanation": "God brought the animals to Adam to see what he would call them. The last sentence of the verse shows how Adam answered.",
+        "takeaway": "Adam gave names to the animals God brought to him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0025",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When God looked at everything He had made on the sixth day, how did Genesis 1:31 describe it?",
+        "child": "On the sixth day God looked at everything He had made. What did He say about it?",
+        "teen": "On day six, God looked over all that He had made. What does the Bible say about it?",
+        "older": "According to Genesis 1:31, how is everything God had made described on the sixth day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It was very good"
+        },
+        {
+          "id": "b",
+          "text": "It needed more work"
+        },
+        {
+          "id": "c",
+          "text": "It was too small"
+        },
+        {
+          "id": "d",
+          "text": "It was not finished"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:31",
+            "text": "Then God saw everything that He had made, and indeed it was very good.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 1:31 reports God's view of all that He had made. Read how the verse describes it.",
+          "child": "Read Genesis 1:31. God looks at all He made, and the verse tells how it was.",
+          "teen": "Check Genesis 1:31. God looks over everything, and the verse gives His view of it.",
+          "older": "Genesis 1:31 records how God regarded the whole of His creation. The description follows the words about His seeing it."
+        },
+        "extended_explanation": "At the end of day six God looks at the whole creation. The verse uses a phrase that sums up what He saw.",
+        "takeaway": "God saw everything He had made, and it was very good."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0026",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 2",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "From which part of the man did God make the woman?",
+        "child": "Which part of the first man did God use to make the first woman?",
+        "teen": "God made the first woman from part of the man. Which part?",
+        "older": "According to Genesis 2:22, from what part taken from the man did the LORD God make the woman?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hand"
+        },
+        {
+          "id": "b",
+          "text": "A foot"
+        },
+        {
+          "id": "c",
+          "text": "A tooth"
+        },
+        {
+          "id": "d",
+          "text": "A rib"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 2:22",
+            "text": "Then the rib which the LORD God had taken from man He made into a woman, and He brought her to the man.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 2:22 names what the LORD God took from the man and made into a woman. Read the start of the verse.",
+          "child": "Read Genesis 2:22. It names the part God took from the man and made into a woman.",
+          "teen": "Look at Genesis 2:22. It tells what God took from the man to make the woman.",
+          "older": "The opening words of Genesis 2:22 identify what had been taken from the man to form the woman."
+        },
+        "extended_explanation": "The verse names the part God took and tells what He made from it. Reading the first words gives what you need.",
+        "takeaway": "God made the woman from a rib He had taken from the man."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0027",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What living things did God make to fill the waters and the sky on the fifth day?",
+        "child": "On the fifth day, God filled the water and the sky with living things. Which ones did He make?",
+        "teen": "On day five, God filled the water and the sky with life. What kinds of living things did He make?",
+        "older": "According to Genesis 1:21, which living things did God create to fill the waters and the air?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cows, sheep, goats, and horses"
+        },
+        {
+          "id": "b",
+          "text": "Sea creatures and birds"
+        },
+        {
+          "id": "c",
+          "text": "Bees, snakes, and little lizards"
+        },
+        {
+          "id": "d",
+          "text": "Lions, bears, and wild wolves"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:21",
+            "text": "So God created great sea creatures and every living thing that moves, with which the waters abounded, according to their kind, and every winged bird according to its kind.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 1:21 lists what God created to fill the waters and the air. Read both parts of the sentence.",
+          "child": "Read Genesis 1:21. It names what filled the waters and what filled the air.",
+          "teen": "Check Genesis 1:21. It lists the kinds of living things God made for the waters and for the air above.",
+          "older": "Genesis 1:21 names what God made for the waters and what He made for the air. Each is given in its own clause."
+        },
+        "extended_explanation": "God made places and then filled them. On the fifth day the verse tells what filled the waters and what filled the air.",
+        "takeaway": "On the fifth day God made sea creatures and birds."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0028",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 6",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did God tell Noah to build from gopherwood?",
+        "child": "God told Noah to build something very big out of wood. What was it?",
+        "teen": "God gave Noah a huge building job, using wood. What did He tell Noah to make?",
+        "older": "According to Genesis 6:14, what did God command Noah to make from gopherwood?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tower"
+        },
+        {
+          "id": "b",
+          "text": "A castle"
+        },
+        {
+          "id": "c",
+          "text": "An ark"
+        },
+        {
+          "id": "d",
+          "text": "A bridge"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 6:14",
+            "text": "Make yourself an ark of gopherwood; make rooms in the ark, and cover it inside and outside with pitch.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 6:14 gives God's building instructions. The first sentence names what Noah was to make.",
+          "child": "Read Genesis 6:14. God gives Noah directions, and the first words name what to make.",
+          "teen": "Look at Genesis 6:14. God tells Noah what to build, and the verse names it right away.",
+          "older": "Genesis 6:14 opens with the command to Noah, naming the vessel he was to construct."
+        },
+        "extended_explanation": "God gave Noah clear directions. The verse names what to build, what to use, and how to keep it dry inside and out.",
+        "takeaway": "God told Noah to build an ark."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0029",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 7",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How did the animals go into the ark?",
+        "child": "The animals came to Noah to go into the ark. How did they go in?",
+        "teen": "How did the animals go into the ark with Noah?",
+        "older": "According to Genesis 7:9, in what manner did the animals enter the ark?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two by two"
+        },
+        {
+          "id": "b",
+          "text": "One at a time"
+        },
+        {
+          "id": "c",
+          "text": "Three by three"
+        },
+        {
+          "id": "d",
+          "text": "All in one big herd"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 7:9",
+            "text": "two by two they went into the ark to Noah, male and female, as God had commanded Noah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 7:9 describes how the animals entered the ark. Look at the opening words of the verse.",
+          "child": "Read Genesis 7:9. The verse tells how the animals went in, and it uses a counting phrase.",
+          "teen": "Check Genesis 7:9. It describes how the animals went into the ark, with a way of counting them.",
+          "older": "The opening words of Genesis 7:9 describe the manner in which the animals went in to Noah."
+        },
+        "extended_explanation": "God had commanded how the animals should come, and they did. The verse starts with the way they went in.",
+        "takeaway": "The animals went into the ark two by two."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0030",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 6",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What does Genesis 6:9 say Noah did with God?",
+        "child": "The Bible tells us something Noah did with God. What was it?",
+        "teen": "Genesis 6:9 tells about Noah's life with God. What does it say he did with God?",
+        "older": "According to Genesis 6:9, what is said of Noah's manner of life in relation to God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He argued with God"
+        },
+        {
+          "id": "b",
+          "text": "He hid from God"
+        },
+        {
+          "id": "c",
+          "text": "He raced against God"
+        },
+        {
+          "id": "d",
+          "text": "He walked with God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 6:9",
+            "text": "Noah was a just man, perfect in his generations. Noah walked with God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The last sentence of Genesis 6:9 uses a common action to describe Noah's relationship with God.",
+          "child": "Read the last sentence of Genesis 6:9. It uses an everyday action to show how close Noah was to God.",
+          "teen": "Check the last sentence of Genesis 6:9. It uses an everyday action to describe Noah's closeness to God.",
+          "older": "The closing sentence of Genesis 6:9 uses a familiar action to describe Noah's fellowship with God."
+        },
+        "extended_explanation": "Before the flood story begins, the Bible tells what kind of man Noah was. One short sentence tells how he lived with God.",
+        "takeaway": "Noah walked with God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0031",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 7",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Noah and the animals entered the ark, who shut the door?",
+        "child": "Noah and the animals were all inside the ark. Who closed the door?",
+        "teen": "Once Noah and the animals were inside the ark, who closed them in?",
+        "older": "According to Genesis 7:16, who shut Noah in once he and the animals had entered the ark?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Noah"
+        },
+        {
+          "id": "b",
+          "text": "The LORD"
+        },
+        {
+          "id": "c",
+          "text": "Noah's wife"
+        },
+        {
+          "id": "d",
+          "text": "Noah's sons"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 7:16",
+            "text": "So those that entered, male and female of all flesh, went in as God had commanded him; and the LORD shut him in.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 7:16 ends by naming who shut Noah in. Read the last part of the verse.",
+          "child": "Read the end of Genesis 7:16. It says who did the closing.",
+          "teen": "Check the end of Genesis 7:16. It tells who closed the door behind Noah.",
+          "older": "The final clause of Genesis 7:16 names the one who shut Noah in."
+        },
+        "extended_explanation": "Everything went in as God had commanded. The last words of the verse tell who closed them in.",
+        "takeaway": "The LORD shut Noah in."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0032",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 8",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which bird returned to Noah with a freshly plucked olive leaf in its mouth?",
+        "child": "Noah wanted to know if the water had gone down. Which bird came back with a fresh olive leaf?",
+        "teen": "Noah wanted to find out if the water had gone down. Which bird returned with a fresh olive leaf in its mouth?",
+        "older": "According to Genesis 8:11, which bird returned to Noah in the evening with a freshly plucked olive leaf?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "An eagle"
+        },
+        {
+          "id": "b",
+          "text": "An owl"
+        },
+        {
+          "id": "c",
+          "text": "A dove"
+        },
+        {
+          "id": "d",
+          "text": "A sparrow"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 8:11",
+            "text": "Then the dove came to him in the evening, and behold, a freshly plucked olive leaf was in her mouth; and Noah knew that the waters had receded from the earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 8:11 names the bird that came back to Noah. Read the first line of the verse.",
+          "child": "Read Genesis 8:11. It names the bird that came to Noah in the evening.",
+          "teen": "Check Genesis 8:11. It names the bird that came to Noah that evening.",
+          "older": "The opening of Genesis 8:11 names the bird that returned to Noah in the evening."
+        },
+        "extended_explanation": "The leaf was a sign. The verse names the bird that brought it and tells what Noah learned from it.",
+        "takeaway": "A dove brought Noah a fresh olive leaf."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0033",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 8",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did Noah build for the LORD after he left the ark?",
+        "child": "When Noah came out of the ark, what did he build for the LORD?",
+        "teen": "After Noah left the ark, what did he build to honor the LORD?",
+        "older": "According to Genesis 8:20, what did Noah build for the LORD after leaving the ark?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "An altar"
+        },
+        {
+          "id": "b",
+          "text": "A tower"
+        },
+        {
+          "id": "c",
+          "text": "A new boat"
+        },
+        {
+          "id": "d",
+          "text": "A wall"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 8:20",
+            "text": "Then Noah built an altar to the LORD",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 8:20 says what Noah built for the LORD. Read the first sentence of the verse.",
+          "child": "Read Genesis 8:20. It tells what Noah built for the LORD.",
+          "teen": "Check Genesis 8:20. It says what Noah built for the LORD.",
+          "older": "The opening clause of Genesis 8:20 states what Noah built for the LORD."
+        },
+        "extended_explanation": "Noah's first act after the flood was worship. The verse tells what he built so he could offer to the LORD.",
+        "takeaway": "Noah built an altar to the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0034",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 9",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did God promise would never happen again?",
+        "child": "God made a promise to Noah and to every living thing. What did He promise would never happen again?",
+        "teen": "God made a promise to Noah and every living thing. What did He say would never happen again?",
+        "older": "According to Genesis 9:11, what did God promise would never again occur?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A fire that burns up the earth"
+        },
+        {
+          "id": "b",
+          "text": "A drought that dries up the land"
+        },
+        {
+          "id": "c",
+          "text": "An earthquake that shakes the land"
+        },
+        {
+          "id": "d",
+          "text": "A flood that destroys the earth"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 9:11",
+            "text": "never again shall there be a flood to destroy the earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 9:11 states what God promised would never happen again. Read the last part of the verse.",
+          "child": "Read Genesis 9:11. It says what will never happen again, and what it would do.",
+          "teen": "Check Genesis 9:11. God says what will never happen again, and what it would do.",
+          "older": "The closing words of Genesis 9:11 state what God promised would never again occur."
+        },
+        "extended_explanation": "God's promise looked ahead. The verse says what He would never allow again and what it would have done.",
+        "takeaway": "God promised that a flood would never again destroy the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-gen-0035",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 9",
+      "topics": [
+        "noah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did God set in the clouds as the sign of His promise?",
+        "child": "God put something in the clouds to remind everyone of His promise. What was it?",
+        "teen": "What did God set in the clouds as a sign of His promise?",
+        "older": "According to Genesis 9:13, what did God set in the cloud as the sign of His covenant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A shining star"
+        },
+        {
+          "id": "b",
+          "text": "A rainbow"
+        },
+        {
+          "id": "c",
+          "text": "A bolt of lightning"
+        },
+        {
+          "id": "d",
+          "text": "A golden ring"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 9:13",
+            "text": "I set My rainbow in the cloud, and it shall be for the sign of the covenant between Me and the earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 9:13 names what God set in the cloud. Read the first sentence of the verse.",
+          "child": "Read Genesis 9:13. God says what He sets in the cloud, and what it is for.",
+          "teen": "Check Genesis 9:13. God names what He sets in the cloud and why.",
+          "older": "Genesis 9:13 names the sign God set in the cloud for His covenant."
+        },
+        "extended_explanation": "A promise needs a reminder. God chose something people could see in the sky, and He named it in this verse.",
+        "takeaway": "God set a rainbow in the cloud as the sign of His promise."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}

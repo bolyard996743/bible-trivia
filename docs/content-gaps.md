@@ -4,45 +4,70 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 43 questions.
+The bank has 112 questions.
 
 ## Seed
 
 No Bible knowledge, about age 6. Big stories. All easy.
 
-Questions now: 8. Books: 6. Target pool: about 36 questions.
+Questions now: 78. Books: 8. Target pool: about 36 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
-| David and Goliath | 1 Samuel | 1 Samuel 17 | foundation | 1 |
-| Moses | Exodus | Exodus 1-15 | foundation | 1 |
+| David and Goliath | 1 Samuel | 1 Samuel 16 | foundation | 2 |
+| David and Goliath | 1 Samuel | 1 Samuel 17 | foundation | 7 |
+| Moses | Exodus | Exodus 14 | foundation | 1 |
+| Moses | Exodus | Exodus 2 | foundation | 3 |
+| Moses | Exodus | Exodus 20 | foundation | 2 |
+| Moses | Exodus | Exodus 3 | foundation | 2 |
+| Creation | Genesis | Genesis 1 | foundation | 4 |
 | Creation | Genesis | Genesis 1-11 | foundation | 1 |
+| Creation | Genesis | Genesis 2 | foundation | 4 |
+| Noah | Genesis | Genesis 6 | foundation | 2 |
 | Noah | Genesis | Genesis 6-9 | foundation | 1 |
+| Noah | Genesis | Genesis 7 | foundation | 2 |
+| Noah | Genesis | Genesis 8 | foundation | 2 |
+| Noah | Genesis | Genesis 9 | foundation | 2 |
 | John 3:16–17 | John | John 1-3 | foundation | 1 |
-| Jonah | Jonah | Jonah 1 | foundation | 1 |
-| Jesus' Birth | Luke | Luke 1-2 | foundation | 1 |
-| Jesus' Birth | Luke | Luke 2 | foundation | 1 |
+| Miracles | John | John 11 | foundation | 1 |
+| Cross and Resurrection | John | John 19 | foundation | 3 |
+| Miracles | John | John 2 | foundation | 1 |
+| Cross and Resurrection | John | John 20 | foundation | 1 |
+| John 3:16–17 | John | John 3 | foundation | 8 |
+| Jonah | Jonah | Jonah 1 | foundation | 5 |
+| Jonah | Jonah | Jonah 2 | foundation | 2 |
+| Jonah | Jonah | Jonah 3 | foundation | 1 |
+| Jonah | Jonah | Jonah 4 | foundation | 1 |
+| Jesus' Birth | Luke | Luke 2 | foundation | 5 |
+| Cross and Resurrection | Luke | Luke 23 | foundation | 1 |
+| Cross and Resurrection | Luke | Luke 24 | foundation | 2 |
+| Miracles | Mark | Mark 10 | foundation | 1 |
+| Miracles | Mark | Mark 2 | foundation | 1 |
+| Miracles | Mark | Mark 4 | foundation | 1 |
+| Miracles | Mark | Mark 6 | foundation | 1 |
+| Jesus' Birth | Matthew | Matthew 1 | foundation | 1 |
+| Miracles | Matthew | Matthew 14 | foundation | 2 |
+| Jesus' Birth | Matthew | Matthew 2 | foundation | 3 |
+| Cross and Resurrection | Matthew | Matthew 28 | foundation | 1 |
 
 Tier totals against the mix:
 
-- foundation: 8 now, about 36 wanted (100% of draws (easy)). About 28 more.
+- foundation: 78 now, about 36 wanted (100% of draws (easy)). Target met.
 
-Curriculum topics with no question yet: Miracles, Cross and Resurrection.
+Every curriculum topic for this stage has at least one question.
 
 New questions to write:
 
-- About 28 more foundation questions (easy).
-- Add questions for: Miracles, Cross and Resurrection.
+- The current pool meets this stage's targets.
 
 ## Sprout
 
 Considering baptism, about age 9–10. Mostly easy.
 
-Questions now: 5. Books: 5. Target pool: about 20 questions.
+Questions now: 4. Books: 4. Target pool: about 20 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
-| David and Goliath | 1 Samuel | 1 Samuel 17 | intermediate | 1 |
 | Daniel | Daniel | Daniel 6 | intermediate | 1 |
 | Moses | Exodus | Exodus 3-4 | intermediate | 1 |
 | Who Jesus Is | John | John 1 | intermediate | 1 |
@@ -51,7 +76,7 @@ Questions now: 5. Books: 5. Target pool: about 20 questions.
 Tier totals against the mix:
 
 - foundation: 0 now, about 16 wanted (80% of draws (easy)). About 16 more.
-- intermediate: 5 now, about 4 wanted (20% of draws (intermediate)). Target met.
+- intermediate: 4 now, about 4 wanted (20% of draws (intermediate)). Target met.
 
 Curriculum topics with no question yet: The Twelve Disciples, New Testament Books, Isaiah 53.
 

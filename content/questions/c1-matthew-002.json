@@ -1,0 +1,427 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 1",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to the angel, what would Mary's Son save His people from?",
+        "child": "An angel told Joseph that Mary's baby would save people. What would He save them from?",
+        "teen": "An angel told Joseph that Mary's baby would save His people. What would He save them from?",
+        "older": "According to Matthew 1:21, from what would the Son born to Mary save His people?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their enemies"
+        },
+        {
+          "id": "b",
+          "text": "Their sins"
+        },
+        {
+          "id": "c",
+          "text": "Being hungry"
+        },
+        {
+          "id": "d",
+          "text": "Bad weather"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 1:21",
+            "text": "And she will bring forth a Son, and you shall call His name JESUS, for He will save His people from their sins.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 1:21 gives the reason for the baby's name. Read the end of the verse.",
+          "child": "Read Matthew 1:21. The angel says what the baby will do and what He will save people from.",
+          "teen": "Check Matthew 1:21. The angel says what the baby will do and what He will save people from.",
+          "older": "Matthew 1:21 gives the reason for the child's name, stated at the end of the verse."
+        },
+        "extended_explanation": "The angel gave the baby's name and told why. The end of the verse says what the name means for His people.",
+        "takeaway": "Jesus would save His people from their sins."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mat-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 2",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What had the wise men seen in the East that made them come to worship the newborn King?",
+        "child": "Wise men came to find the newborn King. What had they seen in the East that led them?",
+        "teen": "Wise men came looking for the newborn King. What had they seen in the East?",
+        "older": "According to Matthew 2:2, what had the wise men seen in the East that led them to come and worship the newborn King?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A rainbow"
+        },
+        {
+          "id": "b",
+          "text": "A big fire"
+        },
+        {
+          "id": "c",
+          "text": "A star"
+        },
+        {
+          "id": "d",
+          "text": "A moon"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 2:2",
+            "text": "Where is He who has been born King of the Jews? For we have seen His star in the East and have come to worship Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 2:2 gives the wise men's reason for coming. Read what they say they had seen.",
+          "child": "Read Matthew 2:2. The wise men say what they saw and what they did because of it.",
+          "teen": "Check Matthew 2:2. The wise men say what they saw and what they did because of it.",
+          "older": "Matthew 2:2 gives the reason the wise men gave for their coming, stated as what they had seen."
+        },
+        "extended_explanation": "The wise men told Herod why they had traveled. The verse says what they had seen and what they wanted to do.",
+        "takeaway": "The wise men had seen a star in the East."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mat-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 2",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which gifts did the wise men present to Jesus?",
+        "child": "The wise men found Jesus and opened their treasures. Which gifts did they give Him?",
+        "teen": "The wise men found Jesus and gave Him gifts. Which gifts did they give?",
+        "older": "According to Matthew 2:11, which gifts did the wise men present to the young Child?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gold, frankincense, and myrrh"
+        },
+        {
+          "id": "b",
+          "text": "Silver, bread, wine, and olive oil"
+        },
+        {
+          "id": "c",
+          "text": "Wool, honey, figs, and fresh bread"
+        },
+        {
+          "id": "d",
+          "text": "Swords, shields, spears, and crowns"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 2:11",
+            "text": "And when they had opened their treasures, they presented gifts to Him: gold, frankincense, and myrrh.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 2:11 lists the gifts. Read the end of the verse.",
+          "child": "Read Matthew 2:11. At the end of the verse, the Bible lists the gifts.",
+          "teen": "Check Matthew 2:11. At the end of the verse, the gifts are listed.",
+          "older": "Matthew 2:11 lists the gifts at the end of the verse."
+        },
+        "extended_explanation": "The wise men brought treasures. At the end of the verse the Bible lists each gift by name.",
+        "takeaway": "The wise men gave Jesus gold, frankincense, and myrrh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mat-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 2",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How were the wise men warned not to return to Herod?",
+        "child": "God did not want the wise men to go back to King Herod. How did He warn them?",
+        "teen": "God warned the wise men not to go back to King Herod. How did He warn them?",
+        "older": "According to Matthew 2:12, in what way were the wise men divinely warned not to return to Herod?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With a letter"
+        },
+        {
+          "id": "b",
+          "text": "By a messenger on a horse"
+        },
+        {
+          "id": "c",
+          "text": "With a loud trumpet"
+        },
+        {
+          "id": "d",
+          "text": "In a dream"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 2:12",
+            "text": "Then, being divinely warned in a dream that they should not return to Herod, they departed for their own country another way.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 2:12 says how the wise men were warned. Read the first half of the verse.",
+          "child": "Read Matthew 2:12. It says how they were warned and which way they went home.",
+          "teen": "Check Matthew 2:12. It says how they were warned and how they went home.",
+          "older": "The first half of Matthew 2:12 states how the wise men were warned."
+        },
+        "extended_explanation": "God cared about the Child's safety. The verse says how the warning came and what the wise men did next.",
+        "takeaway": "The wise men were warned in a dream not to go back to Herod."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mat-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 14",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How did Jesus go out to His disciples in the boat during the night?",
+        "child": "In the night, Jesus went out to His friends in the boat. How did He get to them?",
+        "teen": "In the night, Jesus went out to the disciples in their boat. How did He get to them?",
+        "older": "According to Matthew 14:25, in what way did Jesus go out to His disciples during the fourth watch of the night?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Swimming across"
+        },
+        {
+          "id": "b",
+          "text": "Walking on the sea"
+        },
+        {
+          "id": "c",
+          "text": "Rowing a small boat"
+        },
+        {
+          "id": "d",
+          "text": "Floating on a log"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 14:25",
+            "text": "Now in the fourth watch of the night Jesus went to them, walking on the sea.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 14:25 says when Jesus went and how He went. Read the end of the verse.",
+          "child": "Read Matthew 14:25. It tells when Jesus went and how He went to them.",
+          "teen": "Check Matthew 14:25. It says when Jesus went and how He got there.",
+          "older": "The end of Matthew 14:25 states how Jesus went to His disciples."
+        },
+        "extended_explanation": "The disciples were in the boat and Jesus came to them in a way no one expected. The verse tells how He came.",
+        "takeaway": "Jesus went to His disciples walking on the sea."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mat-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 14",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Peter saw the strong wind, was afraid, and began to sink, what did he cry out?",
+        "child": "Peter was out on the water with Jesus when the strong wind scared him and he began to sink. What did he cry out?",
+        "teen": "Peter was out on the water with Jesus when the wind frightened him and he started to sink. What did he yell?",
+        "older": "According to Matthew 14:30, what did Peter cry out when he was afraid and began to sink?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Row the boat!"
+        },
+        {
+          "id": "b",
+          "text": "Where is the shore?"
+        },
+        {
+          "id": "c",
+          "text": "Lord, save me!"
+        },
+        {
+          "id": "d",
+          "text": "I can swim!"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 14:30",
+            "text": "But when he saw that the wind was boisterous, he was afraid; and beginning to sink he cried out, saying, “Lord, save me!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 14:30 records Peter's words in quotation marks. Read the end of the verse.",
+          "child": "Read Matthew 14:30. The words Peter said are inside the quotation marks.",
+          "teen": "Check Matthew 14:30. Peter's words are inside the quotation marks.",
+          "older": "Matthew 14:30 records Peter's cry within quotation marks at the end of the verse."
+        },
+        "extended_explanation": "Peter was afraid, and he spoke to Jesus right away. The verse gives his exact words.",
+        "takeaway": "Peter cried out, \"Lord, save me!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mat-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 28",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus met the women on their way, what did they do?",
+        "child": "The women ran to tell the disciples, and Jesus met them. What did the women do when they saw Him?",
+        "teen": "The women were on their way to tell the disciples when Jesus met them. What did they do?",
+        "older": "According to Matthew 28:9, what did the women do when Jesus met them on the way?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They worshiped Him"
+        },
+        {
+          "id": "b",
+          "text": "They went home and ate dinner"
+        },
+        {
+          "id": "c",
+          "text": "They hid in the tomb"
+        },
+        {
+          "id": "d",
+          "text": "They asked Him to leave"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 28:9",
+            "text": "And as they went to tell His disciples, behold, Jesus met them, saying, “Rejoice!” So they came and held Him by the feet and worshiped Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 28:9 tells what Jesus said and how the women responded. Read the last sentence.",
+          "child": "Read Matthew 28:9. It tells what Jesus said and what the women did.",
+          "teen": "Check Matthew 28:9. It tells what Jesus said and how the women responded.",
+          "older": "The last sentence of Matthew 28:9 states how the women responded to Jesus."
+        },
+        "extended_explanation": "The women were surprised, and so was the moment. The verse tells what they did when they reached Him.",
+        "takeaway": "The women held Jesus by the feet and worshiped Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}
