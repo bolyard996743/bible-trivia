@@ -2,6 +2,8 @@
 
 import type { ReactNode } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { AccountSync } from "@/components/AccountSync";
 import { AgeGate } from "@/components/AgeGate";
 import { BirthDatePrompt } from "@/components/BirthDatePrompt";
 import { MainNav } from "@/components/MainNav";
@@ -14,6 +16,12 @@ import { useProfile } from "@/lib/use-profile";
 import { savePlayerState } from "@/lib/account/repository";
 
 export function Shell({ children }: { children: ReactNode }) {
+  const pathname = usePathname();
+  if (pathname.startsWith("/mockup")) return children;
+  return <AppShell>{children}</AppShell>;
+}
+
+function AppShell({ children }: { children: ReactNode }) {
   const { state, ready } = useProfile();
   const gate = useAgeGate();
 
@@ -24,6 +32,7 @@ export function Shell({ children }: { children: ReactNode }) {
 
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col px-4 py-4 sm:px-6">
+      <AccountSync />
       <ThemeSync />
       <header className="mb-6 flex flex-nowrap items-center justify-between gap-3">
         <Link href={state?.placementComplete ? "/home" : "/"} className="inline-flex min-w-0 items-center">

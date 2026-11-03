@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import { AccountSync } from "@/components/AccountSync";
 import { RegisterSW } from "@/components/RegisterSW";
 import { Shell } from "@/components/Shell";
 import { siteOrigin } from "@/lib/site-url";
@@ -42,7 +41,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body>
         <RegisterSW />
-        <AccountSync />
         <Shell>{children}</Shell>
       </body>
     </html>
