@@ -4,19 +4,18 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 115 questions.
+The bank has 112 questions.
 
 ## Seed
 
 No Bible knowledge, about age 6. Big stories. All easy.
 
-Questions now: 80. Books: 8. Target pool: about 36 questions.
+Questions now: 78. Books: 8. Target pool: about 36 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
 | David and Goliath | 1 Samuel | 1 Samuel 16 | foundation | 2 |
 | David and Goliath | 1 Samuel | 1 Samuel 17 | foundation | 7 |
-| Moses | Exodus | Exodus 1-15 | foundation | 1 |
 | Moses | Exodus | Exodus 14 | foundation | 1 |
 | Moses | Exodus | Exodus 2 | foundation | 3 |
 | Moses | Exodus | Exodus 20 | foundation | 2 |
@@ -39,7 +38,6 @@ Questions now: 80. Books: 8. Target pool: about 36 questions.
 | Jonah | Jonah | Jonah 2 | foundation | 2 |
 | Jonah | Jonah | Jonah 3 | foundation | 1 |
 | Jonah | Jonah | Jonah 4 | foundation | 1 |
-| Jesus' Birth | Luke | Luke 1-2 | foundation | 1 |
 | Jesus' Birth | Luke | Luke 2 | foundation | 5 |
 | Cross and Resurrection | Luke | Luke 23 | foundation | 1 |
 | Cross and Resurrection | Luke | Luke 24 | foundation | 2 |
@@ -54,7 +52,7 @@ Questions now: 80. Books: 8. Target pool: about 36 questions.
 
 Tier totals against the mix:
 
-- foundation: 80 now, about 36 wanted (100% of draws (easy)). Target met.
+- foundation: 78 now, about 36 wanted (100% of draws (easy)). Target met.
 
 Every curriculum topic for this stage has at least one question.
 
@@ -66,11 +64,10 @@ New questions to write:
 
 Considering baptism, about age 9–10. Mostly easy.
 
-Questions now: 5. Books: 5. Target pool: about 20 questions.
+Questions now: 4. Books: 4. Target pool: about 20 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
-| David and Goliath | 1 Samuel | 1 Samuel 17 | intermediate | 1 |
 | Daniel | Daniel | Daniel 6 | intermediate | 1 |
 | Moses | Exodus | Exodus 3-4 | intermediate | 1 |
 | Who Jesus Is | John | John 1 | intermediate | 1 |
@@ -79,7 +76,7 @@ Questions now: 5. Books: 5. Target pool: about 20 questions.
 Tier totals against the mix:
 
 - foundation: 0 now, about 16 wanted (80% of draws (easy)). About 16 more.
-- intermediate: 5 now, about 4 wanted (20% of draws (intermediate)). Target met.
+- intermediate: 4 now, about 4 wanted (20% of draws (intermediate)). Target met.
 
 Curriculum topics with no question yet: The Twelve Disciples, New Testament Books, Isaiah 53.
 

@@ -139,7 +139,7 @@ describe("ladder progress on an account", () => {
       clearedBooks: ["Genesis"],
       draw: 4,
       placementIds: ["c1-gen-0002"],
-      openAttempt: { questionId: "c1-exo-9001", missCount: 2, phase: "asking" },
+      openAttempt: { questionId: "c1-gen-0001", missCount: 2, phase: "asking" },
     });
     device.showDifficulty = true;
     await local.save(device);
@@ -161,7 +161,7 @@ describe("ladder progress on an account", () => {
     expect(loaded?.progress.clearedBooks).toEqual(["Genesis"]);
     expect(loaded?.progress.draw).toBe(4);
     expect(loaded?.progress.placementIds).toEqual(["c1-gen-0002"]);
-    expect(loaded?.progress.openAttempt).toEqual({ questionId: "c1-exo-9001", missCount: 2, phase: "asking" });
+    expect(loaded?.progress.openAttempt).toEqual({ questionId: "c1-gen-0001", missCount: 2, phase: "asking" });
     expect(loaded?.showDifficulty).toBe(true);
     expect(mergeLadderProgress(device.progress, remoteState.progress).missCounts).toEqual({});
   });
