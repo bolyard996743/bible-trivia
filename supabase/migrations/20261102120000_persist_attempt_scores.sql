@@ -14,6 +14,7 @@ language plpgsql
 security definer
 set search_path = ''
 as $$
+#variable_conflict use_column
 declare
   uid uuid := auth.uid();
   reported integer := greatest(coalesce(miss_count, 0), 0);
