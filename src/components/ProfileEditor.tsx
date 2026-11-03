@@ -8,6 +8,7 @@ import { mascotLineAudioSrc, pickMascotLine } from "@/lib/game";
 import { MASCOT_IDS, MASCOTS, type AgeGroup, type MascotId, type MascotLine } from "@/lib/game/types";
 import { showCreateAccountLink } from "@/lib/account/policy";
 import { applyTheme, themeForMascot } from "@/lib/theme";
+import { withGuide } from "@/lib/account/player-progress";
 import { savePlayerState } from "@/lib/account/repository";
 import { signOut } from "@/lib/account/supabase";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
@@ -65,9 +66,10 @@ export function ProfileEditor({
     event.preventDefault();
     if (!ageGroup || !mascot) return;
     if (ageGroup === "child") void signOut();
-    if (mode === "settings" && state) {
-      savePlayerState({ ...state, ageGroup, mascot, soundOn });
-      router.push(state.placementComplete ? "/home" : "/placement");
+    if (state) {
+      const next = withGuide(state, { ageGroup, mascot, soundOn });
+      savePlayerState(next);
+      router.push(next.placementComplete ? "/home" : "/placement");
       return;
     }
     const next = createState(ageGroup, mascot);

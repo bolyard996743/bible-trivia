@@ -1,6 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { stateWithBirthAge } from "@/lib/account/age-gate";
 import { mergeAccountProgress, mergeLadderProgress } from "@/lib/account/merge";
+import { withGuide } from "@/lib/account/player-progress";
+import { badgeEarned } from "@/lib/game/badges";
 import { canOfferAccount, showCreateAccountLink } from "@/lib/account/policy";
 import { createLocalPlayerRepository, createSyncingRepository, type PlayerRepository } from "@/lib/account/repository";
 import { createSupabasePlayerRepository, type AccountQuery } from "@/lib/account/supabase-db";
@@ -216,7 +218,7 @@ describe("player repository", () => {
               if (table === "verse_marks") return row.user_id === value.user_id && row.id === value.id;
               return row.user_id === value.user_id && row.question_id === value.question_id;
             });
-            if (index >= 0) list[index] = value;
+            if (index >= 0) list[index] = { ...list[index], ...value };
             else list.push(value);
             tables[table] = list;
           }
@@ -245,5 +247,89 @@ describe("player repository", () => {
     expect(JSON.stringify(tables.verse_marks)).not.toContain("loved the world");
     expect(tables.verse_marks[0]).not.toHaveProperty("verse_text");
     await expect(repo.save(state("child"))).rejects.toThrow(/Children cannot have accounts/);
+  });
+
+  it("reloads earned badges after a guide change without dropping points", async () => {
+    const tables: Record<string, Record<string, unknown>[]> = {
+      profiles: [],
+      question_progress: [],
+      verse_marks: [],
+    };
+    function from(table: string): AccountQuery {
+      const eqs: [string, string][] = [];
+      let deleting = false;
+      const matching = () =>
+        (tables[table] ?? []).filter((row) => eqs.every(([column, value]) => row[column] === value));
+      const api = {
+        select() {
+          return api;
+        },
+        delete() {
+          deleting = true;
+          return api;
+        },
+        eq(column: string, value: string) {
+          eqs.push([column, value]);
+          return api;
+        },
+        async maybeSingle() {
+          return { data: (matching()[0] as never) ?? null, error: null };
+        },
+        async upsert(values: unknown) {
+          const rows = Array.isArray(values) ? values : [values];
+          for (const value of rows as Record<string, unknown>[]) {
+            const list = tables[table] ?? [];
+            const index = list.findIndex((row) => {
+              if (table === "profiles") return row.user_id === value.user_id;
+              return row.user_id === value.user_id && row.question_id === value.question_id;
+            });
+            if (index >= 0) list[index] = { ...list[index], ...value };
+            else list.push(value);
+            tables[table] = list;
+          }
+          return { error: null };
+        },
+        then(onfulfilled: (value: { data: unknown; error: null }) => unknown) {
+          if (deleting) {
+            tables[table] = (tables[table] ?? []).filter(
+              (row) => !eqs.every(([column, value]) => row[column] === value),
+            );
+          }
+          return Promise.resolve({ data: matching(), error: null }).then(onfulfilled);
+        },
+      };
+      return api as AccountQuery;
+    }
+    const repo = createSupabasePlayerRepository({ from }, "user-1");
+    const badge = { id: "seed-creation", name: "Creation", art: "creation", questionIds: ["q1", "q2"] };
+    const saved = state("adult", {
+      stage: "Sprout",
+      masteredIds: ["q1", "q2"],
+      missCounts: {},
+      firstTryIds: [],
+      points: 4,
+    });
+    saved.placement = { cycle: 1, tier: "foundation", earned: 8, possible: 13, stage: "Sprout" };
+    await repo.save(saved);
+    tables.profiles[0]!.points = 117;
+    tables.question_progress.push(
+      { user_id: "user-1", question_id: "q2", miss_count: 0, mastered: true, first_try_correct: null, mascot: "agnes" },
+      { user_id: "user-1", question_id: "from-hunter", miss_count: 1, mastered: true, first_try_correct: true, mascot: "hunter" },
+    );
+    const loaded = await repo.load();
+    expect(loaded?.progress.points).toBe(117);
+    expect(loaded?.progress.stage).toBe("Sprout");
+    expect(badgeEarned(loaded!.progress, badge)).toBe(true);
+    expect(loaded?.progress.firstTryIds).toContain("from-hunter");
+    const switched = withGuide(loaded!, { ageGroup: "adult", mascot: "shalom", soundOn: false });
+    await repo.save(switched);
+    const again = await repo.load();
+    expect(again?.mascot).toBe("shalom");
+    expect(again?.progress.points).toBe(117);
+    expect(again?.progress.stage).toBe("Sprout");
+    expect(again?.placement?.stage).toBe("Sprout");
+    expect(badgeEarned(again!.progress, badge)).toBe(true);
+    expect(again?.progress.firstTryIds).toEqual(expect.arrayContaining(["q1", "q2", "from-hunter"]));
+    expect(tables.question_progress.every((row) => row.mascot == null || row.question_id === "q2" || row.question_id === "from-hunter")).toBe(true);
   });
 });

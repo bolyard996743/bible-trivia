@@ -1,5 +1,6 @@
 import type { VerseMark } from "../bible/marks";
 import { normalizeHighlightColor, type HighlightColor } from "../bible/marks";
+import { earnedFirstTryIds } from "../game/badges";
 import { emptyProgress } from "../game/progression";
 import { KNOWLEDGE_PATH, MASCOT_IDS, TIERS, type GameProgress, type KnowledgeStage, type MascotId, type Tier } from "../game/types";
 import type { StoredState } from "../storage";
@@ -33,6 +34,10 @@ export type QuestionRow = {
   question_id: string;
   miss_count: number;
   mastered: boolean;
+  /** Null when this row was saved before badges were stored. */
+  first_try_correct?: boolean | null;
+  /** Ignored. Older rows may carry it. Badges are not filtered by guide. */
+  mascot?: string | null;
 };
 
 export type VerseMarkRow = {
@@ -95,21 +100,59 @@ function birthParts(value: string): CalendarDate | null {
   return { year: Number(match[1]), month: Number(match[2]), day: Number(match[3]) };
 }
 
+function rowCountsAsFirstTry(row: QuestionRow): boolean | null {
+  if (row.first_try_correct === true) return true;
+  if (row.first_try_correct == null && row.mastered && row.miss_count === 0) return true;
+  if (row.first_try_correct === false) return false;
+  return null;
+}
+
+/** One row per question. A first try from any guide wins. */
+export function foldQuestionRows(rows: QuestionRow[]): QuestionRow[] {
+  const byId = new Map<string, QuestionRow>();
+  for (const row of rows) {
+    const prior = byId.get(row.question_id);
+    if (!prior) {
+      byId.set(row.question_id, { ...row });
+      continue;
+    }
+    const marks = [rowCountsAsFirstTry(prior), rowCountsAsFirstTry(row)];
+    const firstTry = marks.includes(true) ? true : marks.includes(false) ? false : null;
+    byId.set(row.question_id, {
+      ...prior,
+      miss_count: Math.max(prior.miss_count ?? 0, row.miss_count ?? 0),
+      mastered: prior.mastered || row.mastered,
+      first_try_correct: firstTry,
+    });
+  }
+  return [...byId.values()];
+}
+
+export function firstTryIdsFromRows(rows: QuestionRow[]): string[] {
+  const ids: string[] = [];
+  for (const row of rows) {
+    if (rowCountsAsFirstTry(row) === true) ids.push(row.question_id);
+  }
+  return ids;
+}
+
 export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredState | null {
   const derived = row.birth_date ? birthParts(row.birth_date) : null;
   const derivedGroup = derived ? ageGroupFromBirthDate(derived) : null;
   if (derivedGroup === "child") return null;
   const ageGroup = derivedGroup ?? row.age_group;
   if (!isAccountAge(ageGroup) || !isMascot(row.mascot) || !isTier(row.tier)) return null;
-  const masteredIds = questions.filter((question) => question.mastered).map((question) => question.question_id);
+  const folded = foldQuestionRows(questions);
+  const masteredIds = folded.filter((question) => question.mastered).map((question) => question.question_id);
   const missCounts: Record<string, number> = {};
-  for (const question of questions) {
+  for (const question of folded) {
     if (question.miss_count > 0) missCounts[question.question_id] = question.miss_count;
   }
   const progress: GameProgress = {
     ...emptyProgress(row.cycle, row.tier),
     masteredIds,
     missCounts,
+    firstTryIds: firstTryIdsFromRows(folded),
     streak: row.streak,
     bestStreak: row.best_streak,
     seasonMasteredCount: row.season_mastered_count,
@@ -141,12 +184,14 @@ export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredSta
 }
 
 export function questionsToRows(userId: string, progress: GameProgress): QuestionRow[] {
-  const ids = new Set([...progress.masteredIds, ...Object.keys(progress.missCounts ?? {})]);
+  const tries = new Set(earnedFirstTryIds(progress));
+  const ids = new Set([...progress.masteredIds, ...Object.keys(progress.missCounts ?? {}), ...tries]);
   return [...ids].map((questionId) => ({
     user_id: userId,
     question_id: questionId,
     miss_count: progress.missCounts?.[questionId] ?? 0,
     mastered: progress.masteredIds.includes(questionId),
+    first_try_correct: tries.has(questionId),
   }));
 }
 
