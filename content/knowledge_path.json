@@ -1,0 +1,1236 @@
+{
+  "version": 1,
+  "advanceRule": "every-badge",
+  "stages": [
+    {
+      "stage": "Seed",
+      "books": [
+        "Genesis",
+        "Exodus",
+        "1 Samuel",
+        "Jonah",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John"
+      ],
+      "badges": [
+        {
+          "id": "seed-creation",
+          "name": "Creation",
+          "art": "creation",
+          "questionIds": [
+            "c1-gen-0001"
+          ]
+        },
+        {
+          "id": "seed-noah",
+          "name": "Noah",
+          "art": "noah",
+          "questionIds": [
+            "c1-gen-0002"
+          ]
+        },
+        {
+          "id": "seed-moses",
+          "name": "Moses",
+          "art": "moses",
+          "questionIds": [
+            "c1-exo-9001",
+            "c1-exo-0001"
+          ]
+        },
+        {
+          "id": "seed-david",
+          "name": "David and Goliath",
+          "art": "david-goliath",
+          "questionIds": [
+            "c1-1sa-0001",
+            "c1-1sa-9001"
+          ]
+        },
+        {
+          "id": "seed-jonah",
+          "name": "Jonah",
+          "art": "jonah",
+          "questionIds": [
+            "c2-jon-0001"
+          ]
+        },
+        {
+          "id": "seed-birth",
+          "name": "Jesus' Birth",
+          "art": "jesus-birth",
+          "questionIds": [
+            "c1-luk-9001",
+            "c1-luk-0001"
+          ]
+        },
+        {
+          "id": "seed-miracles",
+          "name": "Miracles",
+          "art": "miracles",
+          "questionIds": [
+            "c1-mat-0001"
+          ]
+        },
+        {
+          "id": "seed-cross",
+          "name": "Cross and Resurrection",
+          "art": "cross-resurrection",
+          "questionIds": []
+        },
+        {
+          "id": "seed-john-316",
+          "name": "John 3:16-17",
+          "art": "john-3-16-17",
+          "questionIds": [
+            "c1-jhn-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "Sprout",
+      "books": [
+        "Genesis",
+        "Exodus",
+        "1 Samuel",
+        "Psalms",
+        "Proverbs",
+        "Daniel",
+        "Jonah",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "Ephesians",
+        "Philippians"
+      ],
+      "badges": [
+        {
+          "id": "sprout-baptism",
+          "name": "Jesus' Baptism",
+          "art": "dove",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-disciples",
+          "name": "Jesus Chooses the Disciples",
+          "art": "net",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-parables",
+          "name": "Parables of Jesus",
+          "art": "sheep",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-sermon",
+          "name": "Sermon on the Mount",
+          "art": "mountain",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-loves",
+          "name": "Jesus Loves Everyone",
+          "art": "tree",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-supper",
+          "name": "The Last Supper",
+          "art": "cup",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-pentecost",
+          "name": "Pentecost and the Early Church",
+          "art": "pentecost",
+          "questionIds": [
+            "c1-act-0001"
+          ]
+        },
+        {
+          "id": "sprout-peter",
+          "name": "Peter's Miracles",
+          "art": "door",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-saul",
+          "name": "Saul Becomes Paul",
+          "art": "road",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-good-news",
+          "name": "Good News Verses",
+          "art": "key",
+          "questionIds": [
+            "c1-rom-0001"
+          ]
+        },
+        {
+          "id": "sprout-grace",
+          "name": "Grace and Strength Verses",
+          "art": "armor-of-god",
+          "questionIds": [
+            "c3-eph-0001"
+          ]
+        },
+        {
+          "id": "sprout-psalms",
+          "name": "Psalms of Praise and Trust",
+          "art": "lamp",
+          "questionIds": [
+            "c3-psa-0001"
+          ]
+        },
+        {
+          "id": "sprout-proverbs",
+          "name": "Proverbs for Growing Up",
+          "art": "owl",
+          "questionIds": []
+        },
+        {
+          "id": "sprout-daniel",
+          "name": "Daniel and the Lions",
+          "art": "daniel",
+          "questionIds": [
+            "c1-dan-0001"
+          ]
+        },
+        {
+          "id": "sprout-books",
+          "name": "Books of the Bible",
+          "art": "books",
+          "questionIds": []
+        }
+      ]
+    },
+    {
+      "stage": "Rooted",
+      "books": [
+        "Genesis",
+        "Exodus",
+        "Joshua",
+        "Judges",
+        "Ruth",
+        "1 Samuel",
+        "2 Samuel",
+        "1 Kings",
+        "Esther",
+        "Psalms",
+        "Proverbs",
+        "Daniel",
+        "Jonah",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "James"
+      ],
+      "badges": [
+        {
+          "id": "rooted-eden",
+          "name": "Eden and the Fall",
+          "art": "apple",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-abraham",
+          "name": "Abraham's Journey",
+          "art": "tent",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-joseph",
+          "name": "Joseph",
+          "art": "joseph",
+          "questionIds": [
+            "c1-gen-0004",
+            "c1-gen-0007",
+            "c1-gen-0009",
+            "c1-gen-0019",
+            "c1-gen-0003",
+            "c1-gen-0005",
+            "c1-gen-0008",
+            "c1-gen-0012",
+            "c1-gen-0017"
+          ]
+        },
+        {
+          "id": "rooted-passover",
+          "name": "Passover and the Plagues",
+          "art": "door",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-joshua",
+          "name": "Joshua and Jericho",
+          "art": "trumpet",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-gideon",
+          "name": "Gideon",
+          "art": "jar",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-samson",
+          "name": "Samson",
+          "art": "pillars",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-ruth",
+          "name": "Ruth and Naomi",
+          "art": "ruth",
+          "questionIds": [
+            "c1-rut-0001"
+          ]
+        },
+        {
+          "id": "rooted-david-king",
+          "name": "David the King",
+          "art": "crown",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-solomon",
+          "name": "Solomon's Wisdom and Temple",
+          "art": "temple",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-elijah",
+          "name": "Elijah",
+          "art": "raven",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-esther",
+          "name": "Queen Esther",
+          "art": "scepter",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-baptism",
+          "name": "Baptism: Buried and Raised",
+          "art": "wave",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-love",
+          "name": "Love and the Body of Christ",
+          "art": "people",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-fruit",
+          "name": "Fruit of the Spirit",
+          "art": "fruit-of-spirit",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-james",
+          "name": "James: Faith in Action",
+          "art": "hands",
+          "questionIds": []
+        },
+        {
+          "id": "rooted-i-am",
+          "name": "The 'I Am' Sayings",
+          "art": "door",
+          "questionIds": []
+        }
+      ]
+    },
+    {
+      "stage": "Growing",
+      "books": [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Numbers",
+        "Deuteronomy",
+        "Joshua",
+        "Judges",
+        "Ruth",
+        "1 Samuel",
+        "2 Samuel",
+        "1 Kings",
+        "2 Kings",
+        "Esther",
+        "Job",
+        "Psalms",
+        "Proverbs",
+        "Isaiah",
+        "Daniel",
+        "Jonah",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Hebrews",
+        "James",
+        "Revelation"
+      ],
+      "badges": [
+        {
+          "id": "growing-cain",
+          "name": "Beginnings: Cain, Abel and Babel",
+          "art": "tower",
+          "questionIds": []
+        },
+        {
+          "id": "growing-jacob",
+          "name": "Jacob: Ladder and Wrestling",
+          "art": "ladder",
+          "questionIds": []
+        },
+        {
+          "id": "growing-tabernacle",
+          "name": "The Tabernacle",
+          "art": "tent",
+          "questionIds": []
+        },
+        {
+          "id": "growing-holy",
+          "name": "Holy Living and Atonement",
+          "art": "goats",
+          "questionIds": []
+        },
+        {
+          "id": "growing-wilderness",
+          "name": "Wilderness Wanderings",
+          "art": "grapes",
+          "questionIds": [
+            "c2-num-0001"
+          ]
+        },
+        {
+          "id": "growing-shema",
+          "name": "Hear, O Israel",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "growing-elisha",
+          "name": "Elisha",
+          "art": "cloak",
+          "questionIds": []
+        },
+        {
+          "id": "growing-kingdom",
+          "name": "The Kingdom Divides",
+          "art": "crown",
+          "questionIds": []
+        },
+        {
+          "id": "growing-job",
+          "name": "Job",
+          "art": "storm",
+          "questionIds": []
+        },
+        {
+          "id": "growing-isaiah-call",
+          "name": "Isaiah: Call and Comfort",
+          "art": "coal",
+          "questionIds": []
+        },
+        {
+          "id": "growing-isaiah-king",
+          "name": "Isaiah: The Coming King",
+          "art": "isaiah-53-6",
+          "questionIds": [
+            "c1-isa-0001"
+          ]
+        },
+        {
+          "id": "growing-parables",
+          "name": "Parables of the Kingdom",
+          "art": "seed",
+          "questionIds": []
+        },
+        {
+          "id": "growing-holy-week",
+          "name": "Holy Week Day by Day",
+          "art": "palm",
+          "questionIds": []
+        },
+        {
+          "id": "growing-after",
+          "name": "After the Resurrection",
+          "art": "footprints",
+          "questionIds": []
+        },
+        {
+          "id": "growing-paul",
+          "name": "Paul's Missionary Journeys",
+          "art": "ship",
+          "questionIds": []
+        },
+        {
+          "id": "growing-hebrews",
+          "name": "Hebrews: The Faith Hall",
+          "art": "cloud",
+          "questionIds": []
+        },
+        {
+          "id": "growing-rev-letters",
+          "name": "Revelation: Letters to Seven Churches",
+          "art": "lampstand",
+          "questionIds": [
+            "c3-rev-0001"
+          ]
+        },
+        {
+          "id": "growing-rev-throne",
+          "name": "Revelation: The Throne and the Lamb",
+          "art": "revelation",
+          "questionIds": [
+            "c2-rev-0001"
+          ]
+        },
+        {
+          "id": "growing-rev-new",
+          "name": "Revelation: New Heaven and New Earth",
+          "art": "city",
+          "questionIds": []
+        }
+      ]
+    },
+    {
+      "stage": "Established",
+      "books": [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Numbers",
+        "Deuteronomy",
+        "Joshua",
+        "Judges",
+        "Ruth",
+        "1 Samuel",
+        "2 Samuel",
+        "1 Kings",
+        "2 Kings",
+        "Ezra",
+        "Nehemiah",
+        "Esther",
+        "Job",
+        "Psalms",
+        "Proverbs",
+        "Isaiah",
+        "Jeremiah",
+        "Ezekiel",
+        "Daniel",
+        "Jonah",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "2 Timothy",
+        "Hebrews",
+        "James",
+        "1 Peter",
+        "1 John",
+        "Revelation"
+      ],
+      "badges": [
+        {
+          "id": "established-isaac",
+          "name": "Isaac, Rebekah and the Covenant Line",
+          "art": "well",
+          "questionIds": []
+        },
+        {
+          "id": "established-calf",
+          "name": "The Golden Calf and the Covenant Renewed",
+          "art": "calf",
+          "questionIds": []
+        },
+        {
+          "id": "established-stones",
+          "name": "Twelve Stones at the Jordan",
+          "art": "stones",
+          "questionIds": []
+        },
+        {
+          "id": "established-samuel",
+          "name": "Samuel: From Hannah to Prophet",
+          "art": "robe",
+          "questionIds": []
+        },
+        {
+          "id": "established-saul",
+          "name": "Saul: Rise and Fall",
+          "art": "spear",
+          "questionIds": []
+        },
+        {
+          "id": "established-david-run",
+          "name": "David on the Run",
+          "art": "cave",
+          "questionIds": []
+        },
+        {
+          "id": "established-ezra",
+          "name": "Ezra: Return and Rebuild",
+          "art": "bricks",
+          "questionIds": []
+        },
+        {
+          "id": "established-nehemiah",
+          "name": "Nehemiah: Rebuilding the Wall",
+          "art": "wall",
+          "questionIds": []
+        },
+        {
+          "id": "established-psalms",
+          "name": "Psalms of Repentance and Refuge",
+          "art": "hyssop",
+          "questionIds": []
+        },
+        {
+          "id": "established-wisdom",
+          "name": "Wisdom and Folly",
+          "art": "doors",
+          "questionIds": [
+            "c3-pro-0001"
+          ]
+        },
+        {
+          "id": "established-daniel",
+          "name": "Daniel in Babylon: Dreams and Handwriting",
+          "art": "writing",
+          "questionIds": []
+        },
+        {
+          "id": "established-jeremiah",
+          "name": "Jeremiah: The Weeping Prophet",
+          "art": "potter",
+          "questionIds": []
+        },
+        {
+          "id": "established-ezekiel",
+          "name": "Ezekiel: Visions and Dry Bones",
+          "art": "bones",
+          "questionIds": []
+        },
+        {
+          "id": "established-before",
+          "name": "Before Bethlehem",
+          "art": "lilies",
+          "questionIds": []
+        },
+        {
+          "id": "established-confession",
+          "name": "Peter's Confession and the Transfiguration",
+          "art": "mountain",
+          "questionIds": []
+        },
+        {
+          "id": "established-upper",
+          "name": "The Upper Room",
+          "art": "basin",
+          "questionIds": []
+        },
+        {
+          "id": "established-church",
+          "name": "The Church Expands",
+          "art": "early-church",
+          "questionIds": [
+            "c2-act-0001"
+          ]
+        },
+        {
+          "id": "established-romans",
+          "name": "Romans 8: Life in the Spirit",
+          "art": "wind",
+          "questionIds": []
+        },
+        {
+          "id": "established-weakness",
+          "name": "2 Corinthians: Strength in Weakness",
+          "art": "jar",
+          "questionIds": []
+        },
+        {
+          "id": "established-race",
+          "name": "2 Timothy: Finish the Race",
+          "art": "ribbon",
+          "questionIds": []
+        },
+        {
+          "id": "established-hope",
+          "name": "1 Peter: Living Hope",
+          "art": "anchor",
+          "questionIds": []
+        },
+        {
+          "id": "established-love",
+          "name": "1 John: God Is Love",
+          "art": "candle",
+          "questionIds": []
+        }
+      ]
+    },
+    {
+      "stage": "Fruitful",
+      "books": [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Numbers",
+        "Deuteronomy",
+        "Joshua",
+        "Judges",
+        "Ruth",
+        "1 Samuel",
+        "2 Samuel",
+        "1 Kings",
+        "2 Kings",
+        "1 Chronicles",
+        "2 Chronicles",
+        "Ezra",
+        "Nehemiah",
+        "Esther",
+        "Job",
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Song of Solomon",
+        "Isaiah",
+        "Jeremiah",
+        "Lamentations",
+        "Ezekiel",
+        "Daniel",
+        "Hosea",
+        "Joel",
+        "Amos",
+        "Jonah",
+        "Micah",
+        "Habakkuk",
+        "Haggai",
+        "Zechariah",
+        "Malachi",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Colossians",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "1 Timothy",
+        "2 Timothy",
+        "Titus",
+        "Hebrews",
+        "James",
+        "1 Peter",
+        "2 Peter",
+        "1 John",
+        "Jude",
+        "Revelation"
+      ],
+      "badges": [
+        {
+          "id": "fruitful-genesis",
+          "name": "Genesis Connections: Origins to Joseph",
+          "art": "chain",
+          "questionIds": [
+            "c1-gen-0010",
+            "c1-gen-0013",
+            "c1-gen-0015",
+            "c1-gen-0016",
+            "c1-gen-0006",
+            "c1-gen-0011",
+            "c1-gen-0014",
+            "c1-gen-0018"
+          ]
+        },
+        {
+          "id": "fruitful-sinai",
+          "name": "The Law at Sinai",
+          "art": "ten-commandments",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-1chr",
+          "name": "1 Chronicles: David's Heart for the Temple",
+          "art": "blueprint",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-2chr",
+          "name": "2 Chronicles: Prayer and Revival",
+          "art": "hands",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-josiah",
+          "name": "Josiah and the Book of the Law",
+          "art": "scroll",
+          "questionIds": [
+            "c2-2ch-0001"
+          ]
+        },
+        {
+          "id": "fruitful-ecclesiastes",
+          "name": "Ecclesiastes: Under the Sun",
+          "art": "hourglass",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-song",
+          "name": "Song of Solomon: Love Is Strong",
+          "art": "lily",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-lamentations",
+          "name": "Lamentations: Great Is Your Faithfulness",
+          "art": "teardrop",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-hosea",
+          "name": "Hosea: Faithful Love",
+          "art": "ring",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-joel",
+          "name": "Joel: The Spirit Poured Out",
+          "art": "locust",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-amos",
+          "name": "Amos: Let Justice Roll",
+          "art": "plumb",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-micah",
+          "name": "Micah: What Does the LORD Require?",
+          "art": "scales",
+          "questionIds": [
+            "c2-mic-0001"
+          ]
+        },
+        {
+          "id": "fruitful-habakkuk",
+          "name": "Habakkuk: Living by Faith",
+          "art": "tower",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-haggai",
+          "name": "Haggai: Build the House",
+          "art": "hammer",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-zechariah",
+          "name": "Zechariah: Visions and the Humble King",
+          "art": "donkey",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-malachi",
+          "name": "Malachi: The Messenger",
+          "art": "sunrise",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-isaiah",
+          "name": "Isaiah: Woe and Hope for the Nations",
+          "art": "vine",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-jeremiah",
+          "name": "Jeremiah: The New Covenant and Jerusalem's Fall",
+          "art": "heart",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-ezekiel",
+          "name": "Ezekiel: Glory Departs and Returns",
+          "art": "wheel",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-daniel",
+          "name": "Daniel 7-12: Beasts and Prophecy",
+          "art": "beasts",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-matthew",
+          "name": "Matthew: Prophecy Fulfilled",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-luke",
+          "name": "Luke: Parables Only Luke Tells",
+          "art": "coin",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-john",
+          "name": "John: Seven Signs",
+          "art": "jar",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-acts",
+          "name": "Acts: Paul on Trial and Voyage to Rome",
+          "art": "ship",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-romans",
+          "name": "Romans 9-11: Israel and the Nations",
+          "art": "olive",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-resurrection",
+          "name": "1 Corinthians 15: The Resurrection",
+          "art": "seed",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-hebrews",
+          "name": "Hebrews: A Better Covenant",
+          "art": "breastplate",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-seals",
+          "name": "Revelation: Seals and Trumpets",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-colossians",
+          "name": "Colossians: Christ Is Supreme",
+          "art": "throne",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-1thess",
+          "name": "1 Thessalonians: Hope and His Coming",
+          "art": "trumpet",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-2thess",
+          "name": "2 Thessalonians: Stand Firm",
+          "art": "rock",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-1tim",
+          "name": "1 Timothy: Order in the Church",
+          "art": "temple",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-titus",
+          "name": "Titus: Good Works",
+          "art": "tools",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-2peter",
+          "name": "2 Peter: Grow and Watch",
+          "art": "ladder",
+          "questionIds": []
+        },
+        {
+          "id": "fruitful-jude",
+          "name": "Jude: Contend for the Faith",
+          "art": "banner",
+          "questionIds": []
+        }
+      ]
+    },
+    {
+      "stage": "Deep Roots",
+      "books": [
+        "Genesis",
+        "Exodus",
+        "Leviticus",
+        "Numbers",
+        "Deuteronomy",
+        "Joshua",
+        "Judges",
+        "Ruth",
+        "1 Samuel",
+        "2 Samuel",
+        "1 Kings",
+        "2 Kings",
+        "1 Chronicles",
+        "2 Chronicles",
+        "Ezra",
+        "Nehemiah",
+        "Esther",
+        "Job",
+        "Psalms",
+        "Proverbs",
+        "Ecclesiastes",
+        "Song of Solomon",
+        "Isaiah",
+        "Jeremiah",
+        "Lamentations",
+        "Ezekiel",
+        "Daniel",
+        "Hosea",
+        "Joel",
+        "Amos",
+        "Obadiah",
+        "Jonah",
+        "Micah",
+        "Nahum",
+        "Habakkuk",
+        "Zephaniah",
+        "Haggai",
+        "Zechariah",
+        "Malachi",
+        "Matthew",
+        "Mark",
+        "Luke",
+        "John",
+        "Acts",
+        "Romans",
+        "1 Corinthians",
+        "2 Corinthians",
+        "Galatians",
+        "Ephesians",
+        "Philippians",
+        "Colossians",
+        "1 Thessalonians",
+        "2 Thessalonians",
+        "1 Timothy",
+        "2 Timothy",
+        "Titus",
+        "Philemon",
+        "Hebrews",
+        "James",
+        "1 Peter",
+        "2 Peter",
+        "1 John",
+        "2 John",
+        "3 John",
+        "Jude",
+        "Revelation"
+      ],
+      "badges": [
+        {
+          "id": "deep-obadiah",
+          "name": "Obadiah: Edom's Fall",
+          "art": "fortress",
+          "questionIds": []
+        },
+        {
+          "id": "deep-nahum",
+          "name": "Nahum: Nineveh's Doom",
+          "art": "gate",
+          "questionIds": []
+        },
+        {
+          "id": "deep-zephaniah",
+          "name": "Zephaniah: Rejoicing Over You",
+          "art": "bird",
+          "questionIds": []
+        },
+        {
+          "id": "deep-philemon",
+          "name": "Philemon: A Brother, Not a Slave",
+          "art": "letter",
+          "questionIds": []
+        },
+        {
+          "id": "deep-2john",
+          "name": "2 John: Truth and Love",
+          "art": "ring",
+          "questionIds": []
+        },
+        {
+          "id": "deep-3john",
+          "name": "3 John: Walking in the Truth",
+          "art": "sandals",
+          "questionIds": []
+        },
+        {
+          "id": "deep-covenants",
+          "name": "Covenants Across Scripture",
+          "art": "rainbow",
+          "questionIds": []
+        },
+        {
+          "id": "deep-law",
+          "name": "Christ in the Law",
+          "art": "lamb",
+          "questionIds": []
+        },
+        {
+          "id": "deep-messianic",
+          "name": "Messianic Prophecy and Fulfillment",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-wisdom",
+          "name": "Wisdom Books Compared",
+          "art": "wisdom-books",
+          "questionIds": []
+        },
+        {
+          "id": "deep-twelve",
+          "name": "The Twelve Minor Prophets: Order and Setting",
+          "art": "scrolls",
+          "questionIds": []
+        },
+        {
+          "id": "deep-kings",
+          "name": "Kings of Israel and Judah in Order",
+          "art": "crown",
+          "questionIds": []
+        },
+        {
+          "id": "deep-exile",
+          "name": "Exile and Return Timeline",
+          "art": "road",
+          "questionIds": []
+        },
+        {
+          "id": "deep-judges",
+          "name": "Judges: The Cycle of Sin and Deliverance",
+          "art": "arrows",
+          "questionIds": []
+        },
+        {
+          "id": "deep-deuteronomy",
+          "name": "Deuteronomy: Blessings and Curses",
+          "art": "mountains",
+          "questionIds": []
+        },
+        {
+          "id": "deep-leviticus",
+          "name": "Leviticus: Offerings and Priesthood",
+          "art": "censer",
+          "questionIds": []
+        },
+        {
+          "id": "deep-numbers",
+          "name": "Numbers: Census, Rebellion and Balaam",
+          "art": "banners",
+          "questionIds": []
+        },
+        {
+          "id": "deep-job",
+          "name": "Job: Suffering and Sovereignty",
+          "art": "storm",
+          "questionIds": []
+        },
+        {
+          "id": "deep-psalms",
+          "name": "Messianic Psalms",
+          "art": "crown",
+          "questionIds": []
+        },
+        {
+          "id": "deep-letters",
+          "name": "Paul's Letters: Setting and Order",
+          "art": "letter",
+          "questionIds": []
+        },
+        {
+          "id": "deep-ephesians",
+          "name": "Ephesians: In Christ",
+          "art": "circles",
+          "questionIds": []
+        },
+        {
+          "id": "deep-philippians",
+          "name": "Philippians: The Mind of Christ",
+          "art": "basin",
+          "questionIds": []
+        },
+        {
+          "id": "deep-atonement",
+          "name": "Atonement and Justification",
+          "art": "scales",
+          "questionIds": []
+        },
+        {
+          "id": "deep-trinity",
+          "name": "The Person of Christ and the Trinity",
+          "art": "circles",
+          "questionIds": []
+        },
+        {
+          "id": "deep-general",
+          "name": "General Letters: James to Jude",
+          "art": "letter",
+          "questionIds": []
+        },
+        {
+          "id": "deep-gospels",
+          "name": "Gospel Harmony: Four Portraits",
+          "art": "panels",
+          "questionIds": []
+        },
+        {
+          "id": "deep-imagery",
+          "name": "Revelation and Old Testament Imagery",
+          "art": "scroll",
+          "questionIds": []
+        },
+        {
+          "id": "deep-victory",
+          "name": "Revelation: Dragon, Beast and Victory",
+          "art": "horse",
+          "questionIds": []
+        }
+      ]
+    }
+  ]
+}

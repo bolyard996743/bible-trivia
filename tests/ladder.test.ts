@@ -94,12 +94,12 @@ describe("curriculum ladder", () => {
     expect(second?.question.id).toBe("exo");
   });
 
-  it("does not block a topic or book that has no content", () => {
+  it("does not open the next stage while empty badges remain", () => {
     const questions = [sample("create", "foundation", "Seed", ["creation"])];
-    const progress = recordClear(emptyProgress(), questions[0]!, true);
-    const status = gateStatus(questions, { ...progress, clearedBooks: ["Genesis", "Luke"] });
-    expect(status.ready).toBe(true);
-    expect(status.required).toBeLessThan(9);
+    const progress = recordClear({ ...emptyProgress(), stage: "Seed" }, questions[0]!, true);
+    const status = gateStatus(questions, progress);
+    expect(status.ready).toBe(false);
+    expect(status.required).toBe(9);
   });
 
   it("opens Seed on the creation question from the live catalog", () => {
@@ -158,7 +158,7 @@ describe("curriculum ladder", () => {
     expect(again?.question.id).not.toBe("placed");
   });
 
-  it("does not count a book with no content as cleared", () => {
+  it("does not treat a cleared book name as a finished stage", () => {
     const questions = [
       sample("gen", "foundation", "Growing", ["roman-road"], "Genesis"),
       sample("exo", "foundation", "Growing", ["roman-road"], "Exodus"),
@@ -171,8 +171,7 @@ describe("curriculum ladder", () => {
       masteredIds: ["gen"],
       clearedBooks: ["Genesis", "Obadiah", "Jude"],
     });
-    expect(status.cleared).toBe(1);
-    expect(status.required).toBe(3);
+    expect(status.required).toBe(19);
     expect(status.ready).toBe(false);
   });
 
@@ -187,8 +186,10 @@ describe("curriculum ladder", () => {
       ...emptyProgress(),
       stage: "Sprout",
       masteredIds: sprout.map((question) => question.id),
+      firstTryIds: sprout.map((question) => question.id),
     });
-    expect(done.ready).toBe(true);
+    expect(done.ready).toBe(false);
+    expect(done.required).toBe(15);
   });
 
   it("names checklist topics and marks a cleared one", () => {

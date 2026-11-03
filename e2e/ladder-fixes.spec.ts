@@ -48,8 +48,8 @@ test("the path checklist uses names and checks off a cleared topic", async ({ pa
   await page.getByTestId("choice-b").click();
   await page.getByTestId("continue-button").click();
   await page.goto("/path");
-  await expect(page.getByTestId("badge-genesis-1-11")).toHaveAttribute("data-state", "earned");
-  await expect(page.getByTestId("badge-jonah-1")).toHaveAttribute("data-state", "empty");
+  await expect(page.getByTestId("badge-seed-creation")).toHaveAttribute("data-state", "earned");
+  await expect(page.getByTestId("badge-seed-jonah")).toHaveAttribute("data-state", "empty");
   await expect(page.getByTestId("stage-block-sprout")).toHaveCount(0);
   await expect(page.getByText("Creation")).toHaveCount(0);
   await expect(page.getByText("David and Goliath")).toHaveCount(0);
@@ -102,6 +102,32 @@ test("a dev flag can show the difficulty label", async ({ page }) => {
   await install(page, seed({}, true));
   await page.goto("/play?showDifficulty=1");
   await expect(page.getByTestId("difficulty-label")).toHaveText("Foundation");
+});
+
+test("a placed Established player sees earlier stages above and not Fruitful", async ({ page }) => {
+  await install(
+    page,
+    seed({
+      cycle: 2,
+      tier: "advanced",
+      stage: "Established",
+      mapOrigin: "Established",
+      masteredIds: ["c3-psa-0001", "c3-pro-0001", "c3-eph-0001"],
+      firstTryIds: ["c3-psa-0001", "c3-pro-0001", "c3-eph-0001"],
+    }),
+  );
+  await page.goto("/path");
+  await expect(page.getByTestId("stage-block-seed")).toHaveAttribute("data-place", "skipped");
+  await expect(page.getByTestId("stage-block-growing")).toHaveAttribute("data-place", "skipped");
+  await expect(page.getByTestId("stage-block-established")).toHaveAttribute("data-place", "current");
+  await expect(page.getByTestId("stage-block-fruitful")).toHaveCount(0);
+  await expect(page.getByTestId("stage-block-deep-roots")).toHaveCount(0);
+  const skipped = page.getByTestId("badge-seed-jonah");
+  await expect(skipped).toHaveAttribute("data-state", "empty");
+  await expect(skipped).toHaveAttribute("href", "/play?badge=seed-jonah");
+  const seedBox = await page.getByTestId("stage-block-seed").boundingBox();
+  const hereBox = await page.getByTestId("stage-block-established").boundingBox();
+  expect(seedBox && hereBox && seedBox.y < hereBox.y).toBe(true);
 });
 
 test("a Seed player is not shown Psalm 119", async ({ page }) => {

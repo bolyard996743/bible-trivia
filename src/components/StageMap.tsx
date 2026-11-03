@@ -1,24 +1,20 @@
 "use client";
 
+import Link from "next/link";
 import { BadgeArt } from "@/components/BadgeArt";
-import { STAGE_LEARNING } from "@/lib/curriculum";
-import {
-  questionsInSection,
-  sectionEarned,
-  sectionSlug,
-  stageSections,
-  stageSlug,
-  visibleMapStages,
-} from "@/lib/game/badges";
-import type { GameProgress, KnowledgeStage, Question } from "@/lib/game/types";
+import { STAGE_LEARNING, stageRank } from "@/lib/curriculum";
+import { badgeEarned, stageSlug, visibleMapStages } from "@/lib/game/badges";
+import { badgePlayHref, stagePath } from "@/lib/game/path";
+import type { GameProgress, KnowledgeStage } from "@/lib/game/types";
 
-export function StageMap({ questions, progress }: { questions: Question[]; progress: GameProgress }) {
-  const stages = visibleMapStages(questions, progress);
+export function StageMap({ progress }: { progress: GameProgress }) {
+  const stages = visibleMapStages(progress);
+  const current = progress.stage ?? "Seed";
 
   return (
     <div className="grid gap-8" data-testid="stage-map">
       {stages.map((stage) => (
-        <StageBlock key={stage} stage={stage} questions={questions} progress={progress} />
+        <StageBlock key={stage} stage={stage} current={current} progress={progress} />
       ))}
     </div>
   );
@@ -26,16 +22,21 @@ export function StageMap({ questions, progress }: { questions: Question[]; progr
 
 function StageBlock({
   stage,
-  questions,
+  current,
   progress,
 }: {
   stage: KnowledgeStage;
-  questions: Question[];
+  current: KnowledgeStage;
   progress: GameProgress;
 }) {
-  const sections = stageSections(questions, stage);
+  const block = stagePath(stage);
+  const skipped = stageRank(stage) < stageRank(current);
   return (
-    <section className="grid gap-4" data-testid={`stage-block-${stageSlug(stage)}`}>
+    <section
+      className="grid gap-4"
+      data-testid={`stage-block-${stageSlug(stage)}`}
+      data-place={skipped ? "skipped" : "current"}
+    >
       <div>
         <h2 className="text-3xl font-semibold text-grove-deep">{stage}</h2>
         <p className="mt-1 text-lg text-ink" data-testid={`stage-learning-${stageSlug(stage)}`}>
@@ -43,24 +44,23 @@ function StageBlock({
         </p>
       </div>
       <ul className="flex flex-wrap gap-3" aria-label={`${stage} badges`}>
-        {sections.map((section) => {
-          const earned = sectionEarned(questions, progress, stage, section);
-          const topic = questionsInSection(questions, stage, section)[0]?.topics[0] ?? "";
+        {(block?.badges ?? []).map((badge) => {
+          const earned = badgeEarned(progress, badge);
           return (
-            <li key={section}>
-              <span
-                data-testid={`badge-${sectionSlug(section)}`}
+            <li key={badge.id}>
+              <Link
+                href={badgePlayHref(badge.id)}
+                data-testid={`badge-${badge.id}`}
                 data-state={earned ? "earned" : "empty"}
-                role="img"
-                aria-label={earned ? "Earned badge" : "Empty badge"}
+                aria-label={earned ? `${badge.name}. Earned` : `${badge.name}. Not earned yet`}
                 className={
                   earned
-                    ? "inline-flex h-16 w-16 items-center justify-center rounded-full border-2 border-grove bg-gold-soft text-grove-deep"
-                    : "inline-flex h-16 w-16 rounded-full border-2 border-dashed border-ink-soft/40 bg-ink-soft/10"
+                    ? "badge-link inline-flex h-16 w-16 items-center justify-center rounded-full border-2 border-grove bg-gold-soft text-grove-deep"
+                    : "badge-link inline-flex h-16 w-16 rounded-full border-2 border-dashed border-ink-soft/40 bg-ink-soft/10"
                 }
               >
-                {earned ? <BadgeArt topic={topic} /> : null}
-              </span>
+                {earned ? <BadgeArt topic={badge.art} /> : null}
+              </Link>
             </li>
           );
         })}

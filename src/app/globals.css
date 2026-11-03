@@ -150,7 +150,8 @@ body {
 .verse-words,
 .verse-note,
 .mark-dot,
-.mark-pen {
+.mark-pen,
+a.badge-link {
   min-height: 0;
 }
 

@@ -8,7 +8,7 @@ import {
   stageRank,
   topicLabel,
 } from "../curriculum";
-import { gateFromSections } from "./badges";
+import { gateFromBadges } from "./badges";
 import type { GameProgress, KnowledgeStage, Question, Tier } from "./types";
 import { TIER_LABELS, TIERS } from "./types";
 
@@ -131,8 +131,8 @@ export function selectLadderQuestion(questions: Question[], progress: GameProgre
   return { question: chosen[0]!, review: false };
 }
 
-export function gateStatus(questions: Question[], progress: GameProgress): { ready: boolean; cleared: number; required: number } {
-  return gateFromSections(questions, progress);
+export function gateStatus(_questions: Question[], progress: GameProgress): { ready: boolean; cleared: number; required: number } {
+  return gateFromBadges(progress);
 }
 
 export type ChecklistItem = {
