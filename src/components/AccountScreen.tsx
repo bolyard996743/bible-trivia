@@ -202,7 +202,7 @@ export function AccountScreen() {
       {auth.email ? (
         <div className="grid gap-3 rounded-3xl border border-line bg-card p-5">
           <p className="text-lg text-ink">Signed in as {auth.email}.</p>
-          <Link href="/profile" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+          <Link href="/settings" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
             Choose a guide
           </Link>
           <button type="button" onClick={() => void signOut()} className="rounded-2xl border border-line bg-parchment px-4 text-lg text-ink">

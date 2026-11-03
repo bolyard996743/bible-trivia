@@ -13,10 +13,22 @@ export function stageSlug(stage: string): string {
   return sectionSlug(stage);
 }
 
-/** Older saves did not store first-try ids. A mastered question with no misses counts. */
+/**
+ * Questions that fill a badge.
+ * The saved list counts, and so does a mastered question with no misses.
+ * An empty list is not proof that nothing was earned: older saves, and account
+ * rows that never stored the flag, still have the answer on the mastered list.
+ */
+export function earnedFirstTryIds(progress: GameProgress | undefined): string[] {
+  if (!progress) return [];
+  const explicit = progress.firstTryIds ?? [];
+  const inferred = progress.masteredIds.filter((id) => (progress.missCounts?.[id] ?? 0) === 0);
+  return [...new Set([...explicit, ...inferred])];
+}
+
+/** A first try is either recorded or inferred from a mastered question with no misses. */
 export function passedFirstTry(progress: GameProgress, questionId: string): boolean {
-  if (progress.firstTryIds) return progress.firstTryIds.includes(questionId);
-  return progress.masteredIds.includes(questionId) && (progress.missCounts?.[questionId] ?? 0) === 0;
+  return earnedFirstTryIds(progress).includes(questionId);
 }
 
 export function badgesFor(stage: KnowledgeStage, path: KnowledgePathFile = knowledgePath): PathBadge[] {

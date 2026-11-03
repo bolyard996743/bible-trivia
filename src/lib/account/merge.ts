@@ -1,4 +1,5 @@
 import { stageRank } from "../curriculum";
+import { earnedFirstTryIds } from "../game/badges";
 import { knowledgeStage } from "../game/progression";
 import { TIERS, type AttemptState, type GameProgress, type KnowledgeStage, type Tier } from "../game/types";
 import type { VerseMark } from "../bible/marks";
@@ -65,7 +66,7 @@ export function mergeLadderProgress(local: GameProgress, remote: GameProgress): 
     seasonId: local.seasonId ?? remote.seasonId ?? "season-1",
     clearedTopics: unionIds(local.clearedTopics, remote.clearedTopics),
     clearedBooks: unionIds(local.clearedBooks, remote.clearedBooks),
-    firstTryIds: unionIds(local.firstTryIds, remote.firstTryIds),
+    firstTryIds: unionIds(earnedFirstTryIds(local), earnedFirstTryIds(remote)),
     mapOrigin: earlierStage(local.mapOrigin, remote.mapOrigin),
     scoredIds: unionIds(local.scoredIds, remote.scoredIds),
     placementIds: unionIds(local.placementIds, remote.placementIds),
