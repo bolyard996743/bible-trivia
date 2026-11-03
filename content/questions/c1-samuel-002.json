@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-samuel-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1sa-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 16",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What was young David doing when Samuel asked Jesse if all his sons were there?",
+        "child": "Samuel came to look for the next king. What was young David doing?",
+        "teen": "Samuel was looking for the next king. What was David doing at the time?",
+        "older": "According to 1 Samuel 16:11, what was the youngest son, David, doing when Samuel asked Jesse about his sons?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fishing in the lake"
+        },
+        {
+          "id": "b",
+          "text": "Building a wall"
+        },
+        {
+          "id": "c",
+          "text": "Keeping the sheep"
+        },
+        {
+          "id": "d",
+          "text": "Teaching school"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 16:11",
+            "text": "There remains yet the youngest, and there he is, keeping the sheep.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 16:11 gives Jesse's reply about his youngest son. Read what he says the boy is doing.",
+          "child": "Read 1 Samuel 16:11. Jesse says where his youngest son is and what he is doing.",
+          "teen": "Check 1 Samuel 16:11. Jesse says what his youngest son is up to.",
+          "older": "In 1 Samuel 16:11, Jesse's reply states the occupation of his youngest son."
+        },
+        "extended_explanation": "Samuel asked whether any sons were missing. Jesse's answer shows what David's daily work was.",
+        "takeaway": "David was out keeping the sheep."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-1sa-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 16",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What was in the horn Samuel used to anoint David?",
+        "child": "Samuel used a horn to show that God had chosen David. What was inside the horn?",
+        "teen": "What was in the horn Samuel used to anoint David as king?",
+        "older": "According to 1 Samuel 16:13, what was in the horn that Samuel took to anoint David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oil"
+        },
+        {
+          "id": "b",
+          "text": "Water"
+        },
+        {
+          "id": "c",
+          "text": "Milk"
+        },
+        {
+          "id": "d",
+          "text": "Honey"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 16:13",
+            "text": "Then Samuel took the horn of oil and anointed him in the midst of his brothers",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 16:13 names what the horn contained. Read the first line of the verse.",
+          "child": "Read 1 Samuel 16:13. It names what was in the horn that Samuel took.",
+          "teen": "Check 1 Samuel 16:13. It names what was in the horn Samuel took.",
+          "older": "The first clause of 1 Samuel 16:13 names what the horn contained."
+        },
+        "extended_explanation": "God chose David, and Samuel marked it in front of David's brothers. The verse tells what was in the horn Samuel used.",
+        "takeaway": "Samuel took the horn of oil and anointed David."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-1sa-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which people's army did the giant Goliath come from?",
+        "child": "Goliath was a giant. Which people's army was he fighting for?",
+        "teen": "Goliath was a giant champion. Which people's army was he part of?",
+        "older": "According to 1 Samuel 17:4, from the camp of which people did the champion Goliath come?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Egyptians"
+        },
+        {
+          "id": "b",
+          "text": "The Babylonians"
+        },
+        {
+          "id": "c",
+          "text": "The Romans"
+        },
+        {
+          "id": "d",
+          "text": "The Philistines"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:4",
+            "text": "And a champion went out from the camp of the Philistines, named Goliath, from Gath, whose height was six cubits and a span.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 17:4 says whose camp Goliath came out of. Read the first half of the verse.",
+          "child": "Read 1 Samuel 17:4. It tells whose camp the giant came out from.",
+          "teen": "Check 1 Samuel 17:4. It tells whose camp Goliath came out from.",
+          "older": "The first half of 1 Samuel 17:4 identifies the camp from which Goliath came."
+        },
+        "extended_explanation": "Before the fight, the Bible tells who stood against Israel. The verse names Goliath and says whose camp he stepped out from.",
+        "takeaway": "Goliath came from the camp of the Philistines."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-1sa-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "For how many days did Goliath present himself morning and evening to challenge Israel?",
+        "child": "Goliath came out to scare Israel's army morning and evening. For how many days did he do this?",
+        "teen": "Goliath came out morning and evening to challenge Israel. For how many days?",
+        "older": "According to 1 Samuel 17:16, for how many days did the Philistine present himself, morning and evening?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three days"
+        },
+        {
+          "id": "b",
+          "text": "Forty days"
+        },
+        {
+          "id": "c",
+          "text": "Seven days"
+        },
+        {
+          "id": "d",
+          "text": "One hundred days"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:16",
+            "text": "And the Philistine drew near and presented himself forty days, morning and evening.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 17:16 gives how long the Philistine presented himself. Look for the number of days.",
+          "child": "Read 1 Samuel 17:16. It tells how long the giant kept coming out.",
+          "teen": "Check 1 Samuel 17:16. It says how long Goliath kept showing up.",
+          "older": "1 Samuel 17:16 gives the duration for which the Philistine presented himself."
+        },
+        "extended_explanation": "Goliath did not come out only once. The verse says how long it went on and when each day he appeared.",
+        "takeaway": "Goliath came out for forty days, morning and evening."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-1sa-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which two wild animals did David tell Saul he had killed?",
+        "child": "David told King Saul about two wild animals he had killed. Which two animals?",
+        "teen": "David told King Saul about two wild animals he had fought. Which two?",
+        "older": "According to 1 Samuel 17:36, which two wild animals did David say he had killed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A wolf and a fox"
+        },
+        {
+          "id": "b",
+          "text": "A snake and a scorpion"
+        },
+        {
+          "id": "c",
+          "text": "A lion and a bear"
+        },
+        {
+          "id": "d",
+          "text": "A wolf and an eagle"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:36",
+            "text": "Your servant has killed both lion and bear;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 17:36 names the two animals David had killed. Read the first part of the verse.",
+          "child": "Read 1 Samuel 17:36. David names two animals he has already faced.",
+          "teen": "Check 1 Samuel 17:36. David names two animals he has already beaten.",
+          "older": "The first clause of 1 Samuel 17:36 names the two animals David had killed."
+        },
+        "extended_explanation": "David reminded Saul what he had already faced. The verse names the two animals and says Goliath would be like them.",
+        "takeaway": "David had killed both a lion and a bear."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-1sa-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In whose name did David say he was coming to Goliath?",
+        "child": "David was not afraid of Goliath. In whose name did David say he was coming?",
+        "teen": "David told Goliath he was coming in someone's name. Whose name?",
+        "older": "According to 1 Samuel 17:45, in whose name did David say he came to the Philistine?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD of hosts"
+        },
+        {
+          "id": "b",
+          "text": "King Saul and his strong soldiers"
+        },
+        {
+          "id": "c",
+          "text": "His brothers and the other shepherds"
+        },
+        {
+          "id": "d",
+          "text": "His father Jesse and his family"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:45",
+            "text": "But I come to you in the name of the LORD of hosts, the God of the armies of Israel, whom you have defied.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 17:45 states in whose name David came. Read the second sentence of the verse.",
+          "child": "Read 1 Samuel 17:45. David says whose name he comes in.",
+          "teen": "Check 1 Samuel 17:45. David says whose name he is coming in.",
+          "older": "The second sentence of 1 Samuel 17:45 states in whose name David came."
+        },
+        "extended_explanation": "Goliath came with many weapons. David named something greater than all of them.",
+        "takeaway": "David came in the name of the LORD of hosts."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-1sa-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did David do with King Saul's armor?",
+        "child": "King Saul gave David his own armor. What did David do with it?",
+        "teen": "King Saul put his armor on David. What did David do?",
+        "older": "According to 1 Samuel 17:39, what did David do with King Saul's armor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He wore it into battle"
+        },
+        {
+          "id": "b",
+          "text": "He gave it to Goliath"
+        },
+        {
+          "id": "c",
+          "text": "He hid it in a cave"
+        },
+        {
+          "id": "d",
+          "text": "He took the armor off"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:39",
+            "text": "David fastened his sword to his armor and tried to walk, for he had not tested them. And David said to Saul, “I cannot walk with these, for I have not tested them.” So David took them off.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 17:39 describes David trying the armor and then what he did. Read the last sentence.",
+          "child": "Read 1 Samuel 17:39. David tries to walk and then tells Saul what he decides.",
+          "teen": "Check 1 Samuel 17:39. David tries walking, tells Saul how it went, and then makes a choice.",
+          "older": "1 Samuel 17:39 describes David's trial of the armor and then his decision, given in the last sentence."
+        },
+        "extended_explanation": "David tried the armor, but it was not right for him. The last sentence of the verse tells what he chose.",
+        "takeaway": "David took King Saul's armor off."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-1sa-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 17",
+      "topics": [
+        "david-goliath"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to David, what does the LORD not save with?",
+        "child": "David told the army that God does not save with some things. Which things?",
+        "teen": "David told everyone that God does not save with certain things. Which things?",
+        "older": "According to 1 Samuel 17:47, with what does the LORD not save?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bread and water"
+        },
+        {
+          "id": "b",
+          "text": "Sword and spear"
+        },
+        {
+          "id": "c",
+          "text": "Gold and silver"
+        },
+        {
+          "id": "d",
+          "text": "Boats and nets"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 17:47",
+            "text": "Then all this assembly shall know that the LORD does not save with sword and spear",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 17:47 says what the LORD does not save with. Read the first sentence of the verse.",
+          "child": "Read 1 Samuel 17:47. David says what the LORD does not save with, and the next words tell whose battle it is.",
+          "teen": "Check 1 Samuel 17:47. David says what the LORD does not save with, and then says whose battle it is.",
+          "older": "The first clause of 1 Samuel 17:47 states what the LORD does not use to save."
+        },
+        "extended_explanation": "David was facing a giant, but he did not trust in weapons. The verse says what the LORD does not save with, and whose the battle is.",
+        "takeaway": "The LORD does not save with sword and spear, because the battle is the LORD's."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}

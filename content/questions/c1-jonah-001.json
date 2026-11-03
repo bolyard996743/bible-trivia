@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-jonah-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jon-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 1",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "To which great city did God tell Jonah to go?",
+        "child": "God told Jonah to go to a big city and tell the people to stop doing wrong. Which city?",
+        "teen": "God told Jonah to go to a great city and speak against its wrong ways. Which city was it?",
+        "older": "According to Jonah 1:2, to which great city did the LORD command Jonah to go?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "Babylon"
+        },
+        {
+          "id": "c",
+          "text": "Nineveh"
+        },
+        {
+          "id": "d",
+          "text": "Bethel"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 1:2",
+            "text": "Arise, go to Nineveh, that great city, and cry out against it;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 1:2 gives God's command to Jonah and names the city. Read the first line.",
+          "child": "Read Jonah 1:2. God tells Jonah to get up and go, and He names the city.",
+          "teen": "Check Jonah 1:2. God tells Jonah to get up and go, and the verse names the city.",
+          "older": "The first line of Jonah 1:2 gives the command to Jonah and names the city."
+        },
+        "extended_explanation": "The book of Jonah begins with a command. The verse names the city God wanted Jonah to go to.",
+        "takeaway": "God told Jonah to go to Nineveh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jon-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 1",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jonah ran from God's command, what did he find and board at Joppa?",
+        "child": "Jonah did not want to obey God, so he went the other way. What did he get on?",
+        "teen": "Jonah did not want to obey God and went the other way. What did he board?",
+        "older": "According to Jonah 1:3, what did Jonah find at Joppa and board in order to flee from the presence of the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A ship"
+        },
+        {
+          "id": "b",
+          "text": "A camel"
+        },
+        {
+          "id": "c",
+          "text": "A chariot"
+        },
+        {
+          "id": "d",
+          "text": "A donkey"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 1:3",
+            "text": "He went down to Joppa, and found a ship going to Tarshish; so he paid the fare, and went down into it",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 1:3 says what Jonah found at Joppa and what he paid for. Read the middle of the verse.",
+          "child": "Read Jonah 1:3. Jonah goes down to Joppa and finds a way to travel.",
+          "teen": "Check Jonah 1:3. Jonah goes down to Joppa and finds a way to travel.",
+          "older": "The middle of Jonah 1:3 states what Jonah found at Joppa and for what he paid the fare."
+        },
+        "extended_explanation": "Jonah headed away from where God sent him. The verse tells how he planned to travel and that he paid his way.",
+        "takeaway": "Jonah found a ship at Joppa and got on it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jon-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 1",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While the storm raged, what was Jonah doing in the lowest part of the ship?",
+        "child": "A big storm hit the ship. What was Jonah doing down inside it?",
+        "teen": "A huge storm hit the ship. What was Jonah doing in the lowest part of it?",
+        "older": "According to Jonah 1:5, what was Jonah doing in the lowest parts of the ship while the storm raged?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rowing the boat"
+        },
+        {
+          "id": "b",
+          "text": "Fishing off the side"
+        },
+        {
+          "id": "c",
+          "text": "Singing loudly"
+        },
+        {
+          "id": "d",
+          "text": "Sleeping"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 1:5",
+            "text": "But Jonah had gone down into the lowest parts of the ship, had lain down, and was fast asleep.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The last sentence of Jonah 1:5 says where Jonah was and what he was doing.",
+          "child": "Read the last sentence of Jonah 1:5. It tells where Jonah was and what he was doing there.",
+          "teen": "Check the last sentence of Jonah 1:5. It says where Jonah was and what he was up to.",
+          "older": "The final sentence of Jonah 1:5 states where Jonah was and what he was doing."
+        },
+        "extended_explanation": "While the sailors were afraid, Jonah was somewhere else on the ship. The verse tells where he was and what he was doing.",
+        "takeaway": "Jonah was fast asleep in the lowest part of the ship."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jon-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 1",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the sailors do to Jonah that stopped the raging sea?",
+        "child": "The sea was raging. What did the sailors do that made it stop?",
+        "teen": "The sea would not stop raging. What did the sailors do that made it stop?",
+        "older": "According to Jonah 1:15, what did the sailors do to Jonah, after which the sea ceased from its raging?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They sang a song of thanks together"
+        },
+        {
+          "id": "b",
+          "text": "They threw Jonah into the sea"
+        },
+        {
+          "id": "c",
+          "text": "They waited until the morning came"
+        },
+        {
+          "id": "d",
+          "text": "They lit a big fire on the deck"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 1:15",
+            "text": "So they picked up Jonah and threw him into the sea, and the sea ceased from its raging.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 1:15 describes what the sailors did and what followed. Read the first half of the verse.",
+          "child": "Read Jonah 1:15. It tells what the sailors did, and then what the sea did.",
+          "teen": "Check Jonah 1:15. It tells what the sailors did and what the sea did next.",
+          "older": "Jonah 1:15 describes the sailors' action and its result. The action is stated in the first half."
+        },
+        "extended_explanation": "The sailors acted, and the sea changed. The verse tells what they did to Jonah and what followed.",
+        "takeaway": "The sailors threw Jonah into the sea, and the sea stopped raging."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jon-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 2",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did Jonah do from inside the fish?",
+        "child": "Jonah was inside the great fish. What did he do there?",
+        "teen": "While Jonah was inside the great fish, what did he do?",
+        "older": "According to Jonah 2:1, what did Jonah do from the belly of the fish?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He swam away"
+        },
+        {
+          "id": "b",
+          "text": "He called for the sailors"
+        },
+        {
+          "id": "c",
+          "text": "He prayed to the LORD"
+        },
+        {
+          "id": "d",
+          "text": "He wrote a letter"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 2:1",
+            "text": "Then Jonah prayed to the LORD his God from the fish’s belly.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 2:1 says what Jonah did from inside the fish. Read the verb in the first line.",
+          "child": "Read Jonah 2:1. It is a short verse that tells what Jonah did and who he spoke to.",
+          "teen": "Check Jonah 2:1. It is short and says what Jonah did and who he was talking to.",
+          "older": "Jonah 2:1 states what Jonah did from inside the fish, in the verb of its opening clause."
+        },
+        "extended_explanation": "Jonah was in a strange place, and the verse tells what he did there and who he turned to.",
+        "takeaway": "Jonah prayed to the LORD from the fish's belly."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jon-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 2",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Who spoke to the fish so that it let Jonah out onto dry land?",
+        "child": "Someone spoke to the fish, and it let Jonah go onto dry land. Who spoke to the fish?",
+        "teen": "Someone spoke to the fish and it let Jonah out onto dry land. Who was it?",
+        "older": "According to Jonah 2:10, who spoke to the fish, so that it released Jonah onto dry land?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD"
+        },
+        {
+          "id": "b",
+          "text": "Jonah"
+        },
+        {
+          "id": "c",
+          "text": "The sailors"
+        },
+        {
+          "id": "d",
+          "text": "An angel"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 2:10",
+            "text": "So the LORD spoke to the fish, and it vomited Jonah onto dry land.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 2:10 names who spoke to the fish. Read the start of the verse.",
+          "child": "Read Jonah 2:10. It tells who spoke to the fish and what the fish did next.",
+          "teen": "Check Jonah 2:10. It tells who spoke to the fish and what happened after.",
+          "older": "The opening of Jonah 2:10 names the one who spoke to the fish."
+        },
+        "extended_explanation": "The fish did what it was told. The verse says who gave the word and where Jonah ended up.",
+        "takeaway": "The LORD spoke to the fish, and it let Jonah go onto dry land."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jon-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 3",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the people of Nineveh turned from their evil way, what did God do?",
+        "child": "The people of Nineveh stopped doing wrong. What did God do?",
+        "teen": "The people of Nineveh stopped doing wrong. How did God respond?",
+        "older": "According to Jonah 3:10, how did God respond when the people of Nineveh turned from their evil way?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He sent a bigger storm on them"
+        },
+        {
+          "id": "b",
+          "text": "He sent the people far away"
+        },
+        {
+          "id": "c",
+          "text": "He made the whole city fall asleep"
+        },
+        {
+          "id": "d",
+          "text": "He did not punish them"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 3:10",
+            "text": "God relented from the disaster that He had said He would bring upon them, and He did not do it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 3:10 tells what God had said He would bring and what He did about it. Read the second half.",
+          "child": "Read Jonah 3:10. It tells what God had said He would bring, and what happened to that plan.",
+          "teen": "Check Jonah 3:10. It says what God had planned to bring and what became of that plan.",
+          "older": "Jonah 3:10 states what God had said He would bring and what He did in response, in the second half."
+        },
+        "extended_explanation": "God saw what the people did. The verse says what He had planned and what He chose when they turned from their way.",
+        "takeaway": "God did not punish them. He did not send the disaster He had said He would bring on Nineveh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-jon-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 4",
+      "topics": [
+        "jonah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the LORD God prepare to make shade for Jonah's head?",
+        "child": "God made something grow up over Jonah to give him shade. What was it?",
+        "teen": "God made something grow up over Jonah's head to give him shade. What was it?",
+        "older": "According to Jonah 4:6, what did the LORD God prepare to make shade over Jonah's head?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tent"
+        },
+        {
+          "id": "b",
+          "text": "A plant"
+        },
+        {
+          "id": "c",
+          "text": "A stone wall"
+        },
+        {
+          "id": "d",
+          "text": "A cloud"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 4:6",
+            "text": "And the LORD God prepared a plant and made it come up over Jonah, that it might be shade for his head to deliver him from his misery.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jonah 4:6 says what the LORD God prepared and the purpose. Read the first half.",
+          "child": "Read Jonah 4:6. It says what God prepared and what it was for.",
+          "teen": "Check Jonah 4:6. It says what God prepared and why.",
+          "older": "The first half of Jonah 4:6 states what the LORD God prepared, and the rest states its purpose."
+        },
+        "extended_explanation": "God cared for Jonah even in his misery. The verse tells what He prepared and what it did for him.",
+        "takeaway": "God prepared a plant to give Jonah shade."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}

@@ -16,7 +16,10 @@
       "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
-        "adult": "In John 3:16, whom did God give because He loved the world?"
+        "adult": "In John 3:16, what was given as the gift?",
+        "child": "John 3:16 is about a gift. What was the gift?",
+        "teen": "John 3:16 is all about a gift. What was given?",
+        "older": "According to John 3:16, what was given as the gift?"
       },
       "choices": [
         {

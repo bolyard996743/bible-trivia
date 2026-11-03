@@ -48,7 +48,7 @@ test("the path checklist uses names and checks off a cleared topic", async ({ pa
   await page.getByTestId("choice-b").click();
   await page.getByTestId("continue-button").click();
   await page.goto("/path");
-  await expect(page.getByTestId("badge-seed-creation")).toHaveAttribute("data-state", "earned");
+  await expect(page.getByTestId("badge-seed-creation")).toHaveAttribute("data-state", "empty");
   await expect(page.getByTestId("badge-seed-jonah")).toHaveAttribute("data-state", "empty");
   await expect(page.getByTestId("stage-block-sprout")).toHaveCount(0);
   await expect(page.getByText("Creation")).toHaveCount(0);

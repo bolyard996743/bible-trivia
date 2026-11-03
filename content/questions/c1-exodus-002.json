@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-exodus-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-exo-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 2",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Where did Moses' mother lay the basket that held baby Moses?",
+        "child": "Moses' mother hid baby Moses in a basket. Where did she put the basket?",
+        "teen": "Where did Moses' mother put the basket with baby Moses in it?",
+        "older": "According to Exodus 2:3, where did Moses' mother lay the ark of bulrushes that held the child?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On top of a tall mountain far away"
+        },
+        {
+          "id": "b",
+          "text": "In a tent in the dry desert sand"
+        },
+        {
+          "id": "c",
+          "text": "In the reeds by the river"
+        },
+        {
+          "id": "d",
+          "text": "On a big boat far out at sea"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 2:3",
+            "text": "put the child in it, and laid it in the reeds by the river’s bank.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 2:3 tells where Moses' mother laid the basket. Read the end of the verse.",
+          "child": "Read Exodus 2:3. It tells the place where she laid the basket.",
+          "teen": "Check Exodus 2:3. It tells where she laid the basket with the baby inside.",
+          "older": "The final clause of Exodus 2:3 states where the basket was laid."
+        },
+        "extended_explanation": "Moses' mother could not hide him any longer. The end of the verse tells where she placed him so that he might be found and kept safe.",
+        "takeaway": "Moses' mother laid the basket in the reeds by the river's bank. The Bible calls it an ark, which here means a little basket-boat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-exo-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 2",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Who found the basket holding the baby Moses?",
+        "child": "Someone found the basket with baby Moses in it. Who was it?",
+        "teen": "Who found the basket that had baby Moses inside?",
+        "older": "According to Exodus 2:5, who found the basket in which the child Moses lay?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pharaoh's daughter"
+        },
+        {
+          "id": "b",
+          "text": "A shepherd from the hills"
+        },
+        {
+          "id": "c",
+          "text": "A soldier from the army"
+        },
+        {
+          "id": "d",
+          "text": "An angel from heaven"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 2:5",
+            "text": "Then the daughter of Pharaoh came down to bathe at the river. And her maidens walked along the riverside; and when she saw the ark among the reeds, she sent her maid to get it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 2:5 identifies who came down to the river and saw the basket. Read the first sentence.",
+          "child": "Read Exodus 2:5. It tells who came down to the river and saw the basket.",
+          "teen": "Check Exodus 2:5. It tells who came to the river and spotted the basket.",
+          "older": "The opening sentence of Exodus 2:5 identifies the one who came to the river and saw the ark."
+        },
+        "extended_explanation": "God placed the baby where a particular person would come. The first sentence of the verse tells who it was.",
+        "takeaway": "Pharaoh's daughter found the basket with baby Moses in it. The Bible calls it an ark, which here means a little basket-boat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-exo-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 2",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Who stood at a distance to see what would be done to baby Moses?",
+        "child": "Someone stood far away to see what would happen to baby Moses. Who was it?",
+        "teen": "Who stood at a distance to watch what would happen to baby Moses?",
+        "older": "According to Exodus 2:4, who stood at a distance to learn what would be done to the child?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His uncle"
+        },
+        {
+          "id": "b",
+          "text": "A soldier"
+        },
+        {
+          "id": "c",
+          "text": "A neighbor"
+        },
+        {
+          "id": "d",
+          "text": "His sister"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 2:4",
+            "text": "And his sister stood afar off, to know what would be done to him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 2:4 is a single sentence that tells who stood at a distance. Read how it begins.",
+          "child": "Read Exodus 2:4. It is a short verse, and it tells who stood far off to watch.",
+          "teen": "Check Exodus 2:4. It is short, and it names who stood at a distance.",
+          "older": "Exodus 2:4 is a single sentence, and its opening words name the one who stood at a distance."
+        },
+        "extended_explanation": "Someone in Moses' family kept watch from far off. The verse gives that person's relation to him in its first few words.",
+        "takeaway": "Moses' sister stood far off to see what would happen to him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-exo-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 3",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did God tell Moses to take off his feet at the burning bush?",
+        "child": "At the burning bush, God told Moses to take something off. What was it?",
+        "teen": "At the burning bush, God told Moses to take something off his feet. What was it?",
+        "older": "According to Exodus 3:5, what did God command Moses to remove from his feet?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His heavy coat"
+        },
+        {
+          "id": "b",
+          "text": "His sandals"
+        },
+        {
+          "id": "c",
+          "text": "His golden crown"
+        },
+        {
+          "id": "d",
+          "text": "His leather belt"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 3:5",
+            "text": "Take your sandals off your feet, for the place where you stand is holy ground.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 3:5 gives God's instruction to Moses and the reason for it. Find what he was to remove.",
+          "child": "Read Exodus 3:5. God tells Moses to take something off, and gives a reason.",
+          "teen": "Check Exodus 3:5. God tells Moses to take something off and explains why.",
+          "older": "Exodus 3:5 records the command given to Moses along with its reason. The item is named in the command."
+        },
+        "extended_explanation": "God told Moses to show respect because the ground was holy. The verse names what he was to remove.",
+        "takeaway": "God told Moses to take off his sandals."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-exo-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 3",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What job did God give Moses when He spoke to him from the bush?",
+        "child": "God chose Moses for a big job. What was the job?",
+        "teen": "God spoke to Moses and gave him a big job. What was it?",
+        "older": "According to Exodus 3:10, what task did God give Moses when He spoke from the bush?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build a huge ark for all the animals"
+        },
+        {
+          "id": "b",
+          "text": "Teach children in a school"
+        },
+        {
+          "id": "c",
+          "text": "Bring God's people out of Egypt"
+        },
+        {
+          "id": "d",
+          "text": "Find a new king for the land"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 3:10",
+            "text": "I will send you to Pharaoh that you may bring My people, the children of Israel, out of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 3:10 states where God would send Moses and what his task was. Read the second half of the sentence.",
+          "child": "Read Exodus 3:10. God says where He will send Moses and what Moses is to do.",
+          "teen": "Check Exodus 3:10. God says where He is sending Moses and what Moses is supposed to do.",
+          "older": "Exodus 3:10 states to whom God would send Moses and for what purpose. The purpose comes in the second half."
+        },
+        "extended_explanation": "God did not only speak to Moses. He sent him with a job. The verse says where he would go and what he would do there.",
+        "takeaway": "God sent Moses to bring His people out of Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-exo-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 14",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the LORD make the sea into so the Israelites could cross?",
+        "child": "The people reached the sea and could not cross it. What did the LORD turn the sea into so they could?",
+        "teen": "The Israelites were stuck at the sea. What did the LORD make the sea into so they could cross?",
+        "older": "According to Exodus 14:21, what did the LORD make of the sea so that the Israelites could cross?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dry land"
+        },
+        {
+          "id": "b",
+          "text": "A floating bridge"
+        },
+        {
+          "id": "c",
+          "text": "Solid ice"
+        },
+        {
+          "id": "d",
+          "text": "A tunnel of stone"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 14:21",
+            "text": "Then Moses stretched out his hand over the sea; and the LORD caused the sea to go back by a strong east wind all that night, and made the sea into dry land, and the waters were divided.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 14:21 describes what the LORD did to the sea. Find what He made of it near the end of the verse.",
+          "child": "Read Exodus 14:21. It tells what the LORD did to the sea and what the sea became.",
+          "teen": "Check Exodus 14:21. It tells what the LORD did to the sea and what it became.",
+          "older": "Exodus 14:21 describes the LORD's action upon the sea and what He made of it, stated near the end."
+        },
+        "extended_explanation": "Moses stretched out his hand, and the LORD acted all night. The verse tells what the sea was made into and what happened to the waters.",
+        "takeaway": "The LORD made the sea into dry land so the people could cross."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-exo-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 20",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which two people does the commandment in Exodus 20:12 say to honor?",
+        "child": "One of God's commandments tells us to honor two people. Who are they?",
+        "teen": "One of God's commandments says to honor two people. Who are they?",
+        "older": "According to Exodus 20:12, which two persons are we commanded to honor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your teacher and your friend"
+        },
+        {
+          "id": "b",
+          "text": "The king and the queen"
+        },
+        {
+          "id": "c",
+          "text": "Your brother and your sister"
+        },
+        {
+          "id": "d",
+          "text": "Your father and your mother"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 20:12",
+            "text": "Honor your father and your mother, that your days may be long upon the land which the LORD your God is giving you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 20:12 begins with the command and names the two people to honor.",
+          "child": "Read Exodus 20:12. The command starts by naming two people at home.",
+          "teen": "Check Exodus 20:12. The command begins by naming two people in a family.",
+          "older": "Exodus 20:12 begins with the command, which names the two persons to be honored."
+        },
+        "extended_explanation": "This commandment comes with a promise. The first part names whom to honor, and the second part says what follows for those who do.",
+        "takeaway": "God commands us to honor our father and our mother."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-exo-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 20",
+      "topics": [
+        "moses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the commandment of Exodus 20:3, what does God say we shall not have before Him?",
+        "child": "God gave rules to His people through Moses. What did He say they should not have before Him?",
+        "teen": "In one of God's rules, what does He say people should not have before Him?",
+        "older": "According to Exodus 20:3, what does God command that we shall not have before Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Other kings"
+        },
+        {
+          "id": "b",
+          "text": "Other gods"
+        },
+        {
+          "id": "c",
+          "text": "Other friends"
+        },
+        {
+          "id": "d",
+          "text": "Other houses"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 20:3",
+            "text": "You shall have no other gods before Me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 20:3 is a single sentence. Read what it says we shall not have before God.",
+          "child": "Read Exodus 20:3. It is a short sentence, and it says what we shall not have before God.",
+          "teen": "Check Exodus 20:3. It is one short sentence that says what to not put before God.",
+          "older": "Exodus 20:3 is a brief command, stating what we are not to have before God."
+        },
+        "extended_explanation": "This is the first of the commandments in Exodus 20. It tells who comes first in the lives of God's people.",
+        "takeaway": "God says we shall have no other gods before Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-mark-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mrk-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 2",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The crowd was too large for a paralyzed man to reach Jesus. How did his friends get him to Jesus?",
+        "child": "A man who could not walk had friends who wanted to bring him to Jesus, but the crowd was too big. How did they get him to Jesus?",
+        "teen": "A man who could not walk had friends who wanted to bring him to Jesus, but the crowd was too big. What did they do?",
+        "older": "According to Mark 2:4, how did the friends bring the paralytic to Jesus when the crowd blocked the way?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They pushed him through the front door"
+        },
+        {
+          "id": "b",
+          "text": "They waited until night when it was quiet"
+        },
+        {
+          "id": "c",
+          "text": "They sent a message asking Jesus to come out"
+        },
+        {
+          "id": "d",
+          "text": "They lowered him through the roof"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 2:4",
+            "text": "And when they could not come near Him because of the crowd, they uncovered the roof where He was. So when they had broken through, they let down the bed on which the paralytic was lying.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 2:4 describes the friends' solution. Read the whole verse for how the man came to Jesus.",
+          "child": "Read Mark 2:4. It tells where the friends went and what they did to get the man close to Jesus.",
+          "teen": "Check Mark 2:4. It tells where the friends went and what they did to get the man near Jesus.",
+          "older": "Mark 2:4 describes the friends' means of reaching Jesus. The whole verse gives the details."
+        },
+        "extended_explanation": "The friends did not give up. The verse tells what they did to the building and how they got the man down to Jesus.",
+        "takeaway": "The friends lowered the man through the roof to get him to Jesus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mrk-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 4",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What happened when Jesus rebuked the wind and spoke to the sea during the storm?",
+        "child": "In a big storm on the sea, Jesus spoke to the wind and the waves. What happened?",
+        "teen": "During a huge storm on the sea, Jesus spoke to the wind and the waves. What happened?",
+        "older": "According to Mark 4:39, what happened when Jesus rebuked the wind and spoke to the sea?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The storm grew louder and the waves rose higher"
+        },
+        {
+          "id": "b",
+          "text": "The wind stopped and the sea became calm"
+        },
+        {
+          "id": "c",
+          "text": "The boat spun around and floated away"
+        },
+        {
+          "id": "d",
+          "text": "The rain turned to snow all over the sea"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 4:39",
+            "text": "Then He arose and rebuked the wind, and said to the sea, “Peace, be still!” And the wind ceased and there was a great calm.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 4:39 records what Jesus said and the result. Read the last sentence.",
+          "child": "Read Mark 4:39. It tells what Jesus said and what the wind and sea did after.",
+          "teen": "Check Mark 4:39. It tells what Jesus said and what the wind and sea did after.",
+          "older": "The last sentence of Mark 4:39 records the result of Jesus' words."
+        },
+        "extended_explanation": "Jesus spoke, and the storm answered. The last sentence tells what changed for the wind and the sea.",
+        "takeaway": "The wind ceased and there was a great calm."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mrk-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 6",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Jesus fed the crowd, how many baskets of leftovers did the disciples pick up?",
+        "child": "Jesus fed a huge crowd with a few loaves and fish. After everyone ate, how many baskets of leftovers did the disciples pick up?",
+        "teen": "Jesus fed a huge crowd with a few loaves and fish. How many baskets of leftovers did the disciples pick up afterward?",
+        "older": "According to Mark 6:43, how many baskets full of fragments did the disciples take up after the crowd had eaten?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three baskets"
+        },
+        {
+          "id": "b",
+          "text": "Twenty baskets"
+        },
+        {
+          "id": "c",
+          "text": "Twelve baskets"
+        },
+        {
+          "id": "d",
+          "text": "One basket"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 6:43",
+            "text": "And they took up twelve baskets full of fragments and of the fish.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 6:43 gives the number of baskets of leftovers. Read the verse for the count.",
+          "child": "Read Mark 6:43. It is a short verse that gives a number of baskets.",
+          "teen": "Check Mark 6:43. It is short and gives a number of baskets.",
+          "older": "Mark 6:43 states the number of baskets that were filled with leftovers."
+        },
+        "extended_explanation": "There was more left than there had been at the start. The verse tells how many baskets were filled.",
+        "takeaway": "The disciples picked up twelve baskets of leftovers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-mrk-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 10",
+      "topics": [
+        "miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus asked the blind man what he wanted, what did the man ask for?",
+        "child": "A blind man called out to Jesus for help. When Jesus asked what he wanted, what did the man ask for?",
+        "teen": "A blind man called out to Jesus. When Jesus asked what he wanted, what did he ask for?",
+        "older": "According to Mark 10:51, what did the blind man ask for when Jesus asked what he wanted?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To see again"
+        },
+        {
+          "id": "b",
+          "text": "A new coat"
+        },
+        {
+          "id": "c",
+          "text": "A place to sleep"
+        },
+        {
+          "id": "d",
+          "text": "To walk"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 10:51",
+            "text": "So Jesus answered and said to him, “What do you want Me to do for you?” The blind man said to Him, “Rabboni, that I may receive my sight.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 10:51 records Jesus' question and the man's reply. Read the second sentence.",
+          "child": "Read Mark 10:51. Jesus asks a question, and the blind man answers right after.",
+          "teen": "Check Mark 10:51. Jesus asks a question, and the blind man answers.",
+          "older": "The second sentence of Mark 10:51 records the man's reply to Jesus' question."
+        },
+        "extended_explanation": "Jesus asked what the man wanted, and the man knew. The verse gives the man's reply in his own words.",
+        "takeaway": "The blind man asked to receive his sight."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}

@@ -35,8 +35,10 @@ describe("stage badge map", () => {
     expect(visibleMapStages(seed)).toEqual(["Seed"]);
     const { questions } = loadCatalog();
     const seedQuestions = questions.filter((question) => question.stage === "Seed");
+    const held = "c1-gen-0020";
     let progress: GameProgress = seed;
     for (const question of seedQuestions) {
+      if (question.id === held) continue;
       progress = {
         ...progress,
         masteredIds: [...progress.masteredIds, question.id],
@@ -46,6 +48,16 @@ describe("stage badge map", () => {
     expect(advanceStage(questions, progress).stage).toBe("Seed");
     expect(visibleMapStages(progress)).toEqual(["Seed"]);
     expect(visibleMapStages(progress)).not.toContain("Sprout");
+
+    progress = {
+      ...progress,
+      masteredIds: [...progress.masteredIds, held],
+      firstTryIds: [...(progress.firstTryIds ?? []), held],
+    };
+    const opened = advanceStage(questions, progress);
+    expect(opened.stage).toBe("Sprout");
+    expect(visibleMapStages(progress)).toEqual(["Seed"]);
+    expect(visibleMapStages(opened)).toEqual(["Seed", "Sprout"]);
   });
 
   it("shows skipped stages above a placed player and never a later stage", () => {

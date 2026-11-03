@@ -1,0 +1,432 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 2",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "To whom did the angel bring the news of Jesus' birth out in the fields?",
+        "child": "Angels shared good news with some people out in the fields the night Jesus was born. Who were they?",
+        "teen": "On the night Jesus was born, angels gave good news to some people out in the fields. Who were they?",
+        "older": "According to Luke 2:8, who were in the fields near Bethlehem when the angel brought the good news?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fishermen"
+        },
+        {
+          "id": "b",
+          "text": "Soldiers"
+        },
+        {
+          "id": "c",
+          "text": "Shepherds"
+        },
+        {
+          "id": "d",
+          "text": "Teachers"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:8",
+            "text": "Now there were in the same country shepherds living out in the fields, keeping watch over their flock by night.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 2:8 tells who was in the fields that night and what they were doing. Read the first line.",
+          "child": "Read Luke 2:8. It tells who was out in the fields that night and what they were doing.",
+          "teen": "Check Luke 2:8. It tells who was out in the fields that night and what they were up to.",
+          "older": "Luke 2:8 describes the persons in the fields that night and their occupation."
+        },
+        "extended_explanation": "The first people to hear the news were not in a palace. The verse tells who they were, where they were, and what they were doing at night.",
+        "takeaway": "Shepherds in the fields heard the angels' good news."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-luk-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 2",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Why did Joseph take Mary on a trip right before Jesus was born?",
+        "child": "Before Jesus was born, Joseph took Mary on a trip. Why did they go?",
+        "teen": "Before Jesus was born, Joseph and Mary made a trip. Why did they go?",
+        "older": "According to Luke 2:3-5, for what purpose did Joseph travel with Mary before Jesus was born?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To be counted (registered)"
+        },
+        {
+          "id": "b",
+          "text": "To visit the king in his palace"
+        },
+        {
+          "id": "c",
+          "text": "To sell their animals at the market"
+        },
+        {
+          "id": "d",
+          "text": "To find a bigger house to live in"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:3",
+            "text": "So all went to be registered, everyone to his own city.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 2:5",
+            "text": "to be registered with Mary, his betrothed wife, who was with child.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 2:3 and 2:5 give the reason for the travel. Look for the repeated phrase in both verses.",
+          "child": "Read Luke 2:3 and 2:5. Both verses tell why everyone was traveling to their own cities.",
+          "teen": "Check Luke 2:3 and 2:5. Both verses give the reason everyone was heading to their own cities.",
+          "older": "Luke 2:3 and 2:5 give the reason for the journey, expressed in a phrase that appears in both verses."
+        },
+        "extended_explanation": "A ruler had made a rule for everyone. These two verses show what everyone did because of it and how Joseph and Mary were part of it.",
+        "takeaway": "Joseph and Mary went to be counted (registered)."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-luk-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 2",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the angel call the baby born in the city of David?",
+        "child": "The angel told the shepherds a baby was born in David's city. What did the angel call Him?",
+        "teen": "The angel said a baby was born in the city of David. What did the angel call Him?",
+        "older": "According to Luke 2:11, what did the angel call the child born in the city of David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A farmer"
+        },
+        {
+          "id": "b",
+          "text": "A soldier"
+        },
+        {
+          "id": "c",
+          "text": "A sailor"
+        },
+        {
+          "id": "d",
+          "text": "A Savior"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:11",
+            "text": "For there is born to you this day in the city of David a Savior, who is Christ the Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 2:11 gives the baby's titles. Read what comes right after \"in the city of David.\"",
+          "child": "Read Luke 2:11. The angel gives the baby a title. Find it after the words \"city of David.\"",
+          "teen": "Check Luke 2:11. The angel gives the baby a title right after \"city of David.\"",
+          "older": "Luke 2:11 gives titles for the child. The first one follows the words \"in the city of David.\""
+        },
+        "extended_explanation": "The angel did not only say a baby was born. He said who the baby is, and the verse gives more than one title.",
+        "takeaway": "The angel called the baby a Savior."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-luk-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 2",
+      "topics": [
+        "jesus-birth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the shepherds do as they returned after seeing the baby Jesus?",
+        "child": "After the shepherds saw baby Jesus, they went back to their work. What did they do as they went?",
+        "teen": "After the shepherds saw baby Jesus, they went back. What did they do on the way?",
+        "older": "According to Luke 2:20, what did the shepherds do as they returned after seeing the child?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They kept it a secret"
+        },
+        {
+          "id": "b",
+          "text": "They praised God"
+        },
+        {
+          "id": "c",
+          "text": "They forgot about it"
+        },
+        {
+          "id": "d",
+          "text": "They felt sad"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:20",
+            "text": "Then the shepherds returned, glorifying and praising God for all the things that they had heard and seen, as it was told them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 2:20 describes how the shepherds returned. Read the words that follow \"returned.\"",
+          "child": "Read Luke 2:20. It tells how the shepherds went back and what they did as they went.",
+          "teen": "Check Luke 2:20. It tells how the shepherds went back and what they did on the way.",
+          "older": "Luke 2:20 describes the manner of the shepherds' return, in the words that follow \"returned.\""
+        },
+        "extended_explanation": "The shepherds had heard and seen what the angels promised. The verse tells how they responded as they went back.",
+        "takeaway": "The shepherds went back praising God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-luk-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 23",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did Jesus ask His Father to do for the people who put Him on the cross?",
+        "child": "While Jesus was on the cross, He prayed for the people who hurt Him. What did He ask His Father to do?",
+        "teen": "On the cross, Jesus prayed for the people who hurt Him. What did He ask His Father to do?",
+        "older": "According to Luke 23:34, what did Jesus ask the Father to do for those who crucified Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To punish them"
+        },
+        {
+          "id": "b",
+          "text": "To send an army"
+        },
+        {
+          "id": "c",
+          "text": "To forgive them"
+        },
+        {
+          "id": "d",
+          "text": "To make them leave"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 23:34",
+            "text": "Then Jesus said, “Father, forgive them, for they do not know what they do.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 23:34 records Jesus' prayer. The first words after \"Father\" tell what He asked.",
+          "child": "Read Luke 23:34. Jesus speaks to His Father, and the first words tell what He asks.",
+          "teen": "Check Luke 23:34. Jesus speaks to His Father, and the first words tell what He asks for.",
+          "older": "Luke 23:34 records the prayer of Jesus. The request follows immediately after \"Father.\""
+        },
+        "extended_explanation": "Jesus prayed for the very people who were hurting Him. The verse gives His request and the reason He gave.",
+        "takeaway": "Jesus asked His Father to forgive them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-luk-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 24",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the women find had happened to the stone at the tomb?",
+        "child": "The women came to Jesus' tomb on Sunday morning. What had happened to the big stone at the door?",
+        "teen": "When the women got to Jesus' tomb, what did they find had happened to the stone?",
+        "older": "According to Luke 24:2, what did the women find had happened to the stone at the tomb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It was rolled away"
+        },
+        {
+          "id": "b",
+          "text": "It was broken into pieces"
+        },
+        {
+          "id": "c",
+          "text": "It was painted white"
+        },
+        {
+          "id": "d",
+          "text": "It was still in place"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 24:2",
+            "text": "But they found the stone rolled away from the tomb.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 24:2 tells what the women found about the stone. Read the whole verse.",
+          "child": "Read Luke 24:2. It is a short verse that tells what the women found about the stone.",
+          "teen": "Check Luke 24:2. It is short and tells what the women found about the stone.",
+          "older": "Luke 24:2 states what the women found concerning the stone. The verse is a single sentence."
+        },
+        "extended_explanation": "The women expected one thing and found another. The verse says what they found about the stone.",
+        "takeaway": "The women found the stone rolled away from the tomb."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    },
+    {
+      "id": "c1-luk-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 24",
+      "topics": [
+        "cross-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the empty tomb, what did the two men in shining clothes say about Jesus?",
+        "child": "Two men in shining clothes stood by the women at the empty tomb. What did they say about Jesus?",
+        "teen": "At the empty tomb, two men in shining clothes spoke to the women. What did they say about Jesus?",
+        "older": "According to Luke 24:6, what did the two men in shining garments say about Jesus at the empty tomb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He has been stolen"
+        },
+        {
+          "id": "b",
+          "text": "He is sleeping"
+        },
+        {
+          "id": "c",
+          "text": "He went on a trip"
+        },
+        {
+          "id": "d",
+          "text": "He has risen"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 24:6",
+            "text": "He is not here, but is risen!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 24:6 says where Jesus is not and then what is true of Him. Read the first sentence.",
+          "child": "Read Luke 24:6. It begins by saying where Jesus is not, and then tells what is true of Him instead.",
+          "teen": "Check Luke 24:6. It starts with where Jesus is not, then says what is true about Him.",
+          "older": "The first sentence of Luke 24:6 states where Jesus is not and then what is true of Him."
+        },
+        "extended_explanation": "The tomb was empty, and the men told the women why. The first sentence gives their message in a few words.",
+        "takeaway": "The two men said that Jesus has risen."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Seed stage. NKJV excerpt verified against BibleGateway (NKJV). Answer is in the cited verse."
+      },
+      "stage": "Seed"
+    }
+  ]
+}
