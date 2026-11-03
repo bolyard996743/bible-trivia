@@ -135,15 +135,112 @@ export function homeCopy(preview: MockupPreview): { kicker: string; title: strin
   };
 }
 
-export const STAGE_EXAMPLES: Record<KnowledgeStage, string[]> = {
-  Seed: ["Creation", "Noah", "John 3:16–17"],
-  Sprout: ["The twelve disciples", "New Testament books", "Isaiah 53"],
-  Rooted: ["The Ten Commandments", "Psalm 23", "Old Testament overview"],
-  Growing: ["The Great Commission", "1 John 1:9", "The Roman Road"],
-  Established: ["The Lord's Prayer", "Psalm 1", "The greatest commandment"],
-  Fruitful: ["The Beatitudes", "The armor of God", "The fruit of the Spirit"],
-  "Deep Roots": ["Example lessons for this stage are still being written."],
+export type BadgeArt =
+  | "sun"
+  | "rainbow"
+  | "bush"
+  | "stone"
+  | "fish"
+  | "star"
+  | "waves"
+  | "cross"
+  | "heart"
+  | "people"
+  | "book"
+  | "lamb"
+  | "tablets"
+  | "sheep"
+  | "scroll"
+  | "path"
+  | "lamp"
+  | "road"
+  | "pages";
+
+const STAGE_LEARNING: Record<KnowledgeStage, string> = {
+  Seed: "The first stories, from the beginning through the cross.",
+  Sprout: "The people and writings that carry those stories on.",
+  Rooted: "Law, a shepherd psalm, and the Old Testament as a whole.",
+  Growing: "Sharing the good news and finding your way through it.",
+  Established: "Prayers and wisdom for a settled faith.",
+  Fruitful: "A life that shows what it has learned.",
+  "Deep Roots": "Scripture held deeply, across the whole Bible.",
 };
+
+const STAGE_SECTIONS: Record<KnowledgeStage, { id: string; art: BadgeArt }[]> = {
+  Seed: [
+    { id: "creation", art: "sun" },
+    { id: "noah", art: "rainbow" },
+    { id: "moses", art: "bush" },
+    { id: "david", art: "stone" },
+    { id: "jonah", art: "fish" },
+    { id: "jesus-birth", art: "star" },
+    { id: "miracles", art: "waves" },
+    { id: "cross-resurrection", art: "cross" },
+    { id: "john-3-16-17", art: "heart" },
+  ],
+  Sprout: [
+    { id: "twelve-disciples", art: "people" },
+    { id: "nt-books-overview", art: "book" },
+    { id: "isaiah-53-6", art: "lamb" },
+  ],
+  Rooted: [
+    { id: "ten-commandments", art: "tablets" },
+    { id: "psalm-23", art: "sheep" },
+    { id: "ot-overview", art: "scroll" },
+  ],
+  Growing: [
+    { id: "great-commission", art: "path" },
+    { id: "1-john-1-9", art: "lamp" },
+    { id: "roman-road", art: "road" },
+    { id: "cross-references", art: "pages" },
+  ],
+  Established: [
+    { id: "lords-prayer", art: "scroll" },
+    { id: "psalm-1", art: "path" },
+    { id: "greatest-commandment", art: "heart" },
+    { id: "wisdom-books", art: "book" },
+  ],
+  Fruitful: [
+    { id: "beatitudes", art: "path" },
+    { id: "armor-of-god", art: "stone" },
+    { id: "fruit-of-spirit", art: "bush" },
+    { id: "epistles", art: "scroll" },
+  ],
+  "Deep Roots": [],
+};
+
+export type PathBadge = {
+  id: string;
+  art: BadgeArt;
+  filled: boolean;
+};
+
+export type PathBlock = {
+  stage: KnowledgeStage;
+  learning: string;
+  complete: boolean;
+  badges: PathBadge[];
+};
+
+/** Stages the example player has reached, oldest earned first, current last. Later stages are omitted. */
+export function pathBlocks(player: PlayerState): PathBlock[] {
+  const hereIndex = KNOWLEDGE_PATH.indexOf(currentStage(player));
+  return KNOWLEDGE_PATH.slice(0, hereIndex + 1).map((stage, index) => {
+    const complete = index < hereIndex;
+    const sections = STAGE_SECTIONS[stage];
+    const filledCount = complete ? sections.length : player === "new" ? 0 : Math.floor(sections.length / 2);
+    return {
+      stage,
+      learning: STAGE_LEARNING[stage],
+      complete,
+      badges: sections.map((section, sectionIndex) => ({
+        id: section.id,
+        art: section.art,
+        filled: sectionIndex < filledCount,
+      })),
+    };
+  });
+}
 
 export type CollectionItem = {
   id: string;

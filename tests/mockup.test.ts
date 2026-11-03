@@ -3,6 +3,7 @@ import { mockupsEnabled } from "@/lib/mockup/gate";
 import {
   MEMORY_VERSE,
   parsePreview,
+  pathBlocks,
   previewQuery,
   reviewPrompt,
   stageStatuses,
@@ -72,6 +73,27 @@ describe("mockup preview", () => {
       "Rooted",
     ]);
     expect(stageStatuses("progressed").find((stage) => stage.status === "here")?.name).toBe("Growing");
+  });
+
+  it("shows only the current stage for a new player, as empty badge slots", () => {
+    const blocks = pathBlocks("new");
+    expect(blocks.map((block) => block.stage)).toEqual(["Seed"]);
+    expect(blocks[0]?.complete).toBe(false);
+    expect(blocks[0]?.badges.length).toBeGreaterThan(0);
+    expect(blocks[0]?.badges.every((badge) => !badge.filled)).toBe(true);
+    expect(blocks[0]?.learning).not.toMatch(/child|teen|adult|older|foundation|intermediate|advanced|expert/i);
+  });
+
+  it("stacks earned stages above a partly filled current stage", () => {
+    const blocks = pathBlocks("progressed");
+    expect(blocks.map((block) => block.stage)).toEqual(["Seed", "Sprout", "Rooted", "Growing"]);
+    expect(blocks.slice(0, 3).every((block) => block.complete && block.badges.every((badge) => badge.filled))).toBe(true);
+    const growing = blocks[3];
+    expect(growing?.complete).toBe(false);
+    expect(growing?.badges.some((badge) => badge.filled)).toBe(true);
+    expect(growing?.badges.some((badge) => !badge.filled)).toBe(true);
+    const jonah = blocks[0]?.badges.find((badge) => badge.id === "jonah");
+    expect(jonah).toMatchObject({ art: "fish", filled: true });
   });
 
   it("knows the practice route is not a tab", () => {
