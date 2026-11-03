@@ -4,6 +4,7 @@ import { afterEach, describe, expect, it, vi } from "vitest";
 import { GET as getChapter } from "@/app/api/bible/chapter/route";
 import { GET as getPassage } from "@/app/api/bible/passage/route";
 import { API_BIBLE_ROOT, NKJV_BIBLE_ID, loadChapter, loadPassage } from "@/lib/bible/api-bible";
+import { createMemoryScriptureCache } from "@/lib/bible/scripture-cache";
 import { parseReference } from "@/lib/bible/books";
 import { versesFromContent } from "@/lib/bible/content-json";
 import { createHttpBibleProvider } from "@/lib/bible/http";
@@ -12,6 +13,7 @@ import {
   MISSING_KEY_MESSAGE,
   NKJV_COPYRIGHT,
   SCRIPTURE_CACHE_MAX_AGE_MS,
+  SCRIPTURE_RETRY_MESSAGE,
   cacheIsFresh,
   scriptureCacheWithinLicense,
 } from "@/lib/bible/notice";
@@ -85,10 +87,11 @@ describe("API.Bible NKJV client", () => {
     expect(JSON.stringify(result)).not.toContain(KEY);
   });
 
-  it("requests a passage id and reads Psalm as an alias", async () => {
+  it("serves passages from one shared chapter fetch and still returns a FUMS token", async () => {
     expect(parseReference("Psalm 119:105")?.book.id).toBe("PSA");
     const fetchImpl = vi.fn(async (input: string) => {
-      expect(input).toContain(`/passages/${encodeURIComponent("JHN.3.16-JHN.3.17")}`);
+      expect(input).toContain("/chapters/JHN.3?");
+      expect(input).not.toContain("/passages/");
       expect(input).not.toContain(KEY);
       return new Response(
         JSON.stringify(
@@ -100,11 +103,42 @@ describe("API.Bible NKJV client", () => {
         { status: 200 },
       );
     });
-    const result = await loadPassage("John 3:16-17", { fetch: fetchImpl, key: KEY });
-    expect(result.ok).toBe(true);
-    if (!result.ok) return;
-    expect(result.data.verses.map((verse) => verse.verse)).toEqual([16, 17]);
-    expect(result.data.ref).toBe("John 3:16-17");
+    const cache = createMemoryScriptureCache("test-cache-secret");
+    const deps = { fetch: fetchImpl, key: KEY, cache };
+    const range = await loadPassage("John 3:16-17", deps);
+    const one = await loadPassage("John 3:16", deps);
+    expect(fetchImpl).toHaveBeenCalledOnce();
+    expect(range.ok).toBe(true);
+    expect(one.ok).toBe(true);
+    if (!range.ok || !one.ok) return;
+    expect(range.data.verses.map((verse) => verse.verse)).toEqual([16, 17]);
+    expect(range.data.ref).toBe("John 3:16-17");
+    expect(one.data.verses[0]?.text).toBe("First sample sentence.");
+    expect(one.data.fumsToken).toBe("fums-token-test");
+    expect(range.data.fumsToken).toBe("fums-token-test");
+    const sealed = cache.sealed("JHN", 3) ?? "";
+    expect(sealed).not.toContain("First sample");
+    expect(sealed).not.toContain("Second sample");
+    expect(sealed).not.toContain("fums-token-test");
+  });
+
+  it("answers a monthly quota error with the friendly message and keeps a fresh chapter", async () => {
+    const cache = createMemoryScriptureCache("test-cache-secret");
+    const denied = vi.fn(async () => new Response("monthly quota exceeded", { status: 429 }));
+    const cold = await loadChapter("GEN", 1, { fetch: denied, key: KEY, cache });
+    expect(cold).toMatchObject({ ok: false, status: 502, message: SCRIPTURE_RETRY_MESSAGE });
+    expect(JSON.stringify(cold)).not.toContain("quota");
+
+    const filled = vi.fn(async () => new Response(JSON.stringify(envelope(chapterContent)), { status: 200 }));
+    const warm = await loadChapter("GEN", 1, { fetch: filled, key: KEY, cache });
+    expect(warm.ok).toBe(true);
+    const blocked = vi.fn(async () => new Response("monthly quota exceeded", { status: 429 }));
+    const hit = await loadChapter("GEN", 1, { fetch: blocked, key: KEY, cache });
+    expect(blocked).not.toHaveBeenCalled();
+    expect(hit.ok).toBe(true);
+    if (!hit.ok) return;
+    expect(hit.data.fumsToken).toBe("fums-token-test");
+    expect(hit.data.verses[0]?.text).toBe("Alpha created the sample.");
   });
 
   it("records the API.Bible status without returning the key", async () => {
@@ -226,9 +260,54 @@ describe("API.Bible stays on the server", () => {
     expect(server).toContain('import "server-only"');
     expect(server).toContain("https://rest.api.bible/v1");
     expect(server).toContain("63097d2a0a2f7db3-01");
+    const secretHits: string[] = [];
+    const walkSecrets = (dir: string) => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) walkSecrets(full);
+        else if (/\.(ts|tsx)$/.test(entry.name)) {
+          const source = fs.readFileSync(full, "utf8");
+          if (source.includes("SUPABASE_SECRET_KEY") || source.includes("SCRIPTURE_CACHE_KEY")) {
+            if (!full.endsWith(`${path.sep}scripture-cache.ts`)) secretHits.push(full);
+          }
+        }
+      }
+    };
+    walkSecrets(root);
+    expect(secretHits).toEqual([]);
     const worker = fs.readFileSync(path.join(process.cwd(), "public/sw.js"), "utf8");
     expect(worker).toContain('url.pathname.startsWith("/api/bible")');
     expect(worker).toContain("no-store");
+  });
+});
+
+describe("scripture chapter cache migration", () => {
+  const sql = fs.readFileSync(
+    path.join(process.cwd(), "supabase/migrations/20261103011530_scripture_chapter_cache.sql"),
+    "utf8",
+  );
+
+  it("is shared, encrypted, and closed to the browser", () => {
+    expect(sql).toContain("create table public.scripture_chapter_cache");
+    expect(sql).toContain("primary key (book_id, chapter)");
+    expect(sql).not.toContain("user_id");
+    expect(sql).toContain("payload text not null");
+    expect(sql).toContain("ciphertext");
+    expect(sql).toContain("alter table public.scripture_chapter_cache enable row level security");
+    expect(sql).toContain("revoke all on public.scripture_chapter_cache from anon, authenticated, public");
+    expect(sql).not.toMatch(/create policy/);
+    expect(sql).not.toMatch(/verse_text|scripture_text|passage_text|nkjv_text/);
+    const apiRoot = path.join(process.cwd(), "src/app/api");
+    const dumps: string[] = [];
+    const walk = (dir: string) => {
+      for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+        const full = path.join(dir, entry.name);
+        if (entry.isDirectory()) walk(full);
+        else if (fs.readFileSync(full, "utf8").includes("scripture_chapter_cache")) dumps.push(full);
+      }
+    };
+    walk(apiRoot);
+    expect(dumps).toEqual([]);
   });
 });
 
