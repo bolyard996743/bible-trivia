@@ -1,5 +1,6 @@
 import { stageRank } from "../curriculum";
 import { earnedFirstTryIds } from "../game/badges";
+import { mergeBadgeRetries } from "../game/badge-retry";
 import { knowledgeStage } from "../game/progression";
 import { TIERS, type AttemptState, type GameProgress, type KnowledgeStage, type Tier } from "../game/types";
 import type { VerseMark } from "../bible/marks";
@@ -73,6 +74,7 @@ export function mergeLadderProgress(local: GameProgress, remote: GameProgress): 
     draw: Math.max(local.draw ?? 0, remote.draw ?? 0),
     points: Math.max(local.points ?? 0, remote.points ?? 0),
     openAttempt: preferAttempt(local, remote),
+    badgeRetries: mergeBadgeRetries(local.badgeRetries, remote.badgeRetries),
   };
 }
 

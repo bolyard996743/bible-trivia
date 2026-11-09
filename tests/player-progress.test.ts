@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { mergeAccountProgress } from "@/lib/account/merge";
 import { mergeBestPlayerState, withGuide } from "@/lib/account/player-progress";
 import { badgeEarned } from "@/lib/game/badges";
+import { isBadgeWaiting } from "@/lib/game/badge-retry";
 import { emptyProgress } from "@/lib/game/progression";
 import { createState, readLocalState, writeLocalState, STORAGE_KEY, type StoredState } from "@/lib/storage";
 
@@ -160,5 +161,35 @@ describe("mascot-keyed progress", () => {
     expect(again?.progress.points).toBe(40);
     expect(badgeEarned(again!.progress, badge)).toBe(true);
     expect(storage.getItem(`${STORAGE_KEY}:hunter`)).toBeNull();
+  });
+
+  it("keeps an earned badge and a per-badge retry clock when guide copies merge", () => {
+    const during = new Date("2026-11-03T18:30:00.000Z");
+    const locked = player("judah", {
+      masteredIds: ["q1"],
+      firstTryIds: ["q1"],
+      badgeRetries: {
+        "seed-jonah": {
+          correctIds: [],
+          retryAt: "2026-11-04T18:00:00.000Z",
+          updatedAt: "2026-11-03T18:00:00.000Z",
+        },
+      },
+    });
+    const earned = player("agnes", {
+      masteredIds: ["q1", "q2"],
+      firstTryIds: [],
+    });
+    const merged = mergeBestPlayerState([locked, earned], "judah");
+    expect(merged?.mascot).toBe("judah");
+    expect(badgeEarned(merged!.progress, badge)).toBe(true);
+    expect(isBadgeWaiting(merged!.progress, "seed-jonah", during)).toBe(true);
+    expect(merged?.progress.badgeRetries).not.toHaveProperty("judah");
+    expect(merged?.progress.badgeRetries).not.toHaveProperty("agnes");
+    const switched = withGuide(merged!, { ageGroup: "child", mascot: "hunter", soundOn: true });
+    expect(switched.mascot).toBe("hunter");
+    expect(switched.progress.badgeRetries?.["seed-jonah"]?.retryAt).toBe("2026-11-04T18:00:00.000Z");
+    expect(badgeEarned(switched.progress, badge)).toBe(true);
+    expect(isBadgeWaiting(switched.progress, "seed-jonah", during)).toBe(true);
   });
 });

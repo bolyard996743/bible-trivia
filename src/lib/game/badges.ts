@@ -1,6 +1,9 @@
 import { stageRank, STAGES } from "../curriculum";
+import { badgeRunEarned, isBadgeWaiting, openAttemptCorrectIds, passedFirstTry } from "./badge-retry";
 import type { GameProgress, KnowledgeStage, Question } from "./types";
 import { knowledgePath, stagePath, type AdvanceRule, type KnowledgePathFile, type PathBadge } from "./path";
+
+export { earnedFirstTryIds, passedFirstTry } from "./badge-retry";
 
 export function sectionSlug(section: string): string {
   return section
@@ -13,31 +16,19 @@ export function stageSlug(stage: string): string {
   return sectionSlug(stage);
 }
 
-/**
- * Questions that fill a badge.
- * The saved list counts, and so does a mastered question with no misses.
- * An empty list is not proof that nothing was earned: older saves, and account
- * rows that never stored the flag, still have the answer on the mastered list.
- */
-export function earnedFirstTryIds(progress: GameProgress | undefined): string[] {
-  if (!progress) return [];
-  const explicit = progress.firstTryIds ?? [];
-  const inferred = progress.masteredIds.filter((id) => (progress.missCounts?.[id] ?? 0) === 0);
-  return [...new Set([...explicit, ...inferred])];
-}
-
-/** A first try is either recorded or inferred from a mastered question with no misses. */
-export function passedFirstTry(progress: GameProgress, questionId: string): boolean {
-  return earnedFirstTryIds(progress).includes(questionId);
-}
-
 export function badgesFor(stage: KnowledgeStage, path: KnowledgePathFile = knowledgePath): PathBadge[] {
   return stagePath(stage, path)?.badges ?? [];
 }
 
-/** A badge with no questions yet cannot be earned. The slot stays empty. */
+/**
+ * A badge with no questions yet cannot be earned. The slot stays empty.
+ * A stored attempt earns the badge only when every question was right in that attempt.
+ * Older saves, which have no attempt record, still count first-try answers.
+ */
 export function badgeEarned(progress: GameProgress, badge: PathBadge): boolean {
   if (badge.questionIds.length === 0) return false;
+  const attempt = badgeRunEarned(progress, badge);
+  if (attempt !== null) return attempt;
   return badge.questionIds.every((id) => passedFirstTry(progress, id));
 }
 
@@ -77,12 +68,16 @@ export function selectBadgeQuestion(
   questions: Question[],
   progress: GameProgress,
   badge: PathBadge,
+  now: Date = new Date(),
 ): Question | null {
+  if (badgeEarned(progress, badge)) return null;
+  if (isBadgeWaiting(progress, badge.id, now)) return null;
+  const answered = new Set(openAttemptCorrectIds(progress, badge.id));
   const byId = new Map(questions.map((question) => [question.id, question]));
-  const mastered = new Set(progress.masteredIds);
   for (const id of badge.questionIds) {
+    if (answered.has(id)) continue;
     const question = byId.get(id);
-    if (question && !mastered.has(id)) return question;
+    if (question) return question;
   }
   return null;
 }

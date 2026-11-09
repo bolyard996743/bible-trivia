@@ -1,6 +1,7 @@
 import type { VerseMark } from "../bible/marks";
 import { normalizeHighlightColor, type HighlightColor } from "../bible/marks";
 import { earnedFirstTryIds } from "../game/badges";
+import { badgeRetriesFromJson, badgeRetriesToJson } from "../game/badge-retry";
 import { emptyProgress } from "../game/progression";
 import { KNOWLEDGE_PATH, MASCOT_IDS, TIERS, type GameProgress, type KnowledgeStage, type MascotId, type Tier } from "../game/types";
 import type { StoredState } from "../storage";
@@ -27,6 +28,8 @@ export type ProfileRow = {
   points?: number;
   username?: string;
   birth_date?: string | null;
+  /** Badge id keys only. Never a mascot id. Empty until a badge attempt is stored. */
+  badge_retries?: Record<string, unknown>;
 };
 
 export type QuestionRow = {
@@ -90,6 +93,7 @@ export function profileToRow(userId: string, state: StoredState): ProfileRow {
     best_streak: state.progress.bestStreak,
     season_mastered_count: state.progress.seasonMasteredCount,
     last_visited_on: state.lastVisitedOn,
+    badge_retries: badgeRetriesToJson(state.progress.badgeRetries),
     ...(state.username ? { username: state.username } : {}),
   };
 }
@@ -159,6 +163,8 @@ export function rowToState(row: ProfileRow, questions: QuestionRow[]): StoredSta
     points: row.points,
     stage: isStage(row.placement_stage) ? row.placement_stage : "Seed",
   };
+  const badgeRetries = badgeRetriesFromJson(row.badge_retries);
+  if (badgeRetries) progress.badgeRetries = badgeRetries;
   const placement =
     row.placement_cycle != null && isTier(row.placement_tier) && isStage(row.placement_stage)
       ? {

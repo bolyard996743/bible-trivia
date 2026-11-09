@@ -1,5 +1,6 @@
 import { mergeBestPlayerState } from "./account/player-progress";
 import { earnedFirstTryIds } from "./game/badges";
+import { normalizeBadgeRetries } from "./game/badge-retry";
 import { emptyProgress, knowledgeStage } from "./game/progression";
 import {
   AGE_GROUPS,
@@ -122,6 +123,9 @@ export function parseState(raw: string | null): StoredState | null {
     value.progress.scoredIds = stringList(value.progress.scoredIds);
     value.progress.placementIds = stringList(value.progress.placementIds);
     value.progress.openAttempt = readOpenAttempt(value.progress.openAttempt);
+    const badgeRetries = normalizeBadgeRetries(value.progress.badgeRetries);
+    if (badgeRetries) value.progress.badgeRetries = badgeRetries;
+    else delete value.progress.badgeRetries;
     value.progress.draw ??= 0;
     value.progress.points ??= 0;
     value.showDifficulty = value.showDifficulty === true;
