@@ -1,3 +1,5 @@
+import { mergeBestPlayerState } from "./account/player-progress";
+import { earnedFirstTryIds } from "./game/badges";
 import { normalizeBadgeRetries } from "./game/badge-retry";
 import { emptyProgress, knowledgeStage } from "./game/progression";
 import {
@@ -142,12 +144,115 @@ export function parseState(raw: string | null): StoredState | null {
   }
 }
 
-export function readLocalState(storage: { getItem(key: string): string | null }): StoredState | null {
-  return parseState(storage.getItem(STORAGE_KEY));
+type LocalBucket = {
+  getItem(key: string): string | null;
+  setItem?(key: string, value: string): void;
+  removeItem?(key: string): void;
+  length?: number;
+  key?(index: number): string | null;
+};
+
+/** Write the badge list next to the rest of the progress so a reload can read it. */
+export function withDurableBadges(state: StoredState): StoredState {
+  const firstTryIds = earnedFirstTryIds(state.progress);
+  const current = state.progress.firstTryIds;
+  if (current && current.length === firstTryIds.length && current.every((id, index) => id === firstTryIds[index])) {
+    return state;
+  }
+  return { ...state, progress: { ...state.progress, firstTryIds } };
+}
+
+function isLegacyProgressKey(key: string): boolean {
+  return key !== STORAGE_KEY && key.startsWith(STORAGE_KEY);
+}
+
+export function legacyProgressKeys(storage: LocalBucket): string[] {
+  const found = new Set<string>();
+  if (typeof storage.length === "number" && typeof storage.key === "function") {
+    for (let index = 0; index < storage.length; index += 1) {
+      const key = storage.key(index);
+      if (key && isLegacyProgressKey(key)) found.add(key);
+    }
+  }
+  for (const id of MASCOT_IDS) {
+    for (const key of [`${STORAGE_KEY}:${id}`, `${STORAGE_KEY}-${id}`, `${STORAGE_KEY}_${id}`]) {
+      if (storage.getItem(key) != null) found.add(key);
+    }
+  }
+  return [...found];
+}
+
+function stateFromSlot(base: Record<string, unknown>, mascot: string, slot: unknown): StoredState | null {
+  const direct = parseState(JSON.stringify(slot));
+  if (direct) {
+    return MASCOT_IDS.includes(mascot as MascotId) ? { ...direct, mascot: mascot as MascotId } : direct;
+  }
+  if (!slot || typeof slot !== "object" || !MASCOT_IDS.includes(mascot as MascotId)) return null;
+  const placements = base.placementByMascot;
+  const placement =
+    placements && typeof placements === "object" ? (placements as Record<string, unknown>)[mascot] ?? null : null;
+  return parseState(
+    JSON.stringify({
+      version: 1,
+      ageGroup: base.ageGroup,
+      mascot,
+      soundOn: typeof base.soundOn === "boolean" ? base.soundOn : true,
+      placementComplete: placement != null || base.placementComplete === true,
+      placement,
+      progress: slot,
+      lastVisitedOn: typeof base.lastVisitedOn === "string" ? base.lastVisitedOn : null,
+      celebration: null,
+    }),
+  );
+}
+
+function embeddedMascotStates(raw: string | null): { present: boolean; states: StoredState[] } {
+  if (!raw) return { present: false, states: [] };
+  let value: unknown;
+  try {
+    value = JSON.parse(raw);
+  } catch {
+    return { present: false, states: [] };
+  }
+  if (!value || typeof value !== "object") return { present: false, states: [] };
+  const record = value as Record<string, unknown>;
+  const buckets = [record.progressByMascot, record.byMascot];
+  const present = buckets.some((bucket) => bucket != null && typeof bucket === "object") || record.placementByMascot != null;
+  const states: StoredState[] = [];
+  for (const bucket of buckets) {
+    if (!bucket || typeof bucket !== "object") continue;
+    for (const [mascot, slot] of Object.entries(bucket as Record<string, unknown>)) {
+      const parsed = stateFromSlot(record, mascot, slot);
+      if (parsed) states.push(parsed);
+    }
+  }
+  return { present, states };
+}
+
+export function readLocalState(storage: LocalBucket): StoredState | null {
+  const raw = storage.getItem(STORAGE_KEY);
+  const current = parseState(raw);
+  const embedded = embeddedMascotStates(raw);
+  const keys = legacyProgressKeys(storage);
+  const legacy = keys.flatMap((key) => {
+    const parsed = parseState(storage.getItem(key));
+    return parsed ? [parsed] : [];
+  });
+  if (!embedded.present && legacy.length === 0) return current;
+  const merged = mergeBestPlayerState([current, ...embedded.states, ...legacy], current?.mascot);
+  if (merged && storage.setItem) {
+    storage.setItem(STORAGE_KEY, JSON.stringify(withDurableBadges(merged)));
+  }
+  if (storage.removeItem) {
+    for (const key of keys) {
+      if (parseState(storage.getItem(key))) storage.removeItem(key);
+    }
+  }
+  return merged ?? current;
 }
 
 export function writeLocalState(state: StoredState, storage: { setItem(key: string, value: string): void }): void {
-  storage.setItem(STORAGE_KEY, JSON.stringify(state));
+  storage.setItem(STORAGE_KEY, JSON.stringify(withDurableBadges(state)));
 }
 
 export function loadState(): StoredState | null {

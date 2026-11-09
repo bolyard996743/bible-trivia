@@ -3,7 +3,7 @@ import { badgeRunEarned, isBadgeWaiting, openAttemptCorrectIds, passedFirstTry }
 import type { GameProgress, KnowledgeStage, Question } from "./types";
 import { knowledgePath, stagePath, type AdvanceRule, type KnowledgePathFile, type PathBadge } from "./path";
 
-export { passedFirstTry } from "./badge-retry";
+export { earnedFirstTryIds, passedFirstTry } from "./badge-retry";
 
 export function sectionSlug(section: string): string {
   return section

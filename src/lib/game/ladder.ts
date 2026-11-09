@@ -8,7 +8,7 @@ import {
   stageRank,
   topicLabel,
 } from "../curriculum";
-import { gateFromBadges } from "./badges";
+import { earnedFirstTryIds, gateFromBadges } from "./badges";
 import type { GameProgress, KnowledgeStage, Question, Tier } from "./types";
 import { TIER_LABELS, TIERS } from "./types";
 
@@ -175,8 +175,7 @@ export function questionMarkers(input: {
 }
 
 function knownFirstTries(progress: GameProgress): string[] {
-  if (progress.firstTryIds) return progress.firstTryIds;
-  return progress.masteredIds.filter((id) => (progress.missCounts?.[id] ?? 0) === 0);
+  return earnedFirstTryIds(progress);
 }
 
 export function recordClear(
