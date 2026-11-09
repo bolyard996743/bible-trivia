@@ -1,8 +1,9 @@
+import { createHash } from "crypto";
 import fs from "fs";
 import os from "os";
 import path from "path";
 import { describe, expect, it } from "vitest";
-import { pickMascotLine, selectPlacementQuestions } from "@/lib/game";
+import { linesForPathPlay, pickMascotLine, selectPlacementQuestions } from "@/lib/game";
 import { explanationRevealIssues } from "@/lib/game/reveal";
 import { MOMENTS, TIERS } from "@/lib/game/types";
 import { loadCatalog } from "@/lib/content/load";
@@ -148,6 +149,90 @@ describe("sample content", () => {
     expect(pickMascotLine(lines, "hunter", "wrong_intro", "child", { questionId: "c1-gen-0020" })?.text).toBe(
       "Every story has a first word, friend. Genesis 1:3 tells what the Maker said first.",
     );
+    expect(pickMascotLine(linesForPathPlay(lines), "agnes", "correct", "child", { questionId: "c1-gen-0020" })?.text).toBe(
+      "This is the very beginning of God's story. Let's read Genesis 1:3.",
+    );
+  });
+
+  it("plays the approved Sprout line after every answer", () => {
+    const { lines } = loadCatalog();
+    const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
+      stages: { stage: string; badges: { questionIds: string[] }[] }[];
+    };
+    const sproutIds =
+      pathFile.stages.find((stage) => stage.stage === "Sprout")?.badges.flatMap((badge) => badge.questionIds) ?? [];
+    expect(sproutIds).toHaveLength(136);
+    const pathLines = linesForPathPlay(lines);
+    const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
+    const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
+    const approved: Record<(typeof mascots)[number], Record<string, string>> = {
+      judah: {},
+      agnes: {},
+      shalom: {},
+      zion: {},
+      hunter: {},
+    };
+
+    for (const mascot of mascots) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "sprout_lines.json");
+      const source = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+      approved[mascot] = source;
+      expect(Object.keys(source)).toHaveLength(sproutIds.length);
+      expect(new Set(Object.keys(source))).toEqual(new Set(sproutIds));
+      const owned = lines.filter(
+        (line) =>
+          line.mascot === mascot &&
+          sproutIds.includes(line.question_id ?? "") &&
+          line.id.startsWith(`${mascot}-sprout-`),
+      );
+      expect(owned).toHaveLength(136 * moments.length);
+      expect(new Set(owned.map((line) => line.text)).size).toBe(136);
+      expect(
+        owned.every(
+          (line) => line.audience === "all" && line.audio_file === null && line.text === source[line.question_id ?? ""],
+        ),
+      ).toBe(true);
+    }
+
+    for (const id of sproutIds) {
+      for (const mascot of mascots) {
+        const spoken = moments.map((moment) => pickMascotLine(pathLines, mascot, moment, "adult", { questionId: id }));
+        expect(spoken.every((line) => line?.text === approved[mascot][id] && line.question_id === id && line.audience === "all")).toBe(
+          true,
+        );
+        expect(pickMascotLine(pathLines, mascot, "correct", "child", { questionId: id })?.text).toBe(approved[mascot][id]);
+        expect(pickMascotLine(pathLines, mascot, "wrong_intro", "older", { questionId: id })?.text).toBe(approved[mascot][id]);
+      }
+    }
+
+    expect(approved.agnes["c1-mat-0009"]).toBe("Jesus was on His way to be baptized. Let's read Matthew 3:13 together.");
+    expect(approved.judah["c1-mat-0009"]).toBe("Jesus made a journey to meet John at the water. Let's read Matthew 3:13.");
+    expect(approved.shalom["c1-mat-0009"]).toBe(
+      "Jesus was on a long walk to meet John. See where that trip began in Matthew 3:13.",
+    );
+    expect(approved.zion["c1-mat-0009"]).toBe("Jesus came to meet John. See where He traveled from in Matthew 3:13.");
+    expect(approved.hunter["c1-mat-0009"]).toBe("Jesus made a long walk to meet John. Matthew 3:13 says where He started.");
+    expect(approved.agnes["c1-dan-0001"]).toBe("Daniel spent the night in the lions' den. Let's read Daniel 6:22.");
+    expect(pickMascotLine(lines, "agnes", "wrong_intro", "child", { questionId: "c1-dan-0001" })?.text).toBe(
+      "That's okay, friend. Let's read Daniel 6:22 together and look for who God sent.",
+    );
+    expect(pickMascotLine(pathLines, "agnes", "correct_after_retry", "older", { questionId: "c1-dan-0001" })?.text).toBe(
+      approved.agnes["c1-dan-0001"],
+    );
+  });
+
+  it("keeps each sprout line file byte for byte", () => {
+    const hashes: Record<string, string> = {
+      agnes: "98c0c4c69461249406973635cd2739c13b3aa8dd08217c1b5505df6a012043ec",
+      hunter: "050b1d37fd9da4ac6e7485af85be22e5a02b7859ef9d10943effe2c1604b81df",
+      judah: "a85ca2d9e8ed6e075e6d83cfad725afc6da68fccd1e8933ea9af7e294cdbfefa",
+      shalom: "2a3b5f8fcd618e8d9c5ebe5e6de94300febf5a84ea232cd2e1f1e33e1eadb86d",
+      zion: "5165b36c71d322d82fd2056fc1cc0f000c59802438b45dcb123c54d80a4c29f2",
+    };
+    for (const [mascot, hash] of Object.entries(hashes)) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "sprout_lines.json");
+      expect(createHash("sha256").update(fs.readFileSync(file)).digest("hex")).toBe(hash);
+    }
   });
 });
 
@@ -236,6 +321,32 @@ describe("schema rejects a bad file", () => {
     const result = validateContentTree(dir);
     expect(result.ok).toBe(false);
     expect(result.errors).toContain("Seed question c1-gen-0020 is missing a correct line for agnes");
+  });
+
+  it("fails when a Sprout question is missing one guide's answer line", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "sprout_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    delete lines["c1-mat-0009"];
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("Sprout question c1-mat-0009 is missing a correct line for agnes");
+  });
+
+  it("fails when a sprout line names a question outside Sprout", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "sprout_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    lines["c1-gen-0020"] = "This seed question does not belong in the sprout file.";
+    lines["c1-missing-0001"] = "Nobody wrote this question.";
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("content/mascots/agnes/sprout_lines.json: c1-gen-0020 is not a Sprout question");
+    expect(result.errors).toContain("content/mascots/agnes/sprout_lines.json: c1-missing-0001 references unknown question");
   });
 
   it("fails when Hunter states that he swallowed Jonah", () => {

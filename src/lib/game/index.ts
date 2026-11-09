@@ -10,7 +10,7 @@ export {
   submitAnswer,
   wasFirstAttempt,
 } from "./mastery";
-export { mascotLineAudioSrc, pickMascotLine } from "./mascot";
+export { linesForPathPlay, mascotLineAudioSrc, pickMascotLine } from "./mascot";
 export {
   PLACEMENT_BANDS,
   TIER_WEIGHT,
