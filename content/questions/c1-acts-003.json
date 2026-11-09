@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-act-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 9",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Saul came near Damascus, what suddenly shone around him from heaven?",
+        "child": "Saul was traveling to Damascus. What suddenly shone all around him from heaven?",
+        "teen": "On the road near Damascus, what suddenly flashed around Saul from heaven?",
+        "older": "According to Acts 9:3, what suddenly shone around Saul from heaven as he neared Damascus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A light"
+        },
+        {
+          "id": "b",
+          "text": "A fire"
+        },
+        {
+          "id": "c",
+          "text": "A rainbow"
+        },
+        {
+          "id": "d",
+          "text": "A golden crown"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 9:3",
+            "text": "As he journeyed he came near Damascus, and suddenly a light shone around him from heaven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 9:3 tells what shone around Saul. Read the end of the verse.",
+          "child": "Read Acts 9:3. The end tells what shone around Saul.",
+          "teen": "Check Acts 9:3. Look at the last part of the verse.",
+          "older": "Acts 9:3 names, in its last words, what shone around Saul."
+        },
+        "extended_explanation": "Saul was on his way to Damascus when something happened suddenly. Acts 9:3 tells what came from heaven.",
+        "takeaway": "A light from heaven shone around Saul."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0018",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 9",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the road to Damascus, something shone around Saul from heaven. What did Saul do right then?",
+        "child": "Saul was on his way to Damascus when something from heaven shone all around him. What did Saul do?",
+        "teen": "Near Damascus, something from heaven suddenly shone around Saul. How did he react right away?",
+        "older": "According to Acts 9:4, what did Saul do after something from heaven shone around him near Damascus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ran to the city"
+        },
+        {
+          "id": "b",
+          "text": "Fell to the ground"
+        },
+        {
+          "id": "c",
+          "text": "Hid his face"
+        },
+        {
+          "id": "d",
+          "text": "Called for help"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 9:4",
+            "text": "Then he fell to the ground, and heard a voice saying to him, “Saul, Saul, why are you persecuting Me?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 9:4 tells what Saul did next.",
+          "child": "Read the first part of Acts 9:4. It tells what Saul did before he heard a voice.",
+          "teen": "Acts 9:4 opens with Saul's response. Read the first few words.",
+          "older": "Read the beginning of Acts 9:4 for what Saul did."
+        },
+        "extended_explanation": "Something had just shone around him from heaven. Acts 9:4 tells what happened to Saul next, before he heard the voice speak his name.",
+        "takeaway": "Saul fell to the ground."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: moved off Acts 9:5 so the later “Believe on the Lord Jesus Christ” card no longer answers this question. Now Acts 9:4, answer “Fell to the ground.” Manager wording pass: child explanation no longer uses “A light,” which is another question’s answer."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0019",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 9",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After he was led into Damascus, how many days was Saul unable to see?",
+        "child": "Saul was led into Damascus because he could not see. For how many days was he without sight?",
+        "teen": "Saul couldn't see for a while. How many days did that last?",
+        "older": "According to Acts 9:9, for how many days was Saul without sight?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "One"
+        },
+        {
+          "id": "b",
+          "text": "Seven"
+        },
+        {
+          "id": "c",
+          "text": "Three"
+        },
+        {
+          "id": "d",
+          "text": "Twelve"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 9:9",
+            "text": "And he was three days without sight, and neither ate nor drank.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 9:9 gives the number of days. Read the start of the verse.",
+          "child": "Read Acts 9:9. The number of days is near the beginning.",
+          "teen": "Check Acts 9:9. The number is in the first part.",
+          "older": "Acts 9:9 states the number of days at its opening."
+        },
+        "extended_explanation": "Saul could not see, and he did not eat or drink. Acts 9:9 tells how long this went on.",
+        "takeaway": "Saul was three days without sight."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0020",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 9",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which disciple in Damascus did the Lord speak to in a vision about Saul?",
+        "child": "The Lord spoke in a vision to a disciple in Damascus. What was his name?",
+        "teen": "God gave a vision to a disciple in Damascus. What was the disciple's name?",
+        "older": "According to Acts 9:10, what was the name of the disciple at Damascus to whom the Lord spoke in a vision?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Barnabas"
+        },
+        {
+          "id": "b",
+          "text": "Stephen"
+        },
+        {
+          "id": "c",
+          "text": "Timothy"
+        },
+        {
+          "id": "d",
+          "text": "Ananias"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 9:10",
+            "text": "Now there was a certain disciple at Damascus named Ananias; and to him the Lord said in a vision, “Ananias.” And he said, “Here I am, Lord.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 9:10 names the disciple at Damascus. Read the first part of the verse.",
+          "child": "Read Acts 9:10. The disciple's name is in the verse, and the Lord calls him by it.",
+          "teen": "Check Acts 9:10. The disciple is named, and the Lord says his name too.",
+          "older": "Acts 9:10 names the disciple, and the Lord addresses him by name."
+        },
+        "extended_explanation": "The Lord had a job for a disciple who lived in Damascus. Acts 9:10 tells his name and how he answered the Lord.",
+        "takeaway": "The Lord spoke to a disciple named Ananias."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0021",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 9",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When a disciple laid his hands on Saul, what fell from Saul's eyes?",
+        "child": "A disciple put his hands on Saul. Then something fell from Saul's eyes. What was it?",
+        "teen": "After hands were laid on Saul, something dropped from his eyes. What was it like?",
+        "older": "According to Acts 9:18, what fell from Saul's eyes before he received his sight?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tears of joy"
+        },
+        {
+          "id": "b",
+          "text": "Something like scales"
+        },
+        {
+          "id": "c",
+          "text": "Drops of water"
+        },
+        {
+          "id": "d",
+          "text": "Pieces of a cloth band"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 9:18",
+            "text": "Immediately there fell from his eyes something like scales, and he received his sight at once; and he arose and was baptized.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 9:18 describes what fell from Saul's eyes. Read the first part of the verse.",
+          "child": "Read Acts 9:18. The start tells what fell from his eyes.",
+          "teen": "Check Acts 9:18. The first part says what fell from his eyes.",
+          "older": "Acts 9:18 describes, at its opening, what fell from Saul's eyes."
+        },
+        "extended_explanation": "Right after this happened, Saul could see again, and he was baptized. Acts 9:18 describes what fell from his eyes.",
+        "takeaway": "Something like scales fell from Saul's eyes, and he could see again."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0022",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 16",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul and Silas were in prison. What were they doing at midnight?",
+        "child": "Paul and Silas were locked in prison. What were they doing in the middle of the night?",
+        "teen": "Stuck in prison, what were Paul and Silas doing at midnight?",
+        "older": "According to Acts 16:25, what were Paul and Silas doing at midnight in the prison?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Praying and singing"
+        },
+        {
+          "id": "b",
+          "text": "Digging a tunnel"
+        },
+        {
+          "id": "c",
+          "text": "Arguing with guards"
+        },
+        {
+          "id": "d",
+          "text": "Sleeping on the floor"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 16:25",
+            "text": "But at midnight Paul and Silas were praying and singing hymns to God, and the prisoners were listening to them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 16:25 tells what Paul and Silas were doing. Read the first part of the verse.",
+          "child": "Read Acts 16:25. It tells what Paul and Silas were doing, and who was listening.",
+          "teen": "Check Acts 16:25. It says what they were doing at midnight.",
+          "older": "Acts 16:25 describes Paul and Silas's activity at midnight and who heard them."
+        },
+        "extended_explanation": "Saul is also known as Paul. Even in a hard place, Paul and Silas were doing something the other prisoners noticed. Acts 16:25 tells what it was.",
+        "takeaway": "Paul and Silas were praying and singing hymns to God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: added a brief name-bridge sentence (“Saul is also known as Paul”) without citing Acts 13:9."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0023",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 16",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Why were all the prison doors opened and everyone's chains loosed?",
+        "child": "Suddenly all the prison doors opened and the chains came off. What caused this?",
+        "teen": "All the prison doors flew open and the chains came loose. What made that happen?",
+        "older": "According to Acts 16:26, what caused the prison doors to open and the chains to be loosed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A fire in the city"
+        },
+        {
+          "id": "b",
+          "text": "A big flood of water"
+        },
+        {
+          "id": "c",
+          "text": "A great earthquake"
+        },
+        {
+          "id": "d",
+          "text": "The guards fell asleep"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 16:26",
+            "text": "Suddenly there was a great earthquake, so that the foundations of the prison were shaken; and immediately all the doors were opened and everyone’s chains were loosed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 16:26 tells what happened suddenly. Read the first part of the verse.",
+          "child": "Read Acts 16:26. The start tells what shook the prison.",
+          "teen": "Check Acts 16:26. The first part says what shook the prison.",
+          "older": "Acts 16:26 names the event that shook the prison's foundations."
+        },
+        "extended_explanation": "Something shook the prison all the way down to its foundations. Then the doors opened and the chains came loose. Acts 16:26 tells what it was.",
+        "takeaway": "A great earthquake opened the doors and loosed the chains."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0024",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 16",
+      "topics": [
+        "saul-paul"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The jailer asked, \"Sirs, what must I do to be saved?\" What did Paul and Silas tell him?",
+        "child": "The jailer asked Paul and Silas how he could be saved. What did they tell him?",
+        "teen": "The jailer asked what he had to do to be saved. What did Paul and Silas say?",
+        "older": "According to Acts 16:31, how did Paul and Silas answer the jailer's question about being saved?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep every rule"
+        },
+        {
+          "id": "b",
+          "text": "Run away at dawn"
+        },
+        {
+          "id": "c",
+          "text": "Give a large gift"
+        },
+        {
+          "id": "d",
+          "text": "Believe on the Lord Jesus"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 16:31",
+            "text": "So they said, “Believe on the Lord Jesus Christ, and you will be saved, you and your household.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 16:31 gives Paul and Silas's answer. Read the first part of what they said.",
+          "child": "Read Acts 16:31. Their answer starts the verse.",
+          "teen": "Check Acts 16:31. The answer is at the beginning.",
+          "older": "Acts 16:31 records their reply, beginning with what the jailer must do."
+        },
+        "extended_explanation": "The jailer was afraid and asked an important question. Acts 16:31 gives the answer, and it was for his whole household too.",
+        "takeaway": "They told him to believe on the Lord Jesus Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed padded wrongs so this correct answer is one of two longest in the badge."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

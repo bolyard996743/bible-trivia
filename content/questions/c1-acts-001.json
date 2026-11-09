@@ -1,12 +1,192 @@
 {
   "format_version": 1,
   "batch_id": "c1-acts-001",
-  "author": "Sample (placeholder)",
+  "author": "Content",
   "questions": [
     {
       "id": "c1-act-0001",
       "cycle": 1,
-      "tier": "advanced",
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 1",
+      "topics": [
+        "pentecost"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before He was taken up, what did Jesus say the disciples would receive when the Holy Spirit came upon them?",
+        "child": "Jesus made a promise to His disciples. What would they get when the Holy Spirit came upon them?",
+        "teen": "Jesus promised the disciples something for when the Holy Spirit came on them. What was it?",
+        "older": "According to Acts 1:8, what would the disciples receive when the Holy Spirit came upon them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gold"
+        },
+        {
+          "id": "b",
+          "text": "Power"
+        },
+        {
+          "id": "c",
+          "text": "Crowns"
+        },
+        {
+          "id": "d",
+          "text": "A new house"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 1:8",
+            "text": "But you shall receive power when the Holy Spirit has come upon you; and you shall be witnesses to Me in Jerusalem, and in all Judea and Samaria, and to the end of the earth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 1:8 begins with Jesus' promise. Read the first few words after \"you shall receive.\"",
+          "child": "Read Acts 1:8. Jesus says what they will receive right at the start.",
+          "teen": "Check Acts 1:8. The promise comes right after \"you shall receive.\"",
+          "older": "Acts 1:8 opens with the promise, stated just after \"you shall receive.\""
+        },
+        "extended_explanation": "Jesus told the disciples what would happen when the Holy Spirit came, and what they would then do as His witnesses. The first part of the verse gives the promise.",
+        "takeaway": "Jesus promised they would receive power when the Holy Spirit came upon them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 1",
+      "topics": [
+        "pentecost"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While the disciples watched Jesus being taken up, what received Him out of their sight?",
+        "child": "The disciples watched as Jesus was taken up. What hid Him from their eyes?",
+        "teen": "As Jesus was taken up, something hid Him from the disciples' view. What was it?",
+        "older": "According to Acts 1:9, what received Jesus out of the disciples' sight as He was taken up?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cloud"
+        },
+        {
+          "id": "b",
+          "text": "A chariot"
+        },
+        {
+          "id": "c",
+          "text": "A whirlwind"
+        },
+        {
+          "id": "d",
+          "text": "A bright star"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 1:9",
+            "text": "Now when He had spoken these things, while they watched, He was taken up, and a cloud received Him out of their sight.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 1:9 tells what took Jesus out of their sight. Read the end of the verse.",
+          "child": "Read Acts 1:9. The end of the verse tells what hid Jesus.",
+          "teen": "Check Acts 1:9. Look at the last part of the verse.",
+          "older": "Acts 1:9 names, in its closing words, what received Jesus out of their sight."
+        },
+        "extended_explanation": "The disciples were watching Jesus as He was taken up. Acts 1:9 tells what came between them and Him.",
+        "takeaway": "A cloud received Jesus out of their sight."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 1",
+      "topics": [
+        "pentecost"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Two men in white spoke to the disciples after Jesus went up. How did they say Jesus would come back?",
+        "child": "Two men in white clothes talked to the disciples. How did they say Jesus would come back?",
+        "teen": "After Jesus went up into heaven, two men in white spoke up. How did they say He would return?",
+        "older": "According to Acts 1:11, in what manner did the two men in white say Jesus would come again?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Never again"
+        },
+        {
+          "id": "b",
+          "text": "As a little baby"
+        },
+        {
+          "id": "c",
+          "text": "Only in a dream at night"
+        },
+        {
+          "id": "d",
+          "text": "The same way they saw Him go"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 1:11",
+            "text": "who also said, “Men of Galilee, why do you stand gazing up into heaven? This same Jesus, who was taken up from you into heaven, will so come in like manner as you saw Him go into heaven.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 1:11 ends with the men's promise about Jesus' return. Read the last part closely.",
+          "child": "Two men in white made a promise about how Jesus would come back. Read the last part of Acts 1:11.",
+          "teen": "Acts 1:11 says how Jesus will come. Look at the words after “will so come.”",
+          "older": "Read the closing words of Acts 1:11, where the men describe the manner of His return."
+        },
+        "extended_explanation": "The disciples kept looking up into heaven. Two men in white asked why, and then made a promise about Jesus. Read how they said He would come.",
+        "takeaway": "Jesus will come back the same way they saw Him go into heaven."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: replaced “In like manner” with “The same way they saw Him go.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0004",
+      "cycle": 1,
+      "tier": "foundation",
       "testament": "NT",
       "book": "Acts",
       "section": "Acts 2",
@@ -16,48 +196,292 @@
       "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
-        "adult": "On the day of Pentecost, what filled the disciples?",
-        "teen": "Acts 2 says the disciples were filled with whom on Pentecost?"
+        "adult": "On the Day of Pentecost, what sound suddenly came from heaven?",
+        "child": "On the Day of Pentecost, the believers heard a sudden sound from heaven. What did it sound like?",
+        "teen": "On the Day of Pentecost, a sound came from heaven and filled the house. What was it like?",
+        "older": "According to Acts 2:2, what sound came from heaven and filled the house on the Day of Pentecost?"
       },
       "choices": [
         {
           "id": "a",
-          "text": "The Holy Spirit"
+          "text": "A trumpet blast outside"
         },
         {
           "id": "b",
-          "text": "The Roman army"
+          "text": "Thunder and rain"
         },
         {
           "id": "c",
-          "text": "A fear of the sea"
+          "text": "A rushing mighty wind"
         },
         {
           "id": "d",
-          "text": "Only the high priest's blessing"
+          "text": "A choir singing hymns"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:2",
+            "text": "And suddenly there came a sound from heaven, as of a rushing mighty wind, and it filled the whole house where they were sitting.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 2:2 describes the sound that filled the house. Read the middle of the verse.",
+          "child": "Read Acts 2:2. It tells what the sound was like.",
+          "teen": "Check Acts 2:2. The verse says what the sound was like.",
+          "older": "Acts 2:2 describes the sound that filled the whole house."
+        },
+        "extended_explanation": "The believers were together in one place. Then something came from heaven that they could hear. Acts 2:2 describes it.",
+        "takeaway": "The sound was like a rushing mighty wind."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed padded wrongs; left one wrong as long as the correct answer so players cannot always skip the longest choice."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": [
+        "pentecost"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the Day of Pentecost, what appeared and rested on each of the believers?",
+        "child": "Something appeared and rested on each believer on the Day of Pentecost. What was it?",
+        "teen": "At Pentecost, something appeared and sat on each person. What did it look like?",
+        "older": "According to Acts 2:3, what appeared to the believers and sat upon each of them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Divided tongues, as of fire"
+        },
+        {
+          "id": "b",
+          "text": "A flock of doves"
+        },
+        {
+          "id": "c",
+          "text": "Shiny golden crowns upon them"
+        },
+        {
+          "id": "d",
+          "text": "Cold drops of rain"
         }
       ],
       "answer": "a",
       "teaching": {
         "verses": [
           {
-            "ref": "Acts 2:4",
-            "text": "And they were all filled with the Holy Spirit and began to speak with other tongues, as the Spirit gave them utterance.",
+            "ref": "Acts 2:3",
+            "text": "Then there appeared to them divided tongues, as of fire, and one sat upon each of them.",
             "translation": "NKJV"
           }
         ],
         "explanation": {
-          "adult": "Acts 2:4 says who filled the disciples and then gave them the words they spoke. Read the verse and choose that person, not an army or a merely human blessing.",
-          "teen": "Pentecost is the day they were filled and spoke as they were given utterance. Acts 2:4 names who filled them."
+          "adult": "Acts 2:3 tells what the believers saw. Read the description at the start of the verse.",
+          "child": "Read Acts 2:3. It tells what appeared over each person.",
+          "teen": "Check Acts 2:3. It says what appeared and sat on each of them.",
+          "older": "Acts 2:3 describes what appeared and rested on each one."
         },
-        "extended_explanation": "Acts 2 is the account of Pentecost. Verse 4 does not say an army arrived or that fear filled them. It names who filled every one of them before they spoke. Match that name.",
-        "takeaway": "On Pentecost the disciples were filled with the Holy Spirit."
+        "extended_explanation": "After the sound from heaven, the believers also saw something. Acts 2:3 tells what it looked like and where it rested.",
+        "takeaway": "Divided tongues, as of fire, sat upon each of them."
       },
       "review": {
         "status": "draft",
-        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed padded wrongs; kept one longer wrong so this is not a third longest-correct."
       },
-      "stage": "Rooted"
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": [
+        "pentecost"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the crowd asked Peter what they should do, what did he tell them?",
+        "child": "People asked Peter, \"What shall we do?\" What did Peter tell them?",
+        "teen": "The crowd asked Peter what they should do. What was his answer?",
+        "older": "According to Acts 2:38, what did Peter tell the people to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build a new temple"
+        },
+        {
+          "id": "b",
+          "text": "Leave the city"
+        },
+        {
+          "id": "c",
+          "text": "Offer a lamb"
+        },
+        {
+          "id": "d",
+          "text": "Repent and be baptized"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:38",
+            "text": "Then Peter said to them, “Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of sins; and you shall receive the gift of the Holy Spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 2:38 gives Peter's answer. Read his first words.",
+          "child": "Read Acts 2:38. Peter's first words tell them what to do.",
+          "teen": "Check Acts 2:38. Peter answers in the first part of the verse.",
+          "older": "Acts 2:38 records Peter's instruction in its opening words."
+        },
+        "extended_explanation": "The people were cut to the heart by Peter's message and asked what to do. Acts 2:38 gives Peter's reply and the promise that came with it.",
+        "takeaway": "Peter told them to repent and be baptized in the name of Jesus Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: shortened the copied choice to “Repent and be baptized” and trimmed padded wrongs so it is one of two longest corrects."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": [
+        "pentecost"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Peter preached on the Day of Pentecost, about how many people were added to the believers that day?",
+        "child": "Peter told the crowd about Jesus, and many believed and were baptized. About how many joined the believers that day?",
+        "teen": "On Pentecost, Peter preached and those who received his message were baptized. Roughly how many were added that day?",
+        "older": "According to Acts 2:41, after Peter's sermon on the Day of Pentecost, about how many souls were added to the believers that day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "About twelve"
+        },
+        {
+          "id": "b",
+          "text": "About three thousand"
+        },
+        {
+          "id": "c",
+          "text": "About three hundred"
+        },
+        {
+          "id": "d",
+          "text": "About thirty thousand"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:41",
+            "text": "Then those who gladly received his word were baptized; and that day about three thousand souls were added to them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 2:41 tells how many were added that day. Read the end of the verse.",
+          "child": "Read Acts 2:41. The end of the verse tells how many joined.",
+          "teen": "Check Acts 2:41. The number is near the end.",
+          "older": "Acts 2:41 gives the number added, near its close."
+        },
+        "extended_explanation": "Peter's message moved many people. The ones who received it were baptized, and Acts 2:41 tells how many were added that day.",
+        "takeaway": "About three thousand people were added that day."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: all four prompts now ask “About how many were added that day?” Replaced “Only the twelve apostles” (overlapped “About twelve”)."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": [
+        "pentecost"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Along with the apostles' teaching and fellowship, what else did the first believers keep doing faithfully?",
+        "child": "The first believers kept learning from the apostles and spending time together. What else did they keep doing?",
+        "teen": "Besides the apostles' teaching and fellowship, what else did the early believers stick with?",
+        "older": "According to Acts 2:42, besides the apostles' doctrine and fellowship, in what did the believers continue steadfastly?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fishing and selling fish"
+        },
+        {
+          "id": "b",
+          "text": "Sailing to faraway lands"
+        },
+        {
+          "id": "c",
+          "text": "Breaking bread and prayers"
+        },
+        {
+          "id": "d",
+          "text": "Building many new houses of worship"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:42",
+            "text": "And they continued steadfastly in the apostles’ doctrine and fellowship, in the breaking of bread, and in prayers.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 2:42 lists four things the believers kept doing. Read the last two.",
+          "child": "Read Acts 2:42. It lists four things. Look at the last two.",
+          "teen": "Check Acts 2:42. Four things are listed; find the last two.",
+          "older": "Acts 2:42 lists four practices; the question asks for the final two."
+        },
+        "extended_explanation": "The new believers did not just hear the message once. Acts 2:42 lists the things they kept doing together.",
+        "takeaway": "They continued in the breaking of bread and in prayers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: shortened the copied choice to “Breaking bread and prayers”; kept one longer wrong so this is not a third longest-correct."
+      },
+      "stage": "Sprout"
     }
   ]
 }

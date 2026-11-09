@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-proverbs-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-pro-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 1",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Proverbs 1:7, the fear of the LORD is the beginning of what?",
+        "child": "Proverbs 1:7 says respecting the LORD is where something begins. The fear of the LORD is the beginning of what?",
+        "teen": "Proverbs 1:7 says the fear of the LORD is the beginning of something. What is it?",
+        "older": "In Proverbs 1:7, of what is the fear of the LORD said to be the beginning?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Riches"
+        },
+        {
+          "id": "b",
+          "text": "Knowledge"
+        },
+        {
+          "id": "c",
+          "text": "Friendship"
+        },
+        {
+          "id": "d",
+          "text": "Sorrow"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 1:7",
+            "text": "The fear of the LORD is the beginning of knowledge, But fools despise wisdom and instruction.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 1:7 contrasts the wise and fools. Read the first line.",
+          "child": "Read Proverbs 1:7. The first part tells what the fear of the LORD begins.",
+          "teen": "Check Proverbs 1:7. The first line finishes the sentence.",
+          "older": "The opening line of Proverbs 1:7 completes the statement about the fear of the LORD."
+        },
+        "extended_explanation": "\"Fear of the LORD\" means deep respect for God. The first line of the verse says where that respect leads first.",
+        "takeaway": "The fear of the LORD is the beginning of knowledge."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-pro-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 1",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 1:8 says to hear your father's instruction and not to forsake the law of whom?",
+        "child": "Proverbs 1:8 says to listen to your dad's teaching. Whose teaching does it also say not to leave behind?",
+        "teen": "Proverbs 1:8 tells a son to hear his father's instruction. Whose law does it say not to forsake?",
+        "older": "In Proverbs 1:8, whose law is the son told not to forsake?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your teacher"
+        },
+        {
+          "id": "b",
+          "text": "The king"
+        },
+        {
+          "id": "c",
+          "text": "Your neighbor"
+        },
+        {
+          "id": "d",
+          "text": "Your mother"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 1:8",
+            "text": "My son, hear the instruction of your father, And do not forsake the law of your mother;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 1:8 names two parents. Read the second line.",
+          "child": "Read Proverbs 1:8. The first part is about the father. The second part names the other parent.",
+          "teen": "Check Proverbs 1:8. The second line tells whose law not to forsake.",
+          "older": "The second half of Proverbs 1:8 identifies the one whose law should not be forsaken."
+        },
+        "extended_explanation": "This verse speaks to a young person about listening at home. It names two people whose teaching matters.",
+        "takeaway": "Do not forsake the law of your mother."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-pro-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 3",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 3:5 says to trust in the LORD with all your heart and not to lean on your own what?",
+        "child": "Proverbs 3:5 says to trust God with all your heart. What does it say not to lean on?",
+        "teen": "Proverbs 3:5 tells us to trust the LORD with all our heart. What should we not lean on?",
+        "older": "According to Proverbs 3:5, on what should one not lean, while trusting in the LORD with all the heart?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wealth and fame"
+        },
+        {
+          "id": "b",
+          "text": "Strength"
+        },
+        {
+          "id": "c",
+          "text": "Understanding"
+        },
+        {
+          "id": "d",
+          "text": "Friends"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 3:5",
+            "text": "Trust in the LORD with all your heart, And lean not on your own understanding;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 3:5 has two lines. Read what the second line says not to lean on.",
+          "child": "Read Proverbs 3:5. The first part says to trust the LORD. The second part says what not to lean on.",
+          "teen": "Check Proverbs 3:5. The second line names what not to lean on.",
+          "older": "The second line of Proverbs 3:5 states what one should not rely on."
+        },
+        "extended_explanation": "The verse sets trusting the LORD against relying on ourselves. The second line names the part of ourselves we should not lean on.",
+        "takeaway": "Lean not on your own understanding."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-pro-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 3",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Proverbs 3:6, what will the LORD do when you remember Him in all your ways?",
+        "child": "Proverbs 3:6 says to remember God in everything you do. What will He do because of that?",
+        "teen": "Proverbs 3:6 says to look to God in all your ways. What does it say He will do as a result?",
+        "older": "In Proverbs 3:6, what result is promised to the one who looks to the LORD in all his ways?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Direct your paths"
+        },
+        {
+          "id": "b",
+          "text": "Give you a large house"
+        },
+        {
+          "id": "c",
+          "text": "Take away all work"
+        },
+        {
+          "id": "d",
+          "text": "Make you famous"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 3:6",
+            "text": "And He shall direct your paths.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 3:6 has an \"if you do this\" part and a \"He will do this\" part. Read the second line.",
+          "child": "Read Proverbs 3:6. The first part is what you do. The second part is what God does.",
+          "teen": "Check Proverbs 3:6. The second line gives the result.",
+          "older": "The second clause of Proverbs 3:6 states the LORD's response."
+        },
+        "extended_explanation": "The verse links our part and God's part. When we turn to Him in everything, the second line tells what He promises to do.",
+        "takeaway": "When we acknowledge the LORD in all our ways, He shall direct our paths."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-pro-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 3",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 3:9 says to honor the LORD with your firstfruits and with what else?",
+        "child": "Proverbs 3:9 says to honor God with the first part of what you get. What else does it say to honor Him with?",
+        "teen": "Proverbs 3:9 says to honor the LORD with the first of what you gain. What else should we honor Him with?",
+        "older": "According to Proverbs 3:9, with what besides the firstfruits of one's increase should one honor the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your fine clothing"
+        },
+        {
+          "id": "b",
+          "text": "Your possessions"
+        },
+        {
+          "id": "c",
+          "text": "Your songs"
+        },
+        {
+          "id": "d",
+          "text": "Your sword and shield"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 3:9",
+            "text": "Honor the LORD with your possessions, And with the firstfruits of all your increase;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 3:9 names two ways to honor the LORD. Read the first line.",
+          "child": "Read Proverbs 3:9. The first line tells one thing to honor God with.",
+          "teen": "Check Proverbs 3:9. The first line tells what to honor the LORD with.",
+          "older": "The first line of Proverbs 3:9 names what the LORD is to be honored with."
+        },
+        "extended_explanation": "Honoring God includes what we own and what we earn. The verse names both, one in each line.",
+        "takeaway": "Honor the LORD with your possessions."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-pro-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 15",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Proverbs 15:1, what does a soft answer turn away?",
+        "child": "Proverbs 15:1 says a gentle answer can stop something. What does a soft answer turn away?",
+        "teen": "Proverbs 15:1 says a soft answer turns something away. What is it?",
+        "older": "In Proverbs 15:1, what is turned away by a soft answer?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Friends"
+        },
+        {
+          "id": "b",
+          "text": "Sadness"
+        },
+        {
+          "id": "c",
+          "text": "Danger"
+        },
+        {
+          "id": "d",
+          "text": "Wrath"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 15:1",
+            "text": "A soft answer turns away wrath, But a harsh word stirs up anger.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 15:1 compares two kinds of words. Read the first line.",
+          "child": "Read Proverbs 15:1. The first part tells what a soft answer does.",
+          "teen": "Check Proverbs 15:1. The first line tells what a soft answer turns away.",
+          "older": "The first clause of Proverbs 15:1 names what a soft answer turns away."
+        },
+        "extended_explanation": "This verse compares gentle words with harsh words. The first line shows what gentle words can stop.",
+        "takeaway": "A soft answer turns away wrath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-pro-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 17",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Proverbs 17:17, when does a friend love?",
+        "child": "Proverbs 17:17 tells about a true friend. When does a friend love?",
+        "teen": "Proverbs 17:17 describes a real friend. When does that friend love?",
+        "older": "In Proverbs 17:17, at what times is a friend said to love?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At all times"
+        },
+        {
+          "id": "b",
+          "text": "Only on holidays"
+        },
+        {
+          "id": "c",
+          "text": "When it is easy"
+        },
+        {
+          "id": "d",
+          "text": "On special days"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 17:17",
+            "text": "A friend loves at all times, And a brother is born for adversity.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 17:17 talks about a friend and a brother. Read the first line.",
+          "child": "Read Proverbs 17:17. The first part tells when a friend loves.",
+          "teen": "Check Proverbs 17:17. The first line tells when a friend loves.",
+          "older": "The opening line of Proverbs 17:17 states when a friend loves."
+        },
+        "extended_explanation": "This verse describes a friend whose love does not come and go. Read the first line for when that friend loves.",
+        "takeaway": "A friend loves at all times."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-pro-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 22",
+      "topics": [
+        "proverbs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 22:6 says to train up a child in the way he should go. When he is old, what will he not do?",
+        "child": "Proverbs 22:6 says to teach a child the right way to go. What will he not do when he grows old?",
+        "teen": "Proverbs 22:6 is about training a child in the way he should go. What does it say he will not do when he is old?",
+        "older": "According to Proverbs 22:6, what will the child trained in the way he should go not do when he is old?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forget his own name"
+        },
+        {
+          "id": "b",
+          "text": "Grow tired"
+        },
+        {
+          "id": "c",
+          "text": "Depart from it"
+        },
+        {
+          "id": "d",
+          "text": "Ask for more"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 22:6",
+            "text": "Train up a child in the way he should go, And when he is old he will not depart from it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 22:6 looks ahead to when the child is old. Read the end of the verse.",
+          "child": "Read Proverbs 22:6. The last part tells what happens when the child grows up and gets old.",
+          "teen": "Check Proverbs 22:6. The second line tells what the grown child will not do.",
+          "older": "The second clause of Proverbs 22:6 states what the one trained as a child will not do in old age."
+        },
+        "extended_explanation": "This verse is about what happens over a lifetime when a child is taught well. The last words tell the result.",
+        "takeaway": "A child trained in the way he should go will not depart from it when he is old."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

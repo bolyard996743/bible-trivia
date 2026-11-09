@@ -76,7 +76,7 @@ describe("sample content", () => {
   it("plays the approved Seed line after every answer", () => {
     const { lines } = loadCatalog();
     const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
-      stages: { stage: string; badges: { id: string; questionIds: string[] }[] }[];
+      stages: { stage: string; badges: { id: string; name: string; questionIds: string[] }[] }[];
     };
     const seed = pathFile.stages.find((stage) => stage.stage === "Seed");
     const badges = seed?.badges ?? [];
@@ -84,6 +84,31 @@ describe("sample content", () => {
     expect(badges).toHaveLength(9);
     expect(ids).toHaveLength(72);
     expect(new Set(ids).size).toBe(72);
+    expect(badges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+
+    const sprout = pathFile.stages.find((stage) => stage.stage === "Sprout");
+    const sproutBadges = sprout?.badges ?? [];
+    const sproutIds = sproutBadges.flatMap((badge) => badge.questionIds);
+    expect(sproutBadges).toHaveLength(17);
+    expect(sproutBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(sproutIds).toHaveLength(136);
+    expect(new Set(sproutIds).size).toBe(136);
+    expect(sproutBadges.find((badge) => badge.id === "sprout-daniel")?.questionIds).toEqual([
+      "c1-dan-0002",
+      "c1-dan-0003",
+      "c1-dan-0004",
+      "c1-dan-0005",
+      "c1-dan-0006",
+      "c1-dan-0007",
+      "c1-dan-0008",
+      "c1-dan-0001",
+    ]);
+    expect(sproutBadges.find((badge) => badge.id === "sprout-loves")?.questionIds).not.toContain("c1-mat-0001");
+    expect(sproutIds).not.toContain("c3-eph-0001");
+    expect(sproutIds).not.toContain("c3-psa-0001");
+    expect(sproutBadges.find((badge) => badge.id === "sprout-books-of-the-bible-names-order-and-groups-of-boo")?.name).toBe(
+      "Books of the Bible",
+    );
 
     const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
     const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;

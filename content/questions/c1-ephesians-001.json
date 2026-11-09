@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ephesians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-eph-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 2",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 2:9 says salvation is not of works. So that no one can do what?",
+        "child": "Ephesians 2:9 says we are not saved by our works. That way, no one can do what?",
+        "teen": "Ephesians 2:9 says salvation doesn't come from our works. Why? So that no one can what?",
+        "older": "According to Ephesians 2:9, salvation is not of works, lest anyone should do what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Boast"
+        },
+        {
+          "id": "b",
+          "text": "Pray"
+        },
+        {
+          "id": "c",
+          "text": "Complain"
+        },
+        {
+          "id": "d",
+          "text": "Fall asleep"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 2:9",
+            "text": "not of works, lest anyone should boast.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ephesians 2:9 gives the reason at the end. Read the last word.",
+          "child": "Read Ephesians 2:9. The last word tells what no one can do.",
+          "teen": "Check Ephesians 2:9. The final word answers the question.",
+          "older": "Ephesians 2:9 states the reason in its final word."
+        },
+        "extended_explanation": "Ephesians 2:8 says salvation is a gift of God. Ephesians 2:9 adds that it is not earned, and tells what that keeps anyone from doing.",
+        "takeaway": "Salvation is not of works, lest anyone should boast."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-eph-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 2",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 2:10 says we are His what, made for good works?",
+        "child": "Ephesians 2:10 says God made us to do good works. It says we are His what?",
+        "teen": "Ephesians 2:10 says God made us for good works. We are His what?",
+        "older": "According to Ephesians 2:10, what are believers called, created for good works?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Servants"
+        },
+        {
+          "id": "b",
+          "text": "Workmanship"
+        },
+        {
+          "id": "c",
+          "text": "Soldiers"
+        },
+        {
+          "id": "d",
+          "text": "Treasures"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 2:10",
+            "text": "For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand that we should walk in them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ephesians 2:10 begins by saying what we are. Read the first words.",
+          "child": "Read Ephesians 2:10. The first words tell what we are.",
+          "teen": "Check Ephesians 2:10. The answer is at the beginning.",
+          "older": "Ephesians 2:10 states in its opening words what we are."
+        },
+        "extended_explanation": "Ephesians 2:10 says God made us and prepared good works for us to walk in. The first words say what we are to Him.",
+        "takeaway": "We are His workmanship, created for good works."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: restored full Ephesians 2:10 (“Christ” is no longer another answer in this badge). Trimmed a padded wrong so Workmanship is one of two longest corrects."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-eph-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 4",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 4:32 says to be kind and tenderhearted to one another. What other word describes how we are to treat one another?",
+        "child": "Ephesians 4:32 tells us to be kind and tenderhearted. What else should we be toward each other?",
+        "teen": "Besides kind and tenderhearted, how does Ephesians 4:32 say we should treat each other?",
+        "older": "According to Ephesians 4:32, along with being kind and tenderhearted, how are we to treat one another?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strict"
+        },
+        {
+          "id": "b",
+          "text": "Quiet"
+        },
+        {
+          "id": "c",
+          "text": "Forgiving"
+        },
+        {
+          "id": "d",
+          "text": "Competitive"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 4:32",
+            "text": "And be kind to one another, tenderhearted, forgiving one another, even as God in Christ forgave you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ephesians 4:32 lists three ways to treat each other. Read the third one.",
+          "child": "Read Ephesians 4:32. It lists three things. Find the third.",
+          "teen": "Check Ephesians 4:32. Look at the third thing listed.",
+          "older": "Ephesians 4:32 lists three qualities; the third is the answer, with the reason given after it."
+        },
+        "extended_explanation": "Ephesians 4:31 says to put away bitterness and anger. Ephesians 4:32 tells what to do instead, and it points to what God in Christ has done for us.",
+        "takeaway": "We are to be kind, tenderhearted, and forgiving to one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: restored full Ephesians 4:32 (“Christ” is no longer another answer in this badge)."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-eph-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 6",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What does Ephesians 6:1 tell children to do with their parents?",
+        "child": "Ephesians 6:1 has a message for kids. What does it tell children to do with their parents?",
+        "teen": "Ephesians 6:1 speaks to children. What does it tell them to do with their parents?",
+        "older": "According to Ephesians 6:1, what are children told to do regarding their parents?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ignore them"
+        },
+        {
+          "id": "b",
+          "text": "Avoid them"
+        },
+        {
+          "id": "c",
+          "text": "Argue with them"
+        },
+        {
+          "id": "d",
+          "text": "Obey them"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 6:1",
+            "text": "Children, obey your parents in the Lord, for this is right.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ephesians 6:1 begins by speaking to children. Read the word right after \"Children.\"",
+          "child": "Read Ephesians 6:1. Look at the word right after \"Children.\"",
+          "teen": "Check Ephesians 6:1. The instruction comes right after \"Children.\"",
+          "older": "Ephesians 6:1 gives the instruction directly after addressing children."
+        },
+        "extended_explanation": "Ephesians 6:1 gives children an instruction about their parents and says it is right. Read the first part of the verse.",
+        "takeaway": "Children are to obey their parents in the Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: answer “Obey them” for parallel form with the other choices."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-eph-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 6",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 6:2-3 says to honor your father and mother. What result does it promise?",
+        "child": "Ephesians 6:2-3 says to honor your father and mother, and it gives a promise. What is promised?",
+        "teen": "Ephesians 6:2-3 says to honor your father and mother. What good result does it promise?",
+        "older": "According to Ephesians 6:2-3, what is promised to those who honor their father and mother?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Great riches"
+        },
+        {
+          "id": "b",
+          "text": "A long life on the earth"
+        },
+        {
+          "id": "c",
+          "text": "Many friends"
+        },
+        {
+          "id": "d",
+          "text": "Being famous"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 6:2",
+            "text": "“Honor your father and mother,” which is the first commandment with promise:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 6:3",
+            "text": "“that it may be well with you and you may live long on the earth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ephesians 6:3 gives the promise. Read the end of that verse.",
+          "child": "Read Ephesians 6:3. The end tells what is promised.",
+          "teen": "Check Ephesians 6:3. The promise is at the end.",
+          "older": "Ephesians 6:3 states the promise, especially in its closing words."
+        },
+        "extended_explanation": "Ephesians 6:2 says this is the first commandment with a promise. Ephesians 6:3 tells what the promise is.",
+        "takeaway": "Honoring father and mother comes with the promise of living long on the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed padded wrongs so this correct answer is one of two longest in the badge."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-eph-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 6",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the armor of God, what does Ephesians 6:17 say the sword of the Spirit is?",
+        "child": "Ephesians 6:17 talks about the sword of the Spirit. What does it say the sword is?",
+        "teen": "Ephesians 6:17 names the sword of the Spirit. What is that sword?",
+        "older": "According to Ephesians 6:17, what is the sword of the Spirit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The word of God"
+        },
+        {
+          "id": "b",
+          "text": "A sharp spear"
+        },
+        {
+          "id": "c",
+          "text": "A shield of iron"
+        },
+        {
+          "id": "d",
+          "text": "The power of kings"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 6:17",
+            "text": "And take the helmet of salvation, and the sword of the Spirit, which is the word of God;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ephesians 6:17 explains what the sword is. Read the end of the verse.",
+          "child": "Read Ephesians 6:17. The end tells what the sword of the Spirit is.",
+          "teen": "Check Ephesians 6:17. The last part says what the sword is.",
+          "older": "Ephesians 6:17 identifies the sword of the Spirit in its final words."
+        },
+        "extended_explanation": "Ephesians 6:11-17 describes the whole armor of God piece by piece. The sword is the last piece, and the verse says what it really is.",
+        "takeaway": "The sword of the Spirit is the word of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-php-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 4",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 4:6 says not to be anxious about anything. How are we to make our requests known to God?",
+        "child": "Philippians 4:6 says don't worry about anything. How should we tell God what we need?",
+        "teen": "Philippians 4:6 says don't be anxious about anything. How should we bring our requests to God?",
+        "older": "According to Philippians 4:6, by what are we to make our requests known to God instead of being anxious?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By silence"
+        },
+        {
+          "id": "b",
+          "text": "By money"
+        },
+        {
+          "id": "c",
+          "text": "By prayer"
+        },
+        {
+          "id": "d",
+          "text": "By hard work"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 4:6",
+            "text": "Be anxious for nothing, but in everything by prayer and supplication, with thanksgiving, let your requests be made known to God;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Philippians 4:6 tells how to bring requests to God. Read the words after \"in everything.\"",
+          "child": "Read Philippians 4:6. Look right after \"in everything.\"",
+          "teen": "Check Philippians 4:6. The answer comes right after \"in everything.\"",
+          "older": "Philippians 4:6 gives the means directly after \"in everything.\""
+        },
+        "extended_explanation": "Philippians 4:6 gives something to do in place of worrying. Philippians 4:7 then says the peace of God will guard our hearts and minds.",
+        "takeaway": "Instead of being anxious, we make our requests known to God by prayer."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-php-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 4",
+      "topics": [
+        "grace-strength"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "I can do ___ through Christ who strengthens me.",
+        "child": "This verse says, “I can do ___ through Christ who strengthens me.” What goes in the blank?",
+        "teen": "Complete the verse: I can do ___ through Christ who strengthens me.",
+        "older": "According to Philippians 4:13, I can do ___ through Christ who strengthens me."
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only easy things"
+        },
+        {
+          "id": "b",
+          "text": "A few small things"
+        },
+        {
+          "id": "c",
+          "text": "Nothing at all"
+        },
+        {
+          "id": "d",
+          "text": "All things"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 4:13",
+            "text": "I can do all things through Christ who strengthens me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Philippians 4:13 says what the writer can do. Read the words right after “I can do.”",
+          "child": "Read the first words of Philippians 4:13, right after “I can do.”",
+          "teen": "Philippians 4:13 opens with what the writer can do. Look at the words that fill the blank.",
+          "older": "Read the beginning of Philippians 4:13 for what goes after “I can do.”"
+        },
+        "extended_explanation": "In Philippians 4:11-12, the writer says he learned to be content with much or with little. Philippians 4:13 tells what he can do, and through whom.",
+        "takeaway": "I can do all things through Christ who strengthens me."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: other cards in this badge contain “Christ,” so the question no longer asks who strengthens. Fill-in: “I can do ___ through Christ who strengthens me.” Answer: “All things.”"
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

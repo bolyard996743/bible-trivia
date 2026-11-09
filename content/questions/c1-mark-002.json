@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-mark-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mrk-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus walked by the Sea of Galilee, what were Simon and Andrew doing?",
+        "child": "Jesus walked by the Sea of Galilee and saw two brothers, Simon and Andrew. What were they doing?",
+        "teen": "Walking by the Sea of Galilee, Jesus saw Simon and Andrew. What were they doing?",
+        "older": "According to Mark 1:16, what were Simon and Andrew doing when Jesus saw them by the Sea of Galilee?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Selling fish"
+        },
+        {
+          "id": "b",
+          "text": "Casting a net"
+        },
+        {
+          "id": "c",
+          "text": "Building a boat"
+        },
+        {
+          "id": "d",
+          "text": "Sleeping on the shore"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:16",
+            "text": "And as He walked by the Sea of Galilee, He saw Simon and Andrew his brother casting a net into the sea; for they were fishermen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 1:16 tells what the two brothers were doing and explains why. Read the middle of the verse.",
+          "child": "Read Mark 1:16. It tells what Simon and Andrew were doing in the sea, and then says what their job was.",
+          "teen": "Check Mark 1:16. It describes what the brothers were doing before it gives their job.",
+          "older": "Mark 1:16 describes the brothers' activity in the sea and then gives their occupation."
+        },
+        "extended_explanation": "Mark 1:16 says the brothers were fishermen. The verse shows them at work in the sea when Jesus came by.",
+        "takeaway": "Simon and Andrew were casting a net into the sea."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did Simon and Andrew do right after Jesus called them to come with Him?",
+        "child": "Jesus called Simon and Andrew to come with Him. What did they do right away?",
+        "teen": "Right after Jesus called Simon and Andrew, what did they do?",
+        "older": "According to Mark 1:18, what did Simon and Andrew do immediately after Jesus called them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Left their nets"
+        },
+        {
+          "id": "b",
+          "text": "Finished fishing first"
+        },
+        {
+          "id": "c",
+          "text": "Asked for more time"
+        },
+        {
+          "id": "d",
+          "text": "Went to tell family"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:17",
+            "text": "Then Jesus said to them, “Follow Me, and I will make you become fishers of men.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 1:18",
+            "text": "They immediately left their nets and followed Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 1:18 tells what the brothers did as soon as Jesus called them. Read what they put down.",
+          "child": "Read Mark 1:18. It tells what Simon and Andrew did right away. Look at what they set down.",
+          "teen": "Check Mark 1:18. Notice the word \"immediately\" and what they did next.",
+          "older": "Mark 1:18 records the brothers' immediate response, beginning with what they set aside."
+        },
+        "extended_explanation": "Jesus called in Mark 1:17, and in the very next verse the brothers acted right away. Read what they did first and then whom they followed.",
+        "takeaway": "Simon and Andrew immediately left their nets and followed Jesus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James and John were mending nets in a boat. Who was their father?",
+        "child": "Jesus saw two brothers, James and John, fixing nets in a boat. Who was their dad?",
+        "teen": "James and John were fixing their nets in a boat. Who was their father?",
+        "older": "According to Mark 1:19, whose sons were James and John, who were mending nets in their boat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jacob"
+        },
+        {
+          "id": "b",
+          "text": "Reuben"
+        },
+        {
+          "id": "c",
+          "text": "Zebedee"
+        },
+        {
+          "id": "d",
+          "text": "Benjamin"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:19",
+            "text": "When He had gone a little farther from there, He saw James the son of Zebedee, and John his brother, who also were in the boat mending their nets.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 1:19 tells whose son James was. Read the words after \"James the son of.\"",
+          "child": "Read Mark 1:19. It says \"James the son of\" someone. The next word is the father's name.",
+          "teen": "Check Mark 1:19. The father's name comes right after \"James the son of.\"",
+          "older": "Mark 1:19 identifies James by his father's name, given right after \"the son of.\""
+        },
+        "extended_explanation": "Mark 1:19 names James by his father, and the next verse names the same father again, left in the boat with the hired servants.",
+        "takeaway": "James and John were the sons of Zebedee."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 3",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the mountain, how many men did Jesus appoint to be with Him?",
+        "child": "Jesus went up on a mountain and chose some men to be with Him. How many did He choose?",
+        "teen": "Jesus went up a mountain and appointed some men to be with Him. How many?",
+        "older": "According to Mark 3:14, how many did Jesus appoint to be with Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seven"
+        },
+        {
+          "id": "b",
+          "text": "Ten"
+        },
+        {
+          "id": "c",
+          "text": "Seventy"
+        },
+        {
+          "id": "d",
+          "text": "Twelve"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 3:14",
+            "text": "Then He appointed twelve,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 3:14 gives the number Jesus appointed. Read the words after \"He appointed.\"",
+          "child": "Read Mark 3:14. Right after \"He appointed,\" the verse gives a number.",
+          "teen": "Check Mark 3:14. The number comes right after \"He appointed.\"",
+          "older": "Mark 3:14 states the number immediately after \"He appointed.\""
+        },
+        "extended_explanation": "Mark 3:14 gives the number, and Mark 3:16-19 then lists each man by name. You can count them to check.",
+        "takeaway": "Jesus appointed twelve to be with Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 3",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What new name did Jesus give to Simon?",
+        "child": "Jesus gave Simon a new name. What was it?",
+        "teen": "Jesus gave Simon another name. What was it?",
+        "older": "According to Mark 3:16, what name did Jesus give to Simon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Paul"
+        },
+        {
+          "id": "b",
+          "text": "Peter"
+        },
+        {
+          "id": "c",
+          "text": "Stephen"
+        },
+        {
+          "id": "d",
+          "text": "Barnabas"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 3:16",
+            "text": "Simon, to whom He gave the name Peter;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 3:16 tells the name Jesus gave Simon. Read the end of the verse.",
+          "child": "Read Mark 3:16. The last word is the new name.",
+          "teen": "Check Mark 3:16. The new name is the last word in the verse.",
+          "older": "Mark 3:16 ends with the name Jesus gave to Simon."
+        },
+        "extended_explanation": "Mark 3:16 is short. It names Simon first, then tells the name Jesus gave him.",
+        "takeaway": "Jesus gave Simon the name Peter."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 3",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus chose His closest followers to be with Him. What would He send them out to do?",
+        "child": "Jesus chose some men to be with Him. What would He send them out to do?",
+        "teen": "Jesus chose some followers to be with Him. What would He send them out to do?",
+        "older": "According to Mark 3:14, besides being with Him, what would Jesus send them out to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To preach"
+        },
+        {
+          "id": "b",
+          "text": "To guard Him"
+        },
+        {
+          "id": "c",
+          "text": "To collect taxes"
+        },
+        {
+          "id": "d",
+          "text": "To build a temple"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 3:14",
+            "text": "that He might send them out to preach,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 3:14 gives two reasons for choosing them. Read the end of the verse for the second.",
+          "child": "Read Mark 3:14. It says they would be with Jesus and He would send them out. Read what they would do.",
+          "teen": "Check Mark 3:14. After \"send them out,\" the verse tells what they would do.",
+          "older": "Mark 3:14 states the purpose of sending them out at the close of the verse."
+        },
+        "extended_explanation": "Mark 3:14 gives the first reason (to be with Jesus) and then tells the work He would send them out to do.",
+        "takeaway": "Jesus would send them out to preach."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 5",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Simon told Jesus they had worked hard all night. What had they caught?",
+        "child": "Simon and his partners fished all night long. How many fish did they catch?",
+        "teen": "Simon said they had worked all night. How many fish had they caught?",
+        "older": "According to Luke 5:5, what had Simon and his partners caught after working all night?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two small fish"
+        },
+        {
+          "id": "b",
+          "text": "One big fish"
+        },
+        {
+          "id": "c",
+          "text": "Nothing"
+        },
+        {
+          "id": "d",
+          "text": "Enough to sell"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 5:5",
+            "text": "But Simon answered and said to Him, “Master, we have toiled all night and caught nothing; nevertheless at Your word I will let down the net.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 5:5 records Simon's answer to Jesus. Read what he says about the night of fishing.",
+          "child": "Read Luke 5:5. Simon tells Jesus how the night of fishing went.",
+          "teen": "Check Luke 5:5. Simon says how much they caught during the night.",
+          "older": "Luke 5:5 gives Simon's report of the night's work before he agrees to let down the net."
+        },
+        "extended_explanation": "Simon was tired from a long night, but he still obeyed Jesus. Luke 5:5 tells how much they had caught before that.",
+        "takeaway": "They had toiled all night and caught nothing."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 5",
+      "topics": [
+        "disciples"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the great catch, the partners filled both boats with fish. What did the boats begin to do?",
+        "child": "So many fish were caught that both boats were full. What did the boats start to do?",
+        "teen": "Both boats were filled with fish. What did the boats begin to do?",
+        "older": "According to Luke 5:7, what did both boats begin to do once they were filled with fish?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sail away"
+        },
+        {
+          "id": "b",
+          "text": "Turn around"
+        },
+        {
+          "id": "c",
+          "text": "Break loose"
+        },
+        {
+          "id": "d",
+          "text": "Sink"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 5:7",
+            "text": "So they signaled to their partners in the other boat to come and help them. And they came and filled both the boats, so that they began to sink.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 5:7 tells what happened to the boats because they were so full. Read the end of the verse.",
+          "child": "Read Luke 5:7. The last words tell what the heavy boats began to do.",
+          "teen": "Check Luke 5:7. The end of the verse tells what the full boats started to do.",
+          "older": "Luke 5:7 closes by describing the result of filling both boats."
+        },
+        "extended_explanation": "The catch was so large that partners had to come help. Luke 5:7 tells what all that weight did to the boats.",
+        "takeaway": "The boats were so full of fish that they began to sink."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

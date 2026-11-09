@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 5",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus saw the crowds, where did He go up before He sat down to teach?",
+        "child": "Jesus saw big crowds. Where did He go up and sit down to teach?",
+        "teen": "When Jesus saw the crowds, where did He go up to teach?",
+        "older": "According to Matthew 5:1, where did Jesus go up when He saw the multitudes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A boat"
+        },
+        {
+          "id": "b",
+          "text": "A mountain"
+        },
+        {
+          "id": "c",
+          "text": "A rooftop"
+        },
+        {
+          "id": "d",
+          "text": "The temple steps"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 5:1",
+            "text": "And seeing the multitudes, He went up on a mountain, and when He was seated His disciples came to Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 5:1 tells where Jesus went. Read the words after \"He went up.\"",
+          "child": "Read Matthew 5:1. Find \"He went up.\" The next words tell where.",
+          "teen": "Check Matthew 5:1. Where He went comes right after \"He went up.\"",
+          "older": "Matthew 5:1 names the place right after \"He went up on.\""
+        },
+        "extended_explanation": "Matthew 5:1 says Jesus saw the crowds, went up, sat down, and His disciples came to Him there.",
+        "takeaway": "Jesus went up on a mountain to teach."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 5",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said the pure in heart are blessed. What did He say they will do?",
+        "child": "Jesus said people with pure hearts are blessed. What did He promise they will do?",
+        "teen": "Jesus said the pure in heart are blessed. What will they do?",
+        "older": "According to Matthew 5:8, what is promised to the pure in heart?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "See God"
+        },
+        {
+          "id": "b",
+          "text": "Become rich"
+        },
+        {
+          "id": "c",
+          "text": "Never be sad"
+        },
+        {
+          "id": "d",
+          "text": "Rule a kingdom"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 5:8",
+            "text": "Blessed are the pure in heart, For they shall see God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 5:8 gives the promise after the word \"For.\" Read the second half of the verse.",
+          "child": "Read Matthew 5:8. After \"For they shall,\" the verse gives the promise.",
+          "teen": "Check Matthew 5:8. The promise follows \"For they shall.\"",
+          "older": "Matthew 5:8 states the promise in its second line, after \"For they shall.\""
+        },
+        "extended_explanation": "Each blessing in Matthew 5 names a kind of person and then gives a promise. Read the promise for the pure in heart.",
+        "takeaway": "The pure in heart shall see God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 5",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said the peacemakers are blessed. What did He say they will be called?",
+        "child": "Jesus said people who make peace are blessed. What will they be called?",
+        "teen": "Jesus said peacemakers are blessed. What will they be called?",
+        "older": "According to Matthew 5:9, what shall the peacemakers be called?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sons of God"
+        },
+        {
+          "id": "b",
+          "text": "Leaders"
+        },
+        {
+          "id": "c",
+          "text": "Friends of Moses"
+        },
+        {
+          "id": "d",
+          "text": "Kings of the land"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 5:9",
+            "text": "Blessed are the peacemakers, For they shall be called sons of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 5:9 gives the promise to the peacemakers. Read the words after \"called.\"",
+          "child": "Read Matthew 5:9. Find the word \"called.\" The words after it are the answer.",
+          "teen": "Check Matthew 5:9. The name they are given comes after \"called.\"",
+          "older": "Matthew 5:9 states what peacemakers will be called at the end of the verse."
+        },
+        "extended_explanation": "Matthew 5:9 has two lines. The first names the peacemakers. The second tells what they will be called.",
+        "takeaway": "The peacemakers shall be called sons of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0018",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 5",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus compared His followers to something that can lose its flavor. What was it?",
+        "child": "Jesus said His followers are like something that gives food flavor. What was it?",
+        "teen": "Jesus compared His followers to something that can lose its flavor. What?",
+        "older": "According to Matthew 5:13, Jesus' hearers are compared to what, which can lose its flavor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bread"
+        },
+        {
+          "id": "b",
+          "text": "Honey"
+        },
+        {
+          "id": "c",
+          "text": "Salt"
+        },
+        {
+          "id": "d",
+          "text": "Water"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 5:13",
+            "text": "“You are the salt of the earth; but if the salt loses its flavor, how shall it be seasoned? It is then good for nothing but to be thrown out and trampled underfoot by men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 5:13 begins with Jesus telling His listeners what they are. Read the first sentence.",
+          "child": "Read Matthew 5:13. The first words tell what Jesus says His followers are.",
+          "teen": "Check Matthew 5:13. The first sentence says what they are \"of the earth.\"",
+          "older": "Matthew 5:13 opens with the comparison, then asks what happens if it loses its flavor."
+        },
+        "extended_explanation": "In Matthew 5:13, Jesus names something people use to season food and warns about it losing its flavor.",
+        "takeaway": "Jesus said His followers are the salt of the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0019",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 5",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did Jesus say cannot be hidden?",
+        "child": "Jesus said one thing cannot be hidden. What was it?",
+        "teen": "Jesus mentioned something that cannot be hidden. What was it?",
+        "older": "According to Matthew 5:14, what did Jesus say cannot be hidden?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A secret prayer"
+        },
+        {
+          "id": "b",
+          "text": "A city on a hill"
+        },
+        {
+          "id": "c",
+          "text": "A buried seed"
+        },
+        {
+          "id": "d",
+          "text": "A hidden treasure"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 5:14",
+            "text": "“You are the light of the world. A city that is set on a hill cannot be hidden.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 5:14 has two sentences. Read the second one.",
+          "child": "Read Matthew 5:14. The second sentence names something that cannot be hidden.",
+          "teen": "Check Matthew 5:14. The second sentence gives the answer.",
+          "older": "Matthew 5:14 gives the example in its second sentence."
+        },
+        "extended_explanation": "Jesus called His followers the light of the world, then gave an example of something everyone can see from far away.",
+        "takeaway": "A city that is set on a hill cannot be hidden."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0020",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 5",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told His followers to let their light shine before others. Why?",
+        "child": "Jesus said to let your light shine so people can see your good works. What will happen then?",
+        "teen": "Why did Jesus say to let your light shine before others?",
+        "older": "According to Matthew 5:16, for what reason should believers let their light shine before men?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "So that they can win every argument they start"
+        },
+        {
+          "id": "b",
+          "text": "So that other people will always be afraid of them"
+        },
+        {
+          "id": "c",
+          "text": "So that they will be paid a large reward"
+        },
+        {
+          "id": "d",
+          "text": "So that others will glorify your Father in heaven"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 5:16",
+            "text": "Let your light so shine before men, that they may see your good works and glorify your Father in heaven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 5:16 gives the reason after the word \"that.\" Read what people will do when they see good works.",
+          "child": "Read Matthew 5:16. After people see your good works, the verse tells what they will do.",
+          "teen": "Check Matthew 5:16. The reason comes after people see your good works.",
+          "older": "Matthew 5:16 states the purpose: what others will do once they see good works."
+        },
+        "extended_explanation": "Matthew 5:16 says good works are seen by others, and then tells whom they will honor because of it.",
+        "takeaway": "We let our light shine so others will glorify our Father in heaven."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0021",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 6",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the prayer Jesus taught, what do we ask God to give us this day?",
+        "child": "In the prayer Jesus taught, we ask God to give us something today. What is it?",
+        "teen": "In the prayer Jesus taught, what do we ask God to give us today?",
+        "older": "According to Matthew 6:11, what does the prayer ask God to give us this day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A long life"
+        },
+        {
+          "id": "b",
+          "text": "Fine clothes"
+        },
+        {
+          "id": "c",
+          "text": "Daily bread"
+        },
+        {
+          "id": "d",
+          "text": "Victory in battle"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 6:11",
+            "text": "Give us this day our daily bread.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 6:11 is one short request. Read the last words.",
+          "child": "Read Matthew 6:11. It is short. The last words tell what we ask for.",
+          "teen": "Check Matthew 6:11. The request ends with what we ask for.",
+          "older": "Matthew 6:11 is a single petition; what is requested closes the verse."
+        },
+        "extended_explanation": "Matthew 6:11 asks God for what we need for one day at a time.",
+        "takeaway": "Jesus taught us to ask God for our daily bread."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0022",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 6",
+      "topics": [
+        "sermon-on-the-mount"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The prayer Jesus taught asks God to forgive us. According to that prayer, whom do we forgive?",
+        "child": "Jesus taught His friends how to pray. When we ask God to forgive us, who does the prayer say we forgive?",
+        "teen": "In the prayer Jesus taught, we ask God to forgive us. Whom does the prayer say we forgive?",
+        "older": "According to Matthew 6:12, whom does the prayer say we forgive?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Our teachers"
+        },
+        {
+          "id": "b",
+          "text": "Our leaders"
+        },
+        {
+          "id": "c",
+          "text": "Our neighbors' children"
+        },
+        {
+          "id": "d",
+          "text": "Our debtors"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 6:12",
+            "text": "And forgive us our debts, As we forgive our debtors.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 6:12 has two lines. Read the second line, which begins with \"As we.\" Look at whom it names.",
+          "child": "Read Matthew 6:12. The second line starts with \"As we.\" Read whom it names.",
+          "teen": "Check Matthew 6:12. The second line, starting \"As we,\" names whom it speaks of.",
+          "older": "Matthew 6:12 completes the request with a line beginning \"As we,\" and names a group there."
+        },
+        "extended_explanation": "Matthew 6:12 has two parts: what we ask God to do, and what we do toward others. Read the second line, which begins with “As we.”",
+        "takeaway": "We ask God to forgive us as we forgive our debtors."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager wording pass: rewrote the teen prompt (removed “forgive us our debts”) and the extended explanation (no longer defines “Debtors”)."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

@@ -336,8 +336,14 @@ describe("progression", () => {
 
   it("does not show Psalm 119 to a Seed player", () => {
     const { questions } = loadCatalog();
-    const psalm = questions.find((question) => question.section === "Psalm 119");
-    expect(psalm).toMatchObject({ id: "c3-psa-0001", cycle: 3, tier: "intermediate", stage: "Established" });
+    const psalm = questions.find((question) => question.id === "c3-psa-0001");
+    expect(psalm).toMatchObject({
+      id: "c3-psa-0001",
+      cycle: 3,
+      tier: "intermediate",
+      stage: "Established",
+      section: "Psalm 119",
+    });
     // Cycle and tier are stored apart from the stage. This is the saved shape that
     // used to make currentSection ignore Seed and return Psalm 119.
     const drifted = { ...emptyProgress(3, "intermediate"), stage: "Seed" as const };
@@ -399,6 +405,38 @@ describe("answer privacy", () => {
     const issues = explanationRevealIssues(sample);
     expect(issues.some((issue) => issue.includes("explanation.adult"))).toBe(true);
     expect(issues.some((issue) => issue.includes("extended_explanation"))).toBe(true);
+
+    const pointed = question({
+      id: "pointed",
+      book: "Acts",
+      section: "Acts 16",
+      cycle: 1,
+      tier: "foundation",
+      answer: "b",
+      choices: [
+        { id: "a", text: "Run away" },
+        { id: "b", text: "Believe on the Lord Jesus Christ" },
+        { id: "c", text: "Pay a fine" },
+        { id: "d", text: "Stay silent" },
+      ],
+      teaching: {
+        verses: [
+          {
+            ref: "Acts 16:31",
+            text: "So they said, “Believe on the Lord Jesus Christ, and you will be saved, you and your household.”",
+            translation: "NKJV",
+          },
+        ],
+        explanation: {
+          adult: "Check Acts 16:31. The answer is at the beginning.",
+          teen: "Check Romans 6:23. The answer is in the second half.",
+        },
+        takeaway: "Look at the verse.",
+      },
+    });
+    expect(explanationRevealIssues(pointed)).toEqual([]);
+    pointed.teaching.explanation.adult = "The answer is Believe on the Lord Jesus Christ.";
+    expect(explanationRevealIssues(pointed).some((issue) => issue.includes("states the answer outright"))).toBe(true);
   });
 });
 

@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 3",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "From which region did Jesus travel when He came to be baptized?",
+        "child": "Jesus traveled to be baptized. Which area did He come from?",
+        "teen": "When Jesus came to be baptized, which region had He traveled from?",
+        "older": "According to Matthew 3:13, from which region did Jesus come to be baptized?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Egypt"
+        },
+        {
+          "id": "b",
+          "text": "Galilee"
+        },
+        {
+          "id": "c",
+          "text": "Samaria"
+        },
+        {
+          "id": "d",
+          "text": "Bethlehem"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 3:13",
+            "text": "Then Jesus came from Galilee",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 3:13 names the place Jesus came from. Read the first part of the verse.",
+          "child": "Read Matthew 3:13. It tells where Jesus came from.",
+          "teen": "Check Matthew 3:13. The verse names where Jesus started His trip.",
+          "older": "Matthew 3:13 states the region Jesus left in order to be baptized; it appears near the start of the verse."
+        },
+        "extended_explanation": "Matthew 3:13 names the place Jesus came from. Read the opening words on the card.",
+        "takeaway": "Jesus came from Galilee to be baptized."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 3",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus came to be baptized, what did John try to do?",
+        "child": "Jesus came to be baptized. What did John try to do?",
+        "teen": "What did John try to do when Jesus came to him for baptism?",
+        "older": "According to Matthew 3:14, what did John try to do when Jesus came to be baptized?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Call the crowds over"
+        },
+        {
+          "id": "b",
+          "text": "Crown Him as king"
+        },
+        {
+          "id": "c",
+          "text": "Prevent Him"
+        },
+        {
+          "id": "d",
+          "text": "Hide Him away"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 3:14",
+            "text": "And John tried to prevent Him, saying,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 3:14 tells what John tried to do. Read the words after \"John tried to.\"",
+          "child": "Read Matthew 3:14. Find \"John tried to.\" The next words tell what he attempted.",
+          "teen": "Check Matthew 3:14. Right after \"John tried to\" is what John attempted.",
+          "older": "Matthew 3:14 states John's first response immediately after \"tried to.\""
+        },
+        "extended_explanation": "John knew who Jesus was and felt unworthy. Matthew 3:14 records what John tried to do and what he said next.",
+        "takeaway": "John tried to prevent Jesus from being baptized by him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. Replaced earlier John/Matthew 3:13 question so the verse card would not also name Galilee or the Jordan. Partial NKJV from Matthew 3:14."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 3",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said it was fitting for Him to be baptized in order to fulfill all of what?",
+        "child": "Jesus said His baptism was the right thing to do. He said it would fulfill all of what?",
+        "teen": "Jesus explained why He should be baptized. He said it would fulfill all of what?",
+        "older": "According to Matthew 3:15, Jesus said His baptism was fitting in order to fulfill all of what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Righteousness"
+        },
+        {
+          "id": "b",
+          "text": "Promises"
+        },
+        {
+          "id": "c",
+          "text": "The law of Moses"
+        },
+        {
+          "id": "d",
+          "text": "Prophecies"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 3:15",
+            "text": "But Jesus answered and said to him, “Permit it to be so now, for thus it is fitting for us to fulfill all righteousness.” Then he allowed Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 3:15 records Jesus' answer. Read the word that comes right after \"fulfill all.\"",
+          "child": "Read Matthew 3:15. Jesus says it is fitting to fulfill all of something. Find the word that comes next.",
+          "teen": "Check Matthew 3:15. Look for the word right after \"fulfill all\" in what Jesus says.",
+          "older": "Matthew 3:15 gives Jesus' reason; the word that completes \"fulfill all\" is the answer."
+        },
+        "extended_explanation": "Jesus told John to permit the baptism. In the same sentence He said what it was fitting to fulfill.",
+        "takeaway": "Jesus was baptized to fulfill all righteousness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0012",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 3",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What happened right after Jesus came up out of the water?",
+        "child": "Jesus was baptized and came up out of the water. What happened right then?",
+        "teen": "Right after Jesus came up out of the water, what happened?",
+        "older": "According to Matthew 3:16, what happened immediately after Jesus came up from the water?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A storm began"
+        },
+        {
+          "id": "b",
+          "text": "The crowd went home"
+        },
+        {
+          "id": "c",
+          "text": "The river stopped flowing"
+        },
+        {
+          "id": "d",
+          "text": "The heavens were opened"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 3:16",
+            "text": "and behold, the heavens were opened to Him,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 3:16 tells what happened as soon as Jesus came up. Read the words after \"behold.\"",
+          "child": "Read Matthew 3:16. Right after Jesus came up, the verse says \"behold.\" Read what comes next.",
+          "teen": "Check Matthew 3:16. Find the word \"behold\" and read what happened right after it.",
+          "older": "Matthew 3:16 describes the moment Jesus came up from the water; the event follows the word \"behold.\""
+        },
+        "extended_explanation": "Matthew 3:16 tells events in order: Jesus is baptized, comes up from the water, and then something happens above Him.",
+        "takeaway": "Right after Jesus came up from the water, the heavens were opened to Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In which river was Jesus baptized?",
+        "child": "Jesus was baptized in a river. Which river was it?",
+        "teen": "Which river was Jesus baptized in?",
+        "older": "According to Mark 1:9, in which river was Jesus baptized?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Nile"
+        },
+        {
+          "id": "b",
+          "text": "The Jordan"
+        },
+        {
+          "id": "c",
+          "text": "The Euphrates"
+        },
+        {
+          "id": "d",
+          "text": "The Tigris"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:9",
+            "text": "in the Jordan",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 1:9 names the river where Jesus was baptized. Read the end of the verse.",
+          "child": "Read Mark 1:9. The last words of the verse name the river.",
+          "teen": "Check Mark 1:9. The river is named at the very end.",
+          "older": "Mark 1:9 closes by naming the river where Jesus was baptized."
+        },
+        "extended_explanation": "Mark 1:9 names the river where Jesus was baptized. Read the words on the card.",
+        "takeaway": "Jesus was baptized in the Jordan River."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the voice from heaven call Jesus?",
+        "child": "A voice spoke from heaven after Jesus was baptized. What did it call Jesus?",
+        "teen": "After Jesus' baptism, a voice spoke from heaven. What did it call Him?",
+        "older": "According to Mark 1:11, what did the voice from heaven call Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My beloved Son"
+        },
+        {
+          "id": "b",
+          "text": "My great prophet"
+        },
+        {
+          "id": "c",
+          "text": "My faithful servant"
+        },
+        {
+          "id": "d",
+          "text": "The new king"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:11",
+            "text": "Then a voice came from heaven, “You are My beloved Son, in whom I am well pleased.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 1:11 records the words of the voice in quotation marks. Read what it says Jesus is.",
+          "child": "Read Mark 1:11. The voice from heaven says who Jesus is. Look inside the quotation marks.",
+          "teen": "Check Mark 1:11. The voice tells who Jesus is, right after \"You are.\"",
+          "older": "Mark 1:11 quotes the voice from heaven; the title follows the words \"You are.\""
+        },
+        "extended_explanation": "God's voice spoke from heaven and said who Jesus is and that God was well pleased with Him.",
+        "takeaway": "The voice from heaven called Jesus \"My beloved Son.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 3",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Luke, what was Jesus doing right after He was baptized?",
+        "child": "Luke tells what Jesus was doing just after He was baptized. What was He doing?",
+        "teen": "In Luke's account, what was Jesus doing just after His baptism?",
+        "older": "According to Luke 3:21, what was Jesus doing just after He had been baptized?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Singing"
+        },
+        {
+          "id": "b",
+          "text": "Preaching a sermon"
+        },
+        {
+          "id": "c",
+          "text": "Praying"
+        },
+        {
+          "id": "d",
+          "text": "Sleeping"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 3:21",
+            "text": "while He prayed",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 3:21 tells what Jesus was doing when something happened above Him. Read the word after \"while He.\"",
+          "child": "Read Luke 3:21. Look for the words \"while He.\" The next word tells what Jesus was doing.",
+          "teen": "Check Luke 3:21. The word after \"while He\" tells what Jesus was doing.",
+          "older": "Luke 3:21 states Jesus' activity in the clause beginning \"while He.\""
+        },
+        "extended_explanation": "Only Luke tells this detail. Look at what Jesus was doing in Luke 3:21.",
+        "takeaway": "Jesus prayed after He was baptized."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager wording pass: extended explanation no longer says “when heaven opened.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 3",
+      "topics": [
+        "jesus-baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In bodily form, the Holy Spirit came down upon Jesus like what?",
+        "child": "The Holy Spirit came down on Jesus in a form people could see. What was it like?",
+        "teen": "The Holy Spirit came down on Jesus in bodily form. What was He like?",
+        "older": "According to Luke 3:22, the Holy Spirit descended upon Jesus in bodily form like what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "An eagle"
+        },
+        {
+          "id": "b",
+          "text": "A flame"
+        },
+        {
+          "id": "c",
+          "text": "A cloud"
+        },
+        {
+          "id": "d",
+          "text": "A dove"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 3:22",
+            "text": "And the Holy Spirit descended in bodily form like a dove upon Him,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 3:22 compares how the Holy Spirit came down to something. Read the words after \"bodily form.\"",
+          "child": "Read Luke 3:22. It says the Holy Spirit came down \"like\" something. Find what comes after \"like.\"",
+          "teen": "Check Luke 3:22. Find the word \"like\" and read what comes next.",
+          "older": "Luke 3:22 gives the comparison immediately after \"in bodily form like.\""
+        },
+        "extended_explanation": "Luke 3:22 says the Holy Spirit came in a form that could be seen. Read the words after “like.”",
+        "takeaway": "The Holy Spirit came down upon Jesus like a dove."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager wording pass: extended explanation no longer says the verse “compares it to a bird.”"
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

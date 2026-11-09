@@ -176,72 +176,165 @@
           "id": "sprout-baptism",
           "name": "Jesus' Baptism",
           "art": "dove",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0009",
+            "c1-mat-0010",
+            "c1-mat-0011",
+            "c1-mat-0012",
+            "c1-mrk-0005",
+            "c1-mrk-0006",
+            "c1-luk-0009",
+            "c1-luk-0010"
+          ]
         },
         {
           "id": "sprout-disciples",
           "name": "Jesus Chooses the Disciples",
           "art": "net",
-          "questionIds": []
+          "questionIds": [
+            "c1-mrk-0007",
+            "c1-mrk-0008",
+            "c1-mrk-0009",
+            "c1-mrk-0010",
+            "c1-mrk-0011",
+            "c1-mrk-0012",
+            "c1-luk-0011",
+            "c1-luk-0012"
+          ]
         },
         {
           "id": "sprout-parables",
           "name": "Parables of Jesus",
           "art": "sheep",
-          "questionIds": []
+          "questionIds": [
+            "c1-luk-0013",
+            "c1-luk-0014",
+            "c1-luk-0015",
+            "c1-luk-0016",
+            "c1-luk-0017",
+            "c1-luk-0018",
+            "c1-mat-0013",
+            "c1-mat-0014"
+          ]
         },
         {
           "id": "sprout-sermon",
           "name": "Sermon on the Mount",
           "art": "mountain",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0015",
+            "c1-mat-0016",
+            "c1-mat-0017",
+            "c1-mat-0018",
+            "c1-mat-0019",
+            "c1-mat-0020",
+            "c1-mat-0021",
+            "c1-mat-0022"
+          ]
         },
         {
           "id": "sprout-loves",
           "name": "Jesus Loves Everyone",
           "art": "tree",
           "questionIds": [
-            "c1-mat-0001"
+            "c1-luk-0019",
+            "c1-luk-0020",
+            "c1-luk-0021",
+            "c1-luk-0022",
+            "c1-luk-0023",
+            "c1-luk-0024",
+            "c1-mrk-0013",
+            "c1-mrk-0014"
           ]
         },
         {
           "id": "sprout-palm-sunday",
           "name": "Palm Sunday",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-luk-0025",
+            "c1-luk-0026",
+            "c1-luk-0027",
+            "c1-luk-0028",
+            "c1-jhn-0016",
+            "c1-jhn-0017",
+            "c1-jhn-0018",
+            "c1-jhn-0019"
+          ]
         },
         {
           "id": "sprout-supper",
           "name": "The Last Supper",
           "art": "cup",
-          "questionIds": []
+          "questionIds": [
+            "c1-luk-0029",
+            "c1-luk-0030",
+            "c1-luk-0031",
+            "c1-luk-0032",
+            "c1-mat-0023",
+            "c1-mat-0024",
+            "c1-mat-0025",
+            "c1-mat-0026"
+          ]
         },
         {
           "id": "sprout-pentecost",
           "name": "Pentecost and the Early Church",
           "art": "pentecost",
           "questionIds": [
-            "c1-act-0001"
+            "c1-act-0001",
+            "c1-act-0002",
+            "c1-act-0003",
+            "c1-act-0004",
+            "c1-act-0005",
+            "c1-act-0006",
+            "c1-act-0007",
+            "c1-act-0008"
           ]
         },
         {
           "id": "sprout-peter",
           "name": "Peter's Miracles",
           "art": "door",
-          "questionIds": []
+          "questionIds": [
+            "c1-act-0009",
+            "c1-act-0010",
+            "c1-act-0011",
+            "c1-act-0012",
+            "c1-act-0013",
+            "c1-act-0014",
+            "c1-act-0015",
+            "c1-act-0016"
+          ]
         },
         {
           "id": "sprout-saul",
           "name": "Saul Becomes Paul",
           "art": "road",
-          "questionIds": []
+          "questionIds": [
+            "c1-act-0017",
+            "c1-act-0018",
+            "c1-act-0019",
+            "c1-act-0020",
+            "c1-act-0021",
+            "c1-act-0022",
+            "c1-act-0023",
+            "c1-act-0024"
+          ]
         },
         {
           "id": "sprout-good-news",
           "name": "Good News Verses",
           "art": "key",
           "questionIds": [
-            "c1-rom-0001"
+            "c1-rom-0001",
+            "c1-rom-0002",
+            "c1-rom-0003",
+            "c1-rom-0004",
+            "c1-rom-0005",
+            "c1-rom-0006",
+            "c1-rom-0007",
+            "c1-rom-0008"
           ]
         },
         {
@@ -249,7 +342,14 @@
           "name": "Grace and Strength Verses",
           "art": "armor-of-god",
           "questionIds": [
-            "c3-eph-0001"
+            "c1-eph-0001",
+            "c1-eph-0002",
+            "c1-eph-0003",
+            "c1-eph-0004",
+            "c1-eph-0005",
+            "c1-eph-0006",
+            "c1-php-0001",
+            "c1-php-0002"
           ]
         },
         {
@@ -257,20 +357,43 @@
           "name": "Psalms of Praise and Trust",
           "art": "lamp",
           "questionIds": [
-            "c3-psa-0001"
+            "c1-psa-0001",
+            "c1-psa-0002",
+            "c1-psa-0003",
+            "c1-psa-0004",
+            "c1-psa-0005",
+            "c1-psa-0006",
+            "c1-psa-0007",
+            "c1-psa-0008"
           ]
         },
         {
           "id": "sprout-proverbs",
           "name": "Proverbs for Growing Up",
           "art": "owl",
-          "questionIds": []
+          "questionIds": [
+            "c1-pro-0001",
+            "c1-pro-0002",
+            "c1-pro-0003",
+            "c1-pro-0004",
+            "c1-pro-0005",
+            "c1-pro-0006",
+            "c1-pro-0007",
+            "c1-pro-0008"
+          ]
         },
         {
           "id": "sprout-daniel",
           "name": "Daniel and the Lions' Den",
           "art": "daniel",
           "questionIds": [
+            "c1-dan-0002",
+            "c1-dan-0003",
+            "c1-dan-0004",
+            "c1-dan-0005",
+            "c1-dan-0006",
+            "c1-dan-0007",
+            "c1-dan-0008",
             "c1-dan-0001"
           ]
         },
@@ -278,13 +401,31 @@
           "id": "sprout-the-fiery-furnace",
           "name": "The Fiery Furnace",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-dan-0009",
+            "c1-dan-0010",
+            "c1-dan-0011",
+            "c1-dan-0012",
+            "c1-dan-0013",
+            "c1-dan-0014",
+            "c1-dan-0015",
+            "c1-dan-0016"
+          ]
         },
         {
           "id": "sprout-books-of-the-bible-names-order-and-groups-of-boo",
-          "name": "Books of the Bible _(Names, order, and groups of books (Law, History, Poetry, Prophets, Gospels, Letters). See open decision 2.)_",
+          "name": "Books of the Bible",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-bib-0001",
+            "c1-bib-0002",
+            "c1-bib-0003",
+            "c1-bib-0004",
+            "c1-bib-0005",
+            "c1-bib-0006",
+            "c1-bib-0007",
+            "c1-bib-0008"
+          ]
         }
       ]
     },

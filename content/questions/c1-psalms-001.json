@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-psa-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 1",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 1, the person who delights in God's law is compared to what?",
+        "child": "Psalm 1 talks about a person who loves God's law. What is that person like?",
+        "teen": "Psalm 1 describes someone who delights in God's law. What is that person compared to?",
+        "older": "According to Psalm 1:3, what is the one who delights in the law of the LORD likened to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tree"
+        },
+        {
+          "id": "b",
+          "text": "A tower"
+        },
+        {
+          "id": "c",
+          "text": "A lion"
+        },
+        {
+          "id": "d",
+          "text": "A clay pot"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 1:3",
+            "text": "He shall be like a tree Planted by the rivers of water, That brings forth its fruit in its season, Whose leaf also shall not wither; And whatever he does shall prosper.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 1:3 opens with a picture from nature. Read the first line of the verse.",
+          "child": "Read Psalm 1:3. The first line tells what this person is like, and the rest tells how it grows.",
+          "teen": "Check Psalm 1:3. The first line gives the picture, and the next lines describe it.",
+          "older": "Psalm 1:3 begins with the comparison, then describes where it is planted and how it bears fruit."
+        },
+        "extended_explanation": "The verse describes something planted by water that bears fruit in its season and whose leaf does not wither. Look at the very first line.",
+        "takeaway": "The one who delights in God's law is like a tree planted by the rivers of water."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-psa-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 8",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What does David name in the sky?",
+        "child": "David looks up and names things in the sky. What does he name?",
+        "teen": "When David considers the heavens, what does he name in the sky?",
+        "older": "According to Psalm 8:3, what does David name in the sky?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The clouds and rain"
+        },
+        {
+          "id": "b",
+          "text": "The birds and nests"
+        },
+        {
+          "id": "c",
+          "text": "The moon and the stars"
+        },
+        {
+          "id": "d",
+          "text": "The hills and valleys"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 8:3",
+            "text": "When I consider Your heavens, the work of Your fingers, The moon and the stars, which You have ordained,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 8:3 tells what David names when he looks up. Read the middle of the verse.",
+          "child": "David is looking at the sky in Psalm 8:3. Read what he names there.",
+          "teen": "Psalm 8:3 lists what David names in the heavens. Look after “the work of Your fingers.”",
+          "older": "Read the middle of Psalm 8:3 for what David names in the sky."
+        },
+        "extended_explanation": "David is thinking about the heavens as the work of God's fingers. The next words name what he sees there.",
+        "takeaway": "David names the moon and the stars."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: moved off Psalm 8:1/8:9 (“Your name”). Did not change that answer to “His name,” which Psalm 100:4 would leak. Now Psalm 8:3, “The moon and the stars.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-psa-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 19",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Psalm 19:1, what do the heavens declare?",
+        "child": "Psalm 19 says the sky is telling us something. What do the heavens declare?",
+        "teen": "Psalm 19:1 says the heavens are speaking. What do they declare?",
+        "older": "In Psalm 19:1, what is it that the heavens declare?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The size of the earth"
+        },
+        {
+          "id": "b",
+          "text": "The glory of God"
+        },
+        {
+          "id": "c",
+          "text": "The time of year"
+        },
+        {
+          "id": "d",
+          "text": "The names of kings"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 19:1",
+            "text": "The heavens declare the glory of God; And the firmament shows His handiwork.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 19:1 gives two parallel lines about the sky. Read the first line.",
+          "child": "Read Psalm 19:1. The first part tells what the heavens declare, and the second tells what the sky shows.",
+          "teen": "Check Psalm 19:1. The first line tells what the heavens declare.",
+          "older": "Psalm 19:1 is written in two parallel lines. The first names what the heavens declare."
+        },
+        "extended_explanation": "The verse says the sky itself speaks without words. It points to the One who made it. Read the first line closely.",
+        "takeaway": "The heavens declare the glory of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-psa-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 23",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 23:1, David says the LORD is his what?",
+        "child": "Psalm 23 begins by telling who the LORD is to David. What does David call Him?",
+        "teen": "In the first line of Psalm 23, what does David call the LORD?",
+        "older": "According to Psalm 23:1, what does David declare the LORD to be to him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shepherd"
+        },
+        {
+          "id": "b",
+          "text": "Builder"
+        },
+        {
+          "id": "c",
+          "text": "Gardener"
+        },
+        {
+          "id": "d",
+          "text": "Fisherman"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 23:1",
+            "text": "The LORD is my shepherd; I shall not want.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 23:1 is short. Read the first half of the verse.",
+          "child": "Read Psalm 23:1. David tells who the LORD is to him, and then says he will not be in need.",
+          "teen": "Check Psalm 23:1. The first half names what the LORD is to David.",
+          "older": "The opening clause of Psalm 23:1 gives the title David uses for the LORD."
+        },
+        "extended_explanation": "David tells what the LORD is to him. Read the first half of the verse.",
+        "takeaway": "The LORD is my shepherd."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: rewrote the extended explanation so it no longer almost gives the answer away."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-psa-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 23",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 23, what does David say shall follow him all the days of his life?",
+        "child": "David says two things will follow him every day of his life. What are they?",
+        "teen": "Psalm 23 ends with David naming what will stay with him his whole life long. What is it?",
+        "older": "According to Psalm 23:6, what shall follow David all the days of his life?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fear and great trouble"
+        },
+        {
+          "id": "b",
+          "text": "Gold and much silver"
+        },
+        {
+          "id": "c",
+          "text": "War and long famine"
+        },
+        {
+          "id": "d",
+          "text": "Goodness and mercy"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 23:6",
+            "text": "Surely goodness and mercy shall follow me All the days of my life; And I will dwell in the house of the LORD Forever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 23:6 tells what shall follow David all the days of his life. Read the first part of the verse.",
+          "child": "Psalm 23:6 says something will follow David his whole life. Read the first part to see what it is.",
+          "teen": "The opening of Psalm 23:6 names what will follow David. Read those first words.",
+          "older": "Read the first line of Psalm 23:6 for what shall follow David all his days."
+        },
+        "extended_explanation": "The last verse of this psalm looks ahead through all of David's days, and then to the house of the LORD. Read the first half for what follows him.",
+        "takeaway": "Goodness and mercy shall follow David all the days of his life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: moved from Psalm 23:2 (which contains “still waters,” answering psa-0006) to Psalm 23:6. Answer: “Goodness and mercy.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-psa-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 46",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 46:10, God tells His people to be what, and know that He is God?",
+        "child": "In Psalm 46:10, God gives a short command before saying \"know that I am God.\" What does He tell people to be?",
+        "teen": "Psalm 46:10 has a short command from God. What does He tell people to be, and know that He is God?",
+        "older": "According to Psalm 46:10, what does God call His people to be as they know that He is God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glad"
+        },
+        {
+          "id": "b",
+          "text": "Strong"
+        },
+        {
+          "id": "c",
+          "text": "Ready"
+        },
+        {
+          "id": "d",
+          "text": "Still"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 46:10",
+            "text": "Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 46:10 begins with a short command. Read the first words of the verse.",
+          "child": "Read Psalm 46:10. The first few words tell what God wants people to be.",
+          "teen": "Check Psalm 46:10. The very first words are the command.",
+          "older": "The command appears in the opening words of Psalm 46:10, just before \"and know that I am God.\""
+        },
+        "extended_explanation": "This psalm speaks of mountains shaking and nations raging. Then God speaks a calm command at the start of verse 10.",
+        "takeaway": "Be still, and know that I am God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-psa-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 100",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Psalm 100:4, with what should we enter God's gates?",
+        "child": "Psalm 100 tells us how to come into God's gates. What should we bring with us?",
+        "teen": "Psalm 100:4 says how to come through God's gates. With what should we enter?",
+        "older": "In Psalm 100:4, with what are worshipers told to enter the LORD's gates?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fear and trembling"
+        },
+        {
+          "id": "b",
+          "text": "Gifts of gold"
+        },
+        {
+          "id": "c",
+          "text": "Thanksgiving"
+        },
+        {
+          "id": "d",
+          "text": "Silence"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 100:4",
+            "text": "Enter into His gates with thanksgiving, And into His courts with praise. Be thankful to Him, and bless His name.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 100:4 names the gates and the courts. Read what goes with the gates.",
+          "child": "Read Psalm 100:4. It tells how to enter the gates and how to enter the courts.",
+          "teen": "Check Psalm 100:4. The first line tells how to enter His gates.",
+          "older": "Psalm 100:4 pairs the gates and the courts, each with its own way of coming in. Note the first line."
+        },
+        "extended_explanation": "This verse gives two places, gates and courts, and a way to enter each. The answer goes with the gates in the first line.",
+        "takeaway": "We enter God's gates with thanksgiving."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-psa-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 119",
+      "topics": [
+        "psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 119:111, why does the psalmist take God's testimonies as his heritage forever?",
+        "child": "In Psalm 119:111, the writer says he keeps God's words forever. Why does he keep them?",
+        "teen": "Psalm 119:111 says the writer has made God's testimonies his heritage forever. What reason does he give?",
+        "older": "According to Psalm 119:111, for what reason has the psalmist taken God's testimonies as a heritage forever?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They made him rich and powerful"
+        },
+        {
+          "id": "b",
+          "text": "They are the rejoicing of his heart"
+        },
+        {
+          "id": "c",
+          "text": "His father told him to"
+        },
+        {
+          "id": "d",
+          "text": "They keep his enemies away"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 119:111",
+            "text": "Your testimonies I have taken as a heritage forever, For they are the rejoicing of my heart.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 119:111 gives a reason after the word \"For.\" Read the second line.",
+          "child": "Read Psalm 119:111. The second part starts with \"For\" and tells why.",
+          "teen": "Check Psalm 119:111. The reason comes after the word \"For.\"",
+          "older": "The second clause of Psalm 119:111, introduced by \"For,\" states the reason."
+        },
+        "extended_explanation": "A heritage is something treasured and kept. The second line of the verse tells what God's testimonies do for the writer.",
+        "takeaway": "God's testimonies are the rejoicing of the psalmist's heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: changed the correct choice to third person (“They are the rejoicing of his heart”) to match the other choices."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-bible-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-bib-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which book comes first in the Bible?",
+        "child": "Which book is at the very start of the Bible?",
+        "teen": "Which book opens the Bible?",
+        "older": "Which book stands first in the order of the Bible?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Revelation"
+        },
+        {
+          "id": "b",
+          "text": "Psalms"
+        },
+        {
+          "id": "c",
+          "text": "Genesis"
+        },
+        {
+          "id": "d",
+          "text": "Exodus"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:1",
+            "text": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The first verse of the Bible starts with these same three words. The first book's name means “beginning.”",
+          "child": "Look at the first three words of this verse. The first verse of the whole Bible starts the same way, and the first book's name means “beginning.”",
+          "teen": "This verse and the Bible's very first verse open with the same three words. The first book's name means “beginning.”",
+          "older": "John 1:1 begins with three words that also open the Bible. The first book's name means “beginning.”"
+        },
+        "extended_explanation": "The Bible's opening verse uses the same first three words you see here. That first book's name means “beginning” or “origin.”",
+        "takeaway": "Genesis is the first book of the Bible."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. bib-0001 cites John 1:1, not Genesis 1:1, so the reference line does not name the answer."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-bib-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The first five books of the Bible form one group. What is that group called?",
+        "child": "The first five books of the Bible go together in one group. What is the group called?",
+        "teen": "The Bible's first five books are grouped together. What is the group called?",
+        "older": "By what name is the group made up of the Bible's first five books known?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Law"
+        },
+        {
+          "id": "b",
+          "text": "History"
+        },
+        {
+          "id": "c",
+          "text": "Poetry"
+        },
+        {
+          "id": "d",
+          "text": "The Letters"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:17",
+            "text": "For the law was given through Moses, but grace and truth came through Jesus Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 1:17 tells what was given through Moses. Read the first part of the verse.",
+          "child": "This verse says something was given through Moses. Read the first words to see what it was.",
+          "teen": "John 1:17 names what came through Moses. Look at the opening words.",
+          "older": "Read the first clause of John 1:17 for what was given through Moses."
+        },
+        "extended_explanation": "Moses is tied to the Bible's first five books. John 1:17 names what was given through him.",
+        "takeaway": "The first five books are called the Law."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. bib-0002 cites John 1:17, not Luke 24:44 (which also names the Psalms and would answer bib-0005)."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-bib-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew, Mark, Luke, and John form one group of books. What is the group called?",
+        "child": "Matthew, Mark, Luke, and John tell about Jesus' life. What is this group of books called?",
+        "teen": "Matthew, Mark, Luke, and John are grouped together. What is that group called?",
+        "older": "What name is given to the group of books made up of Matthew, Mark, Luke, and John?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "History"
+        },
+        {
+          "id": "b",
+          "text": "The Gospels"
+        },
+        {
+          "id": "c",
+          "text": "Letters"
+        },
+        {
+          "id": "d",
+          "text": "Poetry"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:1",
+            "text": "The beginning of the gospel of Jesus Christ, the Son of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Mark 1:1. It uses a word that means \"good news.\" The group is named for that word.",
+          "child": "Read Mark 1:1. It uses a word that means \"good news.\" These books get their group name from it.",
+          "teen": "Check Mark 1:1. It uses a word meaning \"good news\" that gives this group its name.",
+          "older": "Mark 1:1 uses the term, meaning \"good news,\" from which this group of books takes its name."
+        },
+        "extended_explanation": "These books tell the good news of Jesus' life, death, and rising again. Mark's first verse uses the word that names the group.",
+        "takeaway": "Matthew, Mark, Luke, and John are the Gospels."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. bib-0003 keeps Mark 1:1. Book-name wrongs (The Psalms, The Proverbs) are now group names."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-bib-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which book comes right after John and tells how the early church began?",
+        "child": "Which book comes right after John and tells how the first church got started?",
+        "teen": "Which book follows John and tells how the early church began?",
+        "older": "Which book immediately follows John and records the beginning of the early church?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Romans"
+        },
+        {
+          "id": "b",
+          "text": "Mark"
+        },
+        {
+          "id": "c",
+          "text": "Revelation"
+        },
+        {
+          "id": "d",
+          "text": "Acts"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 21:25",
+            "text": "And there are also many other things that Jesus did, which if they were written one by one, I suppose that even the world itself could not contain the books that would be written. Amen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John's Gospel ends with this verse. The next book picks up what Jesus' followers did.",
+          "child": "This is the last verse of John's book. The next book tells what Jesus' followers did after that.",
+          "teen": "John closes with these words. The book that follows continues with what Jesus' followers did.",
+          "older": "Read John 21:25, the close of that Gospel. The next book picks up what Jesus' followers did."
+        },
+        "extended_explanation": "John ends by saying much more could have been written about what Jesus did. The next book picks up what His followers did.",
+        "takeaway": "Acts comes right after John and tells what Jesus' followers did."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. bib-0004 cites John 21:25 (the end of John). Explanations do not use the word “acts.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-bib-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which book in the Poetry group is a collection of songs and prayers?",
+        "child": "Which book in the Poetry group is full of songs and prayers?",
+        "teen": "Which Poetry book is a collection of songs and prayers to God?",
+        "older": "Which book among the Poetry books is a collection of songs and prayers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Psalms"
+        },
+        {
+          "id": "b",
+          "text": "Numbers"
+        },
+        {
+          "id": "c",
+          "text": "Joshua"
+        },
+        {
+          "id": "d",
+          "text": "Proverbs"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 20:42",
+            "text": "Now David himself said in the Book of Psalms: ‘The LORD said to my Lord, “Sit at My right hand,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "In Luke 20:42, Jesus quotes David and names the book the words come from.",
+          "child": "Read Luke 20:42. Jesus says David wrote some words, and He names the book.",
+          "teen": "Check Luke 20:42. Jesus names the book of David's songs.",
+          "older": "In Luke 20:42 Jesus cites David by naming the book in which the words appear."
+        },
+        "extended_explanation": "Many of these songs were written by King David. In Luke 20:42, Jesus names the book that holds them.",
+        "takeaway": "Psalms is a book of songs and prayers in the Poetry group."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. bib-0005 keeps Luke 20:42, which honestly contains the answer. Swapped the Matthew distractor for Proverbs so it is a real Poetry choice."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-bib-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The book of Romans belongs to which group of New Testament books?",
+        "child": "Romans was written to believers in Rome. Which group of New Testament books is it in?",
+        "teen": "Romans was written to Christians in Rome. Which New Testament group does it belong to?",
+        "older": "To which group of New Testament books does Romans belong?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Gospels"
+        },
+        {
+          "id": "b",
+          "text": "The Law"
+        },
+        {
+          "id": "c",
+          "text": "Letters"
+        },
+        {
+          "id": "d",
+          "text": "History"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 1:7",
+            "text": "To all who are in Rome, beloved of God, called to be saints: Grace to you and peace from God our Father and the Lord Jesus Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Romans 1:7. It greets a group of people by name and place, the way someone starts writing to friends.",
+          "child": "Read Romans 1:7. It starts like a message sent to people in a city. That tells you what kind of book it is.",
+          "teen": "Check Romans 1:7. It greets people in Rome like the start of a message written to them.",
+          "older": "Romans 1:7 is an address and greeting to believers in Rome, which shows what kind of writing the book is."
+        },
+        "extended_explanation": "Paul wrote this book to believers in the city of Rome. It opens with a greeting, \"Grace to you and peace,\" as written messages did.",
+        "takeaway": "Romans is one of the Letters."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. bib-0006 keeps Romans 1:7."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-bib-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Daniel and Jonah belong to which group of Bible books?",
+        "child": "Daniel and Jonah carried messages from God. Which group of books are they in?",
+        "teen": "The books of Daniel and Jonah are part of which section of the Bible?",
+        "older": "Among the groupings of the Old Testament books, where do Daniel and Jonah belong?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "History"
+        },
+        {
+          "id": "b",
+          "text": "The Prophets"
+        },
+        {
+          "id": "c",
+          "text": "Poetry"
+        },
+        {
+          "id": "d",
+          "text": "The Gospels"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 24:27",
+            "text": "And beginning at Moses and all the Prophets, He expounded to them in all the Scriptures the things concerning Himself.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 24:27 says Jesus started with Moses and then named another group of writings. Read what that group is called.",
+          "child": "Jesus started at Moses and then named a group of books. Look at the next words in Luke 24:27.",
+          "teen": "Luke 24:27 names two parts of the Scriptures. Read the words right after “Moses and.”",
+          "older": "Read Luke 24:27 after “beginning at Moses and” for the name of that group."
+        },
+        "extended_explanation": "Jesus walked with two friends and explained the Scriptures to them. He began at Moses and then named the group that Daniel and Jonah belong to.",
+        "takeaway": "Daniel and Jonah belong to the Prophets."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. Dropped the “66 books” question: no verse supports that number, and 2 Timothy is outside Sprout. Replaced with a Prophets-group question citing Luke 24:27."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-bib-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Bible",
+      "section": "Books of the Bible",
+      "topics": [
+        "books-of-the-bible"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the order of the Bible's books, which book comes right after Exodus?",
+        "child": "In the Bible, which book comes right after Exodus?",
+        "teen": "In the Bible's order, which book comes right after Exodus?",
+        "older": "In the order of the books of the Bible, which book immediately follows Exodus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deuteronomy"
+        },
+        {
+          "id": "b",
+          "text": "Numbers"
+        },
+        {
+          "id": "c",
+          "text": "Joshua"
+        },
+        {
+          "id": "d",
+          "text": "Leviticus"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 40:34",
+            "text": "Then the cloud covered the tabernacle of meeting, and the glory of the LORD filled the tabernacle.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Near the end of Exodus, the glory of the LORD filled the tabernacle. The next book opens with God speaking from that tabernacle.",
+          "child": "Near the end of Exodus, God's glory filled the tabernacle, His special tent. The very next book starts with God speaking from that tent.",
+          "teen": "Exodus 40:34 comes near the end of Exodus, when the LORD's glory filled the tabernacle. The book that follows begins with God speaking from that same tabernacle.",
+          "older": "Read Exodus 40:34, near the end of that book, where the glory of the LORD filled the tabernacle. The next book opens with God speaking from that tabernacle."
+        },
+        "extended_explanation": "Near the end of Exodus, the cloud covered the tabernacle of meeting and the glory of the LORD filled it. The book that follows picks up from there, opening with God speaking from that tabernacle.",
+        "takeaway": "Leviticus comes right after Exodus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "BOOKS-BADGE. This badge teaches names, order, and groups, not a fact inside a story verse. Teaching verses must not name the answer in the reference line. Only Sprout books are used as named examples (Genesis, Exodus, 1 Samuel, Psalms, Proverbs, Daniel, Jonah, Matthew, Mark, Luke, John, Acts, Romans, Ephesians, Philippians). If Chris later wants “The Bible has 66 books” taught, that line can live only in a takeaway, not as a verse-backed answer. bib-0008 cites Exodus 40:34, not Leviticus 1:1, so the reference line does not name the answer."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

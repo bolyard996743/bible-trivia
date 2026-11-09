@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0013",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 10",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jesus' story of the hurt traveler, who had compassion and helped him?",
+        "child": "In Jesus' story, a man was hurt on the road. Who felt sorry for him and stopped to help?",
+        "teen": "In Jesus' story about the hurt traveler, who showed compassion on him?",
+        "older": "In the parable recorded in Luke 10:33, who had compassion on the wounded traveler?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A certain Samaritan"
+        },
+        {
+          "id": "b",
+          "text": "A soldier"
+        },
+        {
+          "id": "c",
+          "text": "A shepherd"
+        },
+        {
+          "id": "d",
+          "text": "A wealthy tax collector"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 10:33",
+            "text": "But a certain Samaritan, as he journeyed, came where he was. And when he saw him, he had compassion.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 10:33 names the man who had compassion. Read the start of the verse.",
+          "child": "Read Luke 10:33. The verse tells who came along and felt sorry for the hurt man.",
+          "teen": "Check Luke 10:33. It names the traveler who had compassion.",
+          "older": "Luke 10:33 identifies the one who had compassion at the opening of the verse."
+        },
+        "extended_explanation": "Two men passed by on the other side. Luke 10:33 introduces the third man, the one who stopped and cared.",
+        "takeaway": "A Samaritan had compassion and helped the hurt man."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0014",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 10",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the story, what did the helper pour on the hurt man's wounds?",
+        "child": "The helper in Jesus' story bandaged the hurt man. What did he pour on the wounds?",
+        "teen": "What did the helper in the story pour on the hurt man's wounds?",
+        "older": "According to Luke 10:34, what did the helper pour on the wounded man's injuries?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Water and salt"
+        },
+        {
+          "id": "b",
+          "text": "Honey and milk"
+        },
+        {
+          "id": "c",
+          "text": "Oil and wine"
+        },
+        {
+          "id": "d",
+          "text": "Vinegar"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 10:34",
+            "text": "So he went to him and bandaged his wounds, pouring on oil and wine; and he set him on his own animal, brought him to an inn, and took care of him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 10:34 tells how the helper cared for the wounds. Read the words after \"pouring on.\"",
+          "child": "Read Luke 10:34. Find \"pouring on.\" The next words tell what he used.",
+          "teen": "Check Luke 10:34. What he poured is named right after \"pouring on.\"",
+          "older": "Luke 10:34 names what was poured on the wounds, right after the word \"pouring.\""
+        },
+        "extended_explanation": "Luke 10:34 lists the helper's care step by step: he bandaged, poured something on, set the man on his animal, and took him to an inn.",
+        "takeaway": "The helper poured oil and wine on the man's wounds."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 15",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jesus' story of the lost sheep, how many sheep did the man have in all?",
+        "child": "In Jesus' story, a man lost one of his sheep. How many sheep did he have to start with?",
+        "teen": "In the story of the lost sheep, how many sheep did the man have altogether?",
+        "older": "In the parable in Luke 15:4, how many sheep did the man have in all?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ten"
+        },
+        {
+          "id": "b",
+          "text": "A hundred"
+        },
+        {
+          "id": "c",
+          "text": "Fifty"
+        },
+        {
+          "id": "d",
+          "text": "A thousand"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 15:4",
+            "text": "“What man of you, having a hundred sheep, if he loses one of them, does not leave the ninety-nine in the wilderness, and go after the one which is lost until he finds it?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 15:4 gives the total number of sheep near the start of the verse.",
+          "child": "Read Luke 15:4. The total number of sheep comes before he loses one.",
+          "teen": "Check Luke 15:4. The total is given before the verse says one was lost.",
+          "older": "Luke 15:4 states the size of the flock before describing the one that was lost."
+        },
+        "extended_explanation": "Luke 15:4 gives two numbers: the whole flock and the number left behind. The whole flock is named first.",
+        "takeaway": "The man in the story had a hundred sheep."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 15",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said there will be more of what in heaven over one sinner who repents?",
+        "child": "Jesus said heaven has more of something when one person turns back to God. What is it?",
+        "teen": "When one sinner repents, Jesus said heaven has more of what?",
+        "older": "According to Luke 15:7, what will there be more of in heaven over one sinner who repents?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Silence"
+        },
+        {
+          "id": "b",
+          "text": "Worry"
+        },
+        {
+          "id": "c",
+          "text": "Questions"
+        },
+        {
+          "id": "d",
+          "text": "Joy"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 15:7",
+            "text": "I say to you that likewise there will be more joy in heaven over one sinner who repents than over ninety-nine just persons who need no repentance.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 15:7 tells what heaven has more of. Read the words after \"there will be more.\"",
+          "child": "Read Luke 15:7. Find \"there will be more.\" The next word is the answer.",
+          "teen": "Check Luke 15:7. Look right after \"there will be more.\"",
+          "older": "Luke 15:7 names it directly after the phrase \"there will be more.\""
+        },
+        "extended_explanation": "The shepherd called his friends together. In Luke 15:7, Jesus says heaven reacts the same way when one person repents.",
+        "takeaway": "There is more joy in heaven over one sinner who repents."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 15",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the younger son spent everything, what job was he sent to do?",
+        "child": "The younger son spent all his money. What job did he get in the fields?",
+        "teen": "After wasting all his money, what job did the younger son end up doing?",
+        "older": "According to Luke 15:15, what work was the younger son sent into the fields to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To feed swine"
+        },
+        {
+          "id": "b",
+          "text": "To catch fish"
+        },
+        {
+          "id": "c",
+          "text": "To build houses"
+        },
+        {
+          "id": "d",
+          "text": "To sell cloth"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 15:15",
+            "text": "Then he went and joined himself to a citizen of that country, and he sent him into his fields to feed swine.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 15:15 tells what the man sent him to do. Read the end of the verse.",
+          "child": "Read Luke 15:15. The end of the verse tells what job he did in the fields.",
+          "teen": "Check Luke 15:15. The last words tell what he was sent to do.",
+          "older": "Luke 15:15 closes by naming the work he was given at the end of the verse."
+        },
+        "extended_explanation": "Luke 15:15 says he was sent to the fields, and Luke 15:16 says he was so hungry he wanted to eat what those animals ate.",
+        "takeaway": "The younger son was sent to feed swine."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 15",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the younger son came home, what did his father do while the son was still far off?",
+        "child": "The younger son headed home. While he was still far away, what did his father do?",
+        "teen": "The son was still a long way off when his father saw him. What did the father do?",
+        "older": "According to Luke 15:20, what did the father do when he saw his son still a great way off?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shut the door"
+        },
+        {
+          "id": "b",
+          "text": "Sent him away"
+        },
+        {
+          "id": "c",
+          "text": "Ran to him"
+        },
+        {
+          "id": "d",
+          "text": "Waited inside"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 15:20",
+            "text": "“And he arose and came to his father. But when he was still a great way off, his father saw him and had compassion, and ran and fell on his neck and kissed him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 15:20 tells what the father did after he saw his son and had compassion. Read the actions that follow.",
+          "child": "Read Luke 15:20. The father saw his son and felt compassion. Read what he did next.",
+          "teen": "Check Luke 15:20. After the father saw his son, the verse lists what he did.",
+          "older": "Luke 15:20 lists the father's actions after he saw his son and had compassion."
+        },
+        "extended_explanation": "The son planned to ask to be a servant. Before he even arrived, the father saw him. Luke 15:20 tells what the father did next.",
+        "takeaway": "The father ran to his son."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0013",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 7",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jesus' story, where did the wise man build his house?",
+        "child": "Jesus told about a wise man who built a house. Where did he build it?",
+        "teen": "In Jesus' story, the wise man built his house where?",
+        "older": "According to Matthew 7:24, on what did the wise man build his house?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hilltop"
+        },
+        {
+          "id": "b",
+          "text": "The rock"
+        },
+        {
+          "id": "c",
+          "text": "Soft dirt"
+        },
+        {
+          "id": "d",
+          "text": "The riverbank"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 7:24",
+            "text": "“Therefore whoever hears these sayings of Mine, and does them, I will liken him to a wise man who built his house on the rock:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 7:24 describes the wise man's house. Read the end of the verse.",
+          "child": "Read Matthew 7:24. The last words tell where the wise man built.",
+          "teen": "Check Matthew 7:24. The verse ends by telling where he built.",
+          "older": "Matthew 7:24 closes with the place the wise man built his house."
+        },
+        "extended_explanation": "Jesus compared a person who hears and does His words to this wise builder. Matthew 7:25 explains why the house stood in the storm.",
+        "takeaway": "The wise man built his house on the rock."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0014",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 13",
+      "topics": [
+        "parables"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the parable of the sower, where did the seed fall that produced a crop?",
+        "child": "In Jesus' story about a farmer planting seeds, where did the seed land that grew a crop?",
+        "teen": "In the parable of the sower, where did the seed that grew a crop land?",
+        "older": "According to Matthew 13:8, where did the seed fall that yielded a crop?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By the wayside"
+        },
+        {
+          "id": "b",
+          "text": "On stony places"
+        },
+        {
+          "id": "c",
+          "text": "Among thorns"
+        },
+        {
+          "id": "d",
+          "text": "On good ground"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 13:8",
+            "text": "But others fell on good ground and yielded a crop",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 13:8 tells where the fruitful seed landed. Read the words after \"others fell.\"",
+          "child": "Read Matthew 13:8. Find \"others fell.\" The next words tell where it landed.",
+          "teen": "Check Matthew 13:8. Right after \"others fell\" is where it landed.",
+          "older": "Matthew 13:8 names the place directly after \"others fell.\""
+        },
+        "extended_explanation": "Some seed was eaten, some dried up, and some was choked. Matthew 13:8 tells where the last seed fell and how much it grew.",
+        "takeaway": "The seed that fell on good ground yielded a crop."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}
