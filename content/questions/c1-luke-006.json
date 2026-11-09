@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0029",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 22",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which two disciples did Jesus send to get the Passover meal ready?",
+        "child": "Jesus sent two disciples to get the Passover meal ready. Which two did He send?",
+        "teen": "Jesus picked two disciples to go and prepare the Passover. Who were they?",
+        "older": "According to Luke 22:8, which two disciples did Jesus send to prepare the Passover?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peter and John"
+        },
+        {
+          "id": "b",
+          "text": "James and Andrew"
+        },
+        {
+          "id": "c",
+          "text": "Thomas and Philip"
+        },
+        {
+          "id": "d",
+          "text": "Matthew and Bartholomew"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 22:8",
+            "text": "And He sent Peter and John, saying, “Go and prepare the Passover for us, that we may eat.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 22:8 names the two men Jesus sent. Read the start of the verse.",
+          "child": "Read Luke 22:8. It tells you the names of the two disciples Jesus sent.",
+          "teen": "Check Luke 22:8. The two names are right at the beginning of the verse.",
+          "older": "Luke 22:8 names both disciples Jesus sent ahead, at the opening of the verse."
+        },
+        "extended_explanation": "Before the meal, Jesus gave two of His disciples a job: go and prepare the Passover so they could eat together. The verse names them.",
+        "takeaway": "Jesus sent Peter and John to prepare the Passover."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0030",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 22",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told the two disciples that a man would meet them in the city. What would he be carrying?",
+        "child": "Jesus said a man would meet the two disciples in the city. What would that man be carrying?",
+        "teen": "When the two disciples entered the city, what did Jesus say the man who met them would be carrying?",
+        "older": "According to Luke 22:10, what would the man who met the two disciples be carrying?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A basket of bread"
+        },
+        {
+          "id": "b",
+          "text": "A pitcher of water"
+        },
+        {
+          "id": "c",
+          "text": "A burning lamp"
+        },
+        {
+          "id": "d",
+          "text": "A young lamb"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 22:10",
+            "text": "And He said to them, “Behold, when you have entered the city, a man will meet you carrying a pitcher of water; follow him into the house which he enters.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 22:10 describes the man they would meet. Read what he would have with him.",
+          "child": "Read Luke 22:10. Jesus tells them what the man will have with him.",
+          "teen": "Luke 22:10 tells the disciples how to recognize the man. Look at what he would have with him.",
+          "older": "Luke 22:10 describes what the man the disciples would meet would have with him."
+        },
+        "extended_explanation": "Jesus gave the disciples a clear sign so they would know which house to go to. Luke 22:10 tells what to look for.",
+        "takeaway": "A man carrying a pitcher of water would meet them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: object distractors (basket of bread, burning lamp, young lamb)."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0031",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 22",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus gave His disciples the bread, why did He tell them to do this?",
+        "child": "Jesus broke the bread and gave it to His disciples. Why did He say to do this?",
+        "teen": "Jesus gave the broken bread to His disciples. What reason did He give for doing this?",
+        "older": "According to Luke 22:19, for what purpose did Jesus tell the disciples to do this with the bread?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To stay awake"
+        },
+        {
+          "id": "b",
+          "text": "To save the bread"
+        },
+        {
+          "id": "c",
+          "text": "In remembrance of Me"
+        },
+        {
+          "id": "d",
+          "text": "To feed a crowd"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 22:19",
+            "text": "And He took bread, gave thanks and broke it, and gave it to them, saying, “This is My body which is given for you; do this in remembrance of Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 22:19 ends with the reason Jesus gave. Read the last words He spoke.",
+          "child": "Read Luke 22:19. Look at the last thing Jesus says about why to do this.",
+          "teen": "Check Luke 22:19. The end of the verse gives the reason.",
+          "older": "Luke 22:19 closes with the purpose Jesus gave for this act."
+        },
+        "extended_explanation": "Jesus gave thanks, broke the bread, and gave it to them. Then He told them why they should keep doing it. The reason is in His last words in the verse.",
+        "takeaway": "Jesus said to do this in remembrance of Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed padded wrongs so this correct answer is one of the two longest in the badge."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0032",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 22",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After supper Jesus took the cup. He said it was the new what, in His blood?",
+        "child": "After supper Jesus held up the cup. He said this cup was the new ___ in His blood. What is the missing word?",
+        "teen": "After supper, Jesus said the cup was the new ___ in His blood. What word fills the blank?",
+        "older": "According to Luke 22:20, the cup after supper is the new what in Jesus' blood?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kingdom"
+        },
+        {
+          "id": "b",
+          "text": "Temple"
+        },
+        {
+          "id": "c",
+          "text": "Commandment"
+        },
+        {
+          "id": "d",
+          "text": "Covenant"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 22:20",
+            "text": "Likewise He also took the cup after supper, saying, “This cup is the new covenant in My blood, which is shed for you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 22:20 tells what Jesus called the cup. Read the word right after \"new.\"",
+          "child": "Read Luke 22:20. Find the word that comes right after \"new.\"",
+          "teen": "Check Luke 22:20. The word you need comes right after \"new.\"",
+          "older": "Luke 22:20 records Jesus' words about the cup; the word follows \"new.\""
+        },
+        "extended_explanation": "At the end of the meal Jesus took the cup and explained what it meant. Luke 22:20 gives His exact words.",
+        "takeaway": "Jesus said the cup is the new covenant in His blood."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0023",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the meal, to what place did Jesus go with His disciples to pray?",
+        "child": "Jesus went with His disciples to a place to pray. What was the place called?",
+        "teen": "Jesus took His disciples to a place so He could pray. What was its name?",
+        "older": "According to Matthew 26:36, what was the name of the place where Jesus went with the disciples to pray?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gethsemane"
+        },
+        {
+          "id": "b",
+          "text": "Bethlehem"
+        },
+        {
+          "id": "c",
+          "text": "Nazareth"
+        },
+        {
+          "id": "d",
+          "text": "Mount Sinai"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:36",
+            "text": "Then Jesus came with them to a place called Gethsemane, and said to the disciples, “Sit here while I go and pray over there.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 26:36 names the place. Read the first part of the verse.",
+          "child": "Read Matthew 26:36. The name of the place is near the beginning.",
+          "teen": "Check Matthew 26:36. The place is named early in the verse.",
+          "older": "Matthew 26:36 names the place in its opening words."
+        },
+        "extended_explanation": "Jesus brought His disciples to a certain place and told them to sit while He went to pray. Matthew 26:36 gives its name.",
+        "takeaway": "Jesus went to Gethsemane to pray."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0024",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus was very sad as He went to pray. What did He ask the three disciples with Him to do?",
+        "child": "Jesus felt very sad. What did He ask the three disciples who were with Him to do?",
+        "teen": "Jesus was deeply sad before He prayed. What did He ask His three closest disciples to do?",
+        "older": "According to Matthew 26:38, what did Jesus ask the three disciples to do while He prayed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Go out fishing"
+        },
+        {
+          "id": "b",
+          "text": "Buy some extra food"
+        },
+        {
+          "id": "c",
+          "text": "Light a campfire"
+        },
+        {
+          "id": "d",
+          "text": "Watch with Me"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:38",
+            "text": "Then He said to them, “My soul is exceedingly sorrowful, even to death. Stay here and watch with Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 26:38 ends with what Jesus asked them to do. Read His last words.",
+          "child": "Read Matthew 26:38. At the end, Jesus tells them what to do with Him.",
+          "teen": "Check Matthew 26:38. Jesus' request is at the end of the verse.",
+          "older": "Matthew 26:38 closes with Jesus' request to the three disciples."
+        },
+        "extended_explanation": "Jesus told them how sorrowful He felt. Then He asked them to stay and do something with Him. His request is at the end of the verse.",
+        "takeaway": "Jesus asked them to stay and watch with Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0025",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After praying again, Jesus returned to His disciples. How did He find them?",
+        "child": "Jesus went to pray again and then came back to His friends. How did He find them?",
+        "teen": "Jesus prayed once more and then went back to the disciples. What state were they in when He got there?",
+        "older": "According to Matthew 26:43, Jesus came back from praying again. How did He find the disciples?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Praying"
+        },
+        {
+          "id": "b",
+          "text": "Asleep"
+        },
+        {
+          "id": "c",
+          "text": "Singing hymns"
+        },
+        {
+          "id": "d",
+          "text": "Eating bread"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:43",
+            "text": "And He came and found them asleep again, for their eyes were heavy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 26:43 tells how Jesus found the disciples when He came back again. Read the first part of the verse.",
+          "child": "Jesus had gone to pray, and then He came back again. Matthew 26:43 tells how He found His friends.",
+          "teen": "Matthew 26:43 records what Jesus found on this return. Read the opening words.",
+          "older": "Read Matthew 26:43 from the start. It says how Jesus found the disciples this time."
+        },
+        "extended_explanation": "Jesus had already stepped away to pray once before this. Matthew 26:43 tells what He found when He came back again, and it gives a reason about their eyes.",
+        "takeaway": "Jesus found the disciples asleep again."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: moved from Matthew 26:40 to 26:43 so the card does not show “watch with Me.” Answer: Asleep. Sequence intermediate."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mat-0026",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "last-supper"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In His prayer, whose will did Jesus ask to be done?",
+        "child": "Jesus prayed a very hard prayer. Whose will did He say should be done?",
+        "teen": "Jesus prayed that the cup might pass from Him. In the end, whose will did He want done?",
+        "older": "According to Matthew 26:39, whose will did Jesus place first in His prayer?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The disciples' will"
+        },
+        {
+          "id": "b",
+          "text": "The crowd's will"
+        },
+        {
+          "id": "c",
+          "text": "His Father's will"
+        },
+        {
+          "id": "d",
+          "text": "The king's will"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:39",
+            "text": "He went a little farther and fell on His face, and prayed, saying, “O My Father, if it is possible, let this cup pass from Me; nevertheless, not as I will, but as You will.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 26:39 ends by setting Jesus' will beside another. Read His last words, and look at whom He is talking to at the start of His prayer.",
+          "child": "Read Matthew 26:39. See whom Jesus is praying to, then read the very end of His prayer.",
+          "teen": "Matthew 26:39 closes by comparing two wills. Read the last phrase, and note whom Jesus addresses first.",
+          "older": "Matthew 26:39 shows whom Jesus addressed and which will He chose in the closing words."
+        },
+        "extended_explanation": "Jesus asked if the cup could pass from Him. Then He spoke of His own will and another. Look at the name He used at the start of His prayer.",
+        "takeaway": "Jesus prayed for His Father's will to be done."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: answer restored to “His Father's will” so it matches the other “whose will” choices."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import {
   stageChecklist,
   tierForRoll,
 } from "@/lib/game/ladder";
+import { knowledgePath } from "@/lib/game/path";
 import { emptyProgress } from "@/lib/game/progression";
 import { createState, parseState } from "@/lib/storage";
 import type { Question, Tier } from "@/lib/game/types";
@@ -175,21 +176,25 @@ describe("curriculum ladder", () => {
     expect(status.ready).toBe(false);
   });
 
-  it("does not treat an empty Sprout checklist as already met", () => {
+  it("requires all 17 Sprout badges, eight questions each", () => {
     const { questions } = loadCatalog();
-    const sprout = questions.filter((question) => question.stage === "Sprout");
-    expect(sprout.length).toBeGreaterThan(0);
+    const sproutBadges = knowledgePath.stages.find((stage) => stage.stage === "Sprout")?.badges ?? [];
+    const sproutIds = sproutBadges.flatMap((badge) => badge.questionIds);
+    expect(sproutBadges).toHaveLength(17);
+    expect(sproutBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(sproutIds).toHaveLength(136);
     const open = gateStatus(questions, { ...emptyProgress(), stage: "Sprout" });
     expect(open.ready).toBe(false);
-    expect(open.required).toBeGreaterThan(0);
-    const done = gateStatus(questions, {
+    expect(open.required).toBe(17);
+    const partial = sproutIds.slice(0, -1);
+    const unfinished = gateStatus(questions, {
       ...emptyProgress(),
       stage: "Sprout",
-      masteredIds: sprout.map((question) => question.id),
-      firstTryIds: sprout.map((question) => question.id),
+      masteredIds: partial,
+      firstTryIds: partial,
     });
-    expect(done.ready).toBe(false);
-    expect(done.required).toBe(17);
+    expect(unfinished.ready).toBe(false);
+    expect(unfinished.required).toBe(17);
   });
 
   it("names checklist topics and marks a cleared one", () => {

@@ -1,0 +1,427 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-daniel-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-dan-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "daniel-lions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Daniel 6:3, what was in Daniel that made him stand out above the other leaders?",
+        "child": "Daniel 6:3 says Daniel stood out above the other leaders. What was in him?",
+        "teen": "Daniel 6:3 says Daniel stood out above the governors and satraps. What was in him?",
+        "older": "In Daniel 6:3, what is said to have been in Daniel, so that he distinguished himself above the others?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "An excellent spirit"
+        },
+        {
+          "id": "b",
+          "text": "A great army"
+        },
+        {
+          "id": "c",
+          "text": "A bag of gold"
+        },
+        {
+          "id": "d",
+          "text": "Many friends"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:3",
+            "text": "Then this Daniel distinguished himself above the governors and satraps, because an excellent spirit was in him; and the king gave thought to setting him over the whole realm.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 6:3 gives a reason after the word \"because.\" Read that part of the verse.",
+          "child": "Read Daniel 6:3. Look for the word \"because.\" It tells what was in Daniel.",
+          "teen": "Check Daniel 6:3. The reason comes right after \"because.\"",
+          "older": "Daniel 6:3 states the reason with a \"because\" clause in the middle of the verse."
+        },
+        "extended_explanation": "The king noticed Daniel and thought about putting him over the whole kingdom. The middle of the verse tells what was in Daniel.",
+        "takeaway": "Daniel had an excellent spirit in him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed a padded wrong so “An excellent spirit” is one of two longest corrects."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "daniel-lions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The decree said no one could petition any god or man except the king. For how many days?",
+        "child": "The leaders tricked the king into a new law: no praying to anyone except the king. How many days did the law last?",
+        "teen": "The new law said no one could pray to any god or man except the king. For how many days?",
+        "older": "According to Daniel 6:7, for how many days did the proposed decree forbid petitions to anyone but the king?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seven"
+        },
+        {
+          "id": "b",
+          "text": "Thirty"
+        },
+        {
+          "id": "c",
+          "text": "Forty"
+        },
+        {
+          "id": "d",
+          "text": "One hundred"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:7",
+            "text": "All the governors of the kingdom, the administrators and satraps, the counselors and advisors, have consulted together to establish a royal statute and to make a firm decree, that whoever petitions any god or man for thirty days, except you, O king, shall be cast into the den of lions.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 6:7 gives the exact terms of the decree. Look for the number of days.",
+          "child": "Read Daniel 6:7. Find the number of days in the law.",
+          "teen": "Check Daniel 6:7. The number of days is written in the decree.",
+          "older": "The decree in Daniel 6:7 states its own time limit in days."
+        },
+        "extended_explanation": "The leaders wanted a law Daniel could not keep. Daniel 6:7 tells how long it would last.",
+        "takeaway": "The decree lasted thirty days."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "daniel-lions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the decree was signed, how many times that day did Daniel kneel and pray?",
+        "child": "Daniel knew about the new law, but he still went home to pray. How many times that day did he kneel and pray?",
+        "teen": "Even after the law was signed, Daniel went home to pray. How many times that day did he kneel?",
+        "older": "According to Daniel 6:10, how many times that day did Daniel kneel and pray after learning the writing was signed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two"
+        },
+        {
+          "id": "b",
+          "text": "Seven"
+        },
+        {
+          "id": "c",
+          "text": "Three"
+        },
+        {
+          "id": "d",
+          "text": "Twelve"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:10",
+            "text": "Now when Daniel knew that the writing was signed, he went home. And in his upper room, with his windows open toward Jerusalem, he knelt down on his knees three times that day, and prayed and gave thanks before his God, as was his custom since early days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 6:10 describes Daniel's prayer habit. Look for the number in the verse.",
+          "child": "Read Daniel 6:10. It tells where Daniel prayed and how many times.",
+          "teen": "Check Daniel 6:10. It gives the number of times he knelt.",
+          "older": "Daniel 6:10 records how often Daniel knelt that day, as was his custom."
+        },
+        "extended_explanation": "Daniel did not change what he had always done. The verse says it was his custom since early days, and it tells how often he prayed.",
+        "takeaway": "Daniel knelt and prayed three times that day."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: kept this question; restored full Daniel 6:10 after the Jerusalem question moved off this verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "daniel-lions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Daniel's enemies looked for a reason to accuse him. Why could they find no fault in him?",
+        "child": "Some leaders tried hard to find something wrong with Daniel. Why couldn't they find anything?",
+        "teen": "The governors searched for a charge against Daniel but came up empty. What was the reason?",
+        "older": "According to Daniel 6:4, why could the leaders find no fault in Daniel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was wealthy"
+        },
+        {
+          "id": "b",
+          "text": "He was popular"
+        },
+        {
+          "id": "c",
+          "text": "He was silent"
+        },
+        {
+          "id": "d",
+          "text": "He was faithful"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:4",
+            "text": "So the governors and satraps sought to find some charge against Daniel concerning the kingdom; but they could find no charge or fault, because he was faithful; nor was there any error or fault found in him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 6:4 tells why the leaders could find no fault. Read the reason the verse gives.",
+          "child": "The leaders tried to find something wrong with Daniel. Daniel 6:4 tells why they could not.",
+          "teen": "Daniel 6:4 explains why no charge would stick. Look at the reason after “because.”",
+          "older": "Read Daniel 6:4 for the reason no fault could be found."
+        },
+        "extended_explanation": "The governors and satraps looked for a charge against Daniel concerning the kingdom. The verse says they could find none, and it tells why.",
+        "takeaway": "The leaders could find no fault in Daniel because he was faithful."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: replaced the Jerusalem question (same full verse as dan-0004) with Daniel 6:4. Answer: “He was faithful.” Kept letter d."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "daniel-lions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Daniel was put into the den, what did King Darius say Daniel's God would do?",
+        "child": "When Daniel was put in with the lions, the king said something to him. What did the king say Daniel's God would do?",
+        "teen": "As Daniel was cast into the den, the king spoke to him. What did he say Daniel's God would do?",
+        "older": "According to Daniel 6:16, what did the king tell Daniel his God would do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deliver him"
+        },
+        {
+          "id": "b",
+          "text": "Punish him"
+        },
+        {
+          "id": "c",
+          "text": "Forget him"
+        },
+        {
+          "id": "d",
+          "text": "Make him king"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:16",
+            "text": "So the king gave the command, and they brought Daniel and cast him into the den of lions. But the king spoke, saying to Daniel, “Your God, whom you serve continually, He will deliver you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 6:16 ends with the king's words to Daniel. Read what he said.",
+          "child": "Read Daniel 6:16. At the end, the king speaks to Daniel about his God.",
+          "teen": "Check Daniel 6:16. The king's words to Daniel are at the end.",
+          "older": "The king's statement at the close of Daniel 6:16 says what Daniel's God would do."
+        },
+        "extended_explanation": "The king did not want this to happen to Daniel. His words at the end of the verse show what he hoped Daniel's God would do.",
+        "takeaway": "The king said Daniel's God, whom he served continually, would deliver him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: optional polish — “Deliver him” to match the person of the other choices."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0007",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "daniel-lions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How did King Darius spend the night while Daniel was in the lions' den?",
+        "child": "The king went back to his palace while Daniel was with the lions. What did the king do all night?",
+        "teen": "While Daniel was in the den, the king went to his palace. How did he spend the night?",
+        "older": "According to Daniel 6:18, how did the king spend the night after Daniel was sealed in the den?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Throwing a party"
+        },
+        {
+          "id": "b",
+          "text": "Fasting"
+        },
+        {
+          "id": "c",
+          "text": "Dancing"
+        },
+        {
+          "id": "d",
+          "text": "Counting his gold"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:18",
+            "text": "Now the king went to his palace and spent the night fasting; and no musicians were brought before him. Also his sleep went from him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 6:18 tells what the king did at his palace. Read the first part.",
+          "child": "Read Daniel 6:18. It tells how the king spent the night, and that he could not sleep.",
+          "teen": "Check Daniel 6:18. The first part tells how he spent the night.",
+          "older": "Daniel 6:18 describes the king's night: how he spent it, no musicians, and no sleep."
+        },
+        "extended_explanation": "The king was so worried for Daniel that he could not sleep. The verse also says no musicians were brought and tells how he spent the night.",
+        "takeaway": "The king spent the night fasting."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: replaced “Feasting” (a spelling trick next to “Fasting”) with “Throwing a party.” Your note was cut off at “Throwing a p”; used that completion."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 6",
+      "topics": [
+        "daniel-lions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Daniel came out of the den, King Darius made a decree. Before whom did he say people must tremble and fear?",
+        "child": "After Daniel was safe, the king wrote a new law for his whole kingdom. Who did he say everyone must tremble and fear before?",
+        "teen": "After Daniel was rescued, the king sent out a new decree. Before whom did he say everyone must tremble and fear?",
+        "older": "According to Daniel 6:26, before whom did Darius decree that men in every dominion must tremble and fear?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The laws of the Medes"
+        },
+        {
+          "id": "b",
+          "text": "The king's army"
+        },
+        {
+          "id": "c",
+          "text": "The God of Daniel"
+        },
+        {
+          "id": "d",
+          "text": "The king's statue"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 6:26",
+            "text": "I make a decree that in every dominion of my kingdom men must tremble and fear before the God of Daniel. For He is the living God, And steadfast forever; His kingdom is the one which shall not be destroyed, And His dominion shall endure to the end.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 6:26 gives the king's decree. Read the first sentence.",
+          "child": "Read Daniel 6:26. The first sentence tells who people must tremble and fear before.",
+          "teen": "Check Daniel 6:26. The first sentence of the decree says who to fear.",
+          "older": "The opening sentence of Daniel 6:26 names the One before whom all must tremble and fear."
+        },
+        "extended_explanation": "The king had seen what happened at the den. His decree in this verse says who everyone must honor and why: He is the living God.",
+        "takeaway": "Darius decreed that people must tremble and fear before the God of Daniel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

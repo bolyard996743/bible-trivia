@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0025",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What animal did Jesus send two disciples to bring, one no one had ever sat on?",
+        "child": "Jesus sent two disciples to a village to get an animal no one had ever ridden. What was it?",
+        "teen": "Jesus sent two disciples to bring an animal nobody had ever sat on. What was it?",
+        "older": "According to Luke 19:30, what did Jesus tell the two disciples they would find tied in the village?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A colt"
+        },
+        {
+          "id": "b",
+          "text": "A camel"
+        },
+        {
+          "id": "c",
+          "text": "A horse"
+        },
+        {
+          "id": "d",
+          "text": "A lamb"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:30",
+            "text": "saying, “Go into the village opposite you, where as you enter you will find a colt tied, on which no one has ever sat. Loose it and bring it here.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:30 tells what the disciples would find tied in the village. Read the words after \"you will find.\"",
+          "child": "Read Luke 19:30. Find \"you will find.\" The next words name the animal.",
+          "teen": "Check Luke 19:30. The animal is named right after \"you will find.\"",
+          "older": "Luke 19:30 names the animal directly after \"you will find.\""
+        },
+        "extended_explanation": "Jesus told the disciples exactly what they would find, that it would be tied up, and that no one had ever ridden it.",
+        "takeaway": "Jesus sent the disciples to bring a colt that no one had ever sat on."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0026",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "If anyone asked why they were untying the animal, what were the disciples to say?",
+        "child": "If someone asked the disciples why they were untying the animal, what were they supposed to say?",
+        "teen": "What were the disciples to say if someone asked why they were untying the animal?",
+        "older": "According to Luke 19:31, what were the disciples to answer if anyone asked why they were loosing it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is our own"
+        },
+        {
+          "id": "b",
+          "text": "The king commands it"
+        },
+        {
+          "id": "c",
+          "text": "The Lord has need of it"
+        },
+        {
+          "id": "d",
+          "text": "We will pay you for it later"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:31",
+            "text": "And if anyone asks you, ‘Why are you loosing it?’ thus you shall say to him, ‘Because the Lord has need of it.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:31 gives the exact words the disciples were to say. Read the end of the verse.",
+          "child": "Read Luke 19:31. The last words are what the disciples were told to say.",
+          "teen": "Check Luke 19:31. The end of the verse gives the words they should say.",
+          "older": "Luke 19:31 closes with the answer Jesus gave them to speak."
+        },
+        "extended_explanation": "Jesus knew the owners would ask. In Luke 19:34 the disciples gave the very answer Jesus told them to give.",
+        "takeaway": "The disciples were to say, \"The Lord has need of it.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0027",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Jesus rode along, what did many people spread on the road?",
+        "child": "As Jesus rode toward the city, people put something down on the road. What did they spread?",
+        "teen": "As Jesus went along, what did many people spread on the road?",
+        "older": "According to Luke 19:36, what did many spread on the road as Jesus went?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gold coins"
+        },
+        {
+          "id": "b",
+          "text": "Flower petals"
+        },
+        {
+          "id": "c",
+          "text": "Sand and stones"
+        },
+        {
+          "id": "d",
+          "text": "Their clothes"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:36",
+            "text": "And as He went, many spread their clothes on the road.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:36 tells what people put on the road. Read the words after \"many spread.\"",
+          "child": "Read Luke 19:36. Find \"many spread.\" The next words tell what they put down.",
+          "teen": "Check Luke 19:36. Right after \"many spread\" is what they put down.",
+          "older": "Luke 19:36 names what was spread on the road, right after \"many spread.\""
+        },
+        "extended_explanation": "Spreading something on the road was a way to honor a king. The disciples had already done the same thing for the animal Jesus rode (Luke 19:35).",
+        "takeaway": "Many people spread their clothes on the road for Jesus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0028",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Pharisees told Jesus to rebuke His disciples. What did Jesus say would happen if the disciples kept silent?",
+        "child": "Some Pharisees wanted Jesus to make His disciples stop praising. What did Jesus say would happen if they were quiet?",
+        "teen": "Some Pharisees told Jesus to quiet His disciples. What did He say would happen if they stopped?",
+        "older": "According to Luke 19:40, what did Jesus say would happen if His disciples kept silent?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sky above the city would grow dark"
+        },
+        {
+          "id": "b",
+          "text": "The stones would immediately cry out"
+        },
+        {
+          "id": "c",
+          "text": "The gates of the city would fall down"
+        },
+        {
+          "id": "d",
+          "text": "The birds in the trees would stop singing"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:40",
+            "text": "But He answered and said to them, “I tell you that if these should keep silent, the stones would immediately cry out.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:40 records Jesus' answer to the Pharisees. Read what He said would happen next.",
+          "child": "Read Luke 19:40. Jesus says what would happen if His disciples stopped praising.",
+          "teen": "Check Luke 19:40. Jesus says what would happen if the disciples were quiet.",
+          "older": "Luke 19:40 gives Jesus' reply: what would follow if the disciples kept silent."
+        },
+        "extended_explanation": "Jesus meant that praise for Him was so fitting that, if people were quiet, something else would praise instead. Luke 19:40 tells what.",
+        "takeaway": "Jesus said that if the disciples kept silent, the stones would immediately cry out."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-jhn-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 12",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus had called a man out of his tomb and raised him from the dead. What was the man's name?",
+        "child": "Jesus called a man out of a tomb and raised him from the dead. What was his name?",
+        "teen": "Whom had Jesus called out of his tomb and raised from the dead?",
+        "older": "According to John 12:17, whom had Jesus called out of his tomb and raised from the dead?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lazarus"
+        },
+        {
+          "id": "b",
+          "text": "Moses"
+        },
+        {
+          "id": "c",
+          "text": "Jeremiah"
+        },
+        {
+          "id": "d",
+          "text": "Elijah"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 12:17",
+            "text": "when He called Lazarus out of his tomb and raised him from the dead",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 12:17 names the man Jesus had called out of the tomb. Read the name after \"called.\"",
+          "child": "Read John 12:17. Find \"called.\" The next word is the man's name.",
+          "teen": "Check John 12:17. The man's name comes right after \"called.\"",
+          "older": "John 12:17 identifies the man immediately after \"called.\""
+        },
+        "extended_explanation": "The people who had been with Jesus that day later told others what they had seen. John 12:17 names the man who came out of the tomb.",
+        "takeaway": "Jesus had called Lazarus out of his tomb and raised him from the dead."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. Replaced the palm-branches question (gave away the badge name and shared John 12:13 with two other questions). Partial NKJV from John 12:17."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-jhn-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 12",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What was the first word the crowd cried out as Jesus came?",
+        "child": "When the crowd met Jesus, they shouted. What was the first word they shouted?",
+        "teen": "What was the first word the crowd shouted when they met Jesus?",
+        "older": "According to John 12:13, what was the first word the crowd cried out when they met Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glory"
+        },
+        {
+          "id": "b",
+          "text": "Hosanna"
+        },
+        {
+          "id": "c",
+          "text": "Amen"
+        },
+        {
+          "id": "d",
+          "text": "Hallelujah"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 12:13",
+            "text": "and cried out: “Hosanna!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 12:13 records what the crowd cried out. Read the first word inside the quotation marks.",
+          "child": "Read John 12:13. Find what the crowd shouted. Look at the first word in quotation marks.",
+          "teen": "Check John 12:13. The first word of the shout comes right after \"cried out.\"",
+          "older": "John 12:13 quotes the crowd; the first word follows \"cried out.\""
+        },
+        "extended_explanation": "The crowd's shout is a word of praise that once meant \"save us.\" It is the first word in the quotation in John 12:13.",
+        "takeaway": "The crowd cried out, \"Hosanna!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-jhn-0018",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 12",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Why did the people also meet Jesus as He came?",
+        "child": "Why did the people go out to meet Jesus?",
+        "teen": "For what reason did the people also meet Jesus?",
+        "older": "According to John 12:18, why did the people also meet Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Because they wanted to watch a great parade go by"
+        },
+        {
+          "id": "b",
+          "text": "Because the leaders told them they had to go"
+        },
+        {
+          "id": "c",
+          "text": "Because they heard that He had done this sign"
+        },
+        {
+          "id": "d",
+          "text": "Because they hoped He would give them bread and fish"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 12:18",
+            "text": "For this reason the people also met Him, because they heard that He had done this sign.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 12:18 gives the reason the people met Him. Read the words after \"because.\"",
+          "child": "Read John 12:18. Find the word \"because.\" The rest of the verse tells why.",
+          "teen": "Check John 12:18. The reason comes right after \"because.\"",
+          "older": "John 12:18 states the reason immediately after \"because.\""
+        },
+        "extended_explanation": "The crowd came out because of something they had heard Jesus do. John 12:18 names that reason.",
+        "takeaway": "The people met Jesus because they heard that He had done this sign."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. Replaced the King-of-Israel question that shared full John 12:13. NKJV from John 12:18, which does not name Lazarus."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-jhn-0019",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 12",
+      "topics": [
+        "palm-sunday"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Pharisees said among themselves that something had gone after Jesus. What?",
+        "child": "The Pharisees saw how many people were following Jesus. What did they say had gone after Him?",
+        "teen": "The Pharisees complained that something had gone after Jesus. What was it?",
+        "older": "According to John 12:19, what did the Pharisees say had gone after Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The soldiers"
+        },
+        {
+          "id": "b",
+          "text": "The priests"
+        },
+        {
+          "id": "c",
+          "text": "Only children"
+        },
+        {
+          "id": "d",
+          "text": "The world"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 12:19",
+            "text": "The Pharisees therefore said among themselves, “You see that you are accomplishing nothing. Look, the world has gone after Him!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 12:19 records the Pharisees' words. Read the last sentence of the verse.",
+          "child": "Read John 12:19. The Pharisees' last sentence says what had gone after Jesus.",
+          "teen": "Check John 12:19. The last sentence tells what they said had gone after Him.",
+          "older": "John 12:19 ends with the Pharisees' complaint about who had gone after Him."
+        },
+        "extended_explanation": "The Pharisees felt they could not stop the crowds. In John 12:19 they exaggerated to say how many people were following Jesus.",
+        "takeaway": "The Pharisees said, \"The world has gone after Him!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

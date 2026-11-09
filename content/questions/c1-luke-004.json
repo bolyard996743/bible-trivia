@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0019",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 10",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Martha welcomed Jesus into her house. Where did her sister Mary sit?",
+        "child": "Jesus visited Martha's house. Where did Martha's sister Mary sit?",
+        "teen": "When Jesus came to Martha's house, where did her sister Mary sit?",
+        "older": "According to Luke 10:39, where did Mary sit when Jesus came to her sister's home?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At Jesus’ feet"
+        },
+        {
+          "id": "b",
+          "text": "By the door"
+        },
+        {
+          "id": "c",
+          "text": "On the roof"
+        },
+        {
+          "id": "d",
+          "text": "In the kitchen nearby"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 10:39",
+            "text": "And she had a sister called Mary, who also sat at Jesus’ feet and heard His word.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 10:39 tells where Mary sat and what she did there. Read the middle of the verse.",
+          "child": "Read Luke 10:39. It tells where Mary sat while she listened to Jesus.",
+          "teen": "Check Luke 10:39. It says where Mary sat to hear Jesus.",
+          "older": "Luke 10:39 states Mary's place while she heard His word."
+        },
+        "extended_explanation": "Luke 10:39 shows Mary sitting close to Jesus so she could hear His word.",
+        "takeaway": "Mary sat at Jesus’ feet and listened to Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0020",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 10",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While Jesus was visiting, what kept Martha distracted?",
+        "child": "When Jesus was at her house, Martha was very busy. What was she busy with?",
+        "teen": "What kept Martha distracted while Jesus was in her home?",
+        "older": "According to Luke 10:40, with what was Martha distracted?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shopping"
+        },
+        {
+          "id": "b",
+          "text": "Serving"
+        },
+        {
+          "id": "c",
+          "text": "Her garden"
+        },
+        {
+          "id": "d",
+          "text": "Sweeping the floor"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 10:40",
+            "text": "But Martha was distracted with much serving, and she approached Him and said, “Lord, do You not care that my sister has left me to serve alone? Therefore tell her to help me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 10:40 tells what Martha was distracted with. Read the first part of the verse.",
+          "child": "Read Luke 10:40. The first sentence tells what kept Martha busy.",
+          "teen": "Check Luke 10:40. The first sentence says what distracted her.",
+          "older": "Luke 10:40 opens by naming what distracted Martha."
+        },
+        "extended_explanation": "Martha asked Jesus to send her sister to help. Luke 10:40 says what Martha was busy doing, and her words to Jesus say it too.",
+        "takeaway": "Martha was distracted with much serving."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0021",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What was Zacchaeus's job?",
+        "child": "Zacchaeus was a rich man in Jericho. What was his job?",
+        "teen": "What job did Zacchaeus have?",
+        "older": "According to Luke 19:2, what was Zacchaeus's position?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fisherman"
+        },
+        {
+          "id": "b",
+          "text": "Carpenter"
+        },
+        {
+          "id": "c",
+          "text": "A Roman soldier"
+        },
+        {
+          "id": "d",
+          "text": "Tax collector"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:2",
+            "text": "Now behold, there was a man named Zacchaeus who was a chief tax collector, and he was rich.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:2 says who Zacchaeus was. Read the words after \"who was a chief.\"",
+          "child": "Read Luke 19:2. After his name, the verse tells his job.",
+          "teen": "Check Luke 19:2. His job is named right after his name.",
+          "older": "Luke 19:2 states his position immediately after his name, along with the fact that he was rich."
+        },
+        "extended_explanation": "Luke 19:2 gives three facts: his name, his job (he was the head of others who did the same work), and that he was rich.",
+        "takeaway": "Zacchaeus was a chief tax collector."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0022",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zacchaeus wanted to see who Jesus was, but he could not because of the crowd. Why else could he not see?",
+        "child": "Zacchaeus wanted to see Jesus over the people, but he could not. Why?",
+        "teen": "Zacchaeus tried to see who Jesus was and could not because of the crowd. Why was that?",
+        "older": "According to Luke 19:3, why was Zacchaeus unable to see who Jesus was?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Because he wanted fruit"
+        },
+        {
+          "id": "b",
+          "text": "Because it was raining"
+        },
+        {
+          "id": "c",
+          "text": "Because he was short"
+        },
+        {
+          "id": "d",
+          "text": "Because he was hiding"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:3",
+            "text": "And he sought to see who Jesus was, but could not because of the crowd, for he was of short stature.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:3 gives two reasons Zacchaeus could not see. Read the end of the verse.",
+          "child": "Read Luke 19:3. The last words tell why he could not see.",
+          "teen": "Check Luke 19:3. After it mentions the crowd, the last words give another reason.",
+          "older": "Luke 19:3 closes with the reason he could not see over the crowd."
+        },
+        "extended_explanation": "The verse says he was \"of short stature.\" That is an older way of saying he was not tall. Read the last words of Luke 19:3.",
+        "takeaway": "Zacchaeus could not see Jesus because he was short."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0023",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What kind of tree did Zacchaeus climb to see Jesus?",
+        "child": "Zacchaeus climbed a tree to see Jesus. What kind of tree was it?",
+        "teen": "What kind of tree did Zacchaeus climb?",
+        "older": "According to Luke 19:4, what kind of tree did Zacchaeus climb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A sycamore"
+        },
+        {
+          "id": "b",
+          "text": "A palm"
+        },
+        {
+          "id": "c",
+          "text": "A cedar"
+        },
+        {
+          "id": "d",
+          "text": "An olive tree"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:4",
+            "text": "So he ran ahead and climbed up into a sycamore tree to see Him, for He was going to pass that way.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:4 names the kind of tree. Read the words after \"climbed up into.\"",
+          "child": "Read Luke 19:4. Find \"climbed up into.\" The next words name the tree.",
+          "teen": "Check Luke 19:4. The tree is named right after \"climbed up into.\"",
+          "older": "Luke 19:4 names the tree directly after \"climbed up into.\""
+        },
+        "extended_explanation": "Luke 19:4 tells where Zacchaeus went to see Jesus and names the kind of tree.",
+        "takeaway": "Zacchaeus climbed a sycamore tree."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-luk-0024",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 19",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said the Son of Man came to seek and to save whom?",
+        "child": "Jesus said He came to look for and save some people. Who are they?",
+        "teen": "Jesus said He came to seek and save whom?",
+        "older": "According to Luke 19:10, whom did the Son of Man come to seek and to save?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The rich people"
+        },
+        {
+          "id": "b",
+          "text": "That which was lost"
+        },
+        {
+          "id": "c",
+          "text": "The strong people"
+        },
+        {
+          "id": "d",
+          "text": "The rulers of the land"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 19:10",
+            "text": "for the Son of Man has come to seek and to save that which was lost.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 19:10 tells why Jesus came. Read the last words of the verse.",
+          "child": "Read Luke 19:10. The last words tell who Jesus came to save.",
+          "teen": "Check Luke 19:10. The end of the verse says who He came to save.",
+          "older": "Luke 19:10 ends by naming those the Son of Man came to seek and save."
+        },
+        "extended_explanation": "\"Son of Man\" is a name Jesus used for Himself. Luke 19:10 tells who He came to look for and rescue.",
+        "takeaway": "Jesus came to seek and to save that which was lost."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0013",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 10",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the disciples rebuked those bringing children to Jesus, how did Jesus feel?",
+        "child": "The disciples tried to stop people from bringing children to Jesus. How did Jesus feel about that?",
+        "teen": "The disciples tried to stop children from being brought to Jesus. How did He feel?",
+        "older": "According to Mark 10:14, how did Jesus react when the disciples rebuked those who brought the children?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glad it happened"
+        },
+        {
+          "id": "b",
+          "text": "Afraid"
+        },
+        {
+          "id": "c",
+          "text": "Displeased"
+        },
+        {
+          "id": "d",
+          "text": "Surprised"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 10:14",
+            "text": "But when Jesus saw it, He was greatly displeased and said to them, “Let the little children come to Me, and do not forbid them; for of such is the kingdom of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 10:14 tells how Jesus felt when He saw what happened. Read the words after \"He was greatly.\"",
+          "child": "Read Mark 10:14. Find \"He was greatly.\" The next word tells how Jesus felt.",
+          "teen": "Check Mark 10:14. Jesus' feeling comes after \"He was greatly.\"",
+          "older": "Mark 10:14 records Jesus' reaction right after \"He was greatly.\""
+        },
+        "extended_explanation": "The disciples were sending the children away. Mark 10:14 tells how Jesus felt about that, then what He told them to do.",
+        "takeaway": "Jesus was greatly displeased when the disciples tried to keep the children away."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-mrk-0014",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 10",
+      "topics": [
+        "jesus-loves-everyone"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Jesus took the children up in His arms and laid His hands on them, what did He do?",
+        "child": "Jesus held the children in His arms and put His hands on them. What else did He do?",
+        "teen": "Jesus took the children in His arms and laid His hands on them. What else did He do?",
+        "older": "According to Mark 10:16, what did Jesus do after taking the children in His arms and laying hands on them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sent them home"
+        },
+        {
+          "id": "b",
+          "text": "Gave them bread"
+        },
+        {
+          "id": "c",
+          "text": "Taught them songs"
+        },
+        {
+          "id": "d",
+          "text": "Blessed them"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 10:16",
+            "text": "And He took them up in His arms, laid His hands on them, and blessed them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 10:16 lists three things Jesus did. Read the last one.",
+          "child": "Read Mark 10:16. It lists three things Jesus did. The last one is the answer.",
+          "teen": "Check Mark 10:16. Jesus did three things. Look at the last.",
+          "older": "Mark 10:16 lists three actions; the final one answers the question."
+        },
+        "extended_explanation": "Mark 10:16 shows Jesus' kindness to the children in three steps.",
+        "takeaway": "Jesus took the children in His arms, laid His hands on them, and blessed them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

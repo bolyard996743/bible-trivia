@@ -4,7 +4,7 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 112 questions.
+The bank has 245 questions.
 
 ## Seed
 
@@ -64,37 +64,98 @@ New questions to write:
 
 Considering baptism, about age 9–10. Mostly easy.
 
-Questions now: 4. Books: 4. Target pool: about 20 questions.
+Questions now: 139. Books: 13. Target pool: about 20 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
+| Pentecost | Acts | Acts 1 | foundation | 3 |
+| Peter's Miracles | Acts | Acts 12 | foundation | 3 |
+| Saul Becomes Paul | Acts | Acts 16 | foundation | 2 |
+| Saul Becomes Paul | Acts | Acts 16 | intermediate | 1 |
+| Pentecost | Acts | Acts 2 | foundation | 4 |
+| Pentecost | Acts | Acts 2 | intermediate | 1 |
+| Peter's Miracles | Acts | Acts 3 | foundation | 4 |
+| Peter's Miracles | Acts | Acts 3 | intermediate | 1 |
+| Saul Becomes Paul | Acts | Acts 9 | foundation | 5 |
+| Books of the Bible | Bible | Books of the Bible | foundation | 7 |
+| Books of the Bible | Bible | Books of the Bible | intermediate | 1 |
+| The Fiery Furnace | Daniel | Daniel 3 | foundation | 7 |
+| The Fiery Furnace | Daniel | Daniel 3 | intermediate | 1 |
+| Daniel and the Lions' Den | Daniel | Daniel 6 | foundation | 7 |
 | Daniel | Daniel | Daniel 6 | intermediate | 1 |
+| Grace and Strength Verses | Ephesians | Ephesians 2 | foundation | 2 |
+| Grace and Strength Verses | Ephesians | Ephesians 4 | foundation | 1 |
+| Grace and Strength Verses | Ephesians | Ephesians 6 | foundation | 2 |
+| Grace and Strength Verses | Ephesians | Ephesians 6 | intermediate | 1 |
 | Moses | Exodus | Exodus 3-4 | intermediate | 1 |
 | Who Jesus Is | John | John 1 | intermediate | 1 |
+| Palm Sunday | John | John 12 | foundation | 4 |
+| Jesus Loves Everyone | Luke | Luke 10 | foundation | 2 |
+| Parables of Jesus | Luke | Luke 10 | foundation | 2 |
+| Parables of Jesus | Luke | Luke 15 | foundation | 3 |
+| Parables of Jesus | Luke | Luke 15 | intermediate | 1 |
+| Jesus Loves Everyone | Luke | Luke 19 | foundation | 3 |
+| Palm Sunday | Luke | Luke 19 | foundation | 3 |
+| Jesus Loves Everyone | Luke | Luke 19 | intermediate | 1 |
+| Palm Sunday | Luke | Luke 19 | intermediate | 1 |
+| The Last Supper | Luke | Luke 22 | foundation | 4 |
+| Jesus' Baptism | Luke | Luke 3 | foundation | 2 |
+| Jesus Chooses the Disciples | Luke | Luke 5 | foundation | 2 |
+| Jesus Chooses the Disciples | Mark | Mark 1 | foundation | 2 |
+| Jesus' Baptism | Mark | Mark 1 | foundation | 2 |
+| Jesus Chooses the Disciples | Mark | Mark 1 | intermediate | 1 |
+| Jesus Loves Everyone | Mark | Mark 10 | foundation | 2 |
+| Jesus Chooses the Disciples | Mark | Mark 3 | foundation | 3 |
+| Parables of Jesus | Matthew | Matthew 13 | foundation | 1 |
 | Miracles | Matthew | Matthew 14 | intermediate | 1 |
+| The Last Supper | Matthew | Matthew 26 | foundation | 3 |
+| The Last Supper | Matthew | Matthew 26 | intermediate | 1 |
+| Jesus' Baptism | Matthew | Matthew 3 | foundation | 3 |
+| Jesus' Baptism | Matthew | Matthew 3 | intermediate | 1 |
+| Sermon on the Mount | Matthew | Matthew 5 | foundation | 5 |
+| Sermon on the Mount | Matthew | Matthew 5 | intermediate | 1 |
+| Sermon on the Mount | Matthew | Matthew 6 | foundation | 2 |
+| Parables of Jesus | Matthew | Matthew 7 | foundation | 1 |
+| Grace and Strength Verses | Philippians | Philippians 4 | foundation | 2 |
+| Proverbs for Growing Up | Proverbs | Proverbs 1 | foundation | 2 |
+| Proverbs for Growing Up | Proverbs | Proverbs 15 | foundation | 1 |
+| Proverbs for Growing Up | Proverbs | Proverbs 17 | foundation | 1 |
+| Proverbs for Growing Up | Proverbs | Proverbs 22 | foundation | 1 |
+| Proverbs for Growing Up | Proverbs | Proverbs 3 | foundation | 2 |
+| Proverbs for Growing Up | Proverbs | Proverbs 3 | intermediate | 1 |
+| Psalms of Praise and Trust | Psalms | Psalm 1 | foundation | 1 |
+| Psalms of Praise and Trust | Psalms | Psalm 100 | foundation | 1 |
+| Psalms of Praise and Trust | Psalms | Psalm 119 | intermediate | 1 |
+| Psalms of Praise and Trust | Psalms | Psalm 19 | foundation | 1 |
+| Psalms of Praise and Trust | Psalms | Psalm 23 | foundation | 2 |
+| Psalms of Praise and Trust | Psalms | Psalm 46 | foundation | 1 |
+| Psalms of Praise and Trust | Psalms | Psalm 8 | foundation | 1 |
+| Good News Verses | Romans | Romans 10 | foundation | 2 |
+| Good News Verses | Romans | Romans 10 | intermediate | 1 |
+| Good News Verses | Romans | Romans 3 | foundation | 2 |
+| Good News Verses | Romans | Romans 5 | foundation | 2 |
+| Good News Verses | Romans | Romans 6 | foundation | 1 |
 
 Tier totals against the mix:
 
-- foundation: 0 now, about 16 wanted (80% of draws (easy)). About 16 more.
-- intermediate: 4 now, about 4 wanted (20% of draws (intermediate)). Target met.
+- foundation: 119 now, about 16 wanted (80% of draws (easy)). Target met.
+- intermediate: 20 now, about 4 wanted (20% of draws (intermediate)). Target met.
 
-Curriculum topics with no question yet: The Twelve Disciples, New Testament Books, Isaiah 53.
+Every curriculum topic for this stage has at least one question.
 
 New questions to write:
 
-- About 16 more foundation questions (easy).
-- Add questions for: The Twelve Disciples, New Testament Books, Isaiah 53.
+- The current pool meets this stage's targets.
 
 ## Rooted
 
 Newly baptized, about age 11–13. Easy to intermediate.
 
-Questions now: 18. Books: 5. Target pool: about 24 questions.
+Questions now: 17. Books: 5. Target pool: about 24 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
 | The Early Church | Acts | Acts 11 | advanced | 1 |
-| Pentecost | Acts | Acts 2 | advanced | 1 |
 | Joseph | Genesis | Genesis 37-50 | advanced | 4 |
 | Joseph | Genesis | Genesis 37-50 | foundation | 4 |
 | Joseph | Genesis | Genesis 37-50 | intermediate | 5 |
@@ -106,9 +167,9 @@ Tier totals against the mix:
 
 - foundation: 4 now, about 14 wanted (60% of draws (easy)). About 10 more.
 - intermediate: 5 now, about 10 wanted (40% of draws (intermediate)). About 5 more.
-- advanced: 9 now, about 0 wanted (not in this stage's mix). Target met.
+- advanced: 8 now, about 0 wanted (not in this stage's mix). Target met.
 
-Questions outside the mix (9 advanced) are not chosen while an allowed tier still has questions.
+Questions outside the mix (8 advanced) are not chosen while an allowed tier still has questions.
 
 Curriculum topics with no question yet: The Ten Commandments, Psalm 23.
 
@@ -122,7 +183,7 @@ New questions to write:
 
 Deeper study, more books. Mostly intermediate.
 
-Questions now: 9. Books: 6. Target pool: about 40 questions.
+Questions now: 8. Books: 5. Target pool: about 40 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
@@ -131,28 +192,27 @@ Questions now: 9. Books: 6. Target pool: about 40 questions.
 | Isaiah 53 | Isaiah | Isaiah 53 | expert | 1 |
 | Moses | Numbers | Numbers 21 | expert | 1 |
 | Revelation | Revelation | Revelation 2-3 | expert | 1 |
-| The Roman Road | Romans | Romans 3-6 | expert | 1 |
 
 Tier totals against the mix:
 
 - foundation: 0 now, about 4 wanted (10% of draws (easy)). About 4 more.
 - intermediate: 0 now, about 30 wanted (75% of draws (intermediate)). About 30 more.
 - advanced: 0 now, about 6 wanted (15% of draws (hard)). About 6 more.
-- expert: 9 now, about 0 wanted (not in this stage's mix). Target met.
+- expert: 8 now, about 0 wanted (not in this stage's mix). Target met.
 
-Questions outside the mix (9 expert) are not chosen while an allowed tier still has questions.
+Questions outside the mix (8 expert) are not chosen while an allowed tier still has questions.
 
-Curriculum topics with no question yet: The Great Commission, 1 John 1:9, Cross References.
+Curriculum topics with no question yet: The Great Commission, 1 John 1:9, The Roman Road, Cross References.
 
-Book target: 20. Covered now: 6 (Genesis, Numbers, 2 Chronicles, Isaiah, Romans, Revelation). About 14 more books need questions.
+Book target: 20. Covered now: 5 (Genesis, Numbers, 2 Chronicles, Isaiah, Revelation). About 15 more books need questions.
 
 New questions to write:
 
 - About 4 more foundation questions (easy).
 - About 30 more intermediate questions (intermediate).
 - About 6 more advanced questions (hard).
-- Add questions for: The Great Commission, 1 John 1:9, Cross References.
-- Spread new questions across about 14 more books (target 20).
+- Add questions for: The Great Commission, 1 John 1:9, The Roman Road, Cross References.
+- Spread new questions across about 15 more books (target 20).
 
 ## Established
 

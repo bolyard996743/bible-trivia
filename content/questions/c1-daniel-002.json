@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-daniel-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-dan-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "King Nebuchadnezzar made a huge gold image. Where did he set it up?",
+        "child": "The king had a giant statue made out of gold. Where did he put it?",
+        "teen": "Nebuchadnezzar had a gold image built, sixty cubits high. In what place did he set it up?",
+        "older": "According to Daniel 3:1, where did King Nebuchadnezzar set up the image of gold he had made?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The plain of Dura"
+        },
+        {
+          "id": "b",
+          "text": "The city of Ur"
+        },
+        {
+          "id": "c",
+          "text": "The land of Uz"
+        },
+        {
+          "id": "d",
+          "text": "Elah's valley"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:1",
+            "text": "Nebuchadnezzar the king made an image of gold, whose height was sixty cubits and its width six cubits. He set it up in the plain of Dura, in the province of Babylon.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:1 tells where the king set the image. Read the last part of the verse.",
+          "child": "The king made a huge image and set it up somewhere. Daniel 3:1 names the place near the end.",
+          "teen": "Daniel 3:1 gives the image's size and then names the place. Look near the end of the verse.",
+          "older": "Read the close of Daniel 3:1 for the place the image was set up."
+        },
+        "extended_explanation": "The verse tells what the image was made of and how tall it was. After that it names where the king set it up.",
+        "takeaway": "The king set up his image in the plain of Dura."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: other cards mention a gold image, which answered the old “Gold” question. Now: “Where did the king set up his image?” Answer: “The plain of Dura.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the people heard the music play, what were they commanded to do?",
+        "child": "A herald said that when the music played, everyone had to do something. What was it?",
+        "teen": "The herald announced a command for when the music started. What were the people told to do?",
+        "older": "According to Daniel 3:5, what were all peoples commanded to do when they heard the music?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stand and clap"
+        },
+        {
+          "id": "b",
+          "text": "Sing and dance"
+        },
+        {
+          "id": "c",
+          "text": "Leave the city at once"
+        },
+        {
+          "id": "d",
+          "text": "Fall down and worship"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:5",
+            "text": "that at the time you hear the sound of the horn, flute, harp, lyre, and psaltery, in symphony with all kinds of music, you shall fall down and worship the gold image that King Nebuchadnezzar has set up;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:5 lists the instruments, then gives the command. Read the end of the verse.",
+          "child": "Read Daniel 3:5. After the list of instruments, it tells what everyone had to do.",
+          "teen": "Check Daniel 3:5. The command comes after the list of instruments.",
+          "older": "The command at the close of Daniel 3:5 follows the list of musical instruments."
+        },
+        "extended_explanation": "The horn, flute, harp, lyre, and psaltery were the signal. The end of the verse says what everyone had to do before the king's image.",
+        "takeaway": "The people were commanded to fall down and worship the image."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: restored full Daniel 3:5 (“gold image” no longer answers another question)."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Shadrach, Meshach, and Abed-Nego were walking in the furnace. When the king called them out, what did he call them?",
+        "child": "Shadrach, Meshach, and Abed-Nego were inside the hot furnace. When the king told them to come out, what name did he call them?",
+        "teen": "King Nebuchadnezzar shouted into the fiery furnace for Shadrach, Meshach, and Abed-Nego to come out. What did he call the three of them?",
+        "older": "According to Daniel 3:26, what did King Nebuchadnezzar call Shadrach, Meshach, and Abed-Nego when he summoned them out of the furnace?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Friends of the king"
+        },
+        {
+          "id": "b",
+          "text": "Servants of the Most High God"
+        },
+        {
+          "id": "c",
+          "text": "Princes of Babylon"
+        },
+        {
+          "id": "d",
+          "text": "Priests of the image"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:26",
+            "text": "Then Nebuchadnezzar went near the mouth of the burning fiery furnace and spoke, saying, “Shadrach, Meshach, and Abed-Nego, servants of the Most High God, come out, and come here.” Then Shadrach, Meshach, and Abed-Nego came from the midst of the fire.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:26 tells what the king called the men when he told them to come out. Read what he called them.",
+          "child": "The king came to the mouth of the furnace and spoke to the men. Daniel 3:26 tells what he called them.",
+          "teen": "Daniel 3:26 records the king's words as he called the men out. Look at the name he gave them.",
+          "older": "Read Daniel 3:26 for what the king called the men when he summoned them from the fire."
+        },
+        "extended_explanation": "The king went near the mouth of the burning fiery furnace and spoke. The verse tells what he called the three men as he told them to come out and come here.",
+        "takeaway": "The king called them servants of the Most High God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: other cards name Abed-Nego, which answered the old question. Now Daniel 3:26: “When the king called them out of the fire, what did he call them?” Answer: “Servants of the Most High God.” Did not use 3:28 “His Angel.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the three young men tell the king their God was able to do?",
+        "child": "The three friends told the king about their God. What did they say He was able to do?",
+        "teen": "Facing the furnace, the three friends spoke to the king. What did they say their God was able to do?",
+        "older": "According to Daniel 3:17, what did the three men say their God was able to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Destroy Babylon"
+        },
+        {
+          "id": "b",
+          "text": "Make them rich"
+        },
+        {
+          "id": "c",
+          "text": "Deliver them"
+        },
+        {
+          "id": "d",
+          "text": "Make the king sleep"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:17",
+            "text": "If that is the case, our God whom we serve is able to deliver us from the burning fiery furnace, and He will deliver us from your hand, O king.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:17 records the three men's answer to the king. Read what they say about their God.",
+          "child": "Read Daniel 3:17. The friends tell the king what their God can do.",
+          "teen": "Check Daniel 3:17. It says what their God is able to do.",
+          "older": "In Daniel 3:17 the men state what their God is able to do from the furnace and from the king's hand."
+        },
+        "extended_explanation": "The king had asked who could save them from his hands. In this verse the three friends answer him about their God.",
+        "takeaway": "Their God was able to deliver them from the furnace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: optional polish — “Deliver them” to match the person of the other choices."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0013",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How many times more than usual did the king order the furnace to be heated?",
+        "child": "The king was very angry. How many times hotter than usual did he want the furnace?",
+        "teen": "The king got furious. How many times more than usual did he order the furnace heated?",
+        "older": "According to Daniel 3:19, how many times more than usual did Nebuchadnezzar command the furnace to be heated?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two"
+        },
+        {
+          "id": "b",
+          "text": "Ten"
+        },
+        {
+          "id": "c",
+          "text": "Twenty"
+        },
+        {
+          "id": "d",
+          "text": "Seven"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:19",
+            "text": "Then Nebuchadnezzar was full of fury, and the expression on his face changed toward Shadrach, Meshach, and Abed-Nego. He spoke and commanded that they heat the furnace seven times more than it was usually heated.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:19 ends with the king's command about the furnace. Look for the number.",
+          "child": "Read Daniel 3:19. At the end, the king gives an order with a number in it.",
+          "teen": "Check Daniel 3:19. The number is in the king's order at the end.",
+          "older": "The king's command at the close of Daniel 3:19 includes the number."
+        },
+        "extended_explanation": "The king's face changed with anger, and he gave an order about the furnace. The last part of the verse tells how much hotter.",
+        "takeaway": "The king ordered the furnace heated seven times more than usual."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: restored full Daniel 3:19 (Abed-Nego is no longer another answer)."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0014",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the king looked into the furnace, how many men did he see walking in the fire?",
+        "child": "The king looked into the fire and was amazed. How many men did he see walking around in there?",
+        "teen": "The king looked into the furnace and was astonished. How many men did he see walking in the fire?",
+        "older": "According to Daniel 3:25, how many men did Nebuchadnezzar see loose and walking in the fire?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Four"
+        },
+        {
+          "id": "b",
+          "text": "Two"
+        },
+        {
+          "id": "c",
+          "text": "Five"
+        },
+        {
+          "id": "d",
+          "text": "Twelve"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:25",
+            "text": "“Look!” he answered, “I see four men loose, walking in the midst of the fire; and they are not hurt, and the form of the fourth is like the Son of God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:25 gives what the king saw. Look for the number of men.",
+          "child": "Read Daniel 3:25. The king says how many men he sees and what one of them looks like.",
+          "teen": "Check Daniel 3:25. The king says how many men he sees.",
+          "older": "In Daniel 3:25 the king states the number of men he saw, unbound and unhurt."
+        },
+        "extended_explanation": "The men had been thrown in tied up. Now the king saw them loose and unhurt, and he counted something surprising.",
+        "takeaway": "The king saw four men walking in the fire."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the three came out of the furnace, what did the officials notice about the hair on their heads?",
+        "child": "The friends came out of the fire, and everyone looked at them. What was true about their hair?",
+        "teen": "When the friends walked out of the furnace, the leaders looked them over. What did they notice about their hair?",
+        "older": "According to Daniel 3:27, what did the officials observe about the hair of the men's heads?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Turned completely white"
+        },
+        {
+          "id": "b",
+          "text": "Not singed"
+        },
+        {
+          "id": "c",
+          "text": "Grown much longer"
+        },
+        {
+          "id": "d",
+          "text": "Covered in gray ash"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:27",
+            "text": "And the satraps, administrators, governors, and the king’s counselors gathered together, and they saw these men on whose bodies the fire had no power; the hair of their head was not singed nor were their garments affected, and the smell of fire was not on them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:27 lists what the officials saw. Read the part about their hair.",
+          "child": "Read Daniel 3:27. It tells about their bodies, their hair, their clothes, and even how they smelled.",
+          "teen": "Check Daniel 3:27. It describes their hair, clothes, and smell.",
+          "older": "Daniel 3:27 lists several observations, including one about the hair of their heads."
+        },
+        "extended_explanation": "The officials looked closely at the three men. The verse lists their bodies, hair, clothes, and even the smell of fire.",
+        "takeaway": "Their hair was not singed, and the smell of fire was not on them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-dan-0016",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 3",
+      "topics": [
+        "fiery-furnace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the three came out of the fire and the king praised their God, what did the king do for them next?",
+        "child": "After the friends came out safe and the king praised their God, what did the king do for them next?",
+        "teen": "After the three came out of the furnace and the king praised their God, what did he do for them next?",
+        "older": "According to Daniel 3:30, what did the king do for the three men after they came out of the furnace?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sent them home"
+        },
+        {
+          "id": "b",
+          "text": "Put them in prison"
+        },
+        {
+          "id": "c",
+          "text": "Promoted them"
+        },
+        {
+          "id": "d",
+          "text": "Made them leave Babylon"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 3:30",
+            "text": "Then the king promoted Shadrach, Meshach, and Abed-Nego in the province of Babylon.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 3:30 is the last verse of the story. Read what the king did.",
+          "child": "Read Daniel 3:30. It tells what the king did for the three friends at the end.",
+          "teen": "Check Daniel 3:30. It is the final thing the king did for them.",
+          "older": "Daniel 3:30 records the king's final action toward the three men in the province of Babylon."
+        },
+        "extended_explanation": "The story ends with the king doing something good for the three men in the province of Babylon. Read the last verse.",
+        "takeaway": "The king promoted them in the province of Babylon."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: restored full Daniel 3:30; optional polish — “Promoted them” to match the person of the other choices."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

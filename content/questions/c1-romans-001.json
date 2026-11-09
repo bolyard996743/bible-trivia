@@ -1,50 +1,287 @@
 {
   "format_version": 1,
   "batch_id": "c1-romans-001",
-  "author": "Sample (placeholder)",
+  "author": "Content",
   "questions": [
     {
       "id": "c1-rom-0001",
       "cycle": 1,
-      "tier": "expert",
+      "tier": "foundation",
       "testament": "NT",
       "book": "Romans",
-      "section": "Romans 3-6",
+      "section": "Romans 3",
       "topics": [
-        "roman-road"
+        "good-news"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
-        "adult": "Romans 6:23 says the gift of God is what?",
-        "older": "In Romans 6:23, what does Paul call the gift of God?"
+        "adult": "According to Romans 3:23, who has sinned and fallen short of the glory of God?",
+        "child": "Romans 3:23 talks about people who have sinned and fall short of God's glory. Who does it say has sinned?",
+        "teen": "Romans 3:23 says some people have sinned and fall short of God's glory. Who?",
+        "older": "In Romans 3:23, who is said to have sinned and fallen short of the glory of God?"
       },
       "choices": [
         {
           "id": "a",
-          "text": "Eternal life in Christ Jesus our Lord"
+          "text": "Only a few"
         },
         {
           "id": "b",
-          "text": "Silver from Rome"
+          "text": "Only grown-ups"
         },
         {
           "id": "c",
-          "text": "A life with no sorrow at all"
+          "text": "All people"
         },
         {
           "id": "d",
-          "text": "The throne of Caesar"
+          "text": "No one"
         }
       ],
-      "answer": "a",
+      "answer": "c",
       "teaching": {
         "verses": [
           {
             "ref": "Romans 3:23",
             "text": "for all have sinned and fall short of the glory of God,",
             "translation": "NKJV"
-          },
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 3:23 opens by saying who has sinned. Read the first words.",
+          "child": "Read Romans 3:23. The very first words tell who has sinned.",
+          "teen": "Check Romans 3:23. The first words answer the question.",
+          "older": "Romans 3:23 states in its first words who has sinned."
+        },
+        "extended_explanation": "Romans 3:22 says there is no difference between people. Romans 3:23 explains why, starting with who has sinned.",
+        "takeaway": "All have sinned and fall short of the glory of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: answer “All people” to match the other “who” choices; trimmed padded wrongs."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-rom-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 3",
+      "topics": [
+        "good-news"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 3:24 says people are justified freely by His what?",
+        "child": "Romans 3:24 says God makes people right with Him freely. By His what?",
+        "teen": "Romans 3:24 says we are made right with God freely. By His what?",
+        "older": "According to Romans 3:24, believers are justified freely by His what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grace"
+        },
+        {
+          "id": "b",
+          "text": "Law"
+        },
+        {
+          "id": "c",
+          "text": "Anger"
+        },
+        {
+          "id": "d",
+          "text": "Power"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 3:24",
+            "text": "being justified freely by His grace through the redemption that is in Christ Jesus,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 3:24 tells how people are justified freely. Read the words after \"freely by His.\"",
+          "child": "Read Romans 3:24. Find the words \"freely by His.\" The answer comes next.",
+          "teen": "Check Romans 3:24. The word you need comes right after \"freely by His.\"",
+          "older": "Romans 3:24 supplies the word directly after \"freely by His.\""
+        },
+        "extended_explanation": "\"Justified\" means made right with God. Romans 3:24 says this comes freely, as a gift, and tells what it comes by.",
+        "takeaway": "We are justified freely by His grace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-rom-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 5",
+      "topics": [
+        "good-news"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 5:6 says that at the right time Christ died for whom?",
+        "child": "Romans 5:6 says Christ died at just the right time. Who did He die for?",
+        "teen": "Romans 5:6 says Christ died at the right time. For whom did He die?",
+        "older": "According to Romans 5:6, for whom did Christ die in due time?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The angels"
+        },
+        {
+          "id": "b",
+          "text": "The ungodly"
+        },
+        {
+          "id": "c",
+          "text": "Only priests"
+        },
+        {
+          "id": "d",
+          "text": "Only the good"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 5:6",
+            "text": "For when we were still without strength, in due time Christ died for the ungodly.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 5:6 ends by saying who Christ died for. Read the last words.",
+          "child": "Read Romans 5:6. The last words tell who Christ died for.",
+          "teen": "Check Romans 5:6. The end of the verse gives the answer.",
+          "older": "Romans 5:6 names, in its final words, those for whom Christ died."
+        },
+        "extended_explanation": "Romans 5:6 says we were still without strength and could not save ourselves. The end of the verse tells who Christ died for.",
+        "takeaway": "Christ died for the ungodly."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-rom-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 5",
+      "topics": [
+        "good-news"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Christ died for us while we were still sinners. What does Romans 5:8 say God shows us by this?",
+        "child": "Christ died for us even while we were still sinners. What does Romans 5:8 say God shows us by that?",
+        "teen": "Romans 5:8 says Christ died for us while we were still sinners. What does that show about God?",
+        "older": "According to Romans 5:8, what does God demonstrate toward us in that Christ died for us while we were still sinners?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His anger"
+        },
+        {
+          "id": "b",
+          "text": "His wisdom"
+        },
+        {
+          "id": "c",
+          "text": "His power"
+        },
+        {
+          "id": "d",
+          "text": "His own love"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 5:8",
+            "text": "But God demonstrates His own love toward us, in that while we were still sinners, Christ died for us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 5:8 begins by saying what God demonstrates toward us. Read the first part of the verse.",
+          "child": "Read Romans 5:8. The first part tells what God shows us.",
+          "teen": "Check Romans 5:8. The start says what God demonstrates toward us.",
+          "older": "Romans 5:8 opens with what God demonstrates toward us."
+        },
+        "extended_explanation": "Christ did not wait for people to become good first. Romans 5:8 says what God shows us through that.",
+        "takeaway": "God shows His love for us in that Christ died for us while we were still sinners."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed a padded wrong so “His own love” is one of two longest corrects."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-rom-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 6",
+      "topics": [
+        "good-news"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 6:23 says the gift of God is what, in Christ Jesus our Lord?",
+        "child": "Romans 6:23 talks about a gift from God. What is the gift?",
+        "teen": "Romans 6:23 says God gives a gift in Christ Jesus. What is it?",
+        "older": "According to Romans 6:23, what is the gift of God in Christ Jesus our Lord?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eternal life"
+        },
+        {
+          "id": "b",
+          "text": "Good health"
+        },
+        {
+          "id": "c",
+          "text": "A crown"
+        },
+        {
+          "id": "d",
+          "text": "A house"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
           {
             "ref": "Romans 6:23",
             "text": "For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
@@ -52,17 +289,199 @@
           }
         ],
         "explanation": {
-          "adult": "Romans 6:23 sets a wage beside a gift. Read what the gift is called, after the contrast, and choose that whole phrase.",
-          "older": "Paul is plain. Sin pays a wage. The gift is named at the end of Romans 6:23. Choose that phrase, not silver or a throne."
+          "adult": "Romans 6:23 compares two things. Read the second half of the verse.",
+          "child": "Read Romans 6:23. The second half tells about God's gift.",
+          "teen": "Check Romans 6:23. The answer is in the second half.",
+          "older": "Romans 6:23 contrasts wages and a gift; the gift is named in the second half."
         },
-        "extended_explanation": "Romans 3:23 says all have sinned and fall short of the glory of God. Romans 6:23 answers with a gift, not a wage someone could earn. Read the gift's name at the end of the verse. It is not silver, a sorrow-free promise, or Caesar's throne.",
+        "extended_explanation": "Romans 6:23 compares what sin pays with what God gives. The gift comes in Christ Jesus our Lord.",
         "takeaway": "The gift of God is eternal life in Christ Jesus our Lord."
       },
       "review": {
         "status": "draft",
-        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed padded wrongs so “Eternal life” is one of two longest corrects."
       },
-      "stage": "Growing"
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-rom-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 10",
+      "topics": [
+        "good-news"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 10:10 talks about believing and confessing. With what does a person believe?",
+        "child": "This verse says we believe with one part of us and speak with another. What do we believe with?",
+        "teen": "Romans 10:10 links believing and confessing to two different parts of a person. Which part does the believing?",
+        "older": "According to Romans 10:10, which speaks of believing unto righteousness and confessing unto salvation, with what does one believe?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The hands"
+        },
+        {
+          "id": "b",
+          "text": "The eyes"
+        },
+        {
+          "id": "c",
+          "text": "The heart"
+        },
+        {
+          "id": "d",
+          "text": "The feet"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 10:10",
+            "text": "For with the heart one believes unto righteousness, and with the mouth confession is made unto salvation.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 10:10 tells what a person believes with. Read the first part of the verse.",
+          "child": "This verse says a person believes with something. Read the first words of Romans 10:10.",
+          "teen": "Romans 10:10 names what someone believes with. Look at the opening clause.",
+          "older": "Read the first half of Romans 10:10 for what one believes with."
+        },
+        "extended_explanation": "The verse pairs two parts of a person: one for believing and one for confessing. Read the first half to see what a person believes with.",
+        "takeaway": "With the heart one believes unto righteousness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: moved from Romans 10:9 (which ends “you will be saved”) to Romans 10:10. Question: “With what does one believe?” Answer: “The heart.”"
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-rom-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 10",
+      "topics": [
+        "good-news"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 10:13 says whoever calls on the name of the LORD shall be what?",
+        "child": "Romans 10:13 makes a promise to whoever calls on the name of the LORD. What will happen to them?",
+        "teen": "Romans 10:13 gives a promise for whoever calls on the LORD's name. What is it?",
+        "older": "According to Romans 10:13, what shall happen to whoever calls on the name of the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rich"
+        },
+        {
+          "id": "b",
+          "text": "Saved"
+        },
+        {
+          "id": "c",
+          "text": "Famous"
+        },
+        {
+          "id": "d",
+          "text": "Made king"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 10:13",
+            "text": "For “whoever calls on the name of the LORD shall be saved.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 10:13 ends with the promise. Read the last word of the verse.",
+          "child": "Read Romans 10:13. The last word tells what will happen.",
+          "teen": "Check Romans 10:13. The promise is the last word.",
+          "older": "Romans 10:13 concludes with the promise in its final word."
+        },
+        "extended_explanation": "Romans 10:13 says this promise is for whoever calls on the LORD, with no one left out. Romans 10:12 says the same Lord is over all.",
+        "takeaway": "Whoever calls on the name of the LORD shall be saved."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: now the badge's intermediate (calling on the name leads to being saved)."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-rom-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 10",
+      "topics": [
+        "good-news"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Romans 10:17, what does faith come by?",
+        "child": "Romans 10:17 tells how faith comes to people. What does it come by?",
+        "teen": "Romans 10:17 explains how faith comes. What does it come by?",
+        "older": "According to Romans 10:17, by what does faith come?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seeing"
+        },
+        {
+          "id": "b",
+          "text": "Waiting"
+        },
+        {
+          "id": "c",
+          "text": "Working hard"
+        },
+        {
+          "id": "d",
+          "text": "Hearing"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 10:17",
+            "text": "So then faith comes by hearing, and hearing by the word of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 10:17 links faith with the word of God. Read the first part of the verse.",
+          "child": "Read Romans 10:17. The first part tells what faith comes by.",
+          "teen": "Check Romans 10:17. The first part answers the question.",
+          "older": "Romans 10:17 states the source of faith in its opening clause."
+        },
+        "extended_explanation": "Romans 10:14-17 asks how people can believe if no one tells them. Verse 17 sums it up and connects it to the word of God.",
+        "takeaway": "Faith comes by hearing, and hearing by the word of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: swapped tiers with rom-0007; this is now foundation."
+      },
+      "stage": "Sprout"
     }
   ]
 }

@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-act-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 3",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What was the name of the temple gate where the man who could not walk sat begging?",
+        "child": "A man who could not walk sat begging at a temple gate. What was that gate called?",
+        "teen": "Every day a man who couldn't walk sat begging at a temple gate. What was its name?",
+        "older": "According to Acts 3:10, what was the temple gate called where the man had sat begging alms?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Golden Gate"
+        },
+        {
+          "id": "b",
+          "text": "Sheep Gate"
+        },
+        {
+          "id": "c",
+          "text": "Beautiful Gate"
+        },
+        {
+          "id": "d",
+          "text": "King's Gate"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 3:10",
+            "text": "Then they knew that it was he who sat begging alms at the Beautiful Gate of the temple; and they were filled with wonder and amazement at what had happened to him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 3:10 names the gate. Read the words after “at the.”",
+          "child": "Acts 3:10 tells where the man used to sit and ask for help. Look at the name of that gate.",
+          "teen": "People recognized the man from the place he had sat. Acts 3:10 gives the gate's name.",
+          "older": "Read Acts 3:10 and look for the name of the temple gate."
+        },
+        "extended_explanation": "After the man was healed, people knew who he was because they had seen him there so often. Acts 3:10 names that gate of the temple.",
+        "takeaway": "The man had sat begging alms at the Beautiful Gate of the temple."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: moved from Acts 3:2 to Acts 3:10. Answer “Beautiful Gate” so every choice includes Gate."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 3",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How long had the man at the temple gate been unable to walk?",
+        "child": "The man at the temple gate could not walk. How long had he been that way?",
+        "teen": "Acts 3 tells of a lame man who was laid at the temple gate each day. How long had he been unable to walk?",
+        "older": "According to Acts 3:2, for how long had the man at the temple gate been lame?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "From his mother’s womb"
+        },
+        {
+          "id": "b",
+          "text": "For only one short week"
+        },
+        {
+          "id": "c",
+          "text": "Since this time last year"
+        },
+        {
+          "id": "d",
+          "text": "For just the last two days"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 3:2",
+            "text": "And a certain man lame from his mother’s womb was carried, whom they laid daily at the gate of the temple which is called Beautiful, to ask alms from those who entered the temple;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 3:2 describes the man at the start of the verse. Read how long he had been this way.",
+          "child": "Read Acts 3:2. The beginning tells how long the man could not walk.",
+          "teen": "Check Acts 3:2. The first part tells how long he had been unable to walk.",
+          "older": "Acts 3:2 states in its opening words how long the man had been lame."
+        },
+        "extended_explanation": "This man had never been able to help himself get around; others carried him each day. The beginning of Acts 3:2 tells how long it had been.",
+        "takeaway": "The man had been lame since birth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: restored full Acts 3:2 after the gate question moved to 3:10."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 3",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter and John saw a man who could not walk begging at the temple gate. What did Peter first say to him?",
+        "child": "A man who could not walk was begging at the temple gate. When Peter and John came by, what did Peter say to him first?",
+        "teen": "At the temple gate, a lame man asked Peter and John for money. What were Peter's first words to him?",
+        "older": "According to Acts 3:4, what did Peter first say to the lame man who was begging at the temple gate?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stand up now"
+        },
+        {
+          "id": "b",
+          "text": "Look at us"
+        },
+        {
+          "id": "c",
+          "text": "Give me your hand"
+        },
+        {
+          "id": "d",
+          "text": "Go into the temple"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 3:4",
+            "text": "And fixing his eyes on him, with John, Peter said, “Look at us.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 3:4 tells Peter's first words to the man. Read the end of the verse.",
+          "child": "Peter spoke to the man before anything else happened. Acts 3:4 gives his first words.",
+          "teen": "Acts 3:4 records what Peter said first. Look at the last three words.",
+          "older": "Read the close of Acts 3:4 for Peter's first instruction to the man."
+        },
+        "extended_explanation": "Peter and John were going into the temple. Before Peter spoke of anything he did not have, Acts 3:4 records what he said first.",
+        "takeaway": "Peter first told the man, “Look at us.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: moved from Acts 3:6 (which also holds the Jesus Christ answer) to Acts 3:4. Answer: Look at us."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 3",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In whose name did Peter tell the man to rise up and walk?",
+        "child": "Peter told the man to get up and walk. In whose name did he say it?",
+        "teen": "Peter told the man to rise up and walk. Whose name did he use?",
+        "older": "According to Acts 3:6, in whose name did Peter command the man to rise up and walk?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moses"
+        },
+        {
+          "id": "b",
+          "text": "Abraham"
+        },
+        {
+          "id": "c",
+          "text": "The high priest"
+        },
+        {
+          "id": "d",
+          "text": "Jesus Christ"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 3:6",
+            "text": "Then Peter said, “Silver and gold I do not have, but what I do have I give you: In the name of Jesus Christ of Nazareth, rise up and walk.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 3:6 tells whose name Peter used. Read the words after \"In the name of.\"",
+          "child": "Read Acts 3:6. Look for \"In the name of.\" The name comes next.",
+          "teen": "Check Acts 3:6. The name comes right after \"In the name of.\"",
+          "older": "Acts 3:6 gives the name directly after \"In the name of.\""
+        },
+        "extended_explanation": "Peter could not heal the man by his own power. Acts 3:6 shows whose name he spoke when he told the man to rise.",
+        "takeaway": "Peter spoke in the name of Jesus Christ of Nazareth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: restored full Acts 3:6 after the silver-and-gold question moved off this verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 3",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Peter lifted him up and his feet became strong, what did the man do?",
+        "child": "Peter pulled the man up, and his feet got strong. What did the man do next?",
+        "teen": "Once Peter lifted him and his feet and ankles grew strong, what did the man do?",
+        "older": "According to Acts 3:8, what did the man do after he was lifted up and his feet received strength?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Walking, leaping, and praising God"
+        },
+        {
+          "id": "b",
+          "text": "Sitting down to beg again"
+        },
+        {
+          "id": "c",
+          "text": "Asking them for money"
+        },
+        {
+          "id": "d",
+          "text": "Running away from the temple"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 3:8",
+            "text": "So he, leaping up, stood and walked and entered the temple with them—walking, leaping, and praising God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 3:8 tells what the man did next. Read the end of the verse.",
+          "child": "Read Acts 3:8. It tells what the man did after he stood up.",
+          "teen": "Check Acts 3:8. The end of the verse describes what he did.",
+          "older": "Acts 3:8 describes the man's response, especially in its closing words."
+        },
+        "extended_explanation": "The man went into the temple with Peter and John. Acts 3:8 describes what he was doing as he went in.",
+        "takeaway": "He went into the temple walking, leaping, and praising God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse. Manager B/C review: trimmed padded wrongs so this correct answer is one of two longest in the badge."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0014",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 12",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Herod put Peter in prison. On the night before Herod would bring him out, how was Peter held?",
+        "child": "King Herod put Peter in prison. On the last night, how was Peter tied up?",
+        "teen": "Herod had Peter locked in prison. The night before he would be brought out, how was Peter held?",
+        "older": "According to Acts 12:6, how was Peter bound on the night before Herod planned to bring him out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With leather straps"
+        },
+        {
+          "id": "b",
+          "text": "With two chains"
+        },
+        {
+          "id": "c",
+          "text": "In a wooden box"
+        },
+        {
+          "id": "d",
+          "text": "With a single rope"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 12:6",
+            "text": "And when Herod was about to bring him out, that night Peter was sleeping, bound with two chains between two soldiers; and the guards before the door were keeping the prison.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 12:6 describes how Peter was held while he slept. Read the middle of the verse.",
+          "child": "Read Acts 12:6. It tells how Peter was tied up while he slept.",
+          "teen": "Check Acts 12:6. The verse tells what Peter was bound with.",
+          "older": "Acts 12:6 states how Peter was bound as he slept between the soldiers."
+        },
+        "extended_explanation": "Peter was guarded very closely in prison while the church prayed for him. Acts 12:6 describes how he was held that night.",
+        "takeaway": "Peter was bound with two chains between two soldiers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 12",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Who stood by Peter in the prison, woke him, and told him to get up quickly?",
+        "child": "Someone came into the prison and woke Peter up. Who was it?",
+        "teen": "In the prison, someone woke Peter and told him to get up fast. Who was it?",
+        "older": "According to Acts 12:7, who stood by Peter in the prison and raised him up?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A shepherd"
+        },
+        {
+          "id": "b",
+          "text": "His brother Andrew"
+        },
+        {
+          "id": "c",
+          "text": "King Herod's servant"
+        },
+        {
+          "id": "d",
+          "text": "An angel"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 12:7",
+            "text": "Now behold, an angel of the Lord stood by him, and a light shone in the prison; and he struck Peter on the side and raised him up, saying, “Arise quickly!” And his chains fell off his hands.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 12:7 tells who stood by Peter. Read the first words of the verse.",
+          "child": "Read Acts 12:7. The beginning tells who came to Peter.",
+          "teen": "Check Acts 12:7. Look at the first part of the verse.",
+          "older": "Acts 12:7 identifies, in its opening words, who stood by Peter."
+        },
+        "extended_explanation": "A light shone in the prison, Peter was woken up, and his chains fell off. Acts 12:7 tells who came to him.",
+        "takeaway": "An angel of the Lord came and woke Peter."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    },
+    {
+      "id": "c1-act-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 12",
+      "topics": [
+        "peter-miracles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Peter got out, he knocked at the gate of a house where people were praying. Who came to answer?",
+        "child": "Peter knocked on the gate of a house where people were praying. Who came to the door?",
+        "teen": "Peter knocked at the gate where people were praying. What was the name of the girl who came?",
+        "older": "According to Acts 12:13, what was the name of the girl who came to answer when Peter knocked?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ruth"
+        },
+        {
+          "id": "b",
+          "text": "Hannah"
+        },
+        {
+          "id": "c",
+          "text": "Rhoda"
+        },
+        {
+          "id": "d",
+          "text": "Martha"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 12:13",
+            "text": "And as Peter knocked at the door of the gate, a girl named Rhoda came to answer.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 12:13 names the girl who came. Read the end of the verse.",
+          "child": "Read Acts 12:13. The girl's name is in the verse.",
+          "teen": "Check Acts 12:13. The girl is named in the verse.",
+          "older": "Acts 12:13 gives the name of the girl who answered."
+        },
+        "extended_explanation": "Peter came to a house where many were praying. Acts 12:13 names the girl who came to the gate. She was so glad to hear his voice that she ran to tell the others.",
+        "takeaway": "A girl named Rhoda came to answer the door."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Sprout stage. NKJV excerpt copied from _sprout_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Sprout"
+    }
+  ]
+}

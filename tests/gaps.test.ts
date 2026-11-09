@@ -12,7 +12,7 @@ describe("content gap report", () => {
     expect(report).toContain("## Deep Roots");
     const seed = report.slice(report.indexOf("## Seed"), report.indexOf("## Sprout"));
     expect(seed).not.toContain("Psalm 119");
-    expect(report).toContain("| Psalm 119 |");
-    expect(report.indexOf("| Psalm 119 |")).toBeGreaterThan(report.indexOf("## Established"));
+    const established = report.slice(report.indexOf("## Established"), report.indexOf("## Fruitful"));
+    expect(established).toContain("| Wisdom Books | Psalms | Psalm 119 | intermediate | 1 |");
   });
 });
