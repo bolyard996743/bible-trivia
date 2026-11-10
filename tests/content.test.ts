@@ -265,6 +265,105 @@ describe("sample content", () => {
     );
   });
 
+  it("plays the approved Rooted line after every answer", () => {
+    const { lines } = loadCatalog();
+    const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
+      stages: { stage: string; badges: { id: string; questionIds: string[] }[] }[];
+    };
+    const rootedIds =
+      pathFile.stages.find((stage) => stage.stage === "Rooted")?.badges.flatMap((badge) => badge.questionIds) ?? [];
+    expect(rootedIds).toHaveLength(200);
+    const pathLines = linesForPathPlay(lines);
+    const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
+    const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
+    const approved: Record<(typeof mascots)[number], Record<string, string>> = {
+      judah: {},
+      agnes: {},
+      shalom: {},
+      zion: {},
+      hunter: {},
+    };
+
+    for (const mascot of mascots) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "rooted_lines.json");
+      const source = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+      approved[mascot] = source;
+      expect(Object.keys(source)).toHaveLength(rootedIds.length);
+      expect(new Set(Object.keys(source))).toEqual(new Set(rootedIds));
+      const owned = lines.filter(
+        (line) =>
+          line.mascot === mascot &&
+          rootedIds.includes(line.question_id ?? "") &&
+          line.id.startsWith(`${mascot}-rooted-`),
+      );
+      expect(owned).toHaveLength(200 * moments.length);
+      expect(new Set(owned.map((line) => line.text)).size).toBe(200);
+      expect(
+        owned.every(
+          (line) => line.audience === "all" && line.audio_file === null && line.text === source[line.question_id ?? ""],
+        ),
+      ).toBe(true);
+    }
+
+    const playback = lines.filter((line) => line.id.includes("-rooted-"));
+    expect(playback).toHaveLength(200 * mascots.length * moments.length);
+    expect(new Set(playback.map((line) => `${line.mascot}:${line.question_id}`)).size).toBe(1000);
+    expect(lines.filter((line) => line.id.includes("-seed-"))).toHaveLength(72 * mascots.length * moments.length);
+    expect(lines.filter((line) => line.id.includes("-sprout-"))).toHaveLength(136 * mascots.length * moments.length);
+    expect(lines.some((line) => line.id === "agnes-sprout-correct-c1-dan-0001")).toBe(true);
+
+    for (const id of rootedIds) {
+      for (const mascot of mascots) {
+        const spoken = moments.map((moment) => pickMascotLine(pathLines, mascot, moment, "adult", { questionId: id }));
+        expect(spoken.every((line) => line?.text === approved[mascot][id] && line.question_id === id && line.audience === "all")).toBe(
+          true,
+        );
+        expect(pickMascotLine(pathLines, mascot, "correct", "child", { questionId: id })?.text).toBe(approved[mascot][id]);
+        expect(pickMascotLine(pathLines, mascot, "wrong_intro", "older", { questionId: id })?.text).toBe(approved[mascot][id]);
+        expect(pickMascotLine(pathLines, mascot, "correct_after_retry", "teen", { questionId: id })?.text).toBe(
+          approved[mascot][id],
+        );
+      }
+    }
+
+    expect(approved.agnes["c1-gen-0036"]).toBe(
+      "In the garden, the woman heard a question about what God had said. Let's read Genesis 3:1 together.",
+    );
+    expect(approved.judah["c2-act-0002"]).toBe(
+      "After baptism, the Ethiopian went on his way. After baptism, the jailer brought Paul and Silas home. Let's read what both verses share, in Acts 8:39 and 16:34.",
+    );
+    expect(approved.agnes["c2-jhn-0001"]).toBeTruthy();
+    expect(approved.agnes["c2-act-0001"]).toBeUndefined();
+    expect(approved.agnes["c2-jhn-0099"]).toBeUndefined();
+    expect(approved.agnes["c1-gen-0003"]).toBeUndefined();
+    expect(pickMascotLine(pathLines, "agnes", "wrong_intro", "child", { questionId: "c2-act-0002" })?.text).toBe(
+      approved.agnes["c2-act-0002"],
+    );
+    expect(pickMascotLine(pathLines, "hunter", "correct", "older", { questionId: "c1-gen-0036" })?.text).toBe(
+      approved.hunter["c1-gen-0036"],
+    );
+    expect(pickMascotLine(pathLines, "shalom", "correct_after_retry", "adult", { questionId: "c2-jhn-0001" })?.text).toBe(
+      approved.shalom["c2-jhn-0001"],
+    );
+    expect(pickMascotLine(lines, "agnes", "correct", "child", { questionId: "c1-gen-0020" })?.text).toBe(
+      "This is the very beginning of God's story. Let's read Genesis 1:3.",
+    );
+  });
+
+  it("keeps each rooted line file byte for byte", () => {
+    const hashes: Record<string, string> = {
+      agnes: "a2eea2a1624602370a402ed7963a9434ffd34e748772bc804b334eb3aea6995b",
+      hunter: "5b4c4c54c6c898645a64db9fb1cb5556be9dac5ea6a43b792c5e5d3eaaba1f5f",
+      judah: "dd7dae3d7442d25693d67440d00a16033306fe2e61789704490ee02b200341d2",
+      shalom: "e338dde2d65ef9c66a7a0271d68ad179801097e1ac8ad119ca399d261a26ec86",
+      zion: "76381c0a304d54fb4060b630e939530d93d79f23857953ca787dcd88f94338ee",
+    };
+    for (const [mascot, hash] of Object.entries(hashes)) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "rooted_lines.json");
+      expect(createHash("sha256").update(fs.readFileSync(file)).digest("hex")).toBe(hash);
+    }
+  });
+
   it("keeps each sprout line file byte for byte", () => {
     const hashes: Record<string, string> = {
       agnes: "98c0c4c69461249406973635cd2739c13b3aa8dd08217c1b5505df6a012043ec",
@@ -377,6 +476,38 @@ describe("schema rejects a bad file", () => {
     const result = validateContentTree(dir);
     expect(result.ok).toBe(false);
     expect(result.errors).toContain("Sprout question c1-mat-0009 is missing a correct line for agnes");
+  });
+
+  it("fails when a Rooted question is missing one guide's answer line", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "rooted_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    delete lines["c2-act-0002"];
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("Rooted question c2-act-0002 is missing a correct line for agnes");
+    expect(result.errors).toContain("Rooted question c2-act-0002 is missing a wrong_intro line for agnes");
+    expect(result.errors).toContain("Rooted question c2-act-0002 is missing a correct_after_retry line for agnes");
+  });
+
+  it("fails when a rooted line names a question outside Rooted", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "rooted_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    lines["c1-gen-0020"] = "This seed question does not belong in the rooted file.";
+    lines["c1-dan-0001"] = "This sprout question does not belong in the rooted file.";
+    lines["c1-missing-0001"] = "Nobody wrote this question.";
+    lines["c2-jhn-0099"] = "The old placeholder does not need a Rooted line.";
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("content/mascots/agnes/rooted_lines.json: c1-gen-0020 is not a Rooted question");
+    expect(result.errors).toContain("content/mascots/agnes/rooted_lines.json: c1-dan-0001 is not a Rooted question");
+    expect(result.errors).toContain("content/mascots/agnes/rooted_lines.json: c1-missing-0001 references unknown question");
+    expect(result.errors).toContain("content/mascots/agnes/rooted_lines.json: c2-jhn-0099 is not a Rooted question");
   });
 
   it("fails when a sprout line names a question outside Sprout", () => {
