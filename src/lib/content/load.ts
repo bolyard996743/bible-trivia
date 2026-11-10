@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import type { MascotLine, Question } from "../game/types";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
+import { readSproutLineFiles } from "./sprout-lines";
 import { validateContentTree } from "./validate";
 
 export type Catalog = {
@@ -53,6 +54,12 @@ export function loadCatalog(root = process.cwd()): Catalog {
       lines.push({ ...line, mascot: batch.mascot });
     }
   }
+
+  const sprout = readSproutLineFiles(root);
+  if (sprout.errors.length > 0) {
+    throw new Error(`Content validation failed:\n${sprout.errors.join("\n")}`);
+  }
+  lines.push(...sprout.lines);
 
   return { questions, lines, audioFiles };
 }

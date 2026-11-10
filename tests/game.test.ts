@@ -12,6 +12,7 @@ import {
   knowledgeStage,
   mascotLineAudioSrc,
   nextQuestion,
+  linesForPathPlay,
   pickMascotLine,
   pickWording,
   placementFromRatio,
@@ -183,6 +184,47 @@ describe("pickMascotLine", () => {
     expect(pickMascotLine(bank, "judah", "wrong_intro", "older", { questionId: "c2-num-0001" })?.id).toBe(
       "generic-all",
     );
+  });
+
+  it("speaks the stage line on the path when placement also has that question", () => {
+    const lines: MascotLine[] = [
+      {
+        id: "agnes-pl-wrong-08-child",
+        mascot: "agnes",
+        moment: "wrong_intro",
+        audience: "child",
+        text: "Placement",
+        audio_file: null,
+        question_id: "c1-dan-0001",
+      },
+      {
+        id: "agnes-sprout-wrong-intro-c1-dan-0001",
+        mascot: "agnes",
+        moment: "wrong_intro",
+        audience: "all",
+        text: "Sprout",
+        audio_file: null,
+        question_id: "c1-dan-0001",
+      },
+      {
+        id: "agnes-welcome-001",
+        mascot: "agnes",
+        moment: "welcome",
+        audience: "all",
+        text: "Hi",
+        audio_file: null,
+        question_id: null,
+      },
+    ];
+    expect(pickMascotLine(lines, "agnes", "wrong_intro", "child", { questionId: "c1-dan-0001" })?.text).toBe(
+      "Placement",
+    );
+    const pathLines = linesForPathPlay(lines);
+    expect(pickMascotLine(pathLines, "agnes", "wrong_intro", "child", { questionId: "c1-dan-0001" })?.text).toBe(
+      "Sprout",
+    );
+    expect(pathLines.some((line) => line.id === "agnes-welcome-001")).toBe(true);
+    expect(pathLines.some((line) => line.id === "agnes-pl-wrong-08-child")).toBe(false);
   });
 
   it("builds a voiceover path and keeps a declared file", () => {

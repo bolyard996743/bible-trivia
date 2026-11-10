@@ -4,6 +4,7 @@ import { explanationRevealIssues } from "../game/reveal";
 import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS } from "../game/types";
 import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
+import { ANSWER_MOMENTS, readSproutLineFiles, sproutLinesPath } from "./sprout-lines";
 
 const BADGE_COUNTS: Record<(typeof KNOWLEDGE_PATH)[number], number> = {
   Seed: 9,
@@ -35,9 +36,8 @@ export type ValidationResult = {
 const QUESTION_FILE = /^[a-z0-9]+(?:-[a-z0-9]+)*\.json$/;
 const MASCOT_FILE = /^(judah|agnes|shalom|zion|hunter)-[a-z0-9]+(?:-[a-z0-9]+)*\.json$/;
 
-/** Moments the question screen speaks after an answer, for every age. */
-const ANSWER_MOMENTS = ["wrong_intro", "correct", "correct_after_retry"] as const;
 const SEED_QUESTION_COUNT = 72;
+const SPROUT_QUESTION_COUNT = 136;
 const ROOTED_QUESTION_COUNT = 200;
 
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
@@ -58,6 +58,33 @@ function readJson(filePath: string): { value?: unknown; error?: string } {
     return { value: JSON.parse(raw) as unknown };
   } catch (error) {
     return { error: error instanceof Error ? error.message : "Invalid JSON" };
+  }
+}
+
+function requireStageLines(
+  errors: string[],
+  stage: "Seed" | "Sprout",
+  ids: string[],
+  expected: number,
+  answerLinesByQuestion: Map<string, Map<string, Set<string>>>,
+  skipMascots: ReadonlySet<string>,
+) {
+  if (ids.length !== expected) {
+    errors.push(
+      `content/knowledge_path.json: ${stage} badges should list ${expected} questions, found ${ids.length}`,
+    );
+  }
+  for (const id of ids) {
+    const byMascot = answerLinesByQuestion.get(id) ?? new Map<string, Set<string>>();
+    for (const mascot of MASCOT_IDS) {
+      if (skipMascots.has(mascot)) continue;
+      const moments = byMascot.get(mascot) ?? new Set<string>();
+      for (const moment of ANSWER_MOMENTS) {
+        if (!moments.has(moment)) {
+          errors.push(`${stage} question ${id} is missing a ${moment} line for ${mascot}`);
+        }
+      }
+    }
   }
 }
 
@@ -196,6 +223,45 @@ export function validateContentTree(root: string): ValidationResult {
     }
   }
 
+  const sprout = readSproutLineFiles(root);
+  errors.push(...sprout.errors);
+  const sproutNoted = new Set<string>();
+  for (const line of sprout.lines) {
+    lineCount += 1;
+    const file = sproutLinesPath(line.mascot);
+    const prior = lineIds.get(line.id);
+    if (prior) errors.push(`${file}: duplicate line id ${line.id} (also in ${prior})`);
+    lineIds.set(line.id, file);
+    const once = `${line.mascot}:${line.question_id ?? ""}`;
+    if (!sproutNoted.has(once)) {
+      sproutNoted.add(once);
+      if (line.mascot === "hunter") {
+        for (const pattern of HUNTER_FORBIDDEN) {
+          if (pattern.test(line.text)) {
+            errors.push(`${file}: ${line.question_id} states outright that Hunter swallowed Jonah`);
+            break;
+          }
+        }
+      }
+      if (line.question_id && !questionIds.has(line.question_id)) {
+        errors.push(`${file}: ${line.question_id} references unknown question`);
+      }
+    }
+    if (
+      line.question_id &&
+      questionIds.has(line.question_id) &&
+      line.audience === "all" &&
+      (ANSWER_MOMENTS as readonly string[]).includes(line.moment)
+    ) {
+      const byMascot = answerLinesByQuestion.get(line.question_id) ?? new Map<string, Set<string>>();
+      const moments = byMascot.get(line.mascot) ?? new Set<string>();
+      moments.add(line.moment);
+      byMascot.set(line.mascot, moments);
+      answerLinesByQuestion.set(line.question_id, byMascot);
+    }
+  }
+  const sproutFileMissing = new Set(MASCOT_IDS.filter((mascot) => !sprout.loaded.includes(mascot)));
+
   const pathFile = path.join(root, "content", "knowledge_path.json");
   const loaded = readJson(pathFile);
   if (loaded.error || loaded.value === undefined) {
@@ -215,6 +281,7 @@ export function validateContentTree(root: string): ValidationResult {
     const seenBadges = new Set<string>();
     const seenQuestions = new Set<string>();
     const seedQuestionIds: string[] = [];
+    const sproutQuestionIds: string[] = [];
     const rootedQuestionIds: string[] = [];
     let badgeCount = 0;
     stages.forEach((stage, index) => {
@@ -244,6 +311,7 @@ export function validateContentTree(root: string): ValidationResult {
           seenQuestions.add(id);
           if (!questionIds.has(id)) errors.push(`content/knowledge_path.json: ${badge.id} lists unknown question ${id}`);
           if (expected === "Seed") seedQuestionIds.push(id);
+          if (expected === "Sprout") sproutQuestionIds.push(id);
           if (expected === "Rooted") rootedQuestionIds.push(id);
         }
         if (expected === "Rooted" && (badge.questionIds ?? []).length !== 8) {
@@ -254,26 +322,28 @@ export function validateContentTree(root: string): ValidationResult {
       }
     });
     if (badgeCount !== 218) errors.push(`content/knowledge_path.json: expected 218 badges, found ${badgeCount}`);
-    if (seedQuestionIds.length !== SEED_QUESTION_COUNT) {
-      errors.push(
-        `content/knowledge_path.json: Seed badges should list ${SEED_QUESTION_COUNT} questions, found ${seedQuestionIds.length}`,
-      );
+    requireStageLines(errors, "Seed", seedQuestionIds, SEED_QUESTION_COUNT, answerLinesByQuestion, new Set());
+    requireStageLines(
+      errors,
+      "Sprout",
+      sproutQuestionIds,
+      SPROUT_QUESTION_COUNT,
+      answerLinesByQuestion,
+      sproutFileMissing,
+    );
+    const sproutIds = new Set(sproutQuestionIds);
+    const strayNoted = new Set<string>();
+    for (const line of sprout.lines) {
+      if (!line.question_id || !questionIds.has(line.question_id) || sproutIds.has(line.question_id)) continue;
+      const once = `${line.mascot}:${line.question_id}`;
+      if (strayNoted.has(once)) continue;
+      strayNoted.add(once);
+      errors.push(`${sproutLinesPath(line.mascot)}: ${line.question_id} is not a Sprout question`);
     }
     if (rootedQuestionIds.length !== ROOTED_QUESTION_COUNT) {
       errors.push(
         `content/knowledge_path.json: Rooted badges should list ${ROOTED_QUESTION_COUNT} questions, found ${rootedQuestionIds.length}`,
       );
-    }
-    for (const id of seedQuestionIds) {
-      const byMascot = answerLinesByQuestion.get(id) ?? new Map<string, Set<string>>();
-      for (const mascot of MASCOT_IDS) {
-        const moments = byMascot.get(mascot) ?? new Set<string>();
-        for (const moment of ANSWER_MOMENTS) {
-          if (!moments.has(moment)) {
-            errors.push(`Seed question ${id} is missing a ${moment} line for ${mascot}`);
-          }
-        }
-      }
     }
   }
 

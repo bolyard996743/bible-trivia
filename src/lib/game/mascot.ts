@@ -45,6 +45,26 @@ export function pickMascotLine(
   );
 }
 
+const STAGE_LINE_ID = /^(?:judah|agnes|shalom|zion|hunter)-(?:seed|sprout)-/;
+
+/**
+ * Path play speaks the stage line for that question.
+ * Placement keeps its own age-specific lines, which otherwise win over audience "all".
+ */
+export function linesForPathPlay(lines: MascotLine[]): MascotLine[] {
+  const covered = new Set<string>();
+  for (const line of lines) {
+    if (line.question_id && STAGE_LINE_ID.test(line.id)) {
+      covered.add(`${line.mascot}\0${line.moment}\0${line.question_id}`);
+    }
+  }
+  if (covered.size === 0) return lines;
+  return lines.filter((line) => {
+    if (!line.question_id || STAGE_LINE_ID.test(line.id)) return true;
+    return !covered.has(`${line.mascot}\0${line.moment}\0${line.question_id}`);
+  });
+}
+
 /** Conventional voiceover path. Plays only if that file exists at runtime. */
 export function mascotLineAudioSrc(
   mascot: MascotId,

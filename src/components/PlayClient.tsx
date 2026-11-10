@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { BadgeRetryNotice } from "@/components/BadgeRetryNotice";
 import { QuestionSession } from "@/components/QuestionSession";
-import { attemptForQuestion } from "@/lib/game";
+import { attemptForQuestion, linesForPathPlay } from "@/lib/game";
 import { showDifficultyLabels } from "@/lib/dev-flags";
 import { badgeEarned, selectBadgeQuestion } from "@/lib/game/badges";
 import {
@@ -131,7 +131,7 @@ export function PlayClient({
       question={question}
       ageGroup={state.ageGroup}
       mascot={state.mascot}
-      lines={lines}
+      lines={linesForPathPlay(lines)}
       soundOn={state.soundOn}
       audioFiles={audioFiles}
       progressLabel={`${state.progress.stage ?? "Seed"} · ${question.section}`}
