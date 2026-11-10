@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-numbers-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-num-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 13",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the Valley of Eshcol, the spies cut down something so large that two men carried it on a pole. What was it?",
+        "child": "The spies found something so big in Canaan that two men had to carry it on a pole. What was it?",
+        "teen": "What did two of the spies carry between them on a pole from the Valley of Eshcol?",
+        "older": "According to Numbers 13:23, what did the spies cut down at Eshcol and carry on a pole between two men?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A sack of wheat"
+        },
+        {
+          "id": "b",
+          "text": "One cluster of grapes"
+        },
+        {
+          "id": "c",
+          "text": "A jar of honey"
+        },
+        {
+          "id": "d",
+          "text": "A bundle of olive branches"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 13:23",
+            "text": "Then they came to the Valley of Eshcol, and there cut down a branch with one cluster of grapes; they carried it between two of them on a pole. They also brought some of the pomegranates and figs.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 13:23 tells what they cut down along with the branch. Read the middle of the verse.",
+          "child": "Read Numbers 13:23. Look right after the word \"branch.\"",
+          "teen": "13:23 also mentions pomegranates and figs, but those were extra. The thing carried on the pole comes first.",
+          "older": "The item carried on the pole is named with the branch, before the additional fruit at the end of 13:23."
+        },
+        "extended_explanation": "Moses had asked the spies to bring back some fruit of the land. In the Valley of Eshcol they found something so heavy that two men carried it on a pole. Read the first half of Numbers 13:23.",
+        "takeaway": "The spies carried one cluster of grapes on a pole between two men."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-num-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 13",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Most of the spies said they saw giants in the land. How did they say they looked in their own sight?",
+        "child": "Some spies said the people in Canaan were giants. What did the spies say they felt like next to them?",
+        "teen": "In their bad report, how did the spies describe themselves compared with the giants?",
+        "older": "According to Numbers 13:33, what did the spies say they were like, in their own sight and in the giants' sight?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Like lions"
+        },
+        {
+          "id": "b",
+          "text": "Like mighty men"
+        },
+        {
+          "id": "c",
+          "text": "Like sheep without a shepherd"
+        },
+        {
+          "id": "d",
+          "text": "Like grasshoppers"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 13:33",
+            "text": "There we saw the giants (the descendants of Anak came from the giants); and we were like grasshoppers in our own sight, and so we were in their sight.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 13:33 ends with the spies' comparison. Read the words after \"we were.\"",
+          "child": "Read the end of Numbers 13:33. Look at what the spies compare themselves to.",
+          "teen": "13:33 says how the spies saw themselves and how they thought the giants saw them. The comparison is the same both times.",
+          "older": "The simile in 13:33 is stated once and then applied to the giants' view as well."
+        },
+        "extended_explanation": "The spies agreed the land was good, but most of them were afraid of the people living there. Numbers 13:33 records how they saw themselves. Read the words after \"we were.\"",
+        "takeaway": "The fearful spies said they were like grasshoppers in their own sight."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-num-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 14",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joshua and Caleb told the people not to fear those living in the land. What reason did they give, besides warning them not to rebel?",
+        "child": "Joshua and Caleb told the scared people, \"Do not fear them.\" Why did they say there was no need to be afraid?",
+        "teen": "In Numbers 14:9, Joshua and Caleb said the people of the land had lost their protection. What did they say was true of Israel?",
+        "older": "According to Numbers 14:9, what reason did Joshua and Caleb give the congregation for not fearing the people of the land?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD is with us"
+        },
+        {
+          "id": "b",
+          "text": "We have more soldiers than they do"
+        },
+        {
+          "id": "c",
+          "text": "Egypt will send help"
+        },
+        {
+          "id": "d",
+          "text": "Their kings are at war"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 14:9",
+            "text": "Only do not rebel against the LORD, nor fear the people of the land, for they are our bread; their protection has departed from them, and the LORD is with us. Do not fear them.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 14:9 gives two reasons not to fear. The second comes right before the final \"Do not fear them.\"",
+          "child": "Read the end of Numbers 14:9. Look right before the last \"Do not fear them.\"",
+          "teen": "14:9 contrasts the enemies' lost protection with something Israel had. Read the clause after \"departed from them.\"",
+          "older": "The decisive reason in 14:9 contrasts the enemies' situation with Israel's, just before the closing command."
+        },
+        "extended_explanation": "The congregation was ready to choose a leader and go back to Egypt. Joshua and Caleb tore their clothes and urged them to trust God. Numbers 14:9 ends with their main reason for courage. Read the words before the last \"Do not fear them.\"",
+        "takeaway": "Joshua and Caleb said not to fear, because the LORD is with us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-num-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 14",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD said Caleb would be brought into the land, unlike those who rejected Him. What did the LORD say Caleb had in him?",
+        "child": "God said Caleb would get to enter the promised land. What did God say was in Caleb?",
+        "teen": "In Numbers 14:24, what did the LORD say about Caleb's inner character that set him apart?",
+        "older": "According to Numbers 14:24, what did the LORD say was in His servant Caleb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A stronger sword"
+        },
+        {
+          "id": "b",
+          "text": "A larger family"
+        },
+        {
+          "id": "c",
+          "text": "A different spirit"
+        },
+        {
+          "id": "d",
+          "text": "A blessing from Moses"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 14:24",
+            "text": "But My servant Caleb, because he has a different spirit in him and has followed Me fully, I will bring into the land where he went, and his descendants shall inherit it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 14:24 gives two reasons Caleb would enter the land. The first is right after \"because he has.\"",
+          "child": "Read Numbers 14:24. Look right after the words \"because he has.\"",
+          "teen": "The LORD calls Caleb \"My servant\" in 14:24 and then explains why. The first reason describes what was in him.",
+          "older": "Verse 24 contrasts Caleb with the rest; the first of two reasons concerns what was in him."
+        },
+        "extended_explanation": "Most of the congregation had refused to trust God, and they would not see the land. Numbers 14:24 sets Caleb apart and gives the LORD's reasons. Read the words right after \"because he has.\"",
+        "takeaway": "The LORD said Caleb had a different spirit in him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-num-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 20",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Kadesh there was no water, and the people contended with Moses. What did the LORD tell Moses to do so the rock would yield water?",
+        "child": "The people had no water at Kadesh. What did God tell Moses to do with the rock?",
+        "teen": "In Numbers 20:8, Moses was told to take the rod and gather the congregation. What was he then to do before their eyes?",
+        "older": "According to Numbers 20:8, what did the LORD command Moses to do so the rock would give its water?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pour oil on the rock"
+        },
+        {
+          "id": "b",
+          "text": "Speak to the rock"
+        },
+        {
+          "id": "c",
+          "text": "Dig a well beside it"
+        },
+        {
+          "id": "d",
+          "text": "Pray beside the rock all night"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 20:8",
+            "text": "“Take the rod; you and your brother Aaron gather the congregation together. Speak to the rock before their eyes, and it will yield its water; thus you shall bring water for them out of the rock, and give drink to the congregation and their animals.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 20:8 gives the LORD's instruction step by step. The key action is right before \"before their eyes.\"",
+          "child": "Read Numbers 20:8. Find the words \"before their eyes.\" What Moses was told to do comes just before.",
+          "teen": "20:8 mentions the rod, but the action God commanded is another one. Read the sentence that ends \"before their eyes.\"",
+          "older": "The command in 20:8 involves the rod only as something to take; the instructed action is stated just before \"before their eyes.\""
+        },
+        "extended_explanation": "The people at Kadesh had no water and complained bitterly. In Numbers 20:8 the LORD gave Moses a specific instruction about the rock in front of the whole congregation. Read the sentence that ends with \"before their eyes.\"",
+        "takeaway": "The LORD told Moses to speak to the rock before the people's eyes."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-num-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 21",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the people spoke against God and Moses about the food and water, fiery serpents came among them. What did the people then say to Moses?",
+        "child": "The people complained about their food, and then dangerous snakes came. What did the people admit when they came to Moses?",
+        "teen": "Numbers 21:5 records the complaint and 21:7 records the people's change of heart. What did they say to Moses?",
+        "older": "In Numbers 21:7, what confession did the people make when they came to Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "We have sinned"
+        },
+        {
+          "id": "b",
+          "text": "Let us go back to Egypt"
+        },
+        {
+          "id": "c",
+          "text": "Give us better bread"
+        },
+        {
+          "id": "d",
+          "text": "Lead us around Edom"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 21:5",
+            "text": "And the people spoke against God and against Moses: “Why have you brought us up out of Egypt to die in the wilderness? For there is no food and no water, and our soul loathes this worthless bread.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 21:7",
+            "text": "Therefore the people came to Moses, and said, “We have sinned, for we have spoken against the LORD and against you; pray to the LORD that He take away the serpents from us.” So Moses prayed for the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 21:7 opens with the people's own words to Moses. Read their first sentence.",
+          "child": "Read Numbers 21:7. The first thing the people say is what you're looking for.",
+          "teen": "Compare 21:5 with 21:7. In 21:7 the people admit something before asking Moses to pray.",
+          "older": "The first clause of the people's speech in 21:7 is an admission, followed by its reason and their request for prayer."
+        },
+        "extended_explanation": "In Numbers 21:5 the people spoke against God and Moses and called the food worthless. Then trouble came. In 21:7 they came to Moses with new words and asked him to pray, and Moses prayed for them. Read the first thing they said.",
+        "takeaway": "The people said, “We have sinned,” and Moses prayed for them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-num-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 20",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Water came out of the rock abundantly, yet the LORD said Moses and Aaron would not bring the assembly into the land. What reason did the LORD give?",
+        "child": "Water came gushing out of the rock, but God said Moses and Aaron would not lead the people into the promised land. Why?",
+        "teen": "Numbers 20:11 tells what Moses did to the rock, and 20:12 gives God's response. What reason did the LORD state?",
+        "older": "Reading Numbers 20:11 with 20:12, what reason did the LORD give for Moses and Aaron not bringing the assembly into the land?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You let the people complain"
+        },
+        {
+          "id": "b",
+          "text": "You took the rod without asking"
+        },
+        {
+          "id": "c",
+          "text": "You stayed too long at Kadesh"
+        },
+        {
+          "id": "d",
+          "text": "You did not believe Me"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 20:11",
+            "text": "Then Moses lifted his hand and struck the rock twice with his rod; and water came out abundantly, and the congregation and their animals drank.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 20:12",
+            "text": "Then the LORD spoke to Moses and Aaron, “Because you did not believe Me, to hallow Me in the eyes of the children of Israel, therefore you shall not bring this assembly into the land which I have given them.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 20:12 begins the LORD's words with the reason, introduced by \"Because.\" Compare it with what Moses did in 20:11.",
+          "child": "Read the start of Numbers 20:12. The reason comes right after the word \"Because.\"",
+          "teen": "Moses had been given an instruction, but 20:11 shows what he actually did with his rod. 20:12 names the heart issue behind it.",
+          "older": "The \"Because\" clause of 20:12 names the failure, and its purpose clause says they did not hallow the LORD before Israel."
+        },
+        "extended_explanation": "In Numbers 20:11 Moses lifted his hand and struck the rock twice, and water still came out for the people. But in 20:12 the LORD spoke to Moses and Aaron about what that moment revealed. Read the words that follow \"Because.\"",
+        "takeaway": "The LORD said Moses and Aaron did not believe Him or hallow Him before the people, so they would not lead Israel in."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-num-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 22",
+      "topics": [
+        "wilderness-wanderings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Numbers 22, the LORD opened two things. First He opened the donkey's mouth. What did He open next?",
+        "child": "God made Balaam's donkey talk by opening her mouth. What else did God open after that?",
+        "teen": "Numbers 22:28 and 22:31 both say \"the LORD opened.\" The first was the donkey's mouth. What was the second?",
+        "older": "Comparing Numbers 22:28 with 22:31, what did the LORD open after the donkey's mouth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Balaam’s tent"
+        },
+        {
+          "id": "b",
+          "text": "The vineyard gate"
+        },
+        {
+          "id": "c",
+          "text": "Balaam’s eyes"
+        },
+        {
+          "id": "d",
+          "text": "The heavens above"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 22:28",
+            "text": "Then the LORD opened the mouth of the donkey, and she said to Balaam, “What have I done to you, that you have struck me these three times?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 22:31",
+            "text": "Then the LORD opened Balaam’s eyes, and he saw the Angel of the LORD standing in the way with His drawn sword in His hand; and he bowed his head and fell flat on his face.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Numbers 22:31 begins the same way as 22:28. Read what the LORD opened and what Balaam saw as a result.",
+          "child": "Read the start of Numbers 22:31. It tells what God opened next.",
+          "teen": "Once the LORD opened it in 22:31, Balaam finally saw the Angel standing in the way with a drawn sword.",
+          "older": "The second opening in 22:31 explains why Balaam suddenly saw what the donkey had seen three times."
+        },
+        "extended_explanation": "The donkey saw the Angel of the LORD three times, but Balaam did not. In 22:28 the LORD let the donkey speak. In 22:31 the LORD did something for Balaam so that he saw the Angel too, and he bowed down. Read the first words of 22:31.",
+        "takeaway": "After opening the donkey's mouth, the LORD opened Balaam's eyes to see the Angel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

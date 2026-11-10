@@ -4,7 +4,7 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 444 questions.
+The bank has 660 questions.
 
 ## Seed
 
@@ -322,36 +322,194 @@ New questions to write:
 
 Deeper study, more books. Mostly intermediate.
 
-Questions now: 8. Books: 5. Target pool: about 40 questions.
+Questions now: 224. Books: 18. Target pool: about 40 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
+| The Kingdom Divides | 1 Kings | 1 Kings 11 | foundation | 1 |
+| The Kingdom Divides | 1 Kings | 1 Kings 12 | advanced | 1 |
+| The Kingdom Divides | 1 Kings | 1 Kings 12 | intermediate | 2 |
+| Ahab and Naboth's Vineyard | 1 Kings | 1 Kings 16 | foundation | 1 |
+| Ahab and Naboth's Vineyard | 1 Kings | 1 Kings 21 | advanced | 2 |
+| Ahab and Naboth's Vineyard | 1 Kings | 1 Kings 21 | intermediate | 5 |
 | Old Testament Overview | 2 Chronicles | 2 Chronicles 34-35 | expert | 1 |
+| The Kingdom Divides | 2 Kings | 2 Kings 17 | advanced | 1 |
+| The Kingdom Divides | 2 Kings | 2 Kings 17 | intermediate | 1 |
+| Hezekiah's Trust | 2 Kings | 2 Kings 18 | foundation | 1 |
+| Hezekiah's Trust | 2 Kings | 2 Kings 18 | intermediate | 2 |
+| Hezekiah's Trust | 2 Kings | 2 Kings 19 | advanced | 2 |
+| Elisha | 2 Kings | 2 Kings 2 | advanced | 1 |
+| Elisha | 2 Kings | 2 Kings 2 | intermediate | 1 |
+| Hezekiah's Trust | 2 Kings | 2 Kings 20 | intermediate | 3 |
+| The Kingdom Divides | 2 Kings | 2 Kings 25 | intermediate | 2 |
+| Elisha | 2 Kings | 2 Kings 4 | intermediate | 2 |
+| Elisha | 2 Kings | 2 Kings 5 | foundation | 1 |
+| Elisha | 2 Kings | 2 Kings 5 | intermediate | 1 |
+| Elisha | 2 Kings | 2 Kings 6 | advanced | 1 |
+| Elisha | 2 Kings | 2 Kings 6 | intermediate | 1 |
+| After the Resurrection | Acts | Acts 1 | intermediate | 1 |
+| Paul's Missionary Journeys | Acts | Acts 13 | foundation | 1 |
+| Paul's Missionary Journeys | Acts | Acts 13 | intermediate | 1 |
+| Paul's Missionary Journeys | Acts | Acts 14 | intermediate | 1 |
+| Paul's Missionary Journeys | Acts | Acts 16 | intermediate | 1 |
+| Paul's Missionary Journeys | Acts | Acts 17 | intermediate | 1 |
+| Paul's Missionary Journeys | Acts | Acts 18 | intermediate | 1 |
+| Paul's Missionary Journeys | Acts | Acts 19 | advanced | 1 |
+| Paul's Missionary Journeys | Acts | Acts 20 | advanced | 1 |
+| Moses' Farewell Sermons | Deuteronomy | Deuteronomy 1 | advanced | 1 |
+| Moses' Farewell Sermons | Deuteronomy | Deuteronomy 1 | foundation | 1 |
+| Moses' Farewell Sermons | Deuteronomy | Deuteronomy 1 | intermediate | 1 |
+| Moses' Farewell Sermons | Deuteronomy | Deuteronomy 10 | intermediate | 1 |
+| Hear, O Israel | Deuteronomy | Deuteronomy 30 | advanced | 1 |
+| Hear, O Israel | Deuteronomy | Deuteronomy 30 | intermediate | 1 |
+| Moses' Farewell Sermons | Deuteronomy | Deuteronomy 31 | advanced | 1 |
+| Moses' Farewell Sermons | Deuteronomy | Deuteronomy 31 | intermediate | 1 |
+| Hear, O Israel | Deuteronomy | Deuteronomy 34 | foundation | 1 |
+| Hear, O Israel | Deuteronomy | Deuteronomy 34 | intermediate | 1 |
+| Hear, O Israel | Deuteronomy | Deuteronomy 5 | advanced | 1 |
+| Hear, O Israel | Deuteronomy | Deuteronomy 5 | intermediate | 2 |
+| Hear, O Israel | Deuteronomy | Deuteronomy 6 | intermediate | 1 |
+| Moses' Farewell Sermons | Deuteronomy | Deuteronomy 8 | intermediate | 2 |
+| Manna, Water and Amalek | Exodus | Exodus 15 | foundation | 1 |
+| Manna, Water and Amalek | Exodus | Exodus 16 | advanced | 1 |
+| Manna, Water and Amalek | Exodus | Exodus 16 | intermediate | 3 |
+| Manna, Water and Amalek | Exodus | Exodus 17 | advanced | 1 |
+| Manna, Water and Amalek | Exodus | Exodus 17 | intermediate | 2 |
+| The Tabernacle | Exodus | Exodus 25 | intermediate | 2 |
+| The Tabernacle | Exodus | Exodus 31 | advanced | 1 |
+| The Tabernacle | Exodus | Exodus 31 | foundation | 1 |
+| The Tabernacle | Exodus | Exodus 35 | intermediate | 1 |
+| The Tabernacle | Exodus | Exodus 36 | intermediate | 1 |
+| The Tabernacle | Exodus | Exodus 40 | advanced | 1 |
+| The Tabernacle | Exodus | Exodus 40 | intermediate | 1 |
+| Beginnings: Cain, Abel and Babel | Genesis | Genesis 11 | advanced | 1 |
+| Beginnings: Cain, Abel and Babel | Genesis | Genesis 11 | intermediate | 2 |
+| Jacob: Ladder and Wrestling | Genesis | Genesis 25 | intermediate | 2 |
+| Jacob: Ladder and Wrestling | Genesis | Genesis 27 | intermediate | 1 |
+| Jacob: Ladder and Wrestling | Genesis | Genesis 28 | advanced | 1 |
+| Jacob: Ladder and Wrestling | Genesis | Genesis 28 | foundation | 1 |
+| Jacob: Ladder and Wrestling | Genesis | Genesis 32 | advanced | 1 |
+| Jacob: Ladder and Wrestling | Genesis | Genesis 32 | intermediate | 1 |
+| Jacob: Ladder and Wrestling | Genesis | Genesis 33 | intermediate | 1 |
 | Joseph | Genesis | Genesis 37-50 | expert | 4 |
+| Beginnings: Cain, Abel and Babel | Genesis | Genesis 4 | advanced | 1 |
+| Beginnings: Cain, Abel and Babel | Genesis | Genesis 4 | foundation | 1 |
+| Beginnings: Cain, Abel and Babel | Genesis | Genesis 4 | intermediate | 3 |
+| Hebrews: The Faith Hall | Hebrews | Hebrews 11 | advanced | 1 |
+| Hebrews: The Faith Hall | Hebrews | Hebrews 11 | foundation | 1 |
+| Hebrews: The Faith Hall | Hebrews | Hebrews 11 | intermediate | 3 |
+| Hebrews: The Faith Hall | Hebrews | Hebrews 12 | advanced | 1 |
+| Hebrews: The Faith Hall | Hebrews | Hebrews 12 | intermediate | 1 |
+| Hebrews: The Faith Hall | Hebrews | Hebrews 4 | intermediate | 1 |
+| Isaiah: The Coming King | Isaiah | Isaiah 11 | advanced | 1 |
+| Isaiah: The Coming King | Isaiah | Isaiah 11 | intermediate | 1 |
+| Isaiah: Call and Comfort | Isaiah | Isaiah 40 | advanced | 1 |
+| Isaiah: Call and Comfort | Isaiah | Isaiah 40 | intermediate | 1 |
+| Isaiah: Call and Comfort | Isaiah | Isaiah 43 | intermediate | 1 |
+| Isaiah: The Coming King | Isaiah | Isaiah 52 | advanced | 1 |
 | Isaiah 53 | Isaiah | Isaiah 53 | expert | 1 |
+| Isaiah: The Coming King | Isaiah | Isaiah 53 | intermediate | 1 |
+| Isaiah: Call and Comfort | Isaiah | Isaiah 55 | advanced | 1 |
+| Isaiah: Call and Comfort | Isaiah | Isaiah 6 | foundation | 1 |
+| Isaiah: Call and Comfort | Isaiah | Isaiah 6 | intermediate | 3 |
+| Isaiah: The Coming King | Isaiah | Isaiah 7 | foundation | 1 |
+| Isaiah: The Coming King | Isaiah | Isaiah 7 | intermediate | 1 |
+| Isaiah: The Coming King | Isaiah | Isaiah 9 | intermediate | 2 |
+| Job | Job | Job 1 | foundation | 1 |
+| Job | Job | Job 1 | intermediate | 2 |
+| Job: Faith in Suffering | Job | Job 13 | intermediate | 1 |
+| Job | Job | Job 19 | intermediate | 1 |
+| Job | Job | Job 2 | intermediate | 2 |
+| Job: Faith in Suffering | Job | Job 23 | advanced | 1 |
+| Job: Faith in Suffering | Job | Job 23 | intermediate | 1 |
+| Job: Faith in Suffering | Job | Job 3 | foundation | 1 |
+| Job: Faith in Suffering | Job | Job 3 | intermediate | 1 |
+| Job | Job | Job 38 | advanced | 1 |
+| Job: Faith in Suffering | Job | Job 40 | intermediate | 2 |
+| Job: Faith in Suffering | Job | Job 41 | advanced | 1 |
+| Job | Job | Job 42 | advanced | 1 |
+| After the Resurrection | John | John 20 | intermediate | 2 |
+| After the Resurrection | John | John 21 | advanced | 1 |
+| After the Resurrection | John | John 21 | intermediate | 1 |
+| Nicodemus and the Woman at the Well | John | John 3 | advanced | 1 |
+| Nicodemus and the Woman at the Well | John | John 3 | foundation | 1 |
+| Nicodemus and the Woman at the Well | John | John 3 | intermediate | 1 |
+| Nicodemus and the Woman at the Well | John | John 4 | advanced | 1 |
+| Nicodemus and the Woman at the Well | John | John 4 | intermediate | 4 |
+| Holy Living and Atonement | Leviticus | Leviticus 16 | advanced | 2 |
+| Holy Living and Atonement | Leviticus | Leviticus 16 | intermediate | 1 |
+| Holy Living and Atonement | Leviticus | Leviticus 19 | foundation | 1 |
+| Holy Living and Atonement | Leviticus | Leviticus 19 | intermediate | 2 |
+| Holy Living and Atonement | Leviticus | Leviticus 23 | intermediate | 2 |
+| Parables of the Kingdom | Luke | Luke 16 | advanced | 1 |
+| After the Resurrection | Luke | Luke 24 | advanced | 1 |
+| After the Resurrection | Luke | Luke 24 | foundation | 1 |
+| After the Resurrection | Luke | Luke 24 | intermediate | 1 |
+| Parables of the Kingdom | Matthew | Matthew 13 | foundation | 1 |
+| Parables of the Kingdom | Matthew | Matthew 13 | intermediate | 2 |
+| Parables of the Kingdom | Matthew | Matthew 18 | intermediate | 2 |
+| Holy Week Day by Day | Matthew | Matthew 21 | intermediate | 3 |
+| Parables of the Kingdom | Matthew | Matthew 25 | advanced | 1 |
+| Parables of the Kingdom | Matthew | Matthew 25 | intermediate | 1 |
+| Holy Week Day by Day | Matthew | Matthew 26 | advanced | 1 |
+| Holy Week Day by Day | Matthew | Matthew 26 | foundation | 1 |
+| Holy Week Day by Day | Matthew | Matthew 26 | intermediate | 2 |
+| Holy Week Day by Day | Matthew | Matthew 27 | advanced | 1 |
+| Wilderness Wanderings | Numbers | Numbers 13 | foundation | 1 |
+| Wilderness Wanderings | Numbers | Numbers 13 | intermediate | 1 |
+| Wilderness Wanderings | Numbers | Numbers 14 | intermediate | 2 |
+| Wilderness Wanderings | Numbers | Numbers 20 | advanced | 1 |
+| Wilderness Wanderings | Numbers | Numbers 20 | intermediate | 1 |
 | Moses | Numbers | Numbers 21 | expert | 1 |
+| Wilderness Wanderings | Numbers | Numbers 21 | intermediate | 1 |
+| Wilderness Wanderings | Numbers | Numbers 22 | advanced | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 10 | intermediate | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 11 | advanced | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 11 | intermediate | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 16 | intermediate | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 22 | intermediate | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 6 | advanced | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 6 | foundation | 1 |
+| Proverbs: Work, Money and Wisdom | Proverbs | Proverbs 6 | intermediate | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 122 | intermediate | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 150 | foundation | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 19 | advanced | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 24 | intermediate | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 29 | intermediate | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 8 | advanced | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 84 | intermediate | 1 |
+| Psalms of Creation and Worship | Psalms | Psalm 95 | intermediate | 1 |
+| Revelation: Letters to Seven Churches | Revelation | Revelation 1 | foundation | 1 |
+| Revelation: Letters to Seven Churches | Revelation | Revelation 1 | intermediate | 1 |
+| Revelation: Letters to Seven Churches | Revelation | Revelation 2 | intermediate | 3 |
 | Revelation | Revelation | Revelation 2-3 | expert | 1 |
+| Revelation: New Heaven and New Earth | Revelation | Revelation 21 | advanced | 2 |
+| Revelation: New Heaven and New Earth | Revelation | Revelation 21 | foundation | 1 |
+| Revelation: New Heaven and New Earth | Revelation | Revelation 21 | intermediate | 4 |
+| Revelation: New Heaven and New Earth | Revelation | Revelation 22 | intermediate | 1 |
+| Revelation: Letters to Seven Churches | Revelation | Revelation 3 | advanced | 2 |
+| Revelation: Letters to Seven Churches | Revelation | Revelation 3 | intermediate | 1 |
+| Revelation: The Throne and the Lamb | Revelation | Revelation 4 | foundation | 1 |
+| Revelation: The Throne and the Lamb | Revelation | Revelation 4 | intermediate | 3 |
+| Revelation: The Throne and the Lamb | Revelation | Revelation 5 | advanced | 2 |
+| Revelation: The Throne and the Lamb | Revelation | Revelation 5 | intermediate | 2 |
 
 Tier totals against the mix:
 
-- foundation: 0 now, about 4 wanted (10% of draws (easy)). About 4 more.
-- intermediate: 0 now, about 30 wanted (75% of draws (intermediate)). About 30 more.
-- advanced: 0 now, about 6 wanted (15% of draws (hard)). About 6 more.
+- foundation: 27 now, about 4 wanted (10% of draws (easy)). Target met.
+- intermediate: 135 now, about 30 wanted (75% of draws (intermediate)). Target met.
+- advanced: 54 now, about 6 wanted (15% of draws (hard)). Target met.
 - expert: 8 now, about 0 wanted (not in this stage's mix). Target met.
 
 Questions outside the mix (8 expert) are not chosen while an allowed tier still has questions.
 
-Curriculum topics with no question yet: The Great Commission, 1 John 1:9, The Roman Road, Cross References.
+Every curriculum topic for this stage has at least one question.
 
-Book target: 20. Covered now: 5 (Genesis, Numbers, 2 Chronicles, Isaiah, Revelation). About 15 more books need questions.
+Book target: 20. Covered now: 18 (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, 1 Kings, 2 Kings, 2 Chronicles, Job, Psalms, Proverbs, Isaiah, Matthew, Luke, John, Acts, Hebrews, Revelation). About 2 more books need questions.
 
 New questions to write:
 
-- About 4 more foundation questions (easy).
-- About 30 more intermediate questions (intermediate).
-- About 6 more advanced questions (hard).
-- Add questions for: The Great Commission, 1 John 1:9, The Roman Road, Cross References.
-- Spread new questions across about 15 more books (target 20).
+- Spread new questions across about 2 more books (target 20).
 
 ## Established
 

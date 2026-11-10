@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-exodus-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-exo-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 31",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God called a craftsman by name from the tribe of Judah and filled him with the Spirit of God for the tabernacle work. Who was he?",
+        "child": "God picked a skilled worker from the tribe of Judah and filled him with His Spirit to build the tabernacle. What was his name?",
+        "teen": "Which man from the tribe of Judah did God call by name and fill with wisdom and skill for the tabernacle work?",
+        "older": "According to Exodus 31:2-3, whom did the LORD call by name and fill with the Spirit of God for the work?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Joshua"
+        },
+        {
+          "id": "b",
+          "text": "Bezalel"
+        },
+        {
+          "id": "c",
+          "text": "Caleb"
+        },
+        {
+          "id": "d",
+          "text": "Elishama"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 31:2",
+            "text": "“See, I have called by name Bezalel the son of Uri, the son of Hur, of the tribe of Judah.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 31:3",
+            "text": "And I have filled him with the Spirit of God, in wisdom, in understanding, in knowledge, and in all manner of workmanship,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 31:2 gives the craftsman's name, his father and grandfather, and his tribe. Read the name after \"called by name.\"",
+          "child": "Read Exodus 31:2. The name comes right after the words \"called by name.\"",
+          "teen": "31:2 introduces him as the son of Uri, the son of Hur. His own name comes just before that.",
+          "older": "The name stands at the head of the genealogy in 31:2, and 31:3 describes how he was equipped."
+        },
+        "extended_explanation": "God did not leave the tabernacle work to chance. Exodus 31:2-3 names one man from Judah and says God filled him with His Spirit, wisdom, understanding, knowledge, and skill. Read the name that comes right after \"called by name.\"",
+        "takeaway": "God called Bezalel of Judah by name and filled him with the Spirit of God for the work."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-exo-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 25",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God told Moses to have the people make Him a sanctuary. What reason did He give?",
+        "child": "God asked His people to build Him a special holy tent. Why did He want it?",
+        "teen": "In Exodus 25:8 God asks for a sanctuary. What purpose does He state for it?",
+        "older": "What purpose does the LORD give for the sanctuary in Exodus 25:8?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That I may judge the nations"
+        },
+        {
+          "id": "b",
+          "text": "That I may rest from My work"
+        },
+        {
+          "id": "c",
+          "text": "That the nations may fear and honor Me"
+        },
+        {
+          "id": "d",
+          "text": "That I may dwell among them"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 25:8",
+            "text": "And let them make Me a sanctuary, that I may dwell among them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 25:8 is short. The reason follows the word \"that\" after the request for a sanctuary.",
+          "child": "Read Exodus 25:8. After \"make Me a sanctuary,\" God tells why.",
+          "teen": "The second half of 25:8 begins with \"that\" and gives God's purpose.",
+          "older": "The purpose clause in 25:8 begins with \"that\" after the request for a sanctuary. Read the words that follow."
+        },
+        "extended_explanation": "The tabernacle was more than a building project. In Exodus 25:8 God states in a single sentence why He wanted it made. Read the words that follow \"sanctuary.\"",
+        "takeaway": "God wanted a sanctuary so that He could dwell among His people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 25",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God asked Israel to bring Him an offering for the sanctuary. From whom was Moses to take it?",
+        "child": "God asked for gifts to build His tent. Who was supposed to give them?",
+        "teen": "Exodus 25:2 tells who should give to the tabernacle offering. Who was it?",
+        "older": "According to Exodus 25:2, from whom was the LORD's offering to be taken?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Everyone who gives it willingly"
+        },
+        {
+          "id": "b",
+          "text": "Only the priests and Levites"
+        },
+        {
+          "id": "c",
+          "text": "Only the leaders of each tribe"
+        },
+        {
+          "id": "d",
+          "text": "Only the families who had the most gold"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 25:2",
+            "text": "“Speak to the children of Israel, that they bring Me an offering. From everyone who gives it willingly with his heart you shall take My offering.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The second sentence of Exodus 25:2 describes the giver God wanted. Notice the word \"From\" and what follows.",
+          "child": "Read the end of Exodus 25:2. It tells what kind of giver God wanted.",
+          "teen": "25:2 says the offering was to come from a certain kind of person. Read the sentence that begins with \"From.\"",
+          "older": "The second half of 25:2 begins with \"From\" and names whose offering should be received. Read that sentence."
+        },
+        "extended_explanation": "God did not set a tax or assign a fixed amount. Exodus 25:2 describes the kind of person whose gift should be received for the sanctuary. Read the sentence that begins with \"From.\"",
+        "takeaway": "God took His offering from everyone who gave willingly from the heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 36",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses had a message sent through the camp telling people to stop bringing offerings for the sanctuary. What had the craftsmen told him?",
+        "child": "Moses told everyone to stop bringing gifts for the tabernacle. Why?",
+        "teen": "Why was a command proclaimed through the camp telling the people to stop giving to the sanctuary work?",
+        "older": "In Exodus 36:5-6, what report from the workers led Moses to restrain the people from giving?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The gold had been stolen"
+        },
+        {
+          "id": "b",
+          "text": "The people had grown tired"
+        },
+        {
+          "id": "c",
+          "text": "Much more than enough"
+        },
+        {
+          "id": "d",
+          "text": "The craftsmen wanted to stop working"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 36:5",
+            "text": "and they spoke to Moses, saying, “The people bring much more than enough for the service of the work which the LORD commanded us to do.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 36:6",
+            "text": "So Moses gave a commandment, and they caused it to be proclaimed throughout the camp, saying, “Let neither man nor woman do any more work for the offering of the sanctuary.” And the people were restrained from bringing,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 36:5 quotes the workers' report to Moses. Read their words just after \"The people bring.\"",
+          "child": "Read Exodus 36:5. The workers tell Moses what the people were bringing.",
+          "teen": "The craftsmen's report in 36:5 explains the command in 36:6. Their words describe the size of the gifts.",
+          "older": "Verse 6 is Moses' response; the cause is stated in the craftsmen's report in verse 5."
+        },
+        "extended_explanation": "The people kept bringing offerings every morning. In Exodus 36:5 the craftsmen come to Moses with a report, and 36:6 tells what Moses did in response. Read the craftsmen's words.",
+        "takeaway": "The people brought much more than enough, so Moses told them to stop."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 35",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "What did the women who were gifted artisans do for the tabernacle work?",
+        "child": "Some women were very skilled at a craft. How did they help make things for the tabernacle?",
+        "teen": "Exodus 35:25-26 describes the work of skilled women whose hearts were stirred. What did they do?",
+        "older": "According to Exodus 35:25-26, how did the gifted women contribute to the work?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carved the acacia wood"
+        },
+        {
+          "id": "b",
+          "text": "Spun yarn with their hands"
+        },
+        {
+          "id": "c",
+          "text": "Cast the gold into rings"
+        },
+        {
+          "id": "d",
+          "text": "Cut jewels for the breastplate"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 35:25",
+            "text": "All the women who were gifted artisans spun yarn with their hands, and brought what they had spun, of blue, purple, and scarlet, and fine linen.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 35:26",
+            "text": "And all the women whose hearts stirred with wisdom spun yarn of goats’ hair.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 35:25 describes what the skilled women did and what they brought. Read the first part of the verse.",
+          "child": "Read Exodus 35:25. It tells what the women did and what they made with it.",
+          "teen": "Both 35:25 and 35:26 use the same action word for the women's work. Find it.",
+          "older": "Verses 25 and 26 describe the same craft, first with colored materials and fine linen, then with goats' hair."
+        },
+        "extended_explanation": "Gifts for the tabernacle came in many forms. Exodus 35:25-26 describes skilled women whose hearts stirred with wisdom and the materials they worked with. Read what they did in verse 25.",
+        "takeaway": "The skilled women spun yarn with their hands for the tabernacle."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 40",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the tabernacle was finished, Moses was not able to enter the tent of meeting. What reason does the text give?",
+        "child": "After the tabernacle was set up, Moses could not go inside. Why not?",
+        "teen": "Exodus 40:35 says Moses could not enter the tabernacle of meeting. What does the verse give as the reason?",
+        "older": "According to Exodus 40:35, why was Moses unable to enter the tabernacle of meeting?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The cloud rested above it"
+        },
+        {
+          "id": "b",
+          "text": "The priests had not washed yet"
+        },
+        {
+          "id": "c",
+          "text": "Only Aaron could go inside"
+        },
+        {
+          "id": "d",
+          "text": "The lamps were not yet lit"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 40:34",
+            "text": "Then the cloud covered the tabernacle of meeting, and the glory of the LORD filled the tabernacle.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 40:35",
+            "text": "And Moses was not able to enter the tabernacle of meeting, because the cloud rested above it, and the glory of the LORD filled the tabernacle.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 40:35 states the reason after the word \"because.\" Read that clause and what follows.",
+          "child": "Look at Exodus 40:35 and find the word \"because.\" The reason comes right after it.",
+          "teen": "40:34 shows what came on the tabernacle; 40:35 gives the reason Moses stayed out, starting with \"because.\"",
+          "older": "The causal clause of 40:35 explains Moses' exclusion and is followed by the glory filling the tabernacle."
+        },
+        "extended_explanation": "Moses had finished every part of the work just as he was told. Then Exodus 40:34-35 describes what came upon the tabernacle and why even Moses could not go in. Read the \"because\" clause in verse 35.",
+        "takeaway": "Moses could not enter because the cloud rested above the tabernacle and the glory of the LORD filled it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 31",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God appointed a man from the tribe of Dan to work alongside the chief craftsman, and Moses later said both were given the ability to teach. Who was he?",
+        "child": "God gave the main builder a partner from the tribe of Dan, and both could teach others. Who was the partner?",
+        "teen": "Exodus 31:6 and 35:34 name the same helper from the tribe of Dan. Who was he?",
+        "older": "Which man of the tribe of Dan, named in Exodus 31:6 and 35:34, shared the gift of craftsmanship and teaching?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eleazar"
+        },
+        {
+          "id": "b",
+          "text": "Ithamar"
+        },
+        {
+          "id": "c",
+          "text": "Phinehas"
+        },
+        {
+          "id": "d",
+          "text": "Aholiab"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 31:6",
+            "text": "“And I, indeed I, have appointed with him Aholiab the son of Ahisamach, of the tribe of Dan; and I have put wisdom in the hearts of all the gifted artisans, that they may make all that I have commanded you:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 35:34",
+            "text": "“And He has put in his heart the ability to teach, in him and Aholiab the son of Ahisamach, of the tribe of Dan.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 31:6 names him with his father and his tribe. Read the name after \"appointed with him.\"",
+          "child": "Read Exodus 31:6. After the words \"appointed with him,\" you will find his name.",
+          "teen": "Both verses call him \"the son of Ahisamach, of the tribe of Dan.\" His name comes just before that phrase.",
+          "older": "In both 31:6 and 35:34 the name precedes the phrase \"the son of Ahisamach.\""
+        },
+        "extended_explanation": "The tabernacle was not built by one man alone. Exodus 31:6 says God appointed a helper from Dan, and Exodus 35:34 says God gave both men the ability to teach others. Read the name that comes before \"the son of Ahisamach.\"",
+        "takeaway": "Aholiab of the tribe of Dan worked beside the chief craftsman and was given the ability to teach."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 40",
+      "topics": [
+        "tabernacle"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Throughout Israel's journeys, the LORD gave a sign over the tabernacle in the daytime. What was over it by night?",
+        "child": "God gave His people a sign over the tabernacle during the day. What could they see over it at night?",
+        "teen": "Exodus 40:34 describes God's presence coming on the finished tabernacle. According to 40:38, what was over it after dark?",
+        "older": "Reading Exodus 40:34 with 40:38, what was over the tabernacle by night in the sight of all Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bright star"
+        },
+        {
+          "id": "b",
+          "text": "Lightning"
+        },
+        {
+          "id": "c",
+          "text": "Fire"
+        },
+        {
+          "id": "d",
+          "text": "The moon"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 40:34",
+            "text": "Then the cloud covered the tabernacle of meeting, and the glory of the LORD filled the tabernacle.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 40:38",
+            "text": "For the cloud of the LORD was above the tabernacle by day, and fire was over it by night, in the sight of all the house of Israel, throughout all their journeys.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 40:38 contrasts day and night. Read what was over the tabernacle in the second half of that contrast.",
+          "child": "Read Exodus 40:38. It tells what was there by day and then what was there by night.",
+          "teen": "40:34 shows the LORD's presence arriving; 40:38 shows how it was seen by day and by night.",
+          "older": "Verse 38 sets a daytime sign beside a nighttime sign; the latter is named just before \"was over it by night.\""
+        },
+        "extended_explanation": "The same presence that came on the tabernacle in Exodus 40:34 stayed with Israel throughout their journeys. Exodus 40:38 describes what all Israel could see over the tabernacle in the daytime and in the nighttime. Read the words just before \"was over it by night.\"",
+        "takeaway": "The cloud was over the tabernacle by day, and fire was over it by night."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

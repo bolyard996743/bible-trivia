@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-009",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0059",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 28",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On his way toward Haran, Jacob slept with a stone at his head and had a dream. What did he see set up on the earth, reaching to heaven?",
+        "child": "Jacob had a dream while sleeping outside. What did he see that stood on the ground and reached all the way to heaven?",
+        "teen": "In Jacob's dream, angels were going up and down on something that stood on the earth with its top in heaven. What was it?",
+        "older": "According to Genesis 28:12, what did Jacob see in his dream set up on the earth with its top reaching heaven?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A burning tree"
+        },
+        {
+          "id": "b",
+          "text": "A ladder"
+        },
+        {
+          "id": "c",
+          "text": "A shining cloud"
+        },
+        {
+          "id": "d",
+          "text": "A great mountain"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 28:12",
+            "text": "Then he dreamed, and behold, a ladder was set up on the earth, and its top reached to heaven; and there the angels of God were ascending and descending on it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 28:12 names what Jacob saw near the start of the verse, just after \"behold.\"",
+          "child": "Read Genesis 28:12. Look right after the word \"behold\" to see what Jacob saw.",
+          "teen": "The angels in 28:12 are ascending and descending on it. The verse names it in its first lines.",
+          "older": "The object of Jacob's vision is named in the clause following \"behold\" in 28:12, before the angels are described."
+        },
+        "extended_explanation": "Jacob was alone and sleeping in the open on his way from Beersheba. Genesis 28:12 describes his dream: something set up on the earth, its top reaching heaven, with angels going up and down on it. Read the words right after \"behold.\"",
+        "takeaway": "Jacob saw a ladder reaching to heaven, with angels ascending and descending on it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-gen-0060",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 32",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After wrestling through the night, Jacob was told his name would no longer be Jacob. What new name was he given?",
+        "child": "After Jacob wrestled all night, he got a new name. What was it?",
+        "teen": "At the Jabbok, the Man Jacob wrestled with gave him a new name. What was it?",
+        "older": "In Genesis 32:28, what name replaced the name Jacob?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Edom"
+        },
+        {
+          "id": "b",
+          "text": "Judah"
+        },
+        {
+          "id": "c",
+          "text": "Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Israel"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 32:28",
+            "text": "And He said, “Your name shall no longer be called Jacob, but Israel; for you have struggled with God and with men, and have prevailed.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 32:28 gives the new name after \"no longer be called Jacob, but.\"",
+          "child": "Read Genesis 32:28. Look for the word \"but\" — the new name comes right after it.",
+          "teen": "The new name in 32:28 is followed by its reason: he had struggled with God and with men.",
+          "older": "Verse 28 states the new name and then explains it; the name sits just before the semicolon."
+        },
+        "extended_explanation": "Jacob held on through the night and would not let go. Genesis 32:28 records the name change and the reason for it. Read the words that come after \"no longer be called Jacob.\"",
+        "takeaway": "Jacob's name was changed to Israel, for he had struggled with God and with men and prevailed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 25",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The twins struggled within Rebekah, so she asked the LORD why. What did the LORD say about how the two peoples would relate?",
+        "child": "Rebekah's twin babies were struggling inside her, so she asked the LORD about it. What did He tell her about the two?",
+        "teen": "Rebekah went to inquire of the LORD about the struggle inside her. What did His answer say would happen between the two peoples?",
+        "older": "In Genesis 25:23, what did the LORD tell Rebekah about the relationship between the two nations in her womb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The older shall serve the younger"
+        },
+        {
+          "id": "b",
+          "text": "The younger shall bow to the older"
+        },
+        {
+          "id": "c",
+          "text": "Both shall share one land in peace"
+        },
+        {
+          "id": "d",
+          "text": "The firstborn shall be a priest"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 25:22",
+            "text": "But the children struggled together within her; and she said, “If all is well, why am I like this?” So she went to inquire of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 25:23",
+            "text": "And the LORD said to her: “Two nations are in your womb, Two peoples shall be separated from your body; One people shall be stronger than the other, And the older shall serve the younger.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The LORD's answer in Genesis 25:23 ends with a line about the two brothers' future. Read the last line.",
+          "child": "Read the end of Genesis 25:23. The last line tells what would happen between the two.",
+          "teen": "25:23 describes two nations, two peoples, one stronger than the other, and then a surprise in the final line.",
+          "older": "The closing line of the oracle in 25:23 reverses the usual expectation for a firstborn."
+        },
+        "extended_explanation": "Rebekah felt her children struggling and went to ask the LORD. In Genesis 25:23 He tells her there are two nations within her and that one will be stronger. The final line describes something unexpected about the firstborn and the second-born. Read it closely.",
+        "takeaway": "The LORD told Rebekah that the older shall serve the younger."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 25",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Esau said, \"I am about to die; so what is this birthright to me?\" After the meal, how does Genesis 25:34 sum up what Esau did?",
+        "child": "Esau traded his birthright for a bowl of stew. What does the Bible say this showed about how he treated his birthright?",
+        "teen": "Esau traded his birthright for bread and lentil stew, then ate and walked away. What does 25:34 say he did with his birthright?",
+        "older": "Genesis 25:34 closes the stew account with a verdict on Esau. What does it say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Guarded his birthright"
+        },
+        {
+          "id": "b",
+          "text": "Forgot his birthright"
+        },
+        {
+          "id": "c",
+          "text": "Despised his birthright"
+        },
+        {
+          "id": "d",
+          "text": "Regretted losing his birthright"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 25:32",
+            "text": "And Esau said, “Look, I am about to die; so what is this birthright to me?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 25:34",
+            "text": "And Jacob gave Esau bread and stew of lentils; then he ate and drank, arose, and went his way. Thus Esau despised his birthright.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The last sentence of Genesis 25:34 gives the verdict on Esau's choice. Compare it with what he said in 25:32.",
+          "child": "Read the very last sentence of Genesis 25:34. It tells how Esau treated something precious.",
+          "teen": "Esau's words in 25:32 show what he thought it was worth. The final sentence of 25:34 names his attitude.",
+          "older": "The narrator's closing comment in 25:34 interprets Esau's casual exit after the meal; read the sentence beginning \"Thus.\""
+        },
+        "extended_explanation": "Esau came in weary from the field and traded away his rights as firstborn for a meal. Genesis 25:32 shows how little he thought of them, and the last sentence of 25:34 gives the Bible's own judgment on his choice. Read the sentence that begins with \"Thus.\"",
+        "takeaway": "Esau despised his birthright, trading it away for a single meal."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 27",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jacob came to Isaac pretending to be Esau, Isaac felt his hands. What did Isaac notice that did not match Esau?",
+        "child": "Jacob pretended to be his brother Esau. His father could not see well and touched him. What made Isaac unsure?",
+        "teen": "Isaac's eyes were dim, so he checked his son by touch. What did Isaac say belonged to Jacob, even though the hands seemed like Esau's?",
+        "older": "In Genesis 27:22, Isaac felt his son. What did he say belonged to Jacob rather than to Esau?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The smell"
+        },
+        {
+          "id": "b",
+          "text": "The voice"
+        },
+        {
+          "id": "c",
+          "text": "The height"
+        },
+        {
+          "id": "d",
+          "text": "The clothing"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 27:22",
+            "text": "So Jacob went near to Isaac his father, and he felt him and said, “The voice is Jacob’s voice, but the hands are the hands of Esau.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 27:23",
+            "text": "And he did not recognize him, because his hands were hairy like his brother Esau’s hands; so he blessed him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 27:22 quotes Isaac. He names one thing that pointed to Jacob and another that felt like Esau. Read the first half of his words.",
+          "child": "Read what Isaac says in Genesis 27:22. He says one thing is Jacob's and another is Esau's.",
+          "teen": "Isaac's words in 27:22 compare two things. The first one points to Jacob.",
+          "older": "Isaac's statement in 27:22 sets two clues against each other; the first clue identifies Jacob."
+        },
+        "extended_explanation": "Rebekah and Jacob had planned for Jacob to receive what was meant for Esau, and Jacob wore goatskins on his hands. Isaac could not see well, so he felt his son. In Genesis 27:22 Isaac names one clue that pointed to Jacob, and verse 23 explains why he still did not recognize him.",
+        "takeaway": "Isaac said the voice was Jacob's but the hands felt like Esau's; the deception worked, but it brought sorrow to the family."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 33",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jacob approached Esau bowing to the ground seven times. How did Esau respond as Jacob came near?",
+        "child": "Jacob was nervous about meeting his brother Esau, so he bowed down again and again. What did Esau do?",
+        "teen": "After their long separation, Jacob bowed seven times as he approached Esau. What was Esau's first action?",
+        "older": "In Genesis 33:4, how did Esau first respond as Jacob approached him bowing?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ran to meet him"
+        },
+        {
+          "id": "b",
+          "text": "Stood still and waited"
+        },
+        {
+          "id": "c",
+          "text": "Turned and rode away"
+        },
+        {
+          "id": "d",
+          "text": "Sent a servant with a message"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 33:3",
+            "text": "Then he crossed over before them and bowed himself to the ground seven times, until he came near to his brother.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 33:4",
+            "text": "But Esau ran to meet him, and embraced him, and fell on his neck and kissed him, and they wept.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 33:4 opens with Esau's action, before the embrace and the tears. Read the first words of the verse.",
+          "child": "Read the start of Genesis 33:4. It tells what Esau did first.",
+          "teen": "Notice the word \"But\" at the start of 33:4. Jacob expected trouble; the verse shows what Esau actually did.",
+          "older": "The contrast in 33:4 begins with \"But\"; Esau's first action is named before he embraced and kissed his brother."
+        },
+        "extended_explanation": "Jacob had arranged his family in careful order and bowed seven times, not knowing how Esau would receive him. Genesis 33:4 describes Esau's response in a series of actions that end with both brothers weeping. Read the first action in the verse.",
+        "takeaway": "Esau ran to meet Jacob, embraced him, and they wept together."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 28",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jacob used one of the stones of that place at his head when he lay down to sleep. What did he do with that stone in the morning?",
+        "child": "Jacob slept with a stone by his head. What did he do with that stone when he woke up in the morning?",
+        "teen": "Compare Genesis 28:11 and 28:18. What did Jacob do with the stone he had slept by, before pouring oil on it?",
+        "older": "Linking Genesis 28:11 with 28:18, what did Jacob do in the morning with the stone he had put at his head?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Threw it into the brook"
+        },
+        {
+          "id": "b",
+          "text": "Left it where it lay"
+        },
+        {
+          "id": "c",
+          "text": "Carried it toward Haran"
+        },
+        {
+          "id": "d",
+          "text": "Set it up as a pillar"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 28:11",
+            "text": "So he came to a certain place and stayed there all night, because the sun had set. And he took one of the stones of that place and put it at his head, and he lay down in that place to sleep.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 28:18",
+            "text": "Then Jacob rose early in the morning, and took the stone that he had put at his head, set it up as a pillar, and poured oil on top of it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 28:11 introduces the stone; 28:18 tells what Jacob did with it before pouring oil on its top.",
+          "child": "Find the stone in Genesis 28:11. Then read 28:18 to see what Jacob did with it the next morning.",
+          "teen": "In 28:18 Jacob takes the same stone, does something with it, and then pours oil on top. Look between those two actions.",
+          "older": "Verse 18 turns the stone of verse 11 into a marker of the place; the words after \"took the stone that he had put at his head\" tell how."
+        },
+        "extended_explanation": "At night the stone was simply something to rest his head by. After his dream Jacob rose early and did something with that very stone so the place would be remembered, then poured oil on top of it. Compare 28:11 with 28:18.",
+        "takeaway": "Jacob set up the stone as a pillar and poured oil on it to mark where God had met him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 32",
+      "topics": [
+        "jacob-ladder"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Man said, \"Let Me go, for the day breaks.\" What did Jacob insist on before he would let go — something 32:29 says he then received?",
+        "child": "Jacob wrestled all night and would not let go. What did he ask the Man to do for him first?",
+        "teen": "Jacob refused to release the Man until one request was granted, and 32:29 shows it was. What did he ask?",
+        "older": "Reading Genesis 32:26 with 32:29, what did Jacob demand before letting go, which he was then given?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Spare my life"
+        },
+        {
+          "id": "b",
+          "text": "Show me the way home"
+        },
+        {
+          "id": "c",
+          "text": "Bless me"
+        },
+        {
+          "id": "d",
+          "text": "Give me my brother's land"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 32:26",
+            "text": "And He said, “Let Me go, for the day breaks.” But he said, “I will not let You go unless You bless me!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 32:29",
+            "text": "Then Jacob asked, saying, “Tell me Your name, I pray.” And He said, “Why is it that you ask about My name?” And He blessed him there.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jacob's request is in his own words at the end of 32:26. Then see how 32:29 ends.",
+          "child": "Read what Jacob says in Genesis 32:26. His request comes after the word \"unless.\"",
+          "teen": "32:26 states the condition Jacob set, and the last sentence of 32:29 shows the condition was met.",
+          "older": "The \"unless\" clause of 32:26 contains Jacob's demand; the final sentence of 32:29 records its fulfillment."
+        },
+        "extended_explanation": "Jacob was alone at the ford of Jabbok and wrestled until daybreak. In Genesis 32:26 he will not let go without one thing, and at the end of 32:29 the Man gives it to him there. Read Jacob's words after \"unless.\"",
+        "takeaway": "Jacob said, “I will not let You go unless You bless me!” and he was blessed there."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

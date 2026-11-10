@@ -876,156 +876,375 @@
           "id": "growing-cain",
           "name": "Beginnings: Cain, Abel and Babel",
           "art": "tower",
-          "questionIds": []
+          "questionIds": [
+            "c1-gen-0057",
+            "c1-gen-0058",
+            "c2-gen-0004",
+            "c2-gen-0005",
+            "c2-gen-0006",
+            "c2-gen-0007",
+            "c2-gen-0008",
+            "c2-gen-0009"
+          ]
         },
         {
           "id": "growing-jacob",
           "name": "Jacob: Ladder and Wrestling",
           "art": "ladder",
-          "questionIds": []
+          "questionIds": [
+            "c1-gen-0059",
+            "c1-gen-0060",
+            "c2-gen-0010",
+            "c2-gen-0011",
+            "c2-gen-0012",
+            "c2-gen-0013",
+            "c2-gen-0014",
+            "c2-gen-0015"
+          ]
         },
         {
           "id": "growing-tabernacle",
           "name": "The Tabernacle",
           "art": "tent",
-          "questionIds": []
+          "questionIds": [
+            "c1-exo-0017",
+            "c1-exo-0018",
+            "c2-exo-0002",
+            "c2-exo-0003",
+            "c2-exo-0004",
+            "c2-exo-0005",
+            "c2-exo-0006",
+            "c2-exo-0007"
+          ]
         },
         {
           "id": "growing-holy",
           "name": "Holy Living and Atonement",
           "art": "goats",
-          "questionIds": []
+          "questionIds": [
+            "c1-lev-0001",
+            "c1-lev-0002",
+            "c2-lev-0001",
+            "c2-lev-0002",
+            "c2-lev-0003",
+            "c2-lev-0004",
+            "c2-lev-0005",
+            "c2-lev-0006"
+          ]
         },
         {
           "id": "growing-wilderness",
           "name": "Wilderness Wanderings",
           "art": "grapes",
           "questionIds": [
-            "c2-num-0001"
+            "c1-num-0001",
+            "c1-num-0002",
+            "c2-num-0002",
+            "c2-num-0003",
+            "c2-num-0004",
+            "c2-num-0005",
+            "c2-num-0006",
+            "c2-num-0007"
           ]
         },
         {
           "id": "growing-manna-water-and-amalek",
           "name": "Manna, Water and Amalek",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-exo-0019",
+            "c1-exo-0020",
+            "c2-exo-0008",
+            "c2-exo-0009",
+            "c2-exo-0010",
+            "c2-exo-0011",
+            "c2-exo-0012",
+            "c2-exo-0013"
+          ]
         },
         {
           "id": "growing-shema",
           "name": "Hear, O Israel",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-deu-0001",
+            "c1-deu-0002",
+            "c2-deu-0001",
+            "c2-deu-0002",
+            "c2-deu-0003",
+            "c2-deu-0004",
+            "c2-deu-0005",
+            "c2-deu-0006"
+          ]
         },
         {
           "id": "growing-moses-farewell-sermons",
           "name": "Moses' Farewell Sermons",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-deu-0003",
+            "c1-deu-0004",
+            "c2-deu-0007",
+            "c2-deu-0008",
+            "c2-deu-0009",
+            "c2-deu-0010",
+            "c2-deu-0011",
+            "c2-deu-0012"
+          ]
         },
         {
           "id": "growing-elisha",
           "name": "Elisha",
           "art": "cloak",
-          "questionIds": []
+          "questionIds": [
+            "c1-2ki-0001",
+            "c1-2ki-0002",
+            "c2-2ki-0001",
+            "c2-2ki-0002",
+            "c2-2ki-0003",
+            "c2-2ki-0004",
+            "c2-2ki-0005",
+            "c2-2ki-0006"
+          ]
         },
         {
           "id": "growing-ahab-and-naboths-vineyard",
           "name": "Ahab and Naboth's Vineyard",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ki-0015",
+            "c1-1ki-0016",
+            "c2-1ki-0003",
+            "c2-1ki-0004",
+            "c2-1ki-0005",
+            "c2-1ki-0006",
+            "c2-1ki-0007",
+            "c2-1ki-0008"
+          ]
         },
         {
           "id": "growing-hezekiahs-trust",
           "name": "Hezekiah's Trust",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-2ki-0003",
+            "c1-2ki-0004",
+            "c2-2ki-0007",
+            "c2-2ki-0008",
+            "c2-2ki-0009",
+            "c2-2ki-0010",
+            "c2-2ki-0011",
+            "c2-2ki-0012"
+          ]
         },
         {
           "id": "growing-kingdom",
           "name": "The Kingdom Divides",
           "art": "crown",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ki-0017",
+            "c1-2ki-0005",
+            "c2-1ki-0009",
+            "c2-1ki-0010",
+            "c2-2ki-0013",
+            "c2-2ki-0014",
+            "c2-1ki-0011",
+            "c2-2ki-0015"
+          ]
         },
         {
           "id": "growing-job",
           "name": "Job",
           "art": "storm",
-          "questionIds": []
+          "questionIds": [
+            "c1-job-0001",
+            "c1-job-0002",
+            "c2-job-0001",
+            "c2-job-0002",
+            "c2-job-0003",
+            "c2-job-0004",
+            "c2-job-0005",
+            "c2-job-0006"
+          ]
         },
         {
           "id": "growing-job-faith-in-suffering",
           "name": "Job: Faith in Suffering",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-job-0003",
+            "c1-job-0004",
+            "c2-job-0007",
+            "c2-job-0008",
+            "c2-job-0009",
+            "c2-job-0010",
+            "c2-job-0011",
+            "c2-job-0012"
+          ]
         },
         {
           "id": "growing-isaiah-call",
           "name": "Isaiah: Call and Comfort",
           "art": "coal",
-          "questionIds": []
+          "questionIds": [
+            "c1-isa-0002",
+            "c1-isa-0003",
+            "c2-isa-0001",
+            "c2-isa-0002",
+            "c2-isa-0003",
+            "c2-isa-0004",
+            "c2-isa-0005",
+            "c2-isa-0006"
+          ]
         },
         {
           "id": "growing-isaiah-king",
           "name": "Isaiah: The Coming King",
           "art": "isaiah-53-6",
           "questionIds": [
-            "c1-isa-0001"
+            "c1-isa-0004",
+            "c1-isa-0005",
+            "c2-isa-0007",
+            "c2-isa-0008",
+            "c2-isa-0009",
+            "c2-isa-0010",
+            "c2-isa-0011",
+            "c2-isa-0012"
           ]
         },
         {
           "id": "growing-psalms-of-creation-and-worship",
           "name": "Psalms of Creation and Worship",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-psa-0016",
+            "c1-psa-0017",
+            "c2-psa-0002",
+            "c2-psa-0003",
+            "c2-psa-0004",
+            "c2-psa-0005",
+            "c2-psa-0006",
+            "c2-psa-0007"
+          ]
         },
         {
           "id": "growing-proverbs-work-money-and-wisdom",
           "name": "Proverbs: Work, Money and Wisdom",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-pro-0016",
+            "c1-pro-0017",
+            "c2-pro-0002",
+            "c2-pro-0003",
+            "c2-pro-0004",
+            "c2-pro-0005",
+            "c2-pro-0006",
+            "c2-pro-0007"
+          ]
         },
         {
           "id": "growing-parables",
           "name": "Parables of the Kingdom",
           "art": "seed",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0031",
+            "c1-mat-0032",
+            "c2-mat-0001",
+            "c2-mat-0002",
+            "c2-mat-0003",
+            "c2-mat-0004",
+            "c2-mat-0005",
+            "c2-luk-0002"
+          ]
         },
         {
           "id": "growing-nicodemus-and-the-woman-at-the-well",
           "name": "Nicodemus and the Woman at the Well",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jhn-0029",
+            "c1-jhn-0030",
+            "c2-jhn-0002",
+            "c2-jhn-0003",
+            "c2-jhn-0004",
+            "c2-jhn-0005",
+            "c2-jhn-0006",
+            "c2-jhn-0007"
+          ]
         },
         {
           "id": "growing-holy-week",
           "name": "Holy Week Day by Day",
           "art": "palm",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0033",
+            "c1-mat-0034",
+            "c2-mat-0006",
+            "c2-mat-0007",
+            "c2-mat-0008",
+            "c2-mat-0009",
+            "c2-mat-0010",
+            "c2-mat-0011"
+          ]
         },
         {
           "id": "growing-after",
           "name": "After the Resurrection",
           "art": "footprints",
-          "questionIds": []
+          "questionIds": [
+            "c1-luk-0035",
+            "c1-jhn-0031",
+            "c2-luk-0003",
+            "c2-jhn-0008",
+            "c2-jhn-0009",
+            "c2-act-0003",
+            "c2-luk-0004",
+            "c2-jhn-0010"
+          ]
         },
         {
           "id": "growing-paul",
           "name": "Paul's Missionary Journeys",
           "art": "ship",
-          "questionIds": []
+          "questionIds": [
+            "c1-act-0029",
+            "c1-act-0030",
+            "c2-act-0004",
+            "c2-act-0005",
+            "c2-act-0006",
+            "c2-act-0007",
+            "c2-act-0008",
+            "c2-act-0009"
+          ]
         },
         {
           "id": "growing-hebrews",
           "name": "Hebrews: The Faith Hall",
           "art": "cloud",
-          "questionIds": []
+          "questionIds": [
+            "c1-heb-0001",
+            "c1-heb-0002",
+            "c2-heb-0001",
+            "c2-heb-0002",
+            "c2-heb-0003",
+            "c2-heb-0004",
+            "c2-heb-0005",
+            "c2-heb-0006"
+          ]
         },
         {
           "id": "growing-rev-letters",
           "name": "Revelation: Letters to Seven Churches",
           "art": "lampstand",
           "questionIds": [
-            "c3-rev-0001"
+            "c1-rev-0001",
+            "c1-rev-0002",
+            "c2-rev-0002",
+            "c2-rev-0003",
+            "c2-rev-0004",
+            "c2-rev-0005",
+            "c2-rev-0006",
+            "c2-rev-0007"
           ]
         },
         {
@@ -1033,14 +1252,30 @@
           "name": "Revelation: The Throne and the Lamb",
           "art": "revelation",
           "questionIds": [
-            "c2-rev-0001"
+            "c1-rev-0003",
+            "c1-rev-0004",
+            "c2-rev-0008",
+            "c2-rev-0009",
+            "c2-rev-0010",
+            "c2-rev-0011",
+            "c2-rev-0012",
+            "c2-rev-0013"
           ]
         },
         {
           "id": "growing-rev-new",
           "name": "Revelation: New Heaven and New Earth",
           "art": "city",
-          "questionIds": []
+          "questionIds": [
+            "c1-rev-0005",
+            "c1-rev-0006",
+            "c2-rev-0014",
+            "c2-rev-0015",
+            "c2-rev-0016",
+            "c2-rev-0017",
+            "c2-rev-0018",
+            "c2-rev-0019"
+          ]
         }
       ]
     },

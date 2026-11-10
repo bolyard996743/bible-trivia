@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1kings-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ki-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 16",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ahab son of Omri married Jezebel, daughter of the king of the Sidonians. Which god did he go and serve?",
+        "child": "King Ahab married Jezebel, a princess from Sidon. Which false god did he start to serve and worship?",
+        "teen": "1 Kings 16:31 says Ahab treated Jeroboam's sins as a trivial thing and went further. Which god did he serve?",
+        "older": "According to 1 Kings 16:31, which god did Ahab serve and worship after marrying Jezebel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dagon"
+        },
+        {
+          "id": "b",
+          "text": "Molech"
+        },
+        {
+          "id": "c",
+          "text": "Chemosh"
+        },
+        {
+          "id": "d",
+          "text": "Baal"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 16:31",
+            "text": "And it came to pass, as though it had been a trivial thing for him to walk in the sins of Jeroboam the son of Nebat, that he took as wife Jezebel the daughter of Ethbaal, king of the Sidonians; and he went and served Baal and worshiped him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The god is named near the end of 1 Kings 16:31, after \"he went and served.\"",
+          "child": "Read the end of 1 Kings 16:31. The god's name comes after \"he went and served.\"",
+          "teen": "16:31 first names Ahab's wife and her father, then says whom Ahab served. Read the last clause.",
+          "older": "The final clause of 16:31 names the deity Ahab served and worshiped, following his marriage alliance."
+        },
+        "extended_explanation": "1 Kings 16:30-31 says Ahab did more evil than all the kings before him. Verse 31 explains two steps: whom he married and which god he then served and worshiped. Read the last part of the verse.",
+        "takeaway": "Ahab married Jezebel and went and served Baal."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-1ki-0016",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 21",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Naboth's vineyard was next to Ahab's palace in Jezreel. What did Ahab want to turn it into?",
+        "child": "King Ahab wanted his neighbor Naboth's vineyard. What did he want to use the land for?",
+        "teen": "In 1 Kings 21:2, Ahab offers Naboth a better vineyard or money. What did he plan to make of Naboth's land?",
+        "older": "According to 1 Kings 21:2, for what purpose did Ahab want Naboth's vineyard?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A royal stable for horses"
+        },
+        {
+          "id": "b",
+          "text": "A vegetable garden"
+        },
+        {
+          "id": "c",
+          "text": "A burial place for kings"
+        },
+        {
+          "id": "d",
+          "text": "A new temple courtyard"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 21:2",
+            "text": "So Ahab spoke to Naboth, saying, “Give me your vineyard, that I may have it for a vegetable garden, because it is near, next to my house; and for it I will give you a vineyard better than it. Or, if it seems good to you, I will give you its worth in money.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ahab states his plan in the first sentence of 1 Kings 21:2, right after \"that I may have it for.\"",
+          "child": "Read the start of 1 Kings 21:2. Look at the words after \"that I may have it for.\"",
+          "teen": "21:2 gives Ahab's plan and his reason: it was near his house. Find the plan right after \"have it for.\"",
+          "older": "Ahab's stated purpose comes in the first clause of 21:2, before his reason and his two offers."
+        },
+        "extended_explanation": "Ahab's request sounded reasonable: the vineyard was next to his house, and he offered a better vineyard or money. 1 Kings 21:2 also says what he wanted to use the land for. Read the words right after \"that I may have it for.\"",
+        "takeaway": "Ahab wanted Naboth's vineyard for a vegetable garden."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 21",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Naboth refused to give Ahab his vineyard. How did Naboth describe the vineyard when he said no?",
+        "child": "Naboth told the king, \"The LORD forbid\" that he should give up his vineyard. What did he call the vineyard?",
+        "teen": "In 1 Kings 21:3, Naboth explains why he will not trade. What does he call his land?",
+        "older": "According to 1 Kings 21:3, how did Naboth describe the vineyard he would not give to Ahab?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The inheritance of my fathers"
+        },
+        {
+          "id": "b",
+          "text": "The pride of my household"
+        },
+        {
+          "id": "c",
+          "text": "The gift of the king of Judah"
+        },
+        {
+          "id": "d",
+          "text": "The best land in all of Samaria"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 21:3",
+            "text": "But Naboth said to Ahab, “The LORD forbid that I should give the inheritance of my fathers to you!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Naboth's reason is in his own words in 1 Kings 21:3, right after \"that I should give.\"",
+          "child": "Read Naboth's answer in 1 Kings 21:3. Look at what he says he should not give.",
+          "teen": "21:3 shows that for Naboth this was not a matter of price. Read how he names the land after \"give.\"",
+          "older": "Naboth's refusal in 21:3 rests on how he regards the land; read the phrase that is the object of \"give.\""
+        },
+        "extended_explanation": "Ahab offered a fair trade or money, but Naboth said, \"The LORD forbid.\" To him the land was not just property. Read his words in 1 Kings 21:3 to see what he called it.",
+        "takeaway": "Naboth would not give Ahab the inheritance of his fathers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 21",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ahab went home sullen and displeased after Naboth refused him. He lay on his bed and turned his face away. What else would he not take?",
+        "child": "When Naboth said no, Ahab went home upset, lay on his bed, and turned away. What did he refuse?",
+        "teen": "1 Kings 21:4 describes Ahab sulking over Naboth's answer. Besides lying down and turning away his face, what did he refuse?",
+        "older": "According to 1 Kings 21:4, what did Ahab refuse as he lay on his bed with his face turned away?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sleep"
+        },
+        {
+          "id": "b",
+          "text": "Visitors"
+        },
+        {
+          "id": "c",
+          "text": "Food"
+        },
+        {
+          "id": "d",
+          "text": "Wine"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 21:4",
+            "text": "So Ahab went into his house sullen and displeased because of the word which Naboth the Jezreelite had spoken to him; for he had said, “I will not give you the inheritance of my fathers.” And he lay down on his bed, and turned away his face, and would eat no food.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the very end of 1 Kings 21:4. It names what Ahab would not take.",
+          "child": "Look at the last words of 1 Kings 21:4. They tell what Ahab refused.",
+          "teen": "21:4 lists three things Ahab did at home. The last of them is a refusal. Read it closely.",
+          "older": "The verse ends with a refusal that completes the picture of a sulking king; read its final clause."
+        },
+        "extended_explanation": "Ahab was the king, yet he acted like a disappointed child when he could not have what he wanted. 1 Kings 21:4 lists what he did once he got home: he lay down, turned his face away, and refused one more thing. Read the last words of the verse.",
+        "takeaway": "Ahab lay on his bed, turned away his face, and would eat no food."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 21",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jezebel wrote letters in Ahab's name and sealed them with his seal. To whom did she send them?",
+        "child": "Jezebel sent letters that looked like they came from the king. Who did she send them to?",
+        "teen": "In 1 Kings 21:8, Jezebel's letters carry the king's name and seal. Which people in Naboth's city received them?",
+        "older": "According to 1 Kings 21:8, to whom did Jezebel send the letters written in Ahab's name?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The captains of the army"
+        },
+        {
+          "id": "b",
+          "text": "The elders and the nobles"
+        },
+        {
+          "id": "c",
+          "text": "The prophets of Samaria"
+        },
+        {
+          "id": "d",
+          "text": "The merchants at the city gate"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 21:8",
+            "text": "And she wrote letters in Ahab’s name, sealed them with his seal, and sent the letters to the elders and the nobles who were dwelling in the city with Naboth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Kings 21:8 ends by naming who received the letters. Read the words after \"sent the letters to.\"",
+          "child": "Read the end of 1 Kings 21:8. Look after \"sent the letters to.\"",
+          "teen": "21:8 tells how the letters were made to look official and then who got them. Read the last part.",
+          "older": "The recipients are named in the final clause of 21:8, described as dwelling in the city with Naboth."
+        },
+        "extended_explanation": "Jezebel used the king's name and seal so her letters would carry his authority. 1 Kings 21:8 also tells which leaders in Naboth's own city received them. Read the end of the verse.",
+        "takeaway": "Jezebel sent the letters to the elders and the nobles in Naboth's city."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 21",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD sent Elijah to meet Ahab in Naboth's vineyard. What did Ahab call Elijah when he saw him?",
+        "child": "When Elijah found Ahab in the vineyard, Ahab spoke first. What did he call Elijah?",
+        "teen": "In 1 Kings 21:20, Ahab greets Elijah with a question. How does he address the prophet?",
+        "older": "According to 1 Kings 21:20, how did Ahab address Elijah when the prophet found him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "O my friend"
+        },
+        {
+          "id": "b",
+          "text": "O my father"
+        },
+        {
+          "id": "c",
+          "text": "My lord the prophet"
+        },
+        {
+          "id": "d",
+          "text": "O my enemy"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 21:20",
+            "text": "So Ahab said to Elijah, “Have you found me, O my enemy?” And he answered, “I have found you, because you have sold yourself to do evil in the sight of the LORD:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ahab's question opens 1 Kings 21:20. Read how he addresses Elijah at the end of it.",
+          "child": "Read the start of 1 Kings 21:20. Ahab asks, \"Have you found me,\" and then calls Elijah something.",
+          "teen": "21:20 shows how Ahab saw the prophet. Look at the words right after \"Have you found me.\"",
+          "older": "Ahab's form of address closes his question at the opening of 21:20; Elijah's reply turns on the word \"found.\""
+        },
+        "extended_explanation": "Ahab had gone down to take the vineyard when Elijah met him there. Ahab's first words show how he felt about the prophet who brought the LORD's word. Read his question at the beginning of 1 Kings 21:20.",
+        "takeaway": "Ahab said to Elijah, \"Have you found me, O my enemy?\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 21",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jezebel's letters told the city's leaders to seat two scoundrels before Naboth to accuse him, and that is what happened. What did the accusers claim Naboth had done?",
+        "child": "Jezebel's plan used two dishonest men to accuse Naboth in front of everyone. What did they say he had done?",
+        "teen": "1 Kings 21:10 gives Jezebel's script and 21:13 shows it carried out. What charge did the two scoundrels bring?",
+        "older": "Comparing 1 Kings 21:10 with 21:13, what false charge was brought against Naboth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blasphemed God and the king"
+        },
+        {
+          "id": "b",
+          "text": "Stolen from the king's storehouse"
+        },
+        {
+          "id": "c",
+          "text": "Worshiped idols in secret"
+        },
+        {
+          "id": "d",
+          "text": "Refused to pay the king's tax"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 21:10",
+            "text": "and seat two men, scoundrels, before him to bear witness against him, saying, “You have blasphemed God and the king.” Then take him out, and stone him, that he may die.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 21:13",
+            "text": "And two men, scoundrels, came in and sat before him; and the scoundrels witnessed against him, against Naboth, in the presence of the people, saying, “Naboth has blasphemed God and the king!” Then they took him outside the city and stoned him with stones, so that he died.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The charge is quoted in both 1 Kings 21:10 and 21:13. Read the words inside the quotation marks.",
+          "child": "Look for the words the two men were told to say in 21:10, and then find them again in 21:13.",
+          "teen": "21:13 repeats the charge from 21:10 almost word for word. Read the quoted accusation.",
+          "older": "The script in 21:10 and its performance in 21:13 share the same quoted accusation; compare them."
+        },
+        "extended_explanation": "Jezebel planned everything in advance, even the words the false witnesses would say. 1 Kings 21:13 shows the plan followed exactly, and Naboth was put to death because of a lie. Read the quoted words in both verses.",
+        "takeaway": "The scoundrels falsely said Naboth had blasphemed God and the king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 21",
+      "topics": [
+        "ahab-naboth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Elijah's message, Ahab tore his clothes, put on sackcloth, and fasted. How did the LORD respond to his humbling?",
+        "child": "When Ahab heard God's warning, he put on rough cloth and stopped eating to show he was sorry. What did God say about it?",
+        "teen": "1 Kings 21:27 shows Ahab humbling himself, and 21:29 gives the LORD's reply. What did the LORD say He would do?",
+        "older": "Connect Ahab's response in 1 Kings 21:27 with the LORD's word in 21:29. What did the LORD declare?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will take the kingdom from him this year"
+        },
+        {
+          "id": "b",
+          "text": "I will send Elijah to curse him again"
+        },
+        {
+          "id": "c",
+          "text": "I will not bring the calamity in his days"
+        },
+        {
+          "id": "d",
+          "text": "I will give the vineyard back to Naboth's family"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 21:27",
+            "text": "So it was, when Ahab heard those words, that he tore his clothes and put sackcloth on his body, and fasted and lay in sackcloth, and went about mourning.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 21:29",
+            "text": "“See how Ahab has humbled himself before Me? Because he has humbled himself before Me, I will not bring the calamity in his days. In the days of his son I will bring the calamity on his house.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1 Kings 21:27, then the LORD's words in 21:29. Look right after \"Because he has humbled himself before Me.\"",
+          "child": "Look at what Ahab did in 21:27. Then read what God said in 21:29 after \"Because he has humbled himself.\"",
+          "teen": "21:29 asks Elijah to notice Ahab's humbling and then gives the LORD's answer. Find it.",
+          "older": "The LORD's reply in 21:29 comes in the sentence that follows the second mention of Ahab humbling himself."
+        },
+        "extended_explanation": "Ahab had done great evil, yet when he heard the LORD's word he tore his clothes, wore sackcloth, fasted, and went about mourning. In 1 Kings 21:29 the LORD points this out to Elijah and answers it. Read what the LORD says next.",
+        "takeaway": "Because Ahab humbled himself, the LORD said He would not bring the calamity in Ahab's days."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

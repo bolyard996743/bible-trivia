@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0031",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 13",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jesus' parable, a man sowed good seed in his field. While men slept, who came and sowed tares among the wheat?",
+        "child": "A man planted good seed in his field. While everyone was asleep, someone sneaked in and planted weeds. Who?",
+        "teen": "In the parable of the wheat and the tares, who sowed the tares while men slept?",
+        "older": "According to Matthew 13:25, who sowed tares among the wheat while men slept?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His servant"
+        },
+        {
+          "id": "b",
+          "text": "His neighbor"
+        },
+        {
+          "id": "c",
+          "text": "His enemy"
+        },
+        {
+          "id": "d",
+          "text": "His son"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 13:24",
+            "text": "Another parable He put forth to them, saying: “The kingdom of heaven is like a man who sowed good seed in his field;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 13:25",
+            "text": "but while men slept, his enemy came and sowed tares among the wheat and went his way.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Matthew 13:25, right after \"while men slept.\"",
+          "child": "Look at Matthew 13:25. Right after \"while men slept,\" it tells who came.",
+          "teen": "13:24 is the good seed; 13:25 says who brought the tares. Read the words after \"while men slept.\"",
+          "older": "The one who sowed the tares is named in 13:25 immediately after the phrase about sleeping."
+        },
+        "extended_explanation": "In this parable, a man sows good seed in his field (13:24). Then, at night, someone else comes and sows tares among the wheat and goes away. Read Matthew 13:25 for who it was.",
+        "takeaway": "His enemy came and sowed tares among the wheat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-mat-0032",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 18",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter asked Jesus, \"How often shall my brother sin against me, and I forgive him? Up to seven times?\" What did Jesus answer?",
+        "child": "Peter asked if forgiving someone seven times was enough. What number did Jesus give instead?",
+        "teen": "In Matthew 18:21-22, Peter suggests a limit for forgiveness. How does Jesus answer?",
+        "older": "According to Matthew 18:22, how did Jesus answer Peter's question about forgiving up to seven times?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Up to seventy times seven"
+        },
+        {
+          "id": "b",
+          "text": "Up to ten times"
+        },
+        {
+          "id": "c",
+          "text": "Up to seven times seven"
+        },
+        {
+          "id": "d",
+          "text": "Up to forty times in one day"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 18:21",
+            "text": "Then Peter came to Him and said, “Lord, how often shall my brother sin against me, and I forgive him? Up to seven times?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 18:22",
+            "text": "Jesus said to him, “I do not say to you, up to seven times, but up to seventy times seven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Matthew 18:22, right after \"but.\"",
+          "child": "Look at Matthew 18:22. Jesus first says \"not seven times,\" then gives His answer after \"but.\"",
+          "teen": "18:21 is Peter's guess; 18:22 corrects it. Read what follows \"but.\"",
+          "older": "Jesus' reply in 18:22 sets aside Peter's number and gives His own after \"but.\""
+        },
+        "extended_explanation": "Peter thought forgiving his brother seven times would be generous. In Matthew 18:22, Jesus repeats Peter's number and then gives a much bigger one, and the parable that follows shows why. Read the end of 18:22.",
+        "takeaway": "Jesus said to forgive up to seventy times seven."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 13",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The servants offered to pull up the tares, but the owner said no, lest they uproot the wheat too. How long did he say to let both grow together?",
+        "child": "The servants wanted to pull out the weeds, but the owner stopped them. How long did he tell them to let both grow?",
+        "teen": "In 13:29-30, the owner refuses to have the tares pulled up early. Until when should both grow together?",
+        "older": "According to Matthew 13:30, how long did the owner say the wheat and tares should grow together?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Until the spring rains"
+        },
+        {
+          "id": "b",
+          "text": "Until the next sowing"
+        },
+        {
+          "id": "c",
+          "text": "Until the new moon"
+        },
+        {
+          "id": "d",
+          "text": "Until the harvest"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 13:29",
+            "text": "But he said, ‘No, lest while you gather up the tares you also uproot the wheat with them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 13:30",
+            "text": "Let both grow together until the harvest, and at the time of harvest I will say to the reapers, “First gather together the tares and bind them in bundles to burn them, but gather the wheat into my barn.” ’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of Matthew 13:30, right after \"Let both grow together.\"",
+          "child": "Look at the start of Matthew 13:30. The time comes right after \"Let both grow together.\"",
+          "teen": "13:29 gives the owner's reason; 13:30 says how long to wait. Read the opening phrase.",
+          "older": "The time limit is stated in the opening clause of 13:30."
+        },
+        "extended_explanation": "The owner did not want his servants to damage the wheat while pulling the tares (13:29). In 13:30 he tells them to let both grow and says when the two will be separated. Read the first line of 13:30.",
+        "takeaway": "The owner said to let both grow together until the harvest."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 13",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the parable of the treasure hidden in a field, a man found the treasure, hid it, and sold all he had to buy the field. What moved him to do it?",
+        "child": "A man found treasure buried in a field and sold everything to buy that field. Why did he do it?",
+        "teen": "13:44 tells of a man who sells everything for one field. What does the verse say drove him?",
+        "older": "According to Matthew 13:44, what motivated the man to sell all that he had and buy the field?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For fear of losing it"
+        },
+        {
+          "id": "b",
+          "text": "For joy over it"
+        },
+        {
+          "id": "c",
+          "text": "For pride before others"
+        },
+        {
+          "id": "d",
+          "text": "For anger at the owner"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 13:44",
+            "text": "“Again, the kingdom of heaven is like treasure hidden in a field, which a man found and hid; and for joy over it he goes and sells all that he has and buys that field.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 13:44 tells why the man sold everything just before \"he goes and sells.\" Read that phrase.",
+          "child": "Read Matthew 13:44. Right before \"he goes and sells,\" it tells what he felt.",
+          "teen": "13:44 gives the man's reason in a short phrase between hiding the treasure and selling everything.",
+          "older": "The motive is stated in the phrase that precedes \"he goes and sells all that he has.\""
+        },
+        "extended_explanation": "Matthew 13:44 compares the kingdom of heaven to treasure hidden in a field. The man who finds it hides it again and gives up everything he owns to have it. A short phrase in the verse tells what moved him. Read the words just before \"he goes and sells.\"",
+        "takeaway": "For joy over the treasure, the man sold all he had and bought the field."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 18",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the parable of the unforgiving servant, one servant was forgiven a debt of ten thousand talents. How much did his fellow servant owe him?",
+        "child": "A servant was forgiven a huge debt by the king. Then he found a fellow servant who owed him money. How much?",
+        "teen": "18:24 gives the first servant's debt to the king. What does 18:28 say his fellow servant owed him?",
+        "older": "According to Matthew 18:28, how much did the fellow servant owe the man who had been forgiven ten thousand talents?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ten thousand denarii"
+        },
+        {
+          "id": "b",
+          "text": "A thousand talents"
+        },
+        {
+          "id": "c",
+          "text": "A hundred denarii"
+        },
+        {
+          "id": "d",
+          "text": "Fifty talents"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 18:24",
+            "text": "And when he had begun to settle accounts, one was brought to him who owed him ten thousand talents.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 18:28",
+            "text": "“But that servant went out and found one of his fellow servants who owed him a hundred denarii; and he laid hands on him and took him by the throat, saying, ‘Pay me what you owe!’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Matthew 18:28, right after \"who owed him.\"",
+          "child": "Look at Matthew 18:28. The amount comes right after \"who owed him.\"",
+          "teen": "18:24 has the big debt; 18:28 has the small one. Read the amount in 18:28.",
+          "older": "Compare the sum in 18:24 with the sum named in 18:28 after \"who owed him.\""
+        },
+        "extended_explanation": "Jesus told this parable after Peter asked how often to forgive. The king forgave a servant a debt he could never repay (18:24-27). That same servant then met a fellow servant who owed him money and would not forgive him. Read 18:28 for the amount.",
+        "takeaway": "The fellow servant owed him a hundred denarii."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 25",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the parable of the ten virgins, all took their lamps to meet the bridegroom. What did the wise take that the foolish did not?",
+        "child": "Ten young women went out with lamps to meet the bridegroom. What did the five wise ones bring that the others forgot?",
+        "teen": "25:3-4 contrasts the foolish and the wise. What did the wise take along with their lamps?",
+        "older": "According to Matthew 25:4, what did the wise virgins take with their lamps?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oil in their vessels"
+        },
+        {
+          "id": "b",
+          "text": "Extra lamps for the road"
+        },
+        {
+          "id": "c",
+          "text": "Bread for the long night"
+        },
+        {
+          "id": "d",
+          "text": "Gifts for the bridegroom"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 25:3",
+            "text": "Those who were foolish took their lamps and took no oil with them,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 25:4",
+            "text": "but the wise took oil in their vessels with their lamps.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Matthew 25:4, right after \"but the wise took.\"",
+          "child": "Look at Matthew 25:4. It tells what the wise brought, right after \"took.\"",
+          "teen": "25:3 says what the foolish left behind; 25:4 says what the wise brought. Read 25:4.",
+          "older": "25:3 and 25:4 are a matched contrast; read what the wise took in 25:4."
+        },
+        "extended_explanation": "In this parable, all ten virgins have lamps, but only some are ready for a long wait. Matthew 25:3 tells what the foolish did not bring, and 25:4 tells what the wise did bring. Read 25:4.",
+        "takeaway": "The wise took oil in their vessels with their lamps."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 25",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the parable of the talents, one servant gained five more talents and another gained two more. What did their lord say to each of them?",
+        "child": "One servant earned five more talents and another earned two more. Their master said the same thing to both. What did he say?",
+        "teen": "25:21 and 25:23 record the lord's words to two servants who gained different amounts. What words does he use for both?",
+        "older": "Comparing Matthew 25:21 and 25:23, what words of praise does the lord give both servants?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Good servant, now return to the fields"
+        },
+        {
+          "id": "b",
+          "text": "Well done, servant, but you could have gained more"
+        },
+        {
+          "id": "c",
+          "text": "You have earned a seat at my right hand"
+        },
+        {
+          "id": "d",
+          "text": "Well done, good and faithful servant"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 25:21",
+            "text": "His lord said to him, ‘Well done, good and faithful servant; you were faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 25:23",
+            "text": "His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 25:21 and 25:23 begin the same way. Read the lord's first words in each verse.",
+          "child": "Read the start of Matthew 25:21 and 25:23. The lord says the same thing to each servant.",
+          "teen": "The two servants gained different amounts, but 25:21 and 25:23 open with the same words. Compare them.",
+          "older": "Set the opening words of the lord's reply in 25:21 beside those in 25:23."
+        },
+        "extended_explanation": "The servants in this parable received different amounts, each according to his ability, and gained different amounts. Yet when the lord settles accounts, his words to the first two servants in 25:21 and 25:23 are the same. Read the opening words of each verse.",
+        "takeaway": "The lord said to each, \"Well done, good and faithful servant.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-luk-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 16",
+      "topics": [
+        "parables-of-the-kingdom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Luke 16, Abraham tells the rich man that a great gulf is fixed between them (16:26). When the rich man asks that his brothers be warned, what does Abraham say they already have (16:29)?",
+        "child": "Abraham told the rich man no one could cross between them. Then the rich man asked for someone to warn his brothers. What did Abraham say the brothers already had?",
+        "teen": "16:26 says the gulf cannot be crossed. In 16:29 and 16:31, what does Abraham say the brothers already have to listen to?",
+        "older": "Connecting Luke 16:26 with 16:29-31, what does Abraham say the rich man's brothers already have?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The temple and the priests"
+        },
+        {
+          "id": "b",
+          "text": "Moses and the prophets"
+        },
+        {
+          "id": "c",
+          "text": "Their father's blessing"
+        },
+        {
+          "id": "d",
+          "text": "The elders of the city"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 16:26",
+            "text": "And besides all this, between us and you there is a great gulf fixed, so that those who want to pass from here to you cannot, nor can those from there pass to us.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 16:29",
+            "text": "Abraham said to him, ‘They have Moses and the prophets; let them hear them.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 16:31",
+            "text": "But he said to him, ‘If they do not hear Moses and the prophets, neither will they be persuaded though one rise from the dead.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Abraham's words in Luke 16:29, right after \"They have.\"",
+          "child": "Look at Luke 16:29. Abraham's answer comes right after \"They have.\"",
+          "teen": "16:26 is about who cannot cross; 16:29 is about what the brothers already have. Read after \"They have.\"",
+          "older": "Abraham's reply in 16:29 names what the brothers possess, and 16:31 repeats it."
+        },
+        "extended_explanation": "In Luke 16:26 Abraham explains that no one can cross between the two places. The rich man then asks that someone go and warn his family. In 16:29 Abraham answers that they already have what they need to hear, and in 16:31 he adds that if they will not listen, they will not be persuaded even by someone rising from the dead. Read the words after \"They have\" in 16:29.",
+        "takeaway": "Abraham said the brothers have Moses and the prophets."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

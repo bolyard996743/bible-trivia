@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2kings-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2ki-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 18",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "King Hezekiah broke in pieces the bronze serpent Moses had made, because the people burned incense to it. What had they called it?",
+        "child": "Hezekiah smashed an old bronze snake from Moses' time because people were burning incense to it. What name had they given it?",
+        "teen": "2 Kings 18:4 lists Hezekiah's reforms, including breaking the bronze serpent from Moses' day. What was it called?",
+        "older": "According to 2 Kings 18:4, by what name did the children of Israel call the bronze serpent they burned incense to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nehushtan"
+        },
+        {
+          "id": "b",
+          "text": "Ebenezer"
+        },
+        {
+          "id": "c",
+          "text": "Jehovah-Nissi"
+        },
+        {
+          "id": "d",
+          "text": "Ichabod"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 18:4",
+            "text": "He removed the high places and broke the sacred pillars, cut down the wooden image and broke in pieces the bronze serpent that Moses had made; for until those days the children of Israel burned incense to it, and called it Nehushtan.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The name is the very last word of 2 Kings 18:4.",
+          "child": "Read to the end of 2 Kings 18:4. The name is the last word.",
+          "teen": "18:4 explains why Hezekiah broke the serpent and then gives the name people used. Look at \"called it.\"",
+          "older": "The verse closes with the name, following the explanation that Israel had been burning incense to the object."
+        },
+        "extended_explanation": "Hezekiah removed the places of false worship. 2 Kings 18:4 says the people had even begun burning incense to the old bronze serpent from Moses' time, so he broke it. The verse ends with the name they had given it. Read the last words.",
+        "takeaway": "The people called the bronze serpent Nehushtan, and Hezekiah broke it in pieces."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-2ki-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 20",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hezekiah was sick and near death, but he prayed. How much time did the LORD say He would add to his life?",
+        "child": "Hezekiah was very sick and prayed to God. How much longer did God promise he would live?",
+        "teen": "In 2 Kings 20:6, the LORD answers Hezekiah's prayer with a promise about his life. How long would be added?",
+        "older": "According to 2 Kings 20:6, how many years did the LORD add to Hezekiah's days?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ten years"
+        },
+        {
+          "id": "b",
+          "text": "Forty years"
+        },
+        {
+          "id": "c",
+          "text": "Fifteen years"
+        },
+        {
+          "id": "d",
+          "text": "Twenty-five years"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 20:6",
+            "text": "And I will add to your days fifteen years. I will deliver you and this city from the hand of the king of Assyria; and I will defend this city for My own sake, and for the sake of My servant David.” ’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The number is in the first sentence of 2 Kings 20:6, after \"I will add to your days.\"",
+          "child": "Read the start of 2 Kings 20:6. Look right after \"I will add to your days.\"",
+          "teen": "20:6 begins with a promise about Hezekiah's life before it speaks about the city. Read the first sentence.",
+          "older": "The opening clause of 20:6 states the extension of Hezekiah's life; the rest concerns Jerusalem's deliverance."
+        },
+        "extended_explanation": "Isaiah had told Hezekiah to set his house in order. Hezekiah turned to the wall and prayed, and the LORD sent Isaiah back with an answer. 2 Kings 20:6 begins with how much time was added. Read the opening words.",
+        "takeaway": "The LORD added fifteen years to Hezekiah's life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 18",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Rabshakeh mocked Judah for relying on Egypt. He compared Egypt to the staff of what?",
+        "child": "The Assyrian messenger made fun of Judah for counting on Egypt for help. What did he say Egypt was like?",
+        "teen": "In 2 Kings 18:21 the Rabshakeh warns that leaning on Egypt will hurt the one who leans. What does he call Egypt?",
+        "older": "According to 2 Kings 18:21, what image did the Rabshakeh use for Egypt and Pharaoh?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rusted sword"
+        },
+        {
+          "id": "b",
+          "text": "Leaking cistern"
+        },
+        {
+          "id": "c",
+          "text": "Crumbling tower"
+        },
+        {
+          "id": "d",
+          "text": "Broken reed"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 18:21",
+            "text": "Now look! You are trusting in the staff of this broken reed, Egypt, on which if a man leans, it will go into his hand and pierce it. So is Pharaoh king of Egypt to all who trust in him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 18:21 names the image right after \"the staff of this.\"",
+          "child": "Read 2 Kings 18:21. Look at the words right after \"the staff of this.\"",
+          "teen": "18:21 explains the image: if a man leans on it, it goes into his hand. Find what Egypt is compared to just before the name \"Egypt.\"",
+          "older": "The metaphor in 18:21 precedes the word \"Egypt\" and is then explained by what happens to the one who leans on it."
+        },
+        "extended_explanation": "The Rabshakeh wanted Judah to lose hope. In 2 Kings 18:21 he says that trusting Egypt is like leaning on something that will not hold and will even pierce your hand. Read the words just before \"Egypt.\"",
+        "takeaway": "The Rabshakeh called Egypt the staff of a broken reed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 18",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The people on the wall heard the Rabshakeh's taunts but answered him not a word. Why were they silent?",
+        "child": "The Assyrian shouted threats, but the people on Jerusalem's wall said nothing back. Why?",
+        "teen": "2 Kings 18:36 says the people held their peace. What reason does the verse give?",
+        "older": "According to 2 Kings 18:36, why did the people answer the Rabshakeh not a word?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The prophet’s warning"
+        },
+        {
+          "id": "b",
+          "text": "The king’s commandment"
+        },
+        {
+          "id": "c",
+          "text": "The priests’ counsel"
+        },
+        {
+          "id": "d",
+          "text": "Their fear of the Assyrians"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 18:36",
+            "text": "But the people held their peace and answered him not a word; for the king’s commandment was, “Do not answer him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 18:36 gives the reason after the word \"for.\"",
+          "child": "Read 2 Kings 18:36. The reason comes right after \"for.\"",
+          "teen": "18:36 first says they held their peace and then explains why, quoting the words \"Do not answer him.\"",
+          "older": "18:36 gives a reason after \"for,\" then quotes the words \"Do not answer him.\" Read what comes between \"for\" and that quote."
+        },
+        "extended_explanation": "The Rabshakeh shouted in Hebrew so everyone on the wall could hear. Instead of arguing back, the people stayed quiet. 2 Kings 18:36 explains why and even quotes the words they were following: \"Do not answer him.\" Read the words after \"for.\"",
+        "takeaway": "The people answered not a word because of the king's commandment, \"Do not answer him.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 20",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hezekiah was offered a sign from the LORD using the shadow on the sundial. Which sign did he ask for?",
+        "child": "God offered Hezekiah a sign with a sundial's shadow. What did Hezekiah ask the shadow to do?",
+        "teen": "In 2 Kings 20:10, Hezekiah says one option would be too easy. Which way did he ask the shadow to move?",
+        "older": "According to 2 Kings 20:10-11, what did Hezekiah ask the shadow to do, and the LORD then did?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Backward ten degrees"
+        },
+        {
+          "id": "b",
+          "text": "Off the sundial entirely"
+        },
+        {
+          "id": "c",
+          "text": "Standing still for a day"
+        },
+        {
+          "id": "d",
+          "text": "Splitting into two shadows"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 20:10",
+            "text": "And Hezekiah answered, “It is an easy thing for the shadow to go down ten degrees; no, but let the shadow go backward ten degrees.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 20:11",
+            "text": "So Isaiah the prophet cried out to the LORD, and He brought the shadow ten degrees backward, by which it had gone down on the sundial of Ahaz.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Hezekiah's choice is at the end of 2 Kings 20:10, after \"no, but let the shadow go.\"",
+          "child": "Read 2 Kings 20:10. Hezekiah says one thing is easy, then asks for something harder. Look after \"let the shadow go.\"",
+          "teen": "20:10 explains why Hezekiah chose as he did, and 20:11 shows the LORD doing it. Compare the two verses.",
+          "older": "Hezekiah's reasoning in 20:10 contrasts an easy sign with a harder one; 20:11 records the result."
+        },
+        "extended_explanation": "Hezekiah wanted a sign that the LORD would heal him. In 2 Kings 20:10 he says that one kind of movement would be too easy, so he asks for the harder one. Verse 11 shows Isaiah crying out to the LORD and the LORD doing it. Read the end of verse 10.",
+        "takeaway": "The LORD brought the shadow backward ten degrees on the sundial of Ahaz."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 20",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hezekiah turned his face to the wall and prayed. The LORD said He had heard his prayer. What did He say He had seen?",
+        "child": "Hezekiah prayed when he was very sick. God said He heard the prayer. What did God say He saw?",
+        "teen": "In 2 Kings 20:5 the LORD tells Hezekiah, \"I have heard your prayer.\" What else does He say He has seen?",
+        "older": "According to 2 Kings 20:5, besides hearing Hezekiah's prayer, what had the LORD seen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your sackcloth"
+        },
+        {
+          "id": "b",
+          "text": "Your offerings"
+        },
+        {
+          "id": "c",
+          "text": "Your tears"
+        },
+        {
+          "id": "d",
+          "text": "Your fasting"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 20:3",
+            "text": "“Remember now, O LORD, I pray, how I have walked before You in truth and with a loyal heart, and have done what was good in Your sight.” And Hezekiah wept bitterly.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 20:5",
+            "text": "“Return and tell Hezekiah the leader of My people, ‘Thus says the LORD, the God of David your father: “I have heard your prayer, I have seen your tears; surely I will heal you. On the third day you shall go up to the house of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 20:5 pairs what the LORD heard with what He saw. Read right after \"I have seen.\"",
+          "child": "Read 2 Kings 20:5. Look at the words right after \"I have seen.\"",
+          "teen": "In 20:5 the LORD answers Hezekiah's prayer from 20:2-3. Find the second thing He mentions.",
+          "older": "The LORD's reply in 20:5 has two parallel clauses; read the second, after \"I have seen.\""
+        },
+        "extended_explanation": "Hezekiah prayed that the LORD would remember how he had walked before Him in truth. The LORD's answer in verse 5 shows He noticed more than Hezekiah's words. Read what follows \"I have seen.\"",
+        "takeaway": "The LORD said to Hezekiah, \"I have heard your prayer, I have seen your tears.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 19",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Hezekiah not to fear the Assyrian king's words and said the king would return to his own land. Where did Sennacherib end up?",
+        "child": "God told Hezekiah not to be afraid, because the Assyrian king would go back home. Where did Sennacherib go and stay?",
+        "teen": "Isaiah's message in 2 Kings 19:6-7 says the king of Assyria will hear a rumor and go home. According to 19:36, where did he remain?",
+        "older": "Connect the LORD's word in 2 Kings 19:6-7 with its fulfillment in 19:36. Where did Sennacherib remain?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Damascus"
+        },
+        {
+          "id": "b",
+          "text": "Nineveh"
+        },
+        {
+          "id": "c",
+          "text": "Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "Egypt"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 19:6",
+            "text": "And Isaiah said to them, “Thus you shall say to your master, ‘Thus says the LORD: “Do not be afraid of the words which you have heard, with which the servants of the king of Assyria have blasphemed Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 19:7",
+            "text": "Surely I will send a spirit upon him, and he shall hear a rumor and return to his own land; and I will cause him to fall by the sword in his own land.” ’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 19:36",
+            "text": "So Sennacherib king of Assyria departed and went away, returned home, and remained at Nineveh.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2 Kings 19:7 and then 19:36. The city where he stayed is the last word of 19:36.",
+          "child": "Look at the end of 2 Kings 19:36. It names the place where the king stayed.",
+          "teen": "19:7 says he would return to his own land. 19:36 names the city where he remained.",
+          "older": "19:36 fulfills the word of 19:7; the final clause names his place of residence."
+        },
+        "extended_explanation": "The Assyrians had boasted that no god could save Jerusalem. Through the prophet, the LORD told Hezekiah not to be afraid and said the king of Assyria would go back to his own land. 2 Kings 19:36 shows it happening. Read the last words of that verse.",
+        "takeaway": "Sennacherib went home and remained at Nineveh, just as the LORD had said."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 19",
+      "topics": [
+        "hezekiah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hezekiah took the Assyrian letter into the house of the LORD and spread it before Him. In his prayer, what did he ask that all the kingdoms of the earth would know?",
+        "child": "Hezekiah laid the threatening letter out before God and prayed. What did he want every kingdom on earth to learn?",
+        "teen": "2 Kings 19:14 shows Hezekiah spreading the letter before the LORD; 19:19 ends his prayer with a purpose. What should all kingdoms know?",
+        "older": "Connecting 2 Kings 19:14 and 19:19, what was Hezekiah's stated purpose for asking to be saved?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You share the throne with other gods"
+        },
+        {
+          "id": "b",
+          "text": "You will also bless the king of Assyria"
+        },
+        {
+          "id": "c",
+          "text": "You dwell in many temples on earth"
+        },
+        {
+          "id": "d",
+          "text": "You are the LORD God, You alone"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 19:14",
+            "text": "And Hezekiah received the letter from the hand of the messengers, and read it; and Hezekiah went up to the house of the LORD, and spread it before the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 19:19",
+            "text": "Now therefore, O LORD our God, I pray, save us from his hand, that all the kingdoms of the earth may know that You are the LORD God, You alone.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2 Kings 19:19, after \"may know that.\"",
+          "child": "Look at the last words of Hezekiah's prayer in 2 Kings 19:19, right after \"may know that.\"",
+          "teen": "In 19:19 Hezekiah asks to be saved, but for a reason bigger than himself. Read what follows \"may know that.\"",
+          "older": "The purpose clause beginning \"that all the kingdoms of the earth may know\" closes 19:19. Read that clause to the end."
+        },
+        "extended_explanation": "Hezekiah did not answer the threatening letter with threats of his own. 2 Kings 19:14 shows him taking it to the house of the LORD and spreading it out. His prayer ends in verse 19 with a reason for asking to be saved. Read the words after \"may know that.\"",
+        "takeaway": "Hezekiah prayed that all the kingdoms of the earth would know that the LORD is God alone."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

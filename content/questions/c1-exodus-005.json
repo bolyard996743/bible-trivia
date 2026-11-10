@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-exodus-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-exo-0019",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 15",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Marah the water was too bitter to drink. What did the LORD show Moses to throw into the water to make it sweet?",
+        "child": "The water at Marah tasted bitter. What did God show Moses to throw into the water?",
+        "teen": "When Moses cried out at Marah, the LORD showed him something to cast into the bitter water. What was it?",
+        "older": "According to Exodus 15:25, what did the LORD show Moses to cast into the waters of Marah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A stone"
+        },
+        {
+          "id": "b",
+          "text": "A tree"
+        },
+        {
+          "id": "c",
+          "text": "Salt"
+        },
+        {
+          "id": "d",
+          "text": "His rod"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 15:23",
+            "text": "Now when they came to Marah, they could not drink the waters of Marah, for they were bitter. Therefore the name of it was called Marah.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 15:25",
+            "text": "So he cried out to the LORD, and the LORD showed him a tree. When he cast it into the waters, the waters were made sweet. There He made a statute and an ordinance for them, and there He tested them,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 15:25 says Moses cried out and the LORD showed him something. It is named right after \"showed him.\"",
+          "child": "Read Exodus 15:25. Look right after the words \"the LORD showed him.\"",
+          "teen": "15:23 explains the problem and 15:25 the solution. The object is named before \"When he cast it.\"",
+          "older": "The object is named immediately after \"showed him\" in 15:25, and the result follows: the waters were made sweet."
+        },
+        "extended_explanation": "The people had found no water for days, and when they reached Marah the water there was bitter. In Exodus 15:25 Moses cried out to the LORD, who showed him what to cast into the water. Read the words right after \"the LORD showed him.\"",
+        "takeaway": "The LORD showed Moses a tree, and when he cast it in, the waters were made sweet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-exo-0020",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 16",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God promised meat at twilight. What came up in the evening and covered the camp?",
+        "child": "God promised His hungry people meat in the evening. What came and covered the camp?",
+        "teen": "Exodus 16:13 tells what covered the camp in the evening. What was it?",
+        "older": "According to Exodus 16:13, what came up at evening and covered the camp?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Locusts"
+        },
+        {
+          "id": "b",
+          "text": "Doves"
+        },
+        {
+          "id": "c",
+          "text": "Ravens"
+        },
+        {
+          "id": "d",
+          "text": "Quail"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 16:13",
+            "text": "So it was that quail came up at evening and covered the camp, and in the morning the dew lay all around the camp.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 16:13 names what came in the evening before describing the morning dew. Read the beginning of the verse.",
+          "child": "Read the start of Exodus 16:13. It names what came in the evening.",
+          "teen": "16:13 tells about the evening first and the morning second. The evening arrival is named first.",
+          "older": "The first clause of 16:13 records the evening provision; the dew belongs to the morning."
+        },
+        "extended_explanation": "The people complained that they had eaten meat to the full in Egypt. God answered with food at evening and in the morning. Exodus 16:13 tells what came first, in the evening. Read the opening words.",
+        "takeaway": "In the evening quail came up and covered the camp."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 16",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the morning dew lifted, a small round substance lay on the ground. What did the people say to one another when they saw it?",
+        "child": "One morning the people found something small and round on the ground. What did they ask each other?",
+        "teen": "Exodus 16:15 explains that the people did not know what they were seeing. What did they ask one another?",
+        "older": "According to Exodus 16:15, what question did the Israelites ask each other when they first saw the substance?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "What is it?"
+        },
+        {
+          "id": "b",
+          "text": "Who sent this?"
+        },
+        {
+          "id": "c",
+          "text": "Can we eat this?"
+        },
+        {
+          "id": "d",
+          "text": "Where did this come from?"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 16:14",
+            "text": "And when the layer of dew lifted, there, on the surface of the wilderness, was a small round substance, as fine as frost on the ground.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 16:15",
+            "text": "So when the children of Israel saw it, they said to one another, “What is it?” For they did not know what it was. And Moses said to them, “This is the bread which the LORD has given you to eat.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 16:15 quotes the people's question and then explains why they asked it.",
+          "child": "Read Exodus 16:15. The people's question is right after \"they said to one another.\"",
+          "teen": "The people's question in 16:15 is followed by \"For they did not know.\" Read what comes before that.",
+          "older": "The quotation in 16:15 is followed by an explanation of why they asked it and by Moses' answer."
+        },
+        "extended_explanation": "After the dew lifted, the people saw something as fine as frost on the ground. Exodus 16:15 records their first reaction and Moses' explanation that it was bread from the LORD. Read the words they spoke to one another.",
+        "takeaway": "The people asked, “What is it?” and Moses told them it was the bread the LORD had given."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 16",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses said no one should keep any of the bread until morning, but some did not listen. What happened to what they kept?",
+        "child": "Moses told the people not to save any of the bread for the next day. Some people did anyway. What happened?",
+        "teen": "Exodus 16:20 tells what happened when some people ignored Moses' instruction. What happened to the leftover bread?",
+        "older": "According to Exodus 16:20, what became of the portion some people kept until morning against Moses' word?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It turned to stone"
+        },
+        {
+          "id": "b",
+          "text": "It was eaten by birds"
+        },
+        {
+          "id": "c",
+          "text": "It bred worms and stank"
+        },
+        {
+          "id": "d",
+          "text": "It vanished when the sun rose"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 16:19",
+            "text": "And Moses said, “Let no one leave any of it till morning.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 16:20",
+            "text": "Notwithstanding they did not heed Moses. But some of them left part of it until morning, and it bred worms and stank. And Moses was angry with them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 16:20 describes what happened to the leftovers before telling how Moses reacted. Read the middle of the verse.",
+          "child": "Read Exodus 16:20. Look after the words \"until morning.\"",
+          "teen": "16:19 gives the rule and 16:20 the result. The result comes just before Moses' anger.",
+          "older": "The result in 16:20 is stated in two verbs before the note that Moses was angry."
+        },
+        "extended_explanation": "God gave enough for each day and asked the people to trust Him for tomorrow. Exodus 16:19-20 shows what happened when some held on to part of it overnight. Read what the verse says came of it.",
+        "takeaway": "The bread kept overnight bred worms and stank; God's daily provision was meant to be trusted day by day."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 17",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Rephidim the people quarreled with Moses over water and tested the LORD. What question did they ask?",
+        "child": "The people argued with Moses about water and tested God. What question did they ask?",
+        "teen": "The place where the people tested the LORD was named Massah and Meribah. What question did they ask there?",
+        "older": "According to Exodus 17:7, with what question did the people tempt the LORD at Massah and Meribah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Will the LORD give us meat?"
+        },
+        {
+          "id": "b",
+          "text": "Is the LORD among us or not?"
+        },
+        {
+          "id": "c",
+          "text": "How long must we wander here?"
+        },
+        {
+          "id": "d",
+          "text": "Who will lead us back to Egypt?"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 17:7",
+            "text": "So he called the name of the place Massah and Meribah, because of the contention of the children of Israel, and because they tempted the LORD, saying, “Is the LORD among us or not?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 17:7 explains the two names and ends with the people's own words. Read the quotation at the end.",
+          "child": "Read the end of Exodus 17:7. The people's question is in quotation marks.",
+          "teen": "17:7 gives two reasons for the names: quarreling and testing. The testing is shown by a question at the end.",
+          "older": "The closing quotation in 17:7 shows exactly how the people tempted the LORD."
+        },
+        "extended_explanation": "The LORD had given bread every morning, yet at Rephidim the people quarreled about water. Exodus 17:7 tells why the place received two names and quotes the question they used to test the LORD. Read the end of the verse.",
+        "takeaway": "The people tested the LORD by asking, “Is the LORD among us or not?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 17",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Joshua defeated Amalek, Moses built an altar. What name did he give it?",
+        "child": "After the battle, Moses built an altar and gave it a special name. What was the name?",
+        "teen": "Exodus 17:15 records the name Moses gave his altar after the victory over Amalek. What was it?",
+        "older": "What name did Moses give the altar he built in Exodus 17:15?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The-LORD-Is-My-Banner"
+        },
+        {
+          "id": "b",
+          "text": "The-LORD-Will-Provide"
+        },
+        {
+          "id": "c",
+          "text": "The-LORD-Is-Peace"
+        },
+        {
+          "id": "d",
+          "text": "The-LORD-Our-Shield-Forever"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 17:15",
+            "text": "And Moses built an altar and called its name, The-LORD-Is-My-Banner;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 17:15 gives the altar's name right after \"called its name.\"",
+          "child": "Read Exodus 17:15. The name comes after the words \"called its name.\"",
+          "teen": "The name in 17:15 is written as one hyphenated title that speaks about the LORD.",
+          "older": "The altar's name at the end of 17:15 is a short confession about the LORD."
+        },
+        "extended_explanation": "Israel's victory over Amalek did not come by Israel's strength alone. Moses marked it by building an altar and giving it a name that pointed to the LORD. Read the end of Exodus 17:15.",
+        "takeaway": "Moses called the altar The-LORD-Is-My-Banner."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 16",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the sixth day, how much did the people gather compared with other days? Exodus 16:29 explains why.",
+        "child": "On the sixth day of the week, how much bread did the people gather compared to other days?",
+        "teen": "Exodus 16:22 tells how much was gathered on the sixth day, and 16:29 explains the reason. How much was it?",
+        "older": "Reading Exodus 16:22 with 16:29, how much did the people gather on the sixth day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Half as much"
+        },
+        {
+          "id": "b",
+          "text": "None at all"
+        },
+        {
+          "id": "c",
+          "text": "Three times as much"
+        },
+        {
+          "id": "d",
+          "text": "Twice as much"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 16:22",
+            "text": "And so it was, on the sixth day, that they gathered twice as much bread, two omers for each one. And all the rulers of the congregation came and told Moses.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 16:29",
+            "text": "See! For the LORD has given you the Sabbath; therefore He gives you on the sixth day bread for two days. Let every man remain in his place; let no man go out of his place on the seventh day.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 16:22 names the amount, and 16:29 gives the Sabbath reason no one needed to go out on the seventh day.",
+          "child": "Read the start of Exodus 16:22. It tells how much bread they gathered on the sixth day.",
+          "teen": "16:29 explains why: the LORD had given the Sabbath, so no one needed to go out on the seventh day. 16:22 states the amount in words.",
+          "older": "Verse 29 explains the Sabbath reason and says no one needed to go out on the seventh day; verse 22 states the amount as a comparison with daily gathering."
+        },
+        "extended_explanation": "God gave the Sabbath as a day of rest. Exodus 16:29 explains that reason and says no one needed to go out on the seventh day. Exodus 16:22 tells how much the people gathered on the sixth day. Read the first part of verse 22.",
+        "takeaway": "On the sixth day the people gathered twice as much, so they could rest on the Sabbath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-exo-0013",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 17",
+      "topics": [
+        "manna-water-amalek"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Moses held up his hand, Israel prevailed against Amalek. When his hands grew heavy, who supported them?",
+        "child": "While Moses kept his hands up, Israel was winning the battle. When his arms got tired, who held them up?",
+        "teen": "Exodus 17:11 explains why Moses' raised hands mattered. According to 17:12, who kept them steady until sunset?",
+        "older": "Linking Exodus 17:11 with 17:12, who supported Moses' hands so they stayed steady until the going down of the sun?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Joshua and Caleb"
+        },
+        {
+          "id": "b",
+          "text": "Two of the elders"
+        },
+        {
+          "id": "c",
+          "text": "Aaron and Hur"
+        },
+        {
+          "id": "d",
+          "text": "Miriam and Joshua"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 17:11",
+            "text": "And so it was, when Moses held up his hand, that Israel prevailed; and when he let down his hand, Amalek prevailed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 17:12",
+            "text": "But Moses’ hands became heavy; so they took a stone and put it under him, and he sat on it. And Aaron and Hur supported his hands, one on one side, and the other on the other side; and his hands were steady until the going down of the sun.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 17:12 says they put a stone under Moses and then names the two men who held his hands. Read the middle of the verse.",
+          "child": "Read Exodus 17:12. Find the word \"supported.\" The two names come right before it.",
+          "teen": "17:11 shows what happened when Moses' hands dropped. 17:12 names the two who helped, one on each side.",
+          "older": "The two helpers are named before \"supported his hands\" in 17:12, one on each side."
+        },
+        "extended_explanation": "The battle below depended on what happened on the hilltop. Exodus 17:11 shows that Israel prevailed while Moses' hand was raised. When he grew tired, 17:12 tells how others helped him, one on each side, until sunset. Read the names in that verse.",
+        "takeaway": "Aaron and Hur held up Moses' hands until the going down of the sun."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

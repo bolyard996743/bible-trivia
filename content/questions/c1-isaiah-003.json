@@ -1,0 +1,507 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-isa-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 7",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 7:14 says the Lord Himself will give a sign: the virgin shall conceive and bear a Son. What name will He be called?",
+        "child": "Isaiah said God Himself would give a sign: a Son would be born. What name would the Son be called?",
+        "teen": "Isaiah 7:14 announces a sign from the Lord Himself and a Son to be born. What is the name given?",
+        "older": "According to Isaiah 7:14, what name shall be given to the Son who is born as the Lord's sign?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ishmael"
+        },
+        {
+          "id": "b",
+          "text": "Immanuel"
+        },
+        {
+          "id": "c",
+          "text": "Nathaniel"
+        },
+        {
+          "id": "d",
+          "text": "Samuel"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 7:14",
+            "text": "Therefore the Lord Himself will give you a sign: Behold, the virgin shall conceive and bear a Son, and shall call His name Immanuel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The name is the last word of Isaiah 7:14, right after \"shall call His name.\"",
+          "child": "Look at the very end of Isaiah 7:14. The name comes right after \"shall call His name.\"",
+          "teen": "7:14 describes the sign and then gives the name in its final words. Read the end of the verse.",
+          "older": "The verse closes by stating the name; read the words after \"shall call His name.\""
+        },
+        "extended_explanation": "Isaiah 7:14 is introduced as a sign that the Lord Himself would give. The verse describes a Son to be born and ends by telling what He would be called. Read the last words of the verse.",
+        "takeaway": "The Son would be called Immanuel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-isa-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 7",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told a king of Judah to ask for a sign, either in the depth or in the height above. Which king refused, saying he would not test the LORD?",
+        "child": "God offered to give a king a sign, as big as he wanted. The king said no. Who was he?",
+        "teen": "In Isaiah 7:10-12, the LORD invites a king to ask for any sign, and the king declines. Who was the king?",
+        "older": "According to Isaiah 7:10-12, to whom did the LORD speak, offering a sign that was then refused?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jotham"
+        },
+        {
+          "id": "b",
+          "text": "Josiah"
+        },
+        {
+          "id": "c",
+          "text": "Manasseh"
+        },
+        {
+          "id": "d",
+          "text": "Ahaz"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 7:10",
+            "text": "Moreover the LORD spoke again to Ahaz, saying,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 7:11",
+            "text": "“Ask a sign for yourself from the LORD your God; ask it either in the depth or in the height above.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 7:12",
+            "text": "But Ahaz said, “I will not ask, nor will I test the LORD!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The king is named at the end of Isaiah 7:10 and again in 7:12, where he gives his answer.",
+          "child": "Read Isaiah 7:10. The name of the king God spoke to is the last word before \"saying.\"",
+          "teen": "7:10 names the king; 7:12 shows him turning down the offer. Look for the same name in both.",
+          "older": "The addressee is named in 7:10 and identified again as the speaker of the refusal in 7:12."
+        },
+        "extended_explanation": "In Isaiah 7:10-11, the LORD offers a king the chance to ask for a sign from the depth or the height above. In 7:12 the king refuses, saying he will not test the LORD. Read the end of 7:10 for his name.",
+        "takeaway": "Ahaz refused to ask the LORD for a sign."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 9",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 9:2 speaks of people who walked in darkness and dwelt in the shadow of death. What does it say they have seen?",
+        "child": "Isaiah talks about people living in darkness. What does he say they have now seen?",
+        "teen": "9:2 describes people in darkness and in the land of the shadow of death. What has come to them?",
+        "older": "According to Isaiah 9:2, what have the people who walked in darkness seen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A great light"
+        },
+        {
+          "id": "b",
+          "text": "A pillar of fire"
+        },
+        {
+          "id": "c",
+          "text": "A bright new star"
+        },
+        {
+          "id": "d",
+          "text": "A new morning"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 9:2",
+            "text": "The people who walked in darkness Have seen a great light; Those who dwelt in the land of the shadow of death, Upon them a light has shined.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Isaiah 9:2, right after \"Have seen.\"",
+          "child": "Look at the start of Isaiah 9:2. What the people saw comes right after \"Have seen.\"",
+          "teen": "9:2 says the same thing twice in two ways. Read the end of the first line.",
+          "older": "The first half of 9:2 names what was seen; the second half restates it in other words."
+        },
+        "extended_explanation": "Isaiah 9:2 describes people living in darkness and in the land of the shadow of death. The verse then tells what has come to them, and its second half says the same thing again in different words. Read what comes after \"Have seen.\"",
+        "takeaway": "The people who walked in darkness have seen a great light."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 9",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 9:6 says a Child is born and the government will be upon His shoulder. Which of these is one of the names He will be called?",
+        "child": "Isaiah 9:6 gives several names for the Child who is born. Which of these is one of them?",
+        "teen": "9:6 ends with a list of names for the Son who is given. Which choice appears in that list?",
+        "older": "According to Isaiah 9:6, which of the following is among the names by which the Child will be called?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Prince of Israel"
+        },
+        {
+          "id": "b",
+          "text": "Lord of the Harvest"
+        },
+        {
+          "id": "c",
+          "text": "Prince of Peace"
+        },
+        {
+          "id": "d",
+          "text": "Shepherd of Judah"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 9:6",
+            "text": "For unto us a Child is born, Unto us a Son is given; And the government will be upon His shoulder. And His name will be called Wonderful, Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah 9:6 ends with a list of names after \"His name will be called.\" Compare each choice with that list.",
+          "child": "Read the end of Isaiah 9:6. Check each choice against the names listed there.",
+          "teen": "9:6 lists the names after \"His name will be called.\" Only one choice is in that list.",
+          "older": "Compare the choices with the series of titles that closes 9:6."
+        },
+        "extended_explanation": "Isaiah 9:6 celebrates a Child born and a Son given, and says the government will rest on His shoulder. The verse ends with a list of names He will be called. Read the list and compare it with the choices.",
+        "takeaway": "One of His names is Prince of Peace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 11",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 11:6 pictures the wolf dwelling with the lamb and the leopard lying down with the young goat. Who does it say will lead them?",
+        "child": "In Isaiah's picture, wild animals and tame animals live together. Who leads them?",
+        "teen": "11:6 lists animals that are usually enemies now resting together. Who leads them?",
+        "older": "According to Isaiah 11:6, who shall lead the calf, the young lion, and the fatling together?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A gentle shepherd"
+        },
+        {
+          "id": "b",
+          "text": "A little child"
+        },
+        {
+          "id": "c",
+          "text": "A young king"
+        },
+        {
+          "id": "d",
+          "text": "A wise old man"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 11:6",
+            "text": "“The wolf also shall dwell with the lamb, The leopard shall lie down with the young goat, The calf and the young lion and the fatling together; And a little child shall lead them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of Isaiah 11:6, after \"And.\"",
+          "child": "Look at the very end of Isaiah 11:6. It tells who leads all these animals.",
+          "teen": "11:6 lists animals in pairs, then names a leader in the last line. Read it.",
+          "older": "The final clause of 11:6 names the one who leads; read it closely."
+        },
+        "extended_explanation": "Isaiah 11:6-9 describes a time when animals that are enemies now will live together, and the earth will be full of the knowledge of the LORD. Verse 6 ends by telling who will lead them. Read the last line of the verse.",
+        "takeaway": "A little child shall lead them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 53",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 53:2 describes how the Servant would grow up before the LORD. What does it say He would grow up as?",
+        "child": "Isaiah 53:2 uses a picture to describe how the Servant would grow up. What is the first picture?",
+        "teen": "53:2 gives two pictures of how the Servant would grow up. What is the first one?",
+        "older": "According to Isaiah 53:2, the Servant would grow up before Him as what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mighty cedar"
+        },
+        {
+          "id": "b",
+          "text": "A strong oak"
+        },
+        {
+          "id": "c",
+          "text": "A tall palm tree"
+        },
+        {
+          "id": "d",
+          "text": "A tender plant"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 53:2",
+            "text": "For He shall grow up before Him as a tender plant, And as a root out of dry ground. He has no form or comeliness; And when we see Him, There is no beauty that we should desire Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Isaiah 53:2, right after \"grow up before Him as.\"",
+          "child": "Look at the start of Isaiah 53:2. The picture comes right after \"grow up before Him as.\"",
+          "teen": "53:2 gives two pictures, one after the other. Read the first one.",
+          "older": "The first simile in 53:2 follows \"before Him as\"; read it closely."
+        },
+        "extended_explanation": "Isaiah 53:2 uses two pictures for how the Servant would grow up before the LORD. Read the first one, right after \"grow up before Him as.\"",
+        "takeaway": "The Servant would grow up before Him as a tender plant."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 11",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 11:1 says a Rod will come from the stem of Jesse, and 11:10 calls Him the Root of Jesse. According to 11:10, what will He stand as for the people?",
+        "child": "Isaiah 11 begins and ends by talking about someone from Jesse's family. In 11:10, what does it say He will stand as for the people?",
+        "teen": "11:1 promises a Branch from Jesse's roots; 11:10 returns to the Root of Jesse. What will He stand as in 11:10?",
+        "older": "Connecting Isaiah 11:1 with 11:10, what will the Root of Jesse stand as to the people, so that the Gentiles seek Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A banner"
+        },
+        {
+          "id": "b",
+          "text": "A wall"
+        },
+        {
+          "id": "c",
+          "text": "A shield"
+        },
+        {
+          "id": "d",
+          "text": "A watchtower"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 11:1",
+            "text": "There shall come forth a Rod from the stem of Jesse, And a Branch shall grow out of his roots.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 11:10",
+            "text": "“And in that day there shall be a Root of Jesse, Who shall stand as a banner to the people; For the Gentiles shall seek Him, And His resting place shall be glorious.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah 11:10 says what the Root of Jesse will do. Read the words after \"Who shall stand as.\"",
+          "child": "Read Isaiah 11:10. Look right after \"Who shall stand as.\"",
+          "teen": "11:1 is about where He comes from; 11:10 is about what He will be for the people. Read the phrase after \"stand as.\"",
+          "older": "The role is named in 11:10 right after \"stand as,\" followed by \"to the people.\""
+        },
+        "extended_explanation": "Isaiah 11:1 says a Rod will come forth from the stem of Jesse, and a Branch will grow from his roots. Verse 10 returns to the same picture, calling Him the Root of Jesse, and says the Gentiles will seek Him. Read the words right after \"Who shall stand as.\"",
+        "takeaway": "The Root of Jesse shall stand as a banner to the people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 52",
+      "topics": [
+        "isaiah-coming-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 52:13 opens by saying God's Servant will be exalted and very high. At the close of the passage, 53:12 says He bore the sin of many. What else does 53:12 say He did for the transgressors?",
+        "child": "The Servant passage begins by saying God's Servant will be lifted very high, and ends by saying He bore the sin of many. What else did He do for the transgressors?",
+        "teen": "52:13 begins the Servant passage; 53:12 ends it. Besides bearing the sin of many, what does the last line say He did for the transgressors?",
+        "older": "Reading Isaiah 52:13 with 53:12, what does the final line of the passage say the Servant did for the transgressors?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brought them to judgment"
+        },
+        {
+          "id": "b",
+          "text": "Sent them into exile"
+        },
+        {
+          "id": "c",
+          "text": "Made intercession"
+        },
+        {
+          "id": "d",
+          "text": "Gave them a new name"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 52:13",
+            "text": "Behold, My Servant shall deal prudently; He shall be exalted and extolled and be very high.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 53:12",
+            "text": "Therefore I will divide Him a portion with the great, And He shall divide the spoil with the strong, Because He poured out His soul unto death, And He was numbered with the transgressors, And He bore the sin of many, And made intercession for the transgressors.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of Isaiah 53:12, right after \"And.\"",
+          "child": "Look at the very end of Isaiah 53:12. It tells one more thing the Servant did for the transgressors.",
+          "teen": "52:13 says the Servant will be exalted. 53:12 ends with what He does for others. Read the final line.",
+          "older": "The passage closes in 53:12 with one more action of the Servant; read the last clause."
+        },
+        "extended_explanation": "The Servant passage begins in 52:13 with God saying His Servant will deal prudently and be exalted. It ends in 53:12 with God giving Him a portion with the great, and with a list of what the Servant did. Read the last line for what He did for the transgressors.",
+        "takeaway": "The Servant made intercession for the transgressors."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}
