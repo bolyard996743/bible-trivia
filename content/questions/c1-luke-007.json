@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0035",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 24",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the same day Jesus rose, two of His followers were traveling to a village about seven miles away. What was the village called?",
+        "child": "Two of Jesus' followers were walking to a small village about seven miles away. What was the name of the village?",
+        "teen": "Luke 24:13 names the village two disciples were walking to that same day. Which village was it?",
+        "older": "According to Luke 24:13, to what village were the two disciples traveling that same day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Emmaus"
+        },
+        {
+          "id": "b",
+          "text": "Bethlehem"
+        },
+        {
+          "id": "c",
+          "text": "Jericho"
+        },
+        {
+          "id": "d",
+          "text": "Capernaum"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 24:13",
+            "text": "Now behold, two of them were traveling that same day to a village called Emmaus, which was seven miles from Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The village is named in the middle of Luke 24:13, right after \"a village called.\"",
+          "child": "Look at Luke 24:13. The name comes right after the words \"a village called.\"",
+          "teen": "24:13 gives the day, the travelers, the village, and the distance. Read the name after \"called.\"",
+          "older": "The place name follows \"a village called\" in 24:13, just before the distance is given."
+        },
+        "extended_explanation": "Luke 24:13 begins the account of two disciples walking home on the day of the resurrection. The verse names their destination and says how far away it was. Read the words right after \"a village called.\"",
+        "takeaway": "The two disciples were traveling to a village called Emmaus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-jhn-0031",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 21",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the appearances behind shut doors, Jesus showed Himself again to His disciples. Where did this happen?",
+        "child": "Jesus appeared to His disciples another time, this time beside some water. Where was it?",
+        "teen": "John 21:1 says Jesus showed Himself again to the disciples. At what place?",
+        "older": "According to John 21:1, at what place did Jesus show Himself again to the disciples?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Jordan River"
+        },
+        {
+          "id": "b",
+          "text": "The Sea of Tiberias"
+        },
+        {
+          "id": "c",
+          "text": "The Pool of Bethesda"
+        },
+        {
+          "id": "d",
+          "text": "The Mount of Olives"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 21:1",
+            "text": "After these things Jesus showed Himself again to the disciples at the Sea of Tiberias, and in this way He showed Himself:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The place is named in the middle of John 21:1, right after \"to the disciples at.\"",
+          "child": "Look at John 21:1. The place comes right after \"again to the disciples at.\"",
+          "teen": "21:1 says Jesus showed Himself again and then names where. Read the words after \"at.\"",
+          "older": "The location follows \"to the disciples at\" in 21:1, before the verse says \"in this way He showed Himself.\""
+        },
+        "extended_explanation": "Near the end of John 20, Jesus appears to the disciples behind shut doors. John 21 moves to a new place, where several disciples had gone fishing. Read John 21:1 and look for the place named right after \"to the disciples at.\"",
+        "takeaway": "Jesus showed Himself again to the disciples at the Sea of Tiberias."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-luk-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 24",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the two disciples recognized Jesus at the table and He vanished, they looked back on the walk. What did they say their heart did while He talked with them on the road?",
+        "child": "Once Jesus disappeared from the table, the two disciples talked about how they had felt while He explained the Scriptures on the road. What did they say their heart did?",
+        "teen": "In Luke 24:32, the two disciples look back on the road after Jesus vanished. What do they say their heart did as He opened the Scriptures?",
+        "older": "According to Luke 24:32, what did the disciples ask one another their heart had done while He talked with them on the road?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Faint within us"
+        },
+        {
+          "id": "b",
+          "text": "Tremble within us"
+        },
+        {
+          "id": "c",
+          "text": "Burn within us"
+        },
+        {
+          "id": "d",
+          "text": "Break within us"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 24:31",
+            "text": "Then their eyes were opened and they knew Him; and He vanished from their sight.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 24:32",
+            "text": "And they said to one another, “Did not our heart burn within us while He talked with us on the road, and while He opened the Scriptures to us?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the question the two disciples ask in Luke 24:32, right after \"Did not our heart.\"",
+          "child": "Look at Luke 24:32. Their words start with \"Did not our heart.\" Read what comes next.",
+          "teen": "24:31 is the moment they knew Him; 24:32 looks back on the road. Read the words after \"our heart.\"",
+          "older": "The verb follows \"Did not our heart\" in the disciples' question in 24:32."
+        },
+        "extended_explanation": "Earlier on the road, Jesus had explained the Scriptures to the two disciples, but they did not know Him (24:16, 27). After their eyes were opened at the table, they remembered how they felt as He spoke. Read the opening of their question in 24:32.",
+        "takeaway": "They said, \"Did not our heart burn within us while He talked with us on the road?\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 20",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told the disciples, \"As the Father has sent Me, I also send you.\" Then He breathed on them. What did He say?",
+        "child": "Jesus said He was sending His disciples just as the Father had sent Him. Then He breathed on them and said something. What was it?",
+        "teen": "John 20:21-22: right after sending the disciples, Jesus breathed on them and spoke. What did He say?",
+        "older": "According to John 20:22, what did Jesus say when He breathed on the disciples?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Go in peace and sin no more"
+        },
+        {
+          "id": "b",
+          "text": "Watch and pray with Me"
+        },
+        {
+          "id": "c",
+          "text": "Do not tell anyone"
+        },
+        {
+          "id": "d",
+          "text": "Receive the Holy Spirit"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 20:21",
+            "text": "So Jesus said to them again, “Peace to you! As the Father has sent Me, I also send you.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 20:22",
+            "text": "And when He had said this, He breathed on them, and said to them, “Receive the Holy Spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words Jesus speaks in John 20:22, right after \"He breathed on them, and said to them.\"",
+          "child": "Look at John 20:22. Jesus breathed on them, and then His words are in quotation marks.",
+          "teen": "20:21 is the sending; 20:22 is what came with it. Read the quotation in 20:22.",
+          "older": "His words follow \"He breathed on them, and said to them\" in 20:22."
+        },
+        "extended_explanation": "On the evening of the first day, Jesus stood among the disciples behind shut doors and greeted them with peace twice (20:19, 21). He sent them as the Father had sent Him. Then He breathed on them and spoke. Read the quotation in 20:22.",
+        "takeaway": "Jesus breathed on them and said, \"Receive the Holy Spirit.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 20",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Eight days later, Jesus invited Thomas to look at His hands and side and told him to believe. How did Thomas answer?",
+        "child": "Thomas had said he would not believe unless he saw Jesus' wounds. When Jesus showed him and told him to believe, what did Thomas say?",
+        "teen": "In John 20:27-28, Jesus invites Thomas to reach out and believe. What are Thomas's words in reply?",
+        "older": "According to John 20:28, how did Thomas answer Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My Lord and my God"
+        },
+        {
+          "id": "b",
+          "text": "My Master and my King"
+        },
+        {
+          "id": "c",
+          "text": "My Rabbi and my Friend"
+        },
+        {
+          "id": "d",
+          "text": "My Shepherd and my Rock"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 20:27",
+            "text": "Then He said to Thomas, “Reach your finger here, and look at My hands; and reach your hand here, and put it into My side. Do not be unbelieving, but believing.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 20:28",
+            "text": "And Thomas answered and said to Him, “My Lord and my God!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Thomas's whole answer in John 20:28. It is short.",
+          "child": "Look at John 20:28. Thomas's answer is the quotation in that verse.",
+          "teen": "20:27 is Jesus' invitation; 20:28 is Thomas's reply. Read the words in quotation marks.",
+          "older": "Thomas's reply in 20:28 is a brief exclamation; read it in full."
+        },
+        "extended_explanation": "Thomas was not with the others when Jesus first came (20:24), and he said he would not believe without seeing the nail prints (20:25). Eight days later Jesus invited him to look and touch. Read his reply in 20:28.",
+        "takeaway": "Thomas answered, \"My Lord and my God!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-act-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 1",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before He was taken up, the disciples asked Jesus, \"Lord, will You at this time restore the kingdom to Israel?\" What did He say was not for them to know?",
+        "child": "The disciples asked Jesus if He was about to restore the kingdom to Israel right then. Jesus said there were some things it was not for them to know. What were they?",
+        "teen": "Acts 1:6-7: the disciples ask about restoring the kingdom. What does Jesus say is not for them to know?",
+        "older": "According to Acts 1:7, what did Jesus say it was not for the disciples to know?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Days or hours"
+        },
+        {
+          "id": "b",
+          "text": "Times or seasons"
+        },
+        {
+          "id": "c",
+          "text": "Dreams or visions"
+        },
+        {
+          "id": "d",
+          "text": "Signs and wonders"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 1:6",
+            "text": "Therefore, when they had come together, they asked Him, saying, “Lord, will You at this time restore the kingdom to Israel?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 1:7",
+            "text": "And He said to them, “It is not for you to know times or seasons which the Father has put in His own authority.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of Jesus' answer in Acts 1:7, right after \"It is not for you to know.\"",
+          "child": "Look at Acts 1:7. Jesus' words begin with \"It is not for you to know.\" Read the next words.",
+          "teen": "1:6 is the disciples' question; 1:7 is Jesus' reply. Read what follows \"to know.\"",
+          "older": "The object of \"to know\" in 1:7 is set in the Father's own authority."
+        },
+        "extended_explanation": "The disciples wanted to know whether Jesus would restore the kingdom to Israel right away (1:6). Jesus did not give them a date. He said these things are in the Father's own authority. Read the words right after \"It is not for you to know\" in 1:7.",
+        "takeaway": "Jesus said it was not for them to know times or seasons."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-luk-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 24",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before He was carried up, Jesus told the disciples what to do until they were endued with power from on high (Luke 24:49). Afterward the disciples did just what He had said (24:52-53). What had He told them to do?",
+        "child": "Jesus told His disciples to wait somewhere until power from on high came on them. Later they did what He said, with great joy. What had Jesus told them?",
+        "teen": "Luke 24:49 gives an instruction, and 24:52-53 show the disciples keeping it. What did Jesus tell them to do?",
+        "older": "Comparing Luke 24:49 with 24:52-53, what instruction did Jesus give that the disciples then carried out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Go back to their homes in Galilee"
+        },
+        {
+          "id": "b",
+          "text": "Wait in the hills of Judea"
+        },
+        {
+          "id": "c",
+          "text": "Tarry in the city of Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "Climb a mountain in Galilee"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 24:49",
+            "text": "Behold, I send the Promise of My Father upon you; but tarry in the city of Jerusalem until you are endued with power from on high.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 24:52",
+            "text": "And they worshiped Him, and returned to Jerusalem with great joy,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 24:53",
+            "text": "and were continually in the temple praising and blessing God. Amen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of Luke 24:49, right after \"but.\" Then see where the disciples go in 24:52.",
+          "child": "Look at Luke 24:49 after the word \"but.\" Then read 24:52 to see them do it.",
+          "teen": "24:49 gives the instruction after \"but\"; 24:52-53 show where they went and stayed. Match them.",
+          "older": "The command comes right after the word \"but\" in 24:49; 24:52-53 show the disciples doing it."
+        },
+        "extended_explanation": "Jesus promised to send the Promise of His Father upon the disciples, and He told them what to do in the meantime (24:49). After He blessed them and was carried up, they did what He had told them, with great joy and praise. Read the instruction after \"but\" in 24:49.",
+        "takeaway": "Jesus told them to tarry in the city of Jerusalem, and they returned there with great joy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0010",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 21",
+      "topics": [
+        "after-the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After breakfast, Jesus asked Peter, \"Do you love Me?\" and gave him a charge each time Peter answered (John 21:15). When Jesus asked a third time and Peter was grieved (21:17), what did Jesus tell him?",
+        "child": "Jesus asked Peter, \"Do you love Me?\" again and again, and each time Peter said yes. The last time, Peter was sad that Jesus kept asking. What did Jesus tell him then?",
+        "teen": "John 21:15 and 21:17 open and close Jesus' questions to Peter. What charge does Jesus give at the end of 21:17?",
+        "older": "Comparing John 21:15 with 21:17, what charge did Jesus give Peter after the third question?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Guard My house"
+        },
+        {
+          "id": "b",
+          "text": "Build My temple"
+        },
+        {
+          "id": "c",
+          "text": "Keep My vineyard"
+        },
+        {
+          "id": "d",
+          "text": "Feed My sheep"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 21:15",
+            "text": "So when they had eaten breakfast, Jesus said to Simon Peter, “Simon, son of Jonah, do you love Me more than these?” He said to Him, “Yes, Lord; You know that I love You.” He said to him, “Feed My lambs.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 21:17",
+            "text": "He said to him the third time, “Simon, son of Jonah, do you love Me?” Peter was grieved because He said to him the third time, “Do you love Me?” And he said to Him, “Lord, You know all things; You know that I love You.” Jesus said to him, “Feed My sheep.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words Jesus says in John 21:17, after Peter answers \"You know that I love You.\"",
+          "child": "Look at the end of John 21:17. After Peter answers, Jesus gives him a charge.",
+          "teen": "21:15 opens the conversation with a charge; 21:17 closes it. Read the charge at the end of 21:17.",
+          "older": "Each answer from Peter is followed by a charge; read the final one at the close of 21:17."
+        },
+        "extended_explanation": "After breakfast by the sea, Jesus asks Peter about his love, and each time Peter answers, Jesus gives him work to do. Read the charge at the end of 21:17.",
+        "takeaway": "Jesus told Peter, \"Feed My sheep.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

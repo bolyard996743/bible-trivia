@@ -1,0 +1,507 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-leviticus-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-lev-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 19",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 19:18 tells Israel not to take vengeance or bear a grudge. How were they to love their neighbor instead?",
+        "child": "God told His people not to get even or hold a grudge. How did He say to love your neighbor?",
+        "teen": "Instead of revenge or grudges, how does Leviticus 19:18 say to love your neighbor?",
+        "older": "According to Leviticus 19:18, in what measure were the Israelites to love their neighbor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "As your servant"
+        },
+        {
+          "id": "b",
+          "text": "As yourself"
+        },
+        {
+          "id": "c",
+          "text": "As your teacher"
+        },
+        {
+          "id": "d",
+          "text": "Only on the Sabbath"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 19:18",
+            "text": "You shall not take vengeance, nor bear any grudge against the children of your people, but you shall love your neighbor as yourself: I am the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 19:18 moves from what not to do to what to do. Read the end of the verse, just before \"I am the LORD.\"",
+          "child": "Read the end of Leviticus 19:18. Look just before \"I am the LORD.\"",
+          "teen": "The command in 19:18 compares love for a neighbor to something close to home. It comes right after \"love your neighbor.\"",
+          "older": "The comparison that measures neighbor-love is in the final command of 19:18."
+        },
+        "extended_explanation": "Leviticus 19:17-18 deals with hatred, rebuke, vengeance, and grudges. Then the LORD gives a positive command about the neighbor. Read the words right after \"love your neighbor.\"",
+        "takeaway": "God told His people, “You shall love your neighbor as yourself.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-lev-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 23",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "During the Feast of Tabernacles, where were native Israelites to live for seven days?",
+        "child": "At one of God's feasts, His people lived somewhere special for seven days. Where did they live?",
+        "teen": "Leviticus 23:42 tells where Israelites stayed for seven days during the Feast of Tabernacles. Where?",
+        "older": "According to Leviticus 23:42, where were all native Israelites to dwell for seven days?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In tents of skins"
+        },
+        {
+          "id": "b",
+          "text": "Under the open sky"
+        },
+        {
+          "id": "c",
+          "text": "In caves"
+        },
+        {
+          "id": "d",
+          "text": "In booths"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 23:42",
+            "text": "You shall dwell in booths for seven days. All who are native Israelites shall dwell in booths,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 23:42 names the dwelling twice. Read the words after \"You shall dwell.\"",
+          "child": "Read Leviticus 23:42. Find \"You shall dwell\" and see what comes next.",
+          "teen": "23:42 repeats the command in two sentences; the same kind of shelter appears both times.",
+          "older": "The kind of dwelling is stated twice in 23:42, once for the seven days and once for every native Israelite."
+        },
+        "extended_explanation": "The Feast of Tabernacles came after the fruit of the land was gathered in. Leviticus 23:42 tells where the people were to stay for its seven days, and it repeats the instruction for emphasis. Read the words after \"dwell.\"",
+        "takeaway": "During the Feast of Tabernacles, Israelites lived in booths for seven days."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-lev-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 16",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Aaron was told not to come into the Holy Place inside the veil at just any time. What reason did the LORD give?",
+        "child": "God told Aaron he could not go behind the curtain whenever he wanted. Why not?",
+        "teen": "In Leviticus 16:2, the LORD limits when Aaron may go behind the veil. What reason does He give?",
+        "older": "What reason does Leviticus 16:2 give for restricting Aaron's entry behind the veil?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will appear in the cloud"
+        },
+        {
+          "id": "b",
+          "text": "I will speak from the mountain"
+        },
+        {
+          "id": "c",
+          "text": "I will number the people here"
+        },
+        {
+          "id": "d",
+          "text": "I will write the law on stone"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 16:2",
+            "text": "and the LORD said to Moses: “Tell Aaron your brother not to come at just any time into the Holy Place inside the veil, before the mercy seat which is on the ark, lest he die; for I will appear in the cloud above the mercy seat.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 16:2 ends with the LORD's reason, introduced by \"for.\" Read that last clause.",
+          "child": "Look at the end of Leviticus 16:2. Find the word \"for\" — the reason comes after it.",
+          "teen": "16:2 gives a warning (\"lest he die\") and then a reason about the mercy seat. Read the final clause.",
+          "older": "The closing \"for\" clause of 16:2 gives the LORD's own reason, stated after the warning. Read that last clause."
+        },
+        "extended_explanation": "The Holy Place behind the veil held the ark and the mercy seat. Leviticus 16:2 tells Aaron not to enter at just any time, and the last part of the verse explains what the LORD would do above the mercy seat. Read the clause that begins with \"for.\"",
+        "takeaway": "Aaron could not enter at any time, for the LORD would appear in the cloud above the mercy seat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-lev-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 19",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At harvest, Israelites were not to reap the corners of their fields or gather every grape. For whom were they to leave them?",
+        "child": "When farmers harvested, God told them to leave some crops behind. Who were the leftovers for?",
+        "teen": "Leviticus 19:9-10 tells farmers to leave the edges of their fields and some of their grapes. Who was this for?",
+        "older": "In Leviticus 19:9-10, for whom were the corners and gleanings of the harvest to be left?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The priests and Levites"
+        },
+        {
+          "id": "b",
+          "text": "The king's servants"
+        },
+        {
+          "id": "c",
+          "text": "The poor and the stranger"
+        },
+        {
+          "id": "d",
+          "text": "The wild animals of the field"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 19:9",
+            "text": "‘When you reap the harvest of your land, you shall not wholly reap the corners of your field, nor shall you gather the gleanings of your harvest.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 19:10",
+            "text": "And you shall not glean your vineyard, nor shall you gather every grape of your vineyard; you shall leave them for the poor and the stranger: I am the LORD your God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 19:10 names who should receive what was left, just before \"I am the LORD your God.\"",
+          "child": "Read the end of Leviticus 19:10. It tells who the leftovers were for.",
+          "teen": "19:9 says what to leave; 19:10 says who it is for. Look after \"you shall leave them for.\"",
+          "older": "The ones to be provided for are named in the final clause of 19:10, which ends with the LORD's own name."
+        },
+        "extended_explanation": "God built care for others into the harvest itself. Leviticus 19:9-10 says not to reap every corner or gather every grape, and then names the people who should have what was left. Read the words after \"leave them for.\"",
+        "takeaway": "God told Israel to leave part of the harvest for the poor and the stranger."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-lev-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 19",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 19:14 says not to curse the deaf. What were the people not to put before the blind?",
+        "child": "God said not to curse people who cannot hear. What did He say not to put in front of someone who cannot see?",
+        "teen": "Along with not cursing the deaf, what does Leviticus 19:14 forbid putting in front of the blind?",
+        "older": "What does Leviticus 19:14 forbid placing before the blind?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A heavy load"
+        },
+        {
+          "id": "b",
+          "text": "A stumbling block"
+        },
+        {
+          "id": "c",
+          "text": "A locked gate"
+        },
+        {
+          "id": "d",
+          "text": "A false sign on the road"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 19:14",
+            "text": "You shall not curse the deaf, nor put a stumbling block before the blind, but shall fear your God: I am the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 19:14 lists two wrongs against vulnerable people. The second is about the blind; read what is named there.",
+          "child": "Read Leviticus 19:14. Look right after the words \"nor put.\"",
+          "teen": "19:14 says to fear God instead of taking advantage of those who cannot hear or see. The thing forbidden comes after \"nor put.\"",
+          "older": "The second prohibition in 19:14 comes after \"nor put.\" Read what is named there."
+        },
+        "extended_explanation": "Leviticus 19 shows that holiness includes how people treat the weak. Verse 14 forbids taking advantage of the deaf and the blind, and ends by telling the people to fear God. Read the words after \"nor put.\"",
+        "takeaway": "God's people were not to put a stumbling block before the blind, but to fear God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-lev-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 23",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Israel came into the land and reaped its harvest, what were they to bring to the priest to wave before the LORD?",
+        "child": "When the people harvested their first crops in the new land, what were they supposed to bring to the priest?",
+        "teen": "Leviticus 23:10-11 describes the first thing brought from the harvest to be waved before the LORD. What was it?",
+        "older": "According to Leviticus 23:10-11, what was brought to the priest at harvest to be waved before the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A sheaf of the firstfruits"
+        },
+        {
+          "id": "b",
+          "text": "A basket of figs"
+        },
+        {
+          "id": "c",
+          "text": "A jar of the finest olive oil"
+        },
+        {
+          "id": "d",
+          "text": "A coin for each person"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 23:10",
+            "text": "“Speak to the children of Israel, and say to them: ‘When you come into the land which I give to you, and reap its harvest, then you shall bring a sheaf of the firstfruits of your harvest to the priest.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 23:11",
+            "text": "He shall wave the sheaf before the LORD, to be accepted on your behalf; on the day after the Sabbath the priest shall wave it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 23:10 names what was brought from the harvest; 23:11 shows the priest waving it.",
+          "child": "Read the end of Leviticus 23:10. It tells what to bring to the priest.",
+          "teen": "23:10 gives the full description of the gift; 23:11 says when the priest waved it.",
+          "older": "The offering is named at the end of 23:10 and is described as accepted on the people's behalf in 23:11."
+        },
+        "extended_explanation": "This instruction looked ahead to life in the promised land. Leviticus 23:10-11 says that when the people reaped their harvest, they were to bring something from it to the priest, who would wave it before the LORD. Read the last words of verse 10.",
+        "takeaway": "At harvest the people brought a sheaf of the firstfruits to the priest to wave before the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-lev-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 16",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Aaron laid both hands on the live goat and confessed Israel's sins over it. Where did the goat carry all their iniquities?",
+        "child": "Aaron put his hands on a goat and confessed the people's sins over it. Where did the goat take those sins?",
+        "teen": "Leviticus 16:21 shows Aaron confessing over the live goat, and 16:22 says where the goat would bear the iniquities. Where?",
+        "older": "Connecting Leviticus 16:21 with 16:22, to where did the goat bear the people's iniquities?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Into the Holy Place"
+        },
+        {
+          "id": "b",
+          "text": "To the horns of the altar"
+        },
+        {
+          "id": "c",
+          "text": "Back into the camp"
+        },
+        {
+          "id": "d",
+          "text": "To an uninhabited land"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 16:21",
+            "text": "Aaron shall lay both his hands on the head of the live goat, confess over it all the iniquities of the children of Israel, and all their transgressions, concerning all their sins, putting them on the head of the goat, and shall send it away into the wilderness by the hand of a suitable man.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 16:22",
+            "text": "The goat shall bear on itself all their iniquities to an uninhabited land; and he shall release the goat in the wilderness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 16:21 describes the confession; 16:22 says where the goat would carry the iniquities. Read the first sentence of 16:22.",
+          "child": "Read Leviticus 16:22. Look at the words after \"all their iniquities.\"",
+          "teen": "16:21 sends the goat away by the hand of a suitable man; 16:22 describes the place in more detail. Read just after \"iniquities.\"",
+          "older": "Verse 22 adds a detail to verse 21's sending away; the destination is named before the goat is released in the wilderness."
+        },
+        "extended_explanation": "On this day Aaron confessed all the iniquities of the children of Israel over the live goat, and it was sent away. Leviticus 16:22 says where the goat would carry those iniquities. Read the first sentence of that verse.",
+        "takeaway": "The goat bore Israel's iniquities on itself to an uninhabited land."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-lev-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 16",
+      "topics": [
+        "holy-living-atonement"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 16 and 23 both set the day each year when atonement was made for Israel. In which month did it fall?",
+        "child": "God set aside one special day every year to make atonement for His people. Which month was it in?",
+        "teen": "Both Leviticus 16:29 and 23:27 name the month for the Day of Atonement. Which month?",
+        "older": "According to Leviticus 16:29 and 23:27, in which month was the Day of Atonement kept?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The first month"
+        },
+        {
+          "id": "b",
+          "text": "The second month"
+        },
+        {
+          "id": "c",
+          "text": "The seventh month"
+        },
+        {
+          "id": "d",
+          "text": "The eleventh month"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 16:29",
+            "text": "“This shall be a statute forever for you: In the seventh month, on the tenth day of the month, you shall afflict your souls, and do no work at all, whether a native of your own country or a stranger who dwells among you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 23:27",
+            "text": "“Also the tenth day of this seventh month shall be the Day of Atonement. It shall be a holy convocation for you; you shall afflict your souls, and offer an offering made by fire to the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Leviticus 16:29 and 23:27 both name the same month and the same day. Look for the month in each verse.",
+          "child": "Read Leviticus 16:29. The month is named near the beginning, right after \"In the.\"",
+          "teen": "16:29 says \"on the tenth day of the month,\" and 23:27 also names the tenth day. Look at which month both verses mean.",
+          "older": "Both verses fix the observance on the tenth day; the month is named once in each."
+        },
+        "extended_explanation": "The Day of Atonement was a yearly day of solemn rest when no work was done. Leviticus 16:29 and 23:27 give the same date for it, the tenth day of a particular month. Find the month named in each verse.",
+        "takeaway": "The Day of Atonement fell on the tenth day of the seventh month."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

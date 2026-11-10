@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-hebrews-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-heb-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 11",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 11 opens by describing faith: it is the substance of things hoped for and the evidence of what?",
+        "child": "The first verse of Hebrews 11 explains what faith is. Faith is the substance of things we hope for, and the evidence of what?",
+        "teen": "Hebrews 11:1 gives two descriptions of faith. The second calls it the evidence of what?",
+        "older": "According to Hebrews 11:1, faith is the evidence of what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Things not seen"
+        },
+        {
+          "id": "b",
+          "text": "Things to come"
+        },
+        {
+          "id": "c",
+          "text": "Things already done"
+        },
+        {
+          "id": "d",
+          "text": "Things we have earned"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 11:1",
+            "text": "Now faith is the substance of things hoped for, the evidence of things not seen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Hebrews 11:1, right after \"the evidence of.\"",
+          "child": "Look at the last words of Hebrews 11:1. They come right after \"the evidence of.\"",
+          "teen": "11:1 has two parts. The first is about things hoped for. Read the second part to the end.",
+          "older": "The verse is a pair of matching phrases; read the close of the second one, after \"evidence of.\""
+        },
+        "extended_explanation": "Hebrews 11 is a long list of people who lived by faith. Before the list begins, verse 1 describes faith in two matching phrases. The first speaks of things hoped for. Read the second phrase to the end of the verse.",
+        "takeaway": "Faith is the substance of things hoped for, the evidence of things not seen."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-heb-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 11",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 11 says one man was taken away by faith so that he did not see death, because God had taken him. Who was he?",
+        "child": "Hebrews 11 tells of a man God took away so that he never died, and says he pleased God. Who was he?",
+        "teen": "Hebrews 11:5 names a man who was taken away and \"was not found.\" Who?",
+        "older": "According to Hebrews 11:5, who by faith was taken away so that he did not see death?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Noah"
+        },
+        {
+          "id": "b",
+          "text": "Enoch"
+        },
+        {
+          "id": "c",
+          "text": "Methuselah"
+        },
+        {
+          "id": "d",
+          "text": "Lamech"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 11:5",
+            "text": "By faith Enoch was taken away so that he did not see death, “and was not found, because God had taken him”; for before he was taken he had this testimony, that he pleased God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The man is named in the opening words of Hebrews 11:5, right after \"By faith.\"",
+          "child": "Look at the start of Hebrews 11:5. His name comes right after \"By faith.\"",
+          "teen": "11:5 begins like many verses in this chapter: \"By faith\" and then a name. Read it.",
+          "older": "The subject of 11:5 is named immediately after \"By faith.\""
+        },
+        "extended_explanation": "Many verses in Hebrews 11 begin with \"By faith\" followed by a name. Verse 5 speaks of a man God took away so that he did not die, and it says he had a testimony that he pleased God. Read the name at the start of 11:5.",
+        "takeaway": "By faith Enoch was taken away so that he did not see death."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-heb-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 4",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 4:15 says our High Priest can sympathize with our weaknesses and was tempted in all points as we are, yet without sin. How does 4:16 say we should come to the throne of grace?",
+        "child": "Jesus, our High Priest, understands our weaknesses because He was tempted in every way, yet never sinned. So how are we told to come to the throne of grace?",
+        "teen": "4:15 describes the High Priest we have; 4:16 draws the conclusion. How should we come to the throne of grace?",
+        "older": "According to Hebrews 4:16, in what manner should we come to the throne of grace?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quietly"
+        },
+        {
+          "id": "b",
+          "text": "Fearfully"
+        },
+        {
+          "id": "c",
+          "text": "Boldly"
+        },
+        {
+          "id": "d",
+          "text": "Carefully"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 4:15",
+            "text": "For we do not have a High Priest who cannot sympathize with our weaknesses, but was in all points tempted as we are, yet without sin.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 4:16",
+            "text": "Let us therefore come boldly to the throne of grace, that we may obtain mercy and find grace to help in time of need.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of Hebrews 4:16, right after \"Let us therefore come.\"",
+          "child": "Look at the first words of Hebrews 4:16. The way to come is the word right after \"come.\"",
+          "teen": "4:16 begins with \"therefore,\" pointing back to 4:15. Read the word right after \"come.\"",
+          "older": "The manner of approach is the single word that follows \"come\" in 4:16."
+        },
+        "extended_explanation": "Hebrews 4:15 says Jesus is not a High Priest who cannot understand us; He was tempted in every way and did not sin. Verse 16 begins with \"therefore\" and tells how to approach the throne of grace to obtain mercy and find help. Read the word right after \"come.\"",
+        "takeaway": "We should come boldly to the throne of grace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-heb-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 11",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Abraham obeyed when God called him to go out to a place he would receive as an inheritance. What does Hebrews 11:8 add about how he went out?",
+        "child": "God called Abraham to leave home and go to a land that would one day belong to his family. Abraham obeyed. What does Hebrews 11:8 say about how he went?",
+        "teen": "Hebrews 11:8 has two sentences about Abraham's call. What does the second one say about how he left?",
+        "older": "According to the last sentence of Hebrews 11:8, in what condition did Abraham go out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Knowing the whole road ahead"
+        },
+        {
+          "id": "b",
+          "text": "After seeing the land in a dream"
+        },
+        {
+          "id": "c",
+          "text": "Led by a cloud by day"
+        },
+        {
+          "id": "d",
+          "text": "Not knowing where he was going"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 11:8",
+            "text": "By faith Abraham obeyed when he was called to go out to the place which he would receive as an inheritance. And he went out, not knowing where he was going.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of Hebrews 11:8, right after \"And he went out.\"",
+          "child": "Look at the end of Hebrews 11:8. It tells how Abraham went out.",
+          "teen": "The first sentence of 11:8 is about his obedience. Read the second sentence to the end.",
+          "older": "How he went is stated in the phrase that closes 11:8."
+        },
+        "extended_explanation": "Hebrews 11:8 says Abraham obeyed God's call to go out to a place he would later receive. The second sentence adds something about how he went that shows what his faith looked like. Read it to the end.",
+        "takeaway": "Abraham went out, not knowing where he was going."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-heb-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 11",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Moses was grown, he refused to be called the son of Pharaoh's daughter. He chose to suffer affliction with the people of God rather than enjoy what?",
+        "child": "Moses could have lived as a prince in Pharaoh's palace, but he refused. He chose to suffer with God's people instead of enjoying something. What?",
+        "teen": "Hebrews 11:24-25 describes Moses' choice. He chose affliction with God's people rather than what?",
+        "older": "According to Hebrews 11:25, what did Moses choose not to enjoy?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The passing pleasures of sin"
+        },
+        {
+          "id": "b",
+          "text": "The rich food of the palace"
+        },
+        {
+          "id": "c",
+          "text": "The power of Pharaoh's army"
+        },
+        {
+          "id": "d",
+          "text": "The friendship of the Egyptian priests"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 11:24",
+            "text": "By faith Moses, when he became of age, refused to be called the son of Pharaoh’s daughter,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 11:25",
+            "text": "choosing rather to suffer affliction with the people of God than to enjoy the passing pleasures of sin,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Hebrews 11:25, right after \"than to enjoy.\"",
+          "child": "Look at the last words of Hebrews 11:25. They come right after \"to enjoy.\"",
+          "teen": "11:25 compares two choices. Read the second one, after \"rather ... than to enjoy.\"",
+          "older": "The rejected option closes 11:25, following \"than to enjoy.\""
+        },
+        "extended_explanation": "Hebrews 11:24 says Moses refused to be called the son of Pharaoh's daughter. Verse 25 sets two choices side by side. Read the words after \"than to enjoy.\"",
+        "takeaway": "Moses chose to suffer with God's people rather than enjoy the passing pleasures of sin."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-heb-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 12",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After urging readers to run their race and not lose heart, Hebrews 12:12 says, \"Therefore strengthen\" the feeble knees and what else?",
+        "child": "Hebrews 12 encourages tired believers to keep on. It tells them to strengthen their feeble knees and one other thing. What else?",
+        "teen": "In Hebrews 12:12, readers are told to strengthen the feeble knees and what else?",
+        "older": "According to Hebrews 12:12, what are readers to strengthen along with the feeble knees?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The hearts which are afraid"
+        },
+        {
+          "id": "b",
+          "text": "The hands which hang down"
+        },
+        {
+          "id": "c",
+          "text": "The walls which have fallen"
+        },
+        {
+          "id": "d",
+          "text": "The lamps which burn low"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 12:12",
+            "text": "Therefore strengthen the hands which hang down, and the feeble knees,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 12:13",
+            "text": "and make straight paths for your feet, so that what is lame may not be dislocated, but rather be healed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of Hebrews 12:12, right after \"Therefore strengthen.\"",
+          "child": "Look at Hebrews 12:12. The first thing to strengthen comes right after \"strengthen.\"",
+          "teen": "12:12 lists two, joined by \"and.\" Read the first one, before \"the feeble knees.\"",
+          "older": "The first of the two objects of \"strengthen\" in 12:12 precedes \"and the feeble knees.\""
+        },
+        "extended_explanation": "Hebrews 12 uses the picture of a race. Verses 12-13 tell readers who feel worn out to strengthen what is weak and make straight paths for their feet, so that what is lame may be healed. Read the first thing named after \"Therefore strengthen\" in 12:12.",
+        "takeaway": "Strengthen the hands which hang down, and the feeble knees."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-heb-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 11",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 11:13 says these people of faith died not having received the promises, and confessed they were strangers and pilgrims on the earth. According to 11:16, what did they desire?",
+        "child": "The people in Hebrews 11 said they were strangers and travelers on the earth, and they died before they got what was promised. What did they want, according to verse 16?",
+        "teen": "11:13 calls them strangers and pilgrims; 11:16 says what they were really longing for. What was it?",
+        "older": "Connecting Hebrews 11:13 with 11:16, what did those who confessed themselves strangers and pilgrims desire?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A safer place to settle"
+        },
+        {
+          "id": "b",
+          "text": "A land with a strong king"
+        },
+        {
+          "id": "c",
+          "text": "A heavenly country"
+        },
+        {
+          "id": "d",
+          "text": "A rich and fertile land"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 11:13",
+            "text": "These all died in faith, not having received the promises, but having seen them afar off were assured of them, embraced them and confessed that they were strangers and pilgrims on the earth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 11:16",
+            "text": "But now they desire a better, that is, a heavenly country. Therefore God is not ashamed to be called their God, for He has prepared a city for them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of Hebrews 11:16, right after \"a better, that is.\"",
+          "child": "Look at the start of Hebrews 11:16. The verse says what they wanted, right after \"that is.\"",
+          "teen": "11:13 records their confession; read what 11:16 says they desired, after \"that is.\"",
+          "older": "The object of their desire is restated after \"that is\" in the first sentence of 11:16."
+        },
+        "extended_explanation": "Abraham, Isaac, Jacob, and Sarah died before they saw everything God promised (11:13). They said they were strangers and pilgrims on the earth. Verse 16 says what they longed for and adds that God has prepared a city for them. Read the first sentence of 11:16.",
+        "takeaway": "They desired a better, that is, a heavenly country."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-heb-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 12",
+      "topics": [
+        "hebrews-faith-hall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 12:1 says we are surrounded by a great cloud of witnesses and should run with endurance the race set before us. According to 12:2, we run looking unto Jesus. What does that verse call Him?",
+        "child": "After the long list of faithful people, Hebrews 12 says we should run our race with endurance while looking to Jesus. What does verse 2 call Jesus?",
+        "teen": "12:1 pictures a race watched by a cloud of witnesses; 12:2 tells whom to look to. What title does 12:2 give Jesus?",
+        "older": "Linking the race of Hebrews 12:1 with the focus of 12:2, how does 12:2 describe Jesus in relation to our faith?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The judge and lawgiver"
+        },
+        {
+          "id": "b",
+          "text": "The shepherd and guardian"
+        },
+        {
+          "id": "c",
+          "text": "The light and salvation"
+        },
+        {
+          "id": "d",
+          "text": "The author and finisher"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 12:1",
+            "text": "Therefore we also, since we are surrounded by so great a cloud of witnesses, let us lay aside every weight, and the sin which so easily ensnares us, and let us run with endurance the race that is set before us,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 12:2",
+            "text": "looking unto Jesus, the author and finisher of our faith, who for the joy that was set before Him endured the cross, despising the shame, and has sat down at the right hand of the throne of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the beginning of Hebrews 12:2, right after \"looking unto Jesus.\"",
+          "child": "Look at the start of Hebrews 12:2. Jesus' title comes right after His name.",
+          "teen": "12:1 is the race; 12:2 is whom to look to. Read the words right after \"Jesus\" in 12:2.",
+          "older": "The title stands right after \"looking unto Jesus\" in 12:2, before \"who for the joy.\""
+        },
+        "extended_explanation": "The \"cloud of witnesses\" in 12:1 points back to the people of faith in chapter 11. The writer tells readers to lay aside every weight and run with endurance, keeping their eyes on Jesus. Verse 2 describes Jesus with a title that relates Him to our faith. Read the words right after \"looking unto Jesus.\"",
+        "takeaway": "Jesus is the author and finisher of our faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

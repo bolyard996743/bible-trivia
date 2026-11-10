@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-revelation-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rev-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 1",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John says he was on an island \"for the word of God and for the testimony of Jesus Christ\" when he received the visions of Revelation. Which island?",
+        "child": "When John saw the visions in Revelation, he was on an island because he had spoken about God's word and about Jesus. What was the island called?",
+        "teen": "Revelation 1:9 tells where John was when the visions began. What island was it?",
+        "older": "According to Revelation 1:9, on what island was John?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Patmos"
+        },
+        {
+          "id": "b",
+          "text": "Crete"
+        },
+        {
+          "id": "c",
+          "text": "Malta"
+        },
+        {
+          "id": "d",
+          "text": "Samothrace"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 1:9",
+            "text": "I, John, both your brother and companion in the tribulation and kingdom and patience of Jesus Christ, was on the island that is called Patmos for the word of God and for the testimony of Jesus Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of Revelation 1:9, right after \"was on the island that is called.\"",
+          "child": "Look at Revelation 1:9. The island's name comes right after \"the island that is called.\"",
+          "teen": "1:9 says who John is, where he was, and why. Read the name after \"that is called.\"",
+          "older": "The island is named after \"the island that is called\" in 1:9, before the reason he was there."
+        },
+        "extended_explanation": "Revelation 1:9 is where John introduces himself as a brother and companion of the believers. He says where he was and why he was there: for the word of God and the testimony of Jesus Christ. Read the place name after \"the island that is called.\"",
+        "takeaway": "John was on the island called Patmos."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-rev-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 1",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When John saw One like the Son of Man, he fell at His feet as dead. Jesus laid His right hand on him and said, \"Do not be afraid; I am ...\" what?",
+        "child": "John was so overwhelmed when he saw Jesus that he fell down like a dead man. Jesus put His right hand on him and told him not to be afraid. How did Jesus describe Himself?",
+        "teen": "In Revelation 1:17, Jesus comforts John with a description of Himself. What does He say He is?",
+        "older": "According to Revelation 1:17, how did Jesus identify Himself after telling John not to be afraid?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Lord of the Harvest"
+        },
+        {
+          "id": "b",
+          "text": "The First and the Last"
+        },
+        {
+          "id": "c",
+          "text": "The Son of David"
+        },
+        {
+          "id": "d",
+          "text": "The King of Israel"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 1:17",
+            "text": "And when I saw Him, I fell at His feet as dead. But He laid His right hand on me, saying to me, “Do not be afraid; I am the First and the Last.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Revelation 1:17, right after \"Do not be afraid; I am.\"",
+          "child": "Look at the end of Revelation 1:17. The words come right after \"I am.\"",
+          "teen": "1:17 has John's reaction, Jesus' touch, and His words. Read what follows \"I am.\"",
+          "older": "The self-description closes 1:17, after \"Do not be afraid; I am.\""
+        },
+        "extended_explanation": "John saw the risen Jesus standing among the golden lampstands, and he fell at His feet. Jesus laid His right hand on him and spoke words of comfort, describing who He is. Read the end of 1:17.",
+        "takeaway": "Jesus said, \"Do not be afraid; I am the First and the Last.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 2",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus praised the church in Ephesus for their labor and patience. They had tested those who said they were apostles and were not. What did they find them to be?",
+        "child": "Some people came to the church in Ephesus claiming to be apostles. The church tested them. What did they find out those people were?",
+        "teen": "In Revelation 2:2, the Ephesian church tests some self-proclaimed apostles. What does Jesus say they found them to be?",
+        "older": "According to Revelation 2:2, what had the church in Ephesus found those who said they were apostles to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thieves"
+        },
+        {
+          "id": "b",
+          "text": "Sorcerers"
+        },
+        {
+          "id": "c",
+          "text": "Liars"
+        },
+        {
+          "id": "d",
+          "text": "Idolaters"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 2:2",
+            "text": "“I know your works, your labor, your patience, and that you cannot bear those who are evil. And you have tested those who say they are apostles and are not, and have found them liars;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of Revelation 2:2, right after \"have found them.\"",
+          "child": "Look at the very end of Revelation 2:2. It tells what the church found.",
+          "teen": "2:2 lists what Jesus knows about Ephesus and ends with the result of their testing. Read the last word.",
+          "older": "The finding is the final word of 2:2, after \"have found them.\""
+        },
+        "extended_explanation": "Jesus begins His letter to Ephesus by saying what He knows about them: their works, their labor, their patience, and that they could not bear evil. They tested people who claimed to be apostles. Read the end of 2:2 for what they found.",
+        "takeaway": "The Ephesians tested the false apostles and found them liars."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 2",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told the church in Smyrna not to fear what they were about to suffer. If they were faithful until death, what would He give them?",
+        "child": "Jesus warned the church in Smyrna that hard times were coming, but He told them not to be afraid. What did He promise to give those who stayed faithful until death?",
+        "teen": "Revelation 2:10 ends with a promise to Smyrna. What will Jesus give the one who is faithful until death?",
+        "older": "According to Revelation 2:10, what did Jesus promise to those in Smyrna who were faithful until death?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A kingdom without end"
+        },
+        {
+          "id": "b",
+          "text": "A robe of honor"
+        },
+        {
+          "id": "c",
+          "text": "A palace of gold"
+        },
+        {
+          "id": "d",
+          "text": "The crown of life"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 2:10",
+            "text": "Do not fear any of those things which you are about to suffer. Indeed, the devil is about to throw some of you into prison, that you may be tested, and you will have tribulation ten days. Be faithful until death, and I will give you the crown of life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of Revelation 2:10, right after \"I will give you.\"",
+          "child": "Look at the very end of Revelation 2:10. The promise is the last thing Jesus says.",
+          "teen": "2:10 has a warning, a command, and a promise. Read the promise at the end.",
+          "older": "The gift is named in the closing clause of 2:10, after \"I will give you.\""
+        },
+        "extended_explanation": "Smyrna's letter has no rebuke. Jesus tells them not to fear, warns that some will be put in prison and have tribulation ten days, and then gives a command and a promise. Read the end of 2:10.",
+        "takeaway": "Jesus promised the crown of life to those faithful until death."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 2",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "To the one who overcomes in Pergamos, Jesus promised some of the hidden manna. What else would He give, with a new name written on it that no one knows except the one who receives it?",
+        "child": "Jesus made two promises to the overcomer in Pergamos. One was hidden manna. The other was an object with a secret new name written on it. What was the object?",
+        "teen": "In Revelation 2:17, besides the hidden manna, what does Jesus promise the overcomer, with a new name written on it?",
+        "older": "According to Revelation 2:17, on what will a new name be written for the one who overcomes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A white stone"
+        },
+        {
+          "id": "b",
+          "text": "A bronze shield"
+        },
+        {
+          "id": "c",
+          "text": "A silver tablet"
+        },
+        {
+          "id": "d",
+          "text": "A scroll of parchment"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 2:17",
+            "text": "“He who has an ear, let him hear what the Spirit says to the churches. To him who overcomes I will give some of the hidden manna to eat. And I will give him a white stone, and on the stone a new name written which no one knows except him who receives it.” ’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second promise in Revelation 2:17, right after \"And I will give him.\"",
+          "child": "Look at Revelation 2:17. After the hidden manna, Jesus says \"And I will give him\" something.",
+          "teen": "2:17 has two gifts. The first is manna. Read the second, after \"And I will give him.\"",
+          "older": "The second gift follows \"And I will give him\" in 2:17, before the new name is mentioned."
+        },
+        "extended_explanation": "Each letter ends with a promise to the one who overcomes. For Pergamos there are two: some of the hidden manna, and a gift carrying a new name that only the one who receives it knows. Read the words after \"And I will give him\" in 2:17.",
+        "takeaway": "Jesus promised a white stone with a new name written on it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 3",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told the church in Philadelphia that they had a little strength, had kept His word, and had not denied His name. What had He set before them that no one can shut?",
+        "child": "The church in Philadelphia was not strong, but they kept Jesus' word. Jesus said He had put something in front of them that nobody could shut. What was it?",
+        "teen": "In Revelation 3:8, what does Jesus say He has set before Philadelphia, which no one can shut?",
+        "older": "According to Revelation 3:8, what did Jesus set before the church in Philadelphia?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A wide gate"
+        },
+        {
+          "id": "b",
+          "text": "An open door"
+        },
+        {
+          "id": "c",
+          "text": "A strong tower"
+        },
+        {
+          "id": "d",
+          "text": "A full storehouse"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 3:8",
+            "text": "“I know your works. See, I have set before you an open door, and no one can shut it; for you have a little strength, have kept My word, and have not denied My name.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of Revelation 3:8, right after \"I have set before you.\"",
+          "child": "Look at Revelation 3:8. Right after \"See, I have set before you,\" Jesus names it.",
+          "teen": "3:8 starts with \"I know your works.\" Read what He has set before them in the next sentence.",
+          "older": "The object follows \"I have set before you\" in 3:8, before \"and no one can shut it.\""
+        },
+        "extended_explanation": "In 3:7, Jesus calls Himself the One who has the key of David. In 3:8 He tells this church what He has placed in front of them, and says why: they have a little strength, have kept His word, and have not denied His name. Read the words after \"I have set before you.\"",
+        "takeaway": "Jesus set before Philadelphia an open door that no one can shut."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 3",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told the church in Sardis, \"You have a name that you are alive, but you are dead\" (Revelation 3:1). What does He tell them to do at the start of 3:2?",
+        "child": "People thought the church in Sardis was lively, but Jesus said it was really dead. What did He tell them to do right away?",
+        "teen": "3:1 exposes Sardis's reputation; 3:2 opens with a command. What is it?",
+        "older": "Connecting the diagnosis in Revelation 3:1 with the command that opens 3:2, what did Jesus tell Sardis to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Be patient"
+        },
+        {
+          "id": "b",
+          "text": "Be courageous"
+        },
+        {
+          "id": "c",
+          "text": "Be watchful"
+        },
+        {
+          "id": "d",
+          "text": "Be silent"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 3:1",
+            "text": "“And to the angel of the church in Sardis write, ‘These things says He who has the seven Spirits of God and the seven stars: “I know your works, that you have a name that you are alive, but you are dead.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 3:2",
+            "text": "Be watchful, and strengthen the things which remain, that are ready to die, for I have not found your works perfect before God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening words of Revelation 3:2.",
+          "child": "Look at the very start of Revelation 3:2. Jesus' command is two words.",
+          "teen": "3:1 is the problem; 3:2 begins the remedy. Read the command that opens 3:2.",
+          "older": "The command stands at the head of 3:2, before \"and strengthen the things which remain.\""
+        },
+        "extended_explanation": "Sardis had a good reputation, but Jesus said they were dead and that He had not found their works perfect. He tells them how to respond and to strengthen what remains. Read the opening words of 3:2.",
+        "takeaway": "Jesus told Sardis, \"Be watchful.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 3",
+      "topics": [
+        "revelation-seven-churches"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said the church in Laodicea was neither cold nor hot (Revelation 3:15-16). In 3:17, what did they say about themselves?",
+        "child": "Jesus said the Laodiceans were lukewarm, neither cold nor hot. What did the Laodiceans say about themselves?",
+        "teen": "3:15-16 describe Laodicea as lukewarm. What do they claim about themselves at the start of 3:17?",
+        "older": "Connecting Laodicea's lukewarmness in Revelation 3:15-16 with 3:17, what did the church say of itself?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am humble"
+        },
+        {
+          "id": "b",
+          "text": "I am lonely"
+        },
+        {
+          "id": "c",
+          "text": "I am afraid"
+        },
+        {
+          "id": "d",
+          "text": "I am rich"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 3:15",
+            "text": "“I know your works, that you are neither cold nor hot. I could wish you were cold or hot.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 3:16",
+            "text": "So then, because you are lukewarm, and neither cold nor hot, I will vomit you out of My mouth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 3:17",
+            "text": "Because you say, ‘I am rich, have become wealthy, and have need of nothing’—and do not know that you are wretched, miserable, poor, blind, and naked—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words the Laodiceans say at the start of Revelation 3:17, right after \"Because you say.\"",
+          "child": "Look at the beginning of Revelation 3:17. Their own words come right after \"you say.\"",
+          "teen": "3:16 is Jesus' warning; 3:17 quotes the church. Read the first words of the quotation.",
+          "older": "The church's own words open the quotation in 3:17."
+        },
+        "extended_explanation": "Laodicea was lukewarm, and Jesus warned them plainly (3:16). Verse 17 quotes what the church said about itself, and then gives Jesus' own view of them. Read the first words of the quotation in 3:17.",
+        "takeaway": "The Laodiceans said, \"I am rich,\" but Jesus said they were poor."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

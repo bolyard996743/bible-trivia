@@ -226,6 +226,42 @@ describe("curriculum ladder", () => {
     expect(unfinished.required).toBe(25);
   });
 
+  it("requires all 27 Growing badges, eight questions each", () => {
+    const { questions } = loadCatalog();
+    const growingBadges = knowledgePath.stages.find((stage) => stage.stage === "Growing")?.badges ?? [];
+    const growingIds = growingBadges.flatMap((badge) => badge.questionIds);
+    expect(growingBadges).toHaveLength(27);
+    expect(growingBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(growingIds).toHaveLength(216);
+    expect(new Set(growingIds).size).toBe(216);
+    const wilderness = questions.find((question) => question.id === "c1-num-0001");
+    expect(wilderness?.prompt.adult).toBe(
+      "In the Valley of Eshcol, the spies cut down something so large that two men carried it on a pole. What was it?",
+    );
+    expect(wilderness?.stage).toBe("Growing");
+    const comingKing = questions.find((question) => question.id === "c1-isa-0004");
+    expect(comingKing?.prompt.adult).toBe(
+      "Isaiah 7:14 says the Lord Himself will give a sign: the virgin shall conceive and bear a Son. What name will He be called?",
+    );
+    expect(comingKing?.stage).toBe("Growing");
+    expect(growingIds).not.toContain("c2-num-0001");
+    expect(growingIds).not.toContain("c1-isa-0001");
+    expect(questions.find((question) => question.id === "c2-num-0001")?.placement_eligible).toBe(true);
+    expect(questions.find((question) => question.id === "c1-isa-0001")?.stage).toBe("Growing");
+    const open = gateStatus(questions, { ...emptyProgress(), stage: "Growing" });
+    expect(open.ready).toBe(false);
+    expect(open.required).toBe(27);
+    const partial = growingIds.slice(0, -1);
+    const unfinished = gateStatus(questions, {
+      ...emptyProgress(),
+      stage: "Growing",
+      masteredIds: partial,
+      firstTryIds: partial,
+    });
+    expect(unfinished.ready).toBe(false);
+    expect(unfinished.required).toBe(27);
+  });
+
   it("names checklist topics and marks a cleared one", () => {
     const questions = [sample("create", "foundation", "Seed", ["creation"])];
     const before = stageChecklist(questions, emptyProgress());

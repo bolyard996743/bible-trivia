@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-deuteronomy-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-deu-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 34",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Toward the end of his days, Moses went up from the plains of Moab to see the promised land. Which mountain did he climb?",
+        "child": "Before he died, Moses climbed a mountain so God could show him the promised land. Which mountain was it?",
+        "teen": "From which mountain, at the top of Pisgah, did the LORD show Moses the land?",
+        "older": "According to Deuteronomy 34:1, which mountain did Moses ascend to view the land?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mount Sinai"
+        },
+        {
+          "id": "b",
+          "text": "Mount Nebo"
+        },
+        {
+          "id": "c",
+          "text": "Mount Carmel"
+        },
+        {
+          "id": "d",
+          "text": "Mount Hermon"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 34:1",
+            "text": "Then Moses went up from the plains of Moab to Mount Nebo, to the top of Pisgah, which is across from Jericho. And the LORD showed him all the land of Gilead as far as Dan,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 34:1 names the mountain right after \"the plains of Moab to.\"",
+          "child": "Read Deuteronomy 34:1. The mountain's name comes right after \"went up from the plains of Moab to.\"",
+          "teen": "34:1 names the mountain first and then the peak, Pisgah. Read the words just before \"to the top of Pisgah.\"",
+          "older": "The mountain is named in the first clause of 34:1, followed by the summit and its position across from Jericho."
+        },
+        "extended_explanation": "Moses had led Israel through the wilderness, but he would not cross the Jordan. Deuteronomy 34:1 tells where he went so the LORD could show him the whole land. Read the first sentence of the verse.",
+        "takeaway": "Moses went up Mount Nebo, and the LORD showed him the land."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-deu-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 34",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Moses died, who was full of the spirit of wisdom because Moses had laid his hands on him?",
+        "child": "Moses had put his hands on a man to prepare him to lead. Who was this man, full of the spirit of wisdom?",
+        "teen": "Deuteronomy 34:9 names the leader the people listened to after Moses. Who was he?",
+        "older": "Whom does Deuteronomy 34:9 describe as full of the spirit of wisdom because Moses had laid hands on him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Aaron"
+        },
+        {
+          "id": "b",
+          "text": "Caleb"
+        },
+        {
+          "id": "c",
+          "text": "Eleazar"
+        },
+        {
+          "id": "d",
+          "text": "Joshua"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 34:9",
+            "text": "Now Joshua the son of Nun was full of the spirit of wisdom, for Moses had laid his hands on him; so the children of Israel heeded him, and did as the LORD had commanded Moses.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 34:9 opens with the name and his father's name. Read the first words.",
+          "child": "Read the beginning of Deuteronomy 34:9. The leader's name is the first word after \"Now.\"",
+          "teen": "34:9 names him as \"the son of Nun.\" His own name comes just before that.",
+          "older": "The opening clause of 34:9 identifies the successor by his own name and his father's."
+        },
+        "extended_explanation": "Moses did not leave Israel without a leader. Deuteronomy 34:9 explains why the people listened to the new leader: Moses had laid his hands on him, and he was full of the spirit of wisdom. Read the name at the start of the verse.",
+        "takeaway": "Joshua the son of Nun was full of the spirit of wisdom, and Israel heeded him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 5",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses said the covenant at Horeb was not made only with their fathers. With whom did he say the LORD made it?",
+        "child": "Moses told the people that God's covenant was not just for their ancestors. Who did he say it was made with?",
+        "teen": "In Deuteronomy 5:3, Moses insists the covenant was not just for the earlier generation. With whom does he say it was made?",
+        "older": "According to Deuteronomy 5:3, with whom did the LORD make the covenant at Horeb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Those who are here today"
+        },
+        {
+          "id": "b",
+          "text": "The priests alone"
+        },
+        {
+          "id": "c",
+          "text": "The kings of Canaan"
+        },
+        {
+          "id": "d",
+          "text": "Only the elders of each tribe"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 5:2",
+            "text": "The LORD our God made a covenant with us in Horeb.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 5:3",
+            "text": "The LORD did not make this covenant with our fathers, but with us, those who are here today, all of us who are alive.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 5:3 contrasts two groups. Read the words after \"but with us.\"",
+          "child": "Read Deuteronomy 5:3. Look at the part after \"but with us.\"",
+          "teen": "5:3 says \"not with our fathers\" and then names a second group after \"but with us.\"",
+          "older": "The verse contrasts the fathers with a second group. Read the words after \"but with us.\""
+        },
+        "extended_explanation": "Deuteronomy 5:2-3 speaks of the covenant made at Horeb. Verse 3 contrasts the fathers with a second group. Read the words that come after \"but with us.\"",
+        "takeaway": "The covenant was made with those who were there that day, all who were alive."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 5",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 5:15 gives a reason for keeping the Sabbath. What were the people told to remember about their past?",
+        "child": "God gave His people a reason to rest on the Sabbath. What were they supposed to remember about their past?",
+        "teen": "In Deuteronomy's version of the Sabbath command, what were the people told to remember about their time in Egypt?",
+        "older": "According to Deuteronomy 5:15, what were the people to remember as a reason for keeping the Sabbath?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That God rested after creation"
+        },
+        {
+          "id": "b",
+          "text": "That your fathers were kings"
+        },
+        {
+          "id": "c",
+          "text": "That you were a slave"
+        },
+        {
+          "id": "d",
+          "text": "That you crossed the Jordan"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 5:15",
+            "text": "And remember that you were a slave in the land of Egypt, and the LORD your God brought you out from there by a mighty hand and by an outstretched arm; therefore the LORD your God commanded you to keep the Sabbath day.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 5:15 begins with \"remember.\" Read what follows, before the mention of the mighty hand.",
+          "child": "Read the start of Deuteronomy 5:15. Look right after the word \"remember.\"",
+          "teen": "5:15 links rest to rescue. The first half of the verse tells what their days in Egypt had been like.",
+          "older": "The memory called for in 5:15 concerns Israel's former condition, contrasted with God's deliverance by a mighty hand."
+        },
+        "extended_explanation": "Deuteronomy 5:14 says even servants should rest. Verse 15 explains why this mattered so much to Israel: they had their own past to remember, and the LORD had brought them out. Read the words that follow \"remember.\"",
+        "takeaway": "Israel kept the Sabbath remembering that they had been slaves in Egypt and the LORD brought them out."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 6",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses told parents to teach God's words diligently to their children. Which of these does he name as a time to talk of them?",
+        "child": "God wanted parents to teach His words to their kids. Which of these is a time Moses said to talk about them?",
+        "teen": "Deuteronomy 6:7 lists times to talk about God's words. Which of these is on the list?",
+        "older": "Which of the following does Deuteronomy 6:7 name as an occasion to talk of the LORD's commands?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "When you eat at your table"
+        },
+        {
+          "id": "b",
+          "text": "When you walk by the way"
+        },
+        {
+          "id": "c",
+          "text": "When you work in your field"
+        },
+        {
+          "id": "d",
+          "text": "When you go to the market"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 6:6",
+            "text": "“And these words which I command you today shall be in your heart.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 6:7",
+            "text": "You shall teach them diligently to your children, and shall talk of them when you sit in your house, when you walk by the way, when you lie down, and when you rise up.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 6:7 lists four ordinary times of day. Compare each choice with that list.",
+          "child": "Read Deuteronomy 6:7. It names four everyday times. Which choice matches one of them?",
+          "teen": "The times in 6:7 are part of a normal day. Compare each choice with that list.",
+          "older": "Compare each choice with the list in 6:7. The matching occasion appears in the middle of that list."
+        },
+        "extended_explanation": "Moses wanted God's words to fill every ordinary day. Deuteronomy 6:6-7 says the words should be on the heart and taught to children, and then lists ordinary moments to talk about them. Read the list in verse 7.",
+        "takeaway": "God's words were to be talked about in everyday moments, including when you walk by the way."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 30",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses said the commandment was not up in heaven and not beyond the sea. Where did he say the word was?",
+        "child": "Moses said nobody had to fly to heaven or sail across the sea to get God's word. Where did he say it was?",
+        "teen": "Deuteronomy 30:12-13 says no one needs to go up to heaven or cross the sea for God's command. According to 30:14, where is it?",
+        "older": "In contrast to heaven and the far side of the sea, where does Deuteronomy 30:14 locate the word?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Very near you"
+        },
+        {
+          "id": "b",
+          "text": "Far beyond the mountains"
+        },
+        {
+          "id": "c",
+          "text": "Hidden in the ark"
+        },
+        {
+          "id": "d",
+          "text": "With the priests in the camp"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 30:12",
+            "text": "It is not in heaven, that you should say, ‘Who will ascend into heaven for us and bring it to us, that we may hear it and do it?’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 30:13",
+            "text": "Nor is it beyond the sea, that you should say, ‘Who will go over the sea for us and bring it to us, that we may hear it and do it?’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 30:14",
+            "text": "But the word is very near you, in your mouth and in your heart, that you may do it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 30:14 begins with \"But,\" turning from where the word is not to where it is. Read the first phrase.",
+          "child": "Read the start of Deuteronomy 30:14. After \"the word is,\" you'll find where it is.",
+          "teen": "30:12-13 say where the word is not. The opening phrase of 30:14 says where it is.",
+          "older": "The contrast in 30:14 answers the two \"Who will go\" questions of verses 12-13; read its first clause."
+        },
+        "extended_explanation": "Moses did not want the people to think God's commands were out of reach. Deuteronomy 30:12-13 rules out heaven and the far side of the sea. Verse 14 tells where the word actually is, then names the mouth and the heart. Read the first phrase after \"the word is.\"",
+        "takeaway": "God's word is very near you, in your mouth and in your heart, that you may do it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 30",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses set two ways before Israel and called heaven and earth as witnesses. Which did he urge them to choose?",
+        "child": "Moses told the people they had a big choice to make, and he called heaven and earth as witnesses. What did he tell them to choose?",
+        "teen": "Deuteronomy 30:15 and 30:19 describe a choice set before Israel. Which did Moses urge them to choose?",
+        "older": "Reading Deuteronomy 30:15 with 30:19, what did Moses urge Israel to choose?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wealth"
+        },
+        {
+          "id": "b",
+          "text": "Wisdom"
+        },
+        {
+          "id": "c",
+          "text": "Victory"
+        },
+        {
+          "id": "d",
+          "text": "Life"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 30:15",
+            "text": "“See, I have set before you today life and good, death and evil,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 30:19",
+            "text": "I call heaven and earth as witnesses today against you, that I have set before you life and death, blessing and cursing; therefore choose life, that both you and your descendants may live;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 30:15 and 30:19 both list what was set before Israel. Moses' urging comes after \"therefore choose\" in 30:19.",
+          "child": "Read Deuteronomy 30:19. Find the words \"therefore choose.\" The next word is what Moses wanted them to pick.",
+          "teen": "Both verses set good things against bad ones. 30:19 ends with a clear command and its purpose for their descendants.",
+          "older": "Verse 15 names the alternatives, and verse 19 calls witnesses and then gives the command with \"therefore.\""
+        },
+        "extended_explanation": "Moses' speech came to a turning point: he set blessing and cursing before the people, with heaven and earth as witnesses. Deuteronomy 30:19 ends with what he urged them to choose. Read the words after \"therefore choose.\"",
+        "takeaway": "Moses urged Israel to choose life, that they and their descendants might live."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 5",
+      "topics": [
+        "hear-o-israel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 5:4 describes how the LORD talked with Israel at the mountain, and 34:10 uses the same words for how He knew Moses. What are those words?",
+        "child": "Two verses in Deuteronomy use the same words to describe how God spoke with His people and how He knew Moses. What are those words?",
+        "teen": "The same phrase appears in Deuteronomy 5:4 and 34:10: once for the LORD talking with Israel and once for how He knew Moses. What is it?",
+        "older": "What phrase links Deuteronomy 5:4 with 34:10, describing the LORD's direct dealings with Israel and with Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In dreams only"
+        },
+        {
+          "id": "b",
+          "text": "Through a priest"
+        },
+        {
+          "id": "c",
+          "text": "Face to face"
+        },
+        {
+          "id": "d",
+          "text": "By signs in the sky"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 5:4",
+            "text": "The LORD talked with you face to face on the mountain from the midst of the fire.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 34:10",
+            "text": "But since then there has not arisen in Israel a prophet like Moses, whom the LORD knew face to face,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Deuteronomy 5:4 and 34:10 side by side and look for the three-word phrase they share.",
+          "child": "Read Deuteronomy 34:10 to the end. The last words tell how the LORD knew Moses.",
+          "teen": "In 5:4 the phrase comes after \"talked with you.\" In 34:10 it comes after \"knew.\"",
+          "older": "Both verses use the same phrase for direct encounter: in 5:4 on the mountain and in 34:10 for Moses as a prophet."
+        },
+        "extended_explanation": "At Horeb the people heard the LORD from the midst of the fire, and they were afraid. At the end of Moses' days, Deuteronomy 34:10 describes the LORD's relationship with him in the same words. Find the phrase both verses use.",
+        "takeaway": "The LORD knew Moses face to face, and no prophet like him arose in Israel after him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

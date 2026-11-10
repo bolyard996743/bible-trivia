@@ -1,0 +1,507 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-revelation-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rev-0005",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When John saw the first heaven and the first earth pass away, what did he say there was no more of?",
+        "child": "John saw the old heaven and earth pass away and God's new creation appear. He noticed that one thing was gone. What was there no more of?",
+        "teen": "Revelation 21:1 ends by noting something that no longer existed. What was it?",
+        "older": "According to the last sentence of Revelation 21:1, what was no more?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sea"
+        },
+        {
+          "id": "b",
+          "text": "Rain"
+        },
+        {
+          "id": "c",
+          "text": "Snow"
+        },
+        {
+          "id": "d",
+          "text": "Desert"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:1",
+            "text": "Now I saw a new heaven and a new earth, for the first heaven and the first earth had passed away. Also there was no more sea.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of Revelation 21:1, right after \"Also there was no more.\"",
+          "child": "Look at the very end of Revelation 21:1. The last word tells what was gone.",
+          "teen": "21:1 tells what John saw and why. Read the short last sentence.",
+          "older": "The final sentence of 21:1 names what was absent; read its last word."
+        },
+        "extended_explanation": "Revelation 21 opens with John seeing a new creation, because the first heaven and the first earth had passed away. The verse ends with one short sentence about something that was no longer there. Read the last sentence of 21:1.",
+        "takeaway": "In the new heaven and new earth, there was no more sea."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-rev-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John saw the holy city coming down out of heaven from God, prepared as a bride adorned for her husband. What is the city called?",
+        "child": "John saw a holy city coming down from God out of heaven, beautiful like a bride on her wedding day. What was the city's name?",
+        "teen": "Revelation 21:2 names the holy city John saw coming down out of heaven. What is it called?",
+        "older": "According to Revelation 21:2, what is the name of the holy city John saw?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "New Eden"
+        },
+        {
+          "id": "b",
+          "text": "New Jerusalem"
+        },
+        {
+          "id": "c",
+          "text": "Mount Zion"
+        },
+        {
+          "id": "d",
+          "text": "The City of the Great King"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:2",
+            "text": "Then I, John, saw the holy city, New Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the beginning of Revelation 21:2, right after \"saw the holy city.\"",
+          "child": "Look at Revelation 21:2. The city's name comes right after \"the holy city.\"",
+          "teen": "21:2 names the city and then describes it coming down. Read the name after \"the holy city.\"",
+          "older": "The name stands right after \"the holy city\" in 21:2, set off by commas."
+        },
+        "extended_explanation": "After the new heaven and new earth, John sees a city coming down from God, prepared like a bride ready for her husband. The verse gives the city's name before describing it. Read the words right after \"the holy city\" in 21:2.",
+        "takeaway": "John saw the holy city, New Jerusalem, coming down out of heaven."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0014",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A loud voice from heaven said that the tabernacle of God is with men and He will dwell with them. According to 21:4, what will God wipe away from their eyes?",
+        "child": "A loud voice said that God will live with His people. Then it told something God will wipe away from their eyes. What?",
+        "teen": "21:3 says God will dwell with His people; 21:4 says what He will wipe away. What is it?",
+        "older": "According to Revelation 21:4, what will God wipe away from their eyes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every shadow"
+        },
+        {
+          "id": "b",
+          "text": "Every cloud"
+        },
+        {
+          "id": "c",
+          "text": "Every tear"
+        },
+        {
+          "id": "d",
+          "text": "Every speck of dust"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:3",
+            "text": "And I heard a loud voice from heaven saying, “Behold, the tabernacle of God is with men, and He will dwell with them, and they shall be His people. God Himself will be with them and be their God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 21:4",
+            "text": "And God will wipe away every tear from their eyes; there shall be no more death, nor sorrow, nor crying. There shall be no more pain, for the former things have passed away.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the beginning of Revelation 21:4, right after \"And God will wipe away.\"",
+          "child": "Look at the start of Revelation 21:4. What God wipes away comes right after \"wipe away.\"",
+          "teen": "21:3 is God dwelling with men. Read the first words of 21:4, after \"wipe away.\"",
+          "older": "The object of \"wipe away\" opens 21:4, before the list of what shall be no more."
+        },
+        "extended_explanation": "Revelation 21:3 says God Himself will be with His people and be their God. Verse 4 then tells what He will do for them and lists what will be no more, because the former order has passed away. Read the words after \"wipe away\" at the start of 21:4.",
+        "takeaway": "God will wipe away every tear from their eyes."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0015",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "He who sat on the throne said to John, \"It is done!\" How did He then describe Himself?",
+        "child": "God on His throne told John, \"It is done!\" Then He said who He is. What did He call Himself first?",
+        "teen": "In Revelation 21:6, right after \"It is done!\", what does He say He is?",
+        "older": "According to Revelation 21:6, what does the One on the throne call Himself immediately after \"It is done\"?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Rock and the Fortress"
+        },
+        {
+          "id": "b",
+          "text": "The Shepherd and the Door"
+        },
+        {
+          "id": "c",
+          "text": "The King and the Judge"
+        },
+        {
+          "id": "d",
+          "text": "The Alpha and the Omega"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:6",
+            "text": "And He said to me, “It is done! I am the Alpha and the Omega, the Beginning and the End. I will give of the fountain of the water of life freely to him who thirsts.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Revelation 21:6 right after \"It is done! I am.\"",
+          "child": "Look at Revelation 21:6. After \"It is done!\" He says \"I am\" and then names Himself.",
+          "teen": "21:6 gives two pairs of titles. Read the first pair, right after \"I am.\"",
+          "older": "Read the first pair of titles after \"I am\" in 21:6; the second pair restates it."
+        },
+        "extended_explanation": "In 21:6, the One on the throne declares that it is done and describes Himself with two pairs of words that mean the same thing. Then He promises the fountain of the water of life freely to the thirsty. Read the first pair, right after \"I am.\"",
+        "takeaway": "He said, \"I am the Alpha and the Omega, the Beginning and the End.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John said there was one kind of building he did not see in the holy city. What was it?",
+        "child": "When John looked at the holy city, one kind of building was missing. What was missing?",
+        "teen": "In Revelation 21:22, what kind of building does John say he did not see in the city?",
+        "older": "According to Revelation 21:22, what did John see none of in the city?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Temple"
+        },
+        {
+          "id": "b",
+          "text": "Tower"
+        },
+        {
+          "id": "c",
+          "text": "Marketplace"
+        },
+        {
+          "id": "d",
+          "text": "King's palace"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:22",
+            "text": "But I saw no temple in it, for the Lord God Almighty and the Lamb are its temple.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of Revelation 21:22, right after \"But I saw no.\"",
+          "child": "Look at the start of Revelation 21:22. What John did not see comes right after \"I saw no.\"",
+          "teen": "21:22 says what was missing and then why. Read the words after \"I saw no.\"",
+          "older": "The absent building is named after \"I saw no\" and named again at the end of 21:22."
+        },
+        "extended_explanation": "Revelation 21:22 begins with \"But,\" turning from the city's beauty to something John did not see there. The same word appears again at the end of the verse, explaining why it was not needed. Read the words after \"I saw no.\"",
+        "takeaway": "John saw no temple in it, for the Lord God Almighty and the Lamb are its temple."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0017",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 22",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On either side of the pure river flowing from the throne stood the tree of life, bearing a crop each month. What were its leaves for?",
+        "child": "Beside the river of the water of life stood the tree of life, which bore a crop each month. What were its leaves for?",
+        "teen": "In Revelation 22:2, the tree of life stands beside the river. What does the verse say its leaves were for?",
+        "older": "According to Revelation 22:2, what purpose did the leaves of the tree of life serve?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The clothing of the nations"
+        },
+        {
+          "id": "b",
+          "text": "The healing of the nations"
+        },
+        {
+          "id": "c",
+          "text": "The teaching of the nations"
+        },
+        {
+          "id": "d",
+          "text": "The crowning of the kings"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 22:1",
+            "text": "And he showed me a pure river of water of life, clear as crystal, proceeding from the throne of God and of the Lamb.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 22:2",
+            "text": "In the middle of its street, and on either side of the river, was the tree of life, which bore twelve fruits, each tree yielding its fruit every month. The leaves of the tree were for the healing of the nations.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of Revelation 22:2, right after \"The leaves of the tree were for.\"",
+          "child": "Look at the end of Revelation 22:2. The last words tell what the leaves were for.",
+          "teen": "22:1 is the river; 22:2 describes the tree. Read the final sentence of 22:2.",
+          "older": "The purpose of the leaves is given in the closing sentence of 22:2, after \"were for.\""
+        },
+        "extended_explanation": "Revelation 22:1 shows a river of the water of life flowing from the throne of God and of the Lamb. In 22:2, the tree of life stands in the middle of the street and on both sides of the river. The verse ends by telling what its leaves were for. Read the last sentence.",
+        "takeaway": "The leaves of the tree of life were for the healing of the nations."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0018",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 21:23 says the city has no need of the sun or of the moon. In 22:5, His servants need no lamp nor light of the sun. According to 22:5, who gives them light?",
+        "child": "The holy city does not need the sun or the moon. Revelation 22:5 says God's servants will not even need a lamp. Who gives them light?",
+        "teen": "21:23 says why the city needs no sun or moon; 22:5 says who gives light to His servants. Who is it?",
+        "older": "Connecting Revelation 21:23 with 22:5, who does 22:5 say gives light to His servants?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A pillar of fire"
+        },
+        {
+          "id": "b",
+          "text": "The stars of heaven"
+        },
+        {
+          "id": "c",
+          "text": "The Lord God"
+        },
+        {
+          "id": "d",
+          "text": "The holy angels"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:23",
+            "text": "The city had no need of the sun or of the moon to shine in it, for the glory of God illuminated it. The Lamb is its light.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 22:5",
+            "text": "There shall be no night there: They need no lamp nor light of the sun, for the Lord God gives them light. And they shall reign forever and ever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of Revelation 22:5, right after \"for.\" Then see what 21:23 says illuminated the city.",
+          "child": "Look at Revelation 22:5. The giver of light comes right after the word \"for.\"",
+          "teen": "21:23 says what lights the city. In 22:5, read the words after \"for.\"",
+          "older": "22:5 echoes 21:23; read who is named right after \"for\" as the giver of light."
+        },
+        "extended_explanation": "Both verses describe a city with no need for ordinary light. In 21:23, the city needs no sun or moon. In 22:5, there is no night, and the servants need no lamp or sun. Read the words after \"for\" in 22:5.",
+        "takeaway": "The Lord God gives them light, and they shall reign forever and ever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-rev-0019",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "revelation-new-heaven"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 21:4 ends by saying the former order has passed away. In 21:5, He who sat on the throne says, \"Behold, I make ...\" what?",
+        "child": "Revelation 21:4 says that the old way of the world is gone. Then the One on the throne speaks. What does He say He makes?",
+        "teen": "21:4 ends with the former things passing away. Complete His words in 21:5: \"Behold, I make ...\"",
+        "older": "Linking the end of Revelation 21:4 with 21:5, what does the One on the throne say He makes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "All things clean"
+        },
+        {
+          "id": "b",
+          "text": "All things right"
+        },
+        {
+          "id": "c",
+          "text": "All things quiet"
+        },
+        {
+          "id": "d",
+          "text": "All things new"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:4",
+            "text": "And God will wipe away every tear from their eyes; there shall be no more death, nor sorrow, nor crying. There shall be no more pain, for the former things have passed away.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 21:5",
+            "text": "Then He who sat on the throne said, “Behold, I make all things new.” And He said to me, “Write, for these words are true and faithful.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words in quotation marks at the start of Revelation 21:5, right after \"Behold, I make.\"",
+          "child": "Look at Revelation 21:5. God's words begin with \"Behold, I make.\" Read the rest.",
+          "teen": "21:4 ends with the old passing away. Read what He says right after \"I make\" in 21:5.",
+          "older": "The end of 21:4 and the start of 21:5 are paired; read the object of \"I make.\""
+        },
+        "extended_explanation": "Verse 4 lists what will be no more and says the former order has passed away. Verse 5 answers with God's own words from the throne, and He tells John to write them down because they are true and faithful. Read the words after \"Behold, I make.\"",
+        "takeaway": "He who sat on the throne said, \"Behold, I make all things new.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

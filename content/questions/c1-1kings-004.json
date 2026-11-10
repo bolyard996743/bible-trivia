@@ -1,0 +1,507 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1kings-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ki-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 11",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The prophet Ahijah tore his new garment into twelve pieces. How many did he tell Jeroboam to take for himself?",
+        "child": "A prophet named Ahijah ripped his new coat into twelve pieces in front of Jeroboam. How many pieces did he tell Jeroboam to take?",
+        "teen": "In 1 Kings 11:30-31, Ahijah acts out a message about the kingdom. How many of the twelve pieces were for Jeroboam?",
+        "older": "According to 1 Kings 11:31, how many pieces of the torn garment was Jeroboam told to take?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seven pieces"
+        },
+        {
+          "id": "b",
+          "text": "Eleven pieces"
+        },
+        {
+          "id": "c",
+          "text": "Ten pieces"
+        },
+        {
+          "id": "d",
+          "text": "Five pieces"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 11:30",
+            "text": "Then Ahijah took hold of the new garment that was on him, and tore it into twelve pieces.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 11:31",
+            "text": "And he said to Jeroboam, “Take for yourself ten pieces, for thus says the LORD, the God of Israel: ‘Behold, I will tear the kingdom out of the hand of Solomon and will give ten tribes to you",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Kings 11:31 begins with Ahijah's instruction to Jeroboam. Read the first words he says.",
+          "child": "Read the start of 1 Kings 11:31. Ahijah says, \"Take for yourself,\" and then a number.",
+          "teen": "11:31 explains the torn garment: the pieces Jeroboam takes match the tribes he would rule. Find the number after \"Take for yourself.\"",
+          "older": "Ahijah's instruction at the head of 11:31 gives the number of pieces, which the rest of the verse matches to tribes."
+        },
+        "extended_explanation": "Ahijah met Jeroboam alone in a field and tore his own new garment into twelve pieces, one for each tribe. In 1 Kings 11:31 he tells Jeroboam how many to take and explains that the LORD would tear the kingdom from Solomon's hand. Read Ahijah's first words.",
+        "takeaway": "Ahijah told Jeroboam to take ten pieces, for ten tribes."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-2ki-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 17",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the ninth year of Hoshea, after a three-year siege, Samaria was taken. To which land was Israel carried away?",
+        "child": "When Samaria was captured in King Hoshea's ninth year, where were the people of Israel taken?",
+        "teen": "2 Kings 17:6 records the fall of Samaria. Where were the Israelites carried off to?",
+        "older": "According to 2 Kings 17:6, to which land did the conquering king carry Israel away?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Assyria"
+        },
+        {
+          "id": "b",
+          "text": "Egypt"
+        },
+        {
+          "id": "c",
+          "text": "Damascus"
+        },
+        {
+          "id": "d",
+          "text": "Edom"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 17:6",
+            "text": "In the ninth year of Hoshea, the king of Assyria took Samaria and carried Israel away to Assyria, and placed them in Halah and by the Habor, the River of Gozan, and in the cities of the Medes.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 17:6 names the land right after \"carried Israel away to.\"",
+          "child": "Read 2 Kings 17:6. Look right after \"carried Israel away to.\"",
+          "teen": "17:6 says who took Samaria and then where the people were taken. Read the words after \"carried Israel away to.\"",
+          "older": "The destination in 17:6 is named immediately after the verb \"carried away,\" before the specific towns and rivers."
+        },
+        "extended_explanation": "Samaria had been under siege for three years. 2 Kings 17:6 tells how it ended and where the people of Israel were taken, even listing towns and a river. Read the words right after \"carried Israel away to.\"",
+        "takeaway": "In Hoshea's ninth year, Samaria fell and Israel was carried away to Assyria."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 12",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The older advisers told Rehoboam to be a servant to the people and speak good words to them. What did they say would happen if he did?",
+        "child": "The wise old men told King Rehoboam to serve the people and speak kindly. What did they promise would happen?",
+        "teen": "In 1 Kings 12:7, the elders give Rehoboam advice with a promise attached. What would the people do?",
+        "older": "According to 1 Kings 12:7, what did the elders say would result if Rehoboam served the people and spoke good words?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They will give you twice the taxes"
+        },
+        {
+          "id": "b",
+          "text": "They will build you a greater palace"
+        },
+        {
+          "id": "c",
+          "text": "They will make you king over Egypt too"
+        },
+        {
+          "id": "d",
+          "text": "They will be your servants forever"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 12:7",
+            "text": "And they spoke to him, saying, “If you will be a servant to these people today, and serve them, and answer them, and speak good words to them, then they will be your servants forever.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The result is at the end of 1 Kings 12:7, after \"then.\"",
+          "child": "Read the end of 1 Kings 12:7. Look at the words after \"then.\"",
+          "teen": "12:7 is an \"if ... then\" sentence. The \"if\" part is what Rehoboam should do; read the \"then\" part.",
+          "older": "The elders' counsel in 12:7 has a condition and a result; read the result after \"then.\""
+        },
+        "extended_explanation": "The people had asked Rehoboam to lighten the heavy yoke his father put on them. The elders who had served Solomon advised a humble answer. 1 Kings 12:7 says what would happen if he served the people for a day. Read the end of the verse.",
+        "takeaway": "The elders said that if Rehoboam served the people and spoke good words, they would be his servants forever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 12",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Rehoboam answered roughly and would not listen to the people. What did the people of Israel cry out?",
+        "child": "When King Rehoboam refused to make life easier for them, what did the people shout as they left?",
+        "teen": "In 1 Kings 12:16, Israel rejects the house of David. What cry sends them home?",
+        "older": "According to 1 Kings 12:16, what did Israel cry out when they saw the king would not listen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Long live King Rehoboam!"
+        },
+        {
+          "id": "b",
+          "text": "To your tents, O Israel!"
+        },
+        {
+          "id": "c",
+          "text": "Let us return to Egypt!"
+        },
+        {
+          "id": "d",
+          "text": "Gather at Shechem, O Israel!"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 12:16",
+            "text": "Now when all Israel saw that the king did not listen to them, the people answered the king, saying: “What share have we in David? We have no inheritance in the son of Jesse. To your tents, O Israel! Now, see to your own house, O David!” So Israel departed to their tents.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The cry is in the people's answer in 1 Kings 12:16, right after \"no inheritance in the son of Jesse.\"",
+          "child": "Read 1 Kings 12:16. Look at what the people say right after they mention \"the son of Jesse.\"",
+          "teen": "12:16 has a cry that comes after \"no inheritance in the son of Jesse\" and before they speak to David's house. Read that cry.",
+          "older": "The rallying cry in 12:16 sits between the disavowal of David's house and the instruction to David to see to his own house."
+        },
+        "extended_explanation": "Rehoboam followed the young men's advice and promised an even heavier yoke. 1 Kings 12:16 shows Israel's answer: they would no longer follow the house of David. Read their words after \"We have no inheritance in the son of Jesse.\"",
+        "takeaway": "Israel cried, \"To your tents, O Israel!\" and departed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 25",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Babylon's captain of the guard came to Jerusalem, which building is named first among those he burned?",
+        "child": "When the Babylonian army leader came to Jerusalem, which building is named first among those he set on fire?",
+        "teen": "2 Kings 25:9 lists what Nebuzaradan burned in Jerusalem. What is named first?",
+        "older": "According to 2 Kings 25:9, which building is named first among those Nebuzaradan burned?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the city gates"
+        },
+        {
+          "id": "b",
+          "text": "The house of the LORD"
+        },
+        {
+          "id": "c",
+          "text": "The towers of the wall"
+        },
+        {
+          "id": "d",
+          "text": "The fields outside the walls"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 25:9",
+            "text": "He burned the house of the LORD and the king’s house; all the houses of Jerusalem, that is, all the houses of the great, he burned with fire.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 25:9 names it right after \"He burned.\"",
+          "child": "Read the start of 2 Kings 25:9. Look right after \"He burned.\"",
+          "teen": "25:9 names two buildings first and then all the great houses. Read the first one.",
+          "older": "The opening clause of 25:9 places one building ahead of the king's house; read the object of \"burned.\""
+        },
+        "extended_explanation": "This was a sad day in Judah's history. Jerusalem had been under siege, and in 2 Kings 25:9 the captain of the guard burned the city's most important buildings. Read the first words of the verse to see which is named first.",
+        "takeaway": "Nebuzaradan burned the house of the LORD, the king's house, and the houses of Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0014",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 25",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the people of Jerusalem were carried away, the captain of the guard left some of the poor of the land. What work were they left to do?",
+        "child": "The Babylonians took most people away but left some poor people behind. What jobs were they left to do?",
+        "teen": "2 Kings 25:12 says some of the poor stayed in the land. In what roles were they left?",
+        "older": "According to 2 Kings 25:12, as what were some of the poor of the land left behind?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Soldiers and guards"
+        },
+        {
+          "id": "b",
+          "text": "Scribes and priests"
+        },
+        {
+          "id": "c",
+          "text": "Vinedressers and farmers"
+        },
+        {
+          "id": "d",
+          "text": "Shepherds and fishermen of the coast"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 25:12",
+            "text": "But the captain of the guard left some of the poor of the land as vinedressers and farmers.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 25:12 ends with their work, right after \"of the land as.\"",
+          "child": "Read the end of 2 Kings 25:12. Look after \"the poor of the land as.\"",
+          "teen": "25:12 begins with \"But,\" showing a contrast with those carried away. Read the last words to see what work was left to them.",
+          "older": "The final phrase of 25:12 names two kinds of work."
+        },
+        "extended_explanation": "Most of the people were carried away to Babylon, but 2 Kings 25:12 begins with \"But\" and tells of some who stayed. The verse ends by naming the kind of work they were left to do. Read the last words.",
+        "takeaway": "Some of the poor were left in the land as vinedressers and farmers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-1ki-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 12",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeroboam feared that if the people worshiped in Jerusalem their hearts would turn back to Rehoboam, so he made two calves of gold. What does 12:30 say this thing became?",
+        "child": "Jeroboam was afraid people would go back to Rehoboam if they worshiped in Jerusalem, so he made two gold calves. What did this turn into?",
+        "teen": "1 Kings 12:27-28 gives Jeroboam's fear and his solution; 12:30 gives the verdict. What did it become?",
+        "older": "Connect Jeroboam's reasoning in 1 Kings 12:27-28 with the narrator's judgment in 12:30. What did this thing become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A blessing"
+        },
+        {
+          "id": "b",
+          "text": "A strong kingdom"
+        },
+        {
+          "id": "c",
+          "text": "A peace offering"
+        },
+        {
+          "id": "d",
+          "text": "A sin"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 12:27",
+            "text": "If these people go up to offer sacrifices in the house of the LORD at Jerusalem, then the heart of this people will turn back to their lord, Rehoboam king of Judah, and they will kill me and go back to Rehoboam king of Judah.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 12:28",
+            "text": "Therefore the king asked advice, made two calves of gold, and said to the people, “It is too much for you to go up to Jerusalem. Here are your gods, O Israel, which brought you up from the land of Egypt!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 12:30",
+            "text": "Now this thing became a sin, for the people went to worship before the one as far as Dan.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1 Kings 12:30. The verdict comes right after \"this thing became.\"",
+          "child": "Look at the start of 1 Kings 12:30. It says what the gold calves became.",
+          "teen": "12:27 shows Jeroboam's fear, 12:28 his plan, and 12:30 the result. Read the first words of 12:30.",
+          "older": "The narrator's evaluation opens 12:30, followed by the reason: the people went to worship before the calf at Dan."
+        },
+        "extended_explanation": "Jeroboam was afraid that if the people kept going to worship in Jerusalem, he would lose his kingdom. So he set up gold calves at Bethel and Dan and told the people these were their gods. 1 Kings 12:30 gives the plain verdict on what he did. Read the first part of that verse.",
+        "takeaway": "Jeroboam's gold calves became a sin for Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 17",
+      "topics": [
+        "kingdom-divides"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD warned Israel and Judah by all His prophets, saying, \"Turn from your evil ways.\" How did the people respond?",
+        "child": "God sent prophet after prophet to tell Israel to turn away from evil. What did the people do?",
+        "teen": "2 Kings 17:13 records the LORD's many warnings; 17:14 begins with \"Nevertheless.\" How did they respond?",
+        "older": "Connect the warnings of 2 Kings 17:13 with the response in 17:14. What did the people do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They would not hear"
+        },
+        {
+          "id": "b",
+          "text": "They tore down the calves"
+        },
+        {
+          "id": "c",
+          "text": "They repented in sackcloth"
+        },
+        {
+          "id": "d",
+          "text": "They asked for a new king"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 17:13",
+            "text": "Yet the LORD testified against Israel and against Judah, by all of His prophets, every seer, saying, “Turn from your evil ways, and keep My commandments and My statutes, according to all the law which I commanded your fathers, and which I sent to you by My servants the prophets.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 17:14",
+            "text": "Nevertheless they would not hear, but stiffened their necks, like the necks of their fathers, who did not believe in the LORD their God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2 Kings 17:14. The response comes right after \"Nevertheless.\"",
+          "child": "Look at the start of 2 Kings 17:14. It tells what the people did after all those warnings.",
+          "teen": "17:13 shows the LORD warning by every prophet and seer. 17:14 opens with \"Nevertheless\" and the people's answer.",
+          "older": "The opening of 17:14 introduces their response, then compares their stiff necks with their fathers'."
+        },
+        "extended_explanation": "2 Kings 17 explains why the northern kingdom fell. Verse 13 shows that the LORD patiently warned His people again and again through His prophets. Verse 14 begins with \"Nevertheless\" and tells how they responded. Read its first words.",
+        "takeaway": "Though the LORD warned them by all His prophets, the people would not hear."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

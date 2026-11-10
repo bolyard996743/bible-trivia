@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-isa-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 6",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah begins his account of seeing the Lord on a throne by naming a year. In the year of which king's death?",
+        "child": "Isaiah tells us exactly when he saw the Lord sitting on a throne. It was the year a certain king died. Which king?",
+        "teen": "Isaiah 6 opens with a time stamp tied to a king's death. Which king had died that year?",
+        "older": "According to Isaiah 6:1, Isaiah saw the Lord in the year of which king's death?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "King Uzziah"
+        },
+        {
+          "id": "b",
+          "text": "King Ahaz"
+        },
+        {
+          "id": "c",
+          "text": "King Josiah"
+        },
+        {
+          "id": "d",
+          "text": "King Jehoshaphat"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 6:1",
+            "text": "In the year that King Uzziah died, I saw the Lord sitting on a throne, high and lifted up, and the train of His robe filled the temple.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The king is named in the first words of Isaiah 6:1, right after \"In the year that.\"",
+          "child": "Look at the very start of Isaiah 6:1. The king's name comes right after \"In the year that.\"",
+          "teen": "6:1 sets the scene with a year before it describes the throne. Read the opening phrase.",
+          "older": "The verse dates the vision in its first clause, before describing the throne and the robe that filled the temple."
+        },
+        "extended_explanation": "Isaiah 6 describes the moment Isaiah saw the Lord high and lifted up, with the train of His robe filling the temple. Before any of that, the verse tells when it happened by naming a king who had died. Read the first clause of 6:1.",
+        "takeaway": "Isaiah saw the Lord in the year that King Uzziah died."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-isa-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 6",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Above the throne stood seraphim, each with six wings. What did they cry out to one another about the LORD of hosts?",
+        "child": "In Isaiah's vision, heavenly beings with six wings called out to each other. What three-word cry did they repeat?",
+        "teen": "Isaiah 6:2-3 describes the seraphim and their call to one another. What words did they repeat three times?",
+        "older": "According to Isaiah 6:3, what did the seraphim cry to one another before declaring that the whole earth is full of His glory?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Worthy, worthy, worthy"
+        },
+        {
+          "id": "b",
+          "text": "Mighty, mighty, mighty"
+        },
+        {
+          "id": "c",
+          "text": "Holy, holy, holy"
+        },
+        {
+          "id": "d",
+          "text": "Amen, amen, amen"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 6:2",
+            "text": "Above it stood seraphim; each one had six wings: with two he covered his face, with two he covered his feet, and with two he flew.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 6:3",
+            "text": "And one cried to another and said: “Holy, holy, holy is the LORD of hosts; The whole earth is full of His glory!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of the seraphim's cry in Isaiah 6:3, right after \"and said.\"",
+          "child": "Look at Isaiah 6:3. The seraphim say the same term three times at the start of their cry.",
+          "teen": "6:3 opens the cry with one word repeated three times, then names the LORD of hosts. Read the first line.",
+          "older": "The seraphim's cry in 6:3 begins with a threefold repetition before it names the LORD of hosts and His glory."
+        },
+        "extended_explanation": "Isaiah 6:2 describes the seraphim covering their faces and feet with their wings. In 6:3 they call to one another, and their cry begins with one word said three times about the LORD of hosts. Read the opening line of what they said.",
+        "takeaway": "The seraphim cried, \"Holy, holy, holy is the LORD of hosts.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 6",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah cried, \"Woe is me,\" because he was a man of unclean lips. What did one of the seraphim bring to touch his mouth?",
+        "child": "Isaiah felt he was not clean enough to be near the King. One of the seraphim flew to him holding something. What was it?",
+        "teen": "After Isaiah confessed his unclean lips in 6:5, a seraph flew to him with something taken from the altar. What was it?",
+        "older": "According to Isaiah 6:6-7, what did the seraph take from the altar and touch to Isaiah's mouth in response to his confession?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cup of water"
+        },
+        {
+          "id": "b",
+          "text": "A live coal"
+        },
+        {
+          "id": "c",
+          "text": "A drop of oil"
+        },
+        {
+          "id": "d",
+          "text": "A burning branch"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 6:5",
+            "text": "So I said: “Woe is me, for I am undone! Because I am a man of unclean lips, And I dwell in the midst of a people of unclean lips; For my eyes have seen the King, The LORD of hosts.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 6:6",
+            "text": "Then one of the seraphim flew to me, having in his hand a live coal which he had taken with the tongs from the altar.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 6:7",
+            "text": "And he touched my mouth with it, and said: “Behold, this has touched your lips; Your iniquity is taken away, And your sin purged.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah 6:6 describes what the seraph held in his hand. Read the words right after \"having in his hand.\"",
+          "child": "Read Isaiah 6:6. It tells what the seraph was holding and where he took it from.",
+          "teen": "6:5 is the confession; 6:6 shows what the seraph carried, taken with tongs. Read the middle of 6:6.",
+          "older": "The object is named in 6:6 together with the tool used to lift it and the place it came from."
+        },
+        "extended_explanation": "Isaiah saw the King, the LORD of hosts, and knew his own lips were unclean (6:5). A seraph then flew to him carrying something from the altar, and 6:7 says that when it touched his lips, his iniquity was taken away. Read 6:6 for what the seraph carried.",
+        "takeaway": "A seraph touched Isaiah's mouth with a live coal from the altar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 6",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After his lips were touched, Isaiah heard the Lord ask, \"Whom shall I send, and who will go for Us?\" How did Isaiah answer?",
+        "child": "God asked, \"Whom shall I send?\" Isaiah answered right away. What did he say?",
+        "teen": "In Isaiah 6:8 the Lord asks who will go for Us. What is Isaiah's reply?",
+        "older": "According to Isaiah 6:8, how did Isaiah respond to the Lord's question about whom He should send?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who am I, that I should go?"
+        },
+        {
+          "id": "b",
+          "text": "Lord, please send someone else."
+        },
+        {
+          "id": "c",
+          "text": "Let me first go back to my house."
+        },
+        {
+          "id": "d",
+          "text": "Here am I! Send me."
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 6:8",
+            "text": "Also I heard the voice of the Lord, saying: “Whom shall I send, And who will go for Us?” Then I said, “Here am I! Send me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah's reply comes at the end of Isaiah 6:8, after \"Then I said.\"",
+          "child": "Look at the last words of Isaiah 6:8. Isaiah answers in two short sentences.",
+          "teen": "6:8 has the Lord's question first and Isaiah's answer second. Read what follows \"Then I said.\"",
+          "older": "The verse closes with Isaiah's reply in two brief parts; read it closely."
+        },
+        "extended_explanation": "Isaiah had just been cleansed, and then he heard the Lord asking whom He should send. Isaiah 6:8 records both the question and Isaiah's quick reply. Read the final words of the verse.",
+        "takeaway": "Isaiah answered, \"Here am I! Send me.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 40",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 40 says people are like grass and flowers that wither and fade. What does it say stands forever?",
+        "child": "Grass dries up and flowers fade, Isaiah says. But what lasts forever?",
+        "teen": "Isaiah 40:7-8 compares people to grass. In contrast, what does 40:8 say stands forever?",
+        "older": "According to Isaiah 40:8, after the grass withers and the flower fades, what stands forever?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The word of our God"
+        },
+        {
+          "id": "b",
+          "text": "The city of Jerusalem"
+        },
+        {
+          "id": "c",
+          "text": "The temple of the LORD"
+        },
+        {
+          "id": "d",
+          "text": "The throne of David"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 40:7",
+            "text": "The grass withers, the flower fades, Because the breath of the LORD blows upon it; Surely the people are grass.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 40:8",
+            "text": "The grass withers, the flower fades, But the word of our God stands forever.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah 40:8 begins like 40:7, then turns with \"But.\" Read what comes right after it.",
+          "child": "Read the second half of Isaiah 40:8, after the word \"But.\"",
+          "teen": "40:7 and 40:8 start the same way. Look at how 40:8 ends differently.",
+          "older": "The contrast in 40:8 is introduced by \"But\"; read the subject of \"stands forever.\""
+        },
+        "extended_explanation": "Isaiah 40:6-8 is a picture of how short human life is: grass withers and flowers fade when the breath of the LORD blows on them. Then 40:8 turns to something that does not fade. Read the words after \"But\" in 40:8.",
+        "takeaway": "The grass withers and the flower fades, but the word of our God stands forever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 43",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God tells Israel, \"Fear not, for I have redeemed you.\" In 43:2, what does He promise when they pass through the waters?",
+        "child": "God told His people not to be afraid. What did He promise them for times when they go through deep waters?",
+        "teen": "Isaiah 43:2 pictures waters, rivers, and fire. What does God promise for when His people pass through the waters?",
+        "older": "According to Isaiah 43:2, what does the LORD promise His people when they pass through the waters?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will part them for you"
+        },
+        {
+          "id": "b",
+          "text": "I will carry you over them"
+        },
+        {
+          "id": "c",
+          "text": "I will dry them up"
+        },
+        {
+          "id": "d",
+          "text": "I will be with you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 43:1",
+            "text": "But now, thus says the LORD, who created you, O Jacob, And He who formed you, O Israel: “Fear not, for I have redeemed you; I have called you by your name; You are Mine.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 43:2",
+            "text": "When you pass through the waters, I will be with you; And through the rivers, they shall not overflow you. When you walk through the fire, you shall not be burned, Nor shall the flame scorch you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Isaiah 43:2, right after \"When you pass through the waters.\"",
+          "child": "Look at the start of Isaiah 43:2. God's promise comes right after the waters are mentioned.",
+          "teen": "43:2 lists waters, rivers, and fire. Read the promise attached to the waters.",
+          "older": "The first clause of 43:2 pairs the waters with a promise; read it closely."
+        },
+        "extended_explanation": "Isaiah 43:1 reminds Israel that the LORD created and formed them and calls them His own. Verse 2 then names hard places: waters, rivers, and fire. Read the promise that follows the waters in the first line.",
+        "takeaway": "God promised, \"When you pass through the waters, I will be with you.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 40",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 40:28 says the Creator neither faints nor is weary, and 40:30 says even young men may stumble. What picture in 40:31 describes those who wait on the LORD?",
+        "child": "God never gets tired, but even strong young people do. Isaiah 40:31 gives a picture of what happens to those who wait on the LORD. What is it?",
+        "teen": "40:28 describes a God who never tires; 40:30 admits youths grow weary. What image does 40:31 use for people who wait on Him?",
+        "older": "Connecting Isaiah 40:28 and 40:30-31, what image does the prophet use for those who wait on the LORD and renew their strength?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grow tall like the cedars of Lebanon"
+        },
+        {
+          "id": "b",
+          "text": "Mount up with wings like eagles"
+        },
+        {
+          "id": "c",
+          "text": "Stand firm like the hills"
+        },
+        {
+          "id": "d",
+          "text": "Shine like the stars"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 40:28",
+            "text": "Have you not known? Have you not heard? The everlasting God, the LORD, The Creator of the ends of the earth, Neither faints nor is weary. His understanding is unsearchable.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 40:30",
+            "text": "Even the youths shall faint and be weary, And the young men shall utterly fall,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 40:31",
+            "text": "But those who wait on the LORD Shall renew their strength; They shall mount up with wings like eagles, They shall run and not be weary, They shall walk and not faint.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah 40:31 lists several things after \"renew their strength.\" Read the first picture in that list.",
+          "child": "Read Isaiah 40:31. Right after \"renew their strength,\" there is a picture.",
+          "teen": "40:28 says God doesn't tire; 40:31 shows what He gives. Read the line after \"renew their strength.\"",
+          "older": "The first image in the list in 40:31 follows \"renew their strength\"; read it closely."
+        },
+        "extended_explanation": "Isaiah 40:28 says the everlasting God never faints or grows weary, and 40:29 says He gives power to the weak. Verse 30 admits that even the young will tire. Verse 31 then describes what happens to those who wait on the LORD. Read the line right after \"renew their strength.\"",
+        "takeaway": "Those who wait on the LORD shall mount up with wings like eagles."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-isa-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 55",
+      "topics": [
+        "isaiah-call-comfort"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 55:10 describes rain and snow coming down and making the earth bud. In 55:11, what does God promise about what goes out from His mouth?",
+        "child": "Rain and snow fall and help seeds grow. God says what comes from His mouth is like that. What does He promise about it?",
+        "teen": "55:10 is a picture from nature; 55:11 applies it. What does God promise in 55:11?",
+        "older": "Comparing Isaiah 55:10 with 55:11, what does the LORD promise concerning what goes forth from His mouth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It shall be heard in every land"
+        },
+        {
+          "id": "b",
+          "text": "It shall be written on stone"
+        },
+        {
+          "id": "c",
+          "text": "It shall not return to Me void"
+        },
+        {
+          "id": "d",
+          "text": "It shall be hidden for a time"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 55:10",
+            "text": "“For as the rain comes down, and the snow from heaven, And do not return there, But water the earth, And make it bring forth and bud, That it may give seed to the sower And bread to the eater,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 55:11",
+            "text": "So shall My word be that goes forth from My mouth; It shall not return to Me void, But it shall accomplish what I please, And it shall prosper in the thing for which I sent it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaiah 55:11 begins \"So shall\" to link back to the rain in 55:10. Read the words right after \"from My mouth.\"",
+          "child": "Read Isaiah 55:11. Right after \"from My mouth,\" God makes a promise.",
+          "teen": "55:10 is the picture and 55:11 starts with \"So shall.\" Read the line after \"from My mouth.\"",
+          "older": "The comparison in 55:10-11 is completed in the clause following \"from My mouth\"; read it closely."
+        },
+        "extended_explanation": "Isaiah 55:10 notices that rain and snow come down and water the earth so it gives seed to the sower and bread to the eater. Verse 11 begins \"So shall,\" applying the picture to what goes out from God's mouth. Read the line right after \"from My mouth.\"",
+        "takeaway": "What goes forth from God's mouth shall not return to Him void, but will accomplish what He pleases."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

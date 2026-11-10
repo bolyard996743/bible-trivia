@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0057",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 4",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Cain feared that anyone who found him would kill him. What did the LORD set on Cain to protect him?",
+        "child": "Cain was afraid someone might hurt him. What did God put on Cain to keep him safe?",
+        "teen": "After Cain's punishment, the LORD promised protection so no one would kill him. What did the LORD set on him?",
+        "older": "According to Genesis 4:15, what did the LORD set on Cain, lest anyone finding him should kill him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A crown"
+        },
+        {
+          "id": "b",
+          "text": "A mark"
+        },
+        {
+          "id": "c",
+          "text": "A royal ring"
+        },
+        {
+          "id": "d",
+          "text": "A shepherd's staff"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 4:15",
+            "text": "And the LORD said to him, “Therefore, whoever kills Cain, vengeance shall be taken on him sevenfold.” And the LORD set a mark on Cain, lest anyone finding him should kill him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 4:15 ends by naming what the LORD set on Cain. Read the last sentence of the verse.",
+          "child": "Look at the end of Genesis 4:15. It tells what God put on Cain.",
+          "teen": "The LORD first promises sevenfold vengeance, then in the final sentence of 4:15 He sets something on Cain. Find it there.",
+          "older": "Genesis 4:15 pairs a spoken promise with a visible sign; the second half of the verse names what was set on Cain."
+        },
+        "extended_explanation": "Cain had said that anyone who found him would kill him. In Genesis 4:15 the LORD answers that fear in two ways: a warning about vengeance and something placed on Cain himself. Read the sentence that begins \"And the LORD set.\"",
+        "takeaway": "The LORD set a mark on Cain so that no one who found him would kill him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-gen-0058",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 11",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As people journeyed from the east, they found a plain and settled there. In what land was that plain?",
+        "child": "People traveling from the east found a flat, open place and stayed there. What land was it in?",
+        "teen": "Before the tower was built, the people settled on a plain they found while traveling from the east. Which land was it?",
+        "older": "Genesis 11:2 says the people found a plain and dwelt there. In which land was it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Goshen"
+        },
+        {
+          "id": "b",
+          "text": "Mount Ararat"
+        },
+        {
+          "id": "c",
+          "text": "Haran"
+        },
+        {
+          "id": "d",
+          "text": "Shinar"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 11:2",
+            "text": "And it came to pass, as they journeyed from the east, that they found a plain in the land of Shinar, and they dwelt there.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 11:2 names the land right after the words \"a plain in the land of.\"",
+          "child": "Read Genesis 11:2. Find the words \"in the land of\" and look at the name that comes next.",
+          "teen": "The middle of Genesis 11:2 tells where the travelers stopped. The land is named just after \"a plain.\"",
+          "older": "The place name appears in the middle clause of 11:2, describing the plain where the people dwelt."
+        },
+        "extended_explanation": "Genesis 11:2 describes people traveling from the east and stopping on a plain. That is where the city and tower would be built. Read the phrase \"a plain in the land of\" and note the name that follows.",
+        "takeaway": "The people settled on a plain in the land of Shinar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 4",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Cain was angry, the LORD warned him that sin was waiting for him and desired him. What did the LORD say Cain should do about it?",
+        "child": "God told angry Cain that sin was waiting to grab him. What did God say Cain should do with sin?",
+        "teen": "The LORD described sin as lying in wait and wanting Cain. What was Cain told he should do in response?",
+        "older": "In Genesis 4:7 the LORD says sin's desire is for Cain. What does the LORD say Cain should do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rule over it"
+        },
+        {
+          "id": "b",
+          "text": "Run away from it"
+        },
+        {
+          "id": "c",
+          "text": "Hide it from others"
+        },
+        {
+          "id": "d",
+          "text": "Bring an offering for it"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 4:6",
+            "text": "So the LORD said to Cain, “Why are you angry? And why has your countenance fallen?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 4:7",
+            "text": "If you do well, will you not be accepted? And if you do not do well, sin lies at the door. And its desire is for you, but you should rule over it.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 4:7 ends with what Cain should do about sin. Read the last few words of the verse, after \"but you should.\"",
+          "child": "Look at the very end of Genesis 4:7. It tells what Cain was supposed to do.",
+          "teen": "In 4:7 the LORD gives a warning and then a charge. The charge is in the final words of the verse.",
+          "older": "The closing clause of 4:7 answers sin's desire with a responsibility placed on Cain; read it carefully."
+        },
+        "extended_explanation": "Before anything happened in the field, the LORD spoke to Cain about his anger. Genesis 4:6-7 asks why he is angry, promises acceptance if he does well, and warns that sin lies in wait. The last phrase of verse 7 tells what Cain was called to do.",
+        "takeaway": "The LORD told Cain that sin desired him, but he should rule over it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 4",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD asked Cain where Abel was, Cain said he did not know. What question did he add?",
+        "child": "God asked Cain, \"Where is your brother?\" Cain said he didn't know. Then what did Cain ask back?",
+        "teen": "Cain answered the LORD's question about Abel with a claim and then a question of his own. What was the question?",
+        "older": "In Genesis 4:9, after saying \"I do not know,\" what question did Cain put back to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Why do You ask me this?"
+        },
+        {
+          "id": "b",
+          "text": "Is he not out in the field?"
+        },
+        {
+          "id": "c",
+          "text": "Am I my brother’s keeper?"
+        },
+        {
+          "id": "d",
+          "text": "Has he not gone off to the hills?"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 4:9",
+            "text": "Then the LORD said to Cain, “Where is Abel your brother?” He said, “I do not know. Am I my brother’s keeper?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 4:9 records the LORD's question and Cain's answer. Cain's own question comes at the very end of the verse.",
+          "child": "Read Genesis 4:9 to the end. Cain's question is the last thing he says.",
+          "teen": "Cain says two things in 4:9. Skip past \"I do not know\" and read what he asks next.",
+          "older": "Cain's reply in 4:9 has two parts; the second is a question about his responsibility for Abel."
+        },
+        "extended_explanation": "The LORD asked Cain a direct question about his brother. Cain's reply in Genesis 4:9 begins with a denial and ends with a question that pushes the matter away from himself. Read the final words of the verse.",
+        "takeaway": "Cain asked, “Am I my brother’s keeper?” instead of telling the truth about Abel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 4",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD said the ground would no longer yield its strength to Cain. What did the LORD say Cain would be on the earth?",
+        "child": "God said the ground would not grow good crops for Cain anymore. What did God say Cain would become?",
+        "teen": "Cain's work with the ground would no longer succeed. What does Genesis 4:12 say he would be on the earth instead?",
+        "older": "After saying the ground would not yield its strength to him, what did the LORD say Cain would be (Genesis 4:12)?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A ruler over a great walled city"
+        },
+        {
+          "id": "b",
+          "text": "A fugitive and a vagabond"
+        },
+        {
+          "id": "c",
+          "text": "A servant in Egypt"
+        },
+        {
+          "id": "d",
+          "text": "A priest at the altar"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 4:12",
+            "text": "When you till the ground, it shall no longer yield its strength to you. A fugitive and a vagabond you shall be on the earth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 4:12 has two parts: what happens to Cain's farming, then what he would be. Read the second sentence.",
+          "child": "Read the last sentence of Genesis 4:12. It tells what Cain would be on the earth.",
+          "teen": "The ground stops cooperating in the first half of 4:12; the second half describes Cain's new way of life.",
+          "older": "The final sentence of 4:12 tells what Cain would be, after the note about the ground. Read that sentence to the end."
+        },
+        "extended_explanation": "Cain had been a man who worked the ground. Genesis 4:12 says the ground would no longer give him its strength, and then describes the kind of life he would live from then on. Read the sentence that ends with \"on the earth.\"",
+        "takeaway": "The LORD said Cain would be a fugitive and a vagabond on the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 11",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The builders wanted a city and a tower reaching into the heavens. What did they hope to gain by it?",
+        "child": "The people wanted to build a city with a very tall tower. What did they hope it would do for them?",
+        "teen": "Genesis 11:4 gives the builders' own goal for their city and tower. What were they after?",
+        "older": "In Genesis 11:4, what did the builders say they hoped to accomplish with the city and tower?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Make a name for ourselves"
+        },
+        {
+          "id": "b",
+          "text": "Save ourselves from another flood"
+        },
+        {
+          "id": "c",
+          "text": "Honor the LORD among ourselves"
+        },
+        {
+          "id": "d",
+          "text": "Store grain for ourselves in the city"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 11:4",
+            "text": "And they said, “Come, let us build ourselves a city, and a tower whose top is in the heavens; let us make a name for ourselves, lest we be scattered abroad over the face of the whole earth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 11:4 quotes the builders. Their goal comes right after they describe the tower whose top is in the heavens.",
+          "child": "Read the words the people say in Genesis 11:4. Look right after the part about the tower's top.",
+          "teen": "The builders state their aim in their own words in 11:4. Find the phrase that follows the second \"let us.\"",
+          "older": "The second \"let us\" clause in 11:4 states the builders' ambition, followed by what they feared."
+        },
+        "extended_explanation": "The builders at Babel had brick and asphalt, and they planned a city with a tower reaching the heavens. Genesis 11:4 records their reason in their own words, along with what they were afraid would happen. Read the clause after the second \"let us.\"",
+        "takeaway": "The builders wanted to make a name for themselves, but the LORD stopped their plan."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 11",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD said, \"Let Us go down\" to stop the builders. According to Genesis 11:9, why was the place called Babel?",
+        "child": "God came down to stop the tower builders. Why was the city named Babel?",
+        "teen": "Genesis 11:7 tells what the LORD planned to do, and 11:9 explains the city's name. Why was it called Babel?",
+        "older": "Reading Genesis 11:7 with 11:9, what reason does the text give for the name Babel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A great king was buried there"
+        },
+        {
+          "id": "b",
+          "text": "The city gates were made of gold"
+        },
+        {
+          "id": "c",
+          "text": "Its walls were the tallest on earth"
+        },
+        {
+          "id": "d",
+          "text": "The LORD confused the language"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 11:7",
+            "text": "Come, let Us go down and there confuse their language, that they may not understand one another’s speech.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 11:9",
+            "text": "Therefore its name is called Babel, because there the LORD confused the language of all the earth; and from there the LORD scattered them abroad over the face of all the earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 11:7 states the LORD's plan, and 11:9 repeats it as the reason for the name. Read the words after \"because there\" in 11:9.",
+          "child": "Look at Genesis 11:9. Find the word \"because.\" The reason for the name comes right after it.",
+          "teen": "Match the plan in 11:7 with the explanation in 11:9; the same action appears in both verses.",
+          "older": "Verse 9 links the name to what happened there; compare its \"because\" clause with the purpose stated in verse 7."
+        },
+        "extended_explanation": "The people all spoke one language, and their plan depended on understanding one another. In Genesis 11:7 the LORD says what He will do so they cannot understand each other's speech. Genesis 11:9 gives the city its name for the same reason. Read the \"because\" clause in verse 9.",
+        "takeaway": "The place was called Babel because there the LORD confused the language of all the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-gen-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 4",
+      "topics": [
+        "cain-abel-babel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Each brother brought an offering connected to his own work. Given Abel's work in 4:2, what did he bring in 4:4?",
+        "child": "Cain grew crops and Abel took care of animals. What did Abel bring to the LORD?",
+        "teen": "Genesis 4:2 tells what each brother did for a living. Which offering did Abel bring, according to 4:4?",
+        "older": "Connecting Abel's occupation in Genesis 4:2 with his offering in 4:4, what did Abel bring to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grain from his field"
+        },
+        {
+          "id": "b",
+          "text": "Wool from his sheep"
+        },
+        {
+          "id": "c",
+          "text": "The firstborn of his flock"
+        },
+        {
+          "id": "d",
+          "text": "Bread baked over a fire of thorns"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 4:2",
+            "text": "Then she bore again, this time his brother Abel. Now Abel was a keeper of sheep, but Cain was a tiller of the ground.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 4:4",
+            "text": "Abel also brought of the firstborn of his flock and of their fat. And the LORD respected Abel and his offering,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 4:2 names Abel's work, and 4:4 shows his offering came from it. Read the start of 4:4.",
+          "child": "First see what Abel did in Genesis 4:2. Then read the beginning of 4:4 to see what he brought.",
+          "teen": "Abel's offering in 4:4 matches the job described in 4:2. The first words of 4:4 tell what he brought.",
+          "older": "The opening of 4:4 identifies Abel's gift, drawn from the work named in 4:2, and adds that the LORD respected it."
+        },
+        "extended_explanation": "Genesis 4:2 introduces the two brothers by their work. Cain brought from the ground, and Abel brought from his own work as well. Read the first sentence of 4:4 to see exactly what Abel offered, and notice how the LORD received it.",
+        "takeaway": "Abel brought the firstborn of his flock, and the LORD respected Abel and his offering."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

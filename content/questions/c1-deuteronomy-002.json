@@ -1,0 +1,507 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-deuteronomy-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-deu-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 1",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses' farewell speech begins by noting the distance from Horeb to Kadesh Barnea. How long a journey was it?",
+        "child": "At the start of Deuteronomy, Moses mentions the trip from Mount Horeb to Kadesh Barnea. How long was that journey?",
+        "teen": "Deuteronomy opens with a travel note: Horeb to Kadesh Barnea by way of Mount Seir. How long was that trip?",
+        "older": "According to Deuteronomy 1:2, how long a journey is it from Horeb by way of Mount Seir to Kadesh Barnea?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three days"
+        },
+        {
+          "id": "b",
+          "text": "Eleven days"
+        },
+        {
+          "id": "c",
+          "text": "Forty days"
+        },
+        {
+          "id": "d",
+          "text": "Fourteen days"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 1:2",
+            "text": "It is eleven days’ journey from Horeb by way of Mount Seir to Kadesh Barnea.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 1:2 opens with the length of the journey. Read the first words of the verse.",
+          "child": "Look at the very start of Deuteronomy 1:2. The length of the trip comes first.",
+          "teen": "1:2 gives the length of the trip before it names Horeb. Read the opening phrase.",
+          "older": "The verse states the distance as a number of days' travel in its first clause, then names the route."
+        },
+        "extended_explanation": "Deuteronomy 1:2 is a short travel note. It reminds readers how short the trip from Horeb to Kadesh Barnea really was, even though Israel had spent many years in the wilderness. Read the beginning of the verse for the number of days.",
+        "takeaway": "It is an eleven days' journey from Horeb by way of Mount Seir to Kadesh Barnea."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-deu-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 31",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Moses prepared Israel to cross the Jordan without him, how old did he say he was?",
+        "child": "Moses told the people he could not lead them across the Jordan. How old did he say he was that day?",
+        "teen": "In Deuteronomy 31:2, Moses explains he can no longer go out and come in. How old does he say he is?",
+        "older": "According to Deuteronomy 31:2, how old was Moses when he told Israel he would not cross the Jordan?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eighty years"
+        },
+        {
+          "id": "b",
+          "text": "Ninety-nine years"
+        },
+        {
+          "id": "c",
+          "text": "One hundred and seventy years"
+        },
+        {
+          "id": "d",
+          "text": "One hundred and twenty years"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 31:2",
+            "text": "And he said to them: “I am one hundred and twenty years old today. I can no longer go out and come in. Also the LORD has said to me, ‘You shall not cross over this Jordan.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Moses tells how old he is in the first sentence he speaks in Deuteronomy 31:2.",
+          "child": "Read the start of what Moses says in Deuteronomy 31:2. He says how old he is right away.",
+          "teen": "31:2 begins with \"I am\" and then gives a number of years, before he says he can no longer go out and come in.",
+          "older": "The number of years stands at the head of Moses' words in 31:2, followed by his limits and the LORD's word about the Jordan."
+        },
+        "extended_explanation": "In Deuteronomy 31:2 Moses tells all Israel that he will not cross over the Jordan with them. Before he gives the reasons, he says how old he is. Read the words right after \"I am.\"",
+        "takeaway": "Moses was one hundred and twenty years old when he told Israel he would not cross the Jordan."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 1",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses reminded Israel how the LORD had brought them through the wilderness. What picture did he use for the way God carried them?",
+        "child": "Moses said God carried His people through the desert. What did he compare it to?",
+        "teen": "In Deuteronomy 1:31, Moses describes how the LORD carried Israel all the way. Which comparison does he use?",
+        "older": "Deuteronomy 1:31 says the LORD carried Israel in the wilderness. To what does Moses liken this?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "As a man carries his son"
+        },
+        {
+          "id": "b",
+          "text": "As a shepherd carries a lamb"
+        },
+        {
+          "id": "c",
+          "text": "As a king carries his banner"
+        },
+        {
+          "id": "d",
+          "text": "As a servant carries water"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 1:31",
+            "text": "and in the wilderness where you saw how the LORD your God carried you, as a man carries his son, in all the way that you went until you came to this place.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 1:31 gives the comparison right after the words \"carried you.\"",
+          "child": "Read Deuteronomy 1:31. Look at the words that come just after \"carried you.\"",
+          "teen": "1:31 uses a comparison. Find the phrase right after \"how the LORD your God carried you.\"",
+          "older": "The simile in 1:31 comes immediately after the verb, before the verse turns to \"all the way that you went.\""
+        },
+        "extended_explanation": "Moses was reminding a generation that was afraid to enter the land. In Deuteronomy 1:30-31 he points back to how the LORD fought for them and carried them through the wilderness. The comparison in verse 31 is a picture from everyday life. Read the words after \"carried you.\"",
+        "takeaway": "Moses said the LORD carried Israel as a man carries his son."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 8",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses said that during the forty years in the wilderness something of theirs never wore out. What was it?",
+        "child": "God took care of Israel for forty years in the desert. What did Moses say never wore out on them?",
+        "teen": "Deuteronomy 8:4 names two signs of God's care during the forty years. Which item did not wear out?",
+        "older": "According to Deuteronomy 8:4, what did not wear out on the Israelites these forty years?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tents"
+        },
+        {
+          "id": "b",
+          "text": "Cooking pots"
+        },
+        {
+          "id": "c",
+          "text": "Garments"
+        },
+        {
+          "id": "d",
+          "text": "Water skins"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 8:4",
+            "text": "Your garments did not wear out on you, nor did your foot swell these forty years.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 8:4 names what did not wear out in its first words. Read the opening of the verse.",
+          "child": "Look at the beginning of Deuteronomy 8:4. It names what stayed in good shape the whole time.",
+          "teen": "8:4 pairs two details, and the second is about their feet. Read the first one.",
+          "older": "The first clause of 8:4 names the item that did not wear out; the second concerns their feet not swelling."
+        },
+        "extended_explanation": "In Deuteronomy 8 Moses calls Israel to remember the forty years in the wilderness. Verse 4 gives two plain signs that God cared for them on the long road. Read the first half of the verse.",
+        "takeaway": "Israel's garments did not wear out on them during the forty years."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 8",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses warned Israel not to say their own might had made them rich. What did he say the LORD is the One who gives them?",
+        "child": "Moses told the people not to brag that they got rich by their own strength. What did he say God gives them instead?",
+        "teen": "Deuteronomy 8:17-18 contrasts a proud boast with what Israel should remember. What does the LORD give, according to verse 18?",
+        "older": "According to Deuteronomy 8:18, what is it that the LORD gives Israel, so that He may establish His covenant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rest from every enemy"
+        },
+        {
+          "id": "b",
+          "text": "Rain in its season"
+        },
+        {
+          "id": "c",
+          "text": "Power to get wealth"
+        },
+        {
+          "id": "d",
+          "text": "Long life in the land"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 8:17",
+            "text": "then you say in your heart, ‘My power and the might of my hand have gained me this wealth.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 8:18",
+            "text": "“And you shall remember the LORD your God, for it is He who gives you power to get wealth, that He may establish His covenant which He swore to your fathers, as it is this day.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 8:18 tells what the LORD gives, right after \"it is He who gives you.\"",
+          "child": "Read Deuteronomy 8:18. Look at the words that come after \"it is He who gives you.\"",
+          "teen": "8:17 is the boast; 8:18 is the answer to it. Find what follows \"gives you\" in verse 18.",
+          "older": "Verse 18 answers the boast of verse 17. Read what follows \"gives you.\""
+        },
+        "extended_explanation": "Deuteronomy 8:17 imagines Israel, comfortable in the land, saying, \"My power and the might of my hand\" did this. Verse 18 corrects that thought by telling them to remember the LORD. Read what verse 18 says He gives.",
+        "takeaway": "The LORD is the One who gives His people power to get wealth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 10",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses told Israel to love the stranger, just as God does. What had Israel once been, according to the reason he gave?",
+        "child": "God loves people who are far from home, and Moses told Israel to love them too. What did he remind them they had once been?",
+        "teen": "Deuteronomy 10:19 gives Israel a reason from their own history for loving the stranger. What were they once?",
+        "older": "According to Deuteronomy 10:19, what reason from Israel's past is given for the command to love the stranger?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strangers in the land of Egypt"
+        },
+        {
+          "id": "b",
+          "text": "Strangers to the LORD's covenant"
+        },
+        {
+          "id": "c",
+          "text": "Kings over the nations of Canaan"
+        },
+        {
+          "id": "d",
+          "text": "Rulers of a great city by the Nile"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 10:18",
+            "text": "He administers justice for the fatherless and the widow, and loves the stranger, giving him food and clothing.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 10:19",
+            "text": "Therefore love the stranger, for you were strangers in the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Deuteronomy 10:19 gives the reason after the word \"for.\" Read the end of the verse.",
+          "child": "Read Deuteronomy 10:19. The reason comes after the word \"for.\"",
+          "teen": "10:18 tells what God does for the stranger; 10:19 tells Israel why they should do the same. Read the second half of verse 19.",
+          "older": "The motive clause in 10:19 appeals to Israel's own past in a foreign land; read what follows \"for you were.\""
+        },
+        "extended_explanation": "In Deuteronomy 10:18 Moses says the LORD gives justice to the fatherless and the widow and gives the stranger food and clothing. Then verse 19 turns it into a command for Israel, with a reason they could understand from their own story. Read the end of verse 19.",
+        "takeaway": "Israel was to love the stranger, for they had been strangers in the land of Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 1",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD said that not one of that unbelieving generation would see the good land. Whom did He say would go in instead?",
+        "child": "God said that generation would not enter the land. Who did He say would go in?",
+        "teen": "In Deuteronomy 1:35 the LORD shuts out an unbelieving generation; in 1:39 He names who will possess the land. Who are they?",
+        "older": "Deuteronomy 1:35 and 1:39 set two groups side by side. Which group does 1:39 say would go in and possess the land?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The men of war"
+        },
+        {
+          "id": "b",
+          "text": "The elders of each tribe"
+        },
+        {
+          "id": "c",
+          "text": "The priests and Levites"
+        },
+        {
+          "id": "d",
+          "text": "Your little ones"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 1:35",
+            "text": "‘Surely not one of these men of this evil generation shall see that good land of which I swore to give to your fathers,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 1:39",
+            "text": "‘Moreover your little ones and your children, who you say will be victims, who today have no knowledge of good and evil, they shall go in there; to them I will give it, and they shall possess it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Compare 1:35 with 1:39. Verse 39 opens with the group that would go in.",
+          "child": "Read Deuteronomy 1:39. The people who would go in are named at the very beginning.",
+          "teen": "In 1:39 the people had said this group would be \"victims.\" Read the first words of the verse to see who they were.",
+          "older": "The irony is in 1:39 itself: the ones the people feared for are named in its opening words as the heirs of the land."
+        },
+        "extended_explanation": "When the people refused to enter the land, they voiced fears about who would become victims. Deuteronomy 1:35 says that generation would not see the land. Verse 39 answers their fear directly by naming who would go in after all. Read the start of verse 39.",
+        "takeaway": "The LORD said the little ones and children would go in and possess the land."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-deu-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 31",
+      "topics": [
+        "moses-farewell"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses spoke a promise to all Israel and then repeated it to Joshua. What did he say the LORD would never do to them?",
+        "child": "Moses gave the same promise to the people and to Joshua. What did he say God would never do?",
+        "teen": "Deuteronomy 31:6 is spoken to Israel and 31:8 to Joshua. Which promise about the LORD is repeated in both?",
+        "older": "Comparing Deuteronomy 31:6 and 31:8, which promise about what the LORD will not do is given to both Israel and Joshua?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Test you"
+        },
+        {
+          "id": "b",
+          "text": "Forsake you"
+        },
+        {
+          "id": "c",
+          "text": "Send you back to Egypt"
+        },
+        {
+          "id": "d",
+          "text": "Hide His face from you"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 31:6",
+            "text": "Be strong and of good courage, do not fear nor be afraid of them; for the LORD your God, He is the One who goes with you. He will not leave you nor forsake you.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 31:8",
+            "text": "And the LORD, He is the One who goes before you. He will be with you, He will not leave you nor forsake you; do not fear nor be dismayed.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Both verses end with the same promise. Read the last sentence of 31:6 and compare it with 31:8.",
+          "child": "Read the end of Deuteronomy 31:6, then look for the same words in 31:8.",
+          "teen": "31:6 and 31:8 both say \"He will not leave you nor\" and then finish the promise the same way.",
+          "older": "The repeated line in 31:6 and 31:8 pairs two verbs; the second one completes the promise after \"leave you nor.\""
+        },
+        "extended_explanation": "Moses would not cross the Jordan, so he spoke first to all Israel and then to Joshua in front of everyone. Both times he said the LORD Himself goes with them and before them, and both times he added the same promise. Read the words after \"He will not leave you nor.\"",
+        "takeaway": "The LORD will not leave His people nor forsake them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

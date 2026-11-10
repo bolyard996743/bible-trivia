@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-proverbs-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-pro-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 6",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 6:6 tells the sluggard to consider the ways of a certain creature and be wise. Which creature?",
+        "child": "Proverbs 6:6 tells a lazy person to go and learn from a small creature. Which one?",
+        "teen": "Proverbs 6:6 sends the sluggard to study one of God's creatures. Which one?",
+        "older": "According to Proverbs 6:6, to what creature is the sluggard told to go and consider her ways?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The bee"
+        },
+        {
+          "id": "b",
+          "text": "The ant"
+        },
+        {
+          "id": "c",
+          "text": "The badger"
+        },
+        {
+          "id": "d",
+          "text": "The eagle"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 6:6",
+            "text": "Go to the ant, you sluggard! Consider her ways and be wise,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The creature is named in the first words of Proverbs 6:6, right after \"Go to.\"",
+          "child": "Look at the very start of Proverbs 6:6. The creature comes right after \"Go to.\"",
+          "teen": "6:6 opens with a command and names the creature at once. Read the first phrase.",
+          "older": "The creature is named in the opening imperative of 6:6."
+        },
+        "extended_explanation": "Proverbs 6:6 speaks directly to the sluggard, someone who avoids work, and tells him to watch a small creature and learn from her. Read the first words of the verse.",
+        "takeaway": "Proverbs 6:6 says, \"Go to the ant, you sluggard! Consider her ways and be wise.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-pro-0017",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 22",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 22:7 describes what happens between someone who borrows and someone who lends. What does the borrower become to the lender?",
+        "child": "Proverbs 22:7 talks about borrowing. What does it say a borrower becomes to the person who lent to him?",
+        "teen": "Proverbs 22:7 makes a point about debt. What is the borrower to the lender?",
+        "older": "According to Proverbs 22:7, what is the borrower to the lender?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Partner"
+        },
+        {
+          "id": "b",
+          "text": "Master"
+        },
+        {
+          "id": "c",
+          "text": "Neighbor"
+        },
+        {
+          "id": "d",
+          "text": "Servant"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 22:7",
+            "text": "The rich rules over the poor, And the borrower is servant to the lender.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Proverbs 22:7, right after \"the borrower is.\"",
+          "child": "Look at the end of Proverbs 22:7. The word comes right after \"the borrower is.\"",
+          "teen": "22:7 has two lines that make the same kind of point. Read the second line closely.",
+          "older": "The second clause of 22:7 names the borrower's position relative to the lender."
+        },
+        "extended_explanation": "Proverbs 22:7 is a short saying about power and money. Its first line speaks of the rich and the poor, and its second line describes what borrowing does to a person. Read the words right after \"the borrower is.\"",
+        "takeaway": "The borrower is servant to the lender."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-pro-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 6",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 6:8 says a small creature stores up supplies and food. What does 6:7 say it does all this without?",
+        "child": "This tiny creature stores up food all on its own. What does Proverbs 6:7 say it does not have?",
+        "teen": "6:7-8 describes a creature that prepares ahead with no one making it. What does 6:7 say it lacks?",
+        "older": "According to Proverbs 6:7, what does the creature lack, even though it provides its supplies?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "No captain, overseer or ruler"
+        },
+        {
+          "id": "b",
+          "text": "No nest, burrow or place to rest"
+        },
+        {
+          "id": "c",
+          "text": "No strength, size or speed"
+        },
+        {
+          "id": "d",
+          "text": "No partner, family or friend"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 6:7",
+            "text": "Which, having no captain, Overseer or ruler,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 6:8",
+            "text": "Provides her supplies in the summer, And gathers her food in the harvest.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 6:7 is one short line. Read it right after \"having.\"",
+          "child": "Read Proverbs 6:7. It lists three things the creature does not have.",
+          "teen": "6:7 lists three things the creature does not have, and 6:8 shows the work still gets done. Read 6:7 closely.",
+          "older": "6:7 names three things the creature does without; 6:8 then describes its work."
+        },
+        "extended_explanation": "Proverbs 6:6-8 points to a small creature as a teacher. Verse 7 says what it does not have, and verse 8 shows that it still prepares its food. Read 6:7 for what it is missing.",
+        "takeaway": "She has no captain, overseer or ruler, yet she provides her supplies."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-pro-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 10",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 10:4 contrasts a slack hand with another kind of hand. Whose hand does it say makes rich?",
+        "child": "Proverbs 10:4 compares two kinds of hands. Whose hand brings riches?",
+        "teen": "10:4 sets one kind of hand against another. Which hand does it say makes rich?",
+        "older": "According to Proverbs 10:4, whose hand makes rich?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fortunate"
+        },
+        {
+          "id": "b",
+          "text": "The powerful"
+        },
+        {
+          "id": "c",
+          "text": "The diligent"
+        },
+        {
+          "id": "d",
+          "text": "The well-born"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 10:4",
+            "text": "He who has a slack hand becomes poor, But the hand of the diligent makes rich.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Proverbs 10:4, right after \"But the hand of.\"",
+          "child": "Look at the end of Proverbs 10:4, after \"But the hand of.\"",
+          "teen": "10:4 contrasts two hands with \"But.\" Read who the second hand belongs to.",
+          "older": "The second clause of 10:4 names the owner of the hand that makes rich."
+        },
+        "extended_explanation": "Proverbs 10:4 is a general saying about work. It contrasts two ways of using one's hands, and the word \"But\" marks the turn between them. Read the words right after \"But the hand of.\"",
+        "takeaway": "The hand of the diligent makes rich."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-pro-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 11",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 11:24 describes one person who scatters freely and another who holds back what he should give. What happens to the one who scatters?",
+        "child": "Proverbs 11:24 talks about a person who gives freely and one who holds back what he should give. What happens to the giver?",
+        "teen": "11:24 sounds surprising: one person scatters, another withholds. What does it say happens to the one who scatters?",
+        "older": "According to Proverbs 11:24, what is the outcome for the one who scatters?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Loses what he has"
+        },
+        {
+          "id": "b",
+          "text": "Is soon forgotten"
+        },
+        {
+          "id": "c",
+          "text": "Is praised by the king"
+        },
+        {
+          "id": "d",
+          "text": "Increases more"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 11:24",
+            "text": "There is one who scatters, yet increases more; And there is one who withholds more than is right, But it leads to poverty.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 11:25",
+            "text": "The generous soul will be made rich, And he who waters will also be watered himself.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Proverbs 11:24, right after \"scatters, yet.\"",
+          "child": "Look at the start of Proverbs 11:24. The result comes right after \"scatters, yet.\"",
+          "teen": "11:24 has a surprise in the first line. Read what follows \"yet.\"",
+          "older": "The first clause of 11:24 states the unexpected outcome after \"yet.\""
+        },
+        "extended_explanation": "Proverbs 11:24-25 talks about generosity. The first line of 11:24 describes someone who scatters, giving freely, and uses the word \"yet\" because the result is not what you might expect. Read the words after \"yet.\"",
+        "takeaway": "The one who scatters increases more."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-pro-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 16",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 16:8 says a little with righteousness is better than something else. Better than what?",
+        "child": "Proverbs 16:8 says having just a little, while doing what is right, is better than something. What?",
+        "teen": "16:8 is a \"better than\" proverb. What does a little with righteousness beat?",
+        "older": "According to Proverbs 16:8, a little with righteousness is better than what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A full storehouse without friends"
+        },
+        {
+          "id": "b",
+          "text": "Vast revenues without justice"
+        },
+        {
+          "id": "c",
+          "text": "A palace filled with gold and silver"
+        },
+        {
+          "id": "d",
+          "text": "Great honor among the nations"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 16:8",
+            "text": "Better is a little with righteousness, Than vast revenues without justice.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Proverbs 16:8, right after \"Than.\"",
+          "child": "Look at the end of Proverbs 16:8. The comparison comes right after \"Than.\"",
+          "teen": "16:8 weighs a small amount against a large one. Read what follows \"Than.\"",
+          "older": "The second half of the comparison in 16:8 follows \"Than\"; read it closely."
+        },
+        "extended_explanation": "Proverbs 16:1-9 is a group of sayings about the LORD and human plans. Verse 8 is a comparison: it sets a small amount gained the right way against something much bigger. Read the second line, right after \"Than.\"",
+        "takeaway": "Better is a little with righteousness than vast revenues without justice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-pro-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 6",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 6:10-11 warns against \"a little sleep, a little slumber,\" and 10:5 contrasts two sons at harvest time. According to 10:5, who is the wise son?",
+        "child": "Proverbs 6:10-11 warns about sleeping when there is work to do. Proverbs 10:5 compares two sons. Which son does it call wise?",
+        "teen": "6:10-11 warns about \"a little folding of the hands,\" and 10:5 picks up the same idea. Who is called a wise son in 10:5?",
+        "older": "Connecting Proverbs 6:10-11 with 10:5, whom does 10:5 call a wise son?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He who gathers in summer"
+        },
+        {
+          "id": "b",
+          "text": "He who plants in winter"
+        },
+        {
+          "id": "c",
+          "text": "He who sells at the market"
+        },
+        {
+          "id": "d",
+          "text": "He who rests until the rains"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 6:10",
+            "text": "A little sleep, a little slumber, A little folding of the hands to sleep—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 6:11",
+            "text": "So shall your poverty come on you like a prowler, And your need like an armed man.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 10:5",
+            "text": "He who gathers in summer is a wise son; He who sleeps in harvest is a son who causes shame.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Proverbs 10:5. The wise son is described before the words \"is a wise son.\"",
+          "child": "Look at the start of Proverbs 10:5. It tells what the wise son does.",
+          "teen": "6:10-11 shows what too much rest leads to; 10:5 shows the opposite. Read the first line of 10:5.",
+          "older": "The first clause of 10:5 describes the wise son's action and timing; the second describes the other son."
+        },
+        "extended_explanation": "Proverbs 6:10-11 warns that putting off work, a little at a time, can leave a person in need. Proverbs 10:5 makes a similar point with two sons: one son is called wise and the other causes shame. Read the first line of 10:5.",
+        "takeaway": "He who gathers in summer is a wise son."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-pro-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 11",
+      "topics": [
+        "proverbs-work-money"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 13:11 says wealth gained by dishonesty will be diminished, and 11:28 warns against trusting in one's wealth. What does 11:28 say the righteous will flourish like?",
+        "child": "Proverbs warns that dishonest money shrinks and that trusting in money leads to a fall. What does 11:28 say the righteous will grow like?",
+        "teen": "13:11 is about dishonest wealth; 11:28 is about trusting in wealth. What picture of growth does 11:28 give for the righteous?",
+        "older": "Reading Proverbs 11:28 alongside 13:11, to what are the righteous compared as they flourish?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Like a river"
+        },
+        {
+          "id": "b",
+          "text": "Like the cedars"
+        },
+        {
+          "id": "c",
+          "text": "Like foliage"
+        },
+        {
+          "id": "d",
+          "text": "Like the morning sun"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 11:28",
+            "text": "He who trusts in his riches will fall, But the righteous will flourish like foliage.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 13:11",
+            "text": "Wealth gained by dishonesty will be diminished, But he who gathers by labor will increase.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Proverbs 11:28, right after \"the righteous will flourish.\"",
+          "child": "Look at the last words of Proverbs 11:28, after \"will flourish.\"",
+          "teen": "11:28 sets falling against flourishing. Read the picture at the end of the verse.",
+          "older": "The simile closing 11:28 describes how the righteous flourish; read it closely."
+        },
+        "extended_explanation": "Proverbs 13:11 contrasts wealth gained dishonestly with wealth gathered by honest labor. Proverbs 11:28 contrasts a person who trusts in his money with the righteous, and it ends with a picture. Read the last words of 11:28.",
+        "takeaway": "The righteous will flourish like foliage."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

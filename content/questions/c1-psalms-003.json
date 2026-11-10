@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-psa-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 150",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 150 calls for praise with trumpet, lute, harp, timbrel, and cymbals. In its final verse, who or what is called to praise the LORD?",
+        "child": "Psalm 150 names lots of instruments for praising God. In the very last verse, who or what should praise the LORD?",
+        "teen": "After listing trumpets, harps, and cymbals, Psalm 150 ends by widening the call to praise. Who or what does 150:6 call on?",
+        "older": "According to Psalm 150:6, who or what is to praise the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every king of the earth"
+        },
+        {
+          "id": "b",
+          "text": "Every star in the heavens"
+        },
+        {
+          "id": "c",
+          "text": "Everything that has breath"
+        },
+        {
+          "id": "d",
+          "text": "All the trees of the forest"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 150:3",
+            "text": "Praise Him with the sound of the trumpet; Praise Him with the lute and harp!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 150:6",
+            "text": "Let everything that has breath praise the LORD. Praise the LORD!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the beginning of Psalm 150:6, right after \"Let.\"",
+          "child": "Look at the first words of Psalm 150:6. It tells who should praise the LORD.",
+          "teen": "150:3 lists instruments; 150:6 names who should praise. Read the opening of 150:6.",
+          "older": "The subject of the final call to praise stands at the start of 150:6."
+        },
+        "extended_explanation": "Psalm 150 is the last psalm, and it is full of praise: in the sanctuary, for God's mighty acts, with trumpet and harp and cymbals. The final verse names who should join in. Read the first words of 150:6.",
+        "takeaway": "Let everything that has breath praise the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-psa-0017",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 122",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 122 is a song for worshipers going up to the house of the LORD. In 122:6, what are readers told to pray for?",
+        "child": "Psalm 122 is a song about going to worship God together. What does verse 6 tell worshipers to pray for?",
+        "teen": "Psalm 122:6 gives a short instruction about prayer. What should be prayed for?",
+        "older": "According to Psalm 122:6, for what are readers instructed to pray?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The peace of Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "The kings of the earth"
+        },
+        {
+          "id": "c",
+          "text": "The rain on the fields"
+        },
+        {
+          "id": "d",
+          "text": "The return of the exiles"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 122:6",
+            "text": "Pray for the peace of Jerusalem: “May they prosper who love you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Psalm 122:6, right after \"Pray for.\"",
+          "child": "Look at the start of Psalm 122:6. What to pray for comes right after \"Pray for.\"",
+          "teen": "122:6 begins with an instruction. Read the words after \"Pray for.\"",
+          "older": "The object of the prayer follows \"Pray for\" at the opening of 122:6."
+        },
+        "extended_explanation": "Psalm 122 was sung by worshipers going up to the house of the LORD to give thanks to His name. Verse 6 gives a simple instruction, followed by a blessing. Read the words right after \"Pray for.\"",
+        "takeaway": "Psalm 122:6 says to pray for the peace of Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-psa-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 24",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 24:3 asks, \"Who may ascend into the hill of the LORD?\" What two things does 24:4 say that person has?",
+        "child": "Psalm 24 asks who may go up to God's holy hill. What two things does the answer say that person has?",
+        "teen": "24:3 asks who may stand in God's holy place, and 24:4 answers. What two things describe that person first?",
+        "older": "According to Psalm 24:4, what two qualities belong to the one who may ascend the hill of the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strong arms and a brave heart"
+        },
+        {
+          "id": "b",
+          "text": "Wise words and a humble spirit"
+        },
+        {
+          "id": "c",
+          "text": "Swift feet and a strong back"
+        },
+        {
+          "id": "d",
+          "text": "Clean hands and a pure heart"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 24:3",
+            "text": "Who may ascend into the hill of the LORD? Or who may stand in His holy place?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 24:4",
+            "text": "He who has clean hands and a pure heart, Who has not lifted up his soul to an idol, Nor sworn deceitfully.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Psalm 24:4, right after \"He who has.\"",
+          "child": "Look at the start of Psalm 24:4. Two things are named right after \"He who has.\"",
+          "teen": "24:3 asks the question; 24:4 answers it. Read the first pair of things listed.",
+          "older": "The opening clause of 24:4 names two qualities of the person; read it closely."
+        },
+        "extended_explanation": "Psalm 24:3 asks who may go up God's hill and stand in His holy place. Verse 4 answers with a description of that person, including what he has not done. Read the first line of 24:4.",
+        "takeaway": "The one who may ascend the hill of the LORD has clean hands and a pure heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-psa-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 29",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 29 praises the power of the voice of the LORD. According to 29:5, what does His voice break?",
+        "child": "Psalm 29 says God's voice is powerful and full of majesty. What does it say His voice breaks?",
+        "teen": "29:4 calls the voice of the LORD powerful; 29:5 gives an example. What does it break?",
+        "older": "According to Psalm 29:5, what does the voice of the LORD break and splinter?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The walls of Jericho"
+        },
+        {
+          "id": "b",
+          "text": "The cedars of Lebanon"
+        },
+        {
+          "id": "c",
+          "text": "The gates of Babylon"
+        },
+        {
+          "id": "d",
+          "text": "The rocks of the wilderness"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 29:4",
+            "text": "The voice of the LORD is powerful; The voice of the LORD is full of majesty.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 29:5",
+            "text": "The voice of the LORD breaks the cedars, Yes, the LORD splinters the cedars of Lebanon.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 29:5 says the same thing twice. Read the end of the verse, after \"splinters.\"",
+          "child": "Read Psalm 29:5. Look at the last words, after \"splinters.\"",
+          "teen": "29:5 has two lines that say nearly the same thing. The second line is more specific; read its end.",
+          "older": "The second half of 29:5 restates the first more specifically; read what follows \"splinters.\""
+        },
+        "extended_explanation": "Psalm 29 repeats the phrase \"the voice of the LORD\" again and again, like thunder rolling. Verse 4 says His voice is powerful and full of majesty, and verse 5 gives a picture of that power. Read the end of 29:5.",
+        "takeaway": "The voice of the LORD breaks the cedars of Lebanon."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-psa-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 84",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 84:10, the writer says one day in God's courts is better than a thousand elsewhere. What humble role would he rather have than dwell in the tents of wickedness?",
+        "child": "The writer of Psalm 84 loves being near God so much that he would take a lowly job there. What job?",
+        "teen": "84:10 compares one day in God's courts with a thousand days elsewhere. What role would the writer rather have?",
+        "older": "According to Psalm 84:10, what would the psalmist rather be than dwell in the tents of wickedness?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A doorkeeper"
+        },
+        {
+          "id": "b",
+          "text": "A water carrier"
+        },
+        {
+          "id": "c",
+          "text": "A shepherd boy"
+        },
+        {
+          "id": "d",
+          "text": "A servant at the table"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 84:10",
+            "text": "For a day in Your courts is better than a thousand. I would rather be a doorkeeper in the house of my God Than dwell in the tents of wickedness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Psalm 84:10, right after \"I would rather be.\"",
+          "child": "Look at Psalm 84:10. The job comes right after \"I would rather be.\"",
+          "teen": "84:10 makes two comparisons. Read the second one, after \"I would rather be.\"",
+          "older": "The role is named in the second comparison of 84:10, following \"I would rather be.\""
+        },
+        "extended_explanation": "Psalm 84 is full of longing to be near God: even birds find a nest near His altars (84:3). Verse 10 says one day near Him is better than a thousand elsewhere, and then names a humble role the writer would gladly take. Read the words after \"I would rather be.\"",
+        "takeaway": "The psalmist would rather be a doorkeeper in the house of his God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-psa-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 95",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 95:6 says, \"Oh come, let us worship and bow down; let us kneel before the LORD our Maker.\" What does 95:7 say we are, as the reason?",
+        "child": "Psalm 95 invites everyone to bow down and kneel before God. What does verse 7 say we are?",
+        "teen": "95:6 calls us to kneel; 95:7 begins with \"For\" and gives the reason. What does it say we are?",
+        "older": "According to Psalm 95:7, what does the psalmist say we are, in the reason given for kneeling before Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The children of His household"
+        },
+        {
+          "id": "b",
+          "text": "The stones of His temple"
+        },
+        {
+          "id": "c",
+          "text": "The people of His pasture"
+        },
+        {
+          "id": "d",
+          "text": "The soldiers of His army"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 95:6",
+            "text": "Oh come, let us worship and bow down; Let us kneel before the LORD our Maker.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 95:7",
+            "text": "For He is our God, And we are the people of His pasture, And the sheep of His hand. Today, if you will hear His voice:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 95:7 gives the reason with \"For.\" Read the words right after \"we are.\"",
+          "child": "Read Psalm 95:7. Look right after \"we are.\"",
+          "teen": "95:7 gives two descriptions of us after \"we are.\" Read the first one.",
+          "older": "The first description in 95:7 follows \"we are.\""
+        },
+        "extended_explanation": "Psalm 95:6 calls worshipers to bow and kneel before the LORD their Maker. Verse 7 gives the reason, beginning \"For He is our God.\" Read the words right after \"we are.\"",
+        "takeaway": "We are the people of His pasture and the sheep of His hand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-psa-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 19",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 19:7 says the law of the LORD is perfect, converting the soul. In 19:10, the writer says these words are more desired than gold. What second comparison does he make?",
+        "child": "Psalm 19 says God's law is perfect and changes lives. It also says God's words are better than gold. What else does he compare them to?",
+        "teen": "19:7 praises the LORD's law; 19:10 compares it to treasures. Besides being worth more than gold, what is the second comparison?",
+        "older": "Connecting Psalm 19:7 with 19:10, after comparing the LORD's law and judgments to gold, what second comparison does the psalmist make?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wine and new milk"
+        },
+        {
+          "id": "b",
+          "text": "Figs and pomegranates"
+        },
+        {
+          "id": "c",
+          "text": "Dates fresh from the palm tree"
+        },
+        {
+          "id": "d",
+          "text": "Honey and the honeycomb"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 19:7",
+            "text": "The law of the LORD is perfect, converting the soul; The testimony of the LORD is sure, making wise the simple;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 19:10",
+            "text": "More to be desired are they than gold, Yea, than much fine gold; Sweeter also than honey and the honeycomb.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 19:10 makes two comparisons. Read the second one, right after \"Sweeter also than.\"",
+          "child": "Read the end of Psalm 19:10, after \"Sweeter also than.\"",
+          "teen": "19:10 compares God's words to something precious and something sweet. Read the second comparison.",
+          "older": "The second comparison in 19:10 follows \"Sweeter also than\"; read it closely."
+        },
+        "extended_explanation": "Psalm 19:7-9 lists the law, testimony, statutes, commandment, and judgments of the LORD and what each one does. Verse 10 then says they are worth more than gold and gives a second comparison about taste. Read the end of 19:10.",
+        "takeaway": "The LORD's words are sweeter than honey and the honeycomb."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-psa-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 8",
+      "topics": [
+        "psalms-creation-worship"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 8:4 asks, \"What is man that You are mindful of him?\" In 8:5, the psalmist answers with what God has done for man. With what has God crowned him?",
+        "child": "Psalm 8 wonders why God pays attention to human beings at all. Then it says God has crowned man with two things. What are they?",
+        "teen": "8:4 asks why God cares about man; 8:5 answers. What two things has God crowned him with?",
+        "older": "Connecting Psalm 8:4 with 8:5, with what does the psalmist say God has crowned man?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wisdom and strength"
+        },
+        {
+          "id": "b",
+          "text": "Glory and honor"
+        },
+        {
+          "id": "c",
+          "text": "Riches and long life"
+        },
+        {
+          "id": "d",
+          "text": "Gold and precious stones"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 8:4",
+            "text": "What is man that You are mindful of him, And the son of man that You visit him?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 8:5",
+            "text": "For You have made him a little lower than the angels, And You have crowned him with glory and honor.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Psalm 8:5, right after \"You have crowned him with.\"",
+          "child": "Look at the last words of Psalm 8:5, after \"crowned him with.\"",
+          "teen": "8:4 asks a question; 8:5 answers it with two statements. Read the second one.",
+          "older": "The second clause of 8:5 names what God has crowned man with."
+        },
+        "extended_explanation": "Psalm 8:4 asks why the God who made the heavens would think about man at all. Verse 5 answers by describing the place God has given man: a little lower than the angels, and crowned with two things. Read the end of 8:5.",
+        "takeaway": "God has crowned man with glory and honor."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

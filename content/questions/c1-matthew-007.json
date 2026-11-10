@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0033",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judas Iscariot went to the chief priests and asked what they would give him to deliver Jesus to them. What did they count out to him?",
+        "child": "Judas, one of the twelve, went to the chief priests and offered to hand Jesus over. What did they pay him?",
+        "teen": "In Matthew 26:14-15, Judas asks the chief priests what they will give him. What do they count out?",
+        "older": "According to Matthew 26:15, what did the chief priests count out to Judas?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thirty pieces of silver"
+        },
+        {
+          "id": "b",
+          "text": "Ten pieces of gold"
+        },
+        {
+          "id": "c",
+          "text": "Twenty shekels of silver"
+        },
+        {
+          "id": "d",
+          "text": "Forty pieces of bronze"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:14",
+            "text": "Then one of the twelve, called Judas Iscariot, went to the chief priests",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 26:15",
+            "text": "and said, “What are you willing to give me if I deliver Him to you?” And they counted out to him thirty pieces of silver.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Matthew 26:15, right after \"they counted out to him.\"",
+          "child": "Look at the last words of Matthew 26:15. The payment comes right after \"counted out to him.\"",
+          "teen": "26:15 has Judas' question and then the chief priests' answer. Read the end of the verse.",
+          "older": "The sum is stated in the closing clause of 26:15."
+        },
+        "extended_explanation": "Matthew 26:14-16 shows Judas going to the chief priests and asking what they would give him. The end of 26:15 tells what they counted out, and 26:16 says that from then on he looked for a chance to betray Jesus. Read the last words of 26:15.",
+        "takeaway": "The chief priests counted out thirty pieces of silver to Judas."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-mat-0034",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 21",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus came into Jerusalem, all the city was moved, asking, \"Who is this?\" How did the multitudes answer?",
+        "child": "When Jesus rode into Jerusalem, the whole city asked, \"Who is this?\" What did the crowds say?",
+        "teen": "Matthew 21:10-11 records the city's question and the crowd's reply. What did the multitudes say?",
+        "older": "According to Matthew 21:11, how did the multitudes answer the city's question, \"Who is this?\""
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elijah who has come back from heaven"
+        },
+        {
+          "id": "b",
+          "text": "The son of a priest from the temple in Jerusalem"
+        },
+        {
+          "id": "c",
+          "text": "The prophet from Nazareth of Galilee"
+        },
+        {
+          "id": "d",
+          "text": "A king from the family of Herod the Great"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 21:10",
+            "text": "And when He had come into Jerusalem, all the city was moved, saying, “Who is this?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 21:11",
+            "text": "So the multitudes said, “This is Jesus, the prophet from Nazareth of Galilee.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Matthew 21:11, right after \"This is Jesus.\"",
+          "child": "Look at Matthew 21:11. After the crowd says His name, they tell where He is from.",
+          "teen": "21:10 is the question; 21:11 is the answer. Read what follows \"This is Jesus.\"",
+          "older": "The crowd's reply in 21:11 adds a description after the name."
+        },
+        "extended_explanation": "When Jesus entered Jerusalem, the whole city was stirred and wanted to know who He was (21:10). The crowds who had come with Him answered with His name and a description of Him. Read the words after \"This is Jesus\" in 21:11.",
+        "takeaway": "The multitudes said, \"This is Jesus, the prophet from Nazareth of Galilee.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 21",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Jesus overturned the tables of the money changers in the temple, He quoted Scripture. What did He say God's house shall be called?",
+        "child": "Jesus drove out the buyers and sellers from the temple and turned over their tables. What did He say God's house should be called?",
+        "teen": "In 21:12-13, Jesus clears the temple and quotes what is written. What should God's house be called?",
+        "older": "According to Matthew 21:13, what did Jesus quote as the name God's house shall be called?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A house of sacrifice"
+        },
+        {
+          "id": "b",
+          "text": "A house of prayer"
+        },
+        {
+          "id": "c",
+          "text": "A house for all the tribes"
+        },
+        {
+          "id": "d",
+          "text": "A house of the law"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 21:12",
+            "text": "Then Jesus went into the temple of God and drove out all those who bought and sold in the temple, and overturned the tables of the money changers and the seats of those who sold doves.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 21:13",
+            "text": "And He said to them, “It is written, ‘My house shall be called a house of prayer,’ but you have made it a ‘den of thieves.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Matthew 21:13, right after \"My house shall be called.\"",
+          "child": "Look at Matthew 21:13. Jesus quotes Scripture, and the name comes after \"shall be called.\"",
+          "teen": "21:12 shows what Jesus did; 21:13 explains why. Read the words after \"shall be called.\"",
+          "older": "The quotation in 21:13 names what the house shall be called, then contrasts it with what it had become."
+        },
+        "extended_explanation": "In Matthew 21:12, Jesus drives out those who bought and sold and overturns tables and seats. In 21:13 He explains with a quotation from Scripture, contrasting what God's house was meant to be with what it had become. Read the words after \"shall be called.\"",
+        "takeaway": "Jesus said, \"My house shall be called a house of prayer.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 21",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The chief priests and scribes were indignant at what they heard in the temple. Jesus quoted a Scripture about where God has perfected praise. How does that quotation begin?",
+        "child": "Leaders in the temple got upset at what they heard. Jesus answered by quoting Scripture. What are the first words He quoted?",
+        "teen": "In 21:15-16, the leaders object to what they hear. Jesus asks, \"Have you never read...?\" How does the quotation He recites begin?",
+        "older": "According to Matthew 21:16, what opening words does Jesus quote in answer to the indignant chief priests and scribes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Out of the courts of the temple"
+        },
+        {
+          "id": "b",
+          "text": "Out of the hearts of the priests"
+        },
+        {
+          "id": "c",
+          "text": "Out of the city of David"
+        },
+        {
+          "id": "d",
+          "text": "Out of the mouth of babes"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 21:15",
+            "text": "But when the chief priests and scribes saw the wonderful things that He did, and the children crying out in the temple and saying, “Hosanna to the Son of David!” they were indignant",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 21:16",
+            "text": "and said to Him, “Do You hear what these are saying?” And Jesus said to them, “Yes. Have you never read, ‘Out of the mouth of babes and nursing infants You have perfected praise’?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Jesus' quotation in Matthew 21:16, right after \"Have you never read.\"",
+          "child": "Look at Matthew 21:16. Jesus quotes a line from Scripture after \"Have you never read.\"",
+          "teen": "21:15 shows why the leaders were indignant; 21:16 shows how Jesus answered. Read the start of His quotation.",
+          "older": "The quotation in 21:16 opens by naming the source of the praise."
+        },
+        "extended_explanation": "In Matthew 21:15 the chief priests and scribes saw the wonderful things Jesus did and heard voices in the temple, and they were indignant. In 21:16 they asked if He heard them, and Jesus answered with a question and a line from Scripture. Read the beginning of the quotation.",
+        "takeaway": "Jesus quoted, \"Out of the mouth of babes and nursing infants You have perfected praise.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judas came with a great multitude carrying swords and clubs. What sign had he given them so they would know whom to seize?",
+        "child": "Judas came with a big crowd from the chief priests. He had told them how they would know which man was Jesus. What was the signal?",
+        "teen": "26:47 brings Judas and the crowd; 26:48 says he had arranged a sign. What was it?",
+        "older": "According to Matthew 26:48, what sign had the betrayer given to identify Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Whomever I kiss"
+        },
+        {
+          "id": "b",
+          "text": "Whomever I bow to"
+        },
+        {
+          "id": "c",
+          "text": "Whomever I point at"
+        },
+        {
+          "id": "d",
+          "text": "Whomever I take by the hand"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:47",
+            "text": "And while He was still speaking, behold, Judas, one of the twelve, with a great multitude with swords and clubs, came from the chief priests and elders of the people.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 26:48",
+            "text": "Now His betrayer had given them a sign, saying, “Whomever I kiss, He is the One; seize Him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Judas' words in Matthew 26:48, right after \"saying.\"",
+          "child": "Look at Matthew 26:48. Judas' sign is in his own words, right after \"saying.\"",
+          "teen": "26:47 says who came; 26:48 quotes the sign. Read the first words of the quotation.",
+          "older": "The sign is quoted in 26:48; read the opening of Judas' words."
+        },
+        "extended_explanation": "Matthew 26:47 describes Judas arriving with a crowd sent by the chief priests and elders. Verse 48 explains that he had already told them how to know which man to take. Read Judas' words in 26:48.",
+        "takeaway": "Judas said, \"Whomever I kiss, He is the One; seize Him.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Peter said a third time, \"I do not know the Man!\" something happened immediately that made him remember Jesus' words. What was it?",
+        "child": "Peter said three times that he did not know Jesus. Right after the third time, something happened that made him remember what Jesus had said. What?",
+        "teen": "In 26:74-75, what happened immediately after Peter's third denial that brought Jesus' words back to him?",
+        "older": "According to Matthew 26:74, what happened immediately after Peter's third denial?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A trumpet sounded"
+        },
+        {
+          "id": "b",
+          "text": "The earth shook"
+        },
+        {
+          "id": "c",
+          "text": "A rooster crowed"
+        },
+        {
+          "id": "d",
+          "text": "Thunder rolled overhead"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:74",
+            "text": "Then he began to curse and swear, saying, “I do not know the Man!” Immediately a rooster crowed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 26:75",
+            "text": "And Peter remembered the word of Jesus who had said to him, “Before the rooster crows, you will deny Me three times.” So he went out and wept bitterly.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of Matthew 26:74, right after \"Immediately.\"",
+          "child": "Look at the end of Matthew 26:74. What happened comes right after \"Immediately.\"",
+          "teen": "26:74 ends with an event; 26:75 says what Peter then remembered. Read the end of 26:74.",
+          "older": "The event is reported in the final clause of 26:74 and echoed in Jesus' words quoted in 26:75."
+        },
+        "extended_explanation": "In Matthew 26:69-74 Peter is asked three times about being with Jesus, and three times he denies it. Verse 74 ends with what happened next, and 26:75 says Peter remembered Jesus' words and went out and wept bitterly. Read the last words of 26:74.",
+        "takeaway": "Immediately a rooster crowed, and Peter remembered Jesus' words."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0010",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 26",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before the high priest, Jesus kept silent (26:63). Later, when He gave Pilate not one word in reply to the accusations, how did the governor react (27:14)?",
+        "child": "Jesus stayed silent before the high priest. Later He did not answer Pilate either. How did Pilate react?",
+        "teen": "26:63 says Jesus kept silent before the high priest; 27:14 says He answered Pilate not one word. What was the governor's reaction?",
+        "older": "Connecting Matthew 26:63 with 27:14, how did the governor respond to Jesus' silence?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Grew angry and walked out"
+        },
+        {
+          "id": "b",
+          "text": "Marveled greatly"
+        },
+        {
+          "id": "c",
+          "text": "Laughed at Him"
+        },
+        {
+          "id": "d",
+          "text": "Ordered Him released"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 26:63",
+            "text": "But Jesus kept silent. And the high priest answered and said to Him, “I put You under oath by the living God: Tell us if You are the Christ, the Son of God!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 27:14",
+            "text": "But He answered him not one word, so that the governor marveled greatly.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of Matthew 27:14, right after \"so that the governor.\"",
+          "child": "Look at the end of Matthew 27:14. It tells how Pilate reacted, right after \"the governor.\"",
+          "teen": "26:63 and 27:14 both show Jesus silent. Read the end of 27:14 for Pilate's reaction.",
+          "older": "The result clause at the close of 27:14 describes the governor's response."
+        },
+        "extended_explanation": "Jesus kept silent before the high priest when false witnesses spoke against Him (26:62-63). Before Pilate He again answered nothing while the chief priests and elders accused Him (27:12-14). Read the end of 27:14 for how the governor responded.",
+        "takeaway": "The governor marveled greatly at Jesus' silence."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-mat-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 27",
+      "topics": [
+        "holy-week"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Pilate's wife sent him a message about Jesus (27:19), and later Pilate washed his hands before the crowd (27:24). What word do both use to describe Jesus?",
+        "child": "Pilate's wife warned him about Jesus, and later Pilate washed his hands in front of the crowd. Both used the same word to describe Jesus. What word?",
+        "teen": "27:19 and 27:24 come from two different people. What word describing Jesus appears in both?",
+        "older": "Comparing Matthew 27:19 with 27:24, what word is used in both to describe Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Holy"
+        },
+        {
+          "id": "b",
+          "text": "Gentle"
+        },
+        {
+          "id": "c",
+          "text": "Faithful"
+        },
+        {
+          "id": "d",
+          "text": "Just"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 27:19",
+            "text": "While he was sitting on the judgment seat, his wife sent to him, saying, “Have nothing to do with that just Man, for I have suffered many things today in a dream because of Him.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 27:24",
+            "text": "When Pilate saw that he could not prevail at all, but rather that a tumult was rising, he took water and washed his hands before the multitude, saying, “I am innocent of the blood of this just Person. You see to it.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Compare Matthew 27:19 and 27:24. Look at the word right before \"Man\" in 27:19 and before \"Person\" in 27:24.",
+          "child": "Read both verses. Find the word in front of \"Man\" in 27:19 and in front of \"Person\" in 27:24.",
+          "teen": "27:19 says \"that ___ Man\"; 27:24 says \"this ___ Person.\" Find the shared word.",
+          "older": "The same adjective modifies \"Man\" in 27:19 and \"Person\" in 27:24."
+        },
+        "extended_explanation": "In Matthew 27:19, Pilate's wife sent word while he sat on the judgment seat, telling him to have nothing to do with Jesus because of a dream. In 27:24, Pilate washed his hands before the crowd. Both describe Jesus with the same word. Look at the word before \"Man\" in 27:19 and before \"Person\" in 27:24.",
+        "takeaway": "Both Pilate's wife and Pilate called Jesus just."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

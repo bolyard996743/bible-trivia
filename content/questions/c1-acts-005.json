@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-act-0029",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 13",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the church at Antioch, while the prophets and teachers ministered to the Lord and fasted, the Holy Spirit called two men for a special work. Which two?",
+        "child": "Some leaders of the church at Antioch were worshiping and fasting when the Holy Spirit spoke. He named two men to send out for His work. Who were they?",
+        "teen": "In Acts 13:2, the Holy Spirit tells the church to set apart two men for the work He has called them to. Who are they?",
+        "older": "According to Acts 13:2, which two men did the Holy Spirit say to separate for the work to which He had called them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Barnabas and Saul"
+        },
+        {
+          "id": "b",
+          "text": "Peter and John"
+        },
+        {
+          "id": "c",
+          "text": "Silas and Timothy"
+        },
+        {
+          "id": "d",
+          "text": "Andrew and Bartholomew"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 13:2",
+            "text": "As they ministered to the Lord and fasted, the Holy Spirit said, “Now separate to Me Barnabas and Saul for the work to which I have called them.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 13:3",
+            "text": "Then, having fasted and prayed, and laid hands on them, they sent them away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words of the Holy Spirit in Acts 13:2, right after \"Now separate to Me.\"",
+          "child": "Look at Acts 13:2. The two names come right after \"separate to Me.\"",
+          "teen": "13:2 gives the Spirit's words; 13:3 shows the church sending the men. Read the names after \"separate to Me.\"",
+          "older": "The two men are named as the object of \"separate to Me\" in 13:2."
+        },
+        "extended_explanation": "Acts 13 opens in the church at Antioch. While the leaders were worshiping and fasting, the Holy Spirit spoke and named two men for a work He had called them to. After more fasting and prayer, the church laid hands on them and sent them away (13:3). Read the names in 13:2.",
+        "takeaway": "The Holy Spirit said, \"Separate to Me Barnabas and Saul.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-act-0030",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 16",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the Sabbath at Philippi, Paul's group went out to the riverside where prayer was made. A woman named Lydia from Thyatira heard them. What did she sell?",
+        "child": "By a river outside Philippi, Paul talked with some women who met there to pray. One of them, Lydia, came from the city of Thyatira. What did she sell?",
+        "teen": "Acts 16:14 introduces Lydia, who heard Paul by the riverside. What was she a seller of?",
+        "older": "According to Acts 16:14, Lydia of Thyatira was a seller of what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Linen"
+        },
+        {
+          "id": "b",
+          "text": "Purple"
+        },
+        {
+          "id": "c",
+          "text": "Pottery"
+        },
+        {
+          "id": "d",
+          "text": "Olive oil"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 16:13",
+            "text": "And on the Sabbath day we went out of the city to the riverside, where prayer was customarily made; and we sat down and spoke to the women who met there.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 16:14",
+            "text": "Now a certain woman named Lydia heard us. She was a seller of purple from the city of Thyatira, who worshiped God. The Lord opened her heart to heed the things spoken by Paul.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of Acts 16:14, right after \"She was a seller of.\"",
+          "child": "Look at Acts 16:14. What she sold is named right after \"a seller of.\"",
+          "teen": "16:13 sets the scene at the riverside; 16:14 describes Lydia. Read the words after \"a seller of.\"",
+          "older": "Her trade is given in the second sentence of 16:14, before her home city is named."
+        },
+        "extended_explanation": "Paul's group went outside Philippi on the Sabbath to a riverside place of prayer and spoke with the women there (16:13). Verse 14 describes Lydia: what she sold, where she was from, and that the Lord opened her heart. Read the words after \"a seller of.\"",
+        "takeaway": "Lydia was a seller of purple from the city of Thyatira."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-act-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 13",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John had traveled with Paul's party as their assistant. When the party sailed from Paphos to Perga, John departed from them. Where did he go?",
+        "child": "A man named John helped Paul's group on their trip. When they reached Perga, John left them. Where did he go back to?",
+        "teen": "Acts 13:5 calls John the team's assistant. In 13:13, where does John return when he leaves them at Perga?",
+        "older": "According to Acts 13:13, to what city did John return after departing from Paul's party at Perga?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tarsus"
+        },
+        {
+          "id": "b",
+          "text": "Damascus"
+        },
+        {
+          "id": "c",
+          "text": "Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "Alexandria"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 13:5",
+            "text": "And when they arrived in Salamis, they preached the word of God in the synagogues of the Jews. They also had John as their assistant.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 13:13",
+            "text": "Now when Paul and his party set sail from Paphos, they came to Perga in Pamphylia; and John, departing from them, returned to Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Acts 13:13, right after \"John, departing from them, returned to.\"",
+          "child": "Look at the last words of Acts 13:13. They tell where John went.",
+          "teen": "13:5 shows John as the helper; 13:13 shows him leaving. Read the last word of 13:13.",
+          "older": "The place of John's return closes the final clause of 13:13."
+        },
+        "extended_explanation": "In Acts 13:5, John is with the missionaries as their assistant on Cyprus. After Paphos, the party sailed to Perga in Pamphylia, and John left them there. Read the last words of 13:13 to see where he went.",
+        "takeaway": "John left Paul and Barnabas at Perga and returned to Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-act-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 14",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Lystra, after a man who had never walked was healed, the crowd shouted that the gods had come down in the likeness of men. Why did they call Paul Hermes?",
+        "child": "When a man at Lystra was healed, the people thought the gods had come to visit. They named Paul after one of their gods, Hermes. Why?",
+        "teen": "In Acts 14:11-12, the crowd at Lystra gives Paul the name Hermes. What reason does 14:12 state?",
+        "older": "According to Acts 14:12, why did the people of Lystra call Paul Hermes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was the older of the two"
+        },
+        {
+          "id": "b",
+          "text": "He wore a priest's robe"
+        },
+        {
+          "id": "c",
+          "text": "He had arrived first in the city"
+        },
+        {
+          "id": "d",
+          "text": "He was the chief speaker"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 14:11",
+            "text": "Now when the people saw what Paul had done, they raised their voices, saying in the Lycaonian language, “The gods have come down to us in the likeness of men!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 14:12",
+            "text": "And Barnabas they called Zeus, and Paul, Hermes, because he was the chief speaker.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Acts 14:12, right after \"because.\"",
+          "child": "Look at the last part of Acts 14:12. The reason comes right after the word \"because.\"",
+          "teen": "14:11 is the crowd's cry; 14:12 gives the names and the reason. Read what follows \"because.\"",
+          "older": "The reason for the name Hermes is given in the clause after \"because\" in 14:12."
+        },
+        "extended_explanation": "The people of Lystra saw a lame man stand and walk and decided the gods had come down to them. They named each missionary after a god, and 14:12 explains Paul's name. Read the clause after \"because.\"",
+        "takeaway": "They called Paul Hermes because he was the chief speaker."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-act-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 17",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Standing in the midst of the Areopagus, Paul told the men of Athens he had found an altar among the objects of their worship. What was its inscription?",
+        "child": "In Athens, Paul told the people he had walked around and looked at the things they worshiped. He found an altar with words written on it. What did it say?",
+        "teen": "In Acts 17:23, Paul begins his message with an altar he saw in Athens. What was written on it?",
+        "older": "According to Acts 17:23, what inscription did Paul find on an altar in Athens?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To the Unknown God"
+        },
+        {
+          "id": "b",
+          "text": "To the God of Heaven"
+        },
+        {
+          "id": "c",
+          "text": "To the Gods of Athens"
+        },
+        {
+          "id": "d",
+          "text": "To the Most High God"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 17:22",
+            "text": "Then Paul stood in the midst of the Areopagus and said, “Men of Athens, I perceive that in all things you are very religious;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 17:23",
+            "text": "for as I was passing through and considering the objects of your worship, I even found an altar with this inscription: TO THE UNKNOWN GOD. Therefore, the One whom you worship without knowing, Him I proclaim to you:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words printed in capital letters in Acts 17:23.",
+          "child": "Look at Acts 17:23. The words on the altar are written in capital letters.",
+          "teen": "17:22 is Paul's opening; 17:23 quotes the altar. Read the inscription right after \"with this inscription.\"",
+          "older": "The inscription is set in capitals in 17:23, following \"an altar with this inscription.\""
+        },
+        "extended_explanation": "Paul noticed that Athens was full of idols (17:16) and told the Athenians they were very religious (17:22). He used one altar's inscription as a starting point to tell them about the God they worshiped without knowing. Read the capitalized words in 17:23.",
+        "takeaway": "The altar's inscription read, \"TO THE UNKNOWN GOD.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-act-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 18",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Corinth, Paul found Aquila and his wife Priscilla, who had recently come from Italy. He stayed and worked with them because they had the same trade. What was it?",
+        "child": "When Paul came to Corinth, he met a married couple, Aquila and Priscilla. He lived and worked with them because they did the same kind of work. What was their work?",
+        "teen": "Acts 18:3 says Paul stayed with Aquila and Priscilla because of their shared trade. What were they by occupation?",
+        "older": "According to Acts 18:3, what were Aquila and Priscilla by occupation?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Weavers"
+        },
+        {
+          "id": "b",
+          "text": "Tentmakers"
+        },
+        {
+          "id": "c",
+          "text": "Potters"
+        },
+        {
+          "id": "d",
+          "text": "Stonemasons"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 18:2",
+            "text": "And he found a certain Jew named Aquila, born in Pontus, who had recently come from Italy with his wife Priscilla (because Claudius had commanded all the Jews to depart from Rome); and he came to them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 18:3",
+            "text": "So, because he was of the same trade, he stayed with them and worked; for by occupation they were tentmakers.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of Acts 18:3, right after \"by occupation they were.\"",
+          "child": "Look at the end of Acts 18:3. Their work is the last word of the verse.",
+          "teen": "18:2 introduces the couple; 18:3 explains why Paul stayed. Read the end of 18:3.",
+          "older": "The trade is named in the final clause of 18:3, after \"by occupation.\""
+        },
+        "extended_explanation": "Aquila and Priscilla had left Rome when Claudius ordered all Jews to leave (18:2). Paul stayed with them in Corinth and worked alongside them, because they did the same work he did. Read the end of 18:3.",
+        "takeaway": "Aquila and Priscilla were tentmakers, like Paul."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-act-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 19",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Demetrius, a silversmith who made silver shrines, warned that both his craftsmen's trade and a great goddess's temple were in danger (Acts 19:24-27). For about two hours the crowd cried out, \"Great is ...\" whom (19:34)?",
+        "child": "A silversmith named Demetrius made little silver shrines of a goddess. He told the other craftsmen that Paul's preaching would hurt their business and her temple. Later the crowd shouted for about two hours. Whose name did they shout?",
+        "teen": "Acts 19:24-27 shows why Demetrius stirred up the craftsmen; 19:34 shows the result. Whom did the crowd cry out was great?",
+        "older": "Connecting Demetrius's complaint (Acts 19:24, 27) with the crowd's two-hour cry (19:34), whom did they proclaim great?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Athena of the Athenians"
+        },
+        {
+          "id": "b",
+          "text": "Hera of the Macedonians"
+        },
+        {
+          "id": "c",
+          "text": "Diana of the Ephesians"
+        },
+        {
+          "id": "d",
+          "text": "Aphrodite of the Corinthians"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 19:24",
+            "text": "For a certain man named Demetrius, a silversmith, who made silver shrines of Diana, brought no small profit to the craftsmen.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 19:27",
+            "text": "So not only is this trade of ours in danger of falling into disrepute, but also the temple of the great goddess Diana may be despised and her magnificence destroyed, whom all Asia and the world worship.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 19:34",
+            "text": "But when they found out that he was a Jew, all with one voice cried out for about two hours, “Great is Diana of the Ephesians!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the crowd's cry at the end of Acts 19:34. Then see whose shrines Demetrius made in 19:24.",
+          "child": "Look at the end of Acts 19:34 for the words the crowd shouted. Verse 19:24 names the same goddess.",
+          "teen": "19:24 and 19:27 name the goddess whose trade and temple were at stake. Read the cry in 19:34, right after \"Great is.\"",
+          "older": "The goddess is named in 19:24 and 19:27; the crowd's cry in 19:34 follows \"Great is.\""
+        },
+        "extended_explanation": "Demetrius made money making silver shrines, and he warned that Paul's preaching that gods made with hands are not gods would ruin the trade and dishonor a famous temple. The city filled with confusion, and the crowd shouted one phrase for about two hours. Read what follows \"Great is\" in 19:34.",
+        "takeaway": "The crowd cried, \"Great is Diana of the Ephesians!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-act-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 20",
+      "topics": [
+        "paul-missionary-journeys"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Speaking to the Ephesian elders at Miletus, Paul said his own hands had provided for his needs (Acts 20:34), and that by such labor they must support the weak. He then quoted the Lord Jesus: \"It is more blessed ...\" what?",
+        "child": "Paul reminded the church leaders that he had worked with his own hands to take care of himself and others. Then he repeated something the Lord Jesus said: \"It is more blessed ...\" What was the rest?",
+        "teen": "Acts 20:34 points to Paul's own work; 20:35 ties it to words of the Lord Jesus. Complete His saying: \"It is more blessed ...\"",
+        "older": "Linking Paul's example in Acts 20:34 with the saying he quotes in 20:35, complete the words of the Lord Jesus: \"It is more blessed ...\""
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To serve than to rule"
+        },
+        {
+          "id": "b",
+          "text": "To pray than to speak"
+        },
+        {
+          "id": "c",
+          "text": "To forgive than to be forgiven"
+        },
+        {
+          "id": "d",
+          "text": "To give than to receive"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 20:34",
+            "text": "Yes, you yourselves know that these hands have provided for my necessities, and for those who were with me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 20:35",
+            "text": "I have shown you in every way, by laboring like this, that you must support the weak. And remember the words of the Lord Jesus, that He said, ‘It is more blessed to give than to receive.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of Acts 20:35, inside the quotation of the Lord Jesus.",
+          "child": "Look at the very end of Acts 20:35. The saying of the Lord Jesus finishes there.",
+          "teen": "20:34 is Paul's example; 20:35 explains its point and quotes Jesus. Read the end of the quotation.",
+          "older": "The saying closes 20:35; read the words that follow \"It is more blessed.\""
+        },
+        "extended_explanation": "Paul had not coveted anyone's silver, gold, or clothing (20:33). He had worked with his own hands for himself and those with him, showing the elders that they must support the weak. He backed this with a saying of the Lord Jesus. Read the end of 20:35.",
+        "takeaway": "Jesus said, \"It is more blessed to give than to receive.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jhn-0029",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nicodemus, a Pharisee and a ruler of the Jews, came to talk with Jesus. When did he come?",
+        "child": "Nicodemus was an important Jewish leader who wanted to talk with Jesus. At what time did he come?",
+        "teen": "John 3:1-2 introduces Nicodemus and tells when he came to Jesus. When was it?",
+        "older": "According to John 3:2, at what time did Nicodemus come to Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By night"
+        },
+        {
+          "id": "b",
+          "text": "At dawn"
+        },
+        {
+          "id": "c",
+          "text": "At noon"
+        },
+        {
+          "id": "d",
+          "text": "On the Sabbath"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:1",
+            "text": "There was a man of the Pharisees named Nicodemus, a ruler of the Jews.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 3:2",
+            "text": "This man came to Jesus by night and said to Him, “Rabbi, we know that You are a teacher come from God; for no one can do these signs that You do unless God is with him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the beginning of John 3:2, right after \"This man came to Jesus.\"",
+          "child": "Look at the start of John 3:2. The time comes right after \"came to Jesus.\"",
+          "teen": "3:1 says who Nicodemus was; 3:2 says when he came. Read the first line of 3:2.",
+          "older": "The timing is given in the opening clause of 3:2, before Nicodemus speaks."
+        },
+        "extended_explanation": "John 3:1 introduces Nicodemus as a Pharisee and a ruler of the Jews. Verse 2 tells when he came to Jesus, and then he calls Jesus a teacher come from God. Read the first words of 3:2.",
+        "takeaway": "Nicodemus came to Jesus by night."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-jhn-0030",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 4",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Traveling through Samaria, Jesus came to a city called Sychar. Wearied from His journey, where did He sit down?",
+        "child": "Jesus was tired from walking when He came to a town in Samaria called Sychar. Where did He sit to rest?",
+        "teen": "John 4:5-6 sets the scene near Sychar. Where did the tired Jesus sit at about the sixth hour?",
+        "older": "According to John 4:6, beside what did Jesus sit, wearied from His journey?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The pool of Siloam"
+        },
+        {
+          "id": "b",
+          "text": "The gate of the city"
+        },
+        {
+          "id": "c",
+          "text": "Jacob’s well"
+        },
+        {
+          "id": "d",
+          "text": "The Jordan River"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 4:5",
+            "text": "So He came to a city of Samaria which is called Sychar, near the plot of ground that Jacob gave to his son Joseph.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 4:6",
+            "text": "Now Jacob’s well was there. Jesus therefore, being wearied from His journey, sat thus by the well. It was about the sixth hour.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of John 4:6, then see where Jesus sat.",
+          "child": "Look at the start of John 4:6. It names the place, and then says Jesus sat there.",
+          "teen": "4:5 names the town; 4:6 names the place where Jesus rested. Read the first line of 4:6.",
+          "older": "The landmark is named at the opening of 4:6, before Jesus sits down."
+        },
+        "extended_explanation": "John 4:5 says Jesus came to a city of Samaria called Sychar. Verse 6 names a landmark there and says Jesus, tired from traveling, sat beside it at about the sixth hour. Read the beginning of 4:6.",
+        "takeaway": "Jesus sat by Jacob's well."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nicodemus called Jesus a teacher come from God. Jesus answered that no one can see the kingdom of God unless what happens?",
+        "child": "Nicodemus said he knew Jesus came from God. Jesus told him something must happen before anyone can see God's kingdom. What?",
+        "teen": "In John 3:3, Jesus answers Nicodemus' opening words with a condition for seeing the kingdom of God. What is it?",
+        "older": "According to John 3:3, what condition must be met for one to see the kingdom of God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "One keeps the whole law"
+        },
+        {
+          "id": "b",
+          "text": "One is born again"
+        },
+        {
+          "id": "c",
+          "text": "One gives to the poor"
+        },
+        {
+          "id": "d",
+          "text": "One is a son of Abraham"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:2",
+            "text": "This man came to Jesus by night and said to Him, “Rabbi, we know that You are a teacher come from God; for no one can do these signs that You do unless God is with him.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 3:3",
+            "text": "Jesus answered and said to him, “Most assuredly, I say to you, unless one is born again, he cannot see the kingdom of God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of John 3:3, right after \"unless.\"",
+          "child": "Look at John 3:3. The condition comes right after the word \"unless.\"",
+          "teen": "3:2 is Nicodemus' greeting; 3:3 is Jesus' reply. Read what follows \"unless.\"",
+          "older": "The condition in 3:3 is introduced by \"unless\"; read the clause that follows."
+        },
+        "extended_explanation": "Nicodemus opened by saying Jesus must be from God because of the signs He did. Jesus answered with something Nicodemus did not expect, and in 3:4 Nicodemus asks how it could be possible. Read the words after \"unless\" in 3:3.",
+        "takeaway": "Unless one is born again, he cannot see the kingdom of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 4",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Samaritan woman was surprised that a Jew would ask her for a drink. What did Jesus say He would have given her if she had asked Him?",
+        "child": "The woman was amazed that Jesus, a Jew, asked her for a drink. Jesus said that if she knew who He was, she would ask Him, and He would give her something. What?",
+        "teen": "4:9 explains the woman's surprise; 4:10 is Jesus' reply. What does He say He would have given her?",
+        "older": "According to John 4:10, what would Jesus have given the woman had she known the gift of God and asked Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cup of new wine"
+        },
+        {
+          "id": "b",
+          "text": "Healing for her town"
+        },
+        {
+          "id": "c",
+          "text": "A place among His disciples"
+        },
+        {
+          "id": "d",
+          "text": "Living water"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 4:9",
+            "text": "Then the woman of Samaria said to Him, “How is it that You, being a Jew, ask a drink from me, a Samaritan woman?” For Jews have no dealings with Samaritans.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 4:10",
+            "text": "Jesus answered and said to her, “If you knew the gift of God, and who it is who says to you, ‘Give Me a drink,’ you would have asked Him, and He would have given you living water.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of John 4:10, right after \"He would have given you.\"",
+          "child": "Look at the end of John 4:10. Jesus names the gift at the very end.",
+          "teen": "4:9 is the woman's question; 4:10 turns the conversation around. Read its last phrase.",
+          "older": "The gift is named in the final clause of 4:10."
+        },
+        "extended_explanation": "Jews and Samaritans did not usually share anything, which is why the woman was surprised (4:9). Jesus answered that if she knew who was asking, she would be the one asking Him. Read the end of 4:10 for what He would give.",
+        "takeaway": "Jesus would have given her living water."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 4",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The woman spoke of worship on her people's mountain and in Jerusalem. How did Jesus say true worshipers would worship the Father?",
+        "child": "The woman asked about the right place to worship. Jesus said true worshipers would worship the Father in a certain way. How?",
+        "teen": "In 4:23-24, Jesus moves the question from a place to a way of worship. How must true worshipers worship?",
+        "older": "According to John 4:23-24, how will the true worshipers worship the Father?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In spirit and truth"
+        },
+        {
+          "id": "b",
+          "text": "With sacrifices and feasts"
+        },
+        {
+          "id": "c",
+          "text": "On the holy mountain only"
+        },
+        {
+          "id": "d",
+          "text": "With fasting and long prayers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 4:23",
+            "text": "But the hour is coming, and now is, when the true worshipers will worship the Father in spirit and truth; for the Father is seeking such to worship Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 4:24",
+            "text": "God is Spirit, and those who worship Him must worship in spirit and truth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 4:23 and 4:24 both end the same way. Read the words right after \"worship.\"",
+          "child": "Read the end of John 4:24. Jesus repeats words He used in 4:23.",
+          "teen": "4:23 says it once and 4:24 repeats it. Read what follows \"must worship.\"",
+          "older": "The manner of worship is stated in 4:23 and repeated at the close of 4:24."
+        },
+        "extended_explanation": "The woman wanted to know whether the right place to worship was her people's mountain or Jerusalem (4:20). Jesus answered that the hour was coming when worship would not depend on a place. Read the end of 4:24, which repeats words from 4:23.",
+        "takeaway": "True worshipers worship the Father in spirit and truth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 4",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Jesus told the woman who He was, she went into the city and invited the men to come and see Him. What did she leave behind?",
+        "child": "The woman hurried back to town to tell people about Jesus. What did she leave behind?",
+        "teen": "4:28 says the woman went her way into the city. What did she leave behind?",
+        "older": "According to John 4:28, what did the woman leave when she went into the city?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Her cloak"
+        },
+        {
+          "id": "b",
+          "text": "Her sandals"
+        },
+        {
+          "id": "c",
+          "text": "Her waterpot"
+        },
+        {
+          "id": "d",
+          "text": "Her basket of bread"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 4:28",
+            "text": "The woman then left her waterpot, went her way into the city, and said to the men,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 4:29",
+            "text": "“Come, see a Man who told me all things that I ever did. Could this be the Christ?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of John 4:28, right after \"The woman then left.\"",
+          "child": "Look at the start of John 4:28. It tells what she left.",
+          "teen": "4:28 has three actions: she left something, went into the city, and spoke. Read the first one.",
+          "older": "The object she left is named in the first clause of 4:28."
+        },
+        "extended_explanation": "The woman had come out on an ordinary errand (4:7). After her conversation with Jesus, she went back to the city to tell the men about Him. Verse 28 shows how quickly she went. Read the first clause.",
+        "takeaway": "The woman left her waterpot and went into the city."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 3",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In John 3:19, Jesus says light has come into the world but people loved darkness because their deeds were evil. According to 3:21, who comes to the light?",
+        "child": "Jesus told Nicodemus that some people stay away from the light because of what they do. Who comes to the light, according to verse 21?",
+        "teen": "3:19 explains why some avoid the light; 3:21 describes the opposite. Who comes to the light?",
+        "older": "Contrasting John 3:19 with 3:21, who comes to the light, according to Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He who keeps the Sabbath"
+        },
+        {
+          "id": "b",
+          "text": "He who studies the law"
+        },
+        {
+          "id": "c",
+          "text": "He who gives the most to the poor"
+        },
+        {
+          "id": "d",
+          "text": "He who does the truth"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 3:19",
+            "text": "And this is the condemnation, that the light has come into the world, and men loved darkness rather than light, because their deeds were evil.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 3:21",
+            "text": "But he who does the truth comes to the light, that his deeds may be clearly seen, that they have been done in God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the beginning of John 3:21, right after \"But.\"",
+          "child": "Look at the start of John 3:21. It tells who comes to the light, right after \"But.\"",
+          "teen": "3:19-20 describe those who avoid the light. 3:21 begins with \"But\" — read who it describes.",
+          "older": "The person described at the opening of 3:21 stands in contrast to the one in 3:20."
+        },
+        "extended_explanation": "John 3:19-20 says that when light came into the world, some people stayed away from it so their deeds would not be exposed. Verse 21 begins with \"But\" and describes a different kind of person, whose deeds can be clearly seen. Read the first words of 3:21.",
+        "takeaway": "He who does the truth comes to the light."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-jhn-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 4",
+      "topics": [
+        "nicodemus-woman-at-the-well"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Many Samaritans first believed because of the woman's word (4:39). After hearing Jesus for themselves, what did they say He is (4:42)?",
+        "child": "Many people in the town believed because of what the woman told them. After they heard Jesus themselves, what did they call Him?",
+        "teen": "4:39 says many believed through the woman's testimony; 4:42 says why they believed later. What title do they give Jesus?",
+        "older": "Connecting John 4:39 with 4:42, what did the Samaritans declare Jesus to be after hearing Him themselves?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Prophet of Galilee"
+        },
+        {
+          "id": "b",
+          "text": "The Savior of the world"
+        },
+        {
+          "id": "c",
+          "text": "The Son of Jacob"
+        },
+        {
+          "id": "d",
+          "text": "The Teacher from Nazareth"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 4:39",
+            "text": "And many of the Samaritans of that city believed in Him because of the word of the woman who testified, “He told me all that I ever did.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 4:42",
+            "text": "Then they said to the woman, “Now we believe, not because of what you said, for we ourselves have heard Him and we know that this is indeed the Christ, the Savior of the world.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of John 4:42, right after \"this is indeed the Christ.\"",
+          "child": "Look at the end of John 4:42. The people give Jesus a title right after \"the Christ.\"",
+          "teen": "4:39 is belief because of the woman; 4:42 is belief because they heard Him. Read the title at the end of 4:42.",
+          "older": "The final phrase of 4:42 adds a title after \"the Christ.\""
+        },
+        "extended_explanation": "The woman's testimony led many Samaritans to believe (4:39). They asked Jesus to stay, and after two days of hearing Him, they said their faith now rested on His own words. Read the end of 4:42 for what they called Him.",
+        "takeaway": "The Samaritans said Jesus is the Savior of the world."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

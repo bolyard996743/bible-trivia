@@ -155,6 +155,41 @@ describe("sample content", () => {
     expect(baptism).not.toContain("c2-act-0001");
     expect(rootedBadges.find((badge) => badge.id === "rooted-i-am")?.questionIds).toContain("c2-jhn-0001");
 
+    const growing = pathFile.stages.find((stage) => stage.stage === "Growing");
+    const growingBadges = growing?.badges ?? [];
+    const growingIds = growingBadges.flatMap((badge) => badge.questionIds);
+    expect(growingBadges).toHaveLength(27);
+    expect(growingBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(growingIds).toHaveLength(216);
+    expect(new Set(growingIds).size).toBe(216);
+    expect(growingBadges.find((badge) => badge.id === "growing-wilderness")?.questionIds).toEqual([
+      "c1-num-0001",
+      "c1-num-0002",
+      "c2-num-0002",
+      "c2-num-0003",
+      "c2-num-0004",
+      "c2-num-0005",
+      "c2-num-0006",
+      "c2-num-0007",
+    ]);
+    expect(growingBadges.find((badge) => badge.id === "growing-isaiah-king")?.questionIds).toEqual([
+      "c1-isa-0004",
+      "c1-isa-0005",
+      "c2-isa-0007",
+      "c2-isa-0008",
+      "c2-isa-0009",
+      "c2-isa-0010",
+      "c2-isa-0011",
+      "c2-isa-0012",
+    ]);
+    expect(growingIds).not.toContain("c2-num-0001");
+    expect(growingIds).not.toContain("c1-isa-0001");
+    expect(growingIds).not.toContain("c3-rev-0001");
+    expect(growingIds).not.toContain("c2-rev-0001");
+    expect(growingIds).not.toContain("c2-jhn-0001");
+    expect(growingIds).not.toContain("c2-act-0001");
+    expect(growingIds).not.toContain("c2-act-0002");
+
     const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
     const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
     for (const mascot of mascots) {

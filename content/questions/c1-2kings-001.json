@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2kings-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2ki-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 5",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Naaman was a great and honorable man in Syria, but he had leprosy. What was his position?",
+        "child": "Naaman was an important man from Syria who had a serious skin disease. What was his job?",
+        "teen": "2 Kings 5:1 introduces Naaman as a mighty man of valor who was also a leper. What role did he hold?",
+        "older": "According to 2 Kings 5:1, what position did Naaman hold under the king of Syria?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A merchant from Egypt"
+        },
+        {
+          "id": "b",
+          "text": "A shepherd from Gilead"
+        },
+        {
+          "id": "c",
+          "text": "Commander of the army"
+        },
+        {
+          "id": "d",
+          "text": "A royal scribe in Jerusalem"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 5:1",
+            "text": "Now Naaman, commander of the army of the king of Syria, was a great and honorable man in the eyes of his master, because by him the LORD had given victory to Syria. He was also a mighty man of valor, but a leper.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 5:1 names Naaman's position right after his name. Read the opening words.",
+          "child": "Look at the start of 2 Kings 5:1. His job is named right after \"Now Naaman.\"",
+          "teen": "5:1 calls him great and honorable, but before that it gives his title. Read the words after his name.",
+          "older": "The title stands next to Naaman's name in the first clause of 5:1, tied to the king of Syria."
+        },
+        "extended_explanation": "2 Kings 5:1 tells us several things about Naaman: his title, his honor in his master's eyes, his victories, his courage, and his disease. His title comes first, right after his name. Read the beginning of the verse.",
+        "takeaway": "Naaman was commander of the army of the king of Syria."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-2ki-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 2",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After they crossed the Jordan, Elijah asked Elisha what he could do for him before he was taken away. What did Elisha ask for?",
+        "child": "Elijah asked Elisha what he wanted before Elijah was taken away. What did Elisha ask for?",
+        "teen": "In 2 Kings 2:9, Elijah offers Elisha one last request. What does Elisha ask to have of Elijah's spirit?",
+        "older": "According to 2 Kings 2:9, what did Elisha request of Elijah's spirit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A double portion"
+        },
+        {
+          "id": "b",
+          "text": "Elijah's house and land"
+        },
+        {
+          "id": "c",
+          "text": "A long and peaceful life"
+        },
+        {
+          "id": "d",
+          "text": "Gold for the sons of the prophets"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 2:9",
+            "text": "And so it was, when they had crossed over, that Elijah said to Elisha, “Ask! What may I do for you, before I am taken away from you?” Elisha said, “Please let a double portion of your spirit be upon me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Elisha's request is at the end of 2 Kings 2:9. Read what he says after \"Please let.\"",
+          "child": "Read the end of 2 Kings 2:9. Elisha's request comes after the word \"Please.\"",
+          "teen": "2:9 has Elijah's question and then Elisha's answer. The request is about Elijah's spirit; read what comes before \"of your spirit.\"",
+          "older": "The final sentence of 2:9 contains the request; note the amount Elisha names before \"of your spirit.\""
+        },
+        "extended_explanation": "Elisha had refused three times to leave Elijah. Once they crossed the Jordan, Elijah asked what he could do for him. Elisha's answer was about Elijah's spirit. Read his words at the end of 2 Kings 2:9.",
+        "takeaway": "Elisha asked for a double portion of Elijah's spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 4",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The prophet's widow kept pouring her oil into the borrowed containers. What did her son say right before the oil stopped?",
+        "child": "A widow poured her little bit of oil into many borrowed jars. What did her son tell her just before the oil stopped flowing?",
+        "teen": "In 2 Kings 4:6, the widow asks for one more container. What does her son answer just before the oil ceases?",
+        "older": "According to 2 Kings 4:6, what did the widow's son say just before the oil ceased?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The neighbors want them back"
+        },
+        {
+          "id": "b",
+          "text": "There is not another vessel"
+        },
+        {
+          "id": "c",
+          "text": "The jar is cracked and leaking"
+        },
+        {
+          "id": "d",
+          "text": "The creditor is at the door now"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 4:6",
+            "text": "Now it came to pass, when the vessels were full, that she said to her son, “Bring me another vessel.” And he said to her, “There is not another vessel.” So the oil ceased.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the son's reply in the middle of 2 Kings 4:6, right after \"he said to her.\"",
+          "child": "Look at 2 Kings 4:6. The son answers his mother, and right after that the oil stops.",
+          "teen": "4:6 shows exactly when the oil stopped. Read what the son said first.",
+          "older": "The son's short reply in 4:6 comes just before the oil ceases; read it closely."
+        },
+        "extended_explanation": "Elisha told the widow to borrow many empty vessels from her neighbors and not just a few. She poured, and the oil kept flowing until it stopped. Read the son's answer in 2 Kings 4:6, just before \"So the oil ceased.\"",
+        "takeaway": "The oil ceased when her son said there was not another vessel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 4",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The woman of Shunem told her husband that Elisha was a holy man of God. What did she suggest they make for him?",
+        "child": "A woman in Shunem wanted to help Elisha whenever he passed by. What did she want to build for him?",
+        "teen": "In 2 Kings 4:10, the Shunammite woman plans a place for Elisha with a bed, table, chair, and lampstand. What was it?",
+        "older": "According to 2 Kings 4:10, what did the Shunammite woman propose to make for Elisha?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tent by the well"
+        },
+        {
+          "id": "b",
+          "text": "A stall for his donkey"
+        },
+        {
+          "id": "c",
+          "text": "A garden near the gate"
+        },
+        {
+          "id": "d",
+          "text": "A small upper room"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 4:9",
+            "text": "And she said to her husband, “Look now, I know that this is a holy man of God, who passes by us regularly.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 4:10",
+            "text": "Please, let us make a small upper room on the wall; and let us put a bed for him there, and a table and a chair and a lampstand; so it will be, whenever he comes to us, he can turn in there.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Kings 4:10 names what she wanted to make right after \"let us make.\"",
+          "child": "Read 2 Kings 4:10. Look at the words right after \"Please, let us make.\"",
+          "teen": "4:10 says it would be \"on the wall\" and lists what would go in it. Read what comes before \"on the wall.\"",
+          "older": "Her proposal in 4:10 names a structure and its placement before listing its furnishings."
+        },
+        "extended_explanation": "The woman had noticed that Elisha passed by often, and she knew he was a man of God. In 2 Kings 4:10 she suggests a place where he could stay, and she lists what she would put in it. Read what comes right after \"let us make.\"",
+        "takeaway": "The Shunammite woman made a small upper room for Elisha."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 5",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Naaman went away angry because the cure seemed too simple. What did his servants say he would have done if the prophet had asked?",
+        "child": "Naaman was upset that he was only told to wash. His servants said that if the prophet had asked for a different kind of task, he would have done it. What kind?",
+        "teen": "In 2 Kings 5:13, Naaman's servants reason with him. What did they say he would have been willing to do?",
+        "older": "According to 2 Kings 5:13, what kind of command did Naaman's servants say he would gladly have obeyed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Something great"
+        },
+        {
+          "id": "b",
+          "text": "A long journey"
+        },
+        {
+          "id": "c",
+          "text": "A costly sacrifice"
+        },
+        {
+          "id": "d",
+          "text": "A battle against Israel"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 5:13",
+            "text": "And his servants came near and spoke to him, and said, “My father, if the prophet had told you to do something great, would you not have done it? How much more then, when he says to you, ‘Wash, and be clean’?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The servants' reasoning in 2 Kings 5:13 begins with \"if the prophet had told you to do.\" Read what follows.",
+          "child": "Read 2 Kings 5:13. Look at the words after \"told you to do.\"",
+          "teen": "5:13 sets two commands side by side. Read the first kind they name, after \"told you to do.\"",
+          "older": "The servants' argument in 5:13 compares two kinds of commands; read the first half."
+        },
+        "extended_explanation": "Naaman had expected the prophet to come out, call on the name of the LORD, and wave his hand over the place. His servants then reasoned with him in 2 Kings 5:13. Read their words right after \"if the prophet had told you to do.\"",
+        "takeaway": "Naaman's servants said he would have done something great, so how much more should he wash and be clean."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 6",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elisha's servant was afraid of the Syrian army around the city. When the LORD opened his eyes, what did he see on the mountain?",
+        "child": "Elisha prayed for his scared servant to see. What did the young man see all around Elisha?",
+        "teen": "In 2 Kings 6:17, Elisha prays and the LORD opens the young man's eyes. What filled the mountain?",
+        "older": "According to 2 Kings 6:17, what did the servant see all around Elisha once his eyes were opened?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A host of angels with swords"
+        },
+        {
+          "id": "b",
+          "text": "A wall of water around the city"
+        },
+        {
+          "id": "c",
+          "text": "Horses and chariots of fire"
+        },
+        {
+          "id": "d",
+          "text": "A pillar of cloud over the hill"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 6:17",
+            "text": "And Elisha prayed, and said, “LORD, I pray, open his eyes that he may see.” Then the LORD opened the eyes of the young man, and he saw. And behold, the mountain was full of horses and chariots of fire all around Elisha.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 2 Kings 6:17. It tells what the mountain was full of.",
+          "child": "Look at the end of 2 Kings 6:17. It says what the servant saw after \"the mountain was full of.\"",
+          "teen": "6:17 answers the servant's fear from verse 15. The sight is named after \"behold.\"",
+          "older": "The final clause of 6:17 describes the vision; read what follows \"the mountain was full of.\""
+        },
+        "extended_explanation": "The servant saw the Syrian army surrounding the city and cried out, \"What shall we do?\" Elisha said those with them were more. Then in 2 Kings 6:17 he prayed that the servant's eyes would be opened. Read what the young man saw at the end of the verse.",
+        "takeaway": "The mountain was full of horses and chariots of fire all around Elisha."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 2",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elijah struck the Jordan with his mantle before he was taken up. When Elisha later struck the water with the same mantle, what happened?",
+        "child": "Elijah hit the river with his cloak, and then later Elisha did the same thing. What happened when Elisha did it?",
+        "teen": "Compare 2 Kings 2:8 and 2:14. After Elisha asked, \"Where is the LORD God of Elijah?\" what did the water do?",
+        "older": "2 Kings 2:8 and 2:14 describe two strikes of the Jordan with one mantle. What happened at the second?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nothing happened until Elijah returned"
+        },
+        {
+          "id": "b",
+          "text": "The river dried up for seven days"
+        },
+        {
+          "id": "c",
+          "text": "It rose like a wall on one side"
+        },
+        {
+          "id": "d",
+          "text": "It was divided this way and that"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 2:8",
+            "text": "Now Elijah took his mantle, rolled it up, and struck the water; and it was divided this way and that, so that the two of them crossed over on dry ground.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 2:14",
+            "text": "Then he took the mantle of Elijah that had fallen from him, and struck the water, and said, “Where is the LORD God of Elijah?” And when he also had struck the water, it was divided this way and that; and Elisha crossed over.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2 Kings 2:8, then 2:14. The same words describe what the water did both times.",
+          "child": "Look at what happened to the water in 2 Kings 2:8. Then read the end of 2:14 and see if it matches.",
+          "teen": "2:14 deliberately echoes 2:8. Find the phrase after \"it was\" in both verses.",
+          "older": "The narrator repeats the same description in 2:8 and 2:14 to show the continuity from Elijah to Elisha."
+        },
+        "extended_explanation": "Elisha had asked Elijah for a share of his spirit. When Elijah was taken up, Elisha picked up his mantle and went back to the Jordan. 2 Kings 2:14 uses the same words as 2:8 to describe the water, showing that the LORD was with Elisha as He had been with Elijah. Compare the two verses.",
+        "takeaway": "When Elisha struck the water with Elijah's mantle, it was divided this way and that, just as for Elijah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-2ki-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 6",
+      "topics": [
+        "elisha"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elisha told the king of Israel not to kill the captured Syrians but to feed them and send them home. What happened afterward with the Syrian raiders?",
+        "child": "Instead of hurting the enemy soldiers, Elisha said to give them food and water and let them go. What happened after that?",
+        "teen": "2 Kings 6:22 gives Elisha's surprising instruction, and 6:23 tells the result. What did the Syrian raiding bands do afterward?",
+        "older": "Connect Elisha's command in 2 Kings 6:22 with the outcome in 6:23. What became of the Syrian raiders?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Returned with a larger army"
+        },
+        {
+          "id": "b",
+          "text": "Came no more into the land"
+        },
+        {
+          "id": "c",
+          "text": "Took Elisha back to Syria"
+        },
+        {
+          "id": "d",
+          "text": "Attacked Samaria the next spring"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 6:22",
+            "text": "But he answered, “You shall not kill them. Would you kill those whom you have taken captive with your sword and your bow? Set food and water before them, that they may eat and drink and go to their master.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 6:23",
+            "text": "Then he prepared a great feast for them; and after they ate and drank, he sent them away and they went to their master. So the bands of Syrian raiders came no more into the land of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 2 Kings 6:23. It tells what the bands of Syrian raiders did after the feast.",
+          "child": "Look at the end of 2 Kings 6:23. It tells what the raiders did after they were fed and sent home.",
+          "teen": "6:22 is the command and 6:23 the result. The final clause of 6:23 says what changed.",
+          "older": "The closing sentence of 6:23 reports the consequence of the mercy commanded in 6:22."
+        },
+        "extended_explanation": "The king of Israel wanted to strike the captured soldiers, but Elisha told him to set food and water before them and send them to their master. 2 Kings 6:23 says the king prepared a great feast. The end of that verse tells what followed. Read it closely.",
+        "takeaway": "After Israel fed the Syrian army and sent it home, the Syrian raiders came no more into the land of Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

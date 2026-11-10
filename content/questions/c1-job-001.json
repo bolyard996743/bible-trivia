@@ -1,0 +1,507 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-job-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-job-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 1",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The book of Job opens by introducing a blameless and upright man. Where did Job live?",
+        "child": "Job was a good man who loved God and stayed away from evil. Where did he live?",
+        "teen": "Job 1:1 begins by placing Job in a particular region. Where was it?",
+        "older": "According to Job 1:1, in what land did Job live?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The land of Goshen"
+        },
+        {
+          "id": "b",
+          "text": "The land of Nod"
+        },
+        {
+          "id": "c",
+          "text": "The land of Moab"
+        },
+        {
+          "id": "d",
+          "text": "The land of Uz"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 1:1",
+            "text": "There was a man in the land of Uz, whose name was Job; and that man was blameless and upright, and one who feared God and shunned evil.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The place is named in the first words of Job 1:1, right after \"There was a man in.\"",
+          "child": "Look at the very start of Job 1:1. The place comes right after \"There was a man in.\"",
+          "teen": "1:1 gives the place before it gives Job's name. Read the opening phrase.",
+          "older": "The setting is given in the verse's first clause, ahead of Job's name and his character."
+        },
+        "extended_explanation": "The book of Job begins like a story: first a place, then a name, then what kind of man he was. Job 1:1 says he was blameless and upright, one who feared God and shunned evil. Read the first words for the place.",
+        "takeaway": "Job lived in the land of Uz."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-job-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 2",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Job's three friends heard of his troubles, they came to mourn with him and comfort him. Which of these was one of them?",
+        "child": "Three of Job's friends came to comfort him when they heard what had happened. Which of these was one of the three?",
+        "teen": "Job 2:11 names the three friends who came from their own places to comfort Job. Which of these is one of them?",
+        "older": "According to Job 2:11, which of the following was one of Job's three friends?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hiram of Tyre"
+        },
+        {
+          "id": "b",
+          "text": "Bildad the Shuhite"
+        },
+        {
+          "id": "c",
+          "text": "Ittai the Gittite"
+        },
+        {
+          "id": "d",
+          "text": "Abner the son of Ner"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 2:11",
+            "text": "Now when Job’s three friends heard of all this adversity that had come upon him, each one came from his own place—Eliphaz the Temanite, Bildad the Shuhite, and Zophar the Naamathite. For they had made an appointment together to come and mourn with him, and to comfort him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Job 2:11 lists all three friends by name and home. Compare each choice with that list.",
+          "child": "Read the middle of Job 2:11. It names the three friends. Which choice is in the list?",
+          "teen": "2:11 gives each friend's name with a word for where he came from. Match one of the choices to that list.",
+          "older": "The three names in 2:11 each include a home or people; only one choice matches the list."
+        },
+        "extended_explanation": "Job's three friends made an appointment together to come to him. Job 2:11 says they wanted to mourn with him and comfort him, and it names each one along with where he came from. Read the list of names in the verse.",
+        "takeaway": "Bildad the Shuhite was one of Job's three friends who came to comfort him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 1",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD asked Satan, \"Have you considered My servant Job?\" and described him as blameless and upright. What question did Satan ask in reply?",
+        "child": "God pointed out how faithful Job was. What did Satan ask back?",
+        "teen": "In Job 1:8-9, the LORD praises Job, and Satan answers with a question of his own. What is his question?",
+        "older": "According to Job 1:9, what question did Satan raise in response to the LORD's description of Job?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Does Job fear God for nothing?"
+        },
+        {
+          "id": "b",
+          "text": "Why do You let Job become so rich?"
+        },
+        {
+          "id": "c",
+          "text": "Is Job really greater than Abraham?"
+        },
+        {
+          "id": "d",
+          "text": "Who taught Job to offer sacrifices?"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 1:8",
+            "text": "Then the LORD said to Satan, “Have you considered My servant Job, that there is none like him on the earth, a blameless and upright man, one who fears God and shuns evil?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 1:9",
+            "text": "So Satan answered the LORD and said, “Does Job fear God for nothing?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Satan's question is the whole of Job 1:9. Read it closely.",
+          "child": "Read Job 1:9. Satan answers the LORD with one short question.",
+          "teen": "1:8 describes Job; 1:9 is Satan's reply. Read the short question that makes up 1:9.",
+          "older": "Job 1:9 consists of a single question. Read it from beginning to end."
+        },
+        "extended_explanation": "In Job 1:8 the LORD describes Job as a man unlike anyone else on earth. Satan does not deny what the LORD has said. Read his short question in Job 1:9.",
+        "takeaway": "Satan asked, \"Does Job fear God for nothing?\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 1",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After messengers brought Job news of his great losses, he tore his robe and shaved his head. What did he do next?",
+        "child": "Job got very bad news, one message after another. He tore his robe and shaved his head. Then what did he do?",
+        "teen": "Job 1:20 records Job's first response to the news. After tearing his robe and shaving his head, what did he do?",
+        "older": "According to Job 1:20, what did Job do after tearing his robe and shaving his head?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sent his servants to chase the raiders"
+        },
+        {
+          "id": "b",
+          "text": "Left the land of the East to live in Egypt"
+        },
+        {
+          "id": "c",
+          "text": "Fell to the ground and worshiped"
+        },
+        {
+          "id": "d",
+          "text": "Sold his house and gave up farming"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 1:20",
+            "text": "Then Job arose, tore his robe, and shaved his head; and he fell to the ground and worshiped.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last part of Job 1:20, after \"and he.\"",
+          "child": "Look at the end of Job 1:20. It tells what Job did after showing his sorrow.",
+          "teen": "1:20 lists four actions. The first two show sorrow. Read the last two.",
+          "older": "The final clause of 1:20 completes the sequence of actions; read it closely."
+        },
+        "extended_explanation": "Job's losses came quickly, and Job 1:20 shows him mourning in the ways people did then. But the verse does not end with mourning alone. Read the last words to see what Job did next.",
+        "takeaway": "Job fell to the ground and worshiped."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 2",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job's friends sat with him for seven days and seven nights without speaking. Why did no one say a word?",
+        "child": "Job's friends sat with him for a whole week and did not talk. Why were they so quiet?",
+        "teen": "Job 2:13 says the friends kept silent for seven days and nights. What reason does the verse give?",
+        "older": "According to Job 2:13, why did no one speak a word to Job for seven days and seven nights?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They had been told not to speak"
+        },
+        {
+          "id": "b",
+          "text": "His grief was very great"
+        },
+        {
+          "id": "c",
+          "text": "They did not speak his language"
+        },
+        {
+          "id": "d",
+          "text": "They were waiting for the LORD"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 2:13",
+            "text": "So they sat down with him on the ground seven days and seven nights, and no one spoke a word to him, for they saw that his grief was very great.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The reason is at the end of Job 2:13, after \"for they saw that.\"",
+          "child": "Read the end of Job 2:13. Look right after \"for they saw that.\"",
+          "teen": "2:13 describes the silence and then explains it with \"for.\" Read what the friends saw.",
+          "older": "The closing clause of 2:13 gives the friends' perception as the cause of their silence."
+        },
+        "extended_explanation": "Before they said anything, Job's friends simply sat with him. Job 2:13 tells how long they stayed and why they kept silent. Read the words after \"for they saw that.\"",
+        "takeaway": "No one spoke a word to Job, for they saw that his grief was very great."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 19",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job wished his words could be written down forever. Then he said, \"I know that my ___ lives.\" What word completes it?",
+        "child": "In the middle of his suffering, Job said he knew that Someone lives. What did Job call Him?",
+        "teen": "In Job 19:25, Job declares what he knows. Whom does he say lives and will stand at last on the earth?",
+        "older": "According to Job 19:25, whom did Job say he knew lives?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shepherd"
+        },
+        {
+          "id": "b",
+          "text": "Comforter"
+        },
+        {
+          "id": "c",
+          "text": "Champion"
+        },
+        {
+          "id": "d",
+          "text": "Redeemer"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 19:23",
+            "text": "“Oh, that my words were written! Oh, that they were inscribed in a book!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 19:25",
+            "text": "For I know that my Redeemer lives, And He shall stand at last on the earth;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Job 19:25 begins with \"For I know that my.\" Read the next word.",
+          "child": "Read the start of Job 19:25. Look at the word right after \"I know that my.\"",
+          "teen": "19:23 is Job's wish to have his words recorded; 19:25 is the confession he wanted kept. Find the title in its first line.",
+          "older": "The title Job uses in 19:25 is the object of \"I know that my,\" followed by the hope that He will stand on the earth."
+        },
+        "extended_explanation": "In Job 19:23-24 Job wishes his words could be carved into rock forever. Then in verse 25 he says what he is sure of, even in pain. Read the first line of verse 25.",
+        "takeaway": "Job said, \"I know that my Redeemer lives.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 38",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the LORD answered Job out of the whirlwind, Job compared what he had known of God before with what he knew now. What did he say now?",
+        "child": "God finally spoke to Job from a storm. Afterward, Job said he used to only hear about God. What did he say was true now?",
+        "teen": "Job 38:1 begins the LORD's answer from the whirlwind; Job 42:5 is part of Job's reply. What does Job say has changed?",
+        "older": "Connect Job 38:1 with 42:5. How does Job describe his new knowledge of God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Now I understand every reason"
+        },
+        {
+          "id": "b",
+          "text": "Now I am finished with questions"
+        },
+        {
+          "id": "c",
+          "text": "Now my eye sees You"
+        },
+        {
+          "id": "d",
+          "text": "Now my friends will believe me"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 38:1",
+            "text": "Then the LORD answered Job out of the whirlwind, and said:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 42:5",
+            "text": "“I have heard of You by the hearing of the ear, But now my eye sees You.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Job 42:5 has two halves. Read the second half, after \"But.\"",
+          "child": "Read Job 42:5. The first half tells how Job knew God before. Read the part after \"But.\"",
+          "teen": "38:1 shows the LORD speaking to Job directly. 42:5 contrasts hearing about God with something more. Find the contrast.",
+          "older": "42:5 sets \"the hearing of the ear\" against a new kind of knowing that followed the whirlwind speeches."
+        },
+        "extended_explanation": "For many chapters Job and his friends talked about God. Then in Job 38:1 the LORD Himself answered Job out of the whirlwind. In Job 42:5 Job describes the difference this made. Read the second half of the verse.",
+        "takeaway": "Job said, \"I have heard of You by the hearing of the ear, but now my eye sees You.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 42",
+      "topics": [
+        "job"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD sent Job's friends to him with an offering. When did the LORD restore Job's losses?",
+        "child": "God sent Job's friends to him and told them to bring an offering. When did God give Job back what he had lost?",
+        "teen": "Job 42:8 sends the friends to Job with an offering; 42:10 says when the LORD restored him. When was it?",
+        "older": "Connect the instruction in Job 42:8 with the restoration in 42:10. When did the LORD restore Job's losses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "When he prayed for his friends"
+        },
+        {
+          "id": "b",
+          "text": "When his friends went home again"
+        },
+        {
+          "id": "c",
+          "text": "When the Sabeans returned the oxen"
+        },
+        {
+          "id": "d",
+          "text": "When the king of the East honored him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 42:8",
+            "text": "Now therefore, take for yourselves seven bulls and seven rams, go to My servant Job, and offer up for yourselves a burnt offering; and My servant Job shall pray for you. For I will accept him, lest I deal with you according to your folly; because you have not spoken of Me what is right, as My servant Job has.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 42:10",
+            "text": "And the LORD restored Job’s losses when he prayed for his friends. Indeed the LORD gave Job twice as much as he had before.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of Job 42:10, right after \"the LORD restored Job's losses.\"",
+          "child": "Look at the start of Job 42:10. It tells when God restored what Job lost.",
+          "teen": "42:8 tells the friends to go to Job with an offering. 42:10 ties the restoration to a moment. Read the first sentence.",
+          "older": "42:10 opens by saying when the restoration happened. Read its first sentence."
+        },
+        "extended_explanation": "The friends had not spoken rightly of God, and the LORD told them to go to Job with an offering. Job 42:10 tells when the LORD restored Job's losses and gave him twice as much. Read the first sentence of verse 10.",
+        "takeaway": "The LORD restored Job's losses when he prayed for his friends."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}

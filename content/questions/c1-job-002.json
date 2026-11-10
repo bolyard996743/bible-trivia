@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-job-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-job-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 3",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After his friends had sat with him in silence, Job finally spoke. What did he curse?",
+        "child": "After a long silence, Job spoke about his sorrow. What did he curse?",
+        "teen": "Job 3:1 records the first words Job speaks after the friends arrive. What does he curse?",
+        "older": "According to Job 3:1, what did Job curse when he began to speak?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The day of his birth"
+        },
+        {
+          "id": "b",
+          "text": "The friends who came to him"
+        },
+        {
+          "id": "c",
+          "text": "The land where he lived"
+        },
+        {
+          "id": "d",
+          "text": "The raiders who took his oxen"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 3:1",
+            "text": "After this Job opened his mouth and cursed the day of his birth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Job 3:1 is one sentence. Read what comes after \"cursed.\"",
+          "child": "Read Job 3:1. Look at the words right after \"cursed.\"",
+          "teen": "3:1 is short. The thing Job cursed is in its last words.",
+          "older": "The object of \"cursed\" in 3:1 is named at the end of the verse."
+        },
+        "extended_explanation": "Job had lost so much, and his grief was very deep. When he finally spoke, he did not curse God or his friends. Job 3:1 tells what he cursed. Read the end of the verse.",
+        "takeaway": "Job opened his mouth and cursed the day of his birth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c1-job-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 40",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD questioned him, Job said, \"What shall I answer You?\" Where did he say he would lay his hand?",
+        "child": "After God spoke to him, Job did not know what to say. Where did Job put his hand?",
+        "teen": "In Job 40:4, Job responds to the LORD with humility. Where does he lay his hand?",
+        "older": "According to Job 40:4, where did Job say he would lay his hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On my heart"
+        },
+        {
+          "id": "b",
+          "text": "Upon the altar"
+        },
+        {
+          "id": "c",
+          "text": "Over my mouth"
+        },
+        {
+          "id": "d",
+          "text": "Over my eyes"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 40:3",
+            "text": "Then Job answered the LORD and said:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 40:4",
+            "text": "“Behold, I am vile; What shall I answer You? I lay my hand over my mouth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Job 40:4, after \"I lay my hand.\"",
+          "child": "Look at the last words of Job 40:4. They tell where Job put his hand.",
+          "teen": "40:4 ends with a gesture. Read the last line.",
+          "older": "The closing clause of 40:4 names where Job lays his hand."
+        },
+        "extended_explanation": "Job had asked many questions and wanted to make his case. When the LORD spoke, Job answered with very few words. Job 40:4 ends with a gesture. Read the last line.",
+        "takeaway": "Job said, \"I lay my hand over my mouth.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 3",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Near the end of his first lament, Job described his sorrow honestly. What did he say had come upon him?",
+        "child": "Job told the truth about how he felt. What did he say had happened to him?",
+        "teen": "In Job 3:25, Job names what has come upon him. What is it?",
+        "older": "According to Job 3:25, what had come upon Job?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A reward for all my good deeds"
+        },
+        {
+          "id": "b",
+          "text": "The thing I greatly feared"
+        },
+        {
+          "id": "c",
+          "text": "The answer I had prayed for"
+        },
+        {
+          "id": "d",
+          "text": "A great peace from the LORD above"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 3:25",
+            "text": "For the thing I greatly feared has come upon me, And what I dreaded has happened to me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 3:26",
+            "text": "I am not at ease, nor am I quiet; I have no rest, for trouble comes.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Job 3:25, before \"has come upon me.\"",
+          "child": "Look at the start of Job 3:25. It says what came upon Job.",
+          "teen": "3:25 has two lines that say nearly the same thing. Read the first one.",
+          "older": "3:25 is a parallel couplet; read its first line."
+        },
+        "extended_explanation": "Job 3 is Job pouring out his grief honestly before God. Verse 25 names what has come upon him, and verse 26 says he has no rest. Read the first line of verse 25.",
+        "takeaway": "Job said the thing he greatly feared had come upon him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 13",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job said, \"Though He slay me.\" What did he say next?",
+        "child": "Job said that even if the worst happened to him, he would still do something. What?",
+        "teen": "In Job 13:15, what does Job say right after \"Though He slay me\"?",
+        "older": "According to Job 13:15, what did Job say he would do, though God slay him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yet will I leave this land"
+        },
+        {
+          "id": "b",
+          "text": "Yet will I curse my friends"
+        },
+        {
+          "id": "c",
+          "text": "Yet will I keep silent"
+        },
+        {
+          "id": "d",
+          "text": "Yet will I trust Him"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 13:15",
+            "text": "Though He slay me, yet will I trust Him. Even so, I will defend my own ways before Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of Job 13:15, after \"Though He slay me.\"",
+          "child": "Look at the start of Job 13:15. Read the words right after \"Though He slay me.\"",
+          "teen": "13:15 begins with a \"though ... yet\" sentence. Read the \"yet\" part.",
+          "older": "13:15 opens with \"Though He slay me,\" then states what Job will do. The next sentence adds that he will still defend his ways."
+        },
+        "extended_explanation": "Job did not hide his pain, and he still wanted to speak his case before God. In Job 13:15 he says what he will do even then. Read the first sentence.",
+        "takeaway": "Job said, \"Though He slay me, yet will I trust Him.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 23",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job said his complaint was still bitter. What did he long to know?",
+        "child": "Job was still hurting and wished he knew something. What did he wish he knew?",
+        "teen": "In Job 23:3, Job begins with \"Oh, that I knew.\" What did he long to know?",
+        "older": "According to Job 23:3, what did Job long to know, so that he could come to God's seat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Why my friends had come"
+        },
+        {
+          "id": "b",
+          "text": "How many years I would live"
+        },
+        {
+          "id": "c",
+          "text": "Who had taken my camels"
+        },
+        {
+          "id": "d",
+          "text": "Where I might find Him"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 23:3",
+            "text": "Oh, that I knew where I might find Him, That I might come to His seat!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Job 23:3 opens with \"Oh, that I knew.\" Read the words right after it.",
+          "child": "Read the beginning of Job 23:3. Look after \"Oh, that I knew.\"",
+          "teen": "Job 23:3 is a two-line wish. Read only its first line.",
+          "older": "The wish in 23:3 names what Job lacked, and the second line gives the purpose: to come to His seat."
+        },
+        "extended_explanation": "Job wanted to bring his case before God and hear His answer. Job 23:3 is a two-line wish. Read the first line of the verse.",
+        "takeaway": "Job longed to know where he might find God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 40",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Job to look at the behemoth, which He made along with Job. What does the verse say it eats?",
+        "child": "God told Job to look at a great creature called behemoth. What does it eat?",
+        "teen": "Job 40:15 introduces the behemoth. What does the LORD say about its food?",
+        "older": "According to Job 40:15, what does the behemoth eat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fish from the river"
+        },
+        {
+          "id": "b",
+          "text": "Grass like an ox"
+        },
+        {
+          "id": "c",
+          "text": "Fruit from the trees"
+        },
+        {
+          "id": "d",
+          "text": "Grain from the barns"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 40:15",
+            "text": "“Look now at the behemoth, which I made along with you; He eats grass like an ox.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of Job 40:15, after \"He eats.\"",
+          "child": "Look at the end of Job 40:15. It tells what the behemoth eats.",
+          "teen": "40:15 says the LORD made it along with Job, then gives a detail about how it eats. Read the last line.",
+          "older": "The second line of 40:15 names what the creature eats, with a comparison."
+        },
+        "extended_explanation": "In Job 40 the LORD points Job to a mighty creature He made. Verse 15 says God made it along with Job, and then tells something plain about how it lives. Read the final words of the verse.",
+        "takeaway": "The behemoth eats grass like an ox."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 23",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job said he looked forward, backward, left, and right, but could not see God. Yet what did he say he would do when God had tested him?",
+        "child": "Job looked every way and could not see God. But he still believed God knew his way. What did he say would happen after God tested him?",
+        "teen": "Job 23:8-9 describes Job unable to perceive God in any direction; 23:10 begins with \"But.\" What will happen after testing?",
+        "older": "Connect Job 23:8-9 with 23:10. What did Job say would be true of him once God had tested him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Come forth as gold"
+        },
+        {
+          "id": "b",
+          "text": "Fall like a broken wall"
+        },
+        {
+          "id": "c",
+          "text": "Wither like a dry leaf"
+        },
+        {
+          "id": "d",
+          "text": "Be scattered like dust"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 23:8",
+            "text": "“Look, I go forward, but He is not there, And backward, but I cannot perceive Him;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 23:9",
+            "text": "When He works on the left hand, I cannot behold Him; When He turns to the right hand, I cannot see Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 23:10",
+            "text": "But He knows the way that I take; When He has tested me, I shall come forth as gold.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Job 23:10. Look at the end of the verse, after \"When He has tested me, I shall.\"",
+          "child": "Look at the end of Job 23:10. It tells what Job would be like after being tested.",
+          "teen": "23:8-9 say Job cannot see God. 23:10 begins with \"But He knows.\" Read the last line.",
+          "older": "The turn in 23:10 sets God's knowledge of Job's way against Job's inability to see Him, and ends with what Job expects after testing."
+        },
+        "extended_explanation": "Job 23:8-9 is honest: Job looks in every direction and cannot see God. Then verse 10 turns with the word \"But.\" Even when Job could not see God, he said God knows the way he takes. Read the end of verse 10 for what Job expected after the testing.",
+        "takeaway": "Job said that when God had tested him, he would come forth as gold."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    },
+    {
+      "id": "c2-job-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 41",
+      "topics": [
+        "job-faith-in-suffering"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD asked Job whether he could draw out Leviathan with a hook. Since no one dares stir it up, what does the LORD say about Himself?",
+        "child": "God asked Job if he could catch a mighty creature called Leviathan with a hook. Then God said something about Himself. What did He declare?",
+        "teen": "Job 41:1 asks about catching Leviathan; 41:10-11 turns from the creature to the LORD. What does He declare in 41:11?",
+        "older": "Connect Job 41:1 with 41:10-11. What claim does the LORD make about Himself in 41:11?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I need your help to tame the deep sea"
+        },
+        {
+          "id": "b",
+          "text": "I made Leviathan to frighten you"
+        },
+        {
+          "id": "c",
+          "text": "Everything under heaven is Mine"
+        },
+        {
+          "id": "d",
+          "text": "I will give you power over the deep"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 41:1",
+            "text": "“Can you draw out Leviathan with a hook, Or snare his tongue with a line which you lower?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 41:10",
+            "text": "No one is so fierce that he would dare stir him up. Who then is able to stand against Me?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 41:11",
+            "text": "Who has preceded Me, that I should pay him? Everything under heaven is Mine.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 41:10, then the last line of 41:11.",
+          "child": "Look at the end of Job 41:11. Read the last line of what God says.",
+          "teen": "41:10 asks, \"Who then is able to stand against Me?\" 41:11 answers with a claim about the LORD. Read its last line.",
+          "older": "The argument moves from the creature no one dares rouse in 41:10 to the LORD's own claim in the final line of 41:11."
+        },
+        "extended_explanation": "In Job 41:1 the LORD asks if Job could catch Leviathan with a hook. Verse 10 says no one is fierce enough to stir it up, so who could stand against the One who made it? Verse 11 ends with a statement about the LORD Himself. Read the last line of verse 11.",
+        "takeaway": "The LORD said, \"Everything under heaven is Mine.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Growing stage. NKJV excerpt copied from _growing_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Growing"
+    }
+  ]
+}
