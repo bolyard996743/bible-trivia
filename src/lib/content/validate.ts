@@ -1,9 +1,10 @@
 import fs from "fs";
 import path from "path";
 import { explanationRevealIssues } from "../game/reveal";
-import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS } from "../game/types";
+import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS, type MascotId, type MascotLine } from "../game/types";
 import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
+import { readRootedLineFiles, rootedLinesPath } from "./rooted-lines";
 import { ANSWER_MOMENTS, readSproutLineFiles, sproutLinesPath } from "./sprout-lines";
 
 const BADGE_COUNTS: Record<(typeof KNOWLEDGE_PATH)[number], number> = {
@@ -64,7 +65,7 @@ function readJson(filePath: string): { value?: unknown; error?: string } {
 
 function requireStageLines(
   errors: string[],
-  stage: "Seed" | "Sprout",
+  stage: "Seed" | "Sprout" | "Rooted",
   ids: string[],
   expected: number,
   answerLinesByQuestion: Map<string, Map<string, Set<string>>>,
@@ -86,6 +87,72 @@ function requireStageLines(
         }
       }
     }
+  }
+}
+
+/** Count expanded stage lines and record each guide's audience "all" answer moments. */
+function recordExpandedLines(
+  errors: string[],
+  lines: MascotLine[],
+  fileFor: (mascot: MascotId) => string,
+  lineIds: Map<string, string>,
+  questionIds: Map<string, string>,
+  answerLinesByQuestion: Map<string, Map<string, Set<string>>>,
+): number {
+  let added = 0;
+  const noted = new Set<string>();
+  for (const line of lines) {
+    added += 1;
+    const file = fileFor(line.mascot);
+    const prior = lineIds.get(line.id);
+    if (prior) errors.push(`${file}: duplicate line id ${line.id} (also in ${prior})`);
+    lineIds.set(line.id, file);
+    const once = `${line.mascot}:${line.question_id ?? ""}`;
+    if (!noted.has(once)) {
+      noted.add(once);
+      if (line.mascot === "hunter") {
+        for (const pattern of HUNTER_FORBIDDEN) {
+          if (pattern.test(line.text)) {
+            errors.push(`${file}: ${line.question_id} states outright that Hunter swallowed Jonah`);
+            break;
+          }
+        }
+      }
+      if (line.question_id && !questionIds.has(line.question_id)) {
+        errors.push(`${file}: ${line.question_id} references unknown question`);
+      }
+    }
+    if (
+      line.question_id &&
+      questionIds.has(line.question_id) &&
+      line.audience === "all" &&
+      (ANSWER_MOMENTS as readonly string[]).includes(line.moment)
+    ) {
+      const byMascot = answerLinesByQuestion.get(line.question_id) ?? new Map<string, Set<string>>();
+      const moments = byMascot.get(line.mascot) ?? new Set<string>();
+      moments.add(line.moment);
+      byMascot.set(line.mascot, moments);
+      answerLinesByQuestion.set(line.question_id, byMascot);
+    }
+  }
+  return added;
+}
+
+function rejectOffStageLines(
+  errors: string[],
+  lines: MascotLine[],
+  stageIds: ReadonlySet<string>,
+  questionIds: Map<string, string>,
+  fileFor: (mascot: MascotId) => string,
+  stageName: string,
+) {
+  const strayNoted = new Set<string>();
+  for (const line of lines) {
+    if (!line.question_id || !questionIds.has(line.question_id) || stageIds.has(line.question_id)) continue;
+    const once = `${line.mascot}:${line.question_id}`;
+    if (strayNoted.has(once)) continue;
+    strayNoted.add(once);
+    errors.push(`${fileFor(line.mascot)}: ${line.question_id} is not a ${stageName} question`);
   }
 }
 
@@ -226,42 +293,13 @@ export function validateContentTree(root: string): ValidationResult {
 
   const sprout = readSproutLineFiles(root);
   errors.push(...sprout.errors);
-  const sproutNoted = new Set<string>();
-  for (const line of sprout.lines) {
-    lineCount += 1;
-    const file = sproutLinesPath(line.mascot);
-    const prior = lineIds.get(line.id);
-    if (prior) errors.push(`${file}: duplicate line id ${line.id} (also in ${prior})`);
-    lineIds.set(line.id, file);
-    const once = `${line.mascot}:${line.question_id ?? ""}`;
-    if (!sproutNoted.has(once)) {
-      sproutNoted.add(once);
-      if (line.mascot === "hunter") {
-        for (const pattern of HUNTER_FORBIDDEN) {
-          if (pattern.test(line.text)) {
-            errors.push(`${file}: ${line.question_id} states outright that Hunter swallowed Jonah`);
-            break;
-          }
-        }
-      }
-      if (line.question_id && !questionIds.has(line.question_id)) {
-        errors.push(`${file}: ${line.question_id} references unknown question`);
-      }
-    }
-    if (
-      line.question_id &&
-      questionIds.has(line.question_id) &&
-      line.audience === "all" &&
-      (ANSWER_MOMENTS as readonly string[]).includes(line.moment)
-    ) {
-      const byMascot = answerLinesByQuestion.get(line.question_id) ?? new Map<string, Set<string>>();
-      const moments = byMascot.get(line.mascot) ?? new Set<string>();
-      moments.add(line.moment);
-      byMascot.set(line.mascot, moments);
-      answerLinesByQuestion.set(line.question_id, byMascot);
-    }
-  }
+  lineCount += recordExpandedLines(errors, sprout.lines, sproutLinesPath, lineIds, questionIds, answerLinesByQuestion);
   const sproutFileMissing = new Set(MASCOT_IDS.filter((mascot) => !sprout.loaded.includes(mascot)));
+
+  const rooted = readRootedLineFiles(root);
+  errors.push(...rooted.errors);
+  lineCount += recordExpandedLines(errors, rooted.lines, rootedLinesPath, lineIds, questionIds, answerLinesByQuestion);
+  const rootedFileMissing = new Set(MASCOT_IDS.filter((mascot) => !rooted.loaded.includes(mascot)));
 
   const pathFile = path.join(root, "content", "knowledge_path.json");
   const loaded = readJson(pathFile);
@@ -334,20 +372,30 @@ export function validateContentTree(root: string): ValidationResult {
       answerLinesByQuestion,
       sproutFileMissing,
     );
-    const sproutIds = new Set(sproutQuestionIds);
-    const strayNoted = new Set<string>();
-    for (const line of sprout.lines) {
-      if (!line.question_id || !questionIds.has(line.question_id) || sproutIds.has(line.question_id)) continue;
-      const once = `${line.mascot}:${line.question_id}`;
-      if (strayNoted.has(once)) continue;
-      strayNoted.add(once);
-      errors.push(`${sproutLinesPath(line.mascot)}: ${line.question_id} is not a Sprout question`);
-    }
-    if (rootedQuestionIds.length !== ROOTED_QUESTION_COUNT) {
-      errors.push(
-        `content/knowledge_path.json: Rooted badges should list ${ROOTED_QUESTION_COUNT} questions, found ${rootedQuestionIds.length}`,
-      );
-    }
+    rejectOffStageLines(
+      errors,
+      sprout.lines,
+      new Set(sproutQuestionIds),
+      questionIds,
+      sproutLinesPath,
+      "Sprout",
+    );
+    requireStageLines(
+      errors,
+      "Rooted",
+      rootedQuestionIds,
+      ROOTED_QUESTION_COUNT,
+      answerLinesByQuestion,
+      rootedFileMissing,
+    );
+    rejectOffStageLines(
+      errors,
+      rooted.lines,
+      new Set(rootedQuestionIds),
+      questionIds,
+      rootedLinesPath,
+      "Rooted",
+    );
     if (growingQuestionIds.length !== GROWING_QUESTION_COUNT) {
       errors.push(
         `content/knowledge_path.json: Growing badges should list ${GROWING_QUESTION_COUNT} questions, found ${growingQuestionIds.length}`,
