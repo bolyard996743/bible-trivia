@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0027",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 4",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before the tempter came to Him, how long had Jesus fasted in the wilderness?",
+        "child": "Jesus went without food in the wilderness before He was tempted. For how long?",
+        "teen": "How long did Jesus fast in the wilderness before He was hungry and the tempter came?",
+        "older": "According to Matthew 4:2, how long did Jesus fast before He was hungry?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forty days"
+        },
+        {
+          "id": "b",
+          "text": "Three days"
+        },
+        {
+          "id": "c",
+          "text": "Seven days"
+        },
+        {
+          "id": "d",
+          "text": "One hundred days"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 4:1",
+            "text": "Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 4:2",
+            "text": "And when He had fasted forty days and forty nights, afterward He was hungry.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 4:2 tells how long Jesus fasted. Read the first half of the verse.",
+          "child": "Read Matthew 4:2. It says how long Jesus fasted.",
+          "teen": "Check the opening of Matthew 4:2 for the length of the fast.",
+          "older": "Matthew 4:2 states the length of the fast, counting both days and nights, before noting that He was hungry."
+        },
+        "extended_explanation": "Matthew 4:1-2 says the Spirit led Jesus into the wilderness, where He fasted. The length is given in verse 2.",
+        "takeaway": "Jesus fasted forty days and forty nights in the wilderness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mat-0028",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 4",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the tempter first came to Jesus, what did he tell Him to turn into bread?",
+        "child": "The tempter dared Jesus to make bread out of something. What was it?",
+        "teen": "In the first temptation, what did the devil tell Jesus to command to become bread?",
+        "older": "According to Matthew 4:3, what did the tempter tell Jesus to command to become bread?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sand"
+        },
+        {
+          "id": "b",
+          "text": "Stones"
+        },
+        {
+          "id": "c",
+          "text": "Wild grass"
+        },
+        {
+          "id": "d",
+          "text": "Wood"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 4:3",
+            "text": "Now when the tempter came to Him, he said, “If You are the Son of God, command that these stones become bread.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 4:3 records the tempter's words. Look at what he told Jesus to command.",
+          "child": "Read the words in quotation marks in Matthew 4:3.",
+          "teen": "In Matthew 4:3, find what the tempter pointed to when he said \"command that.\"",
+          "older": "Matthew 4:3 gives the tempter's challenge word for word; notice what he wanted changed into bread."
+        },
+        "extended_explanation": "The tempter's first challenge in Matthew 4:3 was aimed at Jesus' hunger. Read what he wanted turned into bread.",
+        "takeaway": "The tempter told Jesus to command stones to become bread."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mat-0029",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 4",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "From an exceedingly high mountain, what did the devil show Jesus?",
+        "child": "The devil took Jesus up a very high mountain. What did he show Him from there?",
+        "teen": "What did the devil show Jesus, along with their glory, from the top of a high mountain?",
+        "older": "According to Matthew 4:8, what did the devil show Jesus from an exceedingly high mountain?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The temple treasures"
+        },
+        {
+          "id": "b",
+          "text": "The cities of Galilee"
+        },
+        {
+          "id": "c",
+          "text": "All the kingdoms of the world"
+        },
+        {
+          "id": "d",
+          "text": "All the stars and planets in the heavens"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 4:8",
+            "text": "Again, the devil took Him up on an exceedingly high mountain, and showed Him all the kingdoms of the world and their glory.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 4:9",
+            "text": "And he said to Him, “All these things I will give You if You will fall down and worship me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 4:8 tells what the devil showed Jesus. Read the end of the verse.",
+          "child": "Read the last part of Matthew 4:8.",
+          "teen": "Look at the end of Matthew 4:8 for what was shown, along with its glory.",
+          "older": "Matthew 4:8 names the mountain setting and then what the devil displayed, together with its glory."
+        },
+        "extended_explanation": "Matthew 4:8-9 describes a temptation on a high mountain. Verse 8 tells what the devil showed, and verse 9 tells what he asked in return.",
+        "takeaway": "The devil showed Jesus all the kingdoms of the world and their glory."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-luk-0033",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 4",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Luke's account, Jesus said people do not live by bread alone. By what else do they live?",
+        "child": "Jesus said people need more than bread to live. According to Luke 4:4, what else do they live by?",
+        "teen": "When the devil tempted Him to make bread, Jesus said bread alone is not enough. What else did He name?",
+        "older": "According to Luke 4:4, besides bread, by what does man live?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Good works and deeds"
+        },
+        {
+          "id": "b",
+          "text": "Water from the well"
+        },
+        {
+          "id": "c",
+          "text": "Prayer and fasting"
+        },
+        {
+          "id": "d",
+          "text": "Every word of God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 4:4",
+            "text": "But Jesus answered him, saying, “It is written, ‘Man shall not live by bread alone, but by every word of God.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 4:4 quotes what is written. Read the words after \"but by.\"",
+          "child": "Read the end of Luke 4:4 to see what else people live by.",
+          "teen": "Luke 4:4 finishes with the answer. Look at the last few words Jesus quoted.",
+          "older": "In Luke 4:4 Jesus answers with what \"is written\"; the second half of the quotation names what man lives by besides bread."
+        },
+        "extended_explanation": "Jesus answered the devil from Scripture in Luke 4:4. Read the full quotation, especially its final words.",
+        "takeaway": "Jesus said man shall not live by bread alone, but by every word of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-luk-0034",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 4",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the people in the Nazareth synagogue grew angry and thrust Jesus out of the city, where did they lead Him?",
+        "child": "The people in Jesus' hometown synagogue got angry and pushed Him out of town. Where did they take Him?",
+        "teen": "The crowd in Nazareth drove Jesus out of the city. To what place did they lead Him?",
+        "older": "According to Luke 4:29, where did the angry crowd in Nazareth lead Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The brow of the hill"
+        },
+        {
+          "id": "b",
+          "text": "The city gate"
+        },
+        {
+          "id": "c",
+          "text": "The bank of the Jordan River"
+        },
+        {
+          "id": "d",
+          "text": "The marketplace"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 4:28",
+            "text": "So all those in the synagogue, when they heard these things, were filled with wrath,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 4:29",
+            "text": "and rose up and thrust Him out of the city; and they led Him to the brow of the hill on which their city was built, that they might throw Him down over the cliff.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 4:30",
+            "text": "Then passing through the midst of them, He went His way.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 4:29 says where they led Jesus. Read the middle of the verse.",
+          "child": "Read Luke 4:29 and look for where the crowd took Jesus.",
+          "teen": "Luke 4:29 names the spot just before it says what they meant to do.",
+          "older": "Luke 4:29 describes the crowd thrusting Him out of the city and then names the place on which their city was built."
+        },
+        "extended_explanation": "Luke 4:28-30 tells how the crowd reacted and how Jesus went His way. Verse 29 names where they led Him.",
+        "takeaway": "The angry crowd led Jesus to the brow of the hill, but He passed through the midst of them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0020",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When John saw Jesus walking by, what did he call Him?",
+        "child": "John looked at Jesus walking by and said something about Him. What did he call Jesus?",
+        "teen": "Standing with two of his disciples, John pointed to Jesus. What did he call Him?",
+        "older": "According to John 1:36, what did John call Jesus as He walked by?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Son of David"
+        },
+        {
+          "id": "b",
+          "text": "The Lamb of God"
+        },
+        {
+          "id": "c",
+          "text": "The King of the Jews"
+        },
+        {
+          "id": "d",
+          "text": "The Great Teacher"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:35",
+            "text": "Again, the next day, John stood with two of his disciples.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 1:36",
+            "text": "And looking at Jesus as He walked, he said, “Behold the Lamb of God!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 1:36 records John's words. Read what he said after \"Behold.\"",
+          "child": "Read the words in quotation marks in John 1:36.",
+          "teen": "In John 1:36, look at the short exclamation John made.",
+          "older": "John 1:36 gives John's exclamation as Jesus walked past; it is a single phrase following \"Behold.\""
+        },
+        "extended_explanation": "In John 1:35-36 John is standing with two disciples when Jesus walks by. Read what he says in verse 36.",
+        "takeaway": "John called Jesus \"the Lamb of God.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0021",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Nathanael asked how Jesus knew him, where did Jesus say He had seen him before Philip called him?",
+        "child": "Nathanael was surprised that Jesus knew him. Where did Jesus say He had seen Nathanael?",
+        "teen": "Jesus amazed Nathanael by saying He had already seen him. Where was Nathanael at the time?",
+        "older": "According to John 1:48, where did Jesus say He saw Nathanael before Philip called him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In the synagogue"
+        },
+        {
+          "id": "b",
+          "text": "By the Jordan River"
+        },
+        {
+          "id": "c",
+          "text": "Under the fig tree"
+        },
+        {
+          "id": "d",
+          "text": "On the road to Bethsaida"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:48",
+            "text": "Nathanael said to Him, “How do You know me?” Jesus answered and said to him, “Before Philip called you, when you were under the fig tree, I saw you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 1:48 gives Jesus' answer to Nathanael. Read the end of the verse.",
+          "child": "Read Jesus' words at the end of John 1:48.",
+          "teen": "Look at the last part of John 1:48 for where Jesus saw Nathanael.",
+          "older": "In John 1:48 Nathanael asks, \"How do You know me?\" Jesus' reply names the place where He saw him."
+        },
+        "extended_explanation": "Nathanael was amazed because Jesus knew where he had been before they met. Read Jesus' reply in John 1:48.",
+        "takeaway": "Jesus said He saw Nathanael under the fig tree before Philip called him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-luk-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 4",
+      "topics": [
+        "temptation-call"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the Nazareth synagogue, Jesus read a passage about One anointed by the Spirit to preach the gospel to the poor. What did He then say about that passage?",
+        "child": "In His hometown synagogue, Jesus read a promise about someone God would send. Then He sat down and spoke. What did He say about it?",
+        "teen": "After Jesus read from the book of the prophet in Nazareth, He sat down with every eye on Him. What did He say about the words He had just read?",
+        "older": "Reading Luke 4:18 and 4:21 together, what did Jesus declare about the Scripture He read in Nazareth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It was written only about King David"
+        },
+        {
+          "id": "b",
+          "text": "It would not come true for ages"
+        },
+        {
+          "id": "c",
+          "text": "It was too hard for them to understand"
+        },
+        {
+          "id": "d",
+          "text": "It was fulfilled that very day"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 4:18",
+            "text": "“The Spirit of the LORD is upon Me, Because He has anointed Me To preach the gospel to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives And recovery of sight to the blind, To set at liberty those who are oppressed;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 4:20",
+            "text": "Then He closed the book, and gave it back to the attendant and sat down. And the eyes of all who were in the synagogue were fixed on Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 4:21",
+            "text": "And He began to say to them, “Today this Scripture is fulfilled in your hearing.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 4:21 gives the first thing Jesus said after reading. Notice the first word of His statement.",
+          "child": "Read Jesus' words in Luke 4:21. Look at when He said it was happening.",
+          "teen": "Luke 4:20 sets the scene, and Luke 4:21 gives Jesus' statement. Pay attention to the timing in it.",
+          "older": "Luke 4:18 is the passage Jesus read; Luke 4:21 is His claim about it. The opening word of that claim is the key."
+        },
+        "extended_explanation": "Jesus read words about the Spirit of the LORD resting on the One He anointed. In Luke 4:21 He told the synagogue how those words related to that moment. Read His sentence again.",
+        "takeaway": "Jesus said, \"Today this Scripture is fulfilled in your hearing.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

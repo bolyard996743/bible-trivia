@@ -1,0 +1,507 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0050",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Israel loved Joseph more than his other sons. What special garment did he make for him?",
+        "child": "Joseph's father loved him very much and made him something to wear. What was it?",
+        "teen": "What did Israel make for Joseph, the son of his old age?",
+        "older": "According to Genesis 37:3, what did Israel make for Joseph?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tunic of many colors"
+        },
+        {
+          "id": "b",
+          "text": "A shepherd's staff"
+        },
+        {
+          "id": "c",
+          "text": "A golden ring and chain"
+        },
+        {
+          "id": "d",
+          "text": "A pair of sandals"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 37:3",
+            "text": "Now Israel loved Joseph more than all his children, because he was the son of his old age. Also he made him a tunic of many colors.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 37:3 ends by telling what Israel made for Joseph.",
+          "child": "Read the last sentence of Genesis 37:3.",
+          "teen": "Look at the end of Genesis 37:3 for the gift Israel made.",
+          "older": "Genesis 37:3 explains why Israel loved Joseph more, then names what he made for him in the final sentence."
+        },
+        "extended_explanation": "Genesis 37:3 shows Israel's special love for Joseph, then describes a gift. Read the verse's last sentence again.",
+        "takeaway": "Israel made Joseph a tunic of many colors."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0051",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Joseph's first dream, what were he and his brothers doing in the field?",
+        "child": "Joseph dreamed about himself and his brothers working in a field. What were they doing?",
+        "teen": "Joseph told his brothers about a dream set in a field. What work were they doing in it?",
+        "older": "According to Genesis 37:7, what were Joseph and his brothers doing in the field in his first dream?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Picking grapes"
+        },
+        {
+          "id": "b",
+          "text": "Binding sheaves"
+        },
+        {
+          "id": "c",
+          "text": "Feeding the flocks"
+        },
+        {
+          "id": "d",
+          "text": "Drawing water"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 37:7",
+            "text": "There we were, binding sheaves in the field. Then behold, my sheaf arose and also stood upright; and indeed your sheaves stood all around and bowed down to my sheaf.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 37:7 begins by describing the scene in the field.",
+          "child": "Read the first sentence of Genesis 37:7.",
+          "teen": "The opening of Genesis 37:7 tells what work they were doing.",
+          "older": "Joseph opens his account in Genesis 37:7 by describing the work in the field before telling what bowed down."
+        },
+        "extended_explanation": "In Genesis 37:7 Joseph describes where they were and what they were doing before anything bowed. Read the first sentence again.",
+        "takeaway": "In Joseph's dream, he and his brothers were binding sheaves in the field."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0052",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 37",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joseph's brothers pulled him out of the pit. To whom did they sell him?",
+        "child": "Joseph's brothers took him out of the pit and sold him. Who bought him?",
+        "teen": "After lifting Joseph out of the pit, his brothers sold him. Who were the buyers?",
+        "older": "According to Genesis 37:28, to whom did Joseph's brothers sell him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Egyptians"
+        },
+        {
+          "id": "b",
+          "text": "The Philistines"
+        },
+        {
+          "id": "c",
+          "text": "The Ishmaelites"
+        },
+        {
+          "id": "d",
+          "text": "The Amalekite raiders"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 37:28",
+            "text": "Then Midianite traders passed by; so the brothers pulled Joseph up and lifted him out of the pit, and sold him to the Ishmaelites for twenty shekels of silver. And they took Joseph to Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 37:28 names the buyers right after it says the brothers lifted Joseph out of the pit.",
+          "child": "Read the middle of Genesis 37:28 and find who Joseph was sold to.",
+          "teen": "In Genesis 37:28, look for the words \"sold him to.\"",
+          "older": "Genesis 37:28 mentions traders passing by, then names the group the brothers sold Joseph to, along with the price."
+        },
+        "extended_explanation": "Genesis 37:28 describes the sale step by step. The buyers are named right after the brothers lift Joseph out.",
+        "takeaway": "Joseph's brothers sold him to the Ishmaelites, who took him to Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0053",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 39",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Potiphar saw that the LORD was with Joseph. What position did he give Joseph?",
+        "child": "Joseph's master saw that God was with Joseph. What job did he give him?",
+        "teen": "Because the LORD made Joseph prosper, what role did his Egyptian master give him?",
+        "older": "According to Genesis 39:3-4, what did Joseph's master make him after seeing the LORD was with him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cook in the kitchen"
+        },
+        {
+          "id": "b",
+          "text": "Keeper of the gate"
+        },
+        {
+          "id": "c",
+          "text": "Teacher of his children"
+        },
+        {
+          "id": "d",
+          "text": "Overseer of his house"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 39:3",
+            "text": "And his master saw that the LORD was with him and that the LORD made all he did to prosper in his hand.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 39:4",
+            "text": "So Joseph found favor in his sight, and served him. Then he made him overseer of his house, and all that he had he put under his authority.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 39:4 tells what Joseph's master made him. Read the second sentence.",
+          "child": "Look at Genesis 39:4. It says what Joseph was put in charge of.",
+          "teen": "Genesis 39:3 gives the reason; Genesis 39:4 gives the job.",
+          "older": "Genesis 39:3 notes the LORD's blessing on Joseph; Genesis 39:4 states the role his master gave him and what he put under his authority."
+        },
+        "extended_explanation": "Joseph's master noticed the LORD's blessing and trusted Joseph with more. Read Genesis 39:4 for the role he gave him.",
+        "takeaway": "Joseph's master made him overseer of his house."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0054",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 39",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While Joseph was in prison, the LORD was with him. In whose sight did the LORD give Joseph favor?",
+        "child": "Even in prison, God was with Joseph. Who did God cause to look kindly on Joseph?",
+        "teen": "The LORD showed Joseph mercy in prison. Whose favor did Joseph gain?",
+        "older": "According to Genesis 39:21, in whose sight did the LORD give Joseph favor while he was in prison?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The keeper of the prison"
+        },
+        {
+          "id": "b",
+          "text": "The king of Egypt"
+        },
+        {
+          "id": "c",
+          "text": "The guards at the city gate"
+        },
+        {
+          "id": "d",
+          "text": "The captain's servants"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 39:21",
+            "text": "But the LORD was with Joseph and showed him mercy, and He gave him favor in the sight of the keeper of the prison.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 39:21 names the person who looked on Joseph with favor. Read the end of the verse.",
+          "child": "Read the last words of Genesis 39:21.",
+          "teen": "The closing words of Genesis 39:21 tell whose favor Joseph received.",
+          "older": "Genesis 39:21 says the LORD was with Joseph and showed him mercy; the final phrase names the one who favored him."
+        },
+        "extended_explanation": "Joseph was a prisoner, yet Genesis 39:21 says the LORD was with him. Read the end of the verse for who favored him.",
+        "takeaway": "The LORD gave Joseph favor in the sight of the keeper of the prison."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0055",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 41",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joseph explained Pharaoh's dreams. After seven years of great plenty, what would come next?",
+        "child": "Joseph told Pharaoh what his dreams meant. After seven good years with lots of food, what would come?",
+        "teen": "According to Joseph's explanation, what would follow Egypt's seven years of plenty?",
+        "older": "According to Genesis 41:29-30, what did Joseph say would follow the seven years of great plenty?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seven years of war"
+        },
+        {
+          "id": "b",
+          "text": "Seven years of famine"
+        },
+        {
+          "id": "c",
+          "text": "Seven years of sickness"
+        },
+        {
+          "id": "d",
+          "text": "Many years of peace"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 41:29",
+            "text": "Indeed seven years of great plenty will come throughout all the land of Egypt;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 41:30",
+            "text": "but after them seven years of famine will arise, and all the plenty will be forgotten in the land of Egypt; and the famine will deplete the land.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 41:30 begins with what would come after the good years.",
+          "child": "Read the beginning of Genesis 41:30.",
+          "teen": "Look at the first line of Genesis 41:30 to see what follows the plenty.",
+          "older": "Genesis 41:29 describes the plentiful years; Genesis 41:30 opens with what would arise after them and how it would affect the land."
+        },
+        "extended_explanation": "Joseph explained that Pharaoh's two dreams showed two time periods. Genesis 41:30 names the second one.",
+        "takeaway": "Joseph said seven years of famine would follow the seven years of plenty."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0056",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 45",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Joseph made himself known to his brothers, what did he do that the Egyptians could hear?",
+        "child": "Joseph finally told his brothers who he was. What did he do so loudly that the Egyptians heard?",
+        "teen": "As Joseph revealed himself to his brothers, what did he do that even Pharaoh's household heard?",
+        "older": "According to Genesis 45:1-2, what did Joseph do that the Egyptians and the house of Pharaoh heard?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He laughed"
+        },
+        {
+          "id": "b",
+          "text": "He blew a trumpet"
+        },
+        {
+          "id": "c",
+          "text": "He wept aloud"
+        },
+        {
+          "id": "d",
+          "text": "He sang a song"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 45:1",
+            "text": "Then Joseph could not restrain himself before all those who stood by him, and he cried out, “Make everyone go out from me!” So no one stood with him while Joseph made himself known to his brothers.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 45:2",
+            "text": "And he wept aloud, and the Egyptians and the house of Pharaoh heard it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 45:2 tells what Joseph did. Read the first words of the verse.",
+          "child": "Read the start of Genesis 45:2.",
+          "teen": "Look at the opening of Genesis 45:2 for what the Egyptians heard.",
+          "older": "Genesis 45:1 describes Joseph sending everyone out; Genesis 45:2 begins with his response."
+        },
+        "extended_explanation": "Joseph could not hold back his feelings in Genesis 45:1. Genesis 45:2 tells what he did that others heard.",
+        "takeaway": "Joseph wept aloud when he made himself known to his brothers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-gen-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 45",
+      "topics": [
+        "joseph"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joseph told his brothers they meant evil against him, but God meant it for good. Putting Genesis 45:7 and 50:20 together, what did Joseph say God's good purpose was?",
+        "child": "Joseph told his brothers that God turned the bad thing they did into good. What good thing was God doing?",
+        "teen": "Joseph said his brothers meant him harm but God meant it for good. What was the good God had in mind?",
+        "older": "Comparing Genesis 45:7 and 50:20, what purpose did Joseph see God working through his being sent to Egypt?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To punish his brothers for what they did"
+        },
+        {
+          "id": "b",
+          "text": "To make Joseph rich and famous"
+        },
+        {
+          "id": "c",
+          "text": "To teach Pharaoh about dreams"
+        },
+        {
+          "id": "d",
+          "text": "To save many people alive"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 45:7",
+            "text": "And God sent me before you to preserve a posterity for you in the earth, and to save your lives by a great deliverance.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 50:20",
+            "text": "But as for you, you meant evil against me; but God meant it for good, in order to bring it about as it is this day, to save many people alive.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Genesis 45:7 and the end of Genesis 50:20. Both describe what God was doing by sending Joseph ahead.",
+          "child": "Read the end of Genesis 50:20. It tells what God was doing.",
+          "teen": "Genesis 45:7 and the last part of Genesis 50:20 say the same thing in different words.",
+          "older": "Joseph's words in Genesis 45:7 and the closing phrase of Genesis 50:20 point to the same purpose behind his years in Egypt."
+        },
+        "extended_explanation": "Joseph was not angry in Genesis 50:20. Compare it with Genesis 45:7, where he also said why God sent him ahead of his family.",
+        "takeaway": "Joseph said God meant it for good, to save many people alive."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

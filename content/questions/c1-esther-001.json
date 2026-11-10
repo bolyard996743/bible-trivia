@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-esther-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-est-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 1",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "King Ahasuerus sent his servants to bring Queen Vashti before his guests. How did Vashti respond to his command?",
+        "child": "The king told his servants to bring Queen Vashti to his party. What did Vashti do?",
+        "teen": "At the end of a long feast, King Ahasuerus summoned Queen Vashti to appear before him. What was her response?",
+        "older": "According to Esther 1:12, how did Queen Vashti answer the king's command brought by his eunuchs?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Refused to come"
+        },
+        {
+          "id": "b",
+          "text": "Came at once with her maids"
+        },
+        {
+          "id": "c",
+          "text": "Asked the king to visit her"
+        },
+        {
+          "id": "d",
+          "text": "Sent a gift in her place"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 1:12",
+            "text": "But Queen Vashti refused to come at the king’s command brought by his eunuchs; therefore the king was furious, and his anger burned within him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Esther 1:12 tells what Vashti did and how the king felt about it. Read the first half of the verse.",
+          "child": "Read the beginning of Esther 1:12. It tells what Vashti did when the message came.",
+          "teen": "Esther 1:12 gives Vashti's response first and the king's anger second. Focus on the first part.",
+          "older": "The opening clause of 1:12 records Vashti's response; the rest describes the king's fury."
+        },
+        "extended_explanation": "The king's feast had lasted many days, and he wanted to show Vashti to his guests. Esther 1:12 records her response and explains why the king became so angry. Read the words right after \"Queen Vashti.\"",
+        "takeaway": "Queen Vashti refused to come at the king's command, and that opened the way for a new queen."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-est-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 2",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Esther was taken to the palace, the king loved her more than all the other young women. What did he set on her head?",
+        "child": "The king chose Esther out of all the young women. What did he put on her head?",
+        "teen": "Esther won the king's favor more than anyone else who was brought to him. What did he place on her head?",
+        "older": "According to Esther 2:17, what did King Ahasuerus set upon Esther's head when he chose her?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A wreath of olive leaves"
+        },
+        {
+          "id": "b",
+          "text": "The royal crown"
+        },
+        {
+          "id": "c",
+          "text": "A veil of fine gold thread"
+        },
+        {
+          "id": "d",
+          "text": "A band of white linen"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 2:17",
+            "text": "The king loved Esther more than all the other women, and she obtained grace and favor in his sight more than all the virgins; so he set the royal crown upon her head and made her queen instead of Vashti.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Esther 2:17 describes what the king placed on Esther's head and what she became. Read the middle of the verse after \"so he set.\"",
+          "child": "Look at Esther 2:17. Find the words that come after \"he set.\"",
+          "teen": "Esther 2:17 says the king loved Esther and then acted on it. Find what he set upon her head.",
+          "older": "The verse moves from the king's affection to his action; the object of \"he set\" is what you need."
+        },
+        "extended_explanation": "Esther was an orphan raised by her cousin Mordecai, yet she found grace in the king's sight. Esther 2:17 tells what he did to make her queen in Vashti's place. Read the clause that begins \"so he set.\"",
+        "takeaway": "The king set the royal crown on Esther's head and made her queen."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-est-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 5",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Esther went to the king without being called, he saw her standing in the court. What did he hold out to her?",
+        "child": "Esther went to see the king even though he had not called for her. When he saw her, what did he hold out?",
+        "teen": "Esther stepped into the inner court uninvited. What did the king hold out toward her to show she was welcome?",
+        "older": "In Esther 5:2, what did the king extend to Esther when he saw her standing in the court?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A silver cup of wine"
+        },
+        {
+          "id": "b",
+          "text": "His sword of judgment"
+        },
+        {
+          "id": "c",
+          "text": "The golden scepter"
+        },
+        {
+          "id": "d",
+          "text": "A scroll with his seal on it"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 5:2",
+            "text": "So it was, when the king saw Queen Esther standing in the court, that she found favor in his sight, and the king held out to Esther the golden scepter that was in his hand. Then Esther went near and touched the top of the scepter.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Esther 5:2 says Esther found favor in the king's sight. Read what he held out in his hand, and what she touched.",
+          "child": "Read Esther 5:2. Look for what was in the king's hand.",
+          "teen": "Esther 5:2 names the object twice: once when the king holds it out and once when Esther touches its top.",
+          "older": "The verse names the object the king extended and then records Esther touching its top."
+        },
+        "extended_explanation": "Going to the king without being called was against the law, but the king could spare someone by holding something out to them. Esther 5:2 shows the king did that for Esther. Read what was in his hand.",
+        "takeaway": "The king held out the golden scepter, and Esther touched its top."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-est-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 3",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The king commanded his servants at the gate to honor Haman. What did Mordecai refuse to do, which filled Haman with anger?",
+        "child": "Everyone at the king's gate was told to honor Haman. What did Mordecai not do that made Haman so angry?",
+        "teen": "Haman was promoted over all the princes, but one man at the gate would not go along. What did Mordecai refuse to do?",
+        "older": "According to Esther 3:2 and 3:5, what would Mordecai not do for Haman, filling Haman with wrath?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stand up when Haman entered"
+        },
+        {
+          "id": "b",
+          "text": "Speak Haman's name with respect"
+        },
+        {
+          "id": "c",
+          "text": "Leave his post in the city"
+        },
+        {
+          "id": "d",
+          "text": "Bow or pay homage"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 3:2",
+            "text": "And all the king’s servants who were within the king’s gate bowed and paid homage to Haman, for so the king had commanded concerning him. But Mordecai would not bow or pay homage.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Esther 3:5",
+            "text": "When Haman saw that Mordecai did not bow or pay him homage, Haman was filled with wrath.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Esther 3:2 contrasts what the king's servants did with what Mordecai would not do. Read the last sentence.",
+          "child": "Read the end of Esther 3:2. It tells what Mordecai would not do.",
+          "teen": "Both verses on the card use the same words for what Mordecai did not do. Compare 3:2 with 3:5.",
+          "older": "The phrase appears in 3:2 and again in 3:5; it describes the honor the king had commanded for Haman."
+        },
+        "extended_explanation": "The king commanded honor for Haman, but Mordecai would not give it. Esther 3:5 says this filled Haman with wrath, and 3:6 shows that his anger grew into a plot against Mordecai's whole people. Read the last line of 3:2.",
+        "takeaway": "Mordecai would not bow or pay homage to Haman."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-est-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 4",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Mordecai urged Esther to speak to the king for her people. What did he wonder she might have come to the kingdom for?",
+        "child": "Mordecai wanted Esther to go to the king and help their people. He said maybe she had become queen for what?",
+        "teen": "Mordecai told Esther that staying silent would not keep her safe. What did he suggest she might have come to the kingdom for?",
+        "older": "In Esther 4:14, what does Mordecai ask whether Esther has come to the kingdom for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Such a time as this"
+        },
+        {
+          "id": "b",
+          "text": "A life of ease in the palace"
+        },
+        {
+          "id": "c",
+          "text": "Riches and the king's favor"
+        },
+        {
+          "id": "d",
+          "text": "A long reign over the provinces"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 4:14",
+            "text": "For if you remain completely silent at this time, relief and deliverance will arise for the Jews from another place, but you and your father’s house will perish. Yet who knows whether you have come to the kingdom for such a time as this?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the question Mordecai asks at the end of Esther 4:14.",
+          "child": "Look at the last sentence of Esther 4:14. It is a question that starts with \"Yet who knows.\"",
+          "teen": "Mordecai's point ends in a question. Read the end of Esther 4:14.",
+          "older": "The closing rhetorical question of 4:14 supplies the phrase after \"come to the kingdom for.\""
+        },
+        "extended_explanation": "Mordecai warned that relief could come from another place, but Esther and her father's house would not escape. Then he asked whether she had been placed in the palace for a purpose. Read the question that closes Esther 4:14.",
+        "takeaway": "Mordecai asked whether Esther had come to the kingdom for such a time as this."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-est-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 4",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Esther asked the Jews in Shushan to fast for her before she went to the king against the law. What did she say about the danger?",
+        "child": "Esther asked her people to go without food for three days. Then she would go to the king, even though it was against the law. What did she say?",
+        "teen": "Esther knew that going in to the king uncalled broke the law. After calling for a fast, what did she say?",
+        "older": "Esther 4:16 closes with Esther's resolve to go in to the king. What words does she use?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will wait until I am called"
+        },
+        {
+          "id": "b",
+          "text": "If I perish, I perish"
+        },
+        {
+          "id": "c",
+          "text": "The king will surely spare me"
+        },
+        {
+          "id": "d",
+          "text": "Let someone else go in my place"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 4:16",
+            "text": "“Go, gather all the Jews who are present in Shushan, and fast for me; neither eat nor drink for three days, night or day. My maids and I will fast likewise. And so I will go to the king, which is against the law; and if I perish, I perish!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Esther 4:16 ends with Esther's own words about the risk. Read the last sentence.",
+          "child": "Read the very end of Esther 4:16 to find what Esther said.",
+          "teen": "Esther's instructions about the fast come first in 4:16. Her decision comes at the end.",
+          "older": "After the fasting instructions and \"which is against the law,\" the verse closes with her resolve."
+        },
+        "extended_explanation": "Esther asked for three days of fasting, and she and her maids would fast too. Then she said she would go to the king even though it broke the law. Read her final words in Esther 4:16.",
+        "takeaway": "Esther said, \"If I perish, I perish!\" and went to the king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-est-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 7",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At her banquet, Esther told the king about Haman's plot against her people. What was Haman hanged on?",
+        "child": "At a special dinner, Esther told the king that Haman had planned to destroy her people. What was Haman hanged on?",
+        "teen": "Esther exposed Haman at the banquet, and the king's anger burned. What was Haman hanged on?",
+        "older": "According to Esther 7:10, on what was Haman hanged after Esther exposed his plot?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tree outside the city of Shushan"
+        },
+        {
+          "id": "b",
+          "text": "A post at the gate of the palace"
+        },
+        {
+          "id": "c",
+          "text": "The gallows that he had prepared"
+        },
+        {
+          "id": "d",
+          "text": "A tower the king built that day"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 7:10",
+            "text": "So they hanged Haman on the gallows that he had prepared for Mordecai. Then the king’s wrath subsided.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Esther 7:10 names what Haman was hanged on and who had made it ready. Read the first sentence.",
+          "child": "Read the first sentence of Esther 7:10. Notice who had made it ready.",
+          "teen": "Esther 7:10 is short. The first sentence tells what was used and who had made it ready.",
+          "older": "The first sentence of 7:10 carries an irony: note who made it ready and for whom."
+        },
+        "extended_explanation": "Haman's plan turned back on him. Esther 7:10 tells what he was hanged on and for whom it had first been made. After that, the king's anger subsided.",
+        "takeaway": "Haman was hanged on the gallows that he had prepared for Mordecai."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-est-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 4",
+      "topics": [
+        "esther"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Haman's decree arrived, there was great mourning among the Jews (4:3). Mordecai later wrote that the days of Purim should be kept each year. According to 9:22, how had that month been turned for them?",
+        "child": "When the Jews first heard about Haman's plan, they wept and mourned. Later, Mordecai wrote that they should celebrate Purim every year. What does Esther 9:22 say the month turned from and to?",
+        "teen": "Compare Esther 4:3, when the decree first arrived, with 9:22, where Mordecai sets up the yearly days of Purim. How was the month turned for the Jews?",
+        "older": "Read Esther 4:3 alongside 9:22. As Purim was set up as a memorial, how does 9:22 describe the change in that month?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "From plenty to hunger"
+        },
+        {
+          "id": "b",
+          "text": "From silence to loud singing"
+        },
+        {
+          "id": "c",
+          "text": "From exile to a homecoming in Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "From sorrow to joy"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 4:3",
+            "text": "And in every province where the king’s command and decree arrived, there was great mourning among the Jews, with fasting, weeping, and wailing; and many lay in sackcloth and ashes.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Esther 9:22",
+            "text": "as the days on which the Jews had rest from their enemies, as the month which was turned from sorrow to joy for them, and from mourning to a holiday; that they should make them days of feasting and joy, of sending presents to one another and gifts to the poor.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Esther 4:3 shows how the Jews felt when the decree came. Esther 9:22 describes how that month was turned. Read the phrase that starts \"as the month which was turned.\"",
+          "child": "Read Esther 9:22. Find the words after \"the month which was turned.\"",
+          "teen": "9:22 gives two pairs describing the change. You need the first pair, right after \"turned.\"",
+          "older": "9:22 uses two parallel phrases for the reversal; the first follows \"which was turned.\""
+        },
+        "extended_explanation": "Purim remembered how the danger in Haman's decree was reversed. The mourning, fasting, and weeping of 4:3 gave way to days of feasting, presents, and gifts to the poor. Read 9:22 to see how Mordecai described the change in that month.",
+        "takeaway": "For the Jews, the month of Purim was turned from sorrow to joy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

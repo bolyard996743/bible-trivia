@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-galatians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gal-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 2",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul wrote that he had been crucified with Christ and that Christ lives in him. By what does he say he now lives?",
+        "child": "Paul says his old life was crucified with Christ, and now Christ lives in him. How does Paul say he lives now?",
+        "teen": "In Galatians 2:20, Paul says it is no longer he who lives, but Christ in him. How does he live the life he now lives?",
+        "older": "According to Galatians 2:20, by what does Paul live the life he now lives?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Faith in the Son of God"
+        },
+        {
+          "id": "b",
+          "text": "The strength of his own will"
+        },
+        {
+          "id": "c",
+          "text": "Keeping every rule of the law"
+        },
+        {
+          "id": "d",
+          "text": "The praise of other believers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 2:20",
+            "text": "I have been crucified with Christ; it is no longer I who live, but Christ lives in me; and the life which I now live in the flesh I live by faith in the Son of God, who loved me and gave Himself for me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 2:20 says how Paul lives the life he now lives. Read the words after \"I live by.\"",
+          "child": "Look near the end of Galatians 2:20 for the words \"I live by.\" Read what comes next.",
+          "teen": "Find \"I live by\" in Galatians 2:20; the answer follows, and it names whom Paul trusts.",
+          "older": "The phrase following \"I live by\" in 2:20 identifies the means; the verse then describes that One as having loved Paul."
+        },
+        "extended_explanation": "Paul describes a life that now belongs to Christ. Galatians 2:20 also says Christ loved him and gave Himself for him. Read the words after \"I live by\" to see how Paul lives.",
+        "takeaway": "Paul lives by faith in the Son of God, who loved him and gave Himself for him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gal-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 5",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which of these is part of the fruit of the Spirit listed in Galatians 5:22?",
+        "child": "Paul lists good things the Holy Spirit grows in a believer's life. Which of these is on his list?",
+        "teen": "Paul names the fruit of the Spirit in Galatians 5:22. Which of these choices is one of them?",
+        "older": "Galatians 5:22 begins Paul's list of the fruit of the Spirit. Which of the following appears in that verse?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Great wealth"
+        },
+        {
+          "id": "b",
+          "text": "Longsuffering"
+        },
+        {
+          "id": "c",
+          "text": "Cleverness"
+        },
+        {
+          "id": "d",
+          "text": "Being well-liked by all"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 5:22",
+            "text": "But the fruit of the Spirit is love, joy, peace, longsuffering, kindness, goodness, faithfulness,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 5:22 lists seven qualities. Compare each choice with the list.",
+          "child": "Read the list in Galatians 5:22 slowly. Only one choice is in it.",
+          "teen": "Check each choice against the list after \"the fruit of the Spirit is.\"",
+          "older": "Match the choices against the seven nouns in 5:22."
+        },
+        "extended_explanation": "Paul contrasts sinful works with the fruit of the Spirit. The fruit is a list of qualities, not possessions or reputation. Read the list in 5:22 and look for the choice that matches.",
+        "takeaway": "Longsuffering is part of the fruit of the Spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gal-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 5",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul's list of the fruit of the Spirit continues into Galatians 5:23. What is the last quality he names?",
+        "child": "Paul's list of the fruit of the Spirit ends in Galatians 5:23. What is the very last one?",
+        "teen": "What is the final item in Paul's list of the fruit of the Spirit?",
+        "older": "According to Galatians 5:23, which quality closes the list of the fruit of the Spirit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Boldness"
+        },
+        {
+          "id": "b",
+          "text": "Ambition"
+        },
+        {
+          "id": "c",
+          "text": "Self-control"
+        },
+        {
+          "id": "d",
+          "text": "Quick thinking"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 5:23",
+            "text": "gentleness, self-control. Against such there is no law.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 5:23 begins with the last two items of the list. Read the second one.",
+          "child": "Read the beginning of Galatians 5:23. The list ends right before the first period.",
+          "teen": "5:23 starts with two qualities, then says \"Against such there is no law.\" You need the one just before that sentence.",
+          "older": "The list finishes in the opening words of 5:23, ahead of the remark about the law."
+        },
+        "extended_explanation": "The fruit of the Spirit begins in 5:22 and finishes in 5:23. Paul then adds that no law stands against such things. Read the opening words of 5:23 for the last quality.",
+        "takeaway": "The last quality in the fruit of the Spirit is self-control."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gal-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 5",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says to walk in the Spirit. What does he say you then will not fulfill?",
+        "child": "Paul tells believers to walk in the Spirit. If they do, what will they not give in to?",
+        "teen": "In Galatians 5:16 Paul gives a command and a result. If you walk in the Spirit, what will you not fulfill?",
+        "older": "According to Galatians 5:16, walking in the Spirit means one will not fulfill what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The hope of glory"
+        },
+        {
+          "id": "b",
+          "text": "The commands of Moses"
+        },
+        {
+          "id": "c",
+          "text": "The promises made to Abraham"
+        },
+        {
+          "id": "d",
+          "text": "The lust of the flesh"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 5:16",
+            "text": "I say then: Walk in the Spirit, and you shall not fulfill the lust of the flesh.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 5:16 has a command and a promise. Read the promise after \"and you shall not fulfill.\"",
+          "child": "Read the end of Galatians 5:16.",
+          "teen": "The result in 5:16 comes after \"you shall not fulfill.\"",
+          "older": "The second clause of 5:16 names what is left unfulfilled; 5:17 explains the conflict behind it."
+        },
+        "extended_explanation": "Paul says the Spirit and our sinful desires pull against each other. Galatians 5:16 shows what happens when a believer walks in the Spirit. Read the last part of the verse.",
+        "takeaway": "Walk in the Spirit, and you shall not fulfill the lust of the flesh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gal-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 6",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells believers to bear one another's burdens. What does he say they fulfill by doing so?",
+        "child": "Paul says to help carry each other's heavy loads. What do believers fulfill when they do that?",
+        "teen": "According to Galatians 6:2, carrying each other's burdens fulfills what?",
+        "older": "In Galatians 6:2, what is fulfilled when believers bear one another's burdens?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The law of Christ"
+        },
+        {
+          "id": "b",
+          "text": "The rules of the elders"
+        },
+        {
+          "id": "c",
+          "text": "The hopes of the church"
+        },
+        {
+          "id": "d",
+          "text": "The words of the prophets"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 6:2",
+            "text": "Bear one another’s burdens, and so fulfill the law of Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 6:2 has a command and then a result. Read the words after \"and so fulfill.\"",
+          "child": "Read the end of Galatians 6:2.",
+          "teen": "Find \"and so fulfill\" in 6:2. The answer comes next.",
+          "older": "The final phrase of 6:2 names what is fulfilled; compare 5:14 on love fulfilling the law."
+        },
+        "extended_explanation": "Helping others carry their burdens is a way of living out what Jesus taught. Galatians 6:2 names what believers fulfill this way. Read the end of the verse.",
+        "takeaway": "Bearing one another's burdens fulfills the law of Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gal-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 6",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells believers not to grow weary while doing good. What does he promise will happen in due season if they do not lose heart?",
+        "child": "Paul says not to get tired of doing good. What will happen at the right time if we don't give up?",
+        "teen": "Galatians 6:9 encourages people who are tired of doing good. What does it promise in due season?",
+        "older": "According to Galatians 6:9, what will happen in due season to those who do not lose heart?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "We shall be praised"
+        },
+        {
+          "id": "b",
+          "text": "We shall reap"
+        },
+        {
+          "id": "c",
+          "text": "We shall rest from work"
+        },
+        {
+          "id": "d",
+          "text": "We shall rule with Him"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 6:9",
+            "text": "And let us not grow weary while doing good, for in due season we shall reap if we do not lose heart.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 6:9 gives a promise after the word \"for.\" Read that part of the verse.",
+          "child": "Look at the second half of Galatians 6:9.",
+          "teen": "The promise in 6:9 comes after \"for in due season.\"",
+          "older": "The second clause of 6:9 continues the harvest image from 6:7-8."
+        },
+        "extended_explanation": "Paul has been using a farming picture of sowing. In 6:9 he encourages believers to keep doing good and gives a promise for those who do not lose heart. Read the words after \"in due season.\"",
+        "takeaway": "In due season we shall reap if we do not lose heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gal-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 5",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul warns about believers who bite and devour one another. What does he say they should beware of?",
+        "child": "Paul warns about people who attack each other with harsh words and actions, like animals biting. What does he say could happen to them?",
+        "teen": "According to Galatians 5:15, what danger comes from biting and devouring each other?",
+        "older": "In Galatians 5:15, what outcome does Paul warn of for those who bite and devour one another?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Praised by their leaders"
+        },
+        {
+          "id": "b",
+          "text": "Made stronger by the conflict"
+        },
+        {
+          "id": "c",
+          "text": "Consumed by one another"
+        },
+        {
+          "id": "d",
+          "text": "Blessed with more freedom"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 5:15",
+            "text": "But if you bite and devour one another, beware lest you be consumed by one another!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 5:15 ends with a warning after \"beware lest you be.\" Read those last words.",
+          "child": "Read the end of Galatians 5:15.",
+          "teen": "The warning in 5:15 follows \"beware lest you be.\"",
+          "older": "The lest-clause at the close of 5:15 states the result of mutual biting and devouring."
+        },
+        "extended_explanation": "Right after saying the whole law is fulfilled in loving your neighbor, Paul warns about the opposite. Galatians 5:15 shows where constant attacks on each other lead. Read the end of the verse.",
+        "takeaway": "Those who bite and devour one another risk being consumed by one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-gal-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 5",
+      "topics": [
+        "fruit-of-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 5:13 says believers are called to liberty but should not use it as a chance to please themselves. What should they do with it instead, which 5:14 ties to the whole law?",
+        "child": "Paul says God has set believers free. But freedom is not for doing whatever you want. What does Paul say to do instead?",
+        "teen": "Freedom isn't a license to please yourself. What does Galatians 5:13 say love should lead believers to do, and how does 5:14 back it up?",
+        "older": "Read Galatians 5:13 with 5:14. How should believers use their liberty, given that the whole law is fulfilled in loving one's neighbor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do whatever seems right"
+        },
+        {
+          "id": "b",
+          "text": "Keep apart from others"
+        },
+        {
+          "id": "c",
+          "text": "Rule over others"
+        },
+        {
+          "id": "d",
+          "text": "Serve one another"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 5:13",
+            "text": "For you, brethren, have been called to liberty; only do not use liberty as an opportunity for the flesh, but through love serve one another.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 5:14",
+            "text": "For all the law is fulfilled in one word, even in this: “You shall love your neighbor as yourself.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 5:13 ends with what believers should do through love. Galatians 5:14 then quotes the command that sums up the law.",
+          "child": "Read the end of Galatians 5:13, after \"through love.\"",
+          "teen": "5:13 gives the right use of freedom in its last phrase; 5:14 shows why that fits the law.",
+          "older": "The final clause of 5:13, after \"through love,\" is the alternative Paul gives; 5:14 grounds it in the command to love one's neighbor."
+        },
+        "extended_explanation": "Paul has argued that believers are free. In 5:13 he guards that freedom from being misused, and in 5:14 he shows that the whole law is fulfilled in one command about loving your neighbor. Read the end of 5:13 to see what love leads believers to do.",
+        "takeaway": "Believers are free, and through love they should serve one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

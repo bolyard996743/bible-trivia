@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0030",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 28",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said all authority in heaven and on earth had been given to Him. What did He then tell His followers to go and do among all the nations?",
+        "child": "After Jesus rose, He told His followers that He had all authority. What did He tell them to go and do in every nation?",
+        "teen": "Jesus begins His final command by speaking of His authority. What does He tell His followers to go and do among all the nations?",
+        "older": "In Matthew 28:19, what does Jesus command His followers to go and do among all the nations?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Make disciples"
+        },
+        {
+          "id": "b",
+          "text": "Build a new temple"
+        },
+        {
+          "id": "c",
+          "text": "Wait for a sign from heaven"
+        },
+        {
+          "id": "d",
+          "text": "Rule over the nations"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 28:18",
+            "text": "And Jesus came and spoke to them, saying, “All authority has been given to Me in heaven and on earth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 28:19",
+            "text": "Go therefore and make disciples of all the nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 28:19 begins with \"Go therefore.\" Read the words that come next.",
+          "child": "Read the start of Matthew 28:19. It tells what Jesus wanted them to do.",
+          "teen": "Matthew 28:18 gives Jesus' authority; 28:19 begins with \"Go therefore\" and then the command.",
+          "older": "The main command in 28:19 follows \"Go therefore\"; baptizing and teaching describe how it is carried out."
+        },
+        "extended_explanation": "Because all authority belongs to Jesus, He sends His followers out. Matthew 28:19 states the command and then says how: baptizing them in the name of the Father and of the Son and of the Holy Spirit. Read the words after \"Go therefore.\"",
+        "takeaway": "Jesus told His followers to go and make disciples of all the nations, baptizing them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-act-0025",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 8",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "An Ethiopian official was riding home in his chariot after worshiping in Jerusalem. What was he reading?",
+        "child": "A man from Ethiopia was going home in his chariot. What was he reading as he rode?",
+        "teen": "On the desert road, Philip came upon an Ethiopian official sitting in his chariot. What was the man reading?",
+        "older": "According to Acts 8:28, what was the Ethiopian eunuch reading as he sat in his chariot?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The law of Moses"
+        },
+        {
+          "id": "b",
+          "text": "Isaiah the prophet"
+        },
+        {
+          "id": "c",
+          "text": "A letter from the queen"
+        },
+        {
+          "id": "d",
+          "text": "The psalms of David"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 8:28",
+            "text": "was returning. And sitting in his chariot, he was reading Isaiah the prophet.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 8:28 describes the man sitting in his chariot. Read the end of the verse to see what he was reading.",
+          "child": "Look at the end of Acts 8:28.",
+          "teen": "Acts 8:28 tells where he was sitting and what he was reading. The reading comes last.",
+          "older": "The final clause of 8:28 names the book by its author."
+        },
+        "extended_explanation": "The Ethiopian had charge of his queen's treasury and had come to Jerusalem to worship. On his way back, he was reading Scripture. Acts 8:28 names what he was reading.",
+        "takeaway": "The Ethiopian was reading Isaiah the prophet in his chariot."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-act-0026",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 8",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Philip and the Ethiopian went down the road, the Ethiopian pointed something out and asked a question. What did he ask?",
+        "child": "Philip told the man from Ethiopia about Jesus as they rode along. Then the man saw something by the road and asked a question. What did he ask?",
+        "teen": "After Philip preached Jesus to him, the Ethiopian spotted something beside the road. What question did he ask?",
+        "older": "In Acts 8:36, what question did the eunuch put to Philip as they went down the road?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who will explain the rest of this scroll to me?"
+        },
+        {
+          "id": "b",
+          "text": "Should I go back to Jerusalem first?"
+        },
+        {
+          "id": "c",
+          "text": "What hinders me from being baptized?"
+        },
+        {
+          "id": "d",
+          "text": "May I travel with you to Gaza?"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 8:36",
+            "text": "Now as they went down the road, they came to some water. And the eunuch said, “See, here is water. What hinders me from being baptized?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 8:36 quotes the eunuch. Read his question at the end of the verse.",
+          "child": "Read what the man said in Acts 8:36. His question comes last.",
+          "teen": "In Acts 8:36 the man says two things: first he points something out, then he asks. Find the question.",
+          "older": "The eunuch's words in 8:36 contain an observation followed by a question; read the question."
+        },
+        "extended_explanation": "Philip had started from the passage the Ethiopian was reading and told him about Jesus. When they reached a certain place on the road, the man spoke up. Read the question in Acts 8:36.",
+        "takeaway": "The Ethiopian asked, \"What hinders me from being baptized?\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-act-0027",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 8",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Ethiopian commanded his chariot to stand still. Where did Philip and the Ethiopian both go next?",
+        "child": "The man told his chariot driver to stop. Where did he and Philip both go?",
+        "teen": "Once the chariot stopped, Philip and the Ethiopian went somewhere together before the baptism. Where did they go?",
+        "older": "According to Acts 8:38, where did Philip and the eunuch both go after the chariot stood still?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Back to the city of Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "Up to the top of a hill"
+        },
+        {
+          "id": "c",
+          "text": "Into a house to rest"
+        },
+        {
+          "id": "d",
+          "text": "Down into the water"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 8:38",
+            "text": "So he commanded the chariot to stand still. And both Philip and the eunuch went down into the water, and he baptized him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 8:38 says where both men went before Philip baptized the Ethiopian. Read the middle of the verse.",
+          "child": "Read Acts 8:38 and find where both Philip and the man went.",
+          "teen": "Acts 8:38 has three steps: the chariot stops, both men go somewhere, and the baptism happens. Find the second step.",
+          "older": "The middle clause of 8:38 begins \"both Philip and the eunuch went\"; read what follows."
+        },
+        "extended_explanation": "Acts 8:38 tells the story in order: the chariot stopped, both men went somewhere together, and Philip baptized him. Read the words after \"went\" in the middle of the verse.",
+        "takeaway": "Philip and the Ethiopian both went down into the water, and Philip baptized him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-act-0028",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 16",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "That same night, the jailer took Paul and Silas and did something for them. Then he and all his family were baptized. What did he do for them first?",
+        "child": "The jailer in Philippi cared for Paul and Silas that night, and then his whole family was baptized. What did he do for Paul and Silas first?",
+        "teen": "Before he and his household were baptized, the jailer did something for Paul and Silas in the same hour of the night. What was it?",
+        "older": "In Acts 16:33, what did the jailer do for Paul and Silas just before he and his family were baptized?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Washed their stripes"
+        },
+        {
+          "id": "b",
+          "text": "Unlocked their chains"
+        },
+        {
+          "id": "c",
+          "text": "Gave them new clothes"
+        },
+        {
+          "id": "d",
+          "text": "Brought them to the city rulers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 16:33",
+            "text": "And he took them the same hour of the night and washed their stripes. And immediately he and all his family were baptized.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 16:33 puts two actions in order. Read the first sentence to see what the jailer did for Paul and Silas.",
+          "child": "Read the first sentence of Acts 16:33.",
+          "teen": "Acts 16:33 has two sentences. The first is about Paul and Silas; the second is about the jailer's family.",
+          "older": "The first clause of 16:33 describes what the jailer did for Paul and Silas in that same hour."
+        },
+        "extended_explanation": "That night the jailer's attitude toward his prisoners changed. In the same hour he cared for Paul and Silas, and then he and all his family were baptized. Read the first sentence of Acts 16:33.",
+        "takeaway": "The jailer washed their stripes, and then he and all his family were baptized."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rom-0009",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 6",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 6:4 says believers were buried with Christ through baptism. Just as Christ was raised from the dead, what should they walk in?",
+        "child": "Paul says that in baptism we were buried with Jesus, and Jesus was raised from the dead. What does Paul say we should walk in now?",
+        "teen": "Paul links baptism with Christ's burial and resurrection. According to Romans 6:4, what are believers to walk in?",
+        "older": "In Romans 6:4, having been buried with Christ through baptism, what are believers to walk in?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fear of the law"
+        },
+        {
+          "id": "b",
+          "text": "Newness of life"
+        },
+        {
+          "id": "c",
+          "text": "Strict rules"
+        },
+        {
+          "id": "d",
+          "text": "The old ways of the world"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 6:4",
+            "text": "Therefore we were buried with Him through baptism into death, that just as Christ was raised from the dead by the glory of the Father, even so we also should walk in newness of life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 6:4 compares Christ being raised with how believers should live. Read the last words of the verse.",
+          "child": "Look at the very end of Romans 6:4.",
+          "teen": "The verse ends with \"even so we also should walk in\" and then the answer.",
+          "older": "The purpose clause closing 6:4 completes the parallel with Christ's resurrection."
+        },
+        "extended_explanation": "Romans 6:3 says those baptized into Christ were baptized into His death. Verse 4 continues the picture: buried with Him, and then a way of living that matches His being raised. Read the end of Romans 6:4.",
+        "takeaway": "Buried with Christ through baptism, believers are to walk in newness of life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gal-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 3",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Galatians 3:27, what have all who were baptized into Christ done?",
+        "child": "Paul says something about everyone who was baptized into Christ. What have they done?",
+        "teen": "In his letter to the Galatians, Paul says something true of everyone baptized into Christ. What have they done?",
+        "older": "In Galatians 3:27, what does Paul say is true of as many as were baptized into Christ?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Left the world behind"
+        },
+        {
+          "id": "b",
+          "text": "Earned God's favor"
+        },
+        {
+          "id": "c",
+          "text": "Put on Christ"
+        },
+        {
+          "id": "d",
+          "text": "Become teachers of the law"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 3:27",
+            "text": "For as many of you as were baptized into Christ have put on Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 3:27 is one sentence. Read what it says those baptized into Christ have done.",
+          "child": "Read the end of Galatians 3:27.",
+          "teen": "The verse closes with a word picture taken from clothing. Read the last words.",
+          "older": "The verse's final clause uses a clothing image; Galatians 3:26 gives the context of faith in Christ Jesus."
+        },
+        "extended_explanation": "Galatians 3:26 says you are all sons of God through faith in Christ Jesus. Verse 27 then describes those who were baptized into Christ with a picture from everyday life. Read the end of the verse.",
+        "takeaway": "As many as were baptized into Christ have put on Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-act-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 8",
+      "topics": [
+        "baptism"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After his baptism, the Ethiopian went on his way (Acts 8:39). After his household's baptism, the jailer brought Paul and Silas into his house (Acts 16:34). What response do both verses share?",
+        "child": "Two men were baptized in Acts: the man from Ethiopia and the jailer. How did both men respond afterward?",
+        "teen": "Acts 8:39 and 16:34 describe two very different men after baptism. What did both of them do?",
+        "older": "Compare Acts 8:39 with 16:34. What common response follows baptism in both accounts?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Returned to Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "Wept and mourned"
+        },
+        {
+          "id": "c",
+          "text": "Left for a new city"
+        },
+        {
+          "id": "d",
+          "text": "Rejoiced"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 8:39",
+            "text": "Now when they came up out of the water, the Spirit of the Lord caught Philip away, so that the eunuch saw him no more; and he went on his way rejoicing.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 16:34",
+            "text": "Now when he had brought them into his house, he set food before them; and he rejoiced, having believed in God with all his household.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Acts 8:39 and the end of 16:34. The same response appears in both, in slightly different forms.",
+          "child": "Look at the last words of Acts 8:39, then look at Acts 16:34. Find the word that is almost the same in both.",
+          "teen": "Find the matching idea in 8:39 (how he went on his way) and 16:34 (what the jailer did after setting food before them).",
+          "older": "8:39 describes how the eunuch continued his journey; 16:34 describes the jailer having believed with his household. Find the shared verb."
+        },
+        "extended_explanation": "One man was a royal official on a desert road; the other was a prison keeper at midnight. Both heard about Jesus, both were baptized, and both responded the same way. Read the end of Acts 8:39 and then Acts 16:34.",
+        "takeaway": "Both the Ethiopian and the jailer rejoiced after they were baptized."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

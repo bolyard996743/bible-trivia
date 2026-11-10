@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2samuel-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2sa-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 1",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When David mourned for Saul and Jonathan, what cry did he repeat in his song of grief?",
+        "child": "David wrote a sad song after Saul and Jonathan died. What words does he say more than once?",
+        "teen": "David's lament for Saul and Jonathan keeps coming back to one cry. What is it?",
+        "older": "In David's lament in 2 Samuel 1:19 and 1:27, what line does he repeat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "How the mighty have fallen"
+        },
+        {
+          "id": "b",
+          "text": "Blessed be the name of the LORD"
+        },
+        {
+          "id": "c",
+          "text": "Sing to the LORD a new song"
+        },
+        {
+          "id": "d",
+          "text": "Let my enemies be ashamed"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 1:19",
+            "text": "“The beauty of Israel is slain on your high places! How the mighty have fallen!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 1:27",
+            "text": "“How the mighty have fallen, And the weapons of war perished!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 2 Samuel 1:19, then compare it with the start of 1:27. The same words appear in both.",
+          "child": "Look at the end of 2 Samuel 1:19. Then look at 1:27. Find the words that show up both times.",
+          "teen": "The repeated cry is in both verses on the card. Match the words that 1:19 and 1:27 share.",
+          "older": "A lament often circles back to a refrain. Find the exclamation that closes 1:19 and opens 1:27."
+        },
+        "extended_explanation": "David's song for Saul and Jonathan is called the Song of the Bow. Its refrain comes at the end of 2 Samuel 1:19 and again at the start of 1:27. Read those lines side by side.",
+        "takeaway": "David's lament repeats, \"How the mighty have fallen!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0009",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 1",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In his lament, David spoke to Jonathan as his brother. How did David describe Jonathan's love to him?",
+        "child": "David and Jonathan were close friends. In David's sad song, what word did he use for Jonathan's love?",
+        "teen": "David's song says Jonathan's love for him was what?",
+        "older": "In 2 Samuel 1:26, what word does David use to describe Jonathan's love to him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forgotten"
+        },
+        {
+          "id": "b",
+          "text": "Hard to understand"
+        },
+        {
+          "id": "c",
+          "text": "Wonderful"
+        },
+        {
+          "id": "d",
+          "text": "Short-lived"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 1:26",
+            "text": "I am distressed for you, my brother Jonathan; You have been very pleasant to me; Your love to me was wonderful, Surpassing the love of women.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 1:26 has several lines about Jonathan. Find the line about his love and read the word right after \"was.\"",
+          "child": "Read the part of 2 Samuel 1:26 that tells what Jonathan's love was like.",
+          "teen": "Find the line in 2 Samuel 1:26 that begins \"Your love to me.\" The next word is the one you need.",
+          "older": "In 1:26 David addresses Jonathan directly; the description follows \"Your love to me was.\""
+        },
+        "extended_explanation": "David grieved for his friend Jonathan as a brother. Read 2 Samuel 1:26 and look at the line that starts \"Your love to me.\"",
+        "takeaway": "David said Jonathan's love to him was wonderful."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 15",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Absalom met people coming to the king for judgment, took their hands, and kissed them. According to 2 Samuel 15:6, what did he steal?",
+        "child": "David's son Absalom greeted people who came to see the king and acted very friendly. What did he steal from them?",
+        "teen": "Absalom kept stepping in front of people who wanted the king to judge their cases. What did he end up stealing?",
+        "older": "What does 2 Samuel 15:6 say Absalom stole by the way he treated those who came for judgment?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The gold from the king's treasury"
+        },
+        {
+          "id": "b",
+          "text": "The hearts of the men of Israel"
+        },
+        {
+          "id": "c",
+          "text": "The king's crown and robe"
+        },
+        {
+          "id": "d",
+          "text": "The swords of the king's guards"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 15:6",
+            "text": "In this manner Absalom acted toward all Israel who came to the king for judgment. So Absalom stole the hearts of the men of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 2 Samuel 15:6. It names what Absalom took, and whose it was.",
+          "child": "Look at the very end of 2 Samuel 15:6 to see what Absalom stole.",
+          "teen": "2 Samuel 15:6 sums up Absalom's plan in one short sentence at the end. Read it.",
+          "older": "The verse closes with a summary of Absalom's strategy; the object of \"stole\" is what you need."
+        },
+        "extended_explanation": "Absalom won people over with flattery and promises instead of serving his father. The end of 2 Samuel 15:6 says what he stole.",
+        "takeaway": "Absalom stole the hearts of the men of Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0011",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 15",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As David fled Jerusalem because of Absalom, he went up a hill weeping, with his head covered and his feet bare. Which hill was it?",
+        "child": "When David had to leave Jerusalem, he walked up a hill crying, without shoes. What was the hill called?",
+        "teen": "David left the city in tears, barefoot, climbing a well-known slope. What was its name?",
+        "older": "According to 2 Samuel 15:30, which ascent did David climb as he left the city weeping?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mount Carmel"
+        },
+        {
+          "id": "b",
+          "text": "Mount Sinai"
+        },
+        {
+          "id": "c",
+          "text": "The mountains of Gilboa"
+        },
+        {
+          "id": "d",
+          "text": "The Mount of Olives"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 15:30",
+            "text": "So David went up by the Ascent of the Mount of Olives, and wept as he went up; and he had his head covered and went barefoot. And all the people who were with him covered their heads and went up, weeping as they went up.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 15:30 names the place in its first sentence. Read the words after \"David went up by.\"",
+          "child": "Read the beginning of 2 Samuel 15:30. It tells which way David went up.",
+          "teen": "The place is named in the opening words of 2 Samuel 15:30, before it describes his weeping.",
+          "older": "The first clause of 15:30 identifies the route by name, as \"the Ascent of\" a particular hill."
+        },
+        "extended_explanation": "David left Jerusalem grieving, with his head covered and his feet bare, and the people wept with him. Read the start of 2 Samuel 15:30 to find the hill.",
+        "takeaway": "David went up by the Ascent of the Mount of Olives, weeping as he went."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 18",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When King David heard the news from the battle, he went up to a room and wept. What did he cry out?",
+        "child": "After the fighting was over, David was so sad he went up and wept. What did he cry out?",
+        "teen": "After the battle, David received painful news and wept. What did he cry out?",
+        "older": "In 2 Samuel 18:33, what words of grief did David cry out as he went up to weep?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The battle is won!"
+        },
+        {
+          "id": "b",
+          "text": "O my son Absalom"
+        },
+        {
+          "id": "c",
+          "text": "O my brother Jonathan"
+        },
+        {
+          "id": "d",
+          "text": "My enemies have fled!"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 18:33",
+            "text": "Then the king was deeply moved, and went up to the chamber over the gate, and wept. And as he went, he said thus: “O my son Absalom—my son, my son Absalom—if only I had died in your place! O Absalom my son, my son!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read David's words in 2 Samuel 18:33. He names the person he is grieving, more than once.",
+          "child": "Read what David said in 2 Samuel 18:33. Notice who he keeps calling for.",
+          "teen": "2 Samuel 18:33 quotes David's grief directly. The same words are repeated several times.",
+          "older": "David's cry in 18:33 is a repeated address to the one he lost; read the quotation."
+        },
+        "extended_explanation": "David's grief shows how much he still loved him, even after the rebellion. Read the words inside the quotation marks in 2 Samuel 18:33.",
+        "takeaway": "David wept and cried, \"O my son Absalom!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 22",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David sang to the LORD after He delivered him from his enemies. What is the first thing David calls the LORD in that song?",
+        "child": "God saved David from his enemies, and David sang a song. What is the first thing he calls the LORD?",
+        "teen": "David's song of rescue opens by giving the LORD a title. What is the first one?",
+        "older": "In 2 Samuel 22:2, what is the first title David gives the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My rock"
+        },
+        {
+          "id": "b",
+          "text": "My king"
+        },
+        {
+          "id": "c",
+          "text": "My shepherd"
+        },
+        {
+          "id": "d",
+          "text": "My banner"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 22:2",
+            "text": "And he said: “The LORD is my rock and my fortress and my deliverer;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 22:2 lists three names for the LORD. Read the first one after \"The LORD is.\"",
+          "child": "Read 2 Samuel 22:2. Look at the first thing David says the LORD is.",
+          "teen": "David gives three titles in 2 Samuel 22:2. You need the first.",
+          "older": "Of the three titles in 22:2, before fortress and deliverer, take the first."
+        },
+        "extended_explanation": "David's song celebrates the LORD as strong and safe to trust. Read 2 Samuel 22:2 and look at the first title after \"The LORD is.\"",
+        "takeaway": "David called the LORD his rock, his fortress, and his deliverer."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 22",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In his song of deliverance, David said that by his God he could leap over something. What was it?",
+        "child": "David sang that with God's help he could jump over something. What was it?",
+        "teen": "David's song says God's strength let him run against a troop and leap over what?",
+        "older": "According to 2 Samuel 22:30, what could David leap over by his God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A river"
+        },
+        {
+          "id": "b",
+          "text": "A deep valley"
+        },
+        {
+          "id": "c",
+          "text": "A city gate"
+        },
+        {
+          "id": "d",
+          "text": "A wall"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 22:30",
+            "text": "For by You I can run against a troop; By my God I can leap over a wall.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 2 Samuel 22:30. It says what David could leap over.",
+          "child": "Look at the end of 2 Samuel 22:30.",
+          "teen": "2 Samuel 22:30 has two lines. The first is about a troop; the second names what he leaps over.",
+          "older": "The verse is a pair of parallel lines; the object of \"leap over\" ends the second line."
+        },
+        "extended_explanation": "David gave God the credit for his strength. Read the last line of 2 Samuel 22:30.",
+        "takeaway": "By his God, David said, he could leap over a wall."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-2sa-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 18",
+      "topics": [
+        "david-friend-fighter"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before the battle, David gave his captains an order about Absalom (18:5). Afterward he asked a runner whether Absalom was safe (18:32). What order helps explain that question?",
+        "child": "Before the battle, David told his army leaders how to treat his son Absalom. Later he kept asking if Absalom was safe. What had David told them?",
+        "teen": "David's first question after the battle was about Absalom's safety, not about the victory. What had he ordered his captains before the battle?",
+        "older": "Read 2 Samuel 18:5 with 18:32. What command of David's explains his concern when the runners arrived?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bring him to me in chains"
+        },
+        {
+          "id": "b",
+          "text": "Drive him out of the land"
+        },
+        {
+          "id": "c",
+          "text": "Deal gently for my sake"
+        },
+        {
+          "id": "d",
+          "text": "Let no one spare the rebel"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 18:5",
+            "text": "Now the king had commanded Joab, Abishai, and Ittai, saying, “Deal gently for my sake with the young man Absalom.” And all the people heard when the king gave all the captains orders concerning Absalom.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 18:32",
+            "text": "And the king said to the Cushite, “Is the young man Absalom safe?” So the Cushite answered, “May the enemies of my lord the king, and all who rise against you to do harm, be like that young man!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 18:5 quotes David's order to Joab, Abishai, and Ittai. Read his words, then see how 18:32 shows the same concern.",
+          "child": "Read what David told his captains in 2 Samuel 18:5. Then notice what he asks in 18:32.",
+          "teen": "The order in 18:5 and the question in 18:32 are both about Absalom. Read the quotation in 18:5.",
+          "older": "David's command in 18:5 sets up his question in 18:32; the opening words of the command answer this."
+        },
+        "extended_explanation": "Even though Absalom had rebelled, David still cared what happened to him. Read David's command in 2 Samuel 18:5, then his question in 18:32.",
+        "takeaway": "David had ordered, \"Deal gently for my sake with the young man Absalom,\" so his first question was whether Absalom was safe."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

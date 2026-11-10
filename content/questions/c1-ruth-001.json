@@ -1,23 +1,455 @@
 {
   "format_version": 1,
   "batch_id": "c1-ruth-001",
-  "author": "Sample (placeholder)",
+  "author": "Content",
   "questions": [
     {
       "id": "c1-rut-0001",
       "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 1",
+      "topics": [
+        "ruth-naomi"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Why did a man from Bethlehem in Judah take his wife and two sons to live in the country of Moab?",
+        "child": "Elimelech moved his family from Bethlehem to Moab. Why did they leave home?",
+        "teen": "What problem in the land led Elimelech's family to move away to Moab?",
+        "older": "According to Ruth 1:1, what happened in the land that led the family to go to Moab?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A war with the Philistines"
+        },
+        {
+          "id": "b",
+          "text": "A flood along the Jordan"
+        },
+        {
+          "id": "c",
+          "text": "A famine in the land"
+        },
+        {
+          "id": "d",
+          "text": "The king sent him away"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 1:1",
+            "text": "Now it came to pass, in the days when the judges ruled, that there was a famine in the land. And a certain man of Bethlehem, Judah, went to dwell in the country of Moab, he and his wife and his two sons.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 1:1 tells what happened in the days when the judges ruled. Read the first sentence.",
+          "child": "Read the first sentence of Ruth 1:1.",
+          "teen": "Ruth 1:1 gives the problem first and then tells where the family went.",
+          "older": "Ruth 1:1 sets the scene with a time, a hardship, and a move; the hardship comes first."
+        },
+        "extended_explanation": "The book of Ruth opens with a hardship that sent a family away from Bethlehem. Read the first sentence of Ruth 1:1.",
+        "takeaway": "There was a famine in the land, so the family went to Moab."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rut-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 1",
+      "topics": [
+        "ruth-naomi"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Naomi urged her two daughters-in-law to go back. Ruth clung to her, but which daughter-in-law kissed her and went back?",
+        "child": "Naomi had two daughters-in-law. Ruth stayed with her. Which one kissed Naomi and went back home?",
+        "teen": "When Naomi told them to return home, one daughter-in-law kissed her goodbye while Ruth held on. Who kissed her goodbye?",
+        "older": "According to Ruth 1:14, who kissed her mother-in-law?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Orpah"
+        },
+        {
+          "id": "b",
+          "text": "Miriam"
+        },
+        {
+          "id": "c",
+          "text": "Hannah"
+        },
+        {
+          "id": "d",
+          "text": "Abigail"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 1:14",
+            "text": "Then they lifted up their voices and wept again; and Orpah kissed her mother-in-law, but Ruth clung to her.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 1:14 names both daughters-in-law. Find the one who kissed Naomi.",
+          "child": "Read Ruth 1:14. Look for the name before \"kissed her mother-in-law.\"",
+          "teen": "Ruth 1:14 contrasts two choices with the word \"but.\" Read the part before it.",
+          "older": "Ruth 1:14 gives both responses side by side; the first name is the one who kissed Naomi and turned back (see 1:15)."
+        },
+        "extended_explanation": "Ruth 1:14 shows two daughters-in-law making different choices. Read the verse again to find the one who kissed Naomi.",
+        "takeaway": "Orpah kissed her mother-in-law and went back, but Ruth clung to Naomi."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rut-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 1",
+      "topics": [
+        "ruth-naomi"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ruth told Naomi that Naomi's people would be her people. What else did Ruth say would be hers?",
+        "child": "Ruth promised to stay with Naomi. She said Naomi's people would be her people. What else?",
+        "teen": "In her famous promise, Ruth said she would take on Naomi's people. What else did she say she would take as her own?",
+        "older": "In Ruth 1:16, besides Naomi's people, what did Ruth claim as her own?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Naomi's house"
+        },
+        {
+          "id": "b",
+          "text": "Naomi's God"
+        },
+        {
+          "id": "c",
+          "text": "Naomi's fortune"
+        },
+        {
+          "id": "d",
+          "text": "Naomi's family name"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 1:16",
+            "text": "But Ruth said: “Entreat me not to leave you, Or to turn back from following after you; For wherever you go, I will go; And wherever you lodge, I will lodge; Your people shall be my people, And your God, my God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 1:16 ends with two promises. Read the last line.",
+          "child": "Read the end of Ruth 1:16.",
+          "teen": "Ruth 1:16 lists where Ruth would go and lodge, then names two things she would make her own.",
+          "older": "Ruth 1:16 builds to its final pair; the last clause is Ruth's confession of faith."
+        },
+        "extended_explanation": "Ruth's promise was about more than where she would live. Read the final line of Ruth 1:16.",
+        "takeaway": "Ruth said, \"Your people shall be my people, and your God, my God.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rut-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 2",
+      "topics": [
+        "ruth-naomi"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Naomi and Ruth arrived in Bethlehem, what did Ruth ask Naomi to let her go to the field and do?",
+        "child": "Ruth and Naomi needed food in Bethlehem. What did Ruth ask to go do in the field?",
+        "teen": "Ruth wanted to provide for Naomi. What did she ask permission to do in the fields?",
+        "older": "According to Ruth 2:2, what did Ruth ask Naomi to let her do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sell her jewelry"
+        },
+        {
+          "id": "b",
+          "text": "Look for a new husband"
+        },
+        {
+          "id": "c",
+          "text": "Draw water from the well"
+        },
+        {
+          "id": "d",
+          "text": "Glean heads of grain"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 2:2",
+            "text": "So Ruth the Moabitess said to Naomi, “Please let me go to the field, and glean heads of grain after him in whose sight I may find favor.” And she said to her, “Go, my daughter.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 2:2 records Ruth's request. Read what she asked to do in the field.",
+          "child": "Read Ruth 2:2. Ruth tells Naomi what she wants to do.",
+          "teen": "In Ruth 2:2, Ruth asks to go to the field. Find what she planned to do there.",
+          "older": "Ruth 2:2 shows Ruth's own initiative. Read what she asked Naomi to let her do in the field."
+        },
+        "extended_explanation": "Ruth looked for a way to feed herself and Naomi. Ruth 2:2 tells what she asked to do. Read it again.",
+        "takeaway": "Ruth asked to go to the field and glean heads of grain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rut-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 2",
+      "topics": [
+        "ruth-naomi"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ruth asked Boaz why he was being kind to her, a foreigner. What had Boaz heard about her?",
+        "child": "Boaz was kind to Ruth. He said he had heard about something she did. What was it?",
+        "teen": "Why did Boaz take notice of Ruth? What had been fully reported to him?",
+        "older": "According to Ruth 2:11, what had been fully reported to Boaz?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "She was a wealthy woman from Moab"
+        },
+        {
+          "id": "b",
+          "text": "All she had done for Naomi"
+        },
+        {
+          "id": "c",
+          "text": "Her family owned the field"
+        },
+        {
+          "id": "d",
+          "text": "She paid him silver"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 2:11",
+            "text": "And Boaz answered and said to her, “It has been fully reported to me, all that you have done for your mother-in-law since the death of your husband, and how you have left your father and your mother and the land of your birth, and have come to a people whom you did not know before.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 2:11 is Boaz's answer to Ruth's question. Read the first part of what he said.",
+          "child": "Read Ruth 2:11. Boaz says what people told him.",
+          "teen": "Ruth 2:11 tells what Boaz had heard, then lists what Ruth left behind.",
+          "older": "Ruth 2:11 explains Boaz's kindness by what was reported about Ruth since her husband's death."
+        },
+        "extended_explanation": "Boaz's kindness came after hearing about Ruth's faithfulness. Read the first half of Ruth 2:11.",
+        "takeaway": "Boaz had heard all Ruth had done for her mother-in-law Naomi."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rut-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 4",
+      "topics": [
+        "ruth-naomi"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The close relative gave up his right to redeem Naomi's land. To confirm it, what did he take off?",
+        "child": "The relative closer than Boaz said Boaz could redeem the land instead. What did he take off to seal the deal?",
+        "teen": "To confirm handing over his right of redemption to Boaz, what did the other relative remove?",
+        "older": "According to Ruth 4:7-8, what did the close relative take off to confirm the exchange?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His cloak"
+        },
+        {
+          "id": "b",
+          "text": "His signet ring"
+        },
+        {
+          "id": "c",
+          "text": "His sandal"
+        },
+        {
+          "id": "d",
+          "text": "His belt"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 4:7",
+            "text": "Now this was the custom in former times in Israel concerning redeeming and exchanging, to confirm anything: one man took off his sandal and gave it to the other, and this was a confirmation in Israel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ruth 4:8",
+            "text": "Therefore the close relative said to Boaz, “Buy it for yourself.” So he took off his sandal.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 4:7 explains the custom, and Ruth 4:8 shows the close relative following it.",
+          "child": "Read the end of Ruth 4:8.",
+          "teen": "Ruth 4:7 describes how people confirmed a deal in Israel. Find what one man gave the other.",
+          "older": "Ruth 4:7 explains an old custom of confirmation, and 4:8 records it being done."
+        },
+        "extended_explanation": "Ruth 4:7 explains an old custom for confirming a redemption. Read Ruth 4:7-8 again to see what the man took off.",
+        "takeaway": "The close relative took off his sandal to confirm that Boaz could redeem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rut-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ruth",
+      "section": "Ruth 4",
+      "topics": [
+        "ruth-naomi"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Boaz married Ruth, and she bore a son. What name did the neighbor women give him?",
+        "child": "Ruth and Boaz had a baby boy. What was his name?",
+        "teen": "After Ruth became Boaz's wife and had a son, what did the neighbor women call him?",
+        "older": "According to Ruth 4:17, what was the son of Ruth and Boaz named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Obed"
+        },
+        {
+          "id": "b",
+          "text": "Samuel"
+        },
+        {
+          "id": "c",
+          "text": "Nathan"
+        },
+        {
+          "id": "d",
+          "text": "Joel"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ruth 4:13",
+            "text": "So Boaz took Ruth and she became his wife; and when he went in to her, the LORD gave her conception, and she bore a son.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ruth 4:17",
+            "text": "Also the neighbor women gave him a name, saying, “There is a son born to Naomi.” And they called his name Obed. He is the father of Jesse, the father of David.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ruth 4:13 tells of the marriage and the son. Ruth 4:17 gives his name.",
+          "child": "Read Ruth 4:17. Look for \"they called his name.\"",
+          "teen": "Ruth 4:17 says the neighbor women named the baby. Find the name.",
+          "older": "Ruth 4:17 records the naming and then traces the family line forward."
+        },
+        "extended_explanation": "Ruth 4:13 tells of the birth, and Ruth 4:17 tells what the neighbor women named the child. Read it again.",
+        "takeaway": "Ruth and Boaz's son was named Obed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-rut-0001",
+      "cycle": 2,
       "tier": "advanced",
       "testament": "OT",
       "book": "Ruth",
       "section": "Ruth 4",
       "topics": [
-        "ot-overview"
+        "ruth-naomi"
       ],
       "placement_eligible": false,
       "type": "multiple_choice",
       "prompt": {
-        "adult": "Obed, the son born to Ruth and Boaz, was the grandfather of which king?",
-        "older": "Looking at the family line in Ruth, Obed became the grandfather of which king?"
+        "adult": "The son born to Ruth and Boaz became the grandfather of someone famous. Who?",
+        "child": "Ruth's baby grew up and had a son, and that son had a famous son. Who was the famous grandson?",
+        "teen": "The book of Ruth ends by connecting this family to a well-known person in Israel. Who is it?",
+        "older": "According to Ruth 4:17, who was Jesse the father of?"
       },
       "choices": [
         {
@@ -26,36 +458,38 @@
         },
         {
           "id": "b",
-          "text": "David"
+          "text": "Samuel"
         },
         {
           "id": "c",
-          "text": "Josiah"
+          "text": "Solomon"
         },
         {
           "id": "d",
-          "text": "Hezekiah"
+          "text": "David"
         }
       ],
-      "answer": "b",
+      "answer": "d",
       "teaching": {
         "verses": [
           {
             "ref": "Ruth 4:17",
-            "text": "Also the neighbor women gave him a name, saying, \"There is a son born to Naomi.\" And they called his name Obed. He is the father of Jesse, the father of David.",
+            "text": "Also the neighbor women gave him a name, saying, “There is a son born to Naomi.” And they called his name Obed. He is the father of Jesse, the father of David.",
             "translation": "NKJV"
           }
         ],
         "explanation": {
-          "adult": "Ruth 4:17 names three generations. Obed is the father of Jesse, and the verse ends with the king after Jesse. Choose that king.",
-          "older": "The book closes by tying a quiet family story to a royal line. Follow Obed to Jesse, then to the king named at the end of Ruth 4:17."
+          "adult": "Ruth 4:17 ends by tracing the family two generations ahead. Read the last sentence.",
+          "child": "Read the last sentence of Ruth 4:17. Follow the family line.",
+          "teen": "Ruth 4:17 names the baby's son and then the baby's grandson. Find the grandson.",
+          "older": "Ruth 4:17 (and the genealogy in 4:18-22) ties this family to a later figure in Israel's history; the last name in 4:17 is the answer."
         },
-        "extended_explanation": "Ruth's loyalty sits inside a larger story. Obed is not linked here to Saul, Josiah, or Hezekiah. Ruth 4:17 ends with the king who comes after Jesse. Choose that name.",
-        "takeaway": "Obed was the grandfather of King David."
+        "extended_explanation": "Ruth's faithfulness became part of a much bigger story. Read the last sentence of Ruth 4:17 and follow the line to the end.",
+        "takeaway": "Ruth's son became the father of Jesse, the father of David."
       },
       "review": {
         "status": "draft",
-        "notes": "Placeholder sample for the playable demo. Not reviewed for release."
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
       },
       "stage": "Rooted"
     }

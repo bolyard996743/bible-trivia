@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-judges-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jdg-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 4",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deborah was judging Israel in the days of Jabin. Besides a judge, what does the Bible call her?",
+        "child": "Deborah led Israel as a judge. What else does the Bible say she was?",
+        "teen": "What role does Judges 4 give Deborah, along with judging Israel at that time?",
+        "older": "According to Judges 4:4, what was Deborah besides one who judged Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A queen"
+        },
+        {
+          "id": "b",
+          "text": "A shepherdess"
+        },
+        {
+          "id": "c",
+          "text": "A prophetess"
+        },
+        {
+          "id": "d",
+          "text": "A merchant's daughter"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 4:4",
+            "text": "Now Deborah, a prophetess, the wife of Lapidoth, was judging Israel at that time.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 4:4 describes Deborah right after her name.",
+          "child": "Read Judges 4:4. Look at the words right after \"Deborah.\"",
+          "teen": "Judges 4:4 gives her name, a title, and her husband's name. Find the title.",
+          "older": "Judges 4:4 introduces Deborah with a title and a family note before saying she was judging Israel."
+        },
+        "extended_explanation": "Judges 4:4 introduces Deborah with a title before it says she was judging Israel. Read the verse again.",
+        "takeaway": "Deborah was a prophetess who judged Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 4",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Where would Deborah sit when the children of Israel came to her for judgment?",
+        "child": "People in Israel came to Deborah to settle their problems. Where did she sit?",
+        "teen": "When Israelites needed Deborah to judge a matter, where did they find her?",
+        "older": "According to Judges 4:5, where would Deborah sit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Under the palm tree"
+        },
+        {
+          "id": "b",
+          "text": "By the city gate"
+        },
+        {
+          "id": "c",
+          "text": "Beside a well"
+        },
+        {
+          "id": "d",
+          "text": "Beside the River Jordan"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 4:5",
+            "text": "And she would sit under the palm tree of Deborah between Ramah and Bethel in the mountains of Ephraim. And the children of Israel came up to her for judgment.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 4:5 begins by telling where she would sit.",
+          "child": "Read the first sentence of Judges 4:5.",
+          "teen": "Judges 4:5 names a tree that even carried her name.",
+          "older": "Judges 4:5 gives her seat and its location between Ramah and Bethel."
+        },
+        "extended_explanation": "Deborah had a known place where people came to her. Judges 4:5 names it. Read the first part of the verse.",
+        "takeaway": "Deborah sat under the palm tree of Deborah to judge Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 4",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jabin king of Canaan harshly oppressed Israel for twenty years. How many chariots of iron did he have?",
+        "child": "King Jabin made life hard for Israel. How many iron chariots did he have?",
+        "teen": "Israel cried out to the LORD because of King Jabin's army. How many chariots of iron did Jabin own?",
+        "older": "According to Judges 4:3, how many chariots of iron did Jabin have?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forty"
+        },
+        {
+          "id": "b",
+          "text": "Two thousand"
+        },
+        {
+          "id": "c",
+          "text": "Fifteen hundred"
+        },
+        {
+          "id": "d",
+          "text": "Nine hundred"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 4:3",
+            "text": "And the children of Israel cried out to the LORD; for Jabin had nine hundred chariots of iron, and for twenty years he had harshly oppressed the children of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 4:3 gives the reason Israel cried out. Read the number before \"chariots of iron.\"",
+          "child": "Read Judges 4:3. The number of chariots is in the middle.",
+          "teen": "Judges 4:3 tells why Israel cried out to the LORD. Find how many chariots there were.",
+          "older": "Judges 4:3 gives two reasons for Israel's cry: the size of Jabin's chariot force and the length of the oppression."
+        },
+        "extended_explanation": "Israel was facing a powerful army. Judges 4:3 says how many iron chariots Jabin had. Read the verse again.",
+        "takeaway": "Jabin had nine hundred chariots of iron."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0011",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 4",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Barak said he would not go to battle unless Deborah went with him. Because of this, into whose hand did Deborah say the LORD would sell Sisera?",
+        "child": "Barak would only go if Deborah went too. So Deborah said Sisera would be given to someone else. Who?",
+        "teen": "Since Barak insisted that Deborah come along, she said the glory would not be his. Into whose hand would the LORD sell Sisera?",
+        "older": "Per Judges 4:8-9, what was the result of Barak's condition? Into whose hand would the LORD sell Sisera?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A king of Israel"
+        },
+        {
+          "id": "b",
+          "text": "A woman"
+        },
+        {
+          "id": "c",
+          "text": "A young shepherd"
+        },
+        {
+          "id": "d",
+          "text": "A priest of the LORD"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 4:8",
+            "text": "And Barak said to her, “If you will go with me, then I will go; but if you will not go with me, I will not go!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 4:9",
+            "text": "So she said, “I will surely go with you; nevertheless there will be no glory for you in the journey you are taking, for the LORD will sell Sisera into the hand of a woman.” Then Deborah arose and went with Barak to Kedesh.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 4:8 gives Barak's condition, and Judges 4:9 tells what Deborah said would happen because of it.",
+          "child": "Read the end of Deborah's words in Judges 4:9.",
+          "teen": "Judges 4:9 says there would be no glory for Barak. Read the reason that follows.",
+          "older": "Deborah agrees in Judges 4:9 but adds a consequence; the last words of her speech name who would receive Sisera."
+        },
+        "extended_explanation": "Deborah agreed to go, but she said the honor would go to someone other than Barak. Read the end of her words in Judges 4:9.",
+        "takeaway": "Deborah said the LORD would sell Sisera into the hand of a woman."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0012",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 5",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the end of their song, Deborah and Barak prayed that those who love the LORD would be like what?",
+        "child": "Deborah and Barak sang a song after the battle. They said people who love God should be like something bright. What was it?",
+        "teen": "The song of Deborah and Barak ends by comparing those who love the LORD to something. What?",
+        "older": "In Judges 5:31, those who love the LORD are compared to what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The moon at night"
+        },
+        {
+          "id": "b",
+          "text": "A mighty river"
+        },
+        {
+          "id": "c",
+          "text": "A cedar tree"
+        },
+        {
+          "id": "d",
+          "text": "The sun"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 5:31",
+            "text": "“Thus let all Your enemies perish, O LORD! But let those who love Him be like the sun When it comes out in full strength.” So the land had rest for forty years.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 5:31 ends the song with a comparison. Read the words after \"be like.\"",
+          "child": "Read the second sentence of Judges 5:31.",
+          "teen": "Judges 5:31 contrasts the LORD's enemies with those who love Him. Find what the second group is compared to.",
+          "older": "The closing couplet of the song in Judges 5:31 uses an image of something rising in full strength."
+        },
+        "extended_explanation": "The song closes with a picture of the people who love the LORD. Judges 5:31 names it. Read the verse again.",
+        "takeaway": "The song prays that those who love the LORD will be like the sun rising in full strength."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 4",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD routed Sisera's chariots and army before Barak, what did Sisera himself do?",
+        "child": "God made Sisera's army fall apart in front of Barak. What did Sisera do then?",
+        "teen": "As his army was routed, how did Sisera, the enemy commander, try to escape?",
+        "older": "According to Judges 4:15, what did Sisera do when the LORD routed his army?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Surrendered to Barak"
+        },
+        {
+          "id": "b",
+          "text": "Hid in his chariot"
+        },
+        {
+          "id": "c",
+          "text": "Fled away on foot"
+        },
+        {
+          "id": "d",
+          "text": "Rode back to King Jabin"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 4:15",
+            "text": "And the LORD routed Sisera and all his chariots and all his army with the edge of the sword before Barak; and Sisera alighted from his chariot and fled away on foot.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 4:15 tells what Sisera did after he got down from his chariot.",
+          "child": "Read the end of Judges 4:15.",
+          "teen": "Judges 4:15 says Sisera alighted from his chariot. Read what he did next.",
+          "older": "Judges 4:15 records the rout and then Sisera's own response; the last clause gives it."
+        },
+        "extended_explanation": "The LORD gave Barak the victory, and Sisera left his chariot behind. Read the end of Judges 4:15 again.",
+        "takeaway": "Sisera got down from his chariot and fled away on foot."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 4",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the battle, Sisera went to the tent of a family that was at peace with his king. Whose tent was it?",
+        "child": "After the battle, Sisera went to someone's tent to hide. Whose tent was it?",
+        "teen": "Sisera thought he would be safe because Heber's house had peace with Jabin. To whose tent did he go?",
+        "older": "According to Judges 4:17, to whose tent did Sisera go?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jael"
+        },
+        {
+          "id": "b",
+          "text": "Hannah"
+        },
+        {
+          "id": "c",
+          "text": "Miriam"
+        },
+        {
+          "id": "d",
+          "text": "Abigail"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 4:17",
+            "text": "However, Sisera had fled away on foot to the tent of Jael, the wife of Heber the Kenite; for there was peace between Jabin king of Hazor and the house of Heber the Kenite.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 4:17 names the owner of the tent and says whose wife she was.",
+          "child": "Read Judges 4:17. Look for the name before \"the wife of Heber.\"",
+          "teen": "Judges 4:17 explains why Sisera felt safe there and names the owner of the tent.",
+          "older": "Judges 4:17 names her, gives her husband Heber the Kenite, and explains the peace between Heber's house and Jabin."
+        },
+        "extended_explanation": "Sisera went to a tent where he expected to be safe. Judges 4:17 names the one who lived there. Read it again.",
+        "takeaway": "Sisera went to the tent of Jael, the wife of Heber the Kenite, and the LORD gave Israel the victory."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-jdg-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 4",
+      "topics": [
+        "deborah-barak"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Chapter 4 says Sisera gathered his chariots for battle. According to the song in chapter 5, what swept his forces away?",
+        "child": "Sisera brought all his chariots to fight Israel. In their song, Deborah and Barak tell what washed his army away. What was it?",
+        "teen": "The story in Judges 4 and the song in Judges 5 describe the same battle. What does the song say swept the enemy away?",
+        "older": "Comparing Judges 4:13 with Judges 5:21, what swept Sisera's forces away?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A great earthquake in the hills"
+        },
+        {
+          "id": "b",
+          "text": "The torrent of Kishon"
+        },
+        {
+          "id": "c",
+          "text": "A wind from the desert"
+        },
+        {
+          "id": "d",
+          "text": "Fire from heaven"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 4:13",
+            "text": "So Sisera gathered together all his chariots, nine hundred chariots of iron, and all the people who were with him, from Harosheth Hagoyim to the River Kishon.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 5:21",
+            "text": "The torrent of Kishon swept them away, That ancient torrent, the torrent of Kishon. O my soul, march on in strength!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 4:13 says where Sisera brought his chariots. Judges 5:21 names the same place in the song.",
+          "child": "Read Judges 4:13 and look at where Sisera gathered his army. Then read Judges 5:21.",
+          "teen": "The place where Sisera gathered his chariots in 4:13 shows up again in 5:21. Match them up.",
+          "older": "The prose account (4:13) names Sisera's staging ground; the poem (5:21) shows that same place turning against him."
+        },
+        "extended_explanation": "The song in chapter 5 retells the battle from chapter 4 with poetic details. Look for the place named in both Judges 4:13 and 5:21.",
+        "takeaway": "The torrent of Kishon, the very place where Sisera gathered his chariots, swept his forces away."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

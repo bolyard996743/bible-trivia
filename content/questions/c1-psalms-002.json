@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-psa-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 13",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 13 opens with a question the writer keeps asking God. What is it?",
+        "child": "The writer of Psalm 13 felt like God had forgotten him. What question does he begin with?",
+        "teen": "Psalm 13 starts with a raw, honest question to God. Which one?",
+        "older": "What question opens Psalm 13:1 and repeats through the next verse?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Why have You forsaken me?"
+        },
+        {
+          "id": "b",
+          "text": "Who is like You, O LORD?"
+        },
+        {
+          "id": "c",
+          "text": "Where can I go, O LORD?"
+        },
+        {
+          "id": "d",
+          "text": "How long, O LORD?"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 13:1",
+            "text": "How long, O LORD? Will You forget me forever? How long will You hide Your face from me?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of Psalm 13:1.",
+          "child": "Look at the very beginning of Psalm 13:1.",
+          "teen": "The question appears twice in Psalm 13:1. Find the words that start it.",
+          "older": "The lament's refrain is the opening question of 13:1, echoed at the start of each following clause."
+        },
+        "extended_explanation": "Psalm 13 shows that it is right to bring honest questions to God. Read the opening words of Psalm 13:1.",
+        "takeaway": "Psalm 13 opens, \"How long, O LORD?\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-psa-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 27",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 27 begins by calling the LORD \"my salvation.\" What else does it call Him in the same line?",
+        "child": "Psalm 27 begins with two things the LORD is to the writer. One is \"my salvation.\" What is the other?",
+        "teen": "The opening line of Psalm 27 gives the LORD two titles. Besides \"my salvation,\" what is the other?",
+        "older": "In Psalm 27:1, what does the psalmist call the LORD alongside \"my salvation\"?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My shepherd"
+        },
+        {
+          "id": "b",
+          "text": "My light"
+        },
+        {
+          "id": "c",
+          "text": "My king"
+        },
+        {
+          "id": "d",
+          "text": "My shield"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 27:1",
+            "text": "The LORD is my light and my salvation; Whom shall I fear? The LORD is the strength of my life; Of whom shall I be afraid?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Psalm 27:1, before \"and my salvation.\"",
+          "child": "Look at the very first words of Psalm 27:1 after \"The LORD is.\"",
+          "teen": "Psalm 27:1 starts, \"The LORD is my ...\" Read the next word.",
+          "older": "The first title in 27:1 is paired with salvation; read the words right after \"The LORD is.\""
+        },
+        "extended_explanation": "Because of who the LORD is, the writer asks, \"Whom shall I fear?\" Read the opening of Psalm 27:1.",
+        "takeaway": "Psalm 27:1 says, \"The LORD is my light and my salvation.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-psa-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 42",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 42 compares a soul longing for God to an animal panting for water. Which animal?",
+        "child": "Psalm 42 says the writer wanted God the way a thirsty animal wants water. What animal?",
+        "teen": "The opening picture of Psalm 42 is a thirsty animal at the streams. What is it?",
+        "older": "In Psalm 42:1, what animal pants for the water brooks?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The deer"
+        },
+        {
+          "id": "b",
+          "text": "The camel"
+        },
+        {
+          "id": "c",
+          "text": "The sheep"
+        },
+        {
+          "id": "d",
+          "text": "The eagle"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 42:1",
+            "text": "As the deer pants for the water brooks, So pants my soul for You, O God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Psalm 42:1, after \"As.\"",
+          "child": "Look at the first words of Psalm 42:1.",
+          "teen": "Psalm 42:1 is a comparison. The animal is named in the first line.",
+          "older": "The simile in 42:1 names the animal before it names the water brooks."
+        },
+        "extended_explanation": "The writer felt thirsty for God the way an animal is thirsty for water. Read the first line of Psalm 42:1.",
+        "takeaway": "As the deer pants for the water brooks, so the soul longs for God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-psa-0012",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 27",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How does Psalm 27 end? What does it tell the reader to do, and then repeat?",
+        "child": "At the very end of Psalm 27, the writer gives advice twice. What does he say to do?",
+        "teen": "The last verse of Psalm 27 gives one instruction at the start and again at the end. What is it?",
+        "older": "What instruction opens and closes Psalm 27:14?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wait on the LORD"
+        },
+        {
+          "id": "b",
+          "text": "Run from trouble"
+        },
+        {
+          "id": "c",
+          "text": "Fight the enemy"
+        },
+        {
+          "id": "d",
+          "text": "Sing a new song to Him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 27:14",
+            "text": "Wait on the LORD; Be of good courage, And He shall strengthen your heart; Wait, I say, on the LORD!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 27:14 begins and ends with the same command. Read its first words.",
+          "child": "Read the first words of Psalm 27:14. They come back at the end too.",
+          "teen": "Look for the words that appear at both the start and the end of Psalm 27:14.",
+          "older": "27:14 frames its encouragement with the same imperative; read the opening clause."
+        },
+        "extended_explanation": "The psalm ends with encouragement for anyone who is struggling: be of good courage. Read the start and end of Psalm 27:14.",
+        "takeaway": "Psalm 27 ends, \"Wait on the LORD; be of good courage.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-psa-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 34",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 34 says the LORD is near to people who have what?",
+        "child": "Psalm 34 says the LORD stays close to people who are hurting deep inside. What do they have?",
+        "teen": "According to Psalm 34, the LORD draws near to people with what?",
+        "older": "In Psalm 34:18, the LORD is near to those who have what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Great riches"
+        },
+        {
+          "id": "b",
+          "text": "A strong army"
+        },
+        {
+          "id": "c",
+          "text": "A broken heart"
+        },
+        {
+          "id": "d",
+          "text": "A perfect record"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 34:18",
+            "text": "The LORD is near to those who have a broken heart, And saves such as have a contrite spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Psalm 34:18.",
+          "child": "Look at the beginning of Psalm 34:18. It tells who the LORD is near to.",
+          "teen": "Psalm 34:18 has two lines that say nearly the same thing. Read the first one.",
+          "older": "The two lines of 34:18 are parallel; the first ends with what those people have."
+        },
+        "extended_explanation": "God does not stay far from people who are hurting. Read the first line of Psalm 34:18.",
+        "takeaway": "The LORD is near to those who have a broken heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-psa-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 56",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 56 says God keeps track of the writer's wanderings. Where does it ask God to put his tears?",
+        "child": "The writer of Psalm 56 cried a lot. He asked God to keep his tears somewhere. Where?",
+        "teen": "Psalm 56 shows God cares about every tear. Where does the writer ask God to keep them?",
+        "older": "In Psalm 56:8, where does the psalmist ask God to put his tears?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sea"
+        },
+        {
+          "id": "b",
+          "text": "Your bottle"
+        },
+        {
+          "id": "c",
+          "text": "Your treasury"
+        },
+        {
+          "id": "d",
+          "text": "Your river"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 56:8",
+            "text": "You number my wanderings; Put my tears into Your bottle; Are they not in Your book?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle line of Psalm 56:8.",
+          "child": "Look at the second part of Psalm 56:8.",
+          "teen": "Psalm 56:8 has three short lines. The second one says where the tears go.",
+          "older": "The middle clause of 56:8 is the request; the last clause asks whether they are recorded too."
+        },
+        "extended_explanation": "Psalm 56:8 pictures God noticing and keeping every tear. Read the request in the middle of the verse.",
+        "takeaway": "The psalmist asked God, \"Put my tears into Your bottle.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-psa-0015",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 62",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 62 tells people to trust God at all times. At the end of that verse, what does it say God is for us?",
+        "child": "Psalm 62 says to trust God all the time and tell Him everything. What does it say God is for us?",
+        "teen": "Psalm 62:8 says to trust God and open up to Him, then says what God is for us. What is He?",
+        "older": "In Psalm 62:8, what does the psalmist say God is for us?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A distant judge"
+        },
+        {
+          "id": "b",
+          "text": "A hard master"
+        },
+        {
+          "id": "c",
+          "text": "A stranger"
+        },
+        {
+          "id": "d",
+          "text": "A refuge"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 62:8",
+            "text": "Trust in Him at all times, you people; Pour out your heart before Him; God is a refuge for us. Selah",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last part of Psalm 62:8, after \"God is.\"",
+          "child": "Look at the end of Psalm 62:8.",
+          "teen": "Psalm 62:8 ends with a short statement about God. Read it.",
+          "older": "The verse moves from command (trust, pour out) to reason; the reason closes the verse."
+        },
+        "extended_explanation": "Psalm 62:8 invites people to tell God everything because of who He is. Read the end of the verse.",
+        "takeaway": "Psalm 62:8 says, \"God is a refuge for us.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-psa-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 42",
+      "topics": [
+        "psalms-hard-days"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalms 42 and 43 repeat the same line three times as the writer asks why his soul is cast down. What does he tell his own soul to do?",
+        "child": "In Psalms 42 and 43, the writer feels low and talks to himself three times with the same words. What does he tell his soul to do?",
+        "teen": "A refrain ties Psalms 42 and 43 together. When the writer feels down, what does he keep telling his soul?",
+        "older": "What command in the refrain of Psalm 42:5, 42:11, and 43:5 links the two psalms together?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forget the past"
+        },
+        {
+          "id": "b",
+          "text": "Rest and sleep"
+        },
+        {
+          "id": "c",
+          "text": "Hope in God"
+        },
+        {
+          "id": "d",
+          "text": "Try harder alone"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 42:5",
+            "text": "Why are you cast down, O my soul? And why are you disquieted within me? Hope in God, for I shall yet praise Him For the help of His countenance.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 42:11",
+            "text": "Why are you cast down, O my soul? And why are you disquieted within me? Hope in God; For I shall yet praise Him, The help of my countenance and my God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 43:5",
+            "text": "Why are you cast down, O my soul? And why are you disquieted within me? Hope in God; For I shall yet praise Him, The help of my countenance and my God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 42:5, 42:11, and 43:5. After the two questions to his soul, the same command follows each time.",
+          "child": "Look at what comes right after the two questions in each of the three verses.",
+          "teen": "Each verse has two questions and then the same answer. Read the words after the questions.",
+          "older": "The refrain pairs self-questioning with a command; it is identical in all three verses."
+        },
+        "extended_explanation": "The repeated refrain suggests Psalms 42 and 43 belong together. Each time the writer feels cast down, he answers himself the same way. Read what follows the questions in each verse.",
+        "takeaway": "The refrain of Psalms 42 and 43 says, \"Hope in God; for I shall yet praise Him.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

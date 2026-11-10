@@ -110,6 +110,50 @@ describe("sample content", () => {
       "Books of the Bible",
     );
 
+    const rooted = pathFile.stages.find((stage) => stage.stage === "Rooted");
+    const rootedBadges = rooted?.badges ?? [];
+    const rootedIds = rootedBadges.flatMap((badge) => badge.questionIds);
+    const oldJosephIds = [
+      "c1-gen-0003",
+      "c1-gen-0004",
+      "c1-gen-0005",
+      "c1-gen-0007",
+      "c1-gen-0008",
+      "c1-gen-0009",
+      "c1-gen-0012",
+      "c1-gen-0017",
+      "c1-gen-0019",
+    ];
+    expect(rootedBadges).toHaveLength(25);
+    expect(rootedBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(rootedIds).toHaveLength(200);
+    expect(new Set(rootedIds).size).toBe(200);
+    expect(rootedBadges.find((badge) => badge.id === "rooted-eden")?.questionIds).toEqual([
+      "c1-gen-0036",
+      "c1-gen-0037",
+      "c1-gen-0038",
+      "c1-gen-0039",
+      "c1-gen-0040",
+      "c1-gen-0041",
+      "c1-gen-0042",
+      "c2-gen-0001",
+    ]);
+    expect(rootedBadges.find((badge) => badge.id === "rooted-joseph")?.questionIds).toEqual([
+      "c1-gen-0050",
+      "c1-gen-0051",
+      "c1-gen-0052",
+      "c1-gen-0053",
+      "c1-gen-0054",
+      "c1-gen-0055",
+      "c1-gen-0056",
+      "c2-gen-0003",
+    ]);
+    expect(rootedIds.some((id) => oldJosephIds.includes(id))).toBe(false);
+    const baptism = rootedBadges.find((badge) => badge.id === "rooted-baptism")?.questionIds ?? [];
+    expect(baptism).toContain("c2-act-0002");
+    expect(baptism).not.toContain("c2-act-0001");
+    expect(rootedBadges.find((badge) => badge.id === "rooted-i-am")?.questionIds).toContain("c2-jhn-0001");
+
     const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
     const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
     for (const mascot of mascots) {

@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rom-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 5",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 5:1 says believers have been justified by faith. What does it say they now have through Jesus Christ?",
+        "child": "Paul says people made right with God by faith now have something through Jesus. What is it?",
+        "teen": "Having been justified by faith, what do believers have through our Lord Jesus Christ, according to Romans 5:1?",
+        "older": "According to Romans 5:1, what result of being justified by faith comes through our Lord Jesus Christ?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peace with God"
+        },
+        {
+          "id": "b",
+          "text": "Fear of judgment"
+        },
+        {
+          "id": "c",
+          "text": "Power over others"
+        },
+        {
+          "id": "d",
+          "text": "A reward for hard work"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 5:1",
+            "text": "Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 5:1 says what believers have, right after \"we have.\"",
+          "child": "Read Romans 5:1 and find the words after \"we have.\"",
+          "teen": "The answer in 5:1 sits between \"we have\" and \"through our Lord Jesus Christ.\"",
+          "older": "The main clause of 5:1 states the result; read what follows \"we have.\""
+        },
+        "extended_explanation": "Paul has shown that people are made right with God by faith, not by their own works. Romans 5:1 tells what that means for a believer's relationship with God. Read the words after \"we have.\"",
+        "takeaway": "Justified by faith, we have peace with God through our Lord Jesus Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rom-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 12",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul urges believers, by the mercies of God, to present their bodies to God as what?",
+        "child": "Paul asks believers to give their whole selves to God. What does he say they should be?",
+        "teen": "Romans 12:1 asks believers to offer their bodies to God in a certain way. As what?",
+        "older": "In Romans 12:1, Paul beseeches believers to present their bodies as what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A gift of gold"
+        },
+        {
+          "id": "b",
+          "text": "A living sacrifice"
+        },
+        {
+          "id": "c",
+          "text": "A burnt offering"
+        },
+        {
+          "id": "d",
+          "text": "A tithe of all they earn"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 12:1",
+            "text": "I beseech you therefore, brethren, by the mercies of God, that you present your bodies a living sacrifice, holy, acceptable to God, which is your reasonable service.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 12:1 tells how to present your body. Read the words right after \"present your bodies.\"",
+          "child": "Find \"present your bodies\" in Romans 12:1. Read the next words.",
+          "teen": "The answer follows \"present your bodies\" and is described as holy and acceptable to God.",
+          "older": "The phrase after \"present your bodies\" is followed by \"holy, acceptable to God.\""
+        },
+        "extended_explanation": "In the Old Testament, offerings were brought to an altar. Paul uses that picture for a whole life given to God, and he calls it reasonable service. Read the words after \"present your bodies\" in Romans 12:1.",
+        "takeaway": "Paul urges believers to present their bodies a living sacrifice to God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rom-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 12",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 12:21 tells believers not to be overcome by evil. How does it say to overcome evil instead?",
+        "child": "Paul says not to let evil win over you. How does he say to beat evil?",
+        "teen": "Paul ends Romans 12 with a short command about evil. How should evil be overcome?",
+        "older": "According to Romans 12:21, by what means is evil to be overcome?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With equal force"
+        },
+        {
+          "id": "b",
+          "text": "With quiet anger"
+        },
+        {
+          "id": "c",
+          "text": "With good"
+        },
+        {
+          "id": "d",
+          "text": "By staying away from people"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 12:21",
+            "text": "Do not be overcome by evil, but overcome evil with good.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 12:21 has two parts. Read the second half, after \"but.\"",
+          "child": "Look at the last words of Romans 12:21.",
+          "teen": "The verse first says what not to do, then gives the better way. Read the last few words.",
+          "older": "The second clause of 12:21 supplies the means; 12:20 gives an example of it."
+        },
+        "extended_explanation": "Right before this verse, Paul says to feed a hungry enemy and give a thirsty enemy a drink. Romans 12:21 sums it up. Read the end of the verse.",
+        "takeaway": "Do not be overcome by evil, but overcome evil with good."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rom-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 12",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says not to be conformed to this world. According to Romans 12:2, how are believers to be transformed?",
+        "child": "Paul says not to copy the ways of the world. What does he say changes a believer from the inside?",
+        "teen": "Instead of fitting in with the world, Paul says believers are transformed. By what?",
+        "older": "In Romans 12:2, by what are believers to be transformed rather than conformed to this world?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keeping up with the world"
+        },
+        {
+          "id": "b",
+          "text": "Trying harder each day"
+        },
+        {
+          "id": "c",
+          "text": "Following the customs of the age"
+        },
+        {
+          "id": "d",
+          "text": "The renewing of your mind"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 12:2",
+            "text": "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what is that good and acceptable and perfect will of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 12:2 says \"be transformed by\" and then names how. Read those next words.",
+          "child": "Find \"be transformed by\" in Romans 12:2.",
+          "teen": "12:2 contrasts being conformed with being transformed. The answer follows \"transformed by.\"",
+          "older": "The instrumental phrase after \"be transformed by\" answers this; the verse then gives the purpose."
+        },
+        "extended_explanation": "Paul contrasts two ways of being shaped: by the world around us, or by God changing us within. Romans 12:2 names how that change happens, and then says it helps believers prove God's will. Read the words after \"be transformed by.\"",
+        "takeaway": "Believers are transformed by the renewing of their mind."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rom-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 5",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says believers can glory even in tribulations. According to Romans 5:3, what does tribulation produce?",
+        "child": "Paul says hard times can build something in us. What does he say trouble produces first?",
+        "teen": "Romans 5:3-4 describes a chain that starts with tribulation. What is the first thing tribulation produces?",
+        "older": "According to Romans 5:3, what does tribulation produce, beginning the chain that ends in hope?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Perseverance"
+        },
+        {
+          "id": "b",
+          "text": "Bitterness"
+        },
+        {
+          "id": "c",
+          "text": "Weakness"
+        },
+        {
+          "id": "d",
+          "text": "Doubt and fear"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 5:3",
+            "text": "And not only that, but we also glory in tribulations, knowing that tribulation produces perseverance;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 5:4",
+            "text": "and perseverance, character; and character, hope.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 5:3 ends with what tribulation produces. Read the last word of the verse.",
+          "child": "Look at the very end of Romans 5:3.",
+          "teen": "The chain begins at the end of 5:3 and continues in 5:4. You need the first link.",
+          "older": "The first product named, at the close of 5:3, becomes the subject that begins 5:4."
+        },
+        "extended_explanation": "Paul does not say trouble is pleasant in itself. He says God uses it to build something in believers, step by step. Read the end of Romans 5:3, then see how 5:4 continues the chain.",
+        "takeaway": "Tribulation produces perseverance, then character, then hope."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rom-0015",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 12",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 12:15 tells believers to rejoice with those who rejoice. With whom does it tell them to weep?",
+        "child": "Paul says to be happy with people who are happy. Who does he say to cry with?",
+        "teen": "Paul says to share in others' joys. According to Romans 12:15, who should believers weep with?",
+        "older": "According to Romans 12:15, with whom are believers to weep?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Those who are wealthy"
+        },
+        {
+          "id": "b",
+          "text": "Those who weep"
+        },
+        {
+          "id": "c",
+          "text": "Those who are strangers"
+        },
+        {
+          "id": "d",
+          "text": "Your enemies only"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 12:15",
+            "text": "Rejoice with those who rejoice, and weep with those who weep.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 12:15 has two matching commands. Read the second one.",
+          "child": "Read the second half of Romans 12:15.",
+          "teen": "12:15 is built in two parallel halves. The second half answers this.",
+          "older": "The second clause of 12:15 mirrors the first; read who follows \"weep with.\""
+        },
+        "extended_explanation": "Love shows up in sharing other people's feelings, both happy and sad. Romans 12:15 gives two commands that match each other. Read the second half of the verse.",
+        "takeaway": "Believers are to rejoice with those who rejoice, and weep with those who weep."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-rom-0016",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 12",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says a body has many members that do different jobs. According to Romans 12:5, what are believers, though many?",
+        "child": "Paul compares believers to the parts of a body. He says that even though there are many of them, they are what?",
+        "teen": "Believers have different roles, like parts of a body. What does Romans 12:5 say they are together?",
+        "older": "In Romans 12:4-5, Paul compares the church to a body. Being many, what are believers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strangers to one another"
+        },
+        {
+          "id": "b",
+          "text": "Many separate groups"
+        },
+        {
+          "id": "c",
+          "text": "One body in Christ"
+        },
+        {
+          "id": "d",
+          "text": "Rivals in the church"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 12:4",
+            "text": "For as we have many members in one body, but all the members do not have the same function,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 12:5",
+            "text": "so we, being many, are one body in Christ, and individually members of one another.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 12:5 begins \"so we, being many, are\" and then names it. Read on.",
+          "child": "Read the start of Romans 12:5.",
+          "teen": "12:4 describes a body with many members. 12:5 applies the picture to believers in its first clause.",
+          "older": "The first clause of 12:5 applies the analogy of 12:4; read what follows \"being many, are.\""
+        },
+        "extended_explanation": "Paul uses a body to show how believers belong together while having different gifts. Romans 12:4 sets up the picture, and 12:5 applies it to the church. Read the beginning of 12:5.",
+        "takeaway": "Though many, believers are one body in Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-rom-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 5",
+      "topics": [
+        "romans-peace"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 5:4 ends a chain of growth with hope. According to 5:5, why does that hope not disappoint?",
+        "child": "Paul says hope will not let believers down. What has been poured out in their hearts that makes this true?",
+        "teen": "Romans 5:4 says character produces hope. According to 5:5, what has been poured out in believers' hearts so that this hope does not disappoint?",
+        "older": "Read Romans 5:4 with 5:5. What does Paul say has been poured out in our hearts by the Holy Spirit, explaining why hope does not disappoint?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Our own strong effort"
+        },
+        {
+          "id": "b",
+          "text": "The praise of other people"
+        },
+        {
+          "id": "c",
+          "text": "The strength of the law"
+        },
+        {
+          "id": "d",
+          "text": "The love of God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 5:4",
+            "text": "and perseverance, character; and character, hope.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 5:5",
+            "text": "Now hope does not disappoint, because the love of God has been poured out in our hearts by the Holy Spirit who was given to us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 5:5 gives the reason after the word \"because.\" Read what has been poured out.",
+          "child": "Read Romans 5:5 after the word \"because.\"",
+          "teen": "The reason in 5:5 follows \"because\"; it names what was poured out and who poured it.",
+          "older": "The causal clause in 5:5 identifies what the Holy Spirit has poured out in believers' hearts."
+        },
+        "extended_explanation": "The chain in Romans 5:3-4 ends with hope, and verse 5 says this hope will not disappoint. The reason is something God has already given, poured out in believers' hearts by the Holy Spirit. Read the words after \"because.\"",
+        "takeaway": "Hope does not disappoint, because the love of God has been poured out in our hearts by the Holy Spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

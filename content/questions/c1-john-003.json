@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jhn-0022",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 6",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said that whoever comes to Him will never hunger. What did He call Himself?",
+        "child": "Jesus said that anyone who comes to Him will never be hungry. What did He call Himself?",
+        "teen": "In John 6:35, Jesus promised that those who come to Him would never go hungry. What did He say He is?",
+        "older": "In John 6:35, what does Jesus declare Himself to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The bread of life"
+        },
+        {
+          "id": "b",
+          "text": "The salt of the earth"
+        },
+        {
+          "id": "c",
+          "text": "The well of Jacob"
+        },
+        {
+          "id": "d",
+          "text": "The king of the feast"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 6:35",
+            "text": "And Jesus said to them, “I am the bread of life. He who comes to Me shall never hunger, and he who believes in Me shall never thirst.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 6:35 begins with Jesus' words \"I am.\" Read what follows.",
+          "child": "Find the words \"I am\" in John 6:35 and read the next words.",
+          "teen": "Jesus' saying comes first in 6:35; the promise about hunger comes after it.",
+          "older": "The predicate following \"I am\" in 6:35 fits the promise about hunger that follows."
+        },
+        "extended_explanation": "Jesus used something people need every day to describe what He gives. John 6:35 states the saying first and then the promise to those who come to Him. Read the words after \"I am.\"",
+        "takeaway": "Jesus said, \"I am the bread of life.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0023",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 8",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said that whoever follows Him will not walk in darkness. What did He call Himself?",
+        "child": "Jesus said people who follow Him won't walk in the dark. What did He say He is?",
+        "teen": "According to John 8:12, what did Jesus say He is, so that His followers would not walk in darkness?",
+        "older": "In John 8:12, what title does Jesus claim for Himself?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The voice in the wilderness"
+        },
+        {
+          "id": "b",
+          "text": "The light of the world"
+        },
+        {
+          "id": "c",
+          "text": "The star of the morning"
+        },
+        {
+          "id": "d",
+          "text": "The fire on the mountain"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 8:12",
+            "text": "Then Jesus spoke to them again, saying, “I am the light of the world. He who follows Me shall not walk in darkness, but have the light of life.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words right after \"I am\" in John 8:12.",
+          "child": "Look for \"I am\" in John 8:12 and read the next words.",
+          "teen": "8:12 gives the saying first, then the promise about darkness.",
+          "older": "The saying in 8:12 is matched by its closing promise to the one who follows."
+        },
+        "extended_explanation": "Jesus contrasted walking in darkness with following Him. John 8:12 gives His saying and then His promise to those who follow. Read the words after \"I am.\"",
+        "takeaway": "Jesus said, \"I am the light of the world.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0024",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 10",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus compared Himself to someone who cares for sheep. What did He call Himself in John 10:11?",
+        "child": "Jesus talked about Himself as someone who takes care of sheep. What did He call Himself?",
+        "teen": "In John 10:11, Jesus uses a picture from caring for a flock. What does He call Himself?",
+        "older": "According to John 10:11, what does Jesus say He is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The keeper of the city gate"
+        },
+        {
+          "id": "b",
+          "text": "The wise farmer"
+        },
+        {
+          "id": "c",
+          "text": "The good shepherd"
+        },
+        {
+          "id": "d",
+          "text": "The king of Israel"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 10:11",
+            "text": "“I am the good shepherd. The good shepherd gives His life for the sheep.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 10:11 begins with Jesus' words \"I am.\" Read the next three words.",
+          "child": "Read the first sentence of John 10:11.",
+          "teen": "The saying appears in the first sentence of 10:11 and is repeated at the start of the second.",
+          "older": "The title appears twice in 10:11; the second sentence describes what that One does for the sheep."
+        },
+        "extended_explanation": "Jesus described Himself with a picture His listeners knew well from fields and flocks. Read the first sentence of John 10:11.",
+        "takeaway": "Jesus said, \"I am the good shepherd.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0025",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 11",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In John 11:25, Jesus made a promise to everyone who believes in Him. What did He say He is?",
+        "child": "Jesus said something important about Himself and about life after death. What did He say He is?",
+        "teen": "John 11:25 records one of Jesus' \"I am\" sayings, followed by a promise to those who believe. What does He say He is?",
+        "older": "According to John 11:25, what did Jesus declare Himself to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The healer sent from heaven"
+        },
+        {
+          "id": "b",
+          "text": "The teacher of the Law"
+        },
+        {
+          "id": "c",
+          "text": "The prophet who was promised long ago"
+        },
+        {
+          "id": "d",
+          "text": "The resurrection and the life"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 11:25",
+            "text": "Jesus said to her, “I am the resurrection and the life. He who believes in Me, though he may die, he shall live.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words that follow \"I am\" in John 11:25.",
+          "child": "Find \"I am\" in John 11:25. Read the words that come after it.",
+          "teen": "The saying ends before the promise \"He who believes in Me.\"",
+          "older": "The saying precedes the promise in 11:25 that the believer, though he may die, shall live."
+        },
+        "extended_explanation": "Jesus' saying in John 11:25 is followed by a promise: whoever believes in Him will live, even though he may die. Read the words after \"I am\" to find what Jesus said about Himself.",
+        "takeaway": "Jesus said, \"I am the resurrection and the life.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0026",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 14",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said no one comes to the Father except through Him. What three things did He say He is?",
+        "child": "Jesus said the only path to God the Father is through Him. What did He say He is?",
+        "teen": "In John 14:6, Jesus answers a question with three titles for Himself. What are they?",
+        "older": "According to John 14:6, what does Jesus say He is, before stating that no one comes to the Father except through Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The way, the truth, and the life"
+        },
+        {
+          "id": "b",
+          "text": "The judge, the priest, and the king"
+        },
+        {
+          "id": "c",
+          "text": "The rock, the shield, and the fortress"
+        },
+        {
+          "id": "d",
+          "text": "The word, the wisdom, and the power"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 14:6",
+            "text": "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father except through Me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 14:6 lists three things after \"I am.\" Read them in order.",
+          "child": "Look for \"I am\" in John 14:6. Read the three things that come next.",
+          "teen": "The saying in 14:6 has three parts, followed by a sentence about coming to the Father.",
+          "older": "The triple predicate after \"I am\" in 14:6 precedes the exclusive claim about access to the Father."
+        },
+        "extended_explanation": "Jesus said that coming to the Father happens only through Him. In the same verse He describes Himself with three titles. Read the words after \"I am\" in John 14:6.",
+        "takeaway": "Jesus said, \"I am the way, the truth, and the life.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0027",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 15",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said His Father is the vinedresser. What did Jesus call Himself?",
+        "child": "Jesus compared His Father to a gardener who takes care of a plant. What plant did Jesus say He is?",
+        "teen": "In John 15:1, Jesus describes Himself and His Father using a picture from a vineyard. What does He call Himself?",
+        "older": "According to John 15:1, what does Jesus say He is, with His Father as the vinedresser?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The olive tree"
+        },
+        {
+          "id": "b",
+          "text": "The true vine"
+        },
+        {
+          "id": "c",
+          "text": "The mustard plant"
+        },
+        {
+          "id": "d",
+          "text": "The fig tree by the road"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 15:1",
+            "text": "“I am the true vine, and My Father is the vinedresser.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 15:1 begins with \"I am.\" Read the words that follow.",
+          "child": "Read the first part of John 15:1.",
+          "teen": "15:1 has two parts: what Jesus is, then what His Father is. You need the first.",
+          "older": "The first clause of 15:1 names Jesus; the second names the Father's role."
+        },
+        "extended_explanation": "Jesus used a picture of a growing plant cared for by a gardener. John 15:1 names Jesus' part and His Father's part. Read the first half of the verse.",
+        "takeaway": "Jesus said, \"I am the true vine, and My Father is the vinedresser.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jhn-0028",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 10",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In John 10:11, what does Jesus say He gives for the sheep?",
+        "child": "Jesus talked about caring for sheep. What did He say He gives for the sheep?",
+        "teen": "According to John 10:11, what is given for the sheep?",
+        "older": "John 10:11 describes a costly gift made for the sheep. What is it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His wealth"
+        },
+        {
+          "id": "b",
+          "text": "His name"
+        },
+        {
+          "id": "c",
+          "text": "His life"
+        },
+        {
+          "id": "d",
+          "text": "His staff"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 10:11",
+            "text": "“I am the good shepherd. The good shepherd gives His life for the sheep.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of John 10:11. It says what is given for the sheep.",
+          "child": "Look at the second sentence of John 10:11.",
+          "teen": "The second sentence of 10:11 names what is given and for whom.",
+          "older": "The second sentence of 10:11 explains the title in the first by naming what is given."
+        },
+        "extended_explanation": "Jesus' saying in John 10:11 is followed by a description of what He does for the sheep. Read the second sentence to see what He gives.",
+        "takeaway": "Jesus gives His life for the sheep."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-jhn-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 6",
+      "topics": [
+        "i-am-sayings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In John 6:35, Jesus pairs coming to Him with never hungering. What does He pair with believing in Him?",
+        "child": "Jesus said that people who come to Him will never be hungry. What did He say about people who believe in Him?",
+        "teen": "John 6:35 has two matching promises. The first is about coming and hunger. What is the second promise to those who believe?",
+        "older": "John 6:35 sets two promises side by side. How does the second, for the one who believes, complete the picture of the first?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Always be rich"
+        },
+        {
+          "id": "b",
+          "text": "Never feel tired"
+        },
+        {
+          "id": "c",
+          "text": "Never be alone"
+        },
+        {
+          "id": "d",
+          "text": "Never thirst"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 6:35",
+            "text": "And Jesus said to them, “I am the bread of life. He who comes to Me shall never hunger, and he who believes in Me shall never thirst.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 6:35 has two matching lines. Read the second one, which begins \"he who believes in Me.\"",
+          "child": "Read the end of John 6:35.",
+          "teen": "Line up the two promises in 6:35. The second ends with the answer.",
+          "older": "6:35 uses parallelism: coming matches believing, and hunger matches a related need. Read the final clause."
+        },
+        "extended_explanation": "Jesus called Himself the source of what people truly need. In John 6:35 He gives two promises that mirror each other, one for those who come to Him and one for those who believe in Him. Read the second promise.",
+        "takeaway": "Whoever believes in Jesus shall never thirst."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}
