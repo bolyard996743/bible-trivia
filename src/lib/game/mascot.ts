@@ -45,7 +45,7 @@ export function pickMascotLine(
   );
 }
 
-const STAGE_LINE_ID = /^(?:judah|agnes|shalom|zion|hunter)-(?:seed|sprout)-/;
+const STAGE_LINE_ID = /^(?:judah|agnes|shalom|zion|hunter)-(?:seed|sprout|rooted)-/;
 
 /**
  * Path play speaks the stage line for that question.
