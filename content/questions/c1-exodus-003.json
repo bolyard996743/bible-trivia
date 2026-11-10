@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-exodus-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-exo-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 8",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Aaron stretched his hand over the waters of Egypt, what came up and covered the land?",
+        "child": "Aaron held his hand out over Egypt's waters, and something came up and covered the land. What was it?",
+        "teen": "Which creatures came up out of the waters and covered Egypt when Aaron stretched out his hand?",
+        "older": "According to Exodus 8:6, what came up and covered the land of Egypt when Aaron stretched out his hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Locusts"
+        },
+        {
+          "id": "b",
+          "text": "Snakes"
+        },
+        {
+          "id": "c",
+          "text": "Frogs"
+        },
+        {
+          "id": "d",
+          "text": "Crabs"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 8:6",
+            "text": "So Aaron stretched out his hand over the waters of Egypt, and the frogs came up and covered the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 8:6 names what came up from the waters. Read the middle of the verse.",
+          "child": "Read Exodus 8:6. It says what came up and covered the land.",
+          "teen": "Look at Exodus 8:6 right after Aaron stretches out his hand.",
+          "older": "Exodus 8:6 records Aaron's action and then names what came up and covered Egypt."
+        },
+        "extended_explanation": "In Exodus 8:6 Aaron stretches his hand over the waters, and the land is covered. Read the verse again to see by what.",
+        "takeaway": "Frogs came up and covered the land of Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-exo-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 12",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Each household was to choose a lamb. What did God say the lamb had to be?",
+        "child": "God told every family to pick a lamb. What did the lamb need to be like?",
+        "teen": "What requirement did God give for the lamb each household would take?",
+        "older": "According to Exodus 12:5, what was required of the lamb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Without blemish"
+        },
+        {
+          "id": "b",
+          "text": "Black in color"
+        },
+        {
+          "id": "c",
+          "text": "Older than three years"
+        },
+        {
+          "id": "d",
+          "text": "Bought in the market"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 12:5",
+            "text": "Your lamb shall be without blemish, a male of the first year. You may take it from the sheep or from the goats.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 12:5 describes the lamb. Read the first phrase of the verse.",
+          "child": "Look at the start of Exodus 12:5.",
+          "teen": "The opening words of Exodus 12:5 give the main requirement.",
+          "older": "Exodus 12:5 lists what the lamb must be; the first requirement comes right after \"Your lamb shall be.\""
+        },
+        "extended_explanation": "Exodus 12:5 describes the kind of lamb each household was to take. Read the beginning of the verse again.",
+        "takeaway": "The Passover lamb had to be without blemish."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-exo-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 11",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses warned Pharaoh about the last plague. About what time did the LORD say He would go out into the midst of Egypt?",
+        "child": "Moses told Pharaoh what God would do in the final plague. At what time would God go out through Egypt?",
+        "teen": "In the warning about the firstborn, when did the LORD say He would go through Egypt?",
+        "older": "According to Exodus 11:4, at what time did the LORD say He would go out into the midst of Egypt?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At sunrise"
+        },
+        {
+          "id": "b",
+          "text": "At noon"
+        },
+        {
+          "id": "c",
+          "text": "In the cool of the evening"
+        },
+        {
+          "id": "d",
+          "text": "About midnight"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 11:4",
+            "text": "Then Moses said, “Thus says the LORD: ‘About midnight I will go out into the midst of Egypt;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 11:5",
+            "text": "and all the firstborn in the land of Egypt shall die, from the firstborn of Pharaoh who sits on his throne, even to the firstborn of the female servant who is behind the handmill, and all the firstborn of the animals.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 11:4 gives the time in the LORD's message. Read the words just after \"Thus says the LORD.\"",
+          "child": "Read Exodus 11:4. It tells when God would go out.",
+          "teen": "Check the LORD's words in Exodus 11:4 for the time.",
+          "older": "Exodus 11:4 opens the LORD's message with the time; Exodus 11:5 tells what would happen then."
+        },
+        "extended_explanation": "The final warning in Exodus 11:4-5 includes when it would happen and what would happen. Read the start of the LORD's words in verse 4.",
+        "takeaway": "The LORD said He would go out into the midst of Egypt about midnight."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-exo-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 12",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Where were the Israelites to put the blood of the Passover lamb?",
+        "child": "God told each family to put some of the lamb's blood on their house. Where on the house?",
+        "teen": "Using a bunch of hyssop, where did each family strike the blood?",
+        "older": "According to Exodus 12:7 and 12:22, where were the Israelites to put the blood?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The roof and the chimney"
+        },
+        {
+          "id": "b",
+          "text": "The lintel and the two doorposts"
+        },
+        {
+          "id": "c",
+          "text": "The windows facing the river and street"
+        },
+        {
+          "id": "d",
+          "text": "The floor inside the door"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 12:7",
+            "text": "And they shall take some of the blood and put it on the two doorposts and on the lintel of the houses where they eat it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 12:22",
+            "text": "And you shall take a bunch of hyssop, dip it in the blood that is in the basin, and strike the lintel and the two doorposts with the blood that is in the basin. And none of you shall go out of the door of his house until morning.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 12:7 and 12:22 both name the places the blood was put. Read where the hyssop was to strike.",
+          "child": "Read Exodus 12:22. It tells where they put the blood with hyssop.",
+          "teen": "Both verses name the same spots on the house. Look near the end of Exodus 12:7.",
+          "older": "Exodus 12:7 gives the instruction and Exodus 12:22 repeats it with the hyssop; both name the same parts of the door frame."
+        },
+        "extended_explanation": "The blood was placed on the frame of the door of each house. Read Exodus 12:22 to see exactly which parts.",
+        "takeaway": "The Israelites put the blood on the lintel and the two doorposts."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-exo-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 12",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God told Israel what He would do when He saw the blood on their houses. How does His promise finish? \"When I see the blood, I will...\"",
+        "child": "The blood on each house was a sign. God said, \"When I see the blood, I will...\" What comes next?",
+        "teen": "What did God promise Israel He would do when He saw the blood? \"When I see the blood, I will...\"",
+        "older": "Complete God's promise in Exodus 12:13: \"When I see the blood, I will...\""
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Knock on the door"
+        },
+        {
+          "id": "b",
+          "text": "Bless your fields"
+        },
+        {
+          "id": "c",
+          "text": "Pass over you"
+        },
+        {
+          "id": "d",
+          "text": "Send you a sign from heaven"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 12:13",
+            "text": "Now the blood shall be a sign for you on the houses where you are. And when I see the blood, I will pass over you; and the plague shall not be on you to destroy you when I strike the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 12:13 gives God's promise. Read the words right after \"when I see the blood.\"",
+          "child": "Find \"when I see the blood\" in Exodus 12:13 and read what comes next.",
+          "teen": "The middle of Exodus 12:13 finishes the promise.",
+          "older": "Exodus 12:13 calls the blood a sign and then states what God would do; the feast itself is named for this action."
+        },
+        "extended_explanation": "The name of the feast comes from what God promised in Exodus 12:13. Read the middle of the verse.",
+        "takeaway": "God promised, \"When I see the blood, I will pass over you.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-exo-0015",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 12",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "For seven days, what kind of bread were the Israelites to eat?",
+        "child": "God told His people to eat a special kind of bread for a whole week. What kind?",
+        "teen": "During the seven-day feast, what kind of bread did God command Israel to eat?",
+        "older": "According to Exodus 12:15, what were the Israelites to eat for seven days?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unleavened bread"
+        },
+        {
+          "id": "b",
+          "text": "Barley loaves"
+        },
+        {
+          "id": "c",
+          "text": "Sweet honey cakes"
+        },
+        {
+          "id": "d",
+          "text": "Bread from the king's ovens"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 12:15",
+            "text": "Seven days you shall eat unleavened bread. On the first day you shall remove leaven from your houses. For whoever eats leavened bread from the first day until the seventh day, that person shall be cut off from Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 12:15 opens with what they were to eat for seven days.",
+          "child": "Read the first sentence of Exodus 12:15.",
+          "teen": "Look at the opening of Exodus 12:15, then notice what they were to remove from their houses.",
+          "older": "Exodus 12:15 names the bread in its first sentence and then explains what had to be removed from their houses on the first day."
+        },
+        "extended_explanation": "Exodus 12:15 gives both what to eat and what to remove. Read the first sentence for the kind of bread.",
+        "takeaway": "For seven days the Israelites were to eat unleavened bread."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-exo-0016",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 10",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Moses stretched his hand toward heaven, thick darkness covered Egypt. How long did it last?",
+        "child": "Egypt was covered in deep darkness after Moses raised his hand toward the sky. How long did the darkness stay?",
+        "teen": "How long did the thick darkness over the land of Egypt last?",
+        "older": "According to Exodus 10:22, how long was there thick darkness in all the land of Egypt?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "One hour"
+        },
+        {
+          "id": "b",
+          "text": "Two weeks"
+        },
+        {
+          "id": "c",
+          "text": "Forty days and nights"
+        },
+        {
+          "id": "d",
+          "text": "Three days"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 10:22",
+            "text": "So Moses stretched out his hand toward heaven, and there was thick darkness in all the land of Egypt three days.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 10:23",
+            "text": "They did not see one another; nor did anyone rise from his place for three days. But all the children of Israel had light in their dwellings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 10:22 ends by telling how long the darkness lasted.",
+          "child": "Read the last words of Exodus 10:22.",
+          "teen": "The end of Exodus 10:22 gives the length; Exodus 10:23 repeats it.",
+          "older": "Exodus 10:22 states the length at its close, and Exodus 10:23 notes that Israel had light in their dwellings during that time."
+        },
+        "extended_explanation": "Exodus 10:22-23 describes darkness so thick that no one rose from his place. Both verses say how long it lasted.",
+        "takeaway": "Thick darkness covered Egypt for three days, but Israel had light in their dwellings."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-exo-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 8",
+      "topics": [
+        "passover-plagues"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God kept the swarms of flies away from His people's land, and He spared Israel in the warning about the last plague too. According to these verses, what was God showing?",
+        "child": "God kept the flies away from His people and promised to protect them in the last plague. What did God say this showed?",
+        "teen": "Why did God keep Israel safe in the plague of flies and in the final plague? What did He say it showed?",
+        "older": "Comparing Exodus 8:23 and 11:7, what did God say His protection of Israel during the plagues showed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That Goshen had better weather than Egypt"
+        },
+        {
+          "id": "b",
+          "text": "A difference between Israel and Egypt"
+        },
+        {
+          "id": "c",
+          "text": "That Pharaoh had chosen to protect Israel"
+        },
+        {
+          "id": "d",
+          "text": "That Egypt's magicians had equal power"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 8:22",
+            "text": "And in that day I will set apart the land of Goshen, in which My people dwell, that no swarms of flies shall be there, in order that you may know that I am the LORD in the midst of the land.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 8:23",
+            "text": "I will make a difference between My people and your people. Tomorrow this sign shall be.” ’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 11:7",
+            "text": "But against none of the children of Israel shall a dog move its tongue, against man or beast, that you may know that the LORD does make a difference between the Egyptians and Israel.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 8:23 and 11:7 use the same idea. Look for what God says He makes between two peoples.",
+          "child": "Read the end of Exodus 11:7. It tells what the LORD does for His people.",
+          "teen": "Both Exodus 8:23 and the end of Exodus 11:7 state the same thing God was doing.",
+          "older": "Exodus 8:22-23 sets Goshen apart from the flies, and Exodus 11:7 explains the purpose in nearly the same words; compare the two."
+        },
+        "extended_explanation": "God said in Exodus 8:22-23 that the flies would not come to Goshen, and in Exodus 11:7 that Israel would be untouched. Read both verses for the word they share about what God was making.",
+        "takeaway": "God showed that He makes a difference between Israel and Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

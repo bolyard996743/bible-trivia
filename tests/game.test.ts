@@ -435,6 +435,8 @@ describe("answer privacy", () => {
       },
     });
     expect(explanationRevealIssues(pointed)).toEqual([]);
+    pointed.teaching.explanation.teen = "The answer is right after \"count it\" in 1:2.";
+    expect(explanationRevealIssues(pointed)).toEqual([]);
     pointed.teaching.explanation.adult = "The answer is Believe on the Lord Jesus Christ.";
     expect(explanationRevealIssues(pointed).some((issue) => issue.includes("states the answer outright"))).toBe(true);
   });

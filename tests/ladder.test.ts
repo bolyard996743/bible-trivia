@@ -197,6 +197,35 @@ describe("curriculum ladder", () => {
     expect(unfinished.required).toBe(17);
   });
 
+  it("requires all 25 Rooted badges, eight questions each", () => {
+    const { questions } = loadCatalog();
+    const rootedBadges = knowledgePath.stages.find((stage) => stage.stage === "Rooted")?.badges ?? [];
+    const rootedIds = rootedBadges.flatMap((badge) => badge.questionIds);
+    expect(rootedBadges).toHaveLength(25);
+    expect(rootedBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(rootedIds).toHaveLength(200);
+    const eden = questions.find((question) => question.id === "c1-gen-0036");
+    expect(eden?.prompt.adult).toBe(
+      "In the garden, which creature spoke to the woman and questioned what God had said?",
+    );
+    expect(eden?.stage).toBe("Rooted");
+    const baptism = questions.find((question) => question.id === "c2-act-0002");
+    expect(baptism?.stage).toBe("Rooted");
+    expect(questions.find((question) => question.id === "c2-act-0001")?.placement_eligible).toBe(true);
+    const open = gateStatus(questions, { ...emptyProgress(), stage: "Rooted" });
+    expect(open.ready).toBe(false);
+    expect(open.required).toBe(25);
+    const partial = rootedIds.slice(0, -1);
+    const unfinished = gateStatus(questions, {
+      ...emptyProgress(),
+      stage: "Rooted",
+      masteredIds: partial,
+      firstTryIds: partial,
+    });
+    expect(unfinished.ready).toBe(false);
+    expect(unfinished.required).toBe(25);
+  });
+
   it("names checklist topics and marks a cleared one", () => {
     const questions = [sample("create", "foundation", "Seed", ["creation"])];
     const before = stageChecklist(questions, emptyProgress());

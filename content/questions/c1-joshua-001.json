@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-joshua-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jos-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 1",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God told Joshua not to be afraid or dismayed. What did He tell him to be instead?",
+        "child": "God told Joshua he did not need to be afraid. What did God tell him to be?",
+        "teen": "Since he was not to be afraid or dismayed, what did God command Joshua to be?",
+        "older": "According to Joshua 1:9, what did God command Joshua to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quiet and patient"
+        },
+        {
+          "id": "b",
+          "text": "Strong and of good courage"
+        },
+        {
+          "id": "c",
+          "text": "Wise and careful"
+        },
+        {
+          "id": "d",
+          "text": "Humble and silent before the people"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 1:9",
+            "text": "Have I not commanded you? Be strong and of good courage; do not be afraid, nor be dismayed, for the LORD your God is with you wherever you go.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 1:9 gives the command right after \"Have I not commanded you?\"",
+          "child": "Read the second sentence of Joshua 1:9.",
+          "teen": "Look at Joshua 1:9 just before it says \"do not be afraid.\"",
+          "older": "Joshua 1:9 states the command, then the matching warnings against fear and dismay, then the reason: the LORD is with him."
+        },
+        "extended_explanation": "God gave Joshua this command several times in Joshua 1. In verse 9 it comes just before the words about not being afraid.",
+        "takeaway": "God told Joshua to be strong and of good courage, for the LORD was with him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 1",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God told Joshua to meditate on something day and night and not let it depart from his mouth. What was it?",
+        "child": "God told Joshua to think about something day and night. What was it?",
+        "teen": "What did God tell Joshua to keep speaking and thinking about day and night?",
+        "older": "According to Joshua 1:8, what was not to depart from Joshua's mouth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "This Book of the Law"
+        },
+        {
+          "id": "b",
+          "text": "The songs of Moses"
+        },
+        {
+          "id": "c",
+          "text": "The words of the elders"
+        },
+        {
+          "id": "d",
+          "text": "The names of the tribes"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 1:8",
+            "text": "This Book of the Law shall not depart from your mouth, but you shall meditate in it day and night, that you may observe to do according to all that is written in it. For then you will make your way prosperous, and then you will have good success.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 1:8 names it in its opening words.",
+          "child": "Read the first words of Joshua 1:8.",
+          "teen": "The start of Joshua 1:8 tells what Joshua was to meditate on.",
+          "older": "Joshua 1:8 names the object of meditation at the very beginning, then explains the purpose: to observe all that is written in it."
+        },
+        "extended_explanation": "Joshua 1:8 tells Joshua to keep something on his lips and in his thoughts so he could obey it. Read the first phrase again.",
+        "takeaway": "God told Joshua that this Book of the Law should not depart from his mouth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 3",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Israel prepared to cross the Jordan, what did Joshua tell the priests to take up and carry before the people?",
+        "child": "Before crossing the Jordan River, the priests carried something in front of everyone. What was it?",
+        "teen": "What did the priests carry ahead of the people when Israel set out to cross the Jordan?",
+        "older": "According to Joshua 3:6, what did Joshua tell the priests to take up and carry before the people?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The golden lampstand"
+        },
+        {
+          "id": "b",
+          "text": "The bones of Joseph"
+        },
+        {
+          "id": "c",
+          "text": "Baskets of manna and bread"
+        },
+        {
+          "id": "d",
+          "text": "The ark of the covenant"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 3:6",
+            "text": "Then Joshua spoke to the priests, saying, “Take up the ark of the covenant and cross over before the people.” So they took up the ark of the covenant and went before the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 3:6 records Joshua's instruction and names what the priests took up.",
+          "child": "Read Joshua 3:6. It says what the priests carried.",
+          "teen": "Joshua 3:6 names it two times: in Joshua's words and again when the priests obey.",
+          "older": "Joshua 3:6 gives Joshua's command to the priests and then their obedience; both name the same object."
+        },
+        "extended_explanation": "Joshua 3:6 tells what went before the people as they set out. Read Joshua's command again.",
+        "takeaway": "The priests took up the ark of the covenant and went before the people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 3",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the priests' feet dipped into the edge of the Jordan, what did the waters coming from upstream do?",
+        "child": "As soon as the priests stepped into the Jordan River, what happened to the water coming down the river?",
+        "teen": "The Jordan was overflowing its banks. What did the water from upstream do when the priests stepped in?",
+        "older": "According to Joshua 3:16, what did the waters coming down from upstream do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dried up in the sun"
+        },
+        {
+          "id": "b",
+          "text": "Flowed backward to the sea"
+        },
+        {
+          "id": "c",
+          "text": "Rose in a heap"
+        },
+        {
+          "id": "d",
+          "text": "Became a waterfall"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 3:15",
+            "text": "and as those who bore the ark came to the Jordan, and the feet of the priests who bore the ark dipped in the edge of the water (for the Jordan overflows all its banks during the whole time of harvest),",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 3:16",
+            "text": "that the waters which came down from upstream stood still, and rose in a heap very far away at Adam, the city that is beside Zaretan. So the waters that went down into the Sea of the Arabah, the Salt Sea, failed, and were cut off; and the people crossed over opposite Jericho.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 3:16 describes the upstream waters. Read the first part of the verse.",
+          "child": "Read the beginning of Joshua 3:16.",
+          "teen": "Joshua 3:16 says the water stood still and then tells what else it did.",
+          "older": "Joshua 3:16 says the waters stood still and describes how they gathered far away at Adam."
+        },
+        "extended_explanation": "Joshua 3:15 says the priests' feet dipped in the water; Joshua 3:16 describes what the upstream water did. Read it again.",
+        "takeaway": "The waters from upstream stood still and rose in a heap, and Israel crossed on dry ground."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 6",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Israel marched around Jericho, what did the seven priests carry?",
+        "child": "Seven priests marched around Jericho with Israel. What were they carrying?",
+        "teen": "What did the seven priests bear as they marched around Jericho?",
+        "older": "According to Joshua 6:4, what did the seven priests bear?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Trumpets of rams' horns"
+        },
+        {
+          "id": "b",
+          "text": "Silver bowls of oil"
+        },
+        {
+          "id": "c",
+          "text": "Swords and shields"
+        },
+        {
+          "id": "d",
+          "text": "Long poles and banners of cloth"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 6:4",
+            "text": "And seven priests shall bear seven trumpets of rams’ horns before the ark. But the seventh day you shall march around the city seven times, and the priests shall blow the trumpets.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 6:4 names what the seven priests carried, right after the words \"seven priests shall bear.\"",
+          "child": "Read the first sentence of Joshua 6:4.",
+          "teen": "Joshua 6:4 says the priests would bear seven of something. Find what.",
+          "older": "Joshua 6:4 lists what the seven priests would carry and says they would blow them on the seventh day."
+        },
+        "extended_explanation": "Joshua 6:4 describes the order of the march around Jericho. Read what the priests were to carry.",
+        "takeaway": "Seven priests carried seven trumpets of rams' horns before the ark."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 6",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On each of the first six days, how many times were the men of war to march around Jericho?",
+        "child": "For six days, Israel's soldiers marched around Jericho. How many times did they go around each day?",
+        "teen": "During the first six days at Jericho, how many laps around the city did the army make each day?",
+        "older": "According to Joshua 6:3, how many times were the men of war to go around the city on each of the first six days?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Twice"
+        },
+        {
+          "id": "b",
+          "text": "Once"
+        },
+        {
+          "id": "c",
+          "text": "Three times"
+        },
+        {
+          "id": "d",
+          "text": "Twelve times"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 6:3",
+            "text": "You shall march around the city, all you men of war; you shall go all around the city once. This you shall do six days.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 6:14",
+            "text": "And the second day they marched around the city once and returned to the camp. So they did six days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 6:3 gives the instruction for the first six days. Read the middle of the verse.",
+          "child": "Read Joshua 6:14. It tells how many times they went around on the second day.",
+          "teen": "Joshua 6:3 gives the plan, and Joshua 6:14 shows them doing it.",
+          "older": "Joshua 6:3 sets the number of circuits for each of the six days, and Joshua 6:14 confirms it on the second day."
+        },
+        "extended_explanation": "The first six days at Jericho followed one pattern. Read Joshua 6:3 and 6:14 to see how many times they went around each day.",
+        "takeaway": "For six days, they marched around Jericho once each day."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 6",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the seventh day, when the people gave a great shout, what happened at Jericho?",
+        "child": "On the seventh day the people of Israel gave a great shout. What happened at Jericho?",
+        "teen": "What happened at Jericho when the people gave a great shout on the seventh day?",
+        "older": "According to Joshua 6:20, what happened when the people shouted with a great shout?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The gates swung open"
+        },
+        {
+          "id": "b",
+          "text": "The king surrendered"
+        },
+        {
+          "id": "c",
+          "text": "The wall fell down flat"
+        },
+        {
+          "id": "d",
+          "text": "The people inside ran away to the hills"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 6:20",
+            "text": "So the people shouted when the priests blew the trumpets. And it happened when the people heard the sound of the trumpet, and the people shouted with a great shout, that the wall fell down flat. Then the people went up into the city, every man straight before him, and they took the city.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 6:20 tells what happened right after the great shout. Read the middle of the verse.",
+          "child": "Read Joshua 6:20. Look at what happened after the big shout.",
+          "teen": "In Joshua 6:20, find the words \"great shout\" and read what follows.",
+          "older": "Joshua 6:20 describes the shout and then the result, just as God had told Joshua in 6:5."
+        },
+        "extended_explanation": "God told Joshua in advance what would happen after the shout, and Joshua 6:20 shows it happening. Read the middle of the verse.",
+        "takeaway": "When the people shouted, the wall of Jericho fell down flat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-jos-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 1",
+      "topics": [
+        "joshua-jericho"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the Jordan, God said He would begin to exalt Joshua in the sight of all Israel. What did God want Israel to know through this?",
+        "child": "At the Jordan River, God said He would start to honor Joshua in front of all Israel. What did God want the people to learn?",
+        "teen": "God said the Jordan crossing would begin to lift Joshua up before Israel. What would it show the people?",
+        "older": "Connecting Joshua 1:5 with 3:7, what did God want Israel to know when He began to exalt Joshua?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Joshua was greater than Moses had been"
+        },
+        {
+          "id": "b",
+          "text": "Joshua would soon be made king"
+        },
+        {
+          "id": "c",
+          "text": "Moses would come back to lead them"
+        },
+        {
+          "id": "d",
+          "text": "God would be with him as with Moses"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 1:5",
+            "text": "No man shall be able to stand before you all the days of your life; as I was with Moses, so I will be with you. I will not leave you nor forsake you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 3:7",
+            "text": "And the LORD said to Joshua, “This day I will begin to exalt you in the sight of all Israel, that they may know that, as I was with Moses, so I will be with you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 3:7 states what Israel would know. Compare it with God's promise to Joshua in Joshua 1:5.",
+          "child": "Read the end of Joshua 3:7. Then look for the same words in Joshua 1:5.",
+          "teen": "God made the same promise twice. Find the matching words in Joshua 1:5 and 3:7.",
+          "older": "The closing clause of Joshua 3:7 repeats a promise first given in Joshua 1:5; the repeated words answer the question."
+        },
+        "extended_explanation": "God's promise in Joshua 1:5 was about to be shown to the whole nation at the Jordan. Read the end of Joshua 3:7 and compare it with 1:5.",
+        "takeaway": "God exalted Joshua so Israel would know that, as He was with Moses, He would be with Joshua."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

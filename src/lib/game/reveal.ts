@@ -8,10 +8,10 @@ export function textContainsChoice(text: string, choiceText: string): boolean {
 }
 
 /**
- * "The answer is at the beginning" points to a place in the verse.
+ * "The answer is at the beginning" and "right after" point to a place in the verse.
  * "The answer is grace" names the choice. Only the second is a reveal.
  */
-const REVEAL_PHRASES = [/correct answer/i, /the answer is (?!(?:at|in)\b)/i];
+const REVEAL_PHRASES = [/correct answer/i, /the answer is (?!(?:at|in|right after)\b)/i];
 
 export function explanationRevealIssues(question: Question): string[] {
   const correct = question.choices.find((choice) => choice.id === question.answer);

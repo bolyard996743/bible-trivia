@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1kings-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ki-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 3",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When God told Solomon to ask for whatever he wanted, what did Solomon ask for?",
+        "child": "God told young King Solomon, \"Ask! What shall I give you?\" What did Solomon ask for?",
+        "teen": "Solomon could have asked God for anything. What did he actually request?",
+        "older": "In 1 Kings 3:9, what did Solomon ask God to give him so he could judge the people?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A long life"
+        },
+        {
+          "id": "b",
+          "text": "An understanding heart"
+        },
+        {
+          "id": "c",
+          "text": "Victory over his enemies"
+        },
+        {
+          "id": "d",
+          "text": "A larger army"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 3:9",
+            "text": "Therefore give to Your servant an understanding heart to judge Your people, that I may discern between good and evil. For who is able to judge this great people of Yours?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Kings 3:9 begins with Solomon's request: \"Therefore give to Your servant...\" Read what comes next.",
+          "child": "Read the first part of 1 Kings 3:9. Solomon asks for one thing.",
+          "teen": "Solomon's request is right at the start of 1 Kings 3:9, along with the reason he wanted it.",
+          "older": "In 3:9 the request is followed by its purpose, \"to judge Your people\"; the request itself comes first."
+        },
+        "extended_explanation": "Solomon felt like a little child before such a great people, so he asked for help to lead them well. Read the opening words of 1 Kings 3:9.",
+        "takeaway": "Solomon asked God for an understanding heart to judge His people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 6",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Solomon prepared an inner sanctuary inside the temple. What was it meant to hold?",
+        "child": "Deep inside the temple, Solomon made a special room. What was going to be placed there?",
+        "teen": "The inner sanctuary of Solomon's temple had one main purpose. What was to be set there?",
+        "older": "According to 1 Kings 6:19, what was the inner sanctuary prepared to hold?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The king's treasure"
+        },
+        {
+          "id": "b",
+          "text": "The scrolls of the prophets"
+        },
+        {
+          "id": "c",
+          "text": "The golden crown of David"
+        },
+        {
+          "id": "d",
+          "text": "The ark of the covenant"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 6:19",
+            "text": "And he prepared the inner sanctuary inside the temple, to set the ark of the covenant of the LORD there.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1 Kings 6:19 to the end. It says what was to be set in the inner sanctuary.",
+          "child": "Look at the second half of 1 Kings 6:19.",
+          "teen": "1 Kings 6:19 names the room and then its purpose. Read the words after \"to set.\"",
+          "older": "The purpose clause in 6:19 (\"to set ... there\") names the object."
+        },
+        "extended_explanation": "The inner sanctuary was the Most Holy Place at the rear of the temple. Read 1 Kings 6:19 to see what belonged there.",
+        "takeaway": "The inner sanctuary was prepared to set the ark of the covenant of the LORD there."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 10",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The queen of Sheba heard of Solomon's fame. What did she come to test him with?",
+        "child": "A queen from the faraway land of Sheba came to visit Solomon. What did she test him with?",
+        "teen": "Why did the queen of Sheba make the long trip to Solomon? What did she test him with?",
+        "older": "According to 1 Kings 10:1, how did the queen of Sheba come to test Solomon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hard questions"
+        },
+        {
+          "id": "b",
+          "text": "A large army"
+        },
+        {
+          "id": "c",
+          "text": "A treaty of peace"
+        },
+        {
+          "id": "d",
+          "text": "A demand for tribute"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 10:1",
+            "text": "Now when the queen of Sheba heard of the fame of Solomon concerning the name of the LORD, she came to test him with hard questions.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1 Kings 10:1. It says what she used to test him.",
+          "child": "Look at the last words of 1 Kings 10:1.",
+          "teen": "1 Kings 10:1 explains why she came; the last phrase tells how she tested him.",
+          "older": "The verse gives her motive (his fame concerning the name of the LORD) and then her method."
+        },
+        "extended_explanation": "The queen came because she had heard about Solomon and the name of the LORD. Read the final words of 1 Kings 10:1.",
+        "takeaway": "The queen of Sheba came to test Solomon with hard questions."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 3",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God was pleased with Solomon's request. What did He also give Solomon that he had not asked for?",
+        "child": "God liked what Solomon asked for, so He gave him extra gifts too. What were they?",
+        "teen": "Because Solomon's request was unselfish, God added gifts he never asked for. What were they?",
+        "older": "In 1 Kings 3:13, what two things did God add that Solomon had not requested?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A bigger kingdom"
+        },
+        {
+          "id": "b",
+          "text": "Many sons and daughters"
+        },
+        {
+          "id": "c",
+          "text": "Riches and honor"
+        },
+        {
+          "id": "d",
+          "text": "Peace from every war"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 3:13",
+            "text": "And I have also given you what you have not asked: both riches and honor, so that there shall not be anyone like you among the kings all your days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Kings 3:13 begins, \"I have also given you what you have not asked.\" Read the two things named right after.",
+          "child": "Read 1 Kings 3:13. After \"what you have not asked,\" God names two gifts.",
+          "teen": "God lists two added gifts in 1 Kings 3:13, joined by \"both ... and.\"",
+          "older": "In 3:13 the phrase \"both ... and\" introduces the two gifts God added."
+        },
+        "extended_explanation": "Solomon asked for help to lead God's people, and God gave more than he asked. Read 1 Kings 3:13 for the two extra gifts.",
+        "takeaway": "God gave Solomon riches and honor, which he had not asked for."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 3",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Two women each claimed the same baby. When King Solomon decided the case, what did the real mother say?",
+        "child": "Two women both said a baby boy was theirs. When the king tested them, what did the real mother say?",
+        "teen": "Solomon's test showed which woman truly loved the baby. What did the real mother say to the king?",
+        "older": "In 1 Kings 3:26, the true mother was moved with compassion. What did she ask the king to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Give her the living child"
+        },
+        {
+          "id": "b",
+          "text": "Let us share him equally"
+        },
+        {
+          "id": "c",
+          "text": "Let the king decide for us"
+        },
+        {
+          "id": "d",
+          "text": "Keep him for yourself, O king"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 3:26",
+            "text": "Then the woman whose son was living spoke to the king, for she yearned with compassion for her son; and she said, “O my lord, give her the living child, and by no means kill him!” But the other said, “Let him be neither mine nor yours, but divide him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Kings 3:26 tells how the real mother felt and then quotes her. Read her first request.",
+          "child": "Read the words of the mother who loved her son in 1 Kings 3:26.",
+          "teen": "The first quotation in 1 Kings 3:26 belongs to the real mother. Read what she asked.",
+          "older": "3:26 contrasts two responses; the real mother's words come first, after \"O my lord.\""
+        },
+        "extended_explanation": "The real mother would rather give up her son than see him harmed. That love showed the king who she was. Read her words in 1 Kings 3:26.",
+        "takeaway": "The real mother said, \"Give her the living child,\" so Solomon knew she was his mother."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 6",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Stone for the temple was finished at the quarry before it was brought in. Because of this, what was never heard at the building site?",
+        "child": "The stones for the temple were cut and shaped somewhere else. So what sounds were not heard while it was built?",
+        "teen": "Solomon's builders shaped the stone at the quarry. What did that mean you never heard at the temple site?",
+        "older": "According to 1 Kings 6:7, what tools were not heard in the temple while it was being built?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shouting or arguing"
+        },
+        {
+          "id": "b",
+          "text": "Trumpets or horns"
+        },
+        {
+          "id": "c",
+          "text": "Singing or music"
+        },
+        {
+          "id": "d",
+          "text": "Hammer or chisel"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 6:7",
+            "text": "And the temple, when it was being built, was built with stone finished at the quarry, so that no hammer or chisel or any iron tool was heard in the temple while it was being built.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 1 Kings 6:7. It lists what was not heard.",
+          "child": "Look at 1 Kings 6:7 after the words \"so that no.\"",
+          "teen": "1 Kings 6:7 explains the quarry first and then what was not heard. Read the list.",
+          "older": "The result clause of 6:7 lists the tools that went unheard."
+        },
+        "extended_explanation": "Because the stone was prepared ahead of time, the building went up quietly. Read the end of 1 Kings 6:7.",
+        "takeaway": "No hammer or chisel or any iron tool was heard in the temple while it was being built."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 6",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How long did Solomon spend building the temple until it was finished in every detail?",
+        "child": "Building the temple took a long time. How long did Solomon work on it?",
+        "teen": "From start to finish, how long did the temple take to build?",
+        "older": "According to 1 Kings 6:38, how long was Solomon in building the temple?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Three years"
+        },
+        {
+          "id": "b",
+          "text": "Seven years"
+        },
+        {
+          "id": "c",
+          "text": "Forty years"
+        },
+        {
+          "id": "d",
+          "text": "Twelve years"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 6:38",
+            "text": "And in the eleventh year, in the month of Bul, which is the eighth month, the house was finished in all its details and according to all its plans. So he was seven years in building it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 1 Kings 6:38.",
+          "child": "Look at the very end of 1 Kings 6:38.",
+          "teen": "1 Kings 6:38 gives the month it was finished and then sums up the time in its last sentence.",
+          "older": "The closing summary of 6:38 (\"So he was ... in building it\") gives the length."
+        },
+        "extended_explanation": "The temple was finished in the month of Bul, \"in all its details and according to all its plans.\" Read the final sentence of 1 Kings 6:38.",
+        "takeaway": "Solomon was seven years in building the temple."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-1ki-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 3",
+      "topics": [
+        "solomon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Solomon asked God for help to judge the people (3:9). After he settled the case of the two mothers, what did all Israel see was in him (3:28)?",
+        "child": "Solomon asked God to help him judge the people well. After the case of the two mothers, what did all Israel see in him?",
+        "teen": "How did the case of the two mothers show that God answered Solomon's prayer? What did Israel see in him?",
+        "older": "Connect 1 Kings 3:9 with 3:28. What did all Israel see was in Solomon to administer justice?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The strength of a warrior"
+        },
+        {
+          "id": "b",
+          "text": "The pride of a young king"
+        },
+        {
+          "id": "c",
+          "text": "The wisdom of God"
+        },
+        {
+          "id": "d",
+          "text": "The cleverness of a trickster"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 3:9",
+            "text": "Therefore give to Your servant an understanding heart to judge Your people, that I may discern between good and evil. For who is able to judge this great people of Yours?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 3:28",
+            "text": "And all Israel heard of the judgment which the king had rendered; and they feared the king, for they saw that the wisdom of God was in him to administer justice.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1 Kings 3:28. It says what Israel saw in the king, and it connects back to what he asked for in 3:9.",
+          "child": "Read the last part of 1 Kings 3:28. It tells what the people saw in Solomon.",
+          "teen": "1 Kings 3:28 explains why Israel feared the king. Read the words after \"they saw that.\"",
+          "older": "The clause \"for they saw that ... was in him\" in 3:28 shows how God answered the prayer of 3:9."
+        },
+        "extended_explanation": "Solomon asked to discern between good and evil, and the case of the two mothers showed that God had answered. Read 1 Kings 3:28 after \"they saw that.\"",
+        "takeaway": "All Israel saw that the wisdom of God was in Solomon to administer justice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

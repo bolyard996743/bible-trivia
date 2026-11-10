@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0036",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the garden, which creature spoke to the woman and questioned what God had said?",
+        "child": "Someone in the garden asked the woman a tricky question about God's words. Who was it?",
+        "teen": "Which creature came to the woman in Eden and asked whether God had really given His command?",
+        "older": "According to Genesis 3:1, which creature spoke to the woman and questioned God's command?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A lion"
+        },
+        {
+          "id": "b",
+          "text": "The serpent"
+        },
+        {
+          "id": "c",
+          "text": "A raven"
+        },
+        {
+          "id": "d",
+          "text": "A wild donkey"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:1",
+            "text": "Now the serpent was more cunning than any beast of the field which the LORD God had made. And he said to the woman, “Has God indeed said, ‘You shall not eat of every tree of the garden’?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:1 names this creature in its first words and describes it as more cunning than any beast of the field.",
+          "child": "Look at the very start of Genesis 3:1. It names the one who talked to the woman.",
+          "teen": "Check the opening of Genesis 3:1. The creature is named right before the verse calls it cunning.",
+          "older": "The first clause of Genesis 3:1 identifies the speaker and describes it as more cunning than any other beast the LORD God had made."
+        },
+        "extended_explanation": "Genesis 3:1 introduces the one who spoke to the woman before telling what it said. Read the opening words of the verse again.",
+        "takeaway": "The serpent spoke to the woman and questioned what God had said."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0037",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Adam and his wife ate the fruit, what did they sew together to make coverings?",
+        "child": "After they ate the fruit, Adam and his wife made coverings for themselves. What did they use?",
+        "teen": "Adam and his wife realized they were uncovered. What did they sew together to cover themselves?",
+        "older": "According to Genesis 3:7, what did Adam and his wife sew together to make coverings?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Palm branches"
+        },
+        {
+          "id": "b",
+          "text": "Olive leaves"
+        },
+        {
+          "id": "c",
+          "text": "Fig leaves"
+        },
+        {
+          "id": "d",
+          "text": "Grape vines"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:7",
+            "text": "Then the eyes of both of them were opened, and they knew that they were naked; and they sewed fig leaves together and made themselves coverings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:7 tells what the two of them sewed together. Look at the second half of the verse.",
+          "child": "Read the end of Genesis 3:7. It tells what they sewed together.",
+          "teen": "The last part of Genesis 3:7 names the plant they used for their coverings.",
+          "older": "Genesis 3:7 says they made themselves coverings; the material is named just before that phrase."
+        },
+        "extended_explanation": "After they ate, Genesis 3:7 says they knew they were uncovered and made coverings. Find which plant the verse names.",
+        "takeaway": "Adam and his wife sewed fig leaves together to make coverings."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0038",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD God called to Adam in the garden, what question did He ask?",
+        "child": "God called out to Adam in the garden. What did God ask him?",
+        "teen": "Adam had hidden from God. What was the first thing God called out to him?",
+        "older": "According to Genesis 3:9, what did the LORD God call out to Adam?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Where are you?"
+        },
+        {
+          "id": "b",
+          "text": "Why are you hiding?"
+        },
+        {
+          "id": "c",
+          "text": "What did you eat?"
+        },
+        {
+          "id": "d",
+          "text": "Who is with you?"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:9",
+            "text": "Then the LORD God called to Adam and said to him, “Where are you?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:9 records God's words to Adam. Read the short question at the end of the verse.",
+          "child": "Look at the words in quotation marks in Genesis 3:9.",
+          "teen": "The quoted question at the end of Genesis 3:9 is what God asked.",
+          "older": "Genesis 3:9 gives God's call to Adam word for word; it is the brief question in quotation marks."
+        },
+        "extended_explanation": "In Genesis 3:9 the LORD God speaks to Adam with one short question. Read the quoted words again.",
+        "takeaway": "The LORD God called to Adam, \"Where are you?\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0039",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the woman took the fruit and ate it, what did she do next?",
+        "child": "The woman ate some of the fruit. What did she do right after that?",
+        "teen": "Once the woman had eaten the fruit, what was her next step?",
+        "older": "According to Genesis 3:6, what did the woman do after she ate the fruit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kept it all for herself"
+        },
+        {
+          "id": "b",
+          "text": "Planted its seeds"
+        },
+        {
+          "id": "c",
+          "text": "Threw the rest away"
+        },
+        {
+          "id": "d",
+          "text": "Gave to her husband"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:6",
+            "text": "So when the woman saw that the tree was good for food, that it was pleasant to the eyes, and a tree desirable to make one wise, she took of its fruit and ate. She also gave to her husband with her, and he ate.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:6 continues past the moment she ate. Read the last sentence of the verse.",
+          "child": "Read the end of Genesis 3:6. It tells what she did after eating.",
+          "teen": "Look at the final sentence of Genesis 3:6 to see who else was involved.",
+          "older": "Genesis 3:6 does not stop with her eating; the closing sentence tells what she did next and who was with her."
+        },
+        "extended_explanation": "Genesis 3:6 tells two things the woman did with the fruit. The second one is in the last sentence.",
+        "takeaway": "After she ate, the woman gave the fruit to her husband, and he ate."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0040",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Adam and his wife ate the fruit, what happened to their eyes?",
+        "child": "What happened to the eyes of Adam and his wife after they ate the fruit?",
+        "teen": "Right after eating the fruit, what changed about the eyes of Adam and his wife?",
+        "older": "According to Genesis 3:7, what happened to the eyes of both of them after they ate?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Opened"
+        },
+        {
+          "id": "b",
+          "text": "Blinded"
+        },
+        {
+          "id": "c",
+          "text": "Closed"
+        },
+        {
+          "id": "d",
+          "text": "Dimmed"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:7",
+            "text": "Then the eyes of both of them were opened, and they knew that they were naked; and they sewed fig leaves together and made themselves coverings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:7 begins by telling what happened to the eyes of both of them.",
+          "child": "Read the first words of Genesis 3:7. They tell about their eyes.",
+          "teen": "The first line of Genesis 3:7 describes the change in their eyes.",
+          "older": "The first clause of Genesis 3:7 states what happened to their eyes; what follows is what they then knew."
+        },
+        "extended_explanation": "Genesis 3:7 starts with their eyes, then says what they knew and what they made. Read the first clause again.",
+        "takeaway": "After they ate, the eyes of both of them were opened."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0041",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Adam and his wife heard the LORD God walking in the garden, where did they hide?",
+        "child": "Adam and his wife heard God walking in the garden. Where did they hide?",
+        "teen": "Hearing the sound of the LORD God in the garden, Adam and his wife hid. Where did they go?",
+        "older": "According to Genesis 3:8, where did Adam and his wife hide from the presence of the LORD God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In a cave"
+        },
+        {
+          "id": "b",
+          "text": "By the river"
+        },
+        {
+          "id": "c",
+          "text": "Among the trees"
+        },
+        {
+          "id": "d",
+          "text": "Behind a large rock"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:8",
+            "text": "And they heard the sound of the LORD God walking in the garden in the cool of the day, and Adam and his wife hid themselves from the presence of the LORD God among the trees of the garden.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:8 tells where they hid. Read the last few words of the verse.",
+          "child": "Look at the very end of Genesis 3:8 for their hiding place.",
+          "teen": "The end of Genesis 3:8 names the spot where they hid.",
+          "older": "Genesis 3:8 closes by naming the place in the garden where they hid from the presence of the LORD God."
+        },
+        "extended_explanation": "Genesis 3:8 says they heard God walking in the cool of the day and hid. The hiding place is in the final phrase.",
+        "takeaway": "Adam and his wife hid among the trees of the garden."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0042",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Because Adam ate from the tree God had forbidden, what did God say was cursed for his sake?",
+        "child": "God told Adam that something would be cursed because of what he did. What was it?",
+        "teen": "After Adam ate from the forbidden tree, God named something that would be cursed for his sake. What was it?",
+        "older": "According to Genesis 3:17, what did God say was cursed for Adam's sake?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sky"
+        },
+        {
+          "id": "b",
+          "text": "The ground"
+        },
+        {
+          "id": "c",
+          "text": "The rivers and seas"
+        },
+        {
+          "id": "d",
+          "text": "The stars"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:17",
+            "text": "Then to Adam He said, “Because you have heeded the voice of your wife, and have eaten from the tree of which I commanded you, saying, ‘You shall not eat of it’: “Cursed is the ground for your sake; In toil you shall eat of it All the days of your life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:17 names what was cursed for Adam's sake. Look at the words that follow \"Cursed is.\"",
+          "child": "Read Genesis 3:17 and find the words \"Cursed is.\" The next words give the answer.",
+          "teen": "In Genesis 3:17, find where God says \"Cursed is\" and read what comes next.",
+          "older": "Genesis 3:17 gives the reason first and then states what is cursed; the answer follows the phrase \"Cursed is.\""
+        },
+        "extended_explanation": "God's words to Adam in Genesis 3:17 say that toil would follow because something was cursed. Read the verse again for what that was.",
+        "takeaway": "God said the ground was cursed for Adam's sake."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-gen-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "eden-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After sending the man out of Eden, God placed cherubim and a flaming sword at the east of the garden. What were they there to do?",
+        "child": "God put cherubim and a flaming sword at the east side of Eden. What was their job?",
+        "teen": "Why did God station cherubim and a flaming sword at the east of the garden of Eden?",
+        "older": "Reading Genesis 3:22-24 together, what was the purpose of the cherubim and the flaming sword God placed east of Eden?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To keep wild animals from coming into the garden"
+        },
+        {
+          "id": "b",
+          "text": "To light the garden at night"
+        },
+        {
+          "id": "c",
+          "text": "To welcome Adam and Eve back later"
+        },
+        {
+          "id": "d",
+          "text": "To guard the way to the tree of life"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:22",
+            "text": "Then the LORD God said, “Behold, the man has become like one of Us, to know good and evil. And now, lest he put out his hand and take also of the tree of life, and eat, and live forever”—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 3:24",
+            "text": "So He drove out the man; and He placed cherubim at the east of the garden of Eden, and a flaming sword which turned every way, to guard the way to the tree of life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 3:24 ends by stating their purpose. Genesis 3:22 shows what God did not want the man to reach out and take.",
+          "child": "Read the end of Genesis 3:24. Then look at Genesis 3:22 to see why God sent the man out.",
+          "teen": "Connect the two verses: Genesis 3:22 gives God's concern, and the last words of Genesis 3:24 give the job of the cherubim and sword.",
+          "older": "Genesis 3:22 records God's concern about the man putting out his hand to eat and live forever; the closing phrase of Genesis 3:24 states what the cherubim and sword were placed to do."
+        },
+        "extended_explanation": "God's words in Genesis 3:22 and the final phrase of Genesis 3:24 belong together. Read them side by side to see what the cherubim and the flaming sword were placed for.",
+        "takeaway": "God placed cherubim and a flaming sword to guard the way to the tree of life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

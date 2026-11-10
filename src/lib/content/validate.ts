@@ -38,6 +38,7 @@ const MASCOT_FILE = /^(judah|agnes|shalom|zion|hunter)-[a-z0-9]+(?:-[a-z0-9]+)*\
 /** Moments the question screen speaks after an answer, for every age. */
 const ANSWER_MOMENTS = ["wrong_intro", "correct", "correct_after_retry"] as const;
 const SEED_QUESTION_COUNT = 72;
+const ROOTED_QUESTION_COUNT = 200;
 
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
@@ -214,6 +215,7 @@ export function validateContentTree(root: string): ValidationResult {
     const seenBadges = new Set<string>();
     const seenQuestions = new Set<string>();
     const seedQuestionIds: string[] = [];
+    const rootedQuestionIds: string[] = [];
     let badgeCount = 0;
     stages.forEach((stage, index) => {
       const expected = KNOWLEDGE_PATH[index];
@@ -242,6 +244,12 @@ export function validateContentTree(root: string): ValidationResult {
           seenQuestions.add(id);
           if (!questionIds.has(id)) errors.push(`content/knowledge_path.json: ${badge.id} lists unknown question ${id}`);
           if (expected === "Seed") seedQuestionIds.push(id);
+          if (expected === "Rooted") rootedQuestionIds.push(id);
+        }
+        if (expected === "Rooted" && (badge.questionIds ?? []).length !== 8) {
+          errors.push(
+            `content/knowledge_path.json: ${badge.id} should list 8 questions, found ${(badge.questionIds ?? []).length}`,
+          );
         }
       }
     });
@@ -249,6 +257,11 @@ export function validateContentTree(root: string): ValidationResult {
     if (seedQuestionIds.length !== SEED_QUESTION_COUNT) {
       errors.push(
         `content/knowledge_path.json: Seed badges should list ${SEED_QUESTION_COUNT} questions, found ${seedQuestionIds.length}`,
+      );
+    }
+    if (rootedQuestionIds.length !== ROOTED_QUESTION_COUNT) {
+      errors.push(
+        `content/knowledge_path.json: Rooted badges should list ${ROOTED_QUESTION_COUNT} questions, found ${rootedQuestionIds.length}`,
       );
     }
     for (const id of seedQuestionIds) {

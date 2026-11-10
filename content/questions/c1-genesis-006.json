@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0043",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 12",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When God called Abram to leave his homeland, what did He promise to make of him?",
+        "child": "God asked Abram to leave home and promised to make him into something. What was it?",
+        "teen": "Along with the call to leave his homeland, what did God promise to make Abram into?",
+        "older": "According to Genesis 12:2, what did God promise to make of Abram?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A great nation"
+        },
+        {
+          "id": "b",
+          "text": "A mighty army"
+        },
+        {
+          "id": "c",
+          "text": "A large city of stone"
+        },
+        {
+          "id": "d",
+          "text": "A wealthy king"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 12:2",
+            "text": "I will make you a great nation; I will bless you And make your name great; And you shall be a blessing.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Genesis 12:2. God's promise begins with what He will make of Abram.",
+          "child": "Look at the beginning of Genesis 12:2 to see God's promise.",
+          "teen": "Genesis 12:2 opens with the promise. Check the first sentence.",
+          "older": "The first clause of Genesis 12:2 states what God would make of Abram, before the promises of blessing and a great name."
+        },
+        "extended_explanation": "Genesis 12:2 lists several promises to Abram. The very first one answers this question.",
+        "takeaway": "God promised to make Abram a great nation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0044",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 12",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God told Abram to leave his country. How old was Abram when he set out from Haran?",
+        "child": "Abram obeyed God and left Haran. How old was he?",
+        "teen": "How old was Abram when he left Haran, as God had told him?",
+        "older": "According to Genesis 12:4, how old was Abram when he departed from Haran?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forty"
+        },
+        {
+          "id": "b",
+          "text": "Ninety"
+        },
+        {
+          "id": "c",
+          "text": "Seventy-five"
+        },
+        {
+          "id": "d",
+          "text": "One hundred and ten"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 12:4",
+            "text": "So Abram departed as the LORD had spoken to him, and Lot went with him. And Abram was seventy-five years old when he departed from Haran.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 12:4 gives Abram's age in its second sentence.",
+          "child": "Read the last part of Genesis 12:4. It tells Abram's age.",
+          "teen": "Check the end of Genesis 12:4 for how many years old Abram was.",
+          "older": "Genesis 12:4 first notes that Lot went with him, then states Abram's age at departure."
+        },
+        "extended_explanation": "Genesis 12:4 says Abram departed as the LORD had spoken. The same verse tells his age when he left Haran.",
+        "takeaway": "Abram was seventy-five years old when he left Haran."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0045",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 15",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God brought Abram outside and told him to look toward heaven and count something. What was it?",
+        "child": "God took Abram outside and told him to look up and try counting something. What was it?",
+        "teen": "To show how many descendants Abram would have, what did God tell him to try to count?",
+        "older": "According to Genesis 15:5, what did God tell Abram to count, if he was able?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The clouds"
+        },
+        {
+          "id": "b",
+          "text": "The stars"
+        },
+        {
+          "id": "c",
+          "text": "The trees on the hills"
+        },
+        {
+          "id": "d",
+          "text": "The sheep in his flocks"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 15:5",
+            "text": "Then He brought him outside and said, “Look now toward heaven, and count the stars if you are able to number them.” And He said to him, “So shall your descendants be.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 15:5 tells what God asked Abram to count while looking toward heaven.",
+          "child": "Read Genesis 15:5. God tells Abram to look up and count something.",
+          "teen": "In Genesis 15:5, God points Abram toward heaven. See what He tells him to number.",
+          "older": "Genesis 15:5 records God's instruction to look toward heaven and count; it then says, \"So shall your descendants be.\""
+        },
+        "extended_explanation": "God used something Abram could see from outside to picture how many descendants he would have. Read Genesis 15:5 again.",
+        "takeaway": "God told Abram to count the stars, and said his descendants would be like them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0046",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 15",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Abram believed the LORD's promise. What did the LORD count his belief as?",
+        "child": "Abram trusted what God promised. What did God count that trust as?",
+        "teen": "When Abram believed God, how did God credit that belief to him?",
+        "older": "According to Genesis 15:6, what did the LORD account Abram's belief to him for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wisdom"
+        },
+        {
+          "id": "b",
+          "text": "Great strength"
+        },
+        {
+          "id": "c",
+          "text": "Perfect obedience"
+        },
+        {
+          "id": "d",
+          "text": "Righteousness"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 15:6",
+            "text": "And he believed in the LORD, and He accounted it to him for righteousness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 15:6 is short. Read the final word of the verse.",
+          "child": "Look at the last word in Genesis 15:6.",
+          "teen": "Genesis 15:6 ends with what God counted Abram's belief as.",
+          "older": "Genesis 15:6 says Abram believed in the LORD; the closing phrase gives what He accounted it to him for."
+        },
+        "extended_explanation": "Genesis 15:6 connects Abram's belief with what God credited to him. Read the end of the verse once more.",
+        "takeaway": "Abram believed the LORD, and He accounted it to him for righteousness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0047",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 22",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God told Abraham to take his son Isaac and go to a certain land. Which land was it?",
+        "child": "God sent Abraham on a trip with his son Isaac. Where did God tell him to go?",
+        "teen": "When God tested Abraham, where did He tell him to travel with Isaac?",
+        "older": "According to Genesis 22:2, to which land did God tell Abraham to take Isaac?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The land of Moriah"
+        },
+        {
+          "id": "b",
+          "text": "The city of Haran"
+        },
+        {
+          "id": "c",
+          "text": "The land of Egypt"
+        },
+        {
+          "id": "d",
+          "text": "The wilderness of Sinai"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 22:2",
+            "text": "Then He said, “Take now your son, your only son Isaac, whom you love, and go to the land of Moriah, and offer him there as a burnt offering on one of the mountains of which I shall tell you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 22:2 names the land in the middle of the verse, right after God mentions Isaac.",
+          "child": "Read Genesis 22:2. The place is named right after God says \"go to.\"",
+          "teen": "Look in Genesis 22:2 for where God told Abraham to go.",
+          "older": "Genesis 22:2 gives God's instruction, including the name of the land where Abraham was to go."
+        },
+        "extended_explanation": "Genesis 22:2 tells whom Abraham was to take and where to go. Read the second half of the verse for the place.",
+        "takeaway": "God told Abraham to go to the land of Moriah with Isaac."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0048",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 12",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the LORD appeared to Abram and promised the land to his descendants, what did Abram build there?",
+        "child": "God appeared to Abram and promised the land to his family. What did Abram build there?",
+        "teen": "Right after God promised the land to his descendants, what did Abram build?",
+        "older": "According to Genesis 12:7, what did Abram build to the LORD after He appeared to him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tower"
+        },
+        {
+          "id": "b",
+          "text": "A well"
+        },
+        {
+          "id": "c",
+          "text": "An altar"
+        },
+        {
+          "id": "d",
+          "text": "A stone house"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 12:7",
+            "text": "Then the LORD appeared to Abram and said, “To your descendants I will give this land.” And there he built an altar to the LORD, who had appeared to him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 12:7 ends by telling what Abram built to the LORD.",
+          "child": "Read the second sentence of Genesis 12:7.",
+          "teen": "Check the last sentence of Genesis 12:7 to see what Abram built.",
+          "older": "Genesis 12:7 records the promise of the land and then Abram's response; what he built is named in the closing sentence."
+        },
+        "extended_explanation": "Abram answered God's promise with worship. Genesis 12:7 names what he built.",
+        "takeaway": "Abram built an altar to the LORD, who had appeared to him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-gen-0049",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 22",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the mountain, who called to Abraham from heaven and stopped him from harming Isaac?",
+        "child": "Someone called out to Abraham from heaven and told him not to hurt Isaac. Who was it?",
+        "teen": "Who called Abraham's name twice from heaven and told him not to lay a hand on the boy?",
+        "older": "According to Genesis 22:11-12, who called to Abraham from heaven and told him not to harm his son?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Isaac his son"
+        },
+        {
+          "id": "b",
+          "text": "The Angel of the LORD"
+        },
+        {
+          "id": "c",
+          "text": "One of his young men"
+        },
+        {
+          "id": "d",
+          "text": "A shepherd on the mountain"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 22:11",
+            "text": "But the Angel of the LORD called to him from heaven and said, “Abraham, Abraham!” So he said, “Here I am.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 22:12",
+            "text": "And He said, “Do not lay your hand on the lad, or do anything to him; for now I know that you fear God, since you have not withheld your son, your only son, from Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 22:11 names who called from heaven. Read the beginning of the verse.",
+          "child": "Look at the start of Genesis 22:11 to see who called to Abraham.",
+          "teen": "The opening words of Genesis 22:11 tell who spoke from heaven.",
+          "older": "Genesis 22:11 identifies the speaker before giving the call \"Abraham, Abraham!\"; Genesis 22:12 gives the instruction."
+        },
+        "extended_explanation": "Genesis 22:11-12 tells how Abraham was stopped. Read who called from heaven at the start of verse 11.",
+        "takeaway": "The Angel of the LORD called from heaven and told Abraham not to harm Isaac."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-gen-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 22",
+      "topics": [
+        "abraham"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the way up the mountain, Abraham told Isaac that God would provide the offering. How did that come true?",
+        "child": "Abraham told Isaac that God would provide what they needed for the offering. What did God provide?",
+        "teen": "Abraham said God would provide for the offering. What did Abraham find that showed God had done it?",
+        "older": "Reading Genesis 22:8 and 22:13 together, how did God provide the offering Abraham had spoken of?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A shepherd led a goat up the mountain"
+        },
+        {
+          "id": "b",
+          "text": "Fire came down from heaven"
+        },
+        {
+          "id": "c",
+          "text": "The young men brought an ox"
+        },
+        {
+          "id": "d",
+          "text": "A ram caught in a thicket"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 22:8",
+            "text": "And Abraham said, “My son, God will provide for Himself the lamb for a burnt offering.” So the two of them went together.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 22:13",
+            "text": "Then Abraham lifted his eyes and looked, and there behind him was a ram caught in a thicket by its horns. So Abraham went and took the ram, and offered it up for a burnt offering instead of his son.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Compare Abraham's words in Genesis 22:8 with what he saw when he lifted his eyes in Genesis 22:13.",
+          "child": "Read Genesis 22:13. Look at what Abraham saw behind him.",
+          "teen": "Genesis 22:8 makes a promise; Genesis 22:13 shows how it came true. Look at what was behind Abraham.",
+          "older": "Genesis 22:8 records Abraham's confidence that God would provide; Genesis 22:13 describes what he saw behind him and offered instead of his son."
+        },
+        "extended_explanation": "Abraham's words in Genesis 22:8 point ahead to Genesis 22:13. Read what Abraham found behind him, and notice it was offered instead of Isaac.",
+        "takeaway": "God provided a ram caught in a thicket, which Abraham offered instead of his son."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}
