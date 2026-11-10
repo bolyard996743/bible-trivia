@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-mark-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mrk-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the synagogue at Capernaum, Jesus commanded an unclean spirit to come out of a man. What did the amazed people say the unclean spirits do?",
+        "child": "Jesus told an evil spirit to leave a man in the synagogue at Capernaum. What did the amazed people say about the spirits?",
+        "teen": "After the scene in the Capernaum synagogue, the crowd talked about Jesus' authority. What did they say even the unclean spirits do?",
+        "older": "In Mark 1:27, what did the people say the unclean spirits do when Jesus commands them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They argue with Him"
+        },
+        {
+          "id": "b",
+          "text": "They obey Him"
+        },
+        {
+          "id": "c",
+          "text": "They hide from Him"
+        },
+        {
+          "id": "d",
+          "text": "They mock Him"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:27",
+            "text": "Then they were all amazed, so that they questioned among themselves, saying, “What is this? What new doctrine is this? For with authority He commands even the unclean spirits, and they obey Him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the very end of the people's words in Mark 1:27.",
+          "child": "Look at the last words of Mark 1:27.",
+          "teen": "Mark 1:27 quotes the crowd's questions and then their conclusion. Read the final words.",
+          "older": "The crowd's reasoning in 1:27 ends with how the spirits respond to His command."
+        },
+        "extended_explanation": "The people saw that Jesus taught and acted with authority. Read the end of Mark 1:27.",
+        "takeaway": "The people said that even the unclean spirits obey Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mrk-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus took Simon's mother-in-law by the hand and lifted her up, and her fever left. What did she do next?",
+        "child": "Simon Peter's mother-in-law was sick with a fever. After Jesus healed her, what did she do?",
+        "teen": "Right after Jesus healed Simon's mother-in-law, she got up and did something. What?",
+        "older": "According to Mark 1:31, what did Simon's mother-in-law do once the fever left her?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "She went to sleep"
+        },
+        {
+          "id": "b",
+          "text": "She ran to tell the town"
+        },
+        {
+          "id": "c",
+          "text": "She served them"
+        },
+        {
+          "id": "d",
+          "text": "She went to the synagogue"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:31",
+            "text": "So He came and took her by the hand and lifted her up, and immediately the fever left her. And she served them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of Mark 1:31.",
+          "child": "Look at the end of Mark 1:31.",
+          "teen": "Mark 1:31 tells how Jesus healed her and then, in a short last sentence, what she did.",
+          "older": "The final sentence of 1:31 shows the healing was immediate and complete by what she was able to do."
+        },
+        "extended_explanation": "The healing was so complete that she could get right back to work. Read the last sentence of Mark 1:31.",
+        "takeaway": "Her fever left her, and she served them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mrk-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A leper knelt and said to Jesus, \"If You are willing, You can make me clean.\" Moved with compassion, what did Jesus do with His hand?",
+        "child": "A man with leprosy begged Jesus to make him clean. Jesus felt compassion. What did He do?",
+        "teen": "Lepers were kept at a distance, but this one asked Jesus for help. What did Jesus do?",
+        "older": "In Mark 1:41, what did Jesus do as He said, \"I am willing; be cleansed\"?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Touched him"
+        },
+        {
+          "id": "b",
+          "text": "Told him to wait"
+        },
+        {
+          "id": "c",
+          "text": "Walked past him"
+        },
+        {
+          "id": "d",
+          "text": "Spoke from far away"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:41",
+            "text": "Then Jesus, moved with compassion, stretched out His hand and touched him, and said to him, “I am willing; be cleansed.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 1:41 says Jesus stretched out His hand. Read what He did next.",
+          "child": "Read Mark 1:41. Look for what Jesus did after He stretched out His hand.",
+          "teen": "Mark 1:41 describes two actions before Jesus speaks. The second is the answer.",
+          "older": "In 1:41 compassion leads to two actions before the spoken word; take the second."
+        },
+        "extended_explanation": "Jesus did not keep His distance. Read Mark 1:41 for what He did before He spoke.",
+        "takeaway": "Jesus stretched out His hand and touched him and said, \"I am willing; be cleansed.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mrk-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 5",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus freed the man who had lived among the tombs. When people from the area came to Jesus, how did they find the man?",
+        "child": "A man who lived among the tombs had been out of control for a long time. After Jesus helped him, how did people find him?",
+        "teen": "People expected to see the wild man from the tombs. How did they actually find him when they came to Jesus?",
+        "older": "In Mark 5:15, how was the man who had the legion when the people came to Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Still crying out"
+        },
+        {
+          "id": "b",
+          "text": "Hiding in the hills"
+        },
+        {
+          "id": "c",
+          "text": "Bound with chains again"
+        },
+        {
+          "id": "d",
+          "text": "In his right mind"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 5:15",
+            "text": "Then they came to Jesus, and saw the one who had been demon-possessed and had the legion, sitting and clothed and in his right mind. And they were afraid.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 5:15 describes the man with three phrases. Read the last one.",
+          "child": "Read Mark 5:15. It tells three ways the man was now different.",
+          "teen": "Mark 5:15 lists how the man was: sitting, clothed, and one more phrase.",
+          "older": "The threefold description in 5:15 ends with the state of his thinking."
+        },
+        "extended_explanation": "The man had been out of control, but Jesus set him free. Read the three descriptions in Mark 5:15.",
+        "takeaway": "They found him sitting, clothed, and in his right mind."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mrk-0019",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 7",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus spoke to the Syro-Phoenician woman about bread and the little dogs. What did she say even the little dogs eat?",
+        "child": "A Greek woman begged Jesus to help her daughter. She answered Him with a picture of little dogs under a table. What did she say they eat?",
+        "teen": "The Syro-Phoenician mother gave Jesus a humble, clever answer. What did she say the little dogs under the table eat?",
+        "older": "In Mark 7:28, what did the woman say the little dogs under the table eat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The children’s crumbs"
+        },
+        {
+          "id": "b",
+          "text": "Scraps from the market"
+        },
+        {
+          "id": "c",
+          "text": "Only what they find outside"
+        },
+        {
+          "id": "d",
+          "text": "Bones from the yard"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 7:28",
+            "text": "And she answered and said to Him, “Yes, Lord, yet even the little dogs under the table eat from the children’s crumbs.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the woman's answer in Mark 7:28 to the end.",
+          "child": "Look at the last words of what the woman said in Mark 7:28.",
+          "teen": "In Mark 7:28 she agrees with Jesus and then adds a \"yet.\" Read what follows.",
+          "older": "Her reply in 7:28 turns Jesus' picture with \"yet even\"; the object ends the sentence."
+        },
+        "extended_explanation": "The woman humbly trusted that even a little from Jesus would be enough. Jesus answered her, and her daughter was freed (Mark 7:29). Read her words in Mark 7:28.",
+        "takeaway": "She said even the little dogs eat from the children's crumbs, and Jesus freed her daughter."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mrk-0020",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 7",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus looked up to heaven, sighed, and said \"Ephphatha\" to a deaf man. What does that word mean?",
+        "child": "Jesus healed a man who could not hear. He said \"Ephphatha.\" What does it mean?",
+        "teen": "Mark keeps the word Jesus spoke to the deaf man, then translates it. What is the meaning of \"Ephphatha\"?",
+        "older": "According to Mark 7:34, what is the meaning of \"Ephphatha\"?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Be healed"
+        },
+        {
+          "id": "b",
+          "text": "Hear and speak"
+        },
+        {
+          "id": "c",
+          "text": "Be opened"
+        },
+        {
+          "id": "d",
+          "text": "Rise and walk"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 7:34",
+            "text": "Then, looking up to heaven, He sighed, and said to him, “Ephphatha,” that is, “Be opened.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 7:34 gives the word and then its meaning, after \"that is.\"",
+          "child": "Read the end of Mark 7:34. It explains the word for you.",
+          "teen": "Mark translates the word right after it. Look for \"that is\" in Mark 7:34.",
+          "older": "Mark's gloss follows \"that is\" in 7:34."
+        },
+        "extended_explanation": "Mark kept the word Jesus actually spoke and explained it for his readers. Read the end of Mark 7:34.",
+        "takeaway": "\"Ephphatha\" means \"Be opened,\" and the man's ears were opened."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-mrk-0021",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 8",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Bethsaida, Jesus put His hands on a blind man and asked if he saw anything. What did the man say he saw at first?",
+        "child": "Jesus was healing a blind man at Bethsaida. After the first time, Jesus asked what he could see. What did the man say?",
+        "teen": "Jesus healed the blind man at Bethsaida in two steps. After the first step, what did the man see?",
+        "older": "In Mark 8:24, how did the blind man describe what he saw before Jesus put His hands on his eyes again?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only a bright light"
+        },
+        {
+          "id": "b",
+          "text": "Men like trees, walking"
+        },
+        {
+          "id": "c",
+          "text": "Nothing at all"
+        },
+        {
+          "id": "d",
+          "text": "Shadows moving on the walls"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 8:24",
+            "text": "And he looked up and said, “I see men like trees, walking.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the man's words in Mark 8:24.",
+          "child": "Look at what the man said in Mark 8:24.",
+          "teen": "Mark 8:24 quotes the man's first description. Read it exactly.",
+          "older": "His partial sight in 8:24 is described with a comparison; read the quotation."
+        },
+        "extended_explanation": "The man could see, but not yet clearly. Jesus then put His hands on his eyes again (Mark 8:25). Read what the man said first in Mark 8:24.",
+        "takeaway": "At first the man said, \"I see men like trees, walking,\" and then he saw everyone clearly."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-mrk-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 5",
+      "topics": [
+        "healings-of-jesus"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Jesus spoke to the woman who had been ill for twelve years (5:34), news came about Jairus's daughter. What did Jesus tell Jairus (5:36)?",
+        "child": "Jesus healed a woman who had been sick for twelve years. Right after, Jairus heard sad news. What did Jesus tell him?",
+        "teen": "Two stories in Mark 5 are woven together. After Jesus spoke to the woman who touched His clothes, what did He tell Jairus when bad news came?",
+        "older": "How does Jesus' word to Jairus in Mark 5:36 echo what He told the woman in 5:34? What did He say to Jairus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Go home and wait"
+        },
+        {
+          "id": "b",
+          "text": "Ask the priests"
+        },
+        {
+          "id": "c",
+          "text": "Prepare for the worst"
+        },
+        {
+          "id": "d",
+          "text": "Only believe"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 5:34",
+            "text": "And He said to her, “Daughter, your faith has made you well. Go in peace, and be healed of your affliction.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 5:36",
+            "text": "As soon as Jesus heard the word that was spoken, He said to the ruler of the synagogue, “Do not be afraid; only believe.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Jesus' words to the ruler of the synagogue in Mark 5:36. The second part ties back to what He said to the woman in 5:34.",
+          "child": "Read what Jesus said to Jairus in Mark 5:36.",
+          "teen": "Mark 5:36 has two short commands from Jesus. Compare the second one with Mark 5:34.",
+          "older": "Jesus' word in 5:36 pairs a command not to fear with a second command that points back to what He had just said to the woman in 5:34."
+        },
+        "extended_explanation": "The woman's healing happened while Jairus was waiting. Jesus' words to her and to him point the same direction. Read Mark 5:34, then Jesus' words in 5:36.",
+        "takeaway": "Jesus told Jairus, \"Do not be afraid; only believe,\" just as the woman's faith had made her well."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

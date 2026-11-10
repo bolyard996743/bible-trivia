@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-proverbs-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-pro-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 10",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 10:12 says hatred stirs up strife. What does it say covers all sins?",
+        "child": "Proverbs 10:12 compares hatred with something better. Hatred starts fights, but what covers all sins?",
+        "teen": "In Proverbs 10:12, hatred stirs up strife. What does the second half say covers all sins?",
+        "older": "What is set against hatred in Proverbs 10:12 as the thing that covers all sins?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Silence"
+        },
+        {
+          "id": "b",
+          "text": "Time"
+        },
+        {
+          "id": "c",
+          "text": "Love"
+        },
+        {
+          "id": "d",
+          "text": "Pride"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 10:12",
+            "text": "Hatred stirs up strife, But love covers all sins.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Proverbs 10:12.",
+          "child": "Look at the second half of Proverbs 10:12, after \"But.\"",
+          "teen": "Proverbs 10:12 sets two things side by side. The second line names what covers sins.",
+          "older": "The contrast in 10:12 sets hatred against its opposite; read the subject of the second line."
+        },
+        "extended_explanation": "Hatred keeps a fight going, but its opposite helps people forgive and move on. Read the second line of Proverbs 10:12.",
+        "takeaway": "Hatred stirs up strife, but love covers all sins."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-pro-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 10",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 10:19 warns that talking too much leads to sin. What does it say a wise person does?",
+        "child": "Proverbs 10:19 says talking a lot gets people into trouble. What does a wise person do?",
+        "teen": "According to Proverbs 10:19, someone who talks endlessly will sin. What does the wise person do instead?",
+        "older": "In Proverbs 10:19, what is the mark of the one who is wise?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Restrains his lips"
+        },
+        {
+          "id": "b",
+          "text": "Speaks the loudest"
+        },
+        {
+          "id": "c",
+          "text": "Has the last word"
+        },
+        {
+          "id": "d",
+          "text": "Answers every matter quickly"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 10:19",
+            "text": "In the multitude of words sin is not lacking, But he who restrains his lips is wise.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Proverbs 10:19, after \"But he who.\"",
+          "child": "Look at the end of Proverbs 10:19.",
+          "teen": "Proverbs 10:19 has two lines. The second describes the wise person.",
+          "older": "The contrast in 10:19 sets many words against self-control in speech; read the second line."
+        },
+        "extended_explanation": "Speaking less often keeps a person out of trouble. Read the second line of Proverbs 10:19.",
+        "takeaway": "He who restrains his lips is wise."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-pro-0011",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 12",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 12:25 says anxiety weighs down a person's heart. What makes it glad?",
+        "child": "When someone feels worried and sad inside, what does Proverbs 12:25 say makes them glad?",
+        "teen": "Proverbs 12:25 talks about anxiety. What can lift an anxious heart?",
+        "older": "According to Proverbs 12:25, what makes an anxious heart glad?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "More money"
+        },
+        {
+          "id": "b",
+          "text": "A good word"
+        },
+        {
+          "id": "c",
+          "text": "Being left alone"
+        },
+        {
+          "id": "d",
+          "text": "A long nap"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 12:25",
+            "text": "Anxiety in the heart of man causes depression, But a good word makes it glad.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Proverbs 12:25.",
+          "child": "Look at the end of Proverbs 12:25.",
+          "teen": "The answer comes after \"But\" in Proverbs 12:25.",
+          "older": "The verse contrasts the weight of anxiety with a simple remedy named in the second line."
+        },
+        "extended_explanation": "Something simple can lift someone who is worried. Read the second line of Proverbs 12:25.",
+        "takeaway": "Anxiety weighs a heart down, but a good word makes it glad."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-pro-0012",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 11",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 11:13 contrasts a talebearer with someone of a faithful spirit. What does the talebearer do?",
+        "child": "A talebearer is someone who gossips. According to Proverbs 11:13, what does a talebearer do?",
+        "teen": "Proverbs 11:13 describes the gossip. What does a talebearer do?",
+        "older": "In Proverbs 11:13, what does the talebearer do, in contrast to one who conceals a matter?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tells jokes"
+        },
+        {
+          "id": "b",
+          "text": "Asks many favors"
+        },
+        {
+          "id": "c",
+          "text": "Lends money freely"
+        },
+        {
+          "id": "d",
+          "text": "Reveals secrets"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 11:13",
+            "text": "A talebearer reveals secrets, But he who is of a faithful spirit conceals a matter.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Proverbs 11:13.",
+          "child": "Look at the beginning of Proverbs 11:13, right after \"A talebearer.\"",
+          "teen": "Proverbs 11:13 begins with what a talebearer does. Read the first line.",
+          "older": "The first line of 11:13 defines the talebearer by his action."
+        },
+        "extended_explanation": "A trustworthy friend keeps a private matter private. Read Proverbs 11:13 to see what the talebearer does instead.",
+        "takeaway": "A talebearer reveals secrets, but a faithful friend conceals a matter."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-pro-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 11",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 11:14 says that where there is no counsel, the people fall. What does it say is found in many counselors?",
+        "child": "Proverbs 11:14 says people fall when they don't get advice. What comes from having many people to give advice?",
+        "teen": "According to Proverbs 11:14, what is found in the multitude of counselors?",
+        "older": "In Proverbs 11:14, what is said to be in the multitude of counselors?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Safety"
+        },
+        {
+          "id": "b",
+          "text": "Confusion"
+        },
+        {
+          "id": "c",
+          "text": "Delay"
+        },
+        {
+          "id": "d",
+          "text": "Arguing"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 11:14",
+            "text": "Where there is no counsel, the people fall; But in the multitude of counselors there is safety.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Proverbs 11:14.",
+          "child": "Look at the very last word of Proverbs 11:14.",
+          "teen": "Proverbs 11:14 contrasts no counsel with many counselors. Read the end of the second line.",
+          "older": "The contrast in 11:14 sets falling against its opposite; the final word gives it."
+        },
+        "extended_explanation": "Listening to many advisers makes a difference. Read the last word of Proverbs 11:14.",
+        "takeaway": "In the multitude of counselors there is safety."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-pro-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 12",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 12:18 says some people speak like the piercings of a sword. What does it say the tongue of the wise promotes?",
+        "child": "Proverbs 12:18 says careless words can hurt like a sword. What does a wise person's tongue bring?",
+        "teen": "Some words cut like a sword, says Proverbs 12:18. What does the tongue of the wise promote instead?",
+        "older": "In Proverbs 12:18, what is promoted by the tongue of the wise?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fear"
+        },
+        {
+          "id": "b",
+          "text": "Arguments"
+        },
+        {
+          "id": "c",
+          "text": "Health"
+        },
+        {
+          "id": "d",
+          "text": "Pride"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 12:18",
+            "text": "There is one who speaks like the piercings of a sword, But the tongue of the wise promotes health.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of the second line of Proverbs 12:18.",
+          "child": "Look at the very last word of Proverbs 12:18.",
+          "teen": "Proverbs 12:18 contrasts two kinds of speech. The last word says what the wise tongue promotes.",
+          "older": "The contrast in 12:18 sets wounding words against speech that does the opposite; read the final word."
+        },
+        "extended_explanation": "Words can hurt, but they can also do the opposite. Read the last word of Proverbs 12:18.",
+        "takeaway": "The tongue of the wise promotes health."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-pro-0015",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 12",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 12:22 says the LORD hates lying. What does it say people who deal truthfully are to Him?",
+        "child": "God does not like lies. According to Proverbs 12:22, what are honest people to the LORD?",
+        "teen": "Proverbs 12:22 contrasts liars with those who deal truthfully. What are truthful people to the LORD?",
+        "older": "In Proverbs 12:22, what are those who deal truthfully to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His servants"
+        },
+        {
+          "id": "b",
+          "text": "His delight"
+        },
+        {
+          "id": "c",
+          "text": "His judges"
+        },
+        {
+          "id": "d",
+          "text": "His concern"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 12:22",
+            "text": "Lying lips are an abomination to the LORD, But those who deal truthfully are His delight.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Proverbs 12:22, after \"those who deal truthfully are.\"",
+          "child": "Look at the last words of Proverbs 12:22.",
+          "teen": "Proverbs 12:22 has two lines. The second one ends with the answer.",
+          "older": "The second line of 12:22 is the positive counterpart to \"abomination\"; read its final words."
+        },
+        "extended_explanation": "The LORD cares about honest words. Read the last words of Proverbs 12:22.",
+        "takeaway": "Those who deal truthfully are His delight."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-pro-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 12",
+      "topics": [
+        "proverbs-words-friends"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 12:26 says the righteous should choose friends carefully. Proverbs 13:20 shows why friends matter. Who does it say will be destroyed?",
+        "child": "Proverbs 12:26 says to pick friends carefully. Proverbs 13:20 explains what can happen. Who will be destroyed?",
+        "teen": "Two proverbs work together here: 12:26 on choosing friends and 13:20 on where friendships lead. According to 13:20, who will be destroyed?",
+        "older": "Read Proverbs 12:26 with 13:20. Which person does 13:20 say will be destroyed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The one who studies alone"
+        },
+        {
+          "id": "b",
+          "text": "The friend of the poor"
+        },
+        {
+          "id": "c",
+          "text": "The one who asks many things"
+        },
+        {
+          "id": "d",
+          "text": "The companion of fools"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 12:26",
+            "text": "The righteous should choose his friends carefully, For the way of the wicked leads them astray.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 13:20",
+            "text": "He who walks with wise men will be wise, But the companion of fools will be destroyed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 12:26 warns that the way of the wicked leads people astray. Read the second line of 13:20 to see who is destroyed.",
+          "child": "Read the second half of Proverbs 13:20.",
+          "teen": "Proverbs 13:20 has two lines about who you walk with. The second line answers this.",
+          "older": "13:20 is a contrast; its second line gives the bad outcome that 12:26 warns about."
+        },
+        "extended_explanation": "The people we spend time with shape who we become. Proverbs 12:26 and 13:20 both make that point. Read the second line of 13:20.",
+        "takeaway": "He who walks with wise men will be wise, but the companion of fools will be destroyed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

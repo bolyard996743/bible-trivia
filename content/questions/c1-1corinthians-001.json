@@ -1,0 +1,497 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1corinthians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1co-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 12",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul pictures the church as a body. What does he say the eye cannot say to the hand?",
+        "child": "Paul compares the church to a human body with many parts. What can the eye NOT say to the hand?",
+        "teen": "In Paul's body picture, some parts might think they could get along alone. What can the eye not say to the hand?",
+        "older": "In 1 Corinthians 12:21, what does Paul say the eye cannot say to the hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have no need of you"
+        },
+        {
+          "id": "b",
+          "text": "You are more important than me"
+        },
+        {
+          "id": "c",
+          "text": "We should trade places with each other"
+        },
+        {
+          "id": "d",
+          "text": "Let us both go our own way"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 12:21",
+            "text": "And the eye cannot say to the hand, “I have no need of you”; nor again the head to the feet, “I have no need of you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 12:21 quotes what the eye cannot say. The head says the same thing to the feet.",
+          "child": "Read the words in quotation marks in 1 Corinthians 12:21.",
+          "teen": "The same short sentence appears twice in 12:21, once for the eye and once for the head.",
+          "older": "12:21 repeats one quoted sentence for two pairs of members; read the quotation."
+        },
+        "extended_explanation": "Paul is showing that every member of the church matters. In 12:21 the eye and the head are pictured as saying something they never should. Read the quoted words.",
+        "takeaway": "The eye cannot say to the hand, \"I have no need of you.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1co-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 12",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says believers have many different kinds of gifts. What do all those gifts have in common?",
+        "child": "God gives believers lots of different gifts. What does Paul say is behind all of them?",
+        "teen": "Gifts in the church differ a lot. According to 1 Corinthians 12:4, what stays the same behind them all?",
+        "older": "In 1 Corinthians 12:4, Paul contrasts the diversity of gifts with what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The same amount"
+        },
+        {
+          "id": "b",
+          "text": "The same Spirit"
+        },
+        {
+          "id": "c",
+          "text": "The same teacher"
+        },
+        {
+          "id": "d",
+          "text": "The same church leader"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 12:4",
+            "text": "There are diversities of gifts, but the same Spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 12:4 has two parts joined by \"but.\" Read the second part.",
+          "child": "Read the end of 1 Corinthians 12:4, after the word \"but.\"",
+          "teen": "12:4 sets up a contrast. The first half is about variety; the second half names what is shared.",
+          "older": "The adversative clause in 12:4 supplies the source common to all the gifts; 12:11 repeats the idea."
+        },
+        "extended_explanation": "Paul lists many kinds of gifts in this chapter, such as wisdom, knowledge, healings, and prophecy. He wants the church to see that the variety has one source. Read the second half of 12:4.",
+        "takeaway": "There are diversities of gifts, but the same Spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1co-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 12",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After telling the Corinthians to earnestly desire the best gifts, what does Paul say he will show them?",
+        "child": "Paul told the church to want the best gifts. Then he said he would show them something. What was it?",
+        "teen": "Paul ends his teaching on gifts with a promise to show the church something even better. What does he call it?",
+        "older": "At the close of 1 Corinthians 12, what does Paul say he will show his readers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A list of every gift"
+        },
+        {
+          "id": "b",
+          "text": "A new set of rules"
+        },
+        {
+          "id": "c",
+          "text": "A more excellent way"
+        },
+        {
+          "id": "d",
+          "text": "A faster path to wisdom"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 12:31",
+            "text": "But earnestly desire the best gifts. And yet I show you a more excellent way.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of 1 Corinthians 12:31. It tells what Paul will show them.",
+          "child": "Look at the last words of 1 Corinthians 12:31.",
+          "teen": "12:31 has two sentences. The second begins \"And yet I show you.\"",
+          "older": "The final clause of 12:31 introduces what chapter 13 goes on to describe."
+        },
+        "extended_explanation": "Chapter 12 is about gifts and members of the body. At the very end, Paul points beyond the gifts to something greater, which he describes in chapter 13. Read the end of 12:31.",
+        "takeaway": "Paul said he would show them a more excellent way."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1co-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 13",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says that speaking with the tongues of men and angels without love makes a person like what?",
+        "child": "Paul says even amazing speaking is just noise without love. What does he compare it to?",
+        "teen": "If someone speaks with the tongues of men and angels but has no love, what does Paul say they have become?",
+        "older": "According to 1 Corinthians 13:1, a person who speaks with tongues but has not love becomes like what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A trumpet with no sound"
+        },
+        {
+          "id": "b",
+          "text": "A broken harp"
+        },
+        {
+          "id": "c",
+          "text": "A silent bell"
+        },
+        {
+          "id": "d",
+          "text": "Sounding brass"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 13:1",
+            "text": "Though I speak with the tongues of men and of angels, but have not love, I have become sounding brass or a clanging cymbal.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 13:1 ends with two comparisons. Read what comes after \"I have become.\"",
+          "child": "Look at the end of 1 Corinthians 13:1. Paul names two loud, empty sounds.",
+          "teen": "Paul gives two noise pictures at the end of 13:1. One of them is among the choices.",
+          "older": "The verse closes with two images of empty noise; one of them appears in the choices."
+        },
+        "extended_explanation": "Paul says that even the most impressive speaking means little without love. At the end of 13:1 he names two noisy instruments to make the point. Read the words after \"I have become.\"",
+        "takeaway": "Without love, Paul says, he would be sounding brass or a clanging cymbal."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1co-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 13",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says prophecies, tongues, and knowledge will all pass. What does he say about love in contrast?",
+        "child": "Paul says some gifts will stop one day. What does he say about love?",
+        "teen": "In 1 Corinthians 13:8, Paul contrasts love with gifts that will pass away. What does he say about love?",
+        "older": "How does 1 Corinthians 13:8 describe love before contrasting it with prophecies, tongues, and knowledge?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Love never fails"
+        },
+        {
+          "id": "b",
+          "text": "Love grows tired"
+        },
+        {
+          "id": "c",
+          "text": "Love must be earned first"
+        },
+        {
+          "id": "d",
+          "text": "Love lasts only for a season"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 13:8",
+            "text": "Love never fails. But whether there are prophecies, they will fail; whether there are tongues, they will cease; whether there is knowledge, it will vanish away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 1 Corinthians 13:8. It is three words long.",
+          "child": "Look at the very first sentence of 1 Corinthians 13:8.",
+          "teen": "13:8 opens with a short statement about love, then lists things that will end.",
+          "older": "The opening sentence of 13:8 is the claim; the rest of the verse provides the contrast."
+        },
+        "extended_explanation": "Paul has described what love is like and what it does. In 13:8 he moves to how long it lasts, compared with gifts that will one day end. Read the opening sentence.",
+        "takeaway": "Love never fails."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1co-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says the gospel he delivered was that Christ died for our sins and was buried. On what day does he say Christ rose again?",
+        "child": "Paul reminds the church of the good news: Jesus died for our sins and was buried. On which day did He rise again?",
+        "teen": "In the gospel Paul passed on, Christ died, was buried, and rose again. When did He rise?",
+        "older": "According to 1 Corinthians 15:4, on what day did Christ rise again according to the Scriptures?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The seventh day"
+        },
+        {
+          "id": "b",
+          "text": "The third day"
+        },
+        {
+          "id": "c",
+          "text": "After forty days"
+        },
+        {
+          "id": "d",
+          "text": "The day of Pentecost"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:3",
+            "text": "For I delivered to you first of all that which I also received: that Christ died for our sins according to the Scriptures,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 15:4",
+            "text": "and that He was buried, and that He rose again the third day according to the Scriptures,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 15:4 tells when Christ rose again. Read the words after \"He rose again.\"",
+          "child": "Read 1 Corinthians 15:4 and find when Jesus rose.",
+          "teen": "15:3 covers His death; 15:4 covers His burial and when He rose.",
+          "older": "In 15:4, the timing follows \"He rose again,\" before \"according to the Scriptures.\""
+        },
+        "extended_explanation": "Paul calls this message of first importance: Christ died for our sins, He was buried, and He rose again, all according to the Scriptures. Read 15:4 for the timing.",
+        "takeaway": "Christ rose again the third day according to the Scriptures."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1co-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul lists people who saw the risen Christ. Who does he name first, before the twelve?",
+        "child": "After Jesus rose, many people saw Him. In Paul's list, who saw Him first, before the twelve?",
+        "teen": "Paul gives a list of witnesses who saw Christ after He rose. Who comes first, ahead of the twelve?",
+        "older": "In 1 Corinthians 15:5, whom does Paul name as seeing the risen Christ before the twelve?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thomas"
+        },
+        {
+          "id": "b",
+          "text": "Nicodemus"
+        },
+        {
+          "id": "c",
+          "text": "Cephas"
+        },
+        {
+          "id": "d",
+          "text": "Barnabas"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:5",
+            "text": "and that He was seen by Cephas, then by the twelve.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 15:5 names one person, then the twelve. Read the name after \"seen by.\"",
+          "child": "Read 1 Corinthians 15:5. The name comes right after \"He was seen by.\"",
+          "teen": "15:5 is short. One person is named before \"then by the twelve.\"",
+          "older": "The individual in 15:5 is named by his Aramaic name; read the word after \"seen by.\""
+        },
+        "extended_explanation": "Paul's list of witnesses goes on to over five hundred brethren, James, all the apostles, and Paul himself. The list starts in 15:5 with one person and then the twelve. Read the name in that verse.",
+        "takeaway": "Christ was seen by Cephas, then by the twelve."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-1co-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 12",
+      "topics": [
+        "love-body-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says God put the body together so there would be no division in it. What did He want the members to have, which 12:26 shows through suffering and rejoicing together?",
+        "child": "Paul says God put the body together so its parts would not be divided. What should the parts have, so that when one hurts, they all hurt?",
+        "teen": "1 Corinthians 12:26 says when one member suffers, all suffer with it. According to 12:25, what does that show the members are meant to have?",
+        "older": "Read 1 Corinthians 12:25 with 12:26. What purpose for the members does 12:25 state, which 12:26 then illustrates?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Equal rank and honor"
+        },
+        {
+          "id": "b",
+          "text": "Separate tasks with no overlap"
+        },
+        {
+          "id": "c",
+          "text": "Pride in their own strength"
+        },
+        {
+          "id": "d",
+          "text": "Care for one another"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 12:25",
+            "text": "that there should be no schism in the body, but that the members should have the same care for one another.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 12:26",
+            "text": "And if one member suffers, all the members suffer with it; or if one member is honored, all the members rejoice with it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 12:25 gives two purposes: no division, and something the members should have. Read the end of the verse, then see how 12:26 puts it into practice.",
+          "child": "Read the end of 1 Corinthians 12:25. Then read 12:26 to see what it looks like.",
+          "teen": "12:25 says \"that the members should have\" and then names it. 12:26 shows it in action.",
+          "older": "The second purpose clause of 12:25 is what 12:26 describes in shared suffering and shared honor."
+        },
+        "extended_explanation": "God gave greater honor to the parts that seem to lack it so the body would stay together. Verse 25 states what He wanted the members to have, and verse 26 shows it: they suffer together and rejoice together.",
+        "takeaway": "God wants the members of the body to have the same care for one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

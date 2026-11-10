@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-joshua-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jos-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 2",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the king of Jericho sent for the two Israelite spies, where had Rahab hidden them?",
+        "child": "Rahab kept the two spies from Israel safe from the king of Jericho. Where did she hide them?",
+        "teen": "The king's men came looking for Joshua's two spies at Rahab's house. Where were the spies hidden?",
+        "older": "According to Joshua 2:6, where had Rahab hidden the two spies?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On the roof"
+        },
+        {
+          "id": "b",
+          "text": "In the cellar"
+        },
+        {
+          "id": "c",
+          "text": "Inside a dry well"
+        },
+        {
+          "id": "d",
+          "text": "In a stable outside the city"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 2:6",
+            "text": "(But she had brought them up to the roof and hidden them with the stalks of flax, which she had laid in order on the roof.)",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 2:6 tells where she had brought the men up to. Read the first part of the verse.",
+          "child": "Read Joshua 2:6. It says where she took the spies and what she covered them with.",
+          "teen": "Joshua 2:6 is a side note in the story. It says where the spies really were while she talked to the king's men.",
+          "older": "Joshua 2:6 explains, in parentheses, where Rahab had taken the men and what she hid them under."
+        },
+        "extended_explanation": "While Rahab answered the king's messengers, the spies were hidden nearby with stalks of flax. Joshua 2:6 says where. Read it again.",
+        "takeaway": "Rahab hid the two spies on the roof under stalks of flax."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 2",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before they left, what did the two spies tell Rahab to tie in her window?",
+        "child": "The spies gave Rahab a sign to put in her window so her family would be kept safe. What was it?",
+        "teen": "To mark her house when Israel came into the land, what was Rahab supposed to bind in the window?",
+        "older": "According to Joshua 2:18 and 2:21, what did Rahab bind in her window?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A white cloth"
+        },
+        {
+          "id": "b",
+          "text": "A burning lamp"
+        },
+        {
+          "id": "c",
+          "text": "A scarlet cord"
+        },
+        {
+          "id": "d",
+          "text": "A branch of palm leaves"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 2:18",
+            "text": "unless, when we come into the land, you bind this line of scarlet cord in the window through which you let us down, and unless you bring your father, your mother, your brothers, and all your father’s household to your own home.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 2:21",
+            "text": "Then she said, “According to your words, so be it.” And she sent them away, and they departed. And she bound the scarlet cord in the window.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 2:18 names the sign the spies gave her, and Joshua 2:21 shows her doing it.",
+          "child": "Read Joshua 2:21, the last sentence. It tells what she tied in the window.",
+          "teen": "The spies' condition in Joshua 2:18 names a color and an object. Look for them.",
+          "older": "Joshua 2:18 sets the condition of the oath, and the closing words of Joshua 2:21 record that she carried it out."
+        },
+        "extended_explanation": "The spies' oath depended on one sign in the window, together with her family staying inside her house. Read Joshua 2:18 and the end of 2:21.",
+        "takeaway": "Rahab bound a scarlet cord in the window, as the spies had told her."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0010",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 14",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Which city did Joshua give to Caleb the son of Jephunneh as his inheritance?",
+        "child": "Joshua blessed Caleb and gave him a city to keep. Which city was it?",
+        "teen": "When Caleb asked for the hill country God had promised him, which city did Joshua hand over to him?",
+        "older": "According to Joshua 14:13, which city did Joshua give Caleb as an inheritance?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bethel"
+        },
+        {
+          "id": "b",
+          "text": "Hebron"
+        },
+        {
+          "id": "c",
+          "text": "Shechem"
+        },
+        {
+          "id": "d",
+          "text": "Beersheba"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 14:13",
+            "text": "And Joshua blessed him, and gave Hebron to Caleb the son of Jephunneh as an inheritance.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 14:13 names the city right after it says Joshua blessed Caleb.",
+          "child": "Read Joshua 14:13. The name of the city is in the middle of the verse.",
+          "teen": "Look at what Joshua gave to Caleb in Joshua 14:13.",
+          "older": "Joshua 14:13 records both the blessing and the gift; the city is named between them and the words \"as an inheritance.\""
+        },
+        "extended_explanation": "Caleb asked for the mountain the LORD had spoken of, and Joshua 14:13 tells which city he received. Read the verse again.",
+        "takeaway": "Joshua blessed Caleb and gave him Hebron as an inheritance."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0011",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 14",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Caleb said the other spies had made the people's hearts melt with fear. What did he say he had done instead?",
+        "child": "Long ago, the other spies scared the people. Caleb said he did something different. What was it?",
+        "teen": "When the spies came back from the land, most of them frightened Israel. How did Caleb describe his own response?",
+        "older": "In Joshua 14:8, how does Caleb contrast himself with the brethren who went up with him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kept quiet to keep the peace"
+        },
+        {
+          "id": "b",
+          "text": "Went back to Moses alone"
+        },
+        {
+          "id": "c",
+          "text": "Hid until the danger passed"
+        },
+        {
+          "id": "d",
+          "text": "Wholly followed the LORD"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 14:8",
+            "text": "Nevertheless my brethren who went up with me made the heart of the people melt, but I wholly followed the LORD my God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 14:8 starts with what the others did, then uses the word \"but\" to tell what Caleb did.",
+          "child": "Read Joshua 14:8. Find the word \"but\" and read what comes after it.",
+          "teen": "Joshua 14:8 has two halves. The second half is Caleb's answer.",
+          "older": "Joshua 14:8 sets Caleb's conduct against his brethren's; the clause after \"but\" gives it, and verses 9 and 14 repeat the same words."
+        },
+        "extended_explanation": "Caleb remembered the day the spies reported on the land. In Joshua 14:8 he tells what he did while others spread fear. Read the second half of the verse.",
+        "takeaway": "Caleb wholly followed the LORD his God when others made the people afraid."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0012",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 2",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Rahab told the spies to hide in the mountain until those chasing them returned. How long did they stay there?",
+        "child": "After Rahab helped the spies get away, they hid in the mountains. How long did they wait there?",
+        "teen": "The spies took Rahab's advice and waited in the mountain before going back to Joshua. For how long?",
+        "older": "According to Joshua 2:16 and 2:22, how long did the spies stay in the mountain?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "One day"
+        },
+        {
+          "id": "b",
+          "text": "Seven days"
+        },
+        {
+          "id": "c",
+          "text": "Three days"
+        },
+        {
+          "id": "d",
+          "text": "Twelve days"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 2:16",
+            "text": "And she said to them, “Get to the mountain, lest the pursuers meet you. Hide there three days, until the pursuers have returned. Afterward you may go your way.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 2:22",
+            "text": "They departed and went to the mountain, and stayed there three days until the pursuers returned. The pursuers sought them all along the way, but did not find them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 2:16 gives Rahab's advice, and Joshua 2:22 says they did it. Both verses give the length of time.",
+          "child": "Read Joshua 2:22. It says how long they stayed in the mountain.",
+          "teen": "Rahab named a number of days in Joshua 2:16. Joshua 2:22 shows the spies waiting that long.",
+          "older": "Joshua 2:16 states the plan and Joshua 2:22 its fulfillment; the same span of time appears in both."
+        },
+        "extended_explanation": "The spies waited until the pursuers gave up and went home. Read Joshua 2:16 and 2:22 to see how long that took.",
+        "takeaway": "The spies hid in the mountain three days, just as Rahab had told them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 21",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Israel settled in the land, what does the Bible say about every good thing the LORD had promised them?",
+        "child": "God had made many good promises to Israel. Once they lived in the land, what happened to those promises?",
+        "teen": "Looking back on everything the LORD had promised Israel, what does Joshua 21 say happened to those promises?",
+        "older": "According to Joshua 21:45, what became of the good things the LORD had spoken to Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "All came to pass"
+        },
+        {
+          "id": "b",
+          "text": "Most were delayed"
+        },
+        {
+          "id": "c",
+          "text": "Only some came true"
+        },
+        {
+          "id": "d",
+          "text": "They would come true much later on"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 21:45",
+            "text": "Not a word failed of any good thing which the LORD had spoken to the house of Israel. All came to pass.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 21:45 says not a word failed. Read the short sentence at the end of the verse.",
+          "child": "Read the very end of Joshua 21:45.",
+          "teen": "Joshua 21:45 makes the point twice, once with \"not a word failed\" and once in a short closing sentence.",
+          "older": "Joshua 21:45 states it negatively and then positively; the final three-word sentence is the answer."
+        },
+        "extended_explanation": "Joshua 21:43-45 sums up how faithful the LORD had been to His promises. Read the closing sentence of verse 45.",
+        "takeaway": "Not one good promise of the LORD failed. All came to pass."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jos-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 23",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Joshua was old, he called Israel's leaders together. He told them to take careful heed to themselves. What were they to do?",
+        "child": "Joshua gave Israel's leaders a final charge when he was old. What did he tell them to be careful to do?",
+        "teen": "In his farewell speech, Joshua warned the elders to watch themselves closely. What was the goal?",
+        "older": "In Joshua 23:11, what did Joshua tell Israel to take careful heed to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build a great temple"
+        },
+        {
+          "id": "b",
+          "text": "Love the LORD your God"
+        },
+        {
+          "id": "c",
+          "text": "Choose a new king for the tribes"
+        },
+        {
+          "id": "d",
+          "text": "Make peace treaties with the nations"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 23:11",
+            "text": "Therefore take careful heed to yourselves, that you love the LORD your God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 23:11 gives the reason for taking careful heed. Read what follows the word \"that.\"",
+          "child": "Read Joshua 23:11. It is one short sentence.",
+          "teen": "Joshua 23:11 starts with \"Therefore.\" Read the rest of the verse to see what Joshua asked of them.",
+          "older": "Joshua 23:11 is the center of the farewell charge; the clause after \"that\" states the duty."
+        },
+        "extended_explanation": "Joshua had reminded Israel how the LORD fought for them. Then in Joshua 23:11 he told them what to take careful heed to do. Read it again.",
+        "takeaway": "Joshua told Israel to take careful heed to love the LORD their God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-jos-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 2",
+      "topics": [
+        "joshua-promised-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Rahab told the spies she had heard what the LORD did for Israel. What had she come to believe about Him?",
+        "child": "Rahab helped the spies because of what she knew about Israel's God. What did she say about Him?",
+        "teen": "Rahab explained why she would help Israel instead of her own king. What did she say the LORD is?",
+        "older": "From Joshua 2:9-11, what conclusion about the LORD led Rahab to help the spies?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He is only a god of the desert"
+        },
+        {
+          "id": "b",
+          "text": "He is weaker than Jericho's gods"
+        },
+        {
+          "id": "c",
+          "text": "He rules only the Jordan River valley"
+        },
+        {
+          "id": "d",
+          "text": "He is God in heaven above"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 2:9",
+            "text": "and said to the men: “I know that the LORD has given you the land, that the terror of you has fallen on us, and that all the inhabitants of the land are fainthearted because of you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 2:11",
+            "text": "And as soon as we heard these things, our hearts melted; neither did there remain any more courage in anyone because of you, for the LORD your God, He is God in heaven above and on earth beneath.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 2:9 says she knew the LORD had given Israel the land. Joshua 2:11 ends with what she believed about Him.",
+          "child": "Read the end of Joshua 2:11. Rahab says who the LORD is.",
+          "teen": "In Joshua 2:9-11, Rahab tells what she heard and then what it taught her. Look at the last clause of verse 11.",
+          "older": "Rahab's reasoning moves from news (2:10) to fear (2:11a) to confession (2:11b); the final clause of 2:11 is her confession."
+        },
+        "extended_explanation": "Rahab's help was not only about saving herself. Joshua 2:11 ends with what she believed about Israel's God. Read that last part again.",
+        "takeaway": "Rahab believed the LORD is God in heaven above and on earth beneath, so she helped His people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

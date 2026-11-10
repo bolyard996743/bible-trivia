@@ -1,0 +1,487 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-judges-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jdg-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 6",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the Angel of the LORD came and sat under the terebinth tree at Ophrah, where was Gideon threshing wheat?",
+        "child": "Gideon was hiding his wheat from the Midianites. Where was he threshing it?",
+        "teen": "To keep his grain hidden from the Midianites, where did Gideon do his threshing?",
+        "older": "According to Judges 6:11, where was Gideon threshing wheat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On a hilltop"
+        },
+        {
+          "id": "b",
+          "text": "In the winepress"
+        },
+        {
+          "id": "c",
+          "text": "In the city gate"
+        },
+        {
+          "id": "d",
+          "text": "Beside the Jordan River"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 6:11",
+            "text": "Now the Angel of the LORD came and sat under the terebinth tree which was in Ophrah, which belonged to Joash the Abiezrite, while his son Gideon threshed wheat in the winepress, in order to hide it from the Midianites.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 6:11 tells what Gideon was doing and where. Read the end of the verse.",
+          "child": "Read the last part of Judges 6:11.",
+          "teen": "Judges 6:11 says he was hiding the wheat. Find the place named just before that.",
+          "older": "Judges 6:11 places Gideon in an unusual spot for threshing, chosen to hide the grain from Midian."
+        },
+        "extended_explanation": "Gideon was working in a hidden place because he feared the Midianites. Judges 6:11 names it. Read the verse again.",
+        "takeaway": "Gideon was threshing wheat in the winepress to hide it from the Midianites."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 6",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the Angel of the LORD appeared to Gideon, what did He call him?",
+        "child": "The Angel of the LORD greeted Gideon with a special name. What did He call him?",
+        "teen": "Gideon was hiding from the Midianites, but the Angel of the LORD gave him a bold title. What was it?",
+        "older": "According to Judges 6:12, how did the Angel of the LORD address Gideon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wise judge of Israel"
+        },
+        {
+          "id": "b",
+          "text": "Faithful servant of God"
+        },
+        {
+          "id": "c",
+          "text": "Shepherd of the people"
+        },
+        {
+          "id": "d",
+          "text": "Mighty man of valor"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 6:12",
+            "text": "And the Angel of the LORD appeared to him, and said to him, “The LORD is with you, you mighty man of valor!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 6:12 records the Angel's greeting. Read the words at the end of the quotation.",
+          "child": "Look at the end of the Angel's words in Judges 6:12.",
+          "teen": "Judges 6:12 says the LORD is with Gideon and then calls him something. Find it.",
+          "older": "The greeting in Judges 6:12 closes with a title that contrasts with Gideon's fear in verse 11."
+        },
+        "extended_explanation": "The Angel of the LORD spoke to Gideon as God saw him, not as Gideon saw himself. Read the end of Judges 6:12.",
+        "takeaway": "The Angel of the LORD called Gideon a mighty man of valor."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 6",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Gideon asked God for a sign that He would save Israel by Gideon's hand. What did Gideon put on the threshing floor?",
+        "child": "Gideon wanted to be sure God would use him. What did he lay on the threshing floor as a test?",
+        "teen": "To test God's promise, Gideon set something out overnight on the threshing floor. What was it?",
+        "older": "According to Judges 6:37, what did Gideon place on the threshing floor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A fleece of wool"
+        },
+        {
+          "id": "b",
+          "text": "A basket of grain"
+        },
+        {
+          "id": "c",
+          "text": "A ram's horn"
+        },
+        {
+          "id": "d",
+          "text": "A wooden staff and a cloak"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 6:37",
+            "text": "look, I shall put a fleece of wool on the threshing floor; if there is dew on the fleece only, and it is dry on all the ground, then I shall know that You will save Israel by my hand, as You have said.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 6:37 names what Gideon put down right after the word \"look.\"",
+          "child": "Read the start of Judges 6:37.",
+          "teen": "Judges 6:37 tells what Gideon set out and where. Read the first part of the verse.",
+          "older": "Judges 6:37 sets out the test: an item on the threshing floor and dew on it alone."
+        },
+        "extended_explanation": "Gideon asked for a sign with dew. Judges 6:37 tells what he set out to catch it. Read the first part of the verse.",
+        "takeaway": "Gideon put a fleece of wool on the threshing floor as a sign."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 6",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Gideon checked his sign early the next morning and squeezed out the dew. How much water came out?",
+        "child": "The morning after Gideon asked for a sign, he squeezed out the dew. How much water did he get?",
+        "teen": "When Gideon rose early and wrung out the dew from his test, how much water did he collect?",
+        "older": "According to Judges 6:38, how much water did Gideon wring out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A single drop"
+        },
+        {
+          "id": "b",
+          "text": "A full barrel"
+        },
+        {
+          "id": "c",
+          "text": "A bowlful of water"
+        },
+        {
+          "id": "d",
+          "text": "Enough to fill a well"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 6:38",
+            "text": "And it was so. When he rose early the next morning and squeezed the fleece together, he wrung the dew out of the fleece, a bowlful of water.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 6:38 says what Gideon did the next morning. Read the end of the verse.",
+          "child": "Read the last words of Judges 6:38.",
+          "teen": "Judges 6:38 says \"And it was so,\" then tells how much water he got.",
+          "older": "Judges 6:38 shows the sign answered in full; the amount is given at the close of the verse."
+        },
+        "extended_explanation": "God did what Gideon asked. Judges 6:38 tells what happened when he squeezed the dew out. Read the end of the verse again.",
+        "takeaway": "Gideon wrung out a bowlful of water, just as he had asked."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 7",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Gideon to send home anyone who was fearful and afraid. How many men stayed?",
+        "child": "God told Gideon to let the scared men go home. After many left, how many were still there?",
+        "teen": "After the fearful soldiers were sent away, how many men were left in Gideon's army?",
+        "older": "According to Judges 7:3, how many remained after the fearful returned home?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ten thousand"
+        },
+        {
+          "id": "b",
+          "text": "Five thousand"
+        },
+        {
+          "id": "c",
+          "text": "Twenty thousand"
+        },
+        {
+          "id": "d",
+          "text": "Thirty-two thousand"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 7:3",
+            "text": "Now therefore, proclaim in the hearing of the people, saying, ‘Whoever is fearful and afraid, let him turn and depart at once from Mount Gilead.’ ” And twenty-two thousand of the people returned, and ten thousand remained.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 7:3 gives two numbers at the end: how many went home and how many stayed. Find the second.",
+          "child": "Read the last part of Judges 7:3.",
+          "teen": "Judges 7:3 ends with how many returned and how many remained. Look for the word \"remained.\"",
+          "older": "Judges 7:3 records the result of the proclamation; the number before \"remained\" is the answer."
+        },
+        "extended_explanation": "The LORD's first step was to send the fearful home. Judges 7:3 tells how many left and how many stayed. Read the end of the verse.",
+        "takeaway": "After the fearful went home, ten thousand men remained with Gideon."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 7",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD tested Gideon's men at the water. How many lapped, putting their hand to their mouth?",
+        "child": "God had Gideon's men drink at the water. How many brought the water to their mouths with their hands?",
+        "teen": "At the water, most of Gideon's men knelt down to drink. How many lapped instead?",
+        "older": "According to Judges 7:6, how many men lapped, putting their hand to their mouth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seventy"
+        },
+        {
+          "id": "b",
+          "text": "One thousand"
+        },
+        {
+          "id": "c",
+          "text": "Twelve hundred"
+        },
+        {
+          "id": "d",
+          "text": "Three hundred"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 7:6",
+            "text": "And the number of those who lapped, putting their hand to their mouth, was three hundred men; but all the rest of the people got down on their knees to drink water.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 7:6 gives the number of those who lapped. Read the first part of the verse.",
+          "child": "Read Judges 7:6. Look for the number of men who lapped.",
+          "teen": "Judges 7:6 compares two groups. The number goes with those who put their hand to their mouth.",
+          "older": "Judges 7:6 counts only one group; the rest knelt. Find the count."
+        },
+        "extended_explanation": "The LORD said the army was still too many, so He tested them at the water. Judges 7:6 gives the number who lapped. Read it again.",
+        "takeaway": "Only three hundred men lapped, and the LORD chose them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 7",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Gideon's men blew trumpets, broke their pitchers, and held up their torches. What did they cry out?",
+        "child": "Gideon's men surrounded the enemy camp at night with trumpets, pitchers, and torches. What did they shout?",
+        "teen": "After they broke the pitchers and lifted their torches, what battle cry did Gideon's companies shout?",
+        "older": "According to Judges 7:20, what did Gideon's companies cry out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD has saved Israel from Midian today"
+        },
+        {
+          "id": "b",
+          "text": "The sword of the LORD and of Gideon"
+        },
+        {
+          "id": "c",
+          "text": "Run, for the God of Israel is here"
+        },
+        {
+          "id": "d",
+          "text": "Victory belongs to the house of Joash"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 7:20",
+            "text": "Then the three companies blew the trumpets and broke the pitchers—they held the torches in their left hands and the trumpets in their right hands for blowing—and they cried, “The sword of the LORD and of Gideon!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 7:20 ends with the words they cried. Read the quotation at the end of the verse.",
+          "child": "Look at the very end of Judges 7:20, inside the quotation marks.",
+          "teen": "Judges 7:20 describes the trumpets, pitchers, and torches, then quotes their cry.",
+          "older": "Judges 7:20 repeats the exact cry Gideon told them to use in 7:18."
+        },
+        "extended_explanation": "Gideon told his men in Judges 7:18 what to say, and in Judges 7:20 they said it. Read the words in quotation marks.",
+        "takeaway": "They cried, \"The sword of the LORD and of Gideon!\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-jdg-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 7",
+      "topics": [
+        "gideon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Why did the LORD tell Gideon he had too many soldiers to fight the Midianites?",
+        "child": "God told Gideon his army was too big. Why did God want a smaller army?",
+        "teen": "The LORD made Gideon's army smaller before the battle. What reason did He give?",
+        "older": "According to Judges 7:2, why did the LORD say Gideon's people were too many?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "There was not enough food for everyone"
+        },
+        {
+          "id": "b",
+          "text": "The soldiers were not trained for war"
+        },
+        {
+          "id": "c",
+          "text": "Lest Israel claim glory for itself"
+        },
+        {
+          "id": "d",
+          "text": "The Midianites had already run away"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 7:2",
+            "text": "And the LORD said to Gideon, “The people who are with you are too many for Me to give the Midianites into their hands, lest Israel claim glory for itself against Me, saying, ‘My own hand has saved me.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 7:2 gives God's reason, starting with the word \"lest.\" Read what Israel might say.",
+          "child": "Read Judges 7:2. Look for the word \"lest\" and read the rest of the verse.",
+          "teen": "In Judges 7:2, God explains what Israel might boast if the army stayed large.",
+          "older": "Judges 7:2 gives God's reason after the word \"lest.\" Read what Israel might say if the army stayed large."
+        },
+        "extended_explanation": "Judges 7:2 gives the LORD's reason for shrinking the army. Start at the word \"lest\" and read what Israel might have said.",
+        "takeaway": "The LORD made the army small lest Israel claim glory for itself and say, \"My own hand has saved me.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

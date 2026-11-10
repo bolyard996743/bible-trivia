@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2samuel-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2sa-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 5",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How old was David when he began to reign as king?",
+        "child": "David became king. How old was he when he started?",
+        "teen": "At what age did David begin his reign?",
+        "older": "According to 2 Samuel 5:4, how old was David when he began to reign?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thirty years old"
+        },
+        {
+          "id": "b",
+          "text": "Twenty years old"
+        },
+        {
+          "id": "c",
+          "text": "Fifty years old"
+        },
+        {
+          "id": "d",
+          "text": "Twenty-five years old"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 5:4",
+            "text": "David was thirty years old when he began to reign, and he reigned forty years.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 5:4 gives David's age at the start of his reign, then how long he reigned.",
+          "child": "Read the first part of 2 Samuel 5:4.",
+          "teen": "2 Samuel 5:4 has two numbers. The first is his age when he began.",
+          "older": "2 Samuel 5:4 summarizes David's reign: age at accession, then total length."
+        },
+        "extended_explanation": "2 Samuel 5:4 gives two facts about David's reign. Read the first one again.",
+        "takeaway": "David was thirty years old when he began to reign."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0002",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 5",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Where did the elders of Israel come to anoint David king over Israel?",
+        "child": "All the leaders of Israel came to make David their king. Where did they go?",
+        "teen": "In which town did King David make a covenant with Israel's elders and get anointed king over Israel?",
+        "older": "According to 2 Samuel 5:3, where was David anointed king over Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At Gilgal"
+        },
+        {
+          "id": "b",
+          "text": "At Bethlehem"
+        },
+        {
+          "id": "c",
+          "text": "At Hebron"
+        },
+        {
+          "id": "d",
+          "text": "At Shiloh by the tabernacle"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 5:3",
+            "text": "Therefore all the elders of Israel came to the king at Hebron, and King David made a covenant with them at Hebron before the LORD. And they anointed David king over Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 5:3 names the place twice in its first sentence.",
+          "child": "Read 2 Samuel 5:3. Look for where the elders came to the king.",
+          "teen": "2 Samuel 5:3 says where the elders came and where the covenant was made. It is the same place.",
+          "older": "2 Samuel 5:3 repeats the place name to stress the covenant setting before the anointing."
+        },
+        "extended_explanation": "All the elders of Israel came to David in one place. Read 2 Samuel 5:3 again to find it.",
+        "takeaway": "The elders of Israel anointed David king over Israel at Hebron."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0003",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 6",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the ark was brought up, what did David do before the LORD with all his might?",
+        "child": "David was full of joy as the ark of God came. What did he do with all his might?",
+        "teen": "Wearing a linen ephod, how did David celebrate before the LORD as the ark came?",
+        "older": "According to 2 Samuel 6:14, what did David do before the LORD with all his might?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wept"
+        },
+        {
+          "id": "b",
+          "text": "Danced"
+        },
+        {
+          "id": "c",
+          "text": "Prayed silently"
+        },
+        {
+          "id": "d",
+          "text": "Played the harp"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 6:14",
+            "text": "Then David danced before the LORD with all his might; and David was wearing a linen ephod.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 6:14 tells what David did and how. Read the first part of the verse.",
+          "child": "Read the start of 2 Samuel 6:14.",
+          "teen": "2 Samuel 6:14 says David did something \"before the LORD with all his might.\" Find the action.",
+          "older": "2 Samuel 6:14 describes David's worship and his clothing; the verb comes right after his name."
+        },
+        "extended_explanation": "David was full of joy as the ark came to the City of David. Read 2 Samuel 6:14 to see how he showed it.",
+        "takeaway": "David danced before the LORD with all his might."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 5",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David first reigned over Judah for seven years and six months. After that, from which city did he reign over all Israel and Judah?",
+        "child": "For seven and a half years David ruled only Judah. Then he ruled all of Israel and Judah from a new city. Which one?",
+        "teen": "After his first seven and a half years as king of Judah, where did David reign over the whole nation?",
+        "older": "According to 2 Samuel 5:5, from which city did David reign over all Israel and Judah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gibeah"
+        },
+        {
+          "id": "b",
+          "text": "Shiloh"
+        },
+        {
+          "id": "c",
+          "text": "Kirjath Jearim"
+        },
+        {
+          "id": "d",
+          "text": "Jerusalem"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 5:5",
+            "text": "In Hebron he reigned over Judah seven years and six months, and in Jerusalem he reigned thirty-three years over all Israel and Judah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 5:5 names two cities. The second one is where he reigned over all Israel and Judah.",
+          "child": "Read the second half of 2 Samuel 5:5.",
+          "teen": "2 Samuel 5:5 splits David's reign into two parts. Look at the second part.",
+          "older": "2 Samuel 5:5 divides the reign into two periods by city; the longer period answers the question."
+        },
+        "extended_explanation": "David's reign had two parts in two places. 2 Samuel 5:5 names the city for the second part. Read it again.",
+        "takeaway": "David reigned over all Israel and Judah from Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 7",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David lived in a cedar palace. Where did he say the ark of God was dwelling?",
+        "child": "David told Nathan he had a fine cedar home. Where was the ark of God staying?",
+        "teen": "Why was David bothered while living in his cedar palace? Where was the ark of God dwelling?",
+        "older": "According to 2 Samuel 7:2, where was the ark of God dwelling?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inside tent curtains"
+        },
+        {
+          "id": "b",
+          "text": "In a stone temple"
+        },
+        {
+          "id": "c",
+          "text": "In a cave"
+        },
+        {
+          "id": "d",
+          "text": "Under an oak tree near the city"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 7:2",
+            "text": "that the king said to Nathan the prophet, “See now, I dwell in a house of cedar, but the ark of God dwells inside tent curtains.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 7:2 contrasts where David lived with where the ark was. Read the end of the verse.",
+          "child": "Read the last part of 2 Samuel 7:2.",
+          "teen": "In 2 Samuel 7:2, David compares two dwellings. Find the one for the ark.",
+          "older": "2 Samuel 7:2 sets David's comfort against the ark's humbler dwelling; the second clause gives it."
+        },
+        "extended_explanation": "David noticed a difference between his home and the ark's. Read the end of 2 Samuel 7:2.",
+        "takeaway": "The ark of God dwelt inside tent curtains while David lived in cedar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 7",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Through Nathan, the LORD told David how long his throne would be established. How long?",
+        "child": "God sent Nathan with a promise about David's throne. How long would it last?",
+        "teen": "The LORD's promise to David through Nathan said his kingdom and throne would be established for how long?",
+        "older": "According to 2 Samuel 7:16, for how long would David's throne be established?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Forty years"
+        },
+        {
+          "id": "b",
+          "text": "Until he died"
+        },
+        {
+          "id": "c",
+          "text": "Forever"
+        },
+        {
+          "id": "d",
+          "text": "Seven generations"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 7:16",
+            "text": "And your house and your kingdom shall be established forever before you. Your throne shall be established forever.” ’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 7:16 ends with the same word twice. Read the end of each sentence.",
+          "child": "Read the last word of 2 Samuel 7:16.",
+          "teen": "2 Samuel 7:16 talks about David's kingdom and throne. Look at how long each would be established.",
+          "older": "2 Samuel 7:16 closes the oracle by repeating the duration of the promise for emphasis."
+        },
+        "extended_explanation": "God's promise to David reached far beyond his own lifetime. Read 2 Samuel 7:16 again and notice the word it repeats.",
+        "takeaway": "God promised that David's throne would be established forever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-2sa-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 9",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David asked if anyone was left of Saul's family so he could show him kindness. For whose sake did David want to do this?",
+        "child": "David wanted to be kind to someone from Saul's family because of a friend. Which friend?",
+        "teen": "David searched for someone from Saul's family to show kindness to. Because of whom?",
+        "older": "In 2 Samuel 9:1, for whose sake did David want to show kindness?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Samuel"
+        },
+        {
+          "id": "b",
+          "text": "Jonathan"
+        },
+        {
+          "id": "c",
+          "text": "Abner"
+        },
+        {
+          "id": "d",
+          "text": "His brother Eliab"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 9:1",
+            "text": "Now David said, “Is there still anyone who is left of the house of Saul, that I may show him kindness for Jonathan’s sake?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 9:1 ends by saying for whose sake David asked. Read the last words of his question.",
+          "child": "Read the end of 2 Samuel 9:1.",
+          "teen": "2 Samuel 9:1 is David's question. The last words name the person he wanted to honor.",
+          "older": "2 Samuel 9:1 shows David remembering a covenant friendship; the person is named in the final phrase (see also 9:7)."
+        },
+        "extended_explanation": "David remembered a dear friend from Saul's family. Read the end of 2 Samuel 9:1 to find who.",
+        "takeaway": "David showed kindness to Mephibosheth for Jonathan's sake."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-2sa-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 7",
+      "topics": [
+        "david-the-king"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David wanted to build a dwelling for the LORD. Through Nathan, what did the LORD say He would make for David instead?",
+        "child": "David wanted to build God a place to live. God turned it around. What did God say He would make for David?",
+        "teen": "Nathan's message flipped David's plan around. What would the LORD make for David?",
+        "older": "Comparing 2 Samuel 7:5 with 7:11, what did the LORD promise to make for David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A golden crown"
+        },
+        {
+          "id": "b",
+          "text": "A larger army"
+        },
+        {
+          "id": "c",
+          "text": "A new city by the sea"
+        },
+        {
+          "id": "d",
+          "text": "A house"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 7:5",
+            "text": "“Go and tell My servant David, ‘Thus says the LORD: “Would you build a house for Me to dwell in?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 7:11",
+            "text": "since the time that I commanded judges to be over My people Israel, and have caused you to rest from all your enemies. Also the LORD tells you that He will make you a house.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Samuel 7:5 asks whether David would build something for God. The last sentence of 2 Samuel 7:11 uses the same word for what God would do for David.",
+          "child": "Read God's question in 2 Samuel 7:5. Then read the last sentence of 2 Samuel 7:11.",
+          "teen": "God's question in 7:5 and His promise in 7:11 use the same word in two different ways. Find it.",
+          "older": "The wordplay links 7:5 and 7:11: the word for a building in David's plan becomes a family line in God's promise (7:12-16)."
+        },
+        "extended_explanation": "David planned to build for God, but God promised to build for David. Compare 2 Samuel 7:5 with the end of 7:11.",
+        "takeaway": "The LORD said He would make David a house, a family line whose throne would last."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

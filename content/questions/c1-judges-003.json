@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-judges-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jdg-0015",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 13",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Samson's father was a man from Zorah, of the family of the Danites. What was his name?",
+        "child": "Before Samson was born, his parents lived in Zorah. What was his father's name?",
+        "teen": "The Angel of the LORD promised a son to a couple from Zorah. What was the husband's name?",
+        "older": "According to Judges 13:2, what was the name of the man from Zorah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elkanah"
+        },
+        {
+          "id": "b",
+          "text": "Manoah"
+        },
+        {
+          "id": "c",
+          "text": "Abinoam"
+        },
+        {
+          "id": "d",
+          "text": "Jephunneh"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 13:2",
+            "text": "Now there was a certain man from Zorah, of the family of the Danites, whose name was Manoah; and his wife was barren and had no children.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 13:2 names the man from Zorah near the end of its first sentence.",
+          "child": "Read Judges 13:2. Look for \"whose name was.\"",
+          "teen": "Judges 13:2 gives his town, his family, and then his name.",
+          "older": "Judges 13:2 introduces the father by town, tribe, and name before mentioning his wife."
+        },
+        "extended_explanation": "Judges 13 begins with the family Samson would be born into. Read Judges 13:2 to find the father's name.",
+        "takeaway": "Samson's father was Manoah, a Danite from Zorah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0016",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 13",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Angel of the LORD said one thing must never come upon the promised son's head. What was it?",
+        "child": "God's messenger said something should never touch the boy's head. What was it?",
+        "teen": "Before Samson was born, the Angel of the LORD gave a rule about his head. What was never to come upon it?",
+        "older": "According to Judges 13:5, what was never to come upon the child's head?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A razor"
+        },
+        {
+          "id": "b",
+          "text": "A crown"
+        },
+        {
+          "id": "c",
+          "text": "Oil"
+        },
+        {
+          "id": "d",
+          "text": "A helmet of bronze"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 13:5",
+            "text": "For behold, you shall conceive and bear a son. And no razor shall come upon his head, for the child shall be a Nazirite to God from the womb; and he shall begin to deliver Israel out of the hand of the Philistines.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 13:5 gives a rule about the child's head in its second sentence.",
+          "child": "Read the second sentence of Judges 13:5.",
+          "teen": "Judges 13:5 says something \"shall come upon his head\" with the word \"no\" in front. Find it.",
+          "older": "Judges 13:5 gives the head rule before explaining why the child was set apart."
+        },
+        "extended_explanation": "The Angel of the LORD gave a special rule for this child. Judges 13:5 states it right after \"bear a son.\" Read it again.",
+        "takeaway": "No razor was to come upon Samson's head."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0017",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 13",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Angel of the LORD said the promised son would be set apart to God from the womb. What would he be called?",
+        "child": "God's messenger said the boy would belong to God in a special way from before he was born. What would he be?",
+        "teen": "From the womb, the promised child would be dedicated to God as what?",
+        "older": "In Judges 13:5, what would the child be to God from the womb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A priest"
+        },
+        {
+          "id": "b",
+          "text": "A prophet"
+        },
+        {
+          "id": "c",
+          "text": "A Nazirite"
+        },
+        {
+          "id": "d",
+          "text": "A temple servant"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 13:5",
+            "text": "For behold, you shall conceive and bear a son. And no razor shall come upon his head, for the child shall be a Nazirite to God from the womb; and he shall begin to deliver Israel out of the hand of the Philistines.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 13:5 gives the reason for the rule about his head. Read the words after \"for the child shall be.\"",
+          "child": "Read Judges 13:5 and find the words \"to God from the womb.\" Look just before them.",
+          "teen": "Judges 13:5 explains why the rule about his head mattered. Find what the child would be.",
+          "older": "Judges 13:5 names the special vow; Judges 13:7 repeats it \"to the day of his death.\""
+        },
+        "extended_explanation": "The child would be set apart in a special way his whole life. Judges 13:5 names it. Read it again.",
+        "takeaway": "Samson was to be a Nazirite to God from the womb."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 13",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Samson grew and the LORD blessed him. What began to move upon him at Mahaneh Dan?",
+        "child": "As young Samson grew up, God blessed him. Then what began to move upon him?",
+        "teen": "After Samson was born and blessed by the LORD, what began to stir him between Zorah and Eshtaol?",
+        "older": "According to Judges 13:25, what began to move upon Samson?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A great fear of the Philistines"
+        },
+        {
+          "id": "b",
+          "text": "A love for his father's fields"
+        },
+        {
+          "id": "c",
+          "text": "A dream from heaven"
+        },
+        {
+          "id": "d",
+          "text": "The Spirit of the LORD"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 13:24",
+            "text": "So the woman bore a son and called his name Samson; and the child grew, and the LORD blessed him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 13:25",
+            "text": "And the Spirit of the LORD began to move upon him at Mahaneh Dan between Zorah and Eshtaol.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 13:24 tells of his birth and growth. Judges 13:25 tells what began to move upon him.",
+          "child": "Read Judges 13:25. It starts with what began to move upon him.",
+          "teen": "Judges 13:25 is the last verse of the chapter. Read the first words.",
+          "older": "Judges 13:24-25 moves from birth to blessing to empowerment; verse 25 names the source of that power."
+        },
+        "extended_explanation": "Samson's gifts did not come from himself. Judges 13:25 says what began to move upon him. Read it again.",
+        "takeaway": "The Spirit of the LORD began to move upon Samson."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0019",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 16",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The lords of the Philistines offered Delilah silver. What did they want her to find out about Samson?",
+        "child": "The Philistine leaders paid Delilah to discover something about Samson. What did they want to know?",
+        "teen": "Why did the Philistine lords go to Delilah? What were they hoping she would learn from Samson?",
+        "older": "According to Judges 16:5, what were the Philistine lords asking Delilah to find out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Where his great strength lies"
+        },
+        {
+          "id": "b",
+          "text": "Which city he planned to attack next"
+        },
+        {
+          "id": "c",
+          "text": "How much silver he had stored up"
+        },
+        {
+          "id": "d",
+          "text": "Who his closest friends in Israel were"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 16:5",
+            "text": "And the lords of the Philistines came up to her and said to her, “Entice him, and find out where his great strength lies, and by what means we may overpower him, that we may bind him to afflict him; and every one of us will give you eleven hundred pieces of silver.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 16:5 gives the lords' request. Read the words after \"find out.\"",
+          "child": "Read Judges 16:5. Look for the words \"find out.\"",
+          "teen": "In Judges 16:5, the lords told Delilah what to discover so they could overpower Samson.",
+          "older": "Judges 16:5 states the Philistines' aim: discover his secret, then overpower and bind him. Delilah repeats it in 16:6."
+        },
+        "extended_explanation": "The Philistines wanted to overpower Samson. Judges 16:5 says what they needed to learn first. Read it again.",
+        "takeaway": "The Philistines wanted Delilah to find out where Samson's great strength lay."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0020",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 16",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the Philistines took Samson and he was put in prison in Gaza, what began to grow again?",
+        "child": "Samson ended up in a Philistine prison. While he was there, what began to grow back?",
+        "teen": "While Samson was a prisoner in Gaza, what does the Bible say started growing again?",
+        "older": "According to Judges 16:22, what began to grow again?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His trust in the Philistines"
+        },
+        {
+          "id": "b",
+          "text": "The hair of his head"
+        },
+        {
+          "id": "c",
+          "text": "His fame among the people"
+        },
+        {
+          "id": "d",
+          "text": "His family's fields"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 16:22",
+            "text": "However, the hair of his head began to grow again after it had been shaven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 16:22 is one short verse. It begins with \"However.\"",
+          "child": "Read Judges 16:22. It tells what began to grow again.",
+          "teen": "Judges 16:22 says something that had been lost was growing again. Find what it was.",
+          "older": "Judges 16:22 is a quiet turning point: something taken from Samson begins to return."
+        },
+        "extended_explanation": "Judges 16:22 hints that the story is not over. Read the verse again to see what began to grow.",
+        "takeaway": "In prison, the hair of Samson's head began to grow again."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jdg-0021",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 16",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the Philistine temple, what did Samson take hold of and brace himself against?",
+        "child": "At the end of his life, Samson pushed against something in the Philistines' temple. What was it?",
+        "teen": "When Samson called on the LORD one more time, what did he grab in the temple?",
+        "older": "According to Judges 16:29, what did Samson take hold of?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The temple doors"
+        },
+        {
+          "id": "b",
+          "text": "The altar of Dagon"
+        },
+        {
+          "id": "c",
+          "text": "The roof beams above him"
+        },
+        {
+          "id": "d",
+          "text": "The two middle pillars"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 16:29",
+            "text": "And Samson took hold of the two middle pillars which supported the temple, and he braced himself against them, one on his right and the other on his left.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 16:29 tells what Samson took hold of, one on his right and one on his left.",
+          "child": "Read Judges 16:29. It says what held up the temple.",
+          "teen": "Judges 16:29 describes what supported the temple and where Samson placed his hands.",
+          "older": "Judges 16:29 identifies the supports Samson braced against, which 16:26 also mentions."
+        },
+        "extended_explanation": "Samson asked to feel what supported the temple (Judges 16:26). Judges 16:29 tells what he took hold of. Read it again.",
+        "takeaway": "Samson took hold of the two middle pillars that supported the temple."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-jdg-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 16",
+      "topics": [
+        "samson"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Samson woke and expected to shake himself free as before. What does Judges 16:20 say he did not know?",
+        "child": "When Samson woke up, he thought he could break free like before. What did he not know?",
+        "teen": "Samson thought he could still break free. What had really happened that he did not realize?",
+        "older": "Judges 16:20 explains why Samson could not break free this time. What did he not know?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Philistines had left the city"
+        },
+        {
+          "id": "b",
+          "text": "Delilah had taken the silver"
+        },
+        {
+          "id": "c",
+          "text": "The LORD had departed from him"
+        },
+        {
+          "id": "d",
+          "text": "His parents were coming to help"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 16:20",
+            "text": "And she said, “The Philistines are upon you, Samson!” So he awoke from his sleep, and said, “I will go out as before, at other times, and shake myself free!” But he did not know that the LORD had departed from him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Judges 16:20 ends with what Samson did not know. Read the last clause.",
+          "child": "Read the very end of Judges 16:20.",
+          "teen": "Judges 16:20 shows the real reason he could not break free. Read the words after \"he did not know.\"",
+          "older": "Judges 16:20 shows what Samson's power had always depended on; the closing clause states what changed."
+        },
+        "extended_explanation": "Samson's ability to break free was never his own. Judges 16:20 ends by telling what he did not realize. Read that last part again.",
+        "takeaway": "Samson did not know that the LORD had departed from him; his strength had always come from God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

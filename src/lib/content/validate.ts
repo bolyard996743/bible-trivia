@@ -38,6 +38,7 @@ const MASCOT_FILE = /^(judah|agnes|shalom|zion|hunter)-[a-z0-9]+(?:-[a-z0-9]+)*\
 
 const SEED_QUESTION_COUNT = 72;
 const SPROUT_QUESTION_COUNT = 136;
+const ROOTED_QUESTION_COUNT = 200;
 
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
@@ -281,6 +282,7 @@ export function validateContentTree(root: string): ValidationResult {
     const seenQuestions = new Set<string>();
     const seedQuestionIds: string[] = [];
     const sproutQuestionIds: string[] = [];
+    const rootedQuestionIds: string[] = [];
     let badgeCount = 0;
     stages.forEach((stage, index) => {
       const expected = KNOWLEDGE_PATH[index];
@@ -310,6 +312,12 @@ export function validateContentTree(root: string): ValidationResult {
           if (!questionIds.has(id)) errors.push(`content/knowledge_path.json: ${badge.id} lists unknown question ${id}`);
           if (expected === "Seed") seedQuestionIds.push(id);
           if (expected === "Sprout") sproutQuestionIds.push(id);
+          if (expected === "Rooted") rootedQuestionIds.push(id);
+        }
+        if (expected === "Rooted" && (badge.questionIds ?? []).length !== 8) {
+          errors.push(
+            `content/knowledge_path.json: ${badge.id} should list 8 questions, found ${(badge.questionIds ?? []).length}`,
+          );
         }
       }
     });
@@ -331,6 +339,11 @@ export function validateContentTree(root: string): ValidationResult {
       if (strayNoted.has(once)) continue;
       strayNoted.add(once);
       errors.push(`${sproutLinesPath(line.mascot)}: ${line.question_id} is not a Sprout question`);
+    }
+    if (rootedQuestionIds.length !== ROOTED_QUESTION_COUNT) {
+      errors.push(
+        `content/knowledge_path.json: Rooted badges should list ${ROOTED_QUESTION_COUNT} questions, found ${rootedQuestionIds.length}`,
+      );
     }
   }
 

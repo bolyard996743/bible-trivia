@@ -1,0 +1,492 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1kings-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ki-0008",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 17",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elijah the Tishbite spoke to King Ahab. What did he say would not come for these years except at his word?",
+        "child": "Elijah gave King Ahab a message from God. What did he say would stop for years?",
+        "teen": "Elijah's first words to Ahab announced a long, dry time. What would not come?",
+        "older": "In 1 Kings 17:1, what did Elijah tell Ahab there would not be, except at his word?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Snow nor hail"
+        },
+        {
+          "id": "b",
+          "text": "Manna nor quail"
+        },
+        {
+          "id": "c",
+          "text": "Dew nor rain"
+        },
+        {
+          "id": "d",
+          "text": "Frost nor ice"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 17:1",
+            "text": "And Elijah the Tishbite, of the inhabitants of Gilead, said to Ahab, “As the LORD God of Israel lives, before whom I stand, there shall not be dew nor rain these years, except at my word.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Elijah's words in 1 Kings 17:1, after \"there shall not be.\"",
+          "child": "Look at what Elijah said in 1 Kings 17:1 after \"there shall not be.\"",
+          "teen": "Elijah names two things in 1 Kings 17:1 that would stop. Read his message to Ahab.",
+          "older": "Elijah's oath in 17:1 names two kinds of moisture that would be withheld."
+        },
+        "extended_explanation": "Elijah spoke as one who stood before the LORD God of Israel. Read his message in 1 Kings 17:1.",
+        "takeaway": "Elijah said there would be no dew nor rain except at his word."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0009",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 17",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While Elijah hid by the Brook Cherith, what brought him bread and meat morning and evening?",
+        "child": "God hid Elijah by a brook. What brought him food every morning and evening?",
+        "teen": "Out by the Brook Cherith, Elijah had an unusual food delivery twice a day. What brought it?",
+        "older": "According to 1 Kings 17:6, what fed Elijah by the Brook Cherith?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The ravens"
+        },
+        {
+          "id": "b",
+          "text": "An angel"
+        },
+        {
+          "id": "c",
+          "text": "A shepherd boy"
+        },
+        {
+          "id": "d",
+          "text": "Doves from heaven"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 17:6",
+            "text": "The ravens brought him bread and meat in the morning, and bread and meat in the evening; and he drank from the brook.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Kings 17:6 begins by naming what brought the food. Read the first words.",
+          "child": "Read the first words of 1 Kings 17:6.",
+          "teen": "The first two words of 1 Kings 17:6 answer this.",
+          "older": "The subject of 17:6 is the provider God had commanded in 17:4."
+        },
+        "extended_explanation": "God provided for Elijah in a surprising way while he hid. Read the start of 1 Kings 17:6.",
+        "takeaway": "The ravens brought Elijah bread and meat morning and evening."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0010",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 17",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The widow of Zarephath made Elijah a little cake first, as he asked. Afterward, what was not used up?",
+        "child": "A widow shared her last food with Elijah. After that, what never ran out?",
+        "teen": "The widow fed Elijah first, trusting God's promise. Which container was never used up?",
+        "older": "In 1 Kings 17:16, what was not used up, according to the word of the LORD by Elijah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The basket of figs"
+        },
+        {
+          "id": "b",
+          "text": "The sack of barley"
+        },
+        {
+          "id": "c",
+          "text": "The pot of honey"
+        },
+        {
+          "id": "d",
+          "text": "The bin of flour"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 17:16",
+            "text": "The bin of flour was not used up, nor did the jar of oil run dry, according to the word of the LORD which He spoke by Elijah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 1 Kings 17:16, before the words about the oil.",
+          "child": "Look at the first words of 1 Kings 17:16.",
+          "teen": "1 Kings 17:16 names two things that lasted. The first one fits the words \"not used up.\"",
+          "older": "17:16 fulfills the promise of 17:14; the first item is the one described as \"not used up.\""
+        },
+        "extended_explanation": "God kept His promise to the widow, just as Elijah said. Read the opening of 1 Kings 17:16.",
+        "takeaway": "The bin of flour was not used up, nor did the jar of oil run dry."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0011",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 17",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After her son came back to life and Elijah carried him down to her, what did the widow say she now knew Elijah was?",
+        "child": "Elijah prayed, and the widow's son came back to life. What did she say she now knew about Elijah?",
+        "teen": "Seeing her son alive again changed what the widow believed about Elijah. What did she say he was?",
+        "older": "In 1 Kings 17:24, what did the woman say she now knew Elijah to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A king's servant"
+        },
+        {
+          "id": "b",
+          "text": "A man of God"
+        },
+        {
+          "id": "c",
+          "text": "A foreign spy"
+        },
+        {
+          "id": "d",
+          "text": "A great healer"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 17:24",
+            "text": "Then the woman said to Elijah, “Now by this I know that you are a man of God, and that the word of the LORD in your mouth is the truth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the widow's words in 1 Kings 17:24, after \"Now by this I know that you are.\"",
+          "child": "Read what the woman said in 1 Kings 17:24.",
+          "teen": "The widow says two things in 1 Kings 17:24. The first is what Elijah is.",
+          "older": "Her confession in 17:24 has two parts: who Elijah is, and that the LORD's word in his mouth is the truth."
+        },
+        "extended_explanation": "The widow had seen God's word come true through Elijah. Read her words in 1 Kings 17:24.",
+        "takeaway": "The widow said, \"Now by this I know that you are a man of God.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0012",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 18",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On Mount Carmel, Elijah set a test between the LORD and Baal. How did he say the true God would answer?",
+        "child": "Elijah set up a contest on Mount Carmel. How would the real God show Himself?",
+        "teen": "Elijah's challenge on Carmel had one clear rule. How would the true God answer?",
+        "older": "According to 1 Kings 18:24, how would the true God answer?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By fire"
+        },
+        {
+          "id": "b",
+          "text": "By thunder"
+        },
+        {
+          "id": "c",
+          "text": "By a flood"
+        },
+        {
+          "id": "d",
+          "text": "By a sign in the sky"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 18:24",
+            "text": "Then you call on the name of your gods, and I will call on the name of the LORD; and the God who answers by fire, He is God.” So all the people answered and said, “It is well spoken.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Elijah's words in 1 Kings 18:24: \"the God who answers ...\"",
+          "child": "Look in 1 Kings 18:24 for the words \"the God who answers.\"",
+          "teen": "Elijah states the rule of the test in 1 Kings 18:24. Find how the true God would answer.",
+          "older": "The test's condition is stated in 18:24 just after \"the God who answers.\""
+        },
+        "extended_explanation": "Both sides would prepare an offering and call on their god. Read Elijah's rule in 1 Kings 18:24.",
+        "takeaway": "Elijah said, \"The God who answers by fire, He is God.\""
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0013",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 18",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before Elijah prayed on Mount Carmel, what did he tell the people to pour on the offering and the wood?",
+        "child": "Elijah made the test harder on purpose. What did he have people pour over his offering?",
+        "teen": "Elijah made the challenge even harder before he prayed. What did he have poured over the offering and wood?",
+        "older": "In 1 Kings 18:33, what did Elijah tell them to fill four pots with and pour on the sacrifice?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Olive oil"
+        },
+        {
+          "id": "b",
+          "text": "Wine"
+        },
+        {
+          "id": "c",
+          "text": "Water"
+        },
+        {
+          "id": "d",
+          "text": "Honey"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 18:33",
+            "text": "And he put the wood in order, cut the bull in pieces, and laid it on the wood, and said, “Fill four waterpots with water, and pour it on the burnt sacrifice and on the wood.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Elijah's command at the end of 1 Kings 18:33.",
+          "child": "Look at what Elijah said to fill the four pots with in 1 Kings 18:33.",
+          "teen": "1 Kings 18:33 quotes Elijah's order. Read what the four pots were filled with.",
+          "older": "Elijah's instruction in 18:33 names what filled the four pots (and 18:34 says it was done three times)."
+        },
+        "extended_explanation": "Elijah wanted everyone to see that only the LORD could bring the answer. Read his command in 1 Kings 18:33.",
+        "takeaway": "Elijah had them pour water on the sacrifice and on the wood."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-1ki-0014",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 19",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Horeb, the LORD passed by Elijah. After a strong wind, an earthquake, and more, what came last?",
+        "child": "God showed Elijah several mighty things on the mountain, but God was not in them. What came at the very end?",
+        "teen": "On the mountain, a wind and an earthquake rushed past Elijah. What came after all of them?",
+        "older": "According to 1 Kings 19:12, what came at the end of the signs that passed by Elijah at Horeb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A roar of thunder"
+        },
+        {
+          "id": "b",
+          "text": "A still small voice"
+        },
+        {
+          "id": "c",
+          "text": "A bright cloud of glory"
+        },
+        {
+          "id": "d",
+          "text": "A loud trumpet blast"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 19:12",
+            "text": "and after the earthquake a fire, but the LORD was not in the fire; and after the fire a still small voice.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the very last phrase of 1 Kings 19:12.",
+          "child": "Look at the end of 1 Kings 19:12.",
+          "teen": "1 Kings 19:12 says what the LORD was not in, then names what came last. Read the final phrase.",
+          "older": "The sequence ends in 19:12 with a quiet contrast to everything before it; read the final phrase."
+        },
+        "extended_explanation": "The LORD was not in the mighty signs. Then something quiet came, and Elijah went out to listen. Read the end of 1 Kings 19:12.",
+        "takeaway": "After the wind, the earthquake, and the fire came a still small voice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-1ki-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 18",
+      "topics": [
+        "elijah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elijah prayed that the people would come to know something (18:37). After the LORD answered, what did they cry out (18:39)?",
+        "child": "Elijah prayed so the people would know who the true God is. When God answered, what did the people shout?",
+        "teen": "Elijah's prayer on Carmel asked God to show the people the truth. How did the people respond when He answered?",
+        "older": "How does the people's cry in 1 Kings 18:39 answer Elijah's prayer in 18:37? What did they say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Baal has failed us today!"
+        },
+        {
+          "id": "b",
+          "text": "Elijah is a great prophet!"
+        },
+        {
+          "id": "c",
+          "text": "Let us go home in peace!"
+        },
+        {
+          "id": "d",
+          "text": "The LORD, He is God!"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 18:37",
+            "text": "Hear me, O LORD, hear me, that this people may know that You are the LORD God, and that You have turned their hearts back to You again.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 18:39",
+            "text": "Now when all the people saw it, they fell on their faces; and they said, “The LORD, He is God! The LORD, He is God!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Elijah prayed in 18:37 \"that this people may know.\" Read the people's words in 18:39 and see how they match.",
+          "child": "Read what the people said in 1 Kings 18:39 after they fell on their faces.",
+          "teen": "1 Kings 18:39 quotes the people saying the same words twice. Compare them with Elijah's prayer in 18:37.",
+          "older": "The people's confession in 18:39 echoes the words of Elijah's request in 18:37."
+        },
+        "extended_explanation": "Elijah's prayer was not about his own honor; he wanted the people turned back to God. Read the people's cry in 1 Kings 18:39.",
+        "takeaway": "The people cried, \"The LORD, He is God!\", just as Elijah had prayed they would know."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

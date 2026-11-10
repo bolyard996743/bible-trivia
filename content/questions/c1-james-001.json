@@ -1,0 +1,502 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-james-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jas-0001",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 1",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James tells believers how to think about falling into various trials. What does he say to count it?",
+        "child": "James says that when hard times come, we should think of them a certain way. What does he say to count them?",
+        "teen": "When many kinds of trials come, what does James tell believers to count it?",
+        "older": "According to James 1:2, how should believers count it when they fall into various trials?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "All joy"
+        },
+        {
+          "id": "b",
+          "text": "A sign of failure"
+        },
+        {
+          "id": "c",
+          "text": "A punishment"
+        },
+        {
+          "id": "d",
+          "text": "A reason to quit"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 1:2",
+            "text": "My brethren, count it all joy when you fall into various trials,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 1:2 tells how to count trials. Read the words after \"count it.\"",
+          "child": "Look for \"count it\" in James 1:2, and read the next words.",
+          "teen": "The answer is right after \"count it\" in 1:2.",
+          "older": "1:2 gives the instruction; 1:3 gives the reason. The instruction follows \"count it.\""
+        },
+        "extended_explanation": "James is not saying trials feel good. He says they can be counted a certain way because of what God does through them, as 1:3-4 go on to explain. Read the words after \"count it\" in 1:2.",
+        "takeaway": "James says to count it all joy when you fall into various trials."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jas-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 1",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James says believers can face trials with the right attitude because of what testing does. What does the testing of faith produce?",
+        "child": "James says that when our faith is tested, something good grows. What is it?",
+        "teen": "According to James 1:3, what does the testing of your faith produce?",
+        "older": "In James 1:3, what is produced by the testing of one's faith?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pride"
+        },
+        {
+          "id": "b",
+          "text": "Patience"
+        },
+        {
+          "id": "c",
+          "text": "Anger"
+        },
+        {
+          "id": "d",
+          "text": "Confusion"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 1:3",
+            "text": "knowing that the testing of your faith produces patience.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 1:3 ends with what testing produces. Read the last word.",
+          "child": "Look at the very last word of James 1:3.",
+          "teen": "1:3 is short: testing produces one thing, named at the end.",
+          "older": "The object of \"produces\" in 1:3 is then picked up again at the start of 1:4."
+        },
+        "extended_explanation": "James explains why trials can be welcomed: God uses the testing of faith to build something. James 1:4 says to let it have its perfect work. Read the end of 1:3.",
+        "takeaway": "The testing of your faith produces patience."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jas-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 1",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James says anyone who lacks wisdom should ask God, and ask in faith. What does he say the one who doubts is like?",
+        "child": "James says if you need wisdom, ask God and trust Him. What is a person who doubts like?",
+        "teen": "According to James 1:5-6, God gives wisdom to those who ask in faith. What picture does James use for someone who doubts?",
+        "older": "In James 1:6, what is the doubter compared to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A rock in a storm"
+        },
+        {
+          "id": "b",
+          "text": "A tree by the river"
+        },
+        {
+          "id": "c",
+          "text": "A wave of the sea"
+        },
+        {
+          "id": "d",
+          "text": "A bird on the wing"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 1:5",
+            "text": "If any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach, and it will be given to him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 1:6",
+            "text": "But let him ask in faith, with no doubting, for he who doubts is like a wave of the sea driven and tossed by the wind.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 1:6 gives a picture of the one who doubts. Read the words after \"is like.\"",
+          "child": "Find \"is like\" in James 1:6 and read what comes next.",
+          "teen": "The comparison in 1:6 follows \"he who doubts is like.\"",
+          "older": "1:6 uses a nature image for instability, which 1:8 calls being double-minded."
+        },
+        "extended_explanation": "James promises that God gives wisdom generously to those who ask. But he warns against asking while doubting, and he uses a picture of something pushed back and forth. Read the comparison in James 1:6.",
+        "takeaway": "The one who doubts is like a wave of the sea, driven and tossed by the wind."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jas-0004",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 1",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James warns against only listening to God's word. What does he tell believers to be instead?",
+        "child": "James says it is not enough just to hear God's word. What does he say we should be?",
+        "teen": "Hearing God's word is not enough, James says. What should believers be?",
+        "older": "According to James 1:22, what should believers be, and not hearers only?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Teachers of the law"
+        },
+        {
+          "id": "b",
+          "text": "Experts in debate"
+        },
+        {
+          "id": "c",
+          "text": "Keepers of the temple"
+        },
+        {
+          "id": "d",
+          "text": "Doers of the word"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 1:22",
+            "text": "But be doers of the word, and not hearers only, deceiving yourselves.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 1:22 begins with \"But be.\" Read the next words.",
+          "child": "Read the beginning of James 1:22.",
+          "teen": "1:22 contrasts two kinds of people. The one you want comes first.",
+          "older": "The first clause of 1:22 states the command; the second names the self-deception of hearing only."
+        },
+        "extended_explanation": "James says that hearing God's word without acting on it is a way of fooling yourself. He goes on to compare it to forgetting your own face after a glance in a mirror. Read the beginning of 1:22.",
+        "takeaway": "Be doers of the word, and not hearers only."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jas-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 4",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James tells believers to submit to God and resist the devil. What does he say the devil will then do?",
+        "child": "James says to give yourself to God and stand against the devil. What will the devil do then?",
+        "teen": "According to James 4:7, what happens when you resist the devil?",
+        "older": "In James 4:7, what does James promise the devil will do when resisted?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Flee from you"
+        },
+        {
+          "id": "b",
+          "text": "Grow stronger"
+        },
+        {
+          "id": "c",
+          "text": "Wait nearby"
+        },
+        {
+          "id": "d",
+          "text": "Call others to help"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 4:7",
+            "text": "Therefore submit to God. Resist the devil and he will flee from you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 4:7 ends with a promise about the devil. Read the last words.",
+          "child": "Look at the end of James 4:7.",
+          "teen": "4:7 has a command to submit, a command to resist, and a promise. Read the promise.",
+          "older": "The final clause of 4:7 states the outcome of resisting; 4:8 adds a matching promise about God."
+        },
+        "extended_explanation": "James pairs drawing near to God with standing firm against the devil. Read the end of 4:7 to see the promise, and 4:8 for what God does when we draw near.",
+        "takeaway": "Resist the devil, and he will flee from you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jas-0006",
+      "cycle": 1,
+      "tier": "foundation",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James says that faith by itself, if it does not have works, is what?",
+        "child": "James says some faith does not show up in what people do. What does he say that kind of faith is?",
+        "teen": "According to James 2:17, what is faith without works?",
+        "older": "In James 2:17, how does James describe faith that does not have works?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Strong"
+        },
+        {
+          "id": "b",
+          "text": "Dead"
+        },
+        {
+          "id": "c",
+          "text": "Enough"
+        },
+        {
+          "id": "d",
+          "text": "Hidden"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:17",
+            "text": "Thus also faith by itself, if it does not have works, is dead.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 2:17 ends with one word describing faith without works. Read the end of the verse.",
+          "child": "Look at the last word of James 2:17.",
+          "teen": "2:17 is James's conclusion after the example of the hungry brother or sister. Read its last word.",
+          "older": "2:17 draws the conclusion from 2:15-16; the predicate is its final word. James repeats it in 2:20 and 2:26."
+        },
+        "extended_explanation": "James describes someone who tells a hungry person to be warmed and filled but gives nothing. Words without help do no good. Read James 2:17 to see what he says about faith like that.",
+        "takeaway": "Faith by itself, if it does not have works, is dead."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c1-jas-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 3",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James uses ships to picture the tongue. What does he say turns a large ship wherever the pilot wants?",
+        "child": "James compares the tongue to something that steers a big ship. What turns the ship?",
+        "teen": "Big ships, driven by strong winds, are still turned by something small. What does James say it is?",
+        "older": "In James 3:4, what turns large ships wherever the pilot desires?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A strong team of rowers"
+        },
+        {
+          "id": "b",
+          "text": "A great sail"
+        },
+        {
+          "id": "c",
+          "text": "A very small rudder"
+        },
+        {
+          "id": "d",
+          "text": "The captain's loud voice"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 3:4",
+            "text": "Look also at ships: although they are so large and are driven by fierce winds, they are turned by a very small rudder wherever the pilot desires.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 3:5",
+            "text": "Even so the tongue is a little member and boasts great things. See how great a forest a little fire kindles!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 3:4 describes large ships driven by fierce winds. Read what turns them.",
+          "child": "Read James 3:4. Find what turns the ship.",
+          "teen": "In 3:4, the answer comes after \"they are turned by.\"",
+          "older": "3:4 names the steering device; 3:5 applies the image to the tongue as a little member."
+        },
+        "extended_explanation": "James uses small things that control big things: bits in horses' mouths and a part of a ship. Then in 3:5 he says the tongue is a little member that boasts great things. Read what turns the ship in 3:4.",
+        "takeaway": "A very small rudder turns a large ship, and the tongue is a little member with great power."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    },
+    {
+      "id": "c2-jas-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "james-faith-in-action"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James points to Abraham offering Isaac on the altar. According to James 2:22, how were Abraham's faith and his works related?",
+        "child": "James tells how Abraham offered his son Isaac. What does James say Abraham's faith was doing with his actions?",
+        "teen": "James uses Abraham's offering of Isaac as an example. What does 2:22 say his faith was doing with his works?",
+        "older": "Read James 2:21 with 2:22. How does James describe the relationship between Abraham's faith and his works?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Completely separate"
+        },
+        {
+          "id": "b",
+          "text": "Opposed to each other"
+        },
+        {
+          "id": "c",
+          "text": "Unrelated to his life"
+        },
+        {
+          "id": "d",
+          "text": "Working together"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:21",
+            "text": "Was not Abraham our father justified by works when he offered Isaac his son on the altar?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 2:22",
+            "text": "Do you see that faith was working together with his works, and by works faith was made perfect?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "James 2:22 asks a question about Abraham. Read what it says faith was doing with his works.",
+          "child": "Read James 2:22. Find what Abraham's faith was doing.",
+          "teen": "Look for \"faith was\" in 2:22. The next words describe how faith and works fit.",
+          "older": "2:22 states the relation in its first clause and the outcome in its second (faith made perfect by works)."
+        },
+        "extended_explanation": "Abraham believed God, and that belief showed itself when he obeyed. James 2:22 says how his faith and his deeds fit, and that his faith was made complete by what he did. Read the first part of the verse.",
+        "takeaway": "Abraham's faith was working together with his works."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Rooted stage. NKJV excerpt copied from _rooted_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Rooted"
+    }
+  ]
+}

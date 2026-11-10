@@ -462,163 +462,376 @@
           "id": "rooted-eden",
           "name": "Eden and the Fall",
           "art": "apple",
-          "questionIds": []
+          "questionIds": [
+            "c1-gen-0036",
+            "c1-gen-0037",
+            "c1-gen-0038",
+            "c1-gen-0039",
+            "c1-gen-0040",
+            "c1-gen-0041",
+            "c1-gen-0042",
+            "c2-gen-0001"
+          ]
         },
         {
           "id": "rooted-abraham",
           "name": "Abraham's Journey",
           "art": "tent",
-          "questionIds": []
+          "questionIds": [
+            "c1-gen-0043",
+            "c1-gen-0044",
+            "c1-gen-0045",
+            "c1-gen-0046",
+            "c1-gen-0047",
+            "c1-gen-0048",
+            "c1-gen-0049",
+            "c2-gen-0002"
+          ]
         },
         {
           "id": "rooted-joseph",
           "name": "Joseph",
           "art": "joseph",
           "questionIds": [
-            "c1-gen-0004",
-            "c1-gen-0007",
-            "c1-gen-0009",
-            "c1-gen-0019",
-            "c1-gen-0003",
-            "c1-gen-0005",
-            "c1-gen-0008",
-            "c1-gen-0012",
-            "c1-gen-0017"
+            "c1-gen-0050",
+            "c1-gen-0051",
+            "c1-gen-0052",
+            "c1-gen-0053",
+            "c1-gen-0054",
+            "c1-gen-0055",
+            "c1-gen-0056",
+            "c2-gen-0003"
           ]
         },
         {
           "id": "rooted-the-temptation-and-the-call",
           "name": "The Temptation and the Call",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0027",
+            "c1-mat-0028",
+            "c1-mat-0029",
+            "c1-luk-0033",
+            "c1-luk-0034",
+            "c1-jhn-0020",
+            "c1-jhn-0021",
+            "c2-luk-0001"
+          ]
         },
         {
           "id": "rooted-passover",
           "name": "Passover and the Plagues",
           "art": "door",
-          "questionIds": []
+          "questionIds": [
+            "c1-exo-0010",
+            "c1-exo-0011",
+            "c1-exo-0012",
+            "c1-exo-0013",
+            "c1-exo-0014",
+            "c1-exo-0015",
+            "c1-exo-0016",
+            "c2-exo-0001"
+          ]
         },
         {
           "id": "rooted-joshua",
           "name": "Joshua and Jericho",
           "art": "trumpet",
-          "questionIds": []
+          "questionIds": [
+            "c1-jos-0001",
+            "c1-jos-0002",
+            "c1-jos-0003",
+            "c1-jos-0004",
+            "c1-jos-0005",
+            "c1-jos-0006",
+            "c1-jos-0007",
+            "c2-jos-0001"
+          ]
         },
         {
           "id": "rooted-joshua-the-promised-land",
           "name": "Joshua: The Promised Land",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jos-0008",
+            "c1-jos-0009",
+            "c1-jos-0010",
+            "c1-jos-0011",
+            "c1-jos-0012",
+            "c1-jos-0013",
+            "c1-jos-0014",
+            "c2-jos-0002"
+          ]
         },
         {
           "id": "rooted-gideon",
           "name": "Gideon",
           "art": "jar",
-          "questionIds": []
+          "questionIds": [
+            "c1-jdg-0001",
+            "c1-jdg-0002",
+            "c1-jdg-0003",
+            "c1-jdg-0004",
+            "c1-jdg-0005",
+            "c1-jdg-0006",
+            "c1-jdg-0007",
+            "c2-jdg-0001"
+          ]
         },
         {
           "id": "rooted-deborah-and-barak",
           "name": "Deborah and Barak",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jdg-0008",
+            "c1-jdg-0009",
+            "c1-jdg-0010",
+            "c1-jdg-0011",
+            "c1-jdg-0012",
+            "c1-jdg-0013",
+            "c1-jdg-0014",
+            "c2-jdg-0002"
+          ]
         },
         {
           "id": "rooted-samson",
           "name": "Samson",
           "art": "pillars",
-          "questionIds": []
+          "questionIds": [
+            "c1-jdg-0015",
+            "c1-jdg-0016",
+            "c1-jdg-0017",
+            "c1-jdg-0018",
+            "c1-jdg-0019",
+            "c1-jdg-0020",
+            "c1-jdg-0021",
+            "c2-jdg-0003"
+          ]
         },
         {
           "id": "rooted-ruth",
           "name": "Ruth and Naomi",
           "art": "ruth",
           "questionIds": [
-            "c1-rut-0001"
+            "c1-rut-0001",
+            "c1-rut-0002",
+            "c1-rut-0003",
+            "c1-rut-0004",
+            "c1-rut-0005",
+            "c1-rut-0006",
+            "c1-rut-0007",
+            "c2-rut-0001"
           ]
         },
         {
           "id": "rooted-david-king",
           "name": "David the King",
           "art": "crown",
-          "questionIds": []
+          "questionIds": [
+            "c1-2sa-0001",
+            "c1-2sa-0002",
+            "c1-2sa-0003",
+            "c1-2sa-0004",
+            "c1-2sa-0005",
+            "c1-2sa-0006",
+            "c1-2sa-0007",
+            "c2-2sa-0001"
+          ]
         },
         {
           "id": "rooted-david-friend-and-fighter",
           "name": "David: Friend and Fighter",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-2sa-0008",
+            "c1-2sa-0009",
+            "c1-2sa-0010",
+            "c1-2sa-0011",
+            "c1-2sa-0012",
+            "c1-2sa-0013",
+            "c1-2sa-0014",
+            "c2-2sa-0002"
+          ]
         },
         {
           "id": "rooted-solomon",
           "name": "Solomon's Wisdom and Temple",
           "art": "temple",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ki-0001",
+            "c1-1ki-0002",
+            "c1-1ki-0003",
+            "c1-1ki-0004",
+            "c1-1ki-0005",
+            "c1-1ki-0006",
+            "c1-1ki-0007",
+            "c2-1ki-0001"
+          ]
         },
         {
           "id": "rooted-elijah",
           "name": "Elijah",
           "art": "raven",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ki-0008",
+            "c1-1ki-0009",
+            "c1-1ki-0010",
+            "c1-1ki-0011",
+            "c1-1ki-0012",
+            "c1-1ki-0013",
+            "c1-1ki-0014",
+            "c2-1ki-0002"
+          ]
         },
         {
           "id": "rooted-healings-of-jesus",
           "name": "Healings of Jesus",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-mrk-0015",
+            "c1-mrk-0016",
+            "c1-mrk-0017",
+            "c1-mrk-0018",
+            "c1-mrk-0019",
+            "c1-mrk-0020",
+            "c1-mrk-0021",
+            "c2-mrk-0001"
+          ]
         },
         {
           "id": "rooted-psalms-for-hard-days",
           "name": "Psalms for Hard Days",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-psa-0009",
+            "c1-psa-0010",
+            "c1-psa-0011",
+            "c1-psa-0012",
+            "c1-psa-0013",
+            "c1-psa-0014",
+            "c1-psa-0015",
+            "c2-psa-0001"
+          ]
         },
         {
           "id": "rooted-proverbs-words-and-friends",
           "name": "Proverbs: Words and Friends",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-pro-0009",
+            "c1-pro-0010",
+            "c1-pro-0011",
+            "c1-pro-0012",
+            "c1-pro-0013",
+            "c1-pro-0014",
+            "c1-pro-0015",
+            "c2-pro-0001"
+          ]
         },
         {
           "id": "rooted-esther",
           "name": "Queen Esther",
           "art": "scepter",
-          "questionIds": []
+          "questionIds": [
+            "c1-est-0001",
+            "c1-est-0002",
+            "c1-est-0003",
+            "c1-est-0004",
+            "c1-est-0005",
+            "c1-est-0006",
+            "c1-est-0007",
+            "c2-est-0001"
+          ]
         },
         {
           "id": "rooted-baptism",
           "name": "Baptism: Buried and Raised",
           "art": "wave",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0030",
+            "c1-act-0025",
+            "c1-act-0026",
+            "c1-act-0027",
+            "c1-act-0028",
+            "c1-rom-0009",
+            "c1-gal-0001",
+            "c2-act-0002"
+          ]
         },
         {
           "id": "rooted-love",
           "name": "Love and the Body of Christ",
           "art": "people",
-          "questionIds": []
+          "questionIds": [
+            "c1-1co-0001",
+            "c1-1co-0002",
+            "c1-1co-0003",
+            "c1-1co-0004",
+            "c1-1co-0005",
+            "c1-1co-0006",
+            "c1-1co-0007",
+            "c2-1co-0001"
+          ]
         },
         {
           "id": "rooted-fruit",
           "name": "Fruit of the Spirit",
           "art": "fruit-of-spirit",
-          "questionIds": []
+          "questionIds": [
+            "c1-gal-0002",
+            "c1-gal-0003",
+            "c1-gal-0004",
+            "c1-gal-0005",
+            "c1-gal-0006",
+            "c1-gal-0007",
+            "c1-gal-0008",
+            "c2-gal-0001"
+          ]
         },
         {
           "id": "rooted-romans-peace-and-everyday-love",
           "name": "Romans: Peace and Everyday Love",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-rom-0010",
+            "c1-rom-0011",
+            "c1-rom-0012",
+            "c1-rom-0013",
+            "c1-rom-0014",
+            "c1-rom-0015",
+            "c1-rom-0016",
+            "c2-rom-0001"
+          ]
         },
         {
           "id": "rooted-james",
           "name": "James: Faith in Action",
           "art": "hands",
-          "questionIds": []
+          "questionIds": [
+            "c1-jas-0001",
+            "c1-jas-0002",
+            "c1-jas-0003",
+            "c1-jas-0004",
+            "c1-jas-0005",
+            "c1-jas-0006",
+            "c1-jas-0007",
+            "c2-jas-0001"
+          ]
         },
         {
           "id": "rooted-i-am",
           "name": "The 'I Am' Sayings",
           "art": "door",
-          "questionIds": []
+          "questionIds": [
+            "c1-jhn-0022",
+            "c1-jhn-0023",
+            "c1-jhn-0024",
+            "c1-jhn-0025",
+            "c1-jhn-0026",
+            "c1-jhn-0027",
+            "c1-jhn-0028",
+            "c2-jhn-0001"
+          ]
         }
       ]
     },

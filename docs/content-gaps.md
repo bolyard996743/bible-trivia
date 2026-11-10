@@ -4,7 +4,7 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 245 questions.
+The bank has 444 questions.
 
 ## Seed
 
@@ -151,33 +151,172 @@ New questions to write:
 
 Newly baptized, about age 11–13. Easy to intermediate.
 
-Questions now: 17. Books: 5. Target pool: about 24 questions.
+Questions now: 216. Books: 21. Target pool: about 24 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
+| Love and the Body of Christ | 1 Corinthians | 1 Corinthians 12 | advanced | 1 |
+| Love and the Body of Christ | 1 Corinthians | 1 Corinthians 12 | foundation | 1 |
+| Love and the Body of Christ | 1 Corinthians | 1 Corinthians 12 | intermediate | 2 |
+| Love and the Body of Christ | 1 Corinthians | 1 Corinthians 13 | foundation | 1 |
+| Love and the Body of Christ | 1 Corinthians | 1 Corinthians 13 | intermediate | 1 |
+| Love and the Body of Christ | 1 Corinthians | 1 Corinthians 15 | foundation | 1 |
+| Love and the Body of Christ | 1 Corinthians | 1 Corinthians 15 | intermediate | 1 |
+| Solomon's Wisdom and Temple | 1 Kings | 1 Kings 10 | foundation | 1 |
+| Elijah | 1 Kings | 1 Kings 17 | foundation | 2 |
+| Elijah | 1 Kings | 1 Kings 17 | intermediate | 2 |
+| Elijah | 1 Kings | 1 Kings 18 | advanced | 1 |
+| Elijah | 1 Kings | 1 Kings 18 | foundation | 1 |
+| Elijah | 1 Kings | 1 Kings 18 | intermediate | 1 |
+| Elijah | 1 Kings | 1 Kings 19 | intermediate | 1 |
+| Solomon's Wisdom and Temple | 1 Kings | 1 Kings 3 | advanced | 1 |
+| Solomon's Wisdom and Temple | 1 Kings | 1 Kings 3 | foundation | 1 |
+| Solomon's Wisdom and Temple | 1 Kings | 1 Kings 3 | intermediate | 2 |
+| Solomon's Wisdom and Temple | 1 Kings | 1 Kings 6 | foundation | 1 |
+| Solomon's Wisdom and Temple | 1 Kings | 1 Kings 6 | intermediate | 2 |
+| David: Friend and Fighter | 2 Samuel | 2 Samuel 1 | foundation | 1 |
+| David: Friend and Fighter | 2 Samuel | 2 Samuel 1 | intermediate | 1 |
+| David: Friend and Fighter | 2 Samuel | 2 Samuel 15 | foundation | 1 |
+| David: Friend and Fighter | 2 Samuel | 2 Samuel 15 | intermediate | 1 |
+| David: Friend and Fighter | 2 Samuel | 2 Samuel 18 | advanced | 1 |
+| David: Friend and Fighter | 2 Samuel | 2 Samuel 18 | foundation | 1 |
+| David: Friend and Fighter | 2 Samuel | 2 Samuel 22 | intermediate | 2 |
+| David the King | 2 Samuel | 2 Samuel 5 | foundation | 2 |
+| David the King | 2 Samuel | 2 Samuel 5 | intermediate | 1 |
+| David the King | 2 Samuel | 2 Samuel 6 | foundation | 1 |
+| David the King | 2 Samuel | 2 Samuel 7 | advanced | 1 |
+| David the King | 2 Samuel | 2 Samuel 7 | intermediate | 2 |
+| David the King | 2 Samuel | 2 Samuel 9 | intermediate | 1 |
 | The Early Church | Acts | Acts 11 | advanced | 1 |
+| Baptism: Buried and Raised | Acts | Acts 16 | intermediate | 1 |
+| Baptism: Buried and Raised | Acts | Acts 8 | advanced | 1 |
+| Baptism: Buried and Raised | Acts | Acts 8 | foundation | 1 |
+| Baptism: Buried and Raised | Acts | Acts 8 | intermediate | 2 |
+| Queen Esther | Esther | Esther 1 | foundation | 1 |
+| Queen Esther | Esther | Esther 2 | foundation | 1 |
+| Queen Esther | Esther | Esther 3 | intermediate | 1 |
+| Queen Esther | Esther | Esther 4 | advanced | 1 |
+| Queen Esther | Esther | Esther 4 | intermediate | 2 |
+| Queen Esther | Esther | Esther 5 | foundation | 1 |
+| Queen Esther | Esther | Esther 7 | intermediate | 1 |
+| Passover and the Plagues | Exodus | Exodus 10 | intermediate | 1 |
+| Passover and the Plagues | Exodus | Exodus 11 | foundation | 1 |
+| Passover and the Plagues | Exodus | Exodus 12 | foundation | 1 |
+| Passover and the Plagues | Exodus | Exodus 12 | intermediate | 3 |
+| Passover and the Plagues | Exodus | Exodus 8 | advanced | 1 |
+| Passover and the Plagues | Exodus | Exodus 8 | foundation | 1 |
+| Fruit of the Spirit | Galatians | Galatians 2 | foundation | 1 |
+| Baptism: Buried and Raised | Galatians | Galatians 3 | foundation | 1 |
+| Fruit of the Spirit | Galatians | Galatians 5 | advanced | 1 |
+| Fruit of the Spirit | Galatians | Galatians 5 | foundation | 2 |
+| Fruit of the Spirit | Galatians | Galatians 5 | intermediate | 2 |
+| Fruit of the Spirit | Galatians | Galatians 6 | intermediate | 2 |
+| Abraham's Journey | Genesis | Genesis 12 | foundation | 2 |
+| Abraham's Journey | Genesis | Genesis 12 | intermediate | 1 |
+| Abraham's Journey | Genesis | Genesis 15 | foundation | 1 |
+| Abraham's Journey | Genesis | Genesis 15 | intermediate | 1 |
+| Abraham's Journey | Genesis | Genesis 22 | advanced | 1 |
+| Abraham's Journey | Genesis | Genesis 22 | intermediate | 2 |
+| Eden and the Fall | Genesis | Genesis 3 | advanced | 1 |
+| Eden and the Fall | Genesis | Genesis 3 | foundation | 3 |
+| Eden and the Fall | Genesis | Genesis 3 | intermediate | 4 |
+| Joseph | Genesis | Genesis 37 | foundation | 3 |
 | Joseph | Genesis | Genesis 37-50 | advanced | 4 |
 | Joseph | Genesis | Genesis 37-50 | foundation | 4 |
 | Joseph | Genesis | Genesis 37-50 | intermediate | 5 |
+| Joseph | Genesis | Genesis 39 | intermediate | 2 |
+| Joseph | Genesis | Genesis 41 | intermediate | 1 |
+| Joseph | Genesis | Genesis 45 | advanced | 1 |
+| Joseph | Genesis | Genesis 45 | intermediate | 1 |
+| James: Faith in Action | James | James 1 | foundation | 2 |
+| James: Faith in Action | James | James 1 | intermediate | 2 |
+| James: Faith in Action | James | James 2 | advanced | 1 |
+| James: Faith in Action | James | James 2 | foundation | 1 |
+| James: Faith in Action | James | James 3 | intermediate | 1 |
+| James: Faith in Action | James | James 4 | intermediate | 1 |
+| The Temptation and the Call | John | John 1 | foundation | 1 |
+| The Temptation and the Call | John | John 1 | intermediate | 1 |
+| The 'I Am' Sayings | John | John 10 | foundation | 1 |
+| The 'I Am' Sayings | John | John 10 | intermediate | 1 |
+| The 'I Am' Sayings | John | John 11 | intermediate | 1 |
+| The 'I Am' Sayings | John | John 14 | intermediate | 1 |
+| The 'I Am' Sayings | John | John 15 | intermediate | 1 |
+| The 'I Am' Sayings | John | John 6 | advanced | 1 |
+| The 'I Am' Sayings | John | John 6 | foundation | 1 |
+| The 'I Am' Sayings | John | John 8 | foundation | 1 |
+| Joshua and Jericho | Joshua | Joshua 1 | advanced | 1 |
+| Joshua and Jericho | Joshua | Joshua 1 | foundation | 2 |
+| Joshua: The Promised Land | Joshua | Joshua 14 | foundation | 1 |
+| Joshua: The Promised Land | Joshua | Joshua 14 | intermediate | 1 |
+| Joshua: The Promised Land | Joshua | Joshua 2 | advanced | 1 |
+| Joshua: The Promised Land | Joshua | Joshua 2 | foundation | 2 |
+| Joshua: The Promised Land | Joshua | Joshua 2 | intermediate | 1 |
+| Joshua: The Promised Land | Joshua | Joshua 21 | intermediate | 1 |
+| Joshua: The Promised Land | Joshua | Joshua 23 | intermediate | 1 |
+| Joshua and Jericho | Joshua | Joshua 3 | foundation | 1 |
+| Joshua and Jericho | Joshua | Joshua 3 | intermediate | 1 |
+| Joshua and Jericho | Joshua | Joshua 6 | intermediate | 3 |
+| Samson | Judges | Judges 13 | foundation | 3 |
+| Samson | Judges | Judges 13 | intermediate | 1 |
+| Samson | Judges | Judges 16 | advanced | 1 |
+| Samson | Judges | Judges 16 | intermediate | 3 |
+| Deborah and Barak | Judges | Judges 4 | advanced | 1 |
+| Deborah and Barak | Judges | Judges 4 | foundation | 3 |
+| Deborah and Barak | Judges | Judges 4 | intermediate | 3 |
+| Deborah and Barak | Judges | Judges 5 | intermediate | 1 |
+| Gideon | Judges | Judges 6 | foundation | 3 |
+| Gideon | Judges | Judges 6 | intermediate | 1 |
+| Gideon | Judges | Judges 7 | advanced | 1 |
+| Gideon | Judges | Judges 7 | intermediate | 3 |
+| The Temptation and the Call | Luke | Luke 4 | advanced | 1 |
+| The Temptation and the Call | Luke | Luke 4 | intermediate | 2 |
+| Healings of Jesus | Mark | Mark 1 | foundation | 3 |
+| Healings of Jesus | Mark | Mark 5 | advanced | 1 |
+| Healings of Jesus | Mark | Mark 5 | intermediate | 1 |
+| Healings of Jesus | Mark | Mark 7 | intermediate | 2 |
+| Healings of Jesus | Mark | Mark 8 | intermediate | 1 |
+| Baptism: Buried and Raised | Matthew | Matthew 28 | foundation | 1 |
+| The Temptation and the Call | Matthew | Matthew 4 | foundation | 2 |
+| The Temptation and the Call | Matthew | Matthew 4 | intermediate | 1 |
 | Jesus' Birth | Micah | Micah 5 | advanced | 1 |
+| Proverbs: Words and Friends | Proverbs | Proverbs 10 | foundation | 2 |
+| Proverbs: Words and Friends | Proverbs | Proverbs 11 | intermediate | 2 |
+| Proverbs: Words and Friends | Proverbs | Proverbs 12 | advanced | 1 |
+| Proverbs: Words and Friends | Proverbs | Proverbs 12 | foundation | 1 |
+| Proverbs: Words and Friends | Proverbs | Proverbs 12 | intermediate | 2 |
+| Psalms for Hard Days | Psalms | Psalm 13 | foundation | 1 |
+| Psalms for Hard Days | Psalms | Psalm 27 | foundation | 1 |
+| Psalms for Hard Days | Psalms | Psalm 27 | intermediate | 1 |
+| Psalms for Hard Days | Psalms | Psalm 34 | intermediate | 1 |
+| Psalms for Hard Days | Psalms | Psalm 42 | advanced | 1 |
+| Psalms for Hard Days | Psalms | Psalm 42 | foundation | 1 |
+| Psalms for Hard Days | Psalms | Psalm 56 | intermediate | 1 |
+| Psalms for Hard Days | Psalms | Psalm 62 | intermediate | 1 |
 | Revelation | Revelation | Revelation 5 | advanced | 1 |
-| Old Testament Overview | Ruth | Ruth 4 | advanced | 1 |
+| Romans: Peace and Everyday Love | Romans | Romans 12 | foundation | 2 |
+| Romans: Peace and Everyday Love | Romans | Romans 12 | intermediate | 3 |
+| Romans: Peace and Everyday Love | Romans | Romans 5 | advanced | 1 |
+| Romans: Peace and Everyday Love | Romans | Romans 5 | foundation | 1 |
+| Romans: Peace and Everyday Love | Romans | Romans 5 | intermediate | 1 |
+| Baptism: Buried and Raised | Romans | Romans 6 | intermediate | 1 |
+| Ruth and Naomi | Ruth | Ruth 1 | foundation | 3 |
+| Ruth and Naomi | Ruth | Ruth 2 | intermediate | 2 |
+| Ruth and Naomi | Ruth | Ruth 4 | advanced | 1 |
+| Ruth and Naomi | Ruth | Ruth 4 | intermediate | 2 |
 
 Tier totals against the mix:
 
-- foundation: 4 now, about 14 wanted (60% of draws (easy)). About 10 more.
-- intermediate: 5 now, about 10 wanted (40% of draws (intermediate)). About 5 more.
-- advanced: 8 now, about 0 wanted (not in this stage's mix). Target met.
+- foundation: 79 now, about 14 wanted (60% of draws (easy)). Target met.
+- intermediate: 105 now, about 10 wanted (40% of draws (intermediate)). Target met.
+- advanced: 32 now, about 0 wanted (not in this stage's mix). Target met.
 
-Questions outside the mix (8 advanced) are not chosen while an allowed tier still has questions.
+Questions outside the mix (32 advanced) are not chosen while an allowed tier still has questions.
 
-Curriculum topics with no question yet: The Ten Commandments, Psalm 23.
+Every curriculum topic for this stage has at least one question.
 
 New questions to write:
 
-- About 10 more foundation questions (easy).
-- About 5 more intermediate questions (intermediate).
-- Add questions for: The Ten Commandments, Psalm 23.
+- The current pool meets this stage's targets.
 
 ## Growing
 
