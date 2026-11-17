@@ -139,7 +139,35 @@ async function readFresh(
   }
 }
 
-export async function loadChapter(
+const chapterInflight = new Map<string, Promise<LoadResult<BibleChapter>>>();
+const cacheTokens = new WeakMap<ScriptureCache, number>();
+const fetchTokens = new WeakMap<FetchLike, number>();
+let cacheTokenSeq = 1;
+let fetchTokenSeq = 1;
+
+function tokenForCache(cache?: ScriptureCache): string {
+  if (!cache) return "default-cache";
+  let id = cacheTokens.get(cache);
+  if (!id) {
+    id = cacheTokenSeq;
+    cacheTokenSeq += 1;
+    cacheTokens.set(cache, id);
+  }
+  return `cache-${id}`;
+}
+
+function tokenForFetch(fetchImpl?: FetchLike): string {
+  if (!fetchImpl) return "default-fetch";
+  let id = fetchTokens.get(fetchImpl);
+  if (!id) {
+    id = fetchTokenSeq;
+    fetchTokenSeq += 1;
+    fetchTokens.set(fetchImpl, id);
+  }
+  return `fetch-${id}`;
+}
+
+async function loadChapterOnce(
   bookId: string,
   chapter: number,
   deps?: ScriptureDeps,
@@ -183,6 +211,22 @@ export async function loadChapter(
     console.error("Scripture cache write failed");
   }
   return chapterResult(book.id, chapter, stored);
+}
+
+/** Parallel displays of one chapter share a single API.Bible fetch. */
+export function loadChapter(
+  bookId: string,
+  chapter: number,
+  deps?: ScriptureDeps,
+): Promise<LoadResult<BibleChapter>> {
+  const key = `${tokenForFetch(deps?.fetch)}:${tokenForCache(deps?.cache)}:${bookId}.${chapter}`;
+  const existing = chapterInflight.get(key);
+  if (existing) return existing;
+  const pending = loadChapterOnce(bookId, chapter, deps).finally(() => {
+    chapterInflight.delete(key);
+  });
+  chapterInflight.set(key, pending);
+  return pending;
 }
 
 export async function loadPassage(ref: string, deps?: ScriptureDeps): Promise<LoadResult<BiblePassage>> {

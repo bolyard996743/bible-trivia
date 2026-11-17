@@ -65,6 +65,12 @@ export function linesForPathPlay(lines: MascotLine[]): MascotLine[] {
   });
 }
 
+/** Lines the badge screen needs: this badge's questions, plus lines that are not tied to one question. */
+export function linesForBadgePlay(lines: MascotLine[], questionIds: readonly string[]): MascotLine[] {
+  const ids = new Set(questionIds);
+  return lines.filter((line) => line.question_id == null || ids.has(line.question_id));
+}
+
 /** Conventional voiceover path. Plays only if that file exists at runtime. */
 export function mascotLineAudioSrc(
   mascot: MascotId,

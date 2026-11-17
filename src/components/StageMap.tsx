@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { BadgeArt } from "@/components/BadgeArt";
 import { STAGE_LEARNING, stageRank } from "@/lib/curriculum";
-import { badgeEarned, stageSlug, visibleMapStages } from "@/lib/game/badges";
+import { badgeCircleName, badgeEarned, stageSlug, visibleMapStages } from "@/lib/game/badges";
 import { badgePlayHref, stagePath } from "@/lib/game/path";
 import type { GameProgress, KnowledgeStage } from "@/lib/game/types";
 
@@ -52,7 +52,7 @@ function StageBlock({
                 href={badgePlayHref(badge.id)}
                 data-testid={`badge-${badge.id}`}
                 data-state={earned ? "earned" : "empty"}
-                aria-label={earned ? `${badge.name}. Earned` : `${badge.name}. Not earned yet`}
+                aria-label={badgeCircleName(badge.name, earned)}
                 className={
                   earned
                     ? "badge-link inline-flex h-16 w-16 items-center justify-center rounded-full border-2 border-grove bg-gold-soft text-grove-deep"

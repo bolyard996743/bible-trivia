@@ -32,7 +32,19 @@ function listAudioFiles(root: string): string[] {
   return files;
 }
 
+const productionCatalogs = new Map<string, Catalog>();
+
 export function loadCatalog(root = process.cwd()): Catalog {
+  if (process.env.NODE_ENV === "production") {
+    const cached = productionCatalogs.get(root);
+    if (cached) return cached;
+  }
+  const catalog = readCatalog(root);
+  if (process.env.NODE_ENV === "production") productionCatalogs.set(root, catalog);
+  return catalog;
+}
+
+function readCatalog(root = process.cwd()): Catalog {
   const check = validateContentTree(root);
   if (!check.ok) {
     throw new Error(`Content validation failed:\n${check.errors.join("\n")}`);

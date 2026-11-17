@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState, type FormEvent } from "react";
+import { usePathname } from "next/navigation";
+import { accountModeHref, type AccountMode } from "@/lib/account/account-mode";
 import { ageGroupFromBirthDate, birthDateIso, loadDeviceBirthDate, type DeviceBirth } from "@/lib/account/age-gate";
 import { CONFIRM_EMAIL_MESSAGE, PASSWORD_RULE, signupErrorMessage, USERNAME_TAKEN } from "@/lib/account/auth-errors";
 import { acceptMerge, declineMerge, getMergeOffer, subscribeAccount } from "@/lib/account/session";
@@ -20,7 +22,7 @@ import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { validateUsername } from "@/lib/account/username";
 import { useProfile } from "@/lib/use-profile";
 
-type Mode = "sign-in" | "sign-up" | "reset";
+type Mode = AccountMode;
 
 function accountBirth(): { birth: DeviceBirth; age: "teen" | "adult" | "older" } | null {
   const birth = loadDeviceBirthDate();
@@ -34,6 +36,7 @@ export function AccountScreen() {
   const { state, ready } = useProfile();
   const gate = useAgeGate();
   const auth = useSignedIn();
+  const pathname = usePathname();
   const [mode, setMode] = useState<Mode>("sign-in");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -48,6 +51,12 @@ export function AccountScreen() {
     const modeParam = new URLSearchParams(window.location.search).get("mode");
     if (modeParam === "sign-up" || modeParam === "reset" || modeParam === "sign-in") setMode(modeParam);
   }, []);
+
+  function selectMode(next: Mode) {
+    setMode(next);
+    const href = accountModeHref(pathname || "/account", window.location.search, next);
+    window.history.replaceState(null, "", href);
+  }
 
   if (!ready || !gate.ready || !auth.ready) return <p className="text-lg text-ink-soft">Opening…</p>;
 
@@ -172,7 +181,14 @@ export function AccountScreen() {
         >
           Resend confirmation email
         </button>
-        <button type="button" className="text-lg text-grove-deep" onClick={() => setConfirmEmail(null)}>
+        <button
+          type="button"
+          className="text-lg text-grove-deep"
+          onClick={() => {
+            setConfirmEmail(null);
+            selectMode("sign-in");
+          }}
+        >
           Sign in
         </button>
         {message ? <p className="text-lg text-ink">{message}</p> : null}
@@ -270,17 +286,17 @@ export function AccountScreen() {
       {!auth.email ? (
         <div className="flex flex-wrap gap-4 text-lg">
           {mode !== "sign-in" ? (
-            <button type="button" className="text-grove-deep" onClick={() => setMode("sign-in")}>
+            <button type="button" className="text-grove-deep" onClick={() => selectMode("sign-in")}>
               Sign in
             </button>
           ) : null}
           {mode !== "sign-up" ? (
-            <button type="button" className="text-grove-deep" onClick={() => setMode("sign-up")}>
+            <button type="button" className="text-grove-deep" onClick={() => selectMode("sign-up")}>
               Create account
             </button>
           ) : null}
           {mode !== "reset" ? (
-            <button type="button" className="text-grove-deep" onClick={() => setMode("reset")}>
+            <button type="button" className="text-grove-deep" onClick={() => selectMode("reset")}>
               Reset password
             </button>
           ) : null}

@@ -151,3 +151,34 @@ export function defaultScriptureCache(): ScriptureCache {
     },
   };
 }
+
+let processCache: ScriptureCache | null = null;
+
+/**
+ * Chapter text kept in this server process, in front of the shared database cache.
+ * A prefetch and the later display reuse one fetch. The 14-day window still applies.
+ */
+export function sharedScriptureCache(): ScriptureCache {
+  if (processCache) return processCache;
+  const inner = defaultScriptureCache();
+  const memory = new Map<string, StoredChapter>();
+  const keyOf = (bookId: string, chapter: number) => `${bookId}.${chapter}`;
+  processCache = {
+    async read(bookId, chapter) {
+      const key = keyOf(bookId, chapter);
+      const hit = memory.get(key);
+      if (hit && cacheIsFresh(hit.fetchedAt, Date.now())) return hit;
+      const stored = await inner.read(bookId, chapter);
+      if (stored && cacheIsFresh(stored.fetchedAt, Date.now())) {
+        memory.set(key, stored);
+        return stored;
+      }
+      return null;
+    },
+    async write(bookId, chapter, value) {
+      memory.set(keyOf(bookId, chapter), value);
+      await inner.write(bookId, chapter, value);
+    },
+  };
+  return processCache;
+}

@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { FetchedPassage } from "@/components/FetchedPassage";
 import { MascotMark } from "@/components/MascotMark";
+import { prefetchPassages } from "@/lib/bible/passage-client";
 import {
   acknowledgeTeaching,
   orderChoicesForRetry,
@@ -15,6 +16,7 @@ import {
   submitAnswer,
   wasFirstAttempt,
 } from "@/lib/game";
+import { choicesForBadgeAsk } from "@/lib/game/badges";
 import { MASCOTS, type AgeGroup, type AttemptState, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
 
 type MasteryResult = {
@@ -36,6 +38,9 @@ export function QuestionSession({
   initialAttempt,
   onAttemptChange,
   onContinue,
+  closeOnMiss = false,
+  onMiss,
+  missFooter = null,
 }: {
   question: Question;
   ageGroup: AgeGroup;
@@ -49,6 +54,10 @@ export function QuestionSession({
   initialAttempt?: AttemptState | null;
   onAttemptChange?: (attempt: AttemptState) => void;
   onContinue: (result: MasteryResult) => void;
+  /** A badge miss ends the attempt. The question is not asked again in this sitting. */
+  closeOnMiss?: boolean;
+  onMiss?: (missCount: number) => void;
+  missFooter?: ReactNode;
 }) {
   const [attempt, setAttempt] = useState(() => resumeAttempt(question.id, initialAttempt));
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -68,9 +77,14 @@ export function QuestionSession({
   }, [ageGroup, attempt, lines, mascot, question.id]);
 
   const retryLine = useMemo(() => {
-    if (attempt.phase !== "teaching") return null;
+    if (closeOnMiss || attempt.phase !== "teaching") return null;
     return pickMascotLine(lines, mascot, "retry_prompt", ageGroup, { questionId: question.id });
-  }, [ageGroup, attempt.phase, lines, mascot, question.id]);
+  }, [ageGroup, attempt.phase, closeOnMiss, lines, mascot, question.id]);
+
+  const verseKey = question.teaching.verses.map((verse) => verse.ref).join("\n");
+  useEffect(() => {
+    prefetchPassages(verseKey.split("\n").filter((ref) => ref.length > 0));
+  }, [verseKey]);
 
   useEffect(() => {
     if (!soundOn) {
@@ -91,6 +105,10 @@ export function QuestionSession({
 
   function updateAttempt(next: AttemptState) {
     setAttempt(next);
+    if (closeOnMiss && next.phase === "teaching" && attempt.phase === "asking") {
+      onMiss?.(next.missCount);
+      return;
+    }
     onAttemptChange?.(next);
   }
 
@@ -99,10 +117,11 @@ export function QuestionSession({
     updateAttempt(submitAnswer(attempt, choiceId === question.answer));
   }
 
-  const showExtended = attempt.phase === "teaching" && shouldShowExtended(attempt.missCount);
-  const showTakeaway = shouldShowTakeaway(attempt);
-  const displayedChoices =
-    attempt.missCount === 0
+  const showExtended = !closeOnMiss && attempt.phase === "teaching" && shouldShowExtended(attempt.missCount);
+  const showTakeaway = !closeOnMiss && shouldShowTakeaway(attempt);
+  const displayedChoices = closeOnMiss
+    ? choicesForBadgeAsk(question)
+    : attempt.missCount === 0
       ? question.choices
       : orderChoicesForRetry(question.choices, `${question.id}:${attempt.missCount}`);
 
@@ -148,14 +167,16 @@ export function QuestionSession({
         </div>
       ) : null}
 
-      {attempt.phase === "teaching" && spoken ? (
+      {attempt.phase === "teaching" && (spoken || closeOnMiss) ? (
         <div data-testid="teaching" className="grid gap-4 rounded-3xl border border-gold bg-card p-5">
           <h2 className="text-2xl font-semibold text-grove-deep">Let&apos;s look at this together</h2>
           <div className="flex gap-3">
             <MascotMark mascot={mascot} />
-            <p data-testid="mascot-line" className="text-lg text-ink">
-              {spoken.text}
-            </p>
+            {spoken ? (
+              <p data-testid="mascot-line" className="text-lg text-ink">
+                {spoken.text}
+              </p>
+            ) : null}
           </div>
           <div className="grid gap-3">
             {question.teaching.verses.map((verse) => (
@@ -172,13 +193,24 @@ export function QuestionSession({
             </div>
           ) : null}
           {retryLine ? <p className="text-lg text-ink-soft">{retryLine.text}</p> : null}
+          {closeOnMiss ? missFooter : null}
           <button
             type="button"
-            data-testid="ready-button"
-            onClick={() => updateAttempt(acknowledgeTeaching(attempt))}
+            data-testid={closeOnMiss ? "badge-miss-continue" : "ready-button"}
+            onClick={() => {
+              if (closeOnMiss) {
+                onContinue({
+                  questionId: question.id,
+                  firstAttemptCorrect: false,
+                  missCount: attempt.missCount,
+                });
+                return;
+              }
+              updateAttempt(acknowledgeTeaching(attempt));
+            }}
             className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white"
           >
-            I&apos;m ready
+            {closeOnMiss ? "Continue" : "I'm ready"}
           </button>
         </div>
       ) : null}

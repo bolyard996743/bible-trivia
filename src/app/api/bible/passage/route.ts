@@ -1,5 +1,6 @@
 import { loadPassage } from "@/lib/bible/api-bible";
 import { scriptureHeaders } from "@/lib/bible/notice";
+import { sharedScriptureCache } from "@/lib/bible/scripture-cache";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -7,7 +8,7 @@ export const runtime = "nodejs";
 export async function GET(request: Request) {
   const url = new URL(request.url);
   const ref = url.searchParams.get("ref") ?? "";
-  const result = await loadPassage(ref);
+  const result = await loadPassage(ref, { cache: sharedScriptureCache() });
   if (!result.ok) {
     return Response.json(
       {
