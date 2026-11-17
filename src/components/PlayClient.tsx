@@ -7,7 +7,7 @@ import { BadgeRetryNotice } from "@/components/BadgeRetryNotice";
 import { QuestionSession } from "@/components/QuestionSession";
 import { attemptForQuestion, linesForPathPlay } from "@/lib/game";
 import { showDifficultyLabels } from "@/lib/dev-flags";
-import { badgeEarned, selectBadgeQuestion } from "@/lib/game/badges";
+import { badgeEarned, badgeProgressLabel, selectBadgeQuestion } from "@/lib/game/badges";
 import {
   BADGE_EARNED_NOTE,
   BADGE_PREPARING_NOTE,
@@ -16,9 +16,8 @@ import {
 } from "@/lib/game/badge-retry";
 import { attemptPoints, questionMarkers, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
 import { findPathBadge } from "@/lib/game/path";
-import type { AttemptState, MascotLine, Question } from "@/lib/game/types";
+import type { AttemptState, GameProgress, MascotLine, Question } from "@/lib/game/types";
 import { awardQuestionPoints } from "@/lib/account/scoring";
-import { savePlayerState } from "@/lib/account/repository";
 import { useSignedIn } from "@/lib/account/use-access";
 import type { Celebration, StoredState } from "@/lib/storage";
 import { saveState } from "@/lib/storage";
@@ -35,11 +34,13 @@ export function PlayClient({
 }) {
   const router = useRouter();
   const search = useSearchParams();
-  const { state, ready } = useProfile();
+  const { state, ready, save } = useProfile();
   const auth = useSignedIn();
   const stateRef = useRef(state);
   stateRef.current = state;
+  const shownRef = useRef<Question | null>(null);
   const [now, setNow] = useState(() => Date.now());
+  const [reviewingMiss, setReviewingMiss] = useState(false);
   const badge = findPathBadge(search.get("badge") ?? "");
   const retryAt = state && badge ? badgeRetryDeadline(state.progress, badge.id) : null;
   const waiting = Boolean(retryAt && Date.parse(retryAt) > now);
@@ -51,17 +52,17 @@ export function PlayClient({
   }, [ready, state, router]);
 
   useEffect(() => {
-    if (!waiting) return;
+    if (!waiting && !reviewingMiss) return;
     const tick = () => setNow(Date.now());
     tick();
     const id = window.setInterval(tick, 1000);
     return () => window.clearInterval(id);
-  }, [waiting]);
+  }, [reviewingMiss, waiting]);
 
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
-  if (badge && waiting && retryAt) {
+  if (badge && waiting && retryAt && !reviewingMiss) {
     return (
       <section className="grid gap-4" data-testid="badge-retry-screen">
         <h1 className="text-3xl font-semibold text-grove-deep">{badge.name}</h1>
@@ -83,8 +84,14 @@ export function PlayClient({
       </section>
     );
   }
-  const focused = badge ? selectBadgeQuestion(questions, state.progress, badge, new Date(now)) : null;
-  const pick = badge ? (focused ? { question: focused, review: false } : null) : selectLadderQuestion(questions, state.progress);
+  const focused = badge && !reviewingMiss ? selectBadgeQuestion(questions, state.progress, badge, new Date(now)) : null;
+  const pick = reviewingMiss && shownRef.current
+    ? { question: shownRef.current, review: false }
+    : badge
+      ? focused
+        ? { question: focused, review: false }
+        : null
+      : selectLadderQuestion(questions, state.progress);
   if (!pick) {
     return (
       <section className="grid gap-4">
@@ -104,6 +111,7 @@ export function PlayClient({
   }
 
   const { question, review } = pick;
+  if (!reviewingMiss) shownRef.current = question;
   const markers = questionMarkers({
     review,
     tier: question.tier,
@@ -134,12 +142,31 @@ export function PlayClient({
       lines={linesForPathPlay(lines)}
       soundOn={state.soundOn}
       audioFiles={audioFiles}
-      progressLabel={`${state.progress.stage ?? "Seed"} · ${question.section}`}
+      progressLabel={badge ? badgeProgressLabel(badge.id, question.section) : `${state.progress.stage ?? "Seed"} · ${question.section}`}
       reviewLabel={markers.review}
       difficultyLabel={badge ? null : markers.difficulty}
-      initialAttempt={attemptForQuestion(question.id, state.progress)}
-      onAttemptChange={rememberAttempt}
+      initialAttempt={badge ? null : attemptForQuestion(question.id, state.progress)}
+      onAttemptChange={badge ? undefined : rememberAttempt}
+      closeOnMiss={Boolean(badge)}
+      missFooter={badge && reviewingMiss && retryAt ? <BadgeRetryNotice now={now} retryAt={retryAt} /> : null}
+      onMiss={(missCount) => {
+        const current = stateRef.current;
+        if (!current || !badge) return;
+        let progress: GameProgress = {
+          ...current.progress,
+          streak: 0,
+          openAttempt: null,
+          missCounts: { ...(current.progress.missCounts ?? {}), [question.id]: missCount },
+        };
+        progress = recordBadgeAnswer(progress, badge, question.id, false, new Date());
+        save({ ...current, progress });
+        setReviewingMiss(true);
+      }}
       onContinue={({ firstAttemptCorrect, missCount }) => {
+        if (badge && !firstAttemptCorrect) {
+          setReviewingMiss(false);
+          return;
+        }
         const current = stateRef.current ?? state;
         const scored = new Set(current.progress.scoredIds ?? []);
         const gained = attemptPoints(missCount, review, scored.has(question.id));
@@ -177,7 +204,7 @@ export function PlayClient({
             : null;
         const next = { ...current, progress, celebration };
         stateRef.current = next;
-        savePlayerState(next);
+        save(next);
         if (current.ageGroup !== "child" && auth.email && !review) {
           void awardQuestionPoints({ questionId: question.id, missCount, seasonId: progress.seasonId ?? "season-1" });
         }

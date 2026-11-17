@@ -3,22 +3,29 @@
 import { useEffect, useState } from "react";
 import { FumsTrack } from "@/components/FumsTrack";
 import { ScriptureNotice } from "@/components/ScriptureNotice";
-import { getBibleProvider } from "@/lib/bible";
+import { loadPassageCached, peekPassage } from "@/lib/bible/passage-client";
 import type { BiblePassage } from "@/lib/bible/types";
 
 /** Fetches one reference when it is shown. The bundled quotation is not rendered. */
 export function FetchedPassage({ reference }: { reference: string }) {
-  const [passage, setPassage] = useState<BiblePassage | null>(null);
+  const ready = peekPassage(reference);
+  const [passage, setPassage] = useState<BiblePassage | null>(ready);
   const [message, setMessage] = useState<string | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(ready == null);
 
   useEffect(() => {
+    const cached = peekPassage(reference);
+    if (cached) {
+      setPassage(cached);
+      setMessage(null);
+      setLoading(false);
+      return;
+    }
     let active = true;
     setLoading(true);
     setPassage(null);
     setMessage(null);
-    void getBibleProvider()
-      .getPassage(reference)
+    void loadPassageCached(reference)
       .then((result) => {
         if (!active) return;
         if (result.ok) setPassage(result.data);

@@ -1,5 +1,6 @@
 import { loadChapter } from "@/lib/bible/api-bible";
 import { scriptureHeaders } from "@/lib/bible/notice";
+import { sharedScriptureCache } from "@/lib/bible/scripture-cache";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -8,7 +9,7 @@ export async function GET(request: Request) {
   const url = new URL(request.url);
   const bookId = url.searchParams.get("bookId") ?? "";
   const chapter = Number(url.searchParams.get("chapter"));
-  const result = await loadChapter(bookId, chapter);
+  const result = await loadChapter(bookId, chapter, { cache: sharedScriptureCache() });
   if (!result.ok) {
     return Response.json(
       {

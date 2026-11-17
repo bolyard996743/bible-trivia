@@ -4,6 +4,8 @@ import type { StoredState } from "../storage";
 export const AGE_GATE_KEY = "bible-trivia-age-gate-v1";
 export const DEVICE_BIRTH_KEY = "bible-trivia-birth-v1";
 export const ACCOUNT_PROMPT_DISMISSED_KEY = "bible-trivia-account-prompt-dismissed";
+export const PENDING_PLAY_CHOICE_KEY = "bible-trivia-pending-play-choice";
+export const LOCAL_PLAY_KEY = "bible-trivia-local-play";
 
 /**
  * Audience brackets the mascot lines already use.
@@ -154,6 +156,60 @@ export function saveDeviceBirthDate(date: CalendarDate, today: CalendarDate = ca
 export function loadAccountPromptDismissed(): boolean {
   if (typeof window === "undefined") return false;
   return window.localStorage.getItem(ACCOUNT_PROMPT_DISMISSED_KEY) === "1";
+}
+
+export function beginShouldOfferPlayChoice(input: {
+  under13: boolean;
+  hasProfile: boolean;
+  signedIn: boolean;
+  localPlay: boolean;
+}): boolean {
+  if (input.under13 || input.hasProfile || input.signedIn || input.localPlay) return false;
+  return true;
+}
+
+function sessionStorageOrNull(): Storage | null {
+  if (typeof window === "undefined") return null;
+  try {
+    return window.sessionStorage;
+  } catch {
+    return null;
+  }
+}
+
+export function savePendingPlayChoice(date: CalendarDate): void {
+  const storage = sessionStorageOrNull();
+  if (!storage || !isValidCalendarDate(date)) return;
+  storage.setItem(PENDING_PLAY_CHOICE_KEY, JSON.stringify({ year: date.year, month: date.month, day: date.day }));
+}
+
+export function loadPendingPlayChoice(): CalendarDate | null {
+  const storage = sessionStorageOrNull();
+  if (!storage) return null;
+  const raw = storage.getItem(PENDING_PLAY_CHOICE_KEY);
+  if (!raw) return null;
+  try {
+    const value = JSON.parse(raw) as Partial<CalendarDate>;
+    const date = { year: Number(value.year), month: Number(value.month), day: Number(value.day) };
+    return isValidCalendarDate(date) ? date : null;
+  } catch {
+    return null;
+  }
+}
+
+export function clearPendingPlayChoice(): void {
+  sessionStorageOrNull()?.removeItem(PENDING_PLAY_CHOICE_KEY);
+}
+
+export function markLocalPlay(): void {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(LOCAL_PLAY_KEY, "1");
+  clearPendingPlayChoice();
+}
+
+export function hasChosenLocalPlay(): boolean {
+  if (typeof window === "undefined") return false;
+  return window.localStorage.getItem(LOCAL_PLAY_KEY) === "1";
 }
 
 export function dismissAccountPrompt(): void {

@@ -58,10 +58,58 @@ export function gateFromBadges(
  * Nothing after progress.stage is drawn, even when cycle and tier would name a later stage
  * or the current stage's written questions are already finished.
  */
-export function visibleMapStages(progress: GameProgress): KnowledgeStage[] {
+export function visibleMapStages(progress: { stage?: KnowledgeStage }): KnowledgeStage[] {
   const current = progress.stage ?? "Seed";
   const end = stageRank(current);
   return STAGES.filter((_, index) => index <= end);
+}
+
+export function stageForPathBadge(id: string, path: KnowledgePathFile = knowledgePath): KnowledgeStage | null {
+  for (const stage of path.stages) {
+    if (stage.badges.some((badge) => badge.id === id)) return stage.stage;
+  }
+  return null;
+}
+
+/** The badge's own stage, never the player's later stage. */
+export function badgeProgressLabel(badgeId: string, section: string, path: KnowledgePathFile = knowledgePath): string {
+  const stage = stageForPathBadge(badgeId, path);
+  return stage ? `${stage} · ${section}` : section;
+}
+
+export function badgeCircleName(name: string, earned: boolean): string {
+  return earned ? `${name}. Earned` : `${name}. Not earned yet`;
+}
+
+/**
+ * The questions a badge attempt asks, in path order, each with every choice.
+ *
+ * This is the runtime list. It does not apply the ladder's tier mix, a section
+ * cut, an age filter, mastery, placement, or a previous miss. Seed creation
+ * spans Genesis 1 and Genesis 2; keeping only the open section served 4.
+ * Sprout Good News includes its intermediate question; a tier cut would drop it.
+ * Choice order for a retry is a separate step and is not used here.
+ */
+export function questionsForBadgeRun(questions: Question[], badge: PathBadge): Question[] {
+  const byId = new Map<string, Question>();
+  for (const question of questions) {
+    if (!byId.has(question.id)) byId.set(question.id, question);
+  }
+  const run: Question[] = [];
+  for (const id of badge.questionIds) {
+    const question = byId.get(id);
+    if (!question) continue;
+    run.push({
+      ...question,
+      choices: question.choices.map((choice) => ({ id: choice.id, text: choice.text })),
+    });
+  }
+  return run;
+}
+
+/** Choices shown while a badge question is asked. A stored miss does not drop or reshuffle them. */
+export function choicesForBadgeAsk(question: Question): Question["choices"] {
+  return question.choices.map((choice) => ({ id: choice.id, text: choice.text }));
 }
 
 export function selectBadgeQuestion(
@@ -73,11 +121,9 @@ export function selectBadgeQuestion(
   if (badgeEarned(progress, badge)) return null;
   if (isBadgeWaiting(progress, badge.id, now)) return null;
   const answered = new Set(openAttemptCorrectIds(progress, badge.id));
-  const byId = new Map(questions.map((question) => [question.id, question]));
-  for (const id of badge.questionIds) {
-    if (answered.has(id)) continue;
-    const question = byId.get(id);
-    if (question) return question;
+  for (const question of questionsForBadgeRun(questions, badge)) {
+    if (answered.has(question.id)) continue;
+    return question;
   }
   return null;
 }

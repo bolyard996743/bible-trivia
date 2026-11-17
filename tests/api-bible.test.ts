@@ -87,6 +87,25 @@ describe("API.Bible NKJV client", () => {
     expect(JSON.stringify(result)).not.toContain(KEY);
   });
 
+  it("shares one chapter fetch when two passages are asked together", async () => {
+    let release: () => void = () => {};
+    const gate = new Promise<void>((resolve) => {
+      release = resolve;
+    });
+    const fetchImpl = vi.fn(async () => {
+      await gate;
+      return new Response(JSON.stringify(envelope(chapterContent)), { status: 200 });
+    });
+    const cache = createMemoryScriptureCache("test-cache-secret");
+    const deps = { fetch: fetchImpl, key: KEY, cache };
+    const first = loadChapter("GEN", 1, deps);
+    const second = loadChapter("GEN", 1, deps);
+    release();
+    const [left, right] = await Promise.all([first, second]);
+    expect(fetchImpl).toHaveBeenCalledOnce();
+    expect(left.ok && right.ok).toBe(true);
+  });
+
   it("serves passages from one shared chapter fetch and still returns a FUMS token", async () => {
     expect(parseReference("Psalm 119:105")?.book.id).toBe("PSA");
     const fetchImpl = vi.fn(async (input: string) => {

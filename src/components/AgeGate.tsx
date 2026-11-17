@@ -1,19 +1,34 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
   ageGateFromBirthDate,
+  loadDeviceBirthDate,
+  loadPendingPlayChoice,
+  markLocalPlay,
   saveAgeGate,
   saveDeviceBirthDate,
+  savePendingPlayChoice,
   type CalendarDate,
 } from "@/lib/account/age-gate";
 import { BirthdayForm } from "@/components/BirthdayForm";
 
-export function AgeGate() {
+export function AgeGate({ resume = false }: { resume?: boolean }) {
   const router = useRouter();
   const [date, setDate] = useState<CalendarDate | null>(null);
   const [warning, setWarning] = useState(false);
+  const [booted, setBooted] = useState(false);
+
+  useEffect(() => {
+    const pending = loadPendingPlayChoice();
+    if (pending) setDate(pending);
+    else if (resume) {
+      const birth = loadDeviceBirthDate();
+      if (birth) setDate({ year: birth.year, month: birth.month, day: birth.day });
+    }
+    setBooted(true);
+  }, [resume]);
 
   function persist(chosen: CalendarDate) {
     saveDeviceBirthDate(chosen);
@@ -27,8 +42,11 @@ export function AgeGate() {
       router.push("/profile");
       return;
     }
+    savePendingPlayChoice(chosen);
     setDate(chosen);
   }
+
+  if (!booted) return <p className="text-lg text-ink-soft">Opening…</p>;
 
   if (date && warning) {
     return (
@@ -41,6 +59,7 @@ export function AgeGate() {
           type="button"
           data-testid="confirm-local-play"
           onClick={() => {
+            markLocalPlay();
             persist(date);
             router.push("/profile");
           }}
@@ -74,7 +93,7 @@ export function AgeGate() {
           type="button"
           onClick={() => {
             persist(date);
-            router.push("/account");
+            router.push("/account?mode=sign-in");
           }}
           className="rounded-2xl border border-line bg-card px-4 text-lg text-ink"
         >

@@ -1,11 +1,14 @@
+import { visibleMapStages } from "@/lib/game/badges";
 import { stageIndex } from "@/lib/game/progression";
-import { KNOWLEDGE_PATH, type KnowledgeStage } from "@/lib/game/types";
+import type { KnowledgeStage } from "@/lib/game/types";
 
 export function KnowledgePath({ stage }: { stage: KnowledgeStage }) {
+  const stages = visibleMapStages({ stage });
   const current = stageIndex(stage);
   return (
     <ol className="grid gap-2" aria-label="Knowledge Path">
-      {KNOWLEDGE_PATH.map((name, index) => {
+      {stages.map((name) => {
+        const index = stageIndex(name);
         const here = index === current;
         return (
           <li
