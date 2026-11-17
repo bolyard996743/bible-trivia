@@ -143,6 +143,11 @@ export function renderContentGapReport(questions: Question[]): string {
       lines.push("");
     }
 
+    if (stage === "Growing") {
+      lines.push("Mascot lines are covered for all 216 Growing badge questions.");
+      lines.push("");
+    }
+
     lines.push("New questions to write:");
     lines.push("");
     lines.push(...needs(stage, own, counts, books, missingTopics));

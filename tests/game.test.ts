@@ -258,6 +258,37 @@ describe("pickMascotLine", () => {
     expect(pathLines.some((line) => line.id === "judah-pl-wrong-baptism-child")).toBe(false);
   });
 
+  it("speaks the growing line on the path when an age line also names that question", () => {
+    const lines: MascotLine[] = [
+      {
+        id: "agnes-pl-wrong-eshcol-child",
+        mascot: "agnes",
+        moment: "wrong_intro",
+        audience: "child",
+        text: "Placement",
+        audio_file: null,
+        question_id: "c1-num-0001",
+      },
+      {
+        id: "agnes-growing-wrong-intro-c1-num-0001",
+        mascot: "agnes",
+        moment: "wrong_intro",
+        audience: "all",
+        text: "Growing",
+        audio_file: null,
+        question_id: "c1-num-0001",
+      },
+    ];
+    expect(pickMascotLine(lines, "agnes", "wrong_intro", "child", { questionId: "c1-num-0001" })?.text).toBe(
+      "Placement",
+    );
+    const pathLines = linesForPathPlay(lines);
+    expect(pickMascotLine(pathLines, "agnes", "wrong_intro", "child", { questionId: "c1-num-0001" })?.text).toBe(
+      "Growing",
+    );
+    expect(pathLines.some((line) => line.id === "agnes-pl-wrong-eshcol-child")).toBe(false);
+  });
+
   it("speaks the established line on the path when an age line also names that question", () => {
     const lines: MascotLine[] = [
       {
