@@ -507,6 +507,8 @@ Every curriculum topic for this stage has at least one question.
 
 Book target: 20. Covered now: 18 (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, 1 Kings, 2 Kings, 2 Chronicles, Job, Psalms, Proverbs, Isaiah, Matthew, Luke, John, Acts, Hebrews, Revelation). About 2 more books need questions.
 
+Mascot lines are covered for all 216 Growing badge questions.
+
 New questions to write:
 
 - Spread new questions across about 2 more books (target 20).

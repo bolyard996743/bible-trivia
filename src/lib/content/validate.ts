@@ -5,6 +5,7 @@ import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS, type MascotId, type MascotLine } f
 import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
 import { establishedLinesPath, readEstablishedLineFiles } from "./established-lines";
+import { growingLinesPath, readGrowingLineFiles } from "./growing-lines";
 import { readRootedLineFiles, rootedLinesPath } from "./rooted-lines";
 import { ANSWER_MOMENTS, readSproutLineFiles, sproutLinesPath } from "./sprout-lines";
 
@@ -67,7 +68,7 @@ function readJson(filePath: string): { value?: unknown; error?: string } {
 
 function requireStageLines(
   errors: string[],
-  stage: "Seed" | "Sprout" | "Rooted" | "Established",
+  stage: "Seed" | "Sprout" | "Rooted" | "Growing" | "Established",
   ids: string[],
   expected: number,
   answerLinesByQuestion: Map<string, Map<string, Set<string>>>,
@@ -303,6 +304,11 @@ export function validateContentTree(root: string): ValidationResult {
   lineCount += recordExpandedLines(errors, rooted.lines, rootedLinesPath, lineIds, questionIds, answerLinesByQuestion);
   const rootedFileMissing = new Set(MASCOT_IDS.filter((mascot) => !rooted.loaded.includes(mascot)));
 
+  const growing = readGrowingLineFiles(root);
+  errors.push(...growing.errors);
+  lineCount += recordExpandedLines(errors, growing.lines, growingLinesPath, lineIds, questionIds, answerLinesByQuestion);
+  const growingFileMissing = new Set(MASCOT_IDS.filter((mascot) => !growing.loaded.includes(mascot)));
+
   const established = readEstablishedLineFiles(root);
   errors.push(...established.errors);
   lineCount += recordExpandedLines(
@@ -415,11 +421,22 @@ export function validateContentTree(root: string): ValidationResult {
       rootedLinesPath,
       "Rooted",
     );
-    if (growingQuestionIds.length !== GROWING_QUESTION_COUNT) {
-      errors.push(
-        `content/knowledge_path.json: Growing badges should list ${GROWING_QUESTION_COUNT} questions, found ${growingQuestionIds.length}`,
-      );
-    }
+    requireStageLines(
+      errors,
+      "Growing",
+      growingQuestionIds,
+      GROWING_QUESTION_COUNT,
+      answerLinesByQuestion,
+      growingFileMissing,
+    );
+    rejectOffStageLines(
+      errors,
+      growing.lines,
+      new Set(growingQuestionIds),
+      questionIds,
+      growingLinesPath,
+      "Growing",
+    );
     requireStageLines(
       errors,
       "Established",
