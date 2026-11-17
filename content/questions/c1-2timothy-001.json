@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2timothy-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2ti-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 1",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul remembers the genuine faith in Timothy, which dwelt first in his grandmother and his mother (1:5). What was his grandmother’s name?",
+        "child": "Paul says Timothy’s faith was first found in his grandmother. What was her name?",
+        "teen": "In 2 Timothy 1:5 Paul traces Timothy’s faith back two generations. Who was his grandmother?",
+        "older": "According to 2 Timothy 1:5, who was Timothy’s grandmother?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lois"
+        },
+        {
+          "id": "b",
+          "text": "Priscilla"
+        },
+        {
+          "id": "c",
+          "text": "Lydia"
+        },
+        {
+          "id": "d",
+          "text": "Dorcas"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 1:5",
+            "text": "when I call to remembrance the genuine faith that is in you, which dwelt first in your grandmother Lois and your mother Eunice, and I am persuaded is in you also.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 1:5 names two women. Read the name right after “grandmother.”",
+          "child": "Look at the middle of 2 Timothy 1:5. Paul names Timothy’s grandmother first, then his mother.",
+          "teen": "1:5 names the grandmother before the mother. Read the first name.",
+          "older": "The grandmother is named first in 1:5, followed by Eunice."
+        },
+        "extended_explanation": "In 2 Timothy 1:5 Paul recalls the genuine faith in Timothy and traces it back through his family, naming his grandmother and then his mother, Eunice. Paul is persuaded the same faith is in Timothy also. Read the middle of 1:5.",
+        "takeaway": "Timothy’s genuine faith dwelt first in his grandmother Lois and his mother Eunice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2ti-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 1",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Because of the genuine faith in Timothy (1:5), what does Paul remind him to do in 1:6?",
+        "child": "Paul reminds Timothy of a gift God put in him through the laying on of Paul’s hands. What does Paul tell him to do with it?",
+        "teen": "2 Timothy 1:6 begins with “Therefore I remind you.” What does Paul remind Timothy to do?",
+        "older": "According to 2 Timothy 1:6, what does Paul remind Timothy to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep the gift safely hidden"
+        },
+        {
+          "id": "b",
+          "text": "Wait for a second gift"
+        },
+        {
+          "id": "c",
+          "text": "Stir up the gift of God"
+        },
+        {
+          "id": "d",
+          "text": "Hand the gift on to others"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 1:5",
+            "text": "when I call to remembrance the genuine faith that is in you, which dwelt first in your grandmother Lois and your mother Eunice, and I am persuaded is in you also.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 1:6",
+            "text": "Therefore I remind you to stir up the gift of God which is in you through the laying on of my hands.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 1:6 begins “Therefore I remind you to.” Read the words that follow, before “which is in you.”",
+          "child": "Look at the first part of 2 Timothy 1:6. After Paul says he is reminding Timothy, he tells him what to do.",
+          "teen": "1:5 is the genuine faith; 1:6 is the charge that follows with “Therefore.” Read the charge.",
+          "older": "The charge in 1:6 comes before the mention of the laying on of hands."
+        },
+        "extended_explanation": "Paul remembers the genuine faith in Timothy and in his family before him (1:5). Because of that, 1:6 opens with “Therefore” and gives Timothy a charge about what God gave him through the laying on of Paul’s hands. In 1:7 Paul explains that God has not given us a spirit of fear. Read the first part of 1:6.",
+        "takeaway": "Paul reminded Timothy to stir up the gift of God which was in him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2ti-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 1",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul writes that God has not given us a spirit of fear. Besides power and love, what does 1:7 say He has given?",
+        "child": "God has not given us a spirit of fear. Power and love are two things He has given. What is the third?",
+        "teen": "2 Timothy 1:7 lists three things in place of a spirit of fear. The first two are power and love. What is the last?",
+        "older": "According to 2 Timothy 1:7, God has given a spirit of power, of love, and of what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A quiet heart"
+        },
+        {
+          "id": "b",
+          "text": "A sound mind"
+        },
+        {
+          "id": "c",
+          "text": "A strong body"
+        },
+        {
+          "id": "d",
+          "text": "A long life"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 1:7",
+            "text": "For God has not given us a spirit of fear, but of power and of love and of a sound mind.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 1:7 ends with a list of three after “but of.” Read the last item.",
+          "child": "Look at the very end of 2 Timothy 1:7. Paul names three things, and the last one is at the end of the verse.",
+          "teen": "1:7 contrasts fear with three gifts. Read the third.",
+          "older": "The final item in the list in 1:7 names it."
+        },
+        "extended_explanation": "After a charge to Timothy in 1:6, Paul gives the reason in 1:7: God has not given us a spirit of fear. Instead, He has given a spirit marked by three things, and the verse lists them. Read the end of 1:7.",
+        "takeaway": "God has not given us a spirit of fear, but of power and of love and of a sound mind."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2ti-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 2",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells Timothy to be diligent to present himself approved to God, a worker who does not need to be ashamed (2:15). What does he say such a worker is doing with the word of truth?",
+        "child": "Paul wants Timothy to be a worker God approves of and who has nothing to be ashamed of. What does Paul say he should be doing with the word of truth?",
+        "teen": "2 Timothy 2:15 ends with how an approved worker treats the word of truth. What is the worker doing?",
+        "older": "According to 2 Timothy 2:15, what is the approved worker doing with the word of truth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Boldly proclaiming"
+        },
+        {
+          "id": "b",
+          "text": "Carefully memorizing"
+        },
+        {
+          "id": "c",
+          "text": "Faithfully copying"
+        },
+        {
+          "id": "d",
+          "text": "Rightly dividing"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 2:15",
+            "text": "Be diligent to present yourself approved to God, a worker who does not need to be ashamed, rightly dividing the word of truth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 2:15 ends with a phrase about the word of truth. Read the words just before “the word of truth.”",
+          "child": "Look at the end of 2 Timothy 2:15. Right before “the word of truth,” Paul says what the worker does with it.",
+          "teen": "2:15 describes the worker in two ways, then ends with an action. Read the last phrase.",
+          "older": "The action closes 2:15."
+        },
+        "extended_explanation": "Paul tells Timothy to be diligent to present himself approved to God, as a worker who does not need to be ashamed. The verse ends with what such a worker does with the word of truth. Read the end of 2:15.",
+        "takeaway": "An approved worker is rightly dividing the word of truth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2ti-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 3",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells Timothy to continue in the things he has learned (3:14), remembering that from childhood he has known the Holy Scriptures. According to 3:15, what are the Scriptures able to make him?",
+        "child": "Timothy had known the Holy Scriptures since he was a child. What does Paul say the Scriptures are able to make him?",
+        "teen": "2 Timothy 3:15 says what the Holy Scriptures Timothy learned as a child can do. What are they able to make him?",
+        "older": "According to 2 Timothy 3:15, what are the Holy Scriptures able to make Timothy?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wise for salvation"
+        },
+        {
+          "id": "b",
+          "text": "Rich in this world"
+        },
+        {
+          "id": "c",
+          "text": "Strong in battle"
+        },
+        {
+          "id": "d",
+          "text": "Famous among the nations"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 3:14",
+            "text": "But you must continue in the things which you have learned and been assured of, knowing from whom you have learned them,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 3:15",
+            "text": "and that from childhood you have known the Holy Scriptures, which are able to make you wise for salvation through faith which is in Christ Jesus.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 3:15 says the Scriptures “are able to make you.” Read the words that follow, before “through faith.”",
+          "child": "Look at the middle of 2 Timothy 3:15. After “able to make you,” Paul says what.",
+          "teen": "3:14 tells Timothy to continue; 3:15 gives what the Scriptures can do. Read the middle of 3:15.",
+          "older": "It is in the middle of 3:15, before the phrase about faith in Christ Jesus."
+        },
+        "extended_explanation": "Paul urges Timothy to continue in what he has learned and been assured of, knowing from whom he learned it (3:14). From childhood Timothy had known the Holy Scriptures, and 3:15 says what they are able to make him, through faith which is in Christ Jesus. Read the middle of 3:15.",
+        "takeaway": "The Holy Scriptures are able to make you wise for salvation through faith in Christ Jesus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2ti-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 3",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says all Scripture is profitable for doctrine, for reproof, for correction, and for instruction in righteousness (3:16). According to 3:17, for what is the man of God thoroughly equipped?",
+        "child": "Paul lists four ways Scripture helps us. Then he says it makes a person of God ready for something. Ready for what?",
+        "teen": "2 Timothy 3:16-17 moves from what Scripture is profitable for to its goal. What does 3:17 say the man of God is thoroughly equipped for?",
+        "older": "According to 2 Timothy 3:17, the man of God is thoroughly equipped for what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every hard question"
+        },
+        {
+          "id": "b",
+          "text": "Every public debate"
+        },
+        {
+          "id": "c",
+          "text": "Every high office"
+        },
+        {
+          "id": "d",
+          "text": "Every good work"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 3:16",
+            "text": "All Scripture is given by inspiration of God, and is profitable for doctrine, for reproof, for correction, for instruction in righteousness,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 3:17",
+            "text": "that the man of God may be complete, thoroughly equipped for every good work.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 3:17 ends with “thoroughly equipped for.” Read the words that follow.",
+          "child": "Look at the very end of 2 Timothy 3:17. It says what the man of God is equipped for.",
+          "teen": "3:16 lists four uses of Scripture; 3:17 states the goal at the end of the verse.",
+          "older": "The goal closes 3:17."
+        },
+        "extended_explanation": "Paul says all Scripture is given by inspiration of God and is profitable for doctrine, reproof, correction, and instruction in righteousness (3:16). In 3:17 he gives the purpose: that the man of God may be complete. The end of the verse says what he is equipped for. Read the end of 3:17.",
+        "takeaway": "Scripture equips the man of God thoroughly for every good work."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-2ti-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 4",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says he is already being poured out as a drink offering and the time of his departure is at hand (4:6). In 4:8 he says a crown is laid up for him. To whom else will the Lord give it?",
+        "child": "Paul knew his life was almost over, and he said a crown was waiting for him. Who else does he say will receive it?",
+        "teen": "2 Timothy 4:6 faces death, and 4:8 looks to a crown. According to 4:8, the crown is not for Paul only. Who else receives it?",
+        "older": "According to 2 Timothy 4:8, to whom besides Paul will the Lord give the crown?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the apostles who saw Him"
+        },
+        {
+          "id": "b",
+          "text": "Those who died as martyrs"
+        },
+        {
+          "id": "c",
+          "text": "All who have loved His appearing"
+        },
+        {
+          "id": "d",
+          "text": "Only those who preached in every city"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 4:6",
+            "text": "For I am already being poured out as a drink offering, and the time of my departure is at hand.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 4:8",
+            "text": "Finally, there is laid up for me the crown of righteousness, which the Lord, the righteous Judge, will give to me on that Day, and not to me only but also to all who have loved His appearing.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 4:8 ends with “and not to me only but also to.” Read the words that follow.",
+          "child": "Look at the very end of 2 Timothy 4:8. Paul says the crown is not only for him, and then names who else.",
+          "teen": "4:6 is Paul’s departure; 4:8 is the reward. Read the last phrase of 4:8.",
+          "older": "The final phrase of 4:8 names them."
+        },
+        "extended_explanation": "Paul writes knowing his life is being poured out like a drink offering and the time of his departure is at hand (4:6). In 4:8 he says there is laid up for him the crown of righteousness, which the Lord, the righteous Judge, will give him on that Day. Then he widens the promise beyond himself. Read the end of 4:8.",
+        "takeaway": "The Lord will give the crown of righteousness not only to Paul but to all who have loved His appearing."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-2ti-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 1",
+      "topics": [
+        "finish-the-race"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:5 Paul recalls something genuine that dwelt first in Timothy’s grandmother and mother and now in him. In 3:14-15 he urges Timothy to continue in what he learned from childhood. Looking at his own life in 4:7, what does Paul say he has kept?",
+        "child": "Paul reminded Timothy of what he received from his family and learned as a child. At the end of his own life, what does Paul say he has kept?",
+        "teen": "2 Timothy 1:5 and 3:14-15 describe something handed down to Timothy. In 4:7 Paul describes holding on to it himself. What does he say he has kept?",
+        "older": "Compare 2 Timothy 1:5 and 3:15 with 4:7. According to 4:7, what has Paul kept?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The traditions"
+        },
+        {
+          "id": "b",
+          "text": "The faith"
+        },
+        {
+          "id": "c",
+          "text": "The commandments"
+        },
+        {
+          "id": "d",
+          "text": "His good name"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 1:5",
+            "text": "when I call to remembrance the genuine faith that is in you, which dwelt first in your grandmother Lois and your mother Eunice, and I am persuaded is in you also.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 3:15",
+            "text": "and that from childhood you have known the Holy Scriptures, which are able to make you wise for salvation through faith which is in Christ Jesus.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 4:7",
+            "text": "I have fought the good fight, I have finished the race, I have kept the faith.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Timothy 4:7 has three statements. Read the last one, after “I have kept.”",
+          "child": "Look at the end of 2 Timothy 4:7. Paul says three things about his life, and the last one tells what he kept.",
+          "teen": "4:7 has three statements about Paul’s life. The third one names what he kept.",
+          "older": "The third clause of 4:7 names it."
+        },
+        "extended_explanation": "Paul’s letter connects two ends of a life. In 1:5 he remembers what dwelt first in Timothy’s grandmother and mother and now in Timothy. In 3:14-15 he urges Timothy to continue in what he learned from childhood from the Holy Scriptures. In 4:7, near his own departure, Paul says he has fought the good fight and finished the race, and the last statement says what he has kept. Read the end of 4:7.",
+        "takeaway": "Paul could say, “I have kept the faith,” the same faith first seen in Timothy’s family."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

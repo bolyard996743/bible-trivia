@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rom-0017",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 8 opens with a statement about those who are in Christ Jesus. According to 8:1, what is there now for them?",
+        "child": "Romans 8:1 gives good news for people who belong to Christ Jesus. What does it say there is now for them?",
+        "teen": "Paul begins Romans 8 with “There is therefore now.” What does he say there is for those in Christ Jesus?",
+        "older": "According to Romans 8:1, what is there now for those who are in Christ Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "No more trouble"
+        },
+        {
+          "id": "b",
+          "text": "No condemnation"
+        },
+        {
+          "id": "c",
+          "text": "No more sorrow"
+        },
+        {
+          "id": "d",
+          "text": "No need for prayer"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:1",
+            "text": "There is therefore now no condemnation to those who are in Christ Jesus, who do not walk according to the flesh, but according to the Spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 8:1 begins “There is therefore now.” Read the words that follow, before “to those who are in Christ Jesus.”",
+          "child": "Look at the first part of Romans 8:1. Right after “There is therefore now,” Paul says what there is for those in Christ Jesus.",
+          "teen": "Read the opening of 8:1, up to “to those who are in Christ Jesus.” Then 8:2 gives the reason with “For.”",
+          "older": "The statement opens 8:1, before the description of those who walk according to the Spirit."
+        },
+        "extended_explanation": "Romans 8 opens with a sweeping statement for those who are in Christ Jesus. Paul explains it in 8:2-3: the law of the Spirit of life has made them free from the law of sin and death, and God sent His own Son to do what the law could not do. Read the first words of 8:1.",
+        "takeaway": "There is therefore now no condemnation to those who are in Christ Jesus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-rom-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul writes that believers did not receive the spirit of bondage again to fear. According to 8:15, what do we cry out by the Spirit of adoption?",
+        "child": "Romans 8:15 says God’s Spirit makes believers part of His family instead of leaving them afraid. What do we cry out?",
+        "teen": "Romans 8:15 contrasts a spirit of bondage with the Spirit of adoption. What cry does the Spirit of adoption lead us to?",
+        "older": "According to Romans 8:15, what do we cry out by the Spirit of adoption?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Holy, holy, holy"
+        },
+        {
+          "id": "b",
+          "text": "Hosanna in the highest"
+        },
+        {
+          "id": "c",
+          "text": "Lord, have mercy"
+        },
+        {
+          "id": "d",
+          "text": "Abba, Father"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:15",
+            "text": "For you did not receive the spirit of bondage again to fear, but you received the Spirit of adoption by whom we cry out, “Abba, Father.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 8:15 ends with the cry itself, set in quotation marks after “by whom we cry out.”",
+          "child": "Look at the very end of Romans 8:15. The words we cry out are inside quotation marks.",
+          "teen": "8:15 first says what we did not receive, then what we did receive. The cry is quoted at the end.",
+          "older": "The cry is quoted at the close of 8:15; 8:16 adds the Spirit’s witness that we are children of God."
+        },
+        "extended_explanation": "Paul says those led by the Spirit of God belong to God’s family (8:14). They did not receive a spirit of bondage that leads back to fear, but the Spirit of adoption. The end of 8:15 quotes what we cry out by Him, and 8:16 says the Spirit Himself bears witness with our spirit that we are children of God. Read the quotation at the end of 8:15.",
+        "takeaway": "By the Spirit of adoption we cry out, “Abba, Father.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-rom-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 8:26 says we do not know what we should pray for as we ought. What does it say the Spirit helps us in?",
+        "child": "Sometimes we do not know how to pray. According to Romans 8:26, what does the Spirit help us with?",
+        "teen": "Romans 8:26 opens with “Likewise the Spirit also helps.” What does He help in?",
+        "older": "According to Romans 8:26, the Spirit helps us in what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Our weaknesses"
+        },
+        {
+          "id": "b",
+          "text": "Our good works"
+        },
+        {
+          "id": "c",
+          "text": "Our daily labors"
+        },
+        {
+          "id": "d",
+          "text": "Our victories over sin"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:26",
+            "text": "Likewise the Spirit also helps in our weaknesses. For we do not know what we should pray for as we ought, but the Spirit Himself makes intercession for us with groanings which cannot be uttered.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 8:26 begins “Likewise the Spirit also helps in.” Read the words that finish that first sentence.",
+          "child": "Look at the first sentence of Romans 8:26. It ends by naming what the Spirit helps us in.",
+          "teen": "The first sentence of 8:26 names it; the second explains why we need the help.",
+          "older": "The first sentence of 8:26 states it; the rest of the verse and 8:27 describe how the Spirit intercedes."
+        },
+        "extended_explanation": "Paul has spoken of creation groaning and of believers groaning as they wait (8:22-23). In 8:26 he says the Spirit helps us too. We do not know what to pray for as we ought, but the Spirit Himself makes intercession for us with groanings which cannot be uttered, and God, who searches the hearts, knows the mind of the Spirit (8:27). Read the first sentence of 8:26.",
+        "takeaway": "The Spirit helps in our weaknesses and makes intercession for us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-rom-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After speaking of God’s purpose for those who love Him, Paul asks, “What then shall we say to these things?” (8:31). His next question begins “If God is for us.” How does it end?",
+        "child": "In Romans 8:31 Paul asks a famous question that starts “If God is for us.” How does the question finish?",
+        "teen": "Romans 8:31 contains two questions. The second begins “If God is for us.” What is the rest of it?",
+        "older": "According to Romans 8:31, how does Paul finish the question that begins “If God is for us”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who can stand before Him?"
+        },
+        {
+          "id": "b",
+          "text": "Why should we be afraid?"
+        },
+        {
+          "id": "c",
+          "text": "Who can be against us?"
+        },
+        {
+          "id": "d",
+          "text": "What more could we need?"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:31",
+            "text": "What then shall we say to these things? If God is for us, who can be against us?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 8:31 ends with Paul’s second question. Read it to the question mark.",
+          "child": "Look at the end of Romans 8:31. Read the second question all the way through.",
+          "teen": "The first question in 8:31 sets up the second. Read the words after the comma in the second question.",
+          "older": "The second half of the second question in 8:31 completes it; 8:32-34 then ask more questions in the same spirit."
+        },
+        "extended_explanation": "Paul has said that all things work together for good to those who love God (8:28). In 8:31 he asks what we should say to these things, and then asks a second question that begins with God being for us. In 8:32 he adds that God did not spare His own Son but delivered Him up for us all. Read the end of 8:31.",
+        "takeaway": "Paul asked, “If God is for us, who can be against us?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-rom-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Spirit bears witness with our spirit that we are children of God (8:16). According to 8:17, if children, then heirs of God and what else?",
+        "child": "Romans 8:16-17 says that if we are God’s children, we are also heirs. Heirs of God, and what else?",
+        "teen": "In Romans 8:16-17 Paul moves from children to heirs. Besides being heirs of God, what does he call believers?",
+        "older": "According to Romans 8:17, believers are heirs of God and what else?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heirs of the promised land"
+        },
+        {
+          "id": "b",
+          "text": "Heirs of the prophets"
+        },
+        {
+          "id": "c",
+          "text": "Heirs of the Law of Moses"
+        },
+        {
+          "id": "d",
+          "text": "Joint heirs with Christ"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:16",
+            "text": "The Spirit Himself bears witness with our spirit that we are children of God,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 8:17",
+            "text": "and if children, then heirs—heirs of God and joint heirs with Christ, if indeed we suffer with Him, that we may also be glorified together.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 8:17 says “if children, then heirs.” Read the description that follows the dash, after “heirs of God and.”",
+          "child": "Look at the middle of Romans 8:17. After “heirs of God,” Paul adds a second description.",
+          "teen": "8:16 says we are children; 8:17 draws two conclusions. Read the second one.",
+          "older": "The second description of believers in 8:17 names it, followed by a word about suffering and being glorified."
+        },
+        "extended_explanation": "In 8:15 believers receive the Spirit of adoption, and in 8:16 the Spirit bears witness that we are children of God. Paul takes the next step in 8:17: children are heirs. He names two ways they are heirs, and adds that we suffer with Him so that we may also be glorified together. Read the middle of 8:17.",
+        "takeaway": "If children, then heirs—heirs of God and joint heirs with Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-rom-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 12",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Romans 12:1-2 Paul urges believers to present their bodies to God and not to be conformed to this world. On what basis does he make this appeal in 12:1?",
+        "child": "Paul asks believers to give their whole selves to God and to be changed instead of copying the world. What does he appeal to when he asks this?",
+        "teen": "Romans 12:1 begins with “I beseech you therefore, brethren.” What does Paul make his appeal by?",
+        "older": "According to Romans 12:1, by what does Paul beseech the brethren?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By the law of Moses"
+        },
+        {
+          "id": "b",
+          "text": "By the mercies of God"
+        },
+        {
+          "id": "c",
+          "text": "By the authority of the apostles"
+        },
+        {
+          "id": "d",
+          "text": "By the fear of judgment"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 12:1",
+            "text": "I beseech you therefore, brethren, by the mercies of God, that you present your bodies a living sacrifice, holy, acceptable to God, which is your reasonable service.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 12:2",
+            "text": "And do not be conformed to this world, but be transformed by the renewing of your mind, that you may prove what is that good and acceptable and perfect will of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 12:1 opens with Paul’s appeal. Read the words right after “I beseech you therefore, brethren.”",
+          "child": "Look at the beginning of Romans 12:1. Before Paul says what to present, he says what he is appealing by.",
+          "teen": "12:1 states the basis first, then the request. Read the phrase between “brethren” and “that you present.”",
+          "older": "The basis of the appeal comes before the request in 12:1; 12:2 continues the request."
+        },
+        "extended_explanation": "Romans 12 turns from what God has done to how believers should live. In 12:1 Paul makes his appeal on a certain basis, then asks believers to present their bodies to God, holy and acceptable, which he calls their reasonable service. In 12:2 he urges them not to be conformed to this world but transformed, so they may prove what is that good and acceptable and perfect will of God. Read the opening phrase of 12:1.",
+        "takeaway": "Paul beseeches believers by the mercies of God to present their bodies to Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-rom-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 8:17 speaks of suffering with Christ. In 8:18 Paul weighs the sufferings of this present time. What does he say they are not worthy to be compared with?",
+        "child": "Paul knew believers would go through hard times. In Romans 8:18, what does he say those sufferings cannot even be compared to?",
+        "teen": "Romans 8:18 compares the sufferings of this present time with something else. What is it?",
+        "older": "According to Romans 8:18, the sufferings of this present time are not worthy to be compared with what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The glory which shall be revealed"
+        },
+        {
+          "id": "b",
+          "text": "The sins we have committed before"
+        },
+        {
+          "id": "c",
+          "text": "The riches of the kings of the earth"
+        },
+        {
+          "id": "d",
+          "text": "The judgment that is still to come"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:17",
+            "text": "and if children, then heirs—heirs of God and joint heirs with Christ, if indeed we suffer with Him, that we may also be glorified together.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 8:18",
+            "text": "For I consider that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 8:18 ends with the second half of the comparison. Read the words after “not worthy to be compared with.”",
+          "child": "Look at the end of Romans 8:18. After Paul mentions the sufferings, he names what they cannot be compared with.",
+          "teen": "8:17 speaks of suffering with Christ. 8:18 completes the comparison at the end of the verse.",
+          "older": "The comparison is completed at the close of 8:18; 8:17 ends on the same theme."
+        },
+        "extended_explanation": "In 8:17 Paul says we suffer with Christ. He does not deny the sufferings. In 8:18 he sets the sufferings of this present time beside something else and says they are not worthy to be compared. Read the end of 8:18.",
+        "takeaway": "The sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-rom-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "life-in-the-spirit"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 8:28 says all things work together for good to those who love God, and 8:35 names tribulation, distress, persecution, famine, nakedness, peril, and sword. According to 8:37, what are we in all these things through Him who loved us?",
+        "child": "Paul lists many hard things believers might face, like trouble, hunger, and danger (8:35). He also says God works all things together for good (8:28). What does he say we are in all these things (8:37)?",
+        "teen": "Romans 8:35 lists hardships that seem to threaten believers. Romans 8:37 responds with “Yet in all these things.” What does it say we are?",
+        "older": "Read Romans 8:28 and 8:35 together with 8:37. According to 8:37, what are we in all these things?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Unable to stand alone"
+        },
+        {
+          "id": "b",
+          "text": "Tested and found wanting"
+        },
+        {
+          "id": "c",
+          "text": "More than conquerors"
+        },
+        {
+          "id": "d",
+          "text": "Strangers in this world"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:28",
+            "text": "And we know that all things work together for good to those who love God, to those who are the called according to His purpose.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 8:35",
+            "text": "Who shall separate us from the love of Christ? Shall tribulation, or distress, or persecution, or famine, or nakedness, or peril, or sword?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 8:37",
+            "text": "Yet in all these things we are more than conquerors through Him who loved us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Romans 8:37 begins “Yet in all these things we are.” Read the words that come next, before “through Him who loved us.”",
+          "child": "Look at Romans 8:37. After “Yet in all these things,” Paul says what we are, and through whom.",
+          "teen": "8:35 asks a question with a list of troubles. 8:37 gives Paul’s reply. Read the middle of 8:37.",
+          "older": "Paul’s reply to the list in 8:35 is stated in the middle of 8:37, and 8:38-39 say why he is persuaded."
+        },
+        "extended_explanation": "Paul does not pretend believers will escape hardship. In 8:35 he asks who shall separate us from the love of Christ, and lists tribulation, distress, persecution, famine, nakedness, peril, and sword. In 8:36 he quotes Scripture: we are accounted as sheep for the slaughter. Earlier, in 8:28, he said that all things work together for good to those who love God, and in 8:37 he says what we are in all these things through Him who loved us. Read the middle of 8:37, and see how 8:38-39 complete the thought.",
+        "takeaway": "In all these things we are more than conquerors through Him who loved us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1samuel-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1sa-0012",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 18",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When David returned from striking down the Philistine, the women came out singing and dancing. They sang, “Saul has slain his thousands, and David his...” what?",
+        "child": "After David defeated the Philistine, women sang a song about Saul and David. “Saul has slain his thousands, and David his...” what?",
+        "teen": "The women’s victory song in 18:7 compares Saul and David. What number did they give David?",
+        "older": "Complete the women’s song in 1 Samuel 18:7: “Saul has slain his thousands, and David his ...”"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hundreds"
+        },
+        {
+          "id": "b",
+          "text": "Hundred thousands"
+        },
+        {
+          "id": "c",
+          "text": "Ten thousands"
+        },
+        {
+          "id": "d",
+          "text": "Thousands of giants"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 18:6",
+            "text": "Now it had happened as they were coming home, when David was returning from the slaughter of the Philistine, that the women had come out of all the cities of Israel, singing and dancing, to meet King Saul, with tambourines, with joy, and with musical instruments.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 18:7",
+            "text": "So the women sang as they danced, and said: “Saul has slain his thousands, And David his ten thousands.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The women’s song is at the end of 1 Samuel 18:7. Read the second line, about David.",
+          "child": "Look at the last line of 1 Samuel 18:7. It tells what the women said about David.",
+          "teen": "18:7 sets Saul’s number beside David’s. Read the line that begins “And David.”",
+          "older": "The song’s second line, beginning “And David,” supplies the figure that so displeased Saul."
+        },
+        "extended_explanation": "David had come back from defeating the Philistine, and women from all the cities of Israel came out with tambourines and joy. Their song put Saul and David side by side, and the comparison troubled Saul. Read the second line of the song in 18:7.",
+        "takeaway": "The women sang, “Saul has slain his thousands, and David his ten thousands.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 18",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the women’s song, Saul eyed David from that day forward. The next day, as David played music, what did Saul say he would do?",
+        "child": "Saul became jealous of David and watched him closely. The next day, while David played music for him, what did Saul say he would do?",
+        "teen": "Saul’s jealousy (18:9) turns into action (18:11). What did Saul say he would do to David?",
+        "older": "According to 1 Samuel 18:11, what did Saul say he would do as he cast at David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Break David’s harp in two"
+        },
+        {
+          "id": "b",
+          "text": "Pin David to the wall"
+        },
+        {
+          "id": "c",
+          "text": "Send David back to Bethlehem"
+        },
+        {
+          "id": "d",
+          "text": "Make David his armorbearer"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 18:9",
+            "text": "So Saul eyed David from that day forward.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 18:11",
+            "text": "And Saul cast the spear, for he said, “I will pin David to the wall!” But David escaped his presence twice.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Saul’s words are quoted in the middle of 1 Samuel 18:11, right after “for he said.”",
+          "child": "Look at 1 Samuel 18:11. Read Saul’s words after “he said.”",
+          "teen": "18:9 shows the jealousy starting; 18:11 shows how far it went. Read Saul’s quoted words in 18:11.",
+          "older": "Saul’s stated intent is quoted in 18:11, between “for he said” and David’s escape."
+        },
+        "extended_explanation": "The women’s song made Saul very angry, and he wondered what more David could have but the kingdom. From then on he watched David with suspicion. The next day, while David played as at other times, Saul acted on his jealousy. Read the words Saul said in 18:11.",
+        "takeaway": "Saul cast his spear, saying, “I will pin David to the wall!” but David escaped twice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 20",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jonathan arranged a signal using arrows. If he called to the lad, “Look, the arrows are beyond you,” what did that mean David should do?",
+        "child": "Jonathan made a secret plan with arrows to warn David. If he said the arrows were beyond the boy, what was David supposed to do?",
+        "teen": "Jonathan’s arrow signal had two possible messages (20:21-22). What did “the arrows are beyond you” tell David to do?",
+        "older": "In Jonathan’s signal (1 Samuel 20:21-22), what did the words “the arrows are beyond you” mean David should do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Go your way"
+        },
+        {
+          "id": "b",
+          "text": "Come back to the feast"
+        },
+        {
+          "id": "c",
+          "text": "Hide in the field until evening"
+        },
+        {
+          "id": "d",
+          "text": "Meet me at Bethlehem"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 20:21",
+            "text": "and there I will send a lad, saying, ‘Go, find the arrows.’ If I expressly say to the lad, ‘Look, the arrows are on this side of you; get them and come’—then, as the LORD lives, there is safety for you and no harm.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 20:22",
+            "text": "But if I say thus to the young man, ‘Look, the arrows are beyond you’—go your way, for the LORD has sent you away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 20:21 gives the safe signal; 20:22 gives the other one. Read the words right after “the arrows are beyond you” in 20:22.",
+          "child": "Look at 1 Samuel 20:22. Read what Jonathan says right after the arrows are “beyond you.”",
+          "teen": "20:21 gives one signal and 20:22 the other. Read the instruction after the dash in 20:22.",
+          "older": "The instruction follows the dash in 20:22."
+        },
+        "extended_explanation": "David feared Saul wanted him dead, and Jonathan agreed to find out. Since they could not safely be seen talking, Jonathan planned to shoot arrows and call out to a lad. Each call carried a hidden message. Read 20:22 to see what the second call meant.",
+        "takeaway": "If Jonathan said the arrows were beyond the lad, David was to go his way, for the LORD had sent him away."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 24",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the cave at En Gedi, David’s men urged him to act against Saul. Afterward, David’s heart troubled him. Why?",
+        "child": "David was hiding in a cave when Saul came in. Later, David felt bad in his heart. Why?",
+        "teen": "David was close enough to harm Saul in the cave but did something smaller. Why did his heart trouble him afterward?",
+        "older": "According to 1 Samuel 24:5, why did David’s heart trouble him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He had run from Saul’s army"
+        },
+        {
+          "id": "b",
+          "text": "His men wanted to leave him"
+        },
+        {
+          "id": "c",
+          "text": "He had lied to the king"
+        },
+        {
+          "id": "d",
+          "text": "He had cut Saul’s robe"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 24:4",
+            "text": "Then the men of David said to him, “This is the day of which the LORD said to you, ‘Behold, I will deliver your enemy into your hand, that you may do to him as it seems good to you.’ ” And David arose and secretly cut off a corner of Saul’s robe.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 24:5",
+            "text": "Now it happened afterward that David’s heart troubled him because he had cut Saul’s robe.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 24:5 gives the reason after “because.” Compare it with what David did secretly at the end of 24:4.",
+          "child": "Look at 1 Samuel 24:5. The reason comes after the word “because.”",
+          "teen": "24:4 shows what David did quietly; 24:5 shows how he felt about it and why. Read after “because.”",
+          "older": "The cause of David’s troubled conscience is stated after “because” in 24:5 and matches his act at the close of 24:4."
+        },
+        "extended_explanation": "Saul was hunting David with three thousand men and stepped into the very cave where David and his men were hiding. David’s men said this was his chance. David crept up and did something secretly, but he did not harm Saul. Read 24:5 to see why his heart troubled him afterward.",
+        "takeaway": "David’s heart troubled him because he had cut Saul’s robe."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 26",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David and Abishai crept into Saul’s camp while everyone slept. David would not harm Saul, but he took two things from beside Saul’s head and later showed Abner they were missing. What were they?",
+        "child": "David sneaked into Saul’s camp at night while everyone was asleep. He didn’t hurt Saul, but he took two things from next to Saul’s head. What were they?",
+        "teen": "In 26:11-12 David takes proof from Saul’s camp, and in 26:16 he uses it to shame Abner. What did he take?",
+        "older": "What did David take from beside Saul’s head (1 Samuel 26:11-12), the same items he pointed to when rebuking Abner in 26:16?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sword and the shield of Abner"
+        },
+        {
+          "id": "b",
+          "text": "The cloak and the king’s signet ring"
+        },
+        {
+          "id": "c",
+          "text": "The crown and the royal armband"
+        },
+        {
+          "id": "d",
+          "text": "The spear and the jug of water"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 26:11",
+            "text": "The LORD forbid that I should stretch out my hand against the LORD’s anointed. But please, take now the spear and the jug of water that are by his head, and let us go.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 26:12",
+            "text": "So David took the spear and the jug of water by Saul’s head, and they got away; and no man saw or knew it or awoke. For they were all asleep, because a deep sleep from the LORD had fallen on them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 26:16",
+            "text": "This thing that you have done is not good. As the LORD lives, you deserve to die, because you have not guarded your master, the LORD’s anointed. And now see where the king’s spear is, and the jug of water that was by his head.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "David names the two items in 1 Samuel 26:11, and 26:12 and 26:16 mention them again. Read the words right after “take now” in 26:11.",
+          "child": "Look at 1 Samuel 26:12. It names the two things David took from by Saul’s head.",
+          "teen": "The same pair shows up three times: David’s plan (26:11), the act (26:12), and the proof to Abner (26:16). Read any one of them.",
+          "older": "The items recur in 26:11, 26:12, and 26:16; the phrase “by his head” marks them each time."
+        },
+        "extended_explanation": "Saul had come again to hunt David, this time in the Wilderness of Ziph. David and Abishai went into the camp at night, and a deep sleep from the LORD had fallen on everyone. Abishai wanted to strike, but David refused. Instead he took two things as proof. Read what he took in 26:12.",
+        "takeaway": "David took the spear and the jug of water from beside Saul’s head."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 31",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the people of Jabesh Gilead heard what the Philistines had done to Saul, their valiant men went and brought back Saul and his sons. After burying their bones under the tamarisk tree, what did they do?",
+        "child": "When the brave men of Jabesh Gilead heard what had happened to Saul, they went and brought back Saul and his sons. After they buried them under a tree, what did they do?",
+        "teen": "The men of Jabesh Gilead honored Saul and his sons with a burial at Jabesh (31:11-13). What did they do after the burial?",
+        "older": "According to 1 Samuel 31:13, what did the men of Jabesh Gilead do after burying Saul and his sons under the tamarisk tree?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fasted seven days"
+        },
+        {
+          "id": "b",
+          "text": "Held a great feast"
+        },
+        {
+          "id": "c",
+          "text": "Crowned a new king"
+        },
+        {
+          "id": "d",
+          "text": "Marched against the Philistines"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 31:11",
+            "text": "Now when the inhabitants of Jabesh Gilead heard what the Philistines had done to Saul,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 31:13",
+            "text": "Then they took their bones and buried them under the tamarisk tree at Jabesh, and fasted seven days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 31:13 ends with what the men did after the burial. Read the last words of the verse.",
+          "child": "Look at the very end of 1 Samuel 31:13.",
+          "teen": "31:11 is the news reaching Jabesh; 31:13 is the burial and what followed. Read the final clause.",
+          "older": "The closing clause of 31:13, after the burial under the tamarisk tree, records their next act."
+        },
+        "extended_explanation": "Saul’s reign ended in defeat on Mount Gilboa. When the news reached Jabesh Gilead, its valiant men did not stay safely at home. They traveled all night and brought Saul and his sons back to Jabesh, then buried them with honor. Read the end of 31:13.",
+        "takeaway": "The men of Jabesh Gilead buried Saul and his sons under the tamarisk tree and fasted seven days."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1sa-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 18",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jonathan and David made a covenant because Jonathan loved him as his own soul (18:3). When they parted in 20:42, Jonathan reminded David of their oath in the LORD’s name. Besides the two of them, between whom did they ask the LORD to be forever?",
+        "child": "Jonathan and David promised to be loyal friends. When they said goodbye, Jonathan reminded David of their promise. Besides the two of them, who else did they say the LORD would be between, forever?",
+        "teen": "The covenant in 18:3 is renewed in the goodbye of 20:42. Their oath reaches beyond the two friends. Whom does it include?",
+        "older": "Comparing the covenant of 1 Samuel 18:3 with the oath recalled in 20:42, whom else did the oath include besides David and Jonathan?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your tribe of Judah and my tribe of Benjamin"
+        },
+        {
+          "id": "b",
+          "text": "Your descendants and my descendants"
+        },
+        {
+          "id": "c",
+          "text": "Your city Bethlehem and my city Gibeah"
+        },
+        {
+          "id": "d",
+          "text": "Your servants and my servants"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 18:3",
+            "text": "Then Jonathan and David made a covenant, because he loved him as his own soul.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 20:42",
+            "text": "Then Jonathan said to David, “Go in peace, since we have both sworn in the name of the LORD, saying, ‘May the LORD be between you and me, and between your descendants and my descendants, forever.’ ” So he arose and departed, and Jonathan went into the city.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "In 1 Samuel 20:42, the oath is quoted after “saying.” Read past the first pair it names to the second pair.",
+          "child": "Look at the quoted oath in 1 Samuel 20:42. After the first pair, it names another pair.",
+          "teen": "18:3 is the start of the covenant; 20:42 shows how far it reaches. Read the second “between” in the oath.",
+          "older": "The quoted oath in 20:42 has two “between” phrases; the second extends it beyond the two men and adds “forever.”"
+        },
+        "extended_explanation": "Jonathan, Saul’s son, loved David and made a covenant with him, even giving him his own armor and weapons. When it became clear Saul meant to kill David, the friends had to part. Before David left, Jonathan reminded him of the oath they had sworn. Read the quoted oath in 20:42 and notice the second pair it names.",
+        "takeaway": "Jonathan and David swore that the LORD would be between them and between their descendants forever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1sa-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 24",
+      "topics": [
+        "david-on-the-run"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the cave, David spared Saul and called out to him. Later, in Saul’s camp, David said, “the LORD shall strike him, or his day shall come to die” (26:10). Back in the cave scene, what had David already asked the LORD to do (24:12, 15)?",
+        "child": "Two times David could have hurt Saul, and two times he didn’t. In the cave, what did David ask the LORD to do?",
+        "teen": "David’s restraint in chapters 24 and 26 rests on one conviction: the LORD, not David, will deal with Saul (26:10). In 24:12 and 24:15, what does David ask the LORD to do?",
+        "older": "Reading 1 Samuel 24:12, 15 with 26:10, what did David ask the LORD to do, rather than taking matters into his own hands?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Restore the kingdom to me now"
+        },
+        {
+          "id": "b",
+          "text": "Hide me from Saul’s soldiers"
+        },
+        {
+          "id": "c",
+          "text": "Judge between you and me"
+        },
+        {
+          "id": "d",
+          "text": "Bless Saul’s house forever"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 24:12",
+            "text": "Let the LORD judge between you and me, and let the LORD avenge me on you. But my hand shall not be against you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 24:15",
+            "text": "Therefore let the LORD be judge, and judge between you and me, and see and plead my case, and deliver me out of your hand.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 26:10",
+            "text": "David said furthermore, “As the LORD lives, the LORD shall strike him, or his day shall come to die, or he shall go out to battle and perish.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 24:12 begins with David’s request, right after “Let the LORD.” He repeats it in 24:15. Then 26:10 shows the same trust in different words.",
+          "child": "Look at the start of 1 Samuel 24:12. Read what David asks after “Let the LORD.”",
+          "teen": "24:12 and 24:15 use the same verb for what David leaves to the LORD; 26:10 shows the LORD will deal with Saul in His own time. Read the opening words of 24:12.",
+          "older": "The request opens 24:12 and is restated at the start of 24:15; 26:10 expresses the same refusal to act for himself."
+        },
+        "extended_explanation": "Twice Saul was in David’s power, first in the cave at En Gedi and then asleep in his camp. Both times David’s men urged him to strike, and both times he refused. His reasons were the same: Saul was the LORD’s anointed, and the outcome belonged to the LORD. Read the first words of 24:12 and compare them with 26:10.",
+        "takeaway": "David said, “Let the LORD judge between you and me,” and left Saul’s end in the LORD’s hands."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

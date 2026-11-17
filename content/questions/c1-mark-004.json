@@ -1,0 +1,537 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-mark-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mrk-0022",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 8",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus began to teach that the Son of Man must suffer many things, be killed, and after three days rise again (8:31). He spoke this openly. According to 8:32, what did Peter do?",
+        "child": "Jesus told His disciples plainly that He would suffer, be killed, and rise again. How did Peter react?",
+        "teen": "Mark 8:31-32 says Jesus spoke openly about His coming suffering. What did Peter do in response?",
+        "older": "According to Mark 8:32, what did Peter do after Jesus spoke openly of His suffering?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Took Him aside and rebuked Him"
+        },
+        {
+          "id": "b",
+          "text": "Wept and asked to die with Him"
+        },
+        {
+          "id": "c",
+          "text": "Fell at His feet and worshiped"
+        },
+        {
+          "id": "d",
+          "text": "Ran to tell the other disciples"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 8:31",
+            "text": "And He began to teach them that the Son of Man must suffer many things, and be rejected by the elders and chief priests and scribes, and be killed, and after three days rise again.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 8:32",
+            "text": "He spoke this word openly. Then Peter took Him aside and began to rebuke Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 8:32 begins “He spoke this word openly.” Read the sentence that starts “Then Peter.”",
+          "child": "Look at the second sentence of Mark 8:32. It begins “Then Peter” and tells what he did.",
+          "teen": "8:31 is Jesus’ teaching; 8:32 is Peter’s reaction. Read the words after “Then Peter.”",
+          "older": "Peter’s action is the second sentence of 8:32; 8:33 shows how Jesus responded."
+        },
+        "extended_explanation": "In 8:31 Jesus begins to teach that the Son of Man must suffer, be rejected, be killed, and rise after three days. Mark adds in 8:32 that He said this openly. Then Peter acts, and in 8:33 Jesus turns and looks at His disciples before He replies. Read the second sentence of 8:32.",
+        "takeaway": "Peter took Jesus aside and began to rebuke Him, and Jesus rebuked Peter in return."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mrk-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 9",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A father asked Jesus to help his son if He could do anything. Jesus said, “If you can believe, all things are possible to him who believes” (9:23). What did the father cry out with tears?",
+        "child": "A worried father asked Jesus to help his son. Jesus told him that everything is possible for someone who believes. What did the father cry out?",
+        "teen": "In Mark 9:24 the boy’s father replies to Jesus with tears. What did he cry out?",
+        "older": "According to Mark 9:24, what did the father of the child cry out with tears?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lord, have mercy and help my son!"
+        },
+        {
+          "id": "b",
+          "text": "Lord, I believe; help my unbelief!"
+        },
+        {
+          "id": "c",
+          "text": "Lord, if You will, make him well!"
+        },
+        {
+          "id": "d",
+          "text": "Master, I believe You are the Christ!"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 9:23",
+            "text": "Jesus said to him, “If you can believe, all things are possible to him who believes.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 9:24",
+            "text": "Immediately the father of the child cried out and said with tears, “Lord, I believe; help my unbelief!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 9:24 quotes the father. Read his words inside the quotation marks.",
+          "child": "Look at Mark 9:24. The father cried out with tears, and his words are in quotation marks after “said.”",
+          "teen": "9:23 is Jesus’ statement about believing. In 9:24, read the father’s whole cry.",
+          "older": "The father’s cry is quoted in full in 9:24."
+        },
+        "extended_explanation": "The father had said, “If You can do anything, have compassion on us and help us” (9:22). Jesus turned the “if” back to him: all things are possible to him who believes (9:23). In 9:24 the father cries out with tears. Jesus then healed the boy and lifted him up (9:25-27). Read the father’s words in 9:24.",
+        "takeaway": "The father cried, “Lord, I believe; help my unbelief!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mrk-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 9",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the house at Capernaum, Jesus set a little child in the midst of the twelve (9:36). According to the next sentence, what had He done when He spoke to them?",
+        "child": "Jesus placed a young child among His disciples. Before He started teaching, what does Mark say He had done?",
+        "teen": "Mark 9:36 shows two actions before Jesus speaks. After He set someone in their midst, what had He done?",
+        "older": "According to Mark 9:36, after Jesus set a little child in the midst of them, what had He done when He spoke?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sent him away to his home"
+        },
+        {
+          "id": "b",
+          "text": "Laid His hands on the twelve"
+        },
+        {
+          "id": "c",
+          "text": "Taken him in His arms"
+        },
+        {
+          "id": "d",
+          "text": "Given him a seat at His right hand"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 9:36",
+            "text": "Then He took a little child and set him in the midst of them. And when He had taken him in His arms, He said to them,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 9:37",
+            "text": "“Whoever receives one of these little children in My name receives Me; and whoever receives Me, receives not Me but Him who sent Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 9:36 has two sentences. Read the second sentence, up to “He said to them.”",
+          "child": "Look at the second half of Mark 9:36. After the child is set among them, the next words tell what Jesus had done.",
+          "teen": "9:36 is the action; 9:37 is the teaching. Read the clause that begins “And when He had.”",
+          "older": "The second sentence of 9:36, beginning “And when He had,” tells what Jesus had done before He spoke."
+        },
+        "extended_explanation": "In Capernaum, Jesus sat down and called the twelve to Him (9:35). Then in 9:36 He took someone and set him in their midst. The second sentence of 9:36 tells what He had done when He spoke. In 9:37 He says that whoever receives one like this in His name receives Him, and the One who sent Him. Read the second sentence of 9:36.",
+        "takeaway": "Jesus took a little child, and when He had taken him in His arms, He said that whoever receives such a one in His name receives Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mrk-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 10",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A man told Jesus he had kept all the commandments from his youth (10:20). According to 10:21, what did Jesus do as He looked at him?",
+        "child": "A man told Jesus he had obeyed God’s commandments ever since he was young. What does Mark say Jesus did as He looked at him?",
+        "teen": "Before Jesus tells the man what he lacks, Mark 10:21 records how Jesus responded to him. What did Jesus do?",
+        "older": "According to Mark 10:21, what did Jesus do, looking at the man?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Corrected him"
+        },
+        {
+          "id": "b",
+          "text": "Turned away from him"
+        },
+        {
+          "id": "c",
+          "text": "Laughed at him"
+        },
+        {
+          "id": "d",
+          "text": "Loved him"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 10:20",
+            "text": "And he answered and said to Him, “Teacher, all these things I have kept from my youth.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 10:21",
+            "text": "Then Jesus, looking at him, loved him, and said to him, “One thing you lack: Go your way, sell whatever you have and give to the poor, and you will have treasure in heaven; and come, take up the cross, and follow Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 10:21 begins “Then Jesus, looking at him.” Read the next words, before “and said to him.”",
+          "child": "Look at the start of Mark 10:21. Between “looking at him” and “and said to him,” Mark tells what Jesus did.",
+          "teen": "10:20 is the man’s claim. In 10:21, read the words between “looking at him” and “and said.”",
+          "older": "Mark places it between “looking at him” and “and said to him” at the opening of 10:21."
+        },
+        "extended_explanation": "The man came running and knelt before Jesus, asking how to inherit eternal life (10:17). When Jesus listed the commandments, the man said he had kept them all from his youth (10:20). Before Jesus tells him the one thing he lacks, Mark 10:21 records how Jesus responded to him as He looked at him. Read the words between “looking at him” and “and said to him.”",
+        "takeaway": "Jesus, looking at him, loved him, and then told him the one thing he lacked."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mrk-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 10",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The man went away sorrowful, for he had great possessions (10:22). According to 10:25, what did Jesus then say is easier than for a rich man to enter the kingdom of God?",
+        "child": "The man with a lot of money walked away sad. Jesus then gave a word picture of how hard it is for a rich person to enter God’s kingdom. What did He say was easier?",
+        "teen": "Mark 10:22 shows the rich man leaving, and 10:25 is Jesus’ comparison. What is easier, according to Jesus?",
+        "older": "According to Mark 10:25, what did Jesus say is easier than for a rich man to enter the kingdom of God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A river running back up the hills"
+        },
+        {
+          "id": "b",
+          "text": "A leopard changing its spots"
+        },
+        {
+          "id": "c",
+          "text": "A mountain throwing itself into the sea"
+        },
+        {
+          "id": "d",
+          "text": "A camel going through a needle’s eye"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 10:22",
+            "text": "But he was sad at this word, and went away sorrowful, for he had great possessions.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 10:25",
+            "text": "It is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 10:25 begins “It is easier for.” Read the picture that follows, before “than for a rich man.”",
+          "child": "Look at Mark 10:25. Jesus says “It is easier for” and then describes something, before He mentions the rich man.",
+          "teen": "10:22 is the man leaving with his possessions. In 10:25, read the words between “easier for” and “than for a rich man.”",
+          "older": "The picture sits between “It is easier for” and “than for a rich man” in 10:25."
+        },
+        "extended_explanation": "Jesus told the man to sell what he had, give to the poor, and follow Him (10:21). The man went away sorrowful because he had great possessions (10:22). Jesus then told His disciples how hard it is for those who trust in riches to enter the kingdom of God (10:23-24), and in 10:25 He gave a picture to show it. The disciples were greatly astonished (10:26). Read the comparison in 10:25.",
+        "takeaway": "Jesus said it is easier for a camel to go through the eye of a needle than for a rich man to enter the kingdom of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mrk-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 12",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A scribe agreed with Jesus that loving God with all the heart and loving one’s neighbor as oneself is more than all the whole burnt offerings and sacrifices (12:33). What did Jesus tell him (12:34)?",
+        "child": "A scribe agreed with Jesus that loving God and loving your neighbor matter more than all the offerings. What did Jesus say to him?",
+        "teen": "Mark 12:33 is the scribe’s reply to Jesus, and 12:34 is Jesus’ response. What did Jesus say?",
+        "older": "According to Mark 12:34, what did Jesus say to the scribe who had spoken wisely?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You have spoken as a true teacher"
+        },
+        {
+          "id": "b",
+          "text": "Go and offer your gifts at the altar"
+        },
+        {
+          "id": "c",
+          "text": "You are not far from the kingdom of God"
+        },
+        {
+          "id": "d",
+          "text": "Go and show yourself to the priest at once"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 12:33",
+            "text": "And to love Him with all the heart, with all the understanding, with all the soul, and with all the strength, and to love one’s neighbor as oneself, is more than all the whole burnt offerings and sacrifices.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 12:34",
+            "text": "Now when Jesus saw that he answered wisely, He said to him, “You are not far from the kingdom of God.” But after that no one dared question Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 12:34 says Jesus saw the scribe had spoken wisely. Read Jesus’ words in the quotation marks.",
+          "child": "Look at Mark 12:34. After Jesus saw how wisely the scribe spoke, His words are in quotation marks.",
+          "teen": "12:33 is the scribe’s summary. In 12:34, read what Jesus said to him.",
+          "older": "Jesus’ words to the scribe are quoted in the first sentence of 12:34."
+        },
+        "extended_explanation": "A scribe asked which commandment is first of all (12:28). Jesus named loving the LORD with all the heart, soul, mind, and strength, and then loving one’s neighbor (12:29-31). The scribe agreed and said these are more than all offerings and sacrifices (12:33). Jesus saw that he had spoken wisely, and 12:34 gives what He told him. After that, no one dared question Him. Read the quotation in 12:34.",
+        "takeaway": "Jesus told the scribe, “You are not far from the kingdom of God.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-mrk-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 12",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Many rich people put much into the treasury, and one poor widow put in two mites (12:41-42). Why did Jesus say she had put in more than all those who had given (12:43-44)?",
+        "child": "Rich people gave lots of money at the temple, but a poor widow gave just two tiny coins. Why did Jesus say she gave more than all of them?",
+        "teen": "Mark 12:43 makes a surprising claim about the widow’s gift, and 12:44 explains it. What reason does Jesus give?",
+        "older": "According to Mark 12:44, why had the widow put in more than all the others?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "She gave in secret, unseen"
+        },
+        {
+          "id": "b",
+          "text": "She gave all that she had"
+        },
+        {
+          "id": "c",
+          "text": "She gave with a loud prayer"
+        },
+        {
+          "id": "d",
+          "text": "She gave before anyone else"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 12:42",
+            "text": "Then one poor widow came and threw in two mites, which make a quadrans.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 12:43",
+            "text": "So He called His disciples to Himself and said to them, “Assuredly, I say to you that this poor widow has put in more than all those who have given to the treasury;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 12:44",
+            "text": "for they all put in out of their abundance, but she out of her poverty put in all that she had, her whole livelihood.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 12:44 compares two kinds of givers with “but.” Read the part after “but she out of her poverty.”",
+          "child": "Look at Mark 12:44. It says how the others gave, and then, after “but,” how the widow gave.",
+          "teen": "12:43 is the claim; 12:44 is the reason. Read the contrast between “out of their abundance” and the clause after “but.”",
+          "older": "The reason is the second half of 12:44, after “but she out of her poverty.”"
+        },
+        "extended_explanation": "Jesus sat opposite the treasury and watched people give, and many rich people put in much (12:41). One poor widow put in two mites, which make a quadrans (12:42). Jesus called His disciples and said she had put in more than all the others (12:43). In 12:44 He gives the reason. Read the second half of the verse.",
+        "takeaway": "Jesus said the widow gave more because she put in all that she had, her whole livelihood."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-mrk-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 9",
+      "topics": [
+        "cost-of-following"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the road the disciples argued about who would be the greatest (9:34), and later James and John asked to sit at Jesus’ right and left in His glory (10:37). Jesus said that “whoever desires to become great among you shall be” what (10:43)?",
+        "child": "The disciples argued about which of them was the greatest, and later James and John asked for the best seats next to Jesus. What did Jesus say anyone who wants to be great must be?",
+        "teen": "Mark 9:34-35 and 10:37-43 show the same argument about greatness twice. Finish Jesus’ words in 10:43: whoever desires to become great among you shall be what?",
+        "older": "Compare Mark 9:35 with 10:37 and 10:43. According to 10:43, whoever desires to become great among the disciples shall be what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your servant"
+        },
+        {
+          "id": "b",
+          "text": "Your ruler"
+        },
+        {
+          "id": "c",
+          "text": "Your teacher"
+        },
+        {
+          "id": "d",
+          "text": "Your wisest counselor"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 9:35",
+            "text": "And He sat down, called the twelve, and said to them, “If anyone desires to be first, he shall be last of all and servant of all.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 10:37",
+            "text": "They said to Him, “Grant us that we may sit, one on Your right hand and the other on Your left, in Your glory.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 10:43",
+            "text": "Yet it shall not be so among you; but whoever desires to become great among you shall be your servant.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Mark 10:43 says “whoever desires to become great among you shall be.” Read the last words of the verse, and compare the end of 9:35.",
+          "child": "Look at the end of Mark 10:43. Then look at the end of Mark 9:35. Jesus gives the same kind of reply both times.",
+          "teen": "9:35 answers the argument about who is greatest; 10:43 answers James and John’s request. Read the end of each verse.",
+          "older": "The closing words of 10:43 echo the closing words of 9:35."
+        },
+        "extended_explanation": "Twice the disciples reached for greatness. In 9:34 they argued on the road about who would be the greatest, and Jesus answered in 9:35 with a word about being first. In 10:37 James and John asked for the places at His right and left in His glory. Jesus called the twelve to Himself and said that among them it shall not be as it is among the Gentiles (10:42-43). Read the end of 10:43, then compare the end of 9:35.",
+        "takeaway": "Jesus said whoever desires to become great among you shall be your servant, just as the Son of Man came to serve."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

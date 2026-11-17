@@ -1328,179 +1328,436 @@
           "id": "established-isaac",
           "name": "Isaac, Rebekah and the Covenant Line",
           "art": "well",
-          "questionIds": []
+          "questionIds": [
+            "c1-gen-0061",
+            "c2-gen-0016",
+            "c2-gen-0017",
+            "c2-gen-0018",
+            "c2-gen-0019",
+            "c2-gen-0020",
+            "c3-gen-0001",
+            "c3-gen-0002"
+          ]
         },
         {
           "id": "established-calf",
           "name": "The Golden Calf and the Covenant Renewed",
           "art": "calf",
-          "questionIds": []
+          "questionIds": [
+            "c1-exo-0021",
+            "c2-exo-0014",
+            "c2-exo-0015",
+            "c2-exo-0016",
+            "c2-exo-0017",
+            "c2-exo-0018",
+            "c3-exo-0001",
+            "c3-exo-0002"
+          ]
         },
         {
           "id": "established-stones",
           "name": "Twelve Stones at the Jordan",
           "art": "stones",
-          "questionIds": []
+          "questionIds": [
+            "c1-jos-0015",
+            "c2-jos-0003",
+            "c2-jos-0004",
+            "c2-jos-0005",
+            "c2-jos-0006",
+            "c2-jos-0007",
+            "c3-jos-0001",
+            "c3-jos-0002"
+          ]
         },
         {
           "id": "established-samuel",
           "name": "Samuel: From Hannah to Prophet",
           "art": "robe",
-          "questionIds": []
+          "questionIds": [
+            "c1-1sa-0010",
+            "c2-1sa-0001",
+            "c2-1sa-0002",
+            "c2-1sa-0003",
+            "c2-1sa-0004",
+            "c2-1sa-0005",
+            "c3-1sa-0001",
+            "c3-1sa-0002"
+          ]
         },
         {
           "id": "established-saul",
           "name": "Saul: Rise and Fall",
           "art": "spear",
-          "questionIds": []
+          "questionIds": [
+            "c1-1sa-0011",
+            "c2-1sa-0006",
+            "c2-1sa-0007",
+            "c2-1sa-0008",
+            "c2-1sa-0009",
+            "c2-1sa-0010",
+            "c3-1sa-0003",
+            "c3-1sa-0004"
+          ]
         },
         {
           "id": "established-david-run",
           "name": "David on the Run",
           "art": "cave",
-          "questionIds": []
+          "questionIds": [
+            "c1-1sa-0012",
+            "c2-1sa-0011",
+            "c2-1sa-0012",
+            "c2-1sa-0013",
+            "c2-1sa-0014",
+            "c2-1sa-0015",
+            "c3-1sa-0005",
+            "c3-1sa-0006"
+          ]
         },
         {
           "id": "established-ezra",
           "name": "Ezra: Return and Rebuild",
           "art": "bricks",
-          "questionIds": []
+          "questionIds": [
+            "c1-ezr-0001",
+            "c2-ezr-0001",
+            "c2-ezr-0002",
+            "c2-ezr-0003",
+            "c2-ezr-0004",
+            "c2-ezr-0005",
+            "c3-ezr-0001",
+            "c3-ezr-0002"
+          ]
         },
         {
           "id": "established-nehemiah",
           "name": "Nehemiah: Rebuilding the Wall",
           "art": "wall",
-          "questionIds": []
+          "questionIds": [
+            "c1-neh-0001",
+            "c2-neh-0001",
+            "c2-neh-0002",
+            "c2-neh-0003",
+            "c2-neh-0004",
+            "c2-neh-0005",
+            "c3-neh-0001",
+            "c3-neh-0002"
+          ]
         },
         {
           "id": "established-ezra-and-nehemiah-confession-and-reform",
           "name": "Ezra and Nehemiah: Confession and Reform",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-ezr-0002",
+            "c2-ezr-0006",
+            "c2-neh-0006",
+            "c2-neh-0007",
+            "c2-ezr-0007",
+            "c2-neh-0008",
+            "c3-neh-0003",
+            "c3-ezr-0003"
+          ]
         },
         {
           "id": "established-psalms",
           "name": "Psalms of Repentance and Refuge",
           "art": "hyssop",
-          "questionIds": []
+          "questionIds": [
+            "c1-psa-0018",
+            "c2-psa-0008",
+            "c2-psa-0009",
+            "c2-psa-0010",
+            "c2-psa-0011",
+            "c2-psa-0012",
+            "c3-psa-0002",
+            "c3-psa-0003"
+          ]
         },
         {
           "id": "established-psalms-israels-story-retold",
           "name": "Psalms: Israel's Story Retold",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-psa-0019",
+            "c2-psa-0013",
+            "c2-psa-0014",
+            "c2-psa-0015",
+            "c2-psa-0016",
+            "c2-psa-0017",
+            "c3-psa-0004",
+            "c3-psa-0005"
+          ]
         },
         {
           "id": "established-wisdom",
           "name": "Wisdom and Folly",
           "art": "doors",
           "questionIds": [
-            "c3-pro-0001"
+            "c1-pro-0018",
+            "c2-pro-0008",
+            "c2-pro-0009",
+            "c2-pro-0010",
+            "c2-pro-0011",
+            "c2-pro-0012",
+            "c3-pro-0002",
+            "c3-pro-0003"
           ]
         },
         {
           "id": "established-daniel",
           "name": "Daniel in Babylon: Dreams and Handwriting",
           "art": "writing",
-          "questionIds": []
+          "questionIds": [
+            "c1-dan-0017",
+            "c2-dan-0001",
+            "c2-dan-0002",
+            "c2-dan-0003",
+            "c2-dan-0004",
+            "c2-dan-0005",
+            "c3-dan-0001",
+            "c3-dan-0002"
+          ]
         },
         {
           "id": "established-jeremiah",
           "name": "Jeremiah: The Weeping Prophet",
           "art": "potter",
-          "questionIds": []
+          "questionIds": [
+            "c1-jer-0001",
+            "c2-jer-0001",
+            "c2-jer-0002",
+            "c2-jer-0003",
+            "c2-jer-0004",
+            "c2-jer-0005",
+            "c3-jer-0001",
+            "c3-jer-0002"
+          ]
         },
         {
           "id": "established-jeremiah-temple-sermon-and-false-prophets",
           "name": "Jeremiah: Temple Sermon and False Prophets",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jer-0002",
+            "c2-jer-0006",
+            "c2-jer-0007",
+            "c2-jer-0008",
+            "c2-jer-0009",
+            "c2-jer-0010",
+            "c3-jer-0003",
+            "c3-jer-0004"
+          ]
         },
         {
           "id": "established-ezekiel",
           "name": "Ezekiel: Visions and Dry Bones",
           "art": "bones",
-          "questionIds": []
+          "questionIds": [
+            "c1-ezk-0001",
+            "c2-ezk-0001",
+            "c2-ezk-0002",
+            "c2-ezk-0003",
+            "c2-ezk-0004",
+            "c2-ezk-0005",
+            "c3-ezk-0001",
+            "c3-ezk-0002"
+          ]
         },
         {
           "id": "established-ezekiel-the-watchman",
           "name": "Ezekiel: The Watchman",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-ezk-0002",
+            "c2-ezk-0006",
+            "c2-ezk-0007",
+            "c2-ezk-0008",
+            "c2-ezk-0009",
+            "c2-ezk-0010",
+            "c3-ezk-0003",
+            "c3-ezk-0004"
+          ]
         },
         {
           "id": "established-before",
           "name": "Before Bethlehem",
           "art": "lilies",
-          "questionIds": []
+          "questionIds": [
+            "c1-luk-0036",
+            "c2-luk-0005",
+            "c2-luk-0006",
+            "c2-mat-0012",
+            "c2-luk-0007",
+            "c2-luk-0008",
+            "c3-mat-0001",
+            "c3-luk-0001"
+          ]
         },
         {
           "id": "established-confession",
           "name": "Peter's Confession and the Transfiguration",
           "art": "mountain",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0035",
+            "c2-mat-0013",
+            "c2-mat-0014",
+            "c2-mat-0015",
+            "c2-mat-0016",
+            "c2-mat-0017",
+            "c3-mat-0002",
+            "c3-mat-0003"
+          ]
         },
         {
           "id": "established-mark-the-cost-of-following-jesus",
           "name": "Mark: The Cost of Following Jesus",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-mrk-0022",
+            "c2-mrk-0002",
+            "c2-mrk-0003",
+            "c2-mrk-0004",
+            "c2-mrk-0005",
+            "c2-mrk-0006",
+            "c3-mrk-0001",
+            "c3-mrk-0002"
+          ]
         },
         {
           "id": "established-upper",
           "name": "The Upper Room",
           "art": "basin",
-          "questionIds": []
+          "questionIds": [
+            "c1-jhn-0032",
+            "c2-jhn-0011",
+            "c2-jhn-0012",
+            "c2-jhn-0013",
+            "c2-jhn-0014",
+            "c2-jhn-0015",
+            "c3-jhn-0001",
+            "c3-jhn-0002"
+          ]
         },
         {
           "id": "established-church",
           "name": "The Church Expands",
           "art": "early-church",
           "questionIds": [
-            "c2-act-0001"
+            "c1-act-0031",
+            "c2-act-0010",
+            "c2-act-0011",
+            "c2-act-0012",
+            "c2-act-0013",
+            "c2-act-0014",
+            "c3-act-0001",
+            "c3-act-0002"
           ]
         },
         {
           "id": "established-romans",
           "name": "Romans 8: Life in the Spirit",
           "art": "wind",
-          "questionIds": []
+          "questionIds": [
+            "c1-rom-0017",
+            "c2-rom-0002",
+            "c2-rom-0003",
+            "c2-rom-0004",
+            "c2-rom-0005",
+            "c2-rom-0006",
+            "c3-rom-0001",
+            "c3-rom-0002"
+          ]
         },
         {
           "id": "established-1-corinthians-unity-and-order",
           "name": "1 Corinthians: Unity and Order",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-1co-0008",
+            "c2-1co-0002",
+            "c2-1co-0003",
+            "c2-1co-0004",
+            "c2-1co-0005",
+            "c2-1co-0006",
+            "c3-1co-0001",
+            "c3-1co-0002"
+          ]
         },
         {
           "id": "established-galatians-law-and-promise",
           "name": "Galatians: Law and Promise",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-gal-0009",
+            "c2-gal-0002",
+            "c2-gal-0003",
+            "c2-gal-0004",
+            "c2-gal-0005",
+            "c2-gal-0006",
+            "c3-gal-0001",
+            "c3-gal-0002"
+          ]
         },
         {
           "id": "established-weakness",
           "name": "2 Corinthians: Strength in Weakness",
           "art": "jar",
-          "questionIds": []
+          "questionIds": [
+            "c1-2co-0001",
+            "c2-2co-0001",
+            "c2-2co-0002",
+            "c2-2co-0003",
+            "c2-2co-0004",
+            "c2-2co-0005",
+            "c3-2co-0001",
+            "c3-2co-0002"
+          ]
         },
         {
           "id": "established-race",
           "name": "2 Timothy: Finish the Race",
           "art": "ribbon",
-          "questionIds": []
+          "questionIds": [
+            "c1-2ti-0001",
+            "c2-2ti-0001",
+            "c2-2ti-0002",
+            "c2-2ti-0003",
+            "c2-2ti-0004",
+            "c2-2ti-0005",
+            "c3-2ti-0001",
+            "c3-2ti-0002"
+          ]
         },
         {
           "id": "established-hope",
           "name": "1 Peter: Living Hope",
           "art": "anchor",
-          "questionIds": []
+          "questionIds": [
+            "c1-1pe-0001",
+            "c2-1pe-0001",
+            "c2-1pe-0002",
+            "c2-1pe-0003",
+            "c2-1pe-0004",
+            "c2-1pe-0005",
+            "c3-1pe-0001",
+            "c3-1pe-0002"
+          ]
         },
         {
           "id": "established-love",
           "name": "1 John: God Is Love",
           "art": "candle",
-          "questionIds": []
+          "questionIds": [
+            "c1-1jn-0001",
+            "c2-1jn-0001",
+            "c2-1jn-0002",
+            "c2-1jn-0003",
+            "c2-1jn-0004",
+            "c2-1jn-0005",
+            "c3-1jn-0001",
+            "c3-1jn-0002"
+          ]
         }
       ]
     },

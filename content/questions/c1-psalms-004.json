@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-psa-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 121",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 121 opens with the psalmist lifting his eyes to the hills and asking where his help comes from. In 121:2, how does he describe the LORD his help comes from?",
+        "child": "The writer of Psalm 121 looks up at the hills and asks where his help comes from. He answers that it comes from the LORD. How does he describe the LORD?",
+        "teen": "Psalm 121:1 asks a question, and 121:2 answers it. Besides naming the LORD, what does 121:2 say about Him?",
+        "older": "According to Psalm 121:2, how is the LORD described, from whom the psalmist’s help comes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rides on the clouds"
+        },
+        {
+          "id": "b",
+          "text": "Dwells on Mount Zion"
+        },
+        {
+          "id": "c",
+          "text": "Rules over all the nations"
+        },
+        {
+          "id": "d",
+          "text": "Made heaven and earth"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 121:1",
+            "text": "I will lift up my eyes to the hills— From whence comes my help?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 121:2",
+            "text": "My help comes from the LORD, Who made heaven and earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 121:2 describes the LORD in its second line, right after “Who.”",
+          "child": "Look at the second half of Psalm 121:2. Read what comes after the word “Who.”",
+          "teen": "121:2 answers the question of 121:1 in two lines. The description is in the second line.",
+          "older": "The relative clause that closes 121:2 gives the description."
+        },
+        "extended_explanation": "The psalmist looks up toward the hills and asks where help will come from. He answers in 121:2 by naming the LORD and then describing Him in a way that shows why He can help: nothing is beyond Him. Read the second line of 121:2.",
+        "takeaway": "My help comes from the LORD, who made heaven and earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 139",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 139:14 the psalmist says he will praise God. How does he say he was made?",
+        "child": "In Psalm 139, the writer thanks God for the way He made him. What words does he use to describe how he was made?",
+        "teen": "Psalm 139:14 gives a reason for praise that is very personal. How does the psalmist say he was made?",
+        "older": "According to Psalm 139:14, how was the psalmist made?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Beautifully and perfectly made"
+        },
+        {
+          "id": "b",
+          "text": "Fearfully and wonderfully made"
+        },
+        {
+          "id": "c",
+          "text": "Strongly and gently made"
+        },
+        {
+          "id": "d",
+          "text": "Patiently and most carefully made"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 139:14",
+            "text": "I will praise You, for I am fearfully and wonderfully made; Marvelous are Your works, And that my soul knows very well.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 139:14 gives the reason for praise right after “for I am.”",
+          "child": "Look at the first line of Psalm 139:14. Read the words after “for I am.”",
+          "teen": "139:14 starts with “I will praise You,” then gives the reason. Read what follows “for I am.”",
+          "older": "The reason clause in the first line of 139:14 describes it."
+        },
+        "extended_explanation": "Psalm 139 marvels that God knows the psalmist completely: his sitting and rising, his thoughts, his words before he speaks. In 139:14 that wonder turns into praise for the way he himself was made, and he adds that God’s works are marvelous. Read the clause after “for I am.”",
+        "takeaway": "The psalmist praised God, for he was fearfully and wonderfully made."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 51",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 51 the psalmist asks God to wash and cleanse him. In 51:10, what does he ask God to create in him?",
+        "child": "In Psalm 51, the writer is sorry for his sin and asks God to make him new inside. What does he ask God to create in him?",
+        "teen": "Psalm 51:10 asks God for two things: one to be created and one to be renewed. What does he ask God to create?",
+        "older": "According to Psalm 51:10, what does the psalmist ask God to create in him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A clean heart"
+        },
+        {
+          "id": "b",
+          "text": "A willing mind"
+        },
+        {
+          "id": "c",
+          "text": "A pure tongue"
+        },
+        {
+          "id": "d",
+          "text": "A new song"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 51:10",
+            "text": "Create in me a clean heart, O God, And renew a steadfast spirit within me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 51:10 opens with the request, right after “Create in me.”",
+          "child": "Look at the very start of Psalm 51:10. Read the words after “Create in me.”",
+          "teen": "The first line of 51:10 has the thing to be created; the second line has what is renewed. Read the first.",
+          "older": "The object of “Create in me” in the first line of 51:10 names it."
+        },
+        "extended_explanation": "The psalmist knows that washing away sin is not enough; he needs something new inside. In 51:10 he asks God to create one thing and renew another. Read the first line of 51:10.",
+        "takeaway": "The psalmist prayed, “Create in me a clean heart, O God, and renew a steadfast spirit within me.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 51",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 51:7 the psalmist asks to be purged with hyssop and washed. What does he say he will be after he is washed?",
+        "child": "The writer asks God to wash him. What does he say he will be after God washes him?",
+        "teen": "Psalm 51:7 uses two cleansing pictures, hyssop and washing. What does the psalmist say washing will make him?",
+        "older": "According to Psalm 51:7, what will the psalmist be when he is washed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Brighter than the sun"
+        },
+        {
+          "id": "b",
+          "text": "Clearer than water"
+        },
+        {
+          "id": "c",
+          "text": "Whiter than snow"
+        },
+        {
+          "id": "d",
+          "text": "Purer than gold"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 51:7",
+            "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 51:7 ends with the result of washing, right after “Wash me, and I shall be.”",
+          "child": "Look at the end of Psalm 51:7. Read the words after “Wash me, and I shall be.”",
+          "teen": "51:7 has two requests, each followed by a result. Read the second result.",
+          "older": "The second line of 51:7 gives it."
+        },
+        "extended_explanation": "The psalmist uses two pictures of cleansing in 51:7. First he asks to be purged with hyssop and says he will be clean. Then he asks God to wash him and describes what he will be afterward. Read the second line of 51:7.",
+        "takeaway": "The psalmist prayed, “Wash me, and I shall be whiter than snow.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 32",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 32:8 God promises, “I will instruct you and teach you in the way you should go; I will guide you with My eye.” In 32:9, what does He warn His people not to be like?",
+        "child": "God promises to teach and guide His people. Then He warns them not to be like two animals that have no understanding. Which animals?",
+        "teen": "Psalm 32:8 promises guidance; 32:9 gives a warning with a picture from animals. Which animals?",
+        "older": "According to Psalm 32:9, what are God’s people not to be like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Like the ox or like the donkey"
+        },
+        {
+          "id": "b",
+          "text": "Like the sheep or like the goat"
+        },
+        {
+          "id": "c",
+          "text": "Like the camel or like the wild donkey"
+        },
+        {
+          "id": "d",
+          "text": "Like the horse or like the mule"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 32:8",
+            "text": "I will instruct you and teach you in the way you should go; I will guide you with My eye.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 32:9",
+            "text": "Do not be like the horse or like the mule, Which have no understanding, Which must be harnessed with bit and bridle, Else they will not come near you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 32:9 names them in its first line, right after “Do not be.”",
+          "child": "Look at the beginning of Psalm 32:9, right after “Do not be.”",
+          "teen": "32:8 is the promise; 32:9 is the warning. The animals are in the first line of 32:9.",
+          "older": "The opening line of 32:9 names them; the following lines explain why they are a warning."
+        },
+        "extended_explanation": "God offers to guide His people gently, with His eye, the way a teacher guides a willing student. 32:9 gives the opposite picture: animals without understanding that must be held in with bit and bridle or they will not come near. Read the first line of 32:9.",
+        "takeaway": "God says, “Do not be like the horse or like the mule,” but let Him guide you with His eye."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 91",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 91:2 calls the LORD “my refuge and my fortress,” and 91:4 pictures Him covering you with His feathers. According to 91:4, what will His truth be?",
+        "child": "Psalm 91 describes God like a bird protecting its young under its wings. What does it say God’s truth will be for you?",
+        "teen": "Psalm 91:2 and 91:4 use pictures of protection, a fortress and wings. What does 91:4 say His truth will be?",
+        "older": "According to Psalm 91:4, what shall His truth be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your shield and buckler"
+        },
+        {
+          "id": "b",
+          "text": "Your sword and spear"
+        },
+        {
+          "id": "c",
+          "text": "Your crown and robe"
+        },
+        {
+          "id": "d",
+          "text": "Your banner and your song"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 91:2",
+            "text": "I will say of the LORD, “He is my refuge and my fortress; My God, in Him I will trust.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 91:4",
+            "text": "He shall cover you with His feathers, And under His wings you shall take refuge; His truth shall be your shield and buckler.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 91:4 ends with it, right after “His truth shall be.”",
+          "child": "Look at the very end of Psalm 91:4, after “His truth shall be.”",
+          "teen": "91:4 has three lines: feathers, wings, and truth. Read the third.",
+          "older": "The last line of 91:4 describes it."
+        },
+        "extended_explanation": "Psalm 91 piles up pictures of God’s protection: a shelter, a fortress, a bird’s wings over its young. It is a picture of God’s care, and 91:15 says He will be with His people in trouble, not that trouble never comes. In 91:4, after the wings, the psalmist adds a third picture for God’s truth. Read the last line of 91:4.",
+        "takeaway": "Under His wings you shall take refuge; His truth shall be your shield and buckler."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-psa-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 139",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 139:7 asks, “Where can I go from Your Spirit?” After imagining the wings of the morning and the far side of the sea, what does the psalmist say he would find even there (139:10)?",
+        "child": "The writer of Psalm 139 asks if there is anywhere he could go to get away from God. Even if he flew to the far side of the sea, what does he say would happen there?",
+        "teen": "Psalm 139:7 asks a question, and 139:8-10 answers it with a series of “if” lines. What does 139:10 say would happen even at the farthest point?",
+        "older": "According to Psalm 139:10, what would the psalmist find even in the uttermost parts of the sea?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your voice shall call me home"
+        },
+        {
+          "id": "b",
+          "text": "Your word shall bring me back"
+        },
+        {
+          "id": "c",
+          "text": "Your hand shall lead me"
+        },
+        {
+          "id": "d",
+          "text": "Your people shall find me"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 139:7",
+            "text": "Where can I go from Your Spirit? Or where can I flee from Your presence?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 139:9",
+            "text": "If I take the wings of the morning, And dwell in the uttermost parts of the sea,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 139:10",
+            "text": "Even there Your hand shall lead me, And Your right hand shall hold me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 139:10 gives two lines after “Even there.” Read the first one.",
+          "child": "Look at Psalm 139:10. Read the words right after “Even there.”",
+          "teen": "139:9 sets the scene with “If”; 139:10 answers with “Even there.” Read the first line of 139:10.",
+          "older": "The first of the two parallel lines in 139:10 states it."
+        },
+        "extended_explanation": "The psalmist is not trying to run from God; he is marveling that he could not escape Him if he tried. He imagines rising to the heavens, making his bed in the depths, or taking the wings of the morning to the far side of the sea. Each time the result is the same: God is there. Read the first line of 139:10.",
+        "takeaway": "Even at the far side of the sea, “Your hand shall lead me, and Your right hand shall hold me.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-psa-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 32",
+      "topics": [
+        "psalms-repentance-refuge"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 51:16-17 says God does not delight in burnt offering, but He will not despise a broken and contrite heart. Psalm 32:5 shows what happened when one man came to God that way. After he said he would confess his transgressions, what did the LORD do?",
+        "child": "Psalm 51 says God wants a truly sorry heart more than animal sacrifices. In Psalm 32, the writer stops hiding his sin and tells God about it. What did God do then?",
+        "teen": "Psalm 51:16-17 names the sacrifice God will not despise; Psalm 32:5 shows it in practice. After the psalmist chose to confess, what did God do?",
+        "older": "Reading Psalm 51:16-17 beside Psalm 32:5: after the psalmist resolved to confess his transgressions, what did the LORD do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Required an offering for my sin"
+        },
+        {
+          "id": "b",
+          "text": "Forgave the iniquity of my sin"
+        },
+        {
+          "id": "c",
+          "text": "Healed the pain in my bones"
+        },
+        {
+          "id": "d",
+          "text": "Gave me a new song to sing"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 32:5",
+            "text": "I acknowledged my sin to You, And my iniquity I have not hidden. I said, “I will confess my transgressions to the LORD,” And You forgave the iniquity of my sin. Selah",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 51:16",
+            "text": "For You do not desire sacrifice, or else I would give it; You do not delight in burnt offering.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 51:17",
+            "text": "The sacrifices of God are a broken spirit, A broken and a contrite heart— These, O God, You will not despise.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 32:5 ends with God’s response, right after the quoted words “I will confess my transgressions to the LORD.”",
+          "child": "Look at the last line of Psalm 32:5, the part after the quotation marks.",
+          "teen": "32:5 has three steps: acknowledging, resolving to confess, and then what God did. Read the last line.",
+          "older": "Read the clause that begins “And You” at the close of 32:5, then set it beside 51:17."
+        },
+        "extended_explanation": "Psalm 32:3-4 describes what silence did to the psalmist: day and night God’s hand was heavy on him. In 32:5 he stops hiding, acknowledges his sin, and says he will confess. Psalm 51:16-17 explains why that matters: God does not delight in offerings alone, and He will not despise a contrite heart. Read the last line of 32:5.",
+        "takeaway": "When the psalmist confessed, the LORD forgave the iniquity of his sin, for God does not despise a broken and contrite heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

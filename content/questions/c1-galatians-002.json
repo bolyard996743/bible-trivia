@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-galatians-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gal-0009",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 1",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After God revealed His Son in him, Paul says he did not immediately confer with flesh and blood or go up to Jerusalem to the apostles (1:16-17). Where did he go?",
+        "child": "After Paul met Jesus, he did not go straight to the apostles in Jerusalem. Where did he go instead?",
+        "teen": "Galatians 1:17 traces Paul’s first steps after his call, and they do not start with Jerusalem. Where did he go?",
+        "older": "According to Galatians 1:17, where did Paul go instead of going up to Jerusalem?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rome"
+        },
+        {
+          "id": "b",
+          "text": "Tarsus"
+        },
+        {
+          "id": "c",
+          "text": "Macedonia"
+        },
+        {
+          "id": "d",
+          "text": "Arabia"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 1:16",
+            "text": "to reveal His Son in me, that I might preach Him among the Gentiles, I did not immediately confer with flesh and blood,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 1:17",
+            "text": "nor did I go up to Jerusalem to those who were apostles before me; but I went to Arabia, and returned again to Damascus.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 1:17 names the place after “but I went to.” Then it says where he returned.",
+          "child": "Look at the second half of Galatians 1:17. Paul names the place he went, and then the city he came back to.",
+          "teen": "1:17 has two places. The first is where he went; the second is where he returned. Read the first.",
+          "older": "The place is named in 1:17 just before he returned again to Damascus."
+        },
+        "extended_explanation": "When God called Paul and revealed His Son in him, Paul did not immediately confer with flesh and blood, and he did not go up to Jerusalem to the apostles (1:16-17). Galatians 1:17 names where he went instead, and then says he returned to Damascus. Only after three years did he go up to Jerusalem to see Peter (1:18). Read 1:17.",
+        "takeaway": "Paul went to Arabia and then returned to Damascus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gal-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 1",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says the gospel he preached is not according to man (1:11). According to 1:12, he neither received it from man nor was taught it. Through what did it come?",
+        "child": "Paul says no person taught him the gospel. Through what does he say it came to him?",
+        "teen": "Galatians 1:11-12 rules out two human sources for Paul’s gospel. What source does he name instead?",
+        "older": "According to Galatians 1:12, through what did the gospel come to Paul?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The teaching of the apostles"
+        },
+        {
+          "id": "b",
+          "text": "The revelation of Jesus Christ"
+        },
+        {
+          "id": "c",
+          "text": "The elders in Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "The study of the law and prophets"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 1:11",
+            "text": "But I make known to you, brethren, that the gospel which was preached by me is not according to man.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 1:12",
+            "text": "For I neither received it from man, nor was I taught it, but it came through the revelation of Jesus Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 1:12 has two denials and then a contrast with “but.” Read the words after “it came through.”",
+          "child": "Look at the end of Galatians 1:12. After saying what did not happen, Paul says what the gospel came through.",
+          "teen": "1:11 says not according to man; 1:12 says not from man and not taught. Read the last clause of 1:12.",
+          "older": "The source is named in the final clause of 1:12."
+        },
+        "extended_explanation": "Some in Galatia were turning away to a different gospel (1:6). Paul defends the gospel he preached: it is not according to man (1:11). In 1:12 he says he did not receive it from man and was not taught it, and the last clause tells how it came. Read the end of 1:12.",
+        "takeaway": "Paul said the gospel came to him through the revelation of Jesus Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gal-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 2",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James, Cephas, and John gave Paul and Barnabas the right hand of fellowship, agreeing that they should go to the Gentiles (2:9). According to 2:10, what did they desire Paul and Barnabas to do?",
+        "child": "The leaders in Jerusalem shook hands with Paul and Barnabas as partners. What was the only thing they asked them to do?",
+        "teen": "In Galatians 2:9-10 the Jerusalem leaders accept Paul’s mission and add a single request. What was it?",
+        "older": "According to Galatians 2:10, what did the leaders desire that Paul and Barnabas should do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Remember the poor"
+        },
+        {
+          "id": "b",
+          "text": "Return to Jerusalem yearly"
+        },
+        {
+          "id": "c",
+          "text": "Circumcise Titus"
+        },
+        {
+          "id": "d",
+          "text": "Pray for the elders"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 2:9",
+            "text": "and when James, Cephas, and John, who seemed to be pillars, perceived the grace that had been given to me, they gave me and Barnabas the right hand of fellowship, that we should go to the Gentiles and they to the circumcised.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 2:10",
+            "text": "They desired only that we should remember the poor, the very thing which I also was eager to do.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 2:10 begins “They desired only that we should.” Read the words that follow.",
+          "child": "Look at the beginning of Galatians 2:10. It says the one thing the leaders desired.",
+          "teen": "2:9 is the handshake; 2:10 is the request. Read the first clause of 2:10.",
+          "older": "The request is the first clause of 2:10; Paul adds that he was eager to do it."
+        },
+        "extended_explanation": "Fourteen years later, Paul went up to Jerusalem with Barnabas and Titus (2:1). James, Cephas, and John saw the grace given to Paul and gave him and Barnabas the right hand of fellowship: they would go to the Gentiles, and the others to the circumcised (2:9). In 2:10 the leaders make one request, which Paul says he was already eager to do. Read the start of 2:10.",
+        "takeaway": "The leaders asked only that Paul and Barnabas remember the poor, which Paul was eager to do."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gal-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 3",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says that before faith came, we were kept under guard by the law (3:23). According to 3:24, what was the law?",
+        "child": "Paul compares the law to someone whose job was to guide a person until a certain time. What does he call the law in Galatians 3:24?",
+        "teen": "Galatians 3:23-24 describes the law’s role before faith came. What does 3:24 call it?",
+        "older": "According to Galatians 3:24, what was the law?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Our judge until the end of days"
+        },
+        {
+          "id": "b",
+          "text": "A wall around the whole nation of Israel"
+        },
+        {
+          "id": "c",
+          "text": "Our tutor to bring us to Christ"
+        },
+        {
+          "id": "d",
+          "text": "A lamp for the Gentiles"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 3:23",
+            "text": "But before faith came, we were kept under guard by the law, kept for the faith which would afterward be revealed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 3:24",
+            "text": "Therefore the law was our tutor to bring us to Christ, that we might be justified by faith.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 3:24 begins “Therefore the law was.” Read the words that follow, up to “that we might be justified by faith.”",
+          "child": "Look at the first part of Galatians 3:24, before “that we might be justified by faith.”",
+          "teen": "3:23 says the law kept us under guard. 3:24 gives the law a role and a goal. Read the first half of 3:24.",
+          "older": "The role is named in the first half of 3:24; 3:25 says what changes after faith has come."
+        },
+        "extended_explanation": "Paul asks what purpose the law serves (3:19). Before faith came, we were kept under guard by the law, kept for the faith that would afterward be revealed (3:23). In 3:24 Paul names the law’s role in the first half of the verse, before “that we might be justified by faith.” In 3:25 he adds that after faith has come, we are no longer under it. Read the first half of 3:24.",
+        "takeaway": "The law was our tutor to bring us to Christ, that we might be justified by faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gal-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 3",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 3:28 says there is neither Jew nor Greek, neither slave nor free, neither male nor female. What reason does the end of the verse give?",
+        "child": "Paul says that among believers it does not matter whether you are Jewish or Greek, a slave or free, male or female. Why not?",
+        "teen": "Galatians 3:28 lists three pairs that once divided people. What reason does Paul give at the end of the verse?",
+        "older": "According to the end of Galatians 3:28, why is there neither Jew nor Greek?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You are all equal under the law of Moses"
+        },
+        {
+          "id": "b",
+          "text": "You are all one in Christ Jesus"
+        },
+        {
+          "id": "c",
+          "text": "You are all heirs of the land"
+        },
+        {
+          "id": "d",
+          "text": "You are all free from hardship"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 3:26",
+            "text": "For you are all sons of God through faith in Christ Jesus.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 3:28",
+            "text": "There is neither Jew nor Greek, there is neither slave nor free, there is neither male nor female; for you are all one in Christ Jesus.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 3:28 ends with a reason introduced by “for.” Read that last clause.",
+          "child": "Look at the very end of Galatians 3:28. After the three pairs, Paul gives the reason.",
+          "teen": "3:26 says how believers became sons of God. 3:28 ends with what that means for all of them together. Read its last clause.",
+          "older": "The reason is the closing clause of 3:28, after the three pairs."
+        },
+        "extended_explanation": "Paul says believers are all sons of God through faith in Christ Jesus (3:26). In 3:28 he names three pairs that once set people apart, Jew and Greek, slave and free, male and female. Read the clause after “for.”",
+        "takeaway": "There is neither Jew nor Greek, slave nor free, male nor female, for you are all one in Christ Jesus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gal-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 4",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 4:4 says that when the fullness of the time had come, God sent forth His Son, born under the law. According to 4:7, what are you therefore?",
+        "child": "Paul says God sent His Son at just the right time. What does Galatians 4:7 say you are now?",
+        "teen": "Galatians 4:4-7 moves from God sending His Son to what that means for you. What does 4:7 say you are?",
+        "older": "According to Galatians 4:7, what are you therefore, now that God has sent forth His Son?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A son still bound under the law"
+        },
+        {
+          "id": "b",
+          "text": "A guest in the house of God"
+        },
+        {
+          "id": "c",
+          "text": "A servant who has earned his wage"
+        },
+        {
+          "id": "d",
+          "text": "No longer a slave but a son"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 4:4",
+            "text": "But when the fullness of the time had come, God sent forth His Son, born of a woman, born under the law,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 4:7",
+            "text": "Therefore you are no longer a slave but a son, and if a son, then an heir of God through Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 4:7 begins “Therefore you are.” Read the words that follow, up to the first comma.",
+          "child": "Look at the start of Galatians 4:7. Paul says what you are, then what that leads to.",
+          "teen": "4:4-5 tells what God did and why. 4:7 states the result. Read its first clause.",
+          "older": "The result is the first clause of 4:7; the rest of the verse adds what follows from it."
+        },
+        "extended_explanation": "Paul says an heir who is still a child is under guardians and stewards until the time the father appointed (4:1-2). Then, when the fullness of the time had come, God sent forth His Son, born of a woman, born under the law (4:4). In 4:7 Paul states what you are therefore, and what follows from it. Read the first clause of 4:7.",
+        "takeaway": "Therefore you are no longer a slave but a son, and if a son, then an heir of God through Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-gal-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 5",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells the Galatians to stand fast in the liberty by which Christ has made them free (5:1). In 5:6 he says that in Christ Jesus neither circumcision nor uncircumcision avails anything. What does he say does?",
+        "child": "Paul tells believers to stay free in Christ and says being circumcised or not does not matter in Christ Jesus. What does matter?",
+        "teen": "Galatians 5:1 calls for standing fast in liberty, and 5:6 says what counts in Christ Jesus. What is it?",
+        "older": "According to Galatians 5:6, what avails in Christ Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Faith working through love"
+        },
+        {
+          "id": "b",
+          "text": "Keeping the whole law"
+        },
+        {
+          "id": "c",
+          "text": "Prayer and fasting together"
+        },
+        {
+          "id": "d",
+          "text": "Knowledge of the Scriptures"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 5:1",
+            "text": "Stand fast therefore in the liberty by which Christ has made us free, and do not be entangled again with a yoke of bondage.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 5:6",
+            "text": "For in Christ Jesus neither circumcision nor uncircumcision avails anything, but faith working through love.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 5:6 says what does not avail, then gives a contrast with “but.” Read the last words of the verse.",
+          "child": "Look at the end of Galatians 5:6. After “but,” Paul names what matters in Christ Jesus.",
+          "teen": "5:1 is about standing in liberty; 5:6 says what that liberty is for. Read the end of 5:6.",
+          "older": "It is named at the close of 5:6, set against both circumcision and uncircumcision."
+        },
+        "extended_explanation": "Paul urges the Galatians to stand fast in the liberty Christ has given and not be entangled again (5:1). Some were pressing them to be circumcised (5:2-3). In 5:6 he says that in Christ Jesus neither circumcision nor uncircumcision avails anything, and then names what does. Read the end of 5:6.",
+        "takeaway": "In Christ Jesus neither circumcision nor uncircumcision avails anything, but faith working through love."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-gal-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 3",
+      "topics": [
+        "law-and-promise"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Abraham believed God, and it was accounted to him for righteousness (3:6). Paul notes that the law came four hundred and thirty years later and cannot annul the covenant confirmed before by God (3:17). According to 3:18, how did God give the inheritance to Abraham?",
+        "child": "Abraham believed God long before God gave the law through Moses. Paul says the law, which came 430 years later, cannot cancel God’s earlier covenant. How did God give the inheritance to Abraham?",
+        "teen": "Galatians 3:6 shows Abraham believing, and 3:17 says the law came centuries later. What does 3:18 say the inheritance came by?",
+        "older": "Compare Galatians 3:6 and 3:17. According to 3:18, how did God give the inheritance to Abraham?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By keeping the law"
+        },
+        {
+          "id": "b",
+          "text": "By his good works"
+        },
+        {
+          "id": "c",
+          "text": "By promise"
+        },
+        {
+          "id": "d",
+          "text": "By circumcision"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 3:6",
+            "text": "just as Abraham “believed God, and it was accounted to him for righteousness.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 3:17",
+            "text": "And this I say, that the law, which was four hundred and thirty years later, cannot annul the covenant that was confirmed before by God in Christ, that it should make the promise of no effect.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 3:18",
+            "text": "For if the inheritance is of the law, it is no longer of promise; but God gave it to Abraham by promise.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Galatians 3:18 sets two sources side by side, then ends with “but God gave it to Abraham.” Read the last words of the verse.",
+          "child": "Look at the end of Galatians 3:18. After “God gave it to Abraham,” Paul says how.",
+          "teen": "3:17 says the later law cannot cancel what came first. 3:18 finishes the argument at the end of the verse.",
+          "older": "The final words of 3:18 state it; 3:17 gives the timing that makes the point."
+        },
+        "extended_explanation": "Abraham believed God, and it was accounted to him for righteousness (3:6); those who are of faith are blessed with believing Abraham (3:9). Paul then points to timing: the law came four hundred and thirty years later and cannot annul a covenant already confirmed by God (3:17). In 3:18 he sets the law against another way of receiving the inheritance and says how God gave it to Abraham. Read the end of 3:18.",
+        "takeaway": "God gave the inheritance to Abraham by promise, four hundred and thirty years before the law."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

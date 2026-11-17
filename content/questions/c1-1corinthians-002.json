@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1corinthians-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1co-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 1",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Each of the Corinthians was saying “I am of Paul,” or “I am of Apollos,” or naming another leader (1:12). What is the first question Paul asks in reply (1:13)?",
+        "child": "Believers in Corinth were taking sides, saying they belonged to Paul or to Apollos. What is the first question Paul asks them?",
+        "teen": "1 Corinthians 1:12 shows the church split behind different leaders. Paul responds in 1:13 with three questions. What is the first?",
+        "older": "According to 1 Corinthians 1:13, what is the first question Paul asks about the divisions?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Is Christ divided?"
+        },
+        {
+          "id": "b",
+          "text": "Who is the greatest teacher?"
+        },
+        {
+          "id": "c",
+          "text": "Are you not all brethren?"
+        },
+        {
+          "id": "d",
+          "text": "Was Apollos sent by God?"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 1:12",
+            "text": "Now I say this, that each of you says, “I am of Paul,” or “I am of Apollos,” or “I am of Cephas,” or “I am of Christ.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 1:13",
+            "text": "Is Christ divided? Was Paul crucified for you? Or were you baptized in the name of Paul?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 1:13 is made of three questions. Read the first one.",
+          "child": "Look at the very beginning of 1 Corinthians 1:13. Paul’s first question comes before he asks about being crucified for them.",
+          "teen": "Paul’s second and third questions in 1:13 are about himself. Read the one before them.",
+          "older": "The opening question of 1:13 is the one Paul asks first."
+        },
+        "extended_explanation": "Word had come from Chloe’s household that there were contentions in the church at Corinth (1:11). People were lining up behind leaders, saying, “I am of Paul,” or “I am of Apollos” (1:12). Paul replies with three questions in 1:13. The second and third, about being crucified for them and baptized in his name, show how wrong it is to treat any leader as the center. Read the first question in 1:13.",
+        "takeaway": "Paul asked, “Is Christ divided?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1co-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 1",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to 1 Corinthians 1:18, the message of the cross is foolishness to those who are perishing. What is it to us who are being saved?",
+        "child": "Some people think the message about Jesus’ cross is foolish. What does Paul say it is to those who are being saved?",
+        "teen": "1 Corinthians 1:18 shows two very different reactions to the message of the cross. What is it to those being saved?",
+        "older": "In 1 Corinthians 1:18, what is the message of the cross to us who are being saved?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hard saying"
+        },
+        {
+          "id": "b",
+          "text": "A mystery to all"
+        },
+        {
+          "id": "c",
+          "text": "The wisdom of men"
+        },
+        {
+          "id": "d",
+          "text": "The power of God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 1:18",
+            "text": "For the message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 1:18 has two halves joined by “but.” Read the end of the second half.",
+          "child": "Look at the last part of 1 Corinthians 1:18, after “but to us who are being saved.”",
+          "teen": "The first half of 1:18 describes those who are perishing. The second half describes those being saved. Read its final words.",
+          "older": "The contrast in 1:18 ends with what the message is to those being saved; 1:24 says the same of Christ."
+        },
+        "extended_explanation": "Paul has been writing about divisions over leaders. In 1:18 he turns to the message of the cross itself and sets two groups side by side. To those who are perishing the message of the cross is foolishness; the second half of the verse says what it is to us who are being saved. Read the end of 1:18.",
+        "takeaway": "The message of the cross is foolishness to those who are perishing, but to us who are being saved it is the power of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1co-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 3",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says he could not speak to the Corinthians as to spiritual people but as to babes in Christ (3:1). According to 3:2, how did he feed them?",
+        "child": "Paul said the Corinthian believers were like babies in their faith. How does he say he fed them?",
+        "teen": "In 1 Corinthians 3:1-2 Paul compares the Corinthians to infants. How did he feed them?",
+        "older": "According to 1 Corinthians 3:2, how did Paul feed the Corinthians?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With bread"
+        },
+        {
+          "id": "b",
+          "text": "With milk"
+        },
+        {
+          "id": "c",
+          "text": "With honey"
+        },
+        {
+          "id": "d",
+          "text": "With bread and fish"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 3:1",
+            "text": "And I, brethren, could not speak to you as to spiritual people but as to carnal, as to babes in Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 3:2",
+            "text": "I fed you with milk and not with solid food; for until now you were not able to receive it, and even now you are still not able;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of 1 Corinthians 3:2, after “I fed you.”",
+          "child": "Look at the beginning of 1 Corinthians 3:2. Paul tells what he fed them, and then why.",
+          "teen": "3:1 calls them babes in Christ; 3:2 describes what fits that picture. Read the opening clause of 3:2.",
+          "older": "The opening clause of 3:2 names it; 3:3 explains that they were still carnal."
+        },
+        "extended_explanation": "Paul wanted to speak to the Corinthians as spiritual people, but he could only speak to them as babes in Christ (3:1). In 3:2 he says how he fed them, because they were not yet able to receive more. In 3:3 he gives the reason: envy, strife, and divisions showed they were still carnal. Read the first clause of 3:2.",
+        "takeaway": "Paul fed them with milk and not with solid food, because they were not yet ready."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1co-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 14",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says that in the church he would rather speak a handful of words in a certain way than ten thousand words in a tongue (14:19). How would he rather speak them?",
+        "child": "Paul says that in church he would rather say just a few words in a certain way than thousands of words in a tongue. How does he want to speak them?",
+        "teen": "In 1 Corinthians 14:19 Paul compares a handful of words with ten thousand. How does he say he would rather speak the few, so that he may teach others?",
+        "older": "According to 1 Corinthians 14:19, how would Paul rather speak a few words in the church?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With great boldness"
+        },
+        {
+          "id": "b",
+          "text": "With a loud voice"
+        },
+        {
+          "id": "c",
+          "text": "With my understanding"
+        },
+        {
+          "id": "d",
+          "text": "With the voice of an angel"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 14:19",
+            "text": "yet in the church I would rather speak five words with my understanding, that I may teach others also, than ten thousand words in a tongue.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 14:19 sets the few words against ten thousand. Read how Paul describes the few, right after the number.",
+          "child": "Look at the middle of 1 Corinthians 14:19. Right after Paul mentions the few words, he says how he would speak them.",
+          "teen": "The purpose clause in 14:19 is “that I may teach others also.” Read the phrase just before it.",
+          "older": "The phrase between the small number and the purpose clause in 14:19 names it; compare 14:15."
+        },
+        "extended_explanation": "In 1 Corinthians 14 Paul keeps asking whether what is spoken in the church builds others up (14:12, 26). In 14:19, speaking of the church, he says how he would rather speak a handful of words than ten thousand words in a tongue. Read the phrase right after the small number in 14:19.",
+        "takeaway": "In the church Paul would rather speak five words “with my understanding,” so that he could teach others."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1co-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 3",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells the Corinthians that they are the temple of God, and that the temple of God is holy (3:16-17). According to 3:16, what dwells in them?",
+        "child": "Paul reminds believers that together they are God’s temple. What does he say lives in them?",
+        "teen": "1 Corinthians 3:16 asks, “Do you not know that you are the temple of God.” What else does it say they should know dwells in them?",
+        "older": "According to 1 Corinthians 3:16, what dwells in those who are the temple of God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wisdom of this world"
+        },
+        {
+          "id": "b",
+          "text": "The law of Moses"
+        },
+        {
+          "id": "c",
+          "text": "The Spirit of God"
+        },
+        {
+          "id": "d",
+          "text": "The word of the prophets"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 3:16",
+            "text": "Do you not know that you are the temple of God and that the Spirit of God dwells in you?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 3:17",
+            "text": "If anyone defiles the temple of God, God will destroy him. For the temple of God is holy, which temple you are.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 3:16 asks one question with two parts joined by “and that.” Read the second part.",
+          "child": "Look at the second half of 1 Corinthians 3:16. Paul says what dwells in them.",
+          "teen": "3:16 names what they are, then what dwells in them. 3:17 says why that makes them holy. Read the end of 3:16.",
+          "older": "The second clause of 3:16 names it."
+        },
+        "extended_explanation": "Paul has described the church as God’s field and God’s building, with Jesus Christ as the one base no one else can lay (3:9-11). In 3:16 he asks whether they know that they are the temple of God and what dwells in them. Because of this, the temple of God is holy, and God takes it seriously when anyone defiles it (3:17). Read the end of 3:16.",
+        "takeaway": "Believers are the temple of God, and the Spirit of God dwells in them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1co-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 8",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says knowledge puffs up, but love edifies (8:1), and warns that a weak brother can be harmed by someone else’s freedom to eat food offered to idols. According to 8:13, what does Paul say he will do if food makes his brother stumble?",
+        "child": "Some believers felt free to eat food offered to idols, but it hurt other believers with a weaker conscience. What does Paul say he will do if food makes his brother stumble?",
+        "teen": "1 Corinthians 8:1 sets love against knowledge, and 8:13 shows Paul’s own choice. What does he say he will do if food causes his brother to stumble?",
+        "older": "According to 1 Corinthians 8:13, what will Paul do if food makes his brother stumble?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Never again eat meat"
+        },
+        {
+          "id": "b",
+          "text": "Teach him about idols"
+        },
+        {
+          "id": "c",
+          "text": "Eat only in private"
+        },
+        {
+          "id": "d",
+          "text": "Leave the church in that city"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 8:1",
+            "text": "Now concerning things offered to idols: We know that we all have knowledge. Knowledge puffs up, but love edifies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 8:13",
+            "text": "Therefore, if food makes my brother stumble, I will never again eat meat, lest I make my brother stumble.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 8:13 begins with “Therefore, if food makes my brother stumble.” Read Paul’s decision that follows.",
+          "child": "Look at 1 Corinthians 8:13. After Paul mentions his brother stumbling, he states what he will do.",
+          "teen": "8:1 says love edifies. 8:13 shows what that love looks like for Paul. Read his promise in 8:13.",
+          "older": "Paul’s resolve is stated in 8:13, before the closing reason “lest I make my brother stumble.”"
+        },
+        "extended_explanation": "The Corinthians knew an idol is nothing (8:4), but not everyone had that knowledge, and some had a weak conscience (8:7). Paul warns that their liberty could harm the weak, and that sinning against a brother this way is sinning against Christ (8:9-12). He began the chapter by saying knowledge puffs up, but love edifies (8:1). In 8:13 he states what he himself will do. Read the middle of 8:13.",
+        "takeaway": "Paul said that if food makes his brother stumble, he will never again eat meat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1co-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 11",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says that when the Corinthians came together, each one took his own supper ahead of others, so some went hungry while others were drunk (11:21). What does he tell them to do when they come together to eat (11:33)?",
+        "child": "When the church in Corinth met for a meal, some people went ahead with their own meal while others went hungry. What does Paul tell them to do when they come together to eat?",
+        "teen": "1 Corinthians 11:21 describes a selfish problem at the church’s meal, and 11:33 gives Paul’s fix. What is it?",
+        "older": "According to 1 Corinthians 11:33, what should the brethren do when they come together to eat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Share all their goods"
+        },
+        {
+          "id": "b",
+          "text": "Bring their own bread"
+        },
+        {
+          "id": "c",
+          "text": "Give thanks before eating"
+        },
+        {
+          "id": "d",
+          "text": "Wait for one another"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 11:21",
+            "text": "For in eating, each one takes his own supper ahead of others; and one is hungry and another is drunk.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 11:33",
+            "text": "Therefore, my brethren, when you come together to eat, wait for one another.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 11:33 begins “Therefore, my brethren, when you come together to eat.” Read Paul’s instruction after that.",
+          "child": "Look at the end of 1 Corinthians 11:33. Paul’s instruction comes right after “when you come together to eat.”",
+          "teen": "11:21 says each one took his own supper ahead of others. 11:33 corrects that. Read the last clause of 11:33.",
+          "older": "The instruction closes 11:33; 11:34 adds a word for anyone who is hungry."
+        },
+        "extended_explanation": "When the Corinthians gathered, Paul heard there were divisions among them (11:18). Each one went ahead with his own supper, so one was hungry and another was drunk, and those who had nothing were shamed (11:21-22). Paul calls each one to examine himself (11:28). Then in 11:33 he gives a simple instruction for when they come together to eat. Read the end of 11:33.",
+        "takeaway": "Paul told them that when they come together to eat, they should wait for one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1co-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 1",
+      "topics": [
+        "unity-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:10 Paul pleads that there be no divisions among the Corinthians but that they be perfectly joined together in the same mind. In chapter 14 he says God is not the author of confusion but of peace (14:33). How does he say all things should be done, in the last verse of the chapter (14:40)?",
+        "child": "Paul begged the Corinthians not to split into groups. Later, when he talks about their worship meetings, he says God is not the author of confusion. How does he say everything should be done?",
+        "teen": "1 Corinthians 1:10 calls for unity, and 14:33 says God is the author of peace, not confusion. What does 14:40 say about how all things should be done?",
+        "older": "Compare 1 Corinthians 1:10 and 14:33 with 14:40. According to 14:40, how should all things be done?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Quickly and with joy"
+        },
+        {
+          "id": "b",
+          "text": "Decently and in order"
+        },
+        {
+          "id": "c",
+          "text": "Loudly and with zeal"
+        },
+        {
+          "id": "d",
+          "text": "Freely, as each one desires"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 1:10",
+            "text": "Now I plead with you, brethren, by the name of our Lord Jesus Christ, that you all speak the same thing, and that there be no divisions among you, but that you be perfectly joined together in the same mind and in the same judgment.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 14:33",
+            "text": "For God is not the author of confusion but of peace, as in all the churches of the saints.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 14:40",
+            "text": "Let all things be done decently and in order.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Corinthians 14:40 begins “Let all things be done.” Read the rest of the verse.",
+          "child": "Look at 1 Corinthians 14:40. After “Let all things be done,” Paul says how.",
+          "teen": "1:10 asks for no divisions, and 14:33 names God as the author of peace. 14:40 is Paul’s closing instruction for worship. Read the end of it.",
+          "older": "Paul’s closing instruction on worship, in 14:40, names it; 14:26 had said all things should be done for edification."
+        },
+        "extended_explanation": "From the start of the letter, Paul pleaded for the Corinthians to speak the same thing and be perfectly joined together, with no divisions (1:10). In chapter 14 he applies this to their gatherings: each one brings something, and all things should be done for edification (14:26); speakers take turns (14:27-31); for God is not the author of confusion but of peace (14:33). The chapter closes in 14:40 with how all things should be done. Read the end of 14:40.",
+        "takeaway": "Let all things be done decently and in order, because God is not the author of confusion but of peace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

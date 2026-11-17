@@ -1,0 +1,537 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-psa-0019",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 136",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 136 retells God’s works from creation through the wilderness to the land. What line is repeated in the second half of every verse?",
+        "child": "Psalm 136 has a line that repeats after every single thing it says about God. What is that line?",
+        "teen": "Psalm 136 is built like a call and response. What response comes after every line?",
+        "older": "What refrain closes each of the twenty-six verses of Psalm 136?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For His name is holy forever"
+        },
+        {
+          "id": "b",
+          "text": "For His kingdom shall never end"
+        },
+        {
+          "id": "c",
+          "text": "For His mercy endures forever"
+        },
+        {
+          "id": "d",
+          "text": "For His glory fills the earth"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 136:1",
+            "text": "Oh, give thanks to the LORD, for He is good! For His mercy endures forever.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 136:26",
+            "text": "Oh, give thanks to the God of heaven! For His mercy endures forever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of Psalm 136:1, then the second line of 136:26. They are the same.",
+          "child": "Look at the second half of Psalm 136:1 and the second half of 136:26.",
+          "teen": "136:1 and 136:26 both begin with “Oh, give thanks.” Compare the words that follow the exclamation mark.",
+          "older": "The refrain is the second line of both 136:1 and 136:26."
+        },
+        "extended_explanation": "Psalm 136 walks through creation, the exodus, the wilderness, and the gift of the land, one line at a time. After each line the same response follows, so that every event is tied to one truth about God. Read the second line of the first and last verses.",
+        "takeaway": "Every verse of Psalm 136 ends, “For His mercy endures forever.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 78",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 78 opens by promising not to hide God’s works from the children. To whom does 78:4 say the praises of the LORD will be told?",
+        "child": "The writer of Psalm 78 promises to pass on the stories of God’s wonderful works. Who will hear them?",
+        "teen": "Psalm 78:4-6 describes a chain of telling. In 78:4, who is told the praises of the LORD?",
+        "older": "According to Psalm 78:4, to whom will the praises of the LORD be told?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The generation to come"
+        },
+        {
+          "id": "b",
+          "text": "The kings of the nations"
+        },
+        {
+          "id": "c",
+          "text": "The priests in the temple"
+        },
+        {
+          "id": "d",
+          "text": "The elders at the gate"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 78:4",
+            "text": "We will not hide them from their children, Telling to the generation to come the praises of the LORD, And His strength and His wonderful works that He has done.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 78:6",
+            "text": "That the generation to come might know them, The children who would be born, That they may arise and declare them to their children,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 78:4 names them right after “Telling to.”",
+          "child": "Look at the middle of Psalm 78:4, right after “Telling to.”",
+          "teen": "78:4 names who will hear, and 78:6 uses the same words again. Read the words after “Telling to.”",
+          "older": "The phrase after “Telling to” in 78:4 is repeated in 78:6."
+        },
+        "extended_explanation": "Psalm 78 is a history lesson sung so it would not be forgotten. 78:4 promises not to hide God’s praises and works from the children, and 78:5-6 explains that God commanded the fathers to pass them on so the chain would keep going. Read the words after “Telling to” in 78:4.",
+        "takeaway": "We will not hide God’s works from our children, telling to the generation to come the praises of the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0014",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 105",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Israel’s fathers were few in number and wandered from nation to nation, God rebuked kings for their sake. What did He say, according to Psalm 105:15?",
+        "child": "When God’s people were few and moved from place to place, God warned kings to leave them alone. What did He say?",
+        "teen": "Psalm 105:14 says God rebuked kings for His people’s sake. What were His words in 105:15?",
+        "older": "According to Psalm 105:15, what did God say when He rebuked kings for His people’s sake?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Let My people go into the land"
+        },
+        {
+          "id": "b",
+          "text": "Bow down before My chosen ones"
+        },
+        {
+          "id": "c",
+          "text": "Give My servants bread and water"
+        },
+        {
+          "id": "d",
+          "text": "Do not touch My anointed ones"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 105:14",
+            "text": "He permitted no one to do them wrong; Yes, He rebuked kings for their sakes,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 105:15",
+            "text": "Saying, “Do not touch My anointed ones, And do My prophets no harm.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 105:15 quotes God. Read the first line of the quotation.",
+          "child": "Look at Psalm 105:15. Read the first part inside the quotation marks.",
+          "teen": "105:14 is the rebuke; 105:15 is the quote. Read its first line, before “And do My prophets no harm.”",
+          "older": "The first of the two parallel lines in the quotation of 105:15 is the one asked for."
+        },
+        "extended_explanation": "Psalm 105 recalls the time when Abraham, Isaac, and Jacob lived as strangers, few in number and moving from kingdom to kingdom. God let no one harm them and even rebuked kings for their sake. 105:15 gives His words. Read the first line of the quotation.",
+        "takeaway": "God rebuked kings, saying, “Do not touch My anointed ones, and do My prophets no harm.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0015",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 106",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 106:23 says God said He would destroy His people after the calf at Horeb. What did Moses His chosen one do, so that God’s wrath was turned away?",
+        "child": "After the people worshiped a calf idol, God said He would destroy them. What did Moses do?",
+        "teen": "Psalm 106:23 explains why God did not destroy His people. What did Moses do?",
+        "older": "According to Psalm 106:23, what did Moses do to turn away God’s wrath?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Struck the rock with his rod"
+        },
+        {
+          "id": "b",
+          "text": "Stood before Him in the breach"
+        },
+        {
+          "id": "c",
+          "text": "Built an altar on the holy mountain"
+        },
+        {
+          "id": "d",
+          "text": "Hid his face in the cave"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 106:23",
+            "text": "Therefore He said that He would destroy them, Had not Moses His chosen one stood before Him in the breach, To turn away His wrath, lest He destroy them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 106:23 describes Moses in the middle clause, right after “Had not Moses His chosen one.”",
+          "child": "Look at Psalm 106:23. Read what comes right after “Moses His chosen one.”",
+          "teen": "106:23 has three parts: God’s threat, Moses’ action, and its purpose. Read the middle part.",
+          "older": "The clause after “Had not Moses His chosen one” in 106:23 states it."
+        },
+        "extended_explanation": "Psalm 106 is a confession of Israel’s history. 106:19-22 recalls the calf at Horeb and how the people forgot what God had done in Egypt. 106:23 says God would have destroyed them, and then names one man and what he did, so that God’s wrath turned away. Read the middle of 106:23.",
+        "takeaway": "Moses His chosen one stood before Him in the breach to turn away His wrath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0016",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 78",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Psalm 78:34-35 the people sought God again and remembered that He was their rock and their Redeemer. But 78:36-37 shows a problem. How does 78:36 say they flattered Him?",
+        "child": "After God disciplined them, the people turned back and remembered He was their rock. But they did not really mean it. How did they flatter God?",
+        "teen": "Psalm 78:35 sounds like real repentance, but 78:36-37 shows something else. How did they flatter God in 78:36?",
+        "older": "According to Psalm 78:36, how did the people flatter God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With their gifts"
+        },
+        {
+          "id": "b",
+          "text": "With their songs"
+        },
+        {
+          "id": "c",
+          "text": "With their mouth"
+        },
+        {
+          "id": "d",
+          "text": "With their offerings"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 78:35",
+            "text": "Then they remembered that God was their rock, And the Most High God their Redeemer.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 78:36",
+            "text": "Nevertheless they flattered Him with their mouth, And they lied to Him with their tongue;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 78:37",
+            "text": "For their heart was not steadfast with Him, Nor were they faithful in His covenant.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 78:36 names it at the end of its first line, right after “they flattered Him.”",
+          "child": "Look at the first line of Psalm 78:36, right after “they flattered Him.”",
+          "teen": "78:36 has two parallel lines, one about flattering and one about lying. Read the end of the first.",
+          "older": "The first line of 78:36 states it; 78:37 explains why it was empty."
+        },
+        "extended_explanation": "Psalm 78 keeps returning to the same pattern: God acts, the people forget, judgment comes, and they turn back. In 78:34-35 they seek Him and remember who He is. 78:36-37 shows why it did not last, because their heart was not steadfast. Read the first line of 78:36.",
+        "takeaway": "They flattered Him with their mouth, for their heart was not steadfast with Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-psa-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 105",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 105:8-10 says God remembers His covenant forever, the one He made with Abraham and confirmed to Isaac and Jacob. According to 105:11, what did He promise to give?",
+        "child": "God made a promise to Abraham, Isaac, and Jacob and never forgot it. What did He promise to give them?",
+        "teen": "Psalm 105:8 says God remembers His covenant forever. In 105:11, what does that covenant promise?",
+        "older": "According to Psalm 105:11, what did God’s covenant promise to give?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The city of Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "The land of Canaan"
+        },
+        {
+          "id": "c",
+          "text": "The riches of Egypt"
+        },
+        {
+          "id": "d",
+          "text": "A kingdom over the nations"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 105:8",
+            "text": "He remembers His covenant forever, The word which He commanded, for a thousand generations,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 105:11",
+            "text": "Saying, “To you I will give the land of Canaan As the allotment of your inheritance,”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 105:11 quotes the promise. Read the words right after “To you I will give.”",
+          "child": "Look at Psalm 105:11. Read what comes after “To you I will give.”",
+          "teen": "105:8 is the covenant remembered; 105:11 is its content. Read the quotation in 105:11.",
+          "older": "The object of “I will give” in 105:11 names it."
+        },
+        "extended_explanation": "Psalm 105 calls Israel to remember what God has done because God Himself remembers. 105:8-10 traces His covenant from Abraham to Isaac to Jacob, a word for a thousand generations. 105:11 quotes what that covenant promised. Read the quotation in 105:11.",
+        "takeaway": "God remembers His covenant forever: “To you I will give the land of Canaan.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-psa-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 78",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God chose David His servant and took him from the sheepfolds to shepherd Jacob His people (78:70-71). According to 78:72, David shepherded them according to what?",
+        "child": "God took David from the sheep pens to lead His people like a shepherd. What does Psalm 78:72 say David shepherded them according to?",
+        "teen": "Psalm 78:70-72 moves David from the sheepfolds to leading Israel and keeps the shepherd picture. What guided his shepherding, according to 78:72?",
+        "older": "According to Psalm 78:72, David shepherded Israel according to what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The integrity of his heart"
+        },
+        {
+          "id": "b",
+          "text": "The wisdom of his counselors"
+        },
+        {
+          "id": "c",
+          "text": "The strength of his army"
+        },
+        {
+          "id": "d",
+          "text": "The law of his fathers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 78:70",
+            "text": "He also chose David His servant, And took him from the sheepfolds;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 78:71",
+            "text": "From following the ewes that had young He brought him, To shepherd Jacob His people, And Israel His inheritance.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 78:72",
+            "text": "So he shepherded them according to the integrity of his heart, And guided them by the skillfulness of his hands.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 78:72 names it in its first line, right after “according to.”",
+          "child": "Look at the first line of Psalm 78:72. Read the words after “according to.”",
+          "teen": "78:72 has two lines: one about how he shepherded, one about how he guided. Read the end of the first line.",
+          "older": "The first line of 78:72 names it; the second pairs it with the skillfulness of his hands."
+        },
+        "extended_explanation": "Psalm 78 ends its long story of failure with a new beginning. God chose the tribe of Judah and Mount Zion, and then chose David, a young man following the ewes. He gave him a new flock, His people Israel. 78:72 describes how David led them in two ways. Read the first line.",
+        "takeaway": "David shepherded them according to the integrity of his heart and guided them by the skillfulness of his hands."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-psa-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 78",
+      "topics": [
+        "psalms-israels-story"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 106:44-45 says God regarded His people’s affliction when He heard their cry and remembered His covenant for their sake. Psalm 78:38-39 gives a similar picture of God holding back His wrath. According to 78:38, what was He full of?",
+        "child": "Both Psalm 78 and Psalm 106 say God held back His anger even when His people kept sinning. In Psalm 78:38, what was God full of?",
+        "teen": "Psalm 78:38 and 106:44-45 both explain why God did not destroy a rebellious people. In 78:38, what does the psalmist say God was full of?",
+        "older": "Psalm 78:38 and 106:44-45 describe God sparing His people. In 78:38, what was God full of?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Full of sorrow"
+        },
+        {
+          "id": "b",
+          "text": "Full of zeal for Zion"
+        },
+        {
+          "id": "c",
+          "text": "Full of righteous anger"
+        },
+        {
+          "id": "d",
+          "text": "Full of compassion"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 78:38",
+            "text": "But He, being full of compassion, forgave their iniquity, And did not destroy them. Yes, many a time He turned His anger away, And did not stir up all His wrath;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 106:44",
+            "text": "Nevertheless He regarded their affliction, When He heard their cry;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 106:45",
+            "text": "And for their sake He remembered His covenant, And relented according to the multitude of His mercies.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Psalm 78:38 describes God right after “But He, being.” Then read what 106:44-45 says He did when He heard their cry.",
+          "child": "Look at the very start of Psalm 78:38, right after “But He, being.”",
+          "teen": "78:38 opens with a description of God before it lists what He did. Read the words after “being.”",
+          "older": "The participle phrase that opens 78:38 states it; 106:44-45 gives a parallel account."
+        },
+        "extended_explanation": "Psalm 78 and Psalm 106 tell the same kind of story: the people rebel again and again, judgment comes, and yet God does not finish them off. Psalm 78:38-39 says He turned His anger away and remembered that they were but flesh. Psalm 106:44-45 says He regarded their affliction, heard their cry, and remembered His covenant. Read how 78:38 opens.",
+        "takeaway": "God, being full of compassion, forgave their iniquity, and He remembered His covenant for their sake."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

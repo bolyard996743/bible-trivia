@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ezekiel-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-ezk-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 1",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The book of Ezekiel opens with a priest among the captives who saw visions of God. Where was he when the word of the LORD came to him?",
+        "child": "Ezekiel was a priest who had been taken away from his home with other captives. Where was he when God first showed him visions?",
+        "teen": "Ezekiel 1:1 and 1:3 both name the place where Ezekiel was living among the captives. Where was it?",
+        "older": "According to Ezekiel 1:1-3, where was Ezekiel when the hand of the LORD was upon him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By the River Jordan"
+        },
+        {
+          "id": "b",
+          "text": "By the River Chebar"
+        },
+        {
+          "id": "c",
+          "text": "On Mount Zion in Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "In the court of the temple"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 1:1",
+            "text": "Now it came to pass in the thirtieth year, in the fourth month, on the fifth day of the month, as I was among the captives by the River Chebar, that the heavens were opened and I saw visions of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 1:3",
+            "text": "the word of the LORD came expressly to Ezekiel the priest, the son of Buzi, in the land of the Chaldeans by the River Chebar; and the hand of the LORD was upon him there.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 1:1 says he was among the captives. Read the place named right after that.",
+          "child": "Look at the middle of Ezekiel 1:1, after “as I was among the captives.” The place is named there, and again in 1:3.",
+          "teen": "1:1 and 1:3 both name the place. Read the words after “in the land of the Chaldeans” in 1:3.",
+          "older": "The location is given in 1:1 after “among the captives,” and repeated in 1:3."
+        },
+        "extended_explanation": "Ezekiel was a priest, the son of Buzi, living among the captives in the land of the Chaldeans (1:3). Ezekiel 1:1 says that while he was among them, the heavens were opened and he saw visions of God, and 1:3 adds that the hand of the LORD was upon him there. Both verses name the same place. Read the words after “among the captives” in 1:1.",
+        "takeaway": "Ezekiel was among the captives by the River Chebar when he saw visions of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 1",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the close of his first vision, Ezekiel says he saw “the likeness of the glory of the LORD.” What did he do when he saw it?",
+        "child": "Ezekiel saw a bright vision of the glory of God, shining like a rainbow in the clouds. What did he do?",
+        "teen": "Ezekiel 1:28 ends the vision with Ezekiel’s response to the glory of the LORD. What was it?",
+        "older": "According to Ezekiel 1:28, what did Ezekiel do when he saw the likeness of the glory of the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He ran and hid himself"
+        },
+        {
+          "id": "b",
+          "text": "He sang a song of praise"
+        },
+        {
+          "id": "c",
+          "text": "He fell on his face"
+        },
+        {
+          "id": "d",
+          "text": "He shouted for joy"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 1:28",
+            "text": "Like the appearance of a rainbow in a cloud on a rainy day, so was the appearance of the brightness all around it. This was the appearance of the likeness of the glory of the LORD. So when I saw it, I fell on my face, and I heard a voice of One speaking.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 1:28 names the vision, then begins “So when I saw it.” Read what follows.",
+          "child": "Look near the end of Ezekiel 1:28. After “So when I saw it,” Ezekiel says what he did, and then that he heard a voice.",
+          "teen": "1:28 has three parts: the brightness, what it was, and Ezekiel’s response. Read the response after “when I saw it.”",
+          "older": "The response comes after “So when I saw it” in 1:28, just before he hears a voice."
+        },
+        "extended_explanation": "Ezekiel 1 describes a whirlwind, a great cloud, living creatures, wheels, and a throne. In 1:28 Ezekiel compares the brightness to a rainbow in a cloud and says plainly what it was: the appearance of the likeness of the glory of the LORD. Then he tells what he did and that he heard a voice of One speaking. Read the clause after “So when I saw it.”",
+        "takeaway": "When Ezekiel saw the likeness of the glory of the LORD, he fell on his face."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 34",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Ezekiel to prophesy against the shepherds of Israel. According to 34:2, what were those shepherds doing?",
+        "child": "God gave Ezekiel a message for the leaders of Israel, whom He called shepherds. What were they doing wrong?",
+        "teen": "In Ezekiel 34:2 the LORD pronounces “Woe” on the shepherds of Israel. What does He say they do?",
+        "older": "According to Ezekiel 34:2, what did the LORD say the shepherds of Israel were doing?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Selling the flock to strangers"
+        },
+        {
+          "id": "b",
+          "text": "Sleeping through the night watches"
+        },
+        {
+          "id": "c",
+          "text": "Staying inside the cities"
+        },
+        {
+          "id": "d",
+          "text": "Feeding themselves"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 34:2",
+            "text": "“Son of man, prophesy against the shepherds of Israel, prophesy and say to them, ‘Thus says the Lord GOD to the shepherds: “Woe to the shepherds of Israel who feed themselves! Should not the shepherds feed the flocks?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 34:3",
+            "text": "You eat the fat and clothe yourselves with the wool; you slaughter the fatlings, but you do not feed the flock.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 34:2 contains a “Woe” to the shepherds. Read the words right after “Woe to the shepherds of Israel who.”",
+          "child": "Look at the end of Ezekiel 34:2. God says “Woe to the shepherds of Israel who” and then tells what they do.",
+          "teen": "34:2 names the charge and 34:3 gives examples with the fat and the wool. Read the end of the woe in 34:2.",
+          "older": "The charge follows “who” in the woe of 34:2; 34:3 shows what it looked like."
+        },
+        "extended_explanation": "The shepherds in Ezekiel 34 are Israel’s leaders, and the flock is the people. In 34:2 the LORD pronounces woe on them and names what they do, and 34:3-4 give examples of how the flock was treated: the weak, sick, and scattered were left uncared for. Read the words after “Woe to the shepherds of Israel who” in 34:2.",
+        "takeaway": "The LORD said the shepherds of Israel were feeding themselves instead of the flock."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 37",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In a valley full of very dry bones, the LORD asked Ezekiel, “Son of man, can these bones live?” How did Ezekiel reply?",
+        "child": "God led Ezekiel through a valley of dry bones and asked if the bones could live again. What did Ezekiel say?",
+        "teen": "Ezekiel 37:3 records God’s question about the bones and Ezekiel’s reply. What did Ezekiel say?",
+        "older": "According to Ezekiel 37:3, what was Ezekiel’s reply when asked whether the bones could live?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "O Lord GOD, You know"
+        },
+        {
+          "id": "b",
+          "text": "Yes, Lord, they will rise again"
+        },
+        {
+          "id": "c",
+          "text": "No, Lord, they are past all help"
+        },
+        {
+          "id": "d",
+          "text": "Only the prophets can tell"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 37:2",
+            "text": "Then He caused me to pass by them all around, and behold, there were very many in the open valley; and indeed they were very dry.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 37:3",
+            "text": "And He said to me, “Son of man, can these bones live?” So I answered, “O Lord GOD, You know.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 37:3 has God’s question first, then Ezekiel’s reply in quotation marks. Read the second quotation.",
+          "child": "Look at the end of Ezekiel 37:3. Ezekiel’s words are inside the last set of quotation marks.",
+          "teen": "37:2 shows how dry the bones were. In 37:3, read Ezekiel’s words after God’s question.",
+          "older": "Ezekiel’s reply is the second quotation in 37:3."
+        },
+        "extended_explanation": "The hand of the LORD set Ezekiel down in a valley full of bones, and 37:2 stresses that there were very many and they were very dry. In 37:3 the LORD asks whether they can live. Read Ezekiel’s words at the end of 37:3.",
+        "takeaway": "Ezekiel replied, “O Lord GOD, You know.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 37",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Ezekiel prophesied, there was a rattling and the bones came together, bone to bone (37:7). When breath came into them and they stood on their feet, what were they (37:10)?",
+        "child": "When Ezekiel spoke God’s word, the dry bones rattled and joined together. When breath came into them and they stood up, what did they look like?",
+        "teen": "Ezekiel 37:7 shows the bones coming together. In 37:10, after breath enters them, what do they become?",
+        "older": "According to Ezekiel 37:7 and 37:10, what stood up in the valley once breath came into the bones?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A great flock of sheep"
+        },
+        {
+          "id": "b",
+          "text": "An exceedingly great army"
+        },
+        {
+          "id": "c",
+          "text": "A mighty river through the valley"
+        },
+        {
+          "id": "d",
+          "text": "A city full of houses"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 37:7",
+            "text": "So I prophesied as I was commanded; and as I prophesied, there was a noise, and suddenly a rattling; and the bones came together, bone to bone.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 37:10",
+            "text": "So I prophesied as He commanded me, and breath came into them, and they lived, and stood upon their feet, an exceedingly great army.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 37:10 ends by naming what stood on their feet. Read the last words of the verse.",
+          "child": "Look at the very end of Ezekiel 37:10. After “stood upon their feet,” Ezekiel says what they were.",
+          "teen": "37:7 is the rattling and joining; 37:10 is the finish. Read the phrase after the last comma in 37:10.",
+          "older": "The final phrase of 37:10 names what the bones had become."
+        },
+        "extended_explanation": "Ezekiel prophesied as he was commanded, and in 37:7 there was a noise and a rattling as the bones came together, bone to bone. Sinews, flesh, and skin came on them, but there was no breath yet (37:8). When Ezekiel prophesied to the breath, breath came into them, they lived, and they stood upon their feet. The end of 37:10 says what they were. In 37:11 the LORD explains that the bones are the whole house of Israel.",
+        "takeaway": "The bones stood upon their feet, an exceedingly great army."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 34",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD said He was against the shepherds and would deliver His flock from them (34:10). According to 34:11, what did He say He Himself would do?",
+        "child": "God was against the leaders who had not cared for His people. What did God say He would do Himself?",
+        "teen": "Ezekiel 34:10 removes the false shepherds. Ezekiel 34:11 tells what the LORD Himself will do instead. What?",
+        "older": "According to Ezekiel 34:11, what did the Lord GOD say He Himself would do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Choose new shepherds from Judah"
+        },
+        {
+          "id": "b",
+          "text": "Let the flock go its own way"
+        },
+        {
+          "id": "c",
+          "text": "Search for My sheep"
+        },
+        {
+          "id": "d",
+          "text": "Send the sheep to another land"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 34:10",
+            "text": "Thus says the Lord GOD: “Behold, I am against the shepherds, and I will require My flock at their hand; I will cause them to cease feeding the sheep, and the shepherds shall feed themselves no more; for I will deliver My flock from their mouths, that they may no longer be food for them.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 34:11",
+            "text": "‘For thus says the Lord GOD: “Indeed I Myself will search for My sheep and seek them out.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 34:11 begins with “Indeed I Myself will.” Read the next words.",
+          "child": "Look at Ezekiel 34:11. After God says “I Myself will,” He tells what He will do for His sheep.",
+          "teen": "34:10 is the judgment on the shepherds; 34:11 is the LORD’s own action. Read the words after “I Myself will.”",
+          "older": "The action follows “Indeed I Myself will” in 34:11, and 34:12 expands it."
+        },
+        "extended_explanation": "In 34:10 the Lord GOD says He is against the shepherds, will require His flock at their hand, and will deliver His flock from their mouths. In 34:11 He says what He Himself will do. Read the words right after “Indeed I Myself will” in 34:11.",
+        "takeaway": "The Lord GOD said, “I Myself will search for My sheep and seek them out.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-ezk-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 36",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD promises to sprinkle clean water on His people and cleanse them from their filthiness and idols (36:25). In 36:26, what does He say He will give in place of the heart of stone?",
+        "child": "God promised to wash His people clean. Then He said He would take away their heart of stone. What would He give them instead?",
+        "teen": "Ezekiel 36:25 promises cleansing, and 36:26 promises a change inside. What replaces the heart of stone?",
+        "older": "According to Ezekiel 36:26, what will the LORD give in place of the heart of stone?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A heart of gold"
+        },
+        {
+          "id": "b",
+          "text": "A heart of iron"
+        },
+        {
+          "id": "c",
+          "text": "A heart like a lion’s"
+        },
+        {
+          "id": "d",
+          "text": "A heart of flesh"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 36:25",
+            "text": "Then I will sprinkle clean water on you, and you shall be clean; I will cleanse you from all your filthiness and from all your idols.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 36:26",
+            "text": "I will give you a new heart and put a new spirit within you; I will take the heart of stone out of your flesh and give you a heart of flesh.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 36:26 ends with a swap. Read the last clause, after “out of your flesh and give you.”",
+          "child": "Look at the end of Ezekiel 36:26. God takes one heart away and then says what He will give.",
+          "teen": "36:25 is the washing. In 36:26, read the final words after the LORD removes the heart of stone.",
+          "older": "The replacement is named in the last words of 36:26."
+        },
+        "extended_explanation": "The LORD promises to gather His people from the nations (36:24), sprinkle clean water on them, and cleanse them from all their filthiness and idols (36:25). Then 36:26 moves from outward washing to the inside: He promises a new heart and a new spirit, and He says He will take the heart of stone out of their flesh. The verse ends by naming what He will give in its place. Read the final clause of 36:26.",
+        "takeaway": "The LORD promised to take away the heart of stone and give a heart of flesh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-ezk-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 36",
+      "topics": [
+        "ezekiel-dry-bones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD promises “I will put My Spirit” in His people both in Ezekiel 36:27 and in 37:14. Taking the two verses together, what results does He name?",
+        "child": "In two different chapters of Ezekiel, God promises to put His Spirit in His people. Reading both verses, what did He say would happen?",
+        "teen": "Ezekiel 36:27 and 37:14 make the same promise about God’s Spirit. Put them together: what do they say will follow?",
+        "older": "Compare Ezekiel 36:27 with 37:14. What results follow the promise to put the LORD’s Spirit in His people?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They would walk in His statutes and live"
+        },
+        {
+          "id": "b",
+          "text": "They would rule the nations and be rich"
+        },
+        {
+          "id": "c",
+          "text": "They would see visions and dream dreams"
+        },
+        {
+          "id": "d",
+          "text": "They would build the temple and stay in it"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 36:27",
+            "text": "I will put My Spirit within you and cause you to walk in My statutes, and you will keep My judgments and do them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 37:14",
+            "text": "I will put My Spirit in you, and you shall live, and I will place you in your own land. Then you shall know that I, the LORD, have spoken it and performed it,” says the LORD.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "In Ezekiel 36:27, read the words after “My Spirit within you and cause you to.” In 37:14, read the words after “My Spirit in you, and.”",
+          "child": "Look at what comes right after God’s Spirit is mentioned in each verse. In 36:27 it says what He will cause them to do. In 37:14 it says what will happen to them.",
+          "teen": "Each verse continues past “My Spirit.” Read the next clause in 36:27, then the next clause in 37:14.",
+          "older": "In both verses the result follows the words about the Spirit: the clause beginning “and cause you to” in 36:27 and the one after “in you, and” in 37:14."
+        },
+        "extended_explanation": "Ezekiel 36:24-27 promises gathering, cleansing, and a new heart, and then 36:27 says the LORD will put His Spirit within His people and tells what that Spirit will cause them to do. In Ezekiel 37 the dry bones stand up when breath enters them, and 37:14 explains the vision with the same promise of the LORD’s Spirit, followed by what will happen to His people and their land. The two passages describe one promise from two sides. Read the clause after the Spirit is named in each verse.",
+        "takeaway": "The LORD promised to put His Spirit in His people so that they would walk in His statutes and live."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

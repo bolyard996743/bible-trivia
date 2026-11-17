@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2corinthians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2co-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 4",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2 Corinthians 4:7 Paul says, “But we have this treasure.” Where does he say the treasure is held?",
+        "child": "Paul says believers carry a great treasure. According to 2 Corinthians 4:7, where is this treasure kept?",
+        "teen": "In 2 Corinthians 4:7, Paul pictures a treasure and the place that holds it. Where is the treasure kept?",
+        "older": "According to 2 Corinthians 4:7, where do we have this treasure?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In golden bowls"
+        },
+        {
+          "id": "b",
+          "text": "In a locked chest"
+        },
+        {
+          "id": "c",
+          "text": "In earthen vessels"
+        },
+        {
+          "id": "d",
+          "text": "In the temple storehouse"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 4:7",
+            "text": "But we have this treasure in earthen vessels, that the excellence of the power may be of God and not of us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 4:7 begins “But we have this treasure.” Read the words that follow, up to the comma.",
+          "child": "Look at the first part of 2 Corinthians 4:7. Right after the treasure is mentioned, Paul says where it is kept.",
+          "teen": "4:7 has two halves: where the treasure is, and why. Read the first half.",
+          "older": "The first clause of 4:7 names it; the second gives the purpose."
+        },
+        "extended_explanation": "In 4:7 Paul speaks of a treasure that believers have, says where it is held, and then explains why it is held that way. The verses that follow (4:8-9) describe hardships Paul endured without being destroyed. Read the first clause of 4:7.",
+        "takeaway": "We have this treasure in earthen vessels, so that the excellence of the power may be of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2co-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 4",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2 Corinthians 4:8-9 Paul pairs each hardship with what did not happen. He says we are “hard-pressed on every side,” yet what?",
+        "child": "Paul lists hard things that happened to him, but each time he says what did not happen. He was pressed hard on every side, yet what?",
+        "teen": "2 Corinthians 4:8 opens a list of contrasts. What follows “hard-pressed on every side”?",
+        "older": "According to 2 Corinthians 4:8, Paul was hard-pressed on every side, yet what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not afraid"
+        },
+        {
+          "id": "b",
+          "text": "Not crushed"
+        },
+        {
+          "id": "c",
+          "text": "Not alone"
+        },
+        {
+          "id": "d",
+          "text": "Not defeated in battle"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 4:8",
+            "text": "We are hard-pressed on every side, yet not crushed; we are perplexed, but not in despair;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 4:9",
+            "text": "persecuted, but not forsaken; struck down, but not destroyed—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 4:8 begins with “We are hard-pressed on every side.” Read the words right after “yet.”",
+          "child": "Look at the first line of 2 Corinthians 4:8. The word “yet” leads to what did not happen.",
+          "teen": "4:8-9 is four contrasts. Read the second half of the first one.",
+          "older": "The first of the four contrasts in 4:8-9 ends with it."
+        },
+        "extended_explanation": "Paul describes his life in four contrasts (4:8-9). Each begins with a real hardship: hard-pressed, perplexed, persecuted, struck down. Each ends with what did not happen to him. In 4:10-11 he says this is so that the life of Jesus may be shown in his body. Read the first contrast in 4:8.",
+        "takeaway": "We are hard-pressed on every side, yet not crushed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2co-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 4",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says, “Therefore we do not lose heart.” Even though our outward man is perishing, what is happening to the inward man (4:16)?",
+        "child": "Paul admits our bodies wear out over time. But what does he say is happening to us on the inside?",
+        "teen": "2 Corinthians 4:16 contrasts the outward man and the inward man. What is happening to the inward man?",
+        "older": "According to 2 Corinthians 4:16, the inward man is being what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tested in the furnace"
+        },
+        {
+          "id": "b",
+          "text": "Weakened year by year"
+        },
+        {
+          "id": "c",
+          "text": "Hidden from the world"
+        },
+        {
+          "id": "d",
+          "text": "Renewed day by day"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 4:16",
+            "text": "Therefore we do not lose heart. Even though our outward man is perishing, yet the inward man is being renewed day by day.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 4:16 ends with a contrast after “yet the inward man is being.” Read the last words.",
+          "child": "Look at the end of 2 Corinthians 4:16. After Paul mentions the outward man, he says what is happening to the inward man.",
+          "teen": "Two things happen at once in 4:16. Read the second, at the end of the verse.",
+          "older": "The end of 4:16 gives it, and 4:17 explains why the affliction is light."
+        },
+        "extended_explanation": "Paul knows his body is wearing down under hardship: the outward man is perishing. Yet he says, “Therefore we do not lose heart.” In the second half of 4:16 he says what is happening to the inward man at the same time. Read the end of 4:16.",
+        "takeaway": "Though the outward man is perishing, the inward man is being renewed day by day."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2co-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 5",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to 2 Corinthians 5:17, if anyone is in Christ, what is he?",
+        "child": "What does Paul say a person becomes when they are in Christ?",
+        "teen": "2 Corinthians 5:17 describes a person who is in Christ. What does it call him?",
+        "older": "In 2 Corinthians 5:17, what is anyone who is in Christ?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A new creation"
+        },
+        {
+          "id": "b",
+          "text": "A better servant"
+        },
+        {
+          "id": "c",
+          "text": "A stronger believer"
+        },
+        {
+          "id": "d",
+          "text": "A citizen of heaven"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 5:17",
+            "text": "Therefore, if anyone is in Christ, he is a new creation; old things have passed away; behold, all things have become new.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 5:17 begins “Therefore, if anyone is in Christ, he is.” Read the words that follow.",
+          "child": "Look at the first part of 2 Corinthians 5:17. Right after “he is,” Paul says what that person is.",
+          "teen": "The first clause of 5:17 names it; the rest of the verse describes the change.",
+          "older": "It is stated before the semicolon in 5:17."
+        },
+        "extended_explanation": "In 5:17 Paul says what anyone in Christ is, and then describes the change: what came before has passed away, and everything has been made fresh. In 5:18 he adds that all things are of God, who reconciled us to Himself through Jesus Christ. Read the first clause of 5:17.",
+        "takeaway": "If anyone is in Christ, he is a new creation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2co-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 5",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says God has reconciled us to Himself and given us the ministry of reconciliation (5:18). In 5:20, what does he call those who carry this message?",
+        "child": "Paul says God made peace with us through Jesus and gave us the job of telling others about it. What does Paul call people who do this job?",
+        "teen": "2 Corinthians 5:18 gives believers a ministry; 5:20 gives them a title. What is it?",
+        "older": "According to 2 Corinthians 5:20, what are we?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judges over the world"
+        },
+        {
+          "id": "b",
+          "text": "Ambassadors for Christ"
+        },
+        {
+          "id": "c",
+          "text": "Priests in the temple"
+        },
+        {
+          "id": "d",
+          "text": "Guardians of the law of Moses"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 5:18",
+            "text": "Now all things are of God, who has reconciled us to Himself through Jesus Christ, and has given us the ministry of reconciliation,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 5:20",
+            "text": "Now then, we are ambassadors for Christ, as though God were pleading through us: we implore you on Christ’s behalf, be reconciled to God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 5:20 begins “Now then, we are.” Read the words that follow.",
+          "child": "Look at the very start of 2 Corinthians 5:20. Paul names what we are before he says God pleads through us.",
+          "teen": "5:18 is the ministry; 5:20 names the role. Read the first clause of 5:20.",
+          "older": "The role is named in the opening words of 5:20, followed by the plea “be reconciled to God.”"
+        },
+        "extended_explanation": "God has reconciled us to Himself through Christ and given us the ministry of reconciliation (5:18). God was in Christ reconciling the world to Himself and has committed to us the word of reconciliation (5:19). In 5:20 Paul names the role this gives believers: God pleads through us, and we implore others to be reconciled to God. Read the start of 5:20.",
+        "takeaway": "We are ambassadors for Christ, as though God were pleading through us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-2co-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 9",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul compares giving to sowing: he who sows sparingly will reap sparingly, and he who sows bountifully will reap bountifully (9:6). According to 9:7, what kind of giver does God love?",
+        "child": "Paul says each person should give what they have decided in their heart, not grudgingly. What kind of giver does God love?",
+        "teen": "2 Corinthians 9:6-7 talks about how to give. What kind of giver does 9:7 say God loves?",
+        "older": "According to 2 Corinthians 9:7, what kind of giver does God love?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A wealthy giver"
+        },
+        {
+          "id": "b",
+          "text": "A secret giver"
+        },
+        {
+          "id": "c",
+          "text": "A cheerful giver"
+        },
+        {
+          "id": "d",
+          "text": "A faithful, steady giver"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 9:6",
+            "text": "But this I say: He who sows sparingly will also reap sparingly, and he who sows bountifully will also reap bountifully.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 9:7",
+            "text": "So let each one give as he purposes in his heart, not grudgingly or of necessity; for God loves a cheerful giver.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 9:7 ends with a reason after “for God loves.” Read the last words.",
+          "child": "Look at the very end of 2 Corinthians 9:7. Paul says what kind of giver God loves.",
+          "teen": "9:6 is the sowing picture; 9:7 is the heart behind giving. Read the final clause of 9:7.",
+          "older": "The closing clause of 9:7 names it, after the warning against giving grudgingly or of necessity."
+        },
+        "extended_explanation": "Paul uses a farming picture: sow sparingly and reap sparingly, sow bountifully and reap bountifully (9:6). In 9:7 he says each one should give as he purposes in his heart, not grudgingly or of necessity, and ends with the kind of giver God loves. In 9:8 he adds that God is able to make all grace abound toward them. Read the end of 9:7.",
+        "takeaway": "Each one should give as he purposes in his heart, for God loves a cheerful giver."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-2co-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 4",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says our light affliction is working for us an eternal weight of glory (4:17). In 4:18 he contrasts what we look at with what we do not look at. What does he say the things which are seen are?",
+        "child": "Paul says we should not focus on the things we can see but on the things we cannot see. What does he say about the things we can see?",
+        "teen": "2 Corinthians 4:18 sets things seen against things not seen. What does Paul call the things which are seen?",
+        "older": "According to 2 Corinthians 4:18, what are the things which are seen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Worthless"
+        },
+        {
+          "id": "b",
+          "text": "Unchanging"
+        },
+        {
+          "id": "c",
+          "text": "Deceptive"
+        },
+        {
+          "id": "d",
+          "text": "Temporary"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 4:17",
+            "text": "For our light affliction, which is but for a moment, is working for us a far more exceeding and eternal weight of glory,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 4:18",
+            "text": "while we do not look at the things which are seen, but at the things which are not seen. For the things which are seen are temporary, but the things which are not seen are eternal.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 4:18 ends with a sentence beginning “For the things which are seen are.” Read what follows.",
+          "child": "Look at the last sentence of 2 Corinthians 4:18. It describes the things which are seen, then the things which are not seen.",
+          "teen": "4:17 sets a light affliction against an eternal weight of glory. 4:18 makes a matching contrast in its last sentence. Read it.",
+          "older": "The last sentence of 4:18 describes both kinds of things, one after the other."
+        },
+        "extended_explanation": "Paul calls his affliction light and says it is working for him a far more exceeding and eternal weight of glory (4:17). So he does not look at the things which are seen, but at the things which are not seen (4:18). The last sentence of 4:18 explains why, describing first the things which are seen and then the things which are not seen. Read the last sentence of 4:18.",
+        "takeaway": "The things which are seen are temporary, but the things which are not seen are eternal."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-2co-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 4",
+      "topics": [
+        "strength-in-weakness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 4:7 Paul says the treasure is held as it is so that its excellence belongs to God and not to us. In 12:9 the Lord tells him, “My strength is made perfect in weakness.” According to 12:9, what does Paul want to rest upon him as he boasts in his infirmities?",
+        "child": "Paul asked the Lord three times to take away his thorn in the flesh, and the Lord said His strength is made perfect in weakness. What did Paul then want to rest on him as he boasted in his weaknesses?",
+        "teen": "2 Corinthians 4:7 and 12:9-10 both say that God works through human weakness. In 12:9, what does Paul say he wants to rest upon him?",
+        "older": "Compare 2 Corinthians 4:7 with 12:9-10. According to 12:9, Paul will most gladly boast in his infirmities so that what may rest upon him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The power of Christ"
+        },
+        {
+          "id": "b",
+          "text": "The peace of God"
+        },
+        {
+          "id": "c",
+          "text": "The favor of the Lord"
+        },
+        {
+          "id": "d",
+          "text": "The comfort of the Spirit"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 4:7",
+            "text": "But we have this treasure in earthen vessels, that the excellence of the power may be of God and not of us.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 12:9",
+            "text": "And He said to me, “My grace is sufficient for you, for My strength is made perfect in weakness.” Therefore most gladly I will rather boast in my infirmities, that the power of Christ may rest upon me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 12:10",
+            "text": "Therefore I take pleasure in infirmities, in reproaches, in needs, in persecutions, in distresses, for Christ’s sake. For when I am weak, then I am strong.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "2 Corinthians 12:9 ends with Paul’s reason for boasting in his infirmities. Read the clause after “that.”",
+          "child": "Look at the very end of 2 Corinthians 12:9. Paul says what he wants to rest upon him.",
+          "teen": "The Lord’s reply is quoted in 12:9; Paul’s response follows. Read the last clause of 12:9, then compare the end of 4:7.",
+          "older": "The closing clause of 12:9 names it; 12:10 ends with “when I am weak, then I am strong.”"
+        },
+        "extended_explanation": "In 4:7 Paul says the treasure is held as it is so that its excellence would be seen as God’s, not ours. In 12:7-8 he describes a thorn in the flesh and says he pleaded with the Lord three times for it to depart. The Lord replied that His grace is sufficient and His strength is made perfect in weakness (12:9). So Paul says he will most gladly boast in his infirmities, and the last clause of 12:9 says why. He ends in 12:10: when I am weak, then I am strong. Read the end of 12:9 and compare 4:7.",
+        "takeaway": "Paul boasted in his infirmities so that the power of Christ might rest upon him, for God’s strength is made perfect in weakness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1samuel-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1sa-0010",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 1",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hannah prayed in her heart at the tabernacle; her lips moved, but her voice was not heard. What did Eli the priest think was wrong with her?",
+        "child": "Hannah prayed silently. Her lips moved, but no sound came out. What did Eli the priest think was going on?",
+        "teen": "Eli watched Hannah’s lips move without any sound. In 1 Samuel 1:13, what did he wrongly conclude about her?",
+        "older": "According to 1 Samuel 1:13, what did Eli think when he saw Hannah’s lips moving without sound?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Drunk"
+        },
+        {
+          "id": "b",
+          "text": "Asleep"
+        },
+        {
+          "id": "c",
+          "text": "Sick with fever"
+        },
+        {
+          "id": "d",
+          "text": "Mourning a death"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 1:13",
+            "text": "Now Hannah spoke in her heart; only her lips moved, but her voice was not heard. Therefore Eli thought she was drunk.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 1:14",
+            "text": "So Eli said to her, “How long will you be drunk? Put your wine away from you!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 1:13 ends with Eli’s conclusion, right after “Therefore Eli thought she was.” His words in 1:14 confirm it.",
+          "child": "Look at the end of 1 Samuel 1:13. Read what Eli thought, and then see what he tells her to put away in 1:14.",
+          "teen": "1:13 explains why Eli misread Hannah, and 1:14 shows him scolding her. Read the last word of 1:13.",
+          "older": "Eli’s mistaken judgment closes 1:13, and his rebuke in 1:14 makes it plain."
+        },
+        "extended_explanation": "Hannah was in deep sorrow and prayed silently before the LORD, pouring out her soul. Eli, watching from his seat by the doorpost, misunderstood what he saw. Read the end of 1:13 and Eli’s words in 1:14.",
+        "takeaway": "Eli thought Hannah was drunk, but she was pouring out her soul before the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 1",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the LORD remembered Hannah, she bore a son and named him Samuel. What reason did she give for the name?",
+        "child": "Hannah finally had a baby boy and named him Samuel. Why did she pick that name?",
+        "teen": "Samuel’s name came with an explanation from Hannah. According to 1 Samuel 1:20, why did she name him that?",
+        "older": "In 1 Samuel 1:20, what reason did Hannah give when she named her son Samuel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD has given me a son at last"
+        },
+        {
+          "id": "b",
+          "text": "God has remembered my tears"
+        },
+        {
+          "id": "c",
+          "text": "Asked for him from the LORD"
+        },
+        {
+          "id": "d",
+          "text": "He will be a judge over Israel"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 1:20",
+            "text": "So it came to pass in the process of time that Hannah conceived and bore a son, and called his name Samuel, saying, “Because I have asked for him from the LORD.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Hannah’s reason is quoted at the end of 1 Samuel 1:20, right after “saying, Because.”",
+          "child": "Look at the end of 1 Samuel 1:20. Hannah explains the name after the word “Because.”",
+          "teen": "1:20 has the birth, the name, and then Hannah’s own explanation. Read the words after “Because.”",
+          "older": "The explanation of the name is Hannah’s own quotation at the close of 1:20."
+        },
+        "extended_explanation": "Hannah had wept and prayed before the LORD for a son, and Eli had said, “The God of Israel grant your petition.” In 1:20 she bears a son and gives him a name with a reason attached. Read the words after “Because.”",
+        "takeaway": "Hannah named him Samuel, “Because I have asked for him from the LORD.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 1",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Samuel was weaned, Hannah brought him to Eli and said the LORD had granted her petition. What did she say she had done with the boy, for as long as he lives?",
+        "child": "Hannah brought little Samuel to Eli at the house of the LORD. She said God had answered her prayer. What did she say she was doing with Samuel?",
+        "teen": "In 1:27 Hannah says the LORD granted her request. In 1:28, what does she say she has done in return, for as long as Samuel lives?",
+        "older": "According to 1 Samuel 1:28, what did Hannah say she had done with Samuel, as long as he lives?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sold him to the priests"
+        },
+        {
+          "id": "b",
+          "text": "Given him to Eli as a son"
+        },
+        {
+          "id": "c",
+          "text": "Sent him to study with the elders"
+        },
+        {
+          "id": "d",
+          "text": "Lent him to the LORD"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 1:27",
+            "text": "For this child I prayed, and the LORD has granted me my petition which I asked of Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 1:28",
+            "text": "Therefore I also have lent him to the LORD; as long as he lives he shall be lent to the LORD.” So they worshiped the LORD there.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Hannah’s words in 1 Samuel 1:28 begin “Therefore I also have.” Read the verb and where it points, and notice she repeats it in the same sentence.",
+          "child": "Look at 1 Samuel 1:28. Read what Hannah says right after “Therefore I also have.”",
+          "teen": "1:27 is the gift Hannah received; 1:28 is her response. The key word appears twice in 1:28.",
+          "older": "The verb in 1:28 is used twice, once for Hannah’s act and once for its duration; read the first clause."
+        },
+        "extended_explanation": "Hannah had promised in her vow to give her son to the LORD all the days of his life. When the boy was weaned, she brought him to the house of the LORD with offerings and reminded Eli that she was the woman who had prayed there. Read 1:28 to see how she describes what she is doing.",
+        "takeaway": "Hannah said, “I also have lent him to the LORD; as long as he lives he shall be lent to the LORD.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 2",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The boy Samuel ministered before the LORD wearing a linen ephod. What did his mother make and bring him each year when she came up with her husband?",
+        "child": "Samuel served God as a young boy. Every year, when Hannah came to visit, what did she bring him that she had made?",
+        "teen": "Hannah gave Samuel to the LORD, but she still cared for him. According to 2:19, what did she make for him year by year?",
+        "older": "According to 1 Samuel 2:19, what did Hannah make and bring Samuel each year at the yearly sacrifice?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A pair of sandals"
+        },
+        {
+          "id": "b",
+          "text": "A little robe"
+        },
+        {
+          "id": "c",
+          "text": "A basket of bread"
+        },
+        {
+          "id": "d",
+          "text": "A harp for worship"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 2:18",
+            "text": "But Samuel ministered before the LORD, even as a child, wearing a linen ephod.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 2:19",
+            "text": "Moreover his mother used to make him a little robe, and bring it to him year by year when she came up with her husband to offer the yearly sacrifice.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 2:19 begins with what Hannah used to make for her son. Read the words after “his mother used to make him.”",
+          "child": "Look at the start of 1 Samuel 2:19. It tells what Hannah made for Samuel.",
+          "teen": "2:18 describes what Samuel wore while serving; 2:19 adds what his mother made. Read the first clause of 2:19.",
+          "older": "The item is named in the first clause of 2:19, with the word “Moreover” linking it to the linen ephod of 2:18."
+        },
+        "extended_explanation": "Samuel lived at the house of the LORD and served there even as a child. His mother had given him to the LORD, yet she kept coming each year for the yearly sacrifice. Read the opening of 2:19 to see what she made and brought him.",
+        "takeaway": "Each year Hannah made Samuel a little robe and brought it when she came up to offer the yearly sacrifice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 2",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hannah’s song begins by saying no one is holy like the LORD. In 2:7-8 she describes how He lifts people up. From what does she say He raises the poor?",
+        "child": "In her song, Hannah praises God because no one is holy like Him. She says God lifts up people who have nothing. What does He raise the poor from?",
+        "teen": "Hannah moves from “No one is holy like the LORD” (2:2) to how the LORD reverses people’s places (2:7-8). From where does He raise the poor?",
+        "older": "In Hannah’s prayer (1 Samuel 2:2, 7-8), from what does she say the LORD raises the poor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sea"
+        },
+        {
+          "id": "b",
+          "text": "The dust"
+        },
+        {
+          "id": "c",
+          "text": "The prison"
+        },
+        {
+          "id": "d",
+          "text": "The wilderness"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 2:2",
+            "text": "“No one is holy like the LORD, For there is none besides You, Nor is there any rock like our God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 2:7",
+            "text": "The LORD makes poor and makes rich; He brings low and lifts up.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 2:8",
+            "text": "He raises the poor from the dust And lifts the beggar from the ash heap, To set them among princes And make them inherit the throne of glory. “For the pillars of the earth are the LORD’s, And He has set the world upon them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 1 Samuel 2:8, right after “He raises the poor from.” The next line gives a parallel picture for the beggar.",
+          "child": "Look at the start of 1 Samuel 2:8. Read what comes after “He raises the poor from.”",
+          "teen": "2:7 says He brings low and lifts up; 2:8 gives two pictures of it. Read the end of the first line of 2:8.",
+          "older": "The first line of 2:8 names the place, and the second line pairs it with where the beggar is lifted from."
+        },
+        "extended_explanation": "Hannah had been provoked and grieved, and now she sings. She praises the LORD as holy and unlike anyone else, then describes how He humbles the proud and lifts the lowly. Read the first line of 2:8.",
+        "takeaway": "Hannah sang that the LORD raises the poor from the dust and lifts the beggar from the ash heap."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 2",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Samuel 2:12 describes Eli’s sons; 2:26 describes the child Samuel. With whom does it say he was in favor?",
+        "child": "The Bible describes Eli’s sons in 2:12 and young Samuel in 2:26. Who does 2:26 say Samuel was in favor with?",
+        "teen": "Read 2:12 about Eli’s sons, then 2:26. With whom was Samuel in favor?",
+        "older": "According to 1 Samuel 2:26, with whom was the child Samuel in favor? You can read 2:12 alongside it."
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only with his mother Hannah"
+        },
+        {
+          "id": "b",
+          "text": "With the Philistine lords"
+        },
+        {
+          "id": "c",
+          "text": "With Eli’s two sons and the elders"
+        },
+        {
+          "id": "d",
+          "text": "Both with the LORD and men"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 2:12",
+            "text": "Now the sons of Eli were corrupt; they did not know the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 2:26",
+            "text": "And the child Samuel grew in stature, and in favor both with the LORD and men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 2:26 ends with the word “favor” and then names who. Read the last words of the verse, and compare them with what 2:12 says about Eli’s sons.",
+          "child": "Look at the end of 1 Samuel 2:26. Right after “in favor,” it tells you with whom.",
+          "teen": "2:12 says Eli’s sons did not know the LORD; 2:26 shows Samuel’s standing. Read the end of 2:26.",
+          "older": "The final phrase of 2:26 names those who favored Samuel. Read it alongside 2:12."
+        },
+        "extended_explanation": "Chapter 2 sets two pictures side by side. Eli’s sons served as priests but were corrupt and did not know the LORD. Meanwhile, Samuel ministered before the LORD as a boy. Read 2:26 to see how Samuel was regarded, and notice who is named at the end.",
+        "takeaway": "The child Samuel was in favor both with the LORD and men."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1sa-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 3",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD called, the boy Samuel answered, “Speak, for Your servant hears.” Later, 3:19 says the LORD was with him. What did the LORD do with Samuel’s words?",
+        "child": "Samuel told God, “Speak, for Your servant hears.” Later the Bible says God was with Samuel. What did God do with Samuel’s words?",
+        "teen": "In 3:10 Samuel learns to listen to the LORD. According to 3:19, what did the LORD do with Samuel’s words?",
+        "older": "Linking Samuel’s answer in 1 Samuel 3:10 with 3:19, what did the LORD do with Samuel’s words?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wrote all his words on a scroll for Israel"
+        },
+        {
+          "id": "b",
+          "text": "Kept his words hidden from Eli’s house"
+        },
+        {
+          "id": "c",
+          "text": "Let none of his words fall to the ground"
+        },
+        {
+          "id": "d",
+          "text": "Made his words known only to the priests"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 3:10",
+            "text": "Now the LORD came and stood and called as at other times, “Samuel! Samuel!” And Samuel answered, “Speak, for Your servant hears.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 3:19",
+            "text": "So Samuel grew, and the LORD was with him and let none of his words fall to the ground.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 3:19 joins its statements with “and.” Read the last one, about Samuel’s words, and think about how it follows from his listening in 3:10.",
+          "child": "Look at the end of 1 Samuel 3:19. Read what the LORD did with Samuel’s words.",
+          "teen": "The boy who listened (3:10) is now the one speaking (3:19). Read the last clause of 3:19.",
+          "older": "The final clause of 3:19 describes the LORD’s action toward Samuel’s words; read it alongside Samuel’s posture in 3:10."
+        },
+        "extended_explanation": "Samuel did not yet know the LORD when the voice first called him, and Eli taught him how to answer. When the LORD came and called again, Samuel said he was ready to listen. Read the end of 3:19 to see how the LORD treated the words of the one who had listened.",
+        "takeaway": "The LORD was with Samuel and let none of his words fall to the ground."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1sa-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 1",
+      "topics": [
+        "hannah-and-samuel"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elkanah went up yearly to worship the LORD at the place where Eli’s sons served as priests (1:3). Years later, when the word of the LORD had been rare (3:1), where did the LORD appear again and reveal Himself to Samuel?",
+        "child": "Hannah’s family went every year to worship God at the place where Eli’s sons were priests. At the start of chapter 3, God rarely spoke to anyone. By the end of chapter 3, where did God show Himself to Samuel again?",
+        "teen": "1:3 names the place of yearly worship; 3:1 says the word of the LORD was rare. Where does 3:21 say the LORD appeared again and revealed Himself to Samuel?",
+        "older": "Tracing 1 Samuel 1:3 to 3:1 and 3:21, where did the LORD appear again and reveal Himself to Samuel by His word?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Shiloh"
+        },
+        {
+          "id": "b",
+          "text": "Ramah"
+        },
+        {
+          "id": "c",
+          "text": "Bethel"
+        },
+        {
+          "id": "d",
+          "text": "Beersheba"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 1:3",
+            "text": "This man went up from his city yearly to worship and sacrifice to the LORD of hosts in Shiloh. Also the two sons of Eli, Hophni and Phinehas, the priests of the LORD, were there.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 3:1",
+            "text": "Now the boy Samuel ministered to the LORD before Eli. And the word of the LORD was rare in those days; there was no widespread revelation.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 3:21",
+            "text": "Then the LORD appeared again in Shiloh. For the LORD revealed Himself to Samuel in Shiloh by the word of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 3:21 names the place twice. It is the same place named in 1:3, where the story began. Compare that with how rare the word was in 3:1.",
+          "child": "Look at 1 Samuel 3:21. The place is named two times. It is also in 1:3.",
+          "teen": "3:1 describes a quiet time; 3:21 shows it ending. Read the place named in 3:21 and match it to 1:3.",
+          "older": "The place recurs in 1:3 and twice in 3:21, framing the account from Hannah’s journeys to Samuel’s call."
+        },
+        "extended_explanation": "The story opens with a family going up each year to worship and sacrifice at the house of the LORD, where Eli’s sons were priests. By 3:1 the word of the LORD was rare and there was no widespread revelation. Chapter 3 ends with a change: the LORD appeared again and revealed Himself to Samuel by His word. Read 3:21 and find the place, then look back at 1:3.",
+        "takeaway": "The LORD appeared again in Shiloh and revealed Himself to Samuel by the word of the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

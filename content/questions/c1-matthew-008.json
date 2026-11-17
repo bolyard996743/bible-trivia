@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0035",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 16",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus asked His disciples, “Who do men say that I, the Son of Man, am?” In what region was He when He asked?",
+        "child": "Jesus once asked His disciples what people were saying about who He was. Where were they when He asked?",
+        "teen": "Matthew 16:13 names the place where Jesus asked the disciples what people were saying about Him. Where was it?",
+        "older": "According to Matthew 16:13, into what region had Jesus come when He asked this question?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Capernaum"
+        },
+        {
+          "id": "b",
+          "text": "The Sea of Galilee"
+        },
+        {
+          "id": "c",
+          "text": "Bethany near Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "Caesarea Philippi"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 16:13",
+            "text": "When Jesus came into the region of Caesarea Philippi, He asked His disciples, saying, “Who do men say that I, the Son of Man, am?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 16:13 begins “When Jesus came into the region of.” Read the place named next.",
+          "child": "Look at the start of Matthew 16:13. It names the region Jesus came into before He asked His question.",
+          "teen": "The setting comes first in 16:13, before the question. Read the words after “the region of.”",
+          "older": "The region is named in the opening clause of 16:13."
+        },
+        "extended_explanation": "Matthew 16:13 sets the scene before the conversation that follows. Jesus has come into a particular region with His disciples, and there He asks what people are saying about who He is. The place is named in the opening clause, right after “the region of.”",
+        "takeaway": "Jesus asked His disciples who people said He was in the region of Caesarea Philippi."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mat-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 11",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As John’s disciples left, Jesus asked the crowds what they had gone out into the wilderness to see. According to 11:9, what did He say John was?",
+        "child": "After John’s messengers left, Jesus talked to the crowd about John. What did Jesus say John really was?",
+        "teen": "In Matthew 11:7-9, Jesus asks the crowds what they went out to see. What does 11:9 say John is?",
+        "older": "According to Matthew 11:9, how did Jesus describe John to the multitudes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "More than a prophet"
+        },
+        {
+          "id": "b",
+          "text": "A reed shaken by the wind"
+        },
+        {
+          "id": "c",
+          "text": "A man in soft garments"
+        },
+        {
+          "id": "d",
+          "text": "A teacher of the law"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 11:9",
+            "text": "But what did you go out to see? A prophet? Yes, I say to you, and more than a prophet.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 11:10",
+            "text": "For this is he of whom it is written: ‘Behold, I send My messenger before Your face, Who will prepare Your way before You.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Matthew 11:9, after “Yes, I say to you.”",
+          "child": "Look at the end of Matthew 11:9. After “Yes, I say to you,” Jesus gives His own description.",
+          "teen": "Read the end of 11:9, after “Yes, I say to you”; 11:10 explains it with a quotation.",
+          "older": "The description closes 11:9; 11:10 gives the Scripture behind it."
+        },
+        "extended_explanation": "John had sent disciples from prison to ask Jesus a question (11:2-3). As they left, Jesus spoke to the crowds about John. He asks the crowd again what they went out to see, then describes John in His own words. In 11:10 He says John is the messenger written of who prepares the way. Read the end of 11:9.",
+        "takeaway": "Jesus said John was a prophet, and more than a prophet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mat-0014",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 16",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus asked His disciples, “But who do you say that I am?” What did Simon Peter reply?",
+        "child": "Jesus asked His disciples who they thought He was. What did Peter say?",
+        "teen": "Matthew 16:15 moves from what others say to what the disciples say. How does Peter reply in 16:16?",
+        "older": "According to Matthew 16:16, what did Simon Peter say when Jesus asked who the disciples said He was?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Teacher sent from God"
+        },
+        {
+          "id": "b",
+          "text": "The Christ, the Son of the living God"
+        },
+        {
+          "id": "c",
+          "text": "The King who will free Israel"
+        },
+        {
+          "id": "d",
+          "text": "The Rabbi who has come from God to teach us"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 16:15",
+            "text": "He said to them, “But who do you say that I am?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 16:16",
+            "text": "Simon Peter answered and said, “You are the Christ, the Son of the living God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 16:16 quotes Peter. Read his words after “You are.”",
+          "child": "Look at Matthew 16:16. Peter starts with “You are” and then says who Jesus is.",
+          "teen": "16:15 is Jesus’ question to the disciples themselves. In 16:16, read Peter’s full reply.",
+          "older": "Peter’s reply follows “You are” in 16:16."
+        },
+        "extended_explanation": "In 16:13-14 the disciples report what others say about Jesus. Then in 16:15 Jesus asks them directly. Simon Peter speaks in 16:16, beginning with “You are.” In 16:17 Jesus says this was not revealed to Peter by any human source. Read Peter’s words in 16:16.",
+        "takeaway": "Peter said, “You are the Christ, the Son of the living God.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mat-0015",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 17",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the high mountain, Peter said to Jesus, “Lord, it is good for us to be here.” What did he offer to make?",
+        "child": "On the mountain where Jesus shone with glory, Peter had an idea. What did he offer to build?",
+        "teen": "In Matthew 17:4, Peter speaks up during the Transfiguration. What does he offer to make?",
+        "older": "According to Matthew 17:4, what did Peter offer to make on the mountain?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "An altar of stones"
+        },
+        {
+          "id": "b",
+          "text": "A feast for the crowds"
+        },
+        {
+          "id": "c",
+          "text": "Three tabernacles"
+        },
+        {
+          "id": "d",
+          "text": "A tent for the disciples"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 17:4",
+            "text": "Then Peter answered and said to Jesus, “Lord, it is good for us to be here; if You wish, let us make here three tabernacles: one for You, one for Moses, and one for Elijah.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 17:4 says “if You wish, let us make here.” Read the words that follow.",
+          "child": "Look at the middle of Matthew 17:4. After “let us make here,” Peter says what he wants to build.",
+          "teen": "Peter’s offer in 17:4 comes after “if You wish.” Read the words after “let us make here.”",
+          "older": "The offer follows “let us make here” in 17:4."
+        },
+        "extended_explanation": "Peter, James, and John were on a high mountain with Jesus when He was transfigured (17:1-2), and two figures from Israel’s past appeared talking with Him (17:3). In 17:4 Peter says it is good to be there and makes an offer. Read the words after “let us make here.”",
+        "takeaway": "Peter offered to make three tabernacles on the mountain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mat-0016",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 17",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus was transfigured on a high mountain, and His face shone like the sun (17:2). According to 17:3, who appeared, talking with Him?",
+        "child": "On the mountain, Jesus’ face shone like the sun and His clothes became bright white. Who appeared and talked with Him?",
+        "teen": "Matthew 17:2 describes Jesus’ shining face and clothes, and 17:3 names two visitors. Who were they?",
+        "older": "According to Matthew 17:3, who appeared to the disciples, talking with Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Abraham and David"
+        },
+        {
+          "id": "b",
+          "text": "Moses and Elijah"
+        },
+        {
+          "id": "c",
+          "text": "Elisha and Samuel"
+        },
+        {
+          "id": "d",
+          "text": "Noah and Daniel"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 17:2",
+            "text": "and He was transfigured before them. His face shone like the sun, and His clothes became as white as the light.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 17:3",
+            "text": "And behold, Moses and Elijah appeared to them, talking with Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 17:3 begins “And behold.” Read the two names that follow.",
+          "child": "Look at the start of Matthew 17:3. Right after “And behold,” it names two men.",
+          "teen": "17:2 is the transfiguration itself; 17:3 tells who appeared. Read the names after “behold.”",
+          "older": "The two names open 17:3."
+        },
+        "extended_explanation": "Jesus took Peter, James, and John up a high mountain by themselves (17:1). There He was transfigured: His face shone like the sun and His clothes became white as the light (17:2). In 17:3 two men appear and talk with Him. Read the names after “And behold.”",
+        "takeaway": "Moses and Elijah appeared and talked with Jesus on the mountain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mat-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 17",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the disciples heard the voice from the cloud, they fell on their faces (17:6). According to 17:7, what did Jesus say when He came and touched them?",
+        "child": "The disciples heard God’s voice and fell to the ground. What did Jesus say when He came and touched them?",
+        "teen": "Matthew 17:6 shows the disciples face down on the ground. In 17:7, what does Jesus say?",
+        "older": "According to Matthew 17:7, what did Jesus say to the disciples when He touched them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Be still, and know that I am God"
+        },
+        {
+          "id": "b",
+          "text": "Tell no one what you have seen"
+        },
+        {
+          "id": "c",
+          "text": "Arise, and do not be afraid"
+        },
+        {
+          "id": "d",
+          "text": "Watch and pray with Me"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 17:6",
+            "text": "And when the disciples heard it, they fell on their faces and were greatly afraid.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 17:7",
+            "text": "But Jesus came and touched them and said, “Arise, and do not be afraid.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 17:7 quotes Jesus. Read His words inside the quotation marks.",
+          "child": "Look at the end of Matthew 17:7. After Jesus touched them, His words are in quotation marks.",
+          "teen": "17:6 describes the disciples’ reaction to the voice. In 17:7, read what Jesus said after touching them.",
+          "older": "Jesus’ words are the quotation at the end of 17:7."
+        },
+        "extended_explanation": "A bright cloud overshadowed them and a voice spoke from the cloud (17:5). In 17:6 the disciples fall on their faces. Jesus came and touched them, and 17:7 gives His words. Read the quotation in 17:7.",
+        "takeaway": "Jesus touched them and said, “Arise, and do not be afraid.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-mat-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 17",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The voice out of the bright cloud told the disciples to listen to the Beloved Son (17:5). According to 17:8, when they lifted up their eyes, whom did they see?",
+        "child": "God’s voice from the cloud told the disciples to listen to His Son. When they looked up afterward, whom did they see?",
+        "teen": "Matthew 17:5 ends with a command from the cloud, and 17:8 tells what the disciples saw afterward. Whom did they see?",
+        "older": "According to Matthew 17:8, whom did the disciples see when they lifted up their eyes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jesus only"
+        },
+        {
+          "id": "b",
+          "text": "Two men in white"
+        },
+        {
+          "id": "c",
+          "text": "An angel of the Lord"
+        },
+        {
+          "id": "d",
+          "text": "The bright cloud still over them"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 17:5",
+            "text": "While he was still speaking, behold, a bright cloud overshadowed them; and suddenly a voice came out of the cloud, saying, “This is My beloved Son, in whom I am well pleased. Hear Him!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 17:8",
+            "text": "When they had lifted up their eyes, they saw no one but Jesus only.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 17:8 says “they saw no one but.” Read the last words of the verse.",
+          "child": "Look at the end of Matthew 17:8. After the disciples looked up, it says “they saw no one but” and then tells whom they saw.",
+          "teen": "17:5 is the command from the cloud. 17:8 shows what was left when they looked up. Read the end of 17:8.",
+          "older": "The last words of 17:8, after “no one but,” name whom they saw."
+        },
+        "extended_explanation": "In 17:5, while Peter is still speaking, a bright cloud overshadows them and a voice says, “This is My beloved Son, in whom I am well pleased. Hear Him!” The disciples fall on their faces, and Jesus touches them (17:6-7). In 17:8 they lift up their eyes, and the verse says whom they saw. Read the end of 17:8.",
+        "takeaway": "When the disciples looked up, they saw no one but Jesus only."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-mat-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 11",
+      "topics": [
+        "confession-transfiguration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "From prison, John sent to ask Jesus, “Are You the Coming One, or do we look for another?” (11:3), and Jesus pointed John’s disciples to what they could hear and see (11:4). When Peter later confessed who Jesus is, where did Jesus say Peter’s knowledge came from (16:17)?",
+        "child": "John the Baptist sent messengers to ask if Jesus was really the One they were waiting for, and Jesus told them to report what they heard and saw. Later Peter said who Jesus is. Where did Jesus say Peter learned it?",
+        "teen": "Matthew 11:3-4 shows John’s question answered with what could be heard and seen. Matthew 16:17 shows Peter’s confession answered differently. Who revealed it to Peter?",
+        "older": "Compare Matthew 11:3-4 with 16:17. According to 16:17, who revealed to Peter who Jesus is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peter’s own reasoning"
+        },
+        {
+          "id": "b",
+          "text": "John the Baptist’s preaching"
+        },
+        {
+          "id": "c",
+          "text": "The miracles he had seen"
+        },
+        {
+          "id": "d",
+          "text": "My Father who is in heaven"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 11:3",
+            "text": "and said to Him, “Are You the Coming One, or do we look for another?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 11:4",
+            "text": "Jesus answered and said to them, “Go and tell John the things which you hear and see:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 16:17",
+            "text": "Jesus answered and said to him, “Blessed are you, Simon Bar-Jonah, for flesh and blood has not revealed this to you, but My Father who is in heaven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 16:17 says what did not reveal this to Peter, and then what did. Read the words after “but.”",
+          "child": "Look at the end of Matthew 16:17. Jesus says what did not reveal this to Peter, and then says “but” and tells who did.",
+          "teen": "11:4 points to what John’s disciples could hear and see. In 16:17, read the end of the sentence, after “but.”",
+          "older": "The source is named at the close of 16:17, set against what Jesus rules out."
+        },
+        "extended_explanation": "Both scenes ask who Jesus is. John, in prison, sent disciples to ask whether Jesus was the Coming One (11:3), and Jesus told them to go and report what they heard and saw (11:4-5). Later Peter confessed who Jesus is (16:16). In 16:17 Jesus calls Peter blessed and says what did not reveal this to him, and then who did. Read the end of 16:17.",
+        "takeaway": "Jesus said His Father who is in heaven had revealed to Peter who He is."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

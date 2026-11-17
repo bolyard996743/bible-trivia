@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ezekiel-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-ezk-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 2",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD began to give Ezekiel his commission, He called him “Son of man.” What did He tell Ezekiel to do before He spoke to him (2:1)?",
+        "child": "God was about to give Ezekiel his work. What was the first thing God told him to do?",
+        "teen": "Ezekiel 2:1 opens Ezekiel’s call with a command, and 2:2 says the Spirit helped him obey it. What was the command?",
+        "older": "According to Ezekiel 2:1, what did the LORD command Ezekiel to do so that He could speak to him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stand on your feet"
+        },
+        {
+          "id": "b",
+          "text": "Take off your sandals"
+        },
+        {
+          "id": "c",
+          "text": "Go up to the mountain"
+        },
+        {
+          "id": "d",
+          "text": "Wash in the river"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 2:1",
+            "text": "And He said to me, “Son of man, stand on your feet, and I will speak to you.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 2:2",
+            "text": "Then the Spirit entered me when He spoke to me, and set me on my feet; and I heard Him who spoke to me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 2:1 quotes the LORD. Read the words right after “Son of man,” before “and I will speak to you.”",
+          "child": "Look at Ezekiel 2:1. God calls him “Son of man” and then gives a short command. Ezekiel 2:2 shows the Spirit helping him do it.",
+          "teen": "2:1 gives the command and 2:2 shows it carried out by the Spirit. Read what the Spirit did to Ezekiel in 2:2.",
+          "older": "The command sits between “Son of man” and “and I will speak to you” in 2:1; 2:2 repeats it in action."
+        },
+        "extended_explanation": "In 2:1 the LORD addresses him as “Son of man” and gives a command before He speaks to him. In 2:2 the Spirit enters Ezekiel and does for him what he had been told to do, and then Ezekiel hears the One speaking. Read the command in 2:1 and the end of 2:2.",
+        "takeaway": "The LORD said, “Son of man, stand on your feet,” and the Spirit set him on his feet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 2",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD sent Ezekiel to a rebellious house and told him to speak whether they would hear or refuse. According to 2:5, what would they know either way?",
+        "child": "God told Ezekiel that the people might listen or might not. Either way, what did God say they would know?",
+        "teen": "Ezekiel 2:5 and 2:7 repeat “whether they hear or whether they refuse.” What does 2:5 say the people will know in any case?",
+        "older": "According to Ezekiel 2:5, what would the rebellious house know, whether they heard or refused?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That the LORD had left His temple for good"
+        },
+        {
+          "id": "b",
+          "text": "That a prophet has been among them"
+        },
+        {
+          "id": "c",
+          "text": "That Babylon would soon fall"
+        },
+        {
+          "id": "d",
+          "text": "That their exile was over at last"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 2:5",
+            "text": "As for them, whether they hear or whether they refuse—for they are a rebellious house—yet they will know that a prophet has been among them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 2:7",
+            "text": "You shall speak My words to them, whether they hear or whether they refuse, for they are rebellious.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 2:5 ends with “yet they will know.” Read the words that follow.",
+          "child": "Look at the end of Ezekiel 2:5. After “yet they will know,” God tells what the people will know.",
+          "teen": "2:7 repeats the command to speak no matter what. In 2:5, read the clause after “yet they will know.”",
+          "older": "The last clause of 2:5, after “yet they will know,” states it."
+        },
+        "extended_explanation": "The LORD did not promise Ezekiel that the people would listen. In 2:5 and again in 2:7 He says Ezekiel must speak His words whether they hear or whether they refuse, for they are a rebellious house. The end of 2:5 says what they would know either way. Read the clause after “yet they will know.”",
+        "takeaway": "Whether they listened or refused, they would know that a prophet had been among them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 3",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A hand held out a scroll written inside and out with lamentations and mourning and woe (2:9-10). According to 3:1, what did the LORD tell Ezekiel to do with the scroll before going to speak to Israel?",
+        "child": "God showed Ezekiel a scroll with sad words written all over it. What did God tell Ezekiel to do with it?",
+        "teen": "Before Ezekiel speaks to the house of Israel, the LORD gives him a command about the scroll in 3:1. What is it?",
+        "older": "According to Ezekiel 3:1-2, what was Ezekiel told to do with the scroll?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Read it aloud in the gate"
+        },
+        {
+          "id": "b",
+          "text": "Burn it before the elders"
+        },
+        {
+          "id": "c",
+          "text": "Eat it"
+        },
+        {
+          "id": "d",
+          "text": "Bury it by the river"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 3:1",
+            "text": "Moreover He said to me, “Son of man, eat what you find; eat this scroll, and go, speak to the house of Israel.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 3:2",
+            "text": "So I opened my mouth, and He caused me to eat that scroll.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 3:1 gives a two-part command about the scroll. Read the first part, right after “Son of man.”",
+          "child": "Look at Ezekiel 3:1 and 3:2. God tells Ezekiel what to do with the scroll, and 3:2 says Ezekiel did it.",
+          "teen": "3:1 is the command and 3:2 is the obedience. Read the end of 3:2.",
+          "older": "The command about the scroll is in the middle of 3:1, and 3:2 confirms it."
+        },
+        "extended_explanation": "In 2:8 the LORD tells Ezekiel not to be rebellious like the house of Israel. A hand holds out a scroll full of lamentations and mourning and woe (2:9-10). In 3:1 the LORD says what to do with it before Ezekiel goes to speak, and 3:2 says Ezekiel obeyed. Read the first command in 3:1.",
+        "takeaway": "The LORD told Ezekiel to eat the scroll, and then go and speak to the house of Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 18",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Israel used a proverb about the fathers eating sour grapes and the children’s teeth being set on edge (18:2). What did the LORD declare instead in 18:4?",
+        "child": "People in Israel had a saying that children suffer for what their parents did. What did God say instead?",
+        "teen": "Ezekiel 18:2 quotes a popular proverb, and the LORD rejects it. What principle does 18:4 state?",
+        "older": "According to Ezekiel 18:4, what did the LORD say in place of the sour grapes proverb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The son shall bear his father’s sin"
+        },
+        {
+          "id": "b",
+          "text": "Every soul shall be spared alike"
+        },
+        {
+          "id": "c",
+          "text": "The land shall pay for every sin"
+        },
+        {
+          "id": "d",
+          "text": "The soul who sins shall die"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 18:2",
+            "text": "“What do you mean when you use this proverb concerning the land of Israel, saying: ‘The fathers have eaten sour grapes, And the children’s teeth are set on edge’?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 18:4",
+            "text": "“Behold, all souls are Mine; The soul of the father As well as the soul of the son is Mine; The soul who sins shall die.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 18:4 says all souls belong to the LORD. Read the last line of the verse.",
+          "child": "Look at the end of Ezekiel 18:4. After God says every soul is His, the last line states the principle.",
+          "teen": "18:2 is the proverb; 18:4 is the LORD’s reply. Read the final line of 18:4.",
+          "older": "The principle is the closing line of 18:4; 18:20 repeats it."
+        },
+        "extended_explanation": "The proverb in 18:2 claimed that children were paying for their fathers’ sins. In 18:3 the LORD says they will no longer use it. In 18:4 He says all souls are His, the father’s and the son’s alike, and the last line states the principle that the rest of chapter 18 explains with examples of a father and son (18:5-20). Read the final line of 18:4.",
+        "takeaway": "The LORD said, “The soul who sins shall die,” not the children for the fathers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 33",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the LORD’s picture, a watchman sees the sword coming and blows the trumpet to warn the people (33:3). According to 33:5, what happens to the one who takes warning?",
+        "child": "God described a watchman who blows a trumpet when an enemy is coming. What happens to the person who listens to the warning?",
+        "teen": "Ezekiel 33:3-5 describes a watchman’s trumpet and two kinds of listeners. What does 33:5 say about the one who takes warning?",
+        "older": "According to Ezekiel 33:5, what will the one who takes warning do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He would be made a watchman"
+        },
+        {
+          "id": "b",
+          "text": "He would have to leave the land"
+        },
+        {
+          "id": "c",
+          "text": "He would save his life"
+        },
+        {
+          "id": "d",
+          "text": "He would face the sword alone"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 33:3",
+            "text": "when he sees the sword coming upon the land, if he blows the trumpet and warns the people,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 33:5",
+            "text": "He heard the sound of the trumpet, but did not take warning; his blood shall be upon himself. But he who takes warning will save his life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 33:5 has two parts, joined by “But.” Read the part after “But he who takes warning.”",
+          "child": "Look at the end of Ezekiel 33:5. After “But he who takes warning,” the verse says what happens to him.",
+          "teen": "33:3 is the trumpet. 33:5 contrasts the one who ignores it with the one who heeds it. Read the last clause.",
+          "older": "The result follows “But he who takes warning” at the end of 33:5."
+        },
+        "extended_explanation": "The LORD describes a watchman chosen by the people of a land. When he sees the sword coming, he blows the trumpet (33:3). Whoever hears and does not take warning is responsible for what happens to him (33:4-5). The end of 33:5 tells what happens to the one who does take warning. In 33:7 the LORD applies the picture to Ezekiel. Read the last clause of 33:5.",
+        "takeaway": "The one who takes warning when the trumpet sounds will save his life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezk-0010",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 3",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Ezekiel that the house of Israel would not listen to him, because they would not listen to the LORD (3:7). According to 3:9, what had the LORD made Ezekiel’s forehead like?",
+        "child": "God warned Ezekiel that the people would not listen to him. How did God say He had made Ezekiel’s forehead?",
+        "teen": "Ezekiel 3:7 describes Israel’s refusal to listen, and 3:8-9 describe how the LORD prepared Ezekiel to face them. What is Ezekiel’s forehead like in 3:9?",
+        "older": "According to Ezekiel 3:9, what had the LORD made Ezekiel’s forehead like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Softer than wool"
+        },
+        {
+          "id": "b",
+          "text": "Harder than flint"
+        },
+        {
+          "id": "c",
+          "text": "Brighter than the sun"
+        },
+        {
+          "id": "d",
+          "text": "Lighter than a feather"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 3:7",
+            "text": "But the house of Israel will not listen to you, because they will not listen to Me; for all the house of Israel are impudent and hard-hearted.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 3:9",
+            "text": "Like adamant stone, harder than flint, I have made your forehead; do not be afraid of them, nor be dismayed at their looks, though they are a rebellious house.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 3:9 begins with a comparison before “I have made your forehead.” Read the first line.",
+          "child": "Look at the start of Ezekiel 3:9. It begins with a comparison.",
+          "teen": "3:7 is the people’s refusal; 3:9 is God’s reply. Read the words after “Like adamant stone.”",
+          "older": "The comparison opens 3:9, before “I have made your forehead.”"
+        },
+        "extended_explanation": "The LORD did not hide how difficult Ezekiel’s work would be. In 3:7 He says the house of Israel will not listen to Ezekiel because they will not listen to the LORD. In 3:8 He says He has made Ezekiel’s face and forehead strong against theirs, and 3:9 gives a comparison, then tells Ezekiel not to be afraid of them. Read the opening line of 3:9.",
+        "takeaway": "The LORD made Ezekiel’s forehead like adamant stone, harder than flint, so he would not be afraid."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-ezk-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 18",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Twice in Ezekiel 18 the house of Israel says, “The way of the Lord is not fair” (18:25, 29). What does the LORD reply is really not fair?",
+        "child": "The people of Israel complained two times that God was not being fair. What did God say was the thing that was not fair?",
+        "teen": "Ezekiel 18:25 and 18:29 repeat the same complaint and the same reply. According to the LORD, what is not fair?",
+        "older": "In Ezekiel 18:25 and 18:29, what does the LORD say is not fair?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their own ways"
+        },
+        {
+          "id": "b",
+          "text": "The judges’ ways"
+        },
+        {
+          "id": "c",
+          "text": "The priests’ ways"
+        },
+        {
+          "id": "d",
+          "text": "The ways of Babylon"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 18:25",
+            "text": "“Yet you say, ‘The way of the Lord is not fair.’ Hear now, O house of Israel, is it not My way which is fair, and your ways which are not fair?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 18:29",
+            "text": "Yet the house of Israel says, ‘The way of the Lord is not fair.’ O house of Israel, is it not My ways which are fair, and your ways which are not fair?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 18:25 ends with a question from the LORD. Read the last few words, after “is it not My way which is fair, and.”",
+          "child": "Look at the end of Ezekiel 18:25. God asks a question that compares His way with something else. Read the end of that question.",
+          "teen": "The complaint and reply appear in both 18:25 and 18:29. Read the second half of the LORD’s question in each.",
+          "older": "The reply ends both 18:25 and 18:29, after “and.”"
+        },
+        "extended_explanation": "Ezekiel 18 says the wicked who turn will live, and the righteous who turn away will die (18:21-28). The people complain that this is not fair. Twice the LORD answers with the same question, setting His way beside someone else’s. Read the last words of 18:25 and 18:29.",
+        "takeaway": "The LORD said His way is fair, and it was their own ways that were not fair."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-ezk-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 33",
+      "topics": [
+        "ezekiel-watchman"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD made Ezekiel a watchman to warn the wicked to turn from his way (33:7-9). According to 18:32, why does the LORD call people to turn?",
+        "child": "God made Ezekiel a watchman whose job was to warn people to turn from doing wrong. In Ezekiel 18:32, what reason does God give for calling people to turn?",
+        "teen": "Ezekiel 33:7-9 sets out the watchman’s duty to warn. Ezekiel 18:32 gives a reason for the call to turn. What is it?",
+        "older": "Compare Ezekiel 33:7-9 with 18:32. What reason does the Lord GOD give for His call to turn?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He wants the watchman to be honored by all"
+        },
+        {
+          "id": "b",
+          "text": "He needs more servants in Israel"
+        },
+        {
+          "id": "c",
+          "text": "He plans to rebuild the temple soon"
+        },
+        {
+          "id": "d",
+          "text": "He takes no pleasure in their death"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 33:7",
+            "text": "“So you, son of man: I have made you a watchman for the house of Israel; therefore you shall hear a word from My mouth and warn them for Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 33:9",
+            "text": "Nevertheless if you warn the wicked to turn from his way, and he does not turn from his way, he shall die in his iniquity; but you have delivered your soul.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 18:32",
+            "text": "For I have no pleasure in the death of one who dies,” says the Lord GOD. “Therefore turn and live!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezekiel 18:32 begins with “For.” Read the first clause, up to “says the Lord GOD.”",
+          "child": "Look at the start of Ezekiel 18:32. God gives His reason before He says “Therefore turn.”",
+          "teen": "33:7-9 is the watchman’s task. In 18:32, read the clause before “says the Lord GOD,” then the command that follows.",
+          "older": "The reason is the opening clause of 18:32; “Therefore” links it to the command."
+        },
+        "extended_explanation": "In 33:7 the LORD makes Ezekiel a watchman who must hear a word from His mouth and warn the people for Him. In 33:9, if Ezekiel warns the wicked to turn and he does not, Ezekiel has delivered his soul. The warning is not the LORD’s last word, though. Ezekiel 18:30-32 calls Israel to repent and get a new heart, and 18:32 gives the LORD’s own reason before the command “Therefore turn and live!” Read the first clause of 18:32.",
+        "takeaway": "The watchman warned because the LORD has no pleasure in the death of one who dies; He calls people to turn and live."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

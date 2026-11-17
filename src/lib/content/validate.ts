@@ -4,6 +4,7 @@ import { explanationRevealIssues } from "../game/reveal";
 import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS, type MascotId, type MascotLine } from "../game/types";
 import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
+import { establishedLinesPath, readEstablishedLineFiles } from "./established-lines";
 import { readRootedLineFiles, rootedLinesPath } from "./rooted-lines";
 import { ANSWER_MOMENTS, readSproutLineFiles, sproutLinesPath } from "./sprout-lines";
 
@@ -41,6 +42,7 @@ const SEED_QUESTION_COUNT = 72;
 const SPROUT_QUESTION_COUNT = 136;
 const ROOTED_QUESTION_COUNT = 200;
 const GROWING_QUESTION_COUNT = 216;
+const ESTABLISHED_QUESTION_COUNT = 232;
 
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
@@ -65,7 +67,7 @@ function readJson(filePath: string): { value?: unknown; error?: string } {
 
 function requireStageLines(
   errors: string[],
-  stage: "Seed" | "Sprout" | "Rooted",
+  stage: "Seed" | "Sprout" | "Rooted" | "Established",
   ids: string[],
   expected: number,
   answerLinesByQuestion: Map<string, Map<string, Set<string>>>,
@@ -301,6 +303,18 @@ export function validateContentTree(root: string): ValidationResult {
   lineCount += recordExpandedLines(errors, rooted.lines, rootedLinesPath, lineIds, questionIds, answerLinesByQuestion);
   const rootedFileMissing = new Set(MASCOT_IDS.filter((mascot) => !rooted.loaded.includes(mascot)));
 
+  const established = readEstablishedLineFiles(root);
+  errors.push(...established.errors);
+  lineCount += recordExpandedLines(
+    errors,
+    established.lines,
+    establishedLinesPath,
+    lineIds,
+    questionIds,
+    answerLinesByQuestion,
+  );
+  const establishedFileMissing = new Set(MASCOT_IDS.filter((mascot) => !established.loaded.includes(mascot)));
+
   const pathFile = path.join(root, "content", "knowledge_path.json");
   const loaded = readJson(pathFile);
   if (loaded.error || loaded.value === undefined) {
@@ -323,6 +337,7 @@ export function validateContentTree(root: string): ValidationResult {
     const sproutQuestionIds: string[] = [];
     const rootedQuestionIds: string[] = [];
     const growingQuestionIds: string[] = [];
+    const establishedQuestionIds: string[] = [];
     let badgeCount = 0;
     stages.forEach((stage, index) => {
       const expected = KNOWLEDGE_PATH[index];
@@ -354,8 +369,12 @@ export function validateContentTree(root: string): ValidationResult {
           if (expected === "Sprout") sproutQuestionIds.push(id);
           if (expected === "Rooted") rootedQuestionIds.push(id);
           if (expected === "Growing") growingQuestionIds.push(id);
+          if (expected === "Established") establishedQuestionIds.push(id);
         }
-        if ((expected === "Rooted" || expected === "Growing") && (badge.questionIds ?? []).length !== 8) {
+        if (
+          (expected === "Rooted" || expected === "Growing" || expected === "Established") &&
+          (badge.questionIds ?? []).length !== 8
+        ) {
           errors.push(
             `content/knowledge_path.json: ${badge.id} should list 8 questions, found ${(badge.questionIds ?? []).length}`,
           );
@@ -401,6 +420,22 @@ export function validateContentTree(root: string): ValidationResult {
         `content/knowledge_path.json: Growing badges should list ${GROWING_QUESTION_COUNT} questions, found ${growingQuestionIds.length}`,
       );
     }
+    requireStageLines(
+      errors,
+      "Established",
+      establishedQuestionIds,
+      ESTABLISHED_QUESTION_COUNT,
+      answerLinesByQuestion,
+      establishedFileMissing,
+    );
+    rejectOffStageLines(
+      errors,
+      established.lines,
+      new Set(establishedQuestionIds),
+      questionIds,
+      establishedLinesPath,
+      "Established",
+    );
   }
 
   return { ok: errors.length === 0, errors, questionCount, lineCount };

@@ -258,6 +258,37 @@ describe("pickMascotLine", () => {
     expect(pathLines.some((line) => line.id === "judah-pl-wrong-baptism-child")).toBe(false);
   });
 
+  it("speaks the established line on the path when an age line also names that question", () => {
+    const lines: MascotLine[] = [
+      {
+        id: "agnes-pl-wrong-hagar-child",
+        mascot: "agnes",
+        moment: "wrong_intro",
+        audience: "child",
+        text: "Placement",
+        audio_file: null,
+        question_id: "c1-gen-0061",
+      },
+      {
+        id: "agnes-established-wrong-intro-c1-gen-0061",
+        mascot: "agnes",
+        moment: "wrong_intro",
+        audience: "all",
+        text: "Established",
+        audio_file: null,
+        question_id: "c1-gen-0061",
+      },
+    ];
+    expect(pickMascotLine(lines, "agnes", "wrong_intro", "child", { questionId: "c1-gen-0061" })?.text).toBe(
+      "Placement",
+    );
+    const pathLines = linesForPathPlay(lines);
+    expect(pickMascotLine(pathLines, "agnes", "wrong_intro", "child", { questionId: "c1-gen-0061" })?.text).toBe(
+      "Established",
+    );
+    expect(pathLines.some((line) => line.id === "agnes-pl-wrong-hagar-child")).toBe(false);
+  });
+
   it("builds a voiceover path and keeps a declared file", () => {
     expect(mascotLineAudioSrc("judah", { id: "judah-wrong-001", audio_file: null })).toBe(
       "/audio/judah/judah-wrong-001.mp3",

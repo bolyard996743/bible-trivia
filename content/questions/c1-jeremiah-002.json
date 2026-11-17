@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-jeremiah-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jer-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 7",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD sent Jeremiah to stand in the gate of His house and speak to the people of Judah. In 7:4, what lying words does He warn them not to trust in?",
+        "child": "God sent Jeremiah to the gate of His house with a message. What words were the people repeating that God called lying words?",
+        "teen": "Jeremiah 7:4 quotes something the people kept saying over and over, as if it would keep them safe. What was it?",
+        "older": "According to Jeremiah 7:4, what lying words were the people trusting in?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD is our King"
+        },
+        {
+          "id": "b",
+          "text": "Holy is the LORD of hosts"
+        },
+        {
+          "id": "c",
+          "text": "The temple of the LORD"
+        },
+        {
+          "id": "d",
+          "text": "The city of the great King"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 7:2",
+            "text": "“Stand in the gate of the LORD’s house, and proclaim there this word, and say, ‘Hear the word of the LORD, all you of Judah who enter in at these gates to worship the LORD!’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 7:4",
+            "text": "Do not trust in these lying words, saying, ‘The temple of the LORD, the temple of the LORD, the temple of the LORD are these.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 7:4 quotes the people inside single quotation marks. Read the phrase they repeat there.",
+          "child": "Look inside the small quotation marks in Jeremiah 7:4. The same words are said again and again.",
+          "teen": "7:2 sets the scene at the gate. In 7:4, read the repeated words after “saying.”",
+          "older": "The repeated phrase follows “Do not trust in these lying words, saying” in 7:4."
+        },
+        "extended_explanation": "Jeremiah stood at the gate where people entered to worship (7:2). The LORD’s message was to amend their ways (7:3). In 7:4 He quotes what they kept saying. The LORD calls it lying words, because their ways had not changed (7:5-6). Read the repeated phrase in 7:4.",
+        "takeaway": "The people kept saying “The temple of the LORD,” as if the building could protect them while their ways stayed the same."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 7",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 7:10-11 the LORD speaks of people who do evil and then come and stand before Him in the house called by His name. What does He ask whether that house had become in their eyes?",
+        "child": "Some people did wrong all week and then came to God’s house as if nothing was wrong. What did God ask if His house had turned into in their eyes?",
+        "teen": "Jeremiah 7:11 asks a sharp question about the house called by the LORD’s name. What does it ask the house had become?",
+        "older": "According to Jeremiah 7:11, what did the LORD ask if His house had become in the people’s eyes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A den of thieves"
+        },
+        {
+          "id": "b",
+          "text": "A house of merchandise"
+        },
+        {
+          "id": "c",
+          "text": "A place of idols"
+        },
+        {
+          "id": "d",
+          "text": "A heap of ruins"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 7:10",
+            "text": "and then come and stand before Me in this house which is called by My name, and say, ‘We are delivered to do all these abominations’?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 7:11",
+            "text": "Has this house, which is called by My name, become a den of thieves in your eyes? Behold, I, even I, have seen it,” says the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 7:11 opens with a question. Read the words just before “in your eyes.”",
+          "child": "Look at the first sentence of Jeremiah 7:11. The question ends with “in your eyes?” Read the words right before that.",
+          "teen": "7:10 describes people standing in the house; 7:11 asks what it had become. Read the end of the first question.",
+          "older": "The phrase comes right after “become” in the opening question of 7:11."
+        },
+        "extended_explanation": "In 7:9 the LORD lists the people’s sins, and in 7:10 He describes them coming to stand before Him in His house and saying, “We are delivered.” In 7:11 the LORD asks what that house had become in their eyes, and adds, “I, even I, have seen it.” Read the opening question of 7:11.",
+        "takeaway": "The LORD asked whether His house had become a den of thieves in their eyes."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 19",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD sent Jeremiah out to the Potsherd Gate with a potter’s earthen flask and some of the elders. What was he to do with the flask, and what would it show?",
+        "child": "God told Jeremiah to take a clay jar and some leaders outside the city. What was Jeremiah supposed to do with the jar, and what did it mean?",
+        "teen": "Jeremiah 19 uses a clay flask as an acted-out message in front of the elders. What happens to the flask, and what does it stand for?",
+        "older": "According to Jeremiah 19:10-11, what was Jeremiah to do with the flask, and what did it signify?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fill it, as the LORD would fill the city with joy"
+        },
+        {
+          "id": "b",
+          "text": "Bury it, as the city would be hidden from its enemies"
+        },
+        {
+          "id": "c",
+          "text": "Hand it to the elders, as the city was in their care"
+        },
+        {
+          "id": "d",
+          "text": "Break it, as the LORD would break this city"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 19:10",
+            "text": "“Then you shall break the flask in the sight of the men who go with you,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 19:11",
+            "text": "and say to them, ‘Thus says the LORD of hosts: “Even so I will break this people and this city, as one breaks a potter’s vessel, which cannot be made whole again; and they shall bury them in Tophet till there is no place to bury.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 19:10 gives the action and 19:11 gives the meaning. Read 19:10, then the words after “Even so” in 19:11.",
+          "child": "Look at Jeremiah 19:10 to see what Jeremiah does with the flask in front of the men. Then read 19:11, which starts to explain it with “Even so.”",
+          "teen": "19:10 is the sign and 19:11 is its message. Compare the verb in 19:10 with the verb after “Even so I will.”",
+          "older": "The same verb appears in 19:10 and after “Even so I will” in 19:11."
+        },
+        "extended_explanation": "The LORD had Jeremiah take a potter’s earthen flask and some of the elders of the people and priests to the Potsherd Gate (19:1-2). In 19:10 he is told what to do with the flask in their sight. In 19:11 the LORD explains the sign with the words “Even so,” saying what He would do to this people and this city. Read 19:10 and the first clause of 19:11 together.",
+        "takeaway": "Jeremiah was to break the flask in front of the elders, as the LORD would break the people and the city."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 20",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah was mocked daily for speaking the word of the LORD, and he said, “I will not make mention of Him, Nor speak anymore in His name.” What did he say the LORD’s word was like in him?",
+        "child": "People made fun of Jeremiah every day, so he decided to stop speaking God’s message. What did he say God’s word felt like inside him?",
+        "teen": "In Jeremiah 20:9, Jeremiah tries to stay quiet about the LORD. What does he say the LORD’s word became in him?",
+        "older": "According to Jeremiah 20:9, what was the LORD’s word like within Jeremiah when he tried to keep silent?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Like a heavy stone on his chest"
+        },
+        {
+          "id": "b",
+          "text": "Like a burning fire in his bones"
+        },
+        {
+          "id": "c",
+          "text": "Like a sword that pierced his heart"
+        },
+        {
+          "id": "d",
+          "text": "Like a cloud that hid the sun"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 20:8",
+            "text": "For when I spoke, I cried out; I shouted, “Violence and plunder!” Because the word of the LORD was made to me A reproach and a derision daily.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 20:9",
+            "text": "Then I said, “I will not make mention of Him, Nor speak anymore in His name.” But His word was in my heart like a burning fire Shut up in my bones; I was weary of holding it back, And I could not.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 20:9 turns with the word “But.” Read the line that begins “But His word was in my heart.”",
+          "child": "Look at the middle of Jeremiah 20:9. After he says he will stop speaking, the verse says “But” and describes the word inside him.",
+          "teen": "20:8 explains the mocking; 20:9 shows why he could not stay silent. Read from “But His word” to “I could not.”",
+          "older": "The picture comes after “But His word was in my heart” in 20:9."
+        },
+        "extended_explanation": "Jeremiah’s message had brought him daily mockery (20:7-8), so in 20:9 he decided not to mention the LORD or speak in His name anymore. Then the verse turns on “But” and describes what the LORD’s word was like inside him, so that he was weary of holding it back and could not. Read the line beginning “But His word was in my heart.”",
+        "takeaway": "Jeremiah said the LORD’s word was in his heart like a burning fire shut up in his bones, and he could not hold it back."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 28",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah wore a yoke on his neck as the LORD’s sign, and the prophet Hananiah took it off him in front of the people (28:10). According to 28:13, what did the LORD say Hananiah had made in place of the yokes of wood?",
+        "child": "Jeremiah wore a wooden yoke to show God’s message, and another prophet, Hananiah, pulled it off his neck. What did God say Hananiah had made instead?",
+        "teen": "Hananiah removes Jeremiah’s yoke in 28:10. In 28:13 the LORD says Hananiah has made something worse in its place. What?",
+        "older": "According to Jeremiah 28:13, what had Hananiah made in place of the yokes of wood?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yokes of bronze"
+        },
+        {
+          "id": "b",
+          "text": "Yokes of iron"
+        },
+        {
+          "id": "c",
+          "text": "Yokes of silver"
+        },
+        {
+          "id": "d",
+          "text": "Lighter yokes of reed"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 28:10",
+            "text": "Then Hananiah the prophet took the yoke off the prophet Jeremiah’s neck and broke it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 28:13",
+            "text": "“Go and tell Hananiah, saying, ‘Thus says the LORD: “You have broken the yokes of wood, but you have made in their place yokes of iron.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 28:13 has two clauses joined by “but.” Read the words after “you have made in their place.”",
+          "child": "Look at the LORD’s message in Jeremiah 28:13. After the word “but,” it says what Hananiah had made.",
+          "teen": "28:10 is Hananiah’s act; 28:13 is the LORD’s reply. Read the end of the quotation in 28:13.",
+          "older": "The replacement is named after “you have made in their place” in 28:13; compare 28:14."
+        },
+        "extended_explanation": "The LORD had Jeremiah wear bonds and yokes as a sign that the nations would serve the king of Babylon (27:2, 8). Hananiah took the yoke from Jeremiah’s neck in front of the people (28:10) and said the LORD would end Babylon’s rule within two years (28:11). The LORD’s reply in 28:13 says what Hananiah had really made in place of the wooden ones, and 28:14 repeats it. Read the end of 28:13.",
+        "takeaway": "The LORD said Hananiah had broken the yokes of wood but made yokes of iron in their place."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0010",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 29",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah’s letter warned the captives in Babylon not to let the prophets and diviners among them deceive them (29:8). What did the letter tell them to seek and pray to the LORD for (29:7)?",
+        "child": "Jeremiah wrote to God’s people who had been taken to Babylon. He warned them about prophets who would trick them. What did he tell them to look for and pray for?",
+        "teen": "Jeremiah 29:7 gives the exiles an instruction, and 29:8 warns them about false voices. What does 29:7 tell them to seek?",
+        "older": "According to Jeremiah 29:7, what were the captives to seek and pray to the LORD for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A way back to Judah"
+        },
+        {
+          "id": "b",
+          "text": "The ruin of their captors"
+        },
+        {
+          "id": "c",
+          "text": "The peace of the city"
+        },
+        {
+          "id": "d",
+          "text": "A new king for Judah"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 29:7",
+            "text": "And seek the peace of the city where I have caused you to be carried away captive, and pray to the LORD for it; for in its peace you will have peace.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 29:8",
+            "text": "For thus says the LORD of hosts, the God of Israel: Do not let your prophets and your diviners who are in your midst deceive you, nor listen to your dreams which you cause to be dreamed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 29:7 begins with “And seek.” Read the words that follow, up to “where I have caused you.”",
+          "child": "Look at the first words of Jeremiah 29:7. Right after “seek,” it tells what they should look for.",
+          "teen": "29:8 is the warning against deceivers. 29:7 is the instruction: read what follows “seek” and the reason given after “for in its.”",
+          "older": "The object of “seek” opens 29:7, and the closing clause explains why."
+        },
+        "extended_explanation": "Jeremiah’s letter tells the exiles to build houses and settle in Babylon (29:5-6). Then 29:7 tells them what to seek and pray to the LORD for, and 29:8-9 warns them not to be deceived by prophets the LORD had not sent. The end of 29:7 gives the reason. Read the opening words of 29:7.",
+        "takeaway": "The LORD told the exiles to seek the peace of the city where they were captive and pray for it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jer-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 23",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Speaking against prophets who claimed to speak for Him, the LORD asks whether He is only a God near at hand and not a God afar off (23:23). In 23:24, what does He say He fills?",
+        "child": "God asked if anyone could hide from Him in secret places. In Jeremiah 23:24, what does He say He fills?",
+        "teen": "Jeremiah 23:23-24 is a string of questions the LORD asks. The last one says what He fills. What is it?",
+        "older": "According to Jeremiah 23:24, what does the LORD ask if He does not fill?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heaven and earth"
+        },
+        {
+          "id": "b",
+          "text": "The land of Judah"
+        },
+        {
+          "id": "c",
+          "text": "The hearts of the prophets"
+        },
+        {
+          "id": "d",
+          "text": "The cloud over the ark"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 23:23",
+            "text": "“Am I a God near at hand,” says the LORD, “And not a God afar off?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 23:24",
+            "text": "Can anyone hide himself in secret places, So I shall not see him?” says the LORD; “Do I not fill heaven and earth?” says the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 23:24 ends with a question that begins “Do I not fill.” Read the words that follow.",
+          "child": "Look at the very last question in Jeremiah 23:24. It starts “Do I not fill” and names what He fills.",
+          "teen": "23:23 asks about near and far; 23:24 asks about hiding. Read the final question in 23:24.",
+          "older": "The last of the LORD’s questions in 23:24 names what He fills."
+        },
+        "extended_explanation": "False prophets spoke as though the LORD would not notice their lies (23:21, 25). The LORD answers with questions. Is He a God only near at hand and not far off (23:23)? Can anyone hide in secret places so that He cannot see (23:24)? Read the last question in 23:24.",
+        "takeaway": "The LORD asked, “Do I not fill heaven and earth?” No one can hide from Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jer-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 23",
+      "topics": [
+        "jeremiah-false-prophets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "False prophets kept telling those who despised the LORD, “You shall have peace” (23:17), and Hananiah announced that the LORD had ended Babylon’s yoke (28:2). According to Jeremiah in 28:9, how would a prophet who prophesies of peace be known as truly sent by the LORD?",
+        "child": "Some prophets kept promising peace, even to people who did not care about God. Hananiah said Babylon’s power was over. How did Jeremiah say people could tell if a prophet of peace was really sent by God?",
+        "teen": "Jeremiah 23:17 and 28:2 show prophets promising good news. In 28:9, Jeremiah gives a test for a prophet of peace. What is it?",
+        "older": "Compare Jeremiah 23:17 and 28:2 with 28:9. By what test would a prophet of peace be known as sent by the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "When the priests approve his words"
+        },
+        {
+          "id": "b",
+          "text": "When he speaks in the LORD’s house"
+        },
+        {
+          "id": "c",
+          "text": "When he works a wonder before them"
+        },
+        {
+          "id": "d",
+          "text": "When his word comes to pass"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 23:17",
+            "text": "They continually say to those who despise Me, ‘The LORD has said, “You shall have peace” ’; And to everyone who walks according to the dictates of his own heart, they say, ‘No evil shall come upon you.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 28:2",
+            "text": "“Thus speaks the LORD of hosts, the God of Israel, saying: ‘I have broken the yoke of the king of Babylon.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 28:9",
+            "text": "As for the prophet who prophesies of peace, when the word of the prophet comes to pass, the prophet will be known as one whom the LORD has truly sent.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 28:9 has a test in the middle of the sentence. Read the clause between the two commas.",
+          "child": "Look at Jeremiah 28:9. Between “As for the prophet who prophesies of peace” and “the prophet will be known,” there is a short clause. Read it.",
+          "teen": "23:17 and 28:2 are the peace messages. In 28:9, read the clause that comes just before “the prophet will be known.”",
+          "older": "The test sits in the second clause of 28:9, before “the prophet will be known.”"
+        },
+        "extended_explanation": "Jeremiah 23:17 says false prophets kept promising peace and no evil to people who walked after their own hearts. Hananiah did the same in 28:2-4, saying the LORD would bring back the vessels and the captives within two years. Jeremiah did not reply with an insult. In 28:8-9 he pointed out that earlier prophets spoke of war and disaster, and then gave a test for a prophet who speaks of peace. Read the middle clause of 28:9.",
+        "takeaway": "Jeremiah said a prophet of peace would be known as truly sent by the LORD when his word comes to pass."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}
