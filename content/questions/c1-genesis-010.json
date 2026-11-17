@@ -1,0 +1,537 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-010",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0061",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 16",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hagar had fled from Sarai into the wilderness, and the LORD spoke to her by a spring of water. What name did Hagar give to the LORD who spoke to her?",
+        "child": "Hagar ran away into the wilderness, and the LORD spoke to her there. What name did she call the LORD?",
+        "teen": "Alone in the wilderness, Hagar heard the LORD speak to her. Genesis 16:13 records the name she gave Him. What was it?",
+        "older": "According to Genesis 16:13, by what name did Hagar call the LORD who spoke to her?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The-LORD-Will-Provide"
+        },
+        {
+          "id": "b",
+          "text": "You-Are-the-God-Who-Sees"
+        },
+        {
+          "id": "c",
+          "text": "The-LORD-Is-My-Banner"
+        },
+        {
+          "id": "d",
+          "text": "The-God-of-Abraham-My-Master"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 16:13",
+            "text": "Then she called the name of the LORD who spoke to her, You-Are-the-God-Who-Sees; for she said, “Have I also here seen Him who sees me?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 16:13 gives the name in its first sentence, right after “who spoke to her.” Hagar’s own question at the end of the verse shows why she chose it.",
+          "child": "Look at the first part of Genesis 16:13. The name comes right after the words “the LORD who spoke to her.”",
+          "teen": "16:13 has two parts: the name Hagar gives, then a question she asks. Read the hyphenated name in the first part.",
+          "older": "The name is set off with hyphens in the first sentence of 16:13; Hagar’s question that follows explains its meaning."
+        },
+        "extended_explanation": "Hagar had run into the wilderness, and the LORD met her by a spring and spoke to her about the son she would bear. In Genesis 16:13 she responds by giving the LORD a name. Read the first sentence, then notice how the question at the end of the verse echoes that name.",
+        "takeaway": "Hagar called the LORD who spoke to her You-Are-the-God-Who-Sees."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gen-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 21",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Isaac was born to Abraham at one hundred years old, Sarah spoke about what God had done. What did she say God had made her do?",
+        "child": "Sarah finally had a baby boy, Isaac, when she and Abraham were very old. What did Sarah say God made her do?",
+        "teen": "Sarah never expected to nurse a child so late in life. In Genesis 21:6, what does she say God has made her do, along with everyone who hears?",
+        "older": "In Genesis 21:6, after Isaac’s birth, what did Sarah say God had made her do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sing for joy"
+        },
+        {
+          "id": "b",
+          "text": "Weep with joy"
+        },
+        {
+          "id": "c",
+          "text": "Rejoice"
+        },
+        {
+          "id": "d",
+          "text": "Laugh"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 21:6",
+            "text": "And Sarah said, “God has made me laugh, and all who hear will laugh with me.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 21:7",
+            "text": "She also said, “Who would have said to Abraham that Sarah would nurse children? For I have borne him a son in his old age.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Sarah’s words in Genesis 21:6 begin with “God has made me.” Read the next word, then see how she says others will share it.",
+          "child": "Look at what Sarah says in Genesis 21:6, right after “God has made me.”",
+          "teen": "21:6 names one response twice: what God caused Sarah to do, and what those who hear will do with her. Find the word right after “made me.”",
+          "older": "The verb follows “God has made me” in 21:6 and is repeated in the second half of the verse."
+        },
+        "extended_explanation": "Sarah had waited many years for a son, and 21:7 shows her surprise that she would nurse a child at all. In 21:6 she describes what God has done to her and says others will join her. Read her words right after “God has made me.”",
+        "takeaway": "Sarah said, “God has made me laugh, and all who hear will laugh with me.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gen-0017",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 21",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the water in the skin was used up, Hagar sat apart from the boy and wept. After the angel of God called to her, what did she see when God opened her eyes?",
+        "child": "Hagar and her boy ran out of water in the desert, and she cried. When God opened her eyes, what did she see?",
+        "teen": "In the Wilderness of Beersheba, Hagar expected the boy to die of thirst. Then God spoke and opened her eyes. What did she see?",
+        "older": "According to Genesis 21:19, what did Hagar see when God opened her eyes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A well of water"
+        },
+        {
+          "id": "b",
+          "text": "A camp of travelers"
+        },
+        {
+          "id": "c",
+          "text": "A flock of sheep"
+        },
+        {
+          "id": "d",
+          "text": "A caravan with water skins"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 21:17",
+            "text": "And God heard the voice of the lad. Then the angel of God called to Hagar out of heaven, and said to her, “What ails you, Hagar? Fear not, for God has heard the voice of the lad where he is.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 21:19",
+            "text": "Then God opened her eyes, and she saw a well of water. And she went and filled the skin with water, and gave the lad a drink.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 21:19 tells what Hagar saw in the words right after “she saw.” Then notice what she filled from it.",
+          "child": "Look at Genesis 21:19. Right after “she saw,” it tells you what was there.",
+          "teen": "God first speaks to Hagar (21:17), then opens her eyes (21:19). Read what she saw, and what she did with the skin next.",
+          "older": "In 21:19 the object of “she saw” comes right before the account of filling the skin."
+        },
+        "extended_explanation": "Hagar had placed the boy under a shrub and sat at a distance, weeping, because the water was gone. God heard the voice of the lad, and the angel of God told her not to fear. In 21:19 God opens her eyes. Read what she saw and how she used it for the boy.",
+        "takeaway": "When God opened her eyes, Hagar saw a well of water and gave the lad a drink."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gen-0018",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 24",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Rebekah’s brother and mother wanted her to stay at least ten days before leaving. They decided to ask Rebekah herself. What did she answer?",
+        "child": "Rebekah’s family wanted her to wait at least ten days before leaving with Abraham’s servant. So they asked her. What did she say?",
+        "teen": "Abraham’s servant wanted to leave right away, but Rebekah’s family asked for ten more days. When they let Rebekah decide, what was her answer?",
+        "older": "In Genesis 24:58, when Rebekah was asked whether she would leave with Abraham’s servant, what did she say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Let me stay ten days."
+        },
+        {
+          "id": "b",
+          "text": "Ask my father first."
+        },
+        {
+          "id": "c",
+          "text": "I will go."
+        },
+        {
+          "id": "d",
+          "text": "Let the LORD decide."
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 24:57",
+            "text": "So they said, “We will call the young woman and ask her personally.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 24:58",
+            "text": "Then they called Rebekah and said to her, “Will you go with this man?” And she said, “I will go.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Rebekah’s reply is the last sentence of Genesis 24:58, right after “And she said.”",
+          "child": "Look at the end of Genesis 24:58. Rebekah’s answer comes after “And she said.”",
+          "teen": "24:57 shows the family choosing to ask her personally; 24:58 gives their question and her short reply. Read the end of the verse.",
+          "older": "The family’s question and Rebekah’s answer are both in 24:58; her reply closes the verse."
+        },
+        "extended_explanation": "Abraham’s servant asked to return to his master without delay, but Rebekah’s brother and mother hoped she would stay a few more days. They agreed to let her decide. Read the question they put to her in 24:58 and the answer she gives at the end of the verse.",
+        "takeaway": "When asked if she would go with Abraham’s servant, Rebekah said, “I will go.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gen-0019",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 24",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 24 closes by saying Isaac was comforted after his mother’s death. Earlier that evening, as the camels approached, what had Isaac gone out into the field to do?",
+        "child": "Isaac was sad because his mother had died. One evening he went out into the field and saw camels coming. Why had he gone out there?",
+        "teen": "Isaac was still grieving his mother when Rebekah arrived. Genesis 24:63 says why he was out in the field that evening. What was he doing?",
+        "older": "According to Genesis 24:63, why did Isaac go out into the field in the evening, before he was comforted by Rebekah (24:67)?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To tend the flocks"
+        },
+        {
+          "id": "b",
+          "text": "To dig a new well"
+        },
+        {
+          "id": "c",
+          "text": "To meditate"
+        },
+        {
+          "id": "d",
+          "text": "To meet his father Abraham"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 24:63",
+            "text": "And Isaac went out to meditate in the field in the evening; and he lifted his eyes and looked, and there, the camels were coming.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 24:67",
+            "text": "Then Isaac brought her into his mother Sarah’s tent; and he took Rebekah and she became his wife, and he loved her. So Isaac was comforted after his mother’s death.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Genesis 24:63 states Isaac’s purpose in the words right after “Isaac went out.” Then 24:67 tells how his sorrow was eased.",
+          "child": "Look at the start of Genesis 24:63. Right after “Isaac went out,” it tells why.",
+          "teen": "24:63 gives the reason Isaac was in the field and the time of day; 24:67 shows how his life with Rebekah begins. Read the purpose in 24:63.",
+          "older": "The purpose clause after “Isaac went out” in 24:63 explains his evening walk; 24:67 links the scene to his grief over Sarah."
+        },
+        "extended_explanation": "Isaac lived in the South and had lost his mother, Sarah. Genesis 24:63 shows him alone in the field at evening when the servant’s camels came into view, and 24:67 says Rebekah became his wife and he was comforted. Read 24:63 to see what Isaac had gone out to do.",
+        "takeaway": "Isaac had gone out to meditate in the field in the evening when Rebekah arrived."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-gen-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 26",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The herdsmen of Gerar quarreled with Isaac’s men over two wells, which he named Esek and Sitnah. When no one quarreled over the next well, he named it Rehoboth. What reason did he give?",
+        "child": "People kept arguing with Isaac’s workers over the wells they dug. At last they dug one that no one fought over, and Isaac named it Rehoboth. Why?",
+        "teen": "After the fights at Esek and Sitnah, Isaac moved on and dug again. Genesis 26:22 explains the name Rehoboth. What did Isaac say?",
+        "older": "Per Genesis 26:22, what reason did Isaac give for naming the well Rehoboth after the quarrels at Esek and Sitnah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD has made room for us"
+        },
+        {
+          "id": "b",
+          "text": "The herdsmen of Gerar had finally gone home"
+        },
+        {
+          "id": "c",
+          "text": "The water there was the sweetest in Gerar"
+        },
+        {
+          "id": "d",
+          "text": "Abimelech had given him the land at last"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 26:20",
+            "text": "But the herdsmen of Gerar quarreled with Isaac’s herdsmen, saying, “The water is ours.” So he called the name of the well Esek, because they quarreled with him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 26:21",
+            "text": "Then they dug another well, and they quarreled over that one also. So he called its name Sitnah.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 26:22",
+            "text": "And he moved from there and dug another well, and they did not quarrel over it. So he called its name Rehoboth, because he said, “For now the LORD has made room for us, and we shall be fruitful in the land.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Isaac’s reason in Genesis 26:22 begins with “For now.” Read his words there and compare them with the quarrels in 26:20-21.",
+          "child": "Look at the end of Genesis 26:22. Isaac’s reason comes after the words “because he said.”",
+          "teen": "Two wells got names from the fights over them. The third name comes with a reason in 26:22. Read Isaac’s words after “For now.”",
+          "older": "Esek and Sitnah are named for the quarrels; Isaac’s explanation for the third name is quoted at the end of 26:22."
+        },
+        "extended_explanation": "Each time Isaac’s servants found water, the herdsmen of Gerar quarreled over it, and Isaac named those wells for the strife. Instead of fighting, he moved on and dug again. In 26:22 there was no quarrel, and Isaac explains the new name. Read his words that begin “For now.”",
+        "takeaway": "Isaac named the well Rehoboth, saying, “For now the LORD has made room for us.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-gen-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 24",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the well, Abraham’s servant asked the LORD to show kindness to his master and named a sign. After Rebekah did exactly that, he worshiped. What did he bless the LORD for not forsaking toward his master?",
+        "child": "Abraham’s servant prayed by the well and asked God for a sign. When God answered his prayer, the servant worshiped. What did he say God had not forsaken toward Abraham?",
+        "teen": "The servant’s prayer in 24:12-14 asks for kindness to Abraham, shown through a sign. In 24:27, after the answer, he praises the LORD for keeping two things toward his master. What are they?",
+        "older": "Comparing the servant’s prayer (Genesis 24:12-14) with his worship in 24:27, what does he bless the LORD for not forsaking toward Abraham?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His covenant and His oath"
+        },
+        {
+          "id": "b",
+          "text": "His power and His might"
+        },
+        {
+          "id": "c",
+          "text": "His land and His promise to the fathers"
+        },
+        {
+          "id": "d",
+          "text": "His mercy and His truth"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 24:12",
+            "text": "Then he said, “O LORD God of my master Abraham, please give me success this day, and show kindness to my master Abraham.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 24:14",
+            "text": "Now let it be that the young woman to whom I say, ‘Please let down your pitcher that I may drink,’ and she says, ‘Drink, and I will also give your camels a drink’—let her be the one You have appointed for Your servant Isaac. And by this I will know that You have shown kindness to my master.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 24:27",
+            "text": "And he said, “Blessed be the LORD God of my master Abraham, who has not forsaken His mercy and His truth toward my master. As for me, being on the way, the LORD led me to the house of my master’s brethren.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words right after “who has not forsaken,” then look back at his prayer in 24:12.",
+          "child": "Look at Genesis 24:27. The two things come right after “who has not forsaken.”",
+          "teen": "24:12 asks for kindness; 24:14 names the sign; 24:27 is the thank-you. Find the pair of words after “not forsaken.”",
+          "older": "The servant’s praise in 24:27 names a pair right after “who has not forsaken”; read it alongside his prayer in 24:12."
+        },
+        "extended_explanation": "The servant prayed for success and asked the LORD to show kindness to Abraham, naming a sign: a young woman who would offer a drink to him and to his camels. Before he finished speaking, Rebekah came and did it. In 24:27 he bows and worships. Read the words that follow “who has not forsaken” and notice how they answer his prayer.",
+        "takeaway": "The servant blessed the LORD, who had not forsaken His mercy and His truth toward Abraham."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-gen-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 21",
+      "topics": [
+        "isaac-rebekah"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God told a troubled Abraham that his line would be called through Isaac, yet He would also make a nation of Hagar’s son because the boy was Abraham’s offspring. Later, at Beersheba, the LORD promised to bless Isaac and multiply his descendants. For whose sake did He say He would do it?",
+        "child": "God told Abraham He would bless both Isaac and Hagar’s son, because both boys were Abraham’s children. Later, God appeared to Isaac at night and promised to bless him too. For whose sake did God say He would do this?",
+        "teen": "Genesis 21:12-13 shows God keeping His word to Abraham through both sons. In 26:24, the LORD renews that promise to Isaac at Beersheba. On whose account does He say He will bless Isaac?",
+        "older": "Read Genesis 21:12-13 alongside 26:24. When the LORD appeared to Isaac at Beersheba, for whose sake did He say He would bless him and multiply his descendants?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For Abraham’s servant who found Rebekah"
+        },
+        {
+          "id": "b",
+          "text": "For My servant Abraham’s sake"
+        },
+        {
+          "id": "c",
+          "text": "For the sake of Isaac’s own faithfulness"
+        },
+        {
+          "id": "d",
+          "text": "For the sake of the land of Canaan"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 21:12",
+            "text": "But God said to Abraham, “Do not let it be displeasing in your sight because of the lad or because of your bondwoman. Whatever Sarah has said to you, listen to her voice; for in Isaac your seed shall be called.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 21:13",
+            "text": "Yet I will also make a nation of the son of the bondwoman, because he is your seed.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 26:24",
+            "text": "And the LORD appeared to him the same night and said, “I am the God of your father Abraham; do not fear, for I am with you. I will bless you and multiply your descendants for My servant Abraham’s sake.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "In 21:13 God gives His reason at the end of the verse, after “because.” In 26:24 the LORD again gives a reason in the last words He speaks to Isaac. Read that closing phrase closely, noticing who is called whose servant.",
+          "child": "Look at the very end of Genesis 26:24. The last few words tell you for whose sake God will bless Isaac.",
+          "teen": "Both promises point back to someone. In 21:13 the reason comes after “because”; in 26:24 it comes in the final words. Read them carefully.",
+          "older": "21:13 grounds the promise for Hagar’s son in his relation to his father; 26:24 closes with a parallel phrase giving the ground for Isaac’s blessing. Read that closing phrase exactly."
+        },
+        "extended_explanation": "Abraham was troubled about sending away Hagar’s son, but God told him that the promised line would be called through Isaac and that He would still make a nation of the other boy (21:12-13). Many years later, after the quarrels over the wells, the LORD appeared to Isaac at Beersheba with the same kind of promise. Read the final words of 26:24, and be careful about who is called the servant.",
+        "takeaway": "The LORD promised to bless Isaac and multiply his descendants “for My servant Abraham’s sake.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

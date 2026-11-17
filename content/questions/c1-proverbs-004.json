@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-proverbs-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-pro-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 1",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 1:20 pictures wisdom as a woman calling out. Where does she raise her voice?",
+        "child": "In Proverbs, wisdom is pictured like a woman calling out to people. Where does she raise her voice?",
+        "teen": "Proverbs 1:20-21 shows that wisdom is not hiding. Where does 1:20 say she raises her voice?",
+        "older": "According to Proverbs 1:20, where does wisdom raise her voice?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In the king’s palace"
+        },
+        {
+          "id": "b",
+          "text": "In the open squares"
+        },
+        {
+          "id": "c",
+          "text": "In a quiet room"
+        },
+        {
+          "id": "d",
+          "text": "In the temple courts"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 1:20",
+            "text": "Wisdom calls aloud outside; She raises her voice in the open squares.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 1:21",
+            "text": "She cries out in the chief concourses, At the openings of the gates in the city She speaks her words:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 1:20 answers it in its second line, right after “She raises her voice.”",
+          "child": "Look at the second half of Proverbs 1:20. Read the words after “She raises her voice.”",
+          "teen": "1:20 has two lines; the place is at the end of the second. 1:21 adds more places.",
+          "older": "The second line of 1:20 names the place; 1:21 extends the list."
+        },
+        "extended_explanation": "Proverbs pictures wisdom as a woman calling out to anyone who will listen. In 1:20-21 she calls aloud and speaks her words. Read the second line of 1:20.",
+        "takeaway": "Wisdom calls aloud outside; she raises her voice in the open squares."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-pro-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 1",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the end of Wisdom’s warning, 1:32 says the turning away of the simple will slay them. What does 1:33 promise the one who listens to her?",
+        "child": "Wisdom warns that people who turn away from her will be ruined. But what does she promise to the person who listens to her?",
+        "teen": "Proverbs 1:32-33 sets two outcomes side by side. What is promised to whoever listens to Wisdom?",
+        "older": "According to Proverbs 1:33, what will be true of whoever listens to Wisdom?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Will never be sick"
+        },
+        {
+          "id": "b",
+          "text": "Will rule over many"
+        },
+        {
+          "id": "c",
+          "text": "Will live in a palace"
+        },
+        {
+          "id": "d",
+          "text": "Will dwell safely"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 1:32",
+            "text": "For the turning away of the simple will slay them, And the complacency of fools will destroy them;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 1:33",
+            "text": "But whoever listens to me will dwell safely, And will be secure, without fear of evil.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 1:33 gives the promise right after “But whoever listens to me.”",
+          "child": "Look at the beginning of Proverbs 1:33. Read the words after “whoever listens to me.”",
+          "teen": "1:32 is the warning, 1:33 the promise. Read the end of the first line of 1:33.",
+          "older": "The first line of 1:33 completes “whoever listens to me.”"
+        },
+        "extended_explanation": "Wisdom’s speech in Proverbs 1 is a warning to people who ignore her. Those who turn away will face the results of their own choices. Then 1:33 ends with a promise for the one who listens, followed by a second line about being secure without fear of evil. Read the first line of 1:33.",
+        "takeaway": "Whoever listens to Wisdom will dwell safely, and will be secure, without fear of evil."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-pro-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 8",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Proverbs 8:10-11 Wisdom tells her hearers to receive her instruction rather than silver. According to 8:11, wisdom is better than what?",
+        "child": "Wisdom says she is worth more than treasure. In Proverbs 8:11, what is wisdom better than?",
+        "teen": "Proverbs 8:11 compares wisdom to a costly treasure. Which one?",
+        "older": "According to Proverbs 8:11, wisdom is better than what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rubies"
+        },
+        {
+          "id": "b",
+          "text": "Pearls"
+        },
+        {
+          "id": "c",
+          "text": "Emeralds"
+        },
+        {
+          "id": "d",
+          "text": "Sapphires"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 8:11",
+            "text": "For wisdom is better than rubies, And all the things one may desire cannot be compared with her.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 8:11 names it at the end of its first line, right after “better than.”",
+          "child": "Look at the first line of Proverbs 8:11. Read the word after “better than.”",
+          "teen": "8:11’s first line makes the comparison; the second says nothing desired can compare with her.",
+          "older": "The first line of 8:11 completes the comparison."
+        },
+        "extended_explanation": "In Proverbs 8 Wisdom invites everyone to listen and promises words that are right and true. In 8:10-11 she says her instruction is worth more than silver or gold, and then she names one more treasure that wisdom is better than. Read the first line of 8:11.",
+        "takeaway": "Wisdom is better than rubies, and nothing one may desire can compare with her."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-pro-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 31",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 31:30 says charm is deceitful and beauty is passing. What does it say of a woman who fears the LORD?",
+        "child": "Proverbs 31:30 says charm and good looks do not last. What does it say about a woman who fears the LORD?",
+        "teen": "Proverbs 31:30 sets what fades against what lasts. What will be true of a woman who fears the LORD?",
+        "older": "According to Proverbs 31:30, what will be true of a woman who fears the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "She shall be wealthy"
+        },
+        {
+          "id": "b",
+          "text": "She shall never be sad"
+        },
+        {
+          "id": "c",
+          "text": "She shall be praised"
+        },
+        {
+          "id": "d",
+          "text": "She shall rule her house"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 31:30",
+            "text": "Charm is deceitful and beauty is passing, But a woman who fears the LORD, she shall be praised.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 31:30 ends with it, right after “But a woman who fears the LORD.”",
+          "child": "Look at the end of Proverbs 31:30, after the words “who fears the LORD.”",
+          "teen": "31:30 has two halves joined by “But.” Read the end of the second half.",
+          "older": "The final clause of 31:30 states it."
+        },
+        "extended_explanation": "Proverbs 31:10-31 paints a portrait of a capable woman who works hard, cares for the poor, and speaks with wisdom. Near the end, 31:30 names what matters most about her, contrasting it with charm and beauty, which do not last. Read the end of 31:30.",
+        "takeaway": "Charm is deceitful and beauty is passing, but a woman who fears the LORD, she shall be praised."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-pro-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 1",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Proverbs 1:28 Wisdom warns that those who rejected her “will seek me diligently, but they will not find me.” In 8:17 she speaks of a different group. What does she say first in that verse?",
+        "child": "Wisdom warns that people who ignored her will look for her too late. But in Proverbs 8:17 she speaks about a different group of people. What does she say first?",
+        "teen": "Proverbs 1:28 and 8:17 both talk about seeking Wisdom diligently, with opposite results. What does Wisdom say at the start of 8:17?",
+        "older": "Compare Proverbs 1:28 with 8:17. What does Wisdom declare in the first line of 8:17?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I love those who love me"
+        },
+        {
+          "id": "b",
+          "text": "I forgive those who forgot me"
+        },
+        {
+          "id": "c",
+          "text": "I reward those who obey me"
+        },
+        {
+          "id": "d",
+          "text": "I guard those who fear me"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 1:28",
+            "text": "“Then they will call on me, but I will not answer; They will seek me diligently, but they will not find me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 8:17",
+            "text": "I love those who love me, And those who seek me diligently will find me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of Proverbs 8:17, before “And those who seek me diligently.”",
+          "child": "Look at the beginning of Proverbs 8:17. Read the first line.",
+          "teen": "1:28 ends in “not find me”; the second line of 8:17 ends differently. The question asks about the first line of 8:17.",
+          "older": "The opening line of 8:17 states it, and the second line answers 1:28."
+        },
+        "extended_explanation": "Proverbs 1 ends with a warning: people who refused Wisdom when she called will look for her in a crisis and not find her. Proverbs 8 shows the other side. Wisdom speaks warmly of a different group and promises that diligent seekers will find her. Read the first line of 8:17.",
+        "takeaway": "Wisdom says, “I love those who love me, and those who seek me diligently will find me.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-pro-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 9",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 9:7-8 gives advice about correcting people. According to 9:7, what does the one who corrects a scoffer get?",
+        "child": "Proverbs 9 gives advice about correcting someone who mocks. What does the person who corrects a mocker end up getting?",
+        "teen": "Proverbs 9:7-8 compares correcting a scoffer with rebuking a wise man. According to 9:7, what does the one who corrects a scoffer get?",
+        "older": "According to Proverbs 9:7, what does he who corrects a scoffer get?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blame from the elders"
+        },
+        {
+          "id": "b",
+          "text": "Shame for himself"
+        },
+        {
+          "id": "c",
+          "text": "A curse on his house"
+        },
+        {
+          "id": "d",
+          "text": "Trouble with the judges"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 9:7",
+            "text": "“He who corrects a scoffer gets shame for himself, And he who rebukes a wicked man only harms himself.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 9:8",
+            "text": "Do not correct a scoffer, lest he hate you; Rebuke a wise man, and he will love you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 9:7 answers it in its first line, right after “He who corrects a scoffer gets.”",
+          "child": "Look at the first line of Proverbs 9:7. Read what comes after “gets.”",
+          "teen": "9:7 has two parallel lines; the first is about the scoffer. Read its end.",
+          "older": "The first line of 9:7 states it; 9:8 then gives the reason with “lest he hate you.”"
+        },
+        "extended_explanation": "Wisdom’s house in Proverbs 9 comes with practical advice. 9:7 warns about trying to correct a scoffer, and its second line says rebuking a wicked man only harms oneself. 9:8 adds the contrast with a wise man, who receives rebuke well. Read the first line of 9:7.",
+        "takeaway": "He who corrects a scoffer gets shame for himself, but a wise man who is rebuked will love you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-pro-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 8",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the poem of Proverbs 8:22-30, Wisdom says she was there before the mountains were settled and when the LORD prepared the heavens. How does 8:30 say she was beside Him?",
+        "child": "In Proverbs 8, wisdom speaks like a person who was there when God made the world. In verse 30, what does wisdom say she was beside God as?",
+        "teen": "Proverbs 8:27-30 places Wisdom at creation, rejoicing before the LORD. In 8:30, what was she beside Him as?",
+        "older": "According to Proverbs 8:30, what was Wisdom beside the LORD as?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A silent witness"
+        },
+        {
+          "id": "b",
+          "text": "A faithful servant"
+        },
+        {
+          "id": "c",
+          "text": "A watchman at the gate"
+        },
+        {
+          "id": "d",
+          "text": "A master craftsman"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 8:27",
+            "text": "When He prepared the heavens, I was there, When He drew a circle on the face of the deep,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 8:30",
+            "text": "Then I was beside Him as a master craftsman; And I was daily His delight, Rejoicing always before Him,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 8:30 names it in its first line, right after “Then I was beside Him as.”",
+          "child": "Look at the beginning of Proverbs 8:30. Read the words after “beside Him as.”",
+          "teen": "8:27 says “I was there”; 8:30 describes how. Read the end of the first line of 8:30.",
+          "older": "The first line of 8:30 completes “beside Him as.”"
+        },
+        "extended_explanation": "Proverbs 8:22-31 is a poem. Wisdom speaks of being present before the earth, the depths, and the mountains, and of being there when the heavens were prepared and the sea was given its limit. 8:30 describes her place beside the LORD and her delight in His world. Read the first line of 8:30.",
+        "takeaway": "Wisdom says, “I was beside Him as a master craftsman, and I was daily His delight.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-pro-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 9",
+      "topics": [
+        "wisdom-and-folly"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Both Wisdom (9:4) and the foolish woman (9:16) call out, “Whoever is simple, let him turn in here.” Folly’s guests do not know that the dead are there (9:18). Wisdom’s promise in 8:35 points the other way: whoever finds her finds life. What else does that verse say he obtains?",
+        "child": "Wisdom and Folly both invite people into their houses with the same words. Folly’s house leads to death. Wisdom says whoever finds her finds life. What else does she say that person receives?",
+        "teen": "Proverbs 9 sets two houses side by side with the same invitation, and 9:18 reveals where folly’s guests end up. Proverbs 8:35 gives Wisdom’s promise. Besides life, what does it say the one who finds her obtains?",
+        "older": "Set the two invitations of Proverbs 9:4 and 9:16 against 9:18 and 8:35. Besides life, what does 8:35 say the one who finds Wisdom obtains?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peace from the LORD"
+        },
+        {
+          "id": "b",
+          "text": "Rest from the LORD"
+        },
+        {
+          "id": "c",
+          "text": "Favor from the LORD"
+        },
+        {
+          "id": "d",
+          "text": "Honor from the elders"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 9:16",
+            "text": "“Whoever is simple, let him turn in here”; And as for him who lacks understanding, she says to him,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 9:18",
+            "text": "But he does not know that the dead are there, That her guests are in the depths of hell.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 8:35",
+            "text": "For whoever finds me finds life, And obtains favor from the LORD;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Proverbs 8:35 has two lines. Read the second one, right after “And obtains.”",
+          "child": "Look at the second line of Proverbs 8:35, after “And obtains.”",
+          "teen": "9:18 ends folly’s story; the second line of 8:35 adds to Wisdom’s promise. Read the words after “obtains.”",
+          "older": "The second line of 8:35 names it, set against what 9:18 says awaits folly’s guests."
+        },
+        "extended_explanation": "Proverbs 9 shows two hosts calling to the same people with the same words. Folly promises stolen water and secret bread, but her guests do not know the dead are there. Wisdom’s house leads somewhere else, and 8:35 states in two lines what the one who finds her receives. Read the second line of 8:35.",
+        "takeaway": "Whoever finds Wisdom finds life and obtains favor from the LORD, while folly’s guests do not know the dead are there."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1peter-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1pe-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 1",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter opens with praise to the God and Father of our Lord Jesus Christ. According to 1:3, to what has God begotten us again through the resurrection of Jesus Christ?",
+        "child": "Peter praises God for giving believers a new beginning through Jesus’ rising from the dead. What does he say God has given us new birth into?",
+        "teen": "1 Peter 1:3 says God, by His abundant mercy, has begotten us again. To what?",
+        "older": "According to 1 Peter 1:3, to what has God begotten us again?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A quiet life"
+        },
+        {
+          "id": "b",
+          "text": "A living hope"
+        },
+        {
+          "id": "c",
+          "text": "A new kingdom"
+        },
+        {
+          "id": "d",
+          "text": "A long journey"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 1:3",
+            "text": "Blessed be the God and Father of our Lord Jesus Christ, who according to His abundant mercy has begotten us again to a living hope through the resurrection of Jesus Christ from the dead,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Peter 1:3 says God “has begotten us again to.” Read the words that follow, before “through the resurrection.”",
+          "child": "Look at the middle of 1 Peter 1:3. Right after “begotten us again,” Peter says what God has brought us into.",
+          "teen": "1:3 names what God gave and how He gave it. Read the phrase right before “through the resurrection of Jesus Christ.”",
+          "older": "It is named in the middle of 1:3, before the mention of the resurrection."
+        },
+        "extended_explanation": "Peter begins by blessing the God and Father of our Lord Jesus Christ. In 1:3 he says that according to His abundant mercy God has begotten us again, and names what to, through the resurrection of Jesus Christ from the dead. In 1:4 he adds an inheritance kept for believers. Read the middle of 1:3.",
+        "takeaway": "God has begotten us again to a living hope through the resurrection of Jesus Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1pe-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 1",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter describes an inheritance incorruptible and undefiled that does not fade away. According to 1:4, where is it reserved?",
+        "child": "Peter talks about an inheritance that can never spoil or fade. Where is it being kept for believers?",
+        "teen": "1 Peter 1:4 describes an inheritance that cannot decay. Where does it say it is reserved?",
+        "older": "According to 1 Peter 1:4, where is the inheritance reserved for you?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "In the temple"
+        },
+        {
+          "id": "c",
+          "text": "In the promised land"
+        },
+        {
+          "id": "d",
+          "text": "In heaven"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 1:4",
+            "text": "to an inheritance incorruptible and undefiled and that does not fade away, reserved in heaven for you,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Peter 1:4 ends by saying where the inheritance is reserved. Read the last words of the verse.",
+          "child": "Look at the very end of 1 Peter 1:4. Peter says where the inheritance is kept.",
+          "teen": "1:4 describes the inheritance three ways, then says where it is. Read the final phrase.",
+          "older": "The place is in the closing phrase of 1:4; 1:5 adds that believers are kept too."
+        },
+        "extended_explanation": "In 1:4 Peter describes an inheritance that is incorruptible, undefiled, and does not fade away. The end of the verse says where it is reserved for them. In 1:5 he adds that believers themselves are kept by the power of God through faith. Read the end of 1:4.",
+        "takeaway": "Our inheritance is reserved in heaven, incorruptible and undefiled."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1pe-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 1",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter writes of Jesus, “whom having not seen you love.” Though they do not see Him now, believing, with what kind of joy do they rejoice (1:8)?",
+        "child": "Peter’s readers had never seen Jesus, but they loved Him and believed. How does Peter describe their joy?",
+        "teen": "1 Peter 1:8 says believers rejoice even though they cannot see Jesus. How does Peter describe their joy?",
+        "older": "According to 1 Peter 1:8, with what joy do believers rejoice?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Joy inexpressible and full of glory"
+        },
+        {
+          "id": "b",
+          "text": "Joy that lasts only for a season"
+        },
+        {
+          "id": "c",
+          "text": "Joy that comes after much weeping"
+        },
+        {
+          "id": "d",
+          "text": "Joy mixed with fear and trembling of heart"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 1:8",
+            "text": "whom having not seen you love. Though now you do not see Him, yet believing, you rejoice with joy inexpressible and full of glory,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Peter 1:8 ends with “you rejoice with.” Read the description of the joy that follows.",
+          "child": "Look at the end of 1 Peter 1:8. Peter describes their joy at the end of the verse.",
+          "teen": "1:8 has two halves: loving without seeing, and rejoicing while believing. Read the end of the second half.",
+          "older": "The description of the joy closes 1:8."
+        },
+        "extended_explanation": "Peter’s readers had not seen Jesus, yet they loved Him, and though they could not see Him now, they believed. In 1:8 Peter describes the joy that comes with believing, and in 1:9 he says they are receiving the end of their faith, the salvation of their souls. Read the end of 1:8.",
+        "takeaway": "Believing in Jesus without seeing Him, they rejoice with joy inexpressible and full of glory."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1pe-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 3",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter says to sanctify the Lord God in your hearts and always be ready to give a defense to everyone who asks a reason for the hope that is in you. According to 3:15, how should the defense be given?",
+        "child": "Peter says believers should always be ready to explain why they have hope. How does he say they should do it?",
+        "teen": "1 Peter 3:15 tells believers to be ready to explain their hope. In what manner does Peter say to do it?",
+        "older": "According to 1 Peter 3:15, with what should a defense of your hope be given?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With boldness and anger"
+        },
+        {
+          "id": "b",
+          "text": "With many clever words"
+        },
+        {
+          "id": "c",
+          "text": "With meekness and fear"
+        },
+        {
+          "id": "d",
+          "text": "With signs and wonders"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 3:15",
+            "text": "But sanctify the Lord God in your hearts, and always be ready to give a defense to everyone who asks you a reason for the hope that is in you, with meekness and fear;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The manner of the defense is at the very end of 1 Peter 3:15. Read the words after “the hope that is in you.”",
+          "child": "Look at the last part of 1 Peter 3:15. After Peter mentions the hope in you, he says how to give your reason.",
+          "teen": "3:15 has three parts: where to sanctify the Lord, what to be ready for, and how. Read the third.",
+          "older": "The closing phrase of 3:15 names it."
+        },
+        "extended_explanation": "Peter tells believers first to sanctify the Lord God in their hearts. Then he tells them to always be ready to give a defense to everyone who asks a reason for the hope that is in them. The last words of 3:15 say how to give it. Read the end of 3:15.",
+        "takeaway": "Always be ready to give a reason for your hope, with meekness and fear."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1pe-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 2",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter calls believers a chosen generation, a royal priesthood, a holy nation, His own special people (2:9). According to 2:10, what were they once?",
+        "child": "Peter says believers are now God’s chosen people. What does 1 Peter 2:10 say they once were?",
+        "teen": "1 Peter 2:9-10 contrasts what believers are now with what they used to be. What were they once?",
+        "older": "According to 1 Peter 2:10, what were believers once?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not a people"
+        },
+        {
+          "id": "b",
+          "text": "A people in exile"
+        },
+        {
+          "id": "c",
+          "text": "Strangers to the prophets"
+        },
+        {
+          "id": "d",
+          "text": "Servants of kings"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 2:9",
+            "text": "But you are a chosen generation, a royal priesthood, a holy nation, His own special people, that you may proclaim the praises of Him who called you out of darkness into His marvelous light;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 2:10",
+            "text": "who once were not a people but are now the people of God, who had not obtained mercy but now have obtained mercy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Peter 2:10 begins “who once were.” Read the words that follow, before “but are now.”",
+          "child": "Look at the beginning of 1 Peter 2:10. Peter says what they once were, then what they are now.",
+          "teen": "2:10 has two pairs of then and now. Read the first half of the first pair.",
+          "older": "The first contrast in 2:10 names it, before “the people of God.”"
+        },
+        "extended_explanation": "Peter piles up titles for believers: a chosen generation, a royal priesthood, a holy nation, His own special people, called out of darkness into His marvelous light (2:9). In 2:10 he contrasts their past and present twice, the second time with mercy. Read the first contrast in 2:10.",
+        "takeaway": "Those who once were not a people are now the people of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1pe-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 5",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter tells believers to humble themselves under the mighty hand of God (5:6) and to cast all their worries upon Him. What reason does 5:7 give?",
+        "child": "Peter says to give all your worries to God. Why?",
+        "teen": "1 Peter 5:7 tells believers to hand all their worries to God and then gives a reason. What is it?",
+        "older": "According to 1 Peter 5:7, why should believers cast all their worries on Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He commands it of you"
+        },
+        {
+          "id": "b",
+          "text": "He cares for you"
+        },
+        {
+          "id": "c",
+          "text": "He needs your trust"
+        },
+        {
+          "id": "d",
+          "text": "He knows you are weak"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 5:6",
+            "text": "Therefore humble yourselves under the mighty hand of God, that He may exalt you in due time,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 5:7",
+            "text": "casting all your care upon Him, for He cares for you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Peter 5:7 ends with a reason introduced by “for.” Read that last clause.",
+          "child": "Look at the very end of 1 Peter 5:7, after “for.”",
+          "teen": "5:6 tells us to humble ourselves; 5:7 says what to do with our burdens and why. Read the end of 5:7.",
+          "older": "The reason is the final clause of 5:7; 5:6 adds that He will exalt you in due time."
+        },
+        "extended_explanation": "Peter tells believers to humble themselves under the mighty hand of God, that He may exalt them in due time (5:6). In 5:7 he says to cast all their burdens upon Him, and the end of the verse gives the reason. Read the end of 5:7.",
+        "takeaway": "Cast all your care upon Him, for He cares for you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1pe-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 5",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter warns, “Be sober, be vigilant,” because the adversary the devil walks about like a roaring lion, seeking whom he may devour (5:8). What does Peter tell believers to do in 5:9?",
+        "child": "Peter says the devil prowls around like a roaring lion. What does he tell believers to do about it?",
+        "teen": "1 Peter 5:8 describes the danger, and 5:9 gives the response. What is it?",
+        "older": "According to 1 Peter 5:9, how are believers to respond to their adversary?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hide from him until he leaves"
+        },
+        {
+          "id": "b",
+          "text": "Run from him and pray"
+        },
+        {
+          "id": "c",
+          "text": "Stay silent and wait for the Lord to act"
+        },
+        {
+          "id": "d",
+          "text": "Resist him, steadfast in the faith"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 5:8",
+            "text": "Be sober, be vigilant; because your adversary the devil walks about like a roaring lion, seeking whom he may devour.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 5:9",
+            "text": "Resist him, steadfast in the faith, knowing that the same sufferings are experienced by your brotherhood in the world.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Peter 5:9 opens with Peter’s instruction. Read the first part of the verse, before “knowing that.”",
+          "child": "Look at the beginning of 1 Peter 5:9. Peter gives an instruction and then a reason to keep going.",
+          "teen": "5:8 names the danger. 5:9 opens with the response. Read its first clause.",
+          "older": "The response is the opening clause of 5:9."
+        },
+        "extended_explanation": "Peter calls believers to be sober and vigilant, because their adversary the devil walks about like a roaring lion, seeking whom he may devour (5:8). The beginning of 5:9 tells them how to respond. Read the first clause of 5:9.",
+        "takeaway": "Peter says of the devil: resist him, steadfast in the faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1pe-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 1",
+      "topics": [
+        "living-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter says believers have been grieved by various trials so that the genuineness of their faith may be tested (1:6-7). In 5:9 he gives them something to know in their struggle. According to 5:9, who else is experiencing the same sufferings?",
+        "child": "Peter says hard trials test whether faith is real. Later he reminds believers about others who suffer. Who else does he say is going through the same sufferings?",
+        "teen": "1 Peter 1:6-7 explains what trials test, and 5:9 adds who else shares them. According to 5:9, who experiences the same sufferings?",
+        "older": "Compare 1 Peter 1:6-7 with 5:9. According to 5:9, who is experiencing the same sufferings?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only the apostles and elders"
+        },
+        {
+          "id": "b",
+          "text": "The prophets in earlier times"
+        },
+        {
+          "id": "c",
+          "text": "Your brotherhood in the world"
+        },
+        {
+          "id": "d",
+          "text": "Only those who dwell in Jerusalem"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 1:6",
+            "text": "In this you greatly rejoice, though now for a little while, if need be, you have been grieved by various trials,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 1:7",
+            "text": "that the genuineness of your faith, being much more precious than gold that perishes, though it is tested by fire, may be found to praise, honor, and glory at the revelation of Jesus Christ,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 5:9",
+            "text": "Resist him, steadfast in the faith, knowing that the same sufferings are experienced by your brotherhood in the world.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Peter 5:9 ends with “knowing that the same sufferings are experienced by.” Read the words that follow.",
+          "child": "Look at the very end of 1 Peter 5:9. Peter names who else goes through the same sufferings.",
+          "teen": "1:6-7 says trials test the genuineness of faith. 5:9 ends with who shares those sufferings. Read the last phrase.",
+          "older": "The final phrase of 5:9 names them; compare the “various trials” of 1:6."
+        },
+        "extended_explanation": "Peter does not treat suffering as a sign that God has left His people. In 1:6-7 believers rejoice even while grieved by various trials, because the genuineness of their faith, more precious than gold, is being tested. In 5:9 he tells them to know something as they hold on: the same sufferings are shared. The end of 5:9 says by whom. Read the last phrase of 5:9.",
+        "takeaway": "The same sufferings are experienced by your brotherhood in the world, and trials test the genuineness of faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

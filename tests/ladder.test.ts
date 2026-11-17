@@ -262,6 +262,42 @@ describe("curriculum ladder", () => {
     expect(unfinished.required).toBe(27);
   });
 
+  it("requires all 29 Established badges, eight questions each", () => {
+    const { questions } = loadCatalog();
+    const establishedBadges = knowledgePath.stages.find((stage) => stage.stage === "Established")?.badges ?? [];
+    const establishedIds = establishedBadges.flatMap((badge) => badge.questionIds);
+    expect(establishedBadges).toHaveLength(29);
+    expect(establishedBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(establishedIds).toHaveLength(232);
+    expect(new Set(establishedIds).size).toBe(232);
+    const hagar = questions.find((question) => question.id === "c1-gen-0061");
+    expect(hagar?.prompt.adult).toBe(
+      "Hagar had fled from Sarai into the wilderness, and the LORD spoke to her by a spring of water. What name did Hagar give to the LORD who spoke to her?",
+    );
+    expect(hagar?.stage).toBe("Established");
+    const love = questions.find((question) => question.id === "c1-1jn-0001");
+    expect(love?.prompt.adult).toBe(
+      "1 John 1:5 gives the message the writers heard from Him and declare to their readers. What is that message?",
+    );
+    expect(love?.stage).toBe("Established");
+    expect(establishedIds).not.toContain("c3-pro-0001");
+    expect(establishedIds).not.toContain("c2-act-0001");
+    expect(questions.find((question) => question.id === "c3-pro-0001")?.placement_eligible).toBe(true);
+    expect(questions.find((question) => question.id === "c2-act-0001")?.placement_eligible).toBe(true);
+    const open = gateStatus(questions, { ...emptyProgress(), stage: "Established" });
+    expect(open.ready).toBe(false);
+    expect(open.required).toBe(29);
+    const partial = establishedIds.slice(0, -1);
+    const unfinished = gateStatus(questions, {
+      ...emptyProgress(),
+      stage: "Established",
+      masteredIds: partial,
+      firstTryIds: partial,
+    });
+    expect(unfinished.ready).toBe(false);
+    expect(unfinished.required).toBe(29);
+  });
+
   it("names checklist topics and marks a cleared one", () => {
     const questions = [sample("create", "foundation", "Seed", ["creation"])];
     const before = stageChecklist(questions, emptyProgress());

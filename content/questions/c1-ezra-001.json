@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ezra-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-ezr-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 1",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the first year of Cyrus king of Persia, the LORD stirred up his spirit, and Cyrus sent out a written proclamation. What did Cyrus say the LORD God of heaven had commanded him to do?",
+        "child": "God moved the heart of Cyrus, the king of Persia, to make an announcement to his whole kingdom. What did Cyrus say God had told him to do?",
+        "teen": "Ezra opens with a Persian king making a public announcement. According to Ezra 1:2, what did Cyrus say he had been commanded to do?",
+        "older": "According to Ezra 1:2, what did Cyrus king of Persia say the LORD God of heaven had commanded him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Write down the history of his reign"
+        },
+        {
+          "id": "b",
+          "text": "Build Him a house at Jerusalem"
+        },
+        {
+          "id": "c",
+          "text": "Rebuild the walls of Babylon"
+        },
+        {
+          "id": "d",
+          "text": "Send an army to guard Judah"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 1:1",
+            "text": "Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jeremiah might be fulfilled, the LORD stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and also put it in writing, saying,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 1:2",
+            "text": "Thus says Cyrus king of Persia: All the kingdoms of the earth the LORD God of heaven has given me. And He has commanded me to build Him a house at Jerusalem which is in Judah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 1:2 quotes Cyrus. Read the sentence that begins “And He has commanded me.”",
+          "child": "Look at the end of Ezra 1:2. Cyrus tells what he was commanded, right after “And He has commanded me.”",
+          "teen": "1:1 says the LORD stirred up Cyrus; 1:2 gives Cyrus’ own words. Read his second sentence.",
+          "older": "The command is stated in Cyrus’ own words in the last sentence of 1:2."
+        },
+        "extended_explanation": "Ezra begins with the LORD at work in a foreign ruler. Ezra 1:1 says the LORD stirred up the spirit of Cyrus king of Persia, so he made a proclamation throughout his kingdom and put it in writing. In 1:2 Cyrus says the LORD God of heaven has given him the kingdoms of the earth, and then he states what he has been commanded. Read the final sentence of 1:2.",
+        "takeaway": "Cyrus said the LORD God of heaven had commanded him to build Him a house at Jerusalem in Judah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezr-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 3",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the returned exiles gathered in Jerusalem, fear had come upon them because of the peoples of the surrounding lands. What did they do with the altar of the God of Israel anyway?",
+        "child": "The people who came back to Jerusalem were afraid of the nations around them. Even so, what did they do with God’s altar?",
+        "teen": "Ezra 3:3 says the people were afraid of their neighbors. What did they still do with the altar, even before work on the temple itself had begun?",
+        "older": "According to Ezra 3:3, what did the people do with the altar though fear had come upon them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hid the altar until the danger passed"
+        },
+        {
+          "id": "b",
+          "text": "Covered the altar with fine gold"
+        },
+        {
+          "id": "c",
+          "text": "Carried the altar to a safer city"
+        },
+        {
+          "id": "d",
+          "text": "Set the altar on its bases"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 3:3",
+            "text": "Though fear had come upon them because of the people of those countries, they set the altar on its bases; and they offered burnt offerings on it to the LORD, both the morning and evening burnt offerings.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 3:6",
+            "text": "From the first day of the seventh month they began to offer burnt offerings to the LORD, although the foundation of the temple of the LORD had not been laid.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 3:3 begins with the people’s fear and then turns at a semicolon. Read the clause right after “because of the people of those countries.”",
+          "child": "Look at Ezra 3:3. After it says they were afraid, read what they did next.",
+          "teen": "3:3 names the fear first, then the action. Read the words right after the first semicolon. 3:6 adds that the temple work had not started yet.",
+          "older": "The first half of 3:3 gives the fear; the action follows the semicolon. Compare 3:6 for the timing."
+        },
+        "extended_explanation": "The exiles had come back to a ruined city. Ezra 3:2 says Jeshua and Zerubbabel built the altar first, so they could offer burnt offerings as the Law of Moses required. 3:3 shows they did this even though they were afraid of the peoples around them, and 3:6 notes that the offerings began before any work on the temple itself had been laid. Read the clause after the first semicolon in 3:3.",
+        "takeaway": "Though they were afraid, they set the altar on its bases and offered burnt offerings to the LORD morning and evening."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezr-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 3",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the builders finished laying the base of the LORD’s house, the priests and Levites sang responsively, praising and giving thanks. What words begin their song?",
+        "child": "When the first stones of the new temple were laid, the priests and Levites sang back and forth to praise God. What were the first words of their song?",
+        "teen": "Ezra 3:11 quotes a song sung back and forth as the temple work began. What is its opening line?",
+        "older": "In Ezra 3:11, what words open the song the priests and Levites sang responsively?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For He is good"
+        },
+        {
+          "id": "b",
+          "text": "The LORD is our strength"
+        },
+        {
+          "id": "c",
+          "text": "Holy is His name"
+        },
+        {
+          "id": "d",
+          "text": "Great is our God"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 3:11",
+            "text": "And they sang responsively, praising and giving thanks to the LORD: “For He is good, For His mercy endures forever toward Israel.” Then all the people shouted with a great shout, when they praised the LORD, because the foundation of the house of the LORD was laid.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 3:11 puts the song in quotation marks. Read the first line inside the quotation, before “For His mercy.”",
+          "child": "Look inside the quotation marks in Ezra 3:11. The song’s first line comes before the part about His mercy.",
+          "teen": "The song in 3:11 has two lines. Read the first one, inside the quotation marks.",
+          "older": "The first of the two lines in the quoted song of 3:11 is the one asked for."
+        },
+        "extended_explanation": "The people had worked to lay the base of the house of the LORD, and the priests with trumpets and the Levites with cymbals led the praise, following the pattern set by David. Ezra 3:11 says they sang responsively, praising and giving thanks, and then all the people answered with a great shout. Read the opening line of the quoted song.",
+        "takeaway": "They sang, “For He is good, For His mercy endures forever toward Israel.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezr-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 7",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra came up to Jerusalem from Babylon in the reign of Artaxerxes. How does Ezra 7:6 describe him?",
+        "child": "Ezra traveled from Babylon to Jerusalem. What kind of person does the Bible say he was?",
+        "teen": "Before Ezra arrives in the story, 7:6 introduces him. What does the verse call him?",
+        "older": "According to Ezra 7:6, what was Ezra in the Law of Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A captain of the guard"
+        },
+        {
+          "id": "b",
+          "text": "A singer in the temple"
+        },
+        {
+          "id": "c",
+          "text": "A skilled scribe"
+        },
+        {
+          "id": "d",
+          "text": "A governor of Judah"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 7:6",
+            "text": "this Ezra came up from Babylon; and he was a skilled scribe in the Law of Moses, which the LORD God of Israel had given. The king granted him all his request, according to the hand of the LORD his God upon him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 7:6 describes Ezra right after “this Ezra came up from Babylon; and he was.” Read the next few words.",
+          "child": "Look at the middle of Ezra 7:6, right after “and he was.”",
+          "teen": "7:6 has two parts: what Ezra was, then what the king granted him. Read the first part.",
+          "older": "The description sits between “he was” and “in the Law of Moses” in 7:6."
+        },
+        "extended_explanation": "Ezra 7:1-5 traces Ezra’s family line back to Aaron the chief priest. Then 7:6 tells what Ezra himself was known for, tied to the Law of Moses that the LORD God of Israel had given. Read the words after “and he was” in 7:6.",
+        "takeaway": "Ezra was a skilled scribe in the Law of Moses, and the hand of the LORD his God was upon him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezr-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 3",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the temple’s base was laid, many people shouted aloud. But many of the priests, Levites, and heads of families wept with a loud voice. What does Ezra 3:12 say about those who wept?",
+        "child": "When the new temple was started, some people shouted and others cried loudly. What does the Bible say about the people who cried?",
+        "teen": "Ezra 3:12-13 describes a crowd where weeping and shouting mixed so that no one could tell them apart. What set the weepers apart?",
+        "older": "According to Ezra 3:12, what was true of the priests, Levites, and heads of the fathers’ houses who wept?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Had lost family in the exile"
+        },
+        {
+          "id": "b",
+          "text": "Had seen the first temple"
+        },
+        {
+          "id": "c",
+          "text": "Had been told the temple would fail"
+        },
+        {
+          "id": "d",
+          "text": "Had not been allowed to help"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 3:12",
+            "text": "But many of the priests and Levites and heads of the fathers’ houses, old men who had seen the first temple, wept with a loud voice when the foundation of this temple was laid before their eyes. Yet many shouted aloud for joy,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 3:13",
+            "text": "so that the people could not discern the noise of the shout of joy from the noise of the weeping of the people, for the people shouted with a loud shout, and the sound was heard afar off.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 3:12 describes the weepers in a phrase set off by commas, before it says they wept.",
+          "child": "Look at Ezra 3:12. Right after it lists the priests, Levites, and family heads, it tells something about them.",
+          "teen": "3:12 describes the weepers before it says they wept. Read the words between the list of leaders and “wept with a loud voice.”",
+          "older": "The detail is the relative clause beginning “who” in the first sentence of 3:12."
+        },
+        "extended_explanation": "The exiles had come home and begun work on the house of the LORD, and much of the crowd shouted in praise. But many of the leaders wept aloud. 3:13 says the two sounds mixed so that no one could tell them apart, and the noise was heard far away. Read the description of the weepers in 3:12.",
+        "takeaway": "Those who wept had seen the first temple, and their weeping mixed with shouts of joy until no one could tell the sounds apart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezr-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 6",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra 6:15 says the temple was finished in the reign of King Darius. How did the people celebrate its dedication in 6:16, and how does 6:22 describe the feast that followed?",
+        "child": "The temple was finally finished! How did the people celebrate when they dedicated it to God, and how did they keep the feast afterward?",
+        "teen": "Ezra 6:16 and 6:22 describe two celebrations after the temple was completed using the same words. What are they?",
+        "older": "Ezra 6:16 and 6:22 describe the dedication and the Feast of Unleavened Bread the same way. How?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With joy"
+        },
+        {
+          "id": "b",
+          "text": "With dancing in the streets"
+        },
+        {
+          "id": "c",
+          "text": "With a great procession"
+        },
+        {
+          "id": "d",
+          "text": "With trumpets and harps"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 6:15",
+            "text": "Now the temple was finished on the third day of the month of Adar, which was in the sixth year of the reign of King Darius.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 6:16",
+            "text": "Then the children of Israel, the priests and the Levites and the rest of the descendants of the captivity, celebrated the dedication of this house of God with joy.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 6:22",
+            "text": "And they kept the Feast of Unleavened Bread seven days with joy; for the LORD made them joyful, and turned the heart of the king of Assyria toward them, to strengthen their hands in the work of the house of God, the God of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Ezra 6:16. Then find the same words in the first line of 6:22, right after “seven days.”",
+          "child": "Look at the very end of Ezra 6:16. Then look for the same words near the start of 6:22.",
+          "teen": "6:16 ends with the phrase; 6:22 repeats it right after “seven days.”",
+          "older": "The phrase closes 6:16 and follows “Unleavened Bread seven days” in 6:22."
+        },
+        "extended_explanation": "The work had been slow and opposed, but 6:15 records the day it was finished, in the sixth year of Darius. The priests, Levites, and returned exiles held a dedication (6:16), and later kept the Feast of Unleavened Bread (6:22). Both verses use the same phrase for how the people kept these days. Read the end of 6:16, then the first line of 6:22.",
+        "takeaway": "They dedicated the house of God with joy and kept the feast with joy, for the LORD made them joyful."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-ezr-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 7",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra 7:6 and 7:9 both credit the hand of God upon Ezra for his success and safe journey. Then 7:10 begins with “For” and tells something Ezra himself had done. What was it?",
+        "child": "Twice in Ezra 7 the Bible says God’s hand was on Ezra. Then verse 10 tells what Ezra had done himself. What was it?",
+        "teen": "Ezra 7 explains Ezra’s journey from two sides: God’s hand on him (7:6, 9) and Ezra’s own part (7:10). What had Ezra done?",
+        "older": "Ezra 7:9 credits the good hand of his God; 7:10 gives Ezra’s part. According to 7:10, what had Ezra done?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gathered a great army"
+        },
+        {
+          "id": "b",
+          "text": "Written to the governors"
+        },
+        {
+          "id": "c",
+          "text": "Sent gifts ahead to Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "Prepared his heart"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 7:6",
+            "text": "this Ezra came up from Babylon; and he was a skilled scribe in the Law of Moses, which the LORD God of Israel had given. The king granted him all his request, according to the hand of the LORD his God upon him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 7:9",
+            "text": "On the first day of the first month he began his journey from Babylon, and on the first day of the fifth month he came to Jerusalem, according to the good hand of his God upon him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 7:10",
+            "text": "For Ezra had prepared his heart to seek the Law of the LORD, and to do it, and to teach statutes and ordinances in Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 7:10 starts with “For Ezra had.” Read what follows, before the list of what he meant to do with the Law.",
+          "child": "Look at the start of Ezra 7:10. Read what comes right after “For Ezra had.”",
+          "teen": "7:10 names one action and then three purposes for it. The action comes right after “For Ezra had.”",
+          "older": "What the “For” in 7:10 explains is its main verb phrase, before the three infinitives: to seek, to do, to teach."
+        },
+        "extended_explanation": "Ezra’s trip from Babylon took four months, and Ezra 7:6 and 7:9 both say the hand of his God was on him. Verse 10 gives a reason with “For”: it tells what Ezra had done, and then three aims: to seek the Law of the LORD, to do it, and to teach it in Israel. Read the opening words of 7:10.",
+        "takeaway": "Ezra had prepared his heart to seek the Law of the LORD, to do it, and to teach it in Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-ezr-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 1",
+      "topics": [
+        "ezra-return-rebuild"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra begins and ends its temple story with the LORD moving foreign kings: He stirred up the spirit of Cyrus (1:1), and He turned the heart of a king toward His people (6:22). According to 1:1, whose word from the LORD was being fulfilled when Cyrus acted?",
+        "child": "At the start of Ezra, God moved King Cyrus. Near the end of the temple story, God changed another king’s heart. When Cyrus acted, whose message from God was coming true?",
+        "teen": "Ezra 1:1 and 6:22 show the LORD working through kings who did not belong to Israel. In 1:1, the LORD’s word through which prophet was being fulfilled?",
+        "older": "Ezra 1:1 and 6:22 both show the LORD moving a foreign king. In 1:1, by whose mouth had the word now being fulfilled been spoken?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Daniel"
+        },
+        {
+          "id": "b",
+          "text": "Ezekiel"
+        },
+        {
+          "id": "c",
+          "text": "Jeremiah"
+        },
+        {
+          "id": "d",
+          "text": "Zephaniah"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 1:1",
+            "text": "Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jeremiah might be fulfilled, the LORD stirred up the spirit of Cyrus king of Persia, so that he made a proclamation throughout all his kingdom, and also put it in writing, saying,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 6:22",
+            "text": "And they kept the Feast of Unleavened Bread seven days with joy; for the LORD made them joyful, and turned the heart of the king of Assyria toward them, to strengthen their hands in the work of the house of God, the God of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 1:1 names the prophet in the clause that begins “that the word of the LORD by the mouth of.” 6:22 shows the same LORD turning a king’s heart.",
+          "child": "Look near the start of Ezra 1:1, right after “by the mouth of.”",
+          "teen": "1:1 explains why Cyrus was stirred: so that a word would be fulfilled. The name comes after “by the mouth of.”",
+          "older": "The purpose clause in 1:1 names the speaker of the word; 6:22 shows the pattern again later."
+        },
+        "extended_explanation": "Ezra frames the return with two moments when the LORD moved a ruler who did not worship Him. In 1:1 He stirred up the spirit of Cyrus so that a word spoken earlier would come true. In 6:22 He turned the heart of the king of Assyria toward His people to strengthen their hands in the work. Read the purpose clause near the start of 1:1.",
+        "takeaway": "The LORD stirred up Cyrus so that the word of the LORD by the mouth of Jeremiah might be fulfilled, and later He turned a king’s heart again."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

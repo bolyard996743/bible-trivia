@@ -1,0 +1,547 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-joshua-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jos-0015",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 4",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After all Israel crossed the Jordan, they camped in a new place. Where did Joshua set up the twelve stones they had taken out of the river?",
+        "child": "When the people crossed the Jordan River, they carried twelve stones out of it. Where did Joshua set up those stones?",
+        "teen": "The twelve stones came out of the Jordan and went with the people to their first camp. Where did Joshua set them up?",
+        "older": "According to Joshua 4:20, where did Joshua set up the twelve stones taken out of the Jordan?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hebron"
+        },
+        {
+          "id": "b",
+          "text": "Shechem"
+        },
+        {
+          "id": "c",
+          "text": "Gilgal"
+        },
+        {
+          "id": "d",
+          "text": "Bethel"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 4:19",
+            "text": "Now the people came up from the Jordan on the tenth day of the first month, and they camped in Gilgal on the east border of Jericho.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 4:20",
+            "text": "And those twelve stones which they took out of the Jordan, Joshua set up in Gilgal.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 4:19 names the camp, and 4:20 says the stones were set up in that same place. Read the end of 4:20.",
+          "child": "Look at the end of Joshua 4:20. It names the place where Joshua set up the stones.",
+          "teen": "4:19 tells where the people camped; 4:20 says where the stones went. Both verses name the same place.",
+          "older": "The camp named in 4:19 and the place named at the close of 4:20 are the same."
+        },
+        "extended_explanation": "The people came up from the Jordan on the tenth day of the first month and made camp near Jericho. Joshua 4:20 says what Joshua did with the twelve stones there. Read the last words of 4:20, and compare them with where the people camped in 4:19.",
+        "takeaway": "Joshua set up the twelve stones from the Jordan in Gilgal."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jos-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 4",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joshua said the stones would be a sign when children asked, “What do these stones mean to you?” What were the people to tell them?",
+        "child": "Joshua said that one day children would ask, “What do these stones mean?” What were their parents supposed to tell them?",
+        "teen": "The stones were meant to start a conversation between generations. According to 4:7, what reply should be given to children who ask about them?",
+        "older": "According to Joshua 4:7, what were the Israelites to tell their children when they asked the meaning of the stones?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Joshua defeated the kings of Canaan"
+        },
+        {
+          "id": "b",
+          "text": "The walls of Jericho fell down flat"
+        },
+        {
+          "id": "c",
+          "text": "The manna stopped when they entered the land"
+        },
+        {
+          "id": "d",
+          "text": "The waters of the Jordan were cut off"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 4:6",
+            "text": "that this may be a sign among you when your children ask in time to come, saying, ‘What do these stones mean to you?’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 4:7",
+            "text": "Then you shall answer them that the waters of the Jordan were cut off before the ark of the covenant of the LORD; when it crossed over the Jordan, the waters of the Jordan were cut off. And these stones shall be for a memorial to the children of Israel forever.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The reply for the children begins in Joshua 4:7 right after “you shall answer them that.” The same event is repeated later in the verse.",
+          "child": "Look at the start of Joshua 4:7. Read what comes after “you shall answer them that.”",
+          "teen": "4:6 has the children’s question; 4:7 has the reply, and it states the key event twice. Read the first half of 4:7.",
+          "older": "The reply in 4:7 states the event, mentions the ark it happened before, and then repeats the event for emphasis."
+        },
+        "extended_explanation": "The twelve stones came from the riverbed where the priests had stood with the ark. Joshua 4:6 imagines children asking what the stones mean. Joshua 4:7 gives the reply and calls the stones a memorial forever. Read the words right after “you shall answer them that.”",
+        "takeaway": "The stones reminded Israel that the waters of the Jordan were cut off before the ark of the covenant of the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jos-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 7",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Achan confessed that he had seen a Babylonian garment, silver, and a wedge of gold among the spoils. What did he say happened before he took them?",
+        "child": "Achan admitted he took a beautiful garment, silver, and gold that God had told Israel not to take. What did he say he did when he saw them, before he took them?",
+        "teen": "Achan’s confession in 7:21 traces his sin in steps: he saw, then something happened inside him, then he took. What was the middle step?",
+        "older": "In Achan’s confession (Joshua 7:21), what did he say he did between seeing the spoils and taking them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I coveted them"
+        },
+        {
+          "id": "b",
+          "text": "I was afraid of Joshua"
+        },
+        {
+          "id": "c",
+          "text": "I thought no one would miss them"
+        },
+        {
+          "id": "d",
+          "text": "I was told to keep them"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 7:20",
+            "text": "And Achan answered Joshua and said, “Indeed I have sinned against the LORD God of Israel, and this is what I have done:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 7:21",
+            "text": "When I saw among the spoils a beautiful Babylonian garment, two hundred shekels of silver, and a wedge of gold weighing fifty shekels, I coveted them and took them. And there they are, hidden in the earth in the midst of my tent, with the silver under it.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Achan’s confession in Joshua 7:21 moves from what he saw to what he took. Read the words just before “and took them.”",
+          "child": "Look at Joshua 7:21. Find the words right before “and took them.”",
+          "teen": "7:20 is his admission; 7:21 lists the steps. Read the phrase that sits between the list of things and “took them.”",
+          "older": "Achan’s confession in 7:21 has three verbs in a row; read the one that comes between seeing and taking."
+        },
+        "extended_explanation": "After Israel’s defeat at Ai, the LORD revealed that someone had taken the accursed things. Joshua urged Achan to tell the truth, and Achan admitted, “I have sinned.” In 7:21 he describes the steps that led to his sin. Read the phrase just before “and took them.”",
+        "takeaway": "Achan confessed that when he saw the spoils, he coveted them and took them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jos-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 9",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Gibeonites wanted Israel to believe they had come from a far country. What did they say had happened to their bread, which they claimed had been hot when they left home?",
+        "child": "The men from Gibeon pretended they had traveled a very long way. They showed their bread as proof. What did they say it had become?",
+        "teen": "The Gibeonites used their supplies as evidence of a long journey. In 9:12, how do they describe their bread now?",
+        "older": "According to Joshua 9:12, how did the Gibeonites describe their bread to support their claim of a long journey?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Soaked by the rain"
+        },
+        {
+          "id": "b",
+          "text": "Dry and moldy"
+        },
+        {
+          "id": "c",
+          "text": "Eaten by the donkeys"
+        },
+        {
+          "id": "d",
+          "text": "Stolen by robbers on the road"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 9:12",
+            "text": "This bread of ours we took hot for our provision from our houses on the day we departed to come to you. But now look, it is dry and moldy.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 9:13",
+            "text": "And these wineskins which we filled were new, and see, they are torn; and these our garments and our sandals have become old because of the very long journey.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "In Joshua 9:12 the Gibeonites contrast how the bread was when they left with how it looks now. Read the end of the verse, after “But now look, it is.”",
+          "child": "Look at the end of Joshua 9:12. Read what they say after “But now look, it is.”",
+          "teen": "9:12 is about the bread and 9:13 about wineskins, garments, and sandals. Read the last words of 9:12.",
+          "older": "The description closes 9:12, set against the claim that the bread was taken hot from their houses."
+        },
+        "extended_explanation": "The Gibeonites lived nearby, but they acted as if they had come from far away so that Israel would make a covenant with them. They brought worn-out sacks, wineskins, sandals, and garments. In 9:12 they point to their bread as proof. Read what they say it is now.",
+        "takeaway": "The Gibeonites said their bread, once hot, was now dry and moldy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jos-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 10",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Gibeon the LORD cast down large hailstones on the fleeing Amorites, and Joshua spoke to the LORD in the sight of Israel. What does Joshua 10:14 say made that day unlike any day before or after?",
+        "child": "God sent huge hailstones on Israel’s enemies, and Joshua prayed out loud in front of everyone. The Bible says there was never another day like it. Why?",
+        "teen": "10:11 describes the hailstones and 10:12 Joshua’s bold words to the LORD. What does 10:14 say made that day unique?",
+        "older": "Considering the hailstones (Joshua 10:11) and Joshua’s words (10:12), what does 10:14 say set that day apart from every other?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The LORD heeded the voice of a man"
+        },
+        {
+          "id": "b",
+          "text": "The enemy kings surrendered without a fight"
+        },
+        {
+          "id": "c",
+          "text": "The Jordan stopped flowing a second time"
+        },
+        {
+          "id": "d",
+          "text": "The LORD spoke to Joshua from heaven"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 10:11",
+            "text": "And it happened, as they fled before Israel and were on the descent of Beth Horon, that the LORD cast down large hailstones from heaven on them as far as Azekah, and they died. There were more who died from the hailstones than the children of Israel killed with the sword.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 10:12",
+            "text": "Then Joshua spoke to the LORD in the day when the LORD delivered up the Amorites before the children of Israel, and he said in the sight of Israel: “Sun, stand still over Gibeon; And Moon, in the Valley of Aijalon.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 10:14",
+            "text": "And there has been no day like that, before it or after it, that the LORD heeded the voice of a man; for the LORD fought for Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 10:14 explains what made the day unique in the words right after “that.”",
+          "child": "Look at Joshua 10:14. After “before it or after it, that,” it tells what was special.",
+          "teen": "10:11-12 set the scene; read the clause after “before it or after it, that” in 10:14.",
+          "older": "10:14 has two clauses; read the first one, after “that.”"
+        },
+        "extended_explanation": "The five Amorite kings attacked Gibeon, and Israel came to help. The LORD routed the enemy and sent hailstones that struck many as they fled. Then Joshua spoke to the LORD before all Israel. Joshua 10:14 sums up why that day stood alone. Read the clause that follows “before it or after it, that.”",
+        "takeaway": "There was no day like it, when the LORD heeded the voice of a man; for the LORD fought for Israel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jos-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 24",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joshua declared that he and his house would serve the LORD, and the people answered that they would serve Him too. Yet Joshua replied, “You cannot serve the LORD.” What reason did he give first?",
+        "child": "Joshua said his family would serve the LORD, and the people promised to do the same. But Joshua told them they could not serve the LORD. What was the first reason he gave?",
+        "teen": "After 24:15 and the people’s promise in 24:18, Joshua’s reply in 24:19 is surprising. What is the first reason he gives that they cannot serve the LORD?",
+        "older": "In Joshua 24:19, responding to the people’s pledge in 24:18, what first reason did Joshua give for saying, “You cannot serve the LORD”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You are too few in number"
+        },
+        {
+          "id": "b",
+          "text": "The land is not yet yours"
+        },
+        {
+          "id": "c",
+          "text": "He is a holy God"
+        },
+        {
+          "id": "d",
+          "text": "Moses never taught you His ways"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 24:15",
+            "text": "And if it seems evil to you to serve the LORD, choose for yourselves this day whom you will serve, whether the gods which your fathers served that were on the other side of the River, or the gods of the Amorites, in whose land you dwell. But as for me and my house, we will serve the LORD.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 24:18",
+            "text": "And the LORD drove out from before us all the people, including the Amorites who dwelt in the land. We also will serve the LORD, for He is our God.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 24:19",
+            "text": "But Joshua said to the people, “You cannot serve the LORD, for He is a holy God. He is a jealous God; He will not forgive your transgressions nor your sins.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua’s reason in 24:19 follows the word “for.” Read the words right after it, and remember the people’s promise just before in 24:18.",
+          "child": "Look at Joshua 24:19. Joshua gives his reason right after “You cannot serve the LORD, for.”",
+          "teen": "24:15 is Joshua’s choice, 24:18 is the people’s, and 24:19 is his warning. Read the first short sentence after “for” in 24:19.",
+          "older": "24:19 gives Joshua’s reasoning in short sentences after “for”; read the first one."
+        },
+        "extended_explanation": "Joshua set a clear choice before Israel and said, “As for me and my house, we will serve the LORD.” The people answered that they too would serve Him. Joshua did not simply accept their words. In 24:19 he warned them about what serving the LORD requires. Read the first sentence that follows “for.”",
+        "takeaway": "Joshua warned, “You cannot serve the LORD, for He is a holy God.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jos-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 4",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Joshua 4 the stones answered the question children would ask. In Joshua 24, Joshua set up a large stone under the oak and said it would be a witness. Why did he say the stone could serve as a witness?",
+        "child": "In Joshua 4, stones helped children remember what God did. Later, Joshua set up a big stone under an oak tree as a witness. What did he say the stone had done?",
+        "teen": "Two memorial stones frame Joshua’s story: the Jordan stones (4:6) and the stone under the oak (24:26). What does Joshua say in 24:27 qualifies the second one to be a witness?",
+        "older": "Comparing the stones of Joshua 4:6 with the stone of 24:26-27, on what ground did Joshua say the stone under the oak would be a witness?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Stood in this place since the days of Abraham"
+        },
+        {
+          "id": "b",
+          "text": "Been anointed with oil by the priests"
+        },
+        {
+          "id": "c",
+          "text": "Come up out of the Jordan’s riverbed"
+        },
+        {
+          "id": "d",
+          "text": "Heard all the words of the LORD"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 4:6",
+            "text": "that this may be a sign among you when your children ask in time to come, saying, ‘What do these stones mean to you?’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 24:26",
+            "text": "Then Joshua wrote these words in the Book of the Law of God. And he took a large stone, and set it up there under the oak that was by the sanctuary of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 24:27",
+            "text": "And Joshua said to all the people, “Behold, this stone shall be a witness to us, for it has heard all the words of the LORD which He spoke to us. It shall therefore be a witness to you, lest you deny your God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua explains the stone’s role in 24:27 with the word “for.” Read what he says it has done, and compare that with the purpose of the stones in 4:6.",
+          "child": "Look at Joshua 24:27. Read the words right after “for it has.”",
+          "teen": "4:6 makes stones a sign; 24:27 makes a stone a witness and gives the reason after “for.” Read that reason.",
+          "older": "The reason in 24:27 follows “for it has”; compare it with what Joshua did in 24:26 just before."
+        },
+        "extended_explanation": "The Jordan stones were a sign that would prompt children to ask what God had done (4:6). At Shechem, Joshua made a covenant with the people and set a large stone under the oak by the sanctuary (24:26). In 24:27 he says why this stone will stand as a witness against forgetting God. Read the phrase after “for it has.”",
+        "takeaway": "Joshua said the stone would be a witness, for it had heard all the words of the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jos-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 4",
+      "topics": [
+        "twelve-stones"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Jordan stones were set up so that Israel would fear the LORD forever (4:24), and Joshua later urged the people to choose to serve the LORD (24:15). In between, when the Gibeonites came with their worn-out supplies, what did the men of Israel fail to do before making a covenant?",
+        "child": "The stones at the Jordan reminded Israel to fear the LORD, and Joshua later told the people to choose to serve Him. But when the tricky Gibeonites showed up, the men of Israel skipped something important. What did they not do?",
+        "teen": "4:24 and 24:15 call Israel to fear and serve the LORD. According to 9:14, what did the men of Israel not do?",
+        "older": "Setting Joshua 9:14 between 4:24 and 24:15, what failure on Israel’s part does 9:14 record before they made a covenant with the Gibeonites?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Offer a sacrifice to the LORD"
+        },
+        {
+          "id": "b",
+          "text": "Ask counsel of the LORD"
+        },
+        {
+          "id": "c",
+          "text": "Bring the ark before the LORD"
+        },
+        {
+          "id": "d",
+          "text": "Build an altar to the LORD"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 4:24",
+            "text": "that all the peoples of the earth may know the hand of the LORD, that it is mighty, that you may fear the LORD your God forever.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 9:14",
+            "text": "Then the men of Israel took some of their provisions; but they did not ask counsel of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 24:15",
+            "text": "And if it seems evil to you to serve the LORD, choose for yourselves this day whom you will serve, whether the gods which your fathers served that were on the other side of the River, or the gods of the Amorites, in whose land you dwell. But as for me and my house, we will serve the LORD.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Joshua 9:14 has two halves joined by “but.” The first tells what Israel did with the provisions; read the second to see what they left undone, and weigh it against 4:24 and 24:15.",
+          "child": "Look at Joshua 9:14. After the word “but,” it tells what the men of Israel did not do.",
+          "teen": "4:24 and 24:15 are about fearing and serving; 9:14 is the slip. Read what follows “they did not” in 9:14.",
+          "older": "The contrast lies in the second clause of 9:14, which names the step omitted; 4:24 and 24:15 show the posture Israel was called to."
+        },
+        "extended_explanation": "Joshua 4:24 says the Jordan stones were meant to teach all peoples the LORD’s mighty hand and to keep Israel fearing Him. Joshua 24:15 ends the book with a clear choice to serve the LORD. But in 9:14, faced with the Gibeonites’ convincing props, the men of Israel trusted what they could see. Read the second half of 9:14.",
+        "takeaway": "Israel took the Gibeonites’ provisions but did not ask counsel of the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

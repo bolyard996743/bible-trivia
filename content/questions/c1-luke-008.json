@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0036",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 1",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zacharias was a priest serving before God in the order of his division. When the lot fell to him in the temple of the Lord, what was he chosen to do?",
+        "child": "Zacharias was a priest, and the priests took turns with different jobs in the temple. What job was he chosen to do that day?",
+        "teen": "In Luke 1:9 a lot decides Zacharias’ task in the temple. What was the task?",
+        "older": "According to Luke 1:9, what did the lot fall to Zacharias to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To burn incense"
+        },
+        {
+          "id": "b",
+          "text": "To light the lampstand"
+        },
+        {
+          "id": "c",
+          "text": "To read from the scroll"
+        },
+        {
+          "id": "d",
+          "text": "To guard the temple gate"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 1:8",
+            "text": "So it was, that while he was serving as priest before God in the order of his division,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 1:9",
+            "text": "according to the custom of the priesthood, his lot fell to burn incense when he went into the temple of the Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 1:9 says “his lot fell.” Read the words right after that.",
+          "child": "Look at the middle of Luke 1:9. After “his lot fell,” it says what he was chosen to do when he went into the temple.",
+          "teen": "1:8 says he was serving in his division’s turn. In 1:9, read the words after “his lot fell.”",
+          "older": "The duty is named immediately after “his lot fell” in 1:9."
+        },
+        "extended_explanation": "Zacharias and Elizabeth were righteous and blameless, though they had no child (1:5-7). In 1:8 Zacharias is serving as priest in the order of his division, and 1:9 says that by the custom of the priesthood a lot chose his duty when he went into the temple of the Lord. 1:10 says the people were praying outside at that same hour. Read the words after “his lot fell” in 1:9.",
+        "takeaway": "The lot fell to Zacharias to burn incense in the temple of the Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-luk-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 1",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Relatives wanted to name Elizabeth’s baby after his father, so they made signs to Zacharias, who could not speak (1:62). What did he write on a writing tablet?",
+        "child": "Zacharias could not talk, so people used signs to ask him what the baby’s name should be. What did he write?",
+        "teen": "In Luke 1:63, Zacharias settles the naming argument in writing. What does he write?",
+        "older": "According to Luke 1:63, what did Zacharias write on the writing tablet?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Call him Zacharias"
+        },
+        {
+          "id": "b",
+          "text": "His name is John"
+        },
+        {
+          "id": "c",
+          "text": "His name is Joseph"
+        },
+        {
+          "id": "d",
+          "text": "Let his mother choose"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 1:62",
+            "text": "So they made signs to his father—what he would have him called.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 1:63",
+            "text": "And he asked for a writing tablet, and wrote, saying, “His name is John.” So they all marveled.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 1:63 says he asked for a writing tablet and wrote, saying something. Read the words inside the quotation marks.",
+          "child": "Look at Luke 1:63. Zacharias asked for a tablet, and his words are inside the quotation marks.",
+          "teen": "1:62 shows the relatives making signs. In 1:63, read the quotation right after “and wrote, saying.”",
+          "older": "The written words are quoted in 1:63, before “So they all marveled.”"
+        },
+        "extended_explanation": "On the eighth day, the relatives would have named the baby after his father (1:59), but Elizabeth said otherwise (1:60). They objected that no relative had that name (1:61), so they made signs to Zacharias (1:62). In 1:63 he asks for a writing tablet and writes his reply, and everyone marvels. Then his mouth is opened (1:64). Read the quotation in 1:63.",
+        "takeaway": "Zacharias wrote, “His name is John,” just as the angel had said."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-luk-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 1",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Mary’s song praises God for great reversals: the mighty and the lowly, the hungry and the rich. According to 1:53, what has God done for the hungry?",
+        "child": "In Mary’s song of praise, she says God treats the hungry and the rich very differently. What has God done for the hungry?",
+        "teen": "Luke 1:52-53 lists reversals in Mary’s song. What does 1:53 say God has done for the hungry?",
+        "older": "According to Luke 1:53, what has God done for the hungry?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Given them a king’s table"
+        },
+        {
+          "id": "b",
+          "text": "Led them to green pastures"
+        },
+        {
+          "id": "c",
+          "text": "Filled them with good things"
+        },
+        {
+          "id": "d",
+          "text": "Fed them with bread from heaven"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 1:52",
+            "text": "He has put down the mighty from their thrones, And exalted the lowly.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 1:53",
+            "text": "He has filled the hungry with good things, And the rich He has sent away empty.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 1:53 has two lines. Read the first line, before it turns to the rich.",
+          "child": "Look at the first line of Luke 1:53. It tells what God has done for the hungry before it turns to the rich.",
+          "teen": "1:52 is about the mighty and the lowly. 1:53 is about the hungry and the rich. Read the end of the first line of 1:53.",
+          "older": "The first line of 1:53 names what the hungry receive."
+        },
+        "extended_explanation": "Mary’s song (1:46-55) praises God for what He has done. In 1:52 He has put down the mighty and exalted the lowly. In 1:53 the same kind of reversal is applied to the hungry and the rich. The first line names what He has done for the hungry, and the second line tells how the rich are sent away. Read the first line of 1:53.",
+        "takeaway": "Mary sang that God has filled the hungry with good things."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-mat-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 1",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew opens with “The book of the genealogy of Jesus Christ.” Besides “the Son of David,” what else does 1:1 call Him?",
+        "child": "The first verse of Matthew gives Jesus two titles. One is “the Son of David.” What is the other?",
+        "teen": "Matthew 1:1 gives Jesus two titles at the start of the genealogy. Besides “the Son of David,” which title is given?",
+        "older": "According to Matthew 1:1, what title is given to Jesus Christ alongside “the Son of David”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Son of Moses"
+        },
+        {
+          "id": "b",
+          "text": "The Son of Melchizedek"
+        },
+        {
+          "id": "c",
+          "text": "The Son of Isaac"
+        },
+        {
+          "id": "d",
+          "text": "The Son of Abraham"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 1:1",
+            "text": "The book of the genealogy of Jesus Christ, the Son of David, the Son of Abraham:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 1:1 gives two titles separated by a comma. Read the second one, at the end of the verse.",
+          "child": "Look at the end of Matthew 1:1. After “the Son of David,” there is a second title.",
+          "teen": "1:1 names two ancestors. Read the title that comes after “the Son of David.”",
+          "older": "The second title closes 1:1."
+        },
+        "extended_explanation": "Matthew begins his Gospel with a family record. In 1:1 he names Jesus Christ with two titles that tie Him to two great promises in Israel’s history. The first is “the Son of David.” The second title comes at the end of the verse. Read the end of 1:1.",
+        "takeaway": "Matthew 1:1 calls Jesus Christ the Son of David, the Son of Abraham."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-luk-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 2",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Holy Spirit had revealed to Simeon that he would not see death before he had seen the Lord’s Christ (2:26). When he took the Child in his arms, what did he say (2:30)?",
+        "child": "God had promised Simeon he would not die until he saw the Messiah. When Simeon held baby Jesus, what did he say?",
+        "teen": "Luke 2:26 is a promise to Simeon; 2:30 is Simeon’s response when it comes true. What does he say in 2:30?",
+        "older": "According to Luke 2:30, what did Simeon say when he held the Child Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My eyes have seen Your salvation"
+        },
+        {
+          "id": "b",
+          "text": "Now my prayers are all heard"
+        },
+        {
+          "id": "c",
+          "text": "Now I have seen the King of the Jews"
+        },
+        {
+          "id": "d",
+          "text": "My hands have held the promised King"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:26",
+            "text": "And it had been revealed to him by the Holy Spirit that he would not see death before he had seen the Lord’s Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 2:30",
+            "text": "For my eyes have seen Your salvation",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 2:30 is one short line of Simeon’s song. Read it closely.",
+          "child": "Look at Luke 2:30. It begins with “For” and tells what Simeon’s eyes have done.",
+          "teen": "2:26 is the promise. 2:30 is Simeon’s own words. Read the line after “For.”",
+          "older": "Simeon’s words in 2:30 follow “For” and explain why he may depart in peace (2:29)."
+        },
+        "extended_explanation": "Simeon was just and devout, waiting for the Consolation of Israel (2:25), and the Holy Spirit had shown him he would not die before seeing the Lord’s Christ (2:26). When Mary and Joseph brought Jesus to the temple, Simeon took Him up in his arms and blessed God (2:28). In 2:29 he says he can now depart in peace, and 2:30 gives the reason. Read 2:30.",
+        "takeaway": "Simeon said, “My eyes have seen Your salvation.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-luk-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 2",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Anna, a widow of about eighty-four years, did not depart from the temple but served God night and day (2:37). Coming in at that very moment, what did she do (2:38)?",
+        "child": "Anna was an elderly widow who stayed at the temple worshiping God. When she saw baby Jesus, what did she do?",
+        "teen": "Luke 2:37 describes Anna’s life in the temple, and 2:38 tells what she did when Jesus was brought in. What did she do?",
+        "older": "According to Luke 2:38, what did Anna do when she came in at that instant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Asked Simeon to bless her"
+        },
+        {
+          "id": "b",
+          "text": "Gave thanks to the Lord"
+        },
+        {
+          "id": "c",
+          "text": "Sang the song of Moses"
+        },
+        {
+          "id": "d",
+          "text": "Brought an offering to the altar"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 2:37",
+            "text": "and this woman was a widow of about eighty-four years, who did not depart from the temple, but served God with fastings and prayers night and day.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 2:38",
+            "text": "And coming in that instant she gave thanks to the Lord, and spoke of Him to all those who looked for redemption in Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Luke 2:38 begins “And coming in that instant she.” Read the next words.",
+          "child": "Look at the start of Luke 2:38. Right after Anna comes in, the verse tells what she did, and then whom she spoke to.",
+          "teen": "2:37 describes her years of service. In 2:38, read the first thing she did after coming in.",
+          "older": "Her first action follows “And coming in that instant she” in 2:38."
+        },
+        "extended_explanation": "Anna was a widow of about eighty-four years who stayed in the temple, serving God with fastings and prayers night and day (2:37). At the very moment Simeon was speaking over the Child, she came in (2:38). The verse names two things she did. Read the first of these in 2:38.",
+        "takeaway": "Anna gave thanks to the Lord and spoke of Jesus to all who looked for redemption in Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-mat-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 1",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 1:17 sums up the genealogy in three sets of fourteen generations. What event closes the second set and opens the third?",
+        "child": "Matthew counts Jesus’ family line in three groups of fourteen generations. What event marks the line between the second and third groups?",
+        "teen": "Matthew 1:11-12 marks a turning point in the family line, and 1:17 uses it to divide the generations. What is it?",
+        "older": "According to Matthew 1:17, what event divides the second set of fourteen generations from the third?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The building of the temple"
+        },
+        {
+          "id": "b",
+          "text": "The crossing of the Jordan"
+        },
+        {
+          "id": "c",
+          "text": "The captivity in Babylon"
+        },
+        {
+          "id": "d",
+          "text": "The return from Egypt"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 1:11",
+            "text": "Josiah begot Jeconiah and his brothers about the time they were carried away to Babylon.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 1:12",
+            "text": "And after they were brought to Babylon, Jeconiah begot Shealtiel, and Shealtiel begot Zerubbabel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 1:17",
+            "text": "So all the generations from Abraham to David are fourteen generations, from David until the captivity in Babylon are fourteen generations, and from the captivity in Babylon until the Christ are fourteen generations.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Matthew 1:17 has three parts. Read the second part, which begins “from David until.”",
+          "child": "Look at the middle of Matthew 1:17. The second group runs from David until a certain event, and the third group starts from it.",
+          "teen": "1:11 and 1:12 both mention the same turning point. In 1:17, read the words after “from David until.”",
+          "older": "The dividing event is named twice in 1:17, ending the second set and beginning the third; 1:11-12 show it in the list."
+        },
+        "extended_explanation": "Matthew’s genealogy runs down to the Christ, and 1:17 counts it in three sets of fourteen generations. The first set ends at David the king. In the list, 1:11 and 1:12 mark a turning point in the time of Jeconiah, and 1:17 names that same turning point twice: as the end of the second set and as the start of the third. Read the middle of 1:17.",
+        "takeaway": "Matthew counts fourteen generations from David until the captivity in Babylon, and fourteen more from the captivity to the Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-luk-0001",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 1",
+      "topics": [
+        "before-bethlehem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zacharias asked the angel, “How shall I know this?” and was told he would be mute until the promise came true (1:18-20). Mary also received an angel’s message. In 1:45, how does Elizabeth describe Mary?",
+        "child": "When an angel told Zacharias he would have a son, Zacharias asked how he could be sure, and he could not speak for months. Later, what did Elizabeth say about Mary?",
+        "teen": "Luke 1 sets two people who heard from Gabriel side by side. Zacharias’ response is in 1:18-20. How does Elizabeth describe Mary in 1:45?",
+        "older": "Compare Luke 1:18-20 with 1:45. In 1:45, how does Elizabeth describe Mary?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blessed is she who waited long"
+        },
+        {
+          "id": "b",
+          "text": "Blessed is she who kept silent"
+        },
+        {
+          "id": "c",
+          "text": "Blessed is she among the poor"
+        },
+        {
+          "id": "d",
+          "text": "Blessed is she who believed"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 1:18",
+            "text": "And Zacharias said to the angel, “How shall I know this? For I am an old man, and my wife is well advanced in years.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 1:20",
+            "text": "But behold, you will be mute and not able to speak until the day these things take place, because you did not believe my words which will be fulfilled in their own time.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 1:45",
+            "text": "Blessed is she who believed, for there will be a fulfillment of those things which were told her from the Lord.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first clause of Luke 1:45, then compare the end of 1:20.",
+          "child": "Look at the very start of Luke 1:45. Elizabeth begins with a blessing on Mary. Then look back at the reason Gabriel gave Zacharias at the end of 1:20.",
+          "teen": "1:18 is Zacharias’ question and 1:20 gives the reason for his silence. Read the first clause of 1:45 against the last clause of 1:20.",
+          "older": "The first clause of 1:45 answers the last clause of 1:20."
+        },
+        "extended_explanation": "Gabriel brought both Zacharias and Mary astonishing news. Zacharias asked how he could know this (1:18), and 1:20 says why he would be unable to speak until the promise was fulfilled. Mary said, “Let it be to me according to your word” (1:38). When Mary visited, Elizabeth spoke of her in 1:45 and added that there would be a fulfillment of what the Lord had told her. Compare the end of 1:20 with the start of 1:45.",
+        "takeaway": "Zacharias was silenced because he did not believe; Elizabeth said of Mary, “Blessed is she who believed.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

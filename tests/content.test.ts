@@ -190,6 +190,36 @@ describe("sample content", () => {
     expect(growingIds).not.toContain("c2-act-0001");
     expect(growingIds).not.toContain("c2-act-0002");
 
+    const established = pathFile.stages.find((stage) => stage.stage === "Established");
+    const establishedBadges = established?.badges ?? [];
+    const establishedIds = establishedBadges.flatMap((badge) => badge.questionIds);
+    expect(establishedBadges).toHaveLength(29);
+    expect(establishedBadges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(establishedIds).toHaveLength(232);
+    expect(new Set(establishedIds).size).toBe(232);
+    expect(establishedBadges.find((badge) => badge.id === "established-isaac")?.questionIds).toEqual([
+      "c1-gen-0061",
+      "c2-gen-0016",
+      "c2-gen-0017",
+      "c2-gen-0018",
+      "c2-gen-0019",
+      "c2-gen-0020",
+      "c3-gen-0001",
+      "c3-gen-0002",
+    ]);
+    expect(establishedBadges.find((badge) => badge.id === "established-love")?.questionIds).toEqual([
+      "c1-1jn-0001",
+      "c2-1jn-0001",
+      "c2-1jn-0002",
+      "c2-1jn-0003",
+      "c2-1jn-0004",
+      "c2-1jn-0005",
+      "c3-1jn-0001",
+      "c3-1jn-0002",
+    ]);
+    expect(establishedIds).not.toContain("c3-pro-0001");
+    expect(establishedIds).not.toContain("c2-act-0001");
+
     const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
     const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
     for (const mascot of mascots) {
@@ -385,6 +415,94 @@ describe("sample content", () => {
     );
   });
 
+  it("plays the approved Established line after a miss and a correct retry", () => {
+    const { questions, lines } = loadCatalog();
+    const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
+      stages: { stage: string; badges: { id: string; questionIds: string[] }[] }[];
+    };
+    const establishedIds =
+      pathFile.stages.find((stage) => stage.stage === "Established")?.badges.flatMap((badge) => badge.questionIds) ??
+      [];
+    expect(establishedIds).toHaveLength(232);
+    expect(new Set(establishedIds).size).toBe(232);
+    expect(questions.filter((question) => establishedIds.includes(question.id))).toHaveLength(232);
+    expect(questions.find((question) => question.id === "c1-gen-0061")?.stage).toBe("Established");
+    const pathLines = linesForPathPlay(lines);
+    const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
+    const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
+    const approved: Record<(typeof mascots)[number], Record<string, string>> = {
+      judah: {},
+      agnes: {},
+      shalom: {},
+      zion: {},
+      hunter: {},
+    };
+
+    for (const mascot of mascots) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "established_lines.json");
+      const source = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+      approved[mascot] = source;
+      expect(Object.keys(source)).toHaveLength(establishedIds.length);
+      expect(new Set(Object.keys(source))).toEqual(new Set(establishedIds));
+      const owned = lines.filter(
+        (line) =>
+          line.mascot === mascot &&
+          establishedIds.includes(line.question_id ?? "") &&
+          line.id.startsWith(`${mascot}-established-`),
+      );
+      expect(owned).toHaveLength(232 * moments.length);
+      expect(new Set(owned.map((line) => line.text)).size).toBe(232);
+      expect(
+        owned.every(
+          (line) => line.audience === "all" && line.audio_file === null && line.text === source[line.question_id ?? ""],
+        ),
+      ).toBe(true);
+    }
+
+    const playback = lines.filter((line) => line.id.includes("-established-"));
+    expect(playback).toHaveLength(232 * mascots.length * moments.length);
+    expect(new Set(playback.map((line) => `${line.mascot}:${line.question_id}`)).size).toBe(1160);
+    expect(lines.filter((line) => line.id.includes("-rooted-"))).toHaveLength(200 * mascots.length * moments.length);
+
+    const missed = "c1-gen-0061";
+    for (const mascot of mascots) {
+      expect(pickMascotLine(pathLines, mascot, "wrong_intro", "child", { questionId: missed })?.text).toBe(
+        approved[mascot][missed],
+      );
+      expect(pickMascotLine(pathLines, mascot, "correct_after_retry", "older", { questionId: missed })?.text).toBe(
+        approved[mascot][missed],
+      );
+      expect(pickMascotLine(pathLines, mascot, "correct", "adult", { questionId: missed })?.text).toBe(
+        approved[mascot][missed],
+      );
+    }
+    expect(approved.agnes[missed]).toBe(
+      "Hagar was alone in the wilderness when the LORD spoke to her by a spring. Let's read Genesis 16:13 together.",
+    );
+    expect(approved.judah[missed]).toBe(
+      "Hagar had fled into the wilderness, and the LORD spoke to her by a spring of water. Let's read Genesis 16:13 together.",
+    );
+    expect(approved.agnes["c3-pro-0001"]).toBeUndefined();
+    expect(approved.agnes["c2-act-0001"]).toBeUndefined();
+    expect(pickMascotLine(lines, "agnes", "correct", "child", { questionId: "c1-gen-0020" })?.text).toBe(
+      "This is the very beginning of God's story. Let's read Genesis 1:3.",
+    );
+  });
+
+  it("keeps each established line file byte for byte", () => {
+    const hashes: Record<string, string> = {
+      agnes: "bd4bbba49ce5618489dc95d2531536c33678f805b2998d2bf0e1a738a2177715",
+      hunter: "e61a478a0045bf8fcf2e34c45202759f1a4bdd61acc5be86ddda040c1913e8bc",
+      judah: "da03b743bd6943beb086f52053fe8906533b80cb62a16854cc50616aadb25964",
+      shalom: "e132e53eef64fba96880dda99be324f570add6f15180a6e05eadcd08c9b68f7e",
+      zion: "63ed1eb10edc66f12ccdd7172009419c6351f805d44b17cca832374239899217",
+    };
+    for (const [mascot, hash] of Object.entries(hashes)) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "established_lines.json");
+      expect(createHash("sha256").update(fs.readFileSync(file)).digest("hex")).toBe(hash);
+    }
+  });
+
   it("keeps each rooted line file byte for byte", () => {
     const hashes: Record<string, string> = {
       agnes: "a2eea2a1624602370a402ed7963a9434ffd34e748772bc804b334eb3aea6995b",
@@ -525,6 +643,40 @@ describe("schema rejects a bad file", () => {
     expect(result.errors).toContain("Rooted question c2-act-0002 is missing a correct line for agnes");
     expect(result.errors).toContain("Rooted question c2-act-0002 is missing a wrong_intro line for agnes");
     expect(result.errors).toContain("Rooted question c2-act-0002 is missing a correct_after_retry line for agnes");
+  });
+
+  it("fails when an Established question is missing one guide's answer line", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "established_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    delete lines["c1-gen-0061"];
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("Established question c1-gen-0061 is missing a correct line for agnes");
+    expect(result.errors).toContain("Established question c1-gen-0061 is missing a wrong_intro line for agnes");
+    expect(result.errors).toContain("Established question c1-gen-0061 is missing a correct_after_retry line for agnes");
+  });
+
+  it("fails when an established line names a question outside Established", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "established_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    lines["c1-gen-0020"] = "This seed question does not belong in the established file.";
+    lines["c1-dan-0001"] = "This sprout question does not belong in the established file.";
+    lines["c1-missing-0001"] = "Nobody wrote this question.";
+    lines["c3-pro-0001"] = "The leftover wisdom question is not on an Established badge.";
+    lines["c2-act-0001"] = "The leftover church question is not on an Established badge.";
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("content/mascots/agnes/established_lines.json: c1-gen-0020 is not a Established question");
+    expect(result.errors).toContain("content/mascots/agnes/established_lines.json: c1-dan-0001 is not a Established question");
+    expect(result.errors).toContain("content/mascots/agnes/established_lines.json: c1-missing-0001 references unknown question");
+    expect(result.errors).toContain("content/mascots/agnes/established_lines.json: c3-pro-0001 is not a Established question");
+    expect(result.errors).toContain("content/mascots/agnes/established_lines.json: c2-act-0001 is not a Established question");
   });
 
   it("fails when a rooted line names a question outside Rooted", () => {

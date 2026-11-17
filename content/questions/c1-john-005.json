@@ -1,0 +1,537 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jhn-0032",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 13",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before the Feast of the Passover, Jesus rose from supper and laid aside His garments. According to 13:4, what did He take and gird Himself with?",
+        "child": "At supper with His disciples, Jesus got up and took off His outer clothes. What did He wrap around Himself?",
+        "teen": "In John 13:4-5, Jesus gets ready to wash the disciples’ feet. What does He tie around Himself?",
+        "older": "According to John 13:4, what did Jesus take and gird Himself with after laying aside His garments?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A robe"
+        },
+        {
+          "id": "b",
+          "text": "A towel"
+        },
+        {
+          "id": "c",
+          "text": "A linen cloak"
+        },
+        {
+          "id": "d",
+          "text": "A leather belt"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 13:4",
+            "text": "rose from supper and laid aside His garments, took a towel and girded Himself.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 13:5",
+            "text": "After that, He poured water into a basin and began to wash the disciples’ feet, and to wipe them with the towel with which He was girded.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 13:4 lists what Jesus did, one action after the next. Read the words after “laid aside His garments.”",
+          "child": "Look at the end of John 13:4. After Jesus laid aside His garments, it says what He took. John 13:5 mentions it again.",
+          "teen": "13:4 has three actions. Read the last one. 13:5 shows what He used it for.",
+          "older": "The item is named after “took” in 13:4 and again at the end of 13:5."
+        },
+        "extended_explanation": "John 13:1-3 says Jesus knew His hour had come and that He had come from God and was going to God. In 13:4 He rises from supper, lays aside His garments, takes something, and girds Himself with it. In 13:5 He pours water into a basin, washes the disciples’ feet, and wipes them with what He had girded Himself with. Read the end of 13:4.",
+        "takeaway": "Jesus took a towel and girded Himself, then washed the disciples’ feet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jhn-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 13",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus came to Simon Peter to wash his feet, Peter asked, “Lord, are You washing my feet?” What did Peter then declare in 13:8?",
+        "child": "When Jesus got to Peter, Peter could not believe Jesus was going to wash his feet. What did Peter say?",
+        "teen": "In John 13:8, Peter protests before Jesus washes his feet. What does he say?",
+        "older": "According to John 13:8, what did Peter say to Jesus about washing his feet?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Let me wash Your feet first, Lord!"
+        },
+        {
+          "id": "b",
+          "text": "Lord, I am not worthy of this!"
+        },
+        {
+          "id": "c",
+          "text": "You shall never wash my feet!"
+        },
+        {
+          "id": "d",
+          "text": "Wash the others’ feet before mine!"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 13:6",
+            "text": "Then He came to Simon Peter. And Peter said to Him, “Lord, are You washing my feet?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 13:8",
+            "text": "Peter said to Him, “You shall never wash my feet!” Jesus answered him, “If I do not wash you, you have no part with Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 13:8 begins “Peter said to Him.” Read the words inside the first quotation marks.",
+          "child": "Look at the start of John 13:8. Peter’s words come first, then Jesus replies.",
+          "teen": "13:6 is Peter’s question. In 13:8, read Peter’s statement before Jesus’ reply.",
+          "older": "Peter’s words are the first quotation in 13:8."
+        },
+        "extended_explanation": "In 13:6 Peter is surprised that Jesus would wash his feet, and in 13:7 Jesus says Peter will understand later. In 13:8 Peter makes a strong statement, and Jesus replies, “If I do not wash you, you have no part with Me.” Read Peter’s words at the start of 13:8.",
+        "takeaway": "Peter said, “You shall never wash my feet!” and Jesus answered that unless He washed him, Peter would have no part with Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jhn-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 14",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told His disciples, “Let not your heart be troubled,” and said that in His Father’s house are many mansions. According to 14:2, what was He going to do?",
+        "child": "Jesus told His worried disciples that His Father’s house has many rooms. What did He say He was going to do there?",
+        "teen": "In John 14:2, Jesus says He is going away. What does He say He is going to do?",
+        "older": "According to John 14:2, what did Jesus say He was going to do for the disciples?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Build a temple for you"
+        },
+        {
+          "id": "b",
+          "text": "Gather an army for you"
+        },
+        {
+          "id": "c",
+          "text": "Find a new teacher for you"
+        },
+        {
+          "id": "d",
+          "text": "Prepare a place for you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 14:1",
+            "text": "“Let not your heart be troubled; you believe in God, believe also in Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 14:2",
+            "text": "In My Father’s house are many mansions; if it were not so, I would have told you. I go to prepare a place for you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 14:2 ends with “I go to.” Read the words that follow.",
+          "child": "Look at the last sentence of John 14:2. It begins “I go” and tells what Jesus will do.",
+          "teen": "14:1 is the comfort; 14:2 gives the reason. Read the final sentence of 14:2.",
+          "older": "Jesus’ purpose is stated in the last sentence of 14:2."
+        },
+        "extended_explanation": "In 14:1 Jesus tells His troubled disciples to believe in God and in Him. In 14:2 He says there are many mansions in His Father’s house, and that if it were not so He would have told them. The last sentence of 14:2 says why He is going, and 14:3 promises that He will come again and receive them. Read the end of 14:2.",
+        "takeaway": "Jesus said, “I go to prepare a place for you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jhn-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 14",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said, “And where I go you know, and the way you know” (14:4). Which disciple replied, “Lord, we do not know where You are going, and how can we know the way?”",
+        "child": "Jesus told the disciples they knew where He was going. One disciple said they did not know where He was going or the way there. Who said that?",
+        "teen": "In John 14:5 one disciple admits he does not understand where Jesus is going. Who?",
+        "older": "According to John 14:5, which disciple said, “Lord, we do not know where You are going”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thomas"
+        },
+        {
+          "id": "b",
+          "text": "Philip"
+        },
+        {
+          "id": "c",
+          "text": "Andrew"
+        },
+        {
+          "id": "d",
+          "text": "Nathanael"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 14:4",
+            "text": "And where I go you know, and the way you know.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 14:5",
+            "text": "Thomas said to Him, “Lord, we do not know where You are going, and how can we know the way?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 14:5 begins with the speaker’s name. Read the first word of the verse.",
+          "child": "Look at the very start of John 14:5. The disciple is named before his words.",
+          "teen": "14:4 is Jesus’ statement. 14:5 names who replied. Read the opening of 14:5.",
+          "older": "The speaker is named at the opening of 14:5."
+        },
+        "extended_explanation": "Jesus had spoken of His Father’s house and of coming again (14:2-3), and in 14:4 He told them they knew where He was going and the way. In 14:5 one disciple says honestly that they do not know, and asks how they can know the way. The speaker is named at the start of the verse.",
+        "takeaway": "Thomas said, “Lord, we do not know where You are going, and how can we know the way?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jhn-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 15",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus told the disciples, “Abide in Me, and I in you” (15:4). According to 15:5, what did He say about a disciple’s work apart from Him?",
+        "child": "Jesus said His followers are like branches that must stay joined to Him. What did He say about trying to work on their own?",
+        "teen": "John 15:4 calls the disciples to abide. John 15:5 ends with a reason beginning “for.” What reason does Jesus give?",
+        "older": "According to the last clause of John 15:5, what did Jesus say about the disciples’ ability apart from Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You can do very little on your own"
+        },
+        {
+          "id": "b",
+          "text": "Without Me you can do nothing"
+        },
+        {
+          "id": "c",
+          "text": "You can do only small things"
+        },
+        {
+          "id": "d",
+          "text": "You can do everything you ask of Him"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 15:4",
+            "text": "Abide in Me, and I in you. As the branch cannot bear fruit of itself, unless it abides in the vine, neither can you, unless you abide in Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 15:5",
+            "text": "“I am the vine, you are the branches. He who abides in Me, and I in him, bears much fruit; for without Me you can do nothing.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 15:5 ends with a clause that begins “for.” Read that last clause.",
+          "child": "Look at the very end of John 15:5, after Jesus speaks of the one who abides in Him.",
+          "teen": "15:4 says a branch must abide in the vine. Read the final clause of 15:5.",
+          "older": "The final clause of 15:5, after “for,” states it."
+        },
+        "extended_explanation": "In 15:4 Jesus tells the disciples to abide in Him, as a branch abides in the vine. In 15:5 He says the one who abides in Him and He in him bears much, and then gives the reason with “for.” The last clause says what the disciples can do apart from Him. Read the end of 15:5.",
+        "takeaway": "Jesus said, “Without Me you can do nothing.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jhn-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 15",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus said, “You are My friends if you do whatever I command you” (15:14). According to 15:15, what did He say He no longer called them?",
+        "child": "Jesus told the disciples they were His friends. What did He say He would no longer call them?",
+        "teen": "John 15:14 and 15:15 describe a change in what Jesus calls the disciples. What does He no longer call them?",
+        "older": "According to John 15:15, what did Jesus say He no longer called His disciples?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Children"
+        },
+        {
+          "id": "b",
+          "text": "Strangers"
+        },
+        {
+          "id": "c",
+          "text": "Servants"
+        },
+        {
+          "id": "d",
+          "text": "Followers"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 15:14",
+            "text": "You are My friends if you do whatever I command you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 15:15",
+            "text": "No longer do I call you servants, for a servant does not know what his master is doing; but I have called you friends, for all things that I heard from My Father I have made known to you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 15:15 begins “No longer do I call you.” Read the words that follow.",
+          "child": "Look at the first words of John 15:15. Jesus says what He no longer calls them, and then explains why.",
+          "teen": "15:14 says what makes them friends. 15:15 opens with what Jesus no longer calls them. Read the first clause.",
+          "older": "The first clause of 15:15 names it, and the next clause explains the difference."
+        },
+        "extended_explanation": "In 15:13 Jesus speaks of laying down one’s life for one’s friends, and in 15:14 He tells the disciples they are His friends if they do what He commands. In 15:15 He says what He no longer calls them and explains the difference: He has made known to them all things He heard from His Father. Read the opening of 15:15.",
+        "takeaway": "Jesus said He no longer called them servants, but friends."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jhn-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 17",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In His prayer in John 17, Jesus asks the same thing for His followers in 17:11, 17:21, and 17:22. What is it?",
+        "child": "When Jesus prayed for His followers in John 17, He asked for one thing again and again. What was it?",
+        "teen": "A request repeats through John 17:11, 21, and 22. What does Jesus keep asking for His followers?",
+        "older": "In John 17:11, 21, and 22, what does Jesus repeatedly ask for His followers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That they may be rich in the world"
+        },
+        {
+          "id": "b",
+          "text": "That they may leave the world with Him"
+        },
+        {
+          "id": "c",
+          "text": "That they may rule the nations"
+        },
+        {
+          "id": "d",
+          "text": "That they may be one"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 17:11",
+            "text": "Now I am no longer in the world, but these are in the world, and I come to You. Holy Father, keep through Your name those whom You have given Me, that they may be one as We are.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 17:21",
+            "text": "that they all may be one, as You, Father, are in Me, and I in You; that they also may be one in Us, that the world may believe that You sent Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 17:22",
+            "text": "And the glory which You gave Me I have given them, that they may be one just as We are one:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of John 17:11, after “those whom You have given Me.” Then find the same words in 17:21 and 17:22.",
+          "child": "Look at the end of John 17:11. Jesus asks for something, and He asks for it again near the start of 17:21 and at the end of 17:22.",
+          "teen": "The repeated request is in all three verses. Compare the end of 17:11, the start of 17:21, and the end of 17:22.",
+          "older": "The same clause appears in 17:11, 17:21, and 17:22; compare each with “as We are.”"
+        },
+        "extended_explanation": "In John 17 Jesus prays first for His disciples (17:9-19) and then for all who will believe through their word (17:20). In 17:11 He asks the Father to keep them through His name, and states a request. In 17:21 He repeats it for all believers and adds a reason: that the world may believe the Father sent Him. In 17:22 He says He has given them glory for the same purpose. Read the end of 17:11 and compare 17:21-22.",
+        "takeaway": "Jesus prayed again and again that His followers may be one, as He and the Father are one."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jhn-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 13",
+      "topics": [
+        "upper-room"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 13:1 says Jesus loved His own to the end, and in 17:26 He prays that the Father’s love may be in them. What did He command in 15:12?",
+        "child": "Jesus showed His disciples His love right to the end, and He prayed that God’s love would be in them. What did He command them to do?",
+        "teen": "Love is shown in John 13:1, prayed for in 17:26, and commanded in 15:12. What is the command?",
+        "older": "Compare John 13:1 and 17:26 with 15:12. What does Jesus command in 15:12?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Love one another"
+        },
+        {
+          "id": "b",
+          "text": "Love your neighbor as yourself"
+        },
+        {
+          "id": "c",
+          "text": "Love the Father above all"
+        },
+        {
+          "id": "d",
+          "text": "Love those who love you"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 13:1",
+            "text": "Now before the Feast of the Passover, when Jesus knew that His hour had come that He should depart from this world to the Father, having loved His own who were in the world, He loved them to the end.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 15:12",
+            "text": "This is My commandment, that you love one another as I have loved you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 17:26",
+            "text": "And I have declared to them Your name, and will declare it, that the love with which You loved Me may be in them, and I in them.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "John 15:12 begins “This is My commandment.” Read the words after “that you.”",
+          "child": "Look at John 15:12. After “This is My commandment, that you,” Jesus gives the command and then says how.",
+          "teen": "13:1 shows the love and 17:26 prays for it. In 15:12, read the command and the measure that follows “as.”",
+          "older": "The command follows “that you” in 15:12, and the measure follows “as I have loved you.”"
+        },
+        "extended_explanation": "John 13:1 says that Jesus, knowing His hour had come, loved His own who were in the world to the end, and then He washed their feet as an example (13:14-15). In 15:12 He gives His commandment and its measure, “as I have loved you,” and in 15:13 He speaks of laying down one’s life for one’s friends. In 17:26 He prays that the love with which the Father loved Him may be in them. Read the command in 15:12 after “that you.”",
+        "takeaway": "Jesus loved His own to the end, prayed that the Father’s love would be in them, and commanded them to love one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

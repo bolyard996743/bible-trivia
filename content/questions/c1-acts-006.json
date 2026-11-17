@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-act-0031",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 6",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the number of the disciples was multiplying, the Hellenists brought a complaint against the Hebrews. According to Acts 6:1, what was the complaint about?",
+        "child": "As the church in Jerusalem got bigger, one group of believers complained. What was the problem?",
+        "teen": "Acts 6:1 describes a complaint that arose as the disciples multiplied. What caused it?",
+        "older": "According to Acts 6:1, why did the Hellenists complain against the Hebrews?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their children were not taught"
+        },
+        {
+          "id": "b",
+          "text": "Their elders were not heard"
+        },
+        {
+          "id": "c",
+          "text": "Their widows were neglected"
+        },
+        {
+          "id": "d",
+          "text": "Their homes were taken away"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 6:1",
+            "text": "Now in those days, when the number of the disciples was multiplying, there arose a complaint against the Hebrews by the Hellenists, because their widows were neglected in the daily distribution.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 6:1 names the complaint and then gives its cause after the word “because.” Read that clause to the end of the verse.",
+          "child": "Look at the second half of Acts 6:1. The word “because” introduces the reason for the complaint.",
+          "teen": "6:1 sets the scene, then states the cause. Read everything after “because.”",
+          "older": "The cause follows “because” in 6:1; 6:2-3 show how the twelve responded."
+        },
+        "extended_explanation": "In the early days in Jerusalem, the number of disciples kept multiplying. A complaint arose between two groups of believers, the Hellenists and the Hebrews, and Acts 6:1 states the cause after “because.” The twelve responded by asking the disciples to choose seven men to oversee the matter (6:2-3), and the saying pleased the whole multitude (6:5). Read the second half of 6:1.",
+        "takeaway": "The Hellenists complained because their widows were neglected in the daily distribution."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-act-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 6",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The twelve asked the disciples to seek out seven men of good reputation to put over the daily distribution (6:3). According to 6:4, what would the apostles give themselves to continually?",
+        "child": "The apostles asked the believers to choose seven men to take charge of the daily distribution. What did the apostles say they themselves would keep doing?",
+        "teen": "In Acts 6:3-4 the twelve hand one task to seven chosen men so they can focus on something else. What?",
+        "older": "According to Acts 6:4, to what did the apostles say they would give themselves continually?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Prayer and the ministry of the word"
+        },
+        {
+          "id": "b",
+          "text": "Visiting the sick in their homes"
+        },
+        {
+          "id": "c",
+          "text": "Collecting gifts for the poor"
+        },
+        {
+          "id": "d",
+          "text": "Teaching the law in the synagogues daily"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 6:3",
+            "text": "Therefore, brethren, seek out from among you seven men of good reputation, full of the Holy Spirit and wisdom, whom we may appoint over this business;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 6:4",
+            "text": "but we will give ourselves continually to prayer and to the ministry of the word.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 6:4 begins with “but we will give ourselves continually.” Read the words that follow, to the end of the verse.",
+          "child": "Look at Acts 6:4. After the apostles say what the seven men will do, they say what they will keep doing. Read the whole verse.",
+          "teen": "6:3 is the job for the seven; 6:4 is the apostles’ own focus. Read 6:4 to the end.",
+          "older": "The apostles’ continual work is named in 6:4, set against serving tables in 6:2."
+        },
+        "extended_explanation": "The twelve did not want to set aside their own calling to serve tables (6:2). So they asked the disciples to seek out seven men of good reputation, full of the Holy Spirit and wisdom, to appoint over this business (6:3). In 6:4 they say what they themselves would give themselves to continually. The saying pleased the whole multitude, and they chose Stephen and six others (6:5). Read 6:4.",
+        "takeaway": "The apostles gave themselves continually to prayer and the ministry of the word, while seven men served the daily distribution."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-act-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 6",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "False witnesses told the council that Stephen did not cease to speak blasphemous words against the holy place and the law (6:13). According to 6:15, what did all who sat in the council see as they looked steadfastly at him?",
+        "child": "People lied about Stephen in front of the council. When the council members stared at him, what did they see?",
+        "teen": "In Acts 6:15, the council fixes its eyes on Stephen while he is being accused. What do they see?",
+        "older": "According to Acts 6:15, what did all who sat in the council see when they looked at Stephen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His hands lifted up in prayer"
+        },
+        {
+          "id": "b",
+          "text": "His eyes filled with tears of grief"
+        },
+        {
+          "id": "c",
+          "text": "His clothes torn in mourning"
+        },
+        {
+          "id": "d",
+          "text": "His face as the face of an angel"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 6:13",
+            "text": "They also set up false witnesses who said, “This man does not cease to speak blasphemous words against this holy place and the law;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 6:15",
+            "text": "And all who sat in the council, looking steadfastly at him, saw his face as the face of an angel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 6:15 ends with what the council saw. Read the words after “saw.”",
+          "child": "Look at the end of Acts 6:15. It says what the council members saw when they looked steadily at Stephen.",
+          "teen": "6:13 is the accusation; 6:15 is what the council noticed. Read the last part of 6:15.",
+          "older": "The council’s view of Stephen is described at the close of 6:15."
+        },
+        "extended_explanation": "Men from the Synagogue of the Freedmen disputed with Stephen but could not resist the wisdom and the Spirit by which he spoke (6:9-10). They stirred up the people and brought him to the council, where false witnesses accused him (6:12-13). In 6:15 everyone in the council looked steadfastly at him, and Luke records what they saw. Read the end of 6:15.",
+        "takeaway": "All who sat in the council saw his face as the face of an angel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-act-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 7",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After his speech, Stephen gazed into heaven and saw the glory of God. According to 7:55-56, how did he describe where Jesus was?",
+        "child": "As Stephen looked up into heaven, he saw Jesus. Where was Jesus, and what was He doing?",
+        "teen": "In Acts 7:55-56 Stephen tells the council what he sees in heaven. Where is the Son of Man?",
+        "older": "According to Acts 7:55-56, where did Stephen see Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seated on a throne above the clouds"
+        },
+        {
+          "id": "b",
+          "text": "Standing at the right hand of God"
+        },
+        {
+          "id": "c",
+          "text": "Kneeling before the throne of God"
+        },
+        {
+          "id": "d",
+          "text": "Riding on a white horse in the sky"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 7:55",
+            "text": "But he, being full of the Holy Spirit, gazed into heaven and saw the glory of God, and Jesus standing at the right hand of God,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 7:56",
+            "text": "and said, “Look! I see the heavens opened and the Son of Man standing at the right hand of God!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 7:55 tells what Stephen saw after “the glory of God, and Jesus.” Read the rest of the verse, then compare the end of 7:56.",
+          "child": "Look at the end of Acts 7:55. It shows where Jesus was. Stephen says the same thing in his own words at the end of 7:56.",
+          "teen": "Luke describes the scene in 7:55; Stephen describes it in 7:56. Both verses end with the same picture.",
+          "older": "The closing words of 7:55 and 7:56 both describe it."
+        },
+        "extended_explanation": "When the council heard Stephen’s speech, they were cut to the heart (7:54). Stephen looked steadily into heaven and saw the glory of God (7:55). Luke records what else he saw, and in 7:56 Stephen tells the council what he sees. Both verses end the same way. Read the end of 7:55 and the end of 7:56.",
+        "takeaway": "Stephen saw Jesus standing at the right hand of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-act-0013",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 10",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 10:2 says Cornelius gave alms generously to the people and prayed to God always. According to the angel in 10:4, what had his prayers and his alms come up for?",
+        "child": "Cornelius, a Roman centurion, gave generously to people in need and prayed to God all the time. What did the angel say his prayers and gifts had come up for?",
+        "teen": "In Acts 10:4 an angel speaks to Cornelius about his prayers and alms. What does the angel say they have come up for?",
+        "older": "According to Acts 10:4, what had Cornelius’ prayers and alms come up for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A memorial before God"
+        },
+        {
+          "id": "b",
+          "text": "A debt still to be paid"
+        },
+        {
+          "id": "c",
+          "text": "A test he had not yet passed"
+        },
+        {
+          "id": "d",
+          "text": "A sign for the people of Joppa"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 10:2",
+            "text": "a devout man and one who feared God with all his household, who gave alms generously to the people, and prayed to God always.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 10:4",
+            "text": "And when he observed him, he was afraid, and said, “What is it, lord?” So he said to him, “Your prayers and your alms have come up for a memorial before God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 10:4 ends with the angel’s words about Cornelius’ prayers and alms. Read the words after “have come up for.”",
+          "child": "Look at the last sentence of Acts 10:4. The angel tells Cornelius what his prayers and alms have come up for.",
+          "teen": "10:2 describes how Cornelius lived; 10:4 tells how God regarded it. Read the end of 10:4.",
+          "older": "The angel’s statement at the close of 10:4 names it; compare 10:31."
+        },
+        "extended_explanation": "Cornelius was a centurion in Caesarea, a devout man who feared God with all his household, gave alms generously, and prayed to God always (10:1-2). About the ninth hour an angel of God came to him in a vision. Cornelius was afraid and asked, “What is it, lord?” The angel’s reply in 10:4 says how God regarded his prayers and alms, and then he tells Cornelius to send for Peter (10:5). Read the end of 10:4.",
+        "takeaway": "The angel said Cornelius’ prayers and alms had come up for a memorial before God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-act-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 11",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Peter came up to Jerusalem, those of the circumcision contended with him for eating with uncircumcised men (11:2-3). After he explained what happened, they glorified God. According to 11:18, what did they say God had also granted to the Gentiles?",
+        "child": "Some believers in Jerusalem were upset that Peter ate with people who were not Jewish. After Peter told them the whole story, they praised God. What did they say God had given the Gentiles too?",
+        "teen": "Acts 11:3 records a complaint against Peter, and 11:18 records how the same group responded after hearing him. What did they say God had granted the Gentiles?",
+        "older": "According to Acts 11:18, what did those in Jerusalem say God had also granted to the Gentiles?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A place among the elders"
+        },
+        {
+          "id": "b",
+          "text": "Freedom from the law of Moses"
+        },
+        {
+          "id": "c",
+          "text": "Repentance to life"
+        },
+        {
+          "id": "d",
+          "text": "A share in the temple"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 11:3",
+            "text": "saying, “You went in to uncircumcised men and ate with them!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 11:18",
+            "text": "When they heard these things they became silent; and they glorified God, saying, “Then God has also granted to the Gentiles repentance to life.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 11:18 ends with their words of praise. Read the quotation to the end, after “granted to the Gentiles.”",
+          "child": "Look at the end of Acts 11:18. The people became silent, glorified God, and then said what God had granted the Gentiles.",
+          "teen": "11:3 is the complaint; 11:18 is the change of heart. Read the last words of their statement in 11:18.",
+          "older": "Their conclusion is quoted at the end of 11:18."
+        },
+        "extended_explanation": "Peter had gone into Cornelius’ house and eaten with Gentiles, and those of the circumcision objected (11:2-3). Peter explained it in order from the beginning: the vision of the sheet, the three men from Caesarea, and what happened as he began to speak in Cornelius’ house (11:4-15). He asked, “who was I that I could withstand God?” (11:17). In 11:18 his listeners became silent, glorified God, and said what God had granted. Read the end of 11:18.",
+        "takeaway": "They said, “Then God has also granted to the Gentiles repentance to life.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-act-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 15",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The council’s letter said that some who went out from Jerusalem had troubled the Gentile believers by telling them they must be circumcised and keep the law (15:24). According to 15:28, it seemed good to whom to lay on them no greater burden than a few necessary things?",
+        "child": "Leaders in Jerusalem wrote a letter to Gentile believers who had been told they must keep the law of Moses. The letter said its decision seemed good to whom?",
+        "teen": "Acts 15:24 says some had troubled the Gentiles without any commandment from Jerusalem. In 15:28, to whom does the letter say the decision seemed good?",
+        "older": "According to Acts 15:28, to whom did the decision in the council’s letter seem good?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To James and to the elders"
+        },
+        {
+          "id": "b",
+          "text": "To the Holy Spirit, and to us"
+        },
+        {
+          "id": "c",
+          "text": "To Peter and to the Pharisees"
+        },
+        {
+          "id": "d",
+          "text": "To the high priest and the council"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 15:24",
+            "text": "Since we have heard that some who went out from us have troubled you with words, unsettling your souls, saying, “You must be circumcised and keep the law”—to whom we gave no such commandment—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 15:28",
+            "text": "For it seemed good to the Holy Spirit, and to us, to lay upon you no greater burden than these necessary things:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 15:28 begins with “For it seemed good.” Read the words that come right after, before “to lay upon you.”",
+          "child": "Look at the start of Acts 15:28. The letter names who the decision seemed good to before it lists the necessary things.",
+          "teen": "15:24 says the troublemakers had no commandment from the apostles. 15:28 names who stood behind the letter. Read the opening of 15:28.",
+          "older": "Those named are in the opening clause of 15:28, just after the letter says why it was written."
+        },
+        "extended_explanation": "Certain men from Judea had taught that Gentile believers could not be saved unless they were circumcised (15:1). The apostles and elders met, Peter and James spoke, and the whole church agreed to send a letter with Judas and Silas (15:6-22). The letter says the troublemakers had no commandment from Jerusalem (15:24). In 15:28 it names who the decision seemed good to, and lays on the Gentiles no greater burden than a few necessary things. Read the start of 15:28.",
+        "takeaway": "The letter said it seemed good to the Holy Spirit, and to us, to lay no greater burden on the Gentile believers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-act-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 10",
+      "topics": [
+        "church-expands"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Joppa a voice told Peter, “What God has cleansed you must not call common” (10:15), and in Caesarea Peter said God had shown him not to call any man common or unclean (10:28). At the council in Jerusalem, Peter said God made no distinction between us and them (15:9). How does he say God dealt with the Gentiles’ hearts?",
+        "child": "Peter saw a vision and heard, “What God has cleansed you must not call common.” Later, at the council in Jerusalem, Peter said God made no distinction between Jewish and Gentile believers. How did he say God dealt with the Gentiles’ hearts?",
+        "teen": "Acts 10:15 and 10:28 show Peter learning a lesson in Joppa and Caesarea. In Acts 15:9 he applies it at the council. What does he say God did with the Gentiles’ hearts?",
+        "older": "Compare Acts 10:15 and 10:28 with 15:9. According to 15:9, how did God deal with the hearts of the Gentile believers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Testing their hearts by the law"
+        },
+        {
+          "id": "b",
+          "text": "Hardening their hearts for a time"
+        },
+        {
+          "id": "c",
+          "text": "Judging their hearts by their works"
+        },
+        {
+          "id": "d",
+          "text": "Purifying their hearts by faith"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 10:15",
+            "text": "And a voice spoke to him again the second time, “What God has cleansed you must not call common.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 10:28",
+            "text": "Then he said to them, “You know how unlawful it is for a Jewish man to keep company with or go to one of another nation. But God has shown me that I should not call any man common or unclean.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 15:9",
+            "text": "and made no distinction between us and them, purifying their hearts by faith.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Acts 15:9 has two parts. Read the second part, after “made no distinction between us and them.”",
+          "child": "Look at the end of Acts 15:9. After Peter says God made no distinction, he says what God did with their hearts.",
+          "teen": "10:15 and 10:28 are the lesson; 15:9 is Peter’s summary. Read the last phrase of 15:9 and set it beside the voice’s words in 10:15.",
+          "older": "The closing phrase of 15:9 states it; compare what the voice says God had done in 10:15."
+        },
+        "extended_explanation": "On the housetop in Joppa, Peter saw the sheet let down three times and heard the voice speak of what God had done, which Peter must not call common (10:15-16). In Cornelius’ house he said God had shown him not to call any man common or unclean (10:28). Later, when some insisted that Gentile believers be circumcised, Peter reminded the council that God, who knows the heart, acknowledged the Gentiles by giving them the Holy Spirit (15:8). In 15:9 he says God made no distinction between us and them, and then says how God dealt with their hearts. Read the end of 15:9.",
+        "takeaway": "God made no distinction between Jewish and Gentile believers, purifying their hearts by faith, just as the voice had said what God cleansed must not be called common."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

@@ -67,10 +67,12 @@ describe("stage badge map", () => {
 
     const established = knowledgePath.stages.find((stage) => stage.stage === "Established");
     const finishedIds = established?.badges.flatMap((badge) => badge.questionIds) ?? [];
-    expect(finishedIds.length).toBeGreaterThan(0);
+    expect(finishedIds).toHaveLength(232);
 
     // Placement used to leave cycle and tier past the capped stage, and the map
-    // then drew the next stage because those few questions were already finished.
+    // then drew the next stage because the written questions were already finished.
+    // Every Established badge now has its eight questions, so mastering them
+    // clears the stage gate. The map still stops at the placed stage.
     const placed: GameProgress = {
       ...emptyProgress(2, "advanced"),
       stage: perfect.stage,
@@ -82,7 +84,7 @@ describe("stage badge map", () => {
     expect(visibleMapStages(placed)).toEqual(["Seed", "Sprout", "Rooted", "Growing", "Established"]);
     expect(visibleMapStages(placed)).not.toContain("Fruitful");
     expect(visibleMapStages(placed)).not.toContain("Deep Roots");
-    expect(gateFromBadges(placed).ready).toBe(false);
+    expect(gateFromBadges(placed).ready).toBe(true);
 
     const jonah = knowledgePath.stages
       .find((stage) => stage.stage === "Seed")

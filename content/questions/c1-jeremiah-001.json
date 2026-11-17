@@ -1,0 +1,537 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-jeremiah-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jer-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 1",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The book of Jeremiah opens with the word of the LORD coming to a young man. What does Jeremiah 1:5 say the LORD had ordained him to be?",
+        "child": "Before Jeremiah was even born, God already had a job planned for him. What job did God say He had given him?",
+        "teen": "Jeremiah 1:5 tells what the LORD set Jeremiah apart for before he was born. What was it?",
+        "older": "According to Jeremiah 1:5, what had the LORD ordained Jeremiah to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A prophet to the nations"
+        },
+        {
+          "id": "b",
+          "text": "A priest in the temple"
+        },
+        {
+          "id": "c",
+          "text": "A king over all of Judah"
+        },
+        {
+          "id": "d",
+          "text": "A scribe for the royal court"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 1:4",
+            "text": "Then the word of the LORD came to me, saying:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 1:5",
+            "text": "“Before I formed you in the womb I knew you; Before you were born I sanctified you; I ordained you a prophet to the nations.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 1:5 has three lines. The role is named in the last line, right after “I ordained you.”",
+          "child": "Look at the end of Jeremiah 1:5. Read the words that come right after “I ordained you.”",
+          "teen": "The first two lines of 1:5 say when the LORD knew and set apart Jeremiah. The third line names the role.",
+          "older": "The LORD’s words in 1:5 build to the final clause, which begins “I ordained you.”"
+        },
+        "extended_explanation": "Jeremiah begins with the LORD speaking to Jeremiah himself. In 1:5 the LORD says He knew Jeremiah and set him apart before he was born, and then He names the work He had given him. The final clause of 1:5 states it.",
+        "takeaway": "The LORD said He had ordained Jeremiah a prophet to the nations."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 18",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD sent Jeremiah down to the potter’s house. When the vessel the potter was making of clay was marred in his hand, what did the potter do?",
+        "child": "Jeremiah watched a potter at work. When the clay pot was spoiled in the potter’s hands, what did the potter do with it?",
+        "teen": "In Jeremiah 18:4 a pot is ruined on the potter’s wheel. What does the potter do next?",
+        "older": "According to Jeremiah 18:4, what did the potter do when the vessel was marred in his hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Threw the vessel out and began with new clay"
+        },
+        {
+          "id": "b",
+          "text": "Made it again into another vessel"
+        },
+        {
+          "id": "c",
+          "text": "Sold the vessel in the market as it was"
+        },
+        {
+          "id": "d",
+          "text": "Left the vessel to dry in the sun"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 18:3",
+            "text": "Then I went down to the potter’s house, and there he was, making something at the wheel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 18:4",
+            "text": "And the vessel that he made of clay was marred in the hand of the potter; so he made it again into another vessel, as it seemed good to the potter to make.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 18:4 turns at the word “so.” Read what the potter did after the vessel was marred.",
+          "child": "Look at the second half of Jeremiah 18:4, after the word “so.” It tells what the potter did with the same clay.",
+          "teen": "18:4 has two parts: the problem, then the potter’s response. Read the part after the semicolon.",
+          "older": "The potter’s action follows the semicolon in 18:4 and ends with “as it seemed good to the potter.”"
+        },
+        "extended_explanation": "The LORD told Jeremiah to go to the potter’s house so he could hear His words there. In 18:3 Jeremiah finds the potter at the wheel. In 18:4 the vessel is marred while still in the potter’s hand, and the verse then tells what the potter did with that clay, as seemed good to him. In 18:6 the LORD says Israel is in His hand like the clay. Read the clause after the semicolon in 18:4.",
+        "takeaway": "When the vessel was marred, the potter made it again into another vessel, as it seemed good to him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 36",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Jeremiah to take a scroll and write on it all the words He had spoken. Who actually wrote the words on the scroll as Jeremiah gave them?",
+        "child": "God told Jeremiah to put His words on a scroll. Who did the writing while Jeremiah told him what to write?",
+        "teen": "Jeremiah 36:4 says someone else held the pen while Jeremiah spoke the LORD’s words. Who was it?",
+        "older": "According to Jeremiah 36:4, who wrote the LORD’s words on the scroll at Jeremiah’s instruction?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jehudi"
+        },
+        {
+          "id": "b",
+          "text": "Gemariah"
+        },
+        {
+          "id": "c",
+          "text": "Baruch"
+        },
+        {
+          "id": "d",
+          "text": "Elnathan the son of Achbor"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 36:2",
+            "text": "“Take a scroll of a book and write on it all the words that I have spoken to you against Israel, against Judah, and against all the nations, from the day I spoke to you, from the days of Josiah even to this day.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 36:4",
+            "text": "Then Jeremiah called Baruch the son of Neriah; and Baruch wrote on a scroll of a book, at the instruction of Jeremiah, all the words of the LORD which He had spoken to him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 36:4 says Jeremiah called someone. Read the name right after “Then Jeremiah called.”",
+          "child": "Look at the start of Jeremiah 36:4. Jeremiah called a man to help him, and the verse gives his name and his father’s name.",
+          "teen": "36:2 is the command; 36:4 is how it was carried out. Read whom Jeremiah called, the son of Neriah.",
+          "older": "The writer is named at the opening of 36:4, with his father Neriah."
+        },
+        "extended_explanation": "In 36:2 the LORD commands Jeremiah to write on a scroll all the words He had spoken against Israel, Judah, and the nations, hoping the people would turn from their evil way (36:3). In 36:4 Jeremiah calls a helper, the son of Neriah, who writes on the scroll as Jeremiah gives him the words. Read the name at the opening of 36:4.",
+        "takeaway": "Baruch the son of Neriah wrote the LORD’s words on the scroll at Jeremiah’s instruction."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 38",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah was let down with ropes into a dungeon where there was only mire. Who heard about it and went to speak to the king on Jeremiah’s behalf?",
+        "child": "Jeremiah’s enemies lowered him into a muddy pit. Who went to the king and spoke up for him?",
+        "teen": "In Jeremiah 38, someone from the king’s house goes to King Zedekiah and says the men have done evil to Jeremiah. Who?",
+        "older": "According to Jeremiah 38:7-9, who spoke to the king about Jeremiah being cast into the dungeon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pashhur the son of Malchiah"
+        },
+        {
+          "id": "b",
+          "text": "Gedaliah the son of Pashhur"
+        },
+        {
+          "id": "c",
+          "text": "Jucal the son of Shelemiah"
+        },
+        {
+          "id": "d",
+          "text": "Ebed-Melech the Ethiopian"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 38:7",
+            "text": "Now Ebed-Melech the Ethiopian, one of the eunuchs, who was in the king’s house, heard that they had put Jeremiah in the dungeon. When the king was sitting at the Gate of Benjamin,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 38:9",
+            "text": "“My lord the king, these men have done evil in all that they have done to Jeremiah the prophet, whom they have cast into the dungeon, and he is likely to die from hunger in the place where he is. For there is no more bread in the city.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 38:7 opens with a man who served in the king’s house. Read his name at the start of the verse.",
+          "child": "Look at the first words of Jeremiah 38:7. The man is named and described as one of the eunuchs in the king’s house.",
+          "teen": "38:7 names him and 38:9 gives his words to the king. Read the first line of 38:7.",
+          "older": "The speaker in 38:9 is introduced at the beginning of 38:7."
+        },
+        "extended_explanation": "The princes had asked the king to put Jeremiah to death, and they let him down with ropes into a dungeon with no water, only mire (38:4-6). Then a servant in the king’s house heard what had been done. 38:7 names him, and in 38:9 he tells the king that these men have done evil and that Jeremiah is likely to die of hunger there. Read the opening of 38:7.",
+        "takeaway": "Ebed-Melech the Ethiopian went to the king and spoke up for Jeremiah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 1",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD called him, Jeremiah protested that he could not speak. According to 1:9, what did the LORD do with His hand?",
+        "child": "Jeremiah told God he did not know how to speak. What did God reach out and do?",
+        "teen": "Jeremiah 1:6 is Jeremiah’s objection. In 1:9, the LORD puts forth His hand. What did He do with it?",
+        "older": "Jeremiah 1:6 records his protest; according to 1:9, what did the LORD do after putting forth His hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Touched his mouth"
+        },
+        {
+          "id": "b",
+          "text": "Gave him a rod for signs"
+        },
+        {
+          "id": "c",
+          "text": "Laid it on his head in blessing"
+        },
+        {
+          "id": "d",
+          "text": "Opened the heavens above him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 1:6",
+            "text": "Then said I: “Ah, Lord GOD! Behold, I cannot speak, for I am a youth.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 1:9",
+            "text": "Then the LORD put forth His hand and touched my mouth, and the LORD said to me: “Behold, I have put My words in your mouth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 1:9 begins “Then the LORD put forth His hand.” Read the next few words.",
+          "child": "Look at Jeremiah 1:9. After the LORD put out His hand, the verse says what He did. Then He explains it with “I have put My words.”",
+          "teen": "1:6 is the complaint about speaking. In 1:9, read the words right after “put forth His hand and.”",
+          "older": "The action follows “put forth His hand and” in 1:9, and the LORD’s words explain it."
+        },
+        "extended_explanation": "Jeremiah’s objection in 1:6 is about speaking. The LORD tells him not to say that, for he will go wherever he is sent and speak whatever he is commanded (1:7). Then in 1:9 the LORD acts: He puts forth His hand, and the verse tells what He did, adding, “Behold, I have put My words.” Read the clause after “put forth His hand and” in 1:9.",
+        "takeaway": "The LORD put forth His hand and touched his mouth, saying He had put His words there."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-jer-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 29",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah’s letter to the captives in Babylon speaks of the LORD’s “thoughts of peace and not of evil, to give you a future and a hope” (29:11). According to 29:10, when would the LORD visit them and bring them back?",
+        "child": "God sent a message to His people who had been carried off to Babylon. He promised them a future and a hope. When did He say He would bring them home?",
+        "teen": "Jeremiah 29:11 is often quoted. The verse before it tells the exiles when the LORD would bring them back. When?",
+        "older": "According to Jeremiah 29:10, when would the LORD visit the exiles and cause them to return?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Within two full years"
+        },
+        {
+          "id": "b",
+          "text": "After seventy years at Babylon"
+        },
+        {
+          "id": "c",
+          "text": "As soon as the king of Babylon died"
+        },
+        {
+          "id": "d",
+          "text": "When the letter reached them"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 29:10",
+            "text": "For thus says the LORD: After seventy years are completed at Babylon, I will visit you and perform My good word toward you, and cause you to return to this place.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 29:11",
+            "text": "For I know the thoughts that I think toward you, says the LORD, thoughts of peace and not of evil, to give you a future and a hope.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 29:10 opens with a time phrase before “I will visit you.” Read that opening clause.",
+          "child": "Look at the start of Jeremiah 29:10. Before God says He will visit them, He says when that will be.",
+          "teen": "29:11 gives the promise; 29:10 gives the time. Read the opening clause of 29:10.",
+          "older": "The timing is in the clause that begins 29:10, ahead of “I will visit you and perform My good word.”"
+        },
+        "extended_explanation": "Jeremiah wrote this letter to people already in Babylon. The LORD’s thoughts of peace and a future and a hope in 29:11 come right after 29:10, which tells when He would visit them, perform His good word, and cause them to return to this place. The promise is not that hard days would be skipped, but that the LORD would keep His word to His people in exile. Read the first clause of 29:10.",
+        "takeaway": "The LORD said that after seventy years were completed at Babylon, He would visit His people and bring them back."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jer-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 29",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jeremiah’s letter the LORD says, “I will be found by you” (29:14). According to 29:13, when would the exiles find Him?",
+        "child": "God told His people in Babylon that if they looked for Him, they would find Him. What does 29:13 say about how they would look for Him?",
+        "teen": "Jeremiah 29:12-14 repeats the idea of seeking and finding the LORD. What condition does 29:13 give?",
+        "older": "According to Jeremiah 29:13, when would the people seek the LORD and find Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "When they returned to the land of Judah"
+        },
+        {
+          "id": "b",
+          "text": "When they offered sacrifices once more"
+        },
+        {
+          "id": "c",
+          "text": "When they searched with all their heart"
+        },
+        {
+          "id": "d",
+          "text": "When the temple in Jerusalem stood again"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 29:12",
+            "text": "Then you will call upon Me and go and pray to Me, and I will listen to you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 29:13",
+            "text": "And you will seek Me and find Me, when you search for Me with all your heart.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 29:14",
+            "text": "I will be found by you, says the LORD, and I will bring you back from your captivity; I will gather you from all the nations and from all the places where I have driven you, says the LORD, and I will bring you to the place from which I cause you to be carried away captive.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 29:13 has two parts. Read the part that begins with “when.”",
+          "child": "Look at the end of Jeremiah 29:13. After “seek Me and find Me,” the verse tells when that happens.",
+          "teen": "29:12 promises the LORD will listen and 29:14 says He will be found. The condition is in the second half of 29:13.",
+          "older": "The condition is the last clause of 29:13, after “seek Me and find Me.”"
+        },
+        "extended_explanation": "These verses are part of a letter to the exiles in Babylon. In 29:12 the LORD says they will call on Him and pray, and He will listen. In 29:13 He says they will seek Him and find Him, and the verse names when. In 29:14 He repeats, “I will be found by you,” and promises to bring them back from captivity. Read the last clause of 29:13.",
+        "takeaway": "The LORD said the exiles would find Him when they searched with all their heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-jer-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 36",
+      "topics": [
+        "jeremiah-weeping-prophet"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "King Jehoiakim cut up the scroll of the LORD’s words and burned it, yet Jeremiah had all those words written again on another scroll. In the promise of 31:33, where does the LORD say He will write His law?",
+        "child": "A king cut up God’s scroll and threw it in the fire, but God had the words written down again. In another promise, where did God say He would one day write His law?",
+        "teen": "Jeremiah 36 shows a king trying to destroy God’s words, and 36:32 shows them written again. In the promise of Jeremiah 31:33, where will the LORD write His law?",
+        "older": "Compare Jeremiah 36:23, 32 with 31:33. In 31:33, where does the LORD say He will write His law?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On tablets of stone"
+        },
+        {
+          "id": "b",
+          "text": "On the doorposts of their homes"
+        },
+        {
+          "id": "c",
+          "text": "On the walls of the temple"
+        },
+        {
+          "id": "d",
+          "text": "On their hearts"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 36:23",
+            "text": "And it happened, when Jehudi had read three or four columns, that the king cut it with the scribe’s knife and cast it into the fire that was on the hearth, until all the scroll was consumed in the fire that was on the hearth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 36:32",
+            "text": "Then Jeremiah took another scroll and gave it to Baruch the scribe, the son of Neriah, who wrote on it at the instruction of Jeremiah all the words of the book which Jehoiakim king of Judah had burned in the fire. And besides, there were added to them many similar words.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 31:33",
+            "text": "But this is the covenant that I will make with the house of Israel after those days, says the LORD: I will put My law in their minds, and write it on their hearts; and I will be their God, and they shall be My people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Jeremiah 31:33 names two places the LORD will put His law. Read the clause that begins “and write it.”",
+          "child": "Look at Jeremiah 31:33. God says He will put His law in their minds, and then says where He will write it.",
+          "teen": "36:23 is the fire and 36:32 is the second scroll. In 31:33, read the words after “I will put My law in their minds.”",
+          "older": "The place is named right after “and write it” in 31:33."
+        },
+        "extended_explanation": "In Jeremiah 36 the king cut the scroll with a scribe’s knife and threw it piece by piece into the fire (36:23). But the LORD told Jeremiah to take another scroll, and his scribe wrote all the same words again, with many more added (36:32). In the new covenant promise of 31:33, the LORD says He will put His law in their minds, and then He says where He will write it. Read the clause after “and write it” in 31:33.",
+        "takeaway": "A king could burn a scroll, but the LORD promised to write His law on their hearts."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

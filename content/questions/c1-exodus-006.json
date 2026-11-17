@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-exodus-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-exo-0021",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 32",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While Moses was on the mountain, the people gathered to Aaron and said, “Come, make us gods that shall go before us.” What had they seen that led them to ask?",
+        "child": "While Moses was up on Mount Sinai, the people went to Aaron and asked him to make them gods. What had they noticed that made them ask?",
+        "teen": "Exodus 32:1 explains what set off the people’s demand to Aaron. What had they seen?",
+        "older": "According to Exodus 32:1, what did the people see that caused them to gather to Aaron and ask for gods to go before them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Moses delayed coming down"
+        },
+        {
+          "id": "b",
+          "text": "Moses had told them to choose a leader"
+        },
+        {
+          "id": "c",
+          "text": "Pharaoh’s army was close behind them"
+        },
+        {
+          "id": "d",
+          "text": "Aaron had seen a vision in the night"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 32:1",
+            "text": "Now when the people saw that Moses delayed coming down from the mountain, the people gathered together to Aaron, and said to him, “Come, make us gods that shall go before us; for as for this Moses, the man who brought us up out of the land of Egypt, we do not know what has become of him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 32:1 opens with what the people saw, in the words right after “when the people saw that.” Their complaint at the end of the verse points the same way.",
+          "child": "Look at the very beginning of Exodus 32:1. Read what comes after “when the people saw that.”",
+          "teen": "32:1 gives the cause first and the demand second. Read the opening clause, before “the people gathered together to Aaron.”",
+          "older": "The cause is stated in the opening clause of 32:1, and the people’s own words at the end of the verse repeat the same concern."
+        },
+        "extended_explanation": "Moses had gone up the mountain to receive the LORD’s words, and the people were left waiting below. Exodus 32:1 tells what they noticed and how they reacted, gathering to Aaron with a demand. Read the opening clause of the verse, then compare it with what they say about Moses at the end.",
+        "takeaway": "When the people saw that Moses delayed coming down from the mountain, they asked Aaron to make them gods."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-exo-0014",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 32",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Exodus 32:4 says Aaron took the gold and fashioned it with an engraving tool. When Moses confronted him, how did Aaron describe what happened after he threw the gold into the fire?",
+        "child": "Aaron shaped the gold with a tool, but when Moses asked him what happened, Aaron told a different story. What did he say happened after he threw the gold into the fire?",
+        "teen": "Compare 32:4 with Aaron’s explanation to Moses in 32:24. According to Aaron, what happened once the gold went into the fire?",
+        "older": "Set against Exodus 32:4, what did Aaron claim in 32:24 happened after he cast the gold into the fire?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It melted into nothing"
+        },
+        {
+          "id": "b",
+          "text": "The people shaped it while I slept"
+        },
+        {
+          "id": "c",
+          "text": "This calf came out"
+        },
+        {
+          "id": "d",
+          "text": "An angel formed it in the flames"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 32:4",
+            "text": "And he received the gold from their hand, and he fashioned it with an engraving tool, and made a molded calf. Then they said, “This is your god, O Israel, that brought you out of the land of Egypt!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 32:24",
+            "text": "And I said to them, ‘Whoever has any gold, let them break it off.’ So they gave it to me, and I cast it into the fire, and this calf came out.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Aaron’s account is the last sentence of Exodus 32:24. Read the words right after “I cast it into the fire, and,” then compare them with the engraving tool in 32:4.",
+          "child": "Look at the end of Exodus 32:24. Aaron’s words after “into the fire” tell his version.",
+          "teen": "32:4 shows Aaron working the gold with a tool; 32:24 is his excuse. Read the final clause of his excuse.",
+          "older": "The contrast is between the active work described in 32:4 and the passive wording that closes Aaron’s reply in 32:24."
+        },
+        "extended_explanation": "Exodus 32:4 says plainly that Aaron received the gold, fashioned it with an engraving tool, and made the molded image. When Moses asked what the people had done to him, Aaron blamed the people and then described the making in a very different way. Read the last clause of 32:24 and compare it with 32:4.",
+        "takeaway": "Aaron claimed he threw the gold into the fire “and this calf came out.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-exo-0015",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 32",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses returned to the LORD and confessed that the people had made a god of gold. If the LORD would not forgive their sin, what did Moses ask Him to do?",
+        "child": "Moses went back up to talk with God about the people’s great sin. He asked God to forgive them. But if God would not, what did Moses ask for?",
+        "teen": "In Exodus 32:32, Moses puts himself on the line for the people. What does he ask the LORD to do if He will not forgive them?",
+        "older": "In his intercession in Exodus 32:32, what did Moses ask of the LORD if He would not forgive the people’s sin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Let me die here in the wilderness"
+        },
+        {
+          "id": "b",
+          "text": "Blot me out of Your book"
+        },
+        {
+          "id": "c",
+          "text": "Take my brother Aaron instead"
+        },
+        {
+          "id": "d",
+          "text": "Let me lead them back to Egypt"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 32:31",
+            "text": "Then Moses returned to the LORD and said, “Oh, these people have committed a great sin, and have made for themselves a god of gold!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 32:32",
+            "text": "Yet now, if You will forgive their sin—but if not, I pray, blot me out of Your book which You have written.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Moses’ request comes after the dash in Exodus 32:32, following “but if not, I pray.”",
+          "child": "Look at the second half of Exodus 32:32. Read what Moses asks after “but if not, I pray.”",
+          "teen": "32:31 is the confession; 32:32 has two parts, a hope and a request. Read the request after “I pray.”",
+          "older": "Moses’ sentence in 32:32 breaks off after its first condition; the request after “I pray” is what he offers in its place."
+        },
+        "extended_explanation": "The day after the people’s sin, Moses told them he would go up to the LORD to see if he could make atonement. In 32:31 he confesses their sin plainly. In 32:32 he asks for forgiveness and then makes a costly request for himself. Read the words after “but if not, I pray.”",
+        "takeaway": "Moses asked the LORD to forgive the people, or else to blot him out of His book."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-exo-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 34",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Moses came down from Mount Sinai, the skin of his face shone, and the people were afraid to come near him. When he finished speaking with them, what did he put on his face?",
+        "child": "Moses’ face was shining after he talked with God, and the people were afraid to come close. After he spoke to them, what did Moses put over his face?",
+        "teen": "Moses’ shining face made Aaron and the people afraid to approach. What did Moses put on his face once he finished speaking with them?",
+        "older": "According to Exodus 34:33, what did Moses put on his face after he finished speaking with the children of Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A linen cloth"
+        },
+        {
+          "id": "b",
+          "text": "Ashes and dust"
+        },
+        {
+          "id": "c",
+          "text": "A priest’s turban"
+        },
+        {
+          "id": "d",
+          "text": "A veil"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 34:30",
+            "text": "So when Aaron and all the children of Israel saw Moses, behold, the skin of his face shone, and they were afraid to come near him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 34:33",
+            "text": "And when Moses had finished speaking with them, he put a veil on his face.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 34:33 names what Moses put on his face, at the end of the verse after “he put.”",
+          "child": "Look at the end of Exodus 34:33. Read what Moses put on his face.",
+          "teen": "34:30 shows the people’s fear; 34:33 shows what Moses did after speaking with them. Read the end of 34:33.",
+          "older": "The item is named in the closing words of 34:33; the verses that follow describe when he took it off and put it back."
+        },
+        "extended_explanation": "Moses did not know that his face shone after talking with the LORD, but Aaron and the people saw it and were afraid to come near. Moses called them back and gave them everything the LORD had spoken. Exodus 34:33 tells what he did when he finished. Read the end of that verse.",
+        "takeaway": "When Moses finished speaking with the people, he put a veil on his face."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-exo-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 32",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Moses saw the calf and the dancing, he broke the tablets at the foot of the mountain. Later the LORD told him what to cut so the words could be written again. What was it?",
+        "child": "Moses was so angry when he saw the people dancing around the calf that he broke the tablets God had written on. Later, what did God tell Moses to cut?",
+        "teen": "Exodus 32:19 ends with broken tablets. In 34:1, what does the LORD tell Moses to cut, like the first ones?",
+        "older": "After Moses broke the first tablets (Exodus 32:19), what did the LORD command him to cut in Exodus 34:1?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Two tablets of gold"
+        },
+        {
+          "id": "b",
+          "text": "Two tablets of stone"
+        },
+        {
+          "id": "c",
+          "text": "A new altar of earth"
+        },
+        {
+          "id": "d",
+          "text": "Twelve pillars for the tribes"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 32:19",
+            "text": "So it was, as soon as he came near the camp, that he saw the calf and the dancing. So Moses’ anger became hot, and he cast the tablets out of his hands and broke them at the foot of the mountain.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 34:1",
+            "text": "And the LORD said to Moses, “Cut two tablets of stone like the first ones, and I will write on these tablets the words that were on the first tablets which you broke.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the LORD’s command at the start of Exodus 34:1, right after “Cut,” and notice that the same verse mentions the ones Moses broke in 32:19.",
+          "child": "Look at the beginning of Exodus 34:1. Right after “Cut,” God says what to make.",
+          "teen": "32:19 shows what was lost; 34:1 shows what replaces it. Read the words after “Cut” in 34:1.",
+          "older": "The LORD’s command opens 34:1; it is described as matching what Moses had cast from his hands in 32:19."
+        },
+        "extended_explanation": "Moses came down from the mountain carrying the work of God, and when he saw the people worshiping the calf, he threw it down and broke it at the foot of the mountain. In 34:1 the LORD gives Moses a fresh start: Moses is to cut something new, and the LORD will write the same words again. Read the command after “Cut.”",
+        "takeaway": "The LORD told Moses to cut two tablets of stone like the first ones."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-exo-0018",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 33",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses asked the LORD whom He would send with him. The LORD promised that His Presence would go with Moses. What else did He promise to give?",
+        "child": "Moses wanted to know who would go with him to lead the people. God promised His Presence would go with Moses. What else did God promise to give him?",
+        "teen": "In 33:14 the LORD answers Moses with a two-part promise. Moses replies in 33:15 that without the first part they should not go at all. What is the second part?",
+        "older": "In Exodus 33:14, alongside the promise of His Presence, what did the LORD say He would give Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rest"
+        },
+        {
+          "id": "b",
+          "text": "Victory"
+        },
+        {
+          "id": "c",
+          "text": "A new land"
+        },
+        {
+          "id": "d",
+          "text": "Bread from heaven"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 33:14",
+            "text": "And He said, “My Presence will go with you, and I will give you rest.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 33:15",
+            "text": "Then he said to Him, “If Your Presence does not go with us, do not bring us up from here.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Exodus 33:14 joins two promises with “and.” Read the second one, at the end of the verse, then see in 33:15 how much the first mattered to Moses.",
+          "child": "Look at the end of Exodus 33:14. After “and I will give you,” God names the gift.",
+          "teen": "33:14 has the Presence first and a gift second; 33:15 shows Moses holding on to the first. Read the end of 33:14.",
+          "older": "The second promise in 33:14 follows “I will give you”; 33:15 shows why Moses would not go without the first."
+        },
+        "extended_explanation": "After the calf, Moses asked the LORD to show him His way and to remember that this nation was His people. The LORD answered with a promise in two parts in 33:14, and Moses responded that if the LORD’s Presence did not go, they should not go up from there. Read the end of 33:14 for what the LORD said He would give.",
+        "takeaway": "The LORD said, “My Presence will go with you, and I will give you rest.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-exo-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 33",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses prayed, “Please, show me Your glory.” In His reply, the LORD said He would make something pass before Moses, and 33:22 calls that same moment His glory passing by. What did the LORD say He would make pass before him?",
+        "child": "Moses asked to see God’s glory. God said He would make something of His pass in front of Moses while Moses was hidden and covered by God’s hand. What did God say He would make pass by?",
+        "teen": "Moses asks to see God’s glory (33:18). God answers in 33:19 by naming what He will make pass before Moses, and in 33:22 calls the same event His glory passing by. What will pass before Moses?",
+        "older": "In answer to “Show me Your glory” (Exodus 33:18), what did the LORD say in 33:19 He would make pass before Moses, the event 33:22 describes as His glory passing by?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "All My angels"
+        },
+        {
+          "id": "b",
+          "text": "All My armies of heaven"
+        },
+        {
+          "id": "c",
+          "text": "All My wonders in Egypt"
+        },
+        {
+          "id": "d",
+          "text": "All My goodness"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 33:18",
+            "text": "And he said, “Please, show me Your glory.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 33:19",
+            "text": "Then He said, “I will make all My goodness pass before you, and I will proclaim the name of the LORD before you. I will be gracious to whom I will be gracious, and I will have compassion on whom I will have compassion.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 33:22",
+            "text": "So it shall be, while My glory passes by, that I will put you in the cleft of the rock, and will cover you with My hand while I pass by.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The LORD’s answer in Exodus 33:19 begins “I will make all My...” Read the next word, then notice how 33:22 describes the same moment.",
+          "child": "Look at the start of Exodus 33:19. God says what He will make pass before Moses.",
+          "teen": "Moses asks for glory in 33:18. In 33:19, read the first thing God says He will make pass before him; 33:22 then uses the word glory for it.",
+          "older": "33:19 names what will pass before Moses; 33:22 describes the same passing as His glory. Read the object in the first clause of 33:19."
+        },
+        "extended_explanation": "Moses had already been promised the LORD’s Presence, and now he asks for more: to see His glory. The LORD answers that no one can see His face and live, but He will proclaim His name and make something pass before Moses while His hand covers him. Read the first clause of 33:19 and compare it with the wording of 33:22.",
+        "takeaway": "The LORD said He would make all His goodness pass before Moses."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-exo-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 32",
+      "topics": [
+        "golden-calf-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Moses pleaded for the people, he asked the LORD to remember Abraham, Isaac, and Israel and His oath to multiply their descendants. Later, when the LORD passed before Moses and proclaimed His name, what did He say He keeps for thousands?",
+        "child": "Moses begged God to remember His promise to Abraham, Isaac, and Israel. Later, God passed by Moses and told him what He is like. What does God say He keeps for thousands?",
+        "teen": "Moses’ prayer in 32:13 leans on God’s promise to the fathers. When the LORD proclaims His name in 34:6-7, He describes Himself as keeping something for thousands. What is it?",
+        "older": "Reading Moses’ appeal in Exodus 32:13 alongside the LORD’s proclamation in 34:6-7, what does the LORD say He keeps for thousands?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Anger"
+        },
+        {
+          "id": "b",
+          "text": "Blessing"
+        },
+        {
+          "id": "c",
+          "text": "Mercy"
+        },
+        {
+          "id": "d",
+          "text": "Treasure"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 32:13",
+            "text": "Remember Abraham, Isaac, and Israel, Your servants, to whom You swore by Your own self, and said to them, ‘I will multiply your descendants as the stars of heaven; and all this land that I have spoken of I give to your descendants, and they shall inherit it forever.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 34:6",
+            "text": "And the LORD passed before him and proclaimed, “The LORD, the LORD God, merciful and gracious, longsuffering, and abounding in goodness and truth,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 34:7",
+            "text": "keeping mercy for thousands, forgiving iniquity and transgression and sin, by no means clearing the guilty, visiting the iniquity of the fathers upon the children and the children’s children to the third and the fourth generation.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "In Exodus 34:7 the proclamation continues from 34:6. Read the first phrase of 34:7, right before “for thousands,” and consider how it answers Moses’ appeal to the promise in 32:13.",
+          "child": "Look at the very start of Exodus 34:7. The word you need comes right after “keeping.”",
+          "teen": "32:13 appeals to an oath God made; 34:6-7 shows what kind of God made it. Read the opening words of 34:7.",
+          "older": "The phrase opening 34:7 completes the description begun in 34:6 and speaks directly to the appeal of 32:13: read the word after “keeping.”"
+        },
+        "extended_explanation": "After the calf, Moses did not argue that the people deserved pardon. In 32:13 he asked the LORD to remember His sworn promise to Abraham, Isaac, and Israel. Later, on the mountain, the LORD passed before Moses and proclaimed His own name, describing His character in 34:6-7. Read the first words of 34:7 to see what He keeps for thousands.",
+        "takeaway": "The LORD proclaimed that He keeps mercy for thousands, forgiving iniquity and transgression and sin."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

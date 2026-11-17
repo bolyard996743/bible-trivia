@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-nehemiah-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-neh-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 1",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the end of Nehemiah 1:11, Nehemiah asks for mercy “in the sight of this man.” The last line of the verse explains who that man was to him. What was Nehemiah’s job?",
+        "child": "Nehemiah asked God to help him when he spoke to “this man.” What job did Nehemiah have?",
+        "teen": "Nehemiah 1 closes with a short note about Nehemiah’s job. What was it?",
+        "older": "According to the end of Nehemiah 1:11, what position did Nehemiah hold?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The king’s cupbearer"
+        },
+        {
+          "id": "b",
+          "text": "The king’s treasurer"
+        },
+        {
+          "id": "c",
+          "text": "The king’s chief scribe"
+        },
+        {
+          "id": "d",
+          "text": "The captain of his guard"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 1:11",
+            "text": "O Lord, I pray, please let Your ear be attentive to the prayer of Your servant, and to the prayer of Your servants who desire to fear Your name; and let Your servant prosper this day, I pray, and grant him mercy in the sight of this man.” For I was the king’s cupbearer.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the very last sentence of Nehemiah 1:11, which begins “For I was.”",
+          "child": "Look at the end of Nehemiah 1:11. Read the words right after “For I was.”",
+          "teen": "The prayer in 1:11 closes with a quotation mark, and then Nehemiah adds a short sentence about himself. Read it.",
+          "older": "The final clause of 1:11, outside the quoted prayer, gives his position."
+        },
+        "extended_explanation": "Nehemiah lived in Shushan, the citadel of the Persian king, and heard that Jerusalem lay broken. He mourned for days, and at the end of 1:11 he asked for mercy before “this man.” The note after the prayer explains why that mattered: it tells what Nehemiah did for the king. Read the last sentence of 1:11.",
+        "takeaway": "Nehemiah was the king’s cupbearer, so he could bring his request before the king himself."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 1",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Men from Judah told Nehemiah that the survivors were in great distress and that Jerusalem’s gates were burned. What does Nehemiah say he did first when he heard these words?",
+        "child": "Nehemiah heard sad news: Jerusalem’s walls lay in ruins and its gates were burned. What did he do first when he heard it?",
+        "teen": "Nehemiah 1:3 is the bad news; 1:4 is his reaction. What was the first thing he did?",
+        "older": "According to Nehemiah 1:4, what was Nehemiah’s first response to the news from Jerusalem?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rode out toward Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "Wrote to the governors"
+        },
+        {
+          "id": "c",
+          "text": "Sat down and wept"
+        },
+        {
+          "id": "d",
+          "text": "Went straight to the king"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 1:3",
+            "text": "And they said to me, “The survivors who are left from the captivity in the province are there in great distress and reproach. The wall of Jerusalem is also broken down, and its gates are burned with fire.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 1:4",
+            "text": "So it was, when I heard these words, that I sat down and wept, and mourned for many days; I was fasting and praying before the God of heaven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 1:4 lists several responses. Read the first one, right after “when I heard these words, that I.”",
+          "child": "Look at Nehemiah 1:4. The first thing he did comes right after “that I.”",
+          "teen": "1:4 lists what Nehemiah did, in order. Read the start of the list, before “and mourned.”",
+          "older": "The opening clause of Nehemiah’s reaction in 1:4, before “and mourned,” tells it."
+        },
+        "extended_explanation": "News came that the survivors in Judah were in distress and that Jerusalem lay broken and burned. 1:4 lists his responses over many days. Read the first part of the list.",
+        "takeaway": "When Nehemiah heard the news, he sat down and wept, and mourned for many days."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 8",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the people heard the words of the Law, they mourned. Nehemiah, Ezra, and the Levites told them the day was holy and they should not sorrow. In 8:10, what did Nehemiah say was their strength?",
+        "child": "The people cried when they heard God’s Law read. Nehemiah told them not to be sad. What did he say was their strength?",
+        "teen": "In Nehemiah 8:9-10 the leaders tell a grieving crowd to stop mourning. What do they say is the people’s strength?",
+        "older": "According to Nehemiah 8:10, what is the people’s strength?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fear of the LORD"
+        },
+        {
+          "id": "b",
+          "text": "The joy of the LORD"
+        },
+        {
+          "id": "c",
+          "text": "The arm of the LORD"
+        },
+        {
+          "id": "d",
+          "text": "The peace of the LORD"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 8:9",
+            "text": "And Nehemiah, who was the governor, Ezra the priest and scribe, and the Levites who taught the people said to all the people, “This day is holy to the LORD your God; do not mourn nor weep.” For all the people wept, when they heard the words of the Law.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 8:10",
+            "text": "Then he said to them, “Go your way, eat the fat, drink the sweet, and send portions to those for whom nothing is prepared; for this day is holy to our Lord. Do not sorrow, for the joy of the LORD is your strength.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 8:10 ends with the reason, right after “Do not sorrow, for.”",
+          "child": "Look at the very end of Nehemiah 8:10, right after “Do not sorrow, for.”",
+          "teen": "8:9 tells them not to mourn; 8:10 gives the reason in its last clause. Read the words before “is your strength.”",
+          "older": "The last clause of 8:10 names it, just before “is your strength.”"
+        },
+        "extended_explanation": "Ezra had read the Law from morning until midday, and the people grieved as they heard it. The leaders did not want this holy day spent in mourning. Nehemiah told the people to eat, drink, and send portions to those with nothing prepared, and then gave the reason they should not sorrow. Read the last line of 8:10.",
+        "takeaway": "Nehemiah said, “Do not sorrow, for the joy of the LORD is your strength.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 4",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Sanballat mocked the builders, and Tobiah said that even a fox would break down their stone wall. Yet the whole wall was joined together up to half its height. What reason does Nehemiah 4:6 give?",
+        "child": "Enemies made fun of the builders and said even a fox could knock their wall down. But the wall kept rising until it was half done. Why?",
+        "teen": "Tobiah mocked the builders in 4:3. In 4:6 the wall reached half its height anyway. What reason does the verse give?",
+        "older": "According to Nehemiah 4:6, why was the wall joined together up to half its height?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The king had sent many laborers"
+        },
+        {
+          "id": "b",
+          "text": "The stones were easy to find"
+        },
+        {
+          "id": "c",
+          "text": "The enemies had gone home"
+        },
+        {
+          "id": "d",
+          "text": "The people had a mind to work"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 4:3",
+            "text": "Now Tobiah the Ammonite was beside him, and he said, “Whatever they build, if even a fox goes up on it, he will break down their stone wall.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 4:6",
+            "text": "So we built the wall, and the entire wall was joined together up to half its height, for the people had a mind to work.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 4:6 gives its reason at the end, right after the word “for.”",
+          "child": "Look at the very end of Nehemiah 4:6. The reason comes after “for.”",
+          "teen": "4:6 states what happened and then why. The why follows “for.”",
+          "older": "The causal clause at the close of 4:6 gives it."
+        },
+        "extended_explanation": "Sanballat asked whether these “feeble Jews” could finish the job, and Tobiah joked that a fox would knock the wall down. Nehemiah kept the work going. 4:6 says the whole wall was joined together up to half its height, and it explains why. Read the clause after “for” at the end of 4:6.",
+        "takeaway": "The wall reached half its height, for the people had a mind to work."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 2",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nehemiah went out in the night to view the broken walls and told no one what God had put in his heart (2:12, 15). When he finally told the officials about God’s good hand on him and the king’s words, how did they reply (2:18)?",
+        "child": "Nehemiah secretly checked the broken walls at night. Later he told the leaders how God had helped him. What did the leaders say?",
+        "teen": "Nehemiah kept his plan quiet while he inspected the walls by night. In 2:18, once he shared it, what did the officials reply?",
+        "older": "After Nehemiah’s night inspection (2:12-15), what did the people reply in 2:18 when he told them of God’s hand and the king’s words?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Let us rise up and build"
+        },
+        {
+          "id": "b",
+          "text": "Let us wait for the king’s soldiers"
+        },
+        {
+          "id": "c",
+          "text": "Let us first ask Sanballat"
+        },
+        {
+          "id": "d",
+          "text": "Let us go back to Shushan"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 2:12",
+            "text": "Then I arose in the night, I and a few men with me; I told no one what my God had put in my heart to do at Jerusalem; nor was there any animal with me, except the one on which I rode.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 2:15",
+            "text": "So I went up in the night by the valley, and viewed the wall; then I turned back and entered by the Valley Gate, and so returned.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 2:18",
+            "text": "And I told them of the hand of my God which had been good upon me, and also of the king’s words that he had spoken to me. So they said, “Let us rise up and build.” Then they set their hands to this good work.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 2:18 quotes the people’s reply right after “So they said.”",
+          "child": "Look at Nehemiah 2:18. Find the words in quotation marks after “So they said.”",
+          "teen": "2:12 and 2:15 show the plan kept secret; 2:18 shows it shared. Read the quoted reply in 2:18.",
+          "older": "The officials’ reply is the quotation in the second sentence of 2:18."
+        },
+        "extended_explanation": "Nehemiah arrived quietly. He rode out at night with a few men, saw the broken walls and burned gates, and told no one his plan. Only after that did he gather the leaders, describe how God’s hand had been good on him, and repeat what the king had said. 2:18 records their reply and what they did next. Read the quoted words in 2:18.",
+        "takeaway": "They said, “Let us rise up and build,” and set their hands to this good work."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 8",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra read the Law from morning until midday, and the ears of all the people were attentive (8:3). What did all the people do when he opened the book (8:5)?",
+        "child": "Ezra read God’s Law to the people for hours, and they listened closely. When he opened the book, what did everyone do?",
+        "teen": "Nehemiah 8:3 shows the crowd listening for hours; 8:5 shows what they did the moment the book was opened. What was it?",
+        "older": "According to Nehemiah 8:5, what did the people do when Ezra opened the book?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "All the people sat on the ground"
+        },
+        {
+          "id": "b",
+          "text": "All the people covered their faces"
+        },
+        {
+          "id": "c",
+          "text": "All the people stood up"
+        },
+        {
+          "id": "d",
+          "text": "All the people raised a shout"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 8:3",
+            "text": "Then he read from it in the open square that was in front of the Water Gate from morning until midday, before the men and women and those who could understand; and the ears of all the people were attentive to the Book of the Law.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 8:5",
+            "text": "And Ezra opened the book in the sight of all the people, for he was standing above all the people; and when he opened it, all the people stood up.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 8:5 tells it in its last clause, right after “when he opened it.”",
+          "child": "Look at the end of Nehemiah 8:5, right after “when he opened it.”",
+          "teen": "8:5 mentions where Ezra was first, then the people’s response. Read the final clause.",
+          "older": "The people’s response is the final clause of 8:5."
+        },
+        "extended_explanation": "The people had gathered as one in the square by the Water Gate and asked Ezra to bring the Law. He read from morning until midday, and they listened closely. Ezra was on a wooden platform above the crowd, and 8:5 records what the people did when he opened the book. Read the end of 8:5.",
+        "takeaway": "When Ezra opened the book, all the people stood up."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-neh-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 2",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nehemiah faced two frightening moments: the king’s question, “What do you request?” (2:4), and enemies conspiring to attack (4:8-9). What do both verses show him doing before anything else?",
+        "child": "When the king asked Nehemiah what he wanted, and later when enemies planned to attack, Nehemiah did the same thing first. What was it?",
+        "teen": "Nehemiah 2:4 and 4:9 come from very different scenes, a palace and a building site, but Nehemiah’s first move is the same. What is it?",
+        "older": "What first response do Nehemiah 2:4 and 4:9 have in common?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Asked the king for more soldiers"
+        },
+        {
+          "id": "b",
+          "text": "Prayed to the God of heaven"
+        },
+        {
+          "id": "c",
+          "text": "Answered with sharp words"
+        },
+        {
+          "id": "d",
+          "text": "Offered a sacrifice to God"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 2:4",
+            "text": "Then the king said to me, “What do you request?” So I prayed to the God of heaven.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 4:9",
+            "text": "Nevertheless we made our prayer to our God, and because of them we set a watch against them day and night.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of Nehemiah 2:4, after the king’s question. Then read the first clause of 4:9, before “and because of them.”",
+          "child": "Look at what Nehemiah did right after the king asked his question in 2:4. Then look at the start of 4:9.",
+          "teen": "In 2:4 it comes right after “So I.” In 4:9 it comes before Nehemiah sets a watch.",
+          "older": "Compare the sentence after the king’s question in 2:4 with the opening clause of 4:9."
+        },
+        "extended_explanation": "Nehemiah was a man of action, but his actions began somewhere. Standing before the king, he did one thing first. When enemies conspired to attack the builders, he did the same thing first, and only then set a guard day and night. Read 2:4 after “So I,” and the start of 4:9.",
+        "takeaway": "Before answering the king and before setting a guard, Nehemiah prayed to the God of heaven."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-neh-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 4",
+      "topics": [
+        "nehemiah-wall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "While the builders were spread out on the wall, Nehemiah told them, “Our God will fight for us” (4:20). When the wall was finished in fifty-two days (6:15), what did the enemies perceive (6:16)?",
+        "child": "Nehemiah told the workers that God would fight for them. When the wall was finished, the enemies around them lost heart. What did they realize?",
+        "teen": "Nehemiah 4:20 makes a promise about God. In 6:16 the enemies come to a conclusion about the finished work. What do they perceive?",
+        "older": "According to Nehemiah 6:16, what did the surrounding nations perceive about the finished work?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their own gods had turned from them"
+        },
+        {
+          "id": "b",
+          "text": "The God of Judah would soon punish them"
+        },
+        {
+          "id": "c",
+          "text": "The king had paid for all the work"
+        },
+        {
+          "id": "d",
+          "text": "This work was done by our God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 4:20",
+            "text": "Wherever you hear the sound of the trumpet, rally to us there. Our God will fight for us.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 6:15",
+            "text": "So the wall was finished on the twenty-fifth day of Elul, in fifty-two days.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 6:16",
+            "text": "And it happened, when all our enemies heard of it, and all the nations around us saw these things, that they were very disheartened in their own eyes; for they perceived that this work was done by our God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 6:16 ends with the enemies’ conclusion, right after “for they perceived that.”",
+          "child": "Look at the very end of Nehemiah 6:16, right after “for they perceived that.”",
+          "teen": "6:16 first tells how the enemies felt, then why. The why follows “they perceived that.” Compare it with Nehemiah’s words in 4:20.",
+          "older": "The final clause of 6:16 states what the nations perceived; set it beside the promise in 4:20."
+        },
+        "extended_explanation": "Nehemiah 4 ends with a city on alert: half the men holding spears, builders with swords at their sides, and a trumpeter ready. Nehemiah promised the scattered workers that God would fight for them. 6:15 says the wall was finished in fifty-two days, and 6:16 shows how the enemies read that outcome. Read the last clause of 6:16.",
+        "takeaway": "The enemies perceived that this work was done by our God, just as Nehemiah had said, “Our God will fight for us.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1samuel-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1sa-0011",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 9",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Kish, Saul’s father, sent Saul out with one of the servants. What had been lost that Saul was sent to look for?",
+        "child": "Saul’s father lost something and sent Saul to find it. What was Saul looking for?",
+        "teen": "Saul’s story begins with an ordinary errand. According to 9:3, what was he sent to find?",
+        "older": "According to 1 Samuel 9:3, what did Kish send his son Saul to look for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His father’s sheep"
+        },
+        {
+          "id": "b",
+          "text": "The donkeys"
+        },
+        {
+          "id": "c",
+          "text": "A runaway servant"
+        },
+        {
+          "id": "d",
+          "text": "A missing ox cart"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 9:3",
+            "text": "Now the donkeys of Kish, Saul’s father, were lost. And Kish said to his son Saul, “Please take one of the servants with you, and arise, go and look for the donkeys.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 9:3 names what was lost in its first sentence, and Kish repeats it at the end of his instructions.",
+          "child": "Look at 1 Samuel 9:3. It tells what was lost at the start and again at the end.",
+          "teen": "9:3 opens with what belonged to Kish and was lost; read that opening clause.",
+          "older": "The lost property is named at the start of 9:3 and again in Kish’s command."
+        },
+        "extended_explanation": "Saul was the son of Kish, a Benjamite. His story begins not with a battle but with an errand from his father, which leads him to Samuel. Read the first sentence of 9:3 and Kish’s instructions at the end.",
+        "takeaway": "Saul was sent to look for his father’s lost donkeys."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 8",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Samuel’s sons did not walk in his ways, so the elders asked for a king. Twice the people explained whom they wanted Israel to be like. Whom?",
+        "child": "The leaders of Israel asked Samuel to give them a king. They wanted Israel to be like someone else. Who?",
+        "teen": "In 8:5 and again in 8:20, the people say whom they want to resemble by having a king. Whom?",
+        "older": "According to 1 Samuel 8:5 and 8:20, whom did the people want Israel to be like by having a king?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "All the nations"
+        },
+        {
+          "id": "b",
+          "text": "The days of Moses"
+        },
+        {
+          "id": "c",
+          "text": "The kingdom of Egypt"
+        },
+        {
+          "id": "d",
+          "text": "The tribes in Joshua’s time"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 8:5",
+            "text": "and said to him, “Look, you are old, and your sons do not walk in your ways. Now make us a king to judge us like all the nations.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 8:20",
+            "text": "that we also may be like all the nations, and that our king may judge us and go out before us and fight our battles.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Both verses use the word “like.” Read what follows it at the end of 8:5 and in the first line of 8:20.",
+          "child": "Look at the end of 1 Samuel 8:5. The people say they want a king “like” someone. Read what comes next.",
+          "teen": "8:5 is the elders’ request; 8:20 is the people’s reply after Samuel’s warning. Both name the same model after “like.”",
+          "older": "The comparison is stated after “like” in both 8:5 and 8:20, showing the request did not change after Samuel’s warning."
+        },
+        "extended_explanation": "Samuel was old, and his sons had turned aside after dishonest gain. The elders came to Samuel and asked for a king to judge them. Samuel warned them what a king would take, but in 8:20 the people repeated their wish. Read the words after “like” in each verse.",
+        "takeaway": "The people wanted a king so that they would be like all the nations."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 8",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The elders’ request for a king displeased Samuel, so he prayed to the LORD. What did the LORD first tell Samuel to do?",
+        "child": "Samuel was upset that the people wanted a king, so he prayed. What did God tell him to do?",
+        "teen": "Samuel took the request personally. In 8:7 the LORD tells him what to do and explains who was really being rejected. What does the LORD tell him to do?",
+        "older": "In 1 Samuel 8:7, what instruction did the LORD give Samuel in response to the people’s demand for a king?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Refuse them and anoint no one"
+        },
+        {
+          "id": "b",
+          "text": "Appoint his own sons as kings"
+        },
+        {
+          "id": "c",
+          "text": "Call down thunder on the people"
+        },
+        {
+          "id": "d",
+          "text": "Heed the voice of the people"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 8:6",
+            "text": "But the thing displeased Samuel when they said, “Give us a king to judge us.” So Samuel prayed to the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 8:7",
+            "text": "And the LORD said to Samuel, “Heed the voice of the people in all that they say to you; for they have not rejected you, but they have rejected Me, that I should not reign over them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The LORD’s instruction is the first clause of 1 Samuel 8:7. The rest of the verse explains whom the people were really turning away from.",
+          "child": "Look at the start of 1 Samuel 8:7, right after “the LORD said to Samuel.”",
+          "teen": "8:6 shows Samuel’s displeasure and prayer; 8:7 gives the LORD’s command first and the reason second. Read the command.",
+          "older": "8:7 opens with a command and then gives a reason beginning “for they have not rejected you”; read the command."
+        },
+        "extended_explanation": "Samuel felt the request for a king as a rejection of his leadership. He took it to the LORD in prayer. The LORD’s reply in 8:7 begins with an instruction and then shows that the people’s real rejection was of the LORD Himself. Read the first clause.",
+        "takeaway": "The LORD told Samuel to heed the voice of the people, for they had rejected the LORD as their king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 10",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Mizpah, Saul the son of Kish was chosen, but when they looked for him, he could not be found. Where did the LORD say he was?",
+        "child": "Saul was chosen to be king in front of everyone, but nobody could find him! Where did God say Saul was?",
+        "teen": "Saul’s big moment comes, and he is missing. When the people inquired of the LORD in 10:22, where did He say Saul was?",
+        "older": "According to 1 Samuel 10:22, where did the LORD say Saul was when he could not be found?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Asleep in his father’s tent"
+        },
+        {
+          "id": "b",
+          "text": "Out looking for his father’s herds"
+        },
+        {
+          "id": "c",
+          "text": "Hidden among the equipment"
+        },
+        {
+          "id": "d",
+          "text": "Praying alone at the high place"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 10:21",
+            "text": "When he had caused the tribe of Benjamin to come near by their families, the family of Matri was chosen. And Saul the son of Kish was chosen. But when they sought him, he could not be found.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 10:22",
+            "text": "Therefore they inquired of the LORD further, “Has the man come here yet?” And the LORD answered, “There he is, hidden among the equipment.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The LORD’s reply is at the end of 1 Samuel 10:22, right after “There he is.”",
+          "child": "Look at the end of 1 Samuel 10:22. Read what God says after “There he is.”",
+          "teen": "10:21 says Saul could not be found; 10:22 gives the LORD’s reply. Read the words after “There he is.”",
+          "older": "The LORD’s brief reply closes 10:22 and explains the empty space in 10:21."
+        },
+        "extended_explanation": "Samuel gathered the tribes at Mizpah, and Benjamin, then the family of Matri, then Saul himself were chosen. But when they looked for him, he was missing. The people asked the LORD, and He told them. Read the reply at the end of 10:22.",
+        "takeaway": "When Saul was chosen, the LORD said, “There he is, hidden among the equipment.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 10",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Samuel presented Saul, the people shouted, “Long live the king!” But some rebels said, “How can this man save us?” and brought him no presents. How did Saul respond?",
+        "child": "Most people cheered for Saul as king, but some troublemakers looked down on him. What did Saul do?",
+        "teen": "10:24 and 10:27 show two reactions to the new king. How does Saul respond to the rebels who despised him?",
+        "older": "Contrasting the people’s shout in 1 Samuel 10:24 with the rebels’ scorn in 10:27, how did Saul respond to the rebels?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He held his peace"
+        },
+        {
+          "id": "b",
+          "text": "He had them arrested"
+        },
+        {
+          "id": "c",
+          "text": "He challenged them to a battle"
+        },
+        {
+          "id": "d",
+          "text": "He asked Samuel to punish them"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 10:24",
+            "text": "And Samuel said to all the people, “Do you see him whom the LORD has chosen, that there is no one like him among all the people?” So all the people shouted and said, “Long live the king!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 10:27",
+            "text": "But some rebels said, “How can this man save us?” So they despised him, and brought him no presents. But he held his peace.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 Samuel 10:27 ends with Saul’s response, right after “But he.” Compare it with the shout of 10:24.",
+          "child": "Look at the very end of 1 Samuel 10:27. Read what Saul did after the word “But.”",
+          "teen": "10:24 is a crowd’s welcome; 10:27 is a few men’s contempt. Saul’s response is the last clause of 10:27.",
+          "older": "The final clause of 10:27 records how Saul answered those who despised him."
+        },
+        "extended_explanation": "Saul stood taller than everyone, and Samuel asked the people to see whom the LORD had chosen. Most shouted their welcome. Saul went home to Gibeah with valiant men whose hearts God had touched, but some rebels mocked him and brought no gifts. Read the end of 10:27.",
+        "takeaway": "When some rebels despised him, Saul held his peace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1sa-0010",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 13",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Saul waited seven days at Gilgal, but when Samuel did not come, he offered the burnt offering himself. Because Saul had not kept the LORD’s command, whom did Samuel say the LORD had sought for Himself?",
+        "child": "Saul didn’t wait for Samuel and offered the sacrifice himself. Samuel said Saul’s kingdom would not last. Who did Samuel say God was looking for?",
+        "teen": "13:8-9 shows Saul’s impatience at Gilgal. In 13:14, whom does Samuel say the LORD has sought to be commander over His people?",
+        "older": "Following Saul’s unauthorized offering (1 Samuel 13:8-9), whom did Samuel say in 13:14 the LORD had sought for Himself?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A priest from the house of Eli"
+        },
+        {
+          "id": "b",
+          "text": "A man after His own heart"
+        },
+        {
+          "id": "c",
+          "text": "A prophet to take Samuel’s place"
+        },
+        {
+          "id": "d",
+          "text": "A warrior from the tribe of Dan"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 13:8",
+            "text": "Then he waited seven days, according to the time set by Samuel. But Samuel did not come to Gilgal; and the people were scattered from him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 13:9",
+            "text": "So Saul said, “Bring a burnt offering and peace offerings here to me.” And he offered the burnt offering.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 13:14",
+            "text": "But now your kingdom shall not continue. The LORD has sought for Himself a man after His own heart, and the LORD has commanded him to be commander over His people, because you have not kept what the LORD commanded you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Samuel’s words in 1 Samuel 13:14 describe the one the LORD has sought, right after “sought for Himself.” Read that phrase in light of Saul’s choice in 13:9.",
+          "child": "Look at the middle of 1 Samuel 13:14. Right after “sought for Himself,” Samuel describes the person.",
+          "teen": "13:9 shows what Saul did; 13:14 shows what the LORD wants instead. Read the words after “sought for Himself.”",
+          "older": "The description follows “sought for Himself” in 13:14 and contrasts with the failure named at the end of the same verse."
+        },
+        "extended_explanation": "Samuel had told Saul to wait seven days at Gilgal until he came. With the Philistines gathering and the people scattering, Saul offered the burnt offering himself. Samuel arrived just as he finished. In 13:14 Samuel says Saul’s kingdom will not continue and describes the one the LORD has sought. Read the words after “sought for Himself.”",
+        "takeaway": "Samuel said the LORD had sought for Himself a man after His own heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1sa-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 15",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Samuel turned to go, Saul seized the edge of his robe, and it tore. Samuel then used the same image. What did he say the LORD had torn from Saul that day?",
+        "child": "Saul grabbed Samuel’s robe and it ripped. Samuel said that God had ripped something away from Saul too. What was it?",
+        "teen": "In 15:27 a robe tears; in 15:28 Samuel turns that into a picture. What does he say the LORD has torn from Saul?",
+        "older": "How does 1 Samuel 15:28 apply the torn robe of 15:27? What did Samuel say the LORD had torn from Saul?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The army of Israel"
+        },
+        {
+          "id": "b",
+          "text": "His father’s house"
+        },
+        {
+          "id": "c",
+          "text": "The kingdom of Israel"
+        },
+        {
+          "id": "d",
+          "text": "The blessing on his sons and daughters"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 15:27",
+            "text": "And as Samuel turned around to go away, Saul seized the edge of his robe, and it tore.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 15:28",
+            "text": "So Samuel said to him, “The LORD has torn the kingdom of Israel from you today, and has given it to a neighbor of yours, who is better than you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Samuel’s words in 1 Samuel 15:28 name what was torn, right after “The LORD has torn.” Notice the link with the robe in 15:27.",
+          "child": "Look at the start of 1 Samuel 15:28. Read what comes after “The LORD has torn.”",
+          "teen": "15:27 is the robe; 15:28 is the meaning. Read the words between “has torn” and “from you today.”",
+          "older": "The object follows “The LORD has torn” in 15:28, and the verse adds that it has been given to a neighbor."
+        },
+        "extended_explanation": "Saul had spared what the LORD had told him to destroy and then made excuses. When Samuel turned to leave, Saul grabbed his robe and it ripped. Samuel used the moment as a picture of the LORD’s judgment. Read 15:28, between “The LORD has torn” and “from you today.”",
+        "takeaway": "Samuel said the LORD had torn the kingdom of Israel from Saul and given it to someone better."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1sa-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Samuel",
+      "section": "1 Samuel 13",
+      "topics": [
+        "saul-rise-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Gilgal, Saul said he “felt compelled” to offer a burnt offering (13:12). After the battle with Amalek, he said the people kept the best animals to sacrifice to the LORD (15:21). In 15:22, Samuel asks whether the LORD delights in burnt offerings as much as in what?",
+        "child": "Two times Saul made excuses that had to do with sacrifices. Samuel answered with a question: Does the LORD delight in burnt offerings as much as in what?",
+        "teen": "Saul’s excuses in 13:12 and 15:21 both lean on sacrifices. Samuel’s reply in 15:22 compares sacrifices with something the LORD delights in more. What?",
+        "older": "Weighing Saul’s excuses in 1 Samuel 13:12 and 15:21, what does Samuel set against burnt offerings and sacrifices in 15:22?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Showing mercy to the poor and the needy"
+        },
+        {
+          "id": "b",
+          "text": "A humble and contrite spirit before God"
+        },
+        {
+          "id": "c",
+          "text": "Praying with a whole heart before the LORD"
+        },
+        {
+          "id": "d",
+          "text": "Obeying the voice of the LORD"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Samuel 13:12",
+            "text": "then I said, ‘The Philistines will now come down on me at Gilgal, and I have not made supplication to the LORD.’ Therefore I felt compelled, and offered a burnt offering.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 15:21",
+            "text": "But the people took of the plunder, sheep and oxen, the best of the things which should have been utterly destroyed, to sacrifice to the LORD your God in Gilgal.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Samuel 15:22",
+            "text": "So Samuel said: “Has the LORD as great delight in burnt offerings and sacrifices, As in obeying the voice of the LORD? Behold, to obey is better than sacrifice, And to heed than the fat of rams.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Samuel’s question in 1 Samuel 15:22 ends with the comparison, right after “As in.” The next line of the verse says the same thing more briefly.",
+          "child": "Look at the first part of 1 Samuel 15:22. Read the words after “As in.”",
+          "teen": "Both excuses (13:12; 15:21) point to sacrifice. Samuel’s question in 15:22 finishes with “As in ...” Read what follows.",
+          "older": "Samuel’s rhetorical question in 15:22 sets sacrifice against a single response, named after “As in” and restated in the line that follows."
+        },
+        "extended_explanation": "At Gilgal, Saul offered the burnt offering instead of waiting for Samuel, saying he felt compelled. Against Amalek, he blamed the people and said the spared animals were for sacrifice. Both times Saul pointed to sacrifice. Samuel’s reply in 15:22 answers both. Read the end of his question, after “As in.”",
+        "takeaway": "Samuel said, “To obey is better than sacrifice”; the LORD delights in obeying His voice more than in burnt offerings."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

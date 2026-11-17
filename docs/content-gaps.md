@@ -4,7 +4,7 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 660 questions.
+The bank has 892 questions.
 
 ## Seed
 
@@ -515,30 +515,204 @@ New questions to write:
 
 About 40 books. Intermediate, plus some hard.
 
-Questions now: 2. Books: 2. Target pool: about 80 questions.
+Questions now: 234. Books: 23. Target pool: about 80 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
+| 1 Corinthians: Unity and Order | 1 Corinthians | 1 Corinthians 1 | expert | 1 |
+| 1 Corinthians: Unity and Order | 1 Corinthians | 1 Corinthians 1 | intermediate | 2 |
+| 1 Corinthians: Unity and Order | 1 Corinthians | 1 Corinthians 11 | advanced | 1 |
+| 1 Corinthians: Unity and Order | 1 Corinthians | 1 Corinthians 14 | intermediate | 1 |
+| 1 Corinthians: Unity and Order | 1 Corinthians | 1 Corinthians 3 | advanced | 1 |
+| 1 Corinthians: Unity and Order | 1 Corinthians | 1 Corinthians 3 | intermediate | 1 |
+| 1 Corinthians: Unity and Order | 1 Corinthians | 1 Corinthians 8 | advanced | 1 |
+| 1 John: God Is Love | 1 John | 1 John 1 | advanced | 1 |
+| 1 John: God Is Love | 1 John | 1 John 1 | intermediate | 2 |
+| 1 John: God Is Love | 1 John | 1 John 3 | intermediate | 1 |
+| 1 John: God Is Love | 1 John | 1 John 4 | advanced | 1 |
+| 1 John: God Is Love | 1 John | 1 John 4 | expert | 1 |
+| 1 John: God Is Love | 1 John | 1 John 4 | intermediate | 1 |
+| 1 John: God Is Love | 1 John | 1 John 5 | advanced | 1 |
+| 1 Peter: Living Hope | 1 Peter | 1 Peter 1 | expert | 1 |
+| 1 Peter: Living Hope | 1 Peter | 1 Peter 1 | intermediate | 3 |
+| 1 Peter: Living Hope | 1 Peter | 1 Peter 2 | advanced | 1 |
+| 1 Peter: Living Hope | 1 Peter | 1 Peter 3 | intermediate | 1 |
+| 1 Peter: Living Hope | 1 Peter | 1 Peter 5 | advanced | 2 |
+| Samuel: From Hannah to Prophet | 1 Samuel | 1 Samuel 1 | expert | 1 |
+| Samuel: From Hannah to Prophet | 1 Samuel | 1 Samuel 1 | intermediate | 3 |
+| Saul: Rise and Fall | 1 Samuel | 1 Samuel 10 | advanced | 1 |
+| Saul: Rise and Fall | 1 Samuel | 1 Samuel 10 | intermediate | 1 |
+| Saul: Rise and Fall | 1 Samuel | 1 Samuel 13 | advanced | 1 |
+| Saul: Rise and Fall | 1 Samuel | 1 Samuel 13 | expert | 1 |
+| Saul: Rise and Fall | 1 Samuel | 1 Samuel 15 | advanced | 1 |
+| David on the Run | 1 Samuel | 1 Samuel 18 | advanced | 1 |
+| David on the Run | 1 Samuel | 1 Samuel 18 | intermediate | 2 |
+| Samuel: From Hannah to Prophet | 1 Samuel | 1 Samuel 2 | advanced | 2 |
+| Samuel: From Hannah to Prophet | 1 Samuel | 1 Samuel 2 | intermediate | 1 |
+| David on the Run | 1 Samuel | 1 Samuel 20 | intermediate | 1 |
+| David on the Run | 1 Samuel | 1 Samuel 24 | expert | 1 |
+| David on the Run | 1 Samuel | 1 Samuel 24 | intermediate | 1 |
+| David on the Run | 1 Samuel | 1 Samuel 26 | advanced | 1 |
+| Samuel: From Hannah to Prophet | 1 Samuel | 1 Samuel 3 | advanced | 1 |
+| David on the Run | 1 Samuel | 1 Samuel 31 | advanced | 1 |
+| Saul: Rise and Fall | 1 Samuel | 1 Samuel 8 | intermediate | 2 |
+| Saul: Rise and Fall | 1 Samuel | 1 Samuel 9 | intermediate | 1 |
+| 2 Corinthians: Strength in Weakness | 2 Corinthians | 2 Corinthians 4 | advanced | 1 |
+| 2 Corinthians: Strength in Weakness | 2 Corinthians | 2 Corinthians 4 | expert | 1 |
+| 2 Corinthians: Strength in Weakness | 2 Corinthians | 2 Corinthians 4 | intermediate | 3 |
+| 2 Corinthians: Strength in Weakness | 2 Corinthians | 2 Corinthians 5 | advanced | 1 |
+| 2 Corinthians: Strength in Weakness | 2 Corinthians | 2 Corinthians 5 | intermediate | 1 |
+| 2 Corinthians: Strength in Weakness | 2 Corinthians | 2 Corinthians 9 | advanced | 1 |
+| 2 Timothy: Finish the Race | 2 Timothy | 2 Timothy 1 | expert | 1 |
+| 2 Timothy: Finish the Race | 2 Timothy | 2 Timothy 1 | intermediate | 3 |
+| 2 Timothy: Finish the Race | 2 Timothy | 2 Timothy 2 | intermediate | 1 |
+| 2 Timothy: Finish the Race | 2 Timothy | 2 Timothy 3 | advanced | 2 |
+| 2 Timothy: Finish the Race | 2 Timothy | 2 Timothy 4 | advanced | 1 |
+| The Church Expands | Acts | Acts 10 | advanced | 1 |
+| The Church Expands | Acts | Acts 10 | expert | 1 |
+| The Church Expands | Acts | Acts 11 | advanced | 1 |
+| The Church Expands | Acts | Acts 15 | advanced | 1 |
+| The Church Expands | Acts | Acts 6 | intermediate | 3 |
+| The Church Expands | Acts | Acts 7 | intermediate | 1 |
+| Daniel in Babylon: Dreams and Handwriting | Daniel | Daniel 2 | advanced | 1 |
+| Daniel in Babylon: Dreams and Handwriting | Daniel | Daniel 2 | intermediate | 3 |
+| Daniel in Babylon: Dreams and Handwriting | Daniel | Daniel 4 | advanced | 1 |
+| Daniel in Babylon: Dreams and Handwriting | Daniel | Daniel 4 | expert | 1 |
+| Daniel in Babylon: Dreams and Handwriting | Daniel | Daniel 5 | advanced | 1 |
+| Daniel in Babylon: Dreams and Handwriting | Daniel | Daniel 5 | intermediate | 1 |
+| The Golden Calf and the Covenant Renewed | Exodus | Exodus 32 | advanced | 1 |
+| The Golden Calf and the Covenant Renewed | Exodus | Exodus 32 | expert | 1 |
+| The Golden Calf and the Covenant Renewed | Exodus | Exodus 32 | intermediate | 3 |
+| The Golden Calf and the Covenant Renewed | Exodus | Exodus 33 | advanced | 2 |
+| The Golden Calf and the Covenant Renewed | Exodus | Exodus 34 | intermediate | 1 |
+| Ezekiel: Visions and Dry Bones | Ezekiel | Ezekiel 1 | intermediate | 2 |
+| Ezekiel: The Watchman | Ezekiel | Ezekiel 18 | advanced | 1 |
+| Ezekiel: The Watchman | Ezekiel | Ezekiel 18 | intermediate | 1 |
+| Ezekiel: The Watchman | Ezekiel | Ezekiel 2 | intermediate | 2 |
+| Ezekiel: The Watchman | Ezekiel | Ezekiel 3 | advanced | 1 |
+| Ezekiel: The Watchman | Ezekiel | Ezekiel 3 | intermediate | 1 |
+| Ezekiel: The Watchman | Ezekiel | Ezekiel 33 | advanced | 1 |
+| Ezekiel: The Watchman | Ezekiel | Ezekiel 33 | expert | 1 |
+| Ezekiel: Visions and Dry Bones | Ezekiel | Ezekiel 34 | advanced | 1 |
+| Ezekiel: Visions and Dry Bones | Ezekiel | Ezekiel 34 | intermediate | 1 |
+| Ezekiel: Visions and Dry Bones | Ezekiel | Ezekiel 36 | advanced | 1 |
+| Ezekiel: Visions and Dry Bones | Ezekiel | Ezekiel 36 | expert | 1 |
+| Ezekiel: Visions and Dry Bones | Ezekiel | Ezekiel 37 | advanced | 1 |
+| Ezekiel: Visions and Dry Bones | Ezekiel | Ezekiel 37 | intermediate | 1 |
+| Ezra: Return and Rebuild | Ezra | Ezra 1 | expert | 1 |
+| Ezra: Return and Rebuild | Ezra | Ezra 1 | intermediate | 1 |
+| Ezra: Return and Rebuild | Ezra | Ezra 3 | advanced | 1 |
+| Ezra: Return and Rebuild | Ezra | Ezra 3 | intermediate | 2 |
+| Ezra: Return and Rebuild | Ezra | Ezra 6 | advanced | 1 |
+| Ezra: Return and Rebuild | Ezra | Ezra 7 | advanced | 1 |
+| Ezra: Return and Rebuild | Ezra | Ezra 7 | intermediate | 1 |
+| Ezra and Nehemiah: Confession and Reform | Ezra | Ezra 9 | advanced | 1 |
+| Ezra and Nehemiah: Confession and Reform | Ezra | Ezra 9 | expert | 1 |
+| Ezra and Nehemiah: Confession and Reform | Ezra | Ezra 9 | intermediate | 2 |
+| Galatians: Law and Promise | Galatians | Galatians 1 | intermediate | 2 |
+| Galatians: Law and Promise | Galatians | Galatians 2 | intermediate | 1 |
+| Galatians: Law and Promise | Galatians | Galatians 3 | advanced | 1 |
+| Galatians: Law and Promise | Galatians | Galatians 3 | expert | 1 |
+| Galatians: Law and Promise | Galatians | Galatians 3 | intermediate | 1 |
+| Galatians: Law and Promise | Galatians | Galatians 4 | advanced | 1 |
+| Galatians: Law and Promise | Galatians | Galatians 5 | advanced | 1 |
+| Isaac, Rebekah and the Covenant Line | Genesis | Genesis 16 | intermediate | 1 |
+| Isaac, Rebekah and the Covenant Line | Genesis | Genesis 21 | expert | 1 |
+| Isaac, Rebekah and the Covenant Line | Genesis | Genesis 21 | intermediate | 2 |
+| Isaac, Rebekah and the Covenant Line | Genesis | Genesis 24 | advanced | 2 |
+| Isaac, Rebekah and the Covenant Line | Genesis | Genesis 24 | intermediate | 1 |
+| Isaac, Rebekah and the Covenant Line | Genesis | Genesis 26 | advanced | 1 |
+| Jeremiah: The Weeping Prophet | Jeremiah | Jeremiah 1 | advanced | 1 |
+| Jeremiah: The Weeping Prophet | Jeremiah | Jeremiah 1 | intermediate | 1 |
+| Jeremiah: The Weeping Prophet | Jeremiah | Jeremiah 18 | intermediate | 1 |
+| Jeremiah: Temple Sermon and False Prophets | Jeremiah | Jeremiah 19 | intermediate | 1 |
+| Jeremiah: Temple Sermon and False Prophets | Jeremiah | Jeremiah 20 | intermediate | 1 |
+| Jeremiah: Temple Sermon and False Prophets | Jeremiah | Jeremiah 23 | advanced | 1 |
+| Jeremiah: Temple Sermon and False Prophets | Jeremiah | Jeremiah 23 | expert | 1 |
+| Jeremiah: Temple Sermon and False Prophets | Jeremiah | Jeremiah 28 | advanced | 1 |
+| Jeremiah: Temple Sermon and False Prophets | Jeremiah | Jeremiah 29 | advanced | 1 |
+| Jeremiah: The Weeping Prophet | Jeremiah | Jeremiah 29 | advanced | 2 |
+| Jeremiah: The Weeping Prophet | Jeremiah | Jeremiah 36 | expert | 1 |
+| Jeremiah: The Weeping Prophet | Jeremiah | Jeremiah 36 | intermediate | 1 |
+| Jeremiah: The Weeping Prophet | Jeremiah | Jeremiah 38 | intermediate | 1 |
+| Jeremiah: Temple Sermon and False Prophets | Jeremiah | Jeremiah 7 | intermediate | 2 |
+| The Upper Room | John | John 13 | expert | 1 |
+| The Upper Room | John | John 13 | intermediate | 2 |
+| The Upper Room | John | John 14 | intermediate | 2 |
+| The Upper Room | John | John 15 | advanced | 2 |
+| The Upper Room | John | John 17 | advanced | 1 |
+| Twelve Stones at the Jordan | Joshua | Joshua 10 | advanced | 1 |
+| Twelve Stones at the Jordan | Joshua | Joshua 24 | advanced | 1 |
+| Twelve Stones at the Jordan | Joshua | Joshua 4 | advanced | 1 |
+| Twelve Stones at the Jordan | Joshua | Joshua 4 | expert | 1 |
+| Twelve Stones at the Jordan | Joshua | Joshua 4 | intermediate | 2 |
+| Twelve Stones at the Jordan | Joshua | Joshua 7 | intermediate | 1 |
+| Twelve Stones at the Jordan | Joshua | Joshua 9 | intermediate | 1 |
+| Before Bethlehem | Luke | Luke 1 | expert | 1 |
+| Before Bethlehem | Luke | Luke 1 | intermediate | 3 |
+| Before Bethlehem | Luke | Luke 2 | advanced | 2 |
+| Mark: The Cost of Following Jesus | Mark | Mark 10 | advanced | 1 |
+| Mark: The Cost of Following Jesus | Mark | Mark 10 | intermediate | 1 |
+| Mark: The Cost of Following Jesus | Mark | Mark 12 | advanced | 2 |
+| Mark: The Cost of Following Jesus | Mark | Mark 8 | intermediate | 1 |
+| Mark: The Cost of Following Jesus | Mark | Mark 9 | expert | 1 |
+| Mark: The Cost of Following Jesus | Mark | Mark 9 | intermediate | 2 |
+| Before Bethlehem | Matthew | Matthew 1 | advanced | 1 |
+| Before Bethlehem | Matthew | Matthew 1 | intermediate | 1 |
+| Peter's Confession and the Transfiguration | Matthew | Matthew 11 | expert | 1 |
+| Peter's Confession and the Transfiguration | Matthew | Matthew 11 | intermediate | 1 |
+| Peter's Confession and the Transfiguration | Matthew | Matthew 16 | intermediate | 2 |
+| Peter's Confession and the Transfiguration | Matthew | Matthew 17 | advanced | 3 |
+| Peter's Confession and the Transfiguration | Matthew | Matthew 17 | intermediate | 1 |
+| Nehemiah: Rebuilding the Wall | Nehemiah | Nehemiah 1 | intermediate | 2 |
+| Ezra and Nehemiah: Confession and Reform | Nehemiah | Nehemiah 13 | intermediate | 2 |
+| Nehemiah: Rebuilding the Wall | Nehemiah | Nehemiah 2 | advanced | 2 |
+| Nehemiah: Rebuilding the Wall | Nehemiah | Nehemiah 4 | expert | 1 |
+| Nehemiah: Rebuilding the Wall | Nehemiah | Nehemiah 4 | intermediate | 1 |
+| Nehemiah: Rebuilding the Wall | Nehemiah | Nehemiah 8 | advanced | 1 |
+| Nehemiah: Rebuilding the Wall | Nehemiah | Nehemiah 8 | intermediate | 1 |
+| Ezra and Nehemiah: Confession and Reform | Nehemiah | Nehemiah 9 | advanced | 2 |
+| Wisdom and Folly | Proverbs | Proverbs 1 | advanced | 1 |
+| Wisdom and Folly | Proverbs | Proverbs 1 | intermediate | 2 |
+| Wisdom and Folly | Proverbs | Proverbs 31 | intermediate | 1 |
+| Wisdom and Folly | Proverbs | Proverbs 8 | advanced | 1 |
+| Wisdom and Folly | Proverbs | Proverbs 8 | intermediate | 1 |
+| Wisdom and Folly | Proverbs | Proverbs 9 | advanced | 1 |
 | Wisdom Books | Proverbs | Proverbs 9 | advanced | 1 |
+| Wisdom and Folly | Proverbs | Proverbs 9 | expert | 1 |
+| Psalms: Israel's Story Retold | Psalms | Psalm 105 | advanced | 1 |
+| Psalms: Israel's Story Retold | Psalms | Psalm 105 | intermediate | 1 |
+| Psalms: Israel's Story Retold | Psalms | Psalm 106 | intermediate | 1 |
 | Wisdom Books | Psalms | Psalm 119 | intermediate | 1 |
+| Psalms of Repentance and Refuge | Psalms | Psalm 121 | intermediate | 1 |
+| Psalms: Israel's Story Retold | Psalms | Psalm 136 | intermediate | 1 |
+| Psalms of Repentance and Refuge | Psalms | Psalm 139 | advanced | 1 |
+| Psalms of Repentance and Refuge | Psalms | Psalm 139 | intermediate | 1 |
+| Psalms of Repentance and Refuge | Psalms | Psalm 32 | advanced | 1 |
+| Psalms of Repentance and Refuge | Psalms | Psalm 32 | expert | 1 |
+| Psalms of Repentance and Refuge | Psalms | Psalm 51 | intermediate | 2 |
+| Psalms: Israel's Story Retold | Psalms | Psalm 78 | advanced | 2 |
+| Psalms: Israel's Story Retold | Psalms | Psalm 78 | expert | 1 |
+| Psalms: Israel's Story Retold | Psalms | Psalm 78 | intermediate | 1 |
+| Psalms of Repentance and Refuge | Psalms | Psalm 91 | advanced | 1 |
+| Romans 8: Life in the Spirit | Romans | Romans 12 | advanced | 1 |
+| Romans 8: Life in the Spirit | Romans | Romans 8 | advanced | 2 |
+| Romans 8: Life in the Spirit | Romans | Romans 8 | expert | 1 |
+| Romans 8: Life in the Spirit | Romans | Romans 8 | intermediate | 4 |
 
 Tier totals against the mix:
 
-- intermediate: 1 now, about 60 wanted (75% of draws (intermediate)). About 59 more.
-- advanced: 1 now, about 16 wanted (20% of draws (hard)). About 15 more.
-- expert: 0 now, about 4 wanted (5% of draws (hard)). About 4 more.
+- intermediate: 117 now, about 60 wanted (75% of draws (intermediate)). Target met.
+- advanced: 88 now, about 16 wanted (20% of draws (hard)). Target met.
+- expert: 29 now, about 4 wanted (5% of draws (hard)). Target met.
 
-Curriculum topics with no question yet: The Lord's Prayer, Psalm 1, The Greatest Commandment.
+Every curriculum topic for this stage has at least one question.
 
-Book target: 40. Covered now: 2 (Psalms, Proverbs). About 38 more books need questions.
+Book target: 40. Covered now: 23 (Genesis, Exodus, Joshua, 1 Samuel, Ezra, Nehemiah, Psalms, Proverbs, Jeremiah, Ezekiel, Daniel, Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, 2 Timothy, 1 Peter, 1 John). About 17 more books need questions.
 
 New questions to write:
 
-- About 59 more intermediate questions (intermediate).
-- About 15 more advanced questions (hard).
-- About 4 more expert questions (hard).
-- Add questions for: The Lord's Prayer, Psalm 1, The Greatest Commandment.
-- Spread new questions across about 38 more books (target 40).
+- Spread new questions across about 17 more books (target 40).
 
 ## Fruitful
 

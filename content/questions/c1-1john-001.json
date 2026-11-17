@@ -1,0 +1,512 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1john-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1jn-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 1",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 John 1:5 gives the message the writers heard from Him and declare to their readers. What is that message?",
+        "child": "John says he is passing on a message he heard from Jesus. What does the message say God is?",
+        "teen": "1 John 1:5 sums up the message John heard and declares. What does it say about God?",
+        "older": "According to 1 John 1:5, what is the message they heard from Him and declare?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "God is near"
+        },
+        {
+          "id": "b",
+          "text": "God is holy"
+        },
+        {
+          "id": "c",
+          "text": "God is our judge"
+        },
+        {
+          "id": "d",
+          "text": "God is light"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 1:5",
+            "text": "This is the message which we have heard from Him and declare to you, that God is light and in Him is no darkness at all.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 1:5 gives the message after “and declare to you, that.” Read the first statement that follows.",
+          "child": "Look at the second half of 1 John 1:5. The message comes right after the word “that.”",
+          "teen": "1:5 introduces the message and then states it. Read the statement that begins the second half of the verse.",
+          "older": "The message itself is stated in the second half of 1:5; 1:6-7 apply it to how we walk."
+        },
+        "extended_explanation": "John opens this section by passing on a message he heard and now declares to his readers. The second half of 1:5 states it. In 1:6-7 he applies the message to how believers walk. Read the second half of 1:5.",
+        "takeaway": "God is light and in Him is no darkness at all."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1jn-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 1",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to 1 John 1:9, if we confess our sins, what is He, that He will forgive us and cleanse us from all unrighteousness?",
+        "child": "John says that when we confess our sins, God forgives and cleanses us. How does John describe God in this verse?",
+        "teen": "1 John 1:9 describes God’s character when we confess our sins. What does it call Him?",
+        "older": "In 1 John 1:9, how is He described, if we confess our sins?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Faithful and just"
+        },
+        {
+          "id": "b",
+          "text": "Slow and patient"
+        },
+        {
+          "id": "c",
+          "text": "Angry but merciful"
+        },
+        {
+          "id": "d",
+          "text": "Silent and distant"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 1:9",
+            "text": "If we confess our sins, He is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 1:9 describes Him right after “He is.” Read the words before “to forgive us our sins.”",
+          "child": "Look at the middle of 1 John 1:9. After “If we confess our sins,” John describes what He is.",
+          "teen": "1:9 has a condition, a description of God, and two promises. Read the description.",
+          "older": "The description sits between the condition and the promise in 1:9."
+        },
+        "extended_explanation": "John has said that if we say we have no sin, we deceive ourselves (1:8). In 1:9 he gives the other path: if we confess our sins, He forgives us our sins and cleanses us from all unrighteousness. The middle of the verse says what He is. Read the words after “He is” in 1:9.",
+        "takeaway": "If we confess our sins, He is faithful and just to forgive us and cleanse us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1jn-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 3",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John says it has not yet been revealed what we shall be. According to 3:2, when He is revealed, what do we know we shall be?",
+        "child": "John says we do not yet know everything about what we will be. But when Jesus appears, what does John say we will be?",
+        "teen": "1 John 3:2 points to the day when He is revealed. What does it say we shall be?",
+        "older": "According to 1 John 3:2, what shall we be when He is revealed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judged by Him"
+        },
+        {
+          "id": "b",
+          "text": "Far from Him"
+        },
+        {
+          "id": "c",
+          "text": "Like Him"
+        },
+        {
+          "id": "d",
+          "text": "Afraid of Him"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 3:2",
+            "text": "Beloved, now we are children of God; and it has not yet been revealed what we shall be, but we know that when He is revealed, we shall be like Him, for we shall see Him as He is.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 3:2 says “we know that when He is revealed, we shall be.” Read the words that follow, before “for.”",
+          "child": "Look at the second half of 1 John 3:2. After “when He is revealed,” John says what we shall be, and then why.",
+          "teen": "3:2 moves from what is not yet revealed to what we know. Read what we know, before the reason.",
+          "older": "It follows “when He is revealed” in 3:2; the reason comes after “for.”"
+        },
+        "extended_explanation": "John says that we are now children of God, though it has not yet been revealed what we shall be. Still, he says, we know what will happen when He is revealed, and he gives the reason: we shall see Him as He is. In 3:3 he adds that everyone who has this hope purifies himself. Read the second half of 3:2.",
+        "takeaway": "When He is revealed, we shall be like Him, for we shall see Him as He is."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1jn-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 4",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to 1 John 4:19, why do we love Him?",
+        "child": "John explains where our love for God comes from. Why does he say we love Him?",
+        "teen": "1 John 4:19 gives the reason behind our love for God. What is it?",
+        "older": "In 1 John 4:19, what reason does John give for our love for Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He commands us to"
+        },
+        {
+          "id": "b",
+          "text": "He first loved us"
+        },
+        {
+          "id": "c",
+          "text": "He has given us gifts"
+        },
+        {
+          "id": "d",
+          "text": "We fear His judgment"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 4:19",
+            "text": "We love Him because He first loved us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 4:19 is one sentence. Read the reason after “because.”",
+          "child": "Look at 1 John 4:19. The word “because” leads to the reason.",
+          "teen": "4:19 states that we love Him, then gives the reason with “because.” Read the end of the verse.",
+          "older": "The reason closes 4:19; compare 4:10."
+        },
+        "extended_explanation": "Throughout 1 John 4 John traces love back to its source (4:7-10). In 4:19 he states why we love Him. Read the clause after “because” in 4:19.",
+        "takeaway": "We love Him because He first loved us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1jn-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 4",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 John 4:8 explains why some do not know God, and 4:16 repeats the same statement about God. What is it?",
+        "child": "John says the same thing about God in two verses of this chapter. What does he say God is?",
+        "teen": "1 John 4:8 and 4:16 share the same statement about God. What is it?",
+        "older": "What statement about God appears in both 1 John 4:8 and 4:16?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "God is love"
+        },
+        {
+          "id": "b",
+          "text": "God is holy"
+        },
+        {
+          "id": "c",
+          "text": "God is far away"
+        },
+        {
+          "id": "d",
+          "text": "God is our Father"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 4:8",
+            "text": "He who does not love does not know God, for God is love.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 4:16",
+            "text": "And we have known and believed the love that God has for us. God is love, and he who abides in love abides in God, and God in him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 4:8 ends with a reason after “for.” Read it, then find the same words in the middle of 4:16.",
+          "child": "Look at the end of 1 John 4:8. Then look at 4:16, where John says it again.",
+          "teen": "The reason closes 4:8 and is repeated in the second sentence of 4:16.",
+          "older": "Read the final clause of 4:8 and the second sentence of 4:16."
+        },
+        "extended_explanation": "In 4:8 John gives a reason after “for.” In 4:16 he repeats those same words. Read the end of 4:8.",
+        "takeaway": "God is love, and he who abides in love abides in God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-1jn-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 5",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John says God has given us eternal life, and this life is in His Son (5:11). In 5:13 he says he has written these things to those who believe in the name of the Son of God for a purpose. What is it?",
+        "child": "John wrote his letter to people who believe in Jesus. According to 1 John 5:13, why did he write?",
+        "teen": "1 John 5:13 states John’s purpose in writing to believers. What is it?",
+        "older": "According to 1 John 5:13, for what purpose did John write to those who believe?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That you may hope"
+        },
+        {
+          "id": "b",
+          "text": "That you may ask for it"
+        },
+        {
+          "id": "c",
+          "text": "That you may work for it"
+        },
+        {
+          "id": "d",
+          "text": "That you may know"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 5:11",
+            "text": "And this is the testimony: that God has given us eternal life, and this life is in His Son.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 5:13",
+            "text": "These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 5:13 states the purpose after “These things I have written to you who believe in the name of the Son of God.” Read the first words after that.",
+          "child": "Look at the middle of 1 John 5:13. After John says whom he is writing to, he says why.",
+          "teen": "5:13 names the readers and then two purposes. Read the first purpose.",
+          "older": "The first purpose clause in 5:13 names it; the second is that they continue to believe."
+        },
+        "extended_explanation": "John says the testimony is that God has given us eternal life, and this life is in His Son (5:11). He who has the Son has life (5:12). In 5:13 John gives two purposes for writing to those who believe. Read the first one.",
+        "takeaway": "John wrote to believers that you may know that you have eternal life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1jn-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 1",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John says that if we claim to be close to Him and yet walk in darkness, we lie and do not practice the truth (1:6). According to 1:7, what do we have if we walk in the light as He is in the light?",
+        "child": "John says people who claim to know God but live in darkness are not telling the truth. What does he say we have when we walk in the light?",
+        "teen": "1 John 1:6-7 contrasts walking in darkness with walking in the light. According to 1:7, what do we have when we walk in the light?",
+        "older": "According to 1 John 1:7, what do we have if we walk in the light as He is in the light?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Freedom from every trouble"
+        },
+        {
+          "id": "b",
+          "text": "Fellowship with one another"
+        },
+        {
+          "id": "c",
+          "text": "Wisdom beyond all the prophets"
+        },
+        {
+          "id": "d",
+          "text": "Peace with all the nations"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 1:6",
+            "text": "If we say that we have fellowship with Him, and walk in darkness, we lie and do not practice the truth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 1:7",
+            "text": "But if we walk in the light as He is in the light, we have fellowship with one another, and the blood of Jesus Christ His Son cleanses us from all sin.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 1:7 begins with a condition, then says what we have. Read the words after “we have,” before “and the blood of Jesus Christ.”",
+          "child": "Look at the middle of 1 John 1:7. After the part about walking in the light, John says what we have.",
+          "teen": "1:6 is the false claim; 1:7 gives two results of walking in the light. Read the first result.",
+          "older": "The first result in 1:7 names it; the second concerns cleansing from all sin."
+        },
+        "extended_explanation": "John sets two ways of walking side by side. If we claim to be close to Him while walking in darkness, we lie (1:6). In 1:7, walking in the light as He is in the light brings two results: something we have, and the blood of Jesus Christ His Son cleansing us from all sin. Read the first result in 1:7.",
+        "takeaway": "If we walk in the light, we have fellowship with one another, and the blood of Jesus cleanses us from all sin."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-1jn-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 4",
+      "topics": [
+        "god-is-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John says love is of God (4:7), and that love is seen in God sending His Son to be the propitiation for our sins (4:10). According to 4:18, what does perfect love do?",
+        "child": "John says real love comes from God, who sent His Son for us. What does John say perfect love does?",
+        "teen": "1 John 4:7-10 traces love to God, and 4:17-18 shows what that love does in us. What does 4:18 say perfect love does?",
+        "older": "Read 1 John 4:7 and 4:10 alongside 4:18. According to 4:18, what does perfect love do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Covers every sin"
+        },
+        {
+          "id": "b",
+          "text": "Ends all suffering"
+        },
+        {
+          "id": "c",
+          "text": "Casts out fear"
+        },
+        {
+          "id": "d",
+          "text": "Keeps all the law"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 4:7",
+            "text": "Beloved, let us love one another, for love is of God; and everyone who loves is born of God and knows God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 4:10",
+            "text": "In this is love, not that we loved God, but that He loved us and sent His Son to be the propitiation for our sins.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 4:18",
+            "text": "There is no fear in love; but perfect love casts out fear, because fear involves torment. But he who fears has not been made perfect in love.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "1 John 4:18 says “but perfect love.” Read the words that follow, then the reason after “because.”",
+          "child": "Look at the first sentence of 1 John 4:18. After “perfect love,” John says what it does.",
+          "teen": "4:7-10 says love comes from God. 4:18 says what perfect love does. Read the words after “perfect love.”",
+          "older": "The first sentence of 4:18 names it, right after the words “perfect love.”"
+        },
+        "extended_explanation": "John says love is of God (4:7) and that love was shown when God sent His Son to be the propitiation for our sins (4:10). That love is perfected among us (4:17). In 4:18 John says what perfect love does, and gives a reason. Read the first sentence of 4:18.",
+        "takeaway": "Perfect love casts out fear, and that love comes from God, who loved us first."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

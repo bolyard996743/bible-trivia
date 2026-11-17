@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ezra-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-ezr-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 9",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Ezra heard the leaders’ report about the people’s unfaithfulness, he tore his garment and robe and sat astonished. At the evening sacrifice, what does he say he did after rising from his fasting?",
+        "child": "Ezra was so upset by bad news about the people that he tore his clothes and sat stunned for hours. When it was time for the evening sacrifice, what did he do?",
+        "teen": "9:3 shows Ezra stunned by the news. At the evening sacrifice in 9:5, what did he do after rising from his fasting?",
+        "older": "According to Ezra 9:5, what did Ezra do at the evening sacrifice after rising from his fasting?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Covered my face with ashes"
+        },
+        {
+          "id": "b",
+          "text": "Called out to my people"
+        },
+        {
+          "id": "c",
+          "text": "Fell on my knees"
+        },
+        {
+          "id": "d",
+          "text": "Went home to my house"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 9:3",
+            "text": "So when I heard this thing, I tore my garment and my robe, and plucked out some of the hair of my head and beard, and sat down astonished.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 9:5",
+            "text": "At the evening sacrifice I arose from my fasting; and having torn my garment and my robe, I fell on my knees and spread out my hands to the LORD my God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 9:5 has several actions after “At the evening sacrifice I arose from my fasting.” Read the one right after “my robe.”",
+          "child": "Look at Ezra 9:5. Find what Ezra did right after he mentions his torn garment and robe.",
+          "teen": "9:3 is the shock. In 9:5, read the words after “having torn my garment and my robe.”",
+          "older": "The main verb of the second clause of 9:5, after the torn garment and robe, gives it."
+        },
+        "extended_explanation": "The leaders told Ezra that many had not kept themselves separate from the peoples of the land. Ezra tore his clothes, pulled out some of his hair, and sat stunned until the evening sacrifice, while those who trembled at God’s words gathered around him. In 9:5 he rises at the evening sacrifice. Read the clause after “my robe.”",
+        "takeaway": "At the evening sacrifice Ezra fell on his knees and spread out his hands to the LORD his God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezr-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 9",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra begins his prayer by saying he is too ashamed to lift up his face to God. How high does he say their iniquities have risen?",
+        "child": "Ezra told God he was too ashamed even to look up. He said the people’s sins had piled up very high. How high?",
+        "teen": "In Ezra 9:6, Ezra uses a picture to show how great the people’s sin was. How high does he say their iniquities have risen?",
+        "older": "In Ezra 9:6, how high does Ezra say their iniquities have risen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Higher than our heads"
+        },
+        {
+          "id": "b",
+          "text": "As high as the city walls"
+        },
+        {
+          "id": "c",
+          "text": "Above the tallest mountains"
+        },
+        {
+          "id": "d",
+          "text": "As high as the temple roof"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 9:6",
+            "text": "And I said: “O my God, I am too ashamed and humiliated to lift up my face to You, my God; for our iniquities have risen higher than our heads, and our guilt has grown up to the heavens.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 9:6 gives the picture right after “for our iniquities have risen.”",
+          "child": "Look at Ezra 9:6, right after the words “our iniquities have risen.”",
+          "teen": "9:6 has two pictures after “for”: one for iniquities and one for guilt. Read the first.",
+          "older": "The first of the two parallel lines after “for” in 9:6 gives it."
+        },
+        "extended_explanation": "Ezra confesses on behalf of the whole people, saying “our” and “we.” In 9:6 he says he is ashamed to lift his face, then gives two images of how great their wrongdoing had become: one for their iniquities and one for their guilt. Read the first image.",
+        "takeaway": "Ezra confessed that their iniquities had risen higher than their heads."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 13",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nehemiah returned to Jerusalem and found that Eliashib the priest had prepared a room for Tobiah in the courts of God’s house. What did Nehemiah throw out of the room?",
+        "child": "Nehemiah came back and found that his enemy Tobiah had been given a room in God’s house. What did Nehemiah throw out?",
+        "teen": "In Nehemiah 13:7-8, Nehemiah discovers a room in the temple courts set aside for Tobiah. What did he throw out of it?",
+        "older": "According to Nehemiah 13:8, what did Nehemiah throw out of the room?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The idols of the Ammonites"
+        },
+        {
+          "id": "b",
+          "text": "The tents of the Arab traders"
+        },
+        {
+          "id": "c",
+          "text": "The letters Sanballat had sent Tobiah"
+        },
+        {
+          "id": "d",
+          "text": "The household goods of Tobiah"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 13:7",
+            "text": "and I came to Jerusalem and discovered the evil that Eliashib had done for Tobiah, in preparing a room for him in the courts of the house of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 13:8",
+            "text": "And it grieved me bitterly; therefore I threw all the household goods of Tobiah out of the room.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 13:8 tells what he threw out, right after “therefore I threw all.”",
+          "child": "Look at Nehemiah 13:8. Read the words right after “I threw all.”",
+          "teen": "13:7 is the discovery; 13:8 is the reaction. Read what comes between “I threw all” and “out of the room.”",
+          "older": "The object of “threw” in 13:8 names it."
+        },
+        "extended_explanation": "While Nehemiah was away, Eliashib, who oversaw the storerooms, gave Tobiah a large room that had held grain offerings, frankincense, and tithes for the Levites. When Nehemiah returned and saw it, he was deeply grieved. 13:8 tells what he did with what was in the room. Read the middle of 13:8.",
+        "takeaway": "Nehemiah threw all the household goods of Tobiah out of the room in God’s house."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 13",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Merchants were bringing loads into Jerusalem on the Sabbath. As it began to get dark before the Sabbath, what did Nehemiah command at the gates of Jerusalem?",
+        "child": "People were buying and selling in Jerusalem on the Sabbath. Just before the Sabbath began, as it got dark, what did Nehemiah order at the city gates?",
+        "teen": "In Nehemiah 13:19, as it began to be dark before the Sabbath, what did Nehemiah command at the gates?",
+        "older": "According to Nehemiah 13:19, what did Nehemiah command as it began to be dark before the Sabbath?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The trumpet to be sounded"
+        },
+        {
+          "id": "b",
+          "text": "The gates to be shut"
+        },
+        {
+          "id": "c",
+          "text": "The Law to be read aloud"
+        },
+        {
+          "id": "d",
+          "text": "The gates to be opened at dawn"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 13:19",
+            "text": "So it was, at the gates of Jerusalem, as it began to be dark before the Sabbath, that I commanded the gates to be shut, and charged that they must not be opened till after the Sabbath. Then I posted some of my servants at the gates, so that no burdens would be brought in on the Sabbath day.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 13:19 gives the command right after “that I commanded.”",
+          "child": "Look at Nehemiah 13:19. Read what comes right after “I commanded.”",
+          "teen": "13:19 has a command and then servants posted to back it up. Read the command first.",
+          "older": "Read the main clause of 13:19 that follows the time phrase about darkness."
+        },
+        "extended_explanation": "Nehemiah saw people treading winepresses, loading donkeys, and selling food on the Sabbath, and men of Tyre selling fish. He warned the nobles that this was the kind of thing that had brought disaster before. In 13:19 he acts at the edge of the Sabbath itself. Read the command in 13:19.",
+        "takeaway": "As dark fell before the Sabbath, Nehemiah commanded the gates to be shut and posted servants there."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-ezr-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 9",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Ezra 9:8-9, Ezra says that for a little while grace has been shown and God did not forsake them in their bondage. According to 9:8, what did God give them in His holy place?",
+        "child": "Ezra said that God had been kind to them for a little while and had not given up on them as slaves. What did God give them in His holy place?",
+        "teen": "Ezra 9:8 lists gifts God gave the remnant; 9:9 adds that He did not forsake them in bondage. What did God give them in His holy place?",
+        "older": "According to Ezra 9:8, what did God give the remnant in His holy place?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A lamp"
+        },
+        {
+          "id": "b",
+          "text": "A crown"
+        },
+        {
+          "id": "c",
+          "text": "A peg"
+        },
+        {
+          "id": "d",
+          "text": "A throne"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 9:8",
+            "text": "And now for a little while grace has been shown from the LORD our God, to leave us a remnant to escape, and to give us a peg in His holy place, that our God may enlighten our eyes and give us a measure of revival in our bondage.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 9:9",
+            "text": "For we were slaves. Yet our God did not forsake us in our bondage; but He extended mercy to us in the sight of the kings of Persia, to revive us, to repair the house of our God, to rebuild its ruins, and to give us a wall in Judah and Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 9:8 lists several gifts. Find the one tied to “in His holy place.”",
+          "child": "Look at Ezra 9:8. Find the gift that comes right before the words “in His holy place.”",
+          "teen": "9:8 lists a remnant to escape, then a second gift tied to God’s holy place. Read the words after “and to give us.”",
+          "older": "The second purpose clause of 9:8, “to give us ...,” names the gift."
+        },
+        "extended_explanation": "Ezra does not hide the people’s guilt, but he also names what God has done. In 9:8 he speaks of a short season of grace: a remnant allowed to escape, something given in God’s holy place, light for their eyes, and a little revival in bondage. 9:9 adds that God extended mercy before the kings of Persia. Read the words after “and to give us” in 9:8.",
+        "takeaway": "God gave the remnant a peg in His holy place, a small but secure place to hold on."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-neh-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 9",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nehemiah 9:16-17 says the fathers acted proudly, hardened their necks, and even appointed a leader to return to bondage. Then the prayer turns with “But You are God.” What is the first thing it says God is?",
+        "child": "The people’s prayer admits their ancestors were stubborn and rebellious. Then it says, “But You are God.” What is the first thing it says about God?",
+        "teen": "In Nehemiah 9:17 the prayer turns from the people’s stubbornness to God’s character. What comes first after “But You are God”?",
+        "older": "In Nehemiah 9:17, what is the first description of God after “But You are God”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ready to pardon"
+        },
+        {
+          "id": "b",
+          "text": "Mighty to save"
+        },
+        {
+          "id": "c",
+          "text": "Faithful to His word"
+        },
+        {
+          "id": "d",
+          "text": "Holy in all His ways"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 9:16",
+            "text": "“But they and our fathers acted proudly, Hardened their necks, And did not heed Your commandments.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 9:17",
+            "text": "They refused to obey, And they were not mindful of Your wonders That You did among them. But they hardened their necks, And in their rebellion They appointed a leader To return to their bondage. But You are God, Ready to pardon, Gracious and merciful, Slow to anger, Abundant in kindness, And did not forsake them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Nehemiah 9:17 right after “But You are God.” The first description comes next.",
+          "child": "Look near the end of Nehemiah 9:17. Read the words right after “But You are God.”",
+          "teen": "9:16-17 lists the fathers’ failures; the turn comes with “But You are God.” Read the next line.",
+          "older": "The list after “But You are God” in 9:17 begins with it."
+        },
+        "extended_explanation": "This prayer is honest about Israel’s past: the fathers acted proudly, would not listen, forgot God’s wonders, and even chose a leader to take them back to slavery. Then it turns to who God is, with a list of His qualities, ending with the fact that He did not forsake them. Read the first line after “But You are God.”",
+        "takeaway": "Even when the fathers rebelled, God was ready to pardon, gracious and merciful, and did not forsake them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-neh-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 9",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Nehemiah 9:32, the people ask God not to let all their trouble seem small before Him. In the next verse, what do they say about God in all that has befallen them?",
+        "child": "The people asked God to see how much trouble they were in. In the very next verse, what did they say about God?",
+        "teen": "Nehemiah 9:32 asks God to see their trouble; 9:33 begins with a statement about God. What does it say about Him in all that has happened to them?",
+        "older": "According to Nehemiah 9:33, what do the people declare about God concerning all that has befallen them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You are near to us"
+        },
+        {
+          "id": "b",
+          "text": "You are our shield"
+        },
+        {
+          "id": "c",
+          "text": "You are hidden from us"
+        },
+        {
+          "id": "d",
+          "text": "You are just"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 9:32",
+            "text": "“Now therefore, our God, The great, the mighty, and awesome God, Who keeps covenant and mercy: Do not let all the trouble seem small before You That has come upon us, Our kings and our princes, Our priests and our prophets, Our fathers and on all Your people, From the days of the kings of Assyria until this day.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 9:33",
+            "text": "However You are just in all that has befallen us; For You have dealt faithfully, But we have done wickedly.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Nehemiah 9:33 opens with the confession, right after “However.”",
+          "child": "Look at the start of Nehemiah 9:33, right after the word “However.”",
+          "teen": "9:33 has three parts: a confession about God, then “For You have dealt faithfully,” then “But we have done wickedly.” Read the first part.",
+          "older": "The opening clause of 9:33, before “in all that has befallen us,” states it."
+        },
+        "extended_explanation": "The prayer of Nehemiah 9 asks for mercy without blaming God. 9:32 calls Him the great, mighty, and awesome God who keeps covenant and mercy, and asks Him to see their distress. 9:33 then admits where the fault lies, contrasting how God has dealt with how they have acted. Read the opening words of 9:33.",
+        "takeaway": "The people confessed, “You are just in all that has befallen us; for You have dealt faithfully, but we have done wickedly.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-ezr-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 9",
+      "topics": [
+        "confession-and-reform"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra’s prayer ends by admitting that no one can stand before God because of their guilt (9:15). Earlier, in 9:13, he describes how God has punished them after all their evil deeds. How?",
+        "child": "Ezra admitted the people’s great guilt before God. In Ezra 9:13, how does he say God had punished them?",
+        "teen": "Ezra 9:13-15 confesses guilt and speaks of how God has dealt with the remnant. According to 9:13, how had God punished them?",
+        "older": "According to Ezra 9:13, how had God punished the people compared with what they had done?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Only for the sins of our kings"
+        },
+        {
+          "id": "b",
+          "text": "Less than our iniquities deserve"
+        },
+        {
+          "id": "c",
+          "text": "More than any nation around us"
+        },
+        {
+          "id": "d",
+          "text": "Exactly as the prophets warned us"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 9:13",
+            "text": "And after all that has come upon us for our evil deeds and for our great guilt, since You our God have punished us less than our iniquities deserve, and have given us such deliverance as this,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 9:15",
+            "text": "O LORD God of Israel, You are righteous, for we are left as a remnant, as it is this day. Here we are before You, in our guilt, though no one can stand before You because of this!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Ezra 9:13 describes the punishment in the clause that begins “since You our God have punished us.” Then 9:15 shows how Ezra speaks of God’s character.",
+          "child": "Look at the middle of Ezra 9:13. Read what comes right after “have punished us.”",
+          "teen": "9:13 compares the punishment with something. Read the words right after “punished us.”",
+          "older": "The comparison follows “have punished us” in 9:13; 9:15 then names what God is."
+        },
+        "extended_explanation": "Ezra does not argue with God. In 9:15 he says what God is and admits that no one can stand before Him in their guilt. Yet in 9:13 he notes how God has measured out their punishment and given them deliverance. Read the clause after “have punished us” in 9:13 and set it beside the opening of 9:15.",
+        "takeaway": "Ezra confessed that God is righteous and had punished them less than their iniquities deserved."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}

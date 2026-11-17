@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-daniel-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-dan-0017",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 5",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "During Belshazzar’s great feast, something suddenly appeared and wrote on the plaster of the palace wall. What was it?",
+        "child": "At King Belshazzar’s big party, something mysterious began writing on the wall. What was it?",
+        "teen": "Daniel 5:5 describes the moment Belshazzar’s feast was interrupted. What appeared and wrote on the wall?",
+        "older": "According to Daniel 5:5, what appeared and wrote on the wall of the king’s palace?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fingers of a man’s hand"
+        },
+        {
+          "id": "b",
+          "text": "A glowing figure in white"
+        },
+        {
+          "id": "c",
+          "text": "A great eagle from heaven"
+        },
+        {
+          "id": "d",
+          "text": "An angel holding a flaming sword"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 5:5",
+            "text": "In the same hour the fingers of a man’s hand appeared and wrote opposite the lampstand on the plaster of the wall of the king’s palace; and the king saw the part of the hand that wrote.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 5:5 names it right after “In the same hour.”",
+          "child": "Look at the very beginning of Daniel 5:5, right after “In the same hour.”",
+          "teen": "5:5 tells what appeared, where it wrote, and what the king saw. Read the first part.",
+          "older": "The subject of the first clause in 5:5 names it; the last clause repeats part of it."
+        },
+        "extended_explanation": "Belshazzar threw a great feast and drank from the gold and silver vessels taken from the temple in Jerusalem, while praising idols of gold, silver, bronze, iron, wood, and stone. 5:5 says that in that same hour the feast was interrupted, and the king watched it happen. Read the opening of 5:5.",
+        "takeaway": "In the same hour the fingers of a man’s hand appeared and wrote on the wall of the king’s palace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-dan-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nebuchadnezzar demanded that his wise men tell him both his dream and its interpretation. According to Daniel 2:10-11, who did the Chaldeans say could do such a thing?",
+        "child": "The king wanted his wise men to tell him what he had dreamed and what it meant. The wise men said no person on earth could do that. Who did they say could?",
+        "teen": "In Daniel 2:10-11 the Chaldeans protest the king’s demand. Whom do they name as the only ones able to tell it?",
+        "older": "According to Daniel 2:11, who alone could tell the king’s matter, in the Chaldeans’ view?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The king himself"
+        },
+        {
+          "id": "b",
+          "text": "The priests of Babylon"
+        },
+        {
+          "id": "c",
+          "text": "The gods"
+        },
+        {
+          "id": "d",
+          "text": "The stars of heaven"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:10",
+            "text": "The Chaldeans answered the king, and said, “There is not a man on earth who can tell the king’s matter; therefore no king, lord, or ruler has ever asked such things of any magician, astrologer, or Chaldean.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:11",
+            "text": "It is a difficult thing that the king requests, and there is no other who can tell it to the king except the gods, whose dwelling is not with flesh.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 2:11 ends with the only ones the Chaldeans thought could do it, right after “except.”",
+          "child": "Look at the end of Daniel 2:11. Read the words right after “except.”",
+          "teen": "2:10 says no man on earth can do it; 2:11 names the exception. Read the words after “except.”",
+          "older": "The exception in 2:11, with its note about where they dwell, gives it."
+        },
+        "extended_explanation": "Nebuchadnezzar would not tell his dream; he wanted proof that his wise men could truly make it known. The Chaldeans protested that no king had ever asked such a thing and that no man on earth could do it. In 2:11 they name the only exception they could think of, and add a note about where they dwell. Read the end of 2:11.",
+        "takeaway": "The Chaldeans said no one could tell the king’s dream except the gods, whose dwelling is not with flesh, but the God of heaven made it known to Daniel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-dan-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the decree went out to destroy the wise men of Babylon, Daniel went home and told Hananiah, Mishael, and Azariah. What were they to seek from the God of heaven concerning the secret?",
+        "child": "Daniel and his friends were in danger because the king wanted all the wise men killed. Daniel told his friends to ask God for something. What was it?",
+        "teen": "In Daniel 2:17-18 Daniel turns a crisis into a time of prayer. What did he want his companions to seek from the God of heaven?",
+        "older": "According to Daniel 2:18, what were Daniel’s companions to seek from the God of heaven?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Courage"
+        },
+        {
+          "id": "b",
+          "text": "Strength"
+        },
+        {
+          "id": "c",
+          "text": "A sign"
+        },
+        {
+          "id": "d",
+          "text": "Mercies"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:17",
+            "text": "Then Daniel went to his house, and made the decision known to Hananiah, Mishael, and Azariah, his companions,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:18",
+            "text": "that they might seek mercies from the God of heaven concerning this secret, so that Daniel and his companions might not perish with the rest of the wise men of Babylon.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 2:18 names it right after “that they might seek.”",
+          "child": "Look at the start of Daniel 2:18, right after “that they might seek.”",
+          "teen": "2:17 is Daniel telling his friends; 2:18 gives the purpose. Read the word after “seek.”",
+          "older": "The object of “seek” in 2:18 names it."
+        },
+        "extended_explanation": "The king’s decree put Daniel and his friends under a death sentence along with all the wise men of Babylon. Daniel asked the king for time, then went home and told his three companions. 2:18 explains why he told them and what he wanted them to ask God for. Read the opening of 2:18.",
+        "takeaway": "Daniel asked his companions to seek mercies from the God of heaven concerning the secret."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-dan-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Nebuchadnezzar’s dream, a stone cut out without hands struck the great image on its feet of iron and clay and broke them. What did the stone become (2:35)?",
+        "child": "In the king’s dream, a stone cut out without hands smashed a huge statue. What did the stone turn into?",
+        "teen": "Daniel 2:34-35 describes a stone striking the image and the image blowing away like chaff. What did the stone become?",
+        "older": "According to Daniel 2:35, what did the stone that struck the image become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A mighty river"
+        },
+        {
+          "id": "b",
+          "text": "A great mountain"
+        },
+        {
+          "id": "c",
+          "text": "A shining city"
+        },
+        {
+          "id": "d",
+          "text": "A great throne in heaven"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:34",
+            "text": "You watched while a stone was cut out without hands, which struck the image on its feet of iron and clay, and broke them in pieces.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:35",
+            "text": "Then the iron, the clay, the bronze, the silver, and the gold were crushed together, and became like chaff from the summer threshing floors; the wind carried them away so that no trace of them was found. And the stone that struck the image became a great mountain and filled the whole earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 2:35 ends with it, right after “And the stone that struck the image became.”",
+          "child": "Look at the last sentence of Daniel 2:35. Read what the stone became.",
+          "teen": "2:35 has the image crushed and carried away, then one last sentence about the stone. Read it.",
+          "older": "The final sentence of 2:35 states it, along with what it filled."
+        },
+        "extended_explanation": "Daniel told the king his dream before giving its meaning: a great image of gold, silver, bronze, iron, and clay. A stone cut out without hands struck its feet, and the whole image was crushed and blown away so that no trace was found. 2:35 ends by telling what happened to the stone. Read the last sentence.",
+        "takeaway": "The stone that struck the image became a great mountain and filled the whole earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-dan-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 4",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Nebuchadnezzar’s second dream, a watcher, a holy one, came down from heaven and cried, “Chop down the tree” (4:13-14). According to 4:17, what is this decree meant to make the living know?",
+        "child": "In the king’s dream about a great tree, a holy messenger from heaven ordered the tree cut down. According to Daniel 4:17, what were people supposed to learn from it?",
+        "teen": "The watcher’s decree in Daniel 4:14 has a purpose stated in 4:17. What are the living to know?",
+        "older": "According to Daniel 4:17, what is the decree of the watchers meant to teach the living?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That the king will live forever"
+        },
+        {
+          "id": "b",
+          "text": "That Babylon will never fall"
+        },
+        {
+          "id": "c",
+          "text": "That the Most High rules"
+        },
+        {
+          "id": "d",
+          "text": "That dreams cannot be trusted"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 4:14",
+            "text": "He cried aloud and said thus: ‘Chop down the tree and cut off its branches, Strip off its leaves and scatter its fruit. Let the beasts get out from under it, And the birds from its branches.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 4:17",
+            "text": "‘This decision is by the decree of the watchers, And the sentence by the word of the holy ones, In order that the living may know That the Most High rules in the kingdom of men, Gives it to whomever He will, And sets over it the lowest of men.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 4:17 states the purpose right after “In order that the living may know.”",
+          "child": "Look at the middle of Daniel 4:17, after “In order that the living may know.”",
+          "teen": "4:14 is the command; 4:17 is the reason. Read the words after “may know.”",
+          "older": "Read the clause introduced by “In order that” in 4:17."
+        },
+        "extended_explanation": "Nebuchadnezzar dreamed of a great tree that fed and sheltered everything. A watcher came down from heaven and ordered it cut down, though its stump was to be left in the ground. 4:17 explains that this was decreed for a reason: the living must learn something. Read the words after “may know” in 4:17.",
+        "takeaway": "The tree was cut down so that the living may know that the Most High rules in the kingdom of men."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c2-dan-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 5",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The writing on the wall read MENE, MENE, TEKEL, UPHARSIN (5:25). Daniel explained that TEKEL meant Belshazzar had been weighed in the balances. What was the result (5:27)?",
+        "child": "Strange words appeared on the wall. Daniel said one word, TEKEL, meant the king had been weighed on a scale. What did the scale show?",
+        "teen": "Daniel 5:25 gives the inscription; 5:27 explains TEKEL with a picture of scales. What was Belshazzar found to be?",
+        "older": "According to Daniel 5:27, after being weighed in the balances, how was Belshazzar found?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Found wanting"
+        },
+        {
+          "id": "b",
+          "text": "Found faithful"
+        },
+        {
+          "id": "c",
+          "text": "Found just"
+        },
+        {
+          "id": "d",
+          "text": "Found ready"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 5:25",
+            "text": "“And this is the inscription that was written: MENE, MENE, TEKEL, UPHARSIN.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 5:27",
+            "text": "TEKEL: You have been weighed in the balances, and found wanting;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Daniel 5:27, after the comma.",
+          "child": "Look at the very end of Daniel 5:27.",
+          "teen": "5:25 is the inscription; 5:27 gives the meaning of TEKEL in two parts. Read the second part.",
+          "older": "The second clause of 5:27, after “weighed in the balances,” gives the verdict."
+        },
+        "extended_explanation": "Belshazzar had used the vessels from God’s temple at his feast and praised idols. Four words appeared on the wall, and only Daniel could explain them. Each word carried a verdict. In 5:27 Daniel explains TEKEL with the picture of a set of scales. Read the end of 5:27.",
+        "takeaway": "TEKEL: Belshazzar had been weighed in the balances and found wanting."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-dan-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the secret was made known to Daniel, he blessed God and said two things belong to Him (2:20). In 2:23 he thanks God for giving him those same two things. What are they?",
+        "child": "After God showed Daniel the king’s dream, Daniel praised God. He said two things belong to God, and then thanked God for giving him the same two things. What were they?",
+        "teen": "Daniel’s prayer repeats a pair of words: first as something that belongs to God (2:20), then as something God gave him (2:23). What is the pair?",
+        "older": "What pair does Daniel ascribe to God in 2:20 and then thank God for giving him in 2:23?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Riches and honor"
+        },
+        {
+          "id": "b",
+          "text": "Wisdom and might"
+        },
+        {
+          "id": "c",
+          "text": "Power and glory"
+        },
+        {
+          "id": "d",
+          "text": "Strength and courage"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:20",
+            "text": "Daniel answered and said: “Blessed be the name of God forever and ever, For wisdom and might are His.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:23",
+            "text": "“I thank You and praise You, O God of my fathers; You have given me wisdom and might, And have now made known to me what we asked of You, For You have made known to us the king’s demand.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 2:20 ends with the pair, right after “For.” Look for the same pair in 2:23, after “You have given me.”",
+          "child": "Look at the end of Daniel 2:20, right after “For.” Then find the same words in 2:23.",
+          "teen": "2:20 names the pair at its end; 2:23 repeats it after “You have given me.”",
+          "older": "The pair closes 2:20 and recurs after “You have given me” in 2:23."
+        },
+        "extended_explanation": "Daniel’s life depended on knowing a dream he had never seen. After he and his friends prayed, God showed it to him in a night vision, and Daniel responded with praise. He first says what belongs to God, and then, in 2:23, he thanks God for sharing the very same things with him. Read the end of 2:20 and the middle of 2:23.",
+        "takeaway": "Daniel praised God, “For wisdom and might are His,” and thanked Him, “You have given me wisdom and might.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    },
+    {
+      "id": "c3-dan-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 4",
+      "topics": [
+        "daniel-in-babylon"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After his time among the beasts, Nebuchadnezzar lifted his eyes to heaven, his understanding returned, and he praised the King of heaven (4:34, 37). Daniel later reminded Belshazzar of all this (5:20-21). According to 5:22, what had Belshazzar not done, although he knew all this?",
+        "child": "King Nebuchadnezzar learned his lesson and praised God. Years later, Daniel told King Belshazzar that he knew this whole story. What had Belshazzar still not done?",
+        "teen": "Daniel 4:34-37 shows a proud king restored after he looked to heaven. Daniel 5:22 says Belshazzar knew all this. What had he failed to do?",
+        "older": "Read Daniel 4:34 and 4:37 beside 5:22. What does Daniel say Belshazzar had not done, although he knew all this?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fasted in sackcloth and ashes"
+        },
+        {
+          "id": "b",
+          "text": "Returned the temple vessels"
+        },
+        {
+          "id": "c",
+          "text": "Prayed toward Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "Humbled your heart"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 4:34",
+            "text": "And at the end of the time I, Nebuchadnezzar, lifted my eyes to heaven, and my understanding returned to me; and I blessed the Most High and praised and honored Him who lives forever: For His dominion is an everlasting dominion, And His kingdom is from generation to generation.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 4:37",
+            "text": "Now I, Nebuchadnezzar, praise and extol and honor the King of heaven, all of whose works are truth, and His ways justice. And those who walk in pride He is able to put down.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 5:22",
+            "text": "“But you his son, Belshazzar, have not humbled your heart, although you knew all this.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Daniel 5:22 names it right after “have not.”",
+          "child": "Look at Daniel 5:22, right after the words “have not.”",
+          "teen": "4:34 shows Nebuchadnezzar looking up; 5:22 shows what Belshazzar never did. Read the words after “have not.”",
+          "older": "The verb phrase after “have not” in 5:22 states it; compare the last line of 4:37."
+        },
+        "extended_explanation": "Nebuchadnezzar’s story in Daniel 4 ends with a king who lifted his eyes to heaven, had his understanding restored, and praised the King of heaven, whose ways are justice. In Daniel 5 Daniel reminds Belshazzar of that whole story and then says Belshazzar knew it. 5:22 names what he failed to do with that knowledge. Read the words after “have not” in 5:22.",
+        "takeaway": "Nebuchadnezzar learned that those who walk in pride God is able to put down, but Belshazzar had not humbled his heart, although he knew all this."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Established stage. NKJV excerpt copied from _established_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Established"
+    }
+  ]
+}
