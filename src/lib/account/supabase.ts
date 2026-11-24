@@ -100,17 +100,41 @@ export async function createProfileForNewAccount(input: {
   const { data } = await supabase.auth.getUser();
   const userId = data.user?.id;
   if (!userId) return;
-  const existing = await supabase.from("profiles").select("user_id").eq("user_id", userId).maybeSingle();
-  if (existing.data) return;
-  const { error } = await supabase.from("profiles").insert({
+  const existing = await supabase.from("profiles").select("user_id, birth_date").eq("user_id", userId).maybeSingle();
+  if (existing.data) {
+    const stored = existing.data as { birth_date?: string | null };
+    if (stored.birth_date == null && input.birthDate) {
+      const filled = await supabase
+        .from("profiles")
+        .update({ birth_date: input.birthDate, age_group: input.ageGroup })
+        .eq("user_id", userId);
+      if (filled.error) throw filled.error;
+    }
+    return;
+  }
+  const row: {
+    user_id: string;
+    age_group: "teen" | "adult" | "older";
+    birth_date: string;
+    mascot: "judah" | "agnes" | "shalom" | "zion" | "hunter";
+    points: number;
+    username?: string;
+  } = {
     user_id: userId,
-    username: input.username,
     age_group: input.ageGroup,
     birth_date: input.birthDate,
     mascot: input.mascot ?? "judah",
     points: 0,
-  });
-  if (error) throw error;
+  };
+  if (input.username) row.username = input.username;
+  const { error } = await supabase.from("profiles").insert(row);
+  if (error) {
+    const text = error.message.toLowerCase();
+    if (text.includes("username") && /unique|duplicate|taken/.test(text)) throw error;
+    const again = await supabase.from("profiles").select("user_id").eq("user_id", userId).maybeSingle();
+    if (again.data) return;
+    throw error;
+  }
 }
 
 /**

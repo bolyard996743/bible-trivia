@@ -4,33 +4,23 @@ import Link from "next/link";
 import { useEffect, useState, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import { accountModeHref, type AccountMode } from "@/lib/account/account-mode";
-import { ageGroupFromBirthDate, birthDateIso, loadDeviceBirthDate, type DeviceBirth } from "@/lib/account/age-gate";
-import { CONFIRM_EMAIL_MESSAGE, PASSWORD_RULE, signupErrorMessage, USERNAME_TAKEN } from "@/lib/account/auth-errors";
+import { accountBirth, birthDateIso } from "@/lib/account/age-gate";
+import { CONFIRM_EMAIL_MESSAGE, signupErrorMessage } from "@/lib/account/auth-errors";
+import { registerWithPassword } from "@/lib/account/register-account";
 import { acceptMerge, declineMerge, getMergeOffer, subscribeAccount } from "@/lib/account/session";
 import {
   createProfileForNewAccount,
   getSupabaseBrowserClient,
   isSupabaseConfigured,
-  isUsernameAvailable,
   resendSignupConfirmation,
   sendPasswordReset,
   signInWithPassword,
   signOut,
-  signUpWithPassword,
 } from "@/lib/account/supabase";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
-import { validateUsername } from "@/lib/account/username";
 import { useProfile } from "@/lib/use-profile";
 
 type Mode = AccountMode;
-
-function accountBirth(): { birth: DeviceBirth; age: "teen" | "adult" | "older" } | null {
-  const birth = loadDeviceBirthDate();
-  if (!birth) return null;
-  const age = ageGroupFromBirthDate(birth);
-  if (age !== "teen" && age !== "adult" && age !== "older") return null;
-  return { birth, age };
-}
 
 export function AccountScreen() {
   const { state, ready } = useProfile();
@@ -97,43 +87,22 @@ export function AccountScreen() {
         setMessage("Check your email for a link to choose a new password.");
         return;
       }
-      if (password.length < 8) {
-        setMessage(mode === "sign-up" ? PASSWORD_RULE : "Use a password of at least 8 characters.");
-        return;
-      }
       if (mode === "sign-up") {
-        const name = validateUsername(username);
-        if (!name.ok) {
-          setMessage(name.reason);
+        const result = await registerWithPassword({ email, password, username });
+        if (result.status === "invalid") {
+          setMessage(result.message);
           return;
         }
-        const readyBirth = accountBirth();
-        if (!readyBirth) {
-          setMessage("Enter your birthday before creating an account.");
-          return;
-        }
-        if (!(await isUsernameAvailable(name.username))) {
-          setMessage(USERNAME_TAKEN);
-          return;
-        }
-        const result = await signUpWithPassword({
-          email: email.trim(),
-          password,
-          username: name.username,
-          birthDate: birthDateIso(readyBirth.birth),
-          ageGroup: readyBirth.age,
-        });
-        if (result.needsConfirmation) {
-          setConfirmEmail(email.trim());
+        if (result.status === "confirmation") {
+          setConfirmEmail(result.email);
           setMessage(null);
           return;
         }
-        await createProfileForNewAccount({
-          username: name.username,
-          ageGroup: readyBirth.age,
-          birthDate: birthDateIso(readyBirth.birth),
-        });
         setMessage("Your account is ready. Next, choose a mentor.");
+        return;
+      }
+      if (password.length < 8) {
+        setMessage("Use a password of at least 8 characters.");
         return;
       }
       await signInWithPassword({ email: email.trim(), password });
