@@ -377,12 +377,20 @@ export function validateContentTree(root: string): ValidationResult {
           if (expected === "Growing") growingQuestionIds.push(id);
           if (expected === "Established") establishedQuestionIds.push(id);
         }
+        const listed = (badge.questionIds ?? []).length;
         if (
           (expected === "Rooted" || expected === "Growing" || expected === "Established") &&
-          (badge.questionIds ?? []).length !== 8
+          listed !== 8
         ) {
           errors.push(
-            `content/knowledge_path.json: ${badge.id} should list 8 questions, found ${(badge.questionIds ?? []).length}`,
+            `content/knowledge_path.json: ${badge.id} should list 8 questions, found ${listed}`,
+          );
+        }
+        // A Fruitful badge that is still being written lists nothing and stays hidden.
+        // A wired badge lists its eight questions. Any other count is unfinished wiring.
+        if (expected === "Fruitful" && listed !== 0 && listed !== 8) {
+          errors.push(
+            `content/knowledge_path.json: ${badge.id} should list 8 questions or stay empty, found ${listed}`,
           );
         }
       }

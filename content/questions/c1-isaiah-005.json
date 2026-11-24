@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-isa-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 30",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah promises that when you turn to the right hand or to the left, your ears shall hear a word behind you. What will it say?",
+        "child": "God promised His people they would hear a voice behind them, guiding them when they were unsure where to go. What would it say?",
+        "teen": "Isaiah 30:21: “Your ears shall hear a word behind you, saying,” what?",
+        "older": "According to Isaiah 30:21, what will the word behind you say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "This is the way, walk in it"
+        },
+        {
+          "id": "b",
+          "text": "Stand still, and wait for Me"
+        },
+        {
+          "id": "c",
+          "text": "Turn aside, and rest awhile"
+        },
+        {
+          "id": "d",
+          "text": "Press on, and do not look back"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 30:21",
+            "text": "Your ears shall hear a word behind you, saying, “This is the way, walk in it,” Whenever you turn to the right hand Or whenever you turn to the left.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the quotation in 30:21.",
+          "child": "Look at verse 21. The words are in quotation marks.",
+          "teen": "30:21 quotes the word and then says when it is heard. Read the quote.",
+          "older": "It is quoted in the middle of 30:21."
+        },
+        "extended_explanation": "30:19-20 promises that the LORD will be very gracious at the sound of their cry and that their eyes shall see their teachers. 30:21 describes guidance heard whenever they turn to the right hand or to the left.",
+        "takeaway": "“This is the way, walk in it.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 31",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Woe to those who go down to Egypt for help,” and rely on what?",
+        "child": "Isaiah warned people who went to Egypt for help instead of trusting God. What did they depend on?",
+        "teen": "Isaiah 31:1: “Woe to those who go down to Egypt for help, And rely on ___.” What fills the blank?",
+        "older": "According to Isaiah 31:1, what did those going to Egypt rely on?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "princes"
+        },
+        {
+          "id": "b",
+          "text": "silver"
+        },
+        {
+          "id": "c",
+          "text": "horses"
+        },
+        {
+          "id": "d",
+          "text": "walls"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 31:1",
+            "text": "Woe to those who go down to Egypt for help, And rely on horses, Who trust in chariots because they are many, And in horsemen because they are very strong, But who do not look to the Holy One of Israel, Nor seek the LORD!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 31:1 after “And rely on.”",
+          "child": "Look at the start of verse 1, after “rely on.”",
+          "teen": "31:1 lists what they trusted. Read the first item.",
+          "older": "It follows “And rely on” in 31:1."
+        },
+        "extended_explanation": "31:1 describes trust in military might, set against those who “do not look to the Holy One of Israel.” 31:3 adds, “Now the Egyptians are men, and not God.”",
+        "takeaway": "They “rely on horses.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 31",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 31:5 gives a picture of how the LORD of hosts will defend Jerusalem. What is He like?",
+        "child": "God promised to protect Jerusalem. What did Isaiah compare God’s care to?",
+        "teen": "Isaiah 31:5: “Like ___, So will the LORD of hosts defend Jerusalem.” What fills the blank?",
+        "older": "According to Isaiah 31:5, the LORD defends Jerusalem like what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "walls around a city"
+        },
+        {
+          "id": "b",
+          "text": "birds flying about"
+        },
+        {
+          "id": "c",
+          "text": "a shepherd guarding sheep"
+        },
+        {
+          "id": "d",
+          "text": "an eagle over its nest"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 31:5",
+            "text": "Like birds flying about, So will the LORD of hosts defend Jerusalem. Defending, He will also deliver it; Passing over, He will preserve it.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 31:6",
+            "text": "Return to Him against whom the children of Israel have deeply revolted.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 31:5, after “Like.”",
+          "child": "Look at the first words of verse 5.",
+          "teen": "31:5 opens with a picture and then explains it. Read the picture.",
+          "older": "It opens 31:5."
+        },
+        "extended_explanation": "31:5 continues with four actions: defending, delivering, passing over, and preserving. 31:6 then calls the children of Israel to return to Him against whom they have deeply revolted.",
+        "takeaway": "“Like birds flying about, So will the LORD of hosts defend Jerusalem.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0018",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 28",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The scoffers mocked Isaiah’s teaching as if it were for those just weaned from milk. After “precept upon precept,” what does 28:10 repeat next?",
+        "child": "Some people mocked Isaiah, saying his teaching was like lessons for babies. They said, precept upon precept. What did they say next?",
+        "teen": "Isaiah 28:10: “For precept must be upon precept, precept upon precept, ___.” What fills the blank?",
+        "older": "According to Isaiah 28:10, what follows “precept upon precept”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Word upon word"
+        },
+        {
+          "id": "b",
+          "text": "Law upon law"
+        },
+        {
+          "id": "c",
+          "text": "Rule upon rule"
+        },
+        {
+          "id": "d",
+          "text": "Line upon line"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 28:9",
+            "text": "“Whom will he teach knowledge? And whom will he make to understand the message? Those just weaned from milk? Those just drawn from the breasts?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 28:10",
+            "text": "For precept must be upon precept, precept upon precept, Line upon line, line upon line, Here a little, there a little.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 28:10 after the repeated “precept upon precept.”",
+          "child": "Look at verse 10, after “precept upon precept.”",
+          "teen": "28:10 has three repeated sayings. Read the second.",
+          "older": "It follows “precept upon precept” in 28:10."
+        },
+        "extended_explanation": "28:9 asks, “Whom will he teach knowledge?” and mocks the message as fit only for those just weaned from milk. 28:13 turns the same words back on the scoffers, so that they might fall backward and be broken.",
+        "takeaway": "“Line upon line, line upon line.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 39",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Isaiah told Hezekiah that all in his house would be carried to Babylon, Hezekiah said the word was good. What did he say there would at least be in his days?",
+        "child": "Isaiah told King Hezekiah that one day his treasures would be taken away. Hezekiah said that at least something good would last while he lived. What?",
+        "teen": "Isaiah 39:8: “At least there will be ___ in my days.” What fills the blank?",
+        "older": "According to Isaiah 39:8, what did Hezekiah say there would be in his days?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "rest and plenty"
+        },
+        {
+          "id": "b",
+          "text": "joy and safety"
+        },
+        {
+          "id": "c",
+          "text": "bread and quiet"
+        },
+        {
+          "id": "d",
+          "text": "peace and truth"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 39:6",
+            "text": "‘Behold, the days are coming when all that is in your house, and what your fathers have accumulated until this day, shall be carried to Babylon; nothing shall be left,’ says the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 39:8",
+            "text": "So Hezekiah said to Isaiah, “The word of the LORD which you have spoken is good!” For he said, “At least there will be peace and truth in my days.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 39:8, after “At least there will be.”",
+          "child": "Look at the end of verse 8.",
+          "teen": "39:8 has two sayings of Hezekiah. Read the second.",
+          "older": "It follows “At least there will be” in 39:8."
+        },
+        "extended_explanation": "Hezekiah had shown the envoys from Babylon all his treasures. 39:6 gives the LORD’s word about what will be carried away: “nothing shall be left.” 39:8 records Hezekiah’s two replies.",
+        "takeaway": "Hezekiah said, “At least there will be peace and truth in my days.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 30",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 36:5 the Rabshakeh taunts, “Now in whom do you trust?” Earlier, in 30:15, the LORD said, “In returning and rest you shall be saved;” in quietness and confidence shall be what?",
+        "child": "God told His people that being saved comes from turning back to Him and resting. He said quietness and trust would be something for them. What?",
+        "teen": "Isaiah 30:15: “In quietness and confidence shall be ___.” What fills the blank?",
+        "older": "According to Isaiah 30:15, what shall quietness and confidence be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your shield"
+        },
+        {
+          "id": "b",
+          "text": "your strength"
+        },
+        {
+          "id": "c",
+          "text": "your salvation"
+        },
+        {
+          "id": "d",
+          "text": "your reward"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 30:15",
+            "text": "For thus says the Lord GOD, the Holy One of Israel: “In returning and rest you shall be saved; In quietness and confidence shall be your strength.” But you would not,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 36:5",
+            "text": "I say you speak of having plans and power for war; but they are mere words. Now in whom do you trust, that you rebel against me?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 30:15 after “In quietness and confidence shall be.”",
+          "child": "Look at verse 15, after “quietness and confidence shall be.”",
+          "teen": "30:15 gives two promises, then the people’s refusal. Read the end of the second promise.",
+          "older": "It follows “In quietness and confidence shall be” in 30:15."
+        },
+        "extended_explanation": "30:15 ends with “But you would not.” Years later, in 36:5, the Rabshakeh mocks Hezekiah’s plans and power for war and asks the same question of trust.",
+        "takeaway": "“In quietness and confidence shall be your strength.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 28",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 28:15 the scoffers boast, “we have made lies our refuge.” In 30:2, besides Pharaoh’s might, in what do those who go down to Egypt trust?",
+        "child": "Some leaders went to Egypt for protection instead of asking God. They trusted Pharaoh’s power and something else. What?",
+        "teen": "Isaiah 30:2: “And to trust in ___!” What fills the blank?",
+        "older": "According to Isaiah 30:2, what did those going to Egypt trust in?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the walls of Egypt"
+        },
+        {
+          "id": "b",
+          "text": "the idols of Egypt"
+        },
+        {
+          "id": "c",
+          "text": "the shadow of Egypt"
+        },
+        {
+          "id": "d",
+          "text": "the chariots of Egypt"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 28:15",
+            "text": "Because you have said, “We have made a covenant with death, And with Sheol we are in agreement. When the overflowing scourge passes through, It will not come to us, For we have made lies our refuge, And under falsehood we have hidden ourselves.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 30:2",
+            "text": "Who walk to go down to Egypt, And have not asked My advice, To strengthen themselves in the strength of Pharaoh, And to trust in the shadow of Egypt!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 30:2, after “And to trust in.”",
+          "child": "Look at the end of verse 2.",
+          "teen": "30:2 names two things trusted. Read the second.",
+          "older": "It closes 30:2."
+        },
+        "extended_explanation": "28:15 describes a covenant with death and lies used as a hiding place. 30:1-2 condemns those who take counsel “but not of Me” and go down to Egypt without asking the LORD’s advice. 30:3 warns that this trust shall become their shame.",
+        "takeaway": "They trusted “in the shadow of Egypt.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 31",
+      "topics": [
+        "isaiah-trust-in-the-lord-not-egypt"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 31:4 the LORD of hosts will come down “To fight for Mount Zion and for its hill.” In 37:35 He promises to defend this city “For My own sake and for” whose sake?",
+        "child": "When the Assyrian army threatened Jerusalem, God promised to protect the city. He said He would do it for His own sake and for whose sake?",
+        "teen": "Isaiah 37:35: “For I will defend this city, to save it For My own sake and for ___.” What fills the blank?",
+        "older": "According to Isaiah 37:35, besides His own sake, for whose sake would the LORD defend the city?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My servant David’s sake"
+        },
+        {
+          "id": "b",
+          "text": "My people Israel’s sake"
+        },
+        {
+          "id": "c",
+          "text": "My holy temple’s sake"
+        },
+        {
+          "id": "d",
+          "text": "My chosen Zion’s sake"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 31:4",
+            "text": "For thus the LORD has spoken to me: “As a lion roars, And a young lion over his prey (When a multitude of shepherds is summoned against him, He will not be afraid of their voice Nor be disturbed by their noise), So the LORD of hosts will come down To fight for Mount Zion and for its hill.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 37:35",
+            "text": "‘For I will defend this city, to save it For My own sake and for My servant David’s sake.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 37:35, after “For My own sake and for.”",
+          "child": "Look at the last words of verse 35.",
+          "teen": "37:35 gives two reasons. Read the second.",
+          "older": "It closes 37:35."
+        },
+        "extended_explanation": "31:4 compares the LORD to a lion that is not afraid of the shepherds summoned against it. 37:35 closes the LORD’s word about the king of Assyria, who “shall not come into this city.”",
+        "takeaway": "He would defend the city “For My own sake and for My servant David’s sake.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

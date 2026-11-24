@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-act-0032",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 28",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the shipwreck, everyone escaped to land. According to 28:1, what was the island called?",
+        "child": "Paul’s ship was wrecked, but everyone reached land safely. What island were they on?",
+        "teen": "Acts 28:1: “they then found out that the island was called” what?",
+        "older": "According to Acts 28:1, what island did they reach after escaping the wreck?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cyprus"
+        },
+        {
+          "id": "b",
+          "text": "Rhodes"
+        },
+        {
+          "id": "c",
+          "text": "Malta"
+        },
+        {
+          "id": "d",
+          "text": "Sicily"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 28:1",
+            "text": "Now when they had escaped, they then found out that the island was called Malta.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 28:1.",
+          "child": "Look at the last word of verse 1.",
+          "teen": "28:1 says they escaped and then names the island. Read the end.",
+          "older": "It follows “the island was called” in 28:1."
+        },
+        "extended_explanation": "28:2 says the natives showed them unusual kindness and kindled a fire because of the rain and the cold.",
+        "takeaway": "The island was called Malta."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-act-0015",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 28",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul gathered a bundle of sticks and laid them on the fire. According to 28:3, what came out because of the heat?",
+        "child": "Paul put sticks on a fire, and something came out and fastened on his hand. What was it?",
+        "teen": "Acts 28:3: what “came out because of the heat, and fastened on his hand”?",
+        "older": "According to Acts 28:3, what fastened on Paul’s hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a viper"
+        },
+        {
+          "id": "b",
+          "text": "a scorpion"
+        },
+        {
+          "id": "c",
+          "text": "a lizard"
+        },
+        {
+          "id": "d",
+          "text": "a rat"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 28:3",
+            "text": "But when Paul had gathered a bundle of sticks and laid them on the fire, a viper came out because of the heat, and fastened on his hand.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 28:3.",
+          "child": "Look in the middle of verse 3.",
+          "teen": "28:3 says what Paul did, then what came out, then where it fastened. Read the middle.",
+          "older": "It comes just before “came out because of the heat” in 28:3."
+        },
+        "extended_explanation": "28:4 says the natives saw the creature hanging from his hand and thought he must be a murderer.",
+        "takeaway": "A viper came out because of the heat and fastened on his hand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-act-0016",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 23",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Someone went into the barracks in Jerusalem and told Paul what he had heard. According to 23:16, who was it?",
+        "child": "Someone came into the soldiers’ barracks to give Paul important news. Who was it?",
+        "teen": "Acts 23:16: who “went and entered the barracks and told Paul”?",
+        "older": "According to Acts 23:16, who entered the barracks and told Paul?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Paul’s fellow prisoner"
+        },
+        {
+          "id": "b",
+          "text": "Paul’s sister’s son"
+        },
+        {
+          "id": "c",
+          "text": "Paul’s Roman guard"
+        },
+        {
+          "id": "d",
+          "text": "the commander’s servant"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 23:16",
+            "text": "So when Paul’s sister’s son heard of their ambush, he went and entered the barracks and told Paul.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 23:24",
+            "text": "and provide mounts to set Paul on, and bring him safely to Felix the governor.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 23:16.",
+          "child": "Look at the first words of verse 16.",
+          "teen": "23:16 says who heard, then where he went and whom he told. Read who.",
+          "older": "It follows “So when” in 23:16."
+        },
+        "extended_explanation": "23:24 says the soldiers were to provide mounts to set Paul on and bring him safely to Felix the governor.",
+        "takeaway": "Paul’s sister’s son entered the barracks and told Paul."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-act-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 22",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The commander said, “With a large sum I obtained this citizenship.” What did Paul say in reply in 22:28?",
+        "child": "A Roman officer said he had paid a lot of money to become a Roman. How did Paul say he became one?",
+        "teen": "Acts 22:28: Paul said, “But I was” what?",
+        "older": "According to Acts 22:28, how did Paul hold his Roman citizenship?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a citizen by purchase"
+        },
+        {
+          "id": "b",
+          "text": "a citizen by marriage"
+        },
+        {
+          "id": "c",
+          "text": "a citizen through service"
+        },
+        {
+          "id": "d",
+          "text": "born a citizen"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 22:27",
+            "text": "Then the commander came and said to him, “Tell me, are you a Roman?” He said, “Yes.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 22:28",
+            "text": "The commander answered, “With a large sum I obtained this citizenship.” And Paul said, “But I was born a citizen.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:28.",
+          "child": "Look at Paul’s words at the end of verse 28.",
+          "teen": "22:27 has the question; 22:28 has the commander’s words, then Paul’s. Read Paul’s.",
+          "older": "It follows “But I was” in 22:28."
+        },
+        "extended_explanation": "22:27 says the commander asked, “Tell me, are you a Roman?” and Paul said, “Yes.”",
+        "takeaway": "Paul said, “But I was born a citizen.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-act-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 24",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul reasoned with Felix about righteousness, self-control, and the judgment to come. When did Felix say he would call for him, according to 24:25?",
+        "child": "A governor became afraid while listening to Paul and sent him away. When did he say he would call Paul back?",
+        "teen": "Acts 24:25: “Go away for now; when I have” what “I will call for you”?",
+        "older": "According to Acts 24:25, when did Felix promise to call for Paul again?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a convenient time"
+        },
+        {
+          "id": "b",
+          "text": "the next feast day"
+        },
+        {
+          "id": "c",
+          "text": "a word from Caesar"
+        },
+        {
+          "id": "d",
+          "text": "the high priest’s consent"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 24:24",
+            "text": "And after some days, when Felix came with his wife Drusilla, who was Jewish, he sent for Paul and heard him concerning the faith in Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 24:25",
+            "text": "Now as he reasoned about righteousness, self-control, and the judgment to come, Felix was afraid and answered, “Go away for now; when I have a convenient time I will call for you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Felix’s words in 24:25.",
+          "child": "Look at the last words of verse 25.",
+          "teen": "24:24 says Felix came with Drusilla; 24:25 gives Paul’s subjects, Felix’s fear, then his words. Read the words.",
+          "older": "It follows “when I have” in 24:25."
+        },
+        "extended_explanation": "24:24 says Felix sent for Paul and heard him. 24:25 says Felix was afraid.",
+        "takeaway": "Felix said, “When I have a convenient time I will call for you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-act-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 25",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 25:19 Festus said Paul affirmed that a certain Jesus who had died was alive. In 26:24, what did Festus say was driving Paul mad?",
+        "child": "As Paul made his defense, the governor shouted that he was out of his mind. What did he say was causing it?",
+        "teen": "Acts 26:24: “Paul, you are beside yourself!” What “is driving you mad”?",
+        "older": "Linking Acts 25:19 with 26:24, what did Festus blame for Paul’s words?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Too many visions"
+        },
+        {
+          "id": "b",
+          "text": "Long imprisonment"
+        },
+        {
+          "id": "c",
+          "text": "Much learning"
+        },
+        {
+          "id": "d",
+          "text": "Fasting and prayer"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 25:19",
+            "text": "but had some questions against him about their own religion and about a certain Jesus, who had died, whom Paul affirmed to be alive.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 26:24",
+            "text": "Now as he thus made his defense, Festus said with a loud voice, “Paul, you are beside yourself! Much learning is driving you mad!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Festus’ words in 26:24.",
+          "child": "Look at the end of verse 26:24.",
+          "teen": "25:19 is Festus’ account; 26:24 has his loud words. Read the second sentence of them.",
+          "older": "It comes just before “is driving you mad” in 26:24."
+        },
+        "extended_explanation": "25:19 says the questions were about their own religion. 26:25 says Paul answered that he spoke words of truth and reason.",
+        "takeaway": "Festus said, “Much learning is driving you mad!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-act-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 23",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 27:24 Paul was reassured again during the storm at sea. The night after he stood before the council, what did the Lord first say to him in 23:11?",
+        "child": "After Paul spoke before the council in Jerusalem, the Lord stood by him at night. What did the Lord say first?",
+        "teen": "Acts 23:11: “the Lord stood by him and said,” what?",
+        "older": "Alongside 27:24, what did the Lord say to Paul in 23:11?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Go in peace"
+        },
+        {
+          "id": "b",
+          "text": "Peace be with you"
+        },
+        {
+          "id": "c",
+          "text": "Stand firm, My servant"
+        },
+        {
+          "id": "d",
+          "text": "Be of good cheer"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 23:11",
+            "text": "But the following night the Lord stood by him and said, “Be of good cheer, Paul; for as you have testified for Me in Jerusalem, so you must also bear witness at Rome.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 27:24",
+            "text": "saying, ‘Do not be afraid, Paul; you must be brought before Caesar; and indeed God has granted you all those who sail with you.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of the Lord’s words in 23:11.",
+          "child": "Look at what the Lord said first in verse 11.",
+          "teen": "27:24 is the later message; 23:11 gives the Lord’s first words, then why. Read the first words.",
+          "older": "It follows “stood by him and said” in 23:11."
+        },
+        "extended_explanation": "23:11 says he must also bear witness at Rome. 27:24 says he must be brought before Caesar.",
+        "takeaway": "The Lord said, “Be of good cheer, Paul.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-act-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 24",
+      "topics": [
+        "paul-on-trial-and-voyage"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 24:27 Felix left Paul bound for two years. In 28:30, where did Paul dwell two whole years?",
+        "child": "Paul spent two years in Rome welcoming visitors. Where did he live?",
+        "teen": "Acts 28:30: “Then Paul dwelt two whole years in” what?",
+        "older": "Linking Acts 24:27 with 28:30, where did Paul spend his two years in Rome?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the governor’s prison"
+        },
+        {
+          "id": "b",
+          "text": "his own rented house"
+        },
+        {
+          "id": "c",
+          "text": "a soldier’s barracks"
+        },
+        {
+          "id": "d",
+          "text": "the house of a centurion"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 24:27",
+            "text": "But after two years Porcius Festus succeeded Felix; and Felix, wanting to do the Jews a favor, left Paul bound.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 28:30",
+            "text": "Then Paul dwelt two whole years in his own rented house, and received all who came to him,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 28:30.",
+          "child": "Look in the middle of verse 30.",
+          "teen": "24:27 is the setting; 28:30 gives how long, where, and who came. Read where.",
+          "older": "It follows “two whole years in” in 28:30."
+        },
+        "extended_explanation": "24:27 says Porcius Festus succeeded Felix. 28:30 says Paul received all who came to him.",
+        "takeaway": "Paul dwelt two whole years in his own rented house."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

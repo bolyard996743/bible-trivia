@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { STAGE_LEARNING } from "@/lib/curriculum";
 import { loadCatalog } from "@/lib/content/load";
-import { badgeEarned, gateFromBadges, visibleMapStages } from "@/lib/game/badges";
+import { badgeEarned, gateFromBadges, visibleBadges, visibleMapStages } from "@/lib/game/badges";
 import { advanceStage } from "@/lib/game/ladder";
 import { knowledgePath } from "@/lib/game/path";
 import { knowledgeStage, emptyProgress } from "@/lib/game/progression";
@@ -117,5 +117,25 @@ describe("stage badge map", () => {
     };
     expect(gateFromBadges(earned, path).ready).toBe(true);
     expect(gateFromBadges(earned, { ...path, advanceRule: "every-badge" }).ready).toBe(false);
+  });
+
+  it("hides badges that have no questions yet", () => {
+    const hidden = [
+      "fruitful-james-wealth-patience-and-prayer",
+      "fruitful-1-peter-suffering-and-submission",
+      "fruitful-1-john-test-the-spirits",
+      "fruitful-ephesians-walk-worthy",
+      "fruitful-jude",
+    ];
+    for (const stage of knowledgePath.stages) {
+      const shown = visibleBadges(stage.badges);
+      expect(shown.some((badge) => badge.questionIds.length === 0)).toBe(false);
+      expect(shown.map((badge) => badge.id).some((id) => hidden.includes(id))).toBe(false);
+    }
+    const fruitful = knowledgePath.stages.find((stage) => stage.stage === "Fruitful");
+    expect(visibleBadges(fruitful?.badges ?? [])).toHaveLength(64);
+    expect(fruitful?.badges.filter((badge) => badge.questionIds.length === 0).map((badge) => badge.id)).toEqual(
+      hidden,
+    );
   });
 });

@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jhn-0034",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 10",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the Feast of Dedication in winter, Jesus walked in the temple. According to 10:23, in what part of it?",
+        "child": "One winter Jesus was walking in the temple in Jerusalem. Where in the temple was He?",
+        "teen": "John 10:23: “And Jesus walked in the temple, in” what place?",
+        "older": "According to John 10:23, in what part of the temple did Jesus walk?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Water Gate"
+        },
+        {
+          "id": "b",
+          "text": "Solomon’s porch"
+        },
+        {
+          "id": "c",
+          "text": "the court of the priests"
+        },
+        {
+          "id": "d",
+          "text": "the Sheep Gate"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 10:22",
+            "text": "Now it was the Feast of Dedication in Jerusalem, and it was winter.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 10:23",
+            "text": "And Jesus walked in the temple, in Solomon’s porch.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:23.",
+          "child": "Look at the last words of verse 23.",
+          "teen": "10:22 gives the feast and the season; 10:23 says where He walked. Read the end.",
+          "older": "It follows “in the temple, in” in 10:23."
+        },
+        "extended_explanation": "10:24 says the Jews surrounded Him there and asked, “How long do You keep us in doubt?”",
+        "takeaway": "Jesus walked in the temple, in Solomon’s porch."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jhn-0019",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 7",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The chief priests and Pharisees asked the officers, “Why have you not brought Him?” What did the officers reply in 7:46?",
+        "child": "Some officers were sent to arrest Jesus, but they came back without Him. What did they say?",
+        "teen": "John 7:46: “The officers answered,” what?",
+        "older": "According to John 7:46, how did the officers explain coming back without Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He escaped before we could reach Him"
+        },
+        {
+          "id": "b",
+          "text": "We could not find Him in the temple"
+        },
+        {
+          "id": "c",
+          "text": "The crowd would not let us near Him"
+        },
+        {
+          "id": "d",
+          "text": "No man ever spoke like this Man!"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 7:45",
+            "text": "Then the officers came to the chief priests and Pharisees, who said to them, “Why have you not brought Him?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 7:46",
+            "text": "The officers answered, “No man ever spoke like this Man!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the officers’ words in 7:46.",
+          "child": "Look at what the officers said in verse 46.",
+          "teen": "7:45 has the leaders’ question; 7:46 gives the officers’ reply. Read the reply.",
+          "older": "It follows “The officers answered” in 7:46."
+        },
+        "extended_explanation": "7:47 says the Pharisees answered them, “Are you also deceived?”",
+        "takeaway": "The officers answered, “No man ever spoke like this Man!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jhn-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 7",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Who told Jesus to go into Judea so others could see His works, and yet, according to 7:5, did not believe in Him?",
+        "child": "Some people close to Jesus told Him to go to Judea and show His works, but they did not believe in Him. Who were they?",
+        "teen": "John 7:5: “For even” who “did not believe in Him”?",
+        "older": "According to John 7:3 and 7:5, who urged Jesus to go to Judea without believing in Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His brothers"
+        },
+        {
+          "id": "b",
+          "text": "His disciples"
+        },
+        {
+          "id": "c",
+          "text": "the Pharisees"
+        },
+        {
+          "id": "d",
+          "text": "the officers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 7:3",
+            "text": "His brothers therefore said to Him, “Depart from here and go into Judea, that Your disciples also may see the works that You are doing.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 7:5",
+            "text": "For even His brothers did not believe in Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 7:3 or the middle of 7:5.",
+          "child": "Look at the first words of verse 3.",
+          "teen": "7:3 names who spoke and what they urged; 7:5 repeats the speakers. Read either.",
+          "older": "It follows “For even” in 7:5."
+        },
+        "extended_explanation": "7:10 says that after they had gone up to the feast, He also went up, not openly, but as it were in secret.",
+        "takeaway": "His brothers said this, for even His brothers did not believe in Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jhn-0021",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 8",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 8:33 the people said they had never been in bondage to anyone. What did they claim to be?",
+        "child": "When Jesus spoke about being made free, some people said they had never been slaves. Whose family did they say they were?",
+        "teen": "John 8:33: “We are” what?",
+        "older": "According to John 8:33, what did the crowd say they were, when Jesus spoke of being made free?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Benjamin’s descendants"
+        },
+        {
+          "id": "b",
+          "text": "Aaron’s descendants"
+        },
+        {
+          "id": "c",
+          "text": "Abraham’s descendants"
+        },
+        {
+          "id": "d",
+          "text": "Joseph’s descendants"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 8:33",
+            "text": "They answered Him, “We are Abraham’s descendants, and have never been in bondage to anyone. How can You say, ‘You will be made free’?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 8:39",
+            "text": "They answered and said to Him, “Abraham is our father.” Jesus said to them, “If you were Abraham’s children, you would do the works of Abraham.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of their reply in 8:33.",
+          "child": "Look at the first words they say in verse 33.",
+          "teen": "8:33 has their claim, then their question. 8:39 says whom they call father. Read the claim.",
+          "older": "It follows “We are” in 8:33."
+        },
+        "extended_explanation": "In 8:39 Jesus answered that if they were truly that man’s children, they would do his works.",
+        "takeaway": "They said, “We are Abraham’s descendants.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 10",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 10:33 the Jews said they were not stoning Jesus for a good work. For what did they say they would stone Him?",
+        "child": "Some people wanted to throw stones at Jesus. They said it was not for a good deed. What reason did they give?",
+        "teen": "John 10:33: “For a good work we do not stone You, but” for what?",
+        "older": "According to John 10:33, what charge did the Jews give for wanting to stone Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "for speaking against Caesar"
+        },
+        {
+          "id": "b",
+          "text": "for entering the temple"
+        },
+        {
+          "id": "c",
+          "text": "for blasphemy"
+        },
+        {
+          "id": "d",
+          "text": "for eating with sinners"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 10:33",
+            "text": "The Jews answered Him, saying, “For a good work we do not stone You, but for blasphemy, and because You, being a Man, make Yourself God.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 10:34",
+            "text": "Jesus answered them, “Is it not written in your law, ‘I said, “You are gods” ’?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of their words in 10:33.",
+          "child": "Look right after “we do not stone You, but” in verse 33.",
+          "teen": "10:33 gives what it was not, then the charge, then a reason. Read the charge.",
+          "older": "It follows “we do not stone You, but” in 10:33."
+        },
+        "extended_explanation": "10:33 ends, “because You, being a Man, make Yourself God.” In 10:34 Jesus answers from what is written in their law.",
+        "takeaway": "They said they would stone Him for blasphemy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 5",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 10:41 many said John performed no sign. How did Jesus describe John in 5:35?",
+        "child": "Jesus spoke about John the Baptist to the crowd. What did He compare John to?",
+        "teen": "John 5:35: “He was” what?",
+        "older": "Linking John 5:35 with 10:41, what did Jesus call John?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the burning and shining lamp"
+        },
+        {
+          "id": "b",
+          "text": "the watchman upon the city wall"
+        },
+        {
+          "id": "c",
+          "text": "the last of the great judges"
+        },
+        {
+          "id": "d",
+          "text": "the guard at the temple doors"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 5:35",
+            "text": "He was the burning and shining lamp, and you were willing for a time to rejoice in his light.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 10:41",
+            "text": "Then many came to Him and said, “John performed no sign, but all the things that John spoke about this Man were true.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 5:35.",
+          "child": "Look at the first words of verse 35.",
+          "teen": "10:41 is the crowd’s view; 5:35 is Jesus’ description, then the people’s response. Read the start.",
+          "older": "It follows “He was” in 5:35."
+        },
+        "extended_explanation": "5:35 adds that the people were willing for a time to rejoice in his light. 10:41 says all that John spoke about this Man was true.",
+        "takeaway": "He was the burning and shining lamp."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 5",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 5:30 Jesus says He judges as He hears. In 7:24, instead of according to appearance, how must the crowd judge?",
+        "child": "Jesus told the crowd not to judge by how things look. How did He tell them to judge?",
+        "teen": "John 7:24: “Do not judge according to appearance, but judge” how?",
+        "older": "Alongside 5:30, where Jesus speaks of His own judging, what does 7:24 tell the crowd?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with careful witnesses"
+        },
+        {
+          "id": "b",
+          "text": "with merciful patience"
+        },
+        {
+          "id": "c",
+          "text": "with the elders’ counsel"
+        },
+        {
+          "id": "d",
+          "text": "with righteous judgment"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 5:30",
+            "text": "I can of Myself do nothing. As I hear, I judge; and My judgment is righteous, because I do not seek My own will but the will of the Father who sent Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 7:24",
+            "text": "Do not judge according to appearance, but judge with righteous judgment.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:24.",
+          "child": "Look at the last words of verse 24.",
+          "teen": "5:30 is the setting; 7:24 gives what not to do, then what to do. Read the end.",
+          "older": "It follows “but judge” in 7:24."
+        },
+        "extended_explanation": "5:30 says He does not seek His own will but the will of the Father who sent Him. 7:24 closes His reply to those angry that He made a man well.",
+        "takeaway": "Judge with righteous judgment."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 7",
+      "topics": [
+        "john-conflict-and-controversy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 7:30 and again in 8:20 no one laid a hand on Jesus. What reason do both verses give?",
+        "child": "Twice people wanted to seize Jesus, but no one laid a hand on Him. Why not?",
+        "teen": "John 8:20: “and no one laid hands on Him, for” what?",
+        "older": "Linking John 7:30 with 8:20, why was Jesus not taken?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the crowd was guarding Him"
+        },
+        {
+          "id": "b",
+          "text": "His hour had not yet come"
+        },
+        {
+          "id": "c",
+          "text": "the feast had not ended"
+        },
+        {
+          "id": "d",
+          "text": "the priests feared Rome"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 7:30",
+            "text": "Therefore they sought to take Him; but no one laid a hand on Him, because His hour had not yet come.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 8:20",
+            "text": "These words Jesus spoke in the treasury, as He taught in the temple; and no one laid hands on Him, for His hour had not yet come.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:30 or of 8:20.",
+          "child": "Look at the last words of verse 7:30.",
+          "teen": "Both verses say no one took Him, then give the same reason at the end. Read either ending.",
+          "older": "It closes 8:20, after “no one laid hands on Him, for.”"
+        },
+        "extended_explanation": "7:30 says they sought to take Him. 8:20 says He spoke these words in the treasury as He taught in the temple.",
+        "takeaway": "No one laid a hand on Him, because His hour had not yet come."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

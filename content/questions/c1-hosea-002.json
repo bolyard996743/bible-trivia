@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-hosea-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-hos-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 7",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hosea says Ephraim has mixed himself among the peoples. What does he then call Ephraim?",
+        "child": "The prophet Hosea says Ephraim mixed in with other nations. Then he compares Ephraim to something from the kitchen. What is it?",
+        "teen": "In Hosea 7:8, “Ephraim has mixed himself among the peoples; Ephraim is” what?",
+        "older": "According to Hosea 7:8, what is Ephraim?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A cake unturned"
+        },
+        {
+          "id": "b",
+          "text": "A broken pot"
+        },
+        {
+          "id": "c",
+          "text": "A burnt barley loaf"
+        },
+        {
+          "id": "d",
+          "text": "A cracked jar"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 7:8",
+            "text": "“Ephraim has mixed himself among the peoples; Ephraim is a cake unturned.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:8, after the second “Ephraim is.”",
+          "child": "Look at the last words of verse 8. They come right after “Ephraim is.”",
+          "teen": "7:8 names Ephraim twice. The picture follows the second time, after “is.”",
+          "older": "The picture closes 7:8, after the second mention of Ephraim."
+        },
+        "extended_explanation": "Hosea 7 describes the northern kingdom, often called Ephraim after its leading tribe, as hot with intrigue and careless of God. 7:8 says Ephraim has mixed himself among the peoples, and then gives a picture of what Ephraim is. 7:9 adds that foreigners have devoured his strength, and he does not know it.",
+        "takeaway": "“Ephraim has mixed himself among the peoples; Ephraim is a cake unturned.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hos-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 6",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD asks, “O Ephraim, what shall I do to you? O Judah, what shall I do to you?” What does He say their faithfulness is like?",
+        "child": "God asks what He should do with Ephraim and Judah. He says their faithfulness does not last. What does He compare it to?",
+        "teen": "In Hosea 6:4, God says, “For your faithfulness is like” what, and like the early dew that goes away?",
+        "older": "According to Hosea 6:4, what is the people’s faithfulness like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a broken cistern"
+        },
+        {
+          "id": "b",
+          "text": "a shifting shadow"
+        },
+        {
+          "id": "c",
+          "text": "a morning cloud"
+        },
+        {
+          "id": "d",
+          "text": "a passing wind"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 6:4",
+            "text": "“O Ephraim, what shall I do to you? O Judah, what shall I do to you? For your faithfulness is like a morning cloud, And like the early dew it goes away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 6:4 after “For your faithfulness is like.”",
+          "child": "In verse 4, find “your faithfulness is like.” The picture comes right after.",
+          "teen": "6:4 gives two pictures of short-lived faithfulness. Read the first, after “is like.”",
+          "older": "The first picture in 6:4 follows “For your faithfulness is like,” before the early dew."
+        },
+        "extended_explanation": "In 6:1-3 the people speak hopefully of returning to the LORD. In 6:4 God answers with two questions to Ephraim and Judah, then describes their faithfulness with two pictures of things that do not last. The first comes after “is like.”",
+        "takeaway": "“Your faithfulness is like a morning cloud, And like the early dew it goes away.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hos-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 8",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hosea uses a farming picture for Israel’s folly: “They sow the wind.” What does he say they reap (8:7)?",
+        "child": "Hosea says the people “sow the wind,” like a farmer planting nothing but air. What does he say they will gather in?",
+        "teen": "In Hosea 8:7, “They sow the wind, And reap” what? Compare 10:13, “You have plowed wickedness.”",
+        "older": "According to Hosea 8:7, what do those who sow the wind reap?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the thorns and thistles"
+        },
+        {
+          "id": "b",
+          "text": "the whirlwind"
+        },
+        {
+          "id": "c",
+          "text": "the east wind"
+        },
+        {
+          "id": "d",
+          "text": "the storm"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 8:7",
+            "text": "“They sow the wind, And reap the whirlwind. The stalk has no bud; It shall never produce meal. If it should produce, Aliens would swallow it up.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 10:13",
+            "text": "You have plowed wickedness; You have reaped iniquity. You have eaten the fruit of lies, Because you trusted in your own way, In the multitude of your mighty men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 8:7, right after “And reap.”",
+          "child": "Look at the start of verse 8:7. The word comes right after “And reap.”",
+          "teen": "8:7 opens with a sowing and a reaping. Read what follows “reap.”",
+          "older": "The first sentence of 8:7 ends with it, after “And reap.”"
+        },
+        "extended_explanation": "Hosea 8 accuses Israel of making kings without God and idols of silver and gold. 8:7 opens with a farming proverb about sowing and reaping, and adds that the stalk has no bud and produces no meal. 10:13 repeats the farming picture: they plowed wickedness and reaped iniquity.",
+        "takeaway": "“They sow the wind, And reap the whirlwind.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hos-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 7",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Israel does not return to the LORD or seek Him (7:10). Instead they call to Egypt and go to Assyria. What does Hosea compare Ephraim to?",
+        "child": "Ephraim would not turn back to God. Instead they ran to Egypt and then to Assyria for help. What animal does Hosea compare them to?",
+        "teen": "In Hosea 7:11, “Ephraim also is like” what, “without sense”?",
+        "older": "According to Hosea 7:11, what is Ephraim like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a lost sheep"
+        },
+        {
+          "id": "b",
+          "text": "a frightened deer"
+        },
+        {
+          "id": "c",
+          "text": "a hungry raven"
+        },
+        {
+          "id": "d",
+          "text": "a silly dove"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 7:10",
+            "text": "And the pride of Israel testifies to his face, But they do not return to the LORD their God, Nor seek Him for all this.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 7:11",
+            "text": "“Ephraim also is like a silly dove, without sense— They call to Egypt, They go to Assyria.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 7:11 right after “Ephraim also is like.”",
+          "child": "In verse 11, the animal comes right after “Ephraim also is like.”",
+          "teen": "7:11 opens with a comparison. Read what follows “is like,” before “without sense.”",
+          "older": "The comparison follows “Ephraim also is like” at the start of 7:11."
+        },
+        "extended_explanation": "7:10 says the pride of Israel testifies against him, yet they do not return to the LORD or seek Him. 7:11 opens with a comparison and then says they call to Egypt and go to Assyria. 7:12 says God will spread His net over them.",
+        "takeaway": "“Ephraim also is like a silly dove, without sense.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 10",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hosea urges, “Sow for yourselves righteousness; Reap in mercy” (10:12), and later, “Observe mercy and justice” (12:6). What else does 10:12 tell Israel to do, for it is time to seek the LORD?",
+        "child": "Hosea tells Israel to plant righteousness and harvest mercy. He gives one more farming command because it is time to seek the LORD. What is it?",
+        "teen": "Hosea 10:12 has three farming commands. After “Sow for yourselves righteousness; Reap in mercy,” what is the third?",
+        "older": "According to Hosea 10:12, what third command follows “Sow for yourselves righteousness; Reap in mercy”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Gather your stones from the field"
+        },
+        {
+          "id": "b",
+          "text": "Plant your vineyards in the hills"
+        },
+        {
+          "id": "c",
+          "text": "Break up your fallow ground"
+        },
+        {
+          "id": "d",
+          "text": "Store your grain in the barns"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 10:12",
+            "text": "Sow for yourselves righteousness; Reap in mercy; Break up your fallow ground, For it is time to seek the LORD, Till He comes and rains righteousness on you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 12:6",
+            "text": "So you, by the help of your God, return; Observe mercy and justice, And wait on your God continually.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the third command in 10:12, after “Reap in mercy.”",
+          "child": "In verse 10:12, find “Reap in mercy.” The next command comes right after it.",
+          "teen": "10:12 lists three commands. Read the third, before “For it is time.”",
+          "older": "The third command follows “Reap in mercy” in 10:12, before “For it is time to seek the LORD.”"
+        },
+        "extended_explanation": "Hosea often uses farming pictures. 10:12 gives three commands and a reason: it is time to seek the LORD, till He comes and rains righteousness. 10:13 sets the people’s actual sowing against it. In 12:6 the call returns in plain words: return, observe mercy and justice, and wait on God continually.",
+        "takeaway": "“Sow for yourselves righteousness; Reap in mercy; Break up your fallow ground.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 5",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God says He will return to His place till they acknowledge their offense (5:15). Then the people say, “Come, and let us return to the LORD; For He has torn, but He will heal us.” What do they say next (6:1)?",
+        "child": "God says He will go away until His people admit their sin. Then they say, “He has torn, but He will heal us.” What do they say right after that?",
+        "teen": "Connect Hosea 5:15 and 6:1. In 6:1, “He has stricken, but” what?",
+        "older": "According to Hosea 6:1, what will the LORD do, though He has stricken them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He will bind us up"
+        },
+        {
+          "id": "b",
+          "text": "He will lift us up"
+        },
+        {
+          "id": "c",
+          "text": "He will carry us home"
+        },
+        {
+          "id": "d",
+          "text": "He will make us strong"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 5:15",
+            "text": "I will return again to My place Till they acknowledge their offense. Then they will seek My face; In their affliction they will earnestly seek Me.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 6:1",
+            "text": "Come, and let us return to the LORD; For He has torn, but He will heal us; He has stricken, but He will bind us up.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 6:1, after “He has stricken, but.”",
+          "child": "Look at the last words of verse 6:1. They come right after “He has stricken, but.”",
+          "teen": "6:1 has two contrasts. Read the end of the second one.",
+          "older": "The second promise closes 6:1, following “He has stricken, but.”"
+        },
+        "extended_explanation": "In 5:14-15 God speaks like a lion that tears and goes away, waiting until the people acknowledge their offense and seek His face. 6:1 records their call to return, built on two contrasts: torn but healed, and stricken but restored in a second way at the end of the verse.",
+        "takeaway": "“He has stricken, but He will bind us up.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 6",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 13:4 the LORD says, “you shall know no God but Me.” In 6:6 He says He desires mercy and not sacrifice, and the knowledge of God more than what?",
+        "child": "God told Israel to know no other God but Him. In another place He says He wants mercy more than sacrifice, and knowing God more than something else. What?",
+        "teen": "Connect Hosea 13:4 and 6:6. 6:6 says, “For I desire mercy and not sacrifice, And the knowledge of God more than” what?",
+        "older": "According to Hosea 6:6, the knowledge of God is desired more than what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the fat of rams"
+        },
+        {
+          "id": "b",
+          "text": "drink offerings"
+        },
+        {
+          "id": "c",
+          "text": "peace offerings"
+        },
+        {
+          "id": "d",
+          "text": "burnt offerings"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 6:6",
+            "text": "For I desire mercy and not sacrifice, And the knowledge of God more than burnt offerings.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 13:4",
+            "text": "“Yet I am the LORD your God Ever since the land of Egypt, And you shall know no God but Me; For there is no savior besides Me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 6:6, right after “the knowledge of God more than.”",
+          "child": "Look at the end of verse 6:6. The words come right after “more than.”",
+          "teen": "6:6 has two parallel lines. The second ends after “more than.”",
+          "older": "The second line of 6:6 closes with them, after “more than.”"
+        },
+        "extended_explanation": "6:6 sums up what God wants, in two parallel lines: mercy rather than sacrifice, and the knowledge of God rather than what closes the verse. 13:4 reminds Israel that the LORD has been their God since Egypt, and that there is no savior besides Him.",
+        "takeaway": "“For I desire mercy and not sacrifice, And the knowledge of God more than burnt offerings.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 9",
+      "topics": [
+        "hosea-israels-unfaithfulness-and-return"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God says He found Israel like grapes in the wilderness (9:10). In 13:5 He says, “I knew you in the wilderness.” How does He describe that land?",
+        "child": "God says finding Israel was like finding grapes in the desert. Later He says He knew them in the wilderness. What kind of land does He say it was?",
+        "teen": "Connect Hosea 9:10 and 13:5. In 13:5, “I knew you in the wilderness, In the land of” what?",
+        "older": "According to Hosea 13:5, how is the land where God knew Israel described?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deep darkness"
+        },
+        {
+          "id": "b",
+          "text": "Great drought"
+        },
+        {
+          "id": "c",
+          "text": "Burning sand"
+        },
+        {
+          "id": "d",
+          "text": "Fiery serpents"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 9:10",
+            "text": "“I found Israel Like grapes in the wilderness; I saw your fathers As the firstfruits on the fig tree in its first season. But they went to Baal Peor, And separated themselves to that shame; They became an abomination like the thing they loved.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 13:5",
+            "text": "I knew you in the wilderness, In the land of great drought.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 13:5, after “In the land of.”",
+          "child": "Look at the end of verse 13:5. The words come right after “In the land of.”",
+          "teen": "13:5 has two lines. The second ends after “the land of.”",
+          "older": "The second line of 13:5 closes with it, after “In the land of.”"
+        },
+        "extended_explanation": "Twice Hosea looks back to the wilderness years. In 9:10 God remembers finding Israel like grapes in the wilderness and their fathers like the first figs, before they turned to Baal Peor. In 13:5-6 He recalls knowing them in the wilderness, describing the land in the second line, before they were filled and forgot Him.",
+        "takeaway": "God says, “I knew you in the wilderness, In the land of great drought.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

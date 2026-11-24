@@ -1,0 +1,537 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-012",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0063",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 13",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the herdsmen of Abram and Lot quarreled, what reason did Abram give for wanting no strife between them?",
+        "child": "Abram’s herdsmen and Lot’s herdsmen were fighting. Abram did not want any quarrel with Lot. What reason did he give?",
+        "teen": "In Genesis 13:8, Abram asks Lot to end the strife between them. What reason does he give at the end of the verse?",
+        "older": "According to Genesis 13:8, why should there be no strife between Abram and Lot?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "We share one God"
+        },
+        {
+          "id": "b",
+          "text": "God is watching us"
+        },
+        {
+          "id": "c",
+          "text": "We are brethren"
+        },
+        {
+          "id": "d",
+          "text": "Our herds are small"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 13:8",
+            "text": "So Abram said to Lot, “Please let there be no strife between you and me, and between my herdsmen and your herdsmen; for we are brethren.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 13:8, after “for.”",
+          "child": "Look at the last words of verse 8. Abram gives his reason there.",
+          "teen": "Abram’s request takes up most of 13:8; his reason comes in the final clause.",
+          "older": "The reason closes 13:8, after the herdsmen are mentioned."
+        },
+        "extended_explanation": "The land could not support both Abram’s and Lot’s flocks, and their herdsmen began to quarrel (13:6-7). In 13:8 Abram asks that there be no strife between him and Lot or between their herdsmen. His reason closes the verse. Read the words after “for.”",
+        "takeaway": "Abram said there should be no strife between him and Lot, “for we are brethren.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-gen-0024",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 14",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Abram refused to take even a thread or a sandal strap from the king of Sodom. What did he not want the king to be able to say?",
+        "child": "After the battle, the king of Sodom offered Abram the goods. Abram said he would not take anything, not even a thread. What did Abram not want the king to say?",
+        "teen": "Genesis 14:23 explains why Abram turned down the king of Sodom’s goods. What did he not want the king to be able to claim?",
+        "older": "According to Genesis 14:23, what words did Abram not want the king of Sodom to say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have made Abram rich"
+        },
+        {
+          "id": "b",
+          "text": "I have bought Abram’s sword"
+        },
+        {
+          "id": "c",
+          "text": "Abram fears my anger"
+        },
+        {
+          "id": "d",
+          "text": "I have paid Abram’s debts"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 14:22",
+            "text": "But Abram said to the king of Sodom, “I have raised my hand to the LORD, God Most High, the Possessor of heaven and earth,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 14:23",
+            "text": "that I will take nothing, from a thread to a sandal strap, and that I will not take anything that is yours, lest you should say, ‘I have made Abram rich’—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 14:23, after “lest you should say.”",
+          "child": "Look at the last part of verse 23. The king’s possible words are in quotation marks.",
+          "teen": "14:22 is Abram’s oath; 14:23 states what he refuses and why. Read the words quoted at the end.",
+          "older": "The words Abram wanted to prevent are quoted at the close of 14:23."
+        },
+        "extended_explanation": "After Abram rescued Lot and the goods, the king of Sodom offered to let him keep the goods (14:21). In 14:22 Abram says he has raised his hand to the LORD, God Most High. In 14:23 he refuses everything, from a thread to a sandal strap, and gives his reason at the end. Read the end of 14:23.",
+        "takeaway": "Abram took nothing, lest the king say, “I have made Abram rich.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-gen-0025",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 14",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Melchizedek, king of Salem and priest of God Most High, brought out bread and wine and blessed Abram. What did Abram give him?",
+        "child": "A king named Melchizedek, who was also a priest, came out with bread and wine and blessed Abram. What did Abram give to him?",
+        "teen": "Genesis 14:18-20 describes Abram’s meeting with Melchizedek. After the blessing, what did Abram give him?",
+        "older": "According to Genesis 14:20, what did Abram give Melchizedek?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The spoil of Sodom"
+        },
+        {
+          "id": "b",
+          "text": "A ram and a goat"
+        },
+        {
+          "id": "c",
+          "text": "A share of the land"
+        },
+        {
+          "id": "d",
+          "text": "A tithe of all"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 14:18",
+            "text": "Then Melchizedek king of Salem brought out bread and wine; he was the priest of God Most High.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 14:20",
+            "text": "And blessed be God Most High, Who has delivered your enemies into your hand.” And he gave him a tithe of all.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 14:20.",
+          "child": "Look at the very end of verse 20, after the blessing.",
+          "teen": "14:20 finishes Melchizedek’s blessing and then reports what Abram did. Read that final report.",
+          "older": "It is stated in the closing sentence of 14:20."
+        },
+        "extended_explanation": "Melchizedek brings out bread and wine in 14:18 and is called the priest of God Most High. In 14:19-20 he blesses Abram and blesses God Most High, who delivered Abram’s enemies into his hand. The final sentence of 14:20 tells what Abram gave him. Read it.",
+        "takeaway": "Abram gave Melchizedek a tithe of all."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-gen-0026",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 29",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jacob asked Laban, “Why then have you deceived me?” What did Laban say must not be done in their country?",
+        "child": "Jacob worked for Laban to marry Rachel, but Laban gave him Leah instead. When Jacob complained, what did Laban say was not done in their country?",
+        "teen": "In Genesis 29:26, Laban answers Jacob’s complaint by pointing to a custom. What did he say must not be done?",
+        "older": "According to Genesis 29:26, what did Laban say must not be done in their country?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To let a daughter marry a stranger"
+        },
+        {
+          "id": "b",
+          "text": "To give the younger before the firstborn"
+        },
+        {
+          "id": "c",
+          "text": "To work for a wife without a contract"
+        },
+        {
+          "id": "d",
+          "text": "To leave a father’s house before the harvest"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 29:25",
+            "text": "So it came to pass in the morning, that behold, it was Leah. And he said to Laban, “What is this you have done to me? Was it not for Rachel that I served you? Why then have you deceived me?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 29:26",
+            "text": "And Laban said, “It must not be done so in our country, to give the younger before the firstborn.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Laban’s words in 29:26, after “It must not be done so in our country.”",
+          "child": "Look at the end of verse 26, where Laban explains himself.",
+          "teen": "29:25 is Jacob’s question; 29:26 gives Laban’s reply. Read the second half of the reply.",
+          "older": "Laban’s custom is stated after the comma in 29:26."
+        },
+        "extended_explanation": "Jacob served Laban for Rachel, but in the morning he found it was Leah (29:25), and he asked why he had been deceived. Laban replied with a custom of his country in 29:26. Read the rest of 29:26 after “It must not be done so in our country.”",
+        "takeaway": "Laban said that in their country they did not give the younger before the firstborn."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 35",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jacob’s household put away their foreign gods before going to Bethel (35:2-4). As they journeyed, what was upon the cities around them, so that no one pursued them?",
+        "child": "Before going to Bethel, Jacob’s family gave up their idols. As they traveled, the nearby cities did not chase them. What was on those cities?",
+        "teen": "Genesis 35:5 explains why the cities around Jacob’s family did not pursue them. What was upon those cities?",
+        "older": "According to Genesis 35:5, what was upon the surrounding cities?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The army of Esau"
+        },
+        {
+          "id": "b",
+          "text": "A pillar of cloud"
+        },
+        {
+          "id": "c",
+          "text": "The terror of God"
+        },
+        {
+          "id": "d",
+          "text": "A covenant of peace"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 35:2",
+            "text": "And Jacob said to his household and to all who were with him, “Put away the foreign gods that are among you, purify yourselves, and change your garments.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 35:4",
+            "text": "So they gave Jacob all the foreign gods which were in their hands, and the earrings which were in their ears; and Jacob hid them under the terebinth tree which was by Shechem.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 35:5",
+            "text": "And they journeyed, and the terror of God was upon the cities that were all around them, and they did not pursue the sons of Jacob.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 35:5, right after “And they journeyed, and.”",
+          "child": "Look at verse 5. What was on the cities comes right after the family starts to travel.",
+          "teen": "35:2-4 is the putting away of the idols; 35:5 tells what happened on the road. Read the first half of 35:5.",
+          "older": "It is named in the first clause of 35:5, before “was upon the cities.”"
+        },
+        "extended_explanation": "In 35:2 Jacob tells his household to put away the foreign gods and purify themselves. In 35:4 they hand over the idols and earrings, and Jacob hides them under the terebinth tree by Shechem. In 35:5 they set out, and the verse explains why the surrounding cities did not pursue them. Read the first half of 35:5.",
+        "takeaway": "As Jacob’s family journeyed, the terror of God was upon the cities around them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 17",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 35:11 God tells Jacob that a company of nations and kings shall come from him. Long before, what did God promise about Sarah in 17:16?",
+        "child": "God promised Jacob that many nations and kings would come from his family. Years earlier, God had made a similar promise about Jacob’s grandmother Sarah. What did He say she would be?",
+        "teen": "Genesis 35:11 echoes 17:16: nations and kings will come. What does 17:16 say Sarah shall be?",
+        "older": "According to Genesis 17:16, what shall Sarah be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "She shall be a mother of nations"
+        },
+        {
+          "id": "b",
+          "text": "She shall be a light to the nations"
+        },
+        {
+          "id": "c",
+          "text": "She shall see the land of promise"
+        },
+        {
+          "id": "d",
+          "text": "She shall be called a princess"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 17:16",
+            "text": "And I will bless her and also give you a son by her; then I will bless her, and she shall be a mother of nations; kings of peoples shall be from her.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 35:11",
+            "text": "Also God said to him: “I am God Almighty. Be fruitful and multiply; a nation and a company of nations shall proceed from you, and kings shall come from your body.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 17:16, after “then I will bless her, and.”",
+          "child": "Look at the second half of verse 16, after God says He will bless her again.",
+          "teen": "17:16 mentions blessing her twice. Read what follows the second mention.",
+          "older": "The promise follows the second “I will bless her” in 17:16."
+        },
+        "extended_explanation": "In 17:15-16 Sarai becomes Sarah, and God promises Abraham a son by her and then describes her future. Two generations later, in 35:11, God tells Jacob that a nation and a company of nations, and kings, will come from him, carrying the same promise forward. Read 17:16 after the second blessing, before “kings of peoples.”",
+        "takeaway": "God said Sarah would be a mother of nations, a promise He carried forward to Jacob."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 11",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Sarai was barren (11:30), and so was Rebekah, until the LORD granted Isaac’s plea (25:21). Rachel faced the same trouble. According to 30:22, what did God do for her between remembering her and opening her womb?",
+        "child": "Sarai, Rebekah, and Rachel all could not have children at first. For Rebekah, God answered Isaac’s prayer. What does Genesis 30:22 say God did for Rachel, after remembering her?",
+        "teen": "Three wives in this story are barren: Sarai, Rebekah, and Rachel. In 30:22, God remembers Rachel and does something else before opening her womb. What?",
+        "older": "In Genesis 30:22, what did God do for Rachel between remembering her and opening her womb?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sent an angel to her"
+        },
+        {
+          "id": "b",
+          "text": "Listened to her"
+        },
+        {
+          "id": "c",
+          "text": "Gave her a new name"
+        },
+        {
+          "id": "d",
+          "text": "Tested her faith"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 11:30",
+            "text": "But Sarai was barren; she had no child.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 25:21",
+            "text": "Now Isaac pleaded with the LORD for his wife, because she was barren; and the LORD granted his plea, and Rebekah his wife conceived.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 30:22",
+            "text": "Then God remembered Rachel, and God listened to her and opened her womb.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 30:22, between “God remembered Rachel” and “opened her womb.”",
+          "child": "Look at verse 22. Find what God did in the middle of the verse.",
+          "teen": "30:22 lists three things God did for Rachel. Read the second.",
+          "older": "The second of the three actions in 30:22 is the one asked."
+        },
+        "extended_explanation": "Genesis 11:30 says simply that Sarai was barren. In 25:21 Isaac pleads with the LORD for Rebekah, and the LORD grants his plea. Rachel’s longing comes up in 30:1, and 30:22 finally reports God’s response to her with three actions. Read the middle one.",
+        "takeaway": "God remembered Rachel, listened to her, and opened her womb."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 25",
+      "topics": [
+        "abraham-to-jacob-in-context"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jacob once took Esau’s birthright for bread and stew (25:33-34). At the end of chapter 35, what did Esau and Jacob do together when Isaac died?",
+        "child": "Long ago, Esau traded his birthright to Jacob for a meal. Years later Isaac died. What did the two brothers do together?",
+        "teen": "Genesis 25 shows the twins as rivals. How does Genesis 35:29 show them together at Isaac’s death?",
+        "older": "According to Genesis 35:29, what did Esau and Jacob do after Isaac died?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Divided his land"
+        },
+        {
+          "id": "b",
+          "text": "Mourned seven days"
+        },
+        {
+          "id": "c",
+          "text": "Went down to Egypt"
+        },
+        {
+          "id": "d",
+          "text": "Buried him"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 25:33",
+            "text": "Then Jacob said, “Swear to me as of this day.” So he swore to him, and sold his birthright to Jacob.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 25:34",
+            "text": "And Jacob gave Esau bread and stew of lentils; then he ate and drank, arose, and went his way. Thus Esau despised his birthright.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 35:29",
+            "text": "So Isaac breathed his last and died, and was gathered to his people, being old and full of days. And his sons Esau and Jacob buried him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 35:29, which names both sons.",
+          "child": "Look at the very end of verse 29.",
+          "teen": "35:29 first describes Isaac’s death and then what his sons did. Read the final sentence.",
+          "older": "The brothers’ act is recorded in the closing words of 35:29."
+        },
+        "extended_explanation": "In 25:33-34 Jacob makes Esau swear and gives him bread and stew of lentils, and Esau goes his way. Chapter 35 ends with Isaac’s death, full of days. The last sentence of 35:29 names both sons and tells what they did. Read it.",
+        "takeaway": "At Isaac’s death, Esau and Jacob buried him together."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

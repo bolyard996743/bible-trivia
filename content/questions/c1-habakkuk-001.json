@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-habakkuk-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-hab-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 1",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Habakkuk opens his book by complaining that the LORD does not seem to hear or save. What word does he say he cries out to God?",
+        "child": "The prophet Habakkuk was upset by all the wrong he saw around him. He cried out one word to God. What was it?",
+        "teen": "Habakkuk 1:2: “Even cry out to You, ___ And You will not save.” What does he cry out?",
+        "older": "According to Habakkuk 1:2, what does the prophet cry out to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Justice!"
+        },
+        {
+          "id": "b",
+          "text": "Violence!"
+        },
+        {
+          "id": "c",
+          "text": "Help us!"
+        },
+        {
+          "id": "d",
+          "text": "Deliver us!"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 1:1",
+            "text": "The burden which the prophet Habakkuk saw.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 1:2",
+            "text": "O LORD, how long shall I cry, And You will not hear? Even cry out to You, “Violence!” And You will not save.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 1:2, after “Even cry out to You.”",
+          "child": "Look at verse 2. The word he cries comes right after “Even cry out to You.”",
+          "teen": "1:2 has two complaints. The second quotes what he cries.",
+          "older": "It follows “Even cry out to You” in 1:2."
+        },
+        "extended_explanation": "Habakkuk 1:1 calls the book “The burden which the prophet Habakkuk saw.” Unlike most prophets, Habakkuk begins by speaking to God about the people rather than to the people about God. 1:2-4 is his first complaint: he cries out, God seems silent, and justice never goes forth.",
+        "takeaway": "Habakkuk cried out to God, “Violence!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hab-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 2",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Habakkuk waited on the rampart to hear what the LORD would say. The LORD told him, “Write the vision.” What did He say to do with it next?",
+        "child": "God answered Habakkuk and told him to write down the vision. What else did God tell him to do with it?",
+        "teen": "Habakkuk 2:2: “Write the vision And ___, That he may run who reads it.” What fills the blank?",
+        "older": "According to Habakkuk 2:2, what was Habakkuk to do after writing the vision?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "tell it to the elders"
+        },
+        {
+          "id": "b",
+          "text": "seal it up in a scroll"
+        },
+        {
+          "id": "c",
+          "text": "read it in the temple court"
+        },
+        {
+          "id": "d",
+          "text": "make it plain on tablets"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 2:2",
+            "text": "Then the LORD answered me and said: “Write the vision And make it plain on tablets, That he may run who reads it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2:2 after “Write the vision And.”",
+          "child": "Look at verse 2. The words come right after “Write the vision.”",
+          "teen": "2:2 gives two commands and a reason. Read the second command.",
+          "older": "It follows “Write the vision And” in 2:2."
+        },
+        "extended_explanation": "In 2:1 Habakkuk takes his post like a watchman to see how God will answer. In 2:2 the LORD gives two commands about the vision, and then a purpose: so that whoever reads it may run. 2:3 adds that the vision is for an appointed time.",
+        "takeaway": "God said, “Write the vision And make it plain on tablets.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hab-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 2",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Behold the proud, His soul is not upright in him.” How does Habakkuk 2:4 say the just shall live?",
+        "child": "God told Habakkuk that proud people are not right inside. But He said the just would live a different way. How?",
+        "teen": "Habakkuk 2:4: “But the just shall live ___.” What fills the blank?",
+        "older": "According to Habakkuk 2:4, how shall the just live?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "by his faith"
+        },
+        {
+          "id": "b",
+          "text": "by his works"
+        },
+        {
+          "id": "c",
+          "text": "by his strength"
+        },
+        {
+          "id": "d",
+          "text": "by his wisdom"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 2:3",
+            "text": "For the vision is yet for an appointed time; But at the end it will speak, and it will not lie. Though it tarries, wait for it; Because it will surely come, It will not tarry.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 2:4",
+            "text": "“Behold the proud, His soul is not upright in him; But the just shall live by his faith.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 2:4, after “But the just shall live.”",
+          "child": "Look at the end of verse 4. The words come right after “the just shall live.”",
+          "teen": "2:4 contrasts the proud with the just. Read the second half.",
+          "older": "It closes 2:4, after “But the just shall live.”"
+        },
+        "extended_explanation": "2:3 tells Habakkuk to wait for the vision even if it tarries. 2:4 then contrasts two kinds of people: the proud, whose soul is not upright, and the just. Paul quotes the second half of this verse in Romans 1:17 and Galatians 3:11, and Hebrews 10:38 quotes it as well.",
+        "takeaway": "“The just shall live by his faith.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hab-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 2",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Habakkuk 2:14 says the earth will be filled with the knowledge of the glory of the LORD. What comparison follows?",
+        "child": "Habakkuk said one day the whole earth will be full of knowing God’s glory. He compared it to something. What?",
+        "teen": "Habakkuk 2:14: “For the earth will be filled With the knowledge of the glory of the LORD,” and then what comparison?",
+        "older": "According to Habakkuk 2:14, the earth will be filled with the knowledge of the LORD’s glory in what manner?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "As the sand lines the shore"
+        },
+        {
+          "id": "b",
+          "text": "As the dew covers the grass"
+        },
+        {
+          "id": "c",
+          "text": "As the waters cover the sea"
+        },
+        {
+          "id": "d",
+          "text": "As the light fills the morning"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 2:13",
+            "text": "Behold, is it not of the LORD of hosts That the peoples labor to feed the fire, And nations weary themselves in vain?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 2:14",
+            "text": "For the earth will be filled With the knowledge of the glory of the LORD, As the waters cover the sea.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 2:14, after “the glory of the LORD.”",
+          "child": "Look at the end of verse 14. The comparison comes after “the glory of the LORD.”",
+          "teen": "2:14 states a promise and then a picture. Read the picture.",
+          "older": "It closes 2:14, after “the knowledge of the glory of the LORD.”"
+        },
+        "extended_explanation": "2:12-13 pronounces woe on those who build with bloodshed and says the nations weary themselves in vain. 2:14 sets against that a promise about the whole earth, with a picture in its last line. Isaiah 11:9 has a very similar line.",
+        "takeaway": "The earth will be filled with the knowledge of the LORD’s glory “As the waters cover the sea.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hab-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 2",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After mocking idols that have “no breath at all,” Habakkuk 2:20 says, “But the LORD is in His holy temple.” What is all the earth told to do?",
+        "child": "Habakkuk said idols made of wood and stone have no breath. But the LORD is in His holy temple. What should the whole earth do?",
+        "teen": "Habakkuk 2:20: “Let all the earth ___.” What completes it?",
+        "older": "According to Habakkuk 2:20, what should all the earth do because the LORD is in His holy temple?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bow down before Him"
+        },
+        {
+          "id": "b",
+          "text": "tremble at His word"
+        },
+        {
+          "id": "c",
+          "text": "keep silence before Him"
+        },
+        {
+          "id": "d",
+          "text": "bring gifts to His courts"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 2:19",
+            "text": "Woe to him who says to wood, ‘Awake!’ To silent stone, ‘Arise! It shall teach!’ Behold, it is overlaid with gold and silver, Yet in it there is no breath at all.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 2:20",
+            "text": "“But the LORD is in His holy temple. Let all the earth keep silence before Him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:20, after “Let all the earth.”",
+          "child": "Look at the last words of verse 20, right after “Let all the earth.”",
+          "teen": "2:20 states where the LORD is, then gives a command. Read the command.",
+          "older": "It closes 2:20, after “Let all the earth.”"
+        },
+        "extended_explanation": "2:18-19 is the last of five woes in chapter 2, aimed at those who make idols and tell wood and stone to wake up and teach. 2:20 answers with the living God in His holy temple and a command to the whole earth. Chapter 3 follows with Habakkuk’s prayer.",
+        "takeaway": "“Let all the earth keep silence before Him.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hab-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 1",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:12 Habakkuk calls God “O Rock” and says He has appointed the Chaldeans for judgment. In his prayer in 3:2, after asking God to revive His work, what does he ask at the end?",
+        "child": "Habakkuk knew God was sending an enemy to punish Judah. In his prayer he asked God to revive His work. What did he ask God to remember?",
+        "teen": "Link Habakkuk 1:12 and 3:2. What request ends 3:2?",
+        "older": "According to Habakkuk 3:2, what does the prophet ask at the close of the verse?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "In wrath remember mercy"
+        },
+        {
+          "id": "b",
+          "text": "In mercy remember Zion"
+        },
+        {
+          "id": "c",
+          "text": "In trouble hear our cry"
+        },
+        {
+          "id": "d",
+          "text": "In wrath spare Your people"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 1:12",
+            "text": "Are You not from everlasting, O LORD my God, my Holy One? We shall not die. O LORD, You have appointed them for judgment; O Rock, You have marked them for correction.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 3:2",
+            "text": "O LORD, I have heard Your speech and was afraid; O LORD, revive Your work in the midst of the years! In the midst of the years make it known; In wrath remember mercy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 3:2, after “make it known.”",
+          "child": "Look at the end of verse 3:2. The request comes after “make it known.”",
+          "teen": "3:2 has several requests. Read the last one.",
+          "older": "It closes 3:2, after “make it known.”"
+        },
+        "extended_explanation": "In 1:12 Habakkuk confesses that God is everlasting and has appointed the Chaldeans for correction. In 3:2, having heard God’s answer, he is afraid, and he prays that God will revive His work. The verse ends with one more request.",
+        "takeaway": "Habakkuk prayed, “In wrath remember mercy.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hab-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 1",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Habakkuk began by asking, “Why do You show me iniquity?” (1:3). At the end, though the fig tree may not blossom and the fields yield no food, what does he say in 3:18?",
+        "child": "At first Habakkuk asked God why there was so much trouble. At the end of the book, even if crops failed and animals were gone, what did he say he would do?",
+        "teen": "Connect Habakkuk 1:3 and 3:17-18. What does Habakkuk say at the start of 3:18?",
+        "older": "According to Habakkuk 3:18, what will the prophet do even if every harvest fails?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yet I will wait upon the LORD"
+        },
+        {
+          "id": "b",
+          "text": "Yet I will cry out to the LORD"
+        },
+        {
+          "id": "c",
+          "text": "Yet I will mourn with the people"
+        },
+        {
+          "id": "d",
+          "text": "Yet I will rejoice in the LORD"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 1:3",
+            "text": "Why do You show me iniquity, And cause me to see trouble? For plundering and violence are before me; There is strife, and contention arises.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 3:17",
+            "text": "Though the fig tree may not blossom, Nor fruit be on the vines; Though the labor of the olive may fail, And the fields yield no food; Though the flock may be cut off from the fold, And there be no herd in the stalls—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 3:18",
+            "text": "Yet I will rejoice in the LORD, I will joy in the God of my salvation.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 3:18, right after the list of losses in 3:17.",
+          "child": "Look at the start of verse 18. It begins with “Yet.”",
+          "teen": "3:18 has two lines that say the same thing in two ways. Read the first.",
+          "older": "It opens 3:18, after the list in 3:17."
+        },
+        "extended_explanation": "Chapter 1 opens with questions about why God allows trouble. Chapter 3 ends with a list of losses in 3:17: no blossom, no vine, no olive, no food, no flock, no herd. 3:18 turns with “Yet,” and 3:19 adds, “The LORD God is my strength.”",
+        "takeaway": "Habakkuk said, “Yet I will rejoice in the LORD.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hab-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 2",
+      "topics": [
+        "living-by-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Habakkuk began chapter 2 by standing his watch on the rampart. At the close of the book he says, “The LORD God is my strength.” What will the LORD make his feet like?",
+        "child": "Habakkuk once stood watch on the rampart to hear what God would say. At the very end he said God is his strength and will make his feet like something. Like what?",
+        "teen": "Link Habakkuk 2:1 and 3:19. “He will make my feet like” what?",
+        "older": "According to Habakkuk 3:19, what will the LORD make the prophet’s feet like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a lion’s paws"
+        },
+        {
+          "id": "b",
+          "text": "deer’s feet"
+        },
+        {
+          "id": "c",
+          "text": "a warrior’s feet"
+        },
+        {
+          "id": "d",
+          "text": "a swift horse’s hooves"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 2:1",
+            "text": "I will stand my watch And set myself on the rampart, And watch to see what He will say to me, And what I will answer when I am corrected.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Habakkuk 3:19",
+            "text": "The LORD God is my strength; He will make my feet like deer’s feet, And He will make me walk on my high hills. To the Chief Musician. With my stringed instruments.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 3:19 after “He will make my feet like.”",
+          "child": "Look at verse 19. The words come right after “make my feet like.”",
+          "teen": "3:19 has a confession and two promises. Read the first promise.",
+          "older": "It follows “He will make my feet like” in 3:19."
+        },
+        "extended_explanation": "In 2:1 Habakkuk stations himself on the rampart, waiting for God’s word. The book ends in 3:19 with a confession of strength and two promises about the prophet’s feet and his path. The last line is a note for the choir director.",
+        "takeaway": "“He will make my feet like deer’s feet.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

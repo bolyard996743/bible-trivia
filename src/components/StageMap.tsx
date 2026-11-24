@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { BadgeEmblem, type BadgeEmblemStatus } from "@/components/BadgeEmblem";
 import { STAGE_LEARNING, stageRank } from "@/lib/curriculum";
-import { badgeEarned, badgeStatusLabel, stageSlug, visibleMapStages } from "@/lib/game/badges";
+import { badgeEarned, badgeStatusLabel, stageSlug, visibleBadges, visibleMapStages } from "@/lib/game/badges";
 import { isBadgeWaiting } from "@/lib/game/badge-retry";
 import { badgeAttention, hasSeenRecord, noticePlan, readSeenBadgesHere, writeSeenBadgesHere, type BadgeAttention } from "@/lib/game/badge-seen";
 import { badgePlayHref, stagePath } from "@/lib/game/path";
@@ -78,7 +78,7 @@ export function StageMap({
 function earnedBadgeIds(progress: GameProgress): string[] {
   const ids: string[] = [];
   for (const stage of visibleMapStages(progress)) {
-    for (const badge of stagePath(stage)?.badges ?? []) {
+    for (const badge of visibleBadges(stagePath(stage)?.badges ?? [])) {
       if (badgeEarned(progress, badge)) ids.push(badge.id);
     }
   }
@@ -119,7 +119,7 @@ function StageBlock({
         </p>
       </div>
       <ul className="grid grid-cols-3 gap-x-2 gap-y-5 sm:grid-cols-4" aria-label={`${stage} badges`}>
-        {(block?.badges ?? []).map((badge) => {
+        {visibleBadges(block?.badges ?? []).map((badge) => {
           const earned = badgeEarned(progress, badge);
           const locked = !earned && isBadgeWaiting(progress, badge.id, now);
           const status: BadgeEmblemStatus = earned ? "earned" : locked ? "locked" : "empty";

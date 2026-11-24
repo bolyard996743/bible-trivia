@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-deuteronomy-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-deu-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 34",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Moses died in the land of Moab, what does Deuteronomy 34:6 say no one knows to this day?",
+        "child": "Moses died in Moab at the end of his long journey with Israel. What does the Bible say nobody knows, even now?",
+        "teen": "Deuteronomy 34:6 ends with something no one knows “to this day.” What is it?",
+        "older": "According to Deuteronomy 34:6, what does no one know to this day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His last words"
+        },
+        {
+          "id": "b",
+          "text": "His family line"
+        },
+        {
+          "id": "c",
+          "text": "His grave"
+        },
+        {
+          "id": "d",
+          "text": "His final prayer"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 34:6",
+            "text": "And He buried him in a valley in the land of Moab, opposite Beth Peor; but no one knows his grave to this day.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last clause of 34:6, after “but no one knows.”",
+          "child": "Look at the end of verse 6.",
+          "teen": "34:6 ends with something that is still unknown. Read the end.",
+          "older": "It follows “no one knows” at the close of 34:6."
+        },
+        "extended_explanation": "Moses dies in the land of Moab according to the word of the LORD (34:5). 34:6 ends with something that remains unknown “to this day.” Read the end of 34:6.",
+        "takeaway": "No one knows Moses’ grave to this day."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-deu-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 1",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses told Israel’s judges not to show partiality or be afraid of any man. What reason did he give?",
+        "child": "Moses told the judges to listen to small and great people the same way and not to be afraid of anyone. Why?",
+        "teen": "In Deuteronomy 1:17, Moses tells the judges not to fear anyone’s presence. What reason does he give?",
+        "older": "According to Deuteronomy 1:17, why should judges not be afraid in any man’s presence?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The king will defend you"
+        },
+        {
+          "id": "b",
+          "text": "The judgment is God’s"
+        },
+        {
+          "id": "c",
+          "text": "The elders stand with you"
+        },
+        {
+          "id": "d",
+          "text": "The law is written down"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 1:17",
+            "text": "You shall not show partiality in judgment; you shall hear the small as well as the great; you shall not be afraid in any man’s presence, for the judgment is God’s. The case that is too hard for you, bring to me, and I will hear it.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:17 after “in any man’s presence, for.”",
+          "child": "Look at the words right after “for” in verse 17.",
+          "teen": "1:17 gives three commands and then a reason after “for.” Read the reason.",
+          "older": "The reason follows “for” in the middle of 1:17."
+        },
+        "extended_explanation": "Moses recalls appointing heads of thousands, hundreds, fifties, and tens (1:15-16). In 1:17 he tells the judges not to show partiality, to hear the small as well as the great, and not to fear anyone, and he gives a reason before sending hard cases to himself. Read the words after “for.”",
+        "takeaway": "Judges were not to fear anyone, for the judgment is God’s."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-deu-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 3",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses pleaded, “I pray, let me cross over and see the good land.” What did the LORD say first in reply?",
+        "child": "Moses begged God to let him go into the promised land. What were God’s first words back to him?",
+        "teen": "In Deuteronomy 3:25-26, Moses asks to cross the Jordan. What are the first words of the LORD’s reply?",
+        "older": "According to Deuteronomy 3:26, what did the LORD first say to Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You shall lead them over"
+        },
+        {
+          "id": "b",
+          "text": "Wait until the morning"
+        },
+        {
+          "id": "c",
+          "text": "Ask Me again tomorrow"
+        },
+        {
+          "id": "d",
+          "text": "Enough of that!"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 3:25",
+            "text": "I pray, let me cross over and see the good land beyond the Jordan, those pleasant mountains, and Lebanon.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 3:26",
+            "text": "“But the LORD was angry with me on your account, and would not listen to me. So the LORD said to me: ‘Enough of that! Speak no more to Me of this matter.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the LORD’s words in 3:26, right after “So the LORD said to me.”",
+          "child": "Look at the words God speaks in verse 26.",
+          "teen": "3:26 says the LORD was angry and would not listen, then quotes Him. Read the first words of the quote.",
+          "older": "The opening words of the LORD’s quoted reply in 3:26."
+        },
+        "extended_explanation": "In 3:24-25 Moses praises God’s greatness and asks to cross over and see the good land beyond the Jordan. In 3:26 he says the LORD was angry with him on Israel’s account and would not listen, and then quotes the LORD’s short reply. Read the start of that reply.",
+        "takeaway": "The LORD said to Moses, “Enough of that! Speak no more to Me of this matter.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-deu-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 7",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses says the LORD did not choose Israel because they were more in number, for they were the least of all peoples. What reason does he give instead?",
+        "child": "Israel was not the biggest nation. In fact, it was one of the smallest. So why did God choose them?",
+        "teen": "Deuteronomy 7:7-8 explains why God chose Israel. After saying what the reason was not, what does 7:8 say it was?",
+        "older": "According to Deuteronomy 7:8, why did the LORD choose Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Because the LORD loves you"
+        },
+        {
+          "id": "b",
+          "text": "Because the LORD saw your strength"
+        },
+        {
+          "id": "c",
+          "text": "Because your fathers were righteous"
+        },
+        {
+          "id": "d",
+          "text": "Because you kept His statutes"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 7:7",
+            "text": "The LORD did not set His love on you nor choose you because you were more in number than any other people, for you were the least of all peoples;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 7:8",
+            "text": "but because the LORD loves you, and because He would keep the oath which He swore to your fathers, the LORD has brought you out with a mighty hand, and redeemed you from the house of bondage, from the hand of Pharaoh king of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 7:8, the first reason after “but.”",
+          "child": "Look at the first words of verse 8.",
+          "teen": "7:7 says what the reason was not; 7:8 begins with two reasons. Read the first.",
+          "older": "The first reason opens 7:8; the oath to the fathers comes second."
+        },
+        "extended_explanation": "In 7:6 Israel is a people holy to the LORD, chosen as a special treasure. In 7:7 Moses rules out size: they were the least of all peoples. In 7:8 he gives two reasons for God’s choice, the second being the oath He swore to their fathers. Read the first.",
+        "takeaway": "God chose Israel not for its size but because the LORD loved them and kept His oath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-deu-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 11",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Egypt, crops were watered by foot (11:10). How does 11:11 say the promised land drinks water?",
+        "child": "In Egypt, people had to water their crops by foot. How did Moses say the new land would get its water?",
+        "teen": "Deuteronomy 11:10-11 contrasts Egypt with the promised land. How does the promised land drink water?",
+        "older": "According to Deuteronomy 11:11, how does the land drink water?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "From the river Jordan"
+        },
+        {
+          "id": "b",
+          "text": "From the rain of heaven"
+        },
+        {
+          "id": "c",
+          "text": "From wells dug by hand"
+        },
+        {
+          "id": "d",
+          "text": "From springs in the valleys"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 11:10",
+            "text": "For the land which you go to possess is not like the land of Egypt from which you have come, where you sowed your seed and watered it by foot, as a vegetable garden;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 11:11",
+            "text": "but the land which you cross over to possess is a land of hills and valleys, which drinks water from the rain of heaven,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:11, after “which drinks water.”",
+          "child": "Look at the last words of verse 11.",
+          "teen": "11:10 describes Egypt; 11:11 describes the new land’s shape and its water. Read the water.",
+          "older": "It follows “which drinks water” at the close of 11:11."
+        },
+        "extended_explanation": "In 11:10 Moses says Egypt was sown and watered by foot. In 11:11 the land Israel is entering is a land of hills and valleys, and its water comes another way. In 11:12 it is a land the LORD cares for. Read the end of 11:11.",
+        "takeaway": "The promised land drinks water from the rain of heaven, a land the LORD cares for."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-deu-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 17",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses wrote this law and delivered it to the priests (31:9), and a future king was to copy it from the one before the priests (17:18). Complete the first purpose given in 17:20: “that ___.”",
+        "child": "Moses wrote down God’s law and gave it to the priests. Israel’s future king had to copy it for himself and read it every day. Finish the reason: “that ___.”",
+        "teen": "Deuteronomy 31:9 and 17:18 trace the king’s copy of the law back to Moses. Complete the first purpose in 17:20: “that ___.”",
+        "older": "Complete the opening purpose of Deuteronomy 17:20: “that ___.”"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the priests may not rule the land in his place"
+        },
+        {
+          "id": "b",
+          "text": "his sons may learn to read the words of the law"
+        },
+        {
+          "id": "c",
+          "text": "the people may know every statute of their fathers"
+        },
+        {
+          "id": "d",
+          "text": "his heart may not be lifted above his brethren"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 17:18",
+            "text": "“Also it shall be, when he sits on the throne of his kingdom, that he shall write for himself a copy of this law in a book, from the one before the priests, the Levites.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 17:20",
+            "text": "that his heart may not be lifted above his brethren, that he may not turn aside from the commandment to the right hand or to the left, and that he may prolong his days in his kingdom, he and his children in the midst of Israel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 31:9",
+            "text": "So Moses wrote this law and delivered it to the priests, the sons of Levi, who bore the ark of the covenant of the LORD, and to all the elders of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening clause of 17:20, before “that he may not turn aside.”",
+          "child": "Look at the first part of verse 20.",
+          "teen": "17:20 strings together several “that” clauses. Read the first.",
+          "older": "It is the first clause of 17:20."
+        },
+        "extended_explanation": "In 31:9 Moses writes this law and delivers it to the priests, the sons of Levi. In 17:18 the king writes for himself a copy of this law from the one before the priests, the Levites. He is to keep it with him and read it all the days of his life. In 17:20 several purposes follow, each beginning with “that.” Read the first.",
+        "takeaway": "The king read the law so that his heart would not be lifted above his brethren."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-deu-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 3",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:27 God tells Moses to go up Pisgah but not to cross the Jordan. In 34:4 He says it again at the end. What does God allow Moses to do with the land?",
+        "child": "God would not let Moses enter the promised land. But both times God talked about it, He let Moses do one thing. What?",
+        "teen": "Deuteronomy 3:27 and 34:4 frame Moses’ last days with the same permission and the same limit. What is the permission?",
+        "older": "According to Deuteronomy 34:4, what had God caused Moses to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "See it with your eyes"
+        },
+        {
+          "id": "b",
+          "text": "Bless it with your hands"
+        },
+        {
+          "id": "c",
+          "text": "Walk around its borders"
+        },
+        {
+          "id": "d",
+          "text": "Divide it among the tribes"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 3:27",
+            "text": "Go up to the top of Pisgah, and lift your eyes toward the west, the north, the south, and the east; behold it with your eyes, for you shall not cross over this Jordan.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 34:4",
+            "text": "Then the LORD said to him, “This is the land of which I swore to give Abraham, Isaac, and Jacob, saying, ‘I will give it to your descendants.’ I have caused you to see it with your eyes, but you shall not cross over there.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 34:4 after “I have caused you to,” before “but you shall not cross over there.”",
+          "child": "Look at the last sentence of 34:4.",
+          "teen": "Both verses pair one permission with one limit. In 34:4 the permission comes before “but.”",
+          "older": "In 34:4 it precedes “but you shall not cross over there.”"
+        },
+        "extended_explanation": "In 3:26-27 the LORD refuses Moses’ request but tells him to go up to the top of Pisgah facing west, north, south, and east. In 34:1-4, at the end of his life, Moses goes up from Moab, and the LORD speaks to him about the land promised to Abraham, Isaac, and Jacob. In both places one thing is allowed and one is not. Read 34:4 before “but.”",
+        "takeaway": "God let Moses see the land with his eyes, but not cross over into it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-deu-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 11",
+      "topics": [
+        "deuteronomy-moses-sermons"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 11:19 Moses tells Israel to teach God’s words to their children. In 31:13, why are children who have not known the law to hear it read?",
+        "child": "Moses told parents to teach God’s words to their children at home and on the road. Later he said the law should be read aloud so children would hear it. Why?",
+        "teen": "Deuteronomy 11:19 and 31:13 both look to the next generation. What does 31:13 say the children will do when they hear?",
+        "older": "According to Deuteronomy 31:13, why are the children to hear the law?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Learn to serve the LORD in Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "Learn the names of the twelve tribes"
+        },
+        {
+          "id": "c",
+          "text": "Learn to fear the LORD your God"
+        },
+        {
+          "id": "d",
+          "text": "Learn to read the scroll aloud"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 11:19",
+            "text": "You shall teach them to your children, speaking of them when you sit in your house, when you walk by the way, when you lie down, and when you rise up.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 31:13",
+            "text": "and that their children, who have not known it, may hear and learn to fear the LORD your God as long as you live in the land which you cross the Jordan to possess.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 31:13 after “may hear and.”",
+          "child": "Look at verse 13 right after “may hear and.”",
+          "teen": "31:13 names who will hear, what they will do, and for how long. Read the what.",
+          "older": "It follows “may hear and” in 31:13."
+        },
+        "extended_explanation": "In 11:19 Moses tells Israel to teach God’s words to their children when they sit, walk, lie down, and rise up. In 31:10-13 he commands the law to be read every seventh year at the Feast of Tabernacles so that children who have not known it may hear. Read 31:13 after “may hear and.”",
+        "takeaway": "The law was read so the children would hear and learn to fear the LORD their God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

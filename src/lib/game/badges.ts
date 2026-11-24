@@ -1,7 +1,14 @@
 import { stageRank, STAGES } from "../curriculum";
 import { badgeRunEarned, isBadgeWaiting, openAttemptCorrectIds, passedFirstTry } from "./badge-retry";
 import type { GameProgress, KnowledgeStage, Question } from "./types";
-import { knowledgePath, stagePath, type AdvanceRule, type KnowledgePathFile, type PathBadge } from "./path";
+import {
+  canonicalBadgeId,
+  knowledgePath,
+  stagePath,
+  type AdvanceRule,
+  type KnowledgePathFile,
+  type PathBadge,
+} from "./path";
 
 export { earnedFirstTryIds, passedFirstTry } from "./badge-retry";
 
@@ -18,6 +25,11 @@ export function stageSlug(stage: string): string {
 
 export function badgesFor(stage: KnowledgeStage, path: KnowledgePathFile = knowledgePath): PathBadge[] {
   return stagePath(stage, path)?.badges ?? [];
+}
+
+/** Badges with no questions are still being written and stay off every player view. */
+export function visibleBadges(badges: readonly PathBadge[]): PathBadge[] {
+  return badges.filter((badge) => badge.questionIds.length > 0);
 }
 
 /**
@@ -65,8 +77,9 @@ export function visibleMapStages(progress: { stage?: KnowledgeStage }): Knowledg
 }
 
 export function stageForPathBadge(id: string, path: KnowledgePathFile = knowledgePath): KnowledgeStage | null {
+  const wanted = canonicalBadgeId(id);
   for (const stage of path.stages) {
-    if (stage.badges.some((badge) => badge.id === id)) return stage.stage;
+    if (stage.badges.some((badge) => badge.id === wanted)) return stage.stage;
   }
   return null;
 }

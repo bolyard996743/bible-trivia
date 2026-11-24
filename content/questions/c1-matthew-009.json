@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-009",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0036",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 1",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 1:23 gives the name the Son will be called. What does Matthew say that name is translated?",
+        "child": "Matthew explains what the name given to Mary’s Son means. What does it mean?",
+        "teen": "Matthew 1:23: the name “is translated” how?",
+        "older": "According to Matthew 1:23, what does the name mean when translated?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "God is near"
+        },
+        {
+          "id": "b",
+          "text": "God has spoken"
+        },
+        {
+          "id": "c",
+          "text": "God with us"
+        },
+        {
+          "id": "d",
+          "text": "God is faithful"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 1:23",
+            "text": "“Behold, the virgin shall be with child, and bear a Son, and they shall call His name Immanuel,” which is translated, “God with us.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:23.",
+          "child": "Look at the last words of Matthew 1:23.",
+          "teen": "1:23 gives the prophecy and then a translation. Read the translation.",
+          "older": "It follows “which is translated” in 1:23."
+        },
+        "extended_explanation": "1:22 says all this was done that what the Lord spoke through the prophet might be fulfilled. 1:23 begins, “Behold, the virgin shall be with child.”",
+        "takeaway": "The name is translated “God with us.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mat-0018",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 21",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Jesus drew near Jerusalem, at the Mount of Olives, what place did they come to before He sent two disciples?",
+        "child": "On the way to Jerusalem, Jesus came near the Mount of Olives. What place did they reach?",
+        "teen": "Matthew 21:1: “and came to” what place “at the Mount of Olives”?",
+        "older": "According to Matthew 21:1, what place did they come to at the Mount of Olives?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Bethphage"
+        },
+        {
+          "id": "b",
+          "text": "Jericho"
+        },
+        {
+          "id": "c",
+          "text": "Bethsaida"
+        },
+        {
+          "id": "d",
+          "text": "Bethel"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 21:1",
+            "text": "Now when they drew near Jerusalem, and came to Bethphage, at the Mount of Olives, then Jesus sent two disciples,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 21:1, after “and came to.”",
+          "child": "Look in the middle of Matthew 21:1.",
+          "teen": "21:1 names Jerusalem, then a place, then the Mount of Olives. Read the place in between.",
+          "older": "It follows “and came to” in 21:1."
+        },
+        "extended_explanation": "21:1 ends with Jesus sending two disciples. 21:2 tells them what they will find tied in the village opposite.",
+        "takeaway": "They came to Bethphage."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mat-0019",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 2",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 2:17-18 quotes Jeremiah the prophet about a voice heard in Ramah. Lamentation and weeping are named. What else?",
+        "child": "Matthew quotes Jeremiah about sad sounds heard in a town. Two are lamentation and weeping. What is the third?",
+        "teen": "Matthew 2:18: “Lamentation, weeping, and” what?",
+        "older": "According to Matthew 2:18, what is named with lamentation and weeping?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "loud crying"
+        },
+        {
+          "id": "b",
+          "text": "bitter wailing"
+        },
+        {
+          "id": "c",
+          "text": "deep sighing"
+        },
+        {
+          "id": "d",
+          "text": "great mourning"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 2:17",
+            "text": "Then was fulfilled what was spoken by Jeremiah the prophet, saying:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 2:18",
+            "text": "“A voice was heard in Ramah, Lamentation, weeping, and great mourning, Rachel weeping for her children, Refusing to be comforted, Because they are no more.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 2:18.",
+          "child": "Look near the start of Matthew 2:18.",
+          "teen": "2:18 lists three sounds in a row. Read the last of the three.",
+          "older": "It follows “weeping, and” in 2:18."
+        },
+        "extended_explanation": "2:17 says this was spoken by Jeremiah the prophet. 2:18 goes on to say Rachel was refusing to be comforted.",
+        "takeaway": "A voice was heard with “Lamentation, weeping, and great mourning.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mat-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 8",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When evening had come, many who were demon-possessed were brought to Jesus. According to 8:16, how did He cast out the spirits?",
+        "child": "In the evening, people brought Jesus many who had evil spirits. How did He drive the spirits out?",
+        "teen": "Matthew 8:16: “And He cast out the spirits” how?",
+        "older": "According to Matthew 8:16, by what means did Jesus cast out the spirits?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with a touch"
+        },
+        {
+          "id": "b",
+          "text": "with a word"
+        },
+        {
+          "id": "c",
+          "text": "with a loud cry"
+        },
+        {
+          "id": "d",
+          "text": "with oil and prayer"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 8:16",
+            "text": "When evening had come, they brought to Him many who were demon-possessed. And He cast out the spirits with a word, and healed all who were sick,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 8:17",
+            "text": "that it might be fulfilled which was spoken by Isaiah the prophet, saying: “He Himself took our infirmities And bore our sicknesses.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 8:16, after “cast out the spirits.”",
+          "child": "Look in the middle of verse 16.",
+          "teen": "8:16 tells who was brought and then how He dealt with the spirits. Read the second part.",
+          "older": "It follows “He cast out the spirits” in 8:16."
+        },
+        "extended_explanation": "8:16 adds that He healed all who were sick. 8:17 says this fulfilled Isaiah: “He Himself took our infirmities And bore our sicknesses.”",
+        "takeaway": "He cast out the spirits “with a word.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 4",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Matthew 4:12, what had Jesus heard when He departed to Galilee?",
+        "child": "Jesus left for Galilee after He heard some news. What had He heard?",
+        "teen": "Matthew 4:12: “Now when Jesus heard that” what?",
+        "older": "Matthew 4:12-13 tells why Jesus moved to Galilee. What news had He heard?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "John had been put in prison"
+        },
+        {
+          "id": "b",
+          "text": "Herod was seeking Him"
+        },
+        {
+          "id": "c",
+          "text": "the crowds were coming"
+        },
+        {
+          "id": "d",
+          "text": "His family was looking for Him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 4:12",
+            "text": "Now when Jesus heard that John had been put in prison, He departed to Galilee.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 4:13",
+            "text": "And leaving Nazareth, He came and dwelt in Capernaum, which is by the sea, in the regions of Zebulun and Naphtali,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 4:12.",
+          "child": "Look at the start of Matthew 4:12.",
+          "teen": "4:12 gives the news first and then where He went. Read the news.",
+          "older": "It follows “heard that” in 4:12."
+        },
+        "extended_explanation": "4:13 says He left Nazareth and dwelt by the sea, in the regions of Zebulun and Naphtali. 4:14 says this fulfilled what Isaiah the prophet had spoken.",
+        "takeaway": "He heard that John had been put in prison."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 8",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 8:17 says He took our infirmities. After He healed the great multitudes in chapter 12, what did He warn them in 12:16?",
+        "child": "After Jesus healed large crowds, He gave them a warning. What did He warn them?",
+        "teen": "Matthew 12:16: “Yet He warned them” what?",
+        "older": "Linking Matthew 8:17 with 12:16, what did Jesus warn the healed multitudes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "not to follow Him"
+        },
+        {
+          "id": "b",
+          "text": "not to go to the temple"
+        },
+        {
+          "id": "c",
+          "text": "not to make Him known"
+        },
+        {
+          "id": "d",
+          "text": "not to touch His garments"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 8:17",
+            "text": "that it might be fulfilled which was spoken by Isaiah the prophet, saying: “He Himself took our infirmities And bore our sicknesses.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 12:16",
+            "text": "Yet He warned them not to make Him known,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 12:16.",
+          "child": "Look at the last words of Matthew 12:16.",
+          "teen": "8:17 is the setting; 12:16 has one short warning. Read all of it after “warned them.”",
+          "older": "It follows “warned them” in 12:16."
+        },
+        "extended_explanation": "8:17 quotes Isaiah about bearing sicknesses. 12:17 says this warning also fulfilled what Isaiah the prophet had spoken.",
+        "takeaway": "He warned them “not to make Him known.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 2",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 21:5 tells the daughter of Zion that her King is coming. In 2:6, whom will the coming Ruler shepherd?",
+        "child": "Matthew 2 quotes a prophet about a Ruler who would come. Whom would He shepherd?",
+        "teen": "Matthew 2:6: “Who will shepherd” whom?",
+        "older": "Alongside the King of 21:5, whom does 2:6 say the Ruler will shepherd?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the tribes of Jacob"
+        },
+        {
+          "id": "b",
+          "text": "My people Israel"
+        },
+        {
+          "id": "c",
+          "text": "the house of David"
+        },
+        {
+          "id": "d",
+          "text": "the lost of Judah"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 2:6",
+            "text": "‘But you, Bethlehem, in the land of Judah, Are not the least among the rulers of Judah; For out of you shall come a Ruler Who will shepherd My people Israel.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 21:5",
+            "text": "“Tell the daughter of Zion, ‘Behold, your King is coming to you, Lowly, and sitting on a donkey, A colt, the foal of a donkey.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:6.",
+          "child": "Look at the last words of Matthew 2:6.",
+          "teen": "21:5 is the setting; 2:6 ends with the Ruler’s task. Read the end.",
+          "older": "It follows “Who will shepherd” in 2:6."
+        },
+        "extended_explanation": "21:5 says the King is coming to the daughter of Zion, sitting on a donkey. 2:6 calls the coming one a Ruler.",
+        "takeaway": "The Ruler “will shepherd My people Israel.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 2",
+      "topics": [
+        "prophecy-fulfilled"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 2:17 opens a word spoken by Jeremiah the prophet, and so does 27:9. According to 27:10, for what were the coins given?",
+        "child": "Matthew says the money paid for Jesus was later used to buy something. What was it for?",
+        "teen": "Matthew 27:10: “and gave them for” what?",
+        "older": "According to Matthew 27:10, what were the coins given for, as the LORD directed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a vineyard for the poor"
+        },
+        {
+          "id": "b",
+          "text": "a tomb for the prophets"
+        },
+        {
+          "id": "c",
+          "text": "the house of the scribes"
+        },
+        {
+          "id": "d",
+          "text": "the potter’s field"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 2:17",
+            "text": "Then was fulfilled what was spoken by Jeremiah the prophet, saying:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 27:10",
+            "text": "and gave them for the potter’s field, as the LORD directed me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 27:10.",
+          "child": "Look at the start of Matthew 27:10.",
+          "teen": "2:17 is the setting; 27:10 says where the coins went and then who directed it. Read the first part.",
+          "older": "It follows “and gave them for” in 27:10."
+        },
+        "extended_explanation": "2:17 introduces the voice heard in Ramah. 27:10 ends, “as the LORD directed me.”",
+        "takeaway": "They gave them “for the potter’s field.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

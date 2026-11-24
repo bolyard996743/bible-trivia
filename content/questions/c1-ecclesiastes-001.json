@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ecclesiastes-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-ecc-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 4",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Preacher says two are better than one, and that two can withstand one who would overpower a person alone. What does he say is not quickly broken?",
+        "child": "Ecclesiastes says two people together are better than one. It ends that thought with something that is hard to break. What is it?",
+        "teen": "In Ecclesiastes 4:12, after “two can withstand him,” the Preacher names something that “is not quickly broken.” What is it?",
+        "older": "According to Ecclesiastes 4:12, what is not quickly broken?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A tightly woven net"
+        },
+        {
+          "id": "b",
+          "text": "A cedar beam"
+        },
+        {
+          "id": "c",
+          "text": "A threefold cord"
+        },
+        {
+          "id": "d",
+          "text": "A silver chain"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 4:12",
+            "text": "Though one may be overpowered by another, two can withstand him. And a threefold cord is not quickly broken.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 4:12, right after “And.”",
+          "child": "Look at the end of verse 12. The thing is named after the word “And,” before “is not quickly broken.”",
+          "teen": "4:12 closes with a proverb. The thing named comes after “And,” ahead of “is not quickly broken.”",
+          "older": "The final line of 4:12 names it, just before “is not quickly broken.”"
+        },
+        "extended_explanation": "Ecclesiastes 4:9-12 praises companionship: two have a good reward for their labor, one lifts up the other who falls, two lying together keep warm, and two can withstand an attacker. The passage ends with a proverb in the last line of 4:12. Read what comes before “is not quickly broken.”",
+        "takeaway": "The Preacher says, “a threefold cord is not quickly broken.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-ecc-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 1",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Preacher observes that all the rivers run into the sea. What does he say about the sea?",
+        "child": "Ecclesiastes talks about rivers running into the sea again and again. What does it say is true about the sea?",
+        "teen": "In Ecclesiastes 1:7, “All the rivers run into the sea.” What does the Preacher say next?",
+        "older": "According to Ecclesiastes 1:7, what is true of the sea, though all the rivers run into it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the sea is not full"
+        },
+        {
+          "id": "b",
+          "text": "the sea rises higher"
+        },
+        {
+          "id": "c",
+          "text": "the rivers run dry"
+        },
+        {
+          "id": "d",
+          "text": "the land is flooded"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 1:7",
+            "text": "All the rivers run into the sea, Yet the sea is not full; To the place from which the rivers come, There they return again.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 1:7, right after “Yet.”",
+          "child": "In verse 7, the words you need come right after “Yet,” on the second line.",
+          "teen": "1:7 sets one line against another with “Yet.” Read the line after it.",
+          "older": "The observation follows “Yet” on the second line of 1:7."
+        },
+        "extended_explanation": "Ecclesiastes 1:4-7 pictures the world going round in circles: generations pass, the sun rises and sets, the wind whirls about, and the rivers run into the sea and return. 1:7 makes a point about the sea on its second line, after “Yet.”",
+        "takeaway": "All the rivers run into the sea, “Yet the sea is not full.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-ecc-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 3",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After saying there is a season for everything and a time for every purpose (3:1), the Preacher speaks of God’s work in 3:11. How does he say God has made everything?",
+        "child": "Ecclesiastes says there is a time for everything. Later in the chapter it tells how God has made everything. What does it say?",
+        "teen": "Ecclesiastes 3:1 says, “To everything there is a season.” In 3:11, what does the Preacher say God has made everything?",
+        "older": "According to Ecclesiastes 3:11, how has God made everything?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "useful in its time"
+        },
+        {
+          "id": "b",
+          "text": "perfect from the start"
+        },
+        {
+          "id": "c",
+          "text": "equal in His sight"
+        },
+        {
+          "id": "d",
+          "text": "beautiful in its time"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 3:1",
+            "text": "To everything there is a season, A time for every purpose under heaven:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 3:11",
+            "text": "He has made everything beautiful in its time. Also He has put eternity in their hearts, except that no one can find out the work that God does from beginning to end.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the first sentence of 3:11, right after “He has made everything.”",
+          "child": "Read the start of verse 11. The words come right after “He has made everything.”",
+          "teen": "3:11 opens with a statement about God’s work. Finish it after “He has made everything.”",
+          "older": "The opening sentence of 3:11 ends with them, after “He has made everything.”"
+        },
+        "extended_explanation": "Ecclesiastes 3:1-8 lists paired times: to be born and to die, to plant and to pluck, to weep and to laugh, to keep silence and to speak. Then the Preacher reflects on the God-given task of people (3:10). 3:11 opens with a statement about everything God made, then speaks of eternity in their hearts.",
+        "takeaway": "God “has made everything beautiful in its time.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-ecc-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 5",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Preacher warns, “Do not be rash with your mouth,” for God is in heaven and you are on earth. What does he say should follow from that?",
+        "child": "Ecclesiastes says God is in heaven and we are on earth, so we should be careful how we speak to Him. What does it tell us to do?",
+        "teen": "In Ecclesiastes 5:2 the Preacher says, “For God is in heaven, and you on earth; Therefore.” How does he finish?",
+        "older": "According to Ecclesiastes 5:2, how should a person speak before God, since God is in heaven?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "let your prayers be long"
+        },
+        {
+          "id": "b",
+          "text": "let your words be few"
+        },
+        {
+          "id": "c",
+          "text": "let your voice be heard"
+        },
+        {
+          "id": "d",
+          "text": "let your heart be glad"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 5:2",
+            "text": "Do not be rash with your mouth, And let not your heart utter anything hastily before God. For God is in heaven, and you on earth; Therefore let your words be few.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 5:3",
+            "text": "For a dream comes through much activity, And a fool’s voice is known by his many words.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 5:2, right after “Therefore.”",
+          "child": "Look at the end of verse 2. The words come after “Therefore.”",
+          "teen": "5:2 builds to a conclusion introduced by “Therefore.” Read what follows.",
+          "older": "The conclusion follows “Therefore” in the final line of 5:2."
+        },
+        "extended_explanation": "Ecclesiastes 5:1-7 teaches reverence in the house of God: draw near to hear rather than offer the sacrifice of fools, do not be hasty before God, and keep your vows. 5:3 adds that a fool’s voice is known by his many words. 5:2 ends with a conclusion after “Therefore.”",
+        "takeaway": "Since God is in heaven and you on earth, “let your words be few.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ecc-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 9",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Preacher saw under the sun that the race is not to the swift, nor the battle to the strong, nor bread to the wise. What does he say happens to them all?",
+        "child": "Ecclesiastes says the fastest runner does not always win and the strongest does not always win the fight. What does it say happens to them all?",
+        "teen": "In Ecclesiastes 9:11, after “Nor favor to men of skill,” the Preacher says something happens to them all. What?",
+        "older": "According to Ecclesiastes 9:11, what happens to the swift, the strong, the wise, and the skilled alike?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Toil and sorrow"
+        },
+        {
+          "id": "b",
+          "text": "Time and chance"
+        },
+        {
+          "id": "c",
+          "text": "Praise and blame"
+        },
+        {
+          "id": "d",
+          "text": "Judgment and death"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 9:11",
+            "text": "I returned and saw under the sun that— The race is not to the swift, Nor the battle to the strong, Nor bread to the wise, Nor riches to men of understanding, Nor favor to men of skill; But time and chance happen to them all.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 9:12",
+            "text": "For man also does not know his time: Like fish taken in a cruel net, Like birds caught in a snare, So the sons of men are snared in an evil time, When it falls suddenly upon them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 9:11, right after “But.”",
+          "child": "Look at the end of verse 11. After a long list, the word “But” comes, and then what you need.",
+          "teen": "9:11 lists five reversals, then turns with “But.” Read what follows it.",
+          "older": "The final line of 9:11 names it after “But,” ahead of “happen to them all.”"
+        },
+        "extended_explanation": "The Preacher looks at life under the sun and lists five things that do not go as expected: the race, the battle, bread, riches, and favor. 9:11 ends with “But” and names what happens to them all. 9:12 adds that man does not know his time, like fish in a net or birds in a snare.",
+        "takeaway": "The Preacher saw that “time and chance happen to them all.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ecc-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 2",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:24 the Preacher says enjoying good in one’s labor is “from the hand of God.” In 3:13, what does he call it when a man eats, drinks, and enjoys the good of all his labor?",
+        "child": "Ecclesiastes 2:24 says enjoying your work comes from God’s hand. In 3:13, what does the Preacher call eating, drinking, and enjoying your work?",
+        "teen": "Connect Ecclesiastes 2:24 and 3:13. 2:24 says it is “from the hand of God.” What does 3:13 call it?",
+        "older": "According to Ecclesiastes 3:13, what is it when a man eats, drinks, and enjoys the good of all his labor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the work of God"
+        },
+        {
+          "id": "b",
+          "text": "the reward of the wise"
+        },
+        {
+          "id": "c",
+          "text": "the will of God"
+        },
+        {
+          "id": "d",
+          "text": "the gift of God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 2:24",
+            "text": "Nothing is better for a man than that he should eat and drink, and that his soul should enjoy good in his labor. This also, I saw, was from the hand of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 3:13",
+            "text": "and also that every man should eat and drink and enjoy the good of all his labor—it is the gift of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:13, after the dash and “it is.”",
+          "child": "Look at the last words of verse 13, after the dash.",
+          "teen": "3:13 ends after a dash with a short description. Read it after “it is.”",
+          "older": "The description closes 3:13, following the dash and “it is.”"
+        },
+        "extended_explanation": "Twice the Preacher steps back from his search to commend simple enjoyment. In 2:24 nothing is better than to eat, drink, and enjoy good in one’s labor, and he saw that this was from the hand of God. In 3:12-13 he repeats the thought and ends 3:13 with a description after the dash.",
+        "takeaway": "To eat, drink, and enjoy the good of all one’s labor “is the gift of God.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ecc-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 11",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Preacher tells the young man to rejoice in his youth, but to know that God will bring him into judgment (11:9). In 12:1, whom does he tell the young to remember in the days of their youth?",
+        "child": "Ecclesiastes tells young people to enjoy being young, but to know that God will judge everything. Then it tells them to remember someone while they are young. Who?",
+        "teen": "Connect Ecclesiastes 11:9 and 12:1. After “Rejoice, O young man, in your youth,” what does 12:1 say to remember “in the days of your youth”?",
+        "older": "According to Ecclesiastes 12:1, whom should a person remember in the days of youth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your Creator"
+        },
+        {
+          "id": "b",
+          "text": "your father’s counsel"
+        },
+        {
+          "id": "c",
+          "text": "the former days"
+        },
+        {
+          "id": "d",
+          "text": "the words of the wise"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 11:9",
+            "text": "Rejoice, O young man, in your youth, And let your heart cheer you in the days of your youth; Walk in the ways of your heart, And in the sight of your eyes; But know that for all these God will bring you into judgment.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 12:1",
+            "text": "Remember now your Creator in the days of your youth, Before the difficult days come, And the years draw near when you say, “I have no pleasure in them”:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the opening words of 12:1, right after “Remember now.”",
+          "child": "Read the start of chapter 12. The words come right after “Remember now.”",
+          "teen": "12:1 begins with a command. Read what comes after “Remember now.”",
+          "older": "The opening of 12:1 names it, after “Remember now,” before “in the days of your youth.”"
+        },
+        "extended_explanation": "Ecclesiastes 11:9-10 gives the young man freedom to rejoice and walk in the ways of his heart, with a reminder that God will bring all these into judgment. 12:1 begins the closing poem with a command, before the difficult days come. Read what follows “Remember now.”",
+        "takeaway": "The Preacher says, “Remember now your Creator in the days of your youth.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ecc-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 1",
+      "topics": [
+        "under-the-sun"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ecclesiastes opens with “Vanity of vanities, all is vanity” (1:2). In 12:13 the Preacher gives “the conclusion of the whole matter.” What is it?",
+        "child": "Ecclesiastes begins by saying everything is vanity. At the end, the Preacher gives his final conclusion. What does he say we should do?",
+        "teen": "Ecclesiastes 1:2 says, “all is vanity.” What does 12:13 say is “the conclusion of the whole matter”?",
+        "older": "According to Ecclesiastes 12:13, what is the conclusion of the whole matter?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Eat, drink, and enjoy your labor"
+        },
+        {
+          "id": "b",
+          "text": "Seek wisdom and gather knowledge"
+        },
+        {
+          "id": "c",
+          "text": "Fear God and keep His commandments"
+        },
+        {
+          "id": "d",
+          "text": "Help the needy and give them generously"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 1:2",
+            "text": "“Vanity of vanities,” says the Preacher; “Vanity of vanities, all is vanity.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 12:13",
+            "text": "Let us hear the conclusion of the whole matter: Fear God and keep His commandments, For this is man’s all.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 12:13 after the colon that follows “the conclusion of the whole matter.”",
+          "child": "In verse 13, find the colon after “the whole matter.” The conclusion comes right after it.",
+          "teen": "12:13 announces a conclusion and then states it after a colon. Read that part.",
+          "older": "The conclusion follows the colon in 12:13, before “For this is man’s all.”"
+        },
+        "extended_explanation": "The book is framed by the cry “Vanity of vanities” (1:2; 12:8). After the Preacher’s long search under the sun, 12:13 calls the reader to hear the conclusion of the whole matter, states it after a colon, and adds “For this is man’s all.” 12:14 gives the reason: God will bring every work into judgment.",
+        "takeaway": "The conclusion of the whole matter: “Fear God and keep His commandments.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

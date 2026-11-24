@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-hosea-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-hos-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 1",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the LORD began to speak by Hosea, He told him to take a wife. Whom did Hosea take?",
+        "child": "God gave the prophet Hosea an unusual message about his own family. Whom did Hosea marry?",
+        "teen": "Hosea 1:3 says, “So he went and took” someone, who bore him a son. Whom did Hosea take as his wife?",
+        "older": "According to Hosea 1:3, whom did Hosea take as his wife?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jedidah the daughter of Adaiah"
+        },
+        {
+          "id": "b",
+          "text": "Gomer the daughter of Diblaim"
+        },
+        {
+          "id": "c",
+          "text": "Abijah the daughter of Zechariah"
+        },
+        {
+          "id": "d",
+          "text": "Azubah the daughter of Shilhi"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 1:3",
+            "text": "So he went and took Gomer the daughter of Diblaim, and she conceived and bore him a son.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the start of 1:3, right after “So he went and took.”",
+          "child": "Read the beginning of verse 3. The name comes right after “took.”",
+          "teen": "1:3 opens with Hosea obeying. The name and family follow “So he went and took.”",
+          "older": "The name follows “So he went and took” at the opening of 1:3."
+        },
+        "extended_explanation": "Hosea prophesied in the days of Uzziah, Jotham, Ahaz, and Hezekiah of Judah and Jeroboam of Israel (1:1). The LORD made Hosea’s own marriage a picture of Israel’s unfaithfulness and of His faithful love. 1:3 opens by naming the woman Hosea took, and says she bore him a son.",
+        "takeaway": "Hosea took Gomer the daughter of Diblaim as his wife."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hos-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 11",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD remembers loving Israel when Israel was a child. From where does He say He called His son?",
+        "child": "God says He loved Israel when Israel was a child. Where did God call His son out of?",
+        "teen": "Hosea 11:1 opens with God’s love for Israel as a child. What does the second line say God did?",
+        "older": "According to Hosea 11:1, from where did God call His son?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Out of Egypt"
+        },
+        {
+          "id": "b",
+          "text": "Out of Babylon"
+        },
+        {
+          "id": "c",
+          "text": "Out of the wilderness"
+        },
+        {
+          "id": "d",
+          "text": "Out of Haran"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 11:1",
+            "text": "“When Israel was a child, I loved him, And out of Egypt I called My son.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 11:1, right before “I called My son.”",
+          "child": "Look at the end of verse 1. The place is named just before “I called My son.”",
+          "teen": "11:1 has two lines. The place begins the second one, ahead of “I called My son.”",
+          "older": "The second line of 11:1 names it, before “I called My son.”"
+        },
+        "extended_explanation": "Hosea 11 is a tender poem about God as a father. 11:1 looks back to Israel’s beginnings as a people, when God loved Israel as a child, and names the place from which He called His son. 11:2 then tells how, the more they were called, the more they went after the Baals.",
+        "takeaway": "God says, “out of Egypt I called My son.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hos-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 2",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD says He will allure her, bring her into the wilderness, speak comfort to her, and give her vineyards. What will the Valley of Achor become?",
+        "child": "God says He will lead His people into the wilderness and speak kindly to them. A valley called Achor will become something new. What?",
+        "teen": "In Hosea 2:15, God gives her vineyards and “the Valley of Achor as” what?",
+        "older": "According to Hosea 2:15, what will the Valley of Achor be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A well of joy"
+        },
+        {
+          "id": "b",
+          "text": "A field of peace"
+        },
+        {
+          "id": "c",
+          "text": "A door of hope"
+        },
+        {
+          "id": "d",
+          "text": "A gate of praise"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 2:14",
+            "text": "“Therefore, behold, I will allure her, Will bring her into the wilderness, And speak comfort to her.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 2:15",
+            "text": "I will give her her vineyards from there, And the Valley of Achor as a door of hope; She shall sing there, As in the days of her youth, As in the day when she came up from the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2:15 right after “the Valley of Achor as.”",
+          "child": "In verse 15, find “the Valley of Achor as.” The words come right after it.",
+          "teen": "2:15 gives two gifts. The second is the valley, followed by what it will be after “as.”",
+          "older": "It follows “the Valley of Achor as” in the first sentence of 2:15."
+        },
+        "extended_explanation": "After the judgments of 2:2-13, the LORD’s tone changes with “Therefore, behold” (2:14). He will lead her into the wilderness and speak comfort, give her vineyards, and turn the Valley of Achor, remembered as a place of trouble since Joshua 7, into something new. She will sing there as in the days of her youth.",
+        "takeaway": "God will give “the Valley of Achor as a door of hope.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hos-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 2",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“In that day,” says the LORD, she will call Him “My Husband.” What will she no longer call Him?",
+        "child": "God says a day will come when His people will call Him “My Husband.” What name will they stop using for Him?",
+        "teen": "In Hosea 2:16, the LORD says, “you will call Me ‘My Husband,’ And no longer call Me” what?",
+        "older": "According to Hosea 2:16, what will she no longer call the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My King"
+        },
+        {
+          "id": "b",
+          "text": "My Judge"
+        },
+        {
+          "id": "c",
+          "text": "My Father"
+        },
+        {
+          "id": "d",
+          "text": "My Master"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 2:16",
+            "text": "“And it shall be, in that day,” Says the LORD, “That you will call Me ‘My Husband,’ And no longer call Me ‘My Master,’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 2:17",
+            "text": "For I will take from her mouth the names of the Baals, And they shall be remembered by their name no more.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:16, after “And no longer call Me.”",
+          "child": "Look at the last words of verse 16. The name comes after “no longer call Me.”",
+          "teen": "2:16 sets two names against each other. The second follows “no longer call Me.”",
+          "older": "The name that closes 2:16 follows “And no longer call Me.”"
+        },
+        "extended_explanation": "In 2:16-17 the LORD promises a new relationship. 2:16 contrasts two names she might use for Him, one she will use and one she will drop. 2:17 explains that He will take the names of the Baals from her mouth.",
+        "takeaway": "She will call Him “My Husband,” and no longer “My Master.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 11",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God says He taught Ephraim to walk, taking them by their arms (11:3). He drew them with gentle cords, and with what else?",
+        "child": "God says He taught Ephraim to walk like a small child, holding their arms. He says He drew them with gentle cords and with what else?",
+        "teen": "In Hosea 11:4, “I drew them with gentle cords,” and what follows?",
+        "older": "According to Hosea 11:4, with what did God draw them, along with gentle cords?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With chains of iron"
+        },
+        {
+          "id": "b",
+          "text": "With songs of joy"
+        },
+        {
+          "id": "c",
+          "text": "With rods of correction"
+        },
+        {
+          "id": "d",
+          "text": "With bands of love"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 11:3",
+            "text": "“I taught Ephraim to walk, Taking them by their arms; But they did not know that I healed them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 11:4",
+            "text": "I drew them with gentle cords, With bands of love, And I was to them as those who take the yoke from their neck. I stooped and fed them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 11:4, right after “gentle cords.”",
+          "child": "Look at verse 4. The words come right after “I drew them with gentle cords.”",
+          "teen": "11:4 opens with two parallel lines. Read the second.",
+          "older": "The second line of 11:4, after “gentle cords,” gives it."
+        },
+        "extended_explanation": "11:3-4 pictures God as a parent: teaching Ephraim to walk, taking them by their arms, healing them, and stooping to feed them. 11:4 opens with two parallel lines about how He drew them, then speaks of taking the yoke from their neck. Read the second line.",
+        "takeaway": "“I drew them with gentle cords, With bands of love.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 1",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hosea’s son was named Lo-Ammi, “For you are not My people” (1:9). In 2:23 God says to those who were not His people, “You are My people!” How do they reply?",
+        "child": "Hosea named his son Lo-Ammi, which means “not My people.” Later God promises to say, “You are My people!” What will the people say back?",
+        "teen": "Connect Hosea 1:9 and 2:23. After God says, “You are My people!” what do they say in reply?",
+        "older": "According to Hosea 2:23, what will they say when God calls them His people?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You are my King!"
+        },
+        {
+          "id": "b",
+          "text": "You are my God!"
+        },
+        {
+          "id": "c",
+          "text": "You are my Father!"
+        },
+        {
+          "id": "d",
+          "text": "You are my Shield!"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 1:9",
+            "text": "Then God said: “Call his name Lo-Ammi, For you are not My people, And I will not be your God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 2:23",
+            "text": "Then I will sow her for Myself in the earth, And I will have mercy on her who had not obtained mercy; Then I will say to those who were not My people, ‘You are My people!’ And they shall say, ‘You are my God!’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the final quotation of 2:23, after “And they shall say.”",
+          "child": "Look at the very end of verse 23. Their reply comes after “they shall say.”",
+          "teen": "2:23 ends with an exchange. Read the second quotation, after “they shall say.”",
+          "older": "The closing quotation of 2:23 follows “And they shall say.”"
+        },
+        "extended_explanation": "In 1:9 God names Hosea’s third child Lo-Ammi with the words “For you are not My people.” 2:23 reverses the names: mercy for her who had not obtained mercy, and “You are My people!” to those who were not His people. Their reply closes the verse.",
+        "takeaway": "God will say, “You are My people!” and they shall say, “You are my God!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 11",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God cries out, “How can I give you up, Ephraim?” (11:8). In the closing chapter, after Israel returns, what does God say Ephraim shall say (14:8)?",
+        "child": "God says, “How can I give you up, Ephraim?” because He loves His people so much. At the end of the book, what does God say Ephraim will say?",
+        "teen": "Connect Hosea 11:8 and 14:8. In 14:8, “Ephraim shall say” what?",
+        "older": "According to Hosea 14:8, what shall Ephraim say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Why have You forsaken Your people?"
+        },
+        {
+          "id": "b",
+          "text": "Where are the idols we served before?"
+        },
+        {
+          "id": "c",
+          "text": "What have I to do anymore with idols?"
+        },
+        {
+          "id": "d",
+          "text": "When will the LORD return to Zion again?"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 11:8",
+            "text": "“How can I give you up, Ephraim? How can I hand you over, Israel? How can I make you like Admah? How can I set you like Zeboiim? My heart churns within Me; My sympathy is stirred.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 14:8",
+            "text": "“Ephraim shall say, ‘What have I to do anymore with idols?’ I have heard and observed him. I am like a green cypress tree; Your fruit is found in Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the quotation at the start of 14:8, after “Ephraim shall say.”",
+          "child": "Look at the beginning of verse 14:8. Ephraim’s words come right after “Ephraim shall say.”",
+          "teen": "14:8 opens with Ephraim’s quoted words. Read them after “shall say.”",
+          "older": "The quotation that opens 14:8 follows “Ephraim shall say.”"
+        },
+        "extended_explanation": "In 11:8-9 God’s heart churns within Him; He will not give Ephraim up or destroy him, for He is God and not man. Chapter 14 calls Israel to return with words (14:1-3), and God promises healing and love. 14:8 opens with what Ephraim shall say, then God answers, “I have heard and observed him.”",
+        "takeaway": "Ephraim shall say, “What have I to do anymore with idols?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hos-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 3",
+      "topics": [
+        "hosea-faithful-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hosea calls, “O Israel, return to the LORD your God” (14:1). In 3:5, whom does he say the children of Israel shall seek in the latter days, along with the LORD their God?",
+        "child": "Hosea begs Israel to return to the LORD. Earlier he said that one day Israel would return and seek the LORD their God and someone else. Who?",
+        "teen": "Connect Hosea 3:5 and 14:1. In 3:5, Israel shall “return and seek the LORD their God and” whom?",
+        "older": "According to Hosea 3:5, whom shall the children of Israel seek along with the LORD their God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "David their king"
+        },
+        {
+          "id": "b",
+          "text": "Moses their leader"
+        },
+        {
+          "id": "c",
+          "text": "Aaron their priest"
+        },
+        {
+          "id": "d",
+          "text": "Elijah their prophet"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 3:5",
+            "text": "Afterward the children of Israel shall return and seek the LORD their God and David their king. They shall fear the LORD and His goodness in the latter days.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hosea 14:1",
+            "text": "O Israel, return to the LORD your God, For you have stumbled because of your iniquity;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 3:5 right after “seek the LORD their God and.”",
+          "child": "In verse 3:5, find “the LORD their God and.” The person comes right after.",
+          "teen": "3:5 names two whom Israel shall seek. The second follows “and.”",
+          "older": "The second one sought in 3:5 follows “the LORD their God and.”"
+        },
+        "extended_explanation": "3:4 says Israel will live many days without king, prince, sacrifice, or sacred pillar. 3:5 looks past that to the latter days, when they will return and seek the LORD their God and one more, and fear the LORD and His goodness. 14:1-2 gives the call to return, with words of repentance.",
+        "takeaway": "In the latter days Israel shall seek the LORD their God and David their king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

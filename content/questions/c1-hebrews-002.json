@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-hebrews-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-heb-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 7",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Melchizedek was king of Salem. According to 7:2, what does “king of Salem” mean?",
+        "child": "Melchizedek ruled a city called Salem. What does his title as its king mean?",
+        "teen": "Hebrews 7:2: “and then also king of Salem, meaning” what?",
+        "older": "According to Hebrews 7:2, what does king of Salem mean?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "king of the nations"
+        },
+        {
+          "id": "b",
+          "text": "king of the east"
+        },
+        {
+          "id": "c",
+          "text": "king of the valley"
+        },
+        {
+          "id": "d",
+          "text": "king of peace"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 7:1",
+            "text": "For this Melchizedek, king of Salem, priest of the Most High God, who met Abraham returning from the slaughter of the kings and blessed him,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 7:2",
+            "text": "to whom also Abraham gave a tenth part of all, first being translated “king of righteousness,” and then also king of Salem, meaning “king of peace,”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "7:1 introduces him; 7:2 gives a tenth, then two translations of his titles. Read the second.",
+          "older": "It follows “king of Salem, meaning” in 7:2."
+        },
+        "extended_explanation": "7:1 calls him a priest who met Abraham and blessed him. 7:2 first translates his name as “king of righteousness.”",
+        "takeaway": "King of Salem means king of peace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-heb-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 1",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 1:3 describes the Son as the brightness of God’s glory. What else does it call Him?",
+        "child": "Hebrews says the Son is the brightness of God’s glory. What is the other title it gives Him in 1:3?",
+        "teen": "Hebrews 1:3: “who being the brightness of His glory and” what?",
+        "older": "According to Hebrews 1:3, what is the Son besides the brightness of His glory?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the chief of His heavenly hosts"
+        },
+        {
+          "id": "b",
+          "text": "the herald of His ancient prophets"
+        },
+        {
+          "id": "c",
+          "text": "the express image of His person"
+        },
+        {
+          "id": "d",
+          "text": "the keeper of His holy temple"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 1:3",
+            "text": "who being the brightness of His glory and the express image of His person, and upholding all things by the word of His power, when He had by Himself purged our sins, sat down at the right hand of the Majesty on high,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 1:3.",
+          "child": "Look near the start of verse 3.",
+          "teen": "1:3 gives two descriptions, says He upholds everything, then says what He did. Read the second description.",
+          "older": "It follows “the brightness of His glory and” in 1:3."
+        },
+        "extended_explanation": "1:3 says He upholds everything by the word of His power, and after He purged our sins He sat down beside the Majesty on high.",
+        "takeaway": "He is the express image of His person."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-heb-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 7",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The earlier priests were many, because death prevented them from continuing. According to 7:24, what does He have, because He continues forever?",
+        "child": "Hebrews 7 talks about Jesus as our priest. What kind of priesthood does He have, according to 7:24?",
+        "teen": "Hebrews 7:24: “But He, because He continues forever, has” what?",
+        "older": "According to Hebrews 7:24, what does He have because He continues forever?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a priesthood of the Levites"
+        },
+        {
+          "id": "b",
+          "text": "an unchangeable priesthood"
+        },
+        {
+          "id": "c",
+          "text": "a shared priesthood"
+        },
+        {
+          "id": "d",
+          "text": "a hidden priesthood"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 7:23",
+            "text": "Also there were many priests, because they were prevented by death from continuing.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 7:24",
+            "text": "But He, because He continues forever, has an unchangeable priesthood.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:24.",
+          "child": "Look at the last words of verse 24.",
+          "teen": "7:23 tells why there were many priests; 7:24 gives a reason, then what He has. Read the end.",
+          "older": "It follows “because He continues forever, has” in 7:24."
+        },
+        "extended_explanation": "7:23 says there were many priests, because they were prevented by death from continuing. 7:25 says He always lives for those who come to God through Him.",
+        "takeaway": "He has an unchangeable priesthood."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-heb-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 9",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses sprinkled with blood the tabernacle and its vessels. According to 9:22, what is there without shedding of blood?",
+        "child": "Hebrews explains why blood was used in the tabernacle. What does it say there is without shedding of blood?",
+        "teen": "Hebrews 9:22: “and without shedding of blood there is” what?",
+        "older": "According to Hebrews 9:22, what follows “without shedding of blood”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "no remission"
+        },
+        {
+          "id": "b",
+          "text": "no Sabbath rest"
+        },
+        {
+          "id": "c",
+          "text": "no promised land"
+        },
+        {
+          "id": "d",
+          "text": "no mercy seat"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 9:21",
+            "text": "Then likewise he sprinkled with blood both the tabernacle and all the vessels of the ministry.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:22",
+            "text": "And according to the law almost all things are purified with blood, and without shedding of blood there is no remission.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:22.",
+          "child": "Look at the last words of verse 22.",
+          "teen": "9:21 tells what was sprinkled; 9:22 states a rule, then its other side. Read the end.",
+          "older": "It follows “without shedding of blood there is” in 9:22."
+        },
+        "extended_explanation": "9:22 says that under the law nearly everything is purified with blood.",
+        "takeaway": "Without shedding of blood there is no remission."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 10",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The law could never make those who approach perfect. According to 10:2, if it had, what would the worshipers no longer have had?",
+        "child": "Hebrews says that if the earlier sacrifices had worked, they would have stopped. What would the worshipers no longer have had?",
+        "teen": "Hebrews 10:2: “would have had no more” what?",
+        "older": "According to Hebrews 10:2, what would the worshipers, once purified, no longer have had?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "consciousness of sins"
+        },
+        {
+          "id": "b",
+          "text": "need of a temple"
+        },
+        {
+          "id": "c",
+          "text": "fear of all their enemies"
+        },
+        {
+          "id": "d",
+          "text": "debts owed to priests"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 10:1",
+            "text": "For the law, having a shadow of the good things to come, and not the very image of the things, can never with these same sacrifices, which they offer continually year by year, make those who approach perfect.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 10:2",
+            "text": "For then would they not have ceased to be offered? For the worshipers, once purified, would have had no more consciousness of sins.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "10:1 says what the law could not do; 10:2 asks a question, then gives its reason. Read the end.",
+          "older": "It follows “would have had no more” in 10:2."
+        },
+        "extended_explanation": "10:1 says the law had a shadow of the good things to come. 10:2 asks whether the offerings would not have ceased.",
+        "takeaway": "They would have had no more consciousness of sins."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 5",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 10:7 Christ says, “To do Your will, O God.” In 5:7, with what did He offer up prayers during His earthly life?",
+        "child": "Hebrews 5:7 tells how Jesus prayed during His earthly life. With what did He pray?",
+        "teen": "Hebrews 5:7: “when He had offered up prayers and supplications, with” what?",
+        "older": "Linking Hebrews 5:7 with 10:7, how did Christ offer up prayers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fasting and torn garments"
+        },
+        {
+          "id": "b",
+          "text": "vehement cries and tears"
+        },
+        {
+          "id": "c",
+          "text": "deep groans and sackcloth"
+        },
+        {
+          "id": "d",
+          "text": "ashes and a shaven head"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 5:7",
+            "text": "who, in the days of His flesh, when He had offered up prayers and supplications, with vehement cries and tears to Him who was able to save Him from death, and was heard because of His godly fear,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 10:7",
+            "text": "Then I said, ‘Behold, I have come— In the volume of the book it is written of Me— To do Your will, O God.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 5:7.",
+          "child": "Look near the start of verse 7.",
+          "teen": "10:7 is the later quotation; 5:7 says when, what He offered, how, and to whom. Read how.",
+          "older": "It follows “prayers and supplications, with” in 5:7."
+        },
+        "extended_explanation": "5:7 says He prayed to Him who was able to save Him from death, and was heard because of His godly fear.",
+        "takeaway": "He offered up prayers with vehement cries and tears."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 7",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 7:27 His offering was once for all. In 9:12, with what blood did He enter the Most Holy Place?",
+        "child": "Hebrews says Jesus entered the holiest place to bring redemption. With what blood?",
+        "teen": "Hebrews 9:12: “but with” what “He entered the Most Holy Place once for all”?",
+        "older": "Alongside 7:27, with what does 9:12 say He entered the Most Holy Place?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the blood of lambs"
+        },
+        {
+          "id": "b",
+          "text": "the blood of rams"
+        },
+        {
+          "id": "c",
+          "text": "His own blood"
+        },
+        {
+          "id": "d",
+          "text": "the blood of doves"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 7:27",
+            "text": "who does not need daily, as those high priests, to offer up sacrifices, first for His own sins and then for the people’s, for this He did once for all when He offered up Himself.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:12",
+            "text": "Not with the blood of goats and calves, but with His own blood He entered the Most Holy Place once for all, having obtained eternal redemption.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 9:12.",
+          "child": "Look after “but with” in verse 12.",
+          "teen": "7:27 is the setting; 9:12 says what it was not, what it was, and what He obtained. Read what it was.",
+          "older": "It follows “but with” in 9:12."
+        },
+        "extended_explanation": "7:27 says He does not need to offer sacrifices daily. 9:12 says He obtained eternal redemption.",
+        "takeaway": "With His own blood He entered the Most Holy Place."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 8",
+      "topics": [
+        "a-better-covenant"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 8:1 our High Priest is seated beside the throne of the Majesty. In 10:14, by what has He perfected forever those who are being sanctified?",
+        "child": "Hebrews says Jesus made His people perfect forever. By what did He do it?",
+        "teen": "Hebrews 10:14: “For by” what “He has perfected forever those who are being sanctified”?",
+        "older": "Linking Hebrews 8:1 with 10:14, by what has He perfected forever those being sanctified?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "many sacrifices"
+        },
+        {
+          "id": "b",
+          "text": "daily washings"
+        },
+        {
+          "id": "c",
+          "text": "yearly feasts"
+        },
+        {
+          "id": "d",
+          "text": "one offering"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 8:1",
+            "text": "Now this is the main point of the things we are saying: We have such a High Priest, who is seated at the right hand of the throne of the Majesty in the heavens,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 10:14",
+            "text": "For by one offering He has perfected forever those who are being sanctified.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 10:14.",
+          "child": "Look at the first words of verse 14.",
+          "teen": "8:1 is the main point; 10:14 says by what, then what He has done. Read the start.",
+          "older": "It follows “For by” in 10:14."
+        },
+        "extended_explanation": "8:2 calls Him a Minister of the sanctuary and of the true tabernacle, which the Lord erected, and not man.",
+        "takeaway": "By one offering He has perfected forever those who are being sanctified."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2samuel-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2sa-0015",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 15",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Absalom would rise early and stand beside the way to the gate, meeting those who came to the king with a lawsuit. What did he wish he were made?",
+        "child": "Absalom stood by the city gate and talked to people who came to the king for help. What did he say he wished he could be?",
+        "teen": "2 Samuel 15:4: “Oh, that I were made ___.” What fills the blank?",
+        "older": "According to 2 Samuel 15:4, what did Absalom wish he were made?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "captain of the army"
+        },
+        {
+          "id": "b",
+          "text": "elder of the city"
+        },
+        {
+          "id": "c",
+          "text": "judge in the land"
+        },
+        {
+          "id": "d",
+          "text": "keeper of the gate"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 15:2",
+            "text": "Now Absalom would rise early and stand beside the way to the gate. So it was, whenever anyone who had a lawsuit came to the king for a decision, that Absalom would call to him and say, “What city are you from?” And he would say, “Your servant is from such and such a tribe of Israel.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 15:4",
+            "text": "Moreover Absalom would say, “Oh, that I were made judge in the land, and everyone who has any suit or cause would come to me; then I would give him justice.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 15:4 after “Oh, that I were made.”",
+          "child": "Look at the start of verse 4. The words come right after “that I were made.”",
+          "teen": "15:4 states Absalom’s wish, then what he would do. Read the wish.",
+          "older": "It follows “Oh, that I were made” in 15:4."
+        },
+        "extended_explanation": "15:2 shows Absalom meeting each person with a lawsuit before he could reach the king and asking, “What city are you from?” 15:3 has him praise each man’s case. 15:4 states his wish and promises that everyone with any suit or cause could come to him.",
+        "takeaway": "Absalom said, “Oh, that I were made judge in the land.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2sa-0003",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 15",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When someone told David that Ahithophel was among the conspirators with Absalom, David prayed about Ahithophel’s counsel. What did he ask the LORD to turn it into?",
+        "child": "David heard that his wise helper Ahithophel had joined Absalom. David prayed to God about what Ahithophel would plan. What did he ask God to turn it into?",
+        "teen": "2 Samuel 15:31: “O LORD, I pray, turn the counsel of Ahithophel into ___!” What fills the blank?",
+        "older": "According to 2 Samuel 15:31, what did David pray the counsel of Ahithophel would become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "foolishness"
+        },
+        {
+          "id": "b",
+          "text": "confusion"
+        },
+        {
+          "id": "c",
+          "text": "contempt"
+        },
+        {
+          "id": "d",
+          "text": "empty words"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 15:31",
+            "text": "Then someone told David, saying, “Ahithophel is among the conspirators with Absalom.” And David said, “O LORD, I pray, turn the counsel of Ahithophel into foolishness!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:31, after “the counsel of Ahithophel into.”",
+          "child": "Look at the very end of verse 31. It comes after “Ahithophel into.”",
+          "teen": "15:31 ends with a short prayer. Read how it ends.",
+          "older": "It closes David’s prayer in 15:31."
+        },
+        "extended_explanation": "The news reached David while he was fleeing up the ascent with his people. Ahithophel had been David’s own counselor. 15:31 records David’s immediate prayer, and 15:32-34 shows Hushai arriving and being sent back to the city.",
+        "takeaway": "David prayed, “Turn the counsel of Ahithophel into foolishness!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2sa-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 15",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David told Ittai the Gittite, a foreigner, to return. Ittai answered, “surely in whatever place my lord the king shall be,” he would be there too. Whether in what?",
+        "child": "David told Ittai, a man from another land, that he could go back. Ittai promised to stay with David no matter what. What did he name?",
+        "teen": "2 Samuel 15:21: Ittai would be with the king “whether in ___.” What fills the blank?",
+        "older": "According to 2 Samuel 15:21, Ittai would stay with the king whether in what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "war or peace"
+        },
+        {
+          "id": "b",
+          "text": "want or plenty"
+        },
+        {
+          "id": "c",
+          "text": "joy or sorrow"
+        },
+        {
+          "id": "d",
+          "text": "death or life"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 15:19",
+            "text": "Then the king said to Ittai the Gittite, “Why are you also going with us? Return and remain with the king. For you are a foreigner and also an exile from your own place.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 15:21",
+            "text": "But Ittai answered the king and said, “As the LORD lives, and as my lord the king lives, surely in whatever place my lord the king shall be, whether in death or life, even there also your servant will be.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 15:21 after “whether in.”",
+          "child": "Look at verse 21. The words come right after “whether in.”",
+          "teen": "15:21 is Ittai’s oath. Read the words just before “even there also.”",
+          "older": "It follows “whether in” in 15:21."
+        },
+        "extended_explanation": "In 15:19 David reminds Ittai that he is “a foreigner and also an exile” and urges him to return. 15:20 notes that he came only yesterday. 15:21 gives Ittai’s reply, an oath sworn “As the LORD lives.”",
+        "takeaway": "Ittai would stay with David, “whether in death or life.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2sa-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 16",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Shimei cursed David and Abishai wanted to stop him, David replied, “What have I to do with you,” you sons of whom?",
+        "child": "A man named Shimei was cursing David, and Abishai wanted to punish him. David told him no. Whose sons did David say they were?",
+        "teen": "2 Samuel 16:10: “What have I to do with you, you sons of ___?” What fills the blank?",
+        "older": "According to 2 Samuel 16:10, David called them the sons of whom?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jehoiada"
+        },
+        {
+          "id": "b",
+          "text": "Zeruiah"
+        },
+        {
+          "id": "c",
+          "text": "Jesse"
+        },
+        {
+          "id": "d",
+          "text": "Gera"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 16:10",
+            "text": "But the king said, “What have I to do with you, you sons of Zeruiah? So let him curse, because the LORD has said to him, ‘Curse David.’ Who then shall say, ‘Why have you done so?’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 16:11",
+            "text": "And David said to Abishai and all his servants, “See how my son who came from my own body seeks my life. How much more now may this Benjamite? Let him alone, and let him curse; for so the LORD has ordered him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 16:10 after “you sons of.”",
+          "child": "Look at the start of verse 10. The name comes after “you sons of.”",
+          "teen": "16:10 begins with David’s question. Read how it ends.",
+          "older": "It closes David’s opening question in 16:10."
+        },
+        "extended_explanation": "Shimei, of the house of Saul, came out cursing and throwing stones as David fled. Abishai asked permission to go after him. David refused. In 16:11 he says, “See how my son who came from my own body seeks my life,” and adds, “Let him alone.”",
+        "takeaway": "David said, “What have I to do with you, you sons of Zeruiah?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 17",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hushai argued against pursuing David at once. He said David and his men “are enraged in their minds,” like what?",
+        "child": "Hushai warned Absalom that David and his men were very angry and dangerous. What animal did he compare them to?",
+        "teen": "2 Samuel 17:8: “They are enraged in their minds, like ___ in the field.” What fills the blank?",
+        "older": "According to 2 Samuel 17:8, what did Hushai compare David and his men to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a bear robbed of her cubs"
+        },
+        {
+          "id": "b",
+          "text": "a lion roused from its den"
+        },
+        {
+          "id": "c",
+          "text": "a wolf driven from its prey"
+        },
+        {
+          "id": "d",
+          "text": "a leopard caught in a snare"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 17:7",
+            "text": "So Hushai said to Absalom: “The advice that Ahithophel has given is not good at this time.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 17:8",
+            "text": "For,” said Hushai, “you know your father and his men, that they are mighty men, and they are enraged in their minds, like a bear robbed of her cubs in the field; and your father is a man of war, and will not camp with the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 17:8 after “enraged in their minds, like.”",
+          "child": "Look at verse 8. The picture comes right after “in their minds, like.”",
+          "teen": "17:8 gives a comparison before the words “in the field.” Read it.",
+          "older": "It follows “enraged in their minds, like” in 17:8."
+        },
+        "extended_explanation": "Ahithophel had urged an immediate pursuit that night. In 17:7 Hushai disagrees, and in 17:8 he reminds Absalom that his father is a man of war who will not camp with the people. His speech was meant to buy David time.",
+        "takeaway": "Hushai said they were “like a bear robbed of her cubs.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 15",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 15:14 David and his servants fled Jerusalem in haste. At Mahanaim, friends brought honey, curds, sheep, and cheese. What did they say about the people in 17:29?",
+        "child": "David and his people had to leave Jerusalem in a hurry. Later, kind friends brought them food. What did those friends say the people were?",
+        "teen": "2 Samuel 17:29: “The people are ___ in the wilderness.” What fills the blank?",
+        "older": "According to 2 Samuel 17:29, how did the friends describe the people with David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "few and scattered and afraid"
+        },
+        {
+          "id": "b",
+          "text": "sick and wounded and tired"
+        },
+        {
+          "id": "c",
+          "text": "hungry and weary and thirsty"
+        },
+        {
+          "id": "d",
+          "text": "poor and homeless and cold"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 15:14",
+            "text": "So David said to all his servants who were with him at Jerusalem, “Arise, and let us flee, or we shall not escape from Absalom. Make haste to depart, lest he overtake us suddenly and bring disaster upon us, and strike the city with the edge of the sword.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 17:29",
+            "text": "honey and curds, sheep and cheese of the herd, for David and the people who were with him to eat. For they said, “The people are hungry and weary and thirsty in the wilderness.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 17:29, after “The people are.”",
+          "child": "Look at the last words of verse 29. They come after “The people are.”",
+          "teen": "17:29 ends with what the givers said. Read their description.",
+          "older": "It follows “The people are” in 17:29."
+        },
+        "extended_explanation": "15:14 records David’s urgent command to flee so that Absalom would not overtake them. 17:27-29 names Shobi, Machir, and Barzillai, who brought beds, basins, grain, and provisions when David reached Mahanaim.",
+        "takeaway": "They said, “The people are hungry and weary and thirsty in the wilderness.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 15",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 17:15 Hushai told Zadok and Abiathar the priests what had been advised in Absalom’s council. When Hushai first came to meet David at the top of the mountain (15:32), how did he come?",
+        "child": "Hushai was David’s friend who later helped him by giving Absalom a different plan. When Hushai first came to meet David, how did he look?",
+        "teen": "2 Samuel 15:32: Hushai the Archite came to meet David “with his robe torn and” what?",
+        "older": "According to 2 Samuel 15:32, how did Hushai come to meet David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "ashes on his face"
+        },
+        {
+          "id": "b",
+          "text": "dust on his head"
+        },
+        {
+          "id": "c",
+          "text": "sackcloth on his body"
+        },
+        {
+          "id": "d",
+          "text": "tears on his cheeks"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 15:32",
+            "text": "Now it happened when David had come to the top of the mountain, where he worshiped God—there was Hushai the Archite coming to meet him with his robe torn and dust on his head.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 17:15",
+            "text": "Then Hushai said to Zadok and Abiathar the priests, “Thus and so Ahithophel advised Absalom and the elders of Israel, and thus and so I have advised.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:32, after “with his robe torn and.”",
+          "child": "Look at the last words of verse 32. They come after “his robe torn and.”",
+          "teen": "15:32 describes how Hushai looked. Read the second detail.",
+          "older": "It closes 15:32, after “with his robe torn and.”"
+        },
+        "extended_explanation": "15:32 places the meeting at the top of the mountain, where David worshiped God. In 15:33-34 David sends Hushai back to the city to serve Absalom and work against Ahithophel’s plans. 17:15 shows Hushai passing the council’s plans to the priests so that word could reach David.",
+        "takeaway": "Hushai came “with his robe torn and dust on his head.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 16",
+      "topics": [
+        "absaloms-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 16:12 David hoped the LORD would look on his affliction. In 18:27, as a runner approached, whose running did the watchman say it was like?",
+        "child": "David waited at the gate for news about the battle. The watchman saw a man running. Whose running did he say it looked like?",
+        "teen": "2 Samuel 18:27: “I think the running of the first is like the running of ___.” What fills the blank?",
+        "older": "According to 2 Samuel 18:27, whom did the watchman recognize by his running?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jonathan the son of Abiathar"
+        },
+        {
+          "id": "b",
+          "text": "Benaiah the son of Jehoiada"
+        },
+        {
+          "id": "c",
+          "text": "Shimei the son of Gera"
+        },
+        {
+          "id": "d",
+          "text": "Ahimaaz the son of Zadok"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 16:12",
+            "text": "It may be that the LORD will look on my affliction, and that the LORD will repay me with good for his cursing this day.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 18:27",
+            "text": "So the watchman said, “I think the running of the first is like the running of Ahimaaz the son of Zadok.” And the king said, “He is a good man, and comes with good news.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 18:27 after “the running of the first is like the running of.”",
+          "child": "Look at verse 27. The name comes right after “like the running of.”",
+          "teen": "18:27 has the watchman’s guess and the king’s reply. Read the guess.",
+          "older": "It closes the watchman’s words in 18:27."
+        },
+        "extended_explanation": "16:12 shows David leaving his troubles to the LORD while being cursed. In 18:24-27 David sits between the two gates waiting for word of the battle, and the watchman reports two runners, each running alone.",
+        "takeaway": "The watchman said the running was like that of “Ahimaaz the son of Zadok.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

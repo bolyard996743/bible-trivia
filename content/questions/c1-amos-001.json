@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-amos-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-amo-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 1",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The book of Amos opens by telling who Amos was before he spoke for the LORD. Among whom was he counted?",
+        "child": "The first verse of the book of Amos tells what group Amos belonged to. Which group?",
+        "teen": "Amos 1:1 says Amos “was among” a certain group. Which one?",
+        "older": "According to the opening verse of Amos, among whom was Amos when the word came to him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The sheepbreeders of Tekoa"
+        },
+        {
+          "id": "b",
+          "text": "The priests of Bethel"
+        },
+        {
+          "id": "c",
+          "text": "The elders of Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "The vinedressers of Carmel"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 1:1",
+            "text": "The words of Amos, who was among the sheepbreeders of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash, king of Israel, two years before the earthquake.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 1:1, right after “The words of Amos, who was among.”",
+          "child": "Look at the very start of verse 1. The group comes right after “who was among.”",
+          "teen": "1:1 names Amos and then says whom he was among. Read the words before “which he saw.”",
+          "older": "It follows “who was among” in the opening clause of 1:1."
+        },
+        "extended_explanation": "Amos 1:1 introduces the man, the place he came from, and the time: the days of Uzziah king of Judah and Jeroboam king of Israel, two years before the earthquake. The opening clause tells his occupation and hometown before saying what he saw. Later, in chapter 7, Amos tells a priest that the LORD took him from his ordinary work to prophesy.",
+        "takeaway": "Amos was among “the sheepbreeders of Tekoa.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-amo-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 2",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“For three transgressions of Israel, and for four,” the LORD will not turn away its punishment, because they sell the righteous for silver. For what do they sell the poor?",
+        "child": "God was upset with Israel because people were selling the righteous for silver. What were they selling the poor for?",
+        "teen": "Amos 2:6: “they sell the righteous for silver, And the poor for ___.” What fills the blank?",
+        "older": "According to Amos 2:6, for what were the poor sold in Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a jar of wine"
+        },
+        {
+          "id": "b",
+          "text": "a measure of grain"
+        },
+        {
+          "id": "c",
+          "text": "a pair of sandals"
+        },
+        {
+          "id": "d",
+          "text": "a handful of barley"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 2:6",
+            "text": "Thus says the LORD: “For three transgressions of Israel, and for four, I will not turn away its punishment, Because they sell the righteous for silver, And the poor for a pair of sandals.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 2:6, after “And the poor for.”",
+          "child": "Look at the very end of verse 6. The words come right after “And the poor for.”",
+          "teen": "2:6 sets two sales side by side: the righteous, then the poor. Read the second line.",
+          "older": "It closes 2:6, after “And the poor for.”"
+        },
+        "extended_explanation": "Amos 1:3-2:5 pronounces judgment on Israel’s neighbors, each oracle opening with the same formula, “For three transgressions.” In 2:6 the same pattern finally turns on Israel itself. The verse names two groups who are sold, and the final line shows how cheaply the poor were valued.",
+        "takeaway": "Israel sold “the poor for a pair of sandals.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-amo-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 3",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos asks a chain of questions about cause and effect, starting, “Can two walk together.” What condition finishes that first question?",
+        "child": "Amos asked, “Can two walk together” and then added something. What did he say must be true first?",
+        "teen": "Amos 3:3: “Can two walk together, ___?” What completes the question?",
+        "older": "According to Amos 3:3, two can walk together only on what condition?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "unless they are friends"
+        },
+        {
+          "id": "b",
+          "text": "unless they are agreed"
+        },
+        {
+          "id": "c",
+          "text": "unless they are called"
+        },
+        {
+          "id": "d",
+          "text": "unless the road is safe"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 3:3",
+            "text": "Can two walk together, unless they are agreed?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 3:4",
+            "text": "Will a lion roar in the forest, when he has no prey? Will a young lion cry out of his den, if he has caught nothing?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the rest of 3:3, after “Can two walk together.”",
+          "child": "Look at verse 3. The words you need come after the comma in the question.",
+          "teen": "3:3 is the first of several questions. Read its second half.",
+          "older": "It completes 3:3, after “Can two walk together.”"
+        },
+        "extended_explanation": "Amos 3:3-6 piles up questions whose answers are obvious: a lion roars only when it has prey, a snare springs only when it has caught something. 3:3 opens the series with two travelers. The point builds to 3:7-8: when the LORD speaks, His prophet must speak too.",
+        "takeaway": "“Can two walk together, unless they are agreed?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-amo-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 3",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:15 the LORD says, “I will destroy the winter house along with the summer house.” What else does He say shall perish?",
+        "child": "God warned the rich people of Israel that He would destroy their winter homes and summer homes. What else would be destroyed?",
+        "teen": "Amos 3:15: “I will destroy the winter house along with the summer house; ___ shall perish.” What fills the blank?",
+        "older": "According to Amos 3:15, what shall perish along with the winter house and the summer house?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The houses of cedar"
+        },
+        {
+          "id": "b",
+          "text": "The houses of marble"
+        },
+        {
+          "id": "c",
+          "text": "The houses of gold"
+        },
+        {
+          "id": "d",
+          "text": "The houses of ivory"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 3:14",
+            "text": "“That in the day I punish Israel for their transgressions, I will also visit destruction on the altars of Bethel; And the horns of the altar shall be cut off And fall to the ground.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 3:15",
+            "text": "I will destroy the winter house along with the summer house; The houses of ivory shall perish, And the great houses shall have an end,” Says the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 3:15, after “along with the summer house.”",
+          "child": "Look at verse 15. The words come right after “the summer house.”",
+          "teen": "3:15 has three lines. Read the start of the second.",
+          "older": "It opens the second line of 3:15, before “shall perish.”"
+        },
+        "extended_explanation": "3:13-15 announces what will happen on the day the LORD punishes Israel: the altars of Bethel will lose their horns, and the homes of the wealthy will fall. 3:15 lists those homes in three lines, ending with “the great houses shall have an end.”",
+        "takeaway": "“The houses of ivory shall perish.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 4",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Amos 4 the LORD lists hardships He sent, such as lack of bread and withheld rain. What line closes each one?",
+        "child": "God sent hunger and thirst to wake up Israel. After each one, He said the same sad thing. What was it?",
+        "teen": "Amos 4:6-11 repeats a refrain after each hardship. What is that refrain?",
+        "older": "According to Amos 4:6 and 4:8, what does the LORD say after each hardship He sent?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yet you have not called on Me"
+        },
+        {
+          "id": "b",
+          "text": "Yet you did not know it was I"
+        },
+        {
+          "id": "c",
+          "text": "Yet you have not humbled yourselves"
+        },
+        {
+          "id": "d",
+          "text": "Yet you have not returned to Me"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 4:6",
+            "text": "“Also I gave you cleanness of teeth in all your cities, And lack of bread in all your places; Yet you have not returned to Me,” Says the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 4:8",
+            "text": "So two or three cities wandered to another city to drink water, But they were not satisfied; Yet you have not returned to Me,” Says the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 4:6, just before “Says the LORD.”",
+          "child": "Look at the end of verse 6. The same line comes again near the end of verse 8.",
+          "teen": "Compare the closing lines of 4:6 and 4:8. They match.",
+          "older": "It stands just before “Says the LORD” in both 4:6 and 4:8."
+        },
+        "extended_explanation": "Amos 4:6-11 is a list of disciplines: cleanness of teeth, rain withheld, harvests ruined, plague, and overthrow. Each section ends with the same line followed by “Says the LORD.” The repetition shows how often Israel failed to respond.",
+        "takeaway": "Again and again God said, “Yet you have not returned to Me.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 3",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:2 the LORD says, “You only have I known of all the families of the earth.” After the hardships of chapter 4, what does He call Israel to do in 4:12?",
+        "child": "God told Israel they were His special family. After warning them many times, what did He finally tell them to do?",
+        "teen": "Amos 3:2 says Israel alone was known by God. What command closes 4:12?",
+        "older": "According to Amos 4:12, what is Israel told to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Prepare to meet your God"
+        },
+        {
+          "id": "b",
+          "text": "Turn from your evil ways"
+        },
+        {
+          "id": "c",
+          "text": "Seek Me and offer sacrifice"
+        },
+        {
+          "id": "d",
+          "text": "Return to the house of David"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 3:2",
+            "text": "“You only have I known of all the families of the earth; Therefore I will punish you for all your iniquities.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 4:12",
+            "text": "“Therefore thus will I do to you, O Israel; Because I will do this to you, Prepare to meet your God, O Israel!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:12, just before “O Israel!”",
+          "child": "Look at the last words of verse 12. The command comes right before “O Israel!”",
+          "teen": "4:12 begins with “Therefore” and ends with a command. Read the end.",
+          "older": "It closes 4:12, ahead of “O Israel!”"
+        },
+        "extended_explanation": "Amos 3:2 explains that Israel’s close relationship with the LORD makes its sin more serious, not less: “Therefore I will punish you.” Chapter 4 lists hardships that did not bring the people back. 4:12 is the turning point, a solemn command that ends with “O Israel!” and leads into the hymn of 4:13 about the LORD God of hosts.",
+        "takeaway": "Amos warned, “Prepare to meet your God, O Israel!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 1",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos opens with “The LORD roars from Zion” (1:2). In 3:8, after “A lion has roared! Who will not fear? The Lord GOD has spoken!” what question follows?",
+        "child": "At the start of his book, Amos says the LORD roars like a lion. Later he asks, “A lion has roared! Who will not fear?” Then he asks another question. What does he ask?",
+        "teen": "Link Amos 1:2 and 3:8. After “The Lord GOD has spoken!” what does Amos ask?",
+        "older": "Amos 1:2 pictures the LORD roaring from Zion. According to 3:8, what question follows “The Lord GOD has spoken!”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who will not tremble?"
+        },
+        {
+          "id": "b",
+          "text": "Who can but prophesy?"
+        },
+        {
+          "id": "c",
+          "text": "Who can stay silent?"
+        },
+        {
+          "id": "d",
+          "text": "Who can stand before Him?"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 1:2",
+            "text": "And he said: “The LORD roars from Zion, And utters His voice from Jerusalem; The pastures of the shepherds mourn, And the top of Carmel withers.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 3:8",
+            "text": "A lion has roared! Who will not fear? The Lord GOD has spoken! Who can but prophesy?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:8, after “The Lord GOD has spoken!”",
+          "child": "Look at the last question in verse 8. It comes right after “The Lord GOD has spoken!”",
+          "teen": "3:8 has two pairs: a statement and a question, twice. Read the second question.",
+          "older": "It closes 3:8, after “The Lord GOD has spoken!”"
+        },
+        "extended_explanation": "1:2 sets the tone of the whole book: the LORD roars from Zion and utters His voice from Jerusalem. In 3:8 Amos returns to the picture. The first half pairs a lion’s roar with fear; the second half pairs the LORD’s word with a second question. Together the verses explain why Amos had to speak.",
+        "takeaway": "“The Lord GOD has spoken! Who can but prophesy?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 3",
+      "topics": [
+        "amos-judgment-on-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:9 the nations are called to the mountains of Samaria to see “the oppressed within her.” In 4:1, what does Amos call those on the mountain of Samaria who oppress the poor?",
+        "child": "Amos called other nations to come look at how Samaria treated people. Then in chapter 4 he gave the rich people of Samaria a name. What did he call them?",
+        "teen": "Connect Amos 3:9 and 4:1. Whom does 4:1 address on the mountain of Samaria?",
+        "older": "According to Amos 4:1, how does Amos address those who oppress the poor and crush the needy?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "rams of Gilead"
+        },
+        {
+          "id": "b",
+          "text": "goats of Carmel"
+        },
+        {
+          "id": "c",
+          "text": "cows of Bashan"
+        },
+        {
+          "id": "d",
+          "text": "bulls of Bashan"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 3:9",
+            "text": "“Proclaim in the palaces at Ashdod, And in the palaces in the land of Egypt, and say: ‘Assemble on the mountains of Samaria; See great tumults in her midst, And the oppressed within her.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 4:1",
+            "text": "Hear this word, you cows of Bashan, who are on the mountain of Samaria, Who oppress the poor, Who crush the needy, Who say to your husbands, “Bring wine, let us drink!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 4:1, right after “Hear this word, you.”",
+          "child": "Look at the very start of chapter 4. The name comes right after “Hear this word, you.”",
+          "teen": "4:1 begins with a call to hear. Read who is called.",
+          "older": "It follows “Hear this word, you” at the start of 4:1."
+        },
+        "extended_explanation": "In 3:9-10 foreign cities such as Ashdod are summoned to look at Samaria’s tumults and the violence stored in its palaces. 4:1 turns to the wealthy of Samaria itself and calls them by a name. The verse then lists what they do to the poor and needy.",
+        "takeaway": "Amos addressed the oppressors of Samaria as “cows of Bashan.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

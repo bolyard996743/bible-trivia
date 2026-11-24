@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2kings-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2ki-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 9",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A watchman saw a company riding toward Jezreel. He said the driving was like the driving of Jehu the son of Nimshi. How did he say Jehu drives?",
+        "child": "A watchman saw a chariot racing toward the city. He could tell it was Jehu by the way he drove. How did Jehu drive?",
+        "teen": "2 Kings 9:20: “He drives ___!” What fills the blank?",
+        "older": "According to 2 Kings 9:20, how did the watchman describe Jehu’s driving?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "swiftly"
+        },
+        {
+          "id": "b",
+          "text": "furiously"
+        },
+        {
+          "id": "c",
+          "text": "proudly"
+        },
+        {
+          "id": "d",
+          "text": "carelessly"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 9:20",
+            "text": "So the watchman reported, saying, “He went up to them and is not coming back; and the driving is like the driving of Jehu the son of Nimshi, for he drives furiously!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:20, after “for he drives.”",
+          "child": "Look at the very end of verse 20, after “he drives.”",
+          "teen": "9:20 ends with the reason the watchman knew the rider. Read it.",
+          "older": "It closes 9:20."
+        },
+        "extended_explanation": "Jehu had just been anointed king and rode toward Jezreel, where King Joram was recovering. In 9:20 the watchman reports that the messenger sent out is not coming back and then recognizes the rider by his manner.",
+        "takeaway": "The watchman said, “He drives furiously!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ki-0018",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 9",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elisha sent a prophet with a flask of oil to anoint Jehu at Ramoth Gilead. After pouring the oil and speaking the LORD’s word, what was he to do?",
+        "child": "Elisha sent a prophet to pour oil on Jehu’s head and make him king. What did Elisha tell him to do right after that?",
+        "teen": "2 Kings 9:3 gives the messenger his tasks. After pouring the oil and saying, “I have anointed you king over Israel,” what was the last?",
+        "older": "According to 2 Kings 9:3, what was the messenger to do after anointing Jehu?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "open the door and flee"
+        },
+        {
+          "id": "b",
+          "text": "stay and eat with the captains"
+        },
+        {
+          "id": "c",
+          "text": "return and report to Elisha"
+        },
+        {
+          "id": "d",
+          "text": "bow down before the new king"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 9:1",
+            "text": "And Elisha the prophet called one of the sons of the prophets, and said to him, “Get yourself ready, take this flask of oil in your hand, and go to Ramoth Gilead.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 9:3",
+            "text": "Then take the flask of oil, and pour it on his head, and say, ‘Thus says the LORD: “I have anointed you king over Israel.” ’ Then open the door and flee, and do not delay.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:3, after the LORD’s words.",
+          "child": "Look at the last part of verse 3.",
+          "teen": "9:3 lists the tasks in order. Read the final one.",
+          "older": "It closes 9:3, after “I have anointed you king over Israel.”"
+        },
+        "extended_explanation": "9:1 sends a messenger from Elisha to Ramoth Gilead with a flask of oil. 9:2 tells him to find Jehu and take him into an inner room, and 9:3 gives the act, the words, and what comes next, ending with “do not delay.”",
+        "takeaway": "He was told to “open the door and flee, and do not delay.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ki-0019",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 9",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jehu came out to his fellow officers, one asked, “Is all well? Why did” whom come to you?",
+        "child": "After the prophet ran off, Jehu went back to the other officers. One of them asked about the visitor. What did he call the prophet?",
+        "teen": "2 Kings 9:11: “Why did ___ come to you?” What fills the blank?",
+        "older": "According to 2 Kings 9:11, what did Jehu’s fellow officers call the prophet?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "this stranger"
+        },
+        {
+          "id": "b",
+          "text": "this beggar"
+        },
+        {
+          "id": "c",
+          "text": "this foreigner"
+        },
+        {
+          "id": "d",
+          "text": "this madman"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 9:11",
+            "text": "Then Jehu came out to the servants of his master, and one said to him, “Is all well? Why did this madman come to you?” And he said to them, “You know the man and his babble.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 9:12",
+            "text": "And they said, “A lie! Tell us now.” So he said, “Thus and thus he spoke to me, saying, ‘Thus says the LORD: “I have anointed you king over Israel.” ’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 9:11 after “Why did.”",
+          "child": "Look at verse 11. It comes after “Why did.”",
+          "teen": "9:11 has two questions from the officers. Read the second.",
+          "older": "It follows “Why did” in 9:11."
+        },
+        "extended_explanation": "Jehu at first brushes the question aside. In 9:12 the officers press him, and he tells them what the LORD had said. 9:13 shows them spreading their garments under him and blowing trumpets.",
+        "takeaway": "They asked, “Why did this madman come to you?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ki-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 10",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jehu removed Baal worship from Israel, but he did not turn away from the sins of Jeroboam the son of Nebat. What were those sins, as 10:29 names them?",
+        "child": "Jehu got rid of Baal worship in Israel. But he kept one of King Jeroboam’s sins. What did Jehu keep?",
+        "teen": "2 Kings 10:29: Jehu did not turn from the sins of Jeroboam, “that is, from” what?",
+        "older": "According to 2 Kings 10:29, what sins of Jeroboam did Jehu not turn away from?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the high places of Judah"
+        },
+        {
+          "id": "b",
+          "text": "the wooden images of Asherah"
+        },
+        {
+          "id": "c",
+          "text": "the golden calves"
+        },
+        {
+          "id": "d",
+          "text": "the altars of Baal"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 10:29",
+            "text": "However Jehu did not turn away from the sins of Jeroboam the son of Nebat, who had made Israel sin, that is, from the golden calves that were at Bethel and Dan.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 10:31",
+            "text": "But Jehu took no heed to walk in the law of the LORD God of Israel with all his heart; for he did not depart from the sins of Jeroboam, who had made Israel sin.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 10:29 after “that is, from.”",
+          "child": "Look at verse 29. It comes after “that is, from.”",
+          "teen": "10:29 names the sins and where they stood. Read the name.",
+          "older": "It follows “that is, from” in 10:29."
+        },
+        "extended_explanation": "10:29 begins with “However” and names what remained in Israel, along with two places, Bethel and Dan. 10:31 adds that Jehu took no heed to walk in the LORD’s ways with all his heart.",
+        "takeaway": "Jehu kept to “the golden calves that were at Bethel and Dan.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ki-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 11",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the seventh year Jehoiada brought out the king’s son and put the crown on him. What else did he give him?",
+        "child": "The priest Jehoiada brought out the hidden king’s son and crowned him. What else did Jehoiada give him?",
+        "teen": "2 Kings 11:12: he “put the crown on him, and gave him” what?",
+        "older": "According to 2 Kings 11:12, what was the king’s son given along with the crown?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the scepter"
+        },
+        {
+          "id": "b",
+          "text": "the royal seal"
+        },
+        {
+          "id": "c",
+          "text": "the Testimony"
+        },
+        {
+          "id": "d",
+          "text": "King David’s sword"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 11:12",
+            "text": "And he brought out the king’s son, put the crown on him, and gave him the Testimony; they made him king and anointed him, and they clapped their hands and said, “Long live the king!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 11:13",
+            "text": "Now when Athaliah heard the noise of the escorts and the people, she came to the people in the temple of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 11:12 after “put the crown on him, and gave him.”",
+          "child": "Look at verse 12. It comes after “and gave him.”",
+          "teen": "11:12 lists what was done for the king’s son. Read the second thing.",
+          "older": "It follows “gave him” in 11:12."
+        },
+        "extended_explanation": "11:12 lists the steps of the coronation and the shout of the people, “Long live the king!” In 11:13 Athaliah hears the noise of the escorts and the people and comes to the people in the temple of the LORD.",
+        "takeaway": "He “put the crown on him, and gave him the Testimony.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ki-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 9",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:13 Israel’s captains blew trumpets, saying, “Jehu is king!” In Judah, 11:17 tells of a covenant Jehoiada made. Between whom was it made?",
+        "child": "In Judah, the priest Jehoiada made a special promise, called a covenant. Who was it between?",
+        "teen": "2 Kings 11:17: “Then Jehoiada made a covenant between” whom?",
+        "older": "According to 2 Kings 11:17, between whom did Jehoiada make his first covenant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the priest, the captains, and the guards"
+        },
+        {
+          "id": "b",
+          "text": "the LORD, the king, and the people"
+        },
+        {
+          "id": "c",
+          "text": "the king, the elders, and the priests"
+        },
+        {
+          "id": "d",
+          "text": "the LORD, the priests, and the Levites"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 9:13",
+            "text": "Then each man hastened to take his garment and put it under him on the top of the steps; and they blew trumpets, saying, “Jehu is king!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 11:17",
+            "text": "Then Jehoiada made a covenant between the LORD, the king, and the people, that they should be the LORD’s people, and also between the king and the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 11:17 after “made a covenant between.”",
+          "child": "Look at the start of verse 17, after “a covenant between.”",
+          "teen": "11:17 describes two covenants. Read who was part of the first.",
+          "older": "It follows “Jehoiada made a covenant between” in 11:17."
+        },
+        "extended_explanation": "9:13 shows Israel’s officers hailing Jehu as king. 11:17 gives the purpose of Jehoiada’s first covenant and then adds a second covenant. 11:18 tells how the people then tore down the temple of Baal.",
+        "takeaway": "Jehoiada made a covenant “between the LORD, the king, and the people.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ki-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 11",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 11:4 Jehoiada gathered the captains in the temple and showed them the king’s son. Years later, to collect money for repairs, where did Jehoiada set the chest with a hole bored in its lid?",
+        "child": "The priest Jehoiada made a money box with a hole in the lid to collect gifts for fixing the temple. Where did he put it?",
+        "teen": "2 Kings 12:9: Jehoiada took a chest, bored a hole in its lid, “and set it” where?",
+        "older": "According to 2 Kings 12:9, where did Jehoiada place the collection chest?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "beside the altar"
+        },
+        {
+          "id": "b",
+          "text": "beside the gate"
+        },
+        {
+          "id": "c",
+          "text": "beside the lampstand"
+        },
+        {
+          "id": "d",
+          "text": "beside the laver"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 11:4",
+            "text": "In the seventh year Jehoiada sent and brought the captains of hundreds—of the bodyguards and the escorts—and brought them into the house of the LORD to him. And he made a covenant with them and took an oath from them in the house of the LORD, and showed them the king’s son.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 12:9",
+            "text": "Then Jehoiada the priest took a chest, bored a hole in its lid, and set it beside the altar, on the right side as one comes into the house of the LORD; and the priests who kept the door put there all the money brought into the house of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 12:9 after “and set it.”",
+          "child": "Look at verse 9. It comes after “and set it.”",
+          "teen": "12:9 says where the chest went and then which side. Read where.",
+          "older": "It follows “and set it” in 12:9."
+        },
+        "extended_explanation": "In 11:4 Jehoiada makes a covenant with the captains in the temple. In 12:4-5 King Jehoash orders the temple repaired, and 12:9 describes Jehoiada’s chest and adds that it stood “on the right side” as one came in.",
+        "takeaway": "He set the chest “beside the altar.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ki-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 9",
+      "topics": [
+        "jehu-athaliah-and-joash"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:6 Jehu was anointed king over the people of the LORD. In 10:30, how long did the LORD say Jehu’s sons would sit on the throne of Israel?",
+        "child": "God made Jehu king over Israel. Later God promised that Jehu’s family would rule for a while. How long?",
+        "teen": "2 Kings 10:30: “your sons shall sit on the throne of Israel” how long?",
+        "older": "According to 2 Kings 10:30, how long would Jehu’s sons sit on Israel’s throne?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to the third generation"
+        },
+        {
+          "id": "b",
+          "text": "to the seventh generation"
+        },
+        {
+          "id": "c",
+          "text": "to the tenth generation"
+        },
+        {
+          "id": "d",
+          "text": "to the fourth generation"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 9:6",
+            "text": "Then he arose and went into the house. And he poured the oil on his head, and said to him, “Thus says the LORD God of Israel: ‘I have anointed you king over the people of the LORD, over Israel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 10:30",
+            "text": "And the LORD said to Jehu, “Because you have done well in doing what is right in My sight, and have done to the house of Ahab all that was in My heart, your sons shall sit on the throne of Israel to the fourth generation.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:30, after “on the throne of Israel.”",
+          "child": "Look at the last words of verse 30, after “throne of Israel.”",
+          "teen": "10:30 gives the reason and then the promise. Read how the promise ends.",
+          "older": "It closes 10:30."
+        },
+        "extended_explanation": "9:6 records the anointing in the inner room. 10:30 gives the LORD’s word to Jehu, which commends him for doing what was right in His sight against the house of Ahab and then makes a promise about his line. 10:31 adds a sober qualification.",
+        "takeaway": "His sons would sit on the throne “to the fourth generation.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}
