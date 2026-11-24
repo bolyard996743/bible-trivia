@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1john-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1jn-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 2",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John tells his little children what time it is. What does he call it?",
+        "child": "John writes to believers about the time they are living in. What does he call it?",
+        "teen": "1 John 2:18: “Little children, it is” what?",
+        "older": "According to 1 John 2:18, what time does John say it is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the first hour"
+        },
+        {
+          "id": "b",
+          "text": "the midday hour"
+        },
+        {
+          "id": "c",
+          "text": "the last hour"
+        },
+        {
+          "id": "d",
+          "text": "the evening hour"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 2:18",
+            "text": "Little children, it is the last hour; and as you have heard that the Antichrist is coming, even now many antichrists have come, by which we know that it is the last hour.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 2:18.",
+          "child": "Look right after “it is” in verse 18.",
+          "teen": "2:18 states the time, then gives a sign and repeats the time. Read the first statement.",
+          "older": "It follows “Little children, it is” in 2:18."
+        },
+        "extended_explanation": "2:15 says, “Do not love the world or the things in the world.” 2:20 says you have an anointing from the Holy One.",
+        "takeaway": "John says it is the last hour."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1jn-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 2",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John says the anointing believers received from Him abides in them. According to 2:27, what do they therefore not need?",
+        "child": "John says the anointing from God stays with believers. What does he say they do not need?",
+        "teen": "1 John 2:27: “and you do not need” what?",
+        "older": "According to 1 John 2:27, what do those with the anointing not need?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "that anyone feed you"
+        },
+        {
+          "id": "b",
+          "text": "that anyone teach you"
+        },
+        {
+          "id": "c",
+          "text": "that anyone pay you"
+        },
+        {
+          "id": "d",
+          "text": "that anyone praise you"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 2:27",
+            "text": "But the anointing which you have received from Him abides in you, and you do not need that anyone teach you; but as the same anointing teaches you concerning all things, and is true, and is not a lie, and just as it has taught you, you will abide in Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:27.",
+          "child": "Look right after “you do not need” in verse 27.",
+          "teen": "2:27 says what abides, what is not needed, and then how the anointing works. Read what is not needed.",
+          "older": "It follows “and you do not need” in 2:27."
+        },
+        "extended_explanation": "2:26 says John wrote concerning those who try to deceive you. 2:28 urges them to abide in Him.",
+        "takeaway": "With the anointing, you do not need that anyone teach you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1jn-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 2",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John writes about some who went out from the believers. According to 2:19, what does he say about them?",
+        "child": "Some people left the group of believers John wrote to. What does John say was true about them?",
+        "teen": "1 John 2:19: “They went out from us, but” what?",
+        "older": "According to 1 John 2:19, what was true of those who went out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "they were not of us"
+        },
+        {
+          "id": "b",
+          "text": "they were sent by us"
+        },
+        {
+          "id": "c",
+          "text": "they were known to us"
+        },
+        {
+          "id": "d",
+          "text": "they were blessed by us"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 2:19",
+            "text": "They went out from us, but they were not of us; for if they had been of us, they would have continued with us; but they went out that they might be made manifest, that none of them were of us.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 2:26",
+            "text": "These things I have written to you concerning those who try to deceive you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 2:19.",
+          "child": "Look right after “but” at the start of verse 19.",
+          "teen": "2:19 has three parts: what they did, a clause after ‘but’, and a reason. Read the second part.",
+          "older": "It follows “They went out from us, but” in 2:19."
+        },
+        "extended_explanation": "2:19 says their leaving made it manifest. 2:26 says John wrote about those who try to deceive you.",
+        "takeaway": "They went out, but they were not of us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1jn-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 3",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John speaks of a heart that condemns us. According to 3:21, what do we have if our heart does not condemn us?",
+        "child": "John says something good comes when our heart does not accuse us. What do we have?",
+        "teen": "1 John 3:21: “if our heart does not condemn us, we have” what?",
+        "older": "According to 1 John 3:21, what does a heart that does not condemn bring?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "peace with all men"
+        },
+        {
+          "id": "b",
+          "text": "favor among the people"
+        },
+        {
+          "id": "c",
+          "text": "praise from God"
+        },
+        {
+          "id": "d",
+          "text": "confidence toward God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 3:20",
+            "text": "For if our heart condemns us, God is greater than our heart, and knows all things.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 3:21",
+            "text": "Beloved, if our heart does not condemn us, we have confidence toward God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:21.",
+          "child": "Look at the last words of verse 21.",
+          "teen": "3:20 speaks of a heart that condemns; 3:21 gives the opposite case and what follows. Read the end.",
+          "older": "It follows “if our heart does not condemn us, we have” in 3:21."
+        },
+        "extended_explanation": "3:22 says whatever we ask we receive from Him. 3:19 speaks of assuring our hearts before Him.",
+        "takeaway": "A heart that does not condemn us gives confidence toward God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1jn-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 3",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John says believers ought to lay down their lives for the brethren. According to 3:17, what does a person do who has this world’s goods and sees a brother in need?",
+        "child": "John asks how God’s love can be in someone who sees a brother in need. What does that person do?",
+        "teen": "1 John 3:17: whoever has this world’s goods and sees a brother in need, then does what?",
+        "older": "According to 1 John 3:17, what does the person with this world’s goods do when he sees a brother in need?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "turns away his face"
+        },
+        {
+          "id": "b",
+          "text": "shuts up his heart"
+        },
+        {
+          "id": "c",
+          "text": "keeps back his wages"
+        },
+        {
+          "id": "d",
+          "text": "hides his own bread"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 3:16",
+            "text": "By this we know love, because He laid down His life for us. And we also ought to lay down our lives for the brethren.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 3:17",
+            "text": "But whoever has this world’s goods, and sees his brother in need, and shuts up his heart from him, how does the love of God abide in him?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:17.",
+          "child": "Look right after “in need, and” in verse 17.",
+          "teen": "3:16 says what we ought to do; 3:17 describes a man who has goods, what he sees and what he does, then asks a question. Read what he does.",
+          "older": "It follows “in need, and” in 3:17."
+        },
+        "extended_explanation": "3:17 ends with a question about how love can abide in such a person. 3:18 says not to love in word or in tongue.",
+        "takeaway": "A person who shuts up his heart from a needy brother does not show love."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1jn-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 2",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 John 2:1 says we have an Advocate with the Father. In 3:8, what was the Son manifested to destroy?",
+        "child": "John says Jesus came for a reason. What did He come to destroy?",
+        "teen": "1 John 3:8: “that He might destroy” what?",
+        "older": "Read with 2:1, what does 3:8 say He was manifested to destroy?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the walls of the city"
+        },
+        {
+          "id": "b",
+          "text": "the idols of the nations"
+        },
+        {
+          "id": "c",
+          "text": "the works of the devil"
+        },
+        {
+          "id": "d",
+          "text": "the towers of the kings"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 2:1",
+            "text": "My little children, these things I write to you, so that you may not sin. And if anyone sins, we have an Advocate with the Father, Jesus Christ the righteous.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 3:8",
+            "text": "He who sins is of the devil, for the devil has sinned from the beginning. For this purpose the Son of God was manifested, that He might destroy the works of the devil.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:8.",
+          "child": "Look at the last words of verse 8.",
+          "teen": "2:1 names our Advocate; 3:8 says who sins, since when, and why the Son was manifested. Read the end.",
+          "older": "It follows “that He might destroy” in 3:8."
+        },
+        "extended_explanation": "3:5 says in Him there is no sin. 2:1 says John writes so that you may not sin.",
+        "takeaway": "He was manifested to destroy the works of the devil."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1jn-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 2",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 John 2:22 names the liar as one who denies the Father and the Son. In 4:4, John tells the little children they are of God and what else?",
+        "child": "John warns about people who deny the Son. Then he tells believers something good about where they stand. What have they done?",
+        "teen": "1 John 4:4: “You are of God, little children, and” what?",
+        "older": "Read with 2:22, what does 4:4 say the little children have done?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "have welcomed them"
+        },
+        {
+          "id": "b",
+          "text": "have forgiven them"
+        },
+        {
+          "id": "c",
+          "text": "have followed them"
+        },
+        {
+          "id": "d",
+          "text": "have overcome them"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 2:22",
+            "text": "Who is a liar but he who denies that Jesus is the Christ? He is antichrist who denies the Father and the Son.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 4:4",
+            "text": "You are of God, little children, and have overcome them, because He who is in you is greater than he who is in the world.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 4:4.",
+          "child": "Look right after “little children, and” in verse 4.",
+          "teen": "2:22 names one who denies; 4:4 says whose they are, what they have done, and why. Read what they have done.",
+          "older": "It follows “You are of God, little children, and” in 4:4."
+        },
+        "extended_explanation": "4:4 gives the reason: He who is in you is greater than he who is in the world. 2:23 says he who acknowledges the Son has the Father also.",
+        "takeaway": "The little children are of God and have overcome them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1jn-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 3",
+      "topics": [
+        "1-john-test-the-spirits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 John 3:24 says we know He abides in us by the Spirit He has given us. According to 4:6, what does he who knows God do?",
+        "child": "John says some people belong to the world. What does he say about the person who knows God?",
+        "teen": "1 John 4:6: “He who knows God” does what?",
+        "older": "Read with 3:24, what does 4:6 say about him who knows God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "hears us"
+        },
+        {
+          "id": "b",
+          "text": "follows us"
+        },
+        {
+          "id": "c",
+          "text": "honors us"
+        },
+        {
+          "id": "d",
+          "text": "welcomes us"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 3:24",
+            "text": "Now he who keeps His commandments abides in Him, and He in him. And by this we know that He abides in us, by the Spirit whom He has given us.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 4:6",
+            "text": "We are of God. He who knows God hears us; he who is not of God does not hear us. By this we know the spirit of truth and the spirit of error.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of 4:6.",
+          "child": "Look right after “He who knows God” in verse 6.",
+          "teen": "3:24 says how we know He abides; 4:6 says whose we are, contrasts two kinds of listeners, and names two spirits. Read the first listener.",
+          "older": "It follows “He who knows God” in 4:6."
+        },
+        "extended_explanation": "4:1 says to test the spirits, whether they are of God. 3:23 says to believe on the name of His Son.",
+        "takeaway": "He who knows God hears us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

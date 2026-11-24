@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ephesians-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-eph-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 4",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says not to grieve the Spirit. For what day were believers sealed?",
+        "child": "Paul says God’s Spirit has put a seal on believers. For what day?",
+        "teen": "Ephesians 4:30: “by whom you were sealed for” what?",
+        "older": "According to Ephesians 4:30, for what were believers sealed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the day of redemption"
+        },
+        {
+          "id": "b",
+          "text": "the day of harvest"
+        },
+        {
+          "id": "c",
+          "text": "the day of atonement"
+        },
+        {
+          "id": "d",
+          "text": "the day of thanksgiving"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 4:30",
+            "text": "And do not grieve the Holy Spirit of God, by whom you were sealed for the day of redemption.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:30.",
+          "child": "Look at the last words of verse 30.",
+          "teen": "4:30 gives a warning and says by whom and for what you were sealed. Read the end.",
+          "older": "It follows “by whom you were sealed for” in 4:30."
+        },
+        "extended_explanation": "4:29 says to let no corrupt word proceed out of your mouth. 4:31 says to put away all bitterness.",
+        "takeaway": "Believers were sealed for the day of redemption."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-eph-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 5",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells the Ephesians to be something “as dear children.” What should they be?",
+        "child": "Paul gives God’s dear children a command. What does he tell them to be?",
+        "teen": "Ephesians 5:1: “Therefore be” what “as dear children”?",
+        "older": "According to Ephesians 5:1, what are believers to be, as dear children?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "friends of God"
+        },
+        {
+          "id": "b",
+          "text": "servants of God"
+        },
+        {
+          "id": "c",
+          "text": "imitators of God"
+        },
+        {
+          "id": "d",
+          "text": "messengers of God"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 5:1",
+            "text": "Therefore be imitators of God as dear children.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 5:1.",
+          "child": "Look right after “be” in verse 1.",
+          "teen": "5:1 gives one command and a comparison. Read the command.",
+          "older": "It follows “Therefore be” in 5:1."
+        },
+        "extended_explanation": "5:2 says to walk in love. 5:8 calls them to walk as children of light.",
+        "takeaway": "Be imitators of God as dear children."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-eph-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 4",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells believers to put away lying and speak truth with a neighbor. According to 4:25, what reason does he give? Because we are what?",
+        "child": "Paul says to stop lying and speak the truth. What reason does he give?",
+        "teen": "Ephesians 4:25: speak truth with his neighbor, “for we are” what?",
+        "older": "According to Ephesians 4:25, what are believers, as the reason to speak truth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "debtors to one another"
+        },
+        {
+          "id": "b",
+          "text": "heirs with one another"
+        },
+        {
+          "id": "c",
+          "text": "keepers of one another"
+        },
+        {
+          "id": "d",
+          "text": "members of one another"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 4:25",
+            "text": "Therefore, putting away lying, “Let each one of you speak truth with his neighbor,” for we are members of one another.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 4:26",
+            "text": "“Be angry, and do not sin”: do not let the sun go down on your wrath,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:25.",
+          "child": "Look at the last words of verse 25.",
+          "teen": "4:25 gives a command, a quotation, and a reason. Read the reason.",
+          "older": "It follows “for we are” in 4:25."
+        },
+        "extended_explanation": "4:26 says, “Be angry, and do not sin.” 4:24 speaks of putting on the new man.",
+        "takeaway": "We speak truth because we are members of one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-eph-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 5",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul warns that the wrath of God comes upon the sons of disobedience. According to 5:6, with what should no one deceive you?",
+        "child": "Paul warns believers not to be fooled. With what does he say no one should deceive you?",
+        "teen": "Ephesians 5:6: “Let no one deceive you with” what?",
+        "older": "According to Ephesians 5:6, with what must no one deceive believers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "strange words"
+        },
+        {
+          "id": "b",
+          "text": "empty words"
+        },
+        {
+          "id": "c",
+          "text": "angry words"
+        },
+        {
+          "id": "d",
+          "text": "foreign words"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 5:6",
+            "text": "Let no one deceive you with empty words, for because of these things the wrath of God comes upon the sons of disobedience.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 5:7",
+            "text": "Therefore do not be partakers with them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 5:6.",
+          "child": "Look right after “deceive you with” in verse 6.",
+          "teen": "5:6 gives a warning, then a reason about wrath. Read the end of the warning.",
+          "older": "It follows “Let no one deceive you with” in 5:6."
+        },
+        "extended_explanation": "5:7 says not to be partakers with them. 5:8 says you were once darkness, but now you are light in the Lord.",
+        "takeaway": "Let no one deceive you with empty words."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-eph-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 5",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells believers to speak to one another in psalms and hymns and spiritual songs. According to 5:19, what are they doing in their heart to the Lord, along with singing?",
+        "child": "Paul says to sing to the Lord. What else does he say to do in the heart?",
+        "teen": "Ephesians 5:19: “singing and” what, to the Lord?",
+        "older": "According to Ephesians 5:19, what goes with singing in the heart?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "making peace"
+        },
+        {
+          "id": "b",
+          "text": "making vows"
+        },
+        {
+          "id": "c",
+          "text": "making melody"
+        },
+        {
+          "id": "d",
+          "text": "making offerings"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 5:19",
+            "text": "speaking to one another in psalms and hymns and spiritual songs, singing and making melody in your heart to the Lord,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 5:20",
+            "text": "giving thanks always for all things to God the Father in the name of our Lord Jesus Christ,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:19.",
+          "child": "Look right after “singing and” in verse 19.",
+          "teen": "5:19 lists three kinds of songs, then two actions and where. Read the second action.",
+          "older": "It follows “singing and” in 5:19."
+        },
+        "extended_explanation": "5:20 adds giving thanks always to God the Father. 5:17 says to understand what the will of the Lord is.",
+        "takeaway": "Believers sing and are making melody in their heart to the Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-eph-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 5",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 5:25 Paul says Christ loved the church and gave Himself for her. In 5:2, Christ’s offering and sacrifice to God were for what?",
+        "child": "Paul says Jesus gave Himself as an offering to God. What does Paul call it?",
+        "teen": "Ephesians 5:2: “an offering and a sacrifice to God for” what?",
+        "older": "Read with 5:25, what does 5:2 call Christ’s sacrifice to God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a sweet-smelling aroma"
+        },
+        {
+          "id": "b",
+          "text": "an everlasting covenant"
+        },
+        {
+          "id": "c",
+          "text": "a holy memorial"
+        },
+        {
+          "id": "d",
+          "text": "a royal wedding feast"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 5:2",
+            "text": "And walk in love, as Christ also has loved us and given Himself for us, an offering and a sacrifice to God for a sweet-smelling aroma.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 5:25",
+            "text": "Husbands, love your wives, just as Christ also loved the church and gave Himself for her,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "5:25 tells husbands how Christ loved; 5:2 says to walk in love, how Christ gave Himself, and for what. Read the end.",
+          "older": "It follows “an offering and a sacrifice to God for” in 5:2."
+        },
+        "extended_explanation": "5:2 begins, “And walk in love.” 5:26 says He did it to sanctify and cleanse her.",
+        "takeaway": "Christ gave Himself for a sweet-smelling aroma."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-eph-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 4",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "4:24 says to put on the new man, created in true righteousness and holiness. In 5:27, Christ presents a glorious church not having spot or what?",
+        "child": "Paul says Christ will present the church to Himself. Besides a spot, what will it not have?",
+        "teen": "Ephesians 5:27: “not having spot or” what?",
+        "older": "Read with 4:24, what besides spot does 5:27 say the church will not have?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "patch"
+        },
+        {
+          "id": "b",
+          "text": "wrinkle"
+        },
+        {
+          "id": "c",
+          "text": "stitch"
+        },
+        {
+          "id": "d",
+          "text": "scratch"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 4:24",
+            "text": "and that you put on the new man which was created according to God, in true righteousness and holiness.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 5:27",
+            "text": "that He might present her to Himself a glorious church, not having spot or wrinkle or any such thing, but that she should be holy and without blemish.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 5:27.",
+          "child": "Look right after “spot or” in verse 27.",
+          "teen": "4:24 describes the new man; 5:27 says how Christ presents the church, lists what she lacks, then says what she is. Read the list.",
+          "older": "It follows “not having spot or” in 5:27."
+        },
+        "extended_explanation": "5:27 ends by saying she should be holy. 4:23 speaks of being renewed in the spirit of your mind.",
+        "takeaway": "The church will not have spot or wrinkle."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-eph-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 4",
+      "topics": [
+        "ephesians-walk-worthy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "6:4 tells fathers not to provoke their children to wrath. In 4:31, along with bitterness, wrath, anger, and clamor, what must be put away?",
+        "child": "Paul lists things to get rid of: bitterness, wrath, anger, clamor, and one more before malice. What is the fifth?",
+        "teen": "Ephesians 4:31: “Let all bitterness, wrath, anger, clamor, and” what “be put away from you”?",
+        "older": "Read with 6:4, what does 4:31 list after clamor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "idle boasting"
+        },
+        {
+          "id": "b",
+          "text": "proud looks"
+        },
+        {
+          "id": "c",
+          "text": "hidden envy"
+        },
+        {
+          "id": "d",
+          "text": "evil speaking"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 4:31",
+            "text": "Let all bitterness, wrath, anger, clamor, and evil speaking be put away from you, with all malice.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 6:4",
+            "text": "And you, fathers, do not provoke your children to wrath, but bring them up in the training and admonition of the Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 4:31.",
+          "child": "Look right after “clamor, and” in verse 31.",
+          "teen": "6:4 warns fathers; 4:31 lists five things to put away, then adds malice. Read the fifth.",
+          "older": "It follows “Let all bitterness, wrath, anger, clamor, and” in 4:31."
+        },
+        "extended_explanation": "4:29 says to let no corrupt word proceed out of your mouth. 6:4 also tells fathers how to bring up their children.",
+        "takeaway": "Evil speaking must be put away, with all malice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

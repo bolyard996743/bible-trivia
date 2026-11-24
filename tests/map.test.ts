@@ -119,8 +119,8 @@ describe("stage badge map", () => {
     expect(gateFromBadges(earned, { ...path, advanceRule: "every-badge" }).ready).toBe(false);
   });
 
-  it("hides badges that have no questions yet", () => {
-    const hidden = [
+  it("hides badges that have no questions yet and shows every Fruitful badge", () => {
+    const batchI = [
       "fruitful-james-wealth-patience-and-prayer",
       "fruitful-1-peter-suffering-and-submission",
       "fruitful-1-john-test-the-spirits",
@@ -130,12 +130,12 @@ describe("stage badge map", () => {
     for (const stage of knowledgePath.stages) {
       const shown = visibleBadges(stage.badges);
       expect(shown.some((badge) => badge.questionIds.length === 0)).toBe(false);
-      expect(shown.map((badge) => badge.id).some((id) => hidden.includes(id))).toBe(false);
     }
     const fruitful = knowledgePath.stages.find((stage) => stage.stage === "Fruitful");
-    expect(visibleBadges(fruitful?.badges ?? [])).toHaveLength(64);
-    expect(fruitful?.badges.filter((badge) => badge.questionIds.length === 0).map((badge) => badge.id)).toEqual(
-      hidden,
-    );
+    const shown = visibleBadges(fruitful?.badges ?? []);
+    expect(shown).toHaveLength(69);
+    expect(fruitful?.badges.filter((badge) => badge.questionIds.length === 0)).toEqual([]);
+    expect(batchI.every((id) => shown.some((badge) => badge.id === id))).toBe(true);
+    expect(visibleBadges([{ id: "future-empty", name: "Empty", art: "scroll", questionIds: [] }])).toEqual([]);
   });
 });

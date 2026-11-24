@@ -4,7 +4,7 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 1404 questions.
+The bank has 1444 questions.
 
 ## Seed
 
@@ -720,7 +720,7 @@ New questions to write:
 
 About 60 books. Intermediate to hard.
 
-Questions now: 513. Books: 46. Target pool: about 120 questions.
+Questions now: 553. Books: 50. Target pool: about 120 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
@@ -739,11 +739,23 @@ Questions now: 513. Books: 46. Target pool: about 120 questions.
 | 1 Corinthians 15: The Resurrection | 1 Corinthians | 1 Corinthians 15 | advanced | 4 |
 | 1 Corinthians 15: The Resurrection | 1 Corinthians | 1 Corinthians 15 | expert | 2 |
 | 1 Corinthians 15: The Resurrection | 1 Corinthians | 1 Corinthians 15 | intermediate | 2 |
+| 1 John: Test the Spirits | 1 John | 1 John 2 | advanced | 2 |
+| 1 John: Test the Spirits | 1 John | 1 John 2 | expert | 1 |
+| 1 John: Test the Spirits | 1 John | 1 John 2 | intermediate | 2 |
+| 1 John: Test the Spirits | 1 John | 1 John 3 | advanced | 2 |
+| 1 John: Test the Spirits | 1 John | 1 John 3 | expert | 1 |
 | Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 11 | advanced | 1 |
 | Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 8 | advanced | 2 |
 | Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 8 | expert | 2 |
 | Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 8 | intermediate | 2 |
 | Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 9 | advanced | 1 |
+| 1 Peter: Suffering and Submission | 1 Peter | 1 Peter 2 | advanced | 2 |
+| 1 Peter: Suffering and Submission | 1 Peter | 1 Peter 2 | expert | 1 |
+| 1 Peter: Suffering and Submission | 1 Peter | 1 Peter 3 | expert | 1 |
+| 1 Peter: Suffering and Submission | 1 Peter | 1 Peter 4 | advanced | 1 |
+| 1 Peter: Suffering and Submission | 1 Peter | 1 Peter 4 | intermediate | 1 |
+| 1 Peter: Suffering and Submission | 1 Peter | 1 Peter 5 | advanced | 1 |
+| 1 Peter: Suffering and Submission | 1 Peter | 1 Peter 5 | intermediate | 1 |
 | 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 1 | expert | 1 |
 | 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 1 | intermediate | 1 |
 | 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 2 | advanced | 1 |
@@ -856,6 +868,11 @@ Questions now: 513. Books: 46. Target pool: about 120 questions.
 | Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 5 | advanced | 1 |
 | Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 9 | advanced | 1 |
 | The Epistles | Ephesians | Ephesians 2 | advanced | 1 |
+| Ephesians: Walk Worthy | Ephesians | Ephesians 4 | advanced | 1 |
+| Ephesians: Walk Worthy | Ephesians | Ephesians 4 | expert | 2 |
+| Ephesians: Walk Worthy | Ephesians | Ephesians 4 | intermediate | 1 |
+| Ephesians: Walk Worthy | Ephesians | Ephesians 5 | advanced | 3 |
+| Ephesians: Walk Worthy | Ephesians | Ephesians 5 | intermediate | 1 |
 | The Law at Sinai | Exodus | Exodus 19 | expert | 2 |
 | The Law at Sinai | Exodus | Exodus 19 | intermediate | 1 |
 | The Law at Sinai | Exodus | Exodus 20 | advanced | 1 |
@@ -949,6 +966,12 @@ Questions now: 513. Books: 46. Target pool: about 120 questions.
 | Isaiah: The Servant and Salvation | Isaiah | Isaiah 50 | advanced | 1 |
 | Isaiah: The Servant and Salvation | Isaiah | Isaiah 50 | expert | 1 |
 | Isaiah: The Servant and Salvation | Isaiah | Isaiah 61 | advanced | 2 |
+| James: Wealth, Patience and Prayer | James | James 2 | advanced | 2 |
+| James: Wealth, Patience and Prayer | James | James 2 | expert | 1 |
+| James: Wealth, Patience and Prayer | James | James 2 | intermediate | 1 |
+| James: Wealth, Patience and Prayer | James | James 4 | expert | 1 |
+| James: Wealth, Patience and Prayer | James | James 4 | intermediate | 1 |
+| James: Wealth, Patience and Prayer | James | James 5 | advanced | 2 |
 | Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 25 | advanced | 1 |
 | Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 25 | expert | 1 |
 | Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 25 | intermediate | 1 |
@@ -998,6 +1021,9 @@ Questions now: 513. Books: 46. Target pool: about 120 questions.
 | Joshua: Dividing the Land | Joshua | Joshua 20 | expert | 1 |
 | Joshua: Dividing the Land | Joshua | Joshua 20 | intermediate | 1 |
 | Joshua: Dividing the Land | Joshua | Joshua 22 | advanced | 2 |
+| Jude: Contend for the Faith | Jude | Jude 1 | advanced | 4 |
+| Jude: Contend for the Faith | Jude | Jude 1 | expert | 2 |
+| Jude: Contend for the Faith | Jude | Jude 1 | intermediate | 2 |
 | Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 1 | advanced | 1 |
 | Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 1 | intermediate | 1 |
 | Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 2 | expert | 1 |
@@ -1144,17 +1170,17 @@ Questions now: 513. Books: 46. Target pool: about 120 questions.
 
 Tier totals against the mix:
 
-- intermediate: 128 now, about 48 wanted (40% of draws (intermediate)). Target met.
-- advanced: 257 now, about 42 wanted (35% of draws (hard)). Target met.
-- expert: 128 now, about 30 wanted (25% of draws (hard)). Target met.
+- intermediate: 138 now, about 48 wanted (40% of draws (intermediate)). Target met.
+- advanced: 277 now, about 42 wanted (35% of draws (hard)). Target met.
+- expert: 138 now, about 30 wanted (25% of draws (hard)). Target met.
 
 Every curriculum topic for this stage has at least one question.
 
-Book target: 60. Covered now: 46 (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Joel, Amos, Micah, Habakkuk, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Ephesians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, Titus, Hebrews, 2 Peter, Revelation). About 14 more books need questions.
+Book target: 60. Covered now: 50 (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Joel, Amos, Micah, Habakkuk, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Ephesians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, Titus, Hebrews, James, 1 Peter, 2 Peter, 1 John, Jude, Revelation). About 10 more books need questions.
 
 New questions to write:
 
-- Spread new questions across about 14 more books (target 60).
+- Spread new questions across about 10 more books (target 60).
 
 ## Deep Roots
 

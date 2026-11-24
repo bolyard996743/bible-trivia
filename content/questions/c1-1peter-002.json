@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1peter-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1pe-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 5",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter tells the elders to shepherd the flock. What will they receive when the Chief Shepherd appears?",
+        "child": "Peter says that when Jesus, the Chief Shepherd, appears, faithful leaders will get a reward. What will they receive?",
+        "teen": "1 Peter 5:4: “you will receive” what “that does not fade away”?",
+        "older": "According to 1 Peter 5:4, what reward does not fade away?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the crown of gold"
+        },
+        {
+          "id": "b",
+          "text": "the crown of honor"
+        },
+        {
+          "id": "c",
+          "text": "the crown of rejoicing"
+        },
+        {
+          "id": "d",
+          "text": "the crown of glory"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 5:4",
+            "text": "and when the Chief Shepherd appears, you will receive the crown of glory that does not fade away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:4.",
+          "child": "Look right after “you will receive” in verse 4.",
+          "teen": "5:4 says when the reward comes, what it is, and how it lasts. Read what it is.",
+          "older": "It follows “you will receive” in 5:4."
+        },
+        "extended_explanation": "5:2 tells elders to shepherd the flock of God. 5:3 says they should not be lords over those entrusted to them.",
+        "takeaway": "Faithful elders will receive the crown of glory."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1pe-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 4",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter tells believers to be hospitable to one another. Without what should they do it?",
+        "child": "Peter says to welcome one another as guests. What should be left out when we do?",
+        "teen": "1 Peter 4:9: “Be hospitable to one another without” what?",
+        "older": "According to 1 Peter 4:9, hospitality should be shown without what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "grumbling"
+        },
+        {
+          "id": "b",
+          "text": "waiting"
+        },
+        {
+          "id": "c",
+          "text": "hesitating"
+        },
+        {
+          "id": "d",
+          "text": "counting"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 4:9",
+            "text": "Be hospitable to one another without grumbling.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:9.",
+          "child": "Look at the end of verse 9.",
+          "teen": "4:9 gives a command and how to do it. Read the end.",
+          "older": "It follows “Be hospitable to one another without” in 4:9."
+        },
+        "extended_explanation": "4:11 says that if anyone ministers, he should do it with the ability God supplies. 4:7 says to be serious and watchful in your prayers.",
+        "takeaway": "Be hospitable without grumbling."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1pe-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 4",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter says none should suffer as a murderer, a thief, or an evildoer. According to 4:16, if anyone suffers as what, he should not be ashamed but glorify God?",
+        "child": "Peter says one kind of suffering brings no shame at all. Suffering as what?",
+        "teen": "1 Peter 4:16: “Yet if anyone suffers as” what, “let him not be ashamed”?",
+        "older": "According to 1 Peter 4:16, suffering as what should bring no shame?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a Pharisee"
+        },
+        {
+          "id": "b",
+          "text": "a Christian"
+        },
+        {
+          "id": "c",
+          "text": "a Samaritan"
+        },
+        {
+          "id": "d",
+          "text": "a prophet"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 4:15",
+            "text": "But let none of you suffer as a murderer, a thief, an evildoer, or as a busybody in other people’s matters.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 4:16",
+            "text": "Yet if anyone suffers as a Christian, let him not be ashamed, but let him glorify God in this matter.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 4:16.",
+          "child": "Look right after “suffers as” in verse 16.",
+          "teen": "4:15 lists four ways not to suffer; 4:16 names a different way and the right response. Read the name.",
+          "older": "It follows “Yet if anyone suffers as” in 4:16."
+        },
+        "extended_explanation": "4:16 adds, “let him glorify God in this matter.” 4:14 says those reproached for the name of Christ are blessed.",
+        "takeaway": "Suffering as a Christian is no cause for shame."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1pe-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 5",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter tells elders to shepherd the flock not by compulsion but willingly. According to 5:2, how should they serve, rather than for dishonest gain?",
+        "child": "Peter says church leaders should not serve just for money. How should they serve instead?",
+        "teen": "1 Peter 5:2: “not for dishonest gain but” how?",
+        "older": "According to 1 Peter 5:2, instead of for dishonest gain, how should elders serve?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "quietly"
+        },
+        {
+          "id": "b",
+          "text": "boldly"
+        },
+        {
+          "id": "c",
+          "text": "eagerly"
+        },
+        {
+          "id": "d",
+          "text": "gently"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 5:2",
+            "text": "Shepherd the flock of God which is among you, serving as overseers, not by compulsion but willingly, not for dishonest gain but eagerly;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 5:3",
+            "text": "nor as being lords over those entrusted to you, but being examples to the flock;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "5:2 gives a command and two contrasts. Read the end of the second.",
+          "older": "It follows “not for dishonest gain but” in 5:2."
+        },
+        "extended_explanation": "5:3 says elders should be examples to the flock. 5:1 calls Peter a fellow elder and a witness of the sufferings of Christ.",
+        "takeaway": "Elders should serve eagerly, not for dishonest gain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1pe-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 2",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter says it is the will of God that believers do good. According to 2:15, what may they put to silence by doing good?",
+        "child": "Peter says doing good can quiet people who speak against believers. What does he say it silences?",
+        "teen": "1 Peter 2:15: “by doing good you may put to silence” what?",
+        "older": "According to 1 Peter 2:15, what does doing good put to silence?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the ignorance of foolish men"
+        },
+        {
+          "id": "b",
+          "text": "the noise of the market"
+        },
+        {
+          "id": "c",
+          "text": "the threats of the soldiers"
+        },
+        {
+          "id": "d",
+          "text": "the complaints of the hungry crowds"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 2:14",
+            "text": "or to governors, as to those who are sent by him for the punishment of evildoers and for the praise of those who do good.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 2:15",
+            "text": "For this is the will of God, that by doing good you may put to silence the ignorance of foolish men—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:15.",
+          "child": "Look at the last words of verse 15.",
+          "teen": "2:14 speaks of governors; 2:15 says what is the will of God and what doing good puts to silence. Read the end.",
+          "older": "It follows “by doing good you may put to silence” in 2:15."
+        },
+        "extended_explanation": "2:14 says governors are sent for the punishment of evildoers and the praise of those who do good. 2:13 says to submit for the Lord’s sake.",
+        "takeaway": "Doing good puts to silence the ignorance of foolish men."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1pe-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 2",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:16 Peter calls believers bondservants of God. In 4:10, as what should each one minister his gift to one another?",
+        "child": "Peter says God gives each person a gift to use for others. What does he call people who handle God’s grace that way?",
+        "teen": "1 Peter 4:10: minister it to one another, “as” what “of the manifold grace of God”?",
+        "older": "Read with 2:16, what does 4:10 call those who minister their gifts?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "faithful soldiers"
+        },
+        {
+          "id": "b",
+          "text": "humble shepherds"
+        },
+        {
+          "id": "c",
+          "text": "wise builders"
+        },
+        {
+          "id": "d",
+          "text": "good stewards"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 2:16",
+            "text": "as free, yet not using liberty as a cloak for vice, but as bondservants of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 4:10",
+            "text": "As each one has received a gift, minister it to one another, as good stewards of the manifold grace of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:10.",
+          "child": "Look right after “as” near the end of verse 10.",
+          "teen": "2:16 says how to use liberty; 4:10 says what each received, what to do, and as whom. Read the last part.",
+          "older": "It follows “minister it to one another, as” in 4:10."
+        },
+        "extended_explanation": "4:11 says to minister with the ability which God supplies. 2:16 warns against using liberty as a cloak for vice.",
+        "takeaway": "We minister our gifts as good stewards of the manifold grace of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1pe-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 2",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:16 Peter says those who revile your good conduct may be ashamed. In 2:12, when may the Gentiles glorify God, by your good works which they observe?",
+        "child": "Peter says to live so well that even people who speak against you notice. When does he say they may glorify God?",
+        "teen": "1 Peter 2:12: “they may, by your good works which they observe, glorify God” when?",
+        "older": "Read with 3:16, when does 2:12 say observers may glorify God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in the hour of prayer"
+        },
+        {
+          "id": "b",
+          "text": "in the time of harvest"
+        },
+        {
+          "id": "c",
+          "text": "in the day of visitation"
+        },
+        {
+          "id": "d",
+          "text": "in the feast of tabernacles"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 2:12",
+            "text": "having your conduct honorable among the Gentiles, that when they speak against you as evildoers, they may, by your good works which they observe, glorify God in the day of visitation.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 3:16",
+            "text": "having a good conscience, that when they defame you as evildoers, those who revile your good conduct in Christ may be ashamed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:12.",
+          "child": "Look at the last words of verse 12.",
+          "teen": "3:16 speaks of those who defame you; 2:12 says how to live, what others say, and when they may glorify God. Read the end.",
+          "older": "It follows “glorify God” in 2:12."
+        },
+        "extended_explanation": "2:11 urges them as sojourners and pilgrims. 3:17 says it is better to suffer for doing good than for doing evil.",
+        "takeaway": "Observers may glorify God in the day of visitation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1pe-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 3",
+      "topics": [
+        "1-peter-suffering-and-submission"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 5:3 Peter tells elders to be examples to the flock. In 3:13, who will harm you if you become what?",
+        "child": "Peter asks who would hurt you if you live a certain way. What does he say we should become?",
+        "teen": "1 Peter 3:13: “who is he who will harm you if you become” what?",
+        "older": "Read with 5:3, what does 3:13 say believers should become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "friends of the city rulers"
+        },
+        {
+          "id": "b",
+          "text": "followers of what is good"
+        },
+        {
+          "id": "c",
+          "text": "servants of the great king"
+        },
+        {
+          "id": "d",
+          "text": "lovers of peace"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 3:13",
+            "text": "And who is he who will harm you if you become followers of what is good?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 5:3",
+            "text": "nor as being lords over those entrusted to you, but being examples to the flock;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:13.",
+          "child": "Look at the last words of verse 13.",
+          "teen": "5:3 describes leaders; 3:13 asks who will harm you, and on what condition. Read the condition.",
+          "older": "It follows “who will harm you if you become” in 3:13."
+        },
+        "extended_explanation": "3:14 says not to be afraid of their threats. 5:2 tells elders to shepherd the flock of God.",
+        "takeaway": "Who will harm you if you become followers of what is good?"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

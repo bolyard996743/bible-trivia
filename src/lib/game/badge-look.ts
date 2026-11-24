@@ -316,6 +316,11 @@ const TOPIC_LOOK: Record<string, { icon: BadgeIconId; palette: PaletteId }> = {
   "fruitful-hebrews-warnings-and-endurance": { icon: "anchor", palette: "ship" },
   "fruitful-seals": { icon: "trumpet", palette: "trumpet" },
   "fruitful-2peter": { icon: "lamp", palette: "lamp" },
+  "fruitful-james-wealth-patience-and-prayer": { icon: "letter", palette: "stone" },
+  "fruitful-1-peter-suffering-and-submission": { icon: "letter", palette: "stone" },
+  "fruitful-1-john-test-the-spirits": { icon: "scroll", palette: "scroll" },
+  "fruitful-ephesians-walk-worthy": { icon: "letter", palette: "stone" },
+  "fruitful-jude": { icon: "scroll", palette: "scroll" },
 };
 
 export type BadgeLook = {

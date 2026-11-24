@@ -198,6 +198,11 @@ export const CURRICULUM_TOPICS = [
   "order-in-the-church",
   "good-works",
   "add-to-your-faith",
+  "james-wealth-patience-and-prayer",
+  "1-peter-suffering-and-submission",
+  "1-john-test-the-spirits",
+  "ephesians-walk-worthy",
+  "contend-for-the-faith",
 ] as const;
 
 export type CurriculumTopic = (typeof CURRICULUM_TOPICS)[number];
@@ -399,6 +404,11 @@ export const TOPIC_LABELS: Record<CurriculumTopic, string> = {
   "order-in-the-church": "1 Timothy: Order in the Church",
   "good-works": "Titus: Good Works",
   "add-to-your-faith": "2 Peter: Remember and Watch",
+  "james-wealth-patience-and-prayer": "James: Wealth, Patience and Prayer",
+  "1-peter-suffering-and-submission": "1 Peter: Suffering and Submission",
+  "1-john-test-the-spirits": "1 John: Test the Spirits",
+  "ephesians-walk-worthy": "Ephesians: Walk Worthy",
+  "contend-for-the-faith": "Jude: Contend for the Faith",
 };
 
 export function topicLabel(topic: string): string {
@@ -597,6 +607,11 @@ export const STAGE_TOPICS: Record<KnowledgeStage, readonly CurriculumTopic[]> = 
     "order-in-the-church",
     "good-works",
     "add-to-your-faith",
+    "james-wealth-patience-and-prayer",
+    "1-peter-suffering-and-submission",
+    "1-john-test-the-spirits",
+    "ephesians-walk-worthy",
+    "contend-for-the-faith",
   ],
   "Deep Roots": [],
 };

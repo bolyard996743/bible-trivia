@@ -2790,31 +2790,76 @@
           "id": "fruitful-james-wealth-patience-and-prayer",
           "name": "James: Wealth, Patience and Prayer",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jas-0008",
+            "c2-jas-0002",
+            "c2-jas-0003",
+            "c2-jas-0004",
+            "c3-jas-0001",
+            "c3-jas-0002",
+            "c3-jas-0003",
+            "c3-jas-0004"
+          ]
         },
         {
           "id": "fruitful-1-peter-suffering-and-submission",
           "name": "1 Peter: Suffering and Submission",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-1pe-0002",
+            "c2-1pe-0006",
+            "c2-1pe-0007",
+            "c2-1pe-0008",
+            "c3-1pe-0003",
+            "c3-1pe-0004",
+            "c3-1pe-0005",
+            "c3-1pe-0006"
+          ]
         },
         {
           "id": "fruitful-1-john-test-the-spirits",
           "name": "1 John: Test the Spirits",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-1jn-0002",
+            "c2-1jn-0006",
+            "c2-1jn-0007",
+            "c2-1jn-0008",
+            "c3-1jn-0003",
+            "c3-1jn-0004",
+            "c3-1jn-0005",
+            "c3-1jn-0006"
+          ]
         },
         {
           "id": "fruitful-ephesians-walk-worthy",
           "name": "Ephesians: Walk Worthy",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-eph-0007",
+            "c2-eph-0001",
+            "c2-eph-0002",
+            "c2-eph-0003",
+            "c3-eph-0002",
+            "c3-eph-0003",
+            "c3-eph-0004",
+            "c3-eph-0005"
+          ]
         },
         {
           "id": "fruitful-jude",
           "name": "Jude: Contend for the Faith",
           "art": "banner",
-          "questionIds": []
+          "questionIds": [
+            "c1-jud-0001",
+            "c2-jud-0001",
+            "c2-jud-0002",
+            "c2-jud-0003",
+            "c3-jud-0001",
+            "c3-jud-0002",
+            "c3-jud-0003",
+            "c3-jud-0004"
+          ]
         }
       ]
     },
