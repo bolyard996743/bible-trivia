@@ -575,6 +575,20 @@ describe("sample content", () => {
     );
   });
 
+  it("keeps each fruitful line file byte for byte", () => {
+    const hashes: Record<string, string> = {
+      agnes: "55e87e63a7a30cc3581c0a754ebd0a036c498cc2f4a8bc07bbfe88937a8d9aaa",
+      hunter: "fb167fe1fc9f97eff517b254cd93f91c5c59c9dbd114948a11c04b9fc10ec33c",
+      judah: "419eb06a4069359c04f40669fc90918b31f484524c0350c1ca9602574bf728b3",
+      shalom: "b8a29303a9d13a931ddeee993484d2093f034c78d217e8c3dff732bab19838ae",
+      zion: "d1c0111d131a6dcd28214c5f1cdf2cdb8cfe1dfe4a9c29942d51053af0f24f25",
+    };
+    for (const [mascot, hash] of Object.entries(hashes)) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "fruitful_lines.json");
+      expect(createHash("sha256").update(fs.readFileSync(file)).digest("hex")).toBe(hash);
+    }
+  });
+
   it("keeps each established line file byte for byte", () => {
     const hashes: Record<string, string> = {
       agnes: "bd4bbba49ce5618489dc95d2531536c33678f805b2998d2bf0e1a738a2177715",
@@ -745,6 +759,44 @@ describe("schema rejects a bad file", () => {
     expect(result.errors).toContain("Rooted question c2-act-0002 is missing a correct_after_retry line for agnes");
   });
 
+  it("fails when a Fruitful question is missing one guide's answer line", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "fruitful_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    delete lines["c1-2pe-0001"];
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("Fruitful question c1-2pe-0001 is missing a correct line for agnes");
+    expect(result.errors).toContain("Fruitful question c1-2pe-0001 is missing a wrong_intro line for agnes");
+    expect(result.errors).toContain("Fruitful question c1-2pe-0001 is missing a correct_after_retry line for agnes");
+  });
+
+  it("fails when a fruitful line names a question outside Fruitful", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "fruitful_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    lines["c1-gen-0020"] = "This seed question does not belong in the fruitful file.";
+    lines["c1-dan-0001"] = "This sprout question does not belong in the fruitful file.";
+    lines["c2-act-0002"] = "This rooted question does not belong in the fruitful file.";
+    lines["c1-num-0001"] = "This growing question does not belong in the fruitful file.";
+    lines["c1-gen-0061"] = "This established question does not belong in the fruitful file.";
+    lines["c3-eph-0001"] = "This question is tagged Fruitful but is not on a Fruitful badge.";
+    lines["c1-missing-0001"] = "Nobody wrote this question.";
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("content/mascots/agnes/fruitful_lines.json: c1-gen-0020 is not a Fruitful question");
+    expect(result.errors).toContain("content/mascots/agnes/fruitful_lines.json: c1-dan-0001 is not a Fruitful question");
+    expect(result.errors).toContain("content/mascots/agnes/fruitful_lines.json: c2-act-0002 is not a Fruitful question");
+    expect(result.errors).toContain("content/mascots/agnes/fruitful_lines.json: c1-num-0001 is not a Fruitful question");
+    expect(result.errors).toContain("content/mascots/agnes/fruitful_lines.json: c1-gen-0061 is not a Fruitful question");
+    expect(result.errors).toContain("content/mascots/agnes/fruitful_lines.json: c3-eph-0001 is not a Fruitful question");
+    expect(result.errors).toContain("content/mascots/agnes/fruitful_lines.json: c1-missing-0001 references unknown question");
+  });
+
   it("fails when an Established question is missing one guide's answer line", () => {
     const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
     fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
@@ -875,7 +927,7 @@ describe("Fruitful questions", () => {
     const result = validateContentTree(process.cwd());
     expect(result.ok).toBe(true);
     expect(result.questionCount).toBe(1404);
-    expect(result.lineCount).toBe(13516);
+    expect(result.lineCount).toBe(21196);
 
     const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
       stages: { stage: string; badges: { id: string; name: string; questionIds: string[] }[] }[];
@@ -936,26 +988,104 @@ describe("Fruitful questions", () => {
     expect(fs.existsSync(path.join(process.cwd(), "content/questions/placement-001.json"))).toBe(true);
   });
 
-  it("speaks a general line when a Fruitful question has no mascot line", () => {
+  it("plays the approved Fruitful line after every answer", () => {
     const { questions, lines } = loadCatalog();
     const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
-      stages: { stage: string; badges: { questionIds: string[] }[] }[];
+      stages: { stage: string; badges: { id: string; questionIds: string[] }[] }[];
     };
-    const fruitfulIds =
-      pathFile.stages.find((stage) => stage.stage === "Fruitful")?.badges.flatMap((badge) => badge.questionIds) ?? [];
+    const fruitfulStage = pathFile.stages.find((stage) => stage.stage === "Fruitful");
+    const fruitfulIds = fruitfulStage?.badges.flatMap((badge) => badge.questionIds) ?? [];
+    const peterIds = fruitfulStage?.badges.find((badge) => badge.id === "fruitful-2peter")?.questionIds ?? [];
     expect(fruitfulIds).toHaveLength(512);
+    expect(peterIds).toEqual([
+      "c1-2pe-0001",
+      "c2-2pe-0001",
+      "c2-2pe-0002",
+      "c2-2pe-0003",
+      "c3-2pe-0001",
+      "c3-2pe-0002",
+      "c3-2pe-0003",
+      "c3-2pe-0004",
+    ]);
     expect(questions.filter((question) => fruitfulIds.includes(question.id))).toHaveLength(512);
-    expect(lines.filter((line) => line.question_id && fruitfulIds.includes(line.question_id))).toHaveLength(0);
-    expect(lines).toHaveLength(13516);
+    expect(lines).toHaveLength(21196);
+    const pathLines = linesForPathPlay(lines);
+    const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
+    const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
+    const approved: Record<(typeof mascots)[number], Record<string, string>> = {
+      judah: {},
+      agnes: {},
+      shalom: {},
+      zion: {},
+      hunter: {},
+    };
 
-    const id = "c1-sng-0001";
-    const spoken = pickMascotLine(lines, "judah", "correct", "child", { questionId: id, random: () => 0 });
-    expect(spoken?.question_id).toBeNull();
-    expect(spoken?.text.length).toBeGreaterThan(0);
-    const withoutQuestion = pickMascotLine(lines, "judah", "correct", "child", { random: () => 0 });
-    expect(spoken?.id).toBe(withoutQuestion?.id);
-    expect(pickMascotLine(linesForPathPlay(lines), "agnes", "wrong_intro", "older", { questionId: id, random: () => 0 })?.question_id).toBe(
-      null,
+    for (const mascot of mascots) {
+      const file = path.join(process.cwd(), "content/mascots", mascot, "fruitful_lines.json");
+      const source = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+      approved[mascot] = source;
+      expect(Object.keys(source)).toHaveLength(fruitfulIds.length);
+      expect(new Set(Object.keys(source))).toEqual(new Set(fruitfulIds));
+      const owned = lines.filter(
+        (line) =>
+          line.mascot === mascot &&
+          fruitfulIds.includes(line.question_id ?? "") &&
+          line.id.startsWith(`${mascot}-fruitful-`),
+      );
+      expect(owned).toHaveLength(512 * moments.length);
+      expect(new Set(owned.map((line) => line.text)).size).toBe(512);
+      expect(
+        owned.every(
+          (line) => line.audience === "all" && line.audio_file === null && line.text === source[line.question_id ?? ""],
+        ),
+      ).toBe(true);
+    }
+
+    const playback = lines.filter((line) => line.id.includes("-fruitful-"));
+    expect(playback).toHaveLength(512 * mascots.length * moments.length);
+    expect(new Set(playback.map((line) => `${line.mascot}:${line.question_id}`)).size).toBe(2560);
+    expect(lines.filter((line) => line.id.includes("-established-"))).toHaveLength(232 * mascots.length * moments.length);
+
+    for (const id of fruitfulIds) {
+      for (const mascot of mascots) {
+        const spoken = moments.map((moment) => pickMascotLine(pathLines, mascot, moment, "adult", { questionId: id }));
+        expect(spoken.every((line) => line?.text === approved[mascot][id] && line.question_id === id && line.audience === "all")).toBe(
+          true,
+        );
+        expect(pickMascotLine(pathLines, mascot, "correct", "child", { questionId: id })?.text).toBe(approved[mascot][id]);
+        expect(pickMascotLine(pathLines, mascot, "wrong_intro", "older", { questionId: id })?.text).toBe(approved[mascot][id]);
+        expect(pickMascotLine(pathLines, mascot, "correct_after_retry", "teen", { questionId: id })?.text).toBe(
+          approved[mascot][id],
+        );
+      }
+    }
+
+    const peter = "c1-2pe-0001";
+    expect(peterIds).toContain(peter);
+    for (const mascot of mascots) {
+      const spoken = pickMascotLine(pathLines, mascot, "correct", "child", { questionId: peter, random: () => 0 });
+      const general = pickMascotLine(pathLines, mascot, "correct", "child", { random: () => 0 });
+      expect(spoken?.question_id).toBe(peter);
+      expect(spoken?.text).toBe(approved[mascot][peter]);
+      expect(spoken?.id).not.toBe(general?.id);
+      expect(spoken?.id.startsWith(`${mascot}-fruitful-`)).toBe(true);
+    }
+    expect(approved.agnes[peter]).toBe(
+      "Peter writes that the Lord had shown him something about what was ahead. Let's read Second Peter 1:14.",
+    );
+    expect(approved.judah[peter]).toBe(
+      "Peter writes that the Lord showed him something about what lay ahead. Let's open Second Peter 1:14.",
+    );
+    expect(approved.shalom[peter]).toBe(
+      "Peter knew his time on earth would end soon. Listen to what Peter must put off in Second Peter 1:14.",
+    );
+    expect(approved.zion[peter]).toBe("The Lord showed Peter something about his future. Read Second Peter 1:14.");
+    expect(approved.hunter[peter]).toBe(
+      "The Lord showed Peter something about his future. Sit with Second Peter 1:14 a while.",
+    );
+    expect(approved.agnes["c3-eph-0001"]).toBeUndefined();
+    expect(pickMascotLine(lines, "agnes", "correct", "child", { questionId: "c1-gen-0020" })?.text).toBe(
+      "This is the very beginning of God's story. Let's read Genesis 1:3.",
     );
   });
 

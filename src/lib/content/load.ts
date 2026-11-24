@@ -3,6 +3,7 @@ import path from "path";
 import type { MascotLine, Question } from "../game/types";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
 import { readEstablishedLineFiles } from "./established-lines";
+import { readFruitfulLineFiles } from "./fruitful-lines";
 import { readGrowingLineFiles } from "./growing-lines";
 import { readRootedLineFiles } from "./rooted-lines";
 import { readSproutLineFiles } from "./sprout-lines";
@@ -93,6 +94,12 @@ function readCatalog(root = process.cwd()): Catalog {
     throw new Error(`Content validation failed:\n${established.errors.join("\n")}`);
   }
   lines.push(...established.lines);
+
+  const fruitful = readFruitfulLineFiles(root);
+  if (fruitful.errors.length > 0) {
+    throw new Error(`Content validation failed:\n${fruitful.errors.join("\n")}`);
+  }
+  lines.push(...fruitful.lines);
 
   return { questions, lines, audioFiles };
 }
