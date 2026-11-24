@@ -78,9 +78,11 @@ begin
   if birth is null then
     return false;
   end if;
+  -- date_part is a function, so the schema qualification is valid.
+  -- extract(field from value) is syntax and cannot be schema-qualified.
   return public.comment_age_reached(
-    pg_catalog.extract(year from birth)::integer,
-    pg_catalog.extract(month from birth)::integer
+    pg_catalog.date_part('year', birth)::integer,
+    pg_catalog.date_part('month', birth)::integer
   );
 end;
 $$;

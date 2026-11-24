@@ -221,6 +221,9 @@ describe("comment posting rules", () => {
     expect(sql).toContain("return public.comment_age_reached");
     expect(sql).toContain("if birth is null then");
     expect(sql).toContain("interval '1 month'");
+    expect(sql).toContain("pg_catalog.date_part('year', birth)");
+    expect(sql).toContain("pg_catalog.date_part('month', birth)");
+    expect(sql).not.toContain("pg_catalog.extract");
   });
 
   it("lets guests read visible comments without private profile fields", () => {
