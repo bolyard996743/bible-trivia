@@ -55,6 +55,21 @@ describe("badge icon and palette mapping", () => {
     }
   });
 
+  it("gives Fruitful badges a fitting icon instead of one generic scroll", () => {
+    const fruitful = knowledgePath.stages.find((stage) => stage.stage === "Fruitful");
+    const badges = (fruitful?.badges ?? []).filter((badge) => badge.questionIds.length > 0);
+    expect(badges).toHaveLength(64);
+    expect(badges.some((badge) => badge.id === "fruitful-song-of-solomon")).toBe(true);
+    const looks = badges.map((badge) => badgeLook(badge.art, badge.id));
+    expect(looks.every((look) => look.fallback === false)).toBe(true);
+    expect(badgeLook("scroll", "fruitful-song-of-solomon")).toMatchObject({ icon: "heart", fallback: false });
+    expect(badgeLook("scroll", "fruitful-psalms-wisdom-psalms").icon).toBe("harp");
+    expect(badgeLook("scroll", "fruitful-1-chronicles-davids-kingdom-established").icon).toBe("crown");
+    expect(badgeLook("scroll", "fruitful-2-corinthians-pauls-ministry-and-defense").icon).toBe("letter");
+    const scrolls = looks.filter((look) => look.icon === "scroll");
+    expect(scrolls.length).toBeLessThan(badges.length / 2);
+  });
+
   it("gives shared scroll badges different rings", () => {
     const scrolls = knowledgePath.stages.flatMap((stage) => stage.badges).filter((badge) => badge.art === "scroll");
     expect(scrolls.length).toBeGreaterThan(10);

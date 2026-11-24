@@ -65,6 +65,7 @@ export const BADGE_GLYPHS: Record<BadgeIconId, () => ReactNode> = {
   drop: Drop,
   locust: Locust,
   horse: Horse,
+  harp: Harp,
 };
 
 function Creation() {
@@ -644,6 +645,17 @@ function Locust() {
       <circle cx="32" cy="18" r="6" fill={accent} />
       <path d="M22 16c-8-6-12-4-12 2M42 16c8-6 12-4 12 2" stroke={ink} strokeWidth="2.2" strokeLinecap="round" />
       <path d="M24 32 12 28M24 40 12 44M40 32l12-4M40 40l12 4" stroke={ink} strokeWidth="2" strokeLinecap="round" />
+    </>
+  );
+}
+
+function Harp() {
+  return (
+    <>
+      <path d="M16 48c2-24 12-34 28-34 8 0 14 6 14 14v20" fill="none" stroke={ink} strokeWidth="3.4" strokeLinecap="round" />
+      <path d="M18 48h40" stroke={ink} strokeWidth="3.4" strokeLinecap="round" />
+      <path d="M24 46V30M30 46V26M36 46V24M42 46V28" stroke={accent} strokeWidth="2.2" strokeLinecap="round" />
+      <circle cx="44" cy="22" r="3" fill={wash} />
     </>
   );
 }

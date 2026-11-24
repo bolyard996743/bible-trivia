@@ -61,6 +61,7 @@ export const BADGE_ICON_IDS = [
   "drop",
   "locust",
   "horse",
+  "harp",
 ] as const;
 
 export type BadgeIconId = (typeof BADGE_ICON_IDS)[number];
@@ -275,6 +276,46 @@ const TOPIC_LOOK: Record<string, { icon: BadgeIconId; palette: PaletteId }> = {
   horse: { icon: "horse", palette: "lion" },
   beatitudes: { icon: "mountain", palette: "mountain" },
   epistles: { icon: "letter", palette: "stone" },
+  psalms: { icon: "harp", palette: "lamp" },
+  "fruitful-genesis-abraham-to-jacob-in-context": { icon: "tent", palette: "tent" },
+  "fruitful-leviticus-holiness-sabbath-year-and-jubilee": { icon: "temple", palette: "stone" },
+  "fruitful-numbers-complaints-and-rebellion": { icon: "tent", palette: "clay" },
+  "fruitful-deuteronomy-moses-sermons": { icon: "tablets", palette: "stone" },
+  "fruitful-1chr": { icon: "temple", palette: "stone" },
+  "fruitful-1-chronicles-davids-kingdom-established": { icon: "crown", palette: "crown" },
+  "fruitful-josiah": { icon: "scroll", palette: "scroll" },
+  "fruitful-song-of-solomon": { icon: "heart", palette: "heart" },
+  "fruitful-hosea-israels-unfaithfulness-and-return": { icon: "heart", palette: "rose" },
+  "fruitful-amos-judgment-on-the-nations": { icon: "scales", palette: "key" },
+  "fruitful-amos-justice-and-visions": { icon: "scales", palette: "wheat" },
+  "fruitful-micah-where-is-a-god-like-you": { icon: "dove", palette: "dove" },
+  "fruitful-zechariah-night-visions": { icon: "star", palette: "night" },
+  "fruitful-zechariah-the-humble-king-and-the-pierced-one": { icon: "crown", palette: "crown" },
+  "fruitful-joshua-dividing-the-land": { icon: "road", palette: "clay" },
+  "fruitful-absaloms-rebellion": { icon: "crown", palette: "cross" },
+  "fruitful-davids-mighty-men-and-the-census": { icon: "shield", palette: "shield" },
+  "fruitful-solomons-decline-and-the-temple-dedication": { icon: "temple", palette: "crown" },
+  "fruitful-jehu-athaliah-and-joash": { icon: "crown", palette: "crown" },
+  "fruitful-isaiah-trust-in-the-lord-not-egypt": { icon: "shield", palette: "shield" },
+  "fruitful-isaiah-oracles-against-the-nations": { icon: "trumpet", palette: "trumpet" },
+  "fruitful-isaiah-the-servant-and-salvation": { icon: "cross", palette: "cross" },
+  "fruitful-jeremiah-oracles-against-the-nations-and-baruch": { icon: "letter", palette: "stone" },
+  "fruitful-psalms-wisdom-psalms": { icon: "harp", palette: "lamp" },
+  "fruitful-psalms-hallel-and-the-songs-of-ascents": { icon: "harp", palette: "wheat" },
+  "fruitful-proverbs-collected-sayings-and-agur": { icon: "lamp", palette: "lamp" },
+  "fruitful-job-the-friends-and-elihu": { icon: "people", palette: "clay" },
+  "fruitful-matthew": { icon: "star", palette: "night" },
+  "fruitful-matthew-signs-readiness-and-judgment": { icon: "lamp", palette: "flame" },
+  "fruitful-luke-the-road-to-jerusalem": { icon: "road", palette: "clay" },
+  "fruitful-mark-teaching-and-conflict": { icon: "people", palette: "clay" },
+  "fruitful-john-conflict-and-controversy": { icon: "lamp", palette: "lamp" },
+  "fruitful-romans-1-4-sin-and-faith": { icon: "cross", palette: "cross" },
+  "fruitful-romans-12-16-living-it-out": { icon: "people", palette: "meadow" },
+  "fruitful-resurrection": { icon: "sunrise", palette: "sunrise" },
+  "fruitful-2-corinthians-pauls-ministry-and-defense": { icon: "letter", palette: "stone" },
+  "fruitful-hebrews-warnings-and-endurance": { icon: "anchor", palette: "ship" },
+  "fruitful-seals": { icon: "trumpet", palette: "trumpet" },
+  "fruitful-2peter": { icon: "lamp", palette: "lamp" },
 };
 
 export type BadgeLook = {
@@ -359,10 +400,10 @@ function varyPalette(base: BadgePalette, slug: string): BadgePalette {
 }
 
 function mappedLook(topic: string, slug: string): { icon: BadgeIconId; palette: PaletteId } | undefined {
-  if (TOPIC_LOOK[topic]) return TOPIC_LOOK[topic];
   if (slug && TOPIC_LOOK[slug]) return TOPIC_LOOK[slug];
   const suffix = slug.replace(STAGE_PREFIX, "");
   if (suffix && suffix !== slug && TOPIC_LOOK[suffix]) return TOPIC_LOOK[suffix];
+  if (TOPIC_LOOK[topic]) return TOPIC_LOOK[topic];
   return undefined;
 }
 
