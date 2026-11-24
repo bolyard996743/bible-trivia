@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
-import { DEVICE_ONLY_PROGRESS_NOTE } from "@/lib/copy";
+import { CHILD_DEVICE_PROGRESS_NOTE, DEVICE_ONLY_PROGRESS_NOTE } from "@/lib/copy";
 import { CONFIRM_EMAIL_MESSAGE, signupErrorMessage } from "@/lib/account/auth-errors";
 import { showCreateAccountLink } from "@/lib/account/policy";
 import { registerWithPassword } from "@/lib/account/register-account";
@@ -24,6 +24,11 @@ export function shouldShowSavePrompt(input: {
   return showCreateAccountLink({ signedIn: input.signedIn, age: input.age });
 }
 
+/** A guest who cannot have an account still hears that this device is the only copy. */
+export function shouldShowDeviceOnlyCard(input: { signedIn: boolean; age: AgeGroup | null | undefined }): boolean {
+  return !input.signedIn && input.age === "child";
+}
+
 export function SaveProgressPrompt() {
   const auth = useSignedIn();
   const gate = useAgeGate();
@@ -39,7 +44,15 @@ export function SaveProgressPrompt() {
   if (!auth.ready || !gate.ready) return null;
 
   const age = gate.value?.bracket ?? state?.ageGroup ?? null;
-  if (!shouldShowSavePrompt({ signedIn: Boolean(auth.email), dismissed, age, status })) return null;
+  const signedIn = Boolean(auth.email);
+  if (status === "form" && shouldShowDeviceOnlyCard({ signedIn, age })) {
+    return (
+      <section className="rounded-3xl border border-line bg-card p-5" data-testid="device-only-progress">
+        <p className="text-lg text-ink">{CHILD_DEVICE_PROGRESS_NOTE}</p>
+      </section>
+    );
+  }
+  if (!shouldShowSavePrompt({ signedIn, dismissed, age, status })) return null;
 
   async function submit(event: FormEvent) {
     event.preventDefault();

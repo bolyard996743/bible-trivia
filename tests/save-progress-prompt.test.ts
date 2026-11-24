@@ -3,7 +3,7 @@ import { act, createElement, type ReactNode } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { CONFIRM_EMAIL_MESSAGE, EMAIL_REGISTERED, PASSWORD_RULE } from "@/lib/account/auth-errors";
-import { DEVICE_ONLY_PROGRESS_NOTE } from "@/lib/copy";
+import { CHILD_DEVICE_PROGRESS_NOTE, DEVICE_ONLY_PROGRESS_NOTE } from "@/lib/copy";
 import type { StoredState } from "@/lib/storage";
 
 const register = vi.hoisted(() => vi.fn());
@@ -71,7 +71,7 @@ vi.mock("@/lib/account/register-account", () => ({
 }));
 
 import { ResultsClient } from "@/components/ResultsClient";
-import { shouldShowSavePrompt } from "@/components/SaveProgressPrompt";
+import { shouldShowDeviceOnlyCard, shouldShowSavePrompt } from "@/components/SaveProgressPrompt";
 
 let root: Root | null = null;
 
@@ -133,25 +133,49 @@ describe("save prompt on the placement result", () => {
     }
   });
 
-  it("hides the prompt for a signed-in player and for a child", () => {
+  it("hides the prompt for a signed-in player", () => {
     harness.email = "member@example.com";
     renderResults();
     expect(document.querySelector("[data-testid=save-progress]")).toBeNull();
+    expect(document.querySelector("[data-testid=device-only-progress]")).toBeNull();
     expect(document.body.textContent).toContain("Go to your path");
     expect(document.body.textContent).toContain("Your starting place");
+    expect(shouldShowSavePrompt({ signedIn: true, dismissed: false, age: "adult", status: "form" })).toBe(false);
+    expect(shouldShowSavePrompt({ signedIn: false, dismissed: true, age: "adult", status: "form" })).toBe(false);
+    expect(shouldShowSavePrompt({ signedIn: false, dismissed: false, age: "adult", status: "form" })).toBe(true);
+    expect(shouldShowDeviceOnlyCard({ signedIn: true, age: "child" })).toBe(false);
+  });
 
-    act(() => root?.unmount());
-    document.body.innerHTML = "";
-    harness.email = null;
+  it("shows an under-13 guest only the device warning, and a 13+ guest the full prompt", () => {
     harness.age = "child";
     harness.under13 = true;
     renderResults();
+    const card = document.querySelector("[data-testid=device-only-progress]");
+    expect(card?.textContent).toBe(CHILD_DEVICE_PROGRESS_NOTE);
+    expect(card?.textContent).toBe(
+      "Your progress stays only on this device. Clearing your browser data or switching devices will erase it.",
+    );
+    expect(card?.textContent?.toLowerCase()).not.toContain("age");
     expect(document.querySelector("[data-testid=save-progress]")).toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-email]")).toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-password]")).toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-submit]")).toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-skip]")).toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-sign-in]")).toBeNull();
+    expect(document.querySelector('a[href="/account?mode=sign-in"]')).toBeNull();
     expect(document.body.textContent).toContain("Go to your path");
-    expect(shouldShowSavePrompt({ signedIn: true, dismissed: false, age: "adult", status: "form" })).toBe(false);
-    expect(shouldShowSavePrompt({ signedIn: false, dismissed: false, age: "child", status: "form" })).toBe(false);
-    expect(shouldShowSavePrompt({ signedIn: false, dismissed: true, age: "adult", status: "form" })).toBe(false);
-    expect(shouldShowSavePrompt({ signedIn: false, dismissed: false, age: "adult", status: "form" })).toBe(true);
+
+    act(() => root?.unmount());
+    document.body.innerHTML = "";
+    harness.age = "adult";
+    harness.under13 = false;
+    renderResults();
+    expect(document.querySelector("[data-testid=device-only-progress]")).toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-email]")).not.toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-password]")).not.toBeNull();
+    expect(document.querySelector("[data-testid=save-progress-submit]")?.textContent).toBe("Create account");
+    expect(document.querySelector("[data-testid=save-progress-sign-in]")?.getAttribute("href")).toBe("/account?mode=sign-in");
+    expect(document.querySelector("[data-testid=save-progress-note]")?.textContent).toBe(DEVICE_ONLY_PROGRESS_NOTE);
   });
 
   it("hides the prompt when Not now is chosen and leaves the path in place", () => {
