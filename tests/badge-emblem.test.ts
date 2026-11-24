@@ -7,9 +7,12 @@ vi.mock("next/link", () => ({
     createElement("a", { ...props, href }, children),
 }));
 
+import { BadgeEarnedDialog, badgeEarnedMessage } from "@/components/BadgeEarnedDialog";
 import { StageMap } from "@/components/StageMap";
-import { badgeStatusLabel } from "@/lib/game/badges";
+import { badgeEarned, badgeJustEarned, badgeStatusLabel } from "@/lib/game/badges";
+import { recordBadgeAnswer } from "@/lib/game/badge-retry";
 import { badgeLook, FALLBACK_ICON, FALLBACK_PALETTE_ID } from "@/lib/game/badge-look";
+import { badgeAttention, markBadgesSeen, noticePlan, readSeenBadges, writeSeenBadges } from "@/lib/game/badge-seen";
 import { knowledgePath } from "@/lib/game/path";
 import { emptyProgress } from "@/lib/game/progression";
 
@@ -60,13 +63,20 @@ describe("badge icon and palette mapping", () => {
   });
 });
 
+function badgeSlice(html: string, id: string): string {
+  const start = html.indexOf(`data-testid="${id}"`);
+  const next = html.indexOf('data-testid="badge-', start + 10);
+  return html.slice(start, next === -1 ? undefined : next);
+}
+
 describe("stage map hides badges the player has not reached", () => {
-  it("renders only the reached stage, with earned, empty, and locked chips", () => {
+  it("renders only the reached stage, with a blank unearned circle and a clock when waiting", () => {
     const creation = knowledgePath.stages[0]?.badges.find((badge) => badge.id === "seed-creation");
     expect(creation?.questionIds.length).toBeGreaterThan(0);
     const html = renderToStaticMarkup(
       createElement(StageMap, {
         now: new Date("2026-11-24T12:00:00.000Z"),
+        seenBadgeIds: ["seed-creation"],
         progress: {
           ...emptyProgress(),
           stage: "Seed",
@@ -84,14 +94,22 @@ describe("stage map hides badges the player has not reached", () => {
     expect(html).toContain('data-state="empty"');
     expect(html).toContain('data-state="locked"');
     expect(html).toContain('data-chip="check"');
-    expect(html).toContain('data-chip="lock"');
+    expect(html).not.toContain('data-chip="lock"');
     expect(html).toContain('data-chip="clock"');
     expect(html).toContain("Creation. Earned");
-    expect(html).toContain("Noah. Not earned yet");
-    expect(html).toContain("Jonah. Not earned yet. Locked for 24 hours");
-    expect(html).toContain('aria-label="Earned"');
-    expect(html).toContain('aria-label="Not earned yet"');
-    expect(html).toContain('aria-label="Locked for 24 hours"');
+    expect(html).toContain("Noah, not earned yet");
+    expect(html).toContain("Jonah, not earned yet. Locked for 24 hours");
+    const noah = badgeSlice(html, "badge-seed-noah");
+    expect(noah).toContain(">Noah<");
+    expect(noah).toContain('data-blank="true"');
+    expect(noah).not.toContain("<svg");
+    expect(noah).not.toContain("data-icon");
+    const jonah = badgeSlice(html, "badge-seed-jonah");
+    expect(jonah).toContain('data-blank="true"');
+    expect(jonah).toContain('data-chip="clock"');
+    expect(jonah).not.toContain("data-icon");
+    const earned = badgeSlice(html, "badge-seed-creation");
+    expect(earned).toContain('data-icon="creation"');
     expect(html).not.toContain("badge-sprout-");
     expect(html).not.toContain("stage-block-sprout");
     expect(html).not.toContain("stage-block-fruitful");
@@ -99,8 +117,8 @@ describe("stage map hides badges the player has not reached", () => {
     expect(html).not.toContain("Fruitful");
     expect(html).not.toContain("Deep Roots");
     expect(badgeStatusLabel("Creation", "earned")).toBe("Creation. Earned");
-    expect(badgeStatusLabel("Creation", "empty")).toBe("Creation. Not earned yet");
-    expect(badgeStatusLabel("Creation", "locked")).toBe("Creation. Not earned yet. Locked for 24 hours");
+    expect(badgeStatusLabel("Creation", "empty")).toBe("Creation, not earned yet");
+    expect(badgeStatusLabel("Creation", "locked")).toBe("Creation, not earned yet. Locked for 24 hours");
   });
 
   it("still stops the map at Established", () => {
@@ -115,5 +133,92 @@ describe("stage map hides badges the player has not reached", () => {
     expect(html).not.toContain("stage-block-deep-roots");
     expect(html).not.toContain("Fruitful");
     expect(html).not.toContain("Deep Roots");
+  });
+});
+
+describe("a new badge is noticed once", () => {
+  it("flashes the first time, then never again", () => {
+    expect(badgeAttention(true, false, false)).toBe("flash");
+    const first = noticePlan(null, ["seed-creation"]);
+    expect(first.attentionIds).toEqual([]);
+    expect(first.seen).toEqual(["seed-creation"]);
+    const next = noticePlan(first.seen, ["seed-creation", "seed-noah"]);
+    expect(next.attentionIds).toEqual(["seed-noah"]);
+    expect(badgeAttention(true, false, false)).toBe("flash");
+    const seen = markBadgesSeen(next.seen, next.attentionIds);
+    expect(seen).toEqual(["seed-creation", "seed-noah"]);
+    expect(noticePlan(seen, ["seed-creation", "seed-noah"]).attentionIds).toEqual([]);
+    expect(badgeAttention(true, seen.includes("seed-noah"), false)).toBe("none");
+  });
+
+  it("uses a static glow when motion is reduced", () => {
+    expect(badgeAttention(true, false, true)).toBe("glow");
+    expect(badgeAttention(false, false, true)).toBe("none");
+    const html = renderToStaticMarkup(
+      createElement(StageMap, {
+        reducedMotion: true,
+        seenBadgeIds: [],
+        progress: {
+          ...emptyProgress(),
+          stage: "Seed",
+          badgeRetries: {
+            "seed-creation": {
+              correctIds: knowledgePath.stages[0]?.badges.find((badge) => badge.id === "seed-creation")?.questionIds ?? [],
+            },
+          },
+        },
+      }),
+    );
+    const earned = badgeSlice(html, "badge-seed-creation");
+    expect(earned).toContain('data-attention="glow"');
+    expect(earned).toContain("badge-glow");
+    expect(earned).not.toContain("badge-flash");
+    const noah = badgeSlice(html, "badge-seed-noah");
+    expect(noah).not.toContain("data-attention");
+  });
+
+  it("remembers seen badges for one player without touching another", () => {
+    const storage = {
+      value: null as string | null,
+      getItem() {
+        return this.value;
+      },
+      setItem(_key: string, next: string) {
+        this.value = next;
+      },
+    };
+    expect(readSeenBadges(storage, "local")).toEqual([]);
+    writeSeenBadges(storage, "local", ["seed-noah"]);
+    writeSeenBadges(storage, "ada@example.com", ["seed-creation"]);
+    expect(readSeenBadges(storage, "local")).toEqual(["seed-noah"]);
+    expect(readSeenBadges(storage, "ada@example.com")).toEqual(["seed-creation"]);
+    expect(badgeAttention(true, readSeenBadges(storage, "local").includes("seed-noah"), false)).toBe("none");
+    expect(badgeAttention(true, readSeenBadges(storage, "local").includes("seed-creation"), false)).toBe("flash");
+  });
+});
+
+describe("earning a badge", () => {
+  it("shows the congratulations moment only when the badge is first earned", () => {
+    const badge = { id: "seed-creation", name: "Creation", art: "creation", questionIds: ["q1"] };
+    const before = emptyProgress();
+    const after = recordBadgeAnswer(before, badge, "q1", true, new Date("2026-11-24T12:00:00.000Z"));
+    expect(badgeJustEarned(badgeEarned(before, badge), badgeEarned(after, badge))).toBe(true);
+    expect(badgeJustEarned(true, badgeEarned(after, badge))).toBe(false);
+
+    const html = renderToStaticMarkup(
+      createElement(BadgeEarnedDialog, {
+        name: badge.name,
+        topic: badge.art,
+        slug: badge.id,
+        onContinue: () => undefined,
+      }),
+    );
+    expect(html).toContain('role="dialog"');
+    expect(html).toContain('aria-modal="true"');
+    expect(html).toContain(badgeEarnedMessage("Creation"));
+    expect(html).toContain("Well done! You earned the Creation badge.");
+    expect(html).toContain("Continue");
+    expect(html).toContain('data-icon="creation"');
+    expect(html.toLowerCase()).not.toMatch(/\b(seed|sprout|rooted|growing|established|fruitful|difficulty|easy|intermediate|advanced|expert|age)\b/);
   });
 });

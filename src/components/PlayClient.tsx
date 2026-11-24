@@ -4,11 +4,12 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { BadgePageMark, type BadgeEmblemStatus } from "@/components/BadgeEmblem";
+import { BadgeEarnedDialog } from "@/components/BadgeEarnedDialog";
 import { BadgeRetryNotice } from "@/components/BadgeRetryNotice";
 import { QuestionSession } from "@/components/QuestionSession";
 import { attemptForQuestion, linesForPathPlay } from "@/lib/game";
 import { showDifficultyLabels } from "@/lib/dev-flags";
-import { badgeEarned, badgeProgressLabel, selectBadgeQuestion } from "@/lib/game/badges";
+import { badgeEarned, badgeJustEarned, badgeProgressLabel, selectBadgeQuestion } from "@/lib/game/badges";
 import {
   BADGE_EARNED_NOTE,
   BADGE_PREPARING_NOTE,
@@ -42,6 +43,8 @@ export function PlayClient({
   const shownRef = useRef<Question | null>(null);
   const [now, setNow] = useState(() => Date.now());
   const [reviewingMiss, setReviewingMiss] = useState(false);
+  const [earnedMoment, setEarnedMoment] = useState<{ id: string; name: string; art: string } | null>(null);
+  const continueHref = useRef<string | null>(null);
   const badge = findPathBadge(search.get("badge") ?? "");
   const retryAt = state && badge ? badgeRetryDeadline(state.progress, badge.id) : null;
   const waiting = Boolean(retryAt && Date.parse(retryAt) > now);
@@ -113,6 +116,19 @@ export function PlayClient({
         <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
           See your stage map
         </Link>
+        {earnedMoment ? (
+          <BadgeEarnedDialog
+            name={earnedMoment.name}
+            topic={earnedMoment.art}
+            slug={earnedMoment.id}
+            onContinue={() => {
+              setEarnedMoment(null);
+              const href = continueHref.current;
+              continueHref.current = null;
+              if (href) router.push(href);
+            }}
+          />
+        ) : null}
       </section>
     );
   }
@@ -175,6 +191,7 @@ export function PlayClient({
           return;
         }
         const current = stateRef.current ?? state;
+        const wasEarned = badge ? badgeEarned(current.progress, badge) : false;
         const scored = new Set(current.progress.scoredIds ?? []);
         const gained = attemptPoints(missCount, review, scored.has(question.id));
         if (gained > 0) scored.add(question.id);
@@ -203,6 +220,7 @@ export function PlayClient({
           firstAttemptCorrect && !review,
         );
         if (badge) progress = recordBadgeAnswer(progress, badge, question.id, firstAttemptCorrect, new Date());
+        const earnedNow = Boolean(badge && badgeJustEarned(wasEarned, badgeEarned(progress, badge)));
         const before = progress.stage;
         progress = advanceStage(questions, progress);
         const celebration: Celebration | null =
@@ -215,7 +233,12 @@ export function PlayClient({
         if (current.ageGroup !== "child" && auth.email && !review) {
           void awardQuestionPoints({ questionId: question.id, missCount, seasonId: progress.seasonId ?? "season-1" });
         }
-        if (celebration) router.push("/complete");
+        if (earnedNow && badge) {
+          if (celebration) continueHref.current = "/complete";
+          setEarnedMoment({ id: badge.id, name: badge.name, art: badge.art });
+        } else if (celebration) {
+          router.push("/complete");
+        }
       }}
     />
   );

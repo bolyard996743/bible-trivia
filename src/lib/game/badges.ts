@@ -78,14 +78,19 @@ export function badgeProgressLabel(badgeId: string, section: string, path: Knowl
 }
 
 export function badgeCircleName(name: string, earned: boolean): string {
-  return earned ? `${name}. Earned` : `${name}. Not earned yet`;
+  return earned ? `${name}. Earned` : `${name}, not earned yet`;
 }
 
-/** Link name for a badge. Earned and empty keep the original wording. A 24-hour lock adds the clock. */
+/** Link name for a badge. A 24-hour wait adds the clock. An empty badge has no chip. */
 export function badgeStatusLabel(name: string, status: "earned" | "empty" | "locked"): string {
   if (status === "earned") return badgeCircleName(name, true);
   if (status === "locked") return `${badgeCircleName(name, false)}. Locked for 24 hours`;
   return badgeCircleName(name, false);
+}
+
+/** True only on the answer that first completes the badge. */
+export function badgeJustEarned(wasEarned: boolean, isEarned: boolean): boolean {
+  return !wasEarned && isEarned;
 }
 
 /**

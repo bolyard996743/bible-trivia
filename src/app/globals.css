@@ -324,8 +324,82 @@ a.badge-link {
   overflow: visible;
 }
 
-.badge-emblem-muted .badge-art {
-  filter: saturate(0.8) brightness(1.02);
+.badge-blank {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  border: 3px solid var(--ink-soft);
+  background: var(--card);
+}
+
+.badge-flash {
+  animation: badge-flash 2s ease-in-out 1;
+  border-radius: 999px;
+}
+
+.badge-glow {
+  border-radius: 999px;
+  box-shadow: 0 0 0 4px var(--gold-soft), 0 0 0 7px var(--gold);
+}
+
+@keyframes badge-flash {
+  0%,
+  16%,
+  32%,
+  54%,
+  70%,
+  100% {
+    box-shadow: 0 0 0 0 transparent;
+    transform: scale(1);
+  }
+  8%,
+  38%,
+  68% {
+    box-shadow: 0 0 0 5px var(--gold);
+    transform: scale(1.06);
+  }
+}
+
+.badge-earned-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  background: color-mix(in srgb, var(--grove-deep) 40%, transparent);
+}
+
+.badge-earned-dialog {
+  width: min(100%, 26rem);
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 1.75rem;
+  background: var(--card);
+  padding: 1.5rem 1.25rem 1.35rem;
+  text-align: center;
+  box-shadow: 0 18px 40px color-mix(in srgb, var(--grove-deep) 22%, transparent);
+}
+
+.badge-earned-pop {
+  animation: badge-pop 600ms ease-out both;
+}
+
+@keyframes badge-pop {
+  0% {
+    transform: scale(0.55);
+  }
+  70% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .badge-chip {
@@ -352,12 +426,6 @@ a.badge-link {
   border: 2px solid var(--badge-ring-to);
   background: #fffef8;
   color: var(--badge-ink);
-}
-
-.badge-chip-lock {
-  border: 2px solid var(--ink-soft);
-  background: var(--card);
-  color: var(--ink);
 }
 
 .badge-chip-clock {
@@ -397,7 +465,10 @@ a.badge-link {
 
   a.badge-link,
   a.tap.bg-grove,
-  button.bg-grove {
+  button.bg-grove,
+  .badge-flash,
+  .badge-earned-pop {
     transition: none;
+    animation: none;
   }
 }

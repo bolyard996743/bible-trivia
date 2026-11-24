@@ -1,29 +1,42 @@
 import { useId, type CSSProperties, type ReactNode } from "react";
 import { BADGE_GLYPHS } from "@/components/badge-glyphs";
 import { badgeLook } from "@/lib/game/badge-look";
+import type { BadgeAttention } from "@/lib/game/badge-seen";
 
 export type BadgeEmblemStatus = "earned" | "empty" | "locked";
-
-const CHIP_LABEL = {
-  earned: "Earned",
-  empty: "Not earned yet",
-  locked: "Locked for 24 hours",
-} as const;
 
 export function BadgeEmblem({
   topic,
   slug = "",
   status,
+  attention = "none",
 }: {
   topic: string;
   slug?: string;
   status: BadgeEmblemStatus;
+  attention?: BadgeAttention;
 }) {
   const rawId = useId().replace(/:/g, "");
+  const attentionClass = attention === "flash" ? "badge-flash" : attention === "glow" ? "badge-glow" : "";
+  if (status !== "earned") {
+    return (
+      <span
+        className={`badge-emblem ${attentionClass}`.trim()}
+        data-blank="true"
+        data-attention={attention === "none" ? undefined : attention}
+      >
+        <span className="badge-blank" aria-hidden="true" />
+        {status === "locked" ? (
+          <span className="badge-chip badge-chip-clock" data-chip="clock" role="img" aria-label="Locked for 24 hours">
+            <ClockIcon />
+          </span>
+        ) : null}
+      </span>
+    );
+  }
+
   const look = badgeLook(topic, slug);
   const Glyph = BADGE_GLYPHS[look.icon];
-  const muted = status !== "earned";
-  const chip = status === "earned" ? "check" : status === "locked" ? "clock" : "lock";
   const style = {
     "--badge-ring-from": look.palette.ringFrom,
     "--badge-ring-to": look.palette.ringTo,
@@ -34,7 +47,12 @@ export function BadgeEmblem({
   } as CSSProperties;
 
   return (
-    <span className={`badge-emblem${muted ? " badge-emblem-muted" : ""}`} style={style} data-icon={look.icon}>
+    <span
+      className={`badge-emblem ${attentionClass}`.trim()}
+      style={style}
+      data-icon={look.icon}
+      data-attention={attention === "none" ? undefined : attention}
+    >
       <svg className="badge-art" viewBox="0 0 120 120" aria-hidden="true">
         <defs>
           <linearGradient id={`${rawId}-ring`} x1="16" y1="6" x2="104" y2="112" gradientUnits="userSpaceOnUse">
@@ -55,8 +73,8 @@ export function BadgeEmblem({
           <Glyph />
         </g>
       </svg>
-      <span className={`badge-chip badge-chip-${chip}`} data-chip={chip} role="img" aria-label={CHIP_LABEL[status]}>
-        {chip === "check" ? <CheckIcon /> : chip === "clock" ? <ClockIcon /> : <LockIcon />}
+      <span className="badge-chip badge-chip-check" data-chip="check" role="img" aria-label="Earned">
+        <CheckIcon />
       </span>
     </span>
   );
@@ -66,15 +84,6 @@ function CheckIcon() {
   return (
     <svg viewBox="0 0 16 16" aria-hidden="true" className="badge-chip-icon">
       <path d="M3.2 8.2 6.4 11.2 12.8 4.6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
-function LockIcon() {
-  return (
-    <svg viewBox="0 0 16 16" aria-hidden="true" className="badge-chip-icon">
-      <rect x="3.2" y="7" width="9.6" height="6.4" rx="1.4" fill="currentColor" />
-      <path d="M5.2 7V5.2a2.8 2.8 0 0 1 5.6 0V7" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
     </svg>
   );
 }

@@ -62,7 +62,7 @@ describe("badge header uses the badge stage", () => {
   it("does not name a later stage on an earlier badge", () => {
     expect(badgeProgressLabel("seed-creation", "Genesis 2")).toBe("Seed · Genesis 2");
     expect(badgeProgressLabel("seed-creation", "Genesis 2")).not.toContain("Established");
-    expect(badgeCircleName("Creation", false)).toBe("Creation. Not earned yet");
+    expect(badgeCircleName("Creation", false)).toBe("Creation, not earned yet");
     expect(badgeCircleName("Creation", true)).toBe("Creation. Earned");
   });
 });
