@@ -45,6 +45,53 @@ const ROOTED_QUESTION_COUNT = 200;
 const GROWING_QUESTION_COUNT = 216;
 const ESTABLISHED_QUESTION_COUNT = 232;
 
+/**
+ * Badges 65-69 are in the path before their mascot lines exist.
+ * Every other stage, and every earlier Fruitful question, still needs its lines.
+ */
+export const FRUITFUL_BATCH_I_QUESTION_IDS = new Set<string>([
+  "c1-jas-0008",
+  "c2-jas-0002",
+  "c2-jas-0003",
+  "c2-jas-0004",
+  "c3-jas-0001",
+  "c3-jas-0002",
+  "c3-jas-0003",
+  "c3-jas-0004",
+  "c1-1pe-0002",
+  "c2-1pe-0006",
+  "c2-1pe-0007",
+  "c2-1pe-0008",
+  "c3-1pe-0003",
+  "c3-1pe-0004",
+  "c3-1pe-0005",
+  "c3-1pe-0006",
+  "c1-1jn-0002",
+  "c2-1jn-0006",
+  "c2-1jn-0007",
+  "c2-1jn-0008",
+  "c3-1jn-0003",
+  "c3-1jn-0004",
+  "c3-1jn-0005",
+  "c3-1jn-0006",
+  "c1-eph-0007",
+  "c2-eph-0001",
+  "c2-eph-0002",
+  "c2-eph-0003",
+  "c3-eph-0002",
+  "c3-eph-0003",
+  "c3-eph-0004",
+  "c3-eph-0005",
+  "c1-jud-0001",
+  "c2-jud-0001",
+  "c2-jud-0002",
+  "c2-jud-0003",
+  "c3-jud-0001",
+  "c3-jud-0002",
+  "c3-jud-0003",
+  "c3-jud-0004",
+]);
+
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
   /swallow(?:ed|s|ing)?\s+jonah/i,
@@ -68,7 +115,7 @@ function readJson(filePath: string): { value?: unknown; error?: string } {
 
 function requireStageLines(
   errors: string[],
-  stage: "Seed" | "Sprout" | "Rooted" | "Growing" | "Established",
+  stage: "Seed" | "Sprout" | "Rooted" | "Growing" | "Established" | "Fruitful",
   ids: string[],
   expected: number,
   answerLinesByQuestion: Map<string, Map<string, Set<string>>>,
@@ -80,6 +127,7 @@ function requireStageLines(
     );
   }
   for (const id of ids) {
+    if (stage === "Fruitful" && FRUITFUL_BATCH_I_QUESTION_IDS.has(id)) continue;
     const byMascot = answerLinesByQuestion.get(id) ?? new Map<string, Set<string>>();
     for (const mascot of MASCOT_IDS) {
       if (skipMascots.has(mascot)) continue;

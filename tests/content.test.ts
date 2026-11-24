@@ -4,11 +4,14 @@ import os from "os";
 import path from "path";
 import { describe, expect, it } from "vitest";
 import { linesForPathPlay, pickMascotLine, selectPlacementQuestions } from "@/lib/game";
+import { questionsForBadgeRun } from "@/lib/game/badges";
+import { linesForBadgePlay } from "@/lib/game/mascot";
+import { findPathBadge } from "@/lib/game/path";
 import { explanationRevealIssues } from "@/lib/game/reveal";
 import { MOMENTS, TIERS } from "@/lib/game/types";
 import { loadCatalog } from "@/lib/content/load";
 import { questionBatchSchema } from "@/lib/content/schema";
-import { validateContentTree } from "@/lib/content/validate";
+import { FRUITFUL_BATCH_I_QUESTION_IDS, validateContentTree } from "@/lib/content/validate";
 
 describe("sample content", () => {
   const result = validateContentTree(process.cwd());
@@ -861,7 +864,7 @@ describe("schema rejects a bad file", () => {
 });
 
 describe("Fruitful questions", () => {
-  const hidden = [
+  const batchI = [
     "fruitful-james-wealth-patience-and-prayer",
     "fruitful-1-peter-suffering-and-submission",
     "fruitful-1-john-test-the-spirits",
@@ -869,10 +872,10 @@ describe("Fruitful questions", () => {
     "fruitful-jude",
   ];
 
-  it("wires badges 1-64 and leaves the five unwritten badges empty", () => {
+  it("wires all 69 Fruitful badges, including Batch I", () => {
     const result = validateContentTree(process.cwd());
     expect(result.ok).toBe(true);
-    expect(result.questionCount).toBe(1404);
+    expect(result.questionCount).toBe(1444);
     expect(result.lineCount).toBe(13516);
 
     const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
@@ -880,12 +883,59 @@ describe("Fruitful questions", () => {
     };
     const badges = pathFile.stages.find((stage) => stage.stage === "Fruitful")?.badges ?? [];
     expect(badges).toHaveLength(69);
-    const wired = badges.slice(0, 64);
-    const empty = badges.slice(64);
-    expect(wired.every((badge) => badge.questionIds.length === 8)).toBe(true);
-    expect(wired.flatMap((badge) => badge.questionIds)).toHaveLength(512);
-    expect(empty.map((badge) => badge.id)).toEqual(hidden);
-    expect(empty.every((badge) => badge.questionIds.length === 0)).toBe(true);
+    expect(badges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(badges.flatMap((badge) => badge.questionIds)).toHaveLength(552);
+    expect(badges.slice(64).map((badge) => badge.id)).toEqual(batchI);
+    expect(badges.find((badge) => badge.id === "fruitful-james-wealth-patience-and-prayer")?.questionIds).toEqual([
+      "c1-jas-0008",
+      "c2-jas-0002",
+      "c2-jas-0003",
+      "c2-jas-0004",
+      "c3-jas-0001",
+      "c3-jas-0002",
+      "c3-jas-0003",
+      "c3-jas-0004",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-1-peter-suffering-and-submission")?.questionIds).toEqual([
+      "c1-1pe-0002",
+      "c2-1pe-0006",
+      "c2-1pe-0007",
+      "c2-1pe-0008",
+      "c3-1pe-0003",
+      "c3-1pe-0004",
+      "c3-1pe-0005",
+      "c3-1pe-0006",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-1-john-test-the-spirits")?.questionIds).toEqual([
+      "c1-1jn-0002",
+      "c2-1jn-0006",
+      "c2-1jn-0007",
+      "c2-1jn-0008",
+      "c3-1jn-0003",
+      "c3-1jn-0004",
+      "c3-1jn-0005",
+      "c3-1jn-0006",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-ephesians-walk-worthy")?.questionIds).toEqual([
+      "c1-eph-0007",
+      "c2-eph-0001",
+      "c2-eph-0002",
+      "c2-eph-0003",
+      "c3-eph-0002",
+      "c3-eph-0003",
+      "c3-eph-0004",
+      "c3-eph-0005",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-jude")?.questionIds).toEqual([
+      "c1-jud-0001",
+      "c2-jud-0001",
+      "c2-jud-0002",
+      "c2-jud-0003",
+      "c3-jud-0001",
+      "c3-jud-0002",
+      "c3-jud-0003",
+      "c3-jud-0004",
+    ]);
 
     expect(badges[0]?.questionIds).toEqual([
       "c1-gen-0062",
@@ -941,8 +991,8 @@ describe("Fruitful questions", () => {
     };
     const fruitfulIds =
       pathFile.stages.find((stage) => stage.stage === "Fruitful")?.badges.flatMap((badge) => badge.questionIds) ?? [];
-    expect(fruitfulIds).toHaveLength(512);
-    expect(questions.filter((question) => fruitfulIds.includes(question.id))).toHaveLength(512);
+    expect(fruitfulIds).toHaveLength(552);
+    expect(questions.filter((question) => fruitfulIds.includes(question.id))).toHaveLength(552);
     expect(lines.filter((line) => line.question_id && fruitfulIds.includes(line.question_id))).toHaveLength(0);
     expect(lines).toHaveLength(13516);
 
@@ -955,6 +1005,53 @@ describe("Fruitful questions", () => {
     expect(pickMascotLine(linesForPathPlay(lines), "agnes", "wrong_intro", "older", { questionId: id, random: () => 0 })?.question_id).toBe(
       null,
     );
+  });
+
+  it("plays a Batch I question with the general line when no mascot line exists", () => {
+    const { questions, lines } = loadCatalog();
+    const badge = findPathBadge("fruitful-james-wealth-patience-and-prayer");
+    expect(badge?.questionIds).toEqual([
+      "c1-jas-0008",
+      "c2-jas-0002",
+      "c2-jas-0003",
+      "c2-jas-0004",
+      "c3-jas-0001",
+      "c3-jas-0002",
+      "c3-jas-0003",
+      "c3-jas-0004",
+    ]);
+    const run = questionsForBadgeRun(questions, badge!);
+    expect(run.map((question) => question.id)).toEqual(badge?.questionIds);
+    const id = "c1-jas-0008";
+    expect(FRUITFUL_BATCH_I_QUESTION_IDS.has(id)).toBe(true);
+    expect(lines.some((line) => FRUITFUL_BATCH_I_QUESTION_IDS.has(line.question_id ?? ""))).toBe(false);
+
+    const playLines = linesForBadgePlay(lines, badge?.questionIds ?? []);
+    const spoken = pickMascotLine(playLines, "judah", "correct", "child", { questionId: id, random: () => 0 });
+    const general = pickMascotLine(playLines, "judah", "correct", "child", { random: () => 0 });
+    expect(spoken?.question_id).toBeNull();
+    expect(spoken?.text.length).toBeGreaterThan(0);
+    expect(spoken?.id).toBe(general?.id);
+
+    const result = validateContentTree(process.cwd());
+    expect(result.ok).toBe(true);
+    expect(result.errors.some((error) => [...FRUITFUL_BATCH_I_QUESTION_IDS].some((questionId) => error.includes(questionId)))).toBe(
+      false,
+    );
+  });
+
+  it("still requires answer lines for earlier stages", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "established_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    const id = Object.keys(lines)[0] ?? "";
+    delete lines[id];
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain(`Established question ${id} is missing a correct line for agnes`);
+    expect(result.errors.some((error) => error.includes("c1-jas-0008"))).toBe(false);
   });
 
   it("allows an empty Fruitful badge and rejects a partial list", () => {

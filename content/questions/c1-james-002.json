@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-james-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jas-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James pictures two visitors coming into the assembly: a poor man in filthy clothes, and a man in fine apparel. What else did the well-dressed man have?",
+        "child": "James tells about a man in fancy clothes who walks into the meeting. Besides the fine clothes, what did he have?",
+        "teen": "James 2:2: “if there should come into your assembly a man with” what?",
+        "older": "According to James 2:2, what did the well-dressed man in the assembly have?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "silver bracelets"
+        },
+        {
+          "id": "b",
+          "text": "gold rings"
+        },
+        {
+          "id": "c",
+          "text": "pearl earrings"
+        },
+        {
+          "id": "d",
+          "text": "jeweled crowns"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:2",
+            "text": "For if there should come into your assembly a man with gold rings, in fine apparel, and there should also come in a poor man in filthy clothes,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:2.",
+          "child": "Look right after “a man with” in verse 2.",
+          "teen": "2:2 describes the first man by two things, then the poor man. Read the first thing.",
+          "older": "It follows “if there should come into your assembly a man with” in 2:2."
+        },
+        "extended_explanation": "2:3 says the one in fine clothes was given a good place. 2:1 warns against showing partiality.",
+        "takeaway": "The man in fine apparel came in with gold rings."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jas-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 4",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James warns those who plan to go to a city and make a profit. What does he say their life is, which appears for a little time and then vanishes away?",
+        "child": "James says we do not know what will happen tomorrow. What does he compare our life to?",
+        "teen": "James 4:14: “For what is your life? It is even” what?",
+        "older": "According to James 4:14, what is life compared to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a flower"
+        },
+        {
+          "id": "b",
+          "text": "a song"
+        },
+        {
+          "id": "c",
+          "text": "a lamp"
+        },
+        {
+          "id": "d",
+          "text": "a vapor"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 4:14",
+            "text": "whereas you do not know what will happen tomorrow. For what is your life? It is even a vapor that appears for a little time and then vanishes away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 4:14.",
+          "child": "Look right after “It is even” in verse 14.",
+          "teen": "4:14 asks a question about life and answers with a picture, then says what it does. Read the picture.",
+          "older": "It follows “For what is your life? It is even” in 4:14."
+        },
+        "extended_explanation": "4:15 says to say, “If the Lord wills, we shall live and do this or that.” 4:16 calls boasting in arrogance evil.",
+        "takeaway": "James says life is a vapor."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jas-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James describes giving the well-dressed visitor a good place. According to 2:3, besides “You stand there,” what might be said to the poor man?",
+        "child": "In James’s story, the man in fine clothes gets a good place. What else might the poor man be told, besides to stand there?",
+        "teen": "James 2:3: to the poor man, “You stand there,” or what?",
+        "older": "According to James 2:3, what second instruction might be given to the poor man?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sit here at my footstool"
+        },
+        {
+          "id": "b",
+          "text": "Wait outside by the gate"
+        },
+        {
+          "id": "c",
+          "text": "Go and stand at the very back"
+        },
+        {
+          "id": "d",
+          "text": "Come back another day"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:3",
+            "text": "and you pay attention to the one wearing the fine clothes and say to him, “You sit here in a good place,” and say to the poor man, “You stand there,” or, “Sit here at my footstool,”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 2:4",
+            "text": "have you not shown partiality among yourselves, and become judges with evil thoughts?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:3.",
+          "child": "Look at the last words of verse 3.",
+          "teen": "2:3 gives words for the first man, then two options for the poor man. Read the second option.",
+          "older": "It comes right after “You stand there,” in 2:3."
+        },
+        "extended_explanation": "2:4 asks whether they have not shown partiality and become judges with evil thoughts. 2:6 says they have dishonored the poor man.",
+        "takeaway": "The poor man might be told, “Sit here at my footstool.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jas-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 5",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James says the wages of the laborers, kept back by fraud, cry out. According to 5:4, whose ears have the cries of the reapers reached?",
+        "child": "Some landowners kept back their workers’ pay. Whose ears heard the workers cry out?",
+        "teen": "James 5:4: “the cries of the reapers have reached the ears of” whom?",
+        "older": "According to James 5:4, who has heard the cries of the reapers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Lord of glory"
+        },
+        {
+          "id": "b",
+          "text": "the Judge of all the earth"
+        },
+        {
+          "id": "c",
+          "text": "the Lord of Sabaoth"
+        },
+        {
+          "id": "d",
+          "text": "the Mighty One of Jacob"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 5:3",
+            "text": "Your gold and silver are corroded, and their corrosion will be a witness against you and will eat your flesh like fire. You have heaped up treasure in the last days.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 5:4",
+            "text": "Indeed the wages of the laborers who mowed your fields, which you kept back by fraud, cry out; and the cries of the reapers have reached the ears of the Lord of Sabaoth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "5:4 says what cries out, then whose cries reached whose ears. Read the last words.",
+          "older": "It follows “have reached the ears of” in 5:4."
+        },
+        "extended_explanation": "5:3 says they have heaped up treasure in the last days. 5:2 says their garments are moth-eaten.",
+        "takeaway": "The reapers’ cries reached the ears of the Lord of Sabaoth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jas-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 5",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James asks, “Is anyone among you sick?” According to 5:14, what should that person do?",
+        "child": "If someone among the believers is sick, what does James say that person should do?",
+        "teen": "James 5:14: “Is anyone among you sick? Let him” do what?",
+        "older": "According to James 5:14, what should a sick believer do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "send for the priests of the temple"
+        },
+        {
+          "id": "b",
+          "text": "go to the healers of the town"
+        },
+        {
+          "id": "c",
+          "text": "ask the scribes to visit him"
+        },
+        {
+          "id": "d",
+          "text": "call for the elders of the church"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 5:13",
+            "text": "Is anyone among you suffering? Let him pray. Is anyone cheerful? Let him sing psalms.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 5:14",
+            "text": "Is anyone among you sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “Let him” in 5:14.",
+          "child": "Look right after “Let him” in verse 14.",
+          "teen": "5:14 asks a question, says whom the sick person sends for, then what they do. Read the first instruction.",
+          "older": "It follows “Is anyone among you sick? Let him” in 5:14."
+        },
+        "extended_explanation": "They are to pray over him, anointing him with oil. 5:13 says that one who is suffering should pray.",
+        "takeaway": "A sick believer should call for the elders of the church."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jas-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James 5:1 warns the wealthy to weep and howl. In 2:5, God has chosen the poor of this world to be what, and heirs of the kingdom?",
+        "child": "James warns people who trust in money, but in chapter 2 he says something good about poor people God has chosen. What has God chosen them to be?",
+        "teen": "James 2:5: God has chosen “the poor of this world to be” what?",
+        "older": "Read with 5:1, what does 2:5 say God chose the poor to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "rich in faith"
+        },
+        {
+          "id": "b",
+          "text": "strong in spirit"
+        },
+        {
+          "id": "c",
+          "text": "wise in heart"
+        },
+        {
+          "id": "d",
+          "text": "great in honor"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:5",
+            "text": "Listen, my beloved brethren: Has God not chosen the poor of this world to be rich in faith and heirs of the kingdom which He promised to those who love Him?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 5:1",
+            "text": "Come now, you rich, weep and howl for your miseries that are coming upon you!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:5.",
+          "child": "Look right after “the poor of this world to be” in verse 5.",
+          "teen": "5:1 addresses the wealthy; 2:5 says whom God chose, what they are to be, and what they inherit. Read the middle.",
+          "older": "It follows “Has God not chosen the poor of this world to be” in 2:5."
+        },
+        "extended_explanation": "2:5 adds that they are heirs of the kingdom He promised. 5:1 speaks of miseries that are coming.",
+        "takeaway": "God chose the poor of this world to be rich in faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jas-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 4",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James 4:8 says, “Draw near to God and He will draw near to you.” In 5:16, what should believers confess to one another?",
+        "child": "James says that if we come close to God, He will come close to us. Later he tells believers to confess something to one another. What?",
+        "teen": "James 5:16: “Confess” what “to one another”?",
+        "older": "Read with 4:8, what does 5:16 tell believers to confess to one another?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your doubts"
+        },
+        {
+          "id": "b",
+          "text": "your trespasses"
+        },
+        {
+          "id": "c",
+          "text": "your fears"
+        },
+        {
+          "id": "d",
+          "text": "your secret worries"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 4:8",
+            "text": "Draw near to God and He will draw near to you. Cleanse your hands, you sinners; and purify your hearts, you double-minded.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 5:16",
+            "text": "Confess your trespasses to one another, and pray for one another, that you may be healed. The effective, fervent prayer of a righteous man avails much.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 5:16.",
+          "child": "Look right after “Confess” in verse 16.",
+          "teen": "4:8 gives a promise and two commands; 5:16 says what to confess, to pray for one another, and why. Read what to confess.",
+          "older": "It follows “Confess” in 5:16."
+        },
+        "extended_explanation": "5:16 adds, “pray for one another, that you may be healed.” 4:8 also tells sinners to cleanse their hands.",
+        "takeaway": "Confess your trespasses to one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jas-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "james-wealth-patience-and-prayer"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James 4:17 says that to him who knows to do good and does not do it, it is sin. In 2:10, whoever keeps the whole law yet stumbles how is guilty of all?",
+        "child": "James says knowing the right thing and not doing it is sin. He also says someone can keep the whole law and still be guilty of all of it. How does that person stumble?",
+        "teen": "James 2:10: whoever keeps the whole law, “and yet stumble” how?",
+        "older": "Read with 4:17, how does 2:10 say a person stumbles and becomes guilty of all?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in secret"
+        },
+        {
+          "id": "b",
+          "text": "in small matters"
+        },
+        {
+          "id": "c",
+          "text": "in one point"
+        },
+        {
+          "id": "d",
+          "text": "on a feast day"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:10",
+            "text": "For whoever shall keep the whole law, and yet stumble in one point, he is guilty of all.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 4:17",
+            "text": "Therefore, to him who knows to do good and does not do it, to him it is sin.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:10.",
+          "child": "Look right after “stumble” in verse 10.",
+          "teen": "4:17 names what is sin; 2:10 says what is kept, how one stumbles, and the result. Read the middle.",
+          "older": "It follows “For whoever shall keep the whole law, and yet stumble” in 2:10."
+        },
+        "extended_explanation": "2:9 says showing partiality is sin. 2:13 says mercy triumphs over judgment.",
+        "takeaway": "Stumbling in one point makes a person guilty of all."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}
