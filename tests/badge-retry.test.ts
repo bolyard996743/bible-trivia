@@ -19,10 +19,10 @@ import {
   normalizeBadgeRetries,
   recordBadgeAnswer,
 } from "@/lib/game/badge-retry";
-import { badgeEarned, selectBadgeQuestion } from "@/lib/game/badges";
+import { badgeEarned, selectBadgeQuestion, stageForPathBadge } from "@/lib/game/badges";
+import { findPathBadge, type PathBadge } from "@/lib/game/path";
 import { emptyProgress } from "@/lib/game/progression";
 import type { GameProgress, MascotId, Question } from "@/lib/game/types";
-import type { PathBadge } from "@/lib/game/path";
 import { createState, parseState, STORAGE_KEY, type StoredState } from "@/lib/storage";
 
 const badge: PathBadge = {
@@ -299,6 +299,22 @@ describe("badge retry storage", () => {
     const parsed = parseState(JSON.stringify(state));
     expect(Object.keys(parsed?.progress.badgeRetries ?? {})).toEqual([badge.id]);
     expect(isBadgeWaiting(parsed!.progress, badge.id, start)).toBe(true);
+  });
+
+  it("reads a renamed Fruitful badge id as the current badge", () => {
+    const oldId = "fruitful-song-of-solomon-love-is-strong-narrow-careful-sc";
+    const current = findPathBadge(oldId);
+    expect(current?.id).toBe("fruitful-song-of-solomon");
+    expect(current?.name).toBe("Song of Solomon: Love Is Strong");
+    expect(stageForPathBadge(oldId)).toBe("Fruitful");
+    const stored = normalizeBadgeRetries({
+      [oldId]: {
+        correctIds: ["c1-sng-0001"],
+        updatedAt: start.toISOString(),
+      },
+    });
+    expect(stored).not.toHaveProperty(oldId);
+    expect(stored?.["fruitful-song-of-solomon"]?.correctIds).toEqual(["c1-sng-0001"]);
   });
 
   it("round-trips the lock for a signed-in player and keeps players apart", async () => {

@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-amos-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-amo-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 7",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In a vision the Lord stood with something in His hand and asked, “Amos, what do you see?” What did Amos say he saw?",
+        "child": "In a vision God stood holding something in His hand. God asked Amos what he saw. What did Amos say?",
+        "teen": "Amos 7:8: “Amos, what do you see?” What is Amos’s reply?",
+        "older": "According to Amos 7:8, what did Amos say he saw in the Lord’s hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A measuring reed"
+        },
+        {
+          "id": "b",
+          "text": "A plumb line"
+        },
+        {
+          "id": "c",
+          "text": "A sharp sickle"
+        },
+        {
+          "id": "d",
+          "text": "A pair of scales"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 7:7",
+            "text": "Thus He showed me: Behold, the Lord stood on a wall made with a plumb line, with a plumb line in His hand.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 7:8",
+            "text": "And the LORD said to me, “Amos, what do you see?” And I said, “A plumb line.” Then the Lord said: “Behold, I am setting a plumb line In the midst of My people Israel; I will not pass by them anymore.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Amos’s reply in 7:8, right after “And I said.”",
+          "child": "Look at verse 8. Amos’s short reply comes right after “And I said.”",
+          "teen": "7:8 has the Lord’s question and Amos’s reply. Read the reply.",
+          "older": "It follows “And I said” in 7:8."
+        },
+        "extended_explanation": "Amos 7 records a series of visions. In the first two (7:1-6) Amos pleads and the LORD relents. In the third (7:7-9) the Lord stands holding something in His hand, and Amos names it when asked. The Lord then says He will set it in the midst of His people and will not pass by them anymore.",
+        "takeaway": "Amos said, “A plumb line.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-amo-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 5",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Take away from Me the noise of your songs.” Instead the LORD says, “Let justice run down like water.” What does He say righteousness should be like?",
+        "child": "God did not want noisy songs from people who were unfair. He said, “Let justice run down like water.” What should righteousness be like?",
+        "teen": "Amos 5:24: “Let justice run down like water, And righteousness like ___.” What fills the blank?",
+        "older": "According to Amos 5:24, what should righteousness be like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a gentle rain"
+        },
+        {
+          "id": "b",
+          "text": "a flowing spring"
+        },
+        {
+          "id": "c",
+          "text": "a deep river"
+        },
+        {
+          "id": "d",
+          "text": "a mighty stream"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 5:23",
+            "text": "Take away from Me the noise of your songs, For I will not hear the melody of your stringed instruments.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 5:24",
+            "text": "But let justice run down like water, And righteousness like a mighty stream.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 5:24, after “And righteousness like.”",
+          "child": "Look at the end of verse 24. The words come right after “righteousness like.”",
+          "teen": "5:24 has two matching lines. Read the second.",
+          "older": "It closes 5:24, after “And righteousness like.”"
+        },
+        "extended_explanation": "In 5:21-23 the LORD rejects Israel’s feasts, offerings, and songs because they were offered without justice. 5:24 gives what He wants instead, in two matching lines, both using pictures of water. The first line is about justice; the second line is about righteousness.",
+        "takeaway": "“Let justice run down like water, And righteousness like a mighty stream.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-amo-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 5",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD tells the house of Israel not to seek Bethel, enter Gilgal, or pass over to Beersheba. What does He tell them to do first, in 5:4?",
+        "child": "God told Israel not to go to their favorite worship places, like Bethel and Gilgal. What did He tell them to do instead?",
+        "teen": "Amos 5:4: “For thus says the LORD to the house of Israel:” What follows?",
+        "older": "According to Amos 5:4, what does the LORD say to the house of Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Seek Me and live"
+        },
+        {
+          "id": "b",
+          "text": "Fear Me and obey"
+        },
+        {
+          "id": "c",
+          "text": "Seek Me in Zion"
+        },
+        {
+          "id": "d",
+          "text": "Return to Me and rest"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 5:4",
+            "text": "For thus says the LORD to the house of Israel: “Seek Me and live;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 5:5",
+            "text": "But do not seek Bethel, Nor enter Gilgal, Nor pass over to Beersheba; For Gilgal shall surely go into captivity, And Bethel shall come to nothing.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:4, after “to the house of Israel.”",
+          "child": "Look at verse 4. The LORD’s words come right after “the house of Israel.”",
+          "teen": "5:4 introduces a short command. 5:5 then says what not to seek.",
+          "older": "It closes 5:4, after “to the house of Israel.”"
+        },
+        "extended_explanation": "Amos 5 begins as a funeral song for Israel. In the middle of it comes an invitation from the LORD in 5:4, followed in 5:5 by a warning not to go to Bethel, Gilgal, or Beersheba, the shrines where Israel worshiped without obeying. 5:6 repeats the invitation in the prophet’s own words.",
+        "takeaway": "The LORD said, “Seek Me and live.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-amo-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 7",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amaziah the priest told Amos, “Go, you seer! Flee to the land of Judah.” What reason did he give for Amos never again prophesying at Bethel?",
+        "child": "A priest named Amaziah told Amos to go back to Judah and stop preaching at Bethel. What did he say Bethel was?",
+        "teen": "Amos 7:13: “But never again prophesy at Bethel, For it is ___.” What fills the blank?",
+        "older": "According to Amos 7:13, what did Amaziah call Bethel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a school for prophets"
+        },
+        {
+          "id": "b",
+          "text": "a city of refuge"
+        },
+        {
+          "id": "c",
+          "text": "the king’s sanctuary"
+        },
+        {
+          "id": "d",
+          "text": "the high priest’s city"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 7:12",
+            "text": "Then Amaziah said to Amos: “Go, you seer! Flee to the land of Judah. There eat bread, And there prophesy.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 7:13",
+            "text": "But never again prophesy at Bethel, For it is the king’s sanctuary, And it is the royal residence.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 7:13, after “For it is.”",
+          "child": "Look at verse 13. Amaziah’s reason comes right after “For it is.”",
+          "teen": "7:13 gives two descriptions of Bethel. Read the first.",
+          "older": "It follows “For it is” in 7:13, before “And it is the royal residence.”"
+        },
+        "extended_explanation": "In 7:10-11 Amaziah reports Amos to Jeroboam. In 7:12-13 he confronts Amos directly and tells him to earn his bread in Judah. His reason in 7:13 has two parts; the second part calls Bethel “the royal residence.” Amos answers in 7:14-15 that the LORD Himself sent him.",
+        "takeaway": "Amaziah said Bethel was “the king’s sanctuary.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 6",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos describes those who lie on beds of ivory, drink wine from bowls, and anoint themselves with the best ointments. For what are they not grieved?",
+        "child": "Some rich people in Israel relaxed on fancy beds and drank wine from bowls. What did they not feel sorry about?",
+        "teen": "Amos 6:6 ends, “But are not grieved for ___.” What fills the blank?",
+        "older": "According to Amos 6:6, what did the comfortable not grieve over?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the sins of their fathers"
+        },
+        {
+          "id": "b",
+          "text": "the affliction of Joseph"
+        },
+        {
+          "id": "c",
+          "text": "the poor at their gates"
+        },
+        {
+          "id": "d",
+          "text": "the ruin of the temple"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 6:4",
+            "text": "Who lie on beds of ivory, Stretch out on your couches, Eat lambs from the flock And calves from the midst of the stall;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 6:6",
+            "text": "Who drink wine from bowls, And anoint yourselves with the best ointments, But are not grieved for the affliction of Joseph.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 6:6, after “But are not grieved for.”",
+          "child": "Look at the end of verse 6. The words come after “not grieved for.”",
+          "teen": "6:6 lists two comforts and then a contrast. Read the contrast.",
+          "older": "It closes 6:6, after “But are not grieved for.”"
+        },
+        "extended_explanation": "Amos 6:1 begins, “Woe to you who are at ease in Zion.” 6:4-6 describes their luxury: beds of ivory, lambs from the flock, music, wine, and fine ointments. The last line of 6:6 turns from what they enjoy to what they ignore.",
+        "takeaway": "They “are not grieved for the affliction of Joseph.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 7",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In a vision of locusts, Amos pleads, “O Lord GOD, forgive, I pray! Oh, that Jacob may stand.” What reason does he give?",
+        "child": "Amos saw locusts eating the land and begged God to forgive. He asked that Jacob might stand. Why?",
+        "teen": "Amos 7:2: “Oh, that Jacob may stand, ___!” What reason fills the blank?",
+        "older": "According to Amos 7:2, what reason did Amos give in pleading for Jacob?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For he has repented"
+        },
+        {
+          "id": "b",
+          "text": "For he is Your people"
+        },
+        {
+          "id": "c",
+          "text": "For he is Your firstborn"
+        },
+        {
+          "id": "d",
+          "text": "For he is small"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 7:2",
+            "text": "And so it was, when they had finished eating the grass of the land, that I said: “O Lord GOD, forgive, I pray! Oh, that Jacob may stand, For he is small!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 9:8",
+            "text": "“Behold, the eyes of the Lord GOD are on the sinful kingdom, And I will destroy it from the face of the earth; Yet I will not utterly destroy the house of Jacob,” Says the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the very end of 7:2, after “Oh, that Jacob may stand.”",
+          "child": "Look at the last words of verse 2, after “that Jacob may stand.”",
+          "teen": "7:2 ends with Amos’s plea and its reason. Read the reason.",
+          "older": "It closes 7:2, after “Oh, that Jacob may stand.”"
+        },
+        "extended_explanation": "In 7:1-6 Amos sees locusts and then fire, and each time he pleads for Jacob with the same words; each time the LORD relents. Later, in 9:8, after the final judgments, the LORD says, “Yet I will not utterly destroy the house of Jacob.”",
+        "takeaway": "Amos pleaded, “Oh, that Jacob may stand, For he is small!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 5",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos 5:18 warns that the day of the LORD “will be darkness, and not light.” In 8:9, when does the Lord GOD say He will make the sun go down?",
+        "child": "Amos said the day of the LORD would be dark, not bright. Later God said He would make the sun go down at a surprising time. When?",
+        "teen": "Link Amos 5:18 and 8:9. “I will make the sun go down” when?",
+        "older": "According to Amos 8:9, at what time will the Lord GOD make the sun go down?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At noon"
+        },
+        {
+          "id": "b",
+          "text": "At dawn"
+        },
+        {
+          "id": "c",
+          "text": "At harvest time"
+        },
+        {
+          "id": "d",
+          "text": "At the third hour"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 5:18",
+            "text": "Woe to you who desire the day of the LORD! For what good is the day of the LORD to you? It will be darkness, and not light.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 8:9",
+            "text": "“And it shall come to pass in that day,” says the Lord GOD, “That I will make the sun go down at noon, And I will darken the earth in broad daylight;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 8:9 after “I will make the sun go down.”",
+          "child": "Look at verse 9. The time comes right after “the sun go down.”",
+          "teen": "8:9 has two matching lines. Read the end of the first.",
+          "older": "It follows “That I will make the sun go down” in 8:9."
+        },
+        "extended_explanation": "5:18-20 corrects those who longed for the day of the LORD as a day of victory; Amos says it will be dark. 8:9 returns to that picture with a sign in the sky, given in two matching lines. 8:10 adds that feasts will turn into mourning.",
+        "takeaway": "God said, “I will make the sun go down at noon.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-amo-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 5",
+      "topics": [
+        "amos-justice-and-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos 5:2 laments, “The virgin of Israel has fallen,” with “no one to raise her up.” In 9:11, what does the LORD promise to raise up?",
+        "child": "Early in chapter 5, Amos sings a sad song about Israel falling with no one to help her up. At the end of the book, God promises to raise something up. What?",
+        "teen": "Connect Amos 5:2 and 9:11. “On that day I will raise up” what?",
+        "older": "According to Amos 9:11, what will the LORD raise up on that day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The walls of Samaria"
+        },
+        {
+          "id": "b",
+          "text": "The altar of Bethel"
+        },
+        {
+          "id": "c",
+          "text": "The tabernacle of David"
+        },
+        {
+          "id": "d",
+          "text": "The palaces of Jerusalem"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 5:2",
+            "text": "The virgin of Israel has fallen; She will rise no more. She lies forsaken on her land; There is no one to raise her up.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 9:11",
+            "text": "“On that day I will raise up The tabernacle of David, which has fallen down, And repair its damages; I will raise up its ruins, And rebuild it as in the days of old;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 9:11 after “On that day I will raise up.”",
+          "child": "Look at verse 11. What God raises comes right after “I will raise up.”",
+          "teen": "9:11 names something that has fallen down and will be repaired. Read the first line.",
+          "older": "It follows “On that day I will raise up” in 9:11."
+        },
+        "extended_explanation": "5:2 is a funeral song: Israel has fallen and there is no one to lift her. The book closes in 9:11-15 with hope. 9:11 names something that has fallen down and promises to repair its damages and rebuild it as in the days of old. James quotes this promise at the Jerusalem council in Acts 15.",
+        "takeaway": "God promised, “I will raise up The tabernacle of David.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-joel-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jol-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 2",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After locusts ruined the land, the prophet Joel called the people to return to the LORD. What does he tell them to tear, and not their garments?",
+        "child": "In Joel’s day, people tore their garments to show sorrow. Joel said God wanted them to tear something else instead. What?",
+        "teen": "Joel 2:13 says, “So rend ___, and not your garments.” What fills the blank?",
+        "older": "According to Joel 2:13, what were the people to rend instead of their garments?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your idols"
+        },
+        {
+          "id": "b",
+          "text": "your altars"
+        },
+        {
+          "id": "c",
+          "text": "your heart"
+        },
+        {
+          "id": "d",
+          "text": "your scrolls"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 2:13",
+            "text": "So rend your heart, and not your garments; Return to the LORD your God, For He is gracious and merciful, Slow to anger, and of great kindness; And He relents from doing harm.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of 2:13, right after “So rend.”",
+          "child": "Look at the start of verse 13. The word you need comes right after “So rend.”",
+          "teen": "2:13 opens with a contrast: one thing to rend and “not your garments.” Read the first part.",
+          "older": "It follows “So rend” at the opening of 2:13, before “and not your garments.”"
+        },
+        "extended_explanation": "Joel’s book opens with a terrible locust plague, which he treats as a warning of the day of the LORD. In 2:12-13 the LORD calls the people to turn to Him with fasting, weeping, and mourning. 2:13 opens with a contrast to the custom of tearing clothes, and gives the reason to return: He is gracious and merciful, slow to anger.",
+        "takeaway": "“So rend your heart, and not your garments; Return to the LORD your God.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jol-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 1",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel says a nation has laid waste the LORD’s vine and ruined His fig tree, stripping it bare and throwing it away. What does he say about its branches?",
+        "child": "In Joel, an invading swarm ruins the vines and fig trees and strips them bare. What happens to the branches?",
+        "teen": "In Joel 1:7, “He has stripped it bare and thrown it away.” What does the last line say about the branches?",
+        "older": "According to Joel 1:7, what has become of the fig tree’s branches?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its branches are broken off"
+        },
+        {
+          "id": "b",
+          "text": "Its branches are made white"
+        },
+        {
+          "id": "c",
+          "text": "Its branches are cut down"
+        },
+        {
+          "id": "d",
+          "text": "Its branches are burned"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 1:7",
+            "text": "He has laid waste My vine, And ruined My fig tree; He has stripped it bare and thrown it away; Its branches are made white.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 1:7, after “thrown it away.”",
+          "child": "Look at the very end of verse 7. The words come after “thrown it away.”",
+          "teen": "1:7 lists what the invader did to the vine and fig tree. Read the final line.",
+          "older": "The closing line of 1:7, after “thrown it away,” gives it."
+        },
+        "extended_explanation": "Joel 1:6 describes the locust swarm as a nation, strong and without number, with teeth like a lion’s. 1:7 tells what it has done to the LORD’s vine and fig tree, step by step, and its final line describes the branches. 1:10-12 goes on to the wasted field, the dried-up vine, and the withered trees.",
+        "takeaway": "“He has stripped it bare and thrown it away; Its branches are made white.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jol-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 2",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD says, “I will pour out My Spirit on all flesh.” Your sons and daughters shall prophesy. What does Joel say your young men shall do?",
+        "child": "God promised to pour out His Spirit on everyone. Sons and daughters would prophesy. What would the young men do?",
+        "teen": "In Joel 2:28, after “Your sons and your daughters shall prophesy,” what does the last line say about the young men?",
+        "older": "According to Joel 2:28, what shall the young men do when God pours out His Spirit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "sing new songs"
+        },
+        {
+          "id": "b",
+          "text": "lead the people"
+        },
+        {
+          "id": "c",
+          "text": "speak with power"
+        },
+        {
+          "id": "d",
+          "text": "see visions"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 2:28",
+            "text": "“And it shall come to pass afterward That I will pour out My Spirit on all flesh; Your sons and your daughters shall prophesy, Your old men shall dream dreams, Your young men shall see visions.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 2:29",
+            "text": "And also on My menservants and on My maidservants I will pour out My Spirit in those days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 2:28, after “Your young men shall.”",
+          "child": "Look at the very end of verse 28. The words come right after “Your young men shall.”",
+          "teen": "2:28 ends with a line about the young men. Read what follows “shall.”",
+          "older": "The final line of 2:28 closes with it, after “Your young men shall.”"
+        },
+        "extended_explanation": "2:28-29 promises that afterward God will pour out His Spirit on all flesh, including sons and daughters and even menservants and maidservants. 2:28 gives three lines about what different groups will do; the last line is about the young men. Peter quotes this passage at Pentecost in Acts 2.",
+        "takeaway": "God said, “Your young men shall see visions.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jol-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 1",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Facing the locust disaster and the day of the LORD at hand, Joel tells the priests, “Consecrate a fast.” What is his next command?",
+        "child": "Joel told the priests to set apart a time of fasting because of the disaster. What else did he tell them to do right after that?",
+        "teen": "Joel 1:14 begins, “Consecrate a fast.” What is the next command, before “Gather the elders”?",
+        "older": "According to Joel 1:14, what did Joel command right after “Consecrate a fast”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Call a sacred assembly"
+        },
+        {
+          "id": "b",
+          "text": "Build a new altar"
+        },
+        {
+          "id": "c",
+          "text": "Send for the seers"
+        },
+        {
+          "id": "d",
+          "text": "Open the royal storehouses"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 1:14",
+            "text": "Consecrate a fast, Call a sacred assembly; Gather the elders And all the inhabitants of the land Into the house of the LORD your God, And cry out to the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 1:15",
+            "text": "Alas for the day! For the day of the LORD is at hand; It shall come as destruction from the Almighty.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:14 right after “Consecrate a fast.”",
+          "child": "Look at the start of verse 14. The next command comes right after “Consecrate a fast.”",
+          "teen": "1:14 strings commands together. Read the second one.",
+          "older": "The second command of 1:14 follows “Consecrate a fast,” before “Gather the elders.”"
+        },
+        "extended_explanation": "In 1:13 Joel calls the priests to put on sackcloth and lament, for the offerings have been cut off. 1:14 gives a series of commands: consecrate a fast, then a second, then gather the elders and all the people into the temple and cry out. 1:15 gives the reason: the day of the LORD is at hand.",
+        "takeaway": "“Consecrate a fast, Call a sacred assembly; Gather the elders.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jol-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 3",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD will roar from Zion, and the heavens and earth will shake (3:16). What does the same verse say the LORD will be?",
+        "child": "Joel says the LORD will roar from Zion and the heavens and earth will shake. But what does Joel say the LORD will be?",
+        "teen": "In Joel 3:16, after “The heavens and earth will shake; But the LORD will be,” what follows?",
+        "older": "According to Joel 3:16, what will the LORD be, while the heavens and earth shake?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a sword against the nations"
+        },
+        {
+          "id": "b",
+          "text": "a shelter for His people"
+        },
+        {
+          "id": "c",
+          "text": "a judge over the nations"
+        },
+        {
+          "id": "d",
+          "text": "a fortress for Jerusalem"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 3:16",
+            "text": "The LORD also will roar from Zion, And utter His voice from Jerusalem; The heavens and earth will shake; But the LORD will be a shelter for His people, And the strength of the children of Israel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 3:17",
+            "text": "“So you shall know that I am the LORD your God, Dwelling in Zion My holy mountain. Then Jerusalem shall be holy, And no aliens shall ever pass through her again.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 3:16 after “But the LORD will be.”",
+          "child": "In verse 16, find “But the LORD will be.” The words come right after.",
+          "teen": "3:16 turns with “But.” Read the first thing the LORD will be.",
+          "older": "The first description after “But the LORD will be” in 3:16 gives it."
+        },
+        "extended_explanation": "Joel 3 pictures the nations gathered for judgment. 3:16 says the LORD will roar from Zion and the heavens and earth will shake, then turns with “But” to two descriptions of what He will be. 3:17 adds that His people will know He dwells in Zion, His holy mountain.",
+        "takeaway": "“The LORD will be a shelter for His people, And the strength of the children of Israel.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jol-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 2",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel calls, “Blow the trumpet in Zion,” for the day of the LORD is coming (2:1). In 3:14, where are the multitudes when the day of the LORD is near?",
+        "child": "Joel says to blow the trumpet because the day of the LORD is coming. Later he describes huge crowds gathered in a certain place. Where?",
+        "teen": "Connect Joel 2:1 and 3:14. In 3:14, “Multitudes, multitudes” where?",
+        "older": "According to Joel 3:14, where are the multitudes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "on the mountains of Samaria"
+        },
+        {
+          "id": "b",
+          "text": "in the valley of Hinnom"
+        },
+        {
+          "id": "c",
+          "text": "in the valley of decision"
+        },
+        {
+          "id": "d",
+          "text": "at the gates of Zion"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 2:1",
+            "text": "Blow the trumpet in Zion, And sound an alarm in My holy mountain! Let all the inhabitants of the land tremble; For the day of the LORD is coming, For it is at hand:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 3:14",
+            "text": "Multitudes, multitudes in the valley of decision! For the day of the LORD is near in the valley of decision.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 3:14 right after “Multitudes, multitudes.”",
+          "child": "Look at the start of verse 3:14. The place comes right after “Multitudes, multitudes.”",
+          "teen": "3:14 names the place twice. Read it after “Multitudes, multitudes.”",
+          "older": "The place follows “Multitudes, multitudes” at the opening of 3:14."
+        },
+        "extended_explanation": "In 2:1 Joel sounds an alarm in Zion, for the day of the LORD is at hand. In chapter 3 the nations are summoned for judgment. 3:14 names the place where the multitudes gather, twice, and says the day of the LORD is near there.",
+        "takeaway": "“Multitudes, multitudes in the valley of decision!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jol-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 1",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:4 four kinds of locust each ate what the one before had left. In 2:25 the LORD names the same four locusts. What does He promise to restore?",
+        "child": "At the start of Joel, four kinds of locusts ate everything. Later God named those same locusts and made a promise. What did He promise to give back?",
+        "teen": "Connect Joel 1:4 and 2:25. In 2:25, “So I will restore to you” what, that the swarming locust has eaten?",
+        "older": "According to Joel 2:25, what will the LORD restore?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the years"
+        },
+        {
+          "id": "b",
+          "text": "the harvests"
+        },
+        {
+          "id": "c",
+          "text": "the vineyards"
+        },
+        {
+          "id": "d",
+          "text": "the flocks"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 1:4",
+            "text": "What the chewing locust left, the swarming locust has eaten; What the swarming locust left, the crawling locust has eaten; And what the crawling locust left, the consuming locust has eaten.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 2:25",
+            "text": "“So I will restore to you the years that the swarming locust has eaten, The crawling locust, The consuming locust, And the chewing locust, My great army which I sent among you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2:25 right after “So I will restore to you.”",
+          "child": "Look at the start of verse 2:25. The words come right after “I will restore to you.”",
+          "teen": "2:25 opens with a promise. Read what follows “restore to you.”",
+          "older": "It follows “So I will restore to you” at the opening of 2:25."
+        },
+        "extended_explanation": "1:4 describes four waves of locusts, chewing, swarming, crawling, and consuming, each eating what the others left. 2:25 names the same four and calls them My great army which I sent among you, opening with a promise of restoration. 2:26 adds that the people will eat in plenty and never be put to shame.",
+        "takeaway": "“So I will restore to you the years that the swarming locust has eaten.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jol-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 2",
+      "topics": [
+        "spirit-poured-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 2:31 says the sun shall be turned into darkness and the moon into blood before the day of the LORD. 3:15 also says the sun and moon will be darkened. What does 3:15 say the stars will do?",
+        "child": "Joel says the sun will become dark and the moon will look like blood. In chapter 3, he says the sun and moon will be darkened again. What will the stars do?",
+        "teen": "Connect Joel 2:31 and 3:15. In 3:15, after the sun and moon, “And the stars will” what?",
+        "older": "According to Joel 3:15, what will the stars do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fall from the sky"
+        },
+        {
+          "id": "b",
+          "text": "fight from their courses"
+        },
+        {
+          "id": "c",
+          "text": "be hidden by thick clouds"
+        },
+        {
+          "id": "d",
+          "text": "diminish their brightness"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 2:31",
+            "text": "The sun shall be turned into darkness, And the moon into blood, Before the coming of the great and awesome day of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 3:15",
+            "text": "The sun and moon will grow dark, And the stars will diminish their brightness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 3:15, after “And the stars will.”",
+          "child": "Look at the end of verse 3:15. The words come right after “the stars will.”",
+          "teen": "3:15 has two lines. The second ends after “the stars will.”",
+          "older": "The second line of 3:15 closes with it, after “And the stars will.”"
+        },
+        "extended_explanation": "Joel describes signs in the heavens around the day of the LORD. 2:30-31 speaks of wonders in the heavens and earth, with the sun and moon changed before the great and awesome day. 3:15 returns to the picture as the nations gather for judgment, adding a second line about the stars.",
+        "takeaway": "In 3:15, “the stars will diminish their brightness.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

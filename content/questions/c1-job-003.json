@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-job-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-job-0005",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 5",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Eliphaz says man is born to trouble. In 5:7, what does he say fly upward?",
+        "child": "One of Job’s friends says trouble comes to people as surely as something rises. What does he say flies upward?",
+        "teen": "Job 5:7: “Yet man is born to trouble, As” what “fly upward”?",
+        "older": "According to Job 5:7, what fly upward?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the sparks"
+        },
+        {
+          "id": "b",
+          "text": "the birds"
+        },
+        {
+          "id": "c",
+          "text": "the clouds"
+        },
+        {
+          "id": "d",
+          "text": "the smoke"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 5:7",
+            "text": "Yet man is born to trouble, As the sparks fly upward.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 5:7.",
+          "child": "Look at the end of Job 5:7.",
+          "teen": "5:7 has two lines: trouble, and then a picture. Read the picture.",
+          "older": "It follows “As” in 5:7."
+        },
+        "extended_explanation": "5:6 says affliction does not come from the dust. 5:8 goes on: “But as for me, I would seek God.”",
+        "takeaway": "Man is born to trouble, “As the sparks fly upward.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-job-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 8",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Bildad speaks of all who forget God. In 8:14, what does he say their trust is?",
+        "child": "Bildad says people who forget God trust in something weak. What does he compare it to?",
+        "teen": "Job 8:14: “And whose trust is” what?",
+        "older": "According to Job 8:14, what is the trust of those who forget God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a withered leaf"
+        },
+        {
+          "id": "b",
+          "text": "a puff of smoke"
+        },
+        {
+          "id": "c",
+          "text": "a spider’s web"
+        },
+        {
+          "id": "d",
+          "text": "a crumbling wall"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 8:14",
+            "text": "Whose confidence shall be cut off, And whose trust is a spider’s web.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:14.",
+          "child": "Look at the last words of verse 14.",
+          "teen": "8:14 has two lines: confidence cut off, then trust. Read the second.",
+          "older": "It follows “whose trust is” in 8:14."
+        },
+        "extended_explanation": "8:13 says the hope of the hypocrite shall perish. 8:15 adds, “He leans on his house, but it does not stand.”",
+        "takeaway": "Their trust is “a spider’s web.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-job-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 15",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Eliphaz asks Job, “Are you the first man who was born?” In 15:7, what does he ask whether Job was made before?",
+        "child": "Job’s friend asks if Job was the very first man ever born. What else does he ask if Job was made before?",
+        "teen": "Job 15:7: “Or were you made before” what?",
+        "older": "According to Job 15:7, before what does Eliphaz ask whether Job was made?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the seas"
+        },
+        {
+          "id": "b",
+          "text": "the stars"
+        },
+        {
+          "id": "c",
+          "text": "the rivers"
+        },
+        {
+          "id": "d",
+          "text": "the hills"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 15:7",
+            "text": "“Are you the first man who was born? Or were you made before the hills?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 15:8",
+            "text": "Have you heard the counsel of God? Do you limit wisdom to yourself?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:7.",
+          "child": "Look at the last words of verse 7.",
+          "teen": "15:7 asks two questions. Read the end of the second.",
+          "older": "It closes 15:7."
+        },
+        "extended_explanation": "15:8 goes on to ask whether Job has heard the counsel of God and whether he limits wisdom to himself.",
+        "takeaway": "He asked, “Or were you made before the hills?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-job-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 32",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elihu’s wrath was aroused against Job and against his three friends. According to 32:2, whose son was he?",
+        "child": "A man named Elihu became angry and finally spoke up. Who was his father?",
+        "teen": "Job 32:2: “Elihu, the son of” whom?",
+        "older": "According to Job 32:2, who was Elihu’s father?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Amoz the Gileadite"
+        },
+        {
+          "id": "b",
+          "text": "Barachel the Buzite"
+        },
+        {
+          "id": "c",
+          "text": "Hanani the Temanite"
+        },
+        {
+          "id": "d",
+          "text": "Jakeh the Naamathite"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 32:2",
+            "text": "Then the wrath of Elihu, the son of Barachel the Buzite, of the family of Ram, was aroused against Job; his wrath was aroused because he justified himself rather than God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 32:3",
+            "text": "Also against his three friends his wrath was aroused, because they had found no answer, and yet had condemned Job.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 32:2, after “Elihu, the son of.”",
+          "child": "Look near the start of verse 2.",
+          "teen": "32:2 gives Elihu’s father and then his family. Read the father.",
+          "older": "It follows “the son of” in 32:2."
+        },
+        "extended_explanation": "32:2 says Elihu was angry because Job justified himself rather than God. 32:3 says he was angry with the three friends because they had condemned Job.",
+        "takeaway": "Elihu was the son of Barachel the Buzite."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-job-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 32",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Elihu says he is full of words. In 32:19, he says he is ready to burst like what?",
+        "child": "Elihu felt so full of things to say that he might burst. What did he say he was like?",
+        "teen": "Job 32:19: “It is ready to burst like” what?",
+        "older": "According to Job 32:19, what is Elihu ready to burst like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a full barrel"
+        },
+        {
+          "id": "b",
+          "text": "new wineskins"
+        },
+        {
+          "id": "c",
+          "text": "a storm cloud"
+        },
+        {
+          "id": "d",
+          "text": "a swollen river"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 32:18",
+            "text": "For I am full of words; The spirit within me compels me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 32:19",
+            "text": "Indeed my belly is like wine that has no vent; It is ready to burst like new wineskins.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 32:19.",
+          "child": "Look at the last words of verse 19.",
+          "teen": "32:19 gives two pictures; the second closes the verse. Read it.",
+          "older": "It follows “ready to burst like” in 32:19."
+        },
+        "extended_explanation": "32:18 says the spirit within him compels him. 32:19 first gives a picture of something that has no vent.",
+        "takeaway": "He was “ready to burst like new wineskins.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-job-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 4",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 4:17 Eliphaz asks, “Can a man be more pure than his Maker?” In 33:6, what does Elihu say he also has been?",
+        "child": "Elihu tells Job that he is just a man like him. How does he say he was made?",
+        "teen": "Job 33:6: “I also have been” what?",
+        "older": "Linking Job 4:17 with 33:6, what does Elihu say he too has been?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "formed out of clay"
+        },
+        {
+          "id": "b",
+          "text": "carved out of stone"
+        },
+        {
+          "id": "c",
+          "text": "cast out of bronze"
+        },
+        {
+          "id": "d",
+          "text": "woven out of linen"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 4:17",
+            "text": "‘Can a mortal be more righteous than God? Can a man be more pure than his Maker?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 33:6",
+            "text": "Truly I am as your spokesman before God; I also have been formed out of clay.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 33:6.",
+          "child": "Look at the last words of Job 33:6.",
+          "teen": "4:17 is the setting; 33:6 has two lines. Read the end of the second.",
+          "older": "It follows “I also have been” in 33:6."
+        },
+        "extended_explanation": "4:17 asks whether a mortal can be more righteous than God. 33:6 begins with Elihu saying he is as Job’s spokesman before God.",
+        "takeaway": "He said, “I also have been formed out of clay.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-job-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 11",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zophar asks in 11:7, “Can you search out the deep things of God?” In 36:26, what does Elihu say cannot be discovered?",
+        "child": "Elihu says God is so great that we cannot fully know Him. What can no one discover?",
+        "teen": "Job 36:26: “Nor can” what “be discovered”?",
+        "older": "Zophar and Elihu both speak of what cannot be known about God. According to 36:26, what cannot be discovered?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the end of His ways"
+        },
+        {
+          "id": "b",
+          "text": "the depth of His thoughts"
+        },
+        {
+          "id": "c",
+          "text": "the number of His years"
+        },
+        {
+          "id": "d",
+          "text": "the height of His throne"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 11:7",
+            "text": "“Can you search out the deep things of God? Can you find out the limits of the Almighty?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 36:26",
+            "text": "“Behold, God is great, and we do not know Him; Nor can the number of His years be discovered.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 36:26.",
+          "child": "Look at the end of Job 36:26.",
+          "teen": "11:7 is the setting; 36:26 has two lines. Read the second.",
+          "older": "It follows “Nor can” in 36:26."
+        },
+        "extended_explanation": "11:8 says such things are higher than heaven and deeper than Sheol. 36:26 opens, “Behold, God is great, and we do not know Him.”",
+        "takeaway": "Nor can “the number of His years be discovered.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-job-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 5",
+      "topics": [
+        "job-the-friends-and-elihu"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Eliphaz in 5:17 calls the man whom God corrects happy. In 8:7, what does Bildad say Job’s latter end would do?",
+        "child": "Bildad says that even though Job started small, his later days could change. What would they do?",
+        "teen": "Job 8:7: “Yet your latter end would” do what?",
+        "older": "Alongside Eliphaz’s word about correction in 5:17, what does Bildad say in 8:7 Job’s latter end would do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "return to the dust"
+        },
+        {
+          "id": "b",
+          "text": "shine like the dawn"
+        },
+        {
+          "id": "c",
+          "text": "be remembered forever"
+        },
+        {
+          "id": "d",
+          "text": "increase abundantly"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 5:17",
+            "text": "“Behold, happy is the man whom God corrects; Therefore do not despise the chastening of the Almighty.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 8:7",
+            "text": "Though your beginning was small, Yet your latter end would increase abundantly.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 8:7.",
+          "child": "Look at the end of Job 8:7.",
+          "teen": "5:17 is the setting; 8:7 sets the beginning beside the latter end. Read the second line.",
+          "older": "It closes 8:7."
+        },
+        "extended_explanation": "5:17 tells Job not to despise the chastening of the Almighty. 8:7 begins, “Though your beginning was small.”",
+        "takeaway": "His latter end would “increase abundantly.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

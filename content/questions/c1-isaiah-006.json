@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-isa-0008",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 13",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the burden against Babylon, the LORD says, “Behold, I will stir up” whom against them?",
+        "child": "God warned Babylon that He would send a people against it. Which people did He name?",
+        "teen": "Isaiah 13:17: “Behold, I will stir up ___ against them.” Who fills the blank?",
+        "older": "According to Isaiah 13:17, which people would the LORD stir up against Babylon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Persians"
+        },
+        {
+          "id": "b",
+          "text": "the Assyrians"
+        },
+        {
+          "id": "c",
+          "text": "the Medes"
+        },
+        {
+          "id": "d",
+          "text": "the Egyptians"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 13:17",
+            "text": "“Behold, I will stir up the Medes against them, Who will not regard silver; And as for gold, they will not delight in it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 13:17, after “I will stir up.”",
+          "child": "Look at the start of verse 17.",
+          "teen": "13:17 opens with the LORD’s own words. Read the people He names.",
+          "older": "It is in the opening line of 13:17."
+        },
+        "extended_explanation": "13:17 adds that this people will not regard silver and will take no delight in gold. 13:19 then turns to Babylon itself, “the glory of kingdoms.”",
+        "takeaway": "The LORD would stir up the Medes against Babylon."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0019",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 13",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah says Babylon, “the glory of kingdoms,” will be like cities God overthrew. Which cities?",
+        "child": "God said proud Babylon would be ruined like two cities He had destroyed long before. Which two?",
+        "teen": "Isaiah 13:19: Babylon “Will be as when God overthrew” which cities?",
+        "older": "According to Isaiah 13:19, Babylon will be as when God overthrew what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Sodom and Gomorrah"
+        },
+        {
+          "id": "b",
+          "text": "Jericho and Ai"
+        },
+        {
+          "id": "c",
+          "text": "Tyre and Sidon"
+        },
+        {
+          "id": "d",
+          "text": "Samaria and Damascus"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 13:19",
+            "text": "And Babylon, the glory of kingdoms, The beauty of the Chaldeans’ pride, Will be as when God overthrew Sodom and Gomorrah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 13:19, after “God overthrew.”",
+          "child": "Look at the end of verse 19.",
+          "teen": "13:19 closes with a comparison. Read the names in it.",
+          "older": "It ends 13:19."
+        },
+        "extended_explanation": "13:19 first calls Babylon “the glory of kingdoms” and “The beauty of the Chaldeans’ pride.” 13:20 adds that it will never be inhabited, and 13:21-22 fill its houses with owls, ostriches, and jackals.",
+        "takeaway": "Babylon would be overthrown like Sodom and Gomorrah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 24",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“The earth is violently broken.” In 24:20, the earth shall reel to and fro like what?",
+        "child": "Isaiah saw the whole earth shaking back and forth. What did he say it would sway like?",
+        "teen": "Isaiah 24:20: “The earth shall reel to and fro like ___.” What fills the blank?",
+        "older": "According to Isaiah 24:20, what will the reeling earth be like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a ship at sea"
+        },
+        {
+          "id": "b",
+          "text": "a reed in the wind"
+        },
+        {
+          "id": "c",
+          "text": "a wounded man"
+        },
+        {
+          "id": "d",
+          "text": "a drunkard"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 24:19",
+            "text": "The earth is violently broken, The earth is split open, The earth is shaken exceedingly.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 24:20",
+            "text": "The earth shall reel to and fro like a drunkard, And shall totter like a hut; Its transgression shall be heavy upon it, And it will fall, and not rise again.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 24:20, after “to and fro like.”",
+          "child": "Look at the start of verse 20.",
+          "teen": "24:20 opens with one picture and follows with a second. Read the first.",
+          "older": "It is near the start of 24:20."
+        },
+        "extended_explanation": "24:19 uses three lines in a row about the earth being broken, split, and shaken. 24:20 then adds a second picture, a tottering hut, and says its transgression is heavy upon it.",
+        "takeaway": "The earth shall reel to and fro like a drunkard."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0021",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 25",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On “this mountain” the LORD of hosts will make a feast for all people. In 25:6, the first feast is a feast of what?",
+        "child": "Isaiah said God will make a great feast for all people on His mountain. What kind of food is named first?",
+        "teen": "Isaiah 25:6: “A feast of ___, A feast of wines on the lees.” What fills the blank?",
+        "older": "According to Isaiah 25:6, what is the first feast the LORD of hosts will make for all people?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bread and fish"
+        },
+        {
+          "id": "b",
+          "text": "choice pieces"
+        },
+        {
+          "id": "c",
+          "text": "figs and raisins"
+        },
+        {
+          "id": "d",
+          "text": "lambs and goats"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 25:6",
+            "text": "And in this mountain The LORD of hosts will make for all people A feast of choice pieces, A feast of wines on the lees, Of fat things full of marrow, Of well-refined wines on the lees.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 25:7",
+            "text": "And He will destroy on this mountain The surface of the covering cast over all people, And the veil that is spread over all nations.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 25:6 after “will make for all people.”",
+          "child": "Look at the middle of verse 6, at the first “A feast of.”",
+          "teen": "25:6 names more than one feast. Read the first.",
+          "older": "It follows the first “A feast of” in 25:6."
+        },
+        "extended_explanation": "25:6 goes on to wines on the lees and fat things full of marrow. 25:7 adds that on the same mountain the LORD will destroy the covering cast over all people and the veil spread over all nations.",
+        "takeaway": "The LORD will make “A feast of choice pieces.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 25",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 25:8, what does Isaiah say the LORD will swallow up?",
+        "child": "Isaiah said God will swallow something up for good. What will it be?",
+        "teen": "Isaiah 25:8: “He will swallow up ___.” What fills the blank?",
+        "older": "According to Isaiah 25:8, what will the LORD swallow up?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "death forever"
+        },
+        {
+          "id": "b",
+          "text": "the sea forever"
+        },
+        {
+          "id": "c",
+          "text": "the proud forever"
+        },
+        {
+          "id": "d",
+          "text": "His enemies forever"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 25:8",
+            "text": "He will swallow up death forever, And the Lord GOD will wipe away tears from all faces; The rebuke of His people He will take away from all the earth; For the LORD has spoken.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 25:9",
+            "text": "And it will be said in that day: “Behold, this is our God; We have waited for Him, and He will save us. This is the LORD; We have waited for Him; We will be glad and rejoice in His salvation.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 25:8.",
+          "child": "Look at the very start of verse 8.",
+          "teen": "25:8 opens with this promise; 25:9 gives the people’s reply. Read the opening line.",
+          "older": "It begins 25:8."
+        },
+        "extended_explanation": "25:8 continues with the Lord GOD wiping every face and taking away the rebuke of His people. 25:9 is what they will say in that day: “Behold, this is our God; We have waited for Him, and He will save us.”",
+        "takeaway": "He will swallow up death forever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 24",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 24:14 they lift up their voice and sing for the majesty of the LORD. In 26:3, how will the LORD keep the one whose mind is stayed on Him?",
+        "child": "Isaiah said God will keep a person safe when that person’s mind stays on Him. How will God keep that person?",
+        "teen": "Isaiah 26:3: “You will keep him in ___, Whose mind is stayed on You.” What fills the blank?",
+        "older": "According to Isaiah 26:3, in what will the LORD keep the one who trusts in Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "quiet safety"
+        },
+        {
+          "id": "b",
+          "text": "lasting comfort"
+        },
+        {
+          "id": "c",
+          "text": "steadfast hope"
+        },
+        {
+          "id": "d",
+          "text": "perfect peace"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 24:14",
+            "text": "They shall lift up their voice, they shall sing; For the majesty of the LORD They shall cry aloud from the sea.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 26:3",
+            "text": "You will keep him in perfect peace, Whose mind is stayed on You, Because he trusts in You.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 26:3, after “keep him in.”",
+          "child": "Look at the start of Isaiah 26:3.",
+          "teen": "24:14 is the setting; 26:3 opens with the promise. Read it.",
+          "older": "It is in the opening line of 26:3."
+        },
+        "extended_explanation": "24:14 has voices crying aloud from the sea. 26:3 ends with the reason for the promise: “Because he trusts in You.” 26:4 follows with “Trust in the LORD forever.”",
+        "takeaway": "The LORD keeps him “in perfect peace, Whose mind is stayed on You.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 13",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 13:10 the sun will be darkened in its going forth. In 24:23 the moon will be disgraced and the sun ashamed, for the LORD of hosts will reign where?",
+        "child": "Isaiah said one day the sun and moon would look dim next to God’s glory. Where did he say the LORD would reign as King?",
+        "teen": "Isaiah 13:10 darkens the sun. Isaiah 24:23: “For the LORD of hosts will reign On ___ and in Jerusalem.” What fills the blank?",
+        "older": "Isaiah 13:10 and 24:23 both speak of the sun. According to 24:23, on what mountain will the LORD of hosts reign?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mount Sinai"
+        },
+        {
+          "id": "b",
+          "text": "Mount Carmel"
+        },
+        {
+          "id": "c",
+          "text": "Mount Zion"
+        },
+        {
+          "id": "d",
+          "text": "Mount Moriah"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 13:10",
+            "text": "For the stars of heaven and their constellations Will not give their light; The sun will be darkened in its going forth, And the moon will not cause its light to shine.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 24:23",
+            "text": "Then the moon will be disgraced And the sun ashamed; For the LORD of hosts will reign On Mount Zion and in Jerusalem And before His elders, gloriously.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 24:23, after “will reign On.”",
+          "child": "Look near the end of 24:23.",
+          "teen": "13:10 sets the scene; 24:23 names the place. Read the line after “will reign.”",
+          "older": "It is in the last lines of 24:23, before “and in Jerusalem.”"
+        },
+        "extended_explanation": "13:10 belongs to the burden against Babylon: stars, sun, and moon give no light on the day of the LORD. 24:23 uses the same lights another way. They are put to shame because the LORD of hosts reigns “before His elders, gloriously.”",
+        "takeaway": "The LORD of hosts will reign on Mount Zion and in Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 25",
+      "topics": [
+        "isaiah-oracles-against-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 25:5 the LORD brings down the song of the terrible ones like heat in the shadow of a cloud. In 26:20 He calls His people into their chambers to hide for a little moment. Until when?",
+        "child": "Isaiah said God would tell His people to go inside, shut the doors, and hide for a short time. How long were they to hide?",
+        "teen": "Isaiah 26:20: “Hide yourself, as it were, for a little moment, Until ___.” What fills the blank?",
+        "older": "Isaiah 25:5 says the LORD will reduce the noise of aliens. According to 26:20, until when should His people hide?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the storm has gone by"
+        },
+        {
+          "id": "b",
+          "text": "the indignation is past"
+        },
+        {
+          "id": "c",
+          "text": "the waters have gone down"
+        },
+        {
+          "id": "d",
+          "text": "the night has turned to day"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 25:5",
+            "text": "You will reduce the noise of aliens, As heat in a dry place; As heat in the shadow of a cloud, The song of the terrible ones will be diminished.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 26:20",
+            "text": "Come, my people, enter your chambers, And shut your doors behind you; Hide yourself, as it were, for a little moment, Until the indignation is past.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 26:20, after “Until.”",
+          "child": "Look at the last words of Isaiah 26:20.",
+          "teen": "25:5 is the setting; 26:20 gives the time. Read its final line.",
+          "older": "It closes 26:20."
+        },
+        "extended_explanation": "25:5 pictures the noise of the terrible ones brought low like heat under a cloud. 26:20 opens with “Come, my people, enter your chambers,” and 26:21 says the LORD comes out of His place to punish the inhabitants of the earth.",
+        "takeaway": "They hide “Until the indignation is past.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

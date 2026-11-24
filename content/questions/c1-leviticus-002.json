@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-leviticus-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-lev-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 25",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the fiftieth year, what were the Israelites to proclaim throughout all the land?",
+        "child": "God gave Israel a special celebration every fiftieth year, called the Jubilee. What were they to announce through all the land?",
+        "teen": "Leviticus 25:10 describes the Jubilee. What were the people to proclaim throughout the land?",
+        "older": "According to Leviticus 25:10, what was proclaimed throughout all the land in the fiftieth year?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A solemn fast"
+        },
+        {
+          "id": "b",
+          "text": "A new census"
+        },
+        {
+          "id": "c",
+          "text": "A royal feast"
+        },
+        {
+          "id": "d",
+          "text": "Liberty"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 25:10",
+            "text": "And you shall consecrate the fiftieth year, and proclaim liberty throughout all the land to all its inhabitants. It shall be a Jubilee for you; and each of you shall return to his possession, and each of you shall return to his family.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 25:10, after “and proclaim.”",
+          "child": "Look near the start of verse 10, right after “proclaim.”",
+          "teen": "25:10 first says what to do in the fiftieth year, then names it a Jubilee. Read the first part.",
+          "older": "It follows “proclaim” in the opening sentence of 25:10."
+        },
+        "extended_explanation": "In 25:8-9 Israel counts seven sabbaths of years and sounds the trumpet on the Day of Atonement. In 25:10 they consecrate the fiftieth year and proclaim something throughout the land, and each person returns to his possession and family. Read 25:10 after “proclaim.”",
+        "takeaway": "In the Jubilee, Israel proclaimed liberty throughout all the land."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-lev-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 25",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God expects the people to ask, “What shall we eat in the seventh year?” What does He say He will command in the sixth year?",
+        "child": "If the people rested the land in the seventh year, they might wonder what they would eat. What did God promise to send in the sixth year?",
+        "teen": "Leviticus 25:20-21 meets a worry about the seventh year. What will God command on them in the sixth year?",
+        "older": "According to Leviticus 25:21, what will God command on the people in the sixth year?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The early rain"
+        },
+        {
+          "id": "b",
+          "text": "My blessing"
+        },
+        {
+          "id": "c",
+          "text": "A double gathering"
+        },
+        {
+          "id": "d",
+          "text": "A new planting"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 25:20",
+            "text": "‘And if you say, “What shall we eat in the seventh year, since we shall not sow nor gather in our produce?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 25:21",
+            "text": "Then I will command My blessing on you in the sixth year, and it will bring forth produce enough for three years.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 25:21, after “Then I will command.”",
+          "child": "Look at the first words of verse 21.",
+          "teen": "25:20 is the question; 25:21 is God’s reply. Read what He will command.",
+          "older": "It follows “I will command” at the opening of 25:21."
+        },
+        "extended_explanation": "During the sabbath year the people would not sow or gather in their produce, so 25:20 imagines the question of what they will eat. In 25:21 God replies: in the sixth year He will command something, and the land will bring forth enough for three years. Read the start of 25:21.",
+        "takeaway": "God promised to command His blessing in the sixth year, enough for three years."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-lev-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 25",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Why does God say the land must not be sold permanently?",
+        "child": "God told Israel they could not sell their land for good. What reason did He give?",
+        "teen": "Leviticus 25:23-24 limits selling land and requires redemption. What reason does 25:23 give?",
+        "older": "According to Leviticus 25:23, why shall the land not be sold permanently?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The land is Mine"
+        },
+        {
+          "id": "b",
+          "text": "The land belongs to the priests"
+        },
+        {
+          "id": "c",
+          "text": "The king will claim it"
+        },
+        {
+          "id": "d",
+          "text": "The tribes must share it"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 25:23",
+            "text": "‘The land shall not be sold permanently, for the land is Mine; for you are strangers and sojourners with Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 25:24",
+            "text": "And in all the land of your possession you shall grant redemption of the land.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 25:23 right after “sold permanently, for.”",
+          "child": "Look at the words after the first “for” in verse 23.",
+          "teen": "25:23 gives two reasons, each after “for.” Read the first.",
+          "older": "The first “for” clause in 25:23 gives it."
+        },
+        "extended_explanation": "In 25:23 God limits how land may be sold and gives two reasons, each introduced by “for.” The second reason follows the next “for.” In 25:24 He adds that redemption must be granted for the land. Read the first reason in 25:23.",
+        "takeaway": "The land could not be sold permanently, because God said, “the land is Mine.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-lev-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 19",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 19:35-36 commands honest scales and weights. How does God describe Himself at the end of 19:36?",
+        "child": "God told Israel to use honest scales and weights when buying and selling. At the end, God reminded them who He is. What did He say?",
+        "teen": "After commanding honest measures, Leviticus 19:36 ends with God naming Himself. What does He add after “I am the LORD your God”?",
+        "older": "What words follow “I am the LORD your God” in Leviticus 19:36?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who made the heavens and the earth"
+        },
+        {
+          "id": "b",
+          "text": "Who will judge the merchant at the gate"
+        },
+        {
+          "id": "c",
+          "text": "Who brought you out of the land of Egypt"
+        },
+        {
+          "id": "d",
+          "text": "Who gives rain to the field in its season"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 19:35",
+            "text": "‘You shall do no injustice in judgment, in measurement of length, weight, or volume.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 19:36",
+            "text": "You shall have honest scales, honest weights, an honest ephah, and an honest hin: I am the LORD your God, who brought you out of the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the final clause of 19:36, after “I am the LORD your God.”",
+          "child": "Look at the very end of verse 36.",
+          "teen": "19:36 lists honest measures, then God names Himself. Read what follows His name.",
+          "older": "It closes 19:36."
+        },
+        "extended_explanation": "In 19:35 God forbids injustice in measuring length, weight, or volume. In 19:36 He requires honest scales, weights, ephah, and hin, then ends with who He is and what He did. Read the end of 19:36.",
+        "takeaway": "God grounded honest weights in who He is: the LORD who brought them out of the land of Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lev-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 24",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Every Sabbath the bread was set in order before the LORD (24:8). Where were Aaron and his sons to eat it?",
+        "child": "Every Sabbath, the priests put fresh bread on the gold table before the LORD. Where were Aaron and his sons supposed to eat it?",
+        "teen": "Leviticus 24:8-9 describes the bread set before the LORD each Sabbath. Where was it to be eaten?",
+        "older": "According to Leviticus 24:9, where were Aaron and his sons to eat the bread?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At the city gate"
+        },
+        {
+          "id": "b",
+          "text": "In their own tents"
+        },
+        {
+          "id": "c",
+          "text": "In a holy place"
+        },
+        {
+          "id": "d",
+          "text": "Before the whole camp"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 24:8",
+            "text": "Every Sabbath he shall set it in order before the LORD continually, being taken from the children of Israel by an everlasting covenant.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 24:9",
+            "text": "And it shall be for Aaron and his sons, and they shall eat it in a holy place; for it is most holy to him from the offerings of the LORD made by fire, by a perpetual statute.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 24:9, after “they shall eat it.”",
+          "child": "Look at verse 9 right after “they shall eat it.”",
+          "teen": "24:9 says who eats the bread, where, and why. Read the where.",
+          "older": "The place follows “they shall eat it” in 24:9; the reason follows “for.”"
+        },
+        "extended_explanation": "In 24:5-8 twelve cakes are set in two rows on the pure gold table and renewed every Sabbath. In 24:9 the bread is given to Aaron and his sons, with a place to eat it and a reason. Read 24:9 after “they shall eat it.”",
+        "takeaway": "Aaron and his sons ate the bread in a holy place, because it was most holy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lev-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 19",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 19:32 and 25:36 both tell Israel to “fear your God.” In 25:36, what must not be taken from a brother who has become poor?",
+        "child": "God told Israel to honor Him in how they treated others. One rule was about a fellow Israelite who became poor. What did God say they must not take from him?",
+        "teen": "The words “fear your God” link Leviticus 19:32 and 25:36. What does 25:36 forbid taking from a poor brother?",
+        "older": "According to Leviticus 25:36, what shall not be taken from a poor brother?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His land or house"
+        },
+        {
+          "id": "b",
+          "text": "His cloak or sandals"
+        },
+        {
+          "id": "c",
+          "text": "His flocks or herds"
+        },
+        {
+          "id": "d",
+          "text": "Usury or interest"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 19:32",
+            "text": "‘You shall rise before the gray headed and honor the presence of an old man, and fear your God: I am the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 25:36",
+            "text": "Take no usury or interest from him; but fear your God, that your brother may live with you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 25:36, after “Take no.”",
+          "child": "Look at the first words of verse 36.",
+          "teen": "25:36 says what not to take and then repeats the command found in 19:32. Read the opening words.",
+          "older": "The opening words of 25:36 name it."
+        },
+        "extended_explanation": "In 19:32 Israel is to rise before the gray headed, honor the elderly, and fear God. In 25:35-36 a brother falls into poverty, and God says what not to take from him, adding the same command to fear God, “that your brother may live with you.” Read the opening words of 25:36.",
+        "takeaway": "Israel was to take no usury or interest from a poor brother, but fear God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lev-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 25",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 25:4 the land was to have a sabbath of solemn rest every seventh year. According to 26:34-35, when would the land enjoy its sabbaths if Israel disobeyed?",
+        "child": "God commanded that the land rest every seventh year. He also warned that if Israel disobeyed, the land would still get its rest. When would that happen?",
+        "teen": "Leviticus 25:4 commands a sabbath for the land; 26:34-35 warns how the land will get its sabbaths anyway. When?",
+        "older": "According to Leviticus 26:34-35, when shall the land enjoy its sabbaths?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "As long as it lies desolate"
+        },
+        {
+          "id": "b",
+          "text": "When the harvest is gathered in"
+        },
+        {
+          "id": "c",
+          "text": "When the Jubilee is proclaimed"
+        },
+        {
+          "id": "d",
+          "text": "When the people return in repentance"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 25:4",
+            "text": "but in the seventh year there shall be a sabbath of solemn rest for the land, a sabbath to the LORD. You shall neither sow your field nor prune your vineyard.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 26:34",
+            "text": "Then the land shall enjoy its sabbaths as long as it lies desolate and you are in your enemies’ land; then the land shall rest and enjoy its sabbaths.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 26:35",
+            "text": "As long as it lies desolate it shall rest— for the time it did not rest on your sabbaths when you dwelt in it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 26:34 after “the land shall enjoy its sabbaths,” and the opening of 26:35.",
+          "child": "Look at the middle of verse 34, and the first words of verse 35.",
+          "teen": "26:34 and 26:35 both name the time, once in the middle and once at the start. Read either one.",
+          "older": "The same phrase appears in the middle of 26:34 and at the head of 26:35."
+        },
+        "extended_explanation": "In 25:2-4 God gives the land a sabbath of solemn rest in the seventh year. In 26:34-35, among the warnings, He says the land will enjoy its sabbaths in a different way, “for the time it did not rest on your sabbaths when you dwelt in it.” Read the phrase that both 26:34 and 26:35 use for when this happens.",
+        "takeaway": "The land would enjoy its sabbaths as long as it lay desolate."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lev-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 19",
+      "topics": [
+        "leviticus-holiness-sabbath-year-and-jubilee"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God tells Israel how to treat someone who dwells among them (19:34). In 25:35, how is a brother who becomes poor to be helped?",
+        "child": "God told Israel how to treat certain people living among them. Later He told them how to help a fellow Israelite who became poor. How were they to help him?",
+        "teen": "Leviticus 19:34 and 25:35 link two people Israel must care for. According to 25:35, how should a poor brother be helped?",
+        "older": "According to Leviticus 25:35, how shall a poor brother be helped?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Like a son of your own household"
+        },
+        {
+          "id": "b",
+          "text": "Like a stranger or a sojourner"
+        },
+        {
+          "id": "c",
+          "text": "Like a priest of the LORD"
+        },
+        {
+          "id": "d",
+          "text": "Like a servant for six full years"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 19:34",
+            "text": "The stranger who dwells among you shall be to you as one born among you, and you shall love him as yourself; for you were strangers in the land of Egypt: I am the LORD your God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 25:35",
+            "text": "‘If one of your brethren becomes poor, and falls into poverty among you, then you shall help him, like a stranger or a sojourner, that he may live with you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 25:35, after “then you shall help him.”",
+          "child": "Look at verse 35 right after “you shall help him.”",
+          "teen": "25:35 describes the brother’s need, how to help, and the goal. Read the how.",
+          "older": "It follows “you shall help him” in 25:35."
+        },
+        "extended_explanation": "In 19:34 God tells Israel how to treat someone who dwells among them. In 25:35 He turns to a brother who falls into poverty and says how to help him, so that he may live with you. Read 25:35 after “you shall help him,” then compare the opening of 19:34.",
+        "takeaway": "A poor brother was to be helped like a stranger or a sojourner, so he could live among them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

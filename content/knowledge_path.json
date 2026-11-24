@@ -1831,397 +1831,960 @@
           "name": "Genesis Connections: Origins to Joseph",
           "art": "chain",
           "questionIds": [
-            "c1-gen-0010",
-            "c1-gen-0013",
-            "c1-gen-0015",
-            "c1-gen-0016",
-            "c1-gen-0006",
-            "c1-gen-0011",
-            "c1-gen-0014",
-            "c1-gen-0018"
+            "c1-gen-0062",
+            "c2-gen-0021",
+            "c2-gen-0022",
+            "c2-gen-0023",
+            "c3-gen-0003",
+            "c3-gen-0004",
+            "c3-gen-0005",
+            "c3-gen-0006"
           ]
         },
         {
           "id": "fruitful-genesis-abraham-to-jacob-in-context",
           "name": "Genesis: Abraham to Jacob in Context",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-gen-0063",
+            "c2-gen-0024",
+            "c2-gen-0025",
+            "c2-gen-0026",
+            "c3-gen-0007",
+            "c3-gen-0008",
+            "c3-gen-0009",
+            "c3-gen-0010"
+          ]
         },
         {
           "id": "fruitful-sinai",
           "name": "The Law at Sinai",
           "art": "ten-commandments",
-          "questionIds": []
+          "questionIds": [
+            "c1-exo-0022",
+            "c2-exo-0019",
+            "c2-exo-0020",
+            "c2-exo-0021",
+            "c3-exo-0003",
+            "c3-exo-0004",
+            "c3-exo-0005",
+            "c3-exo-0006"
+          ]
         },
         {
           "id": "fruitful-leviticus-holiness-sabbath-year-and-jubilee",
           "name": "Leviticus: Holiness, Sabbath Year and Jubilee",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-lev-0003",
+            "c2-lev-0007",
+            "c2-lev-0008",
+            "c2-lev-0009",
+            "c3-lev-0001",
+            "c3-lev-0002",
+            "c3-lev-0003",
+            "c3-lev-0004"
+          ]
         },
         {
           "id": "fruitful-numbers-complaints-and-rebellion",
           "name": "Numbers: Complaints and Rebellion",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-num-0003",
+            "c2-num-0008",
+            "c2-num-0009",
+            "c2-num-0010",
+            "c3-num-0001",
+            "c3-num-0002",
+            "c3-num-0003",
+            "c3-num-0004"
+          ]
         },
         {
           "id": "fruitful-deuteronomy-moses-sermons",
           "name": "Deuteronomy: Moses' Sermons",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-deu-0005",
+            "c2-deu-0013",
+            "c2-deu-0014",
+            "c2-deu-0015",
+            "c3-deu-0001",
+            "c3-deu-0002",
+            "c3-deu-0003",
+            "c3-deu-0004"
+          ]
         },
         {
           "id": "fruitful-1chr",
           "name": "1 Chronicles: David's Heart for the Temple",
           "art": "blueprint",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ch-0001",
+            "c2-1ch-0001",
+            "c2-1ch-0002",
+            "c2-1ch-0003",
+            "c3-1ch-0001",
+            "c3-1ch-0002",
+            "c3-1ch-0003",
+            "c3-1ch-0004"
+          ]
         },
         {
           "id": "fruitful-1-chronicles-davids-kingdom-established",
           "name": "1 Chronicles: David's Kingdom Established",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ch-0002",
+            "c2-1ch-0004",
+            "c2-1ch-0005",
+            "c2-1ch-0006",
+            "c3-1ch-0005",
+            "c3-1ch-0006",
+            "c3-1ch-0007",
+            "c3-1ch-0008"
+          ]
         },
         {
           "id": "fruitful-2chr",
           "name": "2 Chronicles: Prayer and Revival",
           "art": "hands",
-          "questionIds": []
+          "questionIds": [
+            "c1-2ch-0001",
+            "c2-2ch-0002",
+            "c2-2ch-0003",
+            "c2-2ch-0004",
+            "c3-2ch-0001",
+            "c3-2ch-0002",
+            "c3-2ch-0003",
+            "c3-2ch-0004"
+          ]
         },
         {
           "id": "fruitful-josiah",
           "name": "Josiah and the Book of the Law",
           "art": "scroll",
           "questionIds": [
-            "c2-2ch-0001"
+            "c1-2ch-0002",
+            "c2-2ki-0016",
+            "c2-2ch-0005",
+            "c2-2ki-0017",
+            "c3-2ch-0005",
+            "c3-2ki-0001",
+            "c3-2ki-0002",
+            "c3-2ch-0006"
           ]
         },
         {
           "id": "fruitful-ecclesiastes",
           "name": "Ecclesiastes: Under the Sun",
           "art": "hourglass",
-          "questionIds": []
+          "questionIds": [
+            "c1-ecc-0001",
+            "c2-ecc-0001",
+            "c2-ecc-0002",
+            "c2-ecc-0003",
+            "c3-ecc-0001",
+            "c3-ecc-0002",
+            "c3-ecc-0003",
+            "c3-ecc-0004"
+          ]
         },
         {
-          "id": "fruitful-song-of-solomon-love-is-strong-narrow-careful-sc",
-          "name": "Song of Solomon: Love Is Strong _(Narrow, careful scope (sensitive-passage rule).)_",
+          "id": "fruitful-song-of-solomon",
+          "name": "Song of Solomon: Love Is Strong",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-sng-0001",
+            "c2-sng-0001",
+            "c2-sng-0002",
+            "c2-sng-0003",
+            "c3-sng-0001",
+            "c3-sng-0002",
+            "c3-sng-0003",
+            "c3-sng-0004"
+          ]
         },
         {
           "id": "fruitful-lamentations",
           "name": "Lamentations: Great Is Your Faithfulness",
           "art": "teardrop",
-          "questionIds": []
+          "questionIds": [
+            "c1-lam-0001",
+            "c2-lam-0001",
+            "c2-lam-0002",
+            "c2-lam-0003",
+            "c3-lam-0001",
+            "c3-lam-0002",
+            "c3-lam-0003",
+            "c3-lam-0004"
+          ]
         },
         {
           "id": "fruitful-hosea",
           "name": "Hosea: Faithful Love",
           "art": "ring",
-          "questionIds": []
+          "questionIds": [
+            "c1-hos-0001",
+            "c2-hos-0001",
+            "c2-hos-0002",
+            "c2-hos-0003",
+            "c3-hos-0001",
+            "c3-hos-0002",
+            "c3-hos-0003",
+            "c3-hos-0004"
+          ]
         },
         {
           "id": "fruitful-hosea-israels-unfaithfulness-and-return",
           "name": "Hosea: Israel's Unfaithfulness and Return",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-hos-0002",
+            "c2-hos-0004",
+            "c2-hos-0005",
+            "c2-hos-0006",
+            "c3-hos-0005",
+            "c3-hos-0006",
+            "c3-hos-0007",
+            "c3-hos-0008"
+          ]
         },
         {
           "id": "fruitful-joel",
           "name": "Joel: The Spirit Poured Out",
           "art": "locust",
-          "questionIds": []
+          "questionIds": [
+            "c1-jol-0001",
+            "c2-jol-0001",
+            "c2-jol-0002",
+            "c2-jol-0003",
+            "c3-jol-0001",
+            "c3-jol-0002",
+            "c3-jol-0003",
+            "c3-jol-0004"
+          ]
         },
         {
           "id": "fruitful-amos-judgment-on-the-nations",
           "name": "Amos: Judgment on the Nations",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-amo-0001",
+            "c2-amo-0001",
+            "c2-amo-0002",
+            "c2-amo-0003",
+            "c3-amo-0001",
+            "c3-amo-0002",
+            "c3-amo-0003",
+            "c3-amo-0004"
+          ]
         },
         {
           "id": "fruitful-amos-justice-and-visions",
           "name": "Amos: Justice and Visions",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-amo-0002",
+            "c2-amo-0004",
+            "c2-amo-0005",
+            "c2-amo-0006",
+            "c3-amo-0005",
+            "c3-amo-0006",
+            "c3-amo-0007",
+            "c3-amo-0008"
+          ]
         },
         {
           "id": "fruitful-micah-judgment-and-hope",
           "name": "Micah: Judgment and Hope",
           "art": "scales",
           "questionIds": [
-            "c2-mic-0001"
+            "c1-mic-0001",
+            "c2-mic-0002",
+            "c2-mic-0003",
+            "c2-mic-0004",
+            "c3-mic-0001",
+            "c3-mic-0002",
+            "c3-mic-0003",
+            "c3-mic-0004"
           ]
         },
         {
           "id": "fruitful-micah-where-is-a-god-like-you",
           "name": "Micah: Where Is a God Like You?",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-mic-0002",
+            "c2-mic-0005",
+            "c2-mic-0006",
+            "c2-mic-0007",
+            "c3-mic-0005",
+            "c3-mic-0006",
+            "c3-mic-0007",
+            "c3-mic-0008"
+          ]
         },
         {
           "id": "fruitful-habakkuk",
           "name": "Habakkuk: Living by Faith",
           "art": "tower",
-          "questionIds": []
+          "questionIds": [
+            "c1-hab-0001",
+            "c2-hab-0001",
+            "c2-hab-0002",
+            "c2-hab-0003",
+            "c3-hab-0001",
+            "c3-hab-0002",
+            "c3-hab-0003",
+            "c3-hab-0004"
+          ]
         },
         {
           "id": "fruitful-haggai",
           "name": "Haggai: Build the House",
           "art": "hammer",
-          "questionIds": []
+          "questionIds": [
+            "c1-hag-0001",
+            "c2-hag-0001",
+            "c2-hag-0002",
+            "c2-hag-0003",
+            "c3-hag-0001",
+            "c3-hag-0002",
+            "c3-hag-0003",
+            "c3-hag-0004"
+          ]
         },
         {
           "id": "fruitful-zechariah-night-visions",
           "name": "Zechariah: Night Visions",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-zec-0001",
+            "c2-zec-0001",
+            "c2-zec-0002",
+            "c2-zec-0003",
+            "c3-zec-0001",
+            "c3-zec-0002",
+            "c3-zec-0003",
+            "c3-zec-0004"
+          ]
         },
         {
           "id": "fruitful-zechariah-the-humble-king-and-the-pierced-one",
           "name": "Zechariah: The Humble King and the Pierced One",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-zec-0002",
+            "c2-zec-0004",
+            "c2-zec-0005",
+            "c2-zec-0006",
+            "c3-zec-0005",
+            "c3-zec-0006",
+            "c3-zec-0007",
+            "c3-zec-0008"
+          ]
         },
         {
           "id": "fruitful-joshua-dividing-the-land",
           "name": "Joshua: Dividing the Land",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jos-0016",
+            "c2-jos-0008",
+            "c2-jos-0009",
+            "c2-jos-0010",
+            "c3-jos-0003",
+            "c3-jos-0004",
+            "c3-jos-0005",
+            "c3-jos-0006"
+          ]
         },
         {
           "id": "fruitful-absaloms-rebellion",
           "name": "Absalom's Rebellion",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-2sa-0015",
+            "c2-2sa-0003",
+            "c2-2sa-0004",
+            "c2-2sa-0005",
+            "c3-2sa-0001",
+            "c3-2sa-0002",
+            "c3-2sa-0003",
+            "c3-2sa-0004"
+          ]
         },
         {
           "id": "fruitful-davids-mighty-men-and-the-census",
           "name": "David's Mighty Men and the Census",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-2sa-0016",
+            "c2-2sa-0006",
+            "c2-2sa-0007",
+            "c2-2sa-0008",
+            "c3-2sa-0005",
+            "c3-2sa-0006",
+            "c3-2sa-0007",
+            "c3-2sa-0008"
+          ]
         },
         {
           "id": "fruitful-solomons-decline-and-the-temple-dedication",
           "name": "Solomon's Decline and the Temple Dedication",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ki-0018",
+            "c2-1ki-0012",
+            "c2-1ki-0013",
+            "c2-1ki-0014",
+            "c3-1ki-0001",
+            "c3-1ki-0002",
+            "c3-1ki-0003",
+            "c3-1ki-0004"
+          ]
         },
         {
           "id": "fruitful-jehu-athaliah-and-joash",
           "name": "Jehu, Athaliah and Joash",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-2ki-0006",
+            "c2-2ki-0018",
+            "c2-2ki-0019",
+            "c2-2ki-0020",
+            "c3-2ki-0003",
+            "c3-2ki-0004",
+            "c3-2ki-0005",
+            "c3-2ki-0006"
+          ]
         },
         {
           "id": "fruitful-malachi",
           "name": "Malachi: The Messenger",
           "art": "sunrise",
-          "questionIds": []
+          "questionIds": [
+            "c1-mal-0001",
+            "c2-mal-0001",
+            "c2-mal-0002",
+            "c2-mal-0003",
+            "c3-mal-0001",
+            "c3-mal-0002",
+            "c3-mal-0003",
+            "c3-mal-0004"
+          ]
         },
         {
           "id": "fruitful-isaiah",
           "name": "Isaiah: Woe and Hope for the Nations",
           "art": "vine",
-          "questionIds": []
+          "questionIds": [
+            "c1-isa-0006",
+            "c2-isa-0013",
+            "c2-isa-0014",
+            "c2-isa-0015",
+            "c3-isa-0001",
+            "c3-isa-0002",
+            "c3-isa-0003",
+            "c3-isa-0004"
+          ]
         },
         {
           "id": "fruitful-isaiah-trust-in-the-lord-not-egypt",
           "name": "Isaiah: Trust in the LORD, Not Egypt",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-isa-0007",
+            "c2-isa-0016",
+            "c2-isa-0017",
+            "c2-isa-0018",
+            "c3-isa-0005",
+            "c3-isa-0006",
+            "c3-isa-0007",
+            "c3-isa-0008"
+          ]
         },
         {
           "id": "fruitful-isaiah-oracles-against-the-nations",
           "name": "Isaiah: Oracles Against the Nations",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-isa-0008",
+            "c2-isa-0019",
+            "c2-isa-0020",
+            "c2-isa-0021",
+            "c3-isa-0009",
+            "c3-isa-0010",
+            "c3-isa-0011",
+            "c3-isa-0012"
+          ]
         },
         {
           "id": "fruitful-isaiah-the-servant-and-salvation",
           "name": "Isaiah: The Servant and Salvation",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-isa-0009",
+            "c2-isa-0022",
+            "c2-isa-0023",
+            "c2-isa-0024",
+            "c3-isa-0013",
+            "c3-isa-0014",
+            "c3-isa-0015",
+            "c3-isa-0016"
+          ]
         },
         {
           "id": "fruitful-jeremiah",
           "name": "Jeremiah: The New Covenant and Jerusalem's Fall",
           "art": "heart",
-          "questionIds": []
+          "questionIds": [
+            "c1-jer-0003",
+            "c2-jer-0011",
+            "c2-jer-0012",
+            "c2-jer-0013",
+            "c3-jer-0005",
+            "c3-jer-0006",
+            "c3-jer-0007",
+            "c3-jer-0008"
+          ]
         },
         {
           "id": "fruitful-jeremiah-oracles-against-the-nations-and-baruch",
           "name": "Jeremiah: Oracles Against the Nations and Baruch",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jer-0004",
+            "c2-jer-0014",
+            "c2-jer-0015",
+            "c2-jer-0016",
+            "c3-jer-0009",
+            "c3-jer-0010",
+            "c3-jer-0011",
+            "c3-jer-0012"
+          ]
         },
         {
           "id": "fruitful-ezekiel",
           "name": "Ezekiel: Glory Departs and Returns",
           "art": "wheel",
-          "questionIds": []
+          "questionIds": [
+            "c1-ezk-0003",
+            "c2-ezk-0011",
+            "c2-ezk-0012",
+            "c2-ezk-0013",
+            "c3-ezk-0005",
+            "c3-ezk-0006",
+            "c3-ezk-0007",
+            "c3-ezk-0008"
+          ]
         },
         {
           "id": "fruitful-daniel",
           "name": "Daniel 7-12: Beasts and Prophecy",
           "art": "beasts",
-          "questionIds": []
+          "questionIds": [
+            "c1-dan-0018",
+            "c2-dan-0006",
+            "c2-dan-0007",
+            "c2-dan-0008",
+            "c3-dan-0003",
+            "c3-dan-0004",
+            "c3-dan-0005",
+            "c3-dan-0006"
+          ]
         },
         {
           "id": "fruitful-psalms-wisdom-psalms",
           "name": "Psalms: Wisdom Psalms",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-psa-0020",
+            "c2-psa-0018",
+            "c2-psa-0019",
+            "c2-psa-0020",
+            "c3-psa-0006",
+            "c3-psa-0007",
+            "c3-psa-0008",
+            "c3-psa-0009"
+          ]
         },
         {
           "id": "fruitful-psalms-hallel-and-the-songs-of-ascents",
           "name": "Psalms: Hallel and the Songs of Ascents",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-psa-0021",
+            "c2-psa-0021",
+            "c2-psa-0022",
+            "c2-psa-0023",
+            "c3-psa-0010",
+            "c3-psa-0011",
+            "c3-psa-0012",
+            "c3-psa-0013"
+          ]
         },
         {
           "id": "fruitful-proverbs-collected-sayings-and-agur",
           "name": "Proverbs: Collected Sayings and Agur",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-pro-0019",
+            "c2-pro-0013",
+            "c2-pro-0014",
+            "c2-pro-0015",
+            "c3-pro-0004",
+            "c3-pro-0005",
+            "c3-pro-0006",
+            "c3-pro-0007"
+          ]
         },
         {
           "id": "fruitful-job-the-friends-and-elihu",
           "name": "Job: The Friends and Elihu",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-job-0005",
+            "c2-job-0013",
+            "c2-job-0014",
+            "c2-job-0015",
+            "c3-job-0001",
+            "c3-job-0002",
+            "c3-job-0003",
+            "c3-job-0004"
+          ]
         },
         {
           "id": "fruitful-matthew",
           "name": "Matthew: Prophecy Fulfilled",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0036",
+            "c2-mat-0018",
+            "c2-mat-0019",
+            "c2-mat-0020",
+            "c3-mat-0004",
+            "c3-mat-0005",
+            "c3-mat-0006",
+            "c3-mat-0007"
+          ]
         },
         {
           "id": "fruitful-matthew-signs-readiness-and-judgment",
           "name": "Matthew: Signs, Readiness and Judgment",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-mat-0037",
+            "c2-mat-0021",
+            "c2-mat-0022",
+            "c2-mat-0023",
+            "c3-mat-0008",
+            "c3-mat-0009",
+            "c3-mat-0010",
+            "c3-mat-0011"
+          ]
         },
         {
           "id": "fruitful-luke",
           "name": "Luke: Parables Only Luke Tells",
           "art": "coin",
-          "questionIds": []
+          "questionIds": [
+            "c1-luk-0037",
+            "c2-luk-0009",
+            "c2-luk-0010",
+            "c2-luk-0011",
+            "c3-luk-0002",
+            "c3-luk-0003",
+            "c3-luk-0004",
+            "c3-luk-0005"
+          ]
         },
         {
           "id": "fruitful-luke-the-road-to-jerusalem",
           "name": "Luke: The Road to Jerusalem",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-luk-0038",
+            "c2-luk-0012",
+            "c2-luk-0013",
+            "c2-luk-0014",
+            "c3-luk-0006",
+            "c3-luk-0007",
+            "c3-luk-0008",
+            "c3-luk-0009"
+          ]
         },
         {
           "id": "fruitful-mark-teaching-and-conflict",
           "name": "Mark: Teaching and Conflict",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-mrk-0023",
+            "c2-mrk-0007",
+            "c2-mrk-0008",
+            "c2-mrk-0009",
+            "c3-mrk-0003",
+            "c3-mrk-0004",
+            "c3-mrk-0005",
+            "c3-mrk-0006"
+          ]
         },
         {
           "id": "fruitful-john",
           "name": "John: Seven Signs",
           "art": "jar",
-          "questionIds": []
+          "questionIds": [
+            "c1-jhn-0033",
+            "c2-jhn-0016",
+            "c2-jhn-0017",
+            "c2-jhn-0018",
+            "c3-jhn-0003",
+            "c3-jhn-0004",
+            "c3-jhn-0005",
+            "c3-jhn-0006"
+          ]
         },
         {
           "id": "fruitful-john-conflict-and-controversy",
           "name": "John: Conflict and Controversy",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-jhn-0034",
+            "c2-jhn-0019",
+            "c2-jhn-0020",
+            "c2-jhn-0021",
+            "c3-jhn-0007",
+            "c3-jhn-0008",
+            "c3-jhn-0009",
+            "c3-jhn-0010"
+          ]
         },
         {
           "id": "fruitful-acts",
           "name": "Acts: Paul on Trial and Voyage to Rome",
           "art": "ship",
-          "questionIds": []
+          "questionIds": [
+            "c1-act-0032",
+            "c2-act-0015",
+            "c2-act-0016",
+            "c2-act-0017",
+            "c3-act-0003",
+            "c3-act-0004",
+            "c3-act-0005",
+            "c3-act-0006"
+          ]
         },
         {
           "id": "fruitful-romans",
           "name": "Romans 9-11: Israel and the Nations",
           "art": "olive",
-          "questionIds": []
+          "questionIds": [
+            "c1-rom-0018",
+            "c2-rom-0007",
+            "c2-rom-0008",
+            "c2-rom-0009",
+            "c3-rom-0003",
+            "c3-rom-0004",
+            "c3-rom-0005",
+            "c3-rom-0006"
+          ]
         },
         {
           "id": "fruitful-romans-1-4-sin-and-faith",
           "name": "Romans 1-4: Sin and Faith",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-rom-0019",
+            "c2-rom-0010",
+            "c2-rom-0011",
+            "c2-rom-0012",
+            "c3-rom-0007",
+            "c3-rom-0008",
+            "c3-rom-0009",
+            "c3-rom-0010"
+          ]
         },
         {
           "id": "fruitful-romans-12-16-living-it-out",
           "name": "Romans 12-16: Living It Out",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-rom-0020",
+            "c2-rom-0013",
+            "c2-rom-0014",
+            "c2-rom-0015",
+            "c3-rom-0011",
+            "c3-rom-0012",
+            "c3-rom-0013",
+            "c3-rom-0014"
+          ]
         },
         {
           "id": "fruitful-resurrection",
           "name": "1 Corinthians 15: The Resurrection",
           "art": "seed",
-          "questionIds": []
+          "questionIds": [
+            "c1-1co-0009",
+            "c2-1co-0007",
+            "c2-1co-0008",
+            "c2-1co-0009",
+            "c3-1co-0003",
+            "c3-1co-0004",
+            "c3-1co-0005",
+            "c3-1co-0006"
+          ]
         },
         {
           "id": "fruitful-2-corinthians-pauls-ministry-and-defense",
           "name": "2 Corinthians: Paul's Ministry and Defense",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-2co-0002",
+            "c2-2co-0006",
+            "c2-2co-0007",
+            "c2-2co-0008",
+            "c3-2co-0003",
+            "c3-2co-0004",
+            "c3-2co-0005",
+            "c3-2co-0006"
+          ]
         },
         {
           "id": "fruitful-hebrews",
           "name": "Hebrews: A Better Covenant",
           "art": "breastplate",
-          "questionIds": []
+          "questionIds": [
+            "c1-heb-0003",
+            "c2-heb-0007",
+            "c2-heb-0008",
+            "c2-heb-0009",
+            "c3-heb-0001",
+            "c3-heb-0002",
+            "c3-heb-0003",
+            "c3-heb-0004"
+          ]
         },
         {
           "id": "fruitful-hebrews-warnings-and-endurance",
           "name": "Hebrews: Warnings and Endurance",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-heb-0004",
+            "c2-heb-0010",
+            "c2-heb-0011",
+            "c2-heb-0012",
+            "c3-heb-0005",
+            "c3-heb-0006",
+            "c3-heb-0007",
+            "c3-heb-0008"
+          ]
         },
         {
           "id": "fruitful-seals",
           "name": "Revelation: Seals and Trumpets",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c1-rev-0007",
+            "c2-rev-0020",
+            "c2-rev-0021",
+            "c2-rev-0022",
+            "c3-rev-0002",
+            "c3-rev-0003",
+            "c3-rev-0004",
+            "c3-rev-0005"
+          ]
         },
         {
           "id": "fruitful-colossians",
           "name": "Colossians: Christ Is Supreme",
           "art": "throne",
-          "questionIds": []
+          "questionIds": [
+            "c1-col-0001",
+            "c2-col-0001",
+            "c2-col-0002",
+            "c2-col-0003",
+            "c3-col-0001",
+            "c3-col-0002",
+            "c3-col-0003",
+            "c3-col-0004"
+          ]
         },
         {
           "id": "fruitful-1thess",
           "name": "1 Thessalonians: Hope and His Coming",
           "art": "trumpet",
-          "questionIds": []
+          "questionIds": [
+            "c1-1th-0001",
+            "c2-1th-0001",
+            "c2-1th-0002",
+            "c2-1th-0003",
+            "c3-1th-0001",
+            "c3-1th-0002",
+            "c3-1th-0003",
+            "c3-1th-0004"
+          ]
         },
         {
           "id": "fruitful-2thess",
           "name": "2 Thessalonians: Stand Firm",
           "art": "rock",
-          "questionIds": []
+          "questionIds": [
+            "c1-2th-0001",
+            "c2-2th-0001",
+            "c2-2th-0002",
+            "c2-2th-0003",
+            "c3-2th-0001",
+            "c3-2th-0002",
+            "c3-2th-0003",
+            "c3-2th-0004"
+          ]
         },
         {
           "id": "fruitful-1tim",
           "name": "1 Timothy: Order in the Church",
           "art": "temple",
-          "questionIds": []
+          "questionIds": [
+            "c1-1ti-0001",
+            "c2-1ti-0001",
+            "c2-1ti-0002",
+            "c2-1ti-0003",
+            "c3-1ti-0001",
+            "c3-1ti-0002",
+            "c3-1ti-0003",
+            "c3-1ti-0004"
+          ]
         },
         {
           "id": "fruitful-titus",
           "name": "Titus: Good Works",
           "art": "tools",
-          "questionIds": []
+          "questionIds": [
+            "c1-tit-0001",
+            "c2-tit-0001",
+            "c2-tit-0002",
+            "c2-tit-0003",
+            "c3-tit-0001",
+            "c3-tit-0002",
+            "c3-tit-0003",
+            "c3-tit-0004"
+          ]
         },
         {
           "id": "fruitful-2peter",
-          "name": "2 Peter: Grow and Watch",
+          "name": "2 Peter: Remember and Watch",
           "art": "ladder",
-          "questionIds": []
+          "questionIds": [
+            "c1-2pe-0001",
+            "c2-2pe-0001",
+            "c2-2pe-0002",
+            "c2-2pe-0003",
+            "c3-2pe-0001",
+            "c3-2pe-0002",
+            "c3-2pe-0003",
+            "c3-2pe-0004"
+          ]
         },
         {
           "id": "fruitful-james-wealth-patience-and-prayer",

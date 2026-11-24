@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1corinthians-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1co-0009",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul asks what advantage his hardships would be if the dead do not rise. According to 15:32, what had he fought with at Ephesus?",
+        "child": "Paul says he faced great danger at Ephesus. What does he say he fought with there?",
+        "teen": "1 Corinthians 15:32: “I have fought with” what “at Ephesus”?",
+        "older": "According to 1 Corinthians 15:32, what did Paul fight with at Ephesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "soldiers"
+        },
+        {
+          "id": "b",
+          "text": "rulers"
+        },
+        {
+          "id": "c",
+          "text": "beasts"
+        },
+        {
+          "id": "d",
+          "text": "giants"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:32",
+            "text": "If, in the manner of men, I have fought with beasts at Ephesus, what advantage is it to me? If the dead do not rise, “Let us eat and drink, for tomorrow we die!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 15:32.",
+          "child": "Look near the start of verse 32.",
+          "teen": "15:32 says what he fought and where, then asks a question. Read the first part.",
+          "older": "It follows “I have fought with” in 15:32."
+        },
+        "extended_explanation": "15:32 then quotes a saying: “Let us eat and drink, for tomorrow we die!”",
+        "takeaway": "I have fought with beasts at Ephesus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1co-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says he is not worthy to be called an apostle, because he persecuted the church of God. What does he call himself in 15:9?",
+        "child": "Paul felt unworthy because he had once hurt the church. How does he describe himself among the apostles?",
+        "teen": "1 Corinthians 15:9: “For I am” what?",
+        "older": "According to 1 Corinthians 15:9, how does Paul describe himself?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the first of the apostles"
+        },
+        {
+          "id": "b",
+          "text": "the friend of the apostles"
+        },
+        {
+          "id": "c",
+          "text": "the teacher of the apostles"
+        },
+        {
+          "id": "d",
+          "text": "the least of the apostles"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:9",
+            "text": "For I am the least of the apostles, who am not worthy to be called an apostle, because I persecuted the church of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 15:9.",
+          "child": "Look at the first words of verse 9.",
+          "teen": "15:9 says what he is, then why he is not worthy. Read the first part.",
+          "older": "It follows “For I am” in 15:9."
+        },
+        "extended_explanation": "15:10 says, “But by the grace of God I am what I am.”",
+        "takeaway": "I am the least of the apostles."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1co-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After James and all the apostles, Christ was seen last of all by Paul. According to 15:8, as what?",
+        "child": "Paul says the risen Christ appeared to him last of all. How does he describe himself?",
+        "teen": "1 Corinthians 15:8: “Then last of all He was seen by me also, as by” whom?",
+        "older": "According to 1 Corinthians 15:8, how does Paul describe himself as a witness?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "one born out of due time"
+        },
+        {
+          "id": "b",
+          "text": "one standing far off"
+        },
+        {
+          "id": "c",
+          "text": "one called from the crowd"
+        },
+        {
+          "id": "d",
+          "text": "one sent from a far country"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:7",
+            "text": "After that He was seen by James, then by all the apostles.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 15:8",
+            "text": "Then last of all He was seen by me also, as by one born out of due time.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:8.",
+          "child": "Look at the last words of verse 8.",
+          "teen": "15:7 names earlier witnesses; 15:8 says who saw Him last, then how Paul describes himself. Read the end.",
+          "older": "It follows “as by” in 15:8."
+        },
+        "extended_explanation": "15:7 says He was seen by James, then by all the apostles.",
+        "takeaway": "He was seen by me also, as by one born out of due time."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1co-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says that if Christ is not risen, faith is futile. According to 15:19, what are we, if in this life only we have hope in Christ?",
+        "child": "Paul says hope in Christ is not only for this life. If it were, what would believers be?",
+        "teen": "1 Corinthians 15:19: “we are of all men” what?",
+        "older": "According to 1 Corinthians 15:19, what would we be if our hope in Christ were for this life only?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the most ashamed"
+        },
+        {
+          "id": "b",
+          "text": "the most pitiable"
+        },
+        {
+          "id": "c",
+          "text": "the most hated"
+        },
+        {
+          "id": "d",
+          "text": "the most forgotten"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:17",
+            "text": "And if Christ is not risen, your faith is futile; you are still in your sins!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 15:19",
+            "text": "If in this life only we have hope in Christ, we are of all men the most pitiable.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:19.",
+          "child": "Look at the last words of verse 19.",
+          "teen": "15:17 gives one result; 15:19 gives a condition, then another result. Read the end of 15:19.",
+          "older": "It follows “we are of all men” in 15:19."
+        },
+        "extended_explanation": "15:17 adds, “you are still in your sins!”",
+        "takeaway": "We are of all men the most pitiable."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1co-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul answers the question of how the dead are raised. According to 15:36, what you sow is not made alive unless what happens?",
+        "child": "Paul uses grain that is planted to explain the resurrection. What must happen before it can be made alive?",
+        "teen": "1 Corinthians 15:36: “what you sow is not made alive” unless what?",
+        "older": "According to 1 Corinthians 15:36, what must happen to what is sown before it is made alive?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "unless it is watered"
+        },
+        {
+          "id": "b",
+          "text": "unless it sees daylight"
+        },
+        {
+          "id": "c",
+          "text": "unless it is guarded"
+        },
+        {
+          "id": "d",
+          "text": "unless it dies"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:36",
+            "text": "Foolish one, what you sow is not made alive unless it dies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 15:37",
+            "text": "And what you sow, you do not sow that body that shall be, but mere grain—perhaps wheat or some other grain.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:36.",
+          "child": "Look at the last words of verse 36.",
+          "teen": "15:36 says what you sow is not made alive, then gives a condition. 15:37 speaks of mere grain. Read the condition.",
+          "older": "It follows “is not made alive” in 15:36."
+        },
+        "extended_explanation": "15:37 says you do not sow the body that shall be, but mere grain, perhaps wheat.",
+        "takeaway": "What you sow is not made alive unless it dies."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1co-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 15:14 Paul asks what follows if Christ is not risen. In 15:58, what does he say believers know about their labor in the Lord?",
+        "child": "Paul tells believers to keep working for the Lord. What does he say their work is?",
+        "teen": "1 Corinthians 15:58: “knowing that your labor is” what “in the Lord”?",
+        "older": "Linking 1 Corinthians 15:14 with 15:58, what does Paul say about labor in the Lord?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "not in secret"
+        },
+        {
+          "id": "b",
+          "text": "not yet finished"
+        },
+        {
+          "id": "c",
+          "text": "not in vain"
+        },
+        {
+          "id": "d",
+          "text": "not by our strength"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:14",
+            "text": "And if Christ is not risen, then our preaching is empty and your faith is also empty.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 15:58",
+            "text": "Therefore, my beloved brethren, be steadfast, immovable, always abounding in the work of the Lord, knowing that your labor is not in vain in the Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:58.",
+          "child": "Look at the last words of verse 58.",
+          "teen": "15:14 is the setting; 15:58 gives commands, then what they know. Read what they know.",
+          "older": "It follows “your labor is” in 15:58."
+        },
+        "extended_explanation": "15:58 calls them to be steadfast, immovable, always abounding in the work of the Lord.",
+        "takeaway": "Your labor is not in vain in the Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1co-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 15:22 Paul writes that as in Adam all die. In 15:45, what did the last Adam become?",
+        "child": "Paul compares the first man with Christ, the last Adam. What did the last Adam become?",
+        "teen": "1 Corinthians 15:45: “The last Adam became” what?",
+        "older": "Alongside 15:22, what does 15:45 say the last Adam became?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a guardian of Eden"
+        },
+        {
+          "id": "b",
+          "text": "a life-giving spirit"
+        },
+        {
+          "id": "c",
+          "text": "a ruler of great glory"
+        },
+        {
+          "id": "d",
+          "text": "a holy priesthood"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:22",
+            "text": "For as in Adam all die, even so in Christ all shall be made alive.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 15:45",
+            "text": "And so it is written, “The first man Adam became a living being.” The last Adam became a life-giving spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 15:45.",
+          "child": "Look at the end of verse 45.",
+          "teen": "15:22 is the setting; 15:45 quotes what is written about the first man, then speaks of the last. Read the end.",
+          "older": "It follows “The last Adam became” in 15:45."
+        },
+        "extended_explanation": "15:22 says that in Christ all shall be made alive. 15:45 first quotes, “The first man Adam became a living being.”",
+        "takeaway": "The last Adam became a life-giving spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1co-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 15",
+      "topics": [
+        "the-resurrection"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 15:12 Paul asks how some say there is no resurrection of the dead. In 15:52, how quickly does he say we shall be changed?",
+        "child": "Paul says believers will be changed very quickly. In how long?",
+        "teen": "1 Corinthians 15:52: “in a moment, in” what?",
+        "older": "Alongside 15:12, how quickly does 15:52 say the change will come?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the twinkling of an eye"
+        },
+        {
+          "id": "b",
+          "text": "the space of a single breath"
+        },
+        {
+          "id": "c",
+          "text": "a single beat of the heart"
+        },
+        {
+          "id": "d",
+          "text": "the blink of a lamp flame"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 15:12",
+            "text": "Now if Christ is preached that He has been raised from the dead, how do some among you say that there is no resurrection of the dead?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 15:52",
+            "text": "in a moment, in the twinkling of an eye, at the last trumpet. For the trumpet will sound, and the dead will be raised incorruptible, and we shall be changed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 15:52.",
+          "child": "Look at the first words of verse 52.",
+          "teen": "15:12 is the question; 15:52 opens with two phrases about how quickly. Read the second.",
+          "older": "It follows “in a moment, in” in 15:52."
+        },
+        "extended_explanation": "15:12 says Christ is preached as raised from the dead. 15:52 says the dead will be raised incorruptible.",
+        "takeaway": "We shall be changed in a moment, in the twinkling of an eye."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

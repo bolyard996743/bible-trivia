@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1kings-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ki-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 8",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the priests came out of the holy place after bringing in the ark, why could they not continue ministering?",
+        "child": "When the priests came out of the new temple, they could not keep doing their work. Why not?",
+        "teen": "1 Kings 8:11: “The priests could not continue ministering ___.” What completes it?",
+        "older": "According to 1 Kings 8:11, what kept the priests from continuing to minister?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "because of the cloud"
+        },
+        {
+          "id": "b",
+          "text": "because of the smoke"
+        },
+        {
+          "id": "c",
+          "text": "because of the fire"
+        },
+        {
+          "id": "d",
+          "text": "because of the crowd"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 8:10",
+            "text": "And it came to pass, when the priests came out of the holy place, that the cloud filled the house of the LORD,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 8:11",
+            "text": "so that the priests could not continue ministering because of the cloud; for the glory of the LORD filled the house of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 8:11 after “could not continue ministering.”",
+          "child": "Look at the start of verse 11. It comes right after “continue ministering.”",
+          "teen": "8:11 gives a reason and then a second reason. Read the first.",
+          "older": "It follows “could not continue ministering” in 8:11."
+        },
+        "extended_explanation": "8:10 tells what filled the LORD’s house when the priests came out of the holy place. 8:11 explains why their work stopped and adds that the glory of the LORD filled the temple.",
+        "takeaway": "They could not minister “because of the cloud.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ki-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 8",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the eighth day Solomon sent the people away, and they blessed the king. How did they go to their tents?",
+        "child": "After the big celebration for the temple, Solomon sent everyone home. How did the people feel as they went home?",
+        "teen": "1 Kings 8:66: the people “went to their tents” how?",
+        "older": "According to 1 Kings 8:66, in what spirit did the people return to their tents?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "quiet and full of awe"
+        },
+        {
+          "id": "b",
+          "text": "solemn and filled with fear"
+        },
+        {
+          "id": "c",
+          "text": "joyful and glad of heart"
+        },
+        {
+          "id": "d",
+          "text": "thankful and at peace"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 8:66",
+            "text": "On the eighth day he sent the people away; and they blessed the king, and went to their tents joyful and glad of heart for all the good that the LORD had done for His servant David, and for Israel His people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 8:66 after “went to their tents.”",
+          "child": "Look at verse 66. The words come after “went to their tents.”",
+          "teen": "8:66 says how they went home and why. Read the how.",
+          "older": "It follows “went to their tents” in 8:66."
+        },
+        "extended_explanation": "Solomon’s feast lasted seven days and seven more days. In 8:66 the people bless the king, and the verse gives the reason for their mood: “for all the good that the LORD had done for His servant David, and for Israel His people.”",
+        "takeaway": "They went home “joyful and glad of heart.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ki-0013",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 8",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Solomon asked, “But will God indeed dwell on the earth? Behold, heaven and the heaven of heavens cannot contain You.” How much less what?",
+        "child": "Solomon said that even the highest heavens are too small to hold God. Then he said something else was much too small. What was it?",
+        "teen": "1 Kings 8:27: “How much less ___!” What fills the blank?",
+        "older": "According to 1 Kings 8:27, what did Solomon say could contain God even less than heaven?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "this city where Your name dwells"
+        },
+        {
+          "id": "b",
+          "text": "this temple which I have built"
+        },
+        {
+          "id": "c",
+          "text": "this land which You gave our fathers"
+        },
+        {
+          "id": "d",
+          "text": "this altar which stands before You"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 8:27",
+            "text": "“But will God indeed dwell on the earth? Behold, heaven and the heaven of heavens cannot contain You. How much less this temple which I have built!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 8:28",
+            "text": "Yet regard the prayer of Your servant and his supplication, O LORD my God, and listen to the cry and the prayer which Your servant is praying before You today:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:27, after “How much less.”",
+          "child": "Look at the end of verse 27. It comes after “How much less.”",
+          "teen": "8:27 asks a question and then makes two statements. Read the end of the last.",
+          "older": "It closes 8:27, after “How much less.”"
+        },
+        "extended_explanation": "In the middle of his dedication prayer, Solomon pauses to confess God’s greatness. 8:27 compares the highest heavens with what Solomon has made. 8:28 still asks God to regard the prayer of His servant and his supplication.",
+        "takeaway": "Heaven cannot contain God, “How much less this temple which I have built!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ki-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 8",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Solomon asked God to hear from His dwelling place, forgive, and act, giving to everyone according to all his ways. What does 8:39 say God alone knows?",
+        "child": "Solomon prayed that God would forgive people and treat each one rightly. What did Solomon say only God knows?",
+        "teen": "1 Kings 8:39: “for You alone know ___.” What fills the blank?",
+        "older": "According to 1 Kings 8:39, what does God alone know?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the thoughts of every king on earth"
+        },
+        {
+          "id": "b",
+          "text": "the secrets of every nation"
+        },
+        {
+          "id": "c",
+          "text": "the days of all the sons of men"
+        },
+        {
+          "id": "d",
+          "text": "the hearts of all the sons of men"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 8:38",
+            "text": "whatever prayer, whatever supplication is made by anyone, or by all Your people Israel, when each one knows the plague of his own heart, and spreads out his hands toward this temple:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 8:39",
+            "text": "then hear in heaven Your dwelling place, and forgive, and act, and give to everyone according to all his ways, whose heart You know (for You alone know the hearts of all the sons of men),",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:39, inside the parentheses.",
+          "child": "Look at the end of verse 39, inside the brackets.",
+          "teen": "8:39 closes with a reason given in parentheses. Read it.",
+          "older": "It follows “for You alone know” in 8:39."
+        },
+        "extended_explanation": "8:38 describes a prayer offered by anyone, or by all Israel, toward this temple. 8:39 asks God to hear from His dwelling place, to forgive, to act, and to give to each according to his ways, and then it gives the reason.",
+        "takeaway": "Solomon prayed, “You alone know the hearts of all the sons of men.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ki-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 11",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Solomon loved many foreign women from nations about which the LORD had told Israel, “You shall not intermarry with them.” What did the LORD say those nations would surely do?",
+        "child": "God had told Israel not to marry people from nations that worshiped idols. What did God say those people would surely do?",
+        "teen": "1 Kings 11:2: “Surely they will ___ after their gods.” What fills the blank?",
+        "older": "According to 1 Kings 11:2, what warning had the LORD given about these nations?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bring war upon your land"
+        },
+        {
+          "id": "b",
+          "text": "take your silver and gold"
+        },
+        {
+          "id": "c",
+          "text": "turn away your hearts"
+        },
+        {
+          "id": "d",
+          "text": "teach your sons their ways"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 11:2",
+            "text": "from the nations of whom the LORD had said to the children of Israel, “You shall not intermarry with them, nor they with you. Surely they will turn away your hearts after their gods.” Solomon clung to these in love.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 11:4",
+            "text": "For it was so, when Solomon was old, that his wives turned his heart after other gods; and his heart was not loyal to the LORD his God, as was the heart of his father David.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 11:2 after “Surely they will.”",
+          "child": "Look at verse 2. It comes after “Surely they will.”",
+          "teen": "11:2 quotes the LORD’s warning. Read what He said they would do.",
+          "older": "It follows “Surely they will” in 11:2."
+        },
+        "extended_explanation": "11:1 lists the foreign women Solomon loved, beginning with the daughter of Pharaoh. 11:2 quotes the LORD’s command and closes, “Solomon clung to these in love.” 11:4 shows the warning coming true late in his reign.",
+        "takeaway": "The LORD had said, “Surely they will turn away your hearts after their gods.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ki-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 9",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:6 the LORD warned Solomon about turning from following Him. In 11:13, why would He not tear away the whole kingdom? “For the sake of My servant David, and for the sake of” what?",
+        "child": "God said He would take most of the kingdom away from Solomon’s son but leave him one tribe. It was for David’s sake and for the sake of what place?",
+        "teen": "1 Kings 11:13: “for the sake of My servant David, and for the sake of ___.” What fills the blank?",
+        "older": "According to 1 Kings 11:13, besides David, for the sake of what would the LORD leave one tribe?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jerusalem which I have chosen"
+        },
+        {
+          "id": "b",
+          "text": "the house you made for My name"
+        },
+        {
+          "id": "c",
+          "text": "the land which I swore to Abraham"
+        },
+        {
+          "id": "d",
+          "text": "Bethel where I met Jacob"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 9:6",
+            "text": "But if you or your sons at all turn from following Me, and do not keep My commandments and My statutes which I have set before you, but go and serve other gods and worship them,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 11:13",
+            "text": "However I will not tear away the whole kingdom; I will give one tribe to your son for the sake of My servant David, and for the sake of Jerusalem which I have chosen.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:13, after “and for the sake of.”",
+          "child": "Look at the last words of verse 13. They come after “and for the sake of.”",
+          "teen": "11:13 gives two reasons. Read the second.",
+          "older": "It closes 11:13."
+        },
+        "extended_explanation": "9:6-7 warned that turning from the LORD would bring loss of the land and of the house. In 11:11-13 the LORD announces that He will tear the kingdom away, yet He limits the judgment: not in Solomon’s days, and not the whole kingdom.",
+        "takeaway": "One tribe was left for David’s sake and “for the sake of Jerusalem which I have chosen.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ki-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 8",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 8:60 Solomon prayed “that all the peoples of the earth may know that the LORD is God; there is no other.” Yet in 11:9 the LORD became angry with Solomon. How many times had the LORD appeared to him?",
+        "child": "Solomon once prayed that the whole world would know the LORD is God. But later he turned from God. How many times had God appeared to Solomon?",
+        "teen": "1 Kings 11:9: the LORD God of Israel, “who had appeared to him” how many times?",
+        "older": "According to 1 Kings 11:9, how many times had the LORD appeared to Solomon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "once"
+        },
+        {
+          "id": "b",
+          "text": "three times"
+        },
+        {
+          "id": "c",
+          "text": "seven times"
+        },
+        {
+          "id": "d",
+          "text": "twice"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 8:60",
+            "text": "that all the peoples of the earth may know that the LORD is God; there is no other.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 11:9",
+            "text": "So the LORD became angry with Solomon, because his heart had turned from the LORD God of Israel, who had appeared to him twice,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:9, after “who had appeared to him.”",
+          "child": "Look at the very end of verse 9.",
+          "teen": "11:9 explains the LORD’s anger. Read how the explanation ends.",
+          "older": "It closes 11:9."
+        },
+        "extended_explanation": "8:60 states the goal of Solomon’s prayer at the dedication. 11:9 shows the change in Solomon and recalls the LORD’s personal dealings with him, which made the turning all the more serious.",
+        "takeaway": "The LORD “had appeared to him twice.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ki-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 8",
+      "topics": [
+        "solomons-decline-and-the-temple-dedication"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 8:13 Solomon called the temple “an exalted house.” In 9:8 the LORD warned that if Israel turned away, everyone who passed by this exalted house would do what?",
+        "child": "Solomon built God a beautiful temple. God warned that if the people turned away from Him, people walking past it would react. What would they do?",
+        "teen": "1 Kings 9:8: “everyone who passes by it will ___.” What fills the blank?",
+        "older": "According to 1 Kings 9:8, how would passers-by react to the house if Israel turned away?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "weep and tear their robes"
+        },
+        {
+          "id": "b",
+          "text": "be astonished and will hiss"
+        },
+        {
+          "id": "c",
+          "text": "laugh and shake their heads"
+        },
+        {
+          "id": "d",
+          "text": "mourn and cover their mouths"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 8:13",
+            "text": "I have surely built You an exalted house, And a place for You to dwell in forever.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 9:8",
+            "text": "And as for this house, which is exalted, everyone who passes by it will be astonished and will hiss, and say, ‘Why has the LORD done thus to this land and to this house?’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 9:8 after “everyone who passes by it will.”",
+          "child": "Look at verse 8. It comes after “passes by it will.”",
+          "teen": "9:8 describes passers-by, then quotes their question. Read what they do first.",
+          "older": "It follows “everyone who passes by it will” in 9:8."
+        },
+        "extended_explanation": "8:13 is Solomon’s word about the house he built as a place for the LORD to dwell in forever. 9:6-9 is the LORD’s warning, and 9:8-9 gives the question people will ask and the reply: “Because they forsook the LORD their God.”",
+        "takeaway": "Everyone passing by “will be astonished and will hiss.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

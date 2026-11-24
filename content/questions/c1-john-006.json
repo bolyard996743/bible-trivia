@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jhn-0033",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 2",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the wedding in Cana, what stood there according to the manner of purification of the Jews?",
+        "child": "At a wedding in Cana, some large containers were standing nearby. What were they?",
+        "teen": "John 2:6: “Now there were set there” what?",
+        "older": "According to John 2:6, what were set there for purification?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "six waterpots of stone"
+        },
+        {
+          "id": "b",
+          "text": "seven jars of clay"
+        },
+        {
+          "id": "c",
+          "text": "five bowls of bronze"
+        },
+        {
+          "id": "d",
+          "text": "twelve skins of leather"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 2:6",
+            "text": "Now there were set there six waterpots of stone, according to the manner of purification of the Jews, containing twenty or thirty gallons apiece.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 2:6.",
+          "child": "Look near the start of verse 6.",
+          "teen": "2:6 names what was set there, then their purpose and size. Read the first part.",
+          "older": "It follows “Now there were set there” in 2:6."
+        },
+        "extended_explanation": "2:6 goes on to say each one contained twenty or thirty gallons.",
+        "takeaway": "There were set there six waterpots of stone."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jhn-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 5",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "By a pool in Jerusalem lay a man with an infirmity. According to 5:5, how long had he had it?",
+        "child": "Jesus met a sick man lying by a pool. How long had the man been sick?",
+        "teen": "John 5:5: “who had an infirmity” how long?",
+        "older": "According to John 5:5, how long had the man had an infirmity?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "twenty-eight years"
+        },
+        {
+          "id": "b",
+          "text": "forty years"
+        },
+        {
+          "id": "c",
+          "text": "thirty-eight years"
+        },
+        {
+          "id": "d",
+          "text": "twelve years"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 5:5",
+            "text": "Now a certain man was there who had an infirmity thirty-eight years.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:5.",
+          "child": "Look at the last words of verse 5.",
+          "teen": "5:5 names the man and then how long. Read the end.",
+          "older": "It follows “who had an infirmity” in 5:5."
+        },
+        "extended_explanation": "5:6 says Jesus knew he had already been in that condition a long time, and asked, “Do you want to be made well?”",
+        "takeaway": "He had an infirmity thirty-eight years."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jhn-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 6",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus asked Philip, “Where shall we buy bread, that these may eat?” According to 6:6, why did He ask?",
+        "child": "Jesus asked Philip where they could buy bread for a big crowd. Why did He ask him?",
+        "teen": "John 6:6: “But this He said” why?",
+        "older": "According to John 6:6, why did Jesus ask Philip the question?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to send him to buy"
+        },
+        {
+          "id": "b",
+          "text": "to test him"
+        },
+        {
+          "id": "c",
+          "text": "to count the crowd"
+        },
+        {
+          "id": "d",
+          "text": "to teach the twelve"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 6:5",
+            "text": "Then Jesus lifted up His eyes, and seeing a great multitude coming toward Him, He said to Philip, “Where shall we buy bread, that these may eat?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 6:6",
+            "text": "But this He said to test him, for He Himself knew what He would do.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 6:6.",
+          "child": "Look at the first words of verse 6.",
+          "teen": "6:6 gives the reason first and then what Jesus knew. Read the reason.",
+          "older": "It follows “But this He said” in 6:6."
+        },
+        "extended_explanation": "6:5 says Jesus lifted up His eyes and saw a great multitude coming. 6:6 ends, “for He Himself knew what He would do.”",
+        "takeaway": "He said this to test him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jhn-0018",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 9",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus anointed a man’s eyes with clay. In 9:7, where did He tell him to go and wash?",
+        "child": "Jesus put clay on a blind man’s eyes. Where did He send him to wash?",
+        "teen": "John 9:7: “Go, wash in” what?",
+        "older": "According to John 9:7, where was the man told to wash?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the pool of Bethesda"
+        },
+        {
+          "id": "b",
+          "text": "the Brook Kidron"
+        },
+        {
+          "id": "c",
+          "text": "the Gihon spring"
+        },
+        {
+          "id": "d",
+          "text": "the pool of Siloam"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 9:6",
+            "text": "When He had said these things, He spat on the ground and made clay with the saliva; and He anointed the eyes of the blind man with the clay.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 9:7",
+            "text": "And He said to him, “Go, wash in the pool of Siloam” (which is translated, Sent). So he went and washed, and came back seeing.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Jesus’ words at the start of 9:7.",
+          "child": "Look near the start of verse 7.",
+          "teen": "9:7 gives the command, a translation, and then what happened. Read the command.",
+          "older": "It follows “Go, wash in” in 9:7."
+        },
+        "extended_explanation": "9:6 says He spat on the ground and made clay with the saliva. 9:7 ends, “and came back seeing.”",
+        "takeaway": "He said, “Go, wash in the pool of Siloam.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 4",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The nobleman asked his servants when his son began to get better. According to 4:52, when did the fever leave him?",
+        "child": "A father learned his son got well at the same time Jesus spoke. When did the fever leave the boy?",
+        "teen": "John 4:52: “Yesterday at” what time “the fever left him”?",
+        "older": "According to John 4:52, at what time did the fever leave?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the seventh hour"
+        },
+        {
+          "id": "b",
+          "text": "the third hour"
+        },
+        {
+          "id": "c",
+          "text": "the ninth hour"
+        },
+        {
+          "id": "d",
+          "text": "the eleventh hour"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 4:52",
+            "text": "Then he inquired of them the hour when he got better. And they said to him, “Yesterday at the seventh hour the fever left him.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 4:53",
+            "text": "So the father knew that it was at the same hour in which Jesus said to him, “Your son lives.” And he himself believed, and his whole household.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:52.",
+          "child": "Look at the last part of verse 52.",
+          "teen": "4:52 has his question and then their reply. Read the time in the reply.",
+          "older": "It follows “Yesterday at” in 4:52."
+        },
+        "extended_explanation": "4:53 says the father knew it was the same time Jesus said, “Your son lives.” He and his whole household believed.",
+        "takeaway": "The fever left him yesterday at the seventh hour."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 9",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 11:37 some asked whether Jesus could have kept a man from dying. According to 9:1, how long had the man Jesus saw been blind?",
+        "child": "Jesus saw a man who could not see. How long had he been that way?",
+        "teen": "John 9:1: “He saw a man who was blind” since when?",
+        "older": "Linking John 9:1 with 11:37, how long had the man whose eyes were opened been blind?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "for twelve years"
+        },
+        {
+          "id": "b",
+          "text": "for many years"
+        },
+        {
+          "id": "c",
+          "text": "from birth"
+        },
+        {
+          "id": "d",
+          "text": "since he was a boy"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 9:1",
+            "text": "Now as Jesus passed by, He saw a man who was blind from birth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 11:37",
+            "text": "And some of them said, “Could not this Man, who opened the eyes of the blind, also have kept this man from dying?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:1.",
+          "child": "Look at the last words of verse 9:1.",
+          "teen": "11:37 is the setting; 9:1 says who He saw and how long. Read the end.",
+          "older": "It follows “a man who was blind” in 9:1."
+        },
+        "extended_explanation": "9:1 says this was as Jesus passed by. 11:37 recalls Him as the one “who opened the eyes of the blind.”",
+        "takeaway": "He saw a man who was blind from birth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 2",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 2:11 calls the sign at Cana the beginning of signs. What does 4:54 call the healing of the nobleman’s son?",
+        "child": "What does John call the healing of the official’s son?",
+        "teen": "John 4:54: “This again is” what “Jesus did”?",
+        "older": "Alongside “This beginning of signs” in 2:11, what does 4:54 call this healing?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the greatest sign"
+        },
+        {
+          "id": "b",
+          "text": "the second sign"
+        },
+        {
+          "id": "c",
+          "text": "the last sign"
+        },
+        {
+          "id": "d",
+          "text": "a sign for the nations"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 2:11",
+            "text": "This beginning of signs Jesus did in Cana of Galilee, and manifested His glory; and His disciples believed in Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 4:54",
+            "text": "This again is the second sign Jesus did when He had come out of Judea into Galilee.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 4:54.",
+          "child": "Look at the first words of verse 54.",
+          "teen": "2:11 is the setting; 4:54 numbers the sign and then says where He came from. Read the first part.",
+          "older": "It follows “This again is” in 4:54."
+        },
+        "extended_explanation": "2:11 says He manifested His glory, and His disciples believed in Him. 4:54 says He had come out of Judea into Galilee.",
+        "takeaway": "“This again is the second sign Jesus did.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jhn-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 5",
+      "topics": [
+        "seven-signs"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 5:9 the man took up his bed and walked. In 9:14, Jesus made clay and opened the man’s eyes. On what day did both happen?",
+        "child": "Two of Jesus’ healings in John happened on a special day. Which day?",
+        "teen": "John 5:9: “And that day was” what?",
+        "older": "Linking John 5:9 with 9:14, on what day were both healings done?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Passover"
+        },
+        {
+          "id": "b",
+          "text": "a feast day"
+        },
+        {
+          "id": "c",
+          "text": "the Day of Atonement"
+        },
+        {
+          "id": "d",
+          "text": "the Sabbath"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 5:9",
+            "text": "And immediately the man was made well, took up his bed, and walked. And that day was the Sabbath.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 9:14",
+            "text": "Now it was a Sabbath when Jesus made the clay and opened his eyes.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 9:14.",
+          "child": "Look at the end of 5:9.",
+          "teen": "Both verses name the day: 5:9 at its end, and 9:14 at its start. Read either.",
+          "older": "It closes 5:9, after “And that day was.”"
+        },
+        "extended_explanation": "5:9 says the man was made well immediately. 9:14 says Jesus made the clay and opened his eyes.",
+        "takeaway": "Both were done on the Sabbath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rom-0019",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 3",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul asks what advantage the Jew has. According to 3:2, what was chiefly committed to them?",
+        "child": "Paul says the Jewish people had a great advantage. What did God give them to keep?",
+        "teen": "Romans 3:2: “Chiefly because to them were committed” what “of God”?",
+        "older": "According to Romans 3:2, what was committed to the Jews?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the treasures"
+        },
+        {
+          "id": "b",
+          "text": "the kingdoms"
+        },
+        {
+          "id": "c",
+          "text": "the temple keys"
+        },
+        {
+          "id": "d",
+          "text": "the oracles"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 3:1",
+            "text": "What advantage then has the Jew, or what is the profit of circumcision?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 3:2",
+            "text": "Much in every way! Chiefly because to them were committed the oracles of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "3:1 asks the question; 3:2 answers, then gives the chief reason. Read the reason.",
+          "older": "It follows “to them were committed” in 3:2."
+        },
+        "extended_explanation": "3:2 begins, “Much in every way!”",
+        "takeaway": "To them were committed the oracles of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 1",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says God’s invisible attributes are clearly seen through the things that are made. According to 1:20, what are people as a result?",
+        "child": "Paul says the world God made shows His power. What does that leave people?",
+        "teen": "Romans 1:20: “so that they are” what?",
+        "older": "According to Romans 1:20, what are people, since God’s power is clearly seen in creation?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "without a home"
+        },
+        {
+          "id": "b",
+          "text": "without excuse"
+        },
+        {
+          "id": "c",
+          "text": "without a teacher"
+        },
+        {
+          "id": "d",
+          "text": "without a king"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 1:20",
+            "text": "For since the creation of the world His invisible attributes are clearly seen, being understood by the things that are made, even His eternal power and Godhead, so that they are without excuse,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 1:20.",
+          "child": "Look at the very end of verse 20.",
+          "teen": "1:20 says what is clearly seen, how, and then the result. Read the result.",
+          "older": "It follows “so that they are” in 1:20."
+        },
+        "extended_explanation": "1:20 names His eternal power and Godhead, seen since the creation of the world.",
+        "takeaway": "They are without excuse."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 3",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Some slanderously reported that Paul says, “Let us do evil.” According to 3:8, for what reason were they claiming he said it?",
+        "child": "Some people spread a false story that Paul taught it was fine to do wrong. What reason did they say he gave?",
+        "teen": "Romans 3:8: “Let us do evil” why?",
+        "older": "According to Romans 3:8, what reason was falsely tied to the words “Let us do evil”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "that good may come"
+        },
+        {
+          "id": "b",
+          "text": "that the law may end"
+        },
+        {
+          "id": "c",
+          "text": "that peace may come"
+        },
+        {
+          "id": "d",
+          "text": "that the poor may eat"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 3:7",
+            "text": "For if the truth of God has increased through my lie to His glory, why am I also still judged as a sinner?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 3:8",
+            "text": "And why not say, “Let us do evil that good may come”?—as we are slanderously reported and as some affirm that we say. Their condemnation is just.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the quoted words in 3:8.",
+          "child": "Look inside the quotation marks in verse 8.",
+          "teen": "3:7 asks a question; 3:8 quotes the slander, then says how it was spread. Read the quote.",
+          "older": "It follows “Let us do evil” in 3:8."
+        },
+        "extended_explanation": "3:7 asks why Paul is still judged as a sinner. 3:8 calls the report slanderous.",
+        "takeaway": "“Let us do evil that good may come” was a slander against Paul."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 2",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul addresses one who is called a Jew and rests on the law. According to 2:19, what is that person confident of being to the blind?",
+        "child": "Paul writes to someone who was proud of knowing the law. What did he think he was to the blind, according to 2:19?",
+        "teen": "Romans 2:19: “and are confident that you yourself are” what “to the blind”?",
+        "older": "According to Romans 2:19, what does the one resting on the law think he is to the blind?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a healer"
+        },
+        {
+          "id": "b",
+          "text": "a judge"
+        },
+        {
+          "id": "c",
+          "text": "a guide"
+        },
+        {
+          "id": "d",
+          "text": "a servant"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 2:17",
+            "text": "Indeed you are called a Jew, and rest on the law, and make your boast in God,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 2:19",
+            "text": "and are confident that you yourself are a guide to the blind, a light to those who are in darkness,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of the list in 2:19.",
+          "child": "Look after “you yourself are” in verse 19.",
+          "teen": "2:17 names the person; 2:19 begins a list of what he is confident he is. Read the first item.",
+          "older": "It follows “you yourself are” in 2:19."
+        },
+        "extended_explanation": "2:20 calls him an instructor of the foolish. 2:21 asks, “You, therefore, who teach another, do you not teach yourself?”",
+        "takeaway": "You are confident that you yourself are a guide to the blind."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 4",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Abraham’s righteousness was accounted while he was uncircumcised. According to 4:11, what did that make him?",
+        "child": "Abraham was counted righteous before he received the sign of circumcision. What does Paul say this made him?",
+        "teen": "Romans 4:11: “that he might be” whom?",
+        "older": "According to Romans 4:11, what does Paul call Abraham?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the first priest of all the circumcised"
+        },
+        {
+          "id": "b",
+          "text": "the king of every land he walked through"
+        },
+        {
+          "id": "c",
+          "text": "the father of all those who believe"
+        },
+        {
+          "id": "d",
+          "text": "the judge of the twelve tribes of Israel"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 4:10",
+            "text": "How then was it accounted? While he was circumcised, or uncircumcised? Not while circumcised, but while uncircumcised.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 4:11",
+            "text": "And he received the sign of circumcision, a seal of the righteousness of the faith which he had while still uncircumcised, that he might be the father of all those who believe, though they are uncircumcised, that righteousness might be imputed to them also,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 4:11.",
+          "child": "Look in the middle of verse 11.",
+          "teen": "4:10 asks when; 4:11 names the sign, then its purpose. Read the purpose.",
+          "older": "It follows “that he might be” in 4:11."
+        },
+        "extended_explanation": "4:10 answers, “Not while circumcised, but while uncircumcised.” 4:11 calls the sign a seal of righteousness.",
+        "takeaway": "He is the father of all those who believe."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 1",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:21 some knew God but did not glorify Him. In 4:20, Abraham did not waver at the promise of God. What was he instead?",
+        "child": "Abraham did not doubt God’s promise. What does Paul say he was instead?",
+        "teen": "Romans 4:20: “but was” what, “giving glory to God”?",
+        "older": "Linking Romans 1:21 with 4:20, what does Paul say Abraham was?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bold in all his prayers"
+        },
+        {
+          "id": "b",
+          "text": "firm in his obedience"
+        },
+        {
+          "id": "c",
+          "text": "rich in all good works"
+        },
+        {
+          "id": "d",
+          "text": "strengthened in faith"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 1:21",
+            "text": "because, although they knew God, they did not glorify Him as God, nor were thankful, but became futile in their thoughts, and their foolish hearts were darkened.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 4:20",
+            "text": "He did not waver at the promise of God through unbelief, but was strengthened in faith, giving glory to God,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 4:20.",
+          "child": "Look after “but was” in verse 20.",
+          "teen": "1:21 is the contrast; 4:20 says what he did not do, then what he was. Read what he was.",
+          "older": "It follows “but was” in 4:20."
+        },
+        "extended_explanation": "1:21 says their foolish hearts were darkened. 4:20 says he gave glory to God.",
+        "takeaway": "He was strengthened in faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 3",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:27 Paul asks, “Where is boasting then?” According to 3:19, the law speaks to those under it so that what may be stopped?",
+        "child": "Paul says the law shows that the whole world is guilty before God. What does he say may be stopped?",
+        "teen": "Romans 3:19: “that” what “may be stopped”?",
+        "older": "Alongside 3:27, what does Romans 3:19 say may be stopped?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "every mouth"
+        },
+        {
+          "id": "b",
+          "text": "every sacrifice"
+        },
+        {
+          "id": "c",
+          "text": "every journey"
+        },
+        {
+          "id": "d",
+          "text": "every feast day"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 3:19",
+            "text": "Now we know that whatever the law says, it says to those who are under the law, that every mouth may be stopped, and all the world may become guilty before God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 3:27",
+            "text": "Where is boasting then? It is excluded. By what law? Of works? No, but by the law of faith.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:19.",
+          "child": "Look after “under the law, that” in verse 19.",
+          "teen": "3:27 is the later question; 3:19 says whom the law speaks to, then two results. Read the first result.",
+          "older": "It follows “under the law, that” in 3:19."
+        },
+        "extended_explanation": "3:19 adds that all the world may become guilty before God. 3:27 answers its own question: “It is excluded.”",
+        "takeaway": "Every mouth may be stopped."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 2",
+      "topics": [
+        "romans-1-4-sin-and-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:22 Paul says, “For there is no difference.” In 2:11, what is there none of with God?",
+        "child": "Paul writes one short sentence about God in 2:11. What does it say there is none of with God?",
+        "teen": "Romans 2:11: “For there is” what “with God”?",
+        "older": "Alongside 3:22, what does Romans 2:11 say there is none of with God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "no wrath at all"
+        },
+        {
+          "id": "b",
+          "text": "no partiality"
+        },
+        {
+          "id": "c",
+          "text": "no delay in judgment"
+        },
+        {
+          "id": "d",
+          "text": "no record of deeds"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 2:11",
+            "text": "For there is no partiality with God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 3:22",
+            "text": "even the righteousness of God, through faith in Jesus Christ, to all and on all who believe. For there is no difference;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2:11.",
+          "child": "Look at the middle of verse 11.",
+          "teen": "3:22 is the later statement; 2:11 is one short sentence. Read its middle.",
+          "older": "It follows “For there is” in 2:11."
+        },
+        "extended_explanation": "3:22 says the righteousness of God comes through faith, to all who believe.",
+        "takeaway": "There is no partiality with God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

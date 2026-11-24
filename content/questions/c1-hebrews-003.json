@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-hebrews-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-heb-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 2",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 2:1 says we must give the more earnest heed to the things we have heard. Why?",
+        "child": "Hebrews tells readers to pay close attention to the message they have heard. What reason does 2:1 give?",
+        "teen": "Hebrews 2:1: “Therefore we must give the more earnest heed to the things we have heard,” why?",
+        "older": "According to Hebrews 2:1, why must we give the more earnest heed to what we have heard?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "lest we fall asleep"
+        },
+        {
+          "id": "b",
+          "text": "lest we drift away"
+        },
+        {
+          "id": "c",
+          "text": "lest we lose heart"
+        },
+        {
+          "id": "d",
+          "text": "lest we be deceived"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 2:1",
+            "text": "Therefore we must give the more earnest heed to the things we have heard, lest we drift away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:1.",
+          "child": "Look at the last words of verse 1.",
+          "teen": "2:1 gives a command, then the reason for it. Read the reason.",
+          "older": "It follows “the things we have heard,” in 2:1."
+        },
+        "extended_explanation": "2:3 asks how we shall escape if we neglect so great a salvation, which was first spoken by the Lord.",
+        "takeaway": "We must give earnest heed, lest we drift away."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-heb-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 3",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:16-18 the writer asks a chain of questions about the people who left Egypt with Moses. To whom did He swear that they would not enter His rest?",
+        "child": "Hebrews looks back at the people Moses led from Egypt. To whom did God swear that they would not enter His rest?",
+        "teen": "Hebrews 3:18: “And to whom did He swear that they would not enter His rest, but to” whom?",
+        "older": "According to Hebrews 3:18, to whom did He swear that they would not enter His rest?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "those who did not give thanks"
+        },
+        {
+          "id": "b",
+          "text": "those who did not keep the feasts"
+        },
+        {
+          "id": "c",
+          "text": "those who did not build altars"
+        },
+        {
+          "id": "d",
+          "text": "those who did not obey"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 3:16",
+            "text": "For who, having heard, rebelled? Indeed, was it not all who came out of Egypt, led by Moses?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 3:18",
+            "text": "And to whom did He swear that they would not enter His rest, but to those who did not obey?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:18.",
+          "child": "Look at the last words of verse 18.",
+          "teen": "3:16 asks who rebelled; 3:18 asks a second question and answers it in its last words. Read them.",
+          "older": "It follows “that they would not enter His rest, but to” in 3:18."
+        },
+        "extended_explanation": "3:16 says it was all who left Egypt, led by Moses. 3:19 adds that they could not enter in.",
+        "takeaway": "He swore it to those who did not obey."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-heb-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 4",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "4:12 says God’s word is sharper than any two-edged sword. According to 4:13, nothing is hidden from His sight; to Him we must do what?",
+        "child": "Hebrews says nothing is hidden from God’s sight. What does 4:13 say we must do before Him?",
+        "teen": "Hebrews 4:13: “to the eyes of Him to whom we must” do what?",
+        "older": "According to Hebrews 4:13, what must we do before Him from whose sight nothing is hidden?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "give account"
+        },
+        {
+          "id": "b",
+          "text": "bring offerings"
+        },
+        {
+          "id": "c",
+          "text": "make our vows"
+        },
+        {
+          "id": "d",
+          "text": "bow in silence"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 4:12",
+            "text": "For the word of God is living and powerful, and sharper than any two-edged sword, piercing even to the division of soul and spirit, and of joints and marrow, and is a discerner of the thoughts and intents of the heart.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 4:13",
+            "text": "And there is no creature hidden from His sight, but all things are naked and open to the eyes of Him to whom we must give account.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 4:13.",
+          "child": "Look at the very end of verse 13.",
+          "teen": "4:12 describes God’s word; 4:13 says nothing is hidden, then names Him by what we must do. Read the end.",
+          "older": "It follows “to whom we must” in 4:13."
+        },
+        "extended_explanation": "4:12 says the word is a discerner of the thoughts and intents of the heart. 4:13 says there is no creature hidden from His sight.",
+        "takeaway": "We must give account to Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-heb-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 13",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "13:2 says not to forget to entertain strangers. According to 13:3, how are they to remember the prisoners?",
+        "child": "Hebrews tells believers to care about people in prison. How does 13:3 say to remember them?",
+        "teen": "Hebrews 13:3: “Remember the prisoners as if” what?",
+        "older": "According to Hebrews 13:3, how should believers remember the prisoners?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "praying beside them"
+        },
+        {
+          "id": "b",
+          "text": "grieving over them"
+        },
+        {
+          "id": "c",
+          "text": "chained with them"
+        },
+        {
+          "id": "d",
+          "text": "sharing meals with them"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 13:2",
+            "text": "Do not forget to entertain strangers, for by so doing some have unwittingly entertained angels.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 13:3",
+            "text": "Remember the prisoners as if chained with them—those who are mistreated—since you yourselves are in the body also.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “as if” in 13:3.",
+          "child": "Look right after “as if” in verse 3.",
+          "teen": "13:2 is about strangers; 13:3 names the prisoners, then says how to remember them, before the dash. Read that part.",
+          "older": "It follows “Remember the prisoners as if” in 13:3."
+        },
+        "extended_explanation": "13:2 says some have unwittingly entertained angels. 13:3 also names those who are mistreated, since you yourselves are in the body also.",
+        "takeaway": "Remember the prisoners as if chained with them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 12",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "12:9 compares human fathers who corrected us with the Father of spirits. According to 12:10, He chastens us for our profit, that we may be what?",
+        "child": "Hebrews compares the discipline of human fathers with God’s discipline. What does 12:10 say God’s discipline is meant to make us?",
+        "teen": "Hebrews 12:10: “but He for our profit, that we may be” what?",
+        "older": "Following 12:9, what does 12:10 give as the purpose of the Father’s chastening?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "partakers of His holiness"
+        },
+        {
+          "id": "b",
+          "text": "heirs of His kingdom"
+        },
+        {
+          "id": "c",
+          "text": "keepers of His law"
+        },
+        {
+          "id": "d",
+          "text": "stewards of His treasures"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 12:9",
+            "text": "Furthermore, we have had human fathers who corrected us, and we paid them respect. Shall we not much more readily be in subjection to the Father of spirits and live?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 12:10",
+            "text": "For they indeed for a few days chastened us as seemed best to them, but He for our profit, that we may be partakers of His holiness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 12:10.",
+          "child": "Look at the last words of verse 10.",
+          "teen": "12:9 asks a question about the Father of spirits; 12:10 contrasts the two kinds of fathers, then states His purpose. Read the end.",
+          "older": "It follows “but He for our profit, that we may be” in 12:10."
+        },
+        "extended_explanation": "12:9 asks whether we should not much more readily be in subjection to the Father of spirits and live. 12:10 says human fathers chastened for a few days as seemed best to them.",
+        "takeaway": "He chastens us that we may be partakers of His holiness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 3",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Both 3:13 and 10:25 urge believers to exhort one another. According to 10:25, they should do so all the more as they see what?",
+        "child": "Hebrews tells believers more than once to encourage one another. In 10:25, what should make them do it even more?",
+        "teen": "Hebrews 10:25: “and so much the more as you see” what?",
+        "older": "Alongside 3:13, what does 10:25 say believers will see that should spur them to exhort one another more?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the harvest approaching"
+        },
+        {
+          "id": "b",
+          "text": "the storm approaching"
+        },
+        {
+          "id": "c",
+          "text": "the Day approaching"
+        },
+        {
+          "id": "d",
+          "text": "the enemy approaching"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 3:13",
+            "text": "but exhort one another daily, while it is called “Today,” lest any of you be hardened through the deceitfulness of sin.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 10:24",
+            "text": "And let us consider one another in order to stir up love and good works,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 10:25",
+            "text": "not forsaking the assembling of ourselves together, as is the manner of some, but exhorting one another, and so much the more as you see the Day approaching.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 10:25.",
+          "child": "Look at the very end of verse 25.",
+          "teen": "3:13 says to exhort one another daily; 10:25 says not to forsake meeting together, then gives a reason for doing it more. Read the end.",
+          "older": "It follows “so much the more as you see” in 10:25."
+        },
+        "extended_explanation": "3:13 warns against being hardened through the deceitfulness of sin. 10:24 says to consider one another in order to stir up love and good works.",
+        "takeaway": "Exhort one another all the more as you see the Day approaching."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 6",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "10:36 says they have need of endurance after doing the will of God. In 6:12, what do those who through faith and patience do?",
+        "child": "Hebrews urges readers not to become lazy, but to copy people of faith and patience. What do those people do, according to 6:12?",
+        "teen": "Hebrews 6:12: “imitate those who through faith and patience” do what?",
+        "older": "With 10:36 in view, what does 6:12 say those who through faith and patience do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "overcome their enemies"
+        },
+        {
+          "id": "b",
+          "text": "stand before the throne"
+        },
+        {
+          "id": "c",
+          "text": "rule over many cities"
+        },
+        {
+          "id": "d",
+          "text": "inherit the promises"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 6:12",
+            "text": "that you do not become sluggish, but imitate those who through faith and patience inherit the promises.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 10:36",
+            "text": "For you have need of endurance, so that after you have done the will of God, you may receive the promise:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 6:12.",
+          "child": "Look at the last words of verse 12.",
+          "teen": "10:36 is about endurance; 6:12 warns against being sluggish, then names whom to imitate and what they do. Read the end.",
+          "older": "It follows “imitate those who through faith and patience” in 6:12."
+        },
+        "extended_explanation": "6:11 asks each one to show the same diligence to the full assurance of hope. 6:12 warns them not to become sluggish.",
+        "takeaway": "Those who through faith and patience inherit the promises."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-heb-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 3",
+      "topics": [
+        "hebrews-warnings-and-endurance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "10:35 says not to cast away your confidence, which has great reward. According to 3:14, we share in Christ if we hold the beginning of our confidence how?",
+        "child": "Hebrews tells readers not to let go of their confidence. In 3:14, how must they hold the confidence they had at the beginning?",
+        "teen": "Hebrews 3:14: “if we hold the beginning of our confidence” how?",
+        "older": "Alongside 10:35, how does 3:14 say we must hold the beginning of our confidence?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "close to our hearts"
+        },
+        {
+          "id": "b",
+          "text": "steadfast to the end"
+        },
+        {
+          "id": "c",
+          "text": "humbly before others"
+        },
+        {
+          "id": "d",
+          "text": "gladly in times of peace"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 3:14",
+            "text": "For we have become partakers of Christ if we hold the beginning of our confidence steadfast to the end,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 10:35",
+            "text": "Therefore do not cast away your confidence, which has great reward.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:14.",
+          "child": "Look at the last words of verse 14.",
+          "teen": "10:35 warns against casting confidence away; 3:14 states a condition about holding it. Read the end of that condition.",
+          "older": "It follows “the beginning of our confidence” in 3:14."
+        },
+        "extended_explanation": "10:35 says that confidence has great reward. 10:36 adds that they have need of endurance.",
+        "takeaway": "Hold the beginning of our confidence steadfast to the end."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

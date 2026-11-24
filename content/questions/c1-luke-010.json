@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-luke-010",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-luk-0038",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 9",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Luke 9:62, Jesus says no one who looks back is fit for the kingdom of God. Having put his hand to what?",
+        "child": "Jesus said a person who keeps looking back is not ready for God’s kingdom. What has that person put his hand to?",
+        "teen": "Luke 9:62: “No one, having put his hand to” what?",
+        "older": "According to Luke 9:62, to what has the one who looks back put his hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the plow"
+        },
+        {
+          "id": "b",
+          "text": "the spear"
+        },
+        {
+          "id": "c",
+          "text": "the gate"
+        },
+        {
+          "id": "d",
+          "text": "the oar"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 9:62",
+            "text": "But Jesus said to him, “No one, having put his hand to the plow, and looking back, is fit for the kingdom of God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of Jesus’ words in 9:62.",
+          "child": "Look near the start of what Jesus says in verse 62.",
+          "teen": "9:62 names the hand first, then looking back, then the kingdom. Read the first part.",
+          "older": "It follows “having put his hand to” in 9:62."
+        },
+        "extended_explanation": "9:61 tells of one who wanted first to bid farewell to those at his house. 9:62 ends with being fit for the kingdom of God.",
+        "takeaway": "No one, having put his hand to the plow, and looking back, is fit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-luk-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 17",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ten lepers cried out for mercy. In 17:14, where did Jesus tell them to go and show themselves?",
+        "child": "Ten men with leprosy asked Jesus for help. Where did He tell them to go?",
+        "teen": "Luke 17:14: “Go, show yourselves” where?",
+        "older": "According to Luke 17:14, where were the ten told to show themselves?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to the elders"
+        },
+        {
+          "id": "b",
+          "text": "to the priests"
+        },
+        {
+          "id": "c",
+          "text": "to the Levites"
+        },
+        {
+          "id": "d",
+          "text": "to their families"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 17:14",
+            "text": "So when He saw them, He said to them, “Go, show yourselves to the priests.” And so it was that as they went, they were cleansed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Jesus’ words in 17:14, after “show yourselves.”",
+          "child": "Look at what Jesus says in verse 14.",
+          "teen": "17:14 gives the command first and then what happened as they went. Read the command.",
+          "older": "It follows “show yourselves” in 17:14."
+        },
+        "extended_explanation": "17:14 ends, “And so it was that as they went, they were cleansed.”",
+        "takeaway": "He said, “Go, show yourselves to the priests.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-luk-0013",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 10",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus sends out the seventy and tells them to pray for laborers. In 10:3, He says He sends them out as what?",
+        "child": "Jesus sent out seventy helpers and warned them it would be hard. He said He was sending them out like what?",
+        "teen": "Luke 10:3: “I send you out as” what?",
+        "older": "According to Luke 10:3, as what does Jesus send the seventy out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "sheep among lions"
+        },
+        {
+          "id": "b",
+          "text": "doves among hawks"
+        },
+        {
+          "id": "c",
+          "text": "lights in the darkness"
+        },
+        {
+          "id": "d",
+          "text": "lambs among wolves"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 10:2",
+            "text": "Then He said to them, “The harvest truly is great, but the laborers are few; therefore pray the Lord of the harvest to send out laborers into His harvest.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 10:3",
+            "text": "Go your way; behold, I send you out as lambs among wolves.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:3.",
+          "child": "Look at the last words of verse 3.",
+          "teen": "10:3 is short: “Go your way” and then a picture. Read the picture.",
+          "older": "It follows “send you out as” in 10:3."
+        },
+        "extended_explanation": "10:2 says the harvest truly is great, but the laborers are few. 10:4 tells them to carry neither money bag, knapsack, nor sandals.",
+        "takeaway": "He sends them out “as lambs among wolves.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-luk-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 13",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus laments over Jerusalem in 13:34. He says He wanted to gather her children together as what gathers her brood?",
+        "child": "Jesus said He wanted to gather the people of Jerusalem the way a mother bird gathers her little ones under her wings. What bird?",
+        "teen": "Luke 13:34: “as” what “gathers her brood under her wings”?",
+        "older": "According to Luke 13:34, what gathers her brood under her wings?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a dove"
+        },
+        {
+          "id": "b",
+          "text": "a sparrow"
+        },
+        {
+          "id": "c",
+          "text": "a hen"
+        },
+        {
+          "id": "d",
+          "text": "a stork"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 13:34",
+            "text": "“O Jerusalem, Jerusalem, the one who kills the prophets and stones those who are sent to her! How often I wanted to gather your children together, as a hen gathers her brood under her wings, but you were not willing!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 13:35",
+            "text": "See! Your house is left to you desolate; and assuredly, I say to you, you shall not see Me until the time comes when you say, ‘Blessed is He who comes in the name of the LORD!’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 13:34, after “as.”",
+          "child": "Look in the second half of verse 34.",
+          "teen": "13:34 says how often He wanted to gather, then gives a picture. Read the start of the picture.",
+          "older": "It comes just before “gathers her brood” in 13:34."
+        },
+        "extended_explanation": "13:34 ends, “but you were not willing!” 13:35 says, “See! Your house is left to you desolate.”",
+        "takeaway": "As a hen gathers her brood under her wings."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-luk-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 13",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A woman in a synagogue was bent over and could not raise herself. According to 13:11, how long had she had a spirit of infirmity?",
+        "child": "Jesus healed a woman who was bent over in the synagogue. How long had she been that way?",
+        "teen": "Luke 13:11: “a woman who had a spirit of infirmity” how long?",
+        "older": "According to Luke 13:11, for how long had the woman had a spirit of infirmity?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "eighteen years"
+        },
+        {
+          "id": "b",
+          "text": "twelve years"
+        },
+        {
+          "id": "c",
+          "text": "twenty-two years"
+        },
+        {
+          "id": "d",
+          "text": "forty years"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 13:11",
+            "text": "And behold, there was a woman who had a spirit of infirmity eighteen years, and was bent over and could in no way raise herself up.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 13:16",
+            "text": "So ought not this woman, being a daughter of Abraham, whom Satan has bound—think of it—for eighteen years, be loosed from this bond on the Sabbath?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 13:11.",
+          "child": "Look near the start of verse 11.",
+          "teen": "13:11 says how long and then how she was bent. Read the first part.",
+          "older": "It follows “a spirit of infirmity” in 13:11."
+        },
+        "extended_explanation": "13:11 says she was bent over and could in no way raise herself up. 13:16 calls her a daughter of Abraham whom Satan has bound.",
+        "takeaway": "She had a spirit of infirmity eighteen years."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-luk-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 9",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:51 Jesus steadfastly set His face to go to Jerusalem. In 17:11, through the midst of what did He pass on the way?",
+        "child": "On His way to Jerusalem, Jesus passed between two regions. Which two?",
+        "teen": "Luke 17:11: “He passed through the midst of” what?",
+        "older": "Linking Luke 9:51 with 17:11, through the midst of which regions did Jesus pass?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judea and Perea"
+        },
+        {
+          "id": "b",
+          "text": "Samaria and Galilee"
+        },
+        {
+          "id": "c",
+          "text": "Decapolis and Galilee"
+        },
+        {
+          "id": "d",
+          "text": "Samaria and Judea"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 9:51",
+            "text": "Now it came to pass, when the time had come for Him to be received up, that He steadfastly set His face to go to Jerusalem,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 17:11",
+            "text": "Now it happened as He went to Jerusalem that He passed through the midst of Samaria and Galilee.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 17:11.",
+          "child": "Look at the last words of verse 17:11.",
+          "teen": "9:51 is the setting; 17:11 says where He went and then the regions. Read the end.",
+          "older": "It follows “through the midst of” in 17:11."
+        },
+        "extended_explanation": "9:51 says the time had come for Him to be received up. 17:12 tells of ten men who met Him as He entered a village.",
+        "takeaway": "He passed through the midst of Samaria and Galilee."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-luk-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 10",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 18:17 Jesus says the kingdom must be received as a little child. In 10:21, from whom has the Father hidden these things?",
+        "child": "Jesus thanked the Father for showing things to babes. From whom had they been hidden?",
+        "teen": "Luke 10:21: “You have hidden these things from” whom?",
+        "older": "Alongside the little child of 18:17, from whom does 10:21 say these things were hidden?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the rich and proud"
+        },
+        {
+          "id": "b",
+          "text": "the strong and mighty"
+        },
+        {
+          "id": "c",
+          "text": "the scribes and Pharisees"
+        },
+        {
+          "id": "d",
+          "text": "the wise and prudent"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 10:21",
+            "text": "In that hour Jesus rejoiced in the Spirit and said, “I thank You, Father, Lord of heaven and earth, that You have hidden these things from the wise and prudent and revealed them to babes. Even so, Father, for so it seemed good in Your sight.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 18:17",
+            "text": "Assuredly, I say to you, whoever does not receive the kingdom of God as a little child will by no means enter it.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 10:21, after “hidden these things from.”",
+          "child": "Look in the middle of verse 21.",
+          "teen": "18:17 is the setting; 10:21 names those hidden from and then those revealed to. Read the first group.",
+          "older": "It comes just before “and revealed them to babes” in 10:21."
+        },
+        "extended_explanation": "18:17 says whoever does not receive the kingdom that way will by no means enter it. 10:21 says Jesus rejoiced in the Spirit.",
+        "takeaway": "The Father hid these things from the wise and prudent."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-luk-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 9",
+      "topics": [
+        "luke-the-road-to-jerusalem"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:53 a Samaritan village did not receive Jesus. In 17:16, a Samaritan fell at His feet doing what?",
+        "child": "One of the healed lepers came back and fell down on his face before Jesus. What was he doing?",
+        "teen": "Luke 17:16: “and fell down on his face at His feet,” doing what?",
+        "older": "Set beside the Samaritan village of 9:53, what was the Samaritan of 17:16 doing at His feet?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "asking for a blessing"
+        },
+        {
+          "id": "b",
+          "text": "begging to follow Him"
+        },
+        {
+          "id": "c",
+          "text": "giving Him thanks"
+        },
+        {
+          "id": "d",
+          "text": "weeping for his sins"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 9:53",
+            "text": "But they did not receive Him, because His face was set for the journey to Jerusalem.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 17:16",
+            "text": "and fell down on his face at His feet, giving Him thanks. And he was a Samaritan.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 17:16, after “at His feet.”",
+          "child": "Look in the middle of verse 16.",
+          "teen": "9:53 is the setting; 17:16 says how he fell, what he was doing, and who he was. Read the middle part.",
+          "older": "It comes just before “And he was a Samaritan” in 17:16."
+        },
+        "extended_explanation": "9:53 says they did not receive Him because His face was set for the journey to Jerusalem. 17:16 ends, “And he was a Samaritan.”",
+        "takeaway": "He fell at His feet, giving Him thanks."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

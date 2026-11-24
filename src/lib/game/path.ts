@@ -32,13 +32,26 @@ export type KnowledgePathFile = {
 
 export const knowledgePath = pathFile as KnowledgePathFile;
 
+/**
+ * Saved progress may still name a badge by an id that was renamed in place.
+ * Reading maps the old id onto the current badge. No stored row is rewritten by a migration.
+ */
+export const BADGE_ID_ALIASES: Record<string, string> = {
+  "fruitful-song-of-solomon-love-is-strong-narrow-careful-sc": "fruitful-song-of-solomon",
+};
+
+export function canonicalBadgeId(id: string): string {
+  return BADGE_ID_ALIASES[id] ?? id;
+}
+
 export function stagePath(stage: KnowledgeStage, path: KnowledgePathFile = knowledgePath): PathStage | null {
   return path.stages.find((item) => item.stage === stage) ?? null;
 }
 
 export function findPathBadge(id: string, path: KnowledgePathFile = knowledgePath): PathBadge | null {
+  const wanted = canonicalBadgeId(id);
   for (const stage of path.stages) {
-    const badge = stage.badges.find((item) => item.id === id);
+    const badge = stage.badges.find((item) => item.id === wanted);
     if (badge) return badge;
   }
   return null;

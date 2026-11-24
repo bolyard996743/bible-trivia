@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1chronicles-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ch-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 10",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Chronicles explains that Saul died because “he did not keep the word of the LORD” and consulted a medium. What does 10:14 say he did not do?",
+        "child": "The book of 1 Chronicles explains why King Saul died. It says he went to a medium for guidance. What does it say he failed to do?",
+        "teen": "1 Chronicles 10:13-14 gives the reasons for Saul’s death. What does 10:14 say Saul did not do?",
+        "older": "According to 1 Chronicles 10:14, what did Saul not do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Inquire of the LORD"
+        },
+        {
+          "id": "b",
+          "text": "Call for the LORD’s priest"
+        },
+        {
+          "id": "c",
+          "text": "Honor Samuel’s house"
+        },
+        {
+          "id": "d",
+          "text": "Keep the Sabbath"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 10:13",
+            "text": "So Saul died for his unfaithfulness which he had committed against the LORD, because he did not keep the word of the LORD, and also because he consulted a medium for guidance.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 10:14",
+            "text": "But he did not inquire of the LORD; therefore He killed him, and turned the kingdom over to David the son of Jesse.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first clause of 10:14, after “But he did not.”",
+          "child": "Look at the first words of verse 14.",
+          "teen": "10:13 names what Saul did; 10:14 opens with what he failed to do. Read the opening.",
+          "older": "The opening clause of 10:14 states it."
+        },
+        "extended_explanation": "After Saul’s death on Mount Gilboa (10:1-12), 1 Chronicles stops to explain it. In 10:13 Saul died for his unfaithfulness: he did not keep the word of the LORD, and he consulted a medium for guidance. In 10:14 the writer sets this against what Saul did not do, and the kingdom passes to David. Read the start of 10:14.",
+        "takeaway": "Saul consulted a medium but did not inquire of the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ch-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 17",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David told Nathan he lived in a house of cedar while the ark was under tent curtains. What did Nathan first tell David?",
+        "child": "King David lived in a fine house, but the ark of God was in a tent. When David told Nathan the prophet about this, what did Nathan say first?",
+        "teen": "In 1 Chronicles 17:2, how does Nathan first respond to David’s concern about the ark?",
+        "older": "According to 1 Chronicles 17:2, what did Nathan say to David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wait until the LORD speaks"
+        },
+        {
+          "id": "b",
+          "text": "Ask the priests in the morning"
+        },
+        {
+          "id": "c",
+          "text": "Build it on Mount Zion"
+        },
+        {
+          "id": "d",
+          "text": "Do all that is in your heart"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 17:1",
+            "text": "Now it came to pass, when David was dwelling in his house, that David said to Nathan the prophet, “See now, I dwell in a house of cedar, but the ark of the covenant of the LORD is under tent curtains.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 17:2",
+            "text": "Then Nathan said to David, “Do all that is in your heart, for God is with you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read Nathan’s words in 17:2, before “for God is with you.”",
+          "child": "Look at what Nathan says in verse 2.",
+          "teen": "17:2 has Nathan’s advice and his reason. Read the advice.",
+          "older": "Nathan’s advice opens his reply in 17:2."
+        },
+        "extended_explanation": "In 17:1 David contrasts his own house of cedar with the ark under tent curtains. In 17:2 Nathan replies with advice and a reason, “for God is with you.” That same night God sends Nathan back with a different word (17:3-4). Read the first part of Nathan’s reply in 17:2.",
+        "takeaway": "Nathan first told David, “Do all that is in your heart, for God is with you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ch-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 22",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David was told he would not build a house for God’s name (22:8). How did God describe the son who would be born to him (22:9)?",
+        "child": "God told David that his son would build God’s house instead of him. How did God describe this son?",
+        "teen": "1 Chronicles 22:8-9 contrasts David with the son who will build. What does 22:9 call that son?",
+        "older": "According to 1 Chronicles 22:9, what kind of man would David’s son be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A man of wisdom"
+        },
+        {
+          "id": "b",
+          "text": "A man of rest"
+        },
+        {
+          "id": "c",
+          "text": "A man of valor"
+        },
+        {
+          "id": "d",
+          "text": "A man of sorrows"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 22:8",
+            "text": "but the word of the LORD came to me, saying, ‘You have shed much blood and have made great wars; you shall not build a house for My name, because you have shed much blood on the earth in My sight.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 22:9",
+            "text": "Behold, a son shall be born to you, who shall be a man of rest; and I will give him rest from all his enemies all around. His name shall be Solomon, for I will give peace and quietness to Israel in his days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 22:9, after “who shall be.”",
+          "child": "Look at verse 9 right after “who shall be.”",
+          "teen": "22:9 describes the son, then explains his name. Read the description first.",
+          "older": "The description follows “who shall be” in 22:9."
+        },
+        "extended_explanation": "In 22:7-8 David tells Solomon that God did not allow him to build the house for His name. In 22:9 God describes the son who will be born and explains his name. Read the description right after “who shall be.”",
+        "takeaway": "God said David’s son would be a man of rest, and his name would be Solomon."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ch-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 21",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Gad offered David three choices of judgment (21:11-12). Why did David ask to fall into the hand of the LORD rather than the hand of man?",
+        "child": "After David’s census, God gave him three choices of punishment. David said he would rather fall into God’s hands than man’s. Why?",
+        "teen": "In 1 Chronicles 21:13, David explains his choice. What reason does he give for falling into the LORD’s hand?",
+        "older": "According to 1 Chronicles 21:13, why did David want to fall into the hand of the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His anger is quickly past"
+        },
+        {
+          "id": "b",
+          "text": "His hand had spared the city"
+        },
+        {
+          "id": "c",
+          "text": "His mercies are very great"
+        },
+        {
+          "id": "d",
+          "text": "His prophet would pray for him"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 21:12",
+            "text": "either three years of famine, or three months to be defeated by your foes with the sword of your enemies overtaking you, or else for three days the sword of the LORD—the plague in the land, with the angel of the LORD destroying throughout all the territory of Israel.’ Now consider what answer I should take back to Him who sent me.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 21:13",
+            "text": "And David said to Gad, “I am in great distress. Please let me fall into the hand of the LORD, for His mercies are very great; but do not let me fall into the hand of man.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 21:13 after “fall into the hand of the LORD, for.”",
+          "child": "Look at the words after “for” in David’s reply in verse 13.",
+          "teen": "21:13 has a request, a reason after “for,” and a second request. Read the reason.",
+          "older": "The reason follows “for” in the middle of 21:13."
+        },
+        "extended_explanation": "In 21:11-12 the prophet Gad gives David three choices. In 21:13 David says he is in great distress and asks to fall into the hand of the LORD, not the hand of man, with a reason in between. Read the words after “for.”",
+        "takeaway": "David chose the LORD’s hand because His mercies are very great."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 21",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David built an altar, called on the LORD, and was answered from heaven on the altar of burnt offering (21:26). What did the angel do next at the LORD’s command?",
+        "child": "David built an altar and prayed, and God answered with fire from heaven. Then God gave the angel a command. What did the angel do?",
+        "teen": "1 Chronicles 21:26-27 shows God answering David’s offering. What did the angel do in 21:27?",
+        "older": "According to 1 Chronicles 21:27, what did the angel do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lifted his sword over Jerusalem again"
+        },
+        {
+          "id": "b",
+          "text": "Struck the threshing floor"
+        },
+        {
+          "id": "c",
+          "text": "Returned his sword to its sheath"
+        },
+        {
+          "id": "d",
+          "text": "Went up to heaven in the flame"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 21:26",
+            "text": "And David built there an altar to the LORD, and offered burnt offerings and peace offerings, and called on the LORD; and He answered him from heaven by fire on the altar of burnt offering.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 21:27",
+            "text": "So the LORD commanded the angel, and he returned his sword to its sheath.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 21:27, after “and he.”",
+          "child": "Look at the last words of verse 27.",
+          "teen": "21:26 is God’s response from heaven; 21:27 is the command and the angel’s response. Read the angel’s response.",
+          "older": "It closes 21:27."
+        },
+        "extended_explanation": "During the plague, the angel stood by the threshing floor (21:15-16). David builds an altar there and offers burnt offerings and peace offerings (21:26). God answers from heaven on the altar, and in 21:27 the LORD commands the angel. Read what the angel did at the end of 21:27.",
+        "takeaway": "At the LORD’s command, the angel returned his sword to its sheath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 22",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David says he took much trouble to prepare gold, silver, bronze, and iron for the house (22:14). In his prayer at the great offering, how does he describe what was given (29:14)?",
+        "child": "David worked hard to gather gold, silver, and other materials for God’s house. Later, when the people gave too, David prayed. What did he say about their gifts?",
+        "teen": "1 Chronicles 22:14 lists David’s huge preparations. How does David describe all the gifts in his prayer in 29:14?",
+        "older": "How does the last line of 1 Chronicles 29:14 describe the people’s gifts?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Of Your own we have given You"
+        },
+        {
+          "id": "b",
+          "text": "Of our labor we have given You"
+        },
+        {
+          "id": "c",
+          "text": "From the spoil we have given You"
+        },
+        {
+          "id": "d",
+          "text": "Of our hearts we have given You"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 22:14",
+            "text": "Indeed I have taken much trouble to prepare for the house of the LORD one hundred thousand talents of gold and one million talents of silver, and bronze and iron beyond measure, for it is so abundant. I have prepared timber and stone also, and you may add to them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 29:14",
+            "text": "But who am I, and who are my people, That we should be able to offer so willingly as this? For all things come from You, And of Your own we have given You.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "29:14 ends with a line about the gifts. Read that closing line.",
+          "child": "Look at the very last line of verse 14.",
+          "teen": "29:14 asks a question, then gives a two-part reply. Read the second part.",
+          "older": "It is the closing line of 29:14."
+        },
+        "extended_explanation": "In 22:14 David tells Solomon how much trouble he took to prepare gold, silver, bronze, iron, timber, and stone. In 29:6-9 the leaders and people add their gifts and rejoice. In 29:14 David asks who he and his people are, that they could offer so willingly. The last line of 29:14 describes the gifts. Read it.",
+        "takeaway": "David prayed, “For all things come from You, And of Your own we have given You.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 17",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 17:4 God tells David, “You shall not build Me a house to dwell in.” When David speaks to the assembly years later (28:3), what reason does he say God gave?",
+        "child": "God told David he would not be the one to build God’s house. Later, David told all the leaders of Israel the reason God had given. What was it?",
+        "teen": "1 Chronicles 17:4 gives God’s “no” to David; 28:3 gives the reason. What is it?",
+        "older": "According to 1 Chronicles 28:3, why did God say David should not build the house?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You moved the ark on a cart"
+        },
+        {
+          "id": "b",
+          "text": "You have been a man of war"
+        },
+        {
+          "id": "c",
+          "text": "You live in a house of cedar"
+        },
+        {
+          "id": "d",
+          "text": "You did not ask the priests"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 17:4",
+            "text": "“Go and tell My servant David, ‘Thus says the LORD: “You shall not build Me a house to dwell in.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 28:3",
+            "text": "But God said to me, ‘You shall not build a house for My name, because you have been a man of war and have shed blood.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 28:3 after “because,” the first half of the reason.",
+          "child": "Look at the words after “because” in 28:3.",
+          "teen": "28:3 quotes God’s refusal and then gives a reason with two parts. Read the first part.",
+          "older": "The first part of the reason follows “because” in 28:3."
+        },
+        "extended_explanation": "In 17:1-4 David wants to build a house for the ark, and God replies through Nathan that David will not build it. In 28:2-3 David tells the assembly that he had prepared to build, but God said no, and David repeats God’s reason, which has two parts joined by “and.” Read the first part after “because.”",
+        "takeaway": "God told David he would not build the house because he had been a man of war and had shed blood."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 28",
+      "topics": [
+        "davids-heart-for-the-temple"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David tells Solomon that the LORD searches all hearts (28:9). In his prayer in 29:17, David says God tests the heart. What does he say God has pleasure in?",
+        "child": "David told his son Solomon that God looks into every heart. Later, David prayed and said God tests the heart. What did David say God is pleased with?",
+        "teen": "1 Chronicles 28:9 and 29:17 both describe God examining the heart. According to 29:17, what does God have pleasure in?",
+        "older": "According to 1 Chronicles 29:17, what does God have pleasure in?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Many offerings"
+        },
+        {
+          "id": "b",
+          "text": "Quiet humility"
+        },
+        {
+          "id": "c",
+          "text": "Burnt sacrifices"
+        },
+        {
+          "id": "d",
+          "text": "Uprightness"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 28:9",
+            "text": "“As for you, my son Solomon, know the God of your father, and serve Him with a loyal heart and with a willing mind; for the LORD searches all hearts and understands all the intent of the thoughts. If you seek Him, He will be found by you; but if you forsake Him, He will cast you off forever.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 29:17",
+            "text": "I know also, my God, that You test the heart and have pleasure in uprightness. As for me, in the uprightness of my heart I have willingly offered all these things; and now with joy I have seen Your people, who are present here to offer willingly to You.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 29:17, after “have pleasure in.”",
+          "child": "Look at the first sentence of verse 17, right after “pleasure in.”",
+          "teen": "29:17 first says what God does and what pleases Him, then speaks of David’s own heart. Read the first sentence.",
+          "older": "It closes the first sentence of 29:17."
+        },
+        "extended_explanation": "In 28:9 David tells Solomon to serve God with a loyal heart and a willing mind, because the LORD searches all hearts and understands every intent of the thoughts. In 29:17, at the end of the great offering, David says God tests the heart and names what pleases Him. Read the end of the first sentence of 29:17.",
+        "takeaway": "David said God tests the heart and has pleasure in uprightness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

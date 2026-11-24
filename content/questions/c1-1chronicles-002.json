@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1chronicles-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ch-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 11",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David said whoever attacked the Jebusites first would be chief and captain. Who went up first and became chief?",
+        "child": "When David went to capture Jerusalem, he promised that whoever attacked first would become the army’s chief. Who did it?",
+        "teen": "In 1 Chronicles 11:6, David offers a reward to the first to attack the Jebusites. Who wins it?",
+        "older": "According to 1 Chronicles 11:6, who went up first and became chief?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Abishai the son of Zeruiah"
+        },
+        {
+          "id": "b",
+          "text": "Benaiah the son of Jehoiada"
+        },
+        {
+          "id": "c",
+          "text": "Abner the son of Ner"
+        },
+        {
+          "id": "d",
+          "text": "Joab the son of Zeruiah"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 11:6",
+            "text": "Now David said, “Whoever attacks the Jebusites first shall be chief and captain.” And Joab the son of Zeruiah went up first, and became chief.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of 11:6.",
+          "child": "Look at the end of verse 6.",
+          "teen": "11:6 has David’s offer and then the man who took it. Read the second part.",
+          "older": "His name follows the offer in 11:6."
+        },
+        "extended_explanation": "David and all Israel go to Jerusalem, called Jebus, and David takes the stronghold of Zion (11:4-5). In 11:6 David promises that whoever attacks the Jebusites first will be chief and captain, and the verse ends by naming who did. Read the end of 11:6.",
+        "takeaway": "Joab the son of Zeruiah went up first and became chief."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ch-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 11",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Three mighty men broke through the Philistine camp to bring David water from the well of Bethlehem. What did David do with it?",
+        "child": "David’s bravest men risked their lives to bring him a drink from a well in Bethlehem. What did David do with the water?",
+        "teen": "1 Chronicles 11:18-19 describes water brought to David at great risk. What did he do with it?",
+        "older": "According to 1 Chronicles 11:18, what did David do with the water from Bethlehem?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kept it for the LORD’s house"
+        },
+        {
+          "id": "b",
+          "text": "Drank it before the army"
+        },
+        {
+          "id": "c",
+          "text": "Poured it out to the LORD"
+        },
+        {
+          "id": "d",
+          "text": "Shared it with the three"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 11:18",
+            "text": "So the three broke through the camp of the Philistines, drew water from the well of Bethlehem that was by the gate, and took it and brought it to David. Nevertheless David would not drink it, but poured it out to the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 11:19",
+            "text": "And he said, “Far be it from me, O my God, that I should do this! Shall I drink the blood of these men who have put their lives in jeopardy? For at the risk of their lives they brought it.” Therefore he would not drink it. These things were done by the three mighty men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:18, after “David would not drink it, but.”",
+          "child": "Look at the last words of verse 18.",
+          "teen": "11:18 ends with what David did; 11:19 gives his reason. Read the end of 11:18.",
+          "older": "It closes 11:18; 11:19 explains it."
+        },
+        "extended_explanation": "In 11:15-17 David longs for water from the well of Bethlehem while the Philistines hold the town. In 11:18 three of his mighty men break through and bring it. The end of 11:18 says what David did, and in 11:19 he asks, “Shall I drink the blood of these men who have put their lives in jeopardy?” Read the end of 11:18.",
+        "takeaway": "David would not drink the water, but poured it out to the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ch-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 12",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Day by day men came to David until it was a great army (12:22). How does 12:32 describe the sons of Issachar who came?",
+        "child": "More and more men joined David until his army was huge. Some came from the tribe of Issachar. What did those men have?",
+        "teen": "1 Chronicles 12 lists those who came to make David king. What set the sons of Issachar apart in 12:32?",
+        "older": "According to 1 Chronicles 12:32, what did the sons of Issachar have?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Understanding of the times"
+        },
+        {
+          "id": "b",
+          "text": "Skill with bow and sling"
+        },
+        {
+          "id": "c",
+          "text": "Faces like the faces of lions"
+        },
+        {
+          "id": "d",
+          "text": "Swiftness like the gazelles"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 12:22",
+            "text": "For at that time they came to David day by day to help him, until it was a great army, like the army of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 12:32",
+            "text": "of the sons of Issachar who had understanding of the times, to know what Israel ought to do, their chiefs were two hundred; and all their brethren were at their command;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 12:32, after “who had.”",
+          "child": "Look at verse 32 right after “who had.”",
+          "teen": "12:32 names what they had and what it let them know. Read what they had.",
+          "older": "It follows “who had” in 12:32."
+        },
+        "extended_explanation": "1 Chronicles 12 lists the men who came to David at Ziklag and later to make him king, and 12:22 says they came day by day until there was a great army. Most groups are described by their weapons or numbers. In 12:32 the sons of Issachar are described differently, along with what it let them know. Read 12:32 after “who had.”",
+        "takeaway": "The sons of Issachar had understanding of the times, to know what Israel ought to do."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ch-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 13",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "David was afraid to bring the ark into the City of David. Into whose house did he take it aside, where the LORD blessed the household?",
+        "child": "After a frightening day, David decided not to bring the ark into his city yet. Whose house did the ark go to?",
+        "teen": "1 Chronicles 13:13-14 tells where the ark stayed for three months. In whose house?",
+        "older": "According to 1 Chronicles 13:13, into whose house was the ark taken?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Abinadab on the hill"
+        },
+        {
+          "id": "b",
+          "text": "Obed-Edom the Gittite"
+        },
+        {
+          "id": "c",
+          "text": "Zadok the son of Ahitub"
+        },
+        {
+          "id": "d",
+          "text": "Nathan the prophet"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 13:13",
+            "text": "So David would not move the ark with him into the City of David, but took it aside into the house of Obed-Edom the Gittite.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 13:14",
+            "text": "The ark of God remained with the family of Obed-Edom in his house three months. And the LORD blessed the house of Obed-Edom and all that he had.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 13:13, after “took it aside into the house of.”",
+          "child": "Look at the last words of verse 13.",
+          "teen": "13:13 names the house; 13:14 says how long it stayed and what happened. Read the end of 13:13.",
+          "older": "The name closes 13:13 and is repeated in 13:14."
+        },
+        "extended_explanation": "In 13:9-12 Uzza dies after reaching for the ark, and David is afraid of God. In 13:13 he will not move the ark into the City of David and takes it aside instead. In 13:14 it stays there three months, and the LORD blesses that house and all that the man had. Read the end of 13:13.",
+        "takeaway": "The ark stayed in the house of Obed-Edom the Gittite, and the LORD blessed his house."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 19",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Facing the Syrians and the people of Ammon, two brothers leading Israel’s army agree to help each other (19:12). The speaker ends with “And may the LORD do ___.” Complete his words.",
+        "child": "Two brothers led Israel’s army against two enemy armies at once. They promised to help each other. Then one of them prayed. Finish his words: “may the LORD do ___.”",
+        "teen": "1 Chronicles 19:13 closes a battle speech by the commander of Israel’s army. Complete it: “may the LORD do ___.”",
+        "older": "Complete the end of 1 Chronicles 19:13: “And may the LORD do ___.”"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "great things for His people"
+        },
+        {
+          "id": "b",
+          "text": "battle on our behalf"
+        },
+        {
+          "id": "c",
+          "text": "according to His promise"
+        },
+        {
+          "id": "d",
+          "text": "what is good in His sight"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 19:12",
+            "text": "Then he said, “If the Syrians are too strong for me, then you shall help me; but if the people of Ammon are too strong for you, then I will help you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 19:13",
+            "text": "Be of good courage, and let us be strong for our people and for the cities of our God. And may the LORD do what is good in His sight.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 19:13.",
+          "child": "Look at the last words of verse 13.",
+          "teen": "19:13 has a call to courage and then a closing prayer. Read the prayer.",
+          "older": "The words close 19:13."
+        },
+        "extended_explanation": "Israel’s army faces the Syrians in front and the Ammonites behind (19:10-11). In 19:12 the commander and his brother agree that whoever is stronger will help the other. In 19:13 he calls for courage for their people and the cities of their God, and then closes with a short prayer. Read the last sentence of 19:13.",
+        "takeaway": "Facing two armies, Israel’s commander trusted the outcome to God: “may the LORD do what is good in His sight.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 13",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 13:3 David proposed bringing back the ark, “for we have not inquired at it since the days of Saul.” After the first attempt failed, what does 15:13 say they had not consulted God about?",
+        "child": "David wanted to bring the ark of God back, because no one had sought God at it since Saul’s days. The first try went badly. Later David explained what they had not asked God about. What was it?",
+        "teen": "1 Chronicles 13:3 and 15:13 bracket the two attempts to move the ark. What had they not consulted God about?",
+        "older": "According to 1 Chronicles 15:13, what did they not consult God about?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The right day"
+        },
+        {
+          "id": "b",
+          "text": "The proper order"
+        },
+        {
+          "id": "c",
+          "text": "The road to Zion"
+        },
+        {
+          "id": "d",
+          "text": "The songs to sing"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 13:3",
+            "text": "and let us bring the ark of our God back to us, for we have not inquired at it since the days of Saul.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 15:13",
+            "text": "For because you did not do it the first time, the LORD our God broke out against us, because we did not consult Him about the proper order.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 15:13, after “consult Him about.”",
+          "child": "Look at the very end of verse 13.",
+          "teen": "15:13 gives what happened the first time and then why. Read the why at the end.",
+          "older": "It closes 15:13."
+        },
+        "extended_explanation": "In 13:3 David proposes to bring the ark back, and the first attempt ends with Uzza’s death (13:9-11). In 15:12-13 he tells the Levite leaders to sanctify themselves, because the LORD broke out against them the first time, and he gives the reason at the end of 15:13. Read it.",
+        "takeaway": "David said they had not consulted God about the proper order for carrying the ark."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 13",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The first time, the ark was carried on a new cart from the house of Abinadab (13:7). How did the Levites carry it the second time (15:15)?",
+        "child": "The first time David moved the ark, it rode on a new cart. The second time, the Levites carried it the way Moses had commanded. How?",
+        "teen": "1 Chronicles 13:7 and 15:15 describe two ways the ark was moved. How was it carried in 15:15?",
+        "older": "According to 1 Chronicles 15:15, how did the Levites bear the ark?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Carried in the arms of the priests"
+        },
+        {
+          "id": "b",
+          "text": "In a covered chest of cedar wood"
+        },
+        {
+          "id": "c",
+          "text": "On their shoulders, by its poles"
+        },
+        {
+          "id": "d",
+          "text": "On the backs of oxen from the herd"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 13:7",
+            "text": "So they carried the ark of God on a new cart from the house of Abinadab, and Uzza and Ahio drove the cart.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 15:15",
+            "text": "And the children of the Levites bore the ark of God on their shoulders, by its poles, as Moses had commanded according to the word of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 15:15, after “bore the ark of God.”",
+          "child": "Look at verse 15 right after “the ark of God.”",
+          "teen": "15:15 says who carried the ark, how, and on whose authority. Read the how.",
+          "older": "It follows “bore the ark of God” in 15:15."
+        },
+        "extended_explanation": "In 13:7 the ark is set on a new cart, with Uzza and Ahio driving, and the attempt ends in Uzza’s death. In 15:15 the Levites carry it again, this time as Moses had commanded according to the word of the LORD. Read the words after “bore the ark of God” in 15:15.",
+        "takeaway": "The second time, the Levites carried the ark on their shoulders by its poles, as Moses commanded."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ch-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "1 Chronicles",
+      "section": "1 Chronicles 11",
+      "topics": [
+        "davids-kingdom-in-chronicles"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Chronicles 11:9 says David became great because the LORD was with him. What does 18:6 say the LORD did?",
+        "child": "As David became a great king, the Bible says God was with him. Later, after David’s victories in Syria, what does it say God did for him?",
+        "teen": "1 Chronicles 11:9 and 18:6 both explain David’s success. What does 18:6 say the LORD did?",
+        "older": "According to the end of 1 Chronicles 18:6, what did the LORD do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Preserved David wherever he went"
+        },
+        {
+          "id": "b",
+          "text": "Gave David rest from his enemies"
+        },
+        {
+          "id": "c",
+          "text": "Went before David into battle"
+        },
+        {
+          "id": "d",
+          "text": "Made David’s name great in the earth"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Chronicles 11:9",
+            "text": "So David went on and became great, and the LORD of hosts was with him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Chronicles 18:6",
+            "text": "Then David put garrisons in Syria of Damascus; and the Syrians became David’s servants, and brought tribute. So the LORD preserved David wherever he went.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 18:6.",
+          "child": "Look at the very end of verse 6.",
+          "teen": "18:6 reports David’s victories and then sums them up. Read the summary at the end.",
+          "older": "The summary closes 18:6."
+        },
+        "extended_explanation": "In 11:9, after David takes Jerusalem, the writer says he went on and became great, because the LORD was with him. Chapter 18 lists his victories, and after he places garrisons in Syria the writer sums them up in the last sentence of 18:6. The same sentence comes back in 18:13. Read the end of 18:6.",
+        "takeaway": "The LORD preserved David wherever he went."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

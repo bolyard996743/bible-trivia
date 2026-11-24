@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-joshua-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jos-0016",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 11",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before the battle with Jabin and the kings of the north, the LORD told Joshua, “You shall hamstring their horses.” What else was he to do?",
+        "child": "God told Joshua not to be afraid of the enemy kings and all their horses. What did God say to do with their chariots?",
+        "teen": "Joshua 11:6: “You shall hamstring their horses and ___.” What fills the blank?",
+        "older": "According to Joshua 11:6, what was Joshua to do with the enemy’s chariots?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "take their chariots as spoil"
+        },
+        {
+          "id": "b",
+          "text": "burn their chariots with fire"
+        },
+        {
+          "id": "c",
+          "text": "drive their chariots into the sea"
+        },
+        {
+          "id": "d",
+          "text": "leave their chariots at Merom"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 11:6",
+            "text": "But the LORD said to Joshua, “Do not be afraid because of them, for tomorrow about this time I will deliver all of them slain before Israel. You shall hamstring their horses and burn their chariots with fire.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last sentence of 11:6, after “You shall hamstring their horses and.”",
+          "child": "Look at the end of verse 6. The words come right after “hamstring their horses and.”",
+          "teen": "11:6 ends with two commands. Read the second.",
+          "older": "It closes 11:6, after “You shall hamstring their horses and.”"
+        },
+        "extended_explanation": "Jabin king of Hazor gathered many kings with “very many horses and chariots.” In 11:6 the LORD tells Joshua, “Do not be afraid because of them,” and then gives two commands about the enemy’s strength. 11:9 records that Joshua did as the LORD had told him.",
+        "takeaway": "The LORD said, “You shall hamstring their horses and burn their chariots with fire.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jos-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 20",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Joshua to appoint cities of refuge for the slayer who kills a person accidentally. From whom did these cities protect him?",
+        "child": "God told Israel to set apart special safe cities for someone who caused a death by accident. Who would that person be safe from there?",
+        "teen": "Joshua 20:3: “They shall be your refuge from ___.” What fills the blank?",
+        "older": "According to Joshua 20:3, the cities of refuge protected the slayer from whom?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the king’s officers"
+        },
+        {
+          "id": "b",
+          "text": "the judges of the land"
+        },
+        {
+          "id": "c",
+          "text": "the men of his house"
+        },
+        {
+          "id": "d",
+          "text": "the avenger of blood"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 20:2",
+            "text": "“Speak to the children of Israel, saying: ‘Appoint for yourselves cities of refuge, of which I spoke to you through Moses,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 20:3",
+            "text": "that the slayer who kills a person accidentally or unintentionally may flee there; and they shall be your refuge from the avenger of blood.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 20:3, after “your refuge from.”",
+          "child": "Look at the last words of verse 3. They come right after “refuge from.”",
+          "teen": "20:3 gives the purpose of the cities. Read its final words.",
+          "older": "It closes 20:3, after “they shall be your refuge from.”"
+        },
+        "extended_explanation": "20:2 recalls that the LORD had spoken of these cities through Moses. 20:3 explains who may flee there and from whom the cities protect him. 20:4 goes on to describe how the elders of the city receive him.",
+        "takeaway": "The cities of refuge sheltered the slayer “from the avenger of blood.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jos-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 14",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Gilgal, Caleb reminded Joshua of the day Moses sent him from Kadesh Barnea to spy out the land. How does Caleb say he brought back word to Moses?",
+        "child": "Caleb remembered when Moses sent him to spy out the land. How did Caleb say he brought back his report?",
+        "teen": "Joshua 14:7: “I brought back word to him ___.” What completes it?",
+        "older": "According to Joshua 14:7, how did Caleb bring back word to Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "as it was in my heart"
+        },
+        {
+          "id": "b",
+          "text": "as my brethren told me"
+        },
+        {
+          "id": "c",
+          "text": "as Moses had commanded"
+        },
+        {
+          "id": "d",
+          "text": "as the LORD showed me"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 14:6",
+            "text": "Then the children of Judah came to Joshua in Gilgal. And Caleb the son of Jephunneh the Kenizzite said to him: “You know the word which the LORD said to Moses the man of God concerning you and me in Kadesh Barnea.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 14:7",
+            "text": "I was forty years old when Moses the servant of the LORD sent me from Kadesh Barnea to spy out the land, and I brought back word to him as it was in my heart.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 14:7, after “I brought back word to him.”",
+          "child": "Look at the last words of verse 7. They come after “brought back word to him.”",
+          "teen": "14:7 ends by describing Caleb’s report. Read its last words.",
+          "older": "It closes 14:7, after “I brought back word to him.”"
+        },
+        "extended_explanation": "Caleb came with the children of Judah to Joshua at Gilgal and recalled what the LORD had said to Moses about the two of them at Kadesh Barnea. In 14:7 he describes the spying mission and the report he gave. 14:8 sets the other spies’ report beside his.",
+        "takeaway": "Caleb brought back word “as it was in my heart.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jos-0010",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 22",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Phinehas and the rulers were satisfied, the children of Reuben and Gad gave a name to the great altar they had built at the border. What did they call it?",
+        "child": "The tribes of Reuben and Gad built a big altar. When the rest of Israel was pleased with their reason, what name did they give the altar?",
+        "teen": "Joshua 22:34: “The children of Reuben and the children of Gad called the altar,” what?",
+        "older": "According to Joshua 22:34, what name did Reuben and Gad give the altar?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Covenant"
+        },
+        {
+          "id": "b",
+          "text": "Unity"
+        },
+        {
+          "id": "c",
+          "text": "Witness"
+        },
+        {
+          "id": "d",
+          "text": "Remembrance"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 22:33",
+            "text": "So the thing pleased the children of Israel, and the children of Israel blessed God; they spoke no more of going against them in battle, to destroy the land where the children of Reuben and Gad dwelt.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 22:34",
+            "text": "The children of Reuben and the children of Gad called the altar, Witness, “For it is a witness between us that the LORD is God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 22:34, right after “called the altar.”",
+          "child": "Look at verse 34. The name comes right after “called the altar.”",
+          "teen": "22:34 gives the name and then the reason for it. Read the name.",
+          "older": "It follows “called the altar” in 22:34."
+        },
+        "extended_explanation": "When the eastern tribes built “a great, impressive altar,” the rest of Israel feared rebellion and sent Phinehas. 22:26 explains it was “not for burnt offering nor for sacrifice.” 22:33 says the matter pleased the children of Israel, and 22:34 records the name and the reason given: “that the LORD is God.”",
+        "takeaway": "They called the altar “Witness.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jos-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 22",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Joshua sent the eastern tribes home, he charged them to love the LORD, to walk in all His ways, and to keep His commandments. What does 22:5 list next?",
+        "child": "Joshua told the tribes going home to love God, follow His ways, and keep His commandments. What did he tell them to do next?",
+        "teen": "Joshua 22:5: “to keep His commandments, ___, and to serve Him.” What fills the blank?",
+        "older": "According to Joshua 22:5, after keeping His commandments, what were the tribes to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fear His holy name"
+        },
+        {
+          "id": "b",
+          "text": "sing praise to Him"
+        },
+        {
+          "id": "c",
+          "text": "offer Him sacrifice"
+        },
+        {
+          "id": "d",
+          "text": "hold fast to Him"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 22:4",
+            "text": "And now the LORD your God has given rest to your brethren, as He promised them; now therefore, return and go to your tents and to the land of your possession, which Moses the servant of the LORD gave you on the other side of the Jordan.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 22:5",
+            "text": "But take careful heed to do the commandment and the law which Moses the servant of the LORD commanded you, to love the LORD your God, to walk in all His ways, to keep His commandments, to hold fast to Him, and to serve Him with all your heart and with all your soul.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 22:5 right after “to keep His commandments.”",
+          "child": "Look at verse 5. The words come after “keep His commandments.”",
+          "teen": "22:5 lists several duties. Read the one between keeping and serving.",
+          "older": "It follows “to keep His commandments” in 22:5."
+        },
+        "extended_explanation": "The LORD had given rest to their brethren, so Joshua released Reuben, Gad, and half of Manasseh to go back to their tents across the river. 22:5 gives a charge built from a list of duties toward the LORD, ending with serving Him with heart and soul.",
+        "takeaway": "Joshua charged them “to keep His commandments, to hold fast to Him.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jos-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 13",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "21:43 says the LORD gave Israel what He had sworn to their fathers. But before the tribes received their shares, what did the LORD tell Joshua in 13:1 still remained?",
+        "child": "Before the tribes received their shares, God told Joshua that something was still left to do. What did God say remained?",
+        "teen": "Joshua 13:1: “There remains ___.” What fills the blank?",
+        "older": "According to Joshua 13:1, what did the LORD say still remained?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "very much land yet to be possessed"
+        },
+        {
+          "id": "b",
+          "text": "many strong cities yet to be conquered"
+        },
+        {
+          "id": "c",
+          "text": "many kings of Canaan yet to be defeated"
+        },
+        {
+          "id": "d",
+          "text": "many tribes yet to receive their lot"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 13:1",
+            "text": "Now Joshua was old, advanced in years. And the LORD said to him: “You are old, advanced in years, and there remains very much land yet to be possessed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 21:43",
+            "text": "So the LORD gave to Israel all the land of which He had sworn to give to their fathers, and they took possession of it and dwelt in it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 13:1, after “there remains.”",
+          "child": "Look at the last words of verse 1. They come after “there remains.”",
+          "teen": "13:1 has the LORD’s words to Joshua. Read how they end.",
+          "older": "It closes 13:1, after “there remains.”"
+        },
+        "extended_explanation": "13:1 opens with the LORD speaking to Joshua about the work still ahead. 13:2-6 then lists places by name. 21:43 looks back after the division: the LORD gave what He had sworn to their fathers.",
+        "takeaway": "There remained “very much land yet to be possessed.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jos-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 11",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 14:12 Caleb recalled that the Anakim lived in the mountain he asked for. After Joshua’s campaign, where does 11:22 say the Anakim remained?",
+        "child": "The Anakim were very big, strong people. After Joshua’s battles, in which cities were some of them still left?",
+        "teen": "Joshua 11:22 says none of the Anakim were left in the land of the children of Israel. Where did they remain?",
+        "older": "According to Joshua 11:22, in which cities did the Anakim remain?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in Jericho, in Ai, and in Bethel"
+        },
+        {
+          "id": "b",
+          "text": "in Lachish, in Gezer, and in Eglon"
+        },
+        {
+          "id": "c",
+          "text": "in Gaza, in Gath, and in Ashdod"
+        },
+        {
+          "id": "d",
+          "text": "in Shechem, in Shiloh, and in Gilgal"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 11:22",
+            "text": "None of the Anakim were left in the land of the children of Israel; they remained only in Gaza, in Gath, and in Ashdod.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 14:12",
+            "text": "Now therefore, give me this mountain of which the LORD spoke in that day; for you heard in that day how the Anakim were there, and that the cities were great and fortified. It may be that the LORD will be with me, and I shall be able to drive them out as the LORD said.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:22, after “they remained only.”",
+          "child": "Look at the last part of verse 22. The cities come after “remained only.”",
+          "teen": "11:22 names the places where some were left. Read the list.",
+          "older": "It closes 11:22, after “they remained only.”"
+        },
+        "extended_explanation": "11:21 tells how Joshua cut off the Anakim from the mountains of Judah and Israel. 11:22 names where some were left. In 14:12 Caleb, asking for his inheritance, remembers the Anakim and their great, fortified cities and trusts that the LORD will be with him to drive them out.",
+        "takeaway": "The Anakim “remained only in Gaza, in Gath, and in Ashdod.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jos-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joshua",
+      "section": "Joshua 20",
+      "topics": [
+        "joshua-dividing-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 22:30 Phinehas and the rulers heard the words of Reuben, Gad, and Manasseh, and it pleased them. In 20:4, where does the one fleeing to a city of refuge stand to declare his case before the elders?",
+        "child": "When someone ran to a safe city, he had to tell the leaders what had happened. Where did he stand to do that?",
+        "teen": "Joshua 20:4: when he flees to one of those cities, he “stands” where?",
+        "older": "According to Joshua 20:4, where does the fleeing man stand to declare his case?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "before the priests at the tabernacle door"
+        },
+        {
+          "id": "b",
+          "text": "at the entrance of the gate of the city"
+        },
+        {
+          "id": "c",
+          "text": "in the middle of the city square"
+        },
+        {
+          "id": "d",
+          "text": "in the house of the elders of the city"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joshua 20:4",
+            "text": "And when he flees to one of those cities, and stands at the entrance of the gate of the city, and declares his case in the hearing of the elders of that city, they shall take him into the city as one of them, and give him a place, that he may dwell among them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joshua 22:30",
+            "text": "Now when Phinehas the priest and the rulers of the congregation, the heads of the divisions of Israel who were with him, heard the words that the children of Reuben, the children of Gad, and the children of Manasseh spoke, it pleased them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 20:4 after “and stands.”",
+          "child": "Look at verse 4. The place comes right after “stands.”",
+          "teen": "20:4 says where he stands, then what he does there. Read the place.",
+          "older": "It follows “stands” in 20:4."
+        },
+        "extended_explanation": "Both passages show leaders hearing a matter before acting. 20:4 describes the slayer declaring his case in the hearing of the elders, who then take him in and give him a place to dwell. 22:30 shows Phinehas and the heads of the divisions of Israel hearing the eastern tribes’ explanation and being pleased.",
+        "takeaway": "He stands “at the entrance of the gate of the city.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

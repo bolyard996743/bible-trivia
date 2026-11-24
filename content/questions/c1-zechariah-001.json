@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-zechariah-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-zec-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 1",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zechariah’s first message tells the people, “Return to Me,” says the LORD of hosts. What does the LORD promise next?",
+        "child": "God told the people through Zechariah to come back to Him. If they did, what did God promise?",
+        "teen": "Zechariah 1:3: “Return to Me,” says the LORD of hosts, “and ___.” What fills the blank?",
+        "older": "According to Zechariah 1:3, what does the LORD promise to those who return to Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will forgive your sins"
+        },
+        {
+          "id": "b",
+          "text": "I will return your captives"
+        },
+        {
+          "id": "c",
+          "text": "I will rebuild your walls"
+        },
+        {
+          "id": "d",
+          "text": "I will return to you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 1:2",
+            "text": "“The LORD has been very angry with your fathers.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 1:3",
+            "text": "Therefore say to them, ‘Thus says the LORD of hosts: “Return to Me,” says the LORD of hosts, “and I will return to you,” says the LORD of hosts.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second quotation in 1:3, after “Return to Me,” says the LORD of hosts.",
+          "child": "Look at verse 3. The promise comes right after “Return to Me,” says the LORD of hosts.",
+          "teen": "1:3 gives a command and then a promise. Read the promise.",
+          "older": "It follows the first “says the LORD of hosts” in 1:3."
+        },
+        "extended_explanation": "Zechariah began prophesying in the second year of Darius, the same year as Haggai. 1:2 recalls that the LORD was very angry with their fathers. 1:3 gives a short invitation and promise, each marked “says the LORD of hosts.” 1:4-6 warns them not to be like their fathers, who did not listen.",
+        "takeaway": "God said, “Return to Me,” says the LORD of hosts, “and I will return to you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-zec-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 1",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Zechariah’s first night vision he saw a man riding on a red horse. Among what did the horse stand?",
+        "child": "One night Zechariah saw a man on a red horse, with more horses behind him. Where was the horse standing?",
+        "teen": "Zechariah 1:8: the red horse “stood among ___ in the hollow.” What fills the blank?",
+        "older": "According to Zechariah 1:8, among what did the man on the red horse stand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the palm trees"
+        },
+        {
+          "id": "b",
+          "text": "the willow trees"
+        },
+        {
+          "id": "c",
+          "text": "the myrtle trees"
+        },
+        {
+          "id": "d",
+          "text": "the cedar trees"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 1:8",
+            "text": "I saw by night, and behold, a man riding on a red horse, and it stood among the myrtle trees in the hollow; and behind him were horses: red, sorrel, and white.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:8 after “and it stood among.”",
+          "child": "Look at verse 8. The place comes right after “stood among.”",
+          "teen": "1:8 describes the rider, where he stood, and the horses behind him. Read where he stood.",
+          "older": "It follows “and it stood among” in 1:8."
+        },
+        "extended_explanation": "Zechariah 1:7-6:15 records eight visions in one night. In the first, 1:8, a rider on a red horse stands in a hollow, with red, sorrel, and white horses behind him. 1:10-11 explains that they have walked to and fro throughout the earth and found it resting quietly.",
+        "takeaway": "The horse “stood among the myrtle trees.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-zec-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 2",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Up, Zion! Escape, you who dwell with the daughter of Babylon.” The LORD of hosts warns the nations that plunder His people: “he who touches you touches” what?",
+        "child": "God called His people to leave Babylon. He warned the nations that hurt His people that touching them was like touching something very precious to Him. What?",
+        "teen": "Zechariah 2:8: “for he who touches you touches ___.” What fills the blank?",
+        "older": "According to Zechariah 2:8, what does anyone who touches God’s people touch?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the apple of His eye"
+        },
+        {
+          "id": "b",
+          "text": "the hem of His robe"
+        },
+        {
+          "id": "c",
+          "text": "the work of His hands"
+        },
+        {
+          "id": "d",
+          "text": "the crown of His head"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 2:7",
+            "text": "“Up, Zion! Escape, you who dwell with the daughter of Babylon.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 2:8",
+            "text": "For thus says the LORD of hosts: “He sent Me after glory, to the nations which plunder you; for he who touches you touches the apple of His eye.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:8, after “he who touches you touches.”",
+          "child": "Look at the last words of verse 8, right after “touches you touches.”",
+          "teen": "2:8 ends with a warning to the nations. Read its last words.",
+          "older": "It closes 2:8, after “for he who touches you touches.”"
+        },
+        "extended_explanation": "2:6-7 calls the exiles to flee from the land of the north and escape from Babylon. 2:8 explains why the nations that plundered them will be judged, and ends with a warning. 2:9 adds that the LORD will shake His hand against those nations.",
+        "takeaway": "He who touches God’s people “touches the apple of His eye.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-zec-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 3",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joshua the high priest stood before the Angel in filthy garments. After his iniquity was removed, what was he to be clothed with?",
+        "child": "Joshua the high priest was wearing dirty clothes. God took away his sin. What did God say He would dress him in?",
+        "teen": "Zechariah 3:4: “and I will clothe you with ___.” What fills the blank?",
+        "older": "According to Zechariah 3:4, what did the LORD say He would clothe Joshua with?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "white linen"
+        },
+        {
+          "id": "b",
+          "text": "rich robes"
+        },
+        {
+          "id": "c",
+          "text": "royal purple"
+        },
+        {
+          "id": "d",
+          "text": "holy garments"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 3:3",
+            "text": "Now Joshua was clothed with filthy garments, and was standing before the Angel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 3:4",
+            "text": "Then He answered and spoke to those who stood before Him, saying, “Take away the filthy garments from him.” And to him He said, “See, I have removed your iniquity from you, and I will clothe you with rich robes.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:4, after “I will clothe you with.”",
+          "child": "Look at the last words of verse 4, right after “clothe you with.”",
+          "teen": "3:4 has a command to others and then words to Joshua. Read the end of what is said to him.",
+          "older": "It closes 3:4, after “I will clothe you with.”"
+        },
+        "extended_explanation": "Zechariah 3 is the fourth vision. Joshua stands accused, and in 3:2 the LORD rebukes Satan. In 3:4 the filthy garments are taken away, a picture of iniquity removed, and the last words say what he will wear instead. 3:5 adds a clean turban for his head.",
+        "takeaway": "God said, “I will clothe you with rich robes.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 4",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The angel gave the word of the LORD to Zerubbabel: “Not by might nor by power.” How then would the work be done?",
+        "child": "God told Zerubbabel the temple would not be finished by strength or power. How would it be done?",
+        "teen": "Zechariah 4:6: “Not by might nor by power, but ___.” What fills the blank?",
+        "older": "According to Zechariah 4:6, by what would the LORD’s work be done?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "by My hand"
+        },
+        {
+          "id": "b",
+          "text": "by My Spirit"
+        },
+        {
+          "id": "c",
+          "text": "by My glory"
+        },
+        {
+          "id": "d",
+          "text": "by My servants"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 4:6",
+            "text": "So he answered and said to me: “This is the word of the LORD to Zerubbabel: ‘Not by might nor by power, but by My Spirit,’ Says the LORD of hosts.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 4:7",
+            "text": "‘Who are you, O great mountain? Before Zerubbabel you shall become a plain! And he shall bring forth the capstone With shouts of “Grace, grace to it!” ’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 4:6 after “Not by might nor by power, but.”",
+          "child": "Look at verse 6. The words come right after “nor by power, but.”",
+          "teen": "4:6 rules out two things and then names a third. Read the third.",
+          "older": "It follows “Not by might nor by power, but” in 4:6."
+        },
+        "extended_explanation": "In the fifth vision Zechariah sees a gold lampstand fed by two olive trees. The angel explains it with a word to Zerubbabel, who was leading the rebuilding. 4:6 rules out two sources of success, and 4:7 says the great mountain before him will become a plain.",
+        "takeaway": "“Not by might nor by power, but by My Spirit.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 4",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 8:9 the people are told, “Let your hands be strong,” as the temple is built. In 4:10, what kind of day does the LORD ask who has despised?",
+        "child": "God told the builders to be strong as they rebuilt the temple. Earlier He asked who would look down on a certain kind of day. What kind?",
+        "teen": "Link Zechariah 8:9 and 4:10. “For who has despised the day of” what?",
+        "older": "According to Zechariah 4:10, what day does the LORD ask who has despised?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "few laborers"
+        },
+        {
+          "id": "b",
+          "text": "heavy labor"
+        },
+        {
+          "id": "c",
+          "text": "poor harvests"
+        },
+        {
+          "id": "d",
+          "text": "small things"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 4:10",
+            "text": "For who has despised the day of small things? For these seven rejoice to see The plumb line in the hand of Zerubbabel. They are the eyes of the LORD, Which scan to and fro throughout the whole earth.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 8:9",
+            "text": "“Thus says the LORD of hosts: ‘Let your hands be strong, You who have been hearing in these days These words by the mouth of the prophets, Who spoke in the day the foundation was laid For the house of the LORD of hosts, That the temple might be built.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 4:10, after “who has despised the day of.”",
+          "child": "Look at the start of verse 4:10. The words come after “the day of.”",
+          "teen": "4:10 opens with a question. Read its end.",
+          "older": "It closes the opening question of 4:10."
+        },
+        "extended_explanation": "4:9 promises that the hands of Zerubbabel, which began the work, will finish the temple. 4:10 opens with a question, then speaks of rejoicing over Zerubbabel’s work. In 8:9 the LORD again encourages the builders as the temple is built.",
+        "takeaway": "“For who has despised the day of small things?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 1",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:14 the LORD says, “I am zealous for Jerusalem And for Zion with great zeal.” In 8:3, when He returns to Zion, what shall Jerusalem be called?",
+        "child": "In Zechariah’s first vision God said He cared deeply about Jerusalem. Later He said He would return and live there. What new name would Jerusalem have?",
+        "teen": "Connect Zechariah 1:14 and 8:3. “Jerusalem shall be called” what?",
+        "older": "According to Zechariah 8:3, what shall Jerusalem be called?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the City of Peace"
+        },
+        {
+          "id": "b",
+          "text": "the Faithful City"
+        },
+        {
+          "id": "c",
+          "text": "the City of Truth"
+        },
+        {
+          "id": "d",
+          "text": "the City of Righteousness"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 1:14",
+            "text": "So the angel who spoke with me said to me, “Proclaim, saying, ‘Thus says the LORD of hosts: “I am zealous for Jerusalem And for Zion with great zeal.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 8:3",
+            "text": "“Thus says the LORD: ‘I will return to Zion, And dwell in the midst of Jerusalem. Jerusalem shall be called the City of Truth, The Mountain of the LORD of hosts, The Holy Mountain.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 8:3 after “Jerusalem shall be called.”",
+          "child": "Look at verse 8:3. The first name comes right after “Jerusalem shall be called.”",
+          "teen": "8:3 gives three names. Read the first.",
+          "older": "It follows “Jerusalem shall be called” in 8:3."
+        },
+        "extended_explanation": "In 1:14-17, during the first vision, the angel proclaims the LORD’s zeal for Jerusalem and His promise to return with mercy. Chapter 8 repeats that zeal in 8:2, and in 8:3 the LORD says He will dwell in the midst of Jerusalem. The verse gives three names; the other two are about the mountain.",
+        "takeaway": "Jerusalem shall be called “the City of Truth.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 2",
+      "topics": [
+        "zechariah-night-visions"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zechariah 2:11 says many nations shall be joined to the LORD. In 8:23, what will ten men from every language grasp, saying, “Let us go with you”?",
+        "child": "Zechariah said people from many nations would join God’s people. Later he said ten men from every language would take hold of something. What?",
+        "teen": "Link Zechariah 2:11 and 8:23. Ten men “shall grasp” what?",
+        "older": "According to Zechariah 8:23, what shall ten men from the nations grasp?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the sleeve of a Jewish man"
+        },
+        {
+          "id": "b",
+          "text": "the horns of the altar"
+        },
+        {
+          "id": "c",
+          "text": "the gates of Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "the hand of a Jewish priest"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 2:11",
+            "text": "“Many nations shall be joined to the LORD in that day, and they shall become My people. And I will dwell in your midst. Then you will know that the LORD of hosts has sent Me to you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 8:23",
+            "text": "“Thus says the LORD of hosts: ‘In those days ten men from every language of the nations shall grasp the sleeve of a Jewish man, saying, “Let us go with you, for we have heard that God is with you.” ’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 8:23 after “shall grasp.”",
+          "child": "Look at verse 8:23. The words come right after “shall grasp.”",
+          "teen": "8:23 says who will grasp, what they grasp, and why. Read what they grasp.",
+          "older": "It follows “of the nations shall grasp” in 8:23."
+        },
+        "extended_explanation": "2:10-11 promises that the LORD will dwell in the midst of Zion and many nations will become His people. Chapter 8 ends with peoples going to seek the LORD in Jerusalem (8:20-22). 8:23 closes the section with a picture of eager foreigners and their reason: “for we have heard that God is with you.”",
+        "takeaway": "Ten men shall “grasp the sleeve of a Jewish man.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-exodus-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-exo-0022",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 19",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Sinai, God reminds Israel what He did to the Egyptians. How does He describe the way He brought Israel to Himself?",
+        "child": "When Israel camped at Mount Sinai, God reminded them how He had brought them out of Egypt. What picture did He use for how He carried them?",
+        "teen": "In Exodus 19:4, God uses a picture to describe how He brought Israel to Himself. What is it?",
+        "older": "According to Exodus 19:4, how did God bear Israel and bring them to Himself?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On eagles’ wings"
+        },
+        {
+          "id": "b",
+          "text": "On a cloud by day"
+        },
+        {
+          "id": "c",
+          "text": "Through the deep waters"
+        },
+        {
+          "id": "d",
+          "text": "In a pillar of fire"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 19:4",
+            "text": "‘You have seen what I did to the Egyptians, and how I bore you on eagles’ wings and brought you to Myself.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 19:4, after “how I bore you.”",
+          "child": "Look at verse 4 right after the words “how I bore you.”",
+          "teen": "19:4 has two parts: what God did to the Egyptians, and how He brought Israel. Read the second.",
+          "older": "The picture follows “how I bore you” in 19:4."
+        },
+        "extended_explanation": "Israel arrives at Sinai in the third month after leaving Egypt (19:1). Before giving the covenant terms in 19:5-6, God reminds them what they have seen: what He did to the Egyptians and how He brought them to Himself. Read 19:4 after “how I bore you.”",
+        "takeaway": "God said He bore Israel on eagles’ wings and brought them to Himself."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-exo-0019",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 20",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The people trembled at the thunder and the trumpet, and Moses told them not to fear. Why did he say God had come?",
+        "child": "The people were scared of the thunder, lightning, and trumpet on the mountain. Moses said, “Do not fear.” Why did Moses say God had come?",
+        "teen": "In Exodus 20:20, Moses tells the frightened people why God has come. What reason does he give first?",
+        "older": "According to Exodus 20:20, why had God come?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To destroy you"
+        },
+        {
+          "id": "b",
+          "text": "To choose a king"
+        },
+        {
+          "id": "c",
+          "text": "To test you"
+        },
+        {
+          "id": "d",
+          "text": "To count the people"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 20:20",
+            "text": "And Moses said to the people, “Do not fear; for God has come to test you, and that His fear may be before you, so that you may not sin.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 20:20 right after “for God has come.”",
+          "child": "Look at the words right after “Do not fear” in verse 20.",
+          "teen": "20:20 gives two purposes, joined by “and.” Read the first.",
+          "older": "The first purpose follows “for God has come” in 20:20."
+        },
+        "extended_explanation": "After the Ten Commandments, the people saw the thunder, lightning, and smoke, and stood afar off (20:18). Moses answers their fear in 20:20, giving two reasons God has come and a goal: that they may not sin. Read the first reason, right after “for God has come.”",
+        "takeaway": "Moses said God had come to test them, so that His fear would keep them from sin."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-exo-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 20",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The people asked Moses to speak to them instead of God, “lest we die” (20:19). While the people stood afar off, what did Moses draw near to (20:21)?",
+        "child": "The people were afraid to hear God speak and stayed far away. Moses did not stay back. What did he go near?",
+        "teen": "Exodus 20:19-21 contrasts the people and Moses. The people stand afar off. What does Moses draw near to?",
+        "older": "According to Exodus 20:21, what did Moses draw near?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The burning bush"
+        },
+        {
+          "id": "b",
+          "text": "The thick darkness"
+        },
+        {
+          "id": "c",
+          "text": "The bronze altar"
+        },
+        {
+          "id": "d",
+          "text": "The cleft of the rock"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 20:19",
+            "text": "Then they said to Moses, “You speak with us, and we will hear; but let not God speak with us, lest we die.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 20:21",
+            "text": "So the people stood afar off, but Moses drew near the thick darkness where God was.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 20:21, after “but Moses drew near.”",
+          "child": "Look at the end of verse 21.",
+          "teen": "20:21 sets the people and Moses side by side. Read Moses’ half.",
+          "older": "It follows “Moses drew near” in 20:21, before “where God was.”"
+        },
+        "extended_explanation": "In 20:19 the people ask Moses to speak to them, “but let not God speak with us, lest we die.” Moses reassures them in 20:20. Then 20:21 shows the two responses side by side: the people stay far off, and Moses goes nearer. Read the end of 20:21.",
+        "takeaway": "While the people stood afar off, Moses drew near the thick darkness where God was."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-exo-0021",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 23",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "If you meet your enemy’s ox or donkey going astray, what does 23:4 say you must do?",
+        "child": "God’s law talks about finding an animal that belongs to someone who is your enemy. If his ox or donkey has wandered off, what must you do?",
+        "teen": "Exodus 23:4-5 deals with an enemy’s animal. If it is going astray, what does God command?",
+        "older": "According to Exodus 23:4, what must you do with your enemy’s straying ox or donkey?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Keep it until he asks"
+        },
+        {
+          "id": "b",
+          "text": "Report it to the elders"
+        },
+        {
+          "id": "c",
+          "text": "Let it go its own way"
+        },
+        {
+          "id": "d",
+          "text": "Bring it back to him"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 23:4",
+            "text": "“If you meet your enemy’s ox or his donkey going astray, you shall surely bring it back to him again.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 23:5",
+            "text": "If you see the donkey of one who hates you lying under its burden, and you would refrain from helping it, you shall surely help him with it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 23:4, after “you shall surely.”",
+          "child": "Look at the end of verse 4.",
+          "teen": "23:4 covers a straying animal and 23:5 one under a burden. Read the command at the end of 23:4.",
+          "older": "The command closes 23:4; 23:5 adds a related case."
+        },
+        "extended_explanation": "In 23:4-5 God gives two cases about an enemy’s animal. In 23:5 the donkey of someone who hates you is lying under its burden, and you must help. In 23:4 the animal is going astray, and the command comes at the end of the verse. Read the end of 23:4.",
+        "takeaway": "If an enemy’s ox or donkey goes astray, God says, bring it back to him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-exo-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 23",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God says He will not drive out the land’s peoples in one year (23:29). How does He say He will drive them out?",
+        "child": "God told Israel He would not clear the land of its people all at once. How did He say He would do it?",
+        "teen": "Exodus 23:29-30 explains God’s pace in driving out the nations. What pace does 23:30 describe?",
+        "older": "According to Exodus 23:30, how would God drive out the peoples?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Little by little"
+        },
+        {
+          "id": "b",
+          "text": "With a great flood"
+        },
+        {
+          "id": "c",
+          "text": "By the hand of Moses"
+        },
+        {
+          "id": "d",
+          "text": "With hail from heaven"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 23:29",
+            "text": "I will not drive them out from before you in one year, lest the land become desolate and the beasts of the field become too numerous for you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 23:30",
+            "text": "Little by little I will drive them out from before you, until you have increased, and you inherit the land.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 23:30.",
+          "child": "Look at the first words of verse 30.",
+          "teen": "23:29 gives the reasons against one year; 23:30 opens with the pace. Read the opening words.",
+          "older": "The opening words of 23:30 describe it."
+        },
+        "extended_explanation": "In 23:29 God explains why He will not drive the nations out in a single year: the land would become desolate and the beasts of the field too numerous. In 23:30 He states how He will do it instead, until Israel has increased and inherits the land. Read the first words of 23:30.",
+        "takeaway": "God said He would drive out the nations little by little, until Israel increased."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-exo-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 22",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Both 22:21 and 23:9 forbid oppressing a stranger, because of Israel’s own past in Egypt. What does 23:9 add that Israel knows?",
+        "child": "God told Israel twice not to mistreat a stranger, because of their own past in Egypt. The second time He said they knew something. What did they know?",
+        "teen": "Exodus 23:9 repeats the stranger law of 22:21 but adds what Israel knows. What is it?",
+        "older": "According to Exodus 23:9, what do the Israelites know?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The law of a stranger"
+        },
+        {
+          "id": "b",
+          "text": "The heart of a stranger"
+        },
+        {
+          "id": "c",
+          "text": "The language of a stranger"
+        },
+        {
+          "id": "d",
+          "text": "The road of a stranger"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 22:21",
+            "text": "“You shall neither mistreat a stranger nor oppress him, for you were strangers in the land of Egypt.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 23:9",
+            "text": "“Also you shall not oppress a stranger, for you know the heart of a stranger, because you were strangers in the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 23:9, after “for you know.”",
+          "child": "Look at verse 9 right after the words “for you know.”",
+          "teen": "23:9 has two reasons. The first is what Israel knows; the second is their past in Egypt. Read the first.",
+          "older": "It follows “for you know” in 23:9."
+        },
+        "extended_explanation": "In 22:21 God forbids mistreating or oppressing a stranger, because of Israel’s own past in Egypt. In 23:9 He repeats the command and adds a second reason before the reminder about Egypt. Read 23:9 after “for you know.”",
+        "takeaway": "Israel knew the heart of a stranger, because of their own past in Egypt."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-exo-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 19",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the start of the Sinai covenant (19:8) and again at its sealing (24:7), the people make nearly the same promise. What do they say in 19:8?",
+        "child": "When God first offered His covenant at Mount Sinai, the people gave a reply. Later, when Moses read the Book of the Covenant, they said almost the same thing. What did they say the first time?",
+        "teen": "Exodus 19:8 and 24:7 frame the covenant with one repeated promise from the people. What was it in 19:8?",
+        "older": "What did all the people say together in Exodus 19:8?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "We will go up the mountain with Moses"
+        },
+        {
+          "id": "b",
+          "text": "We will keep the feasts in their seasons"
+        },
+        {
+          "id": "c",
+          "text": "We will build an altar of earth for the LORD"
+        },
+        {
+          "id": "d",
+          "text": "All that the LORD has spoken we will do"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 19:8",
+            "text": "Then all the people answered together and said, “All that the LORD has spoken we will do.” So Moses brought back the words of the people to the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 24:7",
+            "text": "Then he took the Book of the Covenant and read in the hearing of the people. And they said, “All that the LORD has said we will do, and be obedient.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the people’s words in quotation marks in the middle of 19:8; 24:7 adds “and be obedient.”",
+          "child": "Look at what the people say inside the quotation marks in verse 8.",
+          "teen": "19:8 quotes the people directly. 24:7 quotes them again with a short addition.",
+          "older": "The promise is quoted in 19:8, between “and said” and “So Moses brought back.”"
+        },
+        "extended_explanation": "In 19:5-6 God offers Israel His covenant, and in 19:8 the people reply together. In 24:3 they reply with one voice in similar words, and in 24:7, after Moses reads the Book of the Covenant, they say it again with “and be obedient” added. Read the quotation in 19:8.",
+        "takeaway": "The people promised, “All that the LORD has spoken we will do,” and repeated it when the covenant was sealed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-exo-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 19",
+      "topics": [
+        "law-at-sinai"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 19:5 God promises Israel blessing if they obey His voice and keep His covenant. In 23:22 He makes another promise to those who obey His voice. What does He say He will be?",
+        "child": "God made promises to Israel if they would listen to Him and obey. In Exodus 23:22, what did God say He would be for them?",
+        "teen": "Both Exodus 19:5 and 23:22 begin with a condition about obeying God’s voice. What does God promise to be in 23:22?",
+        "older": "According to Exodus 23:22, what will God be if Israel obeys His voice?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A shield to your sons"
+        },
+        {
+          "id": "b",
+          "text": "A father to your children"
+        },
+        {
+          "id": "c",
+          "text": "An enemy to your enemies"
+        },
+        {
+          "id": "d",
+          "text": "A light to your camp"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 19:5",
+            "text": "Now therefore, if you will indeed obey My voice and keep My covenant, then you shall be a special treasure to Me above all people; for all the earth is Mine.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 23:22",
+            "text": "But if you indeed obey His voice and do all that I speak, then I will be an enemy to your enemies and an adversary to your adversaries.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 23:22, after “then I will be.”",
+          "child": "Look at verse 22 after the words “then I will be.”",
+          "teen": "19:5 promises that Israel will be a special treasure. 23:22 promises what God will be. Read the first thing He names after “then I will be.”",
+          "older": "The first promise after “then I will be” in 23:22 is the one asked; a parallel phrase follows it."
+        },
+        "extended_explanation": "In 19:5 God promises that if Israel obeys His voice and keeps His covenant, they will be a special treasure to Him. In 23:20-22 He promises an Angel to go before them, and in 23:22 He adds what He Himself will be if they obey. Read the words after “then I will be.”",
+        "takeaway": "If Israel obeyed, God promised to be an enemy to their enemies and an adversary to their adversaries."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

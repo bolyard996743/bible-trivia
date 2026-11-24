@@ -1,0 +1,532 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-numbers-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-num-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 20",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On Mount Hor, Moses stripped Aaron of his priestly garments. On whom did he put them?",
+        "child": "Before Aaron died on the mountain, Moses took off Aaron’s special priestly clothes. Who did Moses put them on?",
+        "teen": "Numbers 20:26-28 describes Aaron’s death on Mount Hor. Who received Aaron’s garments?",
+        "older": "According to Numbers 20:28, on whom did Moses put Aaron’s garments?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Joshua the son of Nun"
+        },
+        {
+          "id": "b",
+          "text": "Eleazar his son"
+        },
+        {
+          "id": "c",
+          "text": "Ithamar his son"
+        },
+        {
+          "id": "d",
+          "text": "Phinehas his grandson"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 20:26",
+            "text": "and strip Aaron of his garments and put them on Eleazar his son; for Aaron shall be gathered to his people and die there.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 20:28",
+            "text": "Moses stripped Aaron of his garments and put them on Eleazar his son; and Aaron died there on the top of the mountain. Then Moses and Eleazar came down from the mountain.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 20:28, after “put them on.”",
+          "child": "Look at verse 28 right after “put them on.”",
+          "teen": "20:26 gives the command; 20:28 tells what Moses did. Read who the garments went to.",
+          "older": "The name follows “put them on” in 20:26 and again in 20:28."
+        },
+        "extended_explanation": "At Mount Hor, near the border of Edom, God tells Moses that Aaron will be gathered to his people (20:23-26). Moses takes Aaron and his son up the mountain, and in 20:28 he moves Aaron’s garments to the next priest before Aaron dies. Read 20:28 after “put them on.”",
+        "takeaway": "Moses put Aaron’s garments on Eleazar his son."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-num-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 11",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Joshua said, “Moses my lord, forbid them!” what did Moses wish for in reply?",
+        "child": "Two men began to prophesy in the camp, and Joshua wanted Moses to stop them. What did Moses wish instead?",
+        "teen": "In Numbers 11:29, Moses replies to Joshua’s request to stop Eldad and Medad. What does Moses wish?",
+        "older": "According to Numbers 11:29, what did Moses wish?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That all the LORD’s people were prophets"
+        },
+        {
+          "id": "b",
+          "text": "That the LORD would choose another leader"
+        },
+        {
+          "id": "c",
+          "text": "That Joshua would lead in his place"
+        },
+        {
+          "id": "d",
+          "text": "That the elders would keep silent"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 11:28",
+            "text": "So Joshua the son of Nun, Moses’ assistant, one of his choice men, answered and said, “Moses my lord, forbid them!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 11:29",
+            "text": "Then Moses said to him, “Are you zealous for my sake? Oh, that all the LORD’s people were prophets and that the LORD would put His Spirit upon them!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 11:29 after “Oh,” the first part of Moses’ wish.",
+          "child": "Look at Moses’ words in verse 29, after “Oh.”",
+          "teen": "11:29 starts with a question to Joshua and then a wish with two parts. Read the first part of the wish.",
+          "older": "Moses’ wish begins with “Oh” in 11:29; the first half is the one asked."
+        },
+        "extended_explanation": "Eldad and Medad stayed in the camp, yet the Spirit rested on them and they prophesied (11:26-27). Joshua, Moses’ assistant, asks Moses to forbid them (11:28). In 11:29 Moses asks whether Joshua is zealous for his sake and then states a two-part wish. Read the first half of the wish.",
+        "takeaway": "Moses wished that all the LORD’s people were prophets and had His Spirit upon them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-num-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 12",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Miriam and Aaron asked, “Has the LORD indeed spoken only through Moses?” How does the next verse describe Moses?",
+        "child": "Miriam and Aaron complained that God spoke through them too, not just Moses. Right after that, how does the Bible describe Moses?",
+        "teen": "Numbers 12:3 interrupts the story with a note about Moses. How does it describe him?",
+        "older": "According to Numbers 12:3, what was the man Moses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Very angry"
+        },
+        {
+          "id": "b",
+          "text": "Very wealthy"
+        },
+        {
+          "id": "c",
+          "text": "Very weary"
+        },
+        {
+          "id": "d",
+          "text": "Very humble"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 12:2",
+            "text": "So they said, “Has the LORD indeed spoken only through Moses? Has He not spoken through us also?” And the LORD heard it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 12:3",
+            "text": "(Now the man Moses was very humble, more than all men who were on the face of the earth.)",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 12:3, which is set in parentheses, after “Now the man Moses was.”",
+          "child": "Look at verse 3, right after “the man Moses was.”",
+          "teen": "12:3 is a side note in parentheses. Read how it describes Moses before the comparison with all men.",
+          "older": "The description follows “the man Moses was” in 12:3."
+        },
+        "extended_explanation": "In 12:1-2 Miriam and Aaron speak against Moses and ask whether the LORD has spoken only through him, and the LORD hears it. Before God responds, 12:3 adds a note in parentheses describing Moses and comparing him with all men on the earth. Read 12:3.",
+        "takeaway": "Moses was very humble, more than all men on the face of the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-num-0010",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 16",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the plague began, Aaron ran into the assembly with incense and made atonement. Where did he stand so that the plague was stopped?",
+        "child": "A plague started among the people. Aaron ran into the crowd with incense. Where did he stand until the plague stopped?",
+        "teen": "Numbers 16:47-48 shows Aaron acting during the plague. Where does 16:48 say he stood?",
+        "older": "According to Numbers 16:48, where did Aaron stand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Between the camp and the tabernacle"
+        },
+        {
+          "id": "b",
+          "text": "Between Moses and the people"
+        },
+        {
+          "id": "c",
+          "text": "Between the dead and the living"
+        },
+        {
+          "id": "d",
+          "text": "Between the altar and the ark"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 16:47",
+            "text": "Then Aaron took it as Moses commanded, and ran into the midst of the assembly; and already the plague had begun among the people. So he put in the incense and made atonement for the people.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 16:48",
+            "text": "And he stood between the dead and the living; so the plague was stopped.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 16:48, after “he stood.”",
+          "child": "Look at verse 48 right after “he stood.”",
+          "teen": "16:47 is Aaron running and making atonement; 16:48 says where he stood. Read it.",
+          "older": "It follows “he stood” in 16:48."
+        },
+        "extended_explanation": "After Korah’s rebellion, the congregation complained against Moses and Aaron, and a plague began (16:41-46). In 16:47 Aaron runs into the assembly with incense and makes atonement. In 16:48 one short sentence tells where he stood and what happened. Read 16:48.",
+        "takeaway": "Aaron stood between the dead and the living, and the plague was stopped."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-num-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 16",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Korah’s company told Moses and Aaron, “You take too much upon yourselves” (16:3). Moses used the same words back. Whom did he address with them (16:7)?",
+        "child": "Korah and his followers accused Moses and Aaron of taking too much on themselves. Moses replied with the very same words. Who did Moses say them to?",
+        "teen": "Numbers 16:3 and 16:7 use the same accusation in opposite directions. In 16:7, whom does Moses call out?",
+        "older": "At the end of Numbers 16:7, whom does Moses address?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You sons of Levi"
+        },
+        {
+          "id": "b",
+          "text": "You sons of Reuben"
+        },
+        {
+          "id": "c",
+          "text": "You elders of Israel"
+        },
+        {
+          "id": "d",
+          "text": "You sons of Aaron"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 16:3",
+            "text": "They gathered together against Moses and Aaron, and said to them, “You take too much upon yourselves, for all the congregation is holy, every one of them, and the LORD is among them. Why then do you exalt yourselves above the assembly of the LORD?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 16:7",
+            "text": "put fire in them and put incense in them before the LORD tomorrow, and it shall be that the man whom the LORD chooses is the holy one. You take too much upon yourselves, you sons of Levi!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 16:7, after the repeated accusation.",
+          "child": "Look at the very end of verse 7.",
+          "teen": "16:7 ends by repeating 16:3’s accusation and naming the people it is aimed at. Read that name.",
+          "older": "The address closes 16:7."
+        },
+        "extended_explanation": "In 16:3 Korah and his company gather against Moses and Aaron and accuse them of exalting themselves. In 16:5-7 Moses sets a test with censers and incense before the LORD, and he ends 16:7 by turning their words back on them. Read the last words of 16:7.",
+        "takeaway": "Moses turned the charge back: “You take too much upon yourselves, you sons of Levi!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-num-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 16",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses told Korah the LORD would show the one “whom He chooses” (16:5). God later said the rod of the man He chose would blossom (17:5). Besides buds and blossoms, what did Aaron’s rod yield?",
+        "child": "Each tribe’s leader put a staff in the tabernacle. God said the staff of His chosen man would blossom. What did Aaron’s staff produce besides buds and flowers?",
+        "teen": "Numbers 16:5 and 17:5 both speak of the one God chooses, and 17:8 shows the sign. What did Aaron’s rod yield?",
+        "older": "According to Numbers 17:8, what did the rod of Aaron yield?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Green leaves"
+        },
+        {
+          "id": "b",
+          "text": "Ripe figs"
+        },
+        {
+          "id": "c",
+          "text": "Ripe almonds"
+        },
+        {
+          "id": "d",
+          "text": "Fresh grapes"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 16:5",
+            "text": "and he spoke to Korah and all his company, saying, “Tomorrow morning the LORD will show who is His and who is holy, and will cause him to come near to Him. That one whom He chooses He will cause to come near to Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 17:5",
+            "text": "And it shall be that the rod of the man whom I choose will blossom; thus I will rid Myself of the complaints of the children of Israel, which they make against you.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 17:8",
+            "text": "Now it came to pass on the next day that Moses went into the tabernacle of witness, and behold, the rod of Aaron, of the house of Levi, had sprouted and put forth buds, had produced blossoms and yielded ripe almonds.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 17:8.",
+          "child": "Look at the very end of verse 8.",
+          "teen": "17:8 lists four things in order. Read the last.",
+          "older": "It is the final item in 17:8."
+        },
+        "extended_explanation": "In 16:5 Moses tells Korah that the LORD will show who is His and will bring near the one He chooses. In 17:5 God says the rod of the man He chooses will blossom, ending the complaints against Moses and Aaron. In 17:8 Moses goes into the tabernacle of witness the next day and finds Aaron’s rod. The verse lists what happened to it, step by step. Read the last item.",
+        "takeaway": "Aaron’s rod put forth buds, produced blossoms, and yielded ripe almonds."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-num-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 11",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 11:17 God took of the Spirit on Moses and put it on the seventy elders. In 27:20, what does God tell Moses to give Joshua?",
+        "child": "Earlier, God shared the Spirit that was on Moses with seventy leaders. When Joshua was chosen to lead next, what did God tell Moses to give him?",
+        "teen": "Numbers 11:17 and 27:20 both describe Moses sharing what he had with others. What does Moses give Joshua in 27:20?",
+        "older": "According to Numbers 27:20, what shall Moses give to Joshua?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your rod and your staff"
+        },
+        {
+          "id": "b",
+          "text": "The silver trumpets"
+        },
+        {
+          "id": "c",
+          "text": "The blessing of Aaron"
+        },
+        {
+          "id": "d",
+          "text": "Some of your authority"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 11:17",
+            "text": "Then I will come down and talk with you there. I will take of the Spirit that is upon you and will put the same upon them; and they shall bear the burden of the people with you, that you may not bear it yourself alone.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 27:20",
+            "text": "And you shall give some of your authority to him, that all the congregation of the children of Israel may be obedient.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 27:20, after “you shall give.”",
+          "child": "Look at the first words of verse 20 after “you shall give.”",
+          "teen": "27:20 says what Moses gives and why: so the congregation may be obedient. Read the what.",
+          "older": "It follows “you shall give” at the head of 27:20."
+        },
+        "extended_explanation": "In 11:17 God promises to take of the Spirit on Moses and put it on the seventy elders so they can bear the burden with him. In 27:18-20 God tells Moses to lay his hand on Joshua before the priest and the congregation and to give him something, so that all the congregation may be obedient. Read the start of 27:20.",
+        "takeaway": "Moses was told to give some of his authority to Joshua."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-num-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 16",
+      "topics": [
+        "numbers-complaints-and-rebellion"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Moses and Aaron call on God by a title in 16:22, when the congregation faces judgment after Korah’s rebellion, and Moses uses it again in 27:16, when he asks for a leader after him. What is the title?",
+        "child": "Two times in Numbers, Moses prays to God using the same special title (the first time with Aaron): once when the people were in danger, and once when he asked God to choose the next leader. What title did he use?",
+        "teen": "Numbers 16:22 and 27:16 share a title for God. What is it?",
+        "older": "What title for God appears in both Numbers 16:22 and 27:16?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The God of Abraham, Isaac, and Jacob"
+        },
+        {
+          "id": "b",
+          "text": "The God of the spirits of all flesh"
+        },
+        {
+          "id": "c",
+          "text": "The Holy One who dwells in the camp"
+        },
+        {
+          "id": "d",
+          "text": "The LORD who brought us out of Egypt"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 16:22",
+            "text": "Then they fell on their faces, and said, “O God, the God of the spirits of all flesh, shall one man sin, and You be angry with all the congregation?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 27:16",
+            "text": "“Let the LORD, the God of the spirits of all flesh, set a man over the congregation,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of the prayer in 16:22, right after “O God,” and compare 27:16.",
+          "child": "Look at how God is addressed at the start of 16:22, then find the same words in 27:16.",
+          "teen": "In 16:22 the title follows “O God”; in 27:16 it follows “Let the LORD.” Read either.",
+          "older": "The shared title follows “O God” in 16:22 and “Let the LORD” in 27:16."
+        },
+        "extended_explanation": "In 16:21-22 God tells Moses and Aaron to separate themselves from the congregation, and they fall on their faces and pray, asking whether one man’s sin should bring wrath on all. In 27:15-16, after God shows Moses the land he will not enter, Moses asks God to set a man over the congregation. Both prayers call God by the same title. Read the opening of each prayer.",
+        "takeaway": "Moses called on “the God of the spirits of all flesh” both for the congregation and for its next leader; Aaron joined him the first time."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

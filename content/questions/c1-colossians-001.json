@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-colossians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-col-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 1",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says the Colossians first learned the good news from a dear fellow servant. Who was he, according to 1:7?",
+        "child": "Who taught the Colossians the good news about Jesus, according to Paul in 1:7?",
+        "teen": "Colossians 1:7: “as you also learned from” whom?",
+        "older": "According to Colossians 1:7, from whom did the Colossians first learn about Christ?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Epaphras"
+        },
+        {
+          "id": "b",
+          "text": "Tychicus"
+        },
+        {
+          "id": "c",
+          "text": "Aristarchus"
+        },
+        {
+          "id": "d",
+          "text": "Archippus"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 1:7",
+            "text": "as you also learned from Epaphras, our dear fellow servant, who is a faithful minister of Christ on your behalf,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:7.",
+          "child": "Look at the first words of verse 7.",
+          "teen": "1:7 names a man, then calls him a fellow servant and a minister. Read the name.",
+          "older": "It follows “as you also learned from” in 1:7."
+        },
+        "extended_explanation": "1:7 calls him a faithful minister of Christ on your behalf. 1:8 says he declared to Paul their love in the Spirit.",
+        "takeaway": "They learned it from Epaphras."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-col-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 4",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul sends greetings from Luke and Demas. How does 4:14 describe Luke?",
+        "child": "Luke sent his greetings to the Colossians. How does Paul describe him?",
+        "teen": "Colossians 4:14: “Luke” is called what?",
+        "older": "According to Colossians 4:14, what does Paul call Luke?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the faithful evangelist"
+        },
+        {
+          "id": "b",
+          "text": "the careful historian"
+        },
+        {
+          "id": "c",
+          "text": "the beloved physician"
+        },
+        {
+          "id": "d",
+          "text": "the bold preacher"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 4:14",
+            "text": "Luke the beloved physician and Demas greet you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words right after Luke’s name in 4:14.",
+          "child": "Look right after the name Luke in verse 14.",
+          "teen": "4:14 names two men who send greetings and describes the first. Read that description.",
+          "older": "It comes between “Luke” and “and Demas” in 4:14."
+        },
+        "extended_explanation": "4:10-11 says Aristarchus, Mark, and Justus also send greetings. 4:15 asks them to greet the brethren in Laodicea.",
+        "takeaway": "Paul calls Luke the beloved physician."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-col-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 3",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3:24 says they will receive the reward of the inheritance from the Lord. According to 3:23, how should they do whatever they do?",
+        "child": "Paul says God will reward His people. How does 3:23 say to do your work?",
+        "teen": "Colossians 3:23: “And whatever you do, do it” how?",
+        "older": "According to Colossians 3:23, how should whatever we do be done?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "quickly"
+        },
+        {
+          "id": "b",
+          "text": "heartily"
+        },
+        {
+          "id": "c",
+          "text": "carefully"
+        },
+        {
+          "id": "d",
+          "text": "quietly"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 3:23",
+            "text": "And whatever you do, do it heartily, as to the Lord and not to men,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 3:24",
+            "text": "knowing that from the Lord you will receive the reward of the inheritance; for you serve the Lord Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:23.",
+          "child": "Look right after “do it” in verse 23.",
+          "teen": "3:23 gives a command, then says for whom we work and not for whom. Read the end of the command.",
+          "older": "It follows “And whatever you do, do it” in 3:23."
+        },
+        "extended_explanation": "3:23 says to work as to the Lord and not to men. 3:24 says you serve the Lord Christ.",
+        "takeaway": "Do it heartily, as to the Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-col-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 2",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2:21 quotes the rules, “Do not touch, do not taste, do not handle.” According to 2:22, what do all those things do?",
+        "child": "Some people made rules like “Do not touch, do not taste.” What does Paul say about the things those rules are about?",
+        "teen": "Colossians 2:22: “which all concern things which” do what?",
+        "older": "According to Colossians 2:22, what happens to the things those regulations concern?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fade with the seasons"
+        },
+        {
+          "id": "b",
+          "text": "spoil with the keeping"
+        },
+        {
+          "id": "c",
+          "text": "rust with the rain"
+        },
+        {
+          "id": "d",
+          "text": "perish with the using"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 2:21",
+            "text": "“Do not touch, do not taste, do not handle,”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 2:22",
+            "text": "which all concern things which perish with the using—according to the commandments and doctrines of men?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 2:22, before the dash.",
+          "child": "Look at the words just before the dash in verse 22.",
+          "teen": "2:21 gives the rules; 2:22 says what the things do, then whose commandments these are. Read the first part.",
+          "older": "It follows “which all concern things which” in 2:22."
+        },
+        "extended_explanation": "2:20 asks why, if you died with Christ, you subject yourselves to regulations. 2:22 says they are according to the commandments and doctrines of men.",
+        "takeaway": "Those things perish with the using."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-col-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 3",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3:2 says to set your mind on things above, not on things on the earth. According to 3:3, since you died, where is your life?",
+        "child": "Paul tells believers to think about heavenly things. Where does 3:3 say their life is now?",
+        "teen": "Colossians 3:3: “For you died, and your life is” where?",
+        "older": "Following 3:2, where does 3:3 say your life is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "kept with the angels above"
+        },
+        {
+          "id": "b",
+          "text": "stored up in the heavens"
+        },
+        {
+          "id": "c",
+          "text": "hidden with Christ in God"
+        },
+        {
+          "id": "d",
+          "text": "guarded in the holy city"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 3:2",
+            "text": "Set your mind on things above, not on things on the earth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 3:3",
+            "text": "For you died, and your life is hidden with Christ in God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:3.",
+          "child": "Look at the last words of verse 3.",
+          "teen": "3:2 tells where to set your mind; 3:3 gives a reason, then where your life is. Read the end.",
+          "older": "It follows “your life is” in 3:3."
+        },
+        "extended_explanation": "3:2 says not on things on the earth. 3:4 says you also will appear with Him in glory.",
+        "takeaway": "Your life is hidden with Christ in God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-col-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 1",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:16 says principalities and powers were created through Him and for Him. In 2:15, having disarmed principalities and powers, what did He make of them?",
+        "child": "Paul says Christ created every power, heavenly or earthly. In 2:15, after He disarmed the principalities and powers, what did He make of them?",
+        "teen": "Colossians 2:15: “Having disarmed principalities and powers, He made” what of them?",
+        "older": "Linking 1:16 and 2:15, what did He make of the principalities and powers He disarmed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a public spectacle"
+        },
+        {
+          "id": "b",
+          "text": "a holy offering"
+        },
+        {
+          "id": "c",
+          "text": "a royal guard"
+        },
+        {
+          "id": "d",
+          "text": "a lasting covenant"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 1:16",
+            "text": "For by Him all things were created that are in heaven and that are on earth, visible and invisible, whether thrones or dominions or principalities or powers. All things were created through Him and for Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 2:15",
+            "text": "Having disarmed principalities and powers, He made a public spectacle of them, triumphing over them in it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:15.",
+          "child": "Look right after “He made” in verse 15.",
+          "teen": "1:16 lists what was created; 2:15 says what He did to principalities and powers, what He made of them, and how He triumphed. Read the middle.",
+          "older": "It follows “He made” in 2:15."
+        },
+        "extended_explanation": "1:16 says everything was created through Him and for Him. 2:15 ends by saying He was triumphing over them in it.",
+        "takeaway": "He made a public spectacle of them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-col-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 1",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:17 says He is before everything, and in Him everything holds together. In 3:11, after naming Greek and Jew, slave and free, what does Paul say Christ is?",
+        "child": "Paul says Christ was before everything. In 3:11, after listing different kinds of people, what does Paul say Christ is?",
+        "teen": "Colossians 3:11: “but Christ is” what?",
+        "older": "Read with 1:17, what does 3:11 say Christ is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "head over each one"
+        },
+        {
+          "id": "b",
+          "text": "one among many"
+        },
+        {
+          "id": "c",
+          "text": "Lord of each nation"
+        },
+        {
+          "id": "d",
+          "text": "all and in all"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 1:17",
+            "text": "And He is before all things, and in Him all things consist.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 3:11",
+            "text": "where there is neither Greek nor Jew, circumcised nor uncircumcised, barbarian, Scythian, slave nor free, but Christ is all and in all.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:11.",
+          "child": "Look at the last words of verse 11.",
+          "teen": "1:17 is about everything holding together; 3:11 lists those who are no longer divided, then what Christ is. Read the end.",
+          "older": "It follows “but Christ is” in 3:11."
+        },
+        "extended_explanation": "3:10 speaks of the new man, renewed in knowledge. 3:11 says there is neither Greek nor Jew there.",
+        "takeaway": "Christ is all and in all."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-col-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 1",
+      "topics": [
+        "christ-is-supreme"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:23 urges them to continue, grounded and steadfast. In 2:5, what does Paul rejoice to see, along with the steadfastness of their faith?",
+        "child": "Paul wants the Colossians to stay firm in their faith. Though he is away, what does he rejoice to see in them in 2:5?",
+        "teen": "Colossians 2:5: “rejoicing to see” what, “and the steadfastness of your faith in Christ”?",
+        "older": "Beside 1:23, what does 2:5 say Paul rejoices to see along with their steadfast faith?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your great numbers"
+        },
+        {
+          "id": "b",
+          "text": "your good order"
+        },
+        {
+          "id": "c",
+          "text": "your many gifts"
+        },
+        {
+          "id": "d",
+          "text": "your fine building"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 1:23",
+            "text": "if indeed you continue in the faith, grounded and steadfast, and are not moved away from the hope of the gospel which you heard, which was preached to every creature under heaven, of which I, Paul, became a minister.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 2:5",
+            "text": "For though I am absent in the flesh, yet I am with you in spirit, rejoicing to see your good order and the steadfastness of your faith in Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “rejoicing to see” in 2:5.",
+          "child": "Look right after “rejoicing to see” in verse 5.",
+          "teen": "1:23 warns about being moved away; 2:5 says Paul is absent in the flesh, then names two things he rejoices to see. Read the first.",
+          "older": "It follows “in spirit, rejoicing to see” in 2:5."
+        },
+        "extended_explanation": "1:23 says it was preached to every creature under heaven. 2:5 says Paul is absent in the flesh, yet with them in spirit.",
+        "takeaway": "Paul rejoiced to see “your good order.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}
