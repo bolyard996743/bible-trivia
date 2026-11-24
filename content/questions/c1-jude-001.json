@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-jude-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jud-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude opens his letter by calling himself a bondservant. Whose brother does he also say he is?",
+        "child": "The writer of Jude tells us about his family at the start of his letter. Whose brother is he?",
+        "teen": "Jude 1:1: Jude, a bondservant, and whose brother?",
+        "older": "According to Jude 1:1, whose brother is Jude?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "brother of Philip"
+        },
+        {
+          "id": "b",
+          "text": "brother of Thomas"
+        },
+        {
+          "id": "c",
+          "text": "brother of Andrew"
+        },
+        {
+          "id": "d",
+          "text": "brother of James"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:1",
+            "text": "Jude, a bondservant of Jesus Christ, and brother of James, To those who are called, sanctified by God the Father, and preserved in Jesus Christ:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:1.",
+          "child": "Look near the start of verse 1.",
+          "teen": "1:1 gives the writer’s name, two titles, and then the readers. Read the second title.",
+          "older": "It comes right before “To those who are called” in 1:1."
+        },
+        "extended_explanation": "1:1 writes to those who are called and sanctified by God the Father. 1:3 says Jude was very diligent to write to them.",
+        "takeaway": "Jude calls himself the brother of James."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jud-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude says Enoch prophesied about these men. How does Jude describe Enoch’s place in the family line?",
+        "child": "Jude mentions Enoch, who lived long ago. How does Jude describe him?",
+        "teen": "Jude 1:14: “Now Enoch,” what, “prophesied about these men also”?",
+        "older": "According to Jude 1:14, how is Enoch identified?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the third from Seth"
+        },
+        {
+          "id": "b",
+          "text": "the seventh from Adam"
+        },
+        {
+          "id": "c",
+          "text": "the son of Methuselah"
+        },
+        {
+          "id": "d",
+          "text": "the tenth from Noah"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:14",
+            "text": "Now Enoch, the seventh from Adam, prophesied about these men also, saying, “Behold, the Lord comes with ten thousands of His saints,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:14.",
+          "child": "Look right after “Now Enoch,” in verse 14.",
+          "teen": "1:14 names Enoch, describes him, and then begins his prophecy. Read the description.",
+          "older": "It follows “Now Enoch,” in 1:14."
+        },
+        "extended_explanation": "1:14 says the Lord comes with His saints. 1:10 says they speak evil of what they do not know.",
+        "takeaway": "Enoch was the seventh from Adam."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jud-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude pronounces woe on certain men who ran greedily in the error of Balaam and perished in the rebellion of Korah. According to 1:11, in whose way have they gone?",
+        "child": "Jude compares troublemakers to three men from long ago. Besides Balaam and Korah, whose way did they follow?",
+        "teen": "Jude 1:11: “For they have gone in” what?",
+        "older": "According to Jude 1:11, whose way have these men gone in?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the way of Cain"
+        },
+        {
+          "id": "b",
+          "text": "the way of Esau"
+        },
+        {
+          "id": "c",
+          "text": "the way of Saul"
+        },
+        {
+          "id": "d",
+          "text": "the way of Absalom"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:11",
+            "text": "Woe to them! For they have gone in the way of Cain, have run greedily in the error of Balaam for profit, and perished in the rebellion of Korah.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:16",
+            "text": "These are grumblers, complainers, walking according to their own lusts; and they mouth great swelling words, flattering people to gain advantage.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:11.",
+          "child": "Look right after “they have gone in” in verse 11.",
+          "teen": "1:11 gives a woe and three comparisons. Read the first.",
+          "older": "It follows “For they have gone in” in 1:11."
+        },
+        "extended_explanation": "1:16 calls them grumblers and complainers. 1:10 says they speak evil of whatever they do not know.",
+        "takeaway": "They have gone in the way of Cain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jud-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude says there would be mockers in the last time. According to 1:19, these people cause divisions, and what else is true of them?",
+        "child": "Jude describes people who cause divisions. What else does he say about them?",
+        "teen": "Jude 1:19: “These are sensual persons, who cause divisions,” what?",
+        "older": "According to Jude 1:19, what describes those who cause divisions?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "not knowing the law"
+        },
+        {
+          "id": "b",
+          "text": "not keeping the feasts"
+        },
+        {
+          "id": "c",
+          "text": "not having the Spirit"
+        },
+        {
+          "id": "d",
+          "text": "not fearing the king"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:18",
+            "text": "how they told you that there would be mockers in the last time who would walk according to their own ungodly lusts.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:19",
+            "text": "These are sensual persons, who cause divisions, not having the Spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:19.",
+          "child": "Look at the last words of verse 19.",
+          "teen": "1:19 gives three descriptions. Read the third.",
+          "older": "It follows “who cause divisions,” in 1:19."
+        },
+        "extended_explanation": "1:18 says they walk according to their own ungodly lusts. 1:17 tells believers to remember what was spoken before.",
+        "takeaway": "Jude says they cause divisions, not having the Spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jud-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude reminds the beloved that mockers would come in the last time. According to 1:17, whose words spoke of this before?",
+        "child": "Jude tells believers to remember a warning given earlier. Who spoke those words?",
+        "teen": "Jude 1:17: “remember the words which were spoken before by” whom?",
+        "older": "According to Jude 1:17, who had spoken the words believers should remember?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the priests of Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "the apostles of our Lord"
+        },
+        {
+          "id": "c",
+          "text": "the elders of the city"
+        },
+        {
+          "id": "d",
+          "text": "the teachers of the synagogue"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:17",
+            "text": "But you, beloved, remember the words which were spoken before by the apostles of our Lord Jesus Christ:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:18",
+            "text": "how they told you that there would be mockers in the last time who would walk according to their own ungodly lusts.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:17.",
+          "child": "Look at the last words of verse 17.",
+          "teen": "1:17 says to remember words and names who spoke them. Read the end.",
+          "older": "It follows “spoken before by” in 1:17."
+        },
+        "extended_explanation": "1:18 says the warning was about mockers in the last time. 1:19 says such people cause divisions.",
+        "takeaway": "Believers should remember the words of the apostles of our Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jud-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude 1:21 tells believers to keep themselves while looking for mercy. In 1:24, how is God able to present you before the presence of His glory?",
+        "child": "Jude ends with praise to God. How can God present believers before His glory?",
+        "teen": "Jude 1:24: “And to present you” how “Before the presence of His glory”?",
+        "older": "Read with 1:21, how does 1:24 say God presents believers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fearful"
+        },
+        {
+          "id": "b",
+          "text": "speechless"
+        },
+        {
+          "id": "c",
+          "text": "grateful"
+        },
+        {
+          "id": "d",
+          "text": "faultless"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:21",
+            "text": "keep yourselves in the love of God, looking for the mercy of our Lord Jesus Christ unto eternal life.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:24",
+            "text": "Now to Him who is able to keep you from stumbling, And to present you faultless Before the presence of His glory with exceeding joy,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:24.",
+          "child": "Look right after “to present you” in verse 24.",
+          "teen": "1:21 says what to keep and look for; 1:24 says what God is able to do, twice. Read the second.",
+          "older": "It follows “And to present you” in 1:24."
+        },
+        "extended_explanation": "1:24 says He is able to keep you from stumbling. 1:25 ascribes glory and majesty to Him.",
+        "takeaway": "God is able to present you faultless before His glory."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jud-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:3 Jude urges readers to contend earnestly. In 1:15, Enoch says the Lord comes with His saints to do what?",
+        "child": "Jude asks believers to stand up for what they were taught. Enoch said the Lord would come with His saints. What would He do?",
+        "teen": "Jude 1:15: the Lord comes with His saints to do what?",
+        "older": "Read with 1:3, what does 1:15 say the Lord comes to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to execute judgment on all"
+        },
+        {
+          "id": "b",
+          "text": "to gather the scattered sheep"
+        },
+        {
+          "id": "c",
+          "text": "to rebuild the fallen walls"
+        },
+        {
+          "id": "d",
+          "text": "to repay the proud nations"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:3",
+            "text": "Beloved, while I was very diligent to write to you concerning our common salvation, I found it necessary to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:15",
+            "text": "to execute judgment on all, to convict all who are ungodly among them of all their ungodly deeds which they have committed in an ungodly way, and of all the harsh things which ungodly sinners have spoken against Him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:15.",
+          "child": "Look at the first words of verse 15.",
+          "teen": "1:3 is an appeal; 1:15 gives the first purpose of His coming, then a second. Read the first.",
+          "older": "It begins 1:15, right after the saints are named in 1:14."
+        },
+        "extended_explanation": "1:15 says He will also convict all who are ungodly among them. 1:3 says Jude first meant to write about our common salvation.",
+        "takeaway": "The Lord comes to execute judgment on all."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jud-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "contend-for-the-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude 1:2 prays that mercy, peace, and love be multiplied. In 1:20, on what are the beloved to build themselves up?",
+        "child": "Jude tells believers to build themselves up and pray. On what should they build?",
+        "teen": "Jude 1:20: “But you, beloved, building yourselves up on” what?",
+        "older": "Read with 1:2, what does 1:20 say believers build on?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your most precious hope"
+        },
+        {
+          "id": "b",
+          "text": "your most humble prayers"
+        },
+        {
+          "id": "c",
+          "text": "your most holy faith"
+        },
+        {
+          "id": "d",
+          "text": "your most faithful elders"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:2",
+            "text": "Mercy, peace, and love be multiplied to you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:20",
+            "text": "But you, beloved, building yourselves up on your most holy faith, praying in the Holy Spirit,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:20.",
+          "child": "Look right after “building yourselves up on” in verse 20.",
+          "teen": "1:2 is a blessing; 1:20 names what to build on, then how to pray. Read what to build on.",
+          "older": "It follows “building yourselves up on” in 1:20."
+        },
+        "extended_explanation": "1:20 then adds a call to prayer. 1:21 tells them to look for the mercy of our Lord.",
+        "takeaway": "Build yourselves up on your most holy faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

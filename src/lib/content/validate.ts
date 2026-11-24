@@ -5,7 +5,7 @@ import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS, type MascotId, type MascotLine } f
 import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
 import { establishedLinesPath, readEstablishedLineFiles } from "./established-lines";
-import { fruitfulLinesPath, readFruitfulLineFiles } from "./fruitful-lines";
+import { fruitfulILinesPath, fruitfulLinesPath, readFruitfulILineFiles, readFruitfulLineFiles } from "./fruitful-lines";
 import { growingLinesPath, readGrowingLineFiles } from "./growing-lines";
 import { readRootedLineFiles, rootedLinesPath } from "./rooted-lines";
 import { ANSWER_MOMENTS, readSproutLineFiles, sproutLinesPath } from "./sprout-lines";
@@ -45,7 +45,7 @@ const SPROUT_QUESTION_COUNT = 136;
 const ROOTED_QUESTION_COUNT = 200;
 const GROWING_QUESTION_COUNT = 216;
 const ESTABLISHED_QUESTION_COUNT = 232;
-const FRUITFUL_QUESTION_COUNT = 512;
+const FRUITFUL_QUESTION_COUNT = 552;
 
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
@@ -333,6 +333,16 @@ export function validateContentTree(root: string): ValidationResult {
     questionIds,
     answerLinesByQuestion,
   );
+  const fruitfulI = readFruitfulILineFiles(root);
+  errors.push(...fruitfulI.errors);
+  lineCount += recordExpandedLines(
+    errors,
+    fruitfulI.lines,
+    fruitfulILinesPath,
+    lineIds,
+    questionIds,
+    answerLinesByQuestion,
+  );
   const fruitfulFileMissing = new Set(MASCOT_IDS.filter((mascot) => !fruitful.loaded.includes(mascot)));
 
   const pathFile = path.join(root, "content", "knowledge_path.json");
@@ -491,6 +501,14 @@ export function validateContentTree(root: string): ValidationResult {
       new Set(fruitfulQuestionIds),
       questionIds,
       fruitfulLinesPath,
+      "Fruitful",
+    );
+    rejectOffStageLines(
+      errors,
+      fruitfulI.lines,
+      new Set(fruitfulQuestionIds),
+      questionIds,
+      fruitfulILinesPath,
       "Fruitful",
     );
   }

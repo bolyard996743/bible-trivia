@@ -913,7 +913,7 @@ describe("schema rejects a bad file", () => {
 });
 
 describe("Fruitful questions", () => {
-  const hidden = [
+  const batchI = [
     "fruitful-james-wealth-patience-and-prayer",
     "fruitful-1-peter-suffering-and-submission",
     "fruitful-1-john-test-the-spirits",
@@ -921,23 +921,70 @@ describe("Fruitful questions", () => {
     "fruitful-jude",
   ];
 
-  it("wires badges 1-64 and leaves the five unwritten badges empty", () => {
+  it("wires all 69 Fruitful badges, including Batch I", () => {
     const result = validateContentTree(process.cwd());
     expect(result.ok).toBe(true);
-    expect(result.questionCount).toBe(1404);
-    expect(result.lineCount).toBe(21196);
+    expect(result.questionCount).toBe(1444);
+    expect(result.lineCount).toBe(21796);
 
     const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
       stages: { stage: string; badges: { id: string; name: string; questionIds: string[] }[] }[];
     };
     const badges = pathFile.stages.find((stage) => stage.stage === "Fruitful")?.badges ?? [];
     expect(badges).toHaveLength(69);
-    const wired = badges.slice(0, 64);
-    const empty = badges.slice(64);
-    expect(wired.every((badge) => badge.questionIds.length === 8)).toBe(true);
-    expect(wired.flatMap((badge) => badge.questionIds)).toHaveLength(512);
-    expect(empty.map((badge) => badge.id)).toEqual(hidden);
-    expect(empty.every((badge) => badge.questionIds.length === 0)).toBe(true);
+    expect(badges.every((badge) => badge.questionIds.length === 8)).toBe(true);
+    expect(badges.flatMap((badge) => badge.questionIds)).toHaveLength(552);
+    expect(badges.slice(64).map((badge) => badge.id)).toEqual(batchI);
+    expect(badges.find((badge) => badge.id === "fruitful-james-wealth-patience-and-prayer")?.questionIds).toEqual([
+      "c1-jas-0008",
+      "c2-jas-0002",
+      "c2-jas-0003",
+      "c2-jas-0004",
+      "c3-jas-0001",
+      "c3-jas-0002",
+      "c3-jas-0003",
+      "c3-jas-0004",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-1-peter-suffering-and-submission")?.questionIds).toEqual([
+      "c1-1pe-0002",
+      "c2-1pe-0006",
+      "c2-1pe-0007",
+      "c2-1pe-0008",
+      "c3-1pe-0003",
+      "c3-1pe-0004",
+      "c3-1pe-0005",
+      "c3-1pe-0006",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-1-john-test-the-spirits")?.questionIds).toEqual([
+      "c1-1jn-0002",
+      "c2-1jn-0006",
+      "c2-1jn-0007",
+      "c2-1jn-0008",
+      "c3-1jn-0003",
+      "c3-1jn-0004",
+      "c3-1jn-0005",
+      "c3-1jn-0006",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-ephesians-walk-worthy")?.questionIds).toEqual([
+      "c1-eph-0007",
+      "c2-eph-0001",
+      "c2-eph-0002",
+      "c2-eph-0003",
+      "c3-eph-0002",
+      "c3-eph-0003",
+      "c3-eph-0004",
+      "c3-eph-0005",
+    ]);
+    expect(badges.find((badge) => badge.id === "fruitful-jude")?.questionIds).toEqual([
+      "c1-jud-0001",
+      "c2-jud-0001",
+      "c2-jud-0002",
+      "c2-jud-0003",
+      "c3-jud-0001",
+      "c3-jud-0002",
+      "c3-jud-0003",
+      "c3-jud-0004",
+    ]);
 
     expect(badges[0]?.questionIds).toEqual([
       "c1-gen-0062",
@@ -994,7 +1041,8 @@ describe("Fruitful questions", () => {
     const fruitfulStage = pathFile.stages.find((stage) => stage.stage === "Fruitful");
     const fruitfulIds = fruitfulStage?.badges.flatMap((badge) => badge.questionIds) ?? [];
     const peterIds = fruitfulStage?.badges.find((badge) => badge.id === "fruitful-2peter")?.questionIds ?? [];
-    expect(fruitfulIds).toHaveLength(512);
+    const judeIds = fruitfulStage?.badges.find((badge) => badge.id === "fruitful-jude")?.questionIds ?? [];
+    expect(fruitfulIds).toHaveLength(552);
     expect(peterIds).toEqual([
       "c1-2pe-0001",
       "c2-2pe-0001",
@@ -1005,8 +1053,8 @@ describe("Fruitful questions", () => {
       "c3-2pe-0003",
       "c3-2pe-0004",
     ]);
-    expect(questions.filter((question) => fruitfulIds.includes(question.id))).toHaveLength(512);
-    expect(lines).toHaveLength(21196);
+    expect(questions.filter((question) => fruitfulIds.includes(question.id))).toHaveLength(552);
+    expect(lines).toHaveLength(21796);
     const pathLines = linesForPathPlay(lines);
     const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
     const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;
@@ -1019,8 +1067,15 @@ describe("Fruitful questions", () => {
     };
 
     for (const mascot of mascots) {
-      const file = path.join(process.cwd(), "content/mascots", mascot, "fruitful_lines.json");
-      const source = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+      const earlier = JSON.parse(
+        fs.readFileSync(path.join(process.cwd(), "content/mascots", mascot, "fruitful_lines.json"), "utf8"),
+      ) as Record<string, string>;
+      const batchI = JSON.parse(
+        fs.readFileSync(path.join(process.cwd(), "content/mascots", mascot, "fruitful_i_lines.json"), "utf8"),
+      ) as Record<string, string>;
+      expect(Object.keys(earlier)).toHaveLength(512);
+      expect(Object.keys(batchI)).toHaveLength(40);
+      const source = { ...earlier, ...batchI };
       approved[mascot] = source;
       expect(Object.keys(source)).toHaveLength(fruitfulIds.length);
       expect(new Set(Object.keys(source))).toEqual(new Set(fruitfulIds));
@@ -1030,8 +1085,8 @@ describe("Fruitful questions", () => {
           fruitfulIds.includes(line.question_id ?? "") &&
           line.id.startsWith(`${mascot}-fruitful-`),
       );
-      expect(owned).toHaveLength(512 * moments.length);
-      expect(new Set(owned.map((line) => line.text)).size).toBe(512);
+      expect(owned).toHaveLength(552 * moments.length);
+      expect(new Set(owned.map((line) => line.text)).size).toBe(552);
       expect(
         owned.every(
           (line) => line.audience === "all" && line.audio_file === null && line.text === source[line.question_id ?? ""],
@@ -1040,8 +1095,8 @@ describe("Fruitful questions", () => {
     }
 
     const playback = lines.filter((line) => line.id.includes("-fruitful-"));
-    expect(playback).toHaveLength(512 * mascots.length * moments.length);
-    expect(new Set(playback.map((line) => `${line.mascot}:${line.question_id}`)).size).toBe(2560);
+    expect(playback).toHaveLength(552 * mascots.length * moments.length);
+    expect(new Set(playback.map((line) => `${line.mascot}:${line.question_id}`)).size).toBe(2760);
     expect(lines.filter((line) => line.id.includes("-established-"))).toHaveLength(232 * mascots.length * moments.length);
 
     for (const id of fruitfulIds) {
@@ -1085,6 +1140,49 @@ describe("Fruitful questions", () => {
     expect(pickMascotLine(lines, "agnes", "correct", "child", { questionId: "c1-gen-0020" })?.text).toBe(
       "This is the very beginning of God's story. Let's read Genesis 1:3.",
     );
+
+    const jude = "c1-jud-0001";
+    expect(judeIds).toContain(jude);
+    for (const mascot of mascots) {
+      const spoken = pickMascotLine(pathLines, mascot, "correct", "child", { questionId: jude, random: () => 0 });
+      const general = pickMascotLine(pathLines, mascot, "correct", "child", { random: () => 0 });
+      expect(spoken?.question_id).toBe(jude);
+      expect(spoken?.text).toBe(approved[mascot][jude]);
+      expect(spoken?.id).not.toBe(general?.id);
+      expect(spoken?.id.startsWith(`${mascot}-fruitful-`)).toBe(true);
+      expect(pickMascotLine(pathLines, mascot, "wrong_intro", "older", { questionId: jude })?.text).toBe(approved[mascot][jude]);
+      expect(pickMascotLine(pathLines, mascot, "correct_after_retry", "teen", { questionId: jude })?.text).toBe(
+        approved[mascot][jude],
+      );
+    }
+  });
+
+  it("requires a Batch I line from every guide", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "fruitful_i_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    delete lines["c1-jud-0001"];
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain("Fruitful question c1-jud-0001 is missing a correct line for agnes");
+    expect(result.errors).toContain("Fruitful question c1-jud-0001 is missing a wrong_intro line for agnes");
+    expect(result.errors).toContain("Fruitful question c1-jud-0001 is missing a correct_after_retry line for agnes");
+  });
+
+  it("still requires answer lines for earlier stages", () => {
+    const dir = fs.mkdtempSync(path.join(os.tmpdir(), "bible-trivia-"));
+    fs.cpSync(path.join(process.cwd(), "content"), path.join(dir, "content"), { recursive: true });
+    const file = path.join(dir, "content", "mascots", "agnes", "established_lines.json");
+    const lines = JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, string>;
+    const id = Object.keys(lines)[0] ?? "";
+    delete lines[id];
+    fs.writeFileSync(file, JSON.stringify(lines));
+    const result = validateContentTree(dir);
+    expect(result.ok).toBe(false);
+    expect(result.errors).toContain(`Established question ${id} is missing a correct line for agnes`);
+    expect(result.errors.some((error) => error.includes("c1-jas-0008"))).toBe(false);
   });
 
   it("allows an empty Fruitful badge and rejects a partial list", () => {

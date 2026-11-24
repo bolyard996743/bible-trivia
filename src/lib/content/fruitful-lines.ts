@@ -6,12 +6,16 @@ import { ANSWER_MOMENTS } from "./sprout-lines";
 export type FruitfulLineRead = {
   lines: MascotLine[];
   errors: string[];
-  /** Mascots whose fruitful_lines.json parsed as an object. */
+  /** Mascots whose line file parsed as an object. */
   loaded: MascotId[];
 };
 
 export function fruitfulLinesPath(mascot: MascotId): string {
   return path.posix.join("content/mascots", mascot, "fruitful_lines.json");
+}
+
+export function fruitfulILinesPath(mascot: MascotId): string {
+  return path.posix.join("content/mascots", mascot, "fruitful_i_lines.json");
 }
 
 /**
@@ -30,13 +34,13 @@ export function expandFruitfulLine(mascot: MascotId, questionId: string, text: s
   }));
 }
 
-export function readFruitfulLineFiles(root: string): FruitfulLineRead {
+function readFruitfulLineMaps(root: string, pathFor: (mascot: MascotId) => string): FruitfulLineRead {
   const errors: string[] = [];
   const lines: MascotLine[] = [];
   const loaded: MascotId[] = [];
 
   for (const mascot of MASCOT_IDS) {
-    const rel = fruitfulLinesPath(mascot);
+    const rel = pathFor(mascot);
     const full = path.join(root, rel);
     let raw: string;
     try {
@@ -69,4 +73,13 @@ export function readFruitfulLineFiles(root: string): FruitfulLineRead {
   }
 
   return { lines, errors, loaded };
+}
+
+export function readFruitfulLineFiles(root: string): FruitfulLineRead {
+  return readFruitfulLineMaps(root, fruitfulLinesPath);
+}
+
+/** Batch I lines sit beside fruitful_lines.json and expand the same way. */
+export function readFruitfulILineFiles(root: string): FruitfulLineRead {
+  return readFruitfulLineMaps(root, fruitfulILinesPath);
 }
