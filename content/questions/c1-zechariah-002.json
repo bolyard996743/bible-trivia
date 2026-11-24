@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-zechariah-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-zec-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 9",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Rejoice greatly, O daughter of Zion!” “Behold, your King is coming to you.” How does Zechariah first describe Him, before “Lowly”?",
+        "child": "Zechariah told Jerusalem to shout for joy because her King was coming. He described the King before saying He was lowly. What did he say the King is?",
+        "teen": "Zechariah 9:9: “Behold, your King is coming to you; He is ___, Lowly and riding on a donkey.” What fills the blank?",
+        "older": "According to Zechariah 9:9, what is the coming King, besides lowly?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "just and having salvation"
+        },
+        {
+          "id": "b",
+          "text": "mighty and full of glory"
+        },
+        {
+          "id": "c",
+          "text": "wise and rich in honor"
+        },
+        {
+          "id": "d",
+          "text": "great and terrible in power"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 9:9",
+            "text": "“Rejoice greatly, O daughter of Zion! Shout, O daughter of Jerusalem! Behold, your King is coming to you; He is just and having salvation, Lowly and riding on a donkey, A colt, the foal of a donkey.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 9:9 after “He is.”",
+          "child": "Look at verse 9. The words come right after “He is.”",
+          "teen": "9:9 describes the King in two parts. Read the first part.",
+          "older": "It follows “He is” in 9:9, before “Lowly.”"
+        },
+        "extended_explanation": "Zechariah 9:9 calls Jerusalem to rejoice because her King is coming. The verse describes Him first by His character, then by His humble arrival, riding on a donkey’s foal. Matthew 21:5 and John 12:15 quote this verse when Jesus enters Jerusalem.",
+        "takeaway": "Your King “is just and having salvation, Lowly and riding on a donkey.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-zec-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 9",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD promises to free His people from the waterless pit. Then He calls, “Return to the stronghold, You” — whom?",
+        "child": "God promised to free His people from a dry pit. Then He called them to come back to the stronghold. What did He call them?",
+        "teen": "Zechariah 9:12: “Return to the stronghold, You ___.” What fills the blank?",
+        "older": "According to Zechariah 9:12, whom does the LORD call to return to the stronghold?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "captives of Zion"
+        },
+        {
+          "id": "b",
+          "text": "prisoners of hope"
+        },
+        {
+          "id": "c",
+          "text": "exiles of Judah"
+        },
+        {
+          "id": "d",
+          "text": "children of promise"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 9:11",
+            "text": "“As for you also, Because of the blood of your covenant, I will set your prisoners free from the waterless pit.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 9:12",
+            "text": "Return to the stronghold, You prisoners of hope. Even today I declare That I will restore double to you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 9:12 after “Return to the stronghold, You.”",
+          "child": "Look at the start of verse 12. The words come right after “Return to the stronghold, You.”",
+          "teen": "9:12 opens with a call. Read who is called.",
+          "older": "It follows “Return to the stronghold, You” in 9:12."
+        },
+        "extended_explanation": "9:11 bases the promise on the blood of the covenant: the LORD will free His people from the waterless pit. 9:12 calls them back to safety with a name for them, and adds, “Even today I declare That I will restore double to you.”",
+        "takeaway": "God calls, “Return to the stronghold, You prisoners of hope.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-zec-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 11",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zechariah fed the flock for slaughter and took two staffs. One he called Beauty. What did he call the other?",
+        "child": "Zechariah acted out a picture by taking two shepherd staffs and naming them. One was named Beauty. What was the other named?",
+        "teen": "Zechariah 11:7: “the one I called Beauty, and the other I called ___.” What fills the blank?",
+        "older": "According to Zechariah 11:7, what was the name of the second staff?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Glory"
+        },
+        {
+          "id": "b",
+          "text": "Mercy"
+        },
+        {
+          "id": "c",
+          "text": "Peace"
+        },
+        {
+          "id": "d",
+          "text": "Bonds"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 11:7",
+            "text": "So I fed the flock for slaughter, in particular the poor of the flock. I took for myself two staffs: the one I called Beauty, and the other I called Bonds; and I fed the flock.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 11:10",
+            "text": "And I took my staff, Beauty, and cut it in two, that I might break the covenant which I had made with all the peoples.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 11:7 after “and the other I called.”",
+          "child": "Look at verse 7. The name comes right after “the other I called.”",
+          "teen": "11:7 names two staffs. Read the second name.",
+          "older": "It follows “and the other I called” in 11:7."
+        },
+        "extended_explanation": "In Zechariah 11 the prophet acts out the part of a shepherd over a doomed flock. 11:7 names two staffs. In 11:10 he breaks Beauty to show a broken covenant with the peoples, and in 11:14 he breaks the second to show the brotherhood between Judah and Israel broken.",
+        "takeaway": "The second staff was called “Bonds.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-zec-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 12",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 12:2 Jerusalem is “a cup of drunkenness” to the surrounding peoples. In 12:3, what does the LORD make her for all peoples, though all nations of the earth are gathered against it?",
+        "child": "God said Jerusalem would be like a cup that makes the nations stagger. In the next verse He said He would make Jerusalem something else for all peoples. What?",
+        "teen": "Zechariah 12:3: “I will make Jerusalem ___ for all peoples.” What fills the blank?",
+        "older": "According to Zechariah 12:3, what will the LORD make Jerusalem for all peoples?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a mighty river"
+        },
+        {
+          "id": "b",
+          "text": "a snare and a trap"
+        },
+        {
+          "id": "c",
+          "text": "a very heavy stone"
+        },
+        {
+          "id": "d",
+          "text": "a strong fortress wall"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 12:2",
+            "text": "“Behold, I will make Jerusalem a cup of drunkenness to all the surrounding peoples, when they lay siege against Judah and Jerusalem.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 12:3",
+            "text": "And it shall happen in that day that I will make Jerusalem a very heavy stone for all peoples; all who would heave it away will surely be cut in pieces, though all nations of the earth are gathered against it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 12:3 after “I will make Jerusalem.”",
+          "child": "Look at verse 3. The words come right after “I will make Jerusalem.”",
+          "teen": "12:3 gives a picture and then what happens to those who try to move it. Read the picture.",
+          "older": "It follows “I will make Jerusalem” in 12:3."
+        },
+        "extended_explanation": "Zechariah 12 begins a new burden about Israel. 12:2 and 12:3 give two pictures of Jerusalem in that day. 12:3 names its picture and then warns that all who would heave it away will be cut in pieces.",
+        "takeaway": "God will make Jerusalem “a very heavy stone for all peoples.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 12",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the great mourning in Jerusalem, Zechariah 13:1 says something will be provided for the house of David and the inhabitants of Jerusalem, for sin and for uncleanness. What?",
+        "child": "Zechariah said there would be great sorrow in Jerusalem. Then God would open something to wash away sin. What?",
+        "teen": "Zechariah 13:1 names something given to the house of David “for sin and for uncleanness.” What does it name?",
+        "older": "According to Zechariah 13:1, what is provided for sin and for uncleanness?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a river"
+        },
+        {
+          "id": "b",
+          "text": "a storehouse"
+        },
+        {
+          "id": "c",
+          "text": "a fountain"
+        },
+        {
+          "id": "d",
+          "text": "a gate"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 12:11",
+            "text": "In that day there shall be a great mourning in Jerusalem, like the mourning at Hadad Rimmon in the plain of Megiddo.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 13:1",
+            "text": "“In that day a fountain shall be opened for the house of David and for the inhabitants of Jerusalem, for sin and for uncleanness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 13:1 after “In that day.”",
+          "child": "Look at the start of verse 13:1. The words come right after “In that day.”",
+          "teen": "13:1 names something, for whom it is, and what it is for. Read what it names.",
+          "older": "It follows “In that day” at the start of 13:1."
+        },
+        "extended_explanation": "12:10-14 describes deep mourning over the one whom they pierced, likened in 12:11 to the mourning at Hadad Rimmon in the plain of Megiddo. 13:1 follows with what is provided for the same people, the house of David and the inhabitants of Jerusalem, and names its purpose.",
+        "takeaway": "“In that day a fountain” is promised “for sin and for uncleanness.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 13",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zechariah 14:9 looks to the day when the LORD shall be King over all the earth. Earlier, in 13:9, the LORD will refine the one-third as silver is refined. How will He test them?",
+        "child": "God said He would bring His people through the fire to make them pure, like silver is purified. He said He would also test them. Like what?",
+        "teen": "Link Zechariah 13:9 and 14:9. “And test them as” what?",
+        "older": "According to Zechariah 13:9, how will the LORD test the one-third?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "iron is tried"
+        },
+        {
+          "id": "b",
+          "text": "gold is tested"
+        },
+        {
+          "id": "c",
+          "text": "bronze is tested"
+        },
+        {
+          "id": "d",
+          "text": "precious stones are tested"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 13:9",
+            "text": "I will bring the one-third through the fire, Will refine them as silver is refined, And test them as gold is tested. They will call on My name, And I will answer them. I will say, ‘This is My people’; And each one will say, ‘The LORD is my God.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 14:9",
+            "text": "And the LORD shall be King over all the earth. In that day it shall be— “The LORD is one,” And His name one.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 13:9 after “And test them as.”",
+          "child": "Look at verse 13:9. The words come right after “test them as.”",
+          "teen": "13:9 pairs two ways of purifying. Read the second.",
+          "older": "It follows “And test them as” in 13:9."
+        },
+        "extended_explanation": "13:8-9 describes a people brought through the fire and refined. The verse gives two pictures, then ends with a renewed covenant: “They will call on My name, And I will answer them.” 14:9 widens the view: the LORD shall be King over all the earth, and His name one.",
+        "takeaway": "God will “test them as gold is tested.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 9",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:10 the coming King “shall speak peace to the nations.” In 12:10, the LORD will pour on the house of David the Spirit of what, and they will look on Me whom they pierced?",
+        "child": "Zechariah said the coming King would bring peace to the nations. Later God said He would pour out His Spirit on the house of David. The Spirit of what?",
+        "teen": "Connect Zechariah 9:10 and 12:10. “The Spirit of” what?",
+        "older": "According to Zechariah 12:10, the Spirit of what will the LORD pour on the house of David?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "grace and supplication"
+        },
+        {
+          "id": "b",
+          "text": "counsel and might"
+        },
+        {
+          "id": "c",
+          "text": "judgment and burning"
+        },
+        {
+          "id": "d",
+          "text": "wisdom and understanding"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 9:10",
+            "text": "I will cut off the chariot from Ephraim And the horse from Jerusalem; The battle bow shall be cut off. He shall speak peace to the nations; His dominion shall be ‘from sea to sea, And from the River to the ends of the earth.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 12:10",
+            "text": "“And I will pour on the house of David and on the inhabitants of Jerusalem the Spirit of grace and supplication; then they will look on Me whom they pierced. Yes, they will mourn for Him as one mourns for his only son, and grieve for Him as one grieves for a firstborn.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 12:10 after “the Spirit of.”",
+          "child": "Look at verse 12:10. The words come right after “the Spirit of.”",
+          "teen": "12:10 tells what will be poured out and what follows. Read what is poured.",
+          "older": "It follows “the Spirit of” in 12:10."
+        },
+        "extended_explanation": "9:9-10 presents a King who comes lowly and brings peace to the nations, with a dominion from sea to sea. 12:10 tells what the LORD will pour out on the house of David and the inhabitants of Jerusalem, and that they will look on Me whom they pierced and mourn. John 19:37 quotes this verse at the cross.",
+        "takeaway": "God will pour out “the Spirit of grace and supplication.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-zec-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 13",
+      "topics": [
+        "zechariah-the-humble-king-and-the-pierced-one"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 13:2 the LORD will cut off the names of the idols from the land. In 14:20, where shall “HOLINESS TO THE LORD” be engraved?",
+        "child": "Zechariah said God would remove idols from the land. In the last chapter he said the words “HOLINESS TO THE LORD” would be written somewhere surprising. Where?",
+        "teen": "Link Zechariah 13:2 and 14:20. Where shall “HOLINESS TO THE LORD” be engraved?",
+        "older": "According to Zechariah 14:20, on what shall “HOLINESS TO THE LORD” be engraved?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the gates of the city"
+        },
+        {
+          "id": "b",
+          "text": "the shields of the warriors"
+        },
+        {
+          "id": "c",
+          "text": "the doorposts of every house"
+        },
+        {
+          "id": "d",
+          "text": "the bells of the horses"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 13:2",
+            "text": "“It shall be in that day,” says the LORD of hosts, “that I will cut off the names of the idols from the land, and they shall no longer be remembered. I will also cause the prophets and the unclean spirit to depart from the land.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 14:20",
+            "text": "In that day “HOLINESS TO THE LORD” shall be engraved on the bells of the horses. The pots in the LORD’s house shall be like the bowls before the altar.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 14:20 after “shall be engraved on.”",
+          "child": "Look at verse 20. The words come right after “engraved on.”",
+          "teen": "14:20 names two ordinary things made holy. Read the first.",
+          "older": "It follows “shall be engraved on” in 14:20."
+        },
+        "extended_explanation": "13:2 promises that idols will be cut off and no longer remembered. The book ends in 14:20-21 with holiness reaching everyday things. The words once engraved on the high priest’s turban plate (Exodus 28:36) appear in 14:20, and the pots in the LORD’s house become like the bowls before the altar.",
+        "takeaway": "“HOLINESS TO THE LORD” shall be engraved “on the bells of the horses.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

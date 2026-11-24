@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-micah-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mic-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 6",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“He has shown you, O man, what is good.” The LORD requires you to do justly and to love mercy. What is the third thing?",
+        "child": "Micah said God has shown people what is good: to do what is right, to love mercy, and one more thing. What is the third?",
+        "teen": "Micah 6:8: “To do justly, To love mercy, And ___?” What completes the verse?",
+        "older": "According to Micah 6:8, what does the LORD require besides doing justly and loving mercy?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to obey His laws with care"
+        },
+        {
+          "id": "b",
+          "text": "to pray to Him day and night"
+        },
+        {
+          "id": "c",
+          "text": "to offer sacrifices with thanks"
+        },
+        {
+          "id": "d",
+          "text": "to walk humbly with your God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 6:8",
+            "text": "He has shown you, O man, what is good; And what does the LORD require of you But to do justly, To love mercy, And to walk humbly with your God?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 6:8, after “To love mercy, And.”",
+          "child": "Look at the very end of verse 8. The words come after “To love mercy.”",
+          "teen": "6:8 lists three things. Read the third.",
+          "older": "It closes 6:8, after “To do justly, To love mercy.”"
+        },
+        "extended_explanation": "In 6:6-7 a worshiper asks what would please the LORD: thousands of rams, rivers of oil, even a firstborn. 6:8 answers that God has already made it plain. The verse lists three requirements.",
+        "takeaway": "The LORD requires us “to walk humbly with your God.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mic-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 7",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Micah says the LORD will again have compassion on us and subdue our iniquities. Where will He cast all our sins?",
+        "child": "Micah praised God for forgiving. He said God would throw all our sins far away. Where?",
+        "teen": "Micah 7:19: “You will cast all our sins Into ___.” What fills the blank?",
+        "older": "According to Micah 7:19, where will the LORD cast all our sins?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the far wilderness"
+        },
+        {
+          "id": "b",
+          "text": "the depths of the sea"
+        },
+        {
+          "id": "c",
+          "text": "the land of forgetfulness"
+        },
+        {
+          "id": "d",
+          "text": "the ends of the heavens"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 7:19",
+            "text": "He will again have compassion on us, And will subdue our iniquities. You will cast all our sins Into the depths of the sea.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 7:19, after “You will cast all our sins Into.”",
+          "child": "Look at the very end of verse 19. The place comes after “all our sins Into.”",
+          "teen": "7:19 has three lines. Read the end of the third.",
+          "older": "It closes 7:19, after “You will cast all our sins Into.”"
+        },
+        "extended_explanation": "Micah 7:18-20 is the book’s closing hymn. 7:19 makes three promises about sin: compassion, sins subdued, and sins cast away. The final line names where they go.",
+        "takeaway": "God will cast all our sins “Into the depths of the sea.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mic-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 7",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Who is a God like You, Pardoning iniquity?” Whose transgression does Micah say He passes over?",
+        "child": "Micah asked, “Who is a God like You?” He said God forgives sin and passes over the wrongs of certain people. Whose?",
+        "teen": "Micah 7:18: “And passing over the transgression of ___?” What fills the blank?",
+        "older": "According to Micah 7:18, whose transgression does the LORD pass over?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the remnant of His heritage"
+        },
+        {
+          "id": "b",
+          "text": "all who call on His name"
+        },
+        {
+          "id": "c",
+          "text": "the nations who seek Him"
+        },
+        {
+          "id": "d",
+          "text": "the house of His servant David"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 7:17",
+            "text": "They shall lick the dust like a serpent; They shall crawl from their holes like snakes of the earth. They shall be afraid of the LORD our God, And shall fear because of You.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 7:18",
+            "text": "Who is a God like You, Pardoning iniquity And passing over the transgression of the remnant of His heritage? He does not retain His anger forever, Because He delights in mercy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the third line of 7:18, after “passing over the transgression of.”",
+          "child": "Look at verse 18. The words come right after “the transgression of.”",
+          "teen": "7:18 opens with a question and two lines about forgiveness. Read the end of the second line.",
+          "older": "It follows “And passing over the transgression of” in 7:18."
+        },
+        "extended_explanation": "7:17 describes the nations coming trembling before the LORD. 7:18 then asks the question that plays on Micah’s own name, which means roughly who is like the LORD. The verse describes God pardoning iniquity and passing over transgression, and then says He does not retain His anger forever.",
+        "takeaway": "God passes over “the transgression of the remnant of His heritage.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mic-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 6",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“O My people, what have I done to you?” The LORD reminds Israel that He brought them up from Egypt. Whom did He send before them with Moses and Aaron?",
+        "child": "God reminded Israel how He rescued them from Egypt. He sent three leaders ahead of them: Moses, Aaron, and one more. Who?",
+        "teen": "Micah 6:4: “And I sent before you Moses, Aaron, and ___.” Who fills the blank?",
+        "older": "According to Micah 6:4, whom did the LORD send before Israel along with Moses and Aaron?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Joshua"
+        },
+        {
+          "id": "b",
+          "text": "Caleb"
+        },
+        {
+          "id": "c",
+          "text": "Miriam"
+        },
+        {
+          "id": "d",
+          "text": "Eleazar"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 6:3",
+            "text": "“O My people, what have I done to you? And how have I wearied you? Testify against Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 6:4",
+            "text": "For I brought you up from the land of Egypt, I redeemed you from the house of bondage; And I sent before you Moses, Aaron, and Miriam.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 6:4, after “Moses, Aaron, and.”",
+          "child": "Look at the last word of verse 4. It comes right after “Moses, Aaron, and.”",
+          "teen": "6:4 ends with three names. Read the third.",
+          "older": "It closes 6:4, after “Moses, Aaron, and.”"
+        },
+        "extended_explanation": "Micah 6:1-5 is pictured as a court case, with the mountains as witnesses. In 6:3 the LORD invites His people to testify against Him, and in 6:4 He lists what He did: brought them up from the land of Egypt, redeemed them from bondage, and sent leaders before them.",
+        "takeaway": "God sent “Moses, Aaron, and Miriam.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 7",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Do not rejoice over me, my enemy.” What does Micah say right after “When I fall”?",
+        "child": "Micah told an enemy not to be glad when bad things happened to him. He said, “When I fall,” and then what?",
+        "teen": "Micah 7:8: “When I fall, ___.” What fills the blank?",
+        "older": "According to Micah 7:8, what will happen when Micah falls?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will arise"
+        },
+        {
+          "id": "b",
+          "text": "I will cry out"
+        },
+        {
+          "id": "c",
+          "text": "I will not fear"
+        },
+        {
+          "id": "d",
+          "text": "I will be still"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 7:7",
+            "text": "Therefore I will look to the LORD; I will wait for the God of my salvation; My God will hear me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 7:8",
+            "text": "Do not rejoice over me, my enemy; When I fall, I will arise; When I sit in darkness, The LORD will be a light to me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 7:8 after “When I fall.”",
+          "child": "Look at verse 8. The words come right after “When I fall.”",
+          "teen": "7:8 has two pairs of lines. Read the end of the first pair.",
+          "older": "It follows “When I fall” in 7:8."
+        },
+        "extended_explanation": "Micah 7:7 is a turning point: after lamenting a corrupt society, the prophet says, “Therefore I will look to the LORD.” 7:8 speaks to an enemy and gives two pairs of lines. The second pair says that when he sits in darkness, the LORD will be his light.",
+        "takeaway": "“When I fall, I will arise.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 4",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 4:10 the daughter of Zion is told the LORD will redeem her from the hand of her enemies. In 7:15, “As in the days when you came out of the land of Egypt,” what will He show them?",
+        "child": "Micah said God would rescue His people from their enemies. Later God said He would do something like He did when Israel left Egypt. What would He show them?",
+        "teen": "Link Micah 4:10 and 7:15. “I will show them” what?",
+        "older": "According to Micah 7:15, what will the LORD show His people, as in the days of the exodus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My glory"
+        },
+        {
+          "id": "b",
+          "text": "My power"
+        },
+        {
+          "id": "c",
+          "text": "the way"
+        },
+        {
+          "id": "d",
+          "text": "wonders"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 4:10",
+            "text": "Be in pain, and labor to bring forth, O daughter of Zion, Like a woman in birth pangs. For now you shall go forth from the city, You shall dwell in the field, And to Babylon you shall go. There you shall be delivered; There the LORD will redeem you From the hand of your enemies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 7:15",
+            "text": "“As in the days when you came out of the land of Egypt, I will show them wonders.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:15, after “I will show them.”",
+          "child": "Look at the last word of verse 15. It comes right after “I will show them.”",
+          "teen": "7:15 compares the future with the exodus. Read its last words.",
+          "older": "It closes 7:15, after “I will show them.”"
+        },
+        "extended_explanation": "4:10 says the daughter of Zion will go to Babylon and there be delivered; the LORD will redeem her. 7:15 speaks of the same kind of rescue by pointing back to Israel’s first deliverance from Egypt. The final words of 7:15 name what God will show.",
+        "takeaway": "God said, “I will show them wonders.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 6",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 6:2 the LORD has a complaint against His people. Yet Micah closes the book with what God has sworn to the fathers from days of old. What will He give to Jacob?",
+        "child": "In chapter 6 God brings a complaint against Israel. But the last verse of Micah tells what God promised long ago. What will He give to Jacob?",
+        "teen": "Connect Micah 6:2 and 7:20. “You will give ___ to Jacob.” What fills the blank?",
+        "older": "According to Micah 7:20, what will the LORD give to Jacob?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rest"
+        },
+        {
+          "id": "b",
+          "text": "Truth"
+        },
+        {
+          "id": "c",
+          "text": "Strength"
+        },
+        {
+          "id": "d",
+          "text": "Victory"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 6:2",
+            "text": "Hear, O you mountains, the LORD’s complaint, And you strong foundations of the earth; For the LORD has a complaint against His people, And He will contend with Israel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 7:20",
+            "text": "You will give truth to Jacob And mercy to Abraham, Which You have sworn to our fathers From days of old.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 7:20, after “You will give.”",
+          "child": "Look at the start of verse 20. The word comes right after “You will give.”",
+          "teen": "7:20 names two gifts to two fathers. Read the first.",
+          "older": "It follows “You will give” at the start of 7:20."
+        },
+        "extended_explanation": "6:1-2 calls the mountains to hear the LORD’s case against Israel. The book does not end with that charge. The final verse, 7:20, names two gifts, one to Jacob and one to Abraham, and grounds them in what God has sworn to the fathers from days of old.",
+        "takeaway": "“You will give truth to Jacob.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 4",
+      "topics": [
+        "micah-where-is-a-god-like-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 5:7 the remnant of Jacob shall be “Like dew from the LORD” among many peoples. In 4:7, what will the LORD make the outcast?",
+        "child": "Micah said God’s people would be like dew among many peoples. Earlier, he said God would take the people who had been pushed out and make them into something. What?",
+        "teen": "Link Micah 5:7 and 4:7. “I will make the lame a remnant, And the outcast” what?",
+        "older": "According to Micah 4:7, what will the LORD make the outcast?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a holy people"
+        },
+        {
+          "id": "b",
+          "text": "a mighty army"
+        },
+        {
+          "id": "c",
+          "text": "a strong nation"
+        },
+        {
+          "id": "d",
+          "text": "a royal priesthood"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 4:7",
+            "text": "I will make the lame a remnant, And the outcast a strong nation; So the LORD will reign over them in Mount Zion From now on, even forever.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 5:7",
+            "text": "Then the remnant of Jacob Shall be in the midst of many peoples, Like dew from the LORD, Like showers on the grass, That tarry for no man Nor wait for the sons of men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 4:7 after “And the outcast.”",
+          "child": "Look at verse 7. The words come right after “And the outcast.”",
+          "teen": "4:7 has two matching lines about the lame and the outcast. Read the second.",
+          "older": "It follows “And the outcast” in 4:7."
+        },
+        "extended_explanation": "4:6-7 promises that the LORD will gather the lame and the outcast. The two matching lines of 4:7 say what each will become. 5:7 pictures that remnant in the midst of many peoples, refreshing like dew and showers on the grass.",
+        "takeaway": "God will make “the outcast a strong nation.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

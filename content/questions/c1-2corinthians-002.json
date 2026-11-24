@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2corinthians-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2co-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 12",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells of a man in Christ fourteen years earlier. According to 12:2, where was he caught up?",
+        "child": "Paul tells about a man who was taken up into heaven long ago. Where was he taken?",
+        "teen": "2 Corinthians 12:2: “such a one was caught up to” where?",
+        "older": "According to 2 Corinthians 12:2, where was the man in Christ caught up?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the third heaven"
+        },
+        {
+          "id": "b",
+          "text": "the second heaven"
+        },
+        {
+          "id": "c",
+          "text": "the holy mountain"
+        },
+        {
+          "id": "d",
+          "text": "the inner court"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 12:2",
+            "text": "I know a man in Christ who fourteen years ago—whether in the body I do not know, or whether out of the body I do not know, God knows—such a one was caught up to the third heaven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 12:2.",
+          "child": "Look at the last words of verse 12:2.",
+          "teen": "12:2 says when, says he does not know how, then where. Read where.",
+          "older": "It follows “was caught up to” in 12:2."
+        },
+        "extended_explanation": "12:2 says twice that he does not know whether this was in the body or out of the body. God knows.",
+        "takeaway": "Such a one was caught up to the third heaven."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2co-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 1",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says God comforts us in all our tribulation. According to 1:4, whom are we then able to comfort?",
+        "child": "Paul says God comforts us when we are hurting. Who can we then comfort?",
+        "teen": "2 Corinthians 1:4: “that we may be able to comfort” whom?",
+        "older": "According to 2 Corinthians 1:4, whom can we comfort with the comfort we have received?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "those who sit in high places"
+        },
+        {
+          "id": "b",
+          "text": "those who are in any trouble"
+        },
+        {
+          "id": "c",
+          "text": "those who have never heard"
+        },
+        {
+          "id": "d",
+          "text": "those who rule over the cities"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 1:4",
+            "text": "who comforts us in all our tribulation, that we may be able to comfort those who are in any trouble, with the comfort with which we ourselves are comforted by God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:4.",
+          "child": "Look after “able to comfort” in verse 4.",
+          "teen": "1:4 says God comforts us, then whom we may comfort, then with what. Read whom.",
+          "older": "It follows “able to comfort” in 1:4."
+        },
+        "extended_explanation": "1:4 ends, “with the comfort with which we ourselves are comforted by God.”",
+        "takeaway": "We may be able to comfort those who are in any trouble."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2co-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 3",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says he needs no commendation from others. In 3:2, what does he call the Corinthians, written in our hearts?",
+        "child": "Paul says the believers in Corinth are written in his heart. What does he call them?",
+        "teen": "2 Corinthians 3:2: “You are” what, “written in our hearts”?",
+        "older": "According to 2 Corinthians 3:2, what does Paul call the Corinthians?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "our sacrifice"
+        },
+        {
+          "id": "b",
+          "text": "our harvest"
+        },
+        {
+          "id": "c",
+          "text": "our epistle"
+        },
+        {
+          "id": "d",
+          "text": "our banner"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 3:2",
+            "text": "You are our epistle written in our hearts, known and read by all men;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 3:3",
+            "text": "clearly you are an epistle of Christ, ministered by us, written not with ink but by the Spirit of the living God, not on tablets of stone but on tablets of flesh, that is, of the heart.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 3:2.",
+          "child": "Look at the first words of verse 2.",
+          "teen": "3:2 says what they are, where it is written, and who reads it. Read the start.",
+          "older": "It follows “You are” in 3:2."
+        },
+        "extended_explanation": "3:2 says it is known and read by all men. 3:3 says it was written not with ink but on tablets of flesh, that is, of the heart.",
+        "takeaway": "You are our epistle written in our hearts."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2co-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 11",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says God knows he is not lying. In 11:32, under which king was the governor in Damascus guarding the city to arrest him?",
+        "child": "Paul says a governor in Damascus guarded the city to catch him. Which king did that governor serve?",
+        "teen": "2 Corinthians 11:32: “In Damascus the governor, under” which king?",
+        "older": "According to 2 Corinthians 11:32, which king was over the governor in Damascus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Herod"
+        },
+        {
+          "id": "b",
+          "text": "Agrippa"
+        },
+        {
+          "id": "c",
+          "text": "Nero"
+        },
+        {
+          "id": "d",
+          "text": "Aretas"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 11:31",
+            "text": "The God and Father of our Lord Jesus Christ, who is blessed forever, knows that I am not lying.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 11:32",
+            "text": "In Damascus the governor, under Aretas the king, was guarding the city of the Damascenes with a garrison, desiring to arrest me;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 11:32.",
+          "child": "Look near the start of verse 32.",
+          "teen": "11:31 is Paul’s oath; 11:32 names the city, the governor and his king. Read the king’s name.",
+          "older": "It follows “the governor, under” in 11:32."
+        },
+        "extended_explanation": "11:32 says the governor was guarding the city of the Damascenes with a garrison.",
+        "takeaway": "The governor was under Aretas the king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2co-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 10",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says we do not war according to the flesh. According to 10:4, what are the weapons of our warfare mighty in God for pulling down?",
+        "child": "Paul says believers fight with weapons that are not physical. What are they powerful for pulling down?",
+        "teen": "2 Corinthians 10:4: “mighty in God for pulling down” what?",
+        "older": "According to 2 Corinthians 10:4, what are the weapons of our warfare mighty for pulling down?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "great kingdoms"
+        },
+        {
+          "id": "b",
+          "text": "strongholds"
+        },
+        {
+          "id": "c",
+          "text": "idols"
+        },
+        {
+          "id": "d",
+          "text": "temple altars"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 10:3",
+            "text": "For though we walk in the flesh, we do not war according to the flesh.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 10:4",
+            "text": "For the weapons of our warfare are not carnal but mighty in God for pulling down strongholds,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last word of 10:4.",
+          "child": "Look at the very end of verse 4.",
+          "teen": "10:3 contrasts walking and warring; 10:4 says what the weapons are not, then what they pull down. Read the end.",
+          "older": "It follows “for pulling down” in 10:4."
+        },
+        "extended_explanation": "10:4 says the weapons are not carnal but mighty in God.",
+        "takeaway": "Our weapons are mighty in God for pulling down strongholds."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2co-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 2",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:17 Paul says he is not peddling God’s word. In 3:6, what kills, while the Spirit gives life?",
+        "child": "Paul compares two things in 3:6: one kills and one gives life. Which one kills?",
+        "teen": "2 Corinthians 3:6: what “kills, but the Spirit gives life”?",
+        "older": "Linking 2 Corinthians 2:17 with 3:6, what does Paul say kills?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the letter"
+        },
+        {
+          "id": "b",
+          "text": "the darkness"
+        },
+        {
+          "id": "c",
+          "text": "the famine"
+        },
+        {
+          "id": "d",
+          "text": "the grave"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 2:17",
+            "text": "For we are not, as so many, peddling the word of God; but as of sincerity, but as from God, we speak in the sight of God in Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 3:6",
+            "text": "who also made us sufficient as ministers of the new covenant, not of the letter but of the Spirit; for the letter kills, but the Spirit gives life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:6.",
+          "child": "Look at the end of verse 3:6.",
+          "teen": "2:17 is the setting; 3:6 names what he ministers, then gives a contrast. Read the contrast.",
+          "older": "It comes just before “kills, but the Spirit” in 3:6."
+        },
+        "extended_explanation": "2:17 says we speak in the sight of God in Christ. 3:6 says God made them sufficient as ministers.",
+        "takeaway": "For the letter kills, but the Spirit gives life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2co-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 1",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 11:26 Paul lists perils of waters, robbers and the sea. In 1:9, what did he say he had in himself during his hardship in Asia?",
+        "child": "Paul says he was burdened beyond measure in Asia. What does he say he had in himself?",
+        "teen": "2 Corinthians 1:9: “Yes, we had” what “in ourselves”?",
+        "older": "Alongside 11:26, what does 1:9 say Paul had in himself?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the dread of the grave"
+        },
+        {
+          "id": "b",
+          "text": "the weight of sorrow"
+        },
+        {
+          "id": "c",
+          "text": "the chains of a prison"
+        },
+        {
+          "id": "d",
+          "text": "the sentence of death"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 1:9",
+            "text": "Yes, we had the sentence of death in ourselves, that we should not trust in ourselves but in God who raises the dead,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 11:26",
+            "text": "in journeys often, in perils of waters, in perils of robbers, in perils of my own countrymen, in perils of the Gentiles, in perils in the city, in perils in the wilderness, in perils in the sea, in perils among false brethren;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:9.",
+          "child": "Look at the first words of verse 9.",
+          "teen": "11:26 is the list; 1:9 says what they had, then why. Read the start.",
+          "older": "It follows “Yes, we had” in 1:9."
+        },
+        "extended_explanation": "1:9 says this was so that they would trust not in themselves but in God who raises the dead. 11:26 lists perils in the city and in the wilderness.",
+        "takeaway": "We had the sentence of death in ourselves."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2co-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 10",
+      "topics": [
+        "2-corinthians-pauls-ministry-and-defense"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 12:6 Paul says, “I will speak the truth.” In 10:10, what do some say about his speech?",
+        "child": "Some people in Corinth criticized Paul’s speaking. What did they say his speech was?",
+        "teen": "2 Corinthians 10:10: “his bodily presence is weak, and his speech” what?",
+        "older": "Linking 2 Corinthians 10:10 with 12:6, how did some describe Paul’s speech?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "full of pride"
+        },
+        {
+          "id": "b",
+          "text": "too flattering"
+        },
+        {
+          "id": "c",
+          "text": "contemptible"
+        },
+        {
+          "id": "d",
+          "text": "overly cheerful"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 10:10",
+            "text": "“For his letters,” they say, “are weighty and powerful, but his bodily presence is weak, and his speech contemptible.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 12:6",
+            "text": "For though I might desire to boast, I will not be a fool; for I will speak the truth. But I refrain, lest anyone should think of me above what he sees me to be or hears from me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last word of 10:10.",
+          "child": "Look at the very end of verse 10.",
+          "teen": "12:6 is Paul’s resolve; 10:10 gives what they say of his writing, then of his presence and speech. Read the end.",
+          "older": "It follows “and his speech” in 10:10."
+        },
+        "extended_explanation": "10:10 says they call his writing weighty and powerful but his bodily presence weak. 12:6 says he refrains, lest anyone think of him above what he sees.",
+        "takeaway": "They say his speech is contemptible."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-010",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mat-0037",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 25",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the Son of Man sits on the throne of His glory, He separates the nations. In 25:33, where will He set the sheep?",
+        "child": "Jesus said that one day He will separate people the way a shepherd separates sheep from goats. Where will He put the sheep?",
+        "teen": "Matthew 25:33: “And He will set the sheep” where?",
+        "older": "According to Matthew 25:33, where are the sheep set?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "before His throne"
+        },
+        {
+          "id": "b",
+          "text": "at His feet"
+        },
+        {
+          "id": "c",
+          "text": "in the outer court"
+        },
+        {
+          "id": "d",
+          "text": "on His right hand"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 25:33",
+            "text": "And He will set the sheep on His right hand, but the goats on the left.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 25:33.",
+          "child": "Look at the start of verse 33.",
+          "teen": "25:33 places the sheep first and the goats second. Read the first part.",
+          "older": "It follows “set the sheep” in 25:33."
+        },
+        "extended_explanation": "25:32 says the nations will be gathered before Him, and He will separate them as a shepherd divides his sheep from the goats.",
+        "takeaway": "He will set the sheep on His right hand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mat-0021",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 25",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the parable of the ten virgins, the bridegroom was delayed. According to 25:5, what did they all do?",
+        "child": "In Jesus’ story about ten virgins, the bridegroom was late. What did all of them do while they waited?",
+        "teen": "Matthew 25:5: “But while the bridegroom was delayed, they all” did what?",
+        "older": "According to Matthew 25:5, what did all ten do while the bridegroom was delayed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "slumbered and slept"
+        },
+        {
+          "id": "b",
+          "text": "sang and danced"
+        },
+        {
+          "id": "c",
+          "text": "prayed and waited"
+        },
+        {
+          "id": "d",
+          "text": "watched and listened"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 25:5",
+            "text": "But while the bridegroom was delayed, they all slumbered and slept.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 25:5.",
+          "child": "Look at the last words of verse 5.",
+          "teen": "25:5 gives the delay first and then what all of them did. Read the second part.",
+          "older": "It follows “they all” in 25:5."
+        },
+        "extended_explanation": "25:6 says that at midnight a cry was heard: “Behold, the bridegroom is coming; go out to meet him!”",
+        "takeaway": "They all slumbered and slept."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mat-0022",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 25",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A man going to a far country gave his servants five talents, two, and one. According to 25:15, on what basis did each receive?",
+        "child": "Before a long trip, a man gave his servants different amounts of money. How did he decide how much each one got?",
+        "teen": "Matthew 25:15: “to each” how?",
+        "older": "According to Matthew 25:15, how was the amount for each servant decided?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "according to his years of service"
+        },
+        {
+          "id": "b",
+          "text": "according to his own ability"
+        },
+        {
+          "id": "c",
+          "text": "according to his rank in the house"
+        },
+        {
+          "id": "d",
+          "text": "according to what he asked for"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 25:14",
+            "text": "“For the kingdom of heaven is like a man traveling to a far country, who called his own servants and delivered his goods to them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 25:15",
+            "text": "And to one he gave five talents, to another two, and to another one, to each according to his own ability; and immediately he went on a journey.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 25:15, after “to each.”",
+          "child": "Look in the middle of verse 15.",
+          "teen": "25:15 lists the amounts and then gives the reason before he leaves. Read the reason.",
+          "older": "It follows “to each” in 25:15."
+        },
+        "extended_explanation": "25:14 says the man called his own servants and delivered his goods to them. 25:15 ends with him going on a journey at once.",
+        "takeaway": "He gave “to each according to his own ability.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mat-0023",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 24",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus tells the disciples to learn a parable from the fig tree. In 24:32, when its branch is tender and puts forth leaves, what do you know?",
+        "child": "Jesus said to learn a lesson from the fig tree. When its leaves come out, what do people know?",
+        "teen": "Matthew 24:32: “you know that” what?",
+        "older": "According to Matthew 24:32, what do the tender branch and new leaves show?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the cold is near"
+        },
+        {
+          "id": "b",
+          "text": "the rain is near"
+        },
+        {
+          "id": "c",
+          "text": "summer is near"
+        },
+        {
+          "id": "d",
+          "text": "the harvest is near"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 24:32",
+            "text": "“Now learn this parable from the fig tree: When its branch has already become tender and puts forth leaves, you know that summer is near.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 24:33",
+            "text": "So you also, when you see all these things, know that it is near—at the doors!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 24:32.",
+          "child": "Look at the last words of verse 32.",
+          "teen": "24:32 describes the branch and leaves first, then what you know. Read the end.",
+          "older": "It follows “you know that” in 24:32."
+        },
+        "extended_explanation": "24:33 applies the picture to the disciples: when they see all these things, it is at the doors.",
+        "takeaway": "When the leaves come, “you know that summer is near.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 25",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 25:35 the King lists what the righteous did for Him. When He was a stranger, what did they do?",
+        "child": "Jesus described people who helped Him when He was hungry, thirsty, and far from home. What did they do when He was a stranger?",
+        "teen": "Matthew 25:35: “I was a stranger and you” did what?",
+        "older": "According to Matthew 25:35, what did the righteous do when the King was a stranger?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "took Me in"
+        },
+        {
+          "id": "b",
+          "text": "gave Me rest"
+        },
+        {
+          "id": "c",
+          "text": "showed Me the way"
+        },
+        {
+          "id": "d",
+          "text": "washed My feet"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 25:35",
+            "text": "for I was hungry and you gave Me food; I was thirsty and you gave Me drink; I was a stranger and you took Me in;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 25:36",
+            "text": "I was naked and you clothed Me; I was sick and you visited Me; I was in prison and you came to Me.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 25:35.",
+          "child": "Look at the last words of verse 35.",
+          "teen": "25:35 lists three needs; the stranger comes last. Read what follows it.",
+          "older": "It follows “I was a stranger and you” in 25:35."
+        },
+        "extended_explanation": "25:35 first speaks of food and drink. 25:36 goes on to clothing, the sick, and those in prison.",
+        "takeaway": "“I was a stranger and you took Me in.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 24",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 24:42 and 25:13 both begin, “Watch therefore.” According to 25:13, what do you not know?",
+        "child": "Jesus told His followers more than once to keep watch. What does 25:13 say they do not know?",
+        "teen": "Matthew 25:13: “for you know” what?",
+        "older": "Linking Matthew 24:42 with 25:13, what does 25:13 say is not known?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "neither the place nor the way"
+        },
+        {
+          "id": "b",
+          "text": "neither the name nor the sign"
+        },
+        {
+          "id": "c",
+          "text": "neither the month nor the year"
+        },
+        {
+          "id": "d",
+          "text": "neither the day nor the hour"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 24:42",
+            "text": "Watch therefore, for you do not know what hour your Lord is coming.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 25:13",
+            "text": "“Watch therefore, for you know neither the day nor the hour in which the Son of Man is coming.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 25:13, after “for you know.”",
+          "child": "Look in the middle of verse 13.",
+          "teen": "24:42 is the setting; 25:13 repeats “Watch therefore” and then says what is not known. Read on.",
+          "older": "It follows “for you know” in 25:13."
+        },
+        "extended_explanation": "24:42 gives the same command and speaks of your Lord coming. 25:13 closes the parable of the ten virgins.",
+        "takeaway": "You know “neither the day nor the hour.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 24",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 24:43 the master of the house would not have allowed his house to be broken into. In 25:10, after those who were ready went in with the bridegroom, what happened?",
+        "child": "In Jesus’ story, the wise virgins went in to the wedding with the bridegroom. What happened right after that?",
+        "teen": "Matthew 25:10: “and those who were ready went in with him to the wedding; and” what?",
+        "older": "Alongside the master of the house in 24:43, what does 25:10 say happened once the ready ones had gone in to the wedding?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the lamps went out"
+        },
+        {
+          "id": "b",
+          "text": "the feast began"
+        },
+        {
+          "id": "c",
+          "text": "the door was shut"
+        },
+        {
+          "id": "d",
+          "text": "the music stopped"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 24:43",
+            "text": "But know this, that if the master of the house had known what hour the thief would come, he would have watched and not allowed his house to be broken into.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 25:10",
+            "text": "And while they went to buy, the bridegroom came, and those who were ready went in with him to the wedding; and the door was shut.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 25:10.",
+          "child": "Look at the last words of verse 25:10.",
+          "teen": "24:43 is the setting; 25:10 tells who went in and then what followed. Read the end.",
+          "older": "It closes 25:10."
+        },
+        "extended_explanation": "24:44 goes on: “Therefore you also be ready.” 25:11 tells of the other virgins coming afterward.",
+        "takeaway": "Those who were ready went in, and the door was shut."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mat-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 24",
+      "topics": [
+        "matthew-signs-readiness-and-judgment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 25:31 the Son of Man comes in His glory with all the holy angels. In 24:31, with what will He send His angels?",
+        "child": "Jesus said He will send His angels to gather His people. What will He send them with?",
+        "teen": "Matthew 24:31: “And He will send His angels with” what?",
+        "older": "Alongside the coming in glory of 25:31, what does 24:31 say goes with the sending of the angels?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a shout from the clouds"
+        },
+        {
+          "id": "b",
+          "text": "a great sound of a trumpet"
+        },
+        {
+          "id": "c",
+          "text": "a rushing wind from heaven"
+        },
+        {
+          "id": "d",
+          "text": "a voice like many waters"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 24:31",
+            "text": "And He will send His angels with a great sound of a trumpet, and they will gather together His elect from the four winds, from one end of heaven to the other.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 25:31",
+            "text": "“When the Son of Man comes in His glory, and all the holy angels with Him, then He will sit on the throne of His glory.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first part of 24:31.",
+          "child": "Look near the start of verse 31.",
+          "teen": "25:31 is the setting; 24:31 names the angels and then what goes with them. Read on.",
+          "older": "It follows “send His angels with” in 24:31."
+        },
+        "extended_explanation": "24:31 adds that they will gather together His elect from the four winds. 25:31 says He will sit on the throne of His glory.",
+        "takeaway": "He will send His angels “with a great sound of a trumpet.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

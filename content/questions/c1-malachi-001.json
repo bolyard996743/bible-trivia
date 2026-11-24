@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-malachi-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mal-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 1",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Malachi’s message is called “The burden of the word of the LORD to Israel.” What is the first thing the LORD says to them?",
+        "child": "God sent a message to Israel through the prophet Malachi. What were the very first words God said to them?",
+        "teen": "Malachi 1:2: “___,” says the LORD. What fills the blank?",
+        "older": "According to Malachi 1:2, what did the LORD declare first to Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have judged you"
+        },
+        {
+          "id": "b",
+          "text": "I have chosen you"
+        },
+        {
+          "id": "c",
+          "text": "I have loved you"
+        },
+        {
+          "id": "d",
+          "text": "I have warned you"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 1:2",
+            "text": "“I have loved you,” says the LORD. “Yet you say, ‘In what way have You loved us?’ Was not Esau Jacob’s brother?” Says the LORD. “Yet Jacob I have loved;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:2, inside the first quotation marks.",
+          "child": "Look at the very beginning of verse 2.",
+          "teen": "1:2 opens with the LORD’s statement and the people’s reply. Read the statement.",
+          "older": "It opens 1:2, before “says the LORD.”"
+        },
+        "extended_explanation": "Malachi often follows a pattern of statement, objection, and reply. In 1:2 the people answer with a question, and the LORD replies by pointing to Jacob and Esau.",
+        "takeaway": "The LORD said, “I have loved you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mal-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 3",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Will a man rob God? Yet you have robbed Me!” When the people asked how they had robbed Him, what did the LORD reply?",
+        "child": "God said His people had robbed Him. The people asked how. What did God say they had held back?",
+        "teen": "Malachi 3:8: “In what way have we robbed You?” In what?",
+        "older": "According to Malachi 3:8, in what had the people robbed God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "feasts and Sabbaths"
+        },
+        {
+          "id": "b",
+          "text": "vows and sacrifices"
+        },
+        {
+          "id": "c",
+          "text": "praise and thanksgiving"
+        },
+        {
+          "id": "d",
+          "text": "tithes and offerings"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 3:8",
+            "text": "“Will a man rob God? Yet you have robbed Me! But you say, ‘In what way have we robbed You?’ In tithes and offerings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:8, after “In what way have we robbed You?”",
+          "child": "Look at the last words of verse 8.",
+          "teen": "3:8 ends with the LORD’s reply to the people’s question. Read it.",
+          "older": "It closes 3:8."
+        },
+        "extended_explanation": "3:8 opens with a startling question from the LORD and the people’s objection. 3:9 adds that the whole nation is under a curse, and 3:10 calls them to bring what was owed into the storehouse and to try the LORD.",
+        "takeaway": "They robbed God “in tithes and offerings.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mal-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 3",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“But who can endure the day of His coming?” Malachi says He is like a refiner’s fire and like what?",
+        "child": "Malachi said it would be hard to stand when the Lord comes. He is like a refiner’s fire and like what else?",
+        "teen": "Malachi 3:2: “He is like a refiner’s fire And like ___.” What fills the blank?",
+        "older": "According to Malachi 3:2, besides a refiner’s fire, what is the coming Lord like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "launderers’ soap"
+        },
+        {
+          "id": "b",
+          "text": "a potter’s wheel"
+        },
+        {
+          "id": "c",
+          "text": "a winnowing fan"
+        },
+        {
+          "id": "d",
+          "text": "a threshing sledge"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 3:2",
+            "text": "“But who can endure the day of His coming? And who can stand when He appears? For He is like a refiner’s fire And like launderers’ soap.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Malachi 3:3",
+            "text": "He will sit as a refiner and a purifier of silver; He will purify the sons of Levi, And purge them as gold and silver, That they may offer to the LORD An offering in righteousness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:2, after “And like.”",
+          "child": "Look at the last words of verse 2.",
+          "teen": "3:2 ends with two pictures. Read the second.",
+          "older": "It closes 3:2."
+        },
+        "extended_explanation": "3:1 promises a messenger and the Lord’s sudden coming to His temple. 3:2 asks who can stand when He appears, and 3:3 continues with the work of a refiner of silver among the sons of Levi.",
+        "takeaway": "He is “like a refiner’s fire And like launderers’ soap.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mal-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 3",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Those who feared the LORD spoke to one another, and the LORD listened and heard them. What was then written before Him?",
+        "child": "Some people who respected God talked together, and God heard them. What was written down?",
+        "teen": "Malachi 3:16: “So ___ was written before Him.” What fills the blank?",
+        "older": "According to Malachi 3:16, what was written before the LORD for those who fear Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a scroll of statutes"
+        },
+        {
+          "id": "b",
+          "text": "a book of remembrance"
+        },
+        {
+          "id": "c",
+          "text": "a song of thanksgiving"
+        },
+        {
+          "id": "d",
+          "text": "a record of offerings"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 3:16",
+            "text": "Then those who feared the LORD spoke to one another, And the LORD listened and heard them; So a book of remembrance was written before Him For those who fear the LORD And who meditate on His name.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Malachi 3:17",
+            "text": "“They shall be Mine,” says the LORD of hosts, “On the day that I make them My jewels. And I will spare them As a man spares his own son who serves him.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:16, after “the LORD listened and heard them; So.”",
+          "child": "Look at verse 16. It comes after “listened and heard them.”",
+          "teen": "3:16 tells what happened after the LORD heard. Read it.",
+          "older": "It follows “So” in the middle of 3:16."
+        },
+        "extended_explanation": "3:14-15 records those who said it was useless to serve God. 3:16 turns to those who feared the LORD and meditated on His name, and 3:17 promises, “They shall be Mine,” on the day He makes them His jewels.",
+        "takeaway": "“A book of remembrance was written before Him.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mal-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 1",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Speaking to priests who despised His name, the LORD said, “A son honors his father,” and a servant honors whom?",
+        "child": "God reminded the priests that sons honor their fathers. Then He said a servant honors someone too. Whom?",
+        "teen": "Malachi 1:6: “A son honors his father, And a servant ___.” What fills the blank?",
+        "older": "According to Malachi 1:6, whom does a servant honor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "his king"
+        },
+        {
+          "id": "b",
+          "text": "his master"
+        },
+        {
+          "id": "c",
+          "text": "his elders"
+        },
+        {
+          "id": "d",
+          "text": "his captain"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 1:6",
+            "text": "“A son honors his father, And a servant his master. If then I am the Father, Where is My honor? And if I am a Master, Where is My reverence? Says the LORD of hosts To you priests who despise My name. Yet you say, ‘In what way have we despised Your name?’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Malachi 1:7",
+            "text": "“You offer defiled food on My altar, But say, ‘In what way have we defiled You?’ By saying, ‘The table of the LORD is contemptible.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:6 after “And a servant.”",
+          "child": "Look at the start of verse 6, after “a servant.”",
+          "teen": "1:6 opens with two pairs. Read the second.",
+          "older": "It follows “And a servant” in 1:6."
+        },
+        "extended_explanation": "1:6 builds an argument from ordinary life and then asks the priests, “Where is My honor?” 1:7 names the defiled food they offered on the altar and their contempt for the table of the LORD.",
+        "takeaway": "“A son honors his father, And a servant his master.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mal-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 2",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:17 the people wearied the LORD, asking, “Where is the God of justice?” In 3:6 He says, “For I am the LORD, I do not change;” therefore you are not what?",
+        "child": "God said He never changes. Because God does not change, what did He say His people are not?",
+        "teen": "Malachi 3:6: “Therefore you are not ___, O sons of Jacob.” What fills the blank?",
+        "older": "According to Malachi 3:6, what are the sons of Jacob not, because the LORD does not change?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "forsaken"
+        },
+        {
+          "id": "b",
+          "text": "forgotten"
+        },
+        {
+          "id": "c",
+          "text": "consumed"
+        },
+        {
+          "id": "d",
+          "text": "destroyed"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 2:17",
+            "text": "You have wearied the LORD with your words; Yet you say, “In what way have we wearied Him?” In that you say, “Everyone who does evil Is good in the sight of the LORD, And He delights in them,” Or, “Where is the God of justice?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Malachi 3:6",
+            "text": "“For I am the LORD, I do not change; Therefore you are not consumed, O sons of Jacob.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:6, after “Therefore you are not.”",
+          "child": "Look at verse 6. It comes after “you are not.”",
+          "teen": "3:6 gives a cause and then a result. Read the result.",
+          "older": "It follows “Therefore you are not” in 3:6."
+        },
+        "extended_explanation": "2:17 shows the people accusing God of delighting in evildoers. 3:1-5 promises that the Lord will come near for judgment, and 3:6 rests what follows for Israel on the LORD’s unchanging nature.",
+        "takeaway": "“I do not change; Therefore you are not consumed.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mal-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 3",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:1 the LORD says, “Behold, I send My messenger, And he will prepare the way before Me.” In 4:5, whom does He promise to send before the great and dreadful day of the LORD?",
+        "child": "God promised to send a messenger to get people ready. At the end of Malachi, which prophet does God say He will send?",
+        "teen": "Malachi 4:5: “Behold, I will send you ___ Before the coming of the great and dreadful day of the LORD.” What fills the blank?",
+        "older": "According to Malachi 4:5, whom will the LORD send before the great and dreadful day?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elisha the prophet"
+        },
+        {
+          "id": "b",
+          "text": "Samuel the prophet"
+        },
+        {
+          "id": "c",
+          "text": "Nathan the prophet"
+        },
+        {
+          "id": "d",
+          "text": "Elijah the prophet"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 3:1",
+            "text": "“Behold, I send My messenger, And he will prepare the way before Me. And the Lord, whom you seek, Will suddenly come to His temple, Even the Messenger of the covenant, In whom you delight. Behold, He is coming,” Says the LORD of hosts.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Malachi 4:5",
+            "text": "Behold, I will send you Elijah the prophet Before the coming of the great and dreadful day of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 4:5 after “I will send you.”",
+          "child": "Look at verse 5, after “I will send you.”",
+          "teen": "4:5 names who is sent and when. Read who.",
+          "older": "It follows “Behold, I will send you” in 4:5."
+        },
+        "extended_explanation": "3:1 promises a messenger who prepares the way. 4:5-6 names the one who will come before the day of the LORD and describes his work of turning the hearts of fathers and children. The New Testament later connects these promises with John the Baptist.",
+        "takeaway": "God promised, “I will send you Elijah the prophet.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mal-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 1",
+      "topics": [
+        "the-messenger"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:11 the LORD’s name shall be great among the Gentiles “from the rising of the sun, even to its going down.” In 4:2, with what shall the Sun of Righteousness arise for those who fear His name?",
+        "child": "Malachi says that for people who honor God, “The Sun of Righteousness shall arise.” What will He bring with Him?",
+        "teen": "Malachi 4:2: “The Sun of Righteousness shall arise With ___.” What fills the blank?",
+        "older": "According to Malachi 4:2, with what shall the Sun of Righteousness arise?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "healing in His wings"
+        },
+        {
+          "id": "b",
+          "text": "light in His eyes"
+        },
+        {
+          "id": "c",
+          "text": "strength in His right arm"
+        },
+        {
+          "id": "d",
+          "text": "glory on His face"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 1:11",
+            "text": "For from the rising of the sun, even to its going down, My name shall be great among the Gentiles; In every place incense shall be offered to My name, And a pure offering; For My name shall be great among the nations,” Says the LORD of hosts.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Malachi 4:2",
+            "text": "But to you who fear My name The Sun of Righteousness shall arise With healing in His wings; And you shall go out And grow fat like stall-fed calves.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 4:2 after “shall arise With.”",
+          "child": "Look at verse 2. It comes after “shall arise.”",
+          "teen": "4:2 gives a promise and a picture. Read the end of the promise.",
+          "older": "It follows “The Sun of Righteousness shall arise With” in 4:2."
+        },
+        "extended_explanation": "1:11 looks to the LORD’s name honored everywhere the sun rises and sets. 4:1 describes the day that burns like an oven for the proud, but 4:2 turns to those who fear His name and adds the picture of stall-fed calves.",
+        "takeaway": "The Sun of Righteousness shall arise “With healing in His wings.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

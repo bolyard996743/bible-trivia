@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-isa-0009",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 42",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Behold! My Servant whom I uphold.” In 42:1, what has the LORD put upon His Servant?",
+        "child": "God called someone “My Servant” and said His soul delights in Him. What did God put on Him?",
+        "teen": "Isaiah 42:1: “I have put ___; He will bring forth justice to the Gentiles.” What fills the blank?",
+        "older": "According to Isaiah 42:1, what has the LORD put upon His chosen Servant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My Spirit upon Him"
+        },
+        {
+          "id": "b",
+          "text": "My crown upon Him"
+        },
+        {
+          "id": "c",
+          "text": "My hand upon Him"
+        },
+        {
+          "id": "d",
+          "text": "My strength upon Him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 42:1",
+            "text": "“Behold! My Servant whom I uphold, My Elect One in whom My soul delights! I have put My Spirit upon Him; He will bring forth justice to the Gentiles.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 42:1 after “My soul delights!”",
+          "child": "Look at the middle of verse 1.",
+          "teen": "42:1 introduces the Servant and then says what the LORD has done for Him. Read that line.",
+          "older": "It comes just before “He will bring forth justice” in 42:1."
+        },
+        "extended_explanation": "42:1 names the Servant “My Elect One in whom My soul delights!” 42:2 adds that He will not cry out or raise His voice in the street.",
+        "takeaway": "The LORD says, “I have put My Spirit upon Him.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0022",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 42",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD gives His Servant “as a covenant to the people.” In 42:7, what is the Servant sent to open first?",
+        "child": "God said He would send His Servant to help His people. What would the Servant open first?",
+        "teen": "Isaiah 42:7: “To open ___, To bring out prisoners from the prison.” What fills the blank?",
+        "older": "According to Isaiah 42:7, what is the first thing the Servant will open?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "deaf ears"
+        },
+        {
+          "id": "b",
+          "text": "closed doors"
+        },
+        {
+          "id": "c",
+          "text": "blind eyes"
+        },
+        {
+          "id": "d",
+          "text": "sealed books"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 42:6",
+            "text": "“I, the LORD, have called You in righteousness, And will hold Your hand; I will keep You and give You as a covenant to the people, As a light to the Gentiles,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 42:7",
+            "text": "To open blind eyes, To bring out prisoners from the prison, Those who sit in darkness from the prison house.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 42:7.",
+          "child": "Look at the very start of verse 7.",
+          "teen": "42:7 lists three tasks. Read the first.",
+          "older": "It opens 42:7."
+        },
+        "extended_explanation": "42:6 says the LORD has called the Servant in righteousness and will give Him as a covenant to the people. 42:7 goes on to prisoners brought out and those who sit in darkness.",
+        "takeaway": "The Servant comes “To open blind eyes.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0023",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 49",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“The LORD has called Me from the womb.” In 49:2, the Servant says the LORD has made His mouth like what?",
+        "child": "The Servant said God made His mouth like something. What was it?",
+        "teen": "Isaiah 49:2: “And He has made My mouth like ___.” What fills the blank?",
+        "older": "According to Isaiah 49:2, what has the LORD made the Servant’s mouth like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a trumpet of war"
+        },
+        {
+          "id": "b",
+          "text": "a sharp sword"
+        },
+        {
+          "id": "c",
+          "text": "a mighty river"
+        },
+        {
+          "id": "d",
+          "text": "a hammer of iron"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 49:1",
+            "text": "“Listen, O coastlands, to Me, And take heed, you peoples from afar! The LORD has called Me from the womb; From the matrix of My mother He has made mention of My name.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 49:2",
+            "text": "And He has made My mouth like a sharp sword; In the shadow of His hand He has hidden Me, And made Me a polished shaft; In His quiver He has hidden Me.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 49:2.",
+          "child": "Look at the beginning of verse 2.",
+          "teen": "49:2 holds two pictures of weapons. Read the first, about His mouth.",
+          "older": "It opens 49:2."
+        },
+        "extended_explanation": "49:1 calls the coastlands to listen and says the LORD named the Servant before He was born. 49:2 adds a polished shaft hidden in the LORD’s quiver.",
+        "takeaway": "He has made the Servant’s mouth “like a sharp sword.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0024",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 50",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 50:4 the Servant says the Lord GOD has given Him a tongue so that He may speak a word in season. What kind of tongue?",
+        "child": "The Servant said God gave Him a special tongue so He could say the right word at the right time. What kind of tongue was it?",
+        "teen": "Isaiah 50:4: “The Lord GOD has given Me The tongue of ___.” What fills the blank?",
+        "older": "According to Isaiah 50:4, what tongue has the Lord GOD given the Servant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the wise"
+        },
+        {
+          "id": "b",
+          "text": "the mighty"
+        },
+        {
+          "id": "c",
+          "text": "the faithful"
+        },
+        {
+          "id": "d",
+          "text": "the learned"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 50:4",
+            "text": "“The Lord GOD has given Me The tongue of the learned, That I should know how to speak A word in season to him who is weary. He awakens Me morning by morning, He awakens My ear To hear as the learned.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 50:5",
+            "text": "The Lord GOD has opened My ear; And I was not rebellious, Nor did I turn away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 50:4.",
+          "child": "Look at the very start of verse 4.",
+          "teen": "50:4 opens by saying what the Lord GOD has given. Read the end of that line.",
+          "older": "It closes the first line of 50:4 and comes back at the end of the verse."
+        },
+        "extended_explanation": "50:4 gives the purpose: to speak a word in season to him who is weary. It adds that the Lord GOD awakens the Servant morning by morning, and 50:5 says He opened His ear and the Servant did not turn away.",
+        "takeaway": "The Lord GOD gave Him “The tongue of the learned.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0013",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 61",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 61:3 gives beauty for ashes and the oil of joy for mourning. The garment of praise is given for what?",
+        "child": "God promised to give sad people joyful gifts. He would give a garment of praise in place of what?",
+        "teen": "Isaiah 61:3: “The garment of praise for ___.” What fills the blank?",
+        "older": "According to Isaiah 61:3, the garment of praise replaces what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the sackcloth of grief"
+        },
+        {
+          "id": "b",
+          "text": "the robe of lamentation"
+        },
+        {
+          "id": "c",
+          "text": "the burden of affliction"
+        },
+        {
+          "id": "d",
+          "text": "the spirit of heaviness"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 61:2",
+            "text": "To proclaim the acceptable year of the LORD, And the day of vengeance of our God; To comfort all who mourn,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 61:3",
+            "text": "To console those who mourn in Zion, To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness, The planting of the LORD, that He may be glorified.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 61:3 after “The garment of praise for.”",
+          "child": "Look at the middle of verse 3.",
+          "teen": "61:3 has three exchanges. Read the third.",
+          "older": "It follows “The garment of praise” in 61:3."
+        },
+        "extended_explanation": "61:2 speaks of the acceptable year of the LORD and comfort for all who mourn. 61:3 goes on: they will be called “trees of righteousness, The planting of the LORD.”",
+        "takeaway": "He gives “The garment of praise for the spirit of heaviness.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0014",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 61",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 61:10 the LORD clothes His people with the garments of salvation. In 62:4 Zion will be called Hephzibah. What will her land be called?",
+        "child": "God said His city would get a happy new name, Hephzibah. What new name would the land get?",
+        "teen": "Isaiah 62:4: “But you shall be called Hephzibah, and your land ___.” What fills the blank?",
+        "older": "According to Isaiah 62:4, what will Zion’s land be called?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ichabod"
+        },
+        {
+          "id": "b",
+          "text": "Beulah"
+        },
+        {
+          "id": "c",
+          "text": "Bethel"
+        },
+        {
+          "id": "d",
+          "text": "Ebenezer"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 61:10",
+            "text": "I will greatly rejoice in the LORD, My soul shall be joyful in my God; For He has clothed me with the garments of salvation, He has covered me with the robe of righteousness, As a bridegroom decks himself with ornaments, And as a bride adorns herself with her jewels.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 62:4",
+            "text": "You shall no longer be termed Forsaken, Nor shall your land any more be termed Desolate; But you shall be called Hephzibah, and your land Beulah; For the LORD delights in you, And your land shall be married.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 62:4 after “and your land.”",
+          "child": "Look at the middle of 62:4.",
+          "teen": "61:10 is the setting; 62:4 gives two names. Read the second.",
+          "older": "It comes right after “Hephzibah” in 62:4."
+        },
+        "extended_explanation": "61:10 compares the people to a bridegroom with ornaments and a bride with her jewels. 62:4 says the LORD delights in Zion and that her land shall be married.",
+        "takeaway": "Her land will be called Beulah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 42",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 42:6 the LORD gives His Servant as a covenant to the people. In 49:9, what may the Servant say to the prisoners?",
+        "child": "God said His Servant would speak to people locked up in prison. What would the Servant tell them?",
+        "teen": "Isaiah 49:9: “That You may say to the prisoners,” what?",
+        "older": "Isaiah 42:6 calls the Servant a covenant to the people. According to 49:9, what does He say to the prisoners?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rise up"
+        },
+        {
+          "id": "b",
+          "text": "Come home"
+        },
+        {
+          "id": "c",
+          "text": "Go forth"
+        },
+        {
+          "id": "d",
+          "text": "Be free"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 42:6",
+            "text": "“I, the LORD, have called You in righteousness, And will hold Your hand; I will keep You and give You as a covenant to the people, As a light to the Gentiles,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 49:9",
+            "text": "That You may say to the prisoners, ‘Go forth,’ To those who are in darkness, ‘Show yourselves.’ “They shall feed along the roads, And their pastures shall be on all desolate heights.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 49:9, after “say to the prisoners.”",
+          "child": "Look at the start of 49:9.",
+          "teen": "42:6 sets the theme; 49:9 gives the words. Read the first words spoken.",
+          "older": "It is in the opening line of 49:9."
+        },
+        "extended_explanation": "42:6 adds that the LORD will hold the Servant’s hand and keep Him. 49:9 goes on to say they shall feed along the roads, and their pastures shall be on all desolate heights.",
+        "takeaway": "The Servant says to the prisoners, “Go forth.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0016",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 50",
+      "topics": [
+        "isaiah-the-servant-and-salvation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 50:10 the one who walks in darkness is told to trust in the name of the LORD. In 62:6, whom has the LORD set on the walls of Jerusalem?",
+        "child": "God put people on the walls of Jerusalem who would never stop speaking up. Who were they?",
+        "teen": "Isaiah 62:6: “I have set ___ on your walls, O Jerusalem.” What fills the blank?",
+        "older": "Isaiah 50:10 calls the one in darkness to rely on God. According to 62:6, whom has the LORD set on Jerusalem’s walls?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "watchmen"
+        },
+        {
+          "id": "b",
+          "text": "soldiers"
+        },
+        {
+          "id": "c",
+          "text": "priests"
+        },
+        {
+          "id": "d",
+          "text": "singers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 50:10",
+            "text": "“Who among you fears the LORD? Who obeys the voice of His Servant? Who walks in darkness And has no light? Let him trust in the name of the LORD And rely upon his God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 62:6",
+            "text": "I have set watchmen on your walls, O Jerusalem; They shall never hold their peace day or night. You who make mention of the LORD, do not keep silent,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 62:6.",
+          "child": "Look at the start of Isaiah 62:6.",
+          "teen": "50:10 is the setting; 62:6 names who is set on the walls. Read its first line.",
+          "older": "It opens 62:6, after “I have set.”"
+        },
+        "extended_explanation": "50:10 asks, “Who among you fears the LORD?” and tells the one with no light to rely upon his God. 62:6 says those on the walls shall never hold their peace day or night, and 62:7 tells them to give the LORD no rest till He makes Jerusalem a praise in the earth.",
+        "takeaway": "The LORD has set watchmen on Jerusalem’s walls."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

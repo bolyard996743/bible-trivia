@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-proverbs-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-pro-0019",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 25",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 25:11 compares a word fitly spoken to something in settings of silver. What is it like?",
+        "child": "A Proverb says the right words at the right time are beautiful. What does it compare them to?",
+        "teen": "Proverbs 25:11: “A word fitly spoken is like” what “In settings of silver”?",
+        "older": "According to Proverbs 25:11, what is a word fitly spoken like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "crowns of gold"
+        },
+        {
+          "id": "b",
+          "text": "apples of gold"
+        },
+        {
+          "id": "c",
+          "text": "rings of silver"
+        },
+        {
+          "id": "d",
+          "text": "pearls of the sea"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 25:11",
+            "text": "A word fitly spoken is like apples of gold In settings of silver.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 25:11, just before “In settings of silver.”",
+          "child": "Look at the words right after “is like” in verse 11.",
+          "teen": "25:11 has two lines; the picture begins at the end of the first. Read it.",
+          "older": "It follows “is like” in 25:11."
+        },
+        "extended_explanation": "25:11 belongs to the collection that 25:1 calls “proverbs of Solomon.” Its picture comes in the first line, and the setting in the second.",
+        "takeaway": "A word fitly spoken is like apples of gold in settings of silver."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-pro-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 31",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 31:1 introduces words that a king’s mother taught him. What was the king’s name?",
+        "child": "Proverbs 31 begins with advice a mother gave her son, who was a king. What was his name?",
+        "teen": "Proverbs 31:1: “The words of King” who?",
+        "older": "According to Proverbs 31:1, whose mother taught him this utterance?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Rehoboam"
+        },
+        {
+          "id": "b",
+          "text": "Jehoshaphat"
+        },
+        {
+          "id": "c",
+          "text": "Lemuel"
+        },
+        {
+          "id": "d",
+          "text": "Uzziah"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 31:1",
+            "text": "The words of King Lemuel, the utterance which his mother taught him:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of 31:1.",
+          "child": "Look at the very start of Proverbs 31:1.",
+          "teen": "31:1 names the king and then says who taught him. Read the name.",
+          "older": "It follows “The words of King” in 31:1."
+        },
+        "extended_explanation": "31:1 says the utterance came from the king’s mother. 31:2 opens her words with three questions to her son.",
+        "takeaway": "These are “The words of King Lemuel.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-pro-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 25",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 25:1 says some proverbs of Solomon were copied by the men of a later king. Which king?",
+        "child": "Some of Solomon’s wise sayings were copied down later by a king’s men. Which king?",
+        "teen": "Proverbs 25:1: “These also are proverbs of Solomon which the men of” whom “copied”?",
+        "older": "According to Proverbs 25:1, whose men copied these proverbs of Solomon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hezekiah king of Judah"
+        },
+        {
+          "id": "b",
+          "text": "Josiah king of Judah"
+        },
+        {
+          "id": "c",
+          "text": "Asa king of Judah"
+        },
+        {
+          "id": "d",
+          "text": "Jehoshaphat king of Judah"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 25:1",
+            "text": "These also are proverbs of Solomon which the men of Hezekiah king of Judah copied:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 25:3",
+            "text": "As the heavens for height and the earth for depth, So the heart of kings is unsearchable.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 25:1, after “the men of.”",
+          "child": "Look in the middle of verse 1.",
+          "teen": "25:1 names Solomon first and then the later king. Read the second name.",
+          "older": "It comes just before “copied” in 25:1."
+        },
+        "extended_explanation": "25:1 opens a new collection of Solomon’s proverbs. 25:3 says the heart of kings is unsearchable, as the heavens for height and the earth for depth.",
+        "takeaway": "The men of Hezekiah king of Judah copied them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-pro-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 25",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 25:25 compares good news from a far country to something. What?",
+        "child": "A Proverb says hearing good news from far away feels like something. Like what?",
+        "teen": "Proverbs 25:25: what is “good news from a far country” like?",
+        "older": "According to Proverbs 25:25, to what is good news from a far country compared?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bread to a hungry man"
+        },
+        {
+          "id": "b",
+          "text": "shade to a worker in the heat"
+        },
+        {
+          "id": "c",
+          "text": "rest to a tired traveler"
+        },
+        {
+          "id": "d",
+          "text": "cold water to a weary soul"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 25:25",
+            "text": "As cold water to a weary soul, So is good news from a far country.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 25:26",
+            "text": "A righteous man who falters before the wicked Is like a murky spring and a polluted well.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 25:25.",
+          "child": "Look at the start of verse 25.",
+          "teen": "25:25 gives the picture first and the good news second. Read the first line.",
+          "older": "It opens 25:25, after “As.”"
+        },
+        "extended_explanation": "25:26 follows with a darker picture: a righteous man who falters before the wicked is like a murky spring and a polluted well.",
+        "takeaway": "Good news from a far country is “As cold water to a weary soul.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-pro-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 30",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Agur asks God for two things before he dies. In 30:8, what does he ask God to give him?",
+        "child": "Agur asks God for two things. In one of them, what does he ask God to give him?",
+        "teen": "Proverbs 30:8: “Give me” what?",
+        "older": "According to Proverbs 30:8, what does Agur ask God to give him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "neither sorrow nor sickness"
+        },
+        {
+          "id": "b",
+          "text": "neither poverty nor riches"
+        },
+        {
+          "id": "c",
+          "text": "neither enemies nor rivals"
+        },
+        {
+          "id": "d",
+          "text": "neither hunger nor thirst"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 30:7",
+            "text": "Two things I request of You (Deprive me not before I die):",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 30:8",
+            "text": "Remove falsehood and lies far from me; Give me neither poverty nor riches— Feed me with the food allotted to me;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 30:8, after “Give me.”",
+          "child": "Look in the middle of verse 8.",
+          "teen": "30:8 holds both requests; the second begins with “Give me.” Read on from there.",
+          "older": "It follows “Give me” in 30:8."
+        },
+        "extended_explanation": "30:7 says he asks before he dies. 30:8 begins by asking that falsehood and lies be removed far from him.",
+        "takeaway": "He asked, “Give me neither poverty nor riches.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-pro-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 4",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 4:23 calls for guarding the heart with all diligence. In 25:28, a man with no rule over his own spirit is like what?",
+        "child": "Proverbs 25 describes a person who cannot control himself. What is he like?",
+        "teen": "Proverbs 25:28: whoever “has no rule over his own spirit” is like what?",
+        "older": "Alongside the guarded heart of 4:23, to what does 25:28 compare the man without self-rule?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a ship tossed without a rudder"
+        },
+        {
+          "id": "b",
+          "text": "a vineyard overgrown with thorns"
+        },
+        {
+          "id": "c",
+          "text": "a city broken down, without walls"
+        },
+        {
+          "id": "d",
+          "text": "a field where the hedge is torn down"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 4:23",
+            "text": "Keep your heart with all diligence, For out of it spring the issues of life.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 25:28",
+            "text": "Whoever has no rule over his own spirit Is like a city broken down, without walls.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 25:28.",
+          "child": "Look at the end of verse 28.",
+          "teen": "4:23 is the setting; 25:28 names the man first and his picture second. Read the second line.",
+          "older": "It follows “Is like” in 25:28."
+        },
+        "extended_explanation": "4:23 says the issues of life spring out of the heart. 25:28 opens by naming the one who has no rule over his own spirit.",
+        "takeaway": "He “Is like a city broken down, without walls.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-pro-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 2",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 4:7 calls wisdom the principal thing. In 2:4, the son is told to search for her as for what?",
+        "child": "Proverbs 2 says to look hard for wisdom, the way people search for something valuable. What?",
+        "teen": "Proverbs 2:4: “And search for her as for” what?",
+        "older": "Proverbs 4:7 urges, “Therefore get wisdom.” According to 2:4, what is wisdom to be searched for like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "hidden treasures"
+        },
+        {
+          "id": "b",
+          "text": "precious jewels"
+        },
+        {
+          "id": "c",
+          "text": "pure gold from Ophir"
+        },
+        {
+          "id": "d",
+          "text": "pearls of great price"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 2:4",
+            "text": "If you seek her as silver, And search for her as for hidden treasures;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 4:7",
+            "text": "Wisdom is the principal thing; Therefore get wisdom. And in all your getting, get understanding.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 2:4.",
+          "child": "Look at the end of Proverbs 2:4.",
+          "teen": "4:7 is the setting; 2:4 has two lines, silver and then a second thing. Read the second.",
+          "older": "It closes 2:4."
+        },
+        "extended_explanation": "2:4 first says to seek her as silver. 4:7 adds, “And in all your getting, get understanding.”",
+        "takeaway": "Search for her “as for hidden treasures.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-pro-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 25",
+      "topics": [
+        "proverbs-collected-sayings-and-agur"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Agur says in 30:3 that he does not have knowledge of the Holy One. According to 25:2, what is the glory of kings?",
+        "child": "One Proverb compares what brings glory to God with what brings glory to kings. What is the glory of kings?",
+        "teen": "Proverbs 25:2: “But the glory of kings is” what?",
+        "older": "Agur confesses in 30:3, “I neither learned wisdom.” What does 25:2 call the glory of kings?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to win great battles"
+        },
+        {
+          "id": "b",
+          "text": "to build strong cities"
+        },
+        {
+          "id": "c",
+          "text": "to judge the poor with justice"
+        },
+        {
+          "id": "d",
+          "text": "to search out a matter"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 25:2",
+            "text": "It is the glory of God to conceal a matter, But the glory of kings is to search out a matter.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 30:3",
+            "text": "I neither learned wisdom Nor have knowledge of the Holy One.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 25:2.",
+          "child": "Look at the end of verse 2.",
+          "teen": "30:3 is the setting; 25:2 sets God’s glory beside the glory of kings. Read the second line.",
+          "older": "It closes 25:2."
+        },
+        "extended_explanation": "30:2 has Agur say he lacks the understanding of a man. 25:2 first names what is the glory of God.",
+        "takeaway": "The glory of kings is “to search out a matter.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

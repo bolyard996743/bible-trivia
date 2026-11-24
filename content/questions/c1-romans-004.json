@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rom-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 11",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul ends his long discussion of Israel and the nations with praise. What does he exclaim over in 11:33, “both of the wisdom and knowledge of God”?",
+        "child": "At the end of Romans 11, Paul bursts into praise for God’s wisdom. What does he say “Oh” about?",
+        "teen": "Romans 11:33: “Oh,” what?",
+        "older": "According to Romans 11:33, what does Paul exclaim over?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the depth of the riches"
+        },
+        {
+          "id": "b",
+          "text": "the height of the heavens"
+        },
+        {
+          "id": "c",
+          "text": "the breadth of the earth"
+        },
+        {
+          "id": "d",
+          "text": "the strength of the mountains"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 11:33",
+            "text": "Oh, the depth of the riches both of the wisdom and knowledge of God! How unsearchable are His judgments and His ways past finding out!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 11:33.",
+          "child": "Look at the first words of verse 33.",
+          "teen": "11:33 opens with an exclamation, then speaks of His judgments and ways. Read the opening.",
+          "older": "It follows “Oh,” in 11:33."
+        },
+        "extended_explanation": "11:33 goes on, “How unsearchable are His judgments and His ways past finding out!”",
+        "takeaway": "Oh, the depth of the riches both of the wisdom and knowledge of God!"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 11",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to 11:29, what are the gifts and the calling of God?",
+        "child": "Paul says something about God’s gifts and His calling. What does he say they are?",
+        "teen": "Romans 11:29: “For the gifts and the calling of God are” what?",
+        "older": "What word does Romans 11:29 use for the gifts and calling of God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "conditional"
+        },
+        {
+          "id": "b",
+          "text": "hidden"
+        },
+        {
+          "id": "c",
+          "text": "irrevocable"
+        },
+        {
+          "id": "d",
+          "text": "hard to understand"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 11:29",
+            "text": "For the gifts and the calling of God are irrevocable.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last word of 11:29.",
+          "child": "Look at the very end of verse 29.",
+          "teen": "11:29 names the gifts and the calling, then describes them. Read the description.",
+          "older": "It follows “the calling of God are” in 11:29."
+        },
+        "extended_explanation": "11:28 says they are beloved for the sake of the fathers.",
+        "takeaway": "The gifts and the calling of God are irrevocable."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 11",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul asks whether Israel stumbled that they should fall, and says, “Certainly not!” According to 11:11, why has salvation come to the Gentiles?",
+        "child": "Paul says salvation came to the Gentiles because of Israel’s fall. What purpose does he give for it?",
+        "teen": "Romans 11:11: “But through their fall,” for what purpose “salvation has come to the Gentiles”?",
+        "older": "According to Romans 11:11, for what purpose has salvation come to the Gentiles through Israel’s fall?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to keep the nations far away"
+        },
+        {
+          "id": "b",
+          "text": "to provoke them to jealousy"
+        },
+        {
+          "id": "c",
+          "text": "to end the promise to Israel"
+        },
+        {
+          "id": "d",
+          "text": "to reward the Gentiles’ works"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 11:11",
+            "text": "I say then, have they stumbled that they should fall? Certainly not! But through their fall, to provoke them to jealousy, salvation has come to the Gentiles.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 11:12",
+            "text": "Now if their fall is riches for the world, and their failure riches for the Gentiles, how much more their fullness!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of the last sentence of 11:11.",
+          "child": "Look between “through their fall” and “salvation” in verse 11.",
+          "teen": "11:11 asks a question, answers it, and then gives a purpose. Read the purpose.",
+          "older": "It follows “But through their fall” in 11:11."
+        },
+        "extended_explanation": "11:12 says their fall is riches for the world, and asks, “how much more their fullness!”",
+        "takeaway": "Through their fall, to provoke them to jealousy, salvation has come to the Gentiles."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 10",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul prays that Israel may be saved. In 10:2, what does he bear witness that they have for God, though not according to knowledge?",
+        "child": "Paul bears witness about his people in 10:2. What does he say they have for God?",
+        "teen": "Romans 10:2: “For I bear them witness that they have” what “for God”?",
+        "older": "According to Romans 10:2, what does Israel have for God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a love"
+        },
+        {
+          "id": "b",
+          "text": "a hope"
+        },
+        {
+          "id": "c",
+          "text": "a fear"
+        },
+        {
+          "id": "d",
+          "text": "a zeal"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 10:1",
+            "text": "Brethren, my heart’s desire and prayer to God for Israel is that they may be saved.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 10:2",
+            "text": "For I bear them witness that they have a zeal for God, but not according to knowledge.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 10:2.",
+          "child": "Look after “they have” in verse 2.",
+          "teen": "10:1 is Paul’s prayer; 10:2 gives what they have, then what it lacks. Read what they have.",
+          "older": "It follows “witness that they have” in 10:2."
+        },
+        "extended_explanation": "10:1 calls it his heart’s desire and prayer to God for Israel. 10:2 adds, “but not according to knowledge.”",
+        "takeaway": "They have a zeal for God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 9",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:2, what does Paul say he has in his heart, as he thinks of his countrymen according to the flesh?",
+        "child": "Paul writes about how he feels for his own people. What does he say is in his heart?",
+        "teen": "Romans 9:2: “that I have” what “in my heart”?",
+        "older": "According to Romans 9:2, what does Paul carry in his heart for his brethren?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bitter anger and continual dread"
+        },
+        {
+          "id": "b",
+          "text": "great sorrow and continual grief"
+        },
+        {
+          "id": "c",
+          "text": "deep shame and a lasting regret"
+        },
+        {
+          "id": "d",
+          "text": "great fear and continual trembling"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 9:2",
+            "text": "that I have great sorrow and continual grief in my heart.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 9:3",
+            "text": "For I could wish that I myself were accursed from Christ for my brethren, my countrymen according to the flesh,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 9:2 up to “in my heart.”",
+          "child": "Look at the words of verse 2.",
+          "teen": "9:2 names what he has; 9:3 tells what he could wish for their sake. Read 9:2.",
+          "older": "It follows “that I have” in 9:2."
+        },
+        "extended_explanation": "9:3 says he could wish himself accursed from Christ for his brethren.",
+        "takeaway": "I have great sorrow and continual grief in my heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 9",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:22 Paul speaks of God’s much longsuffering. In 11:22, what does he say God shows on those who fell?",
+        "child": "Paul tells his readers to think about two sides of God. What does God show toward those who fell?",
+        "teen": "Romans 11:22: “on those who fell,” what?",
+        "older": "Linking Romans 9:22 with 11:22, what is shown on those who fell?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "severity"
+        },
+        {
+          "id": "b",
+          "text": "kindness"
+        },
+        {
+          "id": "c",
+          "text": "silence"
+        },
+        {
+          "id": "d",
+          "text": "honor"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 9:22",
+            "text": "What if God, wanting to show His wrath and to make His power known, endured with much longsuffering the vessels of wrath prepared for destruction,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 11:22",
+            "text": "Therefore consider the goodness and severity of God: on those who fell, severity; but toward you, goodness, if you continue in His goodness. Otherwise you also will be cut off.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after the colon in 11:22.",
+          "child": "Look in the middle of verse 11:22.",
+          "teen": "9:22 is the setting; 11:22 names two things, then says on whom each is shown. Read the first of these.",
+          "older": "It follows “on those who fell,” in 11:22."
+        },
+        "extended_explanation": "9:22 says God endured the vessels of wrath. 11:22 warns, “Otherwise you also will be cut off.”",
+        "takeaway": "On those who fell, severity."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 9",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:20 Paul asks, “who are you to reply against God?” In 11:34, what has no one become to the LORD?",
+        "child": "Paul asks who has known the mind of the LORD. What else does he ask whether anyone has become?",
+        "teen": "Romans 11:34: “Or who has become” what?",
+        "older": "Alongside 9:20, what does 11:34 say no one has become to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His judge"
+        },
+        {
+          "id": "b",
+          "text": "His interpreter"
+        },
+        {
+          "id": "c",
+          "text": "His rival"
+        },
+        {
+          "id": "d",
+          "text": "His counselor"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 9:20",
+            "text": "But indeed, O man, who are you to reply against God? Will the thing formed say to him who formed it, “Why have you made me like this?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 11:34",
+            "text": "“For who has known the mind of the LORD? Or who has become His counselor?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:34.",
+          "child": "Look at the last words of verse 34.",
+          "teen": "9:20 is the setting; 11:34 asks two questions. Read the second.",
+          "older": "It follows “Or who has become” in 11:34."
+        },
+        "extended_explanation": "9:20 asks whether the thing formed may say to him who formed it, “Why have you made me like this?” 11:34 first asks who has known the mind of the LORD.",
+        "takeaway": "Who has become His counselor?"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 10",
+      "topics": [
+        "israel-and-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 10:15 Paul asks how they shall preach unless they are sent. In 11:13, what does he call himself?",
+        "child": "Paul tells his readers in Rome what God sent him to be. What does he call himself?",
+        "teen": "Romans 11:13: “inasmuch as I am” what?",
+        "older": "Linking Romans 10:15 with 11:13, what does Paul call himself?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a scribe for the nations"
+        },
+        {
+          "id": "b",
+          "text": "a servant of the high priest"
+        },
+        {
+          "id": "c",
+          "text": "an apostle to the Gentiles"
+        },
+        {
+          "id": "d",
+          "text": "a teacher of the Pharisees"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 10:15",
+            "text": "And how shall they preach unless they are sent? As it is written: “How beautiful are the feet of those who preach the gospel of peace, Who bring glad tidings of good things!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 11:13",
+            "text": "For I speak to you Gentiles; inasmuch as I am an apostle to the Gentiles, I magnify my ministry,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 11:13.",
+          "child": "Look after “inasmuch as I am” in verse 13.",
+          "teen": "10:15 asks about those who are sent; 11:13 says whom he speaks to, then what he is. Read what he is.",
+          "older": "It follows “inasmuch as I am” in 11:13."
+        },
+        "extended_explanation": "10:15 quotes Isaiah about the beautiful feet of those who bring glad tidings. 11:13 ends, “I magnify my ministry.”",
+        "takeaway": "I am an apostle to the Gentiles."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

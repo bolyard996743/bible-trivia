@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2samuel-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2sa-0016",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 21",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Gath there was a man of great stature who was born to the giant. What was unusual about his hands?",
+        "child": "In a battle at Gath, there was a very tall man from a family of giants. What was special about his hands?",
+        "teen": "2 Samuel 21:20 describes a man of great stature at Gath, born to the giant. What did he have on each hand?",
+        "older": "According to 2 Samuel 21:20, what was unusual about the giant’s hands?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "seven fingers on each hand"
+        },
+        {
+          "id": "b",
+          "text": "two thumbs on each hand"
+        },
+        {
+          "id": "c",
+          "text": "four fingers on each hand"
+        },
+        {
+          "id": "d",
+          "text": "six fingers on each hand"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 21:20",
+            "text": "Yet again there was war at Gath, where there was a man of great stature, who had six fingers on each hand and six toes on each foot, twenty-four in number; and he also was born to the giant.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 21:20 after “who had.”",
+          "child": "Look at verse 20. The words come right after “who had.”",
+          "teen": "21:20 describes his hands and his feet. Read the part about his hands.",
+          "older": "It follows “who had” in 21:20."
+        },
+        "extended_explanation": "21:15-22 records four battles with the Philistines in which descendants of the giant fell. 21:20 describes this man at Gath and gives a total, “twenty-four in number.” 21:21 says Jonathan the son of Shimea, David’s brother, struck him down when he defied Israel.",
+        "takeaway": "He had “six fingers on each hand and six toes on each foot.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2sa-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 21",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Abishai came to David’s aid against Ishbi-Benob, David’s men swore that he would go out no more with them to battle. What did they not want him to quench?",
+        "child": "David got very tired in a battle, and Abishai saved him. Then David’s men said he should not go into battle anymore. What did they say he must not quench?",
+        "teen": "2 Samuel 21:17: “You shall go out no more with us to battle, lest you quench ___.” What fills the blank?",
+        "older": "According to 2 Samuel 21:17, what did David’s men fear he would quench in battle?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the torch of Judah"
+        },
+        {
+          "id": "b",
+          "text": "the lamp of Israel"
+        },
+        {
+          "id": "c",
+          "text": "the star of Jacob"
+        },
+        {
+          "id": "d",
+          "text": "the flame of Zion"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 21:16",
+            "text": "Then Ishbi-Benob, who was one of the sons of the giant, the weight of whose bronze spear was three hundred shekels, who was bearing a new sword, thought he could kill David.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 21:17",
+            "text": "But Abishai the son of Zeruiah came to his aid, and struck the Philistine and killed him. Then the men of David swore to him, saying, “You shall go out no more with us to battle, lest you quench the lamp of Israel.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 21:17, after “lest you quench.”",
+          "child": "Look at the last words of verse 17. They come after “lest you quench.”",
+          "teen": "21:17 closes with the men’s oath. Read its final words.",
+          "older": "It closes 21:17, after “lest you quench.”"
+        },
+        "extended_explanation": "21:15 says David became faint in the battle, and 21:16 describes Ishbi-Benob, whose bronze spear was very heavy. Abishai came to the king’s aid. Then the men swore an oath to keep the king out of battle.",
+        "takeaway": "His men said, “lest you quench the lamp of Israel.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2sa-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 23",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Eleazar the son of Dodo, one of David’s three mighty men, stood firm when the men of Israel had retreated. He attacked the Philistines until his hand was weary. To what did his hand stick?",
+        "child": "Eleazar, one of David’s mighty men, kept fighting even when others ran away. He fought so long that his hand got stuck. What was it stuck to?",
+        "teen": "2 Samuel 23:10: “his hand was weary, and his hand stuck to ___.” What fills the blank?",
+        "older": "According to 2 Samuel 23:10, what did Eleazar’s hand stick to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the shield"
+        },
+        {
+          "id": "b",
+          "text": "the spear"
+        },
+        {
+          "id": "c",
+          "text": "the sword"
+        },
+        {
+          "id": "d",
+          "text": "the bow"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 23:9",
+            "text": "And after him was Eleazar the son of Dodo, the Ahohite, one of the three mighty men with David when they defied the Philistines who were gathered there for battle, and the men of Israel had retreated.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 23:10",
+            "text": "He arose and attacked the Philistines until his hand was weary, and his hand stuck to the sword. The LORD brought about a great victory that day; and the people returned after him only to plunder.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 23:10 after “his hand stuck to.”",
+          "child": "Look at verse 10. It comes right after “his hand stuck to.”",
+          "teen": "23:10 tells what happened to his hand. Read the end of that line.",
+          "older": "It follows “his hand stuck to” in 23:10."
+        },
+        "extended_explanation": "23:9 places Eleazar among the three mighty men at a time when the men of Israel had retreated. 23:10 tells how he fought on and adds, “The LORD brought about a great victory that day,” while the people returned after him only to plunder.",
+        "takeaway": "His hand “stuck to the sword.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2sa-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 23",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the people fled from the Philistines, Shammah the son of Agee stationed himself in the middle of a field and defended it. What was the field full of?",
+        "child": "Shammah stood alone in a field when everyone else ran from the Philistines. What crop filled that field?",
+        "teen": "2 Samuel 23:11: “a piece of ground full of ___.” What fills the blank?",
+        "older": "According to 2 Samuel 23:11, what filled the field Shammah defended?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "lentils"
+        },
+        {
+          "id": "b",
+          "text": "barley"
+        },
+        {
+          "id": "c",
+          "text": "wheat"
+        },
+        {
+          "id": "d",
+          "text": "grapevines"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 23:11",
+            "text": "And after him was Shammah the son of Agee the Hararite. The Philistines had gathered together into a troop where there was a piece of ground full of lentils. So the people fled from the Philistines.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 23:12",
+            "text": "But he stationed himself in the middle of the field, defended it, and killed the Philistines. So the LORD brought about a great victory.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 23:11 after “a piece of ground full of.”",
+          "child": "Look at verse 11. It comes right after “ground full of.”",
+          "teen": "23:11 describes the place where the troop gathered. Read that description.",
+          "older": "It follows “a piece of ground full of” in 23:11."
+        },
+        "extended_explanation": "23:11 says the people fled from the Philistines, who had gathered together into a troop. 23:12 tells how one man stationed himself in the middle of the field and defended it, and closes, “So the LORD brought about a great victory.”",
+        "takeaway": "It was “a piece of ground full of lentils.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 23",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Benaiah the son of Jehoiada had done many deeds. He went down and killed a lion in the midst of a pit. On what kind of day?",
+        "child": "Benaiah was a brave man who fought a lion down in a pit. What was the weather like that day?",
+        "teen": "2 Samuel 23:20: he “killed a lion in the midst of a pit” on what kind of day?",
+        "older": "According to 2 Samuel 23:20, on what kind of day did Benaiah kill a lion in a pit?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "on a rainy day"
+        },
+        {
+          "id": "b",
+          "text": "on a snowy day"
+        },
+        {
+          "id": "c",
+          "text": "on a windy day"
+        },
+        {
+          "id": "d",
+          "text": "on a stormy day"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 23:20",
+            "text": "Benaiah was the son of Jehoiada, the son of a valiant man from Kabzeel, who had done many deeds. He had killed two lion-like heroes of Moab. He also had gone down and killed a lion in the midst of a pit on a snowy day.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 23:22",
+            "text": "These things Benaiah the son of Jehoiada did, and won a name among three mighty men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 23:20, after “in the midst of a pit.”",
+          "child": "Look at the last words of verse 20. They come after “in the midst of a pit.”",
+          "teen": "23:20 lists Benaiah’s deeds. Read the end of the last one.",
+          "older": "It closes 23:20."
+        },
+        "extended_explanation": "23:20 introduces Benaiah, from Kabzeel, and lists his deeds against two heroes of Moab and a lion. 23:21 adds an Egyptian whose spear he wrested away, and 23:22 says he won a name among three mighty men.",
+        "takeaway": "He killed a lion in a pit “on a snowy day.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 24",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 24:15 the LORD sent a plague upon Israel from the morning till the appointed time. In 24:17, when David saw the angel striking the people, what did he call the people?",
+        "child": "After David counted the people, a plague came. David told God that he was the one who had sinned. What did David call the people?",
+        "teen": "2 Samuel 24:17: “Surely I have sinned, and I have done wickedly; but ___, what have they done?” What fills the blank?",
+        "older": "According to 2 Samuel 24:17, what did David call the people when he confessed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "these children"
+        },
+        {
+          "id": "b",
+          "text": "these servants"
+        },
+        {
+          "id": "c",
+          "text": "these cities"
+        },
+        {
+          "id": "d",
+          "text": "these sheep"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 24:15",
+            "text": "So the LORD sent a plague upon Israel from the morning till the appointed time. From Dan to Beersheba seventy thousand men of the people died.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 24:17",
+            "text": "Then David spoke to the LORD when he saw the angel who was striking the people, and said, “Surely I have sinned, and I have done wickedly; but these sheep, what have they done? Let Your hand, I pray, be against me and against my father’s house.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 24:17 after “I have done wickedly; but.”",
+          "child": "Look at verse 17. The words come after “done wickedly; but.”",
+          "teen": "24:17 has David’s confession, then a question about the people. Read how the question begins.",
+          "older": "It follows “I have done wickedly; but” in 24:17."
+        },
+        "extended_explanation": "24:15 tells of the plague sent upon Israel from Dan to Beersheba. In 24:17 David sees the angel striking the people, confesses his own sin, and asks, “Let Your hand, I pray, be against me and against my father’s house.”",
+        "takeaway": "David said, “But these sheep, what have they done?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 23",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 23:17 David would not drink water brought at the risk of men’s lives. In 24:24, when Araunah offered him the threshing floor and the oxen, with what did David refuse to make his offering to the LORD?",
+        "child": "Araunah wanted to give David his threshing floor and oxen for an offering. What did David say he would not offer to God?",
+        "teen": "2 Samuel 24:24: David will not make his offering “to the LORD my God with ___.” What fills the blank?",
+        "older": "According to 2 Samuel 24:24, with what would David not make his offering to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "that which costs me nothing"
+        },
+        {
+          "id": "b",
+          "text": "that which belongs to another"
+        },
+        {
+          "id": "c",
+          "text": "that which another man brings"
+        },
+        {
+          "id": "d",
+          "text": "that which was taken as spoil"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 23:17",
+            "text": "And he said, “Far be it from me, O LORD, that I should do this! Is this not the blood of the men who went in jeopardy of their lives?” Therefore he would not drink it. These things were done by the three mighty men.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 24:24",
+            "text": "Then the king said to Araunah, “No, but I will surely buy it from you for a price; nor will I offer burnt offerings to the LORD my God with that which costs me nothing.” So David bought the threshing floor and the oxen for fifty shekels of silver.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 24:24 after “to the LORD my God with.”",
+          "child": "Look at verse 24. The words come after “the LORD my God with.”",
+          "teen": "24:24 has David’s refusal and then what he did. Read the end of the refusal.",
+          "older": "It follows “to the LORD my God with” in 24:24."
+        },
+        "extended_explanation": "23:17 shows David treating the water his three mighty men brought him as “the blood of the men who went in jeopardy of their lives.” In 24:24 David answers Araunah’s offer before he builds his altar to the LORD on the threshing floor.",
+        "takeaway": "David would not offer to the LORD “that which costs me nothing.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2sa-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 21",
+      "topics": [
+        "davids-mighty-men-and-the-census"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 21:15 David became faint fighting the Philistines. In 24:16, when the angel stretched out his hand over Jerusalem, the LORD relented. What did He say to the angel?",
+        "child": "God’s angel was bringing a plague on Jerusalem, but God stopped it. What did God say to the angel?",
+        "teen": "2 Samuel 24:16: the LORD “said to the angel who was destroying the people,” what?",
+        "older": "According to 2 Samuel 24:16, what did the LORD say to the destroying angel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It is enough; now go back to heaven"
+        },
+        {
+          "id": "b",
+          "text": "It is enough; now stand at the altar"
+        },
+        {
+          "id": "c",
+          "text": "It is enough; now restrain your hand"
+        },
+        {
+          "id": "d",
+          "text": "It is enough; now lift up your hand"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 21:15",
+            "text": "When the Philistines were at war again with Israel, David and his servants with him went down and fought against the Philistines; and David grew faint.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 24:16",
+            "text": "And when the angel stretched out His hand over Jerusalem to destroy it, the LORD relented from the destruction, and said to the angel who was destroying the people, “It is enough; now restrain your hand.” And the angel of the LORD was by the threshing floor of Araunah the Jebusite.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the LORD’s words in 24:16, inside the quotation marks.",
+          "child": "Look at verse 16. God’s words are in quotation marks.",
+          "teen": "24:16 quotes the LORD speaking to the angel. Read the quote.",
+          "older": "It is the LORD’s quoted command in 24:16."
+        },
+        "extended_explanation": "21:15 shows David weakened in battle and needing others’ help. In 24:16 the LORD relents from the destruction and speaks to the angel, who was then by the threshing floor of Araunah the Jebusite. That place became the site of David’s altar.",
+        "takeaway": "The LORD said, “It is enough; now restrain your hand.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

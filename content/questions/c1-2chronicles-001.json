@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2chronicles-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2ch-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 20",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A great multitude came against Judah, and Jahaziel, a Levite, stood up in the assembly. What reason did he give Jehoshaphat and the people for not being afraid or dismayed?",
+        "child": "A huge army was marching toward Judah. A man named Jahaziel stood up and told the king and the people not to be afraid. What reason did he give them?",
+        "teen": "In 2 Chronicles 20:15, Jahaziel says, “Do not be afraid nor dismayed because of this great multitude.” What reason does he give right after that?",
+        "older": "According to 2 Chronicles 20:15, why were Jehoshaphat and the people of Judah told not to fear the great multitude?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The battle is not yours, but God’s"
+        },
+        {
+          "id": "b",
+          "text": "The enemy will flee before morning"
+        },
+        {
+          "id": "c",
+          "text": "Your fathers fought here before you"
+        },
+        {
+          "id": "d",
+          "text": "The army of Egypt is coming to help"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 20:15",
+            "text": "And he said, “Listen, all you of Judah and you inhabitants of Jerusalem, and you, King Jehoshaphat! Thus says the LORD to you: ‘Do not be afraid nor dismayed because of this great multitude, for the battle is not yours, but God’s.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The reason follows the word “for” near the end of 20:15, after the mention of the great multitude.",
+          "child": "Look at the very end of verse 15. The reason starts right after the word “for.”",
+          "teen": "Jahaziel’s message in 20:15 has a command and then a reason. Read the part after “for.”",
+          "older": "The close of 20:15 gives the reason, introduced by “for” after “this great multitude.”"
+        },
+        "extended_explanation": "Moab, Ammon, and others came against Jehoshaphat, and he proclaimed a fast and prayed before the assembly. Then Jahaziel, a Levite on whom the Spirit came, spoke to all Judah, Jerusalem, and the king. His words in 20:15 begin with a command not to fear and end with the reason, after the word “for.”",
+        "takeaway": "Jahaziel told Judah not to be afraid, “for the battle is not yours, but God’s.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ch-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 6",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Solomon prayed at the dedication of the temple, he stood and then knelt in the midst of the court where all Israel could see him. What had he made to stand on?",
+        "child": "Solomon knelt down to pray in front of all the people. He had made something special to stand and kneel on in the middle of the court. What was it?",
+        "teen": "2 Chronicles 6:13 explains where Solomon stood and knelt to pray before the assembly. What had he set in the midst of the court?",
+        "older": "According to 2 Chronicles 6:13, what had Solomon made and set in the court, where he stood and knelt to pray?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A marble pillar"
+        },
+        {
+          "id": "b",
+          "text": "A wooden scaffolding"
+        },
+        {
+          "id": "c",
+          "text": "A bronze platform"
+        },
+        {
+          "id": "d",
+          "text": "The temple steps"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 6:12",
+            "text": "Then Solomon stood before the altar of the LORD in the presence of all the assembly of Israel, and spread out his hands",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 6:13",
+            "text": "(for Solomon had made a bronze platform five cubits long, five cubits wide, and three cubits high, and had set it in the midst of the court; and he stood on it, knelt down on his knees before all the assembly of Israel, and spread out his hands toward heaven);",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look inside the parentheses in 6:13, right after “Solomon had made.”",
+          "child": "Verse 13 has words inside brackets. Read what comes right after “Solomon had made.”",
+          "teen": "6:13 pauses to explain where Solomon stood. What he made is named just after “Solomon had made.”",
+          "older": "The aside in 6:13 names it right after “for Solomon had made,” before its measurements."
+        },
+        "extended_explanation": "Solomon stood before the altar and spread out his hands in 6:12. Verse 13 then stops to explain where he was: something he had made, given in cubits, set in the middle of the court. He stood on it, knelt before all the assembly, and spread out his hands toward heaven. The thing he made is named right after “Solomon had made.”",
+        "takeaway": "Solomon stood and knelt on a bronze platform he had made, five cubits long and wide and three cubits high."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ch-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 20",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jehoshaphat feared and set himself to seek the LORD (20:3). In his prayer he admitted that Judah had no power against the great multitude and did not know what to do. How did he finish that sentence (20:12)?",
+        "child": "King Jehoshaphat was afraid, so he called a fast and prayed. He told God that they did not know what to do. What did he say right after that?",
+        "teen": "In 2 Chronicles 20:12, Jehoshaphat prays, “nor do we know what to do.” How does he finish that line?",
+        "older": "According to 2 Chronicles 20:12, what did Jehoshaphat say after admitting “nor do we know what to do”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Our hands are lifted to You"
+        },
+        {
+          "id": "b",
+          "text": "Our eyes are upon You"
+        },
+        {
+          "id": "c",
+          "text": "Our walls will stand firm"
+        },
+        {
+          "id": "d",
+          "text": "Our fathers will save us"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 20:3",
+            "text": "And Jehoshaphat feared, and set himself to seek the LORD, and proclaimed a fast throughout all Judah.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 20:12",
+            "text": "O our God, will You not judge them? For we have no power against this great multitude that is coming against us; nor do we know what to do, but our eyes are upon You.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 20:12, after the word “but.”",
+          "child": "Look at the end of verse 12. Jehoshaphat says “but,” and then the words you need.",
+          "teen": "20:12 ends with a turn introduced by “but.” Read what follows it.",
+          "older": "The prayer of 20:12 closes after “but,” at the very end of the verse."
+        },
+        "extended_explanation": "When the armies of Moab and Ammon came, Jehoshaphat feared, set himself to seek the LORD, and proclaimed a fast (20:3). Judah gathered, and he prayed in the temple court, recalling God’s power and His promises. In 20:12 he admits two things: no power against the multitude and no plan. The verse ends with a turn after “but.”",
+        "takeaway": "Jehoshaphat prayed, “nor do we know what to do, but our eyes are upon You.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ch-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 20",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "As Judah went out into the Wilderness of Tekoa, Jehoshaphat stood and called them to believe in the LORD their God. What second call did he give them, with its promise?",
+        "child": "Before the army went out, King Jehoshaphat stood up and said, “Believe in the LORD your God.” What else did he tell them to do, and what would happen?",
+        "teen": "In 2 Chronicles 20:20, Jehoshaphat gives Judah two calls to believe, each with a promise. What is the second one?",
+        "older": "According to 2 Chronicles 20:20, what was the second thing Jehoshaphat urged Judah to do, and what was promised?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "believe His priests, and you shall live"
+        },
+        {
+          "id": "b",
+          "text": "believe His promises, and you shall stand"
+        },
+        {
+          "id": "c",
+          "text": "believe His word, and you shall have peace in the land"
+        },
+        {
+          "id": "d",
+          "text": "believe His prophets, and you shall prosper"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 20:20",
+            "text": "So they rose early in the morning and went out into the Wilderness of Tekoa; and as they went out, Jehoshaphat stood and said, “Hear me, O Judah and you inhabitants of Jerusalem: Believe in the LORD your God, and you shall be established; believe His prophets, and you shall prosper.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 20:21",
+            "text": "And when he had consulted with the people, he appointed those who should sing to the LORD, and who should praise the beauty of holiness, as they went out before the army and were saying: “Praise the LORD, For His mercy endures forever.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Two calls are joined by a semicolon at the end of 20:20. Read the one after the semicolon.",
+          "child": "Look at the end of verse 20. Jehoshaphat says two things. The second comes after the semicolon.",
+          "teen": "20:20 closes with a pair of calls and promises. The second follows the semicolon.",
+          "older": "The second call and its promise close 20:20, after the semicolon."
+        },
+        "extended_explanation": "Early in the morning Judah went out into the Wilderness of Tekoa. Jehoshaphat stood and spoke to Judah and Jerusalem, giving two calls to believe, each with a promise. After consulting the people, he appointed singers to go before the army (20:21). Read the second call at the end of 20:20.",
+        "takeaway": "Jehoshaphat called Judah to believe in the LORD their God and to “believe His prophets, and you shall prosper.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ch-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 14",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "King Asa’s land had no war for years, and he built fortified cities (14:6). When a huge army came against Judah, Asa cried out to the LORD. What reason did he give for asking God to help them (14:11)?",
+        "child": "For years King Asa’s kingdom had no war. Then a huge army came. Asa prayed, “Help us, O LORD our God.” What reason did he give right after that?",
+        "teen": "In 2 Chronicles 14:11, Asa prays, “help us, O LORD our God.” What reason does he give next, before “in Your name we go against this multitude”?",
+        "older": "According to 2 Chronicles 14:11, what reason did Asa give when he asked the LORD to help Judah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "we are Your people"
+        },
+        {
+          "id": "b",
+          "text": "our cause is just"
+        },
+        {
+          "id": "c",
+          "text": "we rest on You"
+        },
+        {
+          "id": "d",
+          "text": "we have no other hope"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 14:6",
+            "text": "And he built fortified cities in Judah, for the land had rest; he had no war in those years, because the LORD had given him rest.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 14:11",
+            "text": "And Asa cried out to the LORD his God, and said, “LORD, it is nothing for You to help, whether with many or with those who have no power; help us, O LORD our God, for we rest on You, and in Your name we go against this multitude. O LORD, You are our God; do not let man prevail against You!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "In 14:11 the reason comes after “help us, O LORD our God, for,” before “and in Your name.”",
+          "child": "Find “help us, O LORD our God” in verse 11. The reason comes right after the word “for.”",
+          "teen": "Asa’s request in 14:11 is followed by “for” and a reason, then “and in Your name we go.” Read between them.",
+          "older": "The reason sits between “for” and “and in Your name” in the middle of 14:11."
+        },
+        "extended_explanation": "Asa removed the high places, and the kingdom was quiet under him; he built fortified cities while the land had no war (14:5-7). Then Zerah the Ethiopian came with a huge army. In 14:11 Asa says it is nothing for God to help, with many or with those who have no power, and then gives a reason after “for.”",
+        "takeaway": "Asa prayed, “help us, O LORD our God, for we rest on You, and in Your name we go against this multitude.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ch-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 7",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After the dedication, God warned that if Israel turned to idols, He would cast the house out of His sight (7:20). Long afterward the house of God was burned (36:19). What did God say He would make the house among all peoples?",
+        "child": "God warned Solomon that if the people turned to idols, He would cast the temple out of His sight. Years later it was burned. What did God say the temple would become among all peoples?",
+        "teen": "In 2 Chronicles 7:20 God warns what will happen to “this house which I have sanctified for My name.” What will He make it among all peoples, as 36:19 later shows the house burned?",
+        "older": "According to 2 Chronicles 7:20, what would God make the house among all peoples if Israel forsook Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A proverb and a byword"
+        },
+        {
+          "id": "b",
+          "text": "A ruin and a heap of stones"
+        },
+        {
+          "id": "c",
+          "text": "A wonder and a warning"
+        },
+        {
+          "id": "d",
+          "text": "A desert and a wasteland"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 7:20",
+            "text": "then I will uproot them from My land which I have given them; and this house which I have sanctified for My name I will cast out of My sight, and will make it a proverb and a byword among all peoples.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 36:19",
+            "text": "Then they burned the house of God, broke down the wall of Jerusalem, burned all its palaces with fire, and destroyed all its precious possessions.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:20, right before “among all peoples.”",
+          "child": "Look at the last words of verse 20. What God would make the house is just before “among all peoples.”",
+          "teen": "7:20 ends by saying what the house would become. It comes right ahead of “among all peoples.”",
+          "older": "The close of 7:20 names it, just before “among all peoples.”"
+        },
+        "extended_explanation": "In 7:19-22 the LORD tells Solomon what will follow if Israel forsakes His statutes and turns to idols: the people uprooted and the house cast out of His sight. 36:19 records the later burning of the house of God and the broken wall of Jerusalem. The end of 7:20 says what the house would become, just before “among all peoples.”",
+        "takeaway": "God warned that He would make the house “a proverb and a byword among all peoples.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ch-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 7",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God promised that if His people would humble themselves and pray, He would hear from heaven (7:14). When King Manasseh, in affliction, humbled himself greatly and prayed (33:12-13), what did God do first?",
+        "child": "God told Solomon He would listen when His people humbled themselves and prayed. Much later, wicked King Manasseh was taken captive and prayed humbly. What is the first thing 33:13 says God did?",
+        "teen": "2 Chronicles 7:14 promises God will hear when His people humble themselves and pray. In 33:13, after Manasseh humbles himself and prays, what is the first thing God does?",
+        "older": "According to 2 Chronicles 33:13, what did God first do when the humbled Manasseh prayed to Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He struck the king of Assyria"
+        },
+        {
+          "id": "b",
+          "text": "He sent a prophet to him"
+        },
+        {
+          "id": "c",
+          "text": "He gave him a long life"
+        },
+        {
+          "id": "d",
+          "text": "He received his entreaty"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 7:14",
+            "text": "if My people who are called by My name will humble themselves, and pray and seek My face, and turn from their wicked ways, then I will hear from heaven, and will forgive their sin and heal their land.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 33:12",
+            "text": "Now when he was in affliction, he implored the LORD his God, and humbled himself greatly before the God of his fathers,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 33:13",
+            "text": "and prayed to Him; and He received his entreaty, heard his supplication, and brought him back to Jerusalem into his kingdom. Then Manasseh knew that the LORD was God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "33:13 lists several things God did after “and prayed to Him.” Read the first one, before “heard his supplication.”",
+          "child": "In verse 13, find “prayed to Him.” The first thing God did comes right after that, before “heard his supplication.”",
+          "teen": "33:13 strings together God’s responses. The first sits between “prayed to Him; and” and “heard his supplication.”",
+          "older": "Read 33:13 after “and prayed to Him”: the first response stands before “heard his supplication.”"
+        },
+        "extended_explanation": "In 7:14 the LORD promises to hear from heaven and forgive when His people humble themselves, pray, seek His face, and turn. Manasseh did great evil, was carried to Babylon in fetters, and in affliction implored the LORD and humbled himself greatly (33:11-12). 33:13 lists what God did next; read the first item after “prayed to Him.”",
+        "takeaway": "When Manasseh prayed, “He received his entreaty, heard his supplication, and brought him back to Jerusalem.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ch-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 6",
+      "topics": [
+        "prayer-and-revival"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Solomon prayed, “Hear from heaven Your dwelling place, and when You hear, forgive” (6:21). Generations later, Hezekiah prayed for worshipers who had not been cleansed, and the LORD listened to him. What else does 30:20 say the LORD did?",
+        "child": "At the temple, Solomon asked God to hear from heaven and forgive. Years later King Hezekiah prayed for those who ate the Passover without being cleansed. God listened to him. What else did God do?",
+        "teen": "2 Chronicles 6:21 asks God to hear and forgive. In 30:20 the LORD listens to Hezekiah’s prayer for those not cleansed. What second thing does the LORD do?",
+        "older": "According to 2 Chronicles 30:20, what did the LORD do besides listening to Hezekiah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "blessed their harvest"
+        },
+        {
+          "id": "b",
+          "text": "healed the people"
+        },
+        {
+          "id": "c",
+          "text": "cleansed the sanctuary"
+        },
+        {
+          "id": "d",
+          "text": "forgave the priests"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 6:21",
+            "text": "And may You hear the supplications of Your servant and of Your people Israel, when they pray toward this place. Hear from heaven Your dwelling place, and when You hear, forgive.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 30:20",
+            "text": "And the LORD listened to Hezekiah and healed the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "30:20 is one sentence. Read its end, after “listened to Hezekiah and.”",
+          "child": "Look at the last words of verse 20, right after “listened to Hezekiah and.”",
+          "teen": "30:20 joins two actions with “and.” Read the second.",
+          "older": "The second action closes 30:20, following “listened to Hezekiah and.”"
+        },
+        "extended_explanation": "Solomon’s dedication prayer asks again and again that God would hear from heaven and forgive (6:21). At Hezekiah’s Passover many from Ephraim, Manasseh, Issachar, and Zebulun ate without being cleansed, and Hezekiah prayed for everyone who prepares his heart to seek God (30:18-19). 30:20 gives the LORD’s response in a single sentence with two actions.",
+        "takeaway": "The LORD listened to Hezekiah and healed the people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

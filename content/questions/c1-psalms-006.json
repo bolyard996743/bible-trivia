@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-psa-0020",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 1",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 1 contrasts the blessed man with others. In 1:4, what are they like?",
+        "child": "Psalm 1 says people who do not follow God are like something the wind blows away. What?",
+        "teen": "Psalm 1:4: “But are like ___ which the wind drives away.” What fills the blank?",
+        "older": "According to Psalm 1:4, what are those who do not walk with God like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the ashes"
+        },
+        {
+          "id": "b",
+          "text": "the chaff"
+        },
+        {
+          "id": "c",
+          "text": "the smoke"
+        },
+        {
+          "id": "d",
+          "text": "the grass"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 1:4",
+            "text": "The ungodly are not so, But are like the chaff which the wind drives away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:4 after “But are like.”",
+          "child": "Look at the end of verse 4.",
+          "teen": "1:4 opens with a contrast and then gives a picture. Read it.",
+          "older": "It is near the end of 1:4, before “which the wind.”"
+        },
+        "extended_explanation": "1:4 opens with a contrast with the blessed man of 1:1-3. 1:5 adds that they shall not stand in the judgment.",
+        "takeaway": "They are like the chaff which the wind drives away."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-psa-0018",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 37",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Do not fret because of evildoers.” In 37:11, who shall inherit the earth and delight in the abundance of peace?",
+        "child": "Psalm 37 says some people will inherit the earth. Who are they?",
+        "teen": "Psalm 37:11: “But ___ shall inherit the earth.” Who fills the blank?",
+        "older": "According to Psalm 37:11, who shall inherit the earth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the strong"
+        },
+        {
+          "id": "b",
+          "text": "the wise"
+        },
+        {
+          "id": "c",
+          "text": "the meek"
+        },
+        {
+          "id": "d",
+          "text": "the rich"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 37:11",
+            "text": "But the meek shall inherit the earth, And shall delight themselves in the abundance of peace.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 37:11.",
+          "child": "Look at the start of verse 11.",
+          "teen": "37:11 names a group and then says what they will enjoy. Read the group.",
+          "older": "It opens 37:11, after “But.”"
+        },
+        "extended_explanation": "37:10 says that in a little while the wicked shall be no more. 37:11 adds that this group shall delight themselves in the abundance of peace.",
+        "takeaway": "“The meek shall inherit the earth.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-psa-0019",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 37",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 37:23, what does the psalmist say about the steps of a good man?",
+        "child": "Psalm 37 talks about the steps a good person takes. What does it say about them?",
+        "teen": "Psalm 37:23: “The steps of a good man are ___.” What fills the blank?",
+        "older": "According to Psalm 37:23, what is true of a good man’s steps?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "ordered by the LORD"
+        },
+        {
+          "id": "b",
+          "text": "watched by the LORD"
+        },
+        {
+          "id": "c",
+          "text": "counted by the LORD"
+        },
+        {
+          "id": "d",
+          "text": "guarded by the LORD"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 37:23",
+            "text": "The steps of a good man are ordered by the LORD, And He delights in his way.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 37:24",
+            "text": "Though he fall, he shall not be utterly cast down; For the LORD upholds him with His hand.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 37:23.",
+          "child": "Look at the start of verse 23.",
+          "teen": "37:23 has two lines. Read the end of the first.",
+          "older": "It closes the first line of 37:23."
+        },
+        "extended_explanation": "37:23 adds that the LORD delights in his way. 37:24 says that though he fall, he shall not be utterly cast down, for the LORD upholds him with His hand.",
+        "takeaway": "His steps are “ordered by the LORD.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-psa-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 49",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Do not be afraid when one becomes rich.” In 49:17, what shall he carry when he dies?",
+        "child": "Psalm 49 says not to worry when someone gets rich. What can a rich man take with him when he dies?",
+        "teen": "Psalm 49:17: “For when he dies he shall carry ___.” What fills the blank?",
+        "older": "According to Psalm 49:17, what does the rich man carry with him at death?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "his gold away"
+        },
+        {
+          "id": "b",
+          "text": "his house away"
+        },
+        {
+          "id": "c",
+          "text": "his treasures away"
+        },
+        {
+          "id": "d",
+          "text": "nothing away"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 49:16",
+            "text": "Do not be afraid when one becomes rich, When the glory of his house is increased;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 49:17",
+            "text": "For when he dies he shall carry nothing away; His glory shall not descend after him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 49:17.",
+          "child": "Look at the start of verse 17.",
+          "teen": "49:16 gives the command; 49:17 gives the reason. Read its first line.",
+          "older": "It ends the first line of 49:17."
+        },
+        "extended_explanation": "49:16 tells of the glory of his house increased. 49:18-19 add that men praise him while he lives, yet he shall go to the generation of his fathers.",
+        "takeaway": "When he dies he shall carry nothing away."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 73",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The prosperity of the wicked was too painful for the psalmist to understand. In 73:17, where did he go before he understood their end?",
+        "child": "The writer of Psalm 73 was upset that bad people seemed to do well. Where did he go that helped him understand?",
+        "teen": "Psalm 73:17: “Until I went” where? “Then I understood their end.”",
+        "older": "According to Psalm 73:17, where was the psalmist when he understood the end of the wicked?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "into the courts of the king"
+        },
+        {
+          "id": "b",
+          "text": "into the wilderness of Judah"
+        },
+        {
+          "id": "c",
+          "text": "into the city of David"
+        },
+        {
+          "id": "d",
+          "text": "into the sanctuary of God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 73:16",
+            "text": "When I thought how to understand this, It was too painful for me—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 73:17",
+            "text": "Until I went into the sanctuary of God; Then I understood their end.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 73:17.",
+          "child": "Look at the start of verse 17.",
+          "teen": "73:16 tells of the struggle; 73:17 says where it changed. Read the first line.",
+          "older": "It follows “Until I went” in 73:17."
+        },
+        "extended_explanation": "73:16 says that thinking about it was too painful. 73:18 goes on: “Surely You set them in slippery places.”",
+        "takeaway": "He went “into the sanctuary of God.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 73",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 73:2 the psalmist’s feet had almost stumbled. In 112:7, of what will the righteous man not be afraid?",
+        "child": "Psalm 112 says a person who trusts God has a steady heart. What does he not fear?",
+        "teen": "Psalm 112:7: “He will not be afraid of ___.” What fills the blank?",
+        "older": "According to Psalm 112:7, what will the righteous man not fear?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "evil tidings"
+        },
+        {
+          "id": "b",
+          "text": "dark nights"
+        },
+        {
+          "id": "c",
+          "text": "his enemies"
+        },
+        {
+          "id": "d",
+          "text": "sudden storms"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 73:2",
+            "text": "But as for me, my feet had almost stumbled; My steps had nearly slipped.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 112:7",
+            "text": "He will not be afraid of evil tidings; His heart is steadfast, trusting in the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 112:7.",
+          "child": "Look at the start of verse 7.",
+          "teen": "73:2 is the setting; 112:7 has two lines. Read the end of the first.",
+          "older": "It closes the first line of 112:7."
+        },
+        "extended_explanation": "73:2 says his steps had nearly slipped. 112:7 gives the reason the righteous man stands firm: “His heart is steadfast, trusting in the LORD.”",
+        "takeaway": "He will not be afraid of evil tidings."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 1",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 1:2 tells when the blessed man meditates. According to 37:30, what does the mouth of the righteous do?",
+        "child": "Psalm 37 describes what a good person’s mouth does. What does it do?",
+        "teen": "Psalm 37:30: “The mouth of the righteous” does what?",
+        "older": "Alongside the blessed man of Psalm 1:2, what does Psalm 37:30 say the mouth of the righteous does?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "sings His praise"
+        },
+        {
+          "id": "b",
+          "text": "speaks wisdom"
+        },
+        {
+          "id": "c",
+          "text": "tells the truth"
+        },
+        {
+          "id": "d",
+          "text": "gives thanks"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 1:2",
+            "text": "But his delight is in the law of the LORD, And in His law he meditates day and night.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 37:30",
+            "text": "The mouth of the righteous speaks wisdom, And his tongue talks of justice.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 37:30.",
+          "child": "Look at the start of Psalm 37:30.",
+          "teen": "1:2 is the setting; 37:30 has two lines, one for the mouth and one for the tongue. Read the first.",
+          "older": "It closes the first line of 37:30."
+        },
+        "extended_explanation": "1:2 says when the blessed man meditates. 37:30 sets the mouth beside the tongue in two matching lines.",
+        "takeaway": "The mouth of the righteous speaks wisdom."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 49",
+      "topics": [
+        "wisdom-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 49:20 describes a man in honor who does not understand. In 73:22, how does the psalmist describe himself when he was foolish and ignorant?",
+        "child": "In Psalm 73 the writer admits he was foolish. What did he say he was like before God?",
+        "teen": "Psalm 73:22: “I was so foolish and ignorant; I was like” what?",
+        "older": "Psalm 49:20 describes a man who does not understand. According to 73:22, what was the psalmist like before God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a child before You"
+        },
+        {
+          "id": "b",
+          "text": "a stranger before You"
+        },
+        {
+          "id": "c",
+          "text": "a beast before You"
+        },
+        {
+          "id": "d",
+          "text": "a shadow before You"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 49:20",
+            "text": "A man who is in honor, yet does not understand, Is like the beasts that perish.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 73:22",
+            "text": "I was so foolish and ignorant; I was like a beast before You.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 73:22.",
+          "child": "Look at the last words of Psalm 73:22.",
+          "teen": "49:20 is the setting; 73:22 is the confession. Read the end of it.",
+          "older": "It closes 73:22, after “I was like.”"
+        },
+        "extended_explanation": "49:20 ends Psalm 49 with a comparison for the one who is in honor yet does not understand. 73:23 follows the confession at once: “Nevertheless I am continually with You.”",
+        "takeaway": "He was “like a beast before You.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

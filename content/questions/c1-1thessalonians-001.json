@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1thessalonians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1th-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 1",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Others reported how the Thessalonians turned to God to serve the living and true God. From what did they turn, according to 1:9?",
+        "child": "People everywhere heard how the Thessalonians changed. What did they turn away from to serve God?",
+        "teen": "1 Thessalonians 1:9: “how you turned to God” from what?",
+        "older": "According to 1 Thessalonians 1:9, from what did the Thessalonians turn to God?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "from the law"
+        },
+        {
+          "id": "b",
+          "text": "from riches"
+        },
+        {
+          "id": "c",
+          "text": "from their homes"
+        },
+        {
+          "id": "d",
+          "text": "from idols"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 1:9",
+            "text": "For they themselves declare concerning us what manner of entry we had to you, and how you turned to God from idols to serve the living and true God,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:9.",
+          "child": "Look right after “turned to God” in verse 9.",
+          "teen": "1:9 tells what others declare about Paul’s visit, then what the Thessalonians turned from and to. Read the middle.",
+          "older": "It follows “how you turned to God” in 1:9."
+        },
+        "extended_explanation": "1:9 says they turned to serve the living and true God. 1:10 says they wait for His Son from heaven.",
+        "takeaway": "They turned to God from idols."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1th-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 2",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:7 Paul says they were gentle among the Thessalonians. To whom does he compare that gentleness?",
+        "child": "Paul says he was gentle with the believers in Thessalonica. Who does he compare himself to?",
+        "teen": "1 Thessalonians 2:7: “But we were gentle among you, just as” who?",
+        "older": "According to 1 Thessalonians 2:7, whom were Paul and his companions like in their gentleness?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a patient teacher"
+        },
+        {
+          "id": "b",
+          "text": "a nursing mother"
+        },
+        {
+          "id": "c",
+          "text": "a careful shepherd"
+        },
+        {
+          "id": "d",
+          "text": "a faithful steward"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 2:7",
+            "text": "But we were gentle among you, just as a nursing mother cherishes her own children.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:7.",
+          "child": "Look at the words right after “just as” in verse 7.",
+          "teen": "2:6 says they could have made demands; 2:7 says they were gentle, then gives a picture. Read the picture.",
+          "older": "It follows “gentle among you, just as” in 2:7."
+        },
+        "extended_explanation": "2:6 says they might have made demands as apostles of Christ. 2:8 says they were well pleased to impart their own lives.",
+        "takeaway": "They were gentle, just as a nursing mother cherishes her own children."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1th-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 2",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:17 Paul says they longed to see the Thessalonians’ face with great desire. According to 2:18, why had he not come, time and again?",
+        "child": "Paul really wanted to visit the believers in Thessalonica again. What does 2:18 say stopped him?",
+        "teen": "1 Thessalonians 2:18: “Therefore we wanted to come to you—even I, Paul, time and again—but” what?",
+        "older": "According to 1 Thessalonians 2:18, what kept Paul from coming to them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Satan hindered us"
+        },
+        {
+          "id": "b",
+          "text": "Rome forbade us"
+        },
+        {
+          "id": "c",
+          "text": "the sea held us back"
+        },
+        {
+          "id": "d",
+          "text": "sickness kept us away"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 2:17",
+            "text": "But we, brethren, having been taken away from you for a short time in presence, not in heart, endeavored more eagerly to see your face with great desire.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Thessalonians 2:18",
+            "text": "Therefore we wanted to come to you—even I, Paul, time and again—but Satan hindered us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:18.",
+          "child": "Look at the last words of verse 18.",
+          "teen": "2:17 tells of their longing; 2:18 says they wanted to come, names Paul, and then says what happened. Read the end.",
+          "older": "It follows “time and again—but” in 2:18."
+        },
+        "extended_explanation": "2:17 says they were taken away from them for a short time, in presence, not in heart. 2:19 asks what is their hope, or joy.",
+        "takeaway": "Paul wanted to come, but “Satan hindered us.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1th-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 3",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:9 Paul asks what thanks he can render to God for all his joy over them. According to 3:10, he prays night and day to see their face and to do what?",
+        "child": "Paul thanked God for the believers and prayed day and night to see them again. What else did he want to do for their faith?",
+        "teen": "1 Thessalonians 3:10: “night and day praying exceedingly that we may see your face and” what?",
+        "older": "According to 1 Thessalonians 3:10, what did Paul pray to do, besides seeing their face?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "repay what they have given"
+        },
+        {
+          "id": "b",
+          "text": "hear what they have learned"
+        },
+        {
+          "id": "c",
+          "text": "perfect what is lacking"
+        },
+        {
+          "id": "d",
+          "text": "share what he has received"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 3:9",
+            "text": "For what thanks can we render to God for you, for all the joy with which we rejoice for your sake before our God,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Thessalonians 3:10",
+            "text": "night and day praying exceedingly that we may see your face and perfect what is lacking in your faith?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:10.",
+          "child": "Look at the last words of verse 10.",
+          "teen": "3:9 asks a question about thanks; 3:10 says how Paul prays and for two things. Read the second.",
+          "older": "It follows “that we may see your face and” in 3:10."
+        },
+        "extended_explanation": "3:6 says Timothy brought good news of their faith and love. 3:9 speaks of all the joy with which Paul rejoices for their sake.",
+        "takeaway": "He prayed to see them and perfect what is lacking in their faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1th-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 4",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "4:14 says God will bring with Him those who sleep in Jesus. In 4:13, Paul does not want them to sorrow as whom?",
+        "child": "Paul writes to comfort believers whose loved ones had died. According to 4:13, he does not want them to be sad like whom?",
+        "teen": "1 Thessalonians 4:13: “lest you sorrow as” whom?",
+        "older": "Read with 4:14, like whom should believers not sorrow, according to 4:13?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "others who have no friends"
+        },
+        {
+          "id": "b",
+          "text": "others who have no home"
+        },
+        {
+          "id": "c",
+          "text": "others who have no hope"
+        },
+        {
+          "id": "d",
+          "text": "others who have no king"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 4:13",
+            "text": "But I do not want you to be ignorant, brethren, concerning those who have fallen asleep, lest you sorrow as others who have no hope.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Thessalonians 4:14",
+            "text": "For if we believe that Jesus died and rose again, even so God will bring with Him those who sleep in Jesus.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:13.",
+          "child": "Look at the last words of verse 13.",
+          "teen": "4:13 names those who have fallen asleep, then says how not to sorrow. 4:14 gives the reason. Read the end of 4:13.",
+          "older": "It follows “lest you sorrow as” in 4:13."
+        },
+        "extended_explanation": "4:14 says Jesus died and rose again. 4:18 says to comfort one another with these words.",
+        "takeaway": "Do not sorrow as others who have no hope."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1th-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 3",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:12 Paul prays that the Lord make them abound in love to one another. In 4:9, why does he not need to write to them about brotherly love?",
+        "child": "Paul prayed for the believers to love each other more. Later, why did he say he did not need to write to them about loving each other?",
+        "teen": "1 Thessalonians 4:9: “for you yourselves are” what?",
+        "older": "Read with 3:12, what reason does 4:9 give that Paul need not write about brotherly love?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "taught by God"
+        },
+        {
+          "id": "b",
+          "text": "warned by Timothy"
+        },
+        {
+          "id": "c",
+          "text": "trained by the elders"
+        },
+        {
+          "id": "d",
+          "text": "shown by the churches"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 3:12",
+            "text": "And may the Lord make you increase and abound in love to one another and to all, just as we do to you,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Thessalonians 4:9",
+            "text": "But concerning brotherly love you have no need that I should write to you, for you yourselves are taught by God to love one another;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “you yourselves are” in 4:9.",
+          "child": "Look right after “you yourselves are” in verse 9.",
+          "teen": "3:12 is a prayer about love; 4:9 says there is no need to write, then gives a reason. Read the reason.",
+          "older": "It follows “for you yourselves are” in 4:9."
+        },
+        "extended_explanation": "4:10 says they love all the brethren in all Macedonia. 3:12 prays they would abound in love to all.",
+        "takeaway": "They were taught by God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1th-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 1",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:10 says Jesus delivers us from the wrath to come. According to 5:9, what did God appoint us to, instead of wrath?",
+        "child": "Paul says Jesus rescues believers from God’s anger to come. What does 5:9 say God chose believers for instead?",
+        "teen": "1 Thessalonians 5:9: “For God did not appoint us to wrath, but” to what?",
+        "older": "Beside 1:10, what does 5:9 say God appointed us for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to judge the nations"
+        },
+        {
+          "id": "b",
+          "text": "to obtain salvation"
+        },
+        {
+          "id": "c",
+          "text": "to receive a kingdom"
+        },
+        {
+          "id": "d",
+          "text": "to inherit the land"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 1:10",
+            "text": "and to wait for His Son from heaven, whom He raised from the dead, even Jesus who delivers us from the wrath to come.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Thessalonians 5:9",
+            "text": "For God did not appoint us to wrath, but to obtain salvation through our Lord Jesus Christ,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “but” in 5:9.",
+          "child": "Look right after “to wrath, but” in verse 9.",
+          "teen": "1:10 speaks of waiting for His Son; 5:9 says what God did not appoint us to, then what He did, and through whom. Read the middle.",
+          "older": "It follows “did not appoint us to wrath, but” in 5:9."
+        },
+        "extended_explanation": "1:10 says they wait for His Son from heaven, whom He raised from the dead. 5:10 says He died for us.",
+        "takeaway": "God appointed us to obtain salvation through our Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1th-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Thessalonians",
+      "section": "1 Thessalonians 2",
+      "topics": [
+        "hope-and-his-coming"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2:12 urges them to walk worthy of God, who calls them into His own kingdom and glory. In 4:12, how should they walk toward those who are outside?",
+        "child": "Paul tells believers to live in a way that honors God. In 4:12, how should they live toward people outside the church?",
+        "teen": "1 Thessalonians 4:12: “that you may walk” how “toward those who are outside”?",
+        "older": "Beside 2:12, how does 4:12 say they should walk toward outsiders?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "humbly"
+        },
+        {
+          "id": "b",
+          "text": "gently"
+        },
+        {
+          "id": "c",
+          "text": "joyfully"
+        },
+        {
+          "id": "d",
+          "text": "properly"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Thessalonians 2:12",
+            "text": "that you would walk worthy of God who calls you into His own kingdom and glory.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Thessalonians 4:12",
+            "text": "that you may walk properly toward those who are outside, and that you may lack nothing.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 4:12.",
+          "child": "Look right after “walk” in verse 12.",
+          "teen": "2:12 speaks of walking worthy; 4:12 says how to walk toward outsiders, then that you may lack nothing. Read the first part.",
+          "older": "It follows “that you may walk” in 4:12."
+        },
+        "extended_explanation": "4:11 urges them to lead a quiet life and work with their own hands. 4:12 adds that they may lack nothing.",
+        "takeaway": "They should walk properly toward those who are outside."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

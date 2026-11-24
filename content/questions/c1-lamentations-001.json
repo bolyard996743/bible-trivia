@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-lamentations-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-lam-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 3",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Lamentations 3:22 says that through the LORD’s mercies we are not consumed, because His compassions fail not. How often does 3:23 say they are new?",
+        "child": "In the middle of a very sad book, Lamentations says God’s mercies never fail. How often does it say they are new?",
+        "teen": "Lamentations 3:22-23 is a famous passage of hope: “His compassions fail not.” How often are they new?",
+        "older": "According to Lamentations 3:23, how often are the LORD’s compassions new?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every sabbath"
+        },
+        {
+          "id": "b",
+          "text": "Every season"
+        },
+        {
+          "id": "c",
+          "text": "Every new moon"
+        },
+        {
+          "id": "d",
+          "text": "Every morning"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 3:22",
+            "text": "Through the LORD’s mercies we are not consumed, Because His compassions fail not.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 3:23",
+            "text": "They are new every morning; Great is Your faithfulness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 3:23, right after “They are new.”",
+          "child": "Look at the first line of verse 23. How often comes right after “They are new.”",
+          "teen": "3:23 opens by saying the compassions are new. Read the words that follow.",
+          "older": "The first line of 3:23 ends with it, after “They are new.”"
+        },
+        "extended_explanation": "Lamentations mourns the fall of Jerusalem, yet at the center of chapter 3 the writer recalls a reason for hope (3:21). 3:22 says the LORD’s mercies keep us from being consumed, because His compassions fail not. 3:23 tells how often they are new, then adds “Great is Your faithfulness.”",
+        "takeaway": "The LORD’s compassions “are new every morning; Great is Your faithfulness.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-lam-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 1",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Lamentations opens by mourning the city that was full of people and great among the nations. What does 1:1 say she is like?",
+        "child": "Lamentations begins by describing Jerusalem, which once had many people and now sits alone. What person is the city compared to?",
+        "teen": "Lamentations 1:1 says, “How lonely sits the city That was full of people!” What does it then say she is like?",
+        "older": "According to Lamentations 1:1, what is the lonely city compared to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "A beggar"
+        },
+        {
+          "id": "b",
+          "text": "An orphan"
+        },
+        {
+          "id": "c",
+          "text": "A widow"
+        },
+        {
+          "id": "d",
+          "text": "A stranger"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 1:1",
+            "text": "How lonely sits the city That was full of people! How like a widow is she, Who was great among the nations! The princess among the provinces Has become a slave!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second sentence of 1:1, right after “How like.”",
+          "child": "In verse 1, find “How like.” The comparison comes right after it.",
+          "teen": "1:1 has three exclamations. The comparison is in the second, after “How like.”",
+          "older": "The comparison follows “How like” in the second exclamation of 1:1."
+        },
+        "extended_explanation": "Lamentations is a set of five poems mourning Jerusalem after its fall to Babylon. 1:1 opens with three exclamations: the lonely city once full of people, a comparison introduced by “How like,” and the princess among the provinces who has become a slave.",
+        "takeaway": "“How like a widow is she, Who was great among the nations!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-lam-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 3",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The writer’s soul says something about the LORD and then adds, “Therefore I hope in Him!” (3:24). What does his soul say the LORD is?",
+        "child": "In Lamentations 3:24 the writer says, “Therefore I hope in Him!” Just before that, what does he say the LORD is?",
+        "teen": "In Lamentations 3:24, what does the writer’s soul say the LORD is, just before “Therefore I hope in Him!”?",
+        "older": "According to Lamentations 3:24, what does the writer’s soul say the LORD is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My portion"
+        },
+        {
+          "id": "b",
+          "text": "My fortress"
+        },
+        {
+          "id": "c",
+          "text": "My shield"
+        },
+        {
+          "id": "d",
+          "text": "My refuge"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 3:24",
+            "text": "“The LORD is my portion,” says my soul, “Therefore I hope in Him!”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 3:25",
+            "text": "The LORD is good to those who wait for Him, To the soul who seeks Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first quotation in 3:24, after “The LORD is.”",
+          "child": "Look at the start of verse 24. The words come right after “The LORD is.”",
+          "teen": "3:24 quotes the soul twice. Read the first quote, after “The LORD is.”",
+          "older": "The first quotation of 3:24 ends with it, after “The LORD is,” before “says my soul.”"
+        },
+        "extended_explanation": "After recalling that the LORD’s compassions fail not, the writer speaks to himself in 3:24, with two quotations of what his soul says, and draws the conclusion “Therefore I hope in Him!” 3:25 adds that the LORD is good to those who wait for Him.",
+        "takeaway": "“The LORD is my portion,” says my soul, “Therefore I hope in Him!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-lam-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 3",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Before saying, “Let us lift our hearts and hands To God in heaven” (3:41), what does the writer urge in 3:40, along with turning back to the LORD?",
+        "child": "In Lamentations 3:40 the writer calls the people to turn back to the LORD. What does he tell them to do first?",
+        "teen": "Lamentations 3:40 has two calls that begin with “Let us.” The second is “turn back to the LORD.” What is the first?",
+        "older": "According to Lamentations 3:40, what should the people do along with turning back to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "rebuild the walls of the holy city"
+        },
+        {
+          "id": "b",
+          "text": "search out and examine our ways"
+        },
+        {
+          "id": "c",
+          "text": "offer sacrifices at the altar"
+        },
+        {
+          "id": "d",
+          "text": "sit in silence and fast"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 3:40",
+            "text": "Let us search out and examine our ways, And turn back to the LORD;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 3:41",
+            "text": "Let us lift our hearts and hands To God in heaven.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 3:40, right after “Let us.”",
+          "child": "Look at the start of verse 40. The words come right after the first “Let us.”",
+          "teen": "3:40 pairs two calls. Read the first one, before “And turn back.”",
+          "older": "The first call of 3:40 follows “Let us,” ahead of “And turn back to the LORD.”"
+        },
+        "extended_explanation": "In 3:39 the writer asks why a living man should complain about the punishment of his sins. 3:40-41 then turns to a call to the whole people, with “Let us” three times: two calls in 3:40, and lifting hearts and hands to God in heaven in 3:41. Read the first call.",
+        "takeaway": "“Let us search out and examine our ways, And turn back to the LORD.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lam-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 3",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Lamentations says the Lord will not cast off forever, and though He causes grief, He will show compassion (3:31-32). What reason follows in 3:33?",
+        "child": "Lamentations 3:32 says that even when God brings grief, He will show compassion. What does the next verse say about Him?",
+        "teen": "In Lamentations 3:31-33, “the Lord will not cast off forever.” What does 3:33 say, beginning with “For”?",
+        "older": "According to Lamentations 3:33, what is true of the Lord, though He causes grief?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He does not afflict willingly"
+        },
+        {
+          "id": "b",
+          "text": "He is bound by His covenant"
+        },
+        {
+          "id": "c",
+          "text": "He hears the prayers of the poor"
+        },
+        {
+          "id": "d",
+          "text": "He remembers the days of His people"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 3:31",
+            "text": "For the Lord will not cast off forever.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 3:32",
+            "text": "Though He causes grief, Yet He will show compassion According to the multitude of His mercies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 3:33",
+            "text": "For He does not afflict willingly, Nor grieve the children of men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 3:33, right after “For.”",
+          "child": "Look at the start of verse 33. The words come right after “For.”",
+          "teen": "3:33 gives a reason in two lines. Read the first, after “For.”",
+          "older": "The first line of 3:33, after “For,” gives it; “Nor grieve the children of men” follows."
+        },
+        "extended_explanation": "3:31-33 is a chain of three reasons for hope, each beginning with “For” or “Though.” The Lord will not cast off forever; though He causes grief, He will show compassion by the multitude of His mercies. 3:33 adds a final reason in two lines, the second being “Nor grieve the children of men.”",
+        "takeaway": "“For He does not afflict willingly, Nor grieve the children of men.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lam-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 1",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:16 Jerusalem weeps because the comforter who should restore her life is far from her. In 3:57 the writer says God drew near on the day he called. What did God say?",
+        "child": "In chapter 1, Jerusalem cries because no one comes to comfort her. In chapter 3, the writer says God came near when he called. What did God say to him?",
+        "teen": "Lamentations 1:16 says the comforter “Is far from me.” In 3:57, “You drew near on the day I called on You, And said” what?",
+        "older": "According to Lamentations 3:57, what did God say when He drew near?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Be comforted!"
+        },
+        {
+          "id": "b",
+          "text": "Return to Me!"
+        },
+        {
+          "id": "c",
+          "text": "Arise and go!"
+        },
+        {
+          "id": "d",
+          "text": "Do not fear!"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 1:16",
+            "text": "“For these things I weep; My eye, my eye overflows with water; Because the comforter, who should restore my life, Is far from me. My children are desolate Because the enemy prevailed.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 3:57",
+            "text": "You drew near on the day I called on You, And said, “Do not fear!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:57, inside the quotation marks after “And said.”",
+          "child": "Look at the end of verse 57. God’s words are in quotation marks after “And said.”",
+          "teen": "3:57 ends with a quotation. Read the words after “And said.”",
+          "older": "The quotation that closes 3:57, after “And said,” gives it."
+        },
+        "extended_explanation": "In 1:16 personified Jerusalem weeps with overflowing eyes, because the comforter who should restore her life is far away. In 3:55-58 the writer remembers calling on the LORD from the lowest pit and being heard. 3:57 says God drew near on that day and ends with His words in quotation marks.",
+        "takeaway": "God drew near on the day the writer called and said, “Do not fear!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lam-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 3",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Lamentations 3:22 says that through the LORD’s mercies we are not consumed. Near the end of the book, while Mount Zion lies desolate, 5:19 speaks of the LORD and His throne. What does it say about His throne?",
+        "child": "Lamentations says God’s mercies keep His people from being destroyed. In the last chapter, even with the city ruined, the people speak of God’s throne. What do they say about it?",
+        "teen": "Connect Lamentations 3:22 and 5:19. What does 5:19 say about “Your throne”?",
+        "older": "According to Lamentations 5:19, what is said of the LORD’s throne?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "above the cherubim"
+        },
+        {
+          "id": "b",
+          "text": "from everlasting to everlasting"
+        },
+        {
+          "id": "c",
+          "text": "from generation to generation"
+        },
+        {
+          "id": "d",
+          "text": "over all the earth and the heavens"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 3:22",
+            "text": "Through the LORD’s mercies we are not consumed, Because His compassions fail not.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 5:19",
+            "text": "You, O LORD, remain forever; Your throne from generation to generation.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:19, right after “Your throne.”",
+          "child": "Look at the last words of verse 19 in chapter 5. They come right after “Your throne.”",
+          "teen": "5:19 has two parallel lines. The second begins “Your throne.” Read the rest of it.",
+          "older": "The second line of 5:19 ends with it, after “Your throne.”"
+        },
+        "extended_explanation": "Chapter 3 holds the book’s central hope: the LORD’s mercies and compassions that fail not (3:22). Chapter 5 is the people’s closing prayer, mourning Mount Zion, desolate with foxes walking on it (5:18). Yet 5:19 turns to the LORD Himself, with a second line about His throne.",
+        "takeaway": "“You, O LORD, remain forever; Your throne from generation to generation.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-lam-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Lamentations",
+      "section": "Lamentations 2",
+      "topics": [
+        "great-is-your-faithfulness"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Mockers once asked if Jerusalem was the city called “The perfection of beauty” (2:15). In 4:2, the precious sons of Zion, valuable as fine gold, are regarded as what?",
+        "child": "People passing by laughed at Jerusalem, which had been called the perfection of beauty. In chapter 4, the precious sons of Zion were worth fine gold. What are they now treated like?",
+        "teen": "Connect Lamentations 2:15 and 4:2. The city once called “The perfection of beauty” is mocked. In 4:2, how are the precious sons of Zion regarded?",
+        "older": "According to Lamentations 4:2, how are the precious sons of Zion regarded?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "As scattered sheep"
+        },
+        {
+          "id": "b",
+          "text": "As clay pots"
+        },
+        {
+          "id": "c",
+          "text": "As withered grass"
+        },
+        {
+          "id": "d",
+          "text": "As dry bones"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Lamentations 2:15",
+            "text": "All who pass by clap their hands at you; They hiss and shake their heads At the daughter of Jerusalem: “Is this the city that is called ‘The perfection of beauty, The joy of the whole earth’?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Lamentations 4:2",
+            "text": "The precious sons of Zion, Valuable as fine gold, How they are regarded as clay pots, The work of the hands of the potter!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the third line of 4:2, right after “How they are regarded.”",
+          "child": "In verse 4:2, find “How they are regarded.” The words come right after.",
+          "teen": "4:2 sets a value beside a new view. Read what follows “How they are regarded.”",
+          "older": "The third line of 4:2 gives it, right after “How they are regarded.”"
+        },
+        "extended_explanation": "In 2:15 all who pass by clap their hands and hiss at Jerusalem, asking if this is the city once called the perfection of beauty and the joy of the whole earth. Chapter 4 opens with dimmed gold and scattered stones of the sanctuary. 4:2 sets the sons of Zion’s worth as fine gold beside how they are now regarded, in its third line.",
+        "takeaway": "The precious sons of Zion, valuable as fine gold, are regarded “as clay pots.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

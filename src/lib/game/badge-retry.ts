@@ -1,5 +1,5 @@
 import { MASCOT_IDS, type BadgeRetry, type GameProgress, type MascotId } from "./types";
-import type { PathBadge } from "./path";
+import { canonicalBadgeId, type PathBadge } from "./path";
 
 export type { BadgeRetry };
 
@@ -71,7 +71,15 @@ export function normalizeBadgeRetries(value: unknown): Record<string, BadgeRetry
     const next: BadgeRetry = { correctIds: retryAt ? [] : correctIds };
     if (retryAt) next.retryAt = retryAt;
     if (updatedAt) next.updatedAt = updatedAt;
-    retries[badgeId] = next;
+    const id = canonicalBadgeId(badgeId);
+    const prior = retries[id];
+    if (!prior) {
+      retries[id] = next;
+      continue;
+    }
+    const priorTime = Date.parse(prior.updatedAt ?? prior.retryAt ?? "") || 0;
+    const nextTime = Date.parse(next.updatedAt ?? next.retryAt ?? "") || 0;
+    if (nextTime > priorTime) retries[id] = next;
   }
   return Object.keys(retries).length > 0 ? retries : undefined;
 }

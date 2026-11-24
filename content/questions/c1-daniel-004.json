@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-daniel-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-dan-0018",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 7",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Four great beasts came up from the sea. In 7:4 the first had its wings plucked off and was lifted up from the earth. What was given to it?",
+        "child": "In Daniel’s dream the first big animal lost its wings and was lifted up. What was given to it?",
+        "teen": "Daniel 7:4 ends: “and ___ was given to it.” What fills the blank?",
+        "older": "According to Daniel 7:4, what was given to the first beast?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a king’s crown"
+        },
+        {
+          "id": "b",
+          "text": "a golden collar"
+        },
+        {
+          "id": "c",
+          "text": "a man’s heart"
+        },
+        {
+          "id": "d",
+          "text": "an iron scepter"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 7:3",
+            "text": "And four great beasts came up from the sea, each different from the other.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 7:4",
+            "text": "The first was like a lion, and had eagle’s wings. I watched till its wings were plucked off; and it was lifted up from the earth and made to stand on two feet like a man, and a man’s heart was given to it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "7:3 introduces four beasts; 7:4 follows the first through several changes. Read the last one.",
+          "older": "It comes just before “was given to it” at the end of 7:4."
+        },
+        "extended_explanation": "7:3 says the beasts were each different from the other. 7:4 begins by comparing the first to a lion with eagle’s wings.",
+        "takeaway": "A man’s heart was given to it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-dan-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 7",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The second beast was like a bear, raised up on one side. What did it have in its mouth between its teeth?",
+        "child": "The second animal in Daniel’s dream was like a bear. What was in its mouth?",
+        "teen": "Daniel 7:5: “And had ___ in its mouth between its teeth.” What fills the blank?",
+        "older": "According to Daniel 7:5, what did the bear-like beast hold in its mouth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "two bones"
+        },
+        {
+          "id": "b",
+          "text": "three ribs"
+        },
+        {
+          "id": "c",
+          "text": "a broken spear"
+        },
+        {
+          "id": "d",
+          "text": "seven stones"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 7:5",
+            "text": "“And suddenly another beast, a second, like a bear. It was raised up on one side, and had three ribs in its mouth between its teeth. And they said thus to it: ‘Arise, devour much flesh!’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 7:5 after “and had.”",
+          "child": "Look at the middle of verse 5.",
+          "teen": "7:5 describes the second beast step by step. Read the middle part.",
+          "older": "It is in the second sentence of 7:5."
+        },
+        "extended_explanation": "7:5 begins by saying it was raised up on one side. It ends with a command spoken to it.",
+        "takeaway": "It had three ribs in its mouth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-dan-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 7",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the night visions Daniel saw “One like the Son of Man.” With what was He coming?",
+        "child": "Daniel saw someone like a Son of Man coming to God’s throne. What was He coming with?",
+        "teen": "Daniel 7:13: “And behold, One like the Son of Man, Coming with” what?",
+        "older": "According to Daniel 7:13, with what did One like the Son of Man come?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the hosts of heaven"
+        },
+        {
+          "id": "b",
+          "text": "the chariots of heaven"
+        },
+        {
+          "id": "c",
+          "text": "the fire of heaven"
+        },
+        {
+          "id": "d",
+          "text": "the clouds of heaven"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 7:13",
+            "text": "“I was watching in the night visions, And behold, One like the Son of Man, Coming with the clouds of heaven! He came to the Ancient of Days, And they brought Him near before Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 7:14",
+            "text": "Then to Him was given dominion and glory and a kingdom, That all peoples, nations, and languages should serve Him. His dominion is an everlasting dominion, Which shall not pass away, And His kingdom the one Which shall not be destroyed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 7:13 after “Coming with.”",
+          "child": "Look at the middle of verse 13.",
+          "teen": "7:13 names who came and then how. Read how.",
+          "older": "It follows “Coming with” in 7:13."
+        },
+        "extended_explanation": "7:13 says He came to the Ancient of Days. 7:14 adds that He was given dominion and glory and a kingdom that shall not pass away.",
+        "takeaway": "He came “with the clouds of heaven.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-dan-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 8",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Daniel’s vision is explained: the ram and the male goat. In 8:21, the male goat is the kingdom of what?",
+        "child": "In Daniel’s vision, a goat stood for a kingdom. Which kingdom?",
+        "teen": "Daniel 8:21: “And the male goat is the kingdom of” what?",
+        "older": "According to Daniel 8:21, which kingdom is the male goat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Greece"
+        },
+        {
+          "id": "b",
+          "text": "Egypt"
+        },
+        {
+          "id": "c",
+          "text": "Assyria"
+        },
+        {
+          "id": "d",
+          "text": "Babylon"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 8:20",
+            "text": "The ram which you saw, having the two horns—they are the kings of Media and Persia.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 8:21",
+            "text": "And the male goat is the kingdom of Greece. The large horn that is between its eyes is the first king.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 8:21.",
+          "child": "Look at the start of verse 21.",
+          "teen": "8:20 explains the ram; 8:21 explains the goat. Read the first line of 8:21.",
+          "older": "It ends the first sentence of 8:21."
+        },
+        "extended_explanation": "8:20 explains the ram with two horns. 8:21 adds that the large horn between the goat’s eyes is the first king.",
+        "takeaway": "The male goat is the kingdom of Greece."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-dan-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 8",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "From between the banks of the Ulai, someone called out to make Daniel understand the vision. Whom did he call?",
+        "child": "When Daniel did not understand his vision, a voice called someone to explain it. Whom did the voice call?",
+        "teen": "Daniel 8:16: “___, make this man understand the vision.” Who is named?",
+        "older": "According to Daniel 8:16, who was told to make Daniel understand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Michael"
+        },
+        {
+          "id": "b",
+          "text": "Gabriel"
+        },
+        {
+          "id": "c",
+          "text": "Belteshazzar"
+        },
+        {
+          "id": "d",
+          "text": "Ashpenaz"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 8:15",
+            "text": "Then it happened, when I, Daniel, had seen the vision and was seeking the meaning, that suddenly there stood before me one having the appearance of a man.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 8:16",
+            "text": "And I heard a man’s voice between the banks of the Ulai, who called, and said, “Gabriel, make this man understand the vision.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words spoken in 8:16.",
+          "child": "Look inside the quotation marks in verse 16.",
+          "teen": "8:15 shows one with the appearance of a man; 8:16 gives a name. Read the first word of the call.",
+          "older": "It opens the call in 8:16."
+        },
+        "extended_explanation": "8:15 says Daniel was seeking the meaning when one stood before him with the appearance of a man. 8:16 says the call came from between the banks of the Ulai.",
+        "takeaway": "Gabriel was told to make Daniel understand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-dan-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 8",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 8:26 Daniel is told to seal up the vision. In 12:4 he is told to seal the book until the time of the end. Then many shall run to and fro, and what?",
+        "child": "Daniel was told to close up the book until the end. What would happen while many people rushed here and there?",
+        "teen": "Daniel 12:4: “Many shall run to and fro, and ___.” What fills the blank?",
+        "older": "According to Daniel 12:4, what will happen as many run to and fro?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "wickedness shall abound"
+        },
+        {
+          "id": "b",
+          "text": "the nations shall tremble"
+        },
+        {
+          "id": "c",
+          "text": "knowledge shall increase"
+        },
+        {
+          "id": "d",
+          "text": "sorrow shall multiply"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 8:26",
+            "text": "“And the vision of the evenings and mornings Which was told is true; Therefore seal up the vision, For it refers to many days in the future.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 12:4",
+            "text": "“But you, Daniel, shut up the words, and seal the book until the time of the end; many shall run to and fro, and knowledge shall increase.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 12:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "8:26 and 12:4 both give a command to seal. 12:4 then adds a description. Read its end.",
+          "older": "It closes 12:4."
+        },
+        "extended_explanation": "8:26 says the vision refers to many days in the future. 12:4 opens with “But you, Daniel, shut up the words.”",
+        "takeaway": "Many shall run to and fro, “and knowledge shall increase.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-dan-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 7",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 8:20 the two horns of the ram are explained for Daniel. In 7:24, what are the ten horns?",
+        "child": "In Daniel’s dream a beast had ten horns. What did the ten horns stand for?",
+        "teen": "Daniel 7:24: “The ten horns are” what?",
+        "older": "Daniel 8:20 explains the ram’s horns. According to 7:24, what do the fourth beast’s ten horns stand for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "ten kings"
+        },
+        {
+          "id": "b",
+          "text": "ten princes"
+        },
+        {
+          "id": "c",
+          "text": "ten cities"
+        },
+        {
+          "id": "d",
+          "text": "ten nations"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 7:24",
+            "text": "The ten horns are ten kings Who shall arise from this kingdom. And another shall rise after them; He shall be different from the first ones, And shall subdue three kings.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 8:20",
+            "text": "The ram which you saw, having the two horns—they are the kings of Media and Persia.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 7:24.",
+          "child": "Look at the start of 7:24.",
+          "teen": "8:20 is a matching example; 7:24 explains the ten horns. Read its first line.",
+          "older": "It opens 7:24."
+        },
+        "extended_explanation": "8:20 names the ram’s two horns as Media and Persia. 7:24 goes on to one who shall rise after them, different from the first ones, who shall subdue three.",
+        "takeaway": "“The ten horns are ten kings.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-dan-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 9",
+      "topics": [
+        "beasts-and-prophecy"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 9:23 the messenger tells Daniel why he has come with the vision. In 10:11 he is addressed again. How is Daniel described in both verses?",
+        "child": "Twice a heavenly messenger told Daniel how God saw him. What did he call Daniel?",
+        "teen": "Daniel 10:11: “O Daniel, man ___.” What fills the blank?",
+        "older": "According to Daniel 9:23 and 10:11, how was Daniel described?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "highly favored"
+        },
+        {
+          "id": "b",
+          "text": "wise and upright"
+        },
+        {
+          "id": "c",
+          "text": "a faithful servant"
+        },
+        {
+          "id": "d",
+          "text": "greatly beloved"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 9:23",
+            "text": "At the beginning of your supplications the command went out, and I have come to tell you, for you are greatly beloved; therefore consider the matter, and understand the vision:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 10:11",
+            "text": "And he said to me, “O Daniel, man greatly beloved, understand the words that I speak to you, and stand upright, for I have now been sent to you.” While he was speaking this word to me, I stood trembling.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 9:23 or the start of 10:11.",
+          "child": "Look at the words after “O Daniel, man” in 10:11.",
+          "teen": "9:23 and 10:11 use the same words. Find them in 9:23 after “for you are.”",
+          "older": "They follow “O Daniel, man” in 10:11."
+        },
+        "extended_explanation": "9:23 says the command went out at the beginning of Daniel’s supplications. 10:11 tells him to understand the words and stand upright.",
+        "takeaway": "Daniel was “greatly beloved.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

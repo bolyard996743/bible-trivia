@@ -13,11 +13,10 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   allowedDevOrigins: ["127.0.0.1"],
-  // Home and play read content/ while handling a request. Trace those files
-  // into the server bundle so a dynamic render does not crash looking for them.
+  // /play awaits searchParams, so loadCatalog() reads content/ inside the
+  // serverless function. Home is dynamic for the daily devotion too.
   outputFileTracingIncludes: {
-    "/home": ["./content/**/*"],
-    "/play": ["./content/**/*"],
+    "/*": ["./content/**/*"],
   },
 };
 

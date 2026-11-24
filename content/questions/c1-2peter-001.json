@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2peter-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2pe-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 1",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Peter writes that the Lord showed him something about his future. According to 1:14, what must he shortly put off?",
+        "child": "Peter knew his time on earth would end soon. According to 1:14, what did he say he must put off?",
+        "teen": "2 Peter 1:14: “knowing that shortly I must put off” what?",
+        "older": "According to 2 Peter 1:14, what did Peter know he must shortly put off?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "my armor"
+        },
+        {
+          "id": "b",
+          "text": "my cloak"
+        },
+        {
+          "id": "c",
+          "text": "my sandals"
+        },
+        {
+          "id": "d",
+          "text": "my tent"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 1:14",
+            "text": "knowing that shortly I must put off my tent, just as our Lord Jesus Christ showed me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:14.",
+          "child": "Look right after “put off” in verse 14.",
+          "teen": "1:14 says what Peter knew, then who showed him. Read the first part.",
+          "older": "It follows “knowing that shortly I must put off” in 1:14."
+        },
+        "extended_explanation": "1:13 says Peter thinks it right to stir them up by reminding them. 1:15 says he will make sure they have a reminder after his decease.",
+        "takeaway": "Peter said, “I must put off my tent.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2pe-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 1",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:17 Peter recalls the Father speaking to honor Jesus. From where did those words come to Him?",
+        "child": "Peter remembers hearing God the Father speak about Jesus. Where did those words come from?",
+        "teen": "2 Peter 1:17: “when such a voice came to Him from” where?",
+        "older": "According to 2 Peter 1:17, from where did those words come to Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Most Holy Place"
+        },
+        {
+          "id": "b",
+          "text": "the Excellent Glory"
+        },
+        {
+          "id": "c",
+          "text": "the Holy City"
+        },
+        {
+          "id": "d",
+          "text": "the golden altar"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 1:17",
+            "text": "For He received from God the Father honor and glory when such a voice came to Him from the Excellent Glory: “This is My beloved Son, in whom I am well pleased.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:17, before the colon.",
+          "child": "Look right before the colon in verse 17.",
+          "teen": "1:17 says what He received, where the words came from, and then what was said. Read the place.",
+          "older": "It follows “when such a voice came to Him from” in 1:17."
+        },
+        "extended_explanation": "1:16 says they were eyewitnesses of His majesty. 1:18 says they heard it when they were with Him.",
+        "takeaway": "The words came from the Excellent Glory."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2pe-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 2",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2:17 calls false teachers wells without water. In 2:19, while they promise others liberty, what are they themselves?",
+        "child": "False teachers promised people freedom. But what does 2:19 say they really were?",
+        "teen": "2 Peter 2:19: “While they promise them liberty, they themselves are” what?",
+        "older": "According to 2 Peter 2:19, what are those who promise liberty?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "slaves of corruption"
+        },
+        {
+          "id": "b",
+          "text": "masters of the law"
+        },
+        {
+          "id": "c",
+          "text": "heirs of the promise"
+        },
+        {
+          "id": "d",
+          "text": "friends of the world"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 2:17",
+            "text": "These are wells without water, clouds carried by a tempest, for whom is reserved the blackness of darkness forever.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 2:19",
+            "text": "While they promise them liberty, they themselves are slaves of corruption; for by whom a person is overcome, by him also he is brought into bondage.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:19.",
+          "child": "Look right after “they themselves are” in verse 19.",
+          "teen": "2:17 gives pictures of what they are like; 2:19 sets their promise against what they are, then gives a rule. Read the middle.",
+          "older": "It follows “they themselves are” in 2:19."
+        },
+        "extended_explanation": "2:18 says they speak great swelling words of emptiness. It says they allure those who have actually escaped.",
+        "takeaway": "They themselves are slaves of corruption."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2pe-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 3",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3:3 says scoffers will come in the last days. In 3:4, they claim nothing has changed since when?",
+        "child": "Peter warns that some people will make fun of the promise of Jesus’ return. According to 3:4, since when do they say nothing has changed?",
+        "teen": "2 Peter 3:4: “continue as they were from” what?",
+        "older": "According to 2 Peter 3:4, since when do the scoffers say nothing has changed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the days of the judges"
+        },
+        {
+          "id": "b",
+          "text": "the building of the temple"
+        },
+        {
+          "id": "c",
+          "text": "the beginning of creation"
+        },
+        {
+          "id": "d",
+          "text": "the giving of the law"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 3:3",
+            "text": "knowing this first: that scoffers will come in the last days, walking according to their own lusts,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 3:4",
+            "text": "and saying, “Where is the promise of His coming? For since the fathers fell asleep, all things continue as they were from the beginning of creation.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "3:3 says who will come; 3:4 gives their question, then their claim. Read the end of the claim.",
+          "older": "It follows “continue as they were from” in 3:4."
+        },
+        "extended_explanation": "3:4 asks, “Where is the promise of His coming?” 3:3 says they walk according to their own lusts.",
+        "takeaway": "They say nothing has changed from the beginning of creation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2pe-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 1",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:10 says those who do these things will never stumble. What does 1:9 say about the one who lacks these things?",
+        "child": "Peter says people who keep adding good qualities to their faith will not stumble. What is a person who lacks them like?",
+        "teen": "2 Peter 1:9: “For he who lacks these things is” what?",
+        "older": "Read with 1:10, how does 1:9 describe the one who lacks these things?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "hard-hearted"
+        },
+        {
+          "id": "b",
+          "text": "shortsighted"
+        },
+        {
+          "id": "c",
+          "text": "faint-hearted"
+        },
+        {
+          "id": "d",
+          "text": "short-tempered"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 1:9",
+            "text": "For he who lacks these things is shortsighted, even to blindness, and has forgotten that he was cleansed from his old sins.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 1:10",
+            "text": "Therefore, brethren, be even more diligent to make your call and election sure, for if you do these things you will never stumble;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “is” near the start of 1:9.",
+          "child": "Look right after “lacks these things is” in verse 9.",
+          "teen": "1:10 is a promise; 1:9 describes the one who lacks these things, then adds what he has forgotten. Read the first description.",
+          "older": "It follows “For he who lacks these things is” in 1:9."
+        },
+        "extended_explanation": "1:9 says he has forgotten that he was cleansed. 1:11 speaks of an entrance into the everlasting kingdom.",
+        "takeaway": "He who lacks these things is shortsighted, even to blindness."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2pe-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 1",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:13 says Peter thinks it right to stir them up by reminding them. In 3:1, what does he say he stirs up in both of his letters?",
+        "child": "Peter keeps reminding his readers of important things. What does he say he is stirring up in them?",
+        "teen": "2 Peter 3:1: “in both of which I stir up” what “by way of reminder”?",
+        "older": "Read with 1:13, what does 3:1 say Peter stirs up?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your weary hearts"
+        },
+        {
+          "id": "b",
+          "text": "your holy fear"
+        },
+        {
+          "id": "c",
+          "text": "your gentle spirits"
+        },
+        {
+          "id": "d",
+          "text": "your pure minds"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 1:13",
+            "text": "Yes, I think it is right, as long as I am in this tent, to stir you up by reminding you,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 3:1",
+            "text": "Beloved, I now write to you this second epistle (in both of which I stir up your pure minds by way of reminder),",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:1, inside the parentheses.",
+          "child": "Look right after “I stir up” in verse 1.",
+          "teen": "1:13 speaks of stirring up; 3:1 calls this the second epistle, then says what he stirs up in both. Read the words in parentheses.",
+          "older": "It follows “in both of which I stir up” in 3:1."
+        },
+        "extended_explanation": "3:2 asks them to be mindful of the words spoken before by the holy prophets. 1:12 says they know the present truth.",
+        "takeaway": "Peter wrote, “I stir up your pure minds by way of reminder.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2pe-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 2",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2:1 warns that false teachers will secretly bring in destructive heresies. In 3:17, Peter warns them not to fall from their own steadfastness, being led away with what?",
+        "child": "Peter warns about false teachers. At the end of his letter, what does he say his readers could be led away with?",
+        "teen": "2 Peter 3:17: “being led away with” what?",
+        "older": "Read with 2:1, what does 3:17 warn they might be led away with?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the error of the wicked"
+        },
+        {
+          "id": "b",
+          "text": "the customs of the Gentiles"
+        },
+        {
+          "id": "c",
+          "text": "the wisdom of the Greeks"
+        },
+        {
+          "id": "d",
+          "text": "the doctrines of men"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 2:1",
+            "text": "But there were also false prophets among the people, even as there will be false teachers among you, who will secretly bring in destructive heresies, even denying the Lord who bought them, and bring on themselves swift destruction.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 3:17",
+            "text": "You therefore, beloved, since you know this beforehand, beware lest you also fall from your own steadfastness, being led away with the error of the wicked;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:17.",
+          "child": "Look at the last words of verse 17.",
+          "teen": "2:1 names false teachers; 3:17 says they know this beforehand, gives a warning, then says how they might fall. Read the end.",
+          "older": "It follows “being led away with” in 3:17."
+        },
+        "extended_explanation": "3:16 says untaught and unstable people twist the Scriptures. 2:2 says many will follow their destructive ways.",
+        "takeaway": "Beware lest you be led away with the error of the wicked."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2pe-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 1",
+      "topics": [
+        "add-to-your-faith"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2:3 says false teachers will exploit them with deceptive words. In 1:16, what does Peter say the apostles did not follow?",
+        "child": "Peter says false teachers would use lies. In chapter 1, what does he say he and the other apostles did not follow?",
+        "teen": "2 Peter 1:16: “For we did not follow” what?",
+        "older": "Read with 2:3, what does 1:16 say the apostles did not follow?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "strange visions in the night"
+        },
+        {
+          "id": "b",
+          "text": "omens read in the sky"
+        },
+        {
+          "id": "c",
+          "text": "cunningly devised fables"
+        },
+        {
+          "id": "d",
+          "text": "the dreams of false prophets"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 1:16",
+            "text": "For we did not follow cunningly devised fables when we made known to you the power and coming of our Lord Jesus Christ, but were eyewitnesses of His majesty.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 2:3",
+            "text": "By covetousness they will exploit you with deceptive words; for a long time their judgment has not been idle, and their destruction does not slumber.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:16.",
+          "child": "Look right after “did not follow” in verse 16.",
+          "teen": "2:3 describes deceptive words; 1:16 says what they did not follow, then what they made known, then what they were. Read the first part.",
+          "older": "It follows “For we did not follow” in 1:16."
+        },
+        "extended_explanation": "1:16 says they were eyewitnesses of His majesty. 2:3 says their destruction does not slumber.",
+        "takeaway": "We did not follow cunningly devised fables."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

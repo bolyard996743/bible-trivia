@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-mark-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mrk-0023",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 6",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When Jesus taught in the synagogue of His hometown, the people were offended. In 6:3, what do they call Him?",
+        "child": "People in Jesus’ hometown did not believe in Him. What job did they say He had?",
+        "teen": "Mark 6:3: “Is this not” whom, “the Son of Mary”?",
+        "older": "According to Mark 6:3, what did the people of His hometown call Jesus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the fisherman"
+        },
+        {
+          "id": "b",
+          "text": "the potter"
+        },
+        {
+          "id": "c",
+          "text": "the carpenter"
+        },
+        {
+          "id": "d",
+          "text": "the stonemason"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 6:3",
+            "text": "Is this not the carpenter, the Son of Mary, and brother of James, Joses, Judas, and Simon? And are not His sisters here with us?” So they were offended at Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 6:3.",
+          "child": "Look at the first question in verse 3.",
+          "teen": "6:3 asks a question and then names His family. Read the first question.",
+          "older": "It follows “Is this not” in 6:3."
+        },
+        "extended_explanation": "6:2 says many were astonished at His wisdom and mighty works. 6:3 ends, “So they were offended at Him.”",
+        "takeaway": "They asked, “Is this not the carpenter, the Son of Mary?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mrk-0007",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 4",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Mark 4:21, Jesus asks whether a lamp is brought to be put under a basket or under a bed. Where is it meant to be set?",
+        "child": "Jesus said nobody hides a lamp under a basket or a bed. Where does a lamp belong?",
+        "teen": "Mark 4:21: “Is it not to be set” where?",
+        "older": "According to Mark 4:21, where is a lamp meant to be set?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "on a lampstand"
+        },
+        {
+          "id": "b",
+          "text": "in a high window"
+        },
+        {
+          "id": "c",
+          "text": "on a table"
+        },
+        {
+          "id": "d",
+          "text": "by the door"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 4:21",
+            "text": "Also He said to them, “Is a lamp brought to be put under a basket or under a bed? Is it not to be set on a lampstand?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:21.",
+          "child": "Look at the last words of verse 21.",
+          "teen": "4:21 asks two questions. Read the end of the second.",
+          "older": "It follows “Is it not to be set” in 4:21."
+        },
+        "extended_explanation": "4:22 goes on: “For there is nothing hidden which will not be revealed.”",
+        "takeaway": "A lamp is “to be set on a lampstand.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mrk-0008",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 7",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jesus rebukes those who reject God’s commandment to keep their tradition. In 7:11, what word is used for a gift that frees a man from helping his parents?",
+        "child": "Jesus told some leaders they used a special word to avoid helping their parents. What was the word?",
+        "teen": "Mark 7:11: “whatever profit you might have received from me is” what?",
+        "older": "According to Mark 7:11, what word was spoken over what might have helped a parent?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ephphatha"
+        },
+        {
+          "id": "b",
+          "text": "Corban"
+        },
+        {
+          "id": "c",
+          "text": "Talitha"
+        },
+        {
+          "id": "d",
+          "text": "Abba"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 7:9",
+            "text": "He said to them, “All too well you reject the commandment of God, that you may keep your tradition.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 7:11",
+            "text": "But you say, ‘If a man says to his father or mother, “Whatever profit you might have received from me is Corban”—’ (that is, a gift to God),",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:11.",
+          "child": "Look near the end of verse 11.",
+          "teen": "7:11 gives the word and then its meaning. Read the word.",
+          "older": "It comes just before “(that is, a gift to God)” in 7:11."
+        },
+        "extended_explanation": "7:9 says they reject the commandment of God. 7:13 says they make the word of God of no effect through their tradition.",
+        "takeaway": "They said, “Corban” (that is, a gift to God)."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mrk-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 4",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Mark 4:28-29 the earth yields crops by itself before the sickle is put in. Which comes first?",
+        "child": "Jesus compared God’s kingdom to a field that brings up a crop by itself. What comes up first?",
+        "teen": "Mark 4:28: “first” what?",
+        "older": "According to Mark 4:28, what does the earth yield first?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the stalk"
+        },
+        {
+          "id": "b",
+          "text": "the flower"
+        },
+        {
+          "id": "c",
+          "text": "the husk"
+        },
+        {
+          "id": "d",
+          "text": "the blade"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 4:28",
+            "text": "For the earth yields crops by itself: first the blade, then the head, after that the full grain in the head.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 4:29",
+            "text": "But when the grain ripens, immediately he puts in the sickle, because the harvest has come.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 4:28, after “first.”",
+          "child": "Look in the middle of verse 28.",
+          "teen": "4:28 lists three steps in order. Read the first.",
+          "older": "It follows “first” in 4:28."
+        },
+        "extended_explanation": "4:28 then names the head and the full grain. 4:29 says the sickle goes in when the harvest has come.",
+        "takeaway": "The earth yields first the blade."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mrk-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 9",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "A father brought his son, who had a mute spirit, to Jesus. In 9:21, Jesus asked how long this had been happening. What did the father say?",
+        "child": "Jesus asked a father how long his son had been sick. What did the father say?",
+        "teen": "Mark 9:21: “And he said,” what?",
+        "older": "According to Mark 9:21, how long had this been happening to the son?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "From childhood"
+        },
+        {
+          "id": "b",
+          "text": "For twelve years"
+        },
+        {
+          "id": "c",
+          "text": "Since last year"
+        },
+        {
+          "id": "d",
+          "text": "For many months"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 9:17",
+            "text": "Then one of the crowd answered and said, “Teacher, I brought You my son, who has a mute spirit.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 9:21",
+            "text": "So He asked his father, “How long has this been happening to him?” And he said, “From childhood.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:21.",
+          "child": "Look at the last words of verse 21.",
+          "teen": "9:21 has Jesus’ question and then the father’s reply. Read the reply.",
+          "older": "It follows “And he said” in 9:21."
+        },
+        "extended_explanation": "9:17 says the boy had a mute spirit. 9:22 adds the father’s plea: “But if You can do anything, have compassion on us and help us.”",
+        "takeaway": "The father said, “From childhood.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mrk-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 3",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:21 the people close to Jesus said, “He is out of His mind.” In 6:4, where does He say a prophet is not without honor except?",
+        "child": "Jesus said a prophet is honored everywhere except in certain places. Name the first place He said.",
+        "teen": "Mark 6:4: “A prophet is not without honor except” where?",
+        "older": "Linking Mark 3:21 with 6:4, where is a prophet without honor?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in the great cities"
+        },
+        {
+          "id": "b",
+          "text": "among the Gentiles"
+        },
+        {
+          "id": "c",
+          "text": "in his own country"
+        },
+        {
+          "id": "d",
+          "text": "in the courts of kings"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 3:21",
+            "text": "But when His own people heard about this, they went out to lay hold of Him, for they said, “He is out of His mind.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 6:4",
+            "text": "But Jesus said to them, “A prophet is not without honor except in his own country, among his own relatives, and in his own house.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 6:4, after “except.”",
+          "child": "Look in the middle of verse 6:4.",
+          "teen": "3:21 is the setting; 6:4 lists three places. Read the first.",
+          "older": "It follows “not without honor except” in 6:4."
+        },
+        "extended_explanation": "3:21 says they went out to lay hold of Him. 6:4 goes on to name relatives and His house.",
+        "takeaway": "A prophet is not without honor except in his own country."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mrk-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 6",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 6:7 Jesus sent out the twelve in pairs. In 13:34, a man going to a far country gives authority to his servants and commands whom to watch?",
+        "child": "Jesus told about a man who went on a trip and gave each servant work. Whom did he tell to keep watch?",
+        "teen": "Mark 13:34: “and commanded” whom “to watch”?",
+        "older": "Alongside the sending of 6:7, whom does the man of 13:34 command to watch?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the steward"
+        },
+        {
+          "id": "b",
+          "text": "the doorkeeper"
+        },
+        {
+          "id": "c",
+          "text": "the gardener"
+        },
+        {
+          "id": "d",
+          "text": "the eldest son"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 6:7",
+            "text": "And He called the twelve to Himself, and began to send them out two by two, and gave them power over unclean spirits.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 13:34",
+            "text": "It is like a man going to a far country, who left his house and gave authority to his servants, and to each his work, and commanded the doorkeeper to watch.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 13:34.",
+          "child": "Look at the last words of verse 34.",
+          "teen": "6:7 is the setting; 13:34 lists what he gave his servants and then whom he commanded. Read the end.",
+          "older": "It follows “and commanded” in 13:34."
+        },
+        "extended_explanation": "6:7 says He gave them power over unclean spirits. 13:35 says, “Watch therefore, for you do not know when the master of the house is coming.”",
+        "takeaway": "He “commanded the doorkeeper to watch.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mrk-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 3",
+      "topics": [
+        "mark-teaching-and-conflict"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Scribes from Jerusalem accuse Jesus in 3:22. In 7:5, the Pharisees and scribes ask why His disciples eat bread with what?",
+        "child": "Some religious leaders complained about how Jesus’ disciples ate. How did they say the disciples ate bread?",
+        "teen": "Mark 7:5: “but eat bread with” what?",
+        "older": "Set beside the accusation of 3:22, with what does 7:5 say the disciples eat bread?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "unclean cups"
+        },
+        {
+          "id": "b",
+          "text": "dusty feet"
+        },
+        {
+          "id": "c",
+          "text": "unblessed loaves"
+        },
+        {
+          "id": "d",
+          "text": "unwashed hands"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 3:22",
+            "text": "And the scribes who came down from Jerusalem said, “He has Beelzebub,” and, “By the ruler of the demons He casts out demons.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 7:5",
+            "text": "Then the Pharisees and scribes asked Him, “Why do Your disciples not walk according to the tradition of the elders, but eat bread with unwashed hands?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 7:5.",
+          "child": "Look at the last words of verse 7:5.",
+          "teen": "3:22 is the setting; 7:5 asks about the tradition and then how they eat. Read the end.",
+          "older": "It follows “but eat bread with” in 7:5."
+        },
+        "extended_explanation": "3:22 says the scribes came down from Jerusalem. 7:5 asks why the disciples do not walk according to the tradition of the elders.",
+        "takeaway": "They asked why the disciples “eat bread with unwashed hands.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

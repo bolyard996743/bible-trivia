@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-jeremiah-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jer-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 31",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Behold, the days are coming, says the LORD.” What does He say He will make with the house of Israel and the house of Judah?",
+        "child": "God promised He would one day make a special agreement with His people. What kind of agreement?",
+        "teen": "Jeremiah 31:31: “When I will make ___ with the house of Israel.” What fills the blank?",
+        "older": "According to Jeremiah 31:31, what will the LORD make with Israel and Judah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a holy covenant"
+        },
+        {
+          "id": "b",
+          "text": "a new covenant"
+        },
+        {
+          "id": "c",
+          "text": "a lasting covenant"
+        },
+        {
+          "id": "d",
+          "text": "a royal covenant"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 31:31",
+            "text": "“Behold, the days are coming, says the LORD, when I will make a new covenant with the house of Israel and with the house of Judah—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 31:31 after “when I will make.”",
+          "child": "Look at the middle of verse 31.",
+          "teen": "31:31 opens with “the days are coming” and then names what He will make. Read it.",
+          "older": "It is in 31:31, just before “with the house of Israel.”"
+        },
+        "extended_explanation": "31:32 says it will not be like the covenant made when the LORD took their fathers by the hand to lead them from Egypt, a covenant they broke. 31:34 adds that they all shall know Him.",
+        "takeaway": "The LORD promised “a new covenant.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jer-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 32",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah bought the field in Anathoth from Hanamel. How much silver did he weigh out?",
+        "child": "Jeremiah bought his cousin’s field while the city was in danger. How much did he pay?",
+        "teen": "Jeremiah 32:9: “So I bought the field from Hanamel.” How much did he weigh out?",
+        "older": "According to Jeremiah 32:9, how much did Jeremiah pay for Hanamel’s field?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "eighteen shekels"
+        },
+        {
+          "id": "b",
+          "text": "thirty-two shekels"
+        },
+        {
+          "id": "c",
+          "text": "fifty shekels"
+        },
+        {
+          "id": "d",
+          "text": "seventeen shekels"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 32:9",
+            "text": "So I bought the field from Hanamel, the son of my uncle who was in Anathoth, and weighed out to him the money—seventeen shekels of silver.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 32:9, after “weighed out to him the money.”",
+          "child": "Look at the last words of verse 9.",
+          "teen": "32:9 names the seller, the place, and then the price. Read the price.",
+          "older": "It closes 32:9, before “of silver.”"
+        },
+        "extended_explanation": "32:7-8 tell how Hanamel, the son of Jeremiah’s uncle, came to the court of the prison asking him to buy. 32:10 says Jeremiah signed and sealed the deed and weighed the money on the scales.",
+        "takeaway": "He paid seventeen shekels of silver."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jer-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 32",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah gave charge about both purchase deeds, the sealed one and the open one. Where were they to be put?",
+        "child": "Jeremiah had two papers showing he bought the field. Where were they put so they would last a long time?",
+        "teen": "Jeremiah 32:14: “Take these deeds,” and put them where?",
+        "older": "According to Jeremiah 32:14, where were the deeds to be kept so they might last many days?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "an earthen vessel"
+        },
+        {
+          "id": "b",
+          "text": "a leather pouch"
+        },
+        {
+          "id": "c",
+          "text": "a sealed cedar chest"
+        },
+        {
+          "id": "d",
+          "text": "a bronze box"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 32:11",
+            "text": "So I took the purchase deed, both that which was sealed according to the law and custom, and that which was open;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 32:14",
+            "text": "‘Thus says the LORD of hosts, the God of Israel: “Take these deeds, both this purchase deed which is sealed and this deed which is open, and put them in an earthen vessel, that they may last many days.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 32:14 after “and put them in.”",
+          "child": "Look near the end of verse 14.",
+          "teen": "32:14 names the two deeds and then the place to keep them. Read the place.",
+          "older": "It comes just before “that they may last many days” in 32:14."
+        },
+        "extended_explanation": "32:11 describes the two copies of the purchase deed, one sealed according to the law and custom and one open. 32:14 gives the reason for the place: that they may last many days.",
+        "takeaway": "The deeds went “in an earthen vessel.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jer-0013",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 39",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zedekiah and the men of war fled by night through the king’s garden. Where did the Chaldean army overtake him?",
+        "child": "King Zedekiah ran away from the city at night, but the enemy army chased him. Where did they catch him?",
+        "teen": "Jeremiah 39:5: “But the Chaldean army pursued them and overtook Zedekiah in” what place?",
+        "older": "According to Jeremiah 39:5, where was Zedekiah overtaken?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the hills of Judah"
+        },
+        {
+          "id": "b",
+          "text": "the valley of Hinnom"
+        },
+        {
+          "id": "c",
+          "text": "the plains of Jericho"
+        },
+        {
+          "id": "d",
+          "text": "the wilderness of Tekoa"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 39:4",
+            "text": "So it was, when Zedekiah the king of Judah and all the men of war saw them, that they fled and went out of the city by night, by way of the king’s garden, by the gate between the two walls. And he went out by way of the plain.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 39:5",
+            "text": "But the Chaldean army pursued them and overtook Zedekiah in the plains of Jericho. And when they had captured him, they brought him up to Nebuchadnezzar king of Babylon, to Riblah in the land of Hamath, where he pronounced judgment on him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 39:5, after “overtook Zedekiah in.”",
+          "child": "Look at the start of verse 5.",
+          "teen": "39:4 tells of the escape; 39:5 says where it ended. Read the first sentence.",
+          "older": "It is in the opening line of 39:5."
+        },
+        "extended_explanation": "39:4 traces the escape by way of the king’s garden and the gate between the two walls. 39:5 adds that he was brought up to Riblah in the land of Hamath.",
+        "takeaway": "They overtook Zedekiah in the plains of Jericho."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 39",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Babylonian king ordered, “Take him and look after him, and do him no harm.” In 39:14, to whom was Jeremiah committed?",
+        "child": "After the city fell, men took Jeremiah out of the prison courtyard. Who was put in charge of taking him home?",
+        "teen": "Jeremiah 39:14: Jeremiah was taken from the court of the prison and committed to whom?",
+        "older": "According to Jeremiah 39:14, who was to take Jeremiah home?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hanamel the son of Shallum"
+        },
+        {
+          "id": "b",
+          "text": "Ishmael the son of Nethaniah"
+        },
+        {
+          "id": "c",
+          "text": "Gedaliah the son of Ahikam"
+        },
+        {
+          "id": "d",
+          "text": "Pashhur the son of Immer"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 39:12",
+            "text": "“Take him and look after him, and do him no harm; but do to him just as he says to you.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 39:14",
+            "text": "then they sent someone to take Jeremiah from the court of the prison, and committed him to Gedaliah the son of Ahikam, the son of Shaphan, that he should take him home. So he dwelt among the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 39:14 after “committed him to.”",
+          "child": "Look at the middle of verse 14.",
+          "teen": "39:12 gives the order; 39:14 names the man. Read the name after “committed him to.”",
+          "older": "It is in the middle of 39:14."
+        },
+        "extended_explanation": "39:12 is the instruction given about Jeremiah: no harm, and do as he says. 39:14 ends: “So he dwelt among the people.”",
+        "takeaway": "Jeremiah was committed to Gedaliah the son of Ahikam."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 39",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 39:12 the king of Babylon ordered that Jeremiah be looked after. Years later, in 52:32, a king of Babylon spoke kindly to Jehoiachin. In 52:33, what did Jehoiachin change from?",
+        "child": "A new king of Babylon was kind to King Jehoiachin and gave him a better seat. What clothes did Jehoiachin take off?",
+        "teen": "Jeremiah 52:33: “So Jehoiachin changed from” what?",
+        "older": "According to Jeremiah 52:33, what did Jehoiachin change out of?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "his prison garments"
+        },
+        {
+          "id": "b",
+          "text": "his mourning sackcloth"
+        },
+        {
+          "id": "c",
+          "text": "his chains of bronze"
+        },
+        {
+          "id": "d",
+          "text": "his ragged cloak"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 39:12",
+            "text": "“Take him and look after him, and do him no harm; but do to him just as he says to you.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 52:32",
+            "text": "And he spoke kindly to him and gave him a more prominent seat than those of the kings who were with him in Babylon.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 52:33",
+            "text": "So Jehoiachin changed from his prison garments, and he ate bread regularly before the king all the days of his life.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 52:33.",
+          "child": "Look at the start of verse 33.",
+          "teen": "39:12 and 52:32 tell of kindness; 52:33 begins with the change. Read its first words.",
+          "older": "It opens 52:33."
+        },
+        "extended_explanation": "39:12 is the order to look after Jeremiah and do him no harm. 52:32 says Evil-Merodach gave Jehoiachin a more prominent seat than the other kings in Babylon, and 52:33 adds that he ate bread regularly before the king.",
+        "takeaway": "Jehoiachin changed from his prison garments."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 31",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 31:34 the LORD says, “For I will forgive their iniquity, and their sin I will remember no more.” In 32:15, after Jeremiah’s purchase, what does He say shall be possessed again in this land?",
+        "child": "Even while the enemy surrounded Jerusalem, God gave a hopeful promise about the land. What would people own again?",
+        "teen": "Jeremiah 32:15: “___ shall be possessed again in this land.” What fills the blank?",
+        "older": "Jeremiah 31:34 promises forgiveness. According to 32:15, what will be possessed again in the land?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Cities and towns and villages"
+        },
+        {
+          "id": "b",
+          "text": "Flocks and herds and pastures"
+        },
+        {
+          "id": "c",
+          "text": "Olive groves and wells and cisterns"
+        },
+        {
+          "id": "d",
+          "text": "Houses and fields and vineyards"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 31:34",
+            "text": "No more shall every man teach his neighbor, and every man his brother, saying, ‘Know the LORD,’ for they all shall know Me, from the least of them to the greatest of them, says the LORD. For I will forgive their iniquity, and their sin I will remember no more.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 32:15",
+            "text": "For thus says the LORD of hosts, the God of Israel: “Houses and fields and vineyards shall be possessed again in this land.” ’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 32:15, inside the LORD’s words.",
+          "child": "Look at the last sentence of 32:15.",
+          "teen": "31:34 is the setting; 32:15 names what will be possessed. Read the words just before “shall be possessed.”",
+          "older": "It closes 32:15."
+        },
+        "extended_explanation": "31:34 says no one will need to teach his neighbor, “Know the LORD,” for they all shall know Him. 32:15 is the LORD’s reason for keeping the deeds safe.",
+        "takeaway": "“Houses and fields and vineyards shall be possessed again in this land.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 39",
+      "topics": [
+        "new-covenant-and-jerusalems-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah 39:2 dates the day the city was penetrated, and 52:6 dates the day the famine became so severe. Both name the fourth month. On which day of the month?",
+        "child": "Jeremiah gives the date when Jerusalem’s wall was broken into. It was in the fourth month. On which day?",
+        "teen": "Jeremiah 39:2 and 52:6 both give “the fourth month.” On which day of it?",
+        "older": "According to Jeremiah 39:2 and 52:6, on which day of the fourth month did these things happen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the first day"
+        },
+        {
+          "id": "b",
+          "text": "the ninth day"
+        },
+        {
+          "id": "c",
+          "text": "the seventh day"
+        },
+        {
+          "id": "d",
+          "text": "the fifteenth day"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 39:2",
+            "text": "In the eleventh year of Zedekiah, in the fourth month, on the ninth day of the month, the city was penetrated.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 52:6",
+            "text": "By the fourth month, on the ninth day of the month, the famine had become so severe in the city that there was no food for the people of the land.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 39:2 or 52:6 after “the fourth month.”",
+          "child": "Look in the middle of Jeremiah 39:2.",
+          "teen": "Both verses give the same month and day. Read the day.",
+          "older": "It follows “the fourth month, on” in each verse."
+        },
+        "extended_explanation": "39:2 dates it to the eleventh year of Zedekiah and says the city was penetrated. 52:6 says that by then there was no food for the people of the land.",
+        "takeaway": "It was the fourth month, on the ninth day of the month."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

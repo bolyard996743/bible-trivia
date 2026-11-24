@@ -4,7 +4,7 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 892 questions.
+The bank has 1404 questions.
 
 ## Seed
 
@@ -720,29 +720,441 @@ New questions to write:
 
 About 60 books. Intermediate to hard.
 
-Questions now: 1. Books: 1. Target pool: about 120 questions.
+Questions now: 513. Books: 46. Target pool: about 120 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
+| 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 10 | intermediate | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 11 | expert | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 11 | intermediate | 2 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 12 | advanced | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 13 | advanced | 2 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 13 | expert | 1 |
+| 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 17 | expert | 1 |
+| 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 17 | intermediate | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 19 | advanced | 1 |
+| 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 21 | advanced | 2 |
+| 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 22 | advanced | 2 |
+| 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 28 | expert | 1 |
+| 1 Corinthians 15: The Resurrection | 1 Corinthians | 1 Corinthians 15 | advanced | 4 |
+| 1 Corinthians 15: The Resurrection | 1 Corinthians | 1 Corinthians 15 | expert | 2 |
+| 1 Corinthians 15: The Resurrection | 1 Corinthians | 1 Corinthians 15 | intermediate | 2 |
+| Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 11 | advanced | 1 |
+| Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 8 | advanced | 2 |
+| Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 8 | expert | 2 |
+| Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 8 | intermediate | 2 |
+| Solomon's Decline and the Temple Dedication | 1 Kings | 1 Kings 9 | advanced | 1 |
+| 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 1 | expert | 1 |
+| 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 1 | intermediate | 1 |
+| 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 2 | advanced | 1 |
+| 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 2 | expert | 1 |
+| 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 2 | intermediate | 1 |
+| 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 3 | advanced | 2 |
+| 1 Thessalonians: Hope and His Coming | 1 Thessalonians | 1 Thessalonians 4 | advanced | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 1 | advanced | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 1 | expert | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 1 | intermediate | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 3 | expert | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 4 | advanced | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 4 | intermediate | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 5 | advanced | 1 |
+| 1 Timothy: Order in the Church | 1 Timothy | 1 Timothy 6 | advanced | 1 |
+| 2 Chronicles: Prayer and Revival | 2 Chronicles | 2 Chronicles 14 | advanced | 1 |
+| 2 Chronicles: Prayer and Revival | 2 Chronicles | 2 Chronicles 20 | advanced | 2 |
+| 2 Chronicles: Prayer and Revival | 2 Chronicles | 2 Chronicles 20 | intermediate | 1 |
+| Josiah and the Book of the Law | 2 Chronicles | 2 Chronicles 34 | advanced | 1 |
+| Josiah and the Book of the Law | 2 Chronicles | 2 Chronicles 34 | expert | 1 |
+| Josiah and the Book of the Law | 2 Chronicles | 2 Chronicles 34 | intermediate | 1 |
+| Josiah and the Book of the Law | 2 Chronicles | 2 Chronicles 35 | advanced | 1 |
+| 2 Chronicles: Prayer and Revival | 2 Chronicles | 2 Chronicles 6 | expert | 1 |
+| 2 Chronicles: Prayer and Revival | 2 Chronicles | 2 Chronicles 6 | intermediate | 1 |
+| 2 Chronicles: Prayer and Revival | 2 Chronicles | 2 Chronicles 7 | advanced | 1 |
+| 2 Chronicles: Prayer and Revival | 2 Chronicles | 2 Chronicles 7 | expert | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 1 | expert | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 1 | intermediate | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 10 | advanced | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 10 | expert | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 11 | advanced | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 12 | intermediate | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 2 | advanced | 1 |
+| 2 Corinthians: Paul's Ministry and Defense | 2 Corinthians | 2 Corinthians 3 | advanced | 1 |
+| Jehu, Athaliah and Joash | 2 Kings | 2 Kings 10 | advanced | 1 |
+| Jehu, Athaliah and Joash | 2 Kings | 2 Kings 11 | advanced | 1 |
+| Jehu, Athaliah and Joash | 2 Kings | 2 Kings 11 | expert | 1 |
+| Josiah and the Book of the Law | 2 Kings | 2 Kings 22 | advanced | 1 |
+| Josiah and the Book of the Law | 2 Kings | 2 Kings 22 | expert | 1 |
+| Josiah and the Book of the Law | 2 Kings | 2 Kings 22 | intermediate | 1 |
+| Josiah and the Book of the Law | 2 Kings | 2 Kings 23 | advanced | 1 |
+| Jehu, Athaliah and Joash | 2 Kings | 2 Kings 9 | advanced | 2 |
+| Jehu, Athaliah and Joash | 2 Kings | 2 Kings 9 | expert | 1 |
+| Jehu, Athaliah and Joash | 2 Kings | 2 Kings 9 | intermediate | 2 |
+| 2 Peter: Remember and Watch | 2 Peter | 2 Peter 1 | advanced | 2 |
+| 2 Peter: Remember and Watch | 2 Peter | 2 Peter 1 | expert | 1 |
+| 2 Peter: Remember and Watch | 2 Peter | 2 Peter 1 | intermediate | 2 |
+| 2 Peter: Remember and Watch | 2 Peter | 2 Peter 2 | advanced | 1 |
+| 2 Peter: Remember and Watch | 2 Peter | 2 Peter 2 | expert | 1 |
+| 2 Peter: Remember and Watch | 2 Peter | 2 Peter 3 | advanced | 1 |
+| Absalom's Rebellion | 2 Samuel | 2 Samuel 15 | advanced | 2 |
+| Absalom's Rebellion | 2 Samuel | 2 Samuel 15 | expert | 1 |
+| Absalom's Rebellion | 2 Samuel | 2 Samuel 15 | intermediate | 2 |
+| Absalom's Rebellion | 2 Samuel | 2 Samuel 16 | advanced | 1 |
+| Absalom's Rebellion | 2 Samuel | 2 Samuel 16 | expert | 1 |
+| Absalom's Rebellion | 2 Samuel | 2 Samuel 17 | advanced | 1 |
+| David's Mighty Men and the Census | 2 Samuel | 2 Samuel 21 | expert | 1 |
+| David's Mighty Men and the Census | 2 Samuel | 2 Samuel 21 | intermediate | 2 |
+| David's Mighty Men and the Census | 2 Samuel | 2 Samuel 23 | advanced | 3 |
+| David's Mighty Men and the Census | 2 Samuel | 2 Samuel 23 | expert | 1 |
+| David's Mighty Men and the Census | 2 Samuel | 2 Samuel 24 | advanced | 1 |
+| 2 Thessalonians: Stand Firm | 2 Thessalonians | 2 Thessalonians 1 | expert | 2 |
+| 2 Thessalonians: Stand Firm | 2 Thessalonians | 2 Thessalonians 2 | advanced | 2 |
+| 2 Thessalonians: Stand Firm | 2 Thessalonians | 2 Thessalonians 3 | advanced | 2 |
+| 2 Thessalonians: Stand Firm | 2 Thessalonians | 2 Thessalonians 3 | intermediate | 2 |
+| Acts: Paul on Trial and Voyage to Rome | Acts | Acts 22 | advanced | 1 |
+| Acts: Paul on Trial and Voyage to Rome | Acts | Acts 23 | advanced | 1 |
+| Acts: Paul on Trial and Voyage to Rome | Acts | Acts 23 | expert | 1 |
+| Acts: Paul on Trial and Voyage to Rome | Acts | Acts 24 | advanced | 1 |
+| Acts: Paul on Trial and Voyage to Rome | Acts | Acts 24 | expert | 1 |
+| Acts: Paul on Trial and Voyage to Rome | Acts | Acts 25 | advanced | 1 |
+| Acts: Paul on Trial and Voyage to Rome | Acts | Acts 28 | intermediate | 2 |
+| Amos: Judgment on the Nations | Amos | Amos 1 | expert | 1 |
+| Amos: Judgment on the Nations | Amos | Amos 1 | intermediate | 1 |
+| Amos: Judgment on the Nations | Amos | Amos 2 | intermediate | 1 |
+| Amos: Judgment on the Nations | Amos | Amos 3 | advanced | 3 |
+| Amos: Judgment on the Nations | Amos | Amos 3 | expert | 1 |
+| Amos: Judgment on the Nations | Amos | Amos 4 | advanced | 1 |
+| Amos: Justice and Visions | Amos | Amos 5 | advanced | 1 |
+| Amos: Justice and Visions | Amos | Amos 5 | expert | 2 |
+| Amos: Justice and Visions | Amos | Amos 5 | intermediate | 1 |
+| Amos: Justice and Visions | Amos | Amos 6 | advanced | 1 |
+| Amos: Justice and Visions | Amos | Amos 7 | advanced | 2 |
+| Amos: Justice and Visions | Amos | Amos 7 | intermediate | 1 |
+| Colossians: Christ Is Supreme | Colossians | Colossians 1 | advanced | 1 |
+| Colossians: Christ Is Supreme | Colossians | Colossians 1 | expert | 2 |
+| Colossians: Christ Is Supreme | Colossians | Colossians 1 | intermediate | 1 |
+| Colossians: Christ Is Supreme | Colossians | Colossians 2 | advanced | 1 |
+| Colossians: Christ Is Supreme | Colossians | Colossians 3 | advanced | 2 |
+| Colossians: Christ Is Supreme | Colossians | Colossians 4 | intermediate | 1 |
+| Daniel 7-12: Beasts and Prophecy | Daniel | Daniel 7 | advanced | 1 |
+| Daniel 7-12: Beasts and Prophecy | Daniel | Daniel 7 | expert | 1 |
+| Daniel 7-12: Beasts and Prophecy | Daniel | Daniel 7 | intermediate | 2 |
+| Daniel 7-12: Beasts and Prophecy | Daniel | Daniel 8 | advanced | 3 |
+| Daniel 7-12: Beasts and Prophecy | Daniel | Daniel 9 | expert | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 1 | intermediate | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 11 | advanced | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 11 | expert | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 17 | advanced | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 3 | advanced | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 3 | expert | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 34 | intermediate | 1 |
+| Deuteronomy: Moses' Sermons | Deuteronomy | Deuteronomy 7 | advanced | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 1 | expert | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 1 | intermediate | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 11 | expert | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 2 | advanced | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 3 | advanced | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 4 | intermediate | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 5 | advanced | 1 |
+| Ecclesiastes: Under the Sun | Ecclesiastes | Ecclesiastes 9 | advanced | 1 |
 | The Epistles | Ephesians | Ephesians 2 | advanced | 1 |
+| The Law at Sinai | Exodus | Exodus 19 | expert | 2 |
+| The Law at Sinai | Exodus | Exodus 19 | intermediate | 1 |
+| The Law at Sinai | Exodus | Exodus 20 | advanced | 1 |
+| The Law at Sinai | Exodus | Exodus 20 | intermediate | 1 |
+| The Law at Sinai | Exodus | Exodus 22 | advanced | 1 |
+| The Law at Sinai | Exodus | Exodus 23 | advanced | 2 |
+| Ezekiel: Glory Departs and Returns | Ezekiel | Ezekiel 10 | advanced | 1 |
+| Ezekiel: Glory Departs and Returns | Ezekiel | Ezekiel 10 | expert | 1 |
+| Ezekiel: Glory Departs and Returns | Ezekiel | Ezekiel 11 | advanced | 2 |
+| Ezekiel: Glory Departs and Returns | Ezekiel | Ezekiel 11 | expert | 1 |
+| Ezekiel: Glory Departs and Returns | Ezekiel | Ezekiel 8 | intermediate | 2 |
+| Ezekiel: Glory Departs and Returns | Ezekiel | Ezekiel 9 | advanced | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 1 | intermediate | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 11 | expert | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 12 | expert | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 13 | intermediate | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 14 | advanced | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 14 | intermediate | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 15 | advanced | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 15 | intermediate | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 17 | advanced | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 22 | advanced | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 25 | expert | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 29 | advanced | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 3 | expert | 1 |
+| Genesis: Abraham to Jacob in Context | Genesis | Genesis 35 | advanced | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 49 | advanced | 1 |
+| Genesis Connections: Origins to Joseph | Genesis | Genesis 9 | advanced | 1 |
+| Habakkuk: Living by Faith | Habakkuk | Habakkuk 1 | advanced | 1 |
+| Habakkuk: Living by Faith | Habakkuk | Habakkuk 1 | expert | 1 |
+| Habakkuk: Living by Faith | Habakkuk | Habakkuk 1 | intermediate | 1 |
+| Habakkuk: Living by Faith | Habakkuk | Habakkuk 2 | advanced | 3 |
+| Habakkuk: Living by Faith | Habakkuk | Habakkuk 2 | expert | 1 |
+| Habakkuk: Living by Faith | Habakkuk | Habakkuk 2 | intermediate | 1 |
+| Haggai: Build the House | Haggai | Haggai 1 | advanced | 3 |
+| Haggai: Build the House | Haggai | Haggai 1 | expert | 2 |
+| Haggai: Build the House | Haggai | Haggai 1 | intermediate | 2 |
+| Haggai: Build the House | Haggai | Haggai 2 | advanced | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 1 | intermediate | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 10 | advanced | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 12 | advanced | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 13 | advanced | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 2 | intermediate | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 3 | advanced | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 3 | expert | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 3 | intermediate | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 4 | advanced | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 5 | advanced | 1 |
+| Hebrews: Warnings and Endurance | Hebrews | Hebrews 6 | expert | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 7 | advanced | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 7 | expert | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 7 | intermediate | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 8 | expert | 1 |
+| Hebrews: A Better Covenant | Hebrews | Hebrews 9 | advanced | 1 |
+| Hosea: Faithful Love | Hosea | Hosea 1 | advanced | 1 |
+| Hosea: Faithful Love | Hosea | Hosea 1 | intermediate | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 10 | advanced | 1 |
+| Hosea: Faithful Love | Hosea | Hosea 11 | advanced | 1 |
+| Hosea: Faithful Love | Hosea | Hosea 11 | expert | 1 |
+| Hosea: Faithful Love | Hosea | Hosea 11 | intermediate | 1 |
+| Hosea: Faithful Love | Hosea | Hosea 2 | advanced | 2 |
+| Hosea: Faithful Love | Hosea | Hosea 3 | expert | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 5 | advanced | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 6 | expert | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 6 | intermediate | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 7 | advanced | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 7 | intermediate | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 8 | advanced | 1 |
+| Hosea: Israel's Unfaithfulness and Return | Hosea | Hosea 9 | expert | 1 |
+| Isaiah: Woe and Hope for the Nations | Isaiah | Isaiah 1 | advanced | 2 |
+| Isaiah: Woe and Hope for the Nations | Isaiah | Isaiah 1 | expert | 1 |
+| Isaiah: Woe and Hope for the Nations | Isaiah | Isaiah 1 | intermediate | 2 |
+| Isaiah: Oracles Against the Nations | Isaiah | Isaiah 13 | expert | 1 |
+| Isaiah: Oracles Against the Nations | Isaiah | Isaiah 13 | intermediate | 2 |
+| Isaiah: Woe and Hope for the Nations | Isaiah | Isaiah 2 | expert | 1 |
+| Isaiah: Oracles Against the Nations | Isaiah | Isaiah 24 | advanced | 2 |
+| Isaiah: Oracles Against the Nations | Isaiah | Isaiah 25 | advanced | 2 |
+| Isaiah: Oracles Against the Nations | Isaiah | Isaiah 25 | expert | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 28 | advanced | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 28 | expert | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 30 | advanced | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 30 | intermediate | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 31 | advanced | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 31 | expert | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 31 | intermediate | 1 |
+| Isaiah: Trust in the LORD, Not Egypt | Isaiah | Isaiah 39 | advanced | 1 |
+| Isaiah: The Servant and Salvation | Isaiah | Isaiah 42 | expert | 1 |
+| Isaiah: The Servant and Salvation | Isaiah | Isaiah 42 | intermediate | 2 |
+| Isaiah: The Servant and Salvation | Isaiah | Isaiah 49 | advanced | 1 |
+| Isaiah: Woe and Hope for the Nations | Isaiah | Isaiah 5 | advanced | 2 |
+| Isaiah: The Servant and Salvation | Isaiah | Isaiah 50 | advanced | 1 |
+| Isaiah: The Servant and Salvation | Isaiah | Isaiah 50 | expert | 1 |
+| Isaiah: The Servant and Salvation | Isaiah | Isaiah 61 | advanced | 2 |
+| Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 25 | advanced | 1 |
+| Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 25 | expert | 1 |
+| Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 25 | intermediate | 1 |
+| Jeremiah: The New Covenant and Jerusalem's Fall | Jeremiah | Jeremiah 31 | expert | 1 |
+| Jeremiah: The New Covenant and Jerusalem's Fall | Jeremiah | Jeremiah 31 | intermediate | 1 |
+| Jeremiah: The New Covenant and Jerusalem's Fall | Jeremiah | Jeremiah 32 | advanced | 1 |
+| Jeremiah: The New Covenant and Jerusalem's Fall | Jeremiah | Jeremiah 32 | intermediate | 1 |
+| Jeremiah: The New Covenant and Jerusalem's Fall | Jeremiah | Jeremiah 39 | advanced | 3 |
+| Jeremiah: The New Covenant and Jerusalem's Fall | Jeremiah | Jeremiah 39 | expert | 1 |
+| Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 45 | advanced | 1 |
+| Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 45 | intermediate | 1 |
+| Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 46 | advanced | 2 |
+| Jeremiah: Oracles Against the Nations and Baruch | Jeremiah | Jeremiah 46 | expert | 1 |
+| Job: The Friends and Elihu | Job | Job 11 | expert | 1 |
+| Job: The Friends and Elihu | Job | Job 15 | advanced | 1 |
+| Job: The Friends and Elihu | Job | Job 32 | advanced | 2 |
+| Job: The Friends and Elihu | Job | Job 4 | advanced | 1 |
+| Job: The Friends and Elihu | Job | Job 5 | expert | 1 |
+| Job: The Friends and Elihu | Job | Job 5 | intermediate | 1 |
+| Job: The Friends and Elihu | Job | Job 8 | intermediate | 1 |
+| Joel: The Spirit Poured Out | Joel | Joel 1 | advanced | 1 |
+| Joel: The Spirit Poured Out | Joel | Joel 1 | expert | 1 |
+| Joel: The Spirit Poured Out | Joel | Joel 1 | intermediate | 1 |
+| Joel: The Spirit Poured Out | Joel | Joel 2 | advanced | 2 |
+| Joel: The Spirit Poured Out | Joel | Joel 2 | expert | 1 |
+| Joel: The Spirit Poured Out | Joel | Joel 2 | intermediate | 1 |
+| Joel: The Spirit Poured Out | Joel | Joel 3 | advanced | 1 |
+| John: Conflict and Controversy | John | John 10 | advanced | 1 |
+| John: Conflict and Controversy | John | John 10 | intermediate | 1 |
+| John: Seven Signs | John | John 2 | expert | 1 |
+| John: Seven Signs | John | John 2 | intermediate | 1 |
+| John: Seven Signs | John | John 4 | advanced | 1 |
+| John: Conflict and Controversy | John | John 5 | advanced | 1 |
+| John: Conflict and Controversy | John | John 5 | expert | 1 |
+| John: Seven Signs | John | John 5 | expert | 1 |
+| John: Seven Signs | John | John 5 | intermediate | 1 |
+| John: Seven Signs | John | John 6 | advanced | 1 |
+| John: Conflict and Controversy | John | John 7 | advanced | 1 |
+| John: Conflict and Controversy | John | John 7 | expert | 1 |
+| John: Conflict and Controversy | John | John 7 | intermediate | 1 |
+| John: Conflict and Controversy | John | John 8 | advanced | 1 |
+| John: Seven Signs | John | John 9 | advanced | 2 |
+| Joshua: Dividing the Land | Joshua | Joshua 11 | expert | 1 |
+| Joshua: Dividing the Land | Joshua | Joshua 11 | intermediate | 1 |
+| Joshua: Dividing the Land | Joshua | Joshua 13 | advanced | 1 |
+| Joshua: Dividing the Land | Joshua | Joshua 14 | advanced | 1 |
+| Joshua: Dividing the Land | Joshua | Joshua 20 | expert | 1 |
+| Joshua: Dividing the Land | Joshua | Joshua 20 | intermediate | 1 |
+| Joshua: Dividing the Land | Joshua | Joshua 22 | advanced | 2 |
+| Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 1 | advanced | 1 |
+| Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 1 | intermediate | 1 |
+| Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 2 | expert | 1 |
+| Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 3 | advanced | 3 |
+| Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 3 | expert | 1 |
+| Lamentations: Great Is Your Faithfulness | Lamentations | Lamentations 3 | intermediate | 1 |
+| Leviticus: Holiness, Sabbath Year and Jubilee | Leviticus | Leviticus 19 | advanced | 2 |
+| Leviticus: Holiness, Sabbath Year and Jubilee | Leviticus | Leviticus 19 | expert | 1 |
+| Leviticus: Holiness, Sabbath Year and Jubilee | Leviticus | Leviticus 24 | advanced | 1 |
+| Leviticus: Holiness, Sabbath Year and Jubilee | Leviticus | Leviticus 25 | advanced | 1 |
+| Leviticus: Holiness, Sabbath Year and Jubilee | Leviticus | Leviticus 25 | expert | 1 |
+| Leviticus: Holiness, Sabbath Year and Jubilee | Leviticus | Leviticus 25 | intermediate | 2 |
+| Luke: The Road to Jerusalem | Luke | Luke 10 | advanced | 1 |
+| Luke: The Road to Jerusalem | Luke | Luke 10 | expert | 1 |
+| Luke: Parables Only Luke Tells | Luke | Luke 12 | advanced | 1 |
+| Luke: Parables Only Luke Tells | Luke | Luke 12 | expert | 1 |
+| Luke: Parables Only Luke Tells | Luke | Luke 12 | intermediate | 1 |
+| Luke: The Road to Jerusalem | Luke | Luke 13 | advanced | 2 |
+| Luke: Parables Only Luke Tells | Luke | Luke 14 | advanced | 1 |
+| Luke: Parables Only Luke Tells | Luke | Luke 14 | expert | 1 |
+| Luke: Parables Only Luke Tells | Luke | Luke 15 | intermediate | 1 |
+| Luke: Parables Only Luke Tells | Luke | Luke 16 | advanced | 1 |
+| Luke: The Road to Jerusalem | Luke | Luke 17 | intermediate | 1 |
+| Luke: Parables Only Luke Tells | Luke | Luke 18 | advanced | 1 |
+| Luke: The Road to Jerusalem | Luke | Luke 9 | advanced | 1 |
+| Luke: The Road to Jerusalem | Luke | Luke 9 | expert | 1 |
+| Luke: The Road to Jerusalem | Luke | Luke 9 | intermediate | 1 |
+| Malachi: The Messenger | Malachi | Malachi 1 | advanced | 1 |
+| Malachi: The Messenger | Malachi | Malachi 1 | expert | 1 |
+| Malachi: The Messenger | Malachi | Malachi 1 | intermediate | 1 |
+| Malachi: The Messenger | Malachi | Malachi 2 | advanced | 1 |
+| Malachi: The Messenger | Malachi | Malachi 3 | advanced | 2 |
+| Malachi: The Messenger | Malachi | Malachi 3 | expert | 1 |
+| Malachi: The Messenger | Malachi | Malachi 3 | intermediate | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 3 | advanced | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 3 | expert | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 4 | advanced | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 4 | intermediate | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 6 | expert | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 6 | intermediate | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 7 | advanced | 1 |
+| Mark: Teaching and Conflict | Mark | Mark 9 | advanced | 1 |
+| Matthew: Prophecy Fulfilled | Matthew | Matthew 1 | intermediate | 1 |
+| Matthew: Prophecy Fulfilled | Matthew | Matthew 2 | advanced | 1 |
+| Matthew: Prophecy Fulfilled | Matthew | Matthew 2 | expert | 2 |
+| Matthew: Prophecy Fulfilled | Matthew | Matthew 21 | intermediate | 1 |
+| Matthew: Signs, Readiness and Judgment | Matthew | Matthew 24 | advanced | 2 |
+| Matthew: Signs, Readiness and Judgment | Matthew | Matthew 24 | expert | 2 |
+| Matthew: Signs, Readiness and Judgment | Matthew | Matthew 25 | advanced | 2 |
+| Matthew: Signs, Readiness and Judgment | Matthew | Matthew 25 | intermediate | 2 |
+| Matthew: Prophecy Fulfilled | Matthew | Matthew 4 | advanced | 1 |
+| Matthew: Prophecy Fulfilled | Matthew | Matthew 8 | advanced | 2 |
+| Micah: Judgment and Hope | Micah | Micah 1 | intermediate | 1 |
+| Micah: Judgment and Hope | Micah | Micah 2 | advanced | 1 |
+| Micah: Judgment and Hope | Micah | Micah 3 | advanced | 1 |
+| Micah: Judgment and Hope | Micah | Micah 3 | expert | 1 |
+| Micah: Judgment and Hope | Micah | Micah 4 | advanced | 1 |
+| Micah: Where Is a God Like You? | Micah | Micah 4 | advanced | 1 |
+| Micah: Where Is a God Like You? | Micah | Micah 4 | expert | 1 |
+| Micah: Judgment and Hope | Micah | Micah 4 | intermediate | 1 |
+| Micah: Judgment and Hope | Micah | Micah 5 | advanced | 1 |
+| Micah: Judgment and Hope | Micah | Micah 5 | expert | 1 |
+| Micah: Where Is a God Like You? | Micah | Micah 6 | advanced | 1 |
+| Micah: Where Is a God Like You? | Micah | Micah 6 | expert | 1 |
+| Micah: Where Is a God Like You? | Micah | Micah 6 | intermediate | 1 |
+| Micah: Where Is a God Like You? | Micah | Micah 7 | advanced | 2 |
+| Micah: Where Is a God Like You? | Micah | Micah 7 | intermediate | 1 |
+| Numbers: Complaints and Rebellion | Numbers | Numbers 11 | expert | 1 |
+| Numbers: Complaints and Rebellion | Numbers | Numbers 11 | intermediate | 1 |
+| Numbers: Complaints and Rebellion | Numbers | Numbers 12 | advanced | 1 |
+| Numbers: Complaints and Rebellion | Numbers | Numbers 16 | advanced | 3 |
+| Numbers: Complaints and Rebellion | Numbers | Numbers 16 | expert | 1 |
+| Numbers: Complaints and Rebellion | Numbers | Numbers 20 | intermediate | 1 |
+| Proverbs: Collected Sayings and Agur | Proverbs | Proverbs 2 | expert | 1 |
+| Proverbs: Collected Sayings and Agur | Proverbs | Proverbs 25 | advanced | 2 |
+| Proverbs: Collected Sayings and Agur | Proverbs | Proverbs 25 | expert | 1 |
+| Proverbs: Collected Sayings and Agur | Proverbs | Proverbs 25 | intermediate | 1 |
+| Proverbs: Collected Sayings and Agur | Proverbs | Proverbs 30 | advanced | 1 |
+| Proverbs: Collected Sayings and Agur | Proverbs | Proverbs 31 | intermediate | 1 |
+| Proverbs: Collected Sayings and Agur | Proverbs | Proverbs 4 | advanced | 1 |
+| Psalms: Wisdom Psalms | Psalms | Psalm 1 | expert | 1 |
+| Psalms: Wisdom Psalms | Psalms | Psalm 1 | intermediate | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 114 | intermediate | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 115 | expert | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 118 | advanced | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 121 | intermediate | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 123 | advanced | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 124 | expert | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 126 | advanced | 1 |
+| Psalms: Hallel and the Songs of Ascents | Psalms | Psalm 133 | advanced | 1 |
+| Psalms: Wisdom Psalms | Psalms | Psalm 37 | advanced | 1 |
+| Psalms: Wisdom Psalms | Psalms | Psalm 37 | intermediate | 1 |
+| Psalms: Wisdom Psalms | Psalms | Psalm 49 | advanced | 1 |
+| Psalms: Wisdom Psalms | Psalms | Psalm 49 | expert | 1 |
+| Psalms: Wisdom Psalms | Psalms | Psalm 73 | advanced | 2 |
+| Revelation: Seals and Trumpets | Revelation | Revelation 10 | advanced | 1 |
+| Revelation: Seals and Trumpets | Revelation | Revelation 10 | intermediate | 1 |
+| Revelation: Seals and Trumpets | Revelation | Revelation 6 | advanced | 3 |
+| Revelation: Seals and Trumpets | Revelation | Revelation 6 | expert | 2 |
+| Revelation: Seals and Trumpets | Revelation | Revelation 6 | intermediate | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 1 | advanced | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 1 | intermediate | 1 |
+| Romans 9-11: Israel and the Nations | Romans | Romans 10 | advanced | 1 |
+| Romans 9-11: Israel and the Nations | Romans | Romans 10 | expert | 1 |
+| Romans 9-11: Israel and the Nations | Romans | Romans 11 | advanced | 1 |
+| Romans 9-11: Israel and the Nations | Romans | Romans 11 | intermediate | 2 |
+| Romans 12-16: Living It Out | Romans | Romans 12 | expert | 1 |
+| Romans 12-16: Living It Out | Romans | Romans 13 | advanced | 1 |
+| Romans 12-16: Living It Out | Romans | Romans 13 | expert | 1 |
+| Romans 12-16: Living It Out | Romans | Romans 13 | intermediate | 1 |
+| Romans 12-16: Living It Out | Romans | Romans 15 | advanced | 2 |
+| Romans 12-16: Living It Out | Romans | Romans 16 | advanced | 1 |
+| Romans 12-16: Living It Out | Romans | Romans 16 | intermediate | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 2 | advanced | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 2 | expert | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 3 | advanced | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 3 | expert | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 3 | intermediate | 1 |
+| Romans 1-4: Sin and Faith | Romans | Romans 4 | advanced | 1 |
+| Romans 9-11: Israel and the Nations | Romans | Romans 9 | advanced | 2 |
+| Romans 9-11: Israel and the Nations | Romans | Romans 9 | expert | 1 |
+| Song of Solomon: Love Is Strong | Song of Solomon | Song of Solomon 2 | advanced | 3 |
+| Song of Solomon: Love Is Strong | Song of Solomon | Song of Solomon 2 | expert | 1 |
+| Song of Solomon: Love Is Strong | Song of Solomon | Song of Solomon 2 | intermediate | 2 |
+| Song of Solomon: Love Is Strong | Song of Solomon | Song of Solomon 4 | expert | 1 |
+| Song of Solomon: Love Is Strong | Song of Solomon | Song of Solomon 8 | advanced | 1 |
+| Titus: Good Works | Titus | Titus 1 | expert | 2 |
+| Titus: Good Works | Titus | Titus 1 | intermediate | 1 |
+| Titus: Good Works | Titus | Titus 2 | advanced | 3 |
+| Titus: Good Works | Titus | Titus 3 | advanced | 1 |
+| Titus: Good Works | Titus | Titus 3 | intermediate | 1 |
+| Zechariah: Night Visions | Zechariah | Zechariah 1 | expert | 1 |
+| Zechariah: Night Visions | Zechariah | Zechariah 1 | intermediate | 2 |
+| Zechariah: The Humble King and the Pierced One | Zechariah | Zechariah 11 | advanced | 1 |
+| Zechariah: The Humble King and the Pierced One | Zechariah | Zechariah 12 | advanced | 2 |
+| Zechariah: The Humble King and the Pierced One | Zechariah | Zechariah 13 | advanced | 1 |
+| Zechariah: The Humble King and the Pierced One | Zechariah | Zechariah 13 | expert | 1 |
+| Zechariah: Night Visions | Zechariah | Zechariah 2 | advanced | 1 |
+| Zechariah: Night Visions | Zechariah | Zechariah 2 | expert | 1 |
+| Zechariah: Night Visions | Zechariah | Zechariah 3 | advanced | 1 |
+| Zechariah: Night Visions | Zechariah | Zechariah 4 | advanced | 2 |
+| Zechariah: The Humble King and the Pierced One | Zechariah | Zechariah 9 | expert | 1 |
+| Zechariah: The Humble King and the Pierced One | Zechariah | Zechariah 9 | intermediate | 2 |
 
 Tier totals against the mix:
 
-- intermediate: 0 now, about 48 wanted (40% of draws (intermediate)). About 48 more.
-- advanced: 1 now, about 42 wanted (35% of draws (hard)). About 41 more.
-- expert: 0 now, about 30 wanted (25% of draws (hard)). About 30 more.
+- intermediate: 128 now, about 48 wanted (40% of draws (intermediate)). Target met.
+- advanced: 257 now, about 42 wanted (35% of draws (hard)). Target met.
+- expert: 128 now, about 30 wanted (25% of draws (hard)). Target met.
 
-Curriculum topics with no question yet: The Beatitudes, The Armor of God, The Fruit of the Spirit.
+Every curriculum topic for this stage has at least one question.
 
-Book target: 60. Covered now: 1 (Ephesians). About 59 more books need questions.
+Book target: 60. Covered now: 46 (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Joshua, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Joel, Amos, Micah, Habakkuk, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Ephesians, Colossians, 1 Thessalonians, 2 Thessalonians, 1 Timothy, Titus, Hebrews, 2 Peter, Revelation). About 14 more books need questions.
 
 New questions to write:
 
-- About 48 more intermediate questions (intermediate).
-- About 41 more advanced questions (hard).
-- About 30 more expert questions (hard).
-- Add questions for: The Beatitudes, The Armor of God, The Fruit of the Spirit.
-- Spread new questions across about 59 more books (target 60).
+- Spread new questions across about 14 more books (target 60).
 
 ## Deep Roots
 
