@@ -342,7 +342,7 @@ export const TOPIC_LABELS: Record<CurriculumTopic, string> = {
   "numbers-complaints-and-rebellion": "Numbers: Complaints and Rebellion",
   "deuteronomy-moses-sermons": "Deuteronomy: Moses' Sermons",
   "davids-heart-for-the-temple": "1 Chronicles: David's Heart for the Temple",
-  "davids-kingdom-in-chronicles": "1 Chronicles: David's Kingdom Established",
+  "davids-kingdom-in-chronicles": "1 Chronicles: David's Kingdom Secured",
   "prayer-and-revival": "2 Chronicles: Prayer and Revival",
   "josiah-book-of-the-law": "Josiah and the Book of the Law",
   "under-the-sun": "Ecclesiastes: Under the Sun",
