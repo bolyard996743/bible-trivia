@@ -1,0 +1,13 @@
+{
+  "status": "sample",
+  "note": "SAMPLE / PLACEHOLDER. Seven well-known references so the Daily Devotion card can ship. This is not the finished list. Verse wording is never stored here; the server fetches NKJV text from API.Bible. There is no thought field. Replace the entries array when a full list is ready, keep ids unique, and set status to approved.",
+  "entries": [
+    { "id": "sample-jos-1-8", "reference": "JOS.1.8", "image": "coast.webp" },
+    { "id": "sample-jhn-3-16", "reference": "JHN.3.16", "image": "wheat.webp" },
+    { "id": "sample-psa-23-1", "reference": "PSA.23.1", "image": "lake.webp" },
+    { "id": "sample-php-4-13", "reference": "PHP.4.13", "image": "olive.webp" },
+    { "id": "sample-jer-29-11", "reference": "JER.29.11", "image": "coast.webp" },
+    { "id": "sample-pro-3-5", "reference": "PRO.3.5-PRO.3.6", "image": "wheat.webp" },
+    { "id": "sample-rom-8-28", "reference": "ROM.8.28", "image": "lake.webp" }
+  ]
+}

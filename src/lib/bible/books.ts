@@ -110,3 +110,40 @@ export function passageId(bookId: string, chapter: number, verseStart: number, v
   if (verseEnd === verseStart) return start;
   return `${start}-${bookId}.${chapter}.${verseEnd}`;
 }
+
+/** Psalm 119 is the longest chapter. */
+const MAX_VERSE = 176;
+const PASSAGE_ID = /^([A-Z0-9]+)\.(\d+)\.(\d+)(?:-([A-Z0-9]+)\.(\d+)\.(\d+))?$/;
+
+/**
+ * Reads an API.Bible passage id such as "JOS.1.8" or "PRO.3.5-PRO.3.6".
+ * A range must stay in one chapter, which is the shape `loadPassage` already fetches.
+ */
+export function parsePassageId(id: string): ParsedReference | null {
+  const trimmed = id.trim();
+  const match = PASSAGE_ID.exec(trimmed);
+  if (!match) return null;
+  const book = findBook(match[1] ?? "");
+  const chapter = Number(match[2]);
+  const verseStart = Number(match[3]);
+  const endBookId = match[4] ?? book?.id;
+  const endChapter = match[5] ? Number(match[5]) : chapter;
+  const verseEnd = match[6] ? Number(match[6]) : verseStart;
+  if (!book || !endBookId || endBookId !== book.id || endChapter !== chapter) return null;
+  if (!Number.isInteger(chapter) || chapter < 1 || chapter > book.chapterCount) return null;
+  if (
+    !Number.isInteger(verseStart) ||
+    !Number.isInteger(verseEnd) ||
+    verseStart < 1 ||
+    verseEnd < verseStart ||
+    verseEnd > MAX_VERSE
+  ) {
+    return null;
+  }
+  if (passageId(book.id, chapter, verseStart, verseEnd) !== trimmed) return null;
+  const ref =
+    verseEnd === verseStart
+      ? `${book.name} ${chapter}:${verseStart}`
+      : `${book.name} ${chapter}:${verseStart}-${verseEnd}`;
+  return { book, chapter, verseStart, verseEnd, ref };
+}

@@ -58,6 +58,8 @@ npm run validate-content
 
 The validator uses Zod. It also runs inside `npm test` and `npm run build`.
 
+The home card reads `content/devotions/devotions.json`. Each entry is an id, an API.Bible passage id (`JOS.1.8` or `PRO.3.5-PRO.3.6`), and an image file in `public/devotion/`. The file in the repo is a sample of seven references. Verse wording is fetched, not stored in that file. Replace `entries` and set `status` to `approved` when the full list is ready.
+
 ## Accounts
 
 Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_ANON_KEY` from the Supabase dashboard (Project Settings → API → anon public key). `NEXT_PUBLIC_SUPABASE_URL` is already filled in for this project. Leave both unset and the app stays in guest mode: progress remains in this browser, and nothing tries to reach Supabase.
