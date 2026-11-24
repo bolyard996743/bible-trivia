@@ -725,14 +725,14 @@ Questions now: 513. Books: 46. Target pool: about 120 questions.
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
 | 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 10 | intermediate | 1 |
-| 1 Chronicles: David's Kingdom Established | 1 Chronicles | 1 Chronicles 11 | expert | 1 |
-| 1 Chronicles: David's Kingdom Established | 1 Chronicles | 1 Chronicles 11 | intermediate | 2 |
-| 1 Chronicles: David's Kingdom Established | 1 Chronicles | 1 Chronicles 12 | advanced | 1 |
-| 1 Chronicles: David's Kingdom Established | 1 Chronicles | 1 Chronicles 13 | advanced | 2 |
-| 1 Chronicles: David's Kingdom Established | 1 Chronicles | 1 Chronicles 13 | expert | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 11 | expert | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 11 | intermediate | 2 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 12 | advanced | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 13 | advanced | 2 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 13 | expert | 1 |
 | 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 17 | expert | 1 |
 | 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 17 | intermediate | 1 |
-| 1 Chronicles: David's Kingdom Established | 1 Chronicles | 1 Chronicles 19 | advanced | 1 |
+| 1 Chronicles: David's Kingdom Secured | 1 Chronicles | 1 Chronicles 19 | advanced | 1 |
 | 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 21 | advanced | 2 |
 | 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 22 | advanced | 2 |
 | 1 Chronicles: David's Heart for the Temple | 1 Chronicles | 1 Chronicles 28 | expert | 1 |
