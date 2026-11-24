@@ -1,4 +1,9 @@
-import { biblicalNames, commentBlocklist, type CommentBlockCategory } from "../../../config/comment-blocklist";
+import {
+  biblicalIdolNames,
+  biblicalNames,
+  commentBlocklist,
+  type CommentBlockCategory,
+} from "../../../config/comment-blocklist";
 
 export const COMMENT_MAX_LENGTH = 280;
 
@@ -112,5 +117,5 @@ export function reviewComment(input: string): CommentReview {
 }
 
 export function biblicalNamesAreUnblocked(): string[] {
-  return biblicalNames.filter((name) => !reviewComment(name).ok);
+  return [...biblicalNames, ...biblicalIdolNames].filter((name) => !reviewComment(name).ok);
 }

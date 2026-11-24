@@ -1,7 +1,11 @@
 /**
  * Words and phrases a devotion comment may not contain.
  * Matching is case-insensitive, on whole words, including the obfuscations
- * the filter understands. Names of the God of the Bible are not in these lists.
+ * the filter understands.
+ *
+ * biblical names: allowed
+ * Names of the God of the Bible, and false-god or idol names that appear in
+ * the NKJV, are listed below and must not be added to these blocklists.
  */
 export const commentBlocklist = {
   profanity: [
@@ -47,7 +51,6 @@ export const commentBlocklist = {
     "anubis",
     "apollo",
     "athena",
-    "baal",
     "brahma",
     "buddha",
     "durga",
@@ -61,8 +64,6 @@ export const commentBlocklist = {
     "kali",
     "krishna",
     "loki",
-    "molech",
-    "moloch",
     "odin",
     "osiris",
     "poseidon",
@@ -71,11 +72,14 @@ export const commentBlocklist = {
     "shiva",
     "thor",
     "vishnu",
-    "zeus",
   ],
 } as const;
 
-/** Kept here so a blocklist edit cannot quietly forbid these names. */
+/**
+ * biblical names: allowed
+ * The God of the Bible, plus false gods and idols named in the NKJV.
+ * Do not add these to commentBlocklist.
+ */
 export const biblicalNames = [
   "god",
   "lord",
@@ -91,6 +95,35 @@ export const biblicalNames = [
   "spirit",
   "amen",
   "hallelujah",
+] as const;
+
+/** biblical names: allowed. Idol names that appear in the NKJV. */
+export const biblicalIdolNames = [
+  "baal",
+  "baal-zebub",
+  "baal-peor",
+  "baals",
+  "molech",
+  "milcom",
+  "moloch",
+  "dagon",
+  "ashtoreth",
+  "ashtoreths",
+  "asherah",
+  "wooden images",
+  "chemosh",
+  "tammuz",
+  "rimmon",
+  "nebo",
+  "bel",
+  "merodach",
+  "nergal",
+  "nisroch",
+  "diana",
+  "zeus",
+  "hermes",
+  "remphan",
+  "artemis",
 ] as const;
 
 export type CommentBlockCategory = keyof typeof commentBlocklist;

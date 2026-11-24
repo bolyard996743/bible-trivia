@@ -14,20 +14,18 @@ export function parseIsoDate(value: string): CalendarDate | null {
 }
 
 /**
- * 13+ from the birth date when we have one.
- * Child is under 13. Teen is 13–17. Adult and older are older than that.
- * With no birth date, only a stored teen, adult, or older band may post.
+ * Posting needs a birth date. Child is under 13 and teen starts at 13, so a
+ * stored date can tell 12 from 13. A profile with only an age band cannot:
+ * the band may have been saved without a date. Those accounts cannot post.
  */
 export function commentPostAllowed(
-  input: { birthDate: string | null; ageGroup: string | null },
+  input: { birthDate: string | null; ageGroup?: string | null },
   today?: CalendarDate,
 ): boolean {
-  if (input.birthDate) {
-    const birth = parseIsoDate(input.birthDate);
-    if (!birth) return false;
-    return ageGroupFromBirthDate(birth, today) !== "child";
-  }
-  return input.ageGroup === "teen" || input.ageGroup === "adult" || input.ageGroup === "older";
+  if (!input.birthDate) return false;
+  const birth = parseIsoDate(input.birthDate);
+  if (!birth) return false;
+  return ageGroupFromBirthDate(birth, today) !== "child";
 }
 
 export function withinCommentRateLimit(countToday: number): boolean {

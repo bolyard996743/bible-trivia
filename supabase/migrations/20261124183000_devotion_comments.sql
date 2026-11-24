@@ -79,7 +79,6 @@ insert into public.devotion_comment_terms (term, category) values
   ('anubis', 'other_gods'),
   ('apollo', 'other_gods'),
   ('athena', 'other_gods'),
-  ('baal', 'other_gods'),
   ('brahma', 'other_gods'),
   ('buddha', 'other_gods'),
   ('durga', 'other_gods'),
@@ -93,8 +92,6 @@ insert into public.devotion_comment_terms (term, category) values
   ('kali', 'other_gods'),
   ('krishna', 'other_gods'),
   ('loki', 'other_gods'),
-  ('molech', 'other_gods'),
-  ('moloch', 'other_gods'),
   ('odin', 'other_gods'),
   ('osiris', 'other_gods'),
   ('poseidon', 'other_gods'),
@@ -102,8 +99,7 @@ insert into public.devotion_comment_terms (term, category) values
   ('ra', 'other_gods'),
   ('shiva', 'other_gods'),
   ('thor', 'other_gods'),
-  ('vishnu', 'other_gods'),
-  ('zeus', 'other_gods');
+  ('vishnu', 'other_gods');
 
 comment on table public.devotion_comments is
   'Player comments on a daily devotion. The body is the player''s words, not verse text.';
@@ -233,24 +229,20 @@ as $$
 declare
   uid uuid := (select auth.uid());
   birth date;
-  group_name text;
 begin
   if uid is null then
     return false;
   end if;
-  select birth_date, age_group into birth, group_name
+  select birth_date into birth
   from public.profiles
   where user_id = uid;
-  if not found then
+  if not found or birth is null then
     return false;
   end if;
   if exists (select 1 from public.devotion_comment_bans where user_id = uid) then
     return false;
   end if;
-  if birth is not null then
-    return public.age_group_from_birth_date(birth) <> 'child';
-  end if;
-  return group_name in ('teen', 'adult', 'older');
+  return public.age_group_from_birth_date(birth) <> 'child';
 end;
 $$;
 

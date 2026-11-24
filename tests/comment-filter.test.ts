@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { describe, expect, it } from "vitest";
-import { biblicalNames, commentBlocklist } from "../config/comment-blocklist";
+import { biblicalIdolNames, biblicalNames, commentBlocklist } from "../config/comment-blocklist";
 import { biblicalNamesAreUnblocked, reviewComment } from "@/lib/devotion/comment-filter";
 import {
   COMMENT_DAILY_LIMIT,
@@ -38,7 +38,7 @@ describe("comment filter", () => {
   });
 
   it("rejects names of other gods and not the God of the Bible", () => {
-    for (const name of ["Allah", "Buddha", "Krishna", "Vishnu", "Shiva", "Zeus", "Baal", "Molech", "Thor", "Odin"]) {
+    for (const name of ["Allah", "Buddha", "Krishna", "Vishnu", "Shiva", "Brahma", "Ganesha", "Thor", "Odin", "Ra"]) {
       const result = reviewComment(name);
       expect(result.ok, name).toBe(false);
       if (!result.ok) expect(result.category).toBe("otherGods");
@@ -48,7 +48,12 @@ describe("comment filter", () => {
     expect(reviewComment("Lord Jesus Christ").ok).toBe(true);
     expect(reviewComment("Yahweh and Jehovah").ok).toBe(true);
     expect(reviewComment("Holy Spirit, Messiah").ok).toBe(true);
-    for (const name of biblicalNames) {
+    expect(reviewComment("Elijah beat the prophets of Baal").ok).toBe(true);
+    expect(reviewComment("Paul in Ephesus with Diana").ok).toBe(true);
+    expect(reviewComment("Zeus and Hermes in Acts").ok).toBe(true);
+    expect(reviewComment("They served Molech and Milcom").ok).toBe(true);
+    for (const name of [...biblicalNames, ...biblicalIdolNames]) {
+      expect(reviewComment(name).ok, name).toBe(true);
       expect(reviewComment(`I trust ${name} today`).ok, name).toBe(true);
     }
   });
@@ -100,8 +105,8 @@ describe("comment filter", () => {
     for (const term of [...commentBlocklist.profanity, ...commentBlocklist.threats, ...commentBlocklist.otherGods]) {
       expect(sql, term).toContain(`'${term}'`);
     }
-    for (const name of biblicalNames) {
-      expect(sql).not.toContain(`'${name}'`);
+    for (const name of [...biblicalNames, ...biblicalIdolNames]) {
+      expect(sql, name).not.toContain(`'${name}'`);
     }
     expect(sql).toContain("alter table public.devotion_comments enable row level security");
     expect(sql).toContain("devotion_comments_insert_own");
@@ -112,7 +117,9 @@ describe("comment filter", () => {
     expect(sql).toContain("grant execute on function public.devotion_comments_for_date(date) to authenticated");
     expect(sql).not.toContain("grant execute on function public.devotion_comments_for_date(date) to anon");
     expect(sql).toContain("comment rate limit");
+    expect(sql).toContain("if not found or birth is null then");
     expect(sql).toContain("age_group_from_birth_date(birth) <> 'child'");
+    expect(sql).not.toContain("group_name in ('teen', 'adult', 'older')");
     expect(sql).not.toMatch(/verse_text|scripture_text/);
   });
 });
@@ -131,9 +138,9 @@ describe("comment posting rules", () => {
     expect(commentPostAllowed({ birthDate: "2013-11-25", ageGroup: "teen" }, today)).toBe(false);
     expect(commentPostAllowed({ birthDate: "2013-11-24", ageGroup: "teen" }, today)).toBe(true);
     expect(commentPostAllowed({ birthDate: "1990-01-01", ageGroup: "adult" }, today)).toBe(true);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: "teen" }, today)).toBe(true);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: "adult" }, today)).toBe(true);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: "older" }, today)).toBe(true);
+    expect(commentPostAllowed({ birthDate: null, ageGroup: "teen" }, today)).toBe(false);
+    expect(commentPostAllowed({ birthDate: null, ageGroup: "adult" }, today)).toBe(false);
+    expect(commentPostAllowed({ birthDate: null, ageGroup: "older" }, today)).toBe(false);
     expect(commentPostAllowed({ birthDate: null, ageGroup: "child" }, today)).toBe(false);
     expect(commentPostAllowed({ birthDate: null, ageGroup: null }, today)).toBe(false);
     expect(commentPostAllowed({ birthDate: "not-a-date", ageGroup: "adult" }, today)).toBe(false);
