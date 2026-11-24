@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1timothy-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-1ti-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 1",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:15 Paul gives a faithful saying, worthy of all acceptance. Christ Jesus came to save whom?",
+        "child": "Paul said Jesus came for a reason. Whom did He come to save?",
+        "teen": "1 Timothy 1:15: “to save” whom, according to the faithful saying?",
+        "older": "According to 1 Timothy 1:15, whom did Christ Jesus come to save?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "saints"
+        },
+        {
+          "id": "b",
+          "text": "rulers"
+        },
+        {
+          "id": "c",
+          "text": "sinners"
+        },
+        {
+          "id": "d",
+          "text": "scholars"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 1:15",
+            "text": "This is a faithful saying and worthy of all acceptance, that Christ Jesus came into the world to save sinners, of whom I am chief.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:15.",
+          "child": "Look right after “to save” in verse 15.",
+          "teen": "1:15 calls the saying faithful, says why Christ Jesus came, then adds Paul’s own place. Read why He came.",
+          "older": "It follows “to save” in 1:15."
+        },
+        "extended_explanation": "1:13 says Paul was formerly a blasphemer, a persecutor, and an insolent man. 1:16 says he obtained mercy as a pattern to those who are going to believe.",
+        "takeaway": "Christ Jesus came to save sinners."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ti-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 4",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells Timothy, “Let no one despise your youth.” What should Timothy be instead?",
+        "child": "Paul told Timothy not to let anyone look down on him. What should Timothy be instead?",
+        "teen": "1 Timothy 4:12: “Let no one despise your youth, but be” what?",
+        "older": "According to 1 Timothy 4:12, what should Timothy be, in word, conduct, love, spirit, faith, and purity?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "an example to the believers"
+        },
+        {
+          "id": "b",
+          "text": "a servant to all the elders"
+        },
+        {
+          "id": "c",
+          "text": "a teacher to all the churches"
+        },
+        {
+          "id": "d",
+          "text": "a helper to the needy widows"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 4:12",
+            "text": "Let no one despise your youth, but be an example to the believers in word, in conduct, in love, in spirit, in faith, in purity.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “but be” in 4:12.",
+          "child": "Look right after “but be” in verse 12.",
+          "teen": "4:12 gives a warning, then what Timothy should be, then six areas. Read what he should be.",
+          "older": "It follows “Let no one despise your youth, but be” in 4:12."
+        },
+        "extended_explanation": "4:12 names word, conduct, love, spirit, faith, and purity. 4:13 tells him to give attention to reading, to exhortation, to doctrine.",
+        "takeaway": "Timothy should be an example to the believers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ti-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 5",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "5:4 says children should first learn to show piety at home. According to 5:8, what is anyone who does not provide for his own household?",
+        "child": "Paul says God’s people should care for their own families. What does 5:8 say about someone who will not?",
+        "teen": "1 Timothy 5:8: what is anyone who does not provide “for those of his household”?",
+        "older": "According to 1 Timothy 5:8, how does Paul describe someone who does not provide for his own?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "no better than a stranger"
+        },
+        {
+          "id": "b",
+          "text": "less than a hired servant"
+        },
+        {
+          "id": "c",
+          "text": "the least in the church"
+        },
+        {
+          "id": "d",
+          "text": "worse than an unbeliever"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 5:4",
+            "text": "But if any widow has children or grandchildren, let them first learn to show piety at home and to repay their parents; for this is good and acceptable before God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 5:8",
+            "text": "But if anyone does not provide for his own, and especially for those of his household, he has denied the faith and is worse than an unbeliever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:8.",
+          "child": "Look at the last words of verse 8.",
+          "teen": "5:4 speaks of repaying parents; 5:8 gives a condition, then two results. Read the second.",
+          "older": "It follows “and is” at the end of 5:8."
+        },
+        "extended_explanation": "5:4 says this is good and acceptable before God. 5:16 says those who have widows in the family should relieve them.",
+        "takeaway": "He is worse than an unbeliever."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-1ti-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 6",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "6:7 says we brought nothing into this world, and we can carry nothing out. According to 6:6, what is godliness with contentment?",
+        "child": "Paul reminds Timothy that we can’t take anything with us when we leave this world. What does he call being godly and content?",
+        "teen": "1 Timothy 6:6: “Now godliness with contentment is” what?",
+        "older": "Read with 6:7, what does 6:6 say godliness with contentment is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a heavy yoke"
+        },
+        {
+          "id": "b",
+          "text": "great gain"
+        },
+        {
+          "id": "c",
+          "text": "a lonely path"
+        },
+        {
+          "id": "d",
+          "text": "a high calling"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 6:6",
+            "text": "Now godliness with contentment is great gain.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 6:7",
+            "text": "For we brought nothing into this world, and it is certain we can carry nothing out.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 6:6.",
+          "child": "Look at the last words of verse 6.",
+          "teen": "6:6 makes a statement; 6:7 explains it with what we bring in and carry out. Read the end of 6:6.",
+          "older": "It follows “godliness with contentment is” in 6:6."
+        },
+        "extended_explanation": "6:8 says having food and clothing, with these we shall be content. 6:9 warns those who desire to be rich.",
+        "takeaway": "Godliness with contentment is great gain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ti-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 4",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "4:13 tells Timothy to give attention to reading, to exhortation, to doctrine. In 4:15 he is to think on these things and give himself entirely to them. What should his progress be?",
+        "child": "Paul tells Timothy to focus on reading, encouraging, and teaching. What does 4:15 say about his progress?",
+        "teen": "1 Timothy 4:15: “that your progress may be” what?",
+        "older": "Read with 4:13, what does 4:15 say Timothy’s progress may be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "praised by the elders"
+        },
+        {
+          "id": "b",
+          "text": "evident to all"
+        },
+        {
+          "id": "c",
+          "text": "steady through trials"
+        },
+        {
+          "id": "d",
+          "text": "kept from all harm"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 4:13",
+            "text": "Till I come, give attention to reading, to exhortation, to doctrine.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 4:15",
+            "text": "Meditate on these things; give yourself entirely to them, that your progress may be evident to all.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:15.",
+          "child": "Look at the last words of verse 15.",
+          "teen": "4:13 lists three things; 4:15 gives two commands, then a purpose. Read the end.",
+          "older": "It follows “that your progress may be” in 4:15."
+        },
+        "extended_explanation": "4:13 begins, “Till I come.” 4:16 says, “Take heed to yourself and to the doctrine.”",
+        "takeaway": "His progress may be evident to all."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ti-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 1",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "6:12 charges Timothy to fight a fight of faith. In 1:19, what must he have along with faith, which some have rejected?",
+        "child": "Paul tells Timothy to keep fighting for what he believes. In chapter 1, what does he say Timothy must have along with faith?",
+        "teen": "1 Timothy 1:19: “having faith and” what?",
+        "older": "Read with 6:12, what does 1:19 say Timothy must hold besides faith?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a quiet spirit"
+        },
+        {
+          "id": "b",
+          "text": "a humble heart"
+        },
+        {
+          "id": "c",
+          "text": "a good conscience"
+        },
+        {
+          "id": "d",
+          "text": "a steadfast spirit"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 1:19",
+            "text": "having faith and a good conscience, which some having rejected, concerning the faith have suffered shipwreck,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 6:12",
+            "text": "Fight the good fight of faith, lay hold on eternal life, to which you were also called and have confessed the good confession in the presence of many witnesses.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:19.",
+          "child": "Look at the first words of verse 19.",
+          "teen": "6:12 is a charge to fight; 1:19 names two things to have, then what happened to some. Read the two things.",
+          "older": "It follows “having faith and” in 1:19."
+        },
+        "extended_explanation": "1:19 warns that some who rejected it have suffered shipwreck. 6:11 tells Timothy to pursue righteousness, godliness, faith, love, patience, gentleness.",
+        "takeaway": "Timothy must keep faith and a good conscience."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ti-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 3",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "4:10 says we trust in the living God, the Savior of all men. In 3:15, how does Paul describe God’s church?",
+        "child": "Paul says believers trust in the living God. In chapter 3, how does he describe God’s church?",
+        "teen": "1 Timothy 3:15: the church is called what “of the truth”?",
+        "older": "Read with 4:10, how does 3:15 describe God’s church?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the pillar and ground"
+        },
+        {
+          "id": "b",
+          "text": "the gate and the wall"
+        },
+        {
+          "id": "c",
+          "text": "the lamp and the stand"
+        },
+        {
+          "id": "d",
+          "text": "the crown and the throne"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 3:15",
+            "text": "but if I am delayed, I write so that you may know how you ought to conduct yourself in the house of God, which is the church of the living God, the pillar and ground of the truth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 4:10",
+            "text": "For to this end we both labor and suffer reproach, because we trust in the living God, who is the Savior of all men, especially of those who believe.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:15.",
+          "child": "Look at the last words of verse 15.",
+          "teen": "4:10 is about trust; 3:15 speaks of conduct in the house of God, names it the church, then describes it. Read the end.",
+          "older": "It comes right after Paul names the church in 3:15."
+        },
+        "extended_explanation": "3:14 says Paul hoped to come to Timothy shortly. 3:15 says he wrote so Timothy would know how to conduct himself in the house of God.",
+        "takeaway": "The church is the pillar and ground of the truth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-1ti-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 1",
+      "topics": [
+        "order-in-the-church"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:18 recalls the prophecies previously made concerning Timothy. In 4:14, what does Paul tell him not to neglect?",
+        "child": "Paul reminds Timothy of words spoken about him in the past. In chapter 4, what does Paul tell him not to neglect?",
+        "teen": "1 Timothy 4:14: “Do not neglect” what?",
+        "older": "Beside 1:18, what does 4:14 tell Timothy not to neglect?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the scrolls left with you"
+        },
+        {
+          "id": "b",
+          "text": "the flock placed with you"
+        },
+        {
+          "id": "c",
+          "text": "the house built for you"
+        },
+        {
+          "id": "d",
+          "text": "the gift that is in you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 1:18",
+            "text": "This charge I commit to you, son Timothy, according to the prophecies previously made concerning you, that by them you may wage the good warfare,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 4:14",
+            "text": "Do not neglect the gift that is in you, which was given to you by prophecy with the laying on of the hands of the eldership.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “Do not neglect” in 4:14.",
+          "child": "Look right after “Do not neglect” in verse 14.",
+          "teen": "1:18 speaks of prophecies; 4:14 names what not to neglect, then how it was given. Read the first part.",
+          "older": "It follows “Do not neglect” at the start of 4:14."
+        },
+        "extended_explanation": "1:18 says by them Timothy may wage the good warfare. 4:14 mentions the laying on of the hands of the eldership.",
+        "takeaway": "Do not neglect the gift that is in you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

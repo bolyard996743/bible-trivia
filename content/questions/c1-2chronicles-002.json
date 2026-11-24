@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2chronicles-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2ch-0002",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 34",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the eighth year of his reign, while he was still young, what did King Josiah begin to do?",
+        "child": "Josiah became king of Judah. In the eighth year that he was king, he began something important. What was it?",
+        "teen": "2 Chronicles 34:3 says that in the eighth year of his reign, “while he was still young,” Josiah began something. What?",
+        "older": "According to 2 Chronicles 34:3, what did Josiah begin to do in the eighth year of his reign?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to rebuild the walls of Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "to seek the God of his father David"
+        },
+        {
+          "id": "c",
+          "text": "to fight against the Moabites"
+        },
+        {
+          "id": "d",
+          "text": "to make a treaty with the king of Egypt"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 34:3",
+            "text": "For in the eighth year of his reign, while he was still young, he began to seek the God of his father David; and in the twelfth year he began to purge Judah and Jerusalem of the high places, the wooden images, the carved images, and the molded images.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the first half of 34:3, right after “while he was still young, he began.”",
+          "child": "In verse 3, find “he began.” The first time it appears, read what comes right after it.",
+          "teen": "34:3 uses “he began” twice. The eighth-year action comes after the first one.",
+          "older": "The eighth-year action follows the first “he began” in 34:3, before the twelfth year is mentioned."
+        },
+        "extended_explanation": "Chronicles marks Josiah’s early reign year by year. 34:3 names what he began in the eighth year of his reign, while he was still young, and then what he began in the twelfth year: purging Judah and Jerusalem of the high places and images. The eighth-year action follows the first “he began.”",
+        "takeaway": "In the eighth year of his reign, Josiah began “to seek the God of his father David.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ki-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 22",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Josiah sent Shaphan to have the money in the temple given to the workmen repairing it. He said no accounting need be made with them of the money. Why?",
+        "child": "King Josiah had money given to the builders who were fixing the temple. He said nobody needed to check how they spent it. Why not?",
+        "teen": "In 2 Kings 22:7, Josiah says, “there need be no accounting made with them of the money delivered into their hand.” What reason does he give?",
+        "older": "According to 2 Kings 22:7, why did Josiah say no accounting was needed from the workmen?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "because the king had paid them"
+        },
+        {
+          "id": "b",
+          "text": "because the priests had counted it"
+        },
+        {
+          "id": "c",
+          "text": "because the work was nearly done"
+        },
+        {
+          "id": "d",
+          "text": "because they deal faithfully"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 22:7",
+            "text": "However there need be no accounting made with them of the money delivered into their hand, because they deal faithfully.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "The reason closes 22:7, after “of the money delivered into their hand.”",
+          "child": "Read the very end of verse 7. The reason comes after the words “delivered into their hand.”",
+          "teen": "22:7 ends with a reason that follows “delivered into their hand.” Read those last words.",
+          "older": "Josiah’s reason ends 22:7, right after “delivered into their hand.”"
+        },
+        "extended_explanation": "In the eighteenth year of his reign Josiah sent Shaphan the scribe to the temple. Hilkiah was to count the money the doorkeepers had gathered and give it to the overseers for carpenters, builders, and masons (22:4-6). 22:7 says no accounting need be made, and gives a reason at the very end.",
+        "takeaway": "Josiah said no accounting was needed with the workmen “because they deal faithfully.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ch-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 34",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Josiah commanded Hilkiah and others to go and ask the LORD for him concerning the words of the book that was found. To whom did they go?",
+        "child": "After hearing the book that was found in the temple, Josiah sent men to ask the LORD about it. Who did they go to see?",
+        "teen": "In 2 Chronicles 34:21 Josiah sends his officials to seek the LORD’s word about the book. In 34:22, whom did Hilkiah and the others go to?",
+        "older": "According to 2 Chronicles 34:22, to whom did Hilkiah and the king’s men go?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Huldah the prophetess"
+        },
+        {
+          "id": "b",
+          "text": "Zephaniah the prophet"
+        },
+        {
+          "id": "c",
+          "text": "Jahaziel the Levite"
+        },
+        {
+          "id": "d",
+          "text": "Azariah the seer"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 34:21",
+            "text": "“Go, inquire of the LORD for me, and for those who are left in Israel and Judah, concerning the words of the book that is found; for great is the wrath of the LORD that is poured out on us, because our fathers have not kept the word of the LORD, to do according to all that is written in this book.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 34:22",
+            "text": "So Hilkiah and those the king had appointed went to Huldah the prophetess, the wife of Shallum the son of Tokhath, the son of Hasrah, keeper of the wardrobe. (She dwelt in Jerusalem in the Second Quarter.) And they spoke to her to that effect.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the start of 34:22, right after “went to.”",
+          "child": "Read the beginning of verse 22. The person is named right after “went to.”",
+          "teen": "34:22 opens by saying where the men went. The name follows “went to,” before the family details.",
+          "older": "The person is named after “went to” at the opening of 34:22, before “the wife of Shallum.”"
+        },
+        "extended_explanation": "When the king heard the words of the Law, he tore his clothes and sent Hilkiah, Ahikam, Abdon, Shaphan, and Asaiah to seek the LORD’s word, for great was the wrath poured out because the fathers had not kept the word (34:19-21). 34:22 names where they went, adds family details, and notes that this person dwelt in Jerusalem in the Second Quarter.",
+        "takeaway": "Hilkiah and the king’s men went to Huldah the prophetess, who dwelt in Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2ki-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 23",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Josiah read all the words of the Book of the Covenant to the people at the temple. Where did the king stand when he made a covenant before the LORD?",
+        "child": "King Josiah read God’s book out loud to all the people at the temple. Then he made a promise to follow the LORD. Where was he standing?",
+        "teen": "In 2 Kings 23:3, Josiah makes a covenant before the LORD to follow Him and keep His commandments. Where does he stand to do it?",
+        "older": "According to 2 Kings 23:3, where did the king stand when he made the covenant before the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At the altar steps"
+        },
+        {
+          "id": "b",
+          "text": "In the gate of the city"
+        },
+        {
+          "id": "c",
+          "text": "By a pillar"
+        },
+        {
+          "id": "d",
+          "text": "Before the ark"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 23:2",
+            "text": "The king went up to the house of the LORD with all the men of Judah, and with him all the inhabitants of Jerusalem—the priests and the prophets and all the people, both small and great. And he read in their hearing all the words of the Book of the Covenant which had been found in the house of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 23:3",
+            "text": "Then the king stood by a pillar and made a covenant before the LORD, to follow the LORD and to keep His commandments and His testimonies and His statutes, with all his heart and all his soul, to perform the words of this covenant that were written in this book. And all the people took a stand for the covenant.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the opening words of 23:3, right after “Then the king stood.”",
+          "child": "Read the start of verse 3. Where the king stood comes right after “Then the king stood.”",
+          "teen": "23:3 opens with the king’s position, right after “the king stood,” before “and made a covenant.”",
+          "older": "The place follows “Then the king stood” at the very start of 23:3."
+        },
+        "extended_explanation": "The king went up to the temple with all the men of Judah, the priests, prophets, and all the people, small and great, and read all the words of the Book of the Covenant (23:2). 23:3 opens with where he stood, then the covenant he made, and ends with all the people taking a stand for the covenant.",
+        "takeaway": "The king stood by a pillar and made a covenant before the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ch-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 35",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Preparing for the Passover, Josiah told the Levites who taught all Israel to put the holy ark in the house Solomon built. What did he say the ark would no longer be?",
+        "child": "King Josiah told the Levites to put the holy ark in the temple Solomon built. What did he say it would not be for them anymore?",
+        "teen": "In 2 Chronicles 35:3, Josiah tells the Levites, “Put the holy ark in the house which Solomon the son of David, king of Israel, built.” What does he say it shall no longer be?",
+        "older": "According to 2 Chronicles 35:3, what did Josiah say the ark would no longer be for the Levites?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a cause of division"
+        },
+        {
+          "id": "b",
+          "text": "a sign of war among you"
+        },
+        {
+          "id": "c",
+          "text": "a secret kept from the people"
+        },
+        {
+          "id": "d",
+          "text": "a burden on your shoulders"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 35:2",
+            "text": "And he set the priests in their duties and encouraged them for the service of the house of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 35:3",
+            "text": "Then he said to the Levites who taught all Israel, who were holy to the LORD: “Put the holy ark in the house which Solomon the son of David, king of Israel, built. It shall no longer be a burden on your shoulders. Now serve the LORD your God and His people Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look in the middle of 35:3, right after “It shall no longer be.”",
+          "child": "In verse 3, find the words “It shall no longer be.” The answer to the question comes right after them.",
+          "teen": "35:3 has a short sentence that starts “It shall no longer be.” Finish that sentence.",
+          "older": "Read the sentence in 35:3 beginning “It shall no longer be,” before “Now serve the LORD.”"
+        },
+        "extended_explanation": "Josiah set the priests in their duties and encouraged them (35:2). Then he spoke to the Levites who taught all Israel and were holy to the LORD: put the holy ark in the house Solomon built. The next short sentence in 35:3 says what it would no longer be, and then he tells them to serve the LORD and His people Israel.",
+        "takeaway": "Josiah told the Levites the ark would no longer be “a burden on your shoulders.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ki-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 22",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Kings 22:2 says Josiah did not turn aside to the right hand or to the left. 23:25 says no king before him turned to the LORD “with all his heart, with all his soul,” and with what else?",
+        "child": "The Bible says Josiah did not turn to the right or the left. Later it says there was no other king who turned to the LORD with all his heart and all his soul. What was the third thing?",
+        "teen": "Compare 2 Kings 22:2 and 23:25. 23:25 says Josiah turned to the LORD “with all his heart, with all his soul,” and what else?",
+        "older": "According to 2 Kings 23:25, after heart and soul, with what else did Josiah turn to the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with all his strength"
+        },
+        {
+          "id": "b",
+          "text": "with all his might"
+        },
+        {
+          "id": "c",
+          "text": "with all his mind"
+        },
+        {
+          "id": "d",
+          "text": "with all his house"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 22:2",
+            "text": "And he did what was right in the sight of the LORD, and walked in all the ways of his father David; he did not turn aside to the right hand or to the left.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 23:25",
+            "text": "Now before him there was no king like him, who turned to the LORD with all his heart, with all his soul, and with all his might, according to all the Law of Moses; nor after him did any arise like him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "23:25 lists three things. Read the third, after “with all his soul, and.”",
+          "child": "Verse 25 lists three things Josiah turned with. Read the last one, after “and.”",
+          "teen": "The list in 23:25 has three parts. The third follows “with all his soul, and.”",
+          "older": "Read the third item in 23:25, after “with all his soul, and,” before “according to all the Law of Moses.”"
+        },
+        "extended_explanation": "Kings opens Josiah’s reign by saying he walked in all the ways of David and did not turn aside (22:2). Near the close, after the reforms and the Passover, 23:25 says no king before or after matched him, and lists three ways he turned to the LORD, according to all the Law of Moses. Read the third.",
+        "takeaway": "Josiah turned to the LORD with all his heart, with all his soul, and with all his might."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ki-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 22",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Josiah feared that great was the wrath of the LORD aroused against Judah (22:13). After all his reforms, 23:26 says the LORD still did not turn from the fierceness of His great wrath. What reason does 23:26 give?",
+        "child": "When Josiah heard the book, he was afraid God was very angry with Judah. Even after Josiah’s good changes, God’s anger did not turn away. What reason does 23:26 give?",
+        "teen": "In 2 Kings 22:13 Josiah fears the wrath of the LORD. In 23:26 the LORD does not turn from His great wrath against Judah. Why, according to 23:26?",
+        "older": "According to 2 Kings 23:26, why did the LORD not turn from His great wrath against Judah?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Manasseh had provoked Him"
+        },
+        {
+          "id": "b",
+          "text": "the priests had hidden the book"
+        },
+        {
+          "id": "c",
+          "text": "the people had mocked the seers"
+        },
+        {
+          "id": "d",
+          "text": "Solomon had built the high places"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 22:13",
+            "text": "“Go, inquire of the LORD for me, for the people and for all Judah, concerning the words of this book that has been found; for great is the wrath of the LORD that is aroused against us, because our fathers have not obeyed the words of this book, to do according to all that is written concerning us.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 23:26",
+            "text": "Nevertheless the LORD did not turn from the fierceness of His great wrath, with which His anger was aroused against Judah, because of all the provocations with which Manasseh had provoked Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 23:26, after “because of all the provocations with which.”",
+          "child": "Look at the last words of verse 26. The reason comes after “provocations with which.”",
+          "teen": "23:26 ends with a “because” clause. Read its last words after “with which.”",
+          "older": "The reason closes 23:26, after “all the provocations with which.”"
+        },
+        "extended_explanation": "When the book was read, Josiah tore his clothes and sent men to seek the LORD’s word, afraid that great was the wrath of the LORD because the fathers had not obeyed it (22:11-13). The word brought back to the king spared Josiah from seeing the calamity himself. 23:26 opens with “Nevertheless” and gives a reason in its closing clause, after “with which.”",
+        "takeaway": "The LORD did not turn from His wrath, because of all the provocations with which Manasseh had provoked Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2ch-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 34",
+      "topics": [
+        "josiah-book-of-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Josiah made a covenant before the LORD to keep His commandments (34:31), and then he kept a Passover. According to 35:18, since when had no Passover like it been kept in Israel?",
+        "child": "Josiah promised to follow the LORD and keep His commandments. Then he held a Passover. The Bible says there had not been one like it for a very long time. Since when?",
+        "teen": "Connect 2 Chronicles 34:31 and 35:18. After Josiah’s covenant, his Passover was unlike any kept in Israel since when?",
+        "older": "According to 2 Chronicles 35:18, since whose time had no Passover like Josiah’s been kept in Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "since the days of Solomon the king"
+        },
+        {
+          "id": "b",
+          "text": "since the days of Joshua the son of Nun"
+        },
+        {
+          "id": "c",
+          "text": "since the days of Samuel the prophet"
+        },
+        {
+          "id": "d",
+          "text": "since the days of David the king"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 34:31",
+            "text": "Then the king stood in his place and made a covenant before the LORD, to follow the LORD, and to keep His commandments and His testimonies and His statutes with all his heart and all his soul, to perform the words of the covenant that were written in this book.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 35:18",
+            "text": "There had been no Passover kept in Israel like that since the days of Samuel the prophet; and none of the kings of Israel had kept such a Passover as Josiah kept, with the priests and the Levites, all Judah and Israel who were present, and the inhabitants of Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the first clause of 35:18, after “There had been no Passover kept in Israel like that.”",
+          "child": "Read the beginning of verse 18. The time comes right after “kept in Israel like that.”",
+          "teen": "35:18 opens with a comparison and a time marker. Read the words after “like that.”",
+          "older": "The time marker follows “like that” in the opening clause of 35:18, before the semicolon."
+        },
+        "extended_explanation": "Josiah stood in his place and made a covenant before the LORD to follow Him and keep His commandments, testimonies, and statutes with all his heart and soul (34:31). In chapter 35 he set the priests and Levites in order and kept the Passover. 35:18 opens with how long it had been since a Passover like it, and then says no king of Israel had kept such a Passover.",
+        "takeaway": "No Passover like Josiah’s had been kept in Israel since the days of Samuel the prophet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

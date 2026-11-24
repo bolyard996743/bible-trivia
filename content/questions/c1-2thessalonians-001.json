@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2thessalonians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2th-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 3",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:10 Paul repeats a command he gave while he was with them: “If anyone will not work,” what follows?",
+        "child": "Paul gave the believers a simple rule about people who refused to work. What was it?",
+        "teen": "2 Thessalonians 3:10: “If anyone will not work,” then what?",
+        "older": "According to 2 Thessalonians 3:10, what follows “If anyone will not work”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "neither shall he rest"
+        },
+        {
+          "id": "b",
+          "text": "neither shall he eat"
+        },
+        {
+          "id": "c",
+          "text": "neither shall he speak"
+        },
+        {
+          "id": "d",
+          "text": "neither shall he sleep"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 3:10",
+            "text": "For even when we were with you, we commanded you this: If anyone will not work, neither shall he eat.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:10.",
+          "child": "Look at the last words of verse 10.",
+          "teen": "3:10 recalls when Paul was with them, then gives a rule in two parts. Read the second.",
+          "older": "It follows “If anyone will not work,” in 3:10."
+        },
+        "extended_explanation": "3:8 says Paul worked with labor and toil night and day. 3:11 speaks of some who are not working at all, but are busybodies.",
+        "takeaway": "If anyone will not work, neither shall he eat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2th-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 3",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul closes with a greeting written by his own hand. According to 3:17, what is that salutation?",
+        "child": "Paul wrote the last greeting himself. What does he say that handwritten greeting is?",
+        "teen": "2 Thessalonians 3:17: “The salutation of Paul with my own hand, which is” what?",
+        "older": "According to 2 Thessalonians 3:17, what is Paul’s handwritten salutation?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a seal for every church"
+        },
+        {
+          "id": "b",
+          "text": "a gift for every reader"
+        },
+        {
+          "id": "c",
+          "text": "a proof of his office"
+        },
+        {
+          "id": "d",
+          "text": "a sign in every epistle"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 3:17",
+            "text": "The salutation of Paul with my own hand, which is a sign in every epistle; so I write.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:17.",
+          "child": "Look right after “which is” in verse 17.",
+          "teen": "3:17 names the salutation, says what it is, and ends with “so I write.” Read the middle.",
+          "older": "It follows “with my own hand, which is” in 3:17."
+        },
+        "extended_explanation": "3:16 prays that the Lord of peace give them peace always. 3:18 closes with grace.",
+        "takeaway": "His handwritten salutation is a sign in every epistle."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2th-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 2",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:2 Paul asks them not to be soon shaken in mind or troubled by spirit, word, or letter. What false claim does he name?",
+        "child": "Some people were upsetting the believers with a false message. What false idea does 2:2 warn about?",
+        "teen": "2 Thessalonians 2:2: “as though” what?",
+        "older": "According to 2 Thessalonians 2:2, what claim should not shake them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the apostles had all died"
+        },
+        {
+          "id": "b",
+          "text": "the temple had been rebuilt"
+        },
+        {
+          "id": "c",
+          "text": "the day of Christ had come"
+        },
+        {
+          "id": "d",
+          "text": "the law had been restored"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 2:1",
+            "text": "Now, brethren, concerning the coming of our Lord Jesus Christ and our gathering together to Him, we ask you,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Thessalonians 2:2",
+            "text": "not to be soon shaken in mind or troubled, either by spirit or by word or by letter, as if from us, as though the day of Christ had come.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "2:1 introduces the subject; 2:2 lists ways they might be misled, then the false claim. Read the end.",
+          "older": "It follows “by letter, as if from us, as though” in 2:2."
+        },
+        "extended_explanation": "2:2 says they should not be soon shaken in mind, whether by spirit, by word, or by letter. 2:5 asks whether they remember what Paul told them when he was still with them.",
+        "takeaway": "Do not be shaken as though the day of Christ had come."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-2th-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 3",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3:14 says not to keep company with anyone who does not obey the word in this letter. What does 3:15 say to do with him?",
+        "child": "Paul tells believers to keep away from someone who refuses to obey. But how should they still treat him?",
+        "teen": "2 Thessalonians 3:15: “Yet do not count him as an enemy, but” what?",
+        "older": "According to 2 Thessalonians 3:15, how should they treat him instead of as an enemy?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "admonish him as a brother"
+        },
+        {
+          "id": "b",
+          "text": "send him out of the city"
+        },
+        {
+          "id": "c",
+          "text": "treat him as a stranger"
+        },
+        {
+          "id": "d",
+          "text": "report him to all the elders"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 3:14",
+            "text": "And if anyone does not obey our word in this epistle, note that person and do not keep company with him, that he may be ashamed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Thessalonians 3:15",
+            "text": "Yet do not count him as an enemy, but admonish him as a brother.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:15.",
+          "child": "Look at the last words of verse 15.",
+          "teen": "3:14 says to note that person; 3:15 says how not to count him, then what to do. Read the end.",
+          "older": "It follows “Yet do not count him as an enemy, but” in 3:15."
+        },
+        "extended_explanation": "3:14 says to note that person, that he may be ashamed. 3:16 prays for peace always in every way.",
+        "takeaway": "Do not count him as an enemy, but admonish him as a brother."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2th-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 3",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3:9 says Paul wanted to make himself an example for them to follow. According to 3:8, how did he not eat anyone’s bread?",
+        "child": "Paul wanted to set a good example for the believers. How does 3:8 say he did not eat other people’s food?",
+        "teen": "2 Thessalonians 3:8: “nor did we eat anyone’s bread” how?",
+        "older": "Read with 3:9, how does 3:8 say Paul did not eat anyone’s bread?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "free of charge"
+        },
+        {
+          "id": "b",
+          "text": "without giving thanks"
+        },
+        {
+          "id": "c",
+          "text": "on a feast day"
+        },
+        {
+          "id": "d",
+          "text": "in secret at night"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 3:8",
+            "text": "nor did we eat anyone’s bread free of charge, but worked with labor and toil night and day, that we might not be a burden to any of you,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Thessalonians 3:9",
+            "text": "not because we do not have authority, but to make ourselves an example of how you should follow us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 3:8.",
+          "child": "Look at the first words of verse 8.",
+          "teen": "3:8 says how they did not eat, then how they worked and why; 3:9 adds the reason of example. Read the start.",
+          "older": "It follows “nor did we eat anyone’s bread” in 3:8."
+        },
+        "extended_explanation": "3:8 says they worked with labor and toil night and day. 3:9 says it was not because they did not have authority.",
+        "takeaway": "Paul did not eat anyone’s bread free of charge."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2th-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 2",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3:16 prays that the Lord of peace give them peace always in every way. In 2:16, what has God given us, along with hope by grace?",
+        "child": "Paul prays more than once for God to bless the believers. What does 2:16 say God has given us, along with hope?",
+        "teen": "2 Thessalonians 2:16: “who has loved us and given us” what?",
+        "older": "Read with 3:16, what does 2:16 say God has given us besides good hope?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "everlasting strength"
+        },
+        {
+          "id": "b",
+          "text": "an everlasting inheritance"
+        },
+        {
+          "id": "c",
+          "text": "unfailing protection"
+        },
+        {
+          "id": "d",
+          "text": "everlasting consolation"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 2:16",
+            "text": "Now may our Lord Jesus Christ Himself, and our God and Father, who has loved us and given us everlasting consolation and good hope by grace,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Thessalonians 3:16",
+            "text": "Now may the Lord of peace Himself give you peace always in every way. The Lord be with you all.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:16.",
+          "child": "Look right after “given us” in verse 16.",
+          "teen": "3:16 is a prayer for peace; 2:16 names the Lord and the Father, says He loved us, then what He has given. Read what follows.",
+          "older": "It follows “who has loved us and given us” in 2:16."
+        },
+        "extended_explanation": "2:15 tells them to stand fast. 3:16 ends, “The Lord be with you all.”",
+        "takeaway": "God has given us everlasting consolation and good hope by grace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2th-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 1",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1:5 says they suffer so that they may be counted worthy of God’s kingdom. In 2:14, for the obtaining of what did He call them through Paul’s preaching?",
+        "child": "Paul says the believers’ suffering showed they were counted worthy of God’s kingdom. In 2:14, what did God call them to receive?",
+        "teen": "2 Thessalonians 2:14: “for the obtaining of” what?",
+        "older": "Beside 1:5, what does 2:14 say they were called to obtain?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the land of our fathers"
+        },
+        {
+          "id": "b",
+          "text": "the crown of our race"
+        },
+        {
+          "id": "c",
+          "text": "the glory of our Lord"
+        },
+        {
+          "id": "d",
+          "text": "the riches of the nations"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 1:5",
+            "text": "which is manifest evidence of the righteous judgment of God, that you may be counted worthy of the kingdom of God, for which you also suffer;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Thessalonians 2:14",
+            "text": "to which He called you by our gospel, for the obtaining of the glory of our Lord Jesus Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:14.",
+          "child": "Look at the last words of verse 14.",
+          "teen": "1:5 speaks of being counted worthy; 2:14 says how He called them, then for what. Read the end.",
+          "older": "It follows “for the obtaining of” in 2:14."
+        },
+        "extended_explanation": "1:4 speaks of their patience and faith in all their persecutions and tribulations. 2:15 tells them to stand fast.",
+        "takeaway": "He called them to obtain the glory of our Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-2th-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Thessalonians",
+      "section": "2 Thessalonians 1",
+      "topics": [
+        "stand-firm"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:11 Paul says we pray always for you. In 3:1 he asks them to pray for us, that the word of the Lord may do what?",
+        "child": "Paul prays for the believers, and he asks them to pray for him too. What does he want the word of the Lord to do?",
+        "teen": "2 Thessalonians 3:1: “pray for us, that the word of the Lord may” do what?",
+        "older": "Beside 1:11, what does 3:1 ask them to pray the word of the Lord may do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "be written down"
+        },
+        {
+          "id": "b",
+          "text": "run swiftly"
+        },
+        {
+          "id": "c",
+          "text": "be kept pure"
+        },
+        {
+          "id": "d",
+          "text": "reach the kings"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Thessalonians 1:11",
+            "text": "Therefore we also pray always for you that our God would count you worthy of this calling, and fulfill all the good pleasure of His goodness and the work of faith with power,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Thessalonians 3:1",
+            "text": "Finally, brethren, pray for us, that the word of the Lord may run swiftly and be glorified, just as it is with you,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:1.",
+          "child": "Look right after “may” in verse 1.",
+          "teen": "1:11 is Paul’s prayer for them; 3:1 asks for prayer, then says two things about the word. Read the first.",
+          "older": "It follows “that the word of the Lord may” in 3:1."
+        },
+        "extended_explanation": "1:11 prays God would count them worthy of this calling. 3:2 asks that we may be delivered from unreasonable and wicked men.",
+        "takeaway": "Pray that the word of the Lord may run swiftly and be glorified."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

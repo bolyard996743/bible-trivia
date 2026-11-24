@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-isa-0006",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 1",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Isaiah 1:3 the LORD sets animals beside His people. The ox knows its owner. What does the donkey know?",
+        "child": "God said even farm animals know who takes care of them. The ox knows its owner. What does the donkey know?",
+        "teen": "Isaiah 1:3: “The ox knows its owner And the donkey ___.” What fills the blank?",
+        "older": "According to Isaiah 1:3, what does the donkey know?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "its master’s voice"
+        },
+        {
+          "id": "b",
+          "text": "its master’s field"
+        },
+        {
+          "id": "c",
+          "text": "its master’s yoke"
+        },
+        {
+          "id": "d",
+          "text": "its master’s crib"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 1:3",
+            "text": "The ox knows its owner And the donkey its master’s crib; But Israel does not know, My people do not consider.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:3 after “And the donkey.”",
+          "child": "Look at the start of verse 3, after “the donkey.”",
+          "teen": "1:3 gives two animals before turning to Israel. Read about the second.",
+          "older": "It follows “And the donkey” in 1:3."
+        },
+        "extended_explanation": "1:2 calls the heavens and the earth to hear that the LORD’s children have rebelled. 1:3 sets two animals beside Israel and ends, “But Israel does not know, My people do not consider.”",
+        "takeaway": "“The ox knows its owner And the donkey its master’s crib.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 1",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah says the daughter of Zion is left “as a booth in a vineyard.” As a hut in a garden of what?",
+        "child": "Isaiah said Jerusalem was left alone like a little shelter in a garden. What kind of garden was it?",
+        "teen": "Isaiah 1:8: “As a hut in a garden of ___.” What fills the blank?",
+        "older": "According to Isaiah 1:8, the daughter of Zion is like a hut in a garden of what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "cucumbers"
+        },
+        {
+          "id": "b",
+          "text": "leeks"
+        },
+        {
+          "id": "c",
+          "text": "onions"
+        },
+        {
+          "id": "d",
+          "text": "bitter herbs"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 1:8",
+            "text": "So the daughter of Zion is left as a booth in a vineyard, As a hut in a garden of cucumbers, As a besieged city.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:8 after “As a hut in a garden of.”",
+          "child": "Look at verse 8. It comes after “a garden of.”",
+          "teen": "1:8 gives three pictures of Zion. Read the second.",
+          "older": "It follows “As a hut in a garden of” in 1:8."
+        },
+        "extended_explanation": "1:7 describes the land as desolate and burned, with strangers devouring it. 1:8 pictures what is left of Zion with three comparisons, the last “As a besieged city.” 1:9 adds that only a very small remnant kept them from becoming like Sodom.",
+        "takeaway": "Zion was left “As a hut in a garden of cucumbers.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 1",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Come now, and let us reason together,” says the LORD. Sins like scarlet shall be white as snow. Though they are red like crimson, they shall be as what?",
+        "child": "God said that even if sins are dark red, He can make them clean and white like snow. What else did He say they would be like?",
+        "teen": "Isaiah 1:18: “Though they are red like crimson, They shall be as ___.” What fills the blank?",
+        "older": "According to Isaiah 1:18, sins red like crimson shall be as what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "linen"
+        },
+        {
+          "id": "b",
+          "text": "milk"
+        },
+        {
+          "id": "c",
+          "text": "wool"
+        },
+        {
+          "id": "d",
+          "text": "salt"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 1:18",
+            "text": "“Come now, and let us reason together,” Says the LORD, “Though your sins are like scarlet, They shall be as white as snow; Though they are red like crimson, They shall be as wool.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 1:19",
+            "text": "If you are willing and obedient, You shall eat the good of the land;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 1:18.",
+          "child": "Look at the very end of verse 18.",
+          "teen": "1:18 has two promises. Read the end of the second.",
+          "older": "It closes 1:18."
+        },
+        "extended_explanation": "1:16-17 calls the people to wash themselves and learn to do good. 1:18 invites them to reason with the LORD and gives two promises. 1:19-20 sets out the choice: willing and obedient, or refusing and rebelling.",
+        "takeaway": "“Though they are red like crimson, They shall be as wool.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-isa-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 5",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the song of the vineyard, the Well-beloved planted the choicest vine. “He expected it to bring forth good grapes,” but what did it bring forth?",
+        "child": "God told a story about a vineyard that was cared for very well. The owner hoped for good grapes. What did the vineyard give instead?",
+        "teen": "Isaiah 5:2: “He expected it to bring forth good grapes, But it brought forth ___.” What fills the blank?",
+        "older": "According to Isaiah 5:2, what did the vineyard bring forth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "sour grapes"
+        },
+        {
+          "id": "b",
+          "text": "wild grapes"
+        },
+        {
+          "id": "c",
+          "text": "withered vines"
+        },
+        {
+          "id": "d",
+          "text": "no grapes at all"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 5:1",
+            "text": "Now let me sing to my Well-beloved A song of my Beloved regarding His vineyard: My Well-beloved has a vineyard On a very fruitful hill.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 5:2",
+            "text": "He dug it up and cleared out its stones, And planted it with the choicest vine. He built a tower in its midst, And also made a winepress in it; So He expected it to bring forth good grapes, But it brought forth wild grapes.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:2, after “But it brought forth.”",
+          "child": "Look at the last words of verse 2.",
+          "teen": "5:2 lists the owner’s work and then the result. Read the result.",
+          "older": "It closes 5:2."
+        },
+        "extended_explanation": "5:1 introduces a song about the Well-beloved’s vineyard on a hill. 5:2 lists everything the owner did: digging, clearing stones, planting, building a tower and a winepress. 5:4 repeats the question of why the result was not what he expected.",
+        "takeaway": "“It brought forth wild grapes.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 5",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“For the vineyard of the LORD of hosts is the house of Israel.” He looked for justice, but behold, what?",
+        "child": "God explained His story: the vineyard is His people. He looked for fairness among them. What did He find instead?",
+        "teen": "Isaiah 5:7: “He looked for justice, but behold, ___.” What fills the blank?",
+        "older": "According to Isaiah 5:7, what did the LORD find instead of justice?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "oppression"
+        },
+        {
+          "id": "b",
+          "text": "rebellion"
+        },
+        {
+          "id": "c",
+          "text": "wickedness"
+        },
+        {
+          "id": "d",
+          "text": "bloodshed"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 5:6",
+            "text": "I will lay it waste; It shall not be pruned or dug, But there shall come up briers and thorns. I will also command the clouds That they rain no rain on it.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 5:7",
+            "text": "For the vineyard of the LORD of hosts is the house of Israel, And the men of Judah are His pleasant plant. He looked for justice, but behold, oppression; For righteousness, but behold, a cry for help.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 5:7 after “He looked for justice, but behold.”",
+          "child": "Look at verse 7. It comes after the first “but behold.”",
+          "teen": "5:7 makes two contrasts. Read the end of the first.",
+          "older": "It follows “He looked for justice, but behold” in 5:7."
+        },
+        "extended_explanation": "5:5-6 tells what the owner will do to the vineyard: take away its hedge and command the clouds to rain no rain on it. 5:7 explains the parable and closes with a second contrast, “For righteousness, but behold, a cry for help.”",
+        "takeaway": "“He looked for justice, but behold, oppression.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 1",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:5 Isaiah says, “The whole head is sick, And the whole heart faints.” In 35:3 the call is, “Strengthen the weak hands,” and make firm what?",
+        "child": "Isaiah told people to encourage those who were tired and weak. Strengthen the weak hands, and make firm what else?",
+        "teen": "Isaiah 35:3: “Strengthen the weak hands, And make firm ___.” What fills the blank?",
+        "older": "According to Isaiah 35:3, what should be made firm?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the trembling feet"
+        },
+        {
+          "id": "b",
+          "text": "the weary arms"
+        },
+        {
+          "id": "c",
+          "text": "the bowed heads"
+        },
+        {
+          "id": "d",
+          "text": "the feeble knees"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 1:5",
+            "text": "Why should you be stricken again? You will revolt more and more. The whole head is sick, And the whole heart faints.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 35:3",
+            "text": "Strengthen the weak hands, And make firm the feeble knees.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 35:3 after “And make firm.”",
+          "child": "Look at verse 3, after “make firm.”",
+          "teen": "35:3 has two commands. Read the end of the second.",
+          "older": "It closes 35:3."
+        },
+        "extended_explanation": "1:5-6 describes the nation as wounded from head to foot. 35:3-4 is a word of encouragement to the weak and to the fearful-hearted, and 35:4 continues, “Behold, your God will come.”",
+        "takeaway": "“Strengthen the weak hands, And make firm the feeble knees.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 2",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:5 Isaiah says, “O house of Jacob, come and let us walk In the light of the LORD.” In 35:8, what shall the way through the desert be called?",
+        "child": "Isaiah described a special road for God’s people in the desert. What would it be called?",
+        "teen": "Isaiah 35:8: “And it shall be called ___.” What fills the blank?",
+        "older": "According to Isaiah 35:8, what name is given to the road there?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Road of Righteousness"
+        },
+        {
+          "id": "b",
+          "text": "the Highway of Holiness"
+        },
+        {
+          "id": "c",
+          "text": "the Path of Peace"
+        },
+        {
+          "id": "d",
+          "text": "the Way of Wisdom"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 2:5",
+            "text": "O house of Jacob, come and let us walk In the light of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 35:8",
+            "text": "A highway shall be there, and a road, And it shall be called the Highway of Holiness. The unclean shall not pass over it, But it shall be for others. Whoever walks the road, although a fool, Shall not go astray.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 35:8 after “And it shall be called.”",
+          "child": "Look at verse 8, after “it shall be called.”",
+          "teen": "35:8 names the road and then says who will not pass over it. Read the name.",
+          "older": "It follows “And it shall be called” in 35:8."
+        },
+        "extended_explanation": "2:5 invites the house of Jacob to walk in the light of the LORD. 35:8-10 describes a road where the unclean shall not pass over and no lion shall be, and where the redeemed shall walk.",
+        "takeaway": "“It shall be called the Highway of Holiness.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-isa-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 1",
+      "topics": [
+        "woe-and-hope-for-the-nations"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:4 Israel had “turned away backward.” In 35:10 the ransomed of the LORD shall return and come to Zion with singing. What shall flee away?",
+        "child": "Isaiah promised that God’s rescued people would come home to Zion singing happily. What will run away from them?",
+        "teen": "Isaiah 35:10: “And ___ shall flee away.” What fills the blank?",
+        "older": "According to Isaiah 35:10, what shall flee away from the ransomed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fear and trembling"
+        },
+        {
+          "id": "b",
+          "text": "grief and lamentation"
+        },
+        {
+          "id": "c",
+          "text": "sorrow and sighing"
+        },
+        {
+          "id": "d",
+          "text": "pain and weeping"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 1:4",
+            "text": "Alas, sinful nation, A people laden with iniquity, A brood of evildoers, Children who are corrupters! They have forsaken the LORD, They have provoked to anger The Holy One of Israel, They have turned away backward.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 35:10",
+            "text": "And the ransomed of the LORD shall return, And come to Zion with singing, With everlasting joy on their heads. They shall obtain joy and gladness, And sorrow and sighing shall flee away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 35:10.",
+          "child": "Look at the very end of verse 10.",
+          "teen": "35:10 ends with what is gained and what is lost. Read what is lost.",
+          "older": "It closes 35:10, before “shall flee away.”"
+        },
+        "extended_explanation": "1:4 lists the nation’s sins: they have forsaken the LORD and provoked the Holy One of Israel. 35:10 describes the return of the ransomed to Zion, with everlasting joy on their heads.",
+        "takeaway": "“Sorrow and sighing shall flee away.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

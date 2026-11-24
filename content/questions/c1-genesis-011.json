@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-011",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-gen-0062",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 15",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After these things, the word of the LORD came to Abram in a vision. Besides his shield, what did the LORD say He was to Abram?",
+        "child": "God spoke to Abram in a vision and told him not to be afraid. God called Himself Abram’s shield. What else did God say He was to Abram?",
+        "teen": "In Genesis 15:1, God tells Abram, “Do not be afraid.” Along with being his shield, what does God call Himself?",
+        "older": "According to Genesis 15:1, what did the LORD call Himself in the vision, alongside “your shield”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your strength in the day of battle"
+        },
+        {
+          "id": "b",
+          "text": "Your exceedingly great reward"
+        },
+        {
+          "id": "c",
+          "text": "Your light in the darkness"
+        },
+        {
+          "id": "d",
+          "text": "Your guide on the long road"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 15:1",
+            "text": "After these things the word of the LORD came to Abram in a vision, saying, “Do not be afraid, Abram. I am your shield, your exceedingly great reward.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of Genesis 15:1. God describes Himself twice, and the second description follows the comma after “shield.”",
+          "child": "Look at the last words God speaks in Genesis 15:1, right after “I am your shield.”",
+          "teen": "God’s words in 15:1 end with two descriptions of Himself. Read the second one.",
+          "older": "The second description comes right after “your shield” at the close of 15:1."
+        },
+        "extended_explanation": "Genesis 15 opens “after these things,” following Abram’s rescue of Lot in chapter 14. God speaks to Abram in a vision, tells him not to be afraid, and describes Himself in two ways at the end of the verse. Read the words after “your shield.”",
+        "takeaway": "The LORD told Abram, “I am your shield, your exceedingly great reward.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-gen-0021",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Genesis 1:29-30, God gives food to the man and woman and also to every beast, bird, and creeping thing. What does He give the animals?",
+        "child": "After making people, God told them what they could eat. Then He said what the animals could eat. What did He give the animals?",
+        "teen": "Genesis 1:30 lists what God gave to every beast of the earth and bird of the air for food. What was it?",
+        "older": "According to Genesis 1:30, what did God give to every beast and bird for food?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The flesh of the flock"
+        },
+        {
+          "id": "b",
+          "text": "Every grain of the field"
+        },
+        {
+          "id": "c",
+          "text": "The fish of the sea"
+        },
+        {
+          "id": "d",
+          "text": "Every green herb"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:29",
+            "text": "And God said, “See, I have given you every herb that yields seed which is on the face of all the earth, and every tree whose fruit yields seed; to you it shall be for food.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 1:30",
+            "text": "Also, to every beast of the earth, to every bird of the air, and to everything that creeps on the earth, in which there is life, I have given every green herb for food”; and it was so.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Look at the end of Genesis 1:30, just before “for food.”",
+          "child": "Read the last part of verse 30. What God gave comes right before the words “for food.”",
+          "teen": "1:29 covers food for people; 1:30 turns to the animals. Read what 1:30 names right before “for food.”",
+          "older": "The gift to the animals is named near the close of 1:30, ahead of “for food”; “and it was so” follows."
+        },
+        "extended_explanation": "God first gives food to the man and woman in 1:29, naming plants and trees. In 1:30 He turns to every beast of the earth, every bird of the air, and everything that creeps on the earth. The end of 1:30 names what He gave them. Read it just before “for food.”",
+        "takeaway": "God gave every green herb for food to the beasts, the birds, and every creeping thing."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-gen-0022",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 22",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the way up the mountain, Isaac asked where the lamb was, and Abraham answered him (22:8). After the LORD stopped him, what name did Abraham give the place (22:14)?",
+        "child": "Isaac asked his father where the lamb for the offering was. Later, on the mountain, Abraham gave the place a name. What was it?",
+        "teen": "Abraham’s words to Isaac in 22:8 are echoed when he names the mountain in 22:14. What name did he give it?",
+        "older": "According to Genesis 22:14, what did Abraham call the name of the place?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The-LORD-Will-Provide"
+        },
+        {
+          "id": "b",
+          "text": "The-LORD-Will-Deliver"
+        },
+        {
+          "id": "c",
+          "text": "The-LORD-Is-Peace"
+        },
+        {
+          "id": "d",
+          "text": "The-Mount-of-Testing"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 22:8",
+            "text": "And Abraham said, “My son, God will provide for Himself the lamb for a burnt offering.” So the two of them went together.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 22:14",
+            "text": "And Abraham called the name of the place, The-LORD-Will-Provide; as it is said to this day, “In the Mount of the LORD it shall be provided.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 22:14. The name comes right after “Abraham called the name of the place.”",
+          "child": "Look at the start of verse 14. Abraham names the place right there.",
+          "teen": "22:14 gives the name first and then a saying that people still repeat. Read the name.",
+          "older": "The name stands at the head of 22:14, before “as it is said to this day.”"
+        },
+        "extended_explanation": "On the way up the mountain Isaac asked where the lamb was, and Abraham answered him in 22:8. After Abraham was stopped and saw the ram, he named the place. The name is at the start of 22:14, and the saying after it repeats the same idea. Compare the start of 22:14 with 22:8.",
+        "takeaway": "Abraham called the place The-LORD-Will-Provide, echoing what he told Isaac."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-gen-0023",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 9",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "God says the rainbow will be in the cloud (9:16). What does He say He will do when He looks on it?",
+        "child": "God put the rainbow in the clouds after the flood. When He sees it, what does God say He will do?",
+        "teen": "Genesis 9:15-16 explains what happens on God’s side when the bow appears. What does God say He will do when He looks on it?",
+        "older": "According to Genesis 9:16, why will God look on the rainbow in the cloud?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Send rain only in its season"
+        },
+        {
+          "id": "b",
+          "text": "Count the days until harvest"
+        },
+        {
+          "id": "c",
+          "text": "Remember the everlasting covenant"
+        },
+        {
+          "id": "d",
+          "text": "Call Noah’s sons to offer sacrifice"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 9:15",
+            "text": "and I will remember My covenant which is between Me and you and every living creature of all flesh; the waters shall never again become a flood to destroy all flesh.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 9:16",
+            "text": "The rainbow shall be in the cloud, and I will look on it to remember the everlasting covenant between God and every living creature of all flesh that is on the earth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 9:16 after “I will look on it.” The purpose comes next.",
+          "child": "Look at the middle of verse 16, right after God says He will look on it.",
+          "teen": "9:16 gives a reason right after “I will look on it.” 9:15 says nearly the same thing at its start.",
+          "older": "The purpose of God’s looking is stated in the middle of 9:16, and 9:15 opens with a similar promise."
+        },
+        "extended_explanation": "After the flood, God sets a sign in the cloud (9:12-13). In 9:15 He promises that the waters will never again become a flood to destroy all flesh. In 9:16 He explains what He will do whenever He looks at the sign. Read the words after “I will look on it” in 9:16.",
+        "takeaway": "God said He would look on the rainbow to remember the everlasting covenant with every living creature."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 49",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jacob says Judah’s brothers will praise him and bow down before him (49:8). At the end of 49:10, after “Until Shiloh comes,” what does Jacob say shall be to Him?",
+        "child": "When Jacob blessed his son Judah, he said Judah’s brothers would bow down to him. Then he spoke about a scepter. What does the end of that blessing say will belong to the One who comes?",
+        "teen": "In Genesis 49:10, the scepter stays with Judah “Until Shiloh comes.” What does the verse say shall be to Him?",
+        "older": "What does the last line of Genesis 49:10 say shall be to Him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wealth of the nations"
+        },
+        {
+          "id": "b",
+          "text": "The blessing of the firstborn"
+        },
+        {
+          "id": "c",
+          "text": "The land of his fathers"
+        },
+        {
+          "id": "d",
+          "text": "The obedience of the people"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 49:8",
+            "text": "“Judah, you are he whom your brothers shall praise; Your hand shall be on the neck of your enemies; Your father’s children shall bow down before you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 49:10",
+            "text": "The scepter shall not depart from Judah, Nor a lawgiver from between his feet, Until Shiloh comes; And to Him shall be the obedience of the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 49:10, which begins “And to Him shall be.”",
+          "child": "Look at the very last line of verse 10.",
+          "teen": "49:10 is set out in four lines. Read the fourth.",
+          "older": "It is the closing line of 49:10, after “Until Shiloh comes.”"
+        },
+        "extended_explanation": "Jacob blesses Judah in 49:8-12. In 49:8 his brothers will praise him and bow down before him. In 49:10 the scepter and the lawgiver remain with Judah until a coming One, and the last line tells what shall be to Him. Read the final line of 49:10.",
+        "takeaway": "Jacob said that to Him shall be the obedience of the people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 15",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 15:5 God told Abram to count the stars: “So shall your descendants be.” When He repeats the promise in 22:17, what comparison does He add to the stars?",
+        "child": "God once told Abram to look up and count the stars, because his family would be that many. Later God made the promise again and added another picture. What was it?",
+        "teen": "Genesis 15:5 compares Abram’s descendants to the stars. Genesis 22:17 keeps the stars and adds another comparison. What is it?",
+        "older": "Besides the stars of the heaven, what does Genesis 22:17 compare Abraham’s descendants to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "As the leaves which are in the forest"
+        },
+        {
+          "id": "b",
+          "text": "As the sand which is on the seashore"
+        },
+        {
+          "id": "c",
+          "text": "As the grass which is on the hills"
+        },
+        {
+          "id": "d",
+          "text": "As the drops of the morning dew"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 15:5",
+            "text": "Then He brought him outside and said, “Look now toward heaven, and count the stars if you are able to number them.” And He said to him, “So shall your descendants be.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 22:17",
+            "text": "blessing I will bless you, and multiplying I will multiply your descendants as the stars of the heaven and as the sand which is on the seashore; and your descendants shall possess the gate of their enemies.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 22:17, right after “as the stars of the heaven and.”",
+          "child": "Look at verse 17 right after the words about the stars.",
+          "teen": "15:5 has one comparison; 22:17 has two, joined by “and.” Read the second.",
+          "older": "It follows “the stars of the heaven and” in 22:17."
+        },
+        "extended_explanation": "In 15:5 God brings Abram outside, tells him to count the stars, and says, “So shall your descendants be.” After the test on the mountain, God swears by Himself in 22:16-17 and repeats the promise of countless descendants. He keeps the stars and adds one more comparison before speaking of their enemies. Read 22:17 after the stars.",
+        "takeaway": "God promised Abraham descendants as the stars of the heaven and as the sand which is on the seashore."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 12",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 12:3 God promises that in Abram all the families of the earth shall be blessed. When He repeats the promise in 22:18, what reason does He add?",
+        "child": "God first promised that all families on earth would be blessed through Abram. After the test on the mountain, God said it again and gave a reason. What was the reason?",
+        "teen": "Genesis 22:18 repeats the 12:3 promise of blessing for all nations but adds something at the end. What does it add?",
+        "older": "What reason closes the promise in Genesis 22:18?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Because you left your father’s house"
+        },
+        {
+          "id": "b",
+          "text": "Because you built an altar at Bethel"
+        },
+        {
+          "id": "c",
+          "text": "Because you have obeyed My voice"
+        },
+        {
+          "id": "d",
+          "text": "Because your faith was counted to you"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 12:3",
+            "text": "I will bless those who bless you, And I will curse him who curses you; And in you all the families of the earth shall be blessed.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 22:18",
+            "text": "In your seed all the nations of the earth shall be blessed, because you have obeyed My voice.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:18, after the comma that follows “shall be blessed.”",
+          "child": "Look at the last words of verse 18.",
+          "teen": "12:3 ends with the promise itself; 22:18 keeps going past the promise. Read what comes after it.",
+          "older": "The added words close 22:18; nothing like them appears in 12:3."
+        },
+        "extended_explanation": "God’s call in 12:1-3 ends with the promise that in Abram all the families of the earth shall be blessed. After Abraham’s test on the mountain, God swears by Himself and repeats the promise in 22:18 with “all the nations of the earth.” This time a reason closes the verse. Read the last words of 22:18.",
+        "takeaway": "In 22:18 God repeated the promise of 12:3, “because you have obeyed My voice.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-gen-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 3",
+      "topics": [
+        "genesis-connections"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:15 God puts enmity between the serpent and the woman, and between their offspring. In 22:17 God also speaks of enemies. What does He say Abraham’s descendants shall possess?",
+        "child": "In the garden, God said there would be enmity, or hostility, between the serpent and the woman’s family line. Much later God made Abraham a promise about enemies. What would Abraham’s descendants possess?",
+        "teen": "Genesis 3:15 and 22:17 both look ahead to conflict with enemies. According to 22:17, what will Abraham’s descendants possess?",
+        "older": "According to Genesis 22:17, what shall Abraham’s descendants possess?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The gate of their enemies"
+        },
+        {
+          "id": "b",
+          "text": "The wealth of their enemies"
+        },
+        {
+          "id": "c",
+          "text": "The cities of their enemies"
+        },
+        {
+          "id": "d",
+          "text": "The fields of their enemies"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 3:15",
+            "text": "And I will put enmity Between you and the woman, And between your seed and her Seed; He shall bruise your head, And you shall bruise His heel.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 22:17",
+            "text": "blessing I will bless you, and multiplying I will multiply your descendants as the stars of the heaven and as the sand which is on the seashore; and your descendants shall possess the gate of their enemies.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the final clause of 22:17.",
+          "child": "Look at the very end of verse 17.",
+          "teen": "22:17 compares the descendants to two things, then says what they will possess. Read that last part.",
+          "older": "The possession is named at the close of 22:17."
+        },
+        "extended_explanation": "In 3:15 God speaks to the serpent about enmity between its offspring and the woman’s, ending with a head and a heel. In 22:17, after Abraham’s test, God promises to multiply his descendants beyond counting. The verse ends by saying what those descendants will possess. Read the end of 22:17.",
+        "takeaway": "God promised that Abraham’s descendants would possess the gate of their enemies."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

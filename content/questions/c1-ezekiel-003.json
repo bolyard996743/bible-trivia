@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ezekiel-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-ezk-0003",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 8",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the sixth year, the hand of the Lord GOD fell on Ezekiel. In 8:3, by what did the form of a hand take him?",
+        "child": "In a vision, a hand reached out and lifted Ezekiel up to Jerusalem. What did it take hold of?",
+        "teen": "Ezekiel 8:3: “He stretched out the form of a hand, and took me by” what?",
+        "older": "According to Ezekiel 8:3, how was Ezekiel taken hold of?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a lock of my hair"
+        },
+        {
+          "id": "b",
+          "text": "the sleeve of my robe"
+        },
+        {
+          "id": "c",
+          "text": "the palm of my hand"
+        },
+        {
+          "id": "d",
+          "text": "the edge of my cloak"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 8:3",
+            "text": "He stretched out the form of a hand, and took me by a lock of my hair; and the Spirit lifted me up between earth and heaven, and brought me in visions of God to Jerusalem, to the door of the north gate of the inner court, where the seat of the image of jealousy was, which provokes to jealousy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 8:3, after “took me by.”",
+          "child": "Look at the start of verse 3.",
+          "teen": "8:3 tells how Ezekiel was taken up. Read the first part.",
+          "older": "It is in the opening line of 8:3."
+        },
+        "extended_explanation": "8:3 adds that the Spirit lifted him between earth and heaven and brought him in visions of God to Jerusalem.",
+        "takeaway": "He took Ezekiel “by a lock of my hair.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-ezk-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 8",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At the door of the north gate of the LORD’s house, Ezekiel saw women sitting and weeping. For whom were they weeping?",
+        "child": "In the vision, Ezekiel saw women crying for a false god at the temple gate. Who were they crying for?",
+        "teen": "Ezekiel 8:14: “Women were sitting there weeping for” whom?",
+        "older": "According to Ezekiel 8:14, for whom were the women weeping?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Baal"
+        },
+        {
+          "id": "b",
+          "text": "Molech"
+        },
+        {
+          "id": "c",
+          "text": "Dagon"
+        },
+        {
+          "id": "d",
+          "text": "Tammuz"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 8:14",
+            "text": "So He brought me to the door of the north gate of the LORD’s house; and to my dismay, women were sitting there weeping for Tammuz.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:14.",
+          "child": "Look at the last word of verse 14.",
+          "teen": "8:14 names the place and then what Ezekiel saw. Read the last line.",
+          "older": "It closes 8:14."
+        },
+        "extended_explanation": "8:13 promises Ezekiel even greater abominations. 8:14 places this scene at the door of the north gate of the LORD’s house.",
+        "takeaway": "The women were weeping for Tammuz."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-ezk-0012",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 9",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told the man clothed with linen to go through Jerusalem. Where was he to put a mark on those who sigh and cry over the abominations?",
+        "child": "A man with a writing kit was told to mark the people who were sad about the wrong things done in the city. Where did he put the mark?",
+        "teen": "Ezekiel 9:4: where was the mark to go on the men who sigh and cry over the abominations?",
+        "older": "According to Ezekiel 9:4, where was the mark to be put?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "on the doorposts"
+        },
+        {
+          "id": "b",
+          "text": "on the foreheads"
+        },
+        {
+          "id": "c",
+          "text": "on the right hands"
+        },
+        {
+          "id": "d",
+          "text": "on the garments"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 9:3",
+            "text": "Now the glory of the God of Israel had gone up from the cherub, where it had been, to the threshold of the temple. And He called to the man clothed with linen, who had the writer’s inkhorn at his side;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 9:4",
+            "text": "and the LORD said to him, “Go through the midst of the city, through the midst of Jerusalem, and put a mark on the foreheads of the men who sigh and cry over all the abominations that are done within it.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 9:4.",
+          "child": "Look at the middle of verse 4.",
+          "teen": "9:3 introduces the man with the inkhorn; 9:4 gives his task. Read where the mark goes.",
+          "older": "It comes just before “of the men who sigh and cry” in 9:4."
+        },
+        "extended_explanation": "9:3 says the glory of the God of Israel had gone up from the cherub to the threshold of the temple. 9:4 names those to be marked: the men who sigh and cry over all the abominations.",
+        "takeaway": "The mark went on the foreheads of those who sighed and cried."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-ezk-0013",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 10",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel saw that each cherub had four faces. What was the last face named in 10:14?",
+        "child": "The cherubim Ezekiel saw had four faces each. What was the fourth face?",
+        "teen": "Ezekiel 10:14: “And the fourth the face of” what?",
+        "older": "According to Ezekiel 10:14, what was the fourth face of each cherub?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "an ox"
+        },
+        {
+          "id": "b",
+          "text": "a bear"
+        },
+        {
+          "id": "c",
+          "text": "an eagle"
+        },
+        {
+          "id": "d",
+          "text": "a leopard"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 10:14",
+            "text": "Each one had four faces: the first face was the face of a cherub, the second face the face of a man, the third the face of a lion, and the fourth the face of an eagle.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 10:21",
+            "text": "Each one had four faces and each one four wings, and the likeness of the hands of a man was under their wings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:14.",
+          "child": "Look at the last words of verse 14.",
+          "teen": "10:14 lists four faces in order. Read the last.",
+          "older": "It closes 10:14."
+        },
+        "extended_explanation": "10:21 repeats that each one had four faces and four wings, with the likeness of the hands of a man under their wings.",
+        "takeaway": "The fourth was the face of an eagle."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ezk-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 11",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Men who gave wicked counsel said, “this city is the caldron.” What did they say they were?",
+        "child": "Some leaders bragged that their city was like a cooking pot. What did they say they were inside it?",
+        "teen": "Ezekiel 11:3: “This city is the caldron, and we are” what?",
+        "older": "According to Ezekiel 11:3, what did the men call themselves?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the fire"
+        },
+        {
+          "id": "b",
+          "text": "the bones"
+        },
+        {
+          "id": "c",
+          "text": "the salt"
+        },
+        {
+          "id": "d",
+          "text": "the meat"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 11:2",
+            "text": "And He said to me: “Son of man, these are the men who devise iniquity and give wicked counsel in this city,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 11:3",
+            "text": "who say, ‘The time is not near to build houses; this city is the caldron, and we are the meat.’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:3.",
+          "child": "Look at the last words of verse 3.",
+          "teen": "11:2 names the men; 11:3 quotes them. Read the end of their saying.",
+          "older": "It closes 11:3."
+        },
+        "extended_explanation": "11:2 calls them men who devise iniquity and give wicked counsel in this city. 11:3 begins their saying with “The time is not near to build houses.”",
+        "takeaway": "They said, “this city is the caldron, and we are the meat.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ezk-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 11",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 43:5 the glory of the LORD filled the temple. Earlier, in 11:16, what does He say He will be for the exiles scattered among the Gentiles?",
+        "child": "God’s people were scattered to faraway lands. What did God promise to be for them there?",
+        "teen": "Ezekiel 11:16: “Yet I shall be ___ for them.” What fills the blank?",
+        "older": "According to Ezekiel 11:16, what will the Lord GOD be for the scattered exiles?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a little sanctuary"
+        },
+        {
+          "id": "b",
+          "text": "a strong tower"
+        },
+        {
+          "id": "c",
+          "text": "a hidden shelter"
+        },
+        {
+          "id": "d",
+          "text": "a shield round about"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 11:16",
+            "text": "Therefore say, ‘Thus says the Lord GOD: “Although I have cast them far off among the Gentiles, and although I have scattered them among the countries, yet I shall be a little sanctuary for them in the countries where they have gone.” ’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 43:5",
+            "text": "The Spirit lifted me up and brought me into the inner court; and behold, the glory of the LORD filled the temple.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 11:16 after “yet I shall be.”",
+          "child": "Look at the second half of verse 16.",
+          "teen": "43:5 is the later scene; 11:16 first admits the scattering, then gives a promise. Read it.",
+          "older": "It follows “yet I shall be” in 11:16."
+        },
+        "extended_explanation": "11:16 says the LORD Himself cast them far off and scattered them. 43:5 has the Spirit bring Ezekiel into the inner court of the temple.",
+        "takeaway": "He will be “a little sanctuary” for them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ezk-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 11",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 11:23 the glory of the LORD went up from the midst of the city and stood on a mountain. In 43:2, from what way did the glory of the God of Israel come back?",
+        "child": "Ezekiel saw God’s glory leave the city. Later he saw it come back. Which way did it come from?",
+        "teen": "Ezekiel 43:2: “And behold, the glory of the God of Israel came from” which way?",
+        "older": "Ezekiel 11:23 tells where the glory went. According to 43:2, from what way did it return?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the way of the north"
+        },
+        {
+          "id": "b",
+          "text": "the way of the sea"
+        },
+        {
+          "id": "c",
+          "text": "the way of the east"
+        },
+        {
+          "id": "d",
+          "text": "the way of the wilderness"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 11:23",
+            "text": "And the glory of the LORD went up from the midst of the city and stood on the mountain, which is on the east side of the city.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 43:2",
+            "text": "And behold, the glory of the God of Israel came from the way of the east. His voice was like the sound of many waters; and the earth shone with His glory.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 43:2, after “came from.”",
+          "child": "Look at the beginning of 43:2.",
+          "teen": "11:23 is the leaving; 43:2 is the return. Read the first line of 43:2.",
+          "older": "It ends the first sentence of 43:2."
+        },
+        "extended_explanation": "11:23 has the glory leave the midst of the city and stand on the mountain beside it. 43:2 adds that His voice was like the sound of many waters and the earth shone with His glory.",
+        "takeaway": "The glory came back “from the way of the east.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-ezk-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 10",
+      "topics": [
+        "glory-departs-and-returns"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 10:4 the glory of the LORD paused over the threshold of the temple. In 47:5, after the man measured another thousand cubits, what had the water from the temple become?",
+        "child": "Ezekiel walked into water flowing from God’s temple. It got deeper and deeper. What did it become at last?",
+        "teen": "Ezekiel 47:5: “Again he measured one thousand, and it was” what?",
+        "older": "Ezekiel 10:4 shows the glory at the threshold. According to 47:5, what did the water finally become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a lake as still as glass"
+        },
+        {
+          "id": "b",
+          "text": "a river that I could not cross"
+        },
+        {
+          "id": "c",
+          "text": "a sea without a shore"
+        },
+        {
+          "id": "d",
+          "text": "a flood that covered the whole land"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 10:4",
+            "text": "Then the glory of the LORD went up from the cherub, and paused over the threshold of the temple; and the house was filled with the cloud, and the court was full of the brightness of the LORD’s glory.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 47:4",
+            "text": "Again he measured one thousand and brought me through the waters; the water came up to my knees. Again he measured one thousand and brought me through; the water came up to my waist.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 47:5",
+            "text": "Again he measured one thousand, and it was a river that I could not cross; for the water was too deep, water in which one must swim, a river that could not be crossed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 47:5 after “and it was.”",
+          "child": "Look at the start of 47:5.",
+          "teen": "10:4 is the setting; 47:4-5 measure the water. Read what it became in 47:5.",
+          "older": "It is in the first sentence of 47:5."
+        },
+        "extended_explanation": "10:4 says the house was filled with the cloud and the court with the brightness of the LORD’s glory. 47:4 measures the water at the knees and then the waist. 47:7 says very many trees stood on one side and the other.",
+        "takeaway": "It became “a river that I could not cross.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-micah-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-mic-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 1",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The word of the LORD came to Micah in the days of Jotham, Ahaz, and Hezekiah, kings of Judah. What town was Micah from?",
+        "child": "Micah was a prophet in the days of King Hezekiah. The first verse of his book tells his hometown. What was it?",
+        "teen": "Micah 1:1 calls him “Micah of” what town?",
+        "older": "According to Micah 1:1, from what town did Micah come?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Anathoth"
+        },
+        {
+          "id": "b",
+          "text": "Beth Shemesh"
+        },
+        {
+          "id": "c",
+          "text": "Moresheth"
+        },
+        {
+          "id": "d",
+          "text": "Shiloh"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 1:1",
+            "text": "The word of the LORD that came to Micah of Moresheth in the days of Jotham, Ahaz, and Hezekiah, kings of Judah, which he saw concerning Samaria and Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 1:1, right after “came to Micah of.”",
+          "child": "Look at the very start of verse 1. The town comes right after Micah’s name.",
+          "teen": "1:1 names the prophet with his hometown, then the kings. Read the name.",
+          "older": "It follows “Micah of” in the opening clause of 1:1."
+        },
+        "extended_explanation": "Micah 1:1 introduces the prophet by his town, gives the reigns of three kings of Judah, and says the message concerned both Samaria and Jerusalem. Micah prophesied in the same era as Isaiah. Jeremiah 26:18 later remembers him by the same town name when the elders recall his warning about Zion.",
+        "takeaway": "The word came to “Micah of Moresheth.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mic-0002",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 4",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In the latter days, Micah says, nations shall beat their swords into plowshares. What shall they beat their spears into?",
+        "child": "Micah saw a future time of peace when weapons would be turned into farm tools. Swords would become plowshares. What would spears become?",
+        "teen": "Micah 4:3: “And their spears into ___.” What fills the blank?",
+        "older": "According to Micah 4:3, into what shall the nations beat their spears?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "pruning hooks"
+        },
+        {
+          "id": "b",
+          "text": "tent pegs"
+        },
+        {
+          "id": "c",
+          "text": "wooden yokes"
+        },
+        {
+          "id": "d",
+          "text": "harvest sickles"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 4:3",
+            "text": "He shall judge between many peoples, And rebuke strong nations afar off; They shall beat their swords into plowshares, And their spears into pruning hooks; Nation shall not lift up sword against nation, Neither shall they learn war anymore.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 4:3 after “And their spears into.”",
+          "child": "Look at the middle of verse 4:3. The words come right after “spears into.”",
+          "teen": "4:3 pairs two weapons with two tools. Read the second pair.",
+          "older": "It follows “And their spears into” in 4:3."
+        },
+        "extended_explanation": "Micah 4:1-3 looks ahead to the mountain of the LORD’s house raised above the hills, with nations streaming to it to be taught. 4:3 says the LORD will judge between peoples, and then two weapons are remade. The verse ends with nations no longer learning war. Isaiah 2:4 has nearly the same words.",
+        "takeaway": "“They shall beat their swords into plowshares, And their spears into pruning hooks.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mic-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 4",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Micah says everyone shall sit under his vine and under his fig tree. What comes next in 4:4?",
+        "child": "Micah pictured each family sitting peacefully under their own vine and fig tree. What else did he say would be true?",
+        "teen": "Micah 4:4: “But everyone shall sit under his vine and under his fig tree, And ___.” What fills the blank?",
+        "older": "According to Micah 4:4, what follows the picture of everyone under his vine and fig tree?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "all shall have bread enough"
+        },
+        {
+          "id": "b",
+          "text": "peace shall fill the land"
+        },
+        {
+          "id": "c",
+          "text": "the nations shall bring gifts"
+        },
+        {
+          "id": "d",
+          "text": "no one shall make them afraid"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 4:4",
+            "text": "But everyone shall sit under his vine and under his fig tree, And no one shall make them afraid; For the mouth of the LORD of hosts has spoken.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 4:5",
+            "text": "For all people walk each in the name of his god, But we will walk in the name of the LORD our God Forever and ever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 4:4, after “under his fig tree.”",
+          "child": "Look at verse 4. The words come right after “under his fig tree, And.”",
+          "teen": "4:4 has three lines. Read the middle one.",
+          "older": "It follows “under his vine and under his fig tree” in 4:4."
+        },
+        "extended_explanation": "Micah 4:4 pictures every household sitting in its own garden. The middle line of the verse completes the picture, and the last line gives the guarantee: “For the mouth of the LORD of hosts has spoken.” 4:5 adds a pledge to follow the LORD our God forever.",
+        "takeaway": "“Everyone shall sit under his vine and under his fig tree, And no one shall make them afraid.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-mic-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 3",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Micah says Jerusalem’s heads judge for a bribe and her priests teach for pay. For what do her prophets divine?",
+        "child": "Micah named three kinds of leaders in Jerusalem: heads, priests, and prophets. He said what each one did their work for. What did her prophets divine for?",
+        "teen": "Micah 3:11: “And her prophets divine for ___.” What fills the blank?",
+        "older": "According to Micah 3:11, for what do Jerusalem’s prophets divine?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "honor"
+        },
+        {
+          "id": "b",
+          "text": "money"
+        },
+        {
+          "id": "c",
+          "text": "wine"
+        },
+        {
+          "id": "d",
+          "text": "bread"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 3:11",
+            "text": "Her heads judge for a bribe, Her priests teach for pay, And her prophets divine for money. Yet they lean on the LORD, and say, “Is not the LORD among us? No harm can come upon us.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 3:12",
+            "text": "Therefore because of you Zion shall be plowed like a field, Jerusalem shall become heaps of ruins, And the mountain of the temple Like the bare hills of the forest.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 3:11 after “And her prophets divine for.”",
+          "child": "Look at verse 11. It is the third thing in a list of three.",
+          "teen": "3:11 lists heads, priests, and prophets. Read the end of the third line.",
+          "older": "It follows “And her prophets divine for” in 3:11."
+        },
+        "extended_explanation": "Micah 3 confronts the leaders of Jacob. 3:11 lists three kinds of leaders and what each serves for, yet they still claim, “Is not the LORD among us?” 3:12 gives the result: because of them Zion shall be plowed like a field. A century later, Jeremiah 26:18 recalls this very warning.",
+        "takeaway": "“Her prophets divine for money.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 5",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Micah 5:2 speaks of the One to be Ruler in Israel. What does the verse say about His goings forth?",
+        "child": "Micah said a Ruler would come for Israel. What did Micah say about the Ruler’s goings forth?",
+        "teen": "Micah 5:2 ends, “Whose goings forth are ___.” What completes it?",
+        "older": "According to Micah 5:2, how does the prophet describe the Ruler’s goings forth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "from of old, From everlasting"
+        },
+        {
+          "id": "b",
+          "text": "from the days of David"
+        },
+        {
+          "id": "c",
+          "text": "from the tents of Jacob"
+        },
+        {
+          "id": "d",
+          "text": "from the courts of the temple"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 5:2",
+            "text": "“But you, Bethlehem Ephrathah, Though you are little among the thousands of Judah, Yet out of you shall come forth to Me The One to be Ruler in Israel, Whose goings forth are from of old, From everlasting.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 5:3",
+            "text": "Therefore He shall give them up, Until the time that she who is in labor has given birth; Then the remnant of His brethren Shall return to the children of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last two lines of 5:2, after “Whose goings forth are.”",
+          "child": "Look at the very end of verse 2. The words come after “Whose goings forth are.”",
+          "teen": "5:2 ends by describing the Ruler. Read the final lines.",
+          "older": "It closes 5:2, after “Whose goings forth are.”"
+        },
+        "extended_explanation": "Micah 5:2 speaks of the One to be Ruler in Israel, and its final lines describe His goings forth. 5:3 adds that He will give them up until she who is in labor has given birth, and then the remnant of His brethren shall return to the children of Israel.",
+        "takeaway": "His goings forth are “from of old, From everlasting.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 2",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:1 Micah condemns those who work out evil on their beds. In 7:2 he mourns that the faithful man has perished. With what does every man hunt his brother?",
+        "child": "Micah said people planned wrong things even in bed. Later he said no good people were left, and everyone was hunting his brother. What did they hunt with?",
+        "teen": "Link Micah 2:1 and 7:2. “Every man hunts his brother with” what?",
+        "older": "According to Micah 7:2, with what does every man hunt his brother?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a sword"
+        },
+        {
+          "id": "b",
+          "text": "a bow"
+        },
+        {
+          "id": "c",
+          "text": "a net"
+        },
+        {
+          "id": "d",
+          "text": "a spear"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 2:1",
+            "text": "Woe to those who devise iniquity, And work out evil on their beds! At morning light they practice it, Because it is in the power of their hand.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 7:2",
+            "text": "The faithful man has perished from the earth, And there is no one upright among men. They all lie in wait for blood; Every man hunts his brother with a net.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 7:2, after “Every man hunts his brother with.”",
+          "child": "Look at the end of verse 7:2. The word comes right after “hunts his brother with.”",
+          "teen": "7:2 ends with a picture of hunting. Read the last line.",
+          "older": "It closes 7:2, after “hunts his brother with.”"
+        },
+        "extended_explanation": "Micah 2:1-2 describes people who plan evil at night and carry it out at morning light, coveting fields and houses. In 7:1-2 the prophet looks for anyone upright and finds no one; the last line of 7:2 describes how people treat even their own kin.",
+        "takeaway": "“Every man hunts his brother with a net.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 3",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3:12 Zion is plowed and the mountain of the temple becomes like bare hills. In 4:2 many nations say, “He will teach us His ways.” What do they say next?",
+        "child": "Micah warned that the temple hill would become bare. Then he saw nations coming to it to learn God’s ways. What did the nations promise to do?",
+        "teen": "Connect Micah 3:12 and 4:2. After “He will teach us His ways,” what do the nations say?",
+        "older": "According to Micah 4:2, what will the nations do once the LORD teaches them His ways?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "keep His statutes"
+        },
+        {
+          "id": "b",
+          "text": "walk in His paths"
+        },
+        {
+          "id": "c",
+          "text": "sing of His deeds"
+        },
+        {
+          "id": "d",
+          "text": "bring Him offerings"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 3:12",
+            "text": "Therefore because of you Zion shall be plowed like a field, Jerusalem shall become heaps of ruins, And the mountain of the temple Like the bare hills of the forest.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 4:2",
+            "text": "Many nations shall come and say, “Come, and let us go up to the mountain of the LORD, To the house of the God of Jacob; He will teach us His ways, And we shall walk in His paths.” For out of Zion the law shall go forth, And the word of the LORD from Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 4:2 after “He will teach us His ways, And we shall.”",
+          "child": "Look at verse 4:2. The nations’ words come right after “And we shall.”",
+          "teen": "4:2 quotes the nations. Read the end of their words.",
+          "older": "It follows “He will teach us His ways, And we shall” in 4:2."
+        },
+        "extended_explanation": "The chapter break between Micah 3 and 4 is sharp. 3:12 ends with Zion plowed and the temple mount like a wooded hill. 4:1 begins, “Now it shall come to pass in the latter days,” and the same mountain is raised above the hills. In 4:2 the nations speak, and their words finish with a promise about how they will live.",
+        "takeaway": "The nations say, “He will teach us His ways, And we shall walk in His paths.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-mic-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 5",
+      "topics": [
+        "micah-judgment-and-hope"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 7:3 the prince asks for gifts and the judge seeks a bribe. In contrast, 5:4 says the coming One shall stand and feed His flock in the strength of the LORD. How far shall He be great?",
+        "child": "Micah said the leaders of his day wanted gifts and bribes. But he also said a coming leader would care for His people in God’s strength. How far would His greatness reach?",
+        "teen": "Link Micah 7:3 and 5:4. “For now He shall be great To” where?",
+        "older": "According to Micah 5:4, to where shall the coming One be great?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the borders of Judah"
+        },
+        {
+          "id": "b",
+          "text": "the gates of Zion"
+        },
+        {
+          "id": "c",
+          "text": "the heights of heaven"
+        },
+        {
+          "id": "d",
+          "text": "the ends of the earth"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 5:4",
+            "text": "And He shall stand and feed His flock In the strength of the LORD, In the majesty of the name of the LORD His God; And they shall abide, For now He shall be great To the ends of the earth;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 7:3",
+            "text": "That they may successfully do evil with both hands— The prince asks for gifts, The judge seeks a bribe, And the great man utters his evil desire; So they scheme together.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 5:4, after “For now He shall be great To.”",
+          "child": "Look at the very end of verse 5:4. The words come after “He shall be great To.”",
+          "teen": "5:4 closes by saying how far His greatness reaches. Read the last line.",
+          "older": "It closes 5:4, after “For now He shall be great To.”"
+        },
+        "extended_explanation": "Micah 7:3 describes leaders who use both hands to do evil: the prince and the judge both want payment. 5:4 describes a very different Ruler, who stands and feeds His flock in the majesty of the name of the LORD His God, so that His people abide. The final line of 5:4 tells how far His greatness reaches.",
+        "takeaway": "He shall be great “To the ends of the earth.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

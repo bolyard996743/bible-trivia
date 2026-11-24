@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-songofsolomon-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-sng-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 2",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Song of Solomon 2:1 the speaker describes herself with two flowers. Besides “the lily of the valleys,” what does she call herself?",
+        "child": "In the Song of Solomon, the bride compares herself to two flowers. One is the lily of the valleys. What is the other?",
+        "teen": "Song of Solomon 2:1 says, “I am ___, And the lily of the valleys.” What fills the blank?",
+        "older": "According to Song of Solomon 2:1, what does the speaker call herself along with “the lily of the valleys”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The rose of Sharon"
+        },
+        {
+          "id": "b",
+          "text": "The flower of Carmel"
+        },
+        {
+          "id": "c",
+          "text": "The lotus of Egypt"
+        },
+        {
+          "id": "d",
+          "text": "The myrtle of Gilead"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 2:1",
+            "text": "I am the rose of Sharon, And the lily of the valleys.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 2:1, right after “I am.”",
+          "child": "Look at the start of verse 1. The first flower comes right after “I am.”",
+          "teen": "2:1 has two descriptions joined by “And.” Read the first one, after “I am.”",
+          "older": "The first description in 2:1 follows “I am,” before “And the lily of the valleys.”"
+        },
+        "extended_explanation": "Song of Solomon is a love poem between a bride and her beloved. Chapter 2 opens with the bride’s description of herself using two flowers, and the beloved answers in 2:2 with “Like a lily among thorns.” The first flower in 2:1 comes right after “I am.”",
+        "takeaway": "The bride says, “I am the rose of Sharon, And the lily of the valleys.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-sng-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 2",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Song of Solomon 2:15, something must be caught because it spoils the vines while they have tender grapes. What is it?",
+        "child": "The Song of Solomon asks someone to catch the animals that ruin the grapevines. What animals are they?",
+        "teen": "Song of Solomon 2:15 says, “Catch us ___ that spoil the vines.” What fills the blank?",
+        "older": "According to Song of Solomon 2:15, what spoils the vines that have tender grapes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The wild boars"
+        },
+        {
+          "id": "b",
+          "text": "The little foxes"
+        },
+        {
+          "id": "c",
+          "text": "The young lions"
+        },
+        {
+          "id": "d",
+          "text": "The hungry locusts"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 2:15",
+            "text": "Catch us the foxes, The little foxes that spoil the vines, For our vines have tender grapes.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 2:15, right before “that spoil the vines.”",
+          "child": "Look at verse 15. The animals are named on the second line, before “that spoil the vines.”",
+          "teen": "2:15 names them twice. The second time, they come right before “that spoil the vines.”",
+          "older": "The second line of 2:15 names them, ahead of “that spoil the vines.”"
+        },
+        "extended_explanation": "In the spring scene of 2:8-17 the beloved calls the bride to come away, for spring has come and the vines have tender grapes. 2:15 asks that something be caught, naming it twice and explaining that it spoils the vines. Read the second line, before “that spoil the vines.”",
+        "takeaway": "“Catch us the foxes, The little foxes that spoil the vines.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-sng-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 2",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Her beloved says, “Rise up, my love, my fair one, And come away” (2:10). What is the first reason he gives in 2:11?",
+        "child": "In the Song of Solomon, the beloved calls, “Rise up, my love, my fair one, And come away.” What is the first reason he gives?",
+        "teen": "In Song of Solomon 2:10 the beloved says, “come away.” In 2:11, after “For lo,” what reason does he give first?",
+        "older": "According to Song of Solomon 2:11, what first reason does the beloved give for “come away”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the harvest is near"
+        },
+        {
+          "id": "b",
+          "text": "the feast has begun"
+        },
+        {
+          "id": "c",
+          "text": "the winter is past"
+        },
+        {
+          "id": "d",
+          "text": "the night is over"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 2:10",
+            "text": "My beloved spoke, and said to me: “Rise up, my love, my fair one, And come away.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Song of Solomon 2:11",
+            "text": "For lo, the winter is past, The rain is over and gone.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 2:11, right after “For lo.”",
+          "child": "Look at the start of verse 11. The first reason comes right after “For lo.”",
+          "teen": "2:11 gives two parallel lines. Read the first, after “For lo.”",
+          "older": "The first line of 2:11, after “For lo,” gives it; the rain follows on the next line."
+        },
+        "extended_explanation": "In 2:8-9 the bride hears her beloved coming, leaping on the mountains like a gazelle, and looking through the lattice. In 2:10 he calls her to rise up and come away. 2:11-13 gives the reasons, beginning with “For lo” and continuing with the rain, the flowers, the turtledove, and the fig tree.",
+        "takeaway": "“For lo, the winter is past, The rain is over and gone.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-sng-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 2",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The bride says, “My beloved is mine, and I am his.” Where does she say he feeds his flock?",
+        "child": "In the Song of Solomon the bride says, “My beloved is mine, and I am his.” Then she tells where he feeds his flock. Where?",
+        "teen": "Song of Solomon 2:16 says, “My beloved is mine, and I am his. He feeds his flock.” Where?",
+        "older": "According to Song of Solomon 2:16, where does the beloved feed his flock?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On the hills of Gilead"
+        },
+        {
+          "id": "b",
+          "text": "By the springs of Engedi"
+        },
+        {
+          "id": "c",
+          "text": "In the courts of the king"
+        },
+        {
+          "id": "d",
+          "text": "Among the lilies"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 2:16",
+            "text": "My beloved is mine, and I am his. He feeds his flock among the lilies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Song of Solomon 2:17",
+            "text": "Until the day breaks And the shadows flee away, Turn, my beloved, And be like a gazelle Or a young stag Upon the mountains of Bether.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:16, right after “He feeds his flock.”",
+          "child": "Look at the last words of verse 16. The place comes right after “He feeds his flock.”",
+          "teen": "2:16 has two sentences. The place ends the second one, after “his flock.”",
+          "older": "The place closes 2:16, following “He feeds his flock.”"
+        },
+        "extended_explanation": "After the spring call, the bride declares that she and her beloved belong to each other. 2:16 then says where he feeds his flock, and 2:17 asks him to turn and be like a gazelle until the day breaks and the shadows flee away. The place ends 2:16.",
+        "takeaway": "“My beloved is mine, and I am his. He feeds his flock among the lilies.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-sng-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 2",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The bride charges the daughters of Jerusalem, “Do not stir up nor awaken love” (2:7), and charges them again in 5:8. According to 2:7, until when should love not be stirred up?",
+        "child": "The bride tells the young women of Jerusalem not to stir up or wake love too soon. Until when?",
+        "teen": "In Song of Solomon 2:7 the bride says, “Do not stir up nor awaken love.” She charges the daughters of Jerusalem again in 5:8. Until when, according to 2:7?",
+        "older": "According to Song of Solomon 2:7, until when should love not be stirred up nor awakened?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Until it pleases"
+        },
+        {
+          "id": "b",
+          "text": "Until the wedding day"
+        },
+        {
+          "id": "c",
+          "text": "Until the king returns"
+        },
+        {
+          "id": "d",
+          "text": "Until the vineyard blooms"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 2:7",
+            "text": "I charge you, O daughters of Jerusalem, By the gazelles or by the does of the field, Do not stir up nor awaken love Until it pleases.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Song of Solomon 5:8",
+            "text": "I charge you, O daughters of Jerusalem, If you find my beloved, That you tell him I am lovesick!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the very end of 2:7, after “Do not stir up nor awaken love.”",
+          "child": "Look at the last line of verse 7. The words come right after “awaken love.”",
+          "teen": "2:7 ends with a time limit after the charge. Read the closing words.",
+          "older": "The time limit closes 2:7, after “nor awaken love.”"
+        },
+        "extended_explanation": "Twice in these passages the bride charges the daughters of Jerusalem. In 2:7 the charge is made “by the gazelles or by the does of the field” and ends with a time limit; in 5:8 she charges them to tell her beloved she is lovesick. Read the last words of 2:7.",
+        "takeaway": "“Do not stir up nor awaken love Until it pleases.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-sng-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 8",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Solomon leased his vineyard at Baal Hamon, and each keeper brought a thousand silver coins for it (8:11). But 8:7 says something about a man who would give all the wealth of his house for love. What would happen?",
+        "child": "King Solomon’s vineyard was worth a thousand silver coins from each keeper. But the Song says if a man offered all the wealth of his house to buy love, something would happen. What?",
+        "teen": "Song of Solomon 8:7 says, “If a man would give for love All the wealth of his house.” What follows, as 8:11 tells of Solomon’s vineyard and its silver?",
+        "older": "According to Song of Solomon 8:7, what would happen if a man gave all the wealth of his house for love?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "It would be gladly received"
+        },
+        {
+          "id": "b",
+          "text": "It would be returned to him"
+        },
+        {
+          "id": "c",
+          "text": "It would be utterly despised"
+        },
+        {
+          "id": "d",
+          "text": "It would win her father’s favor"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 8:7",
+            "text": "Many waters cannot quench love, Nor can the floods drown it. If a man would give for love All the wealth of his house, It would be utterly despised.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Song of Solomon 8:11",
+            "text": "Solomon had a vineyard at Baal Hamon; He leased the vineyard to keepers; Everyone was to bring for its fruit A thousand silver coins.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 8:7, after “All the wealth of his house.”",
+          "child": "Look at the end of verse 8:7. The result comes right after “the wealth of his house.”",
+          "teen": "8:7 ends with an “if” and a result. Read the result in the final line.",
+          "older": "The result closes 8:7, following “All the wealth of his house.”"
+        },
+        "extended_explanation": "8:6-7 is the high point of the poem’s praise of love, which many waters cannot quench nor floods drown. 8:7 ends by imagining a man offering all the wealth of his house for love, and gives the result. 8:11-12 then contrasts Solomon’s rich vineyard at Baal Hamon with the bride’s own vineyard.",
+        "takeaway": "If a man gave all the wealth of his house for love, “It would be utterly despised.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-sng-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 4",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The beloved says, “How much better than wine is your love” (4:10). Near the end of the Song, 8:6 makes another comparison about love. What does 8:6 say love is?",
+        "child": "In chapter 4 the beloved says her love is better than wine. In chapter 8 the bride makes another comparison about love. What does she say love is?",
+        "teen": "Connect Song of Solomon 4:10 and 8:6. 4:10 says love is better than wine. After “Set me as a seal upon your heart,” what does 8:6 say love is?",
+        "older": "According to Song of Solomon 8:6, what is love?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "as deep as the sea"
+        },
+        {
+          "id": "b",
+          "text": "as strong as death"
+        },
+        {
+          "id": "c",
+          "text": "as bright as the sun"
+        },
+        {
+          "id": "d",
+          "text": "as firm as the mountains"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 4:10",
+            "text": "How fair is your love, My sister, my spouse! How much better than wine is your love, And the scent of your perfumes Than all spices!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Song of Solomon 8:6",
+            "text": "Set me as a seal upon your heart, As a seal upon your arm; For love is as strong as death, Jealousy as cruel as the grave; Its flames are flames of fire, A most vehement flame.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 8:6 after “For love is,” in the middle of the verse.",
+          "child": "In verse 8:6, find “For love is.” What love is comes right after.",
+          "teen": "8:6 moves from the seal to a reason starting “For love is.” Read the words after it.",
+          "older": "The claim follows “For love is” in the middle of 8:6, before “Jealousy.”"
+        },
+        "extended_explanation": "The beloved praises the bride’s love above wine and perfume in 4:10. In 8:6 the bride asks to be set as a seal upon his heart and arm, and gives a reason beginning “For love is,” followed by a parallel line about jealousy and by flames of fire.",
+        "takeaway": "“For love is as strong as death.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-sng-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Song of Solomon",
+      "section": "Song of Solomon 2",
+      "topics": [
+        "love-is-strong"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Early in the Song the bride says her beloved is like a gazelle or a young stag (2:9). In the last verse she asks him to make haste and be like a gazelle or a young stag. Where (8:14)?",
+        "child": "The bride says her beloved is like a gazelle or a young deer. In the very last verse of the book, she asks him to hurry and be like one again. On what mountains?",
+        "teen": "Connect Song of Solomon 2:9 and 8:14. In 8:14, “Make haste, my beloved, And be like a gazelle Or a young stag.” On what mountains?",
+        "older": "According to Song of Solomon 8:14, on what mountains does the bride ask her beloved to be like a young stag?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "On the mountains of Lebanon"
+        },
+        {
+          "id": "b",
+          "text": "On the hills of Jerusalem"
+        },
+        {
+          "id": "c",
+          "text": "On the heights of Hermon"
+        },
+        {
+          "id": "d",
+          "text": "On the mountains of spices"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Song of Solomon 2:9",
+            "text": "My beloved is like a gazelle or a young stag. Behold, he stands behind our wall; He is looking through the windows, Gazing through the lattice.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Song of Solomon 8:14",
+            "text": "Make haste, my beloved, And be like a gazelle Or a young stag On the mountains of spices.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 8:14, the final words of the book.",
+          "child": "Look at the very last line of the book, at the end of 8:14.",
+          "teen": "8:14 closes the Song. The place is its final line.",
+          "older": "The final line of 8:14 names it, after “Or a young stag.”"
+        },
+        "extended_explanation": "The picture of the beloved as a gazelle or young stag frames the Song. In 2:9 he comes leaping over the mountains and stands behind the wall; in 2:17 she asks him to turn like one. The book ends in 8:14 with her call to make haste and be like a gazelle, naming the mountains in the final line.",
+        "takeaway": "“Make haste, my beloved, And be like a gazelle Or a young stag On the mountains of spices.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

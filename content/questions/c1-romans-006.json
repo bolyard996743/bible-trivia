@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rom-0020",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 16",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Near the end of Romans, the man who wrote the letter down sends his own greeting. According to 16:22, what is his name?",
+        "child": "Paul had a helper write down the letter to the Romans. What was the helper’s name?",
+        "teen": "Romans 16:22: “I,” who, “who wrote this epistle, greet you in the Lord”?",
+        "older": "According to Romans 16:22, who wrote this epistle?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tychicus"
+        },
+        {
+          "id": "b",
+          "text": "Tertius"
+        },
+        {
+          "id": "c",
+          "text": "Silas"
+        },
+        {
+          "id": "d",
+          "text": "Titus"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 16:22",
+            "text": "I, Tertius, who wrote this epistle, greet you in the Lord.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 16:22.",
+          "child": "Look at the name at the start of verse 22.",
+          "teen": "16:22 gives the name, then what he did, then his greeting. Read the name.",
+          "older": "It follows “I,” in 16:22."
+        },
+        "extended_explanation": "16:22 says he greets them in the Lord.",
+        "takeaway": "I, Tertius, who wrote this epistle, greet you in the Lord."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 13",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul tells believers to know the time. According to 13:11, it is now high time to do what?",
+        "child": "Paul says salvation is nearer than when we first believed. So it is high time to do what?",
+        "teen": "Romans 13:11: “that now it is high time” to do what?",
+        "older": "According to Romans 13:11, it is high time for believers to do what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to awake out of sleep"
+        },
+        {
+          "id": "b",
+          "text": "to rest from our labors"
+        },
+        {
+          "id": "c",
+          "text": "to return to Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "to fast and mourn"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 13:11",
+            "text": "And do this, knowing the time, that now it is high time to awake out of sleep; for now our salvation is nearer than when we first believed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 13:11.",
+          "child": "Look after “high time” in verse 11.",
+          "teen": "13:11 says to know the time, then what to do, then why. Read what to do.",
+          "older": "It follows “now it is high time” in 13:11."
+        },
+        "extended_explanation": "13:11 adds, “for now our salvation is nearer than when we first believed.”",
+        "takeaway": "It is high time to awake out of sleep."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 13",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul says believers pay taxes because rulers are God’s ministers. According to 13:7, what should be rendered to all?",
+        "child": "Paul lists taxes, customs, fear, and honor. What does he say to give to everyone?",
+        "teen": "Romans 13:7: “Render therefore to all” what?",
+        "older": "According to Romans 13:7, what are believers to render to all?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "their tithe"
+        },
+        {
+          "id": "b",
+          "text": "their wages"
+        },
+        {
+          "id": "c",
+          "text": "their reward"
+        },
+        {
+          "id": "d",
+          "text": "their due"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 13:6",
+            "text": "For because of this you also pay taxes, for they are God’s ministers attending continually to this very thing.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 13:7",
+            "text": "Render therefore to all their due: taxes to whom taxes are due, customs to whom customs, fear to whom fear, honor to whom honor.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 13:7.",
+          "child": "Look at the first words of verse 7.",
+          "teen": "13:6 gives a reason; 13:7 gives the command, then a list. Read the command.",
+          "older": "It follows “Render therefore to all” in 13:7."
+        },
+        "extended_explanation": "13:7 lists taxes, customs, fear, and honor, each to whom it is owed.",
+        "takeaway": "Render therefore to all their due."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rom-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 16",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul greets Priscilla and Aquila, his fellow workers. According to 16:4, what had they done for Paul?",
+        "child": "Paul thanks a married couple who were his co-workers. What had they done for him?",
+        "teen": "Romans 16:4: “who” did what “for my life”?",
+        "older": "According to Romans 16:4, what did Priscilla and Aquila do for Paul’s life?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "sold their own lands for me"
+        },
+        {
+          "id": "b",
+          "text": "left their own country behind"
+        },
+        {
+          "id": "c",
+          "text": "risked their own necks"
+        },
+        {
+          "id": "d",
+          "text": "stood their own trial for me"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 16:3",
+            "text": "Greet Priscilla and Aquila, my fellow workers in Christ Jesus,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 16:4",
+            "text": "who risked their own necks for my life, to whom not only I give thanks, but also all the churches of the Gentiles.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 16:4.",
+          "child": "Look at the first words of verse 4.",
+          "teen": "16:3 names them; 16:4 says what they did, then who gives thanks. Read what they did.",
+          "older": "It follows “who” at the start of 16:4."
+        },
+        "extended_explanation": "16:4 says not only Paul but all the churches of the Gentiles give thanks for them.",
+        "takeaway": "They risked their own necks for my life."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0011",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 15",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul prays that believers would be like-minded toward one another. In 15:7, what does he then tell them to do?",
+        "child": "Paul tells the believers in Rome how to treat each other. What does 15:7 tell them to do?",
+        "teen": "Romans 15:7: “Therefore” do what?",
+        "older": "According to Romans 15:7, what are believers told to do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "receive one another"
+        },
+        {
+          "id": "b",
+          "text": "comfort one another"
+        },
+        {
+          "id": "c",
+          "text": "pray for one another"
+        },
+        {
+          "id": "d",
+          "text": "encourage one another"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 15:5",
+            "text": "Now may the God of patience and comfort grant you to be like-minded toward one another, according to Christ Jesus,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 15:7",
+            "text": "Therefore receive one another, just as Christ also received us, to the glory of God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 15:7.",
+          "child": "Look at the first words of verse 7.",
+          "teen": "15:5 is Paul’s prayer; 15:7 gives the command, then the example, then the purpose. Read the command.",
+          "older": "It follows “Therefore” in 15:7."
+        },
+        "extended_explanation": "15:5 prays for a like mind according to Christ Jesus. 15:7 names the purpose as God’s glory.",
+        "takeaway": "Therefore receive one another, just as Christ also received us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0012",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 15",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 16:26 Paul says the prophetic Scriptures are made known to all nations. In 15:4, for what were the things written before written?",
+        "child": "Paul says the Scriptures written long ago still matter. Why were they written?",
+        "teen": "Romans 15:4: “For whatever things were written before were written” for what?",
+        "older": "Linking Romans 15:4 with 16:26, why were the things written before written?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "for the priests only"
+        },
+        {
+          "id": "b",
+          "text": "for our learning"
+        },
+        {
+          "id": "c",
+          "text": "for Israel alone"
+        },
+        {
+          "id": "d",
+          "text": "for the scribes’ use"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 15:4",
+            "text": "For whatever things were written before were written for our learning, that we through the patience and comfort of the Scriptures might have hope.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 16:26",
+            "text": "but now made manifest, and by the prophetic Scriptures made known to all nations, according to the commandment of the everlasting God, for obedience to the faith—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first half of 15:4.",
+          "child": "Look after “were written” the second time in verse 4.",
+          "teen": "16:26 is the later statement; 15:4 gives the purpose, then a hope. Read the purpose.",
+          "older": "It follows “were written before were written” in 15:4."
+        },
+        "extended_explanation": "15:4 adds, “that we through the patience and comfort of the Scriptures might have hope.” 16:26 calls this the commandment of the everlasting God.",
+        "takeaway": "They were written for our learning."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 12",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 12:18 Paul urges, “live peaceably with all men.” In 16:20, where will the God of peace crush Satan?",
+        "child": "Paul promises that the God of peace will defeat Satan. Where will He crush him?",
+        "teen": "Romans 16:20: “And the God of peace will crush Satan” where?",
+        "older": "Alongside 12:18, where does 16:20 say the God of peace will crush Satan?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in the wilderness"
+        },
+        {
+          "id": "b",
+          "text": "outside the camp"
+        },
+        {
+          "id": "c",
+          "text": "under your feet"
+        },
+        {
+          "id": "d",
+          "text": "at the gates of Rome"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 12:18",
+            "text": "If it is possible, as much as depends on you, live peaceably with all men.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 16:20",
+            "text": "And the God of peace will crush Satan under your feet shortly. The grace of our Lord Jesus Christ be with you. Amen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 16:20.",
+          "child": "Look after “crush Satan” in verse 20.",
+          "teen": "12:18 is the setting; 16:20 says who, what He will do, where, and when. Read where.",
+          "older": "It follows “will crush Satan” in 16:20."
+        },
+        "extended_explanation": "12:18 adds, “as much as depends on you.” 16:20 says this will be shortly.",
+        "takeaway": "The God of peace will crush Satan under your feet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rom-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 13",
+      "topics": [
+        "romans-12-16-living-it-out"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 13:1 Paul writes about the governing authorities. In 16:23, what office did Erastus hold?",
+        "child": "Paul sends greetings from a man named Erastus. What job did Erastus have?",
+        "teen": "Romans 16:23: “Erastus,” who?",
+        "older": "Linking Romans 13:1 with 16:23, what does Paul say Erastus was?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the governor of the province"
+        },
+        {
+          "id": "b",
+          "text": "a captain of the guard"
+        },
+        {
+          "id": "c",
+          "text": "a judge of the council"
+        },
+        {
+          "id": "d",
+          "text": "the treasurer of the city"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 13:1",
+            "text": "Let every soul be subject to the governing authorities. For there is no authority except from God, and the authorities that exist are appointed by God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 16:23",
+            "text": "Gaius, my host and the host of the whole church, greets you. Erastus, the treasurer of the city, greets you, and Quartus, a brother.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 16:23.",
+          "child": "Look right after the name Erastus in verse 23.",
+          "teen": "13:1 is the setting; 16:23 names three people. Read what is said about the second.",
+          "older": "It follows “Erastus,” in 16:23."
+        },
+        "extended_explanation": "13:1 says the authorities that exist are appointed by God. 16:23 also sends greetings from Gaius and Quartus.",
+        "takeaway": "Erastus, the treasurer of the city, greets you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

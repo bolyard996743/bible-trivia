@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { BadgeArt } from "@/components/BadgeArt";
 import { STAGE_LEARNING, stageRank } from "@/lib/curriculum";
-import { badgeCircleName, badgeEarned, stageSlug, visibleMapStages } from "@/lib/game/badges";
+import { badgeCircleName, badgeEarned, stageSlug, visibleBadges, visibleMapStages } from "@/lib/game/badges";
 import { badgePlayHref, stagePath } from "@/lib/game/path";
 import type { GameProgress, KnowledgeStage } from "@/lib/game/types";
 
@@ -44,7 +44,7 @@ function StageBlock({
         </p>
       </div>
       <ul className="flex flex-wrap gap-3" aria-label={`${stage} badges`}>
-        {(block?.badges ?? []).map((badge) => {
+        {visibleBadges(block?.badges ?? []).map((badge) => {
           const earned = badgeEarned(progress, badge);
           return (
             <li key={badge.id}>

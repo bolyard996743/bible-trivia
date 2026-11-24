@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-revelation-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-rev-0007",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 6",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "When the Lamb opened the fifth seal, John saw the souls of those slain for God’s word. Where did he see them?",
+        "child": "At the fifth seal John saw the souls of people who had held to God’s word. Where were they?",
+        "teen": "Revelation 6:9: “When He opened the fifth seal, I saw” them where?",
+        "older": "According to Revelation 6:9, where did John see the souls at the fifth seal?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "beside the throne"
+        },
+        {
+          "id": "b",
+          "text": "before the sea of glass"
+        },
+        {
+          "id": "c",
+          "text": "under the altar"
+        },
+        {
+          "id": "d",
+          "text": "near the golden lampstands"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 6:9",
+            "text": "When He opened the fifth seal, I saw under the altar the souls of those who had been slain for the word of God and for the testimony which they held.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 6:9.",
+          "child": "Look right after “I saw” in verse 9.",
+          "teen": "6:9 names the seal, tells where John saw the souls, then why they had been slain. Read the place.",
+          "older": "It follows “When He opened the fifth seal, I saw” in 6:9."
+        },
+        "extended_explanation": "6:9 says they had been slain for God’s word and for what they bore witness to. 6:10 says they cried with a loud voice.",
+        "takeaway": "John saw the souls under the altar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rev-0020",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 10",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 10:10 John took the little book from the angel’s hand and ate it. What happened once he had eaten it?",
+        "child": "John ate the little book the angel gave him. What happened after he ate it?",
+        "teen": "Revelation 10:10: “But when I had eaten it,” what happened?",
+        "older": "According to Revelation 10:10, what happened once John had eaten the little book?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "my stomach became bitter"
+        },
+        {
+          "id": "b",
+          "text": "my eyes were heavy"
+        },
+        {
+          "id": "c",
+          "text": "my hands began to shake"
+        },
+        {
+          "id": "d",
+          "text": "my mouth was filled with song"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 10:9",
+            "text": "So I went to the angel and said to him, “Give me the little book.” And he said to me, “Take and eat it; and it will make your stomach bitter, but it will be as sweet as honey in your mouth.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 10:10",
+            "text": "Then I took the little book out of the angel’s hand and ate it, and it was as sweet as honey in my mouth. But when I had eaten it, my stomach became bitter.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:10.",
+          "child": "Look at the last words of verse 10.",
+          "teen": "10:9 gives the angel’s words; 10:10 tells what John did, how it tasted, and then what followed. Read the end.",
+          "older": "It follows “But when I had eaten it,” in 10:10."
+        },
+        "extended_explanation": "10:8 says a voice from heaven told John to take the little book from the angel’s hand. 10:9 says the angel told him to take the book and eat.",
+        "takeaway": "John wrote, “When I had eaten it, my stomach became bitter.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rev-0021",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 6",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The souls cried out, asking when God would judge and avenge their blood. According to 6:11, what was given to each of them?",
+        "child": "The souls asked the Lord how long it would be until He judged. What was given to each of them?",
+        "teen": "Revelation 6:11: “Then” what “was given to each of them”?",
+        "older": "According to Revelation 6:11, what did each soul receive after their cry in 6:10?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a golden crown"
+        },
+        {
+          "id": "b",
+          "text": "a harp of God"
+        },
+        {
+          "id": "c",
+          "text": "a palm branch"
+        },
+        {
+          "id": "d",
+          "text": "a white robe"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 6:10",
+            "text": "And they cried with a loud voice, saying, “How long, O Lord, holy and true, until You judge and avenge our blood on those who dwell on the earth?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 6:11",
+            "text": "Then a white robe was given to each of them; and it was said to them that they should rest a little while longer, until both the number of their fellow servants and their brethren, who would be killed as they were, was completed.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 6:11.",
+          "child": "Look at the first words of verse 11.",
+          "teen": "6:10 gives their cry; 6:11 tells what was given, then what they were told. Read the first part.",
+          "older": "It comes right after “Then” at the start of 6:11."
+        },
+        "extended_explanation": "6:11 says they were told to rest a little while longer, until the number of their fellow servants was completed.",
+        "takeaway": "Each of them was given a white robe."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-rev-0022",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 10",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The angel standing on the sea and on the land raised his hand to heaven (10:5). According to 10:6, what did he swear by Him who lives forever and ever?",
+        "child": "A mighty angel lifted his hand toward heaven and made a solemn promise. What did he swear?",
+        "teen": "Revelation 10:6: he “swore by Him who lives forever and ever” that “there should be” what?",
+        "older": "According to Revelation 10:6, what did the angel swear there should be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "peace on the earth"
+        },
+        {
+          "id": "b",
+          "text": "delay no longer"
+        },
+        {
+          "id": "c",
+          "text": "rest for the saints"
+        },
+        {
+          "id": "d",
+          "text": "a new song for the saints"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 10:5",
+            "text": "The angel whom I saw standing on the sea and on the land raised up his hand to heaven",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 10:6",
+            "text": "and swore by Him who lives forever and ever, who created heaven and the things that are in it, the earth and the things that are in it, and the sea and the things that are in it, that there should be delay no longer,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:6.",
+          "child": "Look at the last words of verse 6.",
+          "teen": "10:5 shows the angel raising his hand; 10:6 names Him by whom he swore, lists what He created, then gives the oath. Read the end.",
+          "older": "It follows “that there should be” in 10:6."
+        },
+        "extended_explanation": "10:6 says He created heaven, the earth, and the sea, and the things in them. 10:5 says the angel stood on the sea and on the land.",
+        "takeaway": "The angel swore that there should be delay no longer."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rev-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 6",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 6:15 earthly kings, the great men, and every slave and free man fled to the caves of the mountains. What did they say to mountains and rocks in 6:16?",
+        "child": "When the sixth seal was opened, people from kings to slaves took refuge in mountain caves. What did they say to the mountains?",
+        "teen": "Revelation 6:16: “and said to the mountains and rocks,” what?",
+        "older": "According to Revelation 6:16, what did people say to the mountains and rocks?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Open and let us in"
+        },
+        {
+          "id": "b",
+          "text": "Fall on us and hide us"
+        },
+        {
+          "id": "c",
+          "text": "Make a way for us"
+        },
+        {
+          "id": "d",
+          "text": "Lift us up to the heavens"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 6:15",
+            "text": "And the kings of the earth, the great men, the rich men, the commanders, the mighty men, every slave and every free man, hid themselves in the caves and in the rocks of the mountains,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 6:16",
+            "text": "and said to the mountains and rocks, “Fall on us and hide us from the face of Him who sits on the throne and from the wrath of the Lamb!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of what they said in 6:16.",
+          "child": "Look at the first words they say in verse 16.",
+          "teen": "6:15 lists who went into the caves; 6:16 gives their words to the mountains and then names Him who sits on the throne. Read their first words.",
+          "older": "It follows “and said to the mountains and rocks,” in 6:16."
+        },
+        "extended_explanation": "6:16 names the face of Him who sits on the throne and the wrath of the Lamb. 6:17 asks who is able to stand.",
+        "takeaway": "They said, “Fall on us and hide us.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rev-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 6",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 6:15 earthly kings fled to the caves. When the seventh angel sounded in 11:15, what did loud heavenly voices say the kingdoms of this world have become?",
+        "child": "Earlier, earthly kings tried to escape. When the seventh trumpet sounded, what did heavenly voices say the world’s kingdoms had become?",
+        "teen": "Revelation 11:15: “The kingdoms of this world have become” what?",
+        "older": "Set beside 6:15, what does 11:15 say the kingdoms of this world have become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the kingdoms of our enemies"
+        },
+        {
+          "id": "b",
+          "text": "the kingdoms of great Babylon"
+        },
+        {
+          "id": "c",
+          "text": "the kingdoms of mighty angels"
+        },
+        {
+          "id": "d",
+          "text": "the kingdoms of our Lord"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 6:15",
+            "text": "And the kings of the earth, the great men, the rich men, the commanders, the mighty men, every slave and every free man, hid themselves in the caves and in the rocks of the mountains,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 11:15",
+            "text": "Then the seventh angel sounded: And there were loud voices in heaven, saying, “The kingdoms of this world have become the kingdoms of our Lord and of His Christ, and He shall reign forever and ever!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the words after “have become” in 11:15.",
+          "child": "Look right after “have become” in verse 15.",
+          "teen": "6:15 lists the kings who fled; 11:15 gives the loud voices’ words: what the kingdoms have become, then how long He shall reign. Read the first part.",
+          "older": "It follows “The kingdoms of this world have become” in 11:15."
+        },
+        "extended_explanation": "11:15 says He shall reign forever and ever. 11:16 says the twenty-four elders fell on their faces.",
+        "takeaway": "They have become the kingdoms of our Lord and of His Christ."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rev-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 6",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 6:1 one of the four living creatures speaks with a voice like thunder. In 10:4, after the seven thunders uttered their voices, what did a voice from heaven tell John to do with what they said?",
+        "child": "In chapter 6 a living creature’s voice sounded like thunder. Later John heard seven thunders speak and was about to write. What did a voice from heaven tell him?",
+        "teen": "Revelation 10:4: “Seal up the things which the seven thunders uttered, and” what?",
+        "older": "Beside the thunder-like voice of 6:1, what was John told in 10:4 about the words of the seven thunders?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "do not write them"
+        },
+        {
+          "id": "b",
+          "text": "write them in a book"
+        },
+        {
+          "id": "c",
+          "text": "tell them to the churches"
+        },
+        {
+          "id": "d",
+          "text": "read them to the elders"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 6:1",
+            "text": "Now I saw when the Lamb opened one of the seals; and I heard one of the four living creatures saying with a voice like thunder, “Come and see.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 10:4",
+            "text": "Now when the seven thunders uttered their voices, I was about to write; but I heard a voice from heaven saying to me, “Seal up the things which the seven thunders uttered, and do not write them.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "6:1 gives a call in a voice like thunder; 10:4 says John was about to write, then gives two commands from heaven. Read the second.",
+          "older": "It follows “Seal up the things which the seven thunders uttered, and” in 10:4."
+        },
+        "extended_explanation": "10:3 says the angel cried with a loud voice, as when a lion roars. 6:1 says the living creature spoke when the Lamb opened one of the seals.",
+        "takeaway": "A voice from heaven said, “Seal up the things which the seven thunders uttered, and do not write them.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-rev-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 6",
+      "topics": [
+        "seals-and-trumpets"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 6:17 people on the earth cry that the great day of His wrath has come. In 11:16-17 the twenty-four elders worship God. What do they begin by saying?",
+        "child": "In chapter 6 people on earth are terrified of the day of God’s wrath. In chapter 11 the elders worship. What are their first words?",
+        "teen": "Revelation 11:17: the elders worshiped, “saying:” what?",
+        "older": "In contrast to the cry of 6:17, what do the elders first say in 11:17?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Have mercy on all of us"
+        },
+        {
+          "id": "b",
+          "text": "Hear us from Your throne"
+        },
+        {
+          "id": "c",
+          "text": "We give You thanks"
+        },
+        {
+          "id": "d",
+          "text": "Holy is Your great name"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 6:17",
+            "text": "For the great day of His wrath has come, and who is able to stand?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 11:16",
+            "text": "And the twenty-four elders who sat before God on their thrones fell on their faces and worshiped God,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 11:17",
+            "text": "saying: “We give You thanks, O Lord God Almighty, The One who is and who was and who is to come, Because You have taken Your great power and reigned.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first words of 11:17.",
+          "child": "Look at the start of what the elders say in verse 17.",
+          "teen": "6:17 asks who is able to stand; 11:16 shows the elders worshiping; 11:17 opens their words, then names Him. Read the start.",
+          "older": "It follows “saying:” at the start of 11:17."
+        },
+        "extended_explanation": "11:17 says He has taken His great power and reigned. 6:17 asks who is able to stand.",
+        "takeaway": "The elders said, “We give You thanks, O Lord God Almighty.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

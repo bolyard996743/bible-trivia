@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-psa-0021",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 114",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 114 remembers the sea that fled and the river that turned back. In 114:4, how did the mountains skip?",
+        "child": "Psalm 114 says that when God led His people, even the mountains jumped. How did they skip?",
+        "teen": "Psalm 114:4: “The mountains skipped” how?",
+        "older": "According to Psalm 114:4, how did the mountains skip?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "like deer"
+        },
+        {
+          "id": "b",
+          "text": "like horses"
+        },
+        {
+          "id": "c",
+          "text": "like wild donkeys"
+        },
+        {
+          "id": "d",
+          "text": "like rams"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 114:4",
+            "text": "The mountains skipped like rams, The little hills like lambs.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 114:4.",
+          "child": "Look at the start of verse 4.",
+          "teen": "114:4 has two lines: the mountains and then the little hills. Read the first.",
+          "older": "It closes the first line of 114:4."
+        },
+        "extended_explanation": "114:3 says the sea saw it and fled. 114:6 later turns to the mountains and the little hills and asks them about it.",
+        "takeaway": "The mountains skipped like rams."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-psa-0021",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 121",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 121:4, what does He who keeps Israel never do?",
+        "child": "Psalm 121 says God watches over Israel all the time. What does He never do?",
+        "teen": "Psalm 121:4: “Behold, He who keeps Israel Shall neither” do what?",
+        "older": "According to Psalm 121:4, what will Israel’s keeper never do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "slumber nor sleep"
+        },
+        {
+          "id": "b",
+          "text": "rest nor tire"
+        },
+        {
+          "id": "c",
+          "text": "falter nor fail"
+        },
+        {
+          "id": "d",
+          "text": "wander nor turn aside"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 121:3",
+            "text": "He will not allow your foot to be moved; He who keeps you will not slumber.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 121:4",
+            "text": "Behold, He who keeps Israel Shall neither slumber nor sleep.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 121:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "121:4 names Israel’s keeper and then what He never does. Read the end.",
+          "older": "It closes 121:4, after “Shall neither.”"
+        },
+        "extended_explanation": "121:3 says He will not allow your foot to be moved. 121:5 goes on: “The LORD is your keeper; The LORD is your shade at your right hand.”",
+        "takeaway": "He “Shall neither slumber nor sleep.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-psa-0022",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 118",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 118:22, what has the stone which the builders rejected become?",
+        "child": "The builders threw away a stone, but it became the most important stone. What did it become?",
+        "teen": "Psalm 118:22: “The stone which the builders rejected Has become” what?",
+        "older": "According to Psalm 118:22, what has the rejected stone become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the keystone of the gate"
+        },
+        {
+          "id": "b",
+          "text": "the pillar of the temple"
+        },
+        {
+          "id": "c",
+          "text": "the chief cornerstone"
+        },
+        {
+          "id": "d",
+          "text": "the stone of the threshold"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 118:22",
+            "text": "The stone which the builders rejected Has become the chief cornerstone.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 118:23",
+            "text": "This was the LORD’s doing; It is marvelous in our eyes.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 118:22.",
+          "child": "Look at the end of verse 22.",
+          "teen": "118:22 has two lines: the rejection and what followed. Read the second.",
+          "older": "It closes 118:22."
+        },
+        "extended_explanation": "118:23 says, “This was the LORD’s doing; It is marvelous in our eyes.” 118:24 follows with “This is the day the LORD has made.”",
+        "takeaway": "The rejected stone “Has become the chief cornerstone.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-psa-0023",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 126",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Bring back our captivity, O LORD.” In 126:5, what shall those who sow in tears do?",
+        "child": "Psalm 126 talks about people who plant with tears. What will happen to them later?",
+        "teen": "Psalm 126:5: “Those who sow in tears Shall ___.” What fills the blank?",
+        "older": "According to Psalm 126:5, what awaits those who sow in tears?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "sing in triumph"
+        },
+        {
+          "id": "b",
+          "text": "reap in joy"
+        },
+        {
+          "id": "c",
+          "text": "rise in honor"
+        },
+        {
+          "id": "d",
+          "text": "dwell in safety"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 126:4",
+            "text": "Bring back our captivity, O LORD, As the streams in the South.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 126:5",
+            "text": "Those who sow in tears Shall reap in joy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 126:5.",
+          "child": "Look at the end of verse 5.",
+          "teen": "126:5 sets two lines side by side. Read the second.",
+          "older": "It closes 126:5."
+        },
+        "extended_explanation": "126:4 asks the LORD to bring back their captivity “As the streams in the South.” 126:5 sets the time of sowing beside the time that follows it.",
+        "takeaway": "Those who sow in tears “Shall reap in joy.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 133",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Behold, how good and how pleasant it is For brethren to dwell together in unity!” In 133:3, unity is like the dew of where?",
+        "child": "Psalm 133 says living together in peace is like dew. The dew of which place?",
+        "teen": "Psalm 133:3: “It is like the dew of ___, Descending upon the mountains of Zion.” What fills the blank?",
+        "older": "According to Psalm 133:3, the dew of which place pictures unity?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Lebanon"
+        },
+        {
+          "id": "b",
+          "text": "Carmel"
+        },
+        {
+          "id": "c",
+          "text": "Hermon"
+        },
+        {
+          "id": "d",
+          "text": "Sharon"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 133:1",
+            "text": "Behold, how good and how pleasant it is For brethren to dwell together in unity!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 133:2",
+            "text": "It is like the precious oil upon the head, Running down on the beard, The beard of Aaron, Running down on the edge of his garments.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 133:3",
+            "text": "It is like the dew of Hermon, Descending upon the mountains of Zion; For there the LORD commanded the blessing— Life forevermore.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 133:3.",
+          "child": "Look at the start of verse 3.",
+          "teen": "133:2 gives one picture, oil; 133:3 gives a second. Read it.",
+          "older": "It follows “the dew of” in 133:3."
+        },
+        "extended_explanation": "133:2 compares unity to the precious oil running down on the beard of Aaron. 133:3 ends: “For there the LORD commanded the blessing— Life forevermore.”",
+        "takeaway": "It is like the dew of Hermon."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0011",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 123",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 123:2 our eyes look to the LORD as servants look to the hand of their masters. In 130:6, the psalmist waits more than those who watch for what?",
+        "child": "Psalm 130 says the writer waits for God even more than some people wait and watch. What are they watching for?",
+        "teen": "Psalm 130:6: “More than those who watch for” what?",
+        "older": "According to Psalm 130:6, the psalmist’s soul waits more than watchers wait for what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the harvest"
+        },
+        {
+          "id": "b",
+          "text": "the morning"
+        },
+        {
+          "id": "c",
+          "text": "the rain"
+        },
+        {
+          "id": "d",
+          "text": "the new moon"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 123:2",
+            "text": "Behold, as the eyes of servants look to the hand of their masters, As the eyes of a maid to the hand of her mistress, So our eyes look to the LORD our God, Until He has mercy on us.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 130:6",
+            "text": "My soul waits for the Lord More than those who watch for the morning— Yes, more than those who watch for the morning.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 130:6.",
+          "child": "Look at the last words of verse 6.",
+          "teen": "123:2 is the setting; 130:6 makes its comparison twice. Read the end of either line.",
+          "older": "It closes both halves of 130:6."
+        },
+        "extended_explanation": "123:2 pictures eyes looking to the LORD until He has mercy. 130:6 repeats its line for emphasis.",
+        "takeaway": "He waits more than those who watch for the morning."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 115",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 118:8 says it is better to trust in the LORD than in man. In 115:9, Israel is told to trust in the LORD, for He is their help and what?",
+        "child": "Psalm 115 tells Israel to trust God. It says God is their help and something else. What?",
+        "teen": "Psalm 115:9: “O Israel, trust in the LORD; He is their help and” what?",
+        "older": "Psalm 118:8 praises trust in the LORD. According to 115:9, the LORD is Israel’s help and what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "their fortress"
+        },
+        {
+          "id": "b",
+          "text": "their banner"
+        },
+        {
+          "id": "c",
+          "text": "their light"
+        },
+        {
+          "id": "d",
+          "text": "their shield"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 115:9",
+            "text": "O Israel, trust in the LORD; He is their help and their shield.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 118:8",
+            "text": "It is better to trust in the LORD Than to put confidence in man.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 115:9.",
+          "child": "Look at the last words of Psalm 115:9.",
+          "teen": "118:8 is the setting; 115:9 names two things the LORD is. Read the second.",
+          "older": "It closes 115:9, after “their help and.”"
+        },
+        "extended_explanation": "118:8 compares trusting in the LORD with putting confidence in man. 115:10-11 repeat the line from 115:9 for the house of Aaron and for those who fear the LORD.",
+        "takeaway": "He is “their help and their shield.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-psa-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 124",
+      "topics": [
+        "hallel-and-songs-of-ascents"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 129:4 the LORD has cut in pieces the cords of the wicked. In 124:7, from what has our soul escaped as a bird?",
+        "child": "Psalm 124 says God’s people got free like a bird. What did the bird escape from?",
+        "teen": "Psalm 124:7: “Our soul has escaped as a bird from” what?",
+        "older": "Psalm 129:4 tells of cords cut. According to 124:7, from what did the soul escape like a bird?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the snare of the fowlers"
+        },
+        {
+          "id": "b",
+          "text": "the net of the hunters"
+        },
+        {
+          "id": "c",
+          "text": "the cage of the trappers"
+        },
+        {
+          "id": "d",
+          "text": "the bow of the archers"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 124:7",
+            "text": "Our soul has escaped as a bird from the snare of the fowlers; The snare is broken, and we have escaped.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 129:4",
+            "text": "The LORD is righteous; He has cut in pieces the cords of the wicked.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 124:7.",
+          "child": "Look at the start of Psalm 124:7.",
+          "teen": "129:4 is the setting; 124:7 says what the bird escaped. Read its first line.",
+          "older": "It ends the first line of 124:7."
+        },
+        "extended_explanation": "124:6 blesses the LORD, who has not given us as prey to their teeth. 129:4 opens with “The LORD is righteous.”",
+        "takeaway": "Our soul escaped “as a bird from the snare of the fowlers.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

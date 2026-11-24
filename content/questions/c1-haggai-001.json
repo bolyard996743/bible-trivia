@@ -1,0 +1,517 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-haggai-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-hag-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD of hosts told the people through Haggai, “Go up to the mountains.” What were they to bring from there to build the temple?",
+        "child": "God told the people to go up into the mountains so they could build His house. What did He tell them to bring back?",
+        "teen": "Haggai 1:8: “Go up to the mountains and bring ___ and build the temple.” What fills the blank?",
+        "older": "According to Haggai 1:8, what were the people to bring from the mountains?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "stones"
+        },
+        {
+          "id": "b",
+          "text": "bronze"
+        },
+        {
+          "id": "c",
+          "text": "wood"
+        },
+        {
+          "id": "d",
+          "text": "iron"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:8",
+            "text": "Go up to the mountains and bring wood and build the temple, that I may take pleasure in it and be glorified,” says the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:8 after “Go up to the mountains and bring.”",
+          "child": "Look at the start of verse 8. The word comes right after “mountains and bring.”",
+          "teen": "1:8 gives three commands. Read the second.",
+          "older": "It follows “Go up to the mountains and bring” in 1:8."
+        },
+        "extended_explanation": "Haggai’s first message came in the second year of King Darius, when the returned exiles had left the LORD’s house in ruins. 1:8 gives three commands in a row and then the reason: “that I may take pleasure in it and be glorified,” says the LORD.",
+        "takeaway": "God said, “Go up to the mountains and bring wood and build the temple.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hag-0001",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The people said the time had not yet come to build the LORD’s house. In what kind of houses were they themselves living?",
+        "child": "The people said it was not the right time to build God’s house. But what kind of houses did they live in?",
+        "teen": "Haggai 1:4: “Is it time for you yourselves to dwell in your ___, and this temple to lie in ruins?” What fills the blank?",
+        "older": "According to Haggai 1:4, in what kind of houses were the people dwelling?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "paneled houses"
+        },
+        {
+          "id": "b",
+          "text": "humble tents"
+        },
+        {
+          "id": "c",
+          "text": "stone towers"
+        },
+        {
+          "id": "d",
+          "text": "borrowed houses"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:4",
+            "text": "“Is it time for you yourselves to dwell in your paneled houses, and this temple to lie in ruins?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 1:4 after “to dwell in your.”",
+          "child": "Look at verse 4. The words come right after “dwell in your.”",
+          "teen": "1:4 sets two buildings side by side. Read the first.",
+          "older": "It follows “to dwell in your” in 1:4."
+        },
+        "extended_explanation": "In 1:2 the people say, “The time has not come.” 1:4 answers with a sharp question that compares their own homes with the LORD’s house, which lay in ruins. 1:5 follows with the command, “Consider your ways!”",
+        "takeaway": "They dwelt “in your paneled houses” while the temple lay in ruins."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hag-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Consider your ways!” You have sown much and bring in little; you eat but do not have enough. Into what does he who earns wages put them?",
+        "child": "God told the people to think about why nothing was working out. They planted a lot but got little. What did He say their wages went into?",
+        "teen": "Haggai 1:6: “Earns wages to put into ___.” What fills the blank?",
+        "older": "According to Haggai 1:6, where do the wage earner’s wages go?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a broken jar"
+        },
+        {
+          "id": "b",
+          "text": "a bag with holes"
+        },
+        {
+          "id": "c",
+          "text": "a torn purse"
+        },
+        {
+          "id": "d",
+          "text": "a leaking cistern"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:5",
+            "text": "Now therefore, thus says the LORD of hosts: “Consider your ways!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Haggai 1:6",
+            "text": "“You have sown much, and bring in little; You eat, but do not have enough; You drink, but you are not filled with drink; You clothe yourselves, but no one is warm; And he who earns wages, Earns wages to put into a bag with holes.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 1:6, after “Earns wages to put into.”",
+          "child": "Look at the very end of verse 6. The words come after “wages to put into.”",
+          "teen": "1:6 lists five frustrations. Read the last.",
+          "older": "It closes 1:6, after “Earns wages to put into.”"
+        },
+        "extended_explanation": "1:5 calls the people to consider their ways. 1:6 lists frustrations: sowing much and reaping little, eating and drinking without being filled, clothing without warmth. The last line describes what happens to their pay. 1:9 explains why: the LORD’s house lay in ruins while each ran to his own house.",
+        "takeaway": "Wages went “into a bag with holes.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-hag-0003",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After Zerubbabel, Joshua, and the remnant obeyed and feared the presence of the LORD, what message did Haggai, the LORD’s messenger, speak?",
+        "child": "The leaders and the people listened to God and respected Him. Then Haggai brought them a short message from God. What was it?",
+        "teen": "Haggai 1:13: Haggai “spoke the LORD’s message to the people, saying,” what?",
+        "older": "According to Haggai 1:13, what was the LORD’s message after the people obeyed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have forgiven you"
+        },
+        {
+          "id": "b",
+          "text": "I will fight for you"
+        },
+        {
+          "id": "c",
+          "text": "I have heard you"
+        },
+        {
+          "id": "d",
+          "text": "I am with you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:12",
+            "text": "Then Zerubbabel the son of Shealtiel, and Joshua the son of Jehozadak, the high priest, with all the remnant of the people, obeyed the voice of the LORD their God, and the words of Haggai the prophet, as the LORD their God had sent him; and the people feared the presence of the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Haggai 1:13",
+            "text": "Then Haggai, the LORD’s messenger, spoke the LORD’s message to the people, saying, “I am with you, says the LORD.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:13, inside the quotation marks.",
+          "child": "Look at the last words of verse 13. God’s message is in quotation marks.",
+          "teen": "1:13 introduces Haggai as the LORD’s messenger and quotes the message. Read the quote.",
+          "older": "It is quoted at the close of 1:13, before “says the LORD.”"
+        },
+        "extended_explanation": "1:12 records the turning point: the leaders and all the remnant obeyed the LORD and the words of Haggai, and feared the presence of the LORD. 1:13 gives the LORD’s brief response through His messenger. 1:14 says the LORD stirred up their spirit and they began work on the house.",
+        "takeaway": "God told His people, “I am with you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hag-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 2",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2:3 the LORD asks how the people see the house now: “is this not in your eyes as nothing?” What does He promise in 2:9 about the glory of this latter temple?",
+        "child": "Some people felt the temple they were building looked like nothing. What did God promise about the glory of this latter temple?",
+        "teen": "Haggai 2:9: “The glory of this latter temple shall be ___.” What completes it?",
+        "older": "According to Haggai 2:9, how will the glory of the latter temple compare?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "greater than the former"
+        },
+        {
+          "id": "b",
+          "text": "like the days of David"
+        },
+        {
+          "id": "c",
+          "text": "praised among the nations"
+        },
+        {
+          "id": "d",
+          "text": "hidden for a little while"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 2:3",
+            "text": "‘Who is left among you who saw this temple in its former glory? And how do you see it now? In comparison with it, is this not in your eyes as nothing?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Haggai 2:9",
+            "text": "‘The glory of this latter temple shall be greater than the former,’ says the LORD of hosts. ‘And in this place I will give peace,’ says the LORD of hosts.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2:9 after “The glory of this latter temple shall be.”",
+          "child": "Look at the start of verse 9. The words come after “this latter temple shall be.”",
+          "teen": "2:9 has two promises. Read the end of the first.",
+          "older": "It follows “The glory of this latter temple shall be” in 2:9."
+        },
+        "extended_explanation": "2:3 asks how the people see the house now, and whether it is as nothing in their eyes. 2:6-8 promises that the LORD will shake the nations and fill this temple with glory. 2:9 makes a comparison and then adds, “And in this place I will give peace.”",
+        "takeaway": "“The glory of this latter temple shall be greater than the former.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hag-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:2 the people said, “The time has not come.” Once the work on the LORD’s temple began again, what did the LORD promise at the end of 2:19?",
+        "child": "At first the people said it wasn’t time to build God’s house. After they started building again, God made them a promise. What was it?",
+        "teen": "Link Haggai 1:2 and 2:19. What does the LORD say at the close of 2:19?",
+        "older": "According to Haggai 2:19, what did the LORD promise once the work began?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "from this day you shall have rain"
+        },
+        {
+          "id": "b",
+          "text": "from this day I will dwell among you"
+        },
+        {
+          "id": "c",
+          "text": "from this day your barns shall be full"
+        },
+        {
+          "id": "d",
+          "text": "from this day I will bless you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:2",
+            "text": "“Thus speaks the LORD of hosts, saying: ‘This people says, “The time has not come, the time that the LORD’s house should be built.” ’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Haggai 2:19",
+            "text": "Is the seed still in the barn? As yet the vine, the fig tree, the pomegranate, and the olive tree have not yielded fruit. But from this day I will bless you.’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 2:19, after “have not yielded.”",
+          "child": "Look at the end of verse 2:19. The promise comes after the list of trees, starting with “But.”",
+          "teen": "2:19 asks a question, lists trees, and then makes a promise. Read the promise.",
+          "older": "It closes 2:19, after “But.”"
+        },
+        "extended_explanation": "1:2 records the excuse that started the delay. 2:18 points to a turning point, the twenty-fourth day of the ninth month. 2:19 asks about the barn and notes that the trees have not yet produced, then turns with “But” to a promise for that very day.",
+        "takeaway": "God said, “From this day I will bless you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hag-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:11 the LORD called for a drought on the land. In 2:17, with what did He strike all the labors of their hands?",
+        "child": "Haggai said God sent a drought because the people ignored His house. Later God named three more things He struck their work with. What were they?",
+        "teen": "Link Haggai 1:11 and 2:17. “I struck you with” what?",
+        "older": "According to Haggai 2:17, with what did the LORD strike the labors of their hands?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "frost and wind and flood"
+        },
+        {
+          "id": "b",
+          "text": "blight and mildew and hail"
+        },
+        {
+          "id": "c",
+          "text": "famine and sword and plague"
+        },
+        {
+          "id": "d",
+          "text": "locusts and caterpillars and fire"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:11",
+            "text": "For I called for a drought on the land and the mountains, on the grain and the new wine and the oil, on whatever the ground brings forth, on men and livestock, and on all the labor of your hands.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Haggai 2:17",
+            "text": "I struck you with blight and mildew and hail in all the labors of your hands; yet you did not turn to Me,’ says the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2:17 after “I struck you with.”",
+          "child": "Look at verse 2:17. The three things come right after “I struck you with.”",
+          "teen": "2:17 names three things, then what they struck. Read the three.",
+          "older": "It follows “I struck you with” in 2:17."
+        },
+        "extended_explanation": "Chapter 1 explains the drought of 1:10-11 as the result of neglecting the LORD’s house. In 2:15-17 the LORD asks the people to look back over those years. 2:17 names three things and adds, “yet you did not turn to Me.” Amos 4:9 uses similar words about Israel.",
+        "takeaway": "God struck them “with blight and mildew and hail.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-hag-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "build-the-house"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:14 the LORD stirred up the spirit of Zerubbabel, governor of Judah. In the book’s final verse, what does the LORD say He will make Zerubbabel?",
+        "child": "God stirred up Zerubbabel to build the temple. At the very end of Haggai, God says He will make Zerubbabel like something special. Like what?",
+        "teen": "Connect Haggai 1:14 and 2:23. What will the LORD make Zerubbabel like?",
+        "older": "According to Haggai 2:23, what will the LORD make Zerubbabel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "like a royal crown"
+        },
+        {
+          "id": "b",
+          "text": "like a polished arrow"
+        },
+        {
+          "id": "c",
+          "text": "like a signet ring"
+        },
+        {
+          "id": "d",
+          "text": "like a pillar of iron"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:14",
+            "text": "So the LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Jehozadak, the high priest, and the spirit of all the remnant of the people; and they came and worked on the house of the LORD of hosts, their God,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Haggai 2:23",
+            "text": "‘In that day,’ says the LORD of hosts, ‘I will take you, Zerubbabel My servant, the son of Shealtiel,’ says the LORD, ‘and will make you like a signet ring; for I have chosen you,’ says the LORD of hosts.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 2:23 after “and will make you.”",
+          "child": "Look at verse 23. The words come right after “and will make you.”",
+          "teen": "2:23 calls Zerubbabel My servant and then says what the LORD will make him. Read that part.",
+          "older": "It follows “and will make you” in 2:23."
+        },
+        "extended_explanation": "1:14 says the LORD stirred up the spirit of Zerubbabel, Joshua, and the remnant to work on the house. The book ends in 2:20-23 with a word to Zerubbabel alone: God will shake the kingdoms, but He has chosen Zerubbabel.",
+        "takeaway": "God said He would make Zerubbabel “like a signet ring.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-jeremiah-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-jer-0004",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 25",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Jeremiah to take something from His hand and make all the nations drink it. What was it?",
+        "child": "God gave Jeremiah a picture: something to take from God’s hand and give the nations to drink. What was it?",
+        "teen": "Jeremiah 25:15: “Take ___ from My hand.” What fills the blank?",
+        "older": "According to Jeremiah 25:15, what was Jeremiah to take from the LORD’s hand?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "this rod of iron"
+        },
+        {
+          "id": "b",
+          "text": "this scroll of woe"
+        },
+        {
+          "id": "c",
+          "text": "this sword of judgment"
+        },
+        {
+          "id": "d",
+          "text": "this wine cup of fury"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 25:15",
+            "text": "For thus says the LORD God of Israel to me: “Take this wine cup of fury from My hand, and cause all the nations, to whom I send you, to drink it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 25:15 after “Take.”",
+          "child": "Look at the beginning of the LORD’s words in verse 15.",
+          "teen": "25:15 opens with a command. Read what Jeremiah is to take.",
+          "older": "It follows “Take” in 25:15."
+        },
+        "extended_explanation": "25:15 says the nations are to drink it. 25:16 adds that they will drink and stagger and go mad.",
+        "takeaway": "Jeremiah was to take “this wine cup of fury.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jer-0014",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 45",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Baruch had said, “Woe is me now!” In 45:3, what had the LORD added grief to?",
+        "child": "Jeremiah’s helper felt very sad and tired. He said God had added grief to something. What?",
+        "teen": "Jeremiah 45:3: “For the LORD has added grief to ___.” What fills the blank?",
+        "older": "According to Jeremiah 45:3, the LORD had added grief to what?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "my sorrow"
+        },
+        {
+          "id": "b",
+          "text": "my labor"
+        },
+        {
+          "id": "c",
+          "text": "my burden"
+        },
+        {
+          "id": "d",
+          "text": "my weakness"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 45:2",
+            "text": "“Thus says the LORD, the God of Israel, to you, O Baruch:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 45:3",
+            "text": "‘You said, “Woe is me now! For the LORD has added grief to my sorrow. I fainted in my sighing, and I find no rest.” ’",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 45:3 after “added grief to.”",
+          "child": "Look at the middle of verse 3.",
+          "teen": "45:3 quotes what was said. Read the line after “Woe is me now!”",
+          "older": "It ends the first complaint in 45:3."
+        },
+        "extended_explanation": "45:2 shows the LORD speaking to him by name. 45:3 goes on: “I fainted in my sighing, and I find no rest.”",
+        "takeaway": "He said the LORD had “added grief to my sorrow.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jer-0015",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 45",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“And do you seek great things for yourself? Do not seek them.” In 45:5, the LORD gives Baruch’s life to him as what?",
+        "child": "God told His helper not to chase big things for himself. But God promised to keep his life safe. How did God say He would give him his life?",
+        "teen": "Jeremiah 45:5: “But I will give your life to you as ___ in all places.” What fills the blank?",
+        "older": "According to Jeremiah 45:5, how will the LORD give Baruch his life?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a reward"
+        },
+        {
+          "id": "b",
+          "text": "a gift"
+        },
+        {
+          "id": "c",
+          "text": "a prize"
+        },
+        {
+          "id": "d",
+          "text": "a ransom"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 45:4",
+            "text": "“Thus you shall say to him, ‘Thus says the LORD: “Behold, what I have built I will break down, and what I have planted I will pluck up, that is, this whole land.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 45:5",
+            "text": "And do you seek great things for yourself? Do not seek them; for behold, I will bring adversity on all flesh,” says the LORD. “But I will give your life to you as a prize in all places, wherever you go.” ’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 45:5, after “give your life to you as.”",
+          "child": "Look at the last sentence of verse 5.",
+          "teen": "45:5 gives a warning and then a promise. Read the promise.",
+          "older": "It is near the end of 45:5."
+        },
+        "extended_explanation": "45:4 says the LORD will break down what He has built and pluck up what He has planted. 45:5 adds that He will bring adversity on all flesh.",
+        "takeaway": "The LORD gives his life to him “as a prize.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c2-jer-0016",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 46",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "“Go up to Gilead,” the LORD tells the daughter of Egypt. What is she told to take there?",
+        "child": "God told Egypt to go to a place called Gilead and take something. What?",
+        "teen": "Jeremiah 46:11: “Go up to Gilead and take ___, O virgin, the daughter of Egypt.” What fills the blank?",
+        "older": "According to Jeremiah 46:11, what was Egypt told to take in Gilead?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "myrrh"
+        },
+        {
+          "id": "b",
+          "text": "balm"
+        },
+        {
+          "id": "c",
+          "text": "honey"
+        },
+        {
+          "id": "d",
+          "text": "incense"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 46:11",
+            "text": "“Go up to Gilead and take balm, O virgin, the daughter of Egypt; In vain you will use many medicines; You shall not be cured.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 46:12",
+            "text": "The nations have heard of your shame, And your cry has filled the land; For the mighty man has stumbled against the mighty; They both have fallen together.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 46:11 after “Go up to Gilead and take.”",
+          "child": "Look at the beginning of verse 11.",
+          "teen": "46:11 opens with a command. Read what is to be taken.",
+          "older": "It comes just after “take” in 46:11."
+        },
+        "extended_explanation": "46:11 adds that many medicines will be in vain. 46:12 says the nations have heard of Egypt’s shame and its cry has filled the land.",
+        "takeaway": "Egypt is told to take balm, but in vain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 46",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 46:20, the LORD says Egypt is a very pretty what?",
+        "child": "God compared Egypt to a pretty animal, but trouble was coming from the north. Which animal?",
+        "teen": "Jeremiah 46:20: “Egypt is a very pretty ___.” What fills the blank?",
+        "older": "According to Jeremiah 46:20, what is Egypt compared to?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "heifer"
+        },
+        {
+          "id": "b",
+          "text": "mare"
+        },
+        {
+          "id": "c",
+          "text": "gazelle"
+        },
+        {
+          "id": "d",
+          "text": "lioness"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 46:20",
+            "text": "“Egypt is a very pretty heifer, But destruction comes, it comes from the north.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 46:21",
+            "text": "Also her mercenaries are in her midst like fat bulls, For they also are turned back, They have fled away together. They did not stand, For the day of their calamity had come upon them, The time of their punishment.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 46:20.",
+          "child": "Look at the start of verse 20.",
+          "teen": "46:20 opens with a picture of Egypt and then a warning. Read the picture.",
+          "older": "It closes the first line of 46:20."
+        },
+        "extended_explanation": "46:20 adds that destruction comes from the north. 46:21 describes her mercenaries like fat bulls who turned back and fled.",
+        "takeaway": "Egypt is “a very pretty heifer.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 25",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 25:13 the LORD speaks of “all that is written in this book.” In 51:63, a book of words against Babylon was to be tied to a stone and thrown where?",
+        "child": "Jeremiah gave a man a book about Babylon. After reading it, he was to tie a stone to it and throw it in. Where did it go?",
+        "teen": "Jeremiah 51:63: “That you shall tie a stone to it and throw it out into” what?",
+        "older": "Jeremiah 25:13 speaks of a book against the nations. According to 51:63, into what was the book with the stone to be thrown?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Nile"
+        },
+        {
+          "id": "b",
+          "text": "the Tigris"
+        },
+        {
+          "id": "c",
+          "text": "the Euphrates"
+        },
+        {
+          "id": "d",
+          "text": "the Great Sea"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 25:13",
+            "text": "So I will bring on that land all My words which I have pronounced against it, all that is written in this book, which Jeremiah has prophesied concerning all the nations.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 51:63",
+            "text": "Now it shall be, when you have finished reading this book, that you shall tie a stone to it and throw it out into the Euphrates.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 51:64",
+            "text": "Then you shall say, ‘Thus Babylon shall sink and not rise from the catastrophe that I will bring upon her. And they shall be weary.’ ” Thus far are the words of Jeremiah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 51:63, after “throw it out into.”",
+          "child": "Look at the last words of verse 63.",
+          "teen": "25:13 is the setting; 51:63 gives the throwing. Read where it goes.",
+          "older": "It closes 51:63."
+        },
+        "extended_explanation": "25:13 promises that all the words written against that land will come upon it. 51:64 gives the meaning of the stone: “Thus Babylon shall sink and not rise from the catastrophe that I will bring upon her.”",
+        "takeaway": "He was to throw it into the Euphrates."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 25",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah 25:1 and 45:1 date their words to the same year: the fourth year of which king of Judah?",
+        "child": "Two of Jeremiah’s messages came in the same year of one king’s rule. Which king?",
+        "teen": "Jeremiah 25:1 and 45:1 both say “in the fourth year of” whom?",
+        "older": "According to Jeremiah 25:1 and 45:1, in whose fourth year did these words come?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Zedekiah the son of Josiah"
+        },
+        {
+          "id": "b",
+          "text": "Jehoiakim the son of Josiah"
+        },
+        {
+          "id": "c",
+          "text": "Jehoiachin the son of Jehoiakim"
+        },
+        {
+          "id": "d",
+          "text": "Jehoahaz the son of Josiah"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 25:1",
+            "text": "The word that came to Jeremiah concerning all the people of Judah, in the fourth year of Jehoiakim the son of Josiah, king of Judah (which was the first year of Nebuchadnezzar king of Babylon),",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 45:1",
+            "text": "The word that Jeremiah the prophet spoke to Baruch the son of Neriah, when he had written these words in a book at the instruction of Jeremiah, in the fourth year of Jehoiakim the son of Josiah, king of Judah, saying,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read 25:1 or 45:1 after “in the fourth year of.”",
+          "child": "Look in the middle of either verse.",
+          "teen": "Both verses give the same date. Read the king’s name and his father’s.",
+          "older": "It follows “the fourth year of” in each verse."
+        },
+        "extended_explanation": "25:1 adds that it was the first year of Nebuchadnezzar king of Babylon.",
+        "takeaway": "Both came in the fourth year of Jehoiakim the son of Josiah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    },
+    {
+      "id": "c3-jer-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 46",
+      "topics": [
+        "jeremiah-oracles-against-the-nations-and-baruch"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 46:18 the King, whose name is the LORD of hosts, swears by Tabor and Carmel. In 51:20, what does He call the one through whom He breaks the nation in pieces?",
+        "child": "God said He would use someone like a tool of war to break proud nations. What did He call it?",
+        "teen": "Jeremiah 51:20: “You are ___ and weapons of war.” What fills the blank?",
+        "older": "Jeremiah 46:18 names the King whose name is the LORD of hosts. According to 51:20, what does the LORD call the one He uses against the nations?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My spear"
+        },
+        {
+          "id": "b",
+          "text": "My shield"
+        },
+        {
+          "id": "c",
+          "text": "My two-edged sword"
+        },
+        {
+          "id": "d",
+          "text": "My battle-ax"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 46:18",
+            "text": "“As I live,” says the King, Whose name is the LORD of hosts, “Surely as Tabor is among the mountains And as Carmel by the sea, so he shall come.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 51:20",
+            "text": "“You are My battle-ax and weapons of war: For with you I will break the nation in pieces; With you I will destroy kingdoms;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 51:20.",
+          "child": "Look at the start of Jeremiah 51:20.",
+          "teen": "46:18 is the setting; 51:20 opens with the name. Read the words after “You are.”",
+          "older": "It opens 51:20."
+        },
+        "extended_explanation": "46:18 says the one coming against Egypt will come as surely as Tabor stands among the mountains. 51:20 goes on: “For with you I will break the nation in pieces; With you I will destroy kingdoms.”",
+        "takeaway": "The LORD says, “You are My battle-ax.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Fruitful stage. NKJV excerpt copied from _fruitful_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Fruitful"
+    }
+  ]
+}
