@@ -25,7 +25,7 @@ export function Shell({ children }: { children: ReactNode }) {
   return (
     <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col px-4 py-4 sm:px-6">
       <ThemeSync />
-      <header className="mb-6 flex flex-nowrap items-center justify-between gap-3">
+      <header className="site-header mb-6 flex flex-nowrap items-center justify-between gap-3">
         <Link href={state?.placementComplete ? "/home" : "/"} className="inline-flex min-w-0 items-center">
           <SiteLogo />
         </Link>

@@ -2,11 +2,13 @@
 
 import Link from "next/link";
 import { StageMap } from "@/components/StageMap";
+import { useSignedIn } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
 
 export function PathClient() {
   const { state, ready } = useProfile();
-  if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  const auth = useSignedIn();
+  if (!ready || !auth.ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (!state) {
     return (
       <section className="grid gap-4">
@@ -20,7 +22,7 @@ export function PathClient() {
   }
   return (
     <div className="grid gap-5">
-      <StageMap progress={state.progress} />
+      <StageMap progress={state.progress} playerKey={auth.email ?? "local"} />
       <Link href="/home" className="tap inline-flex items-center justify-center rounded-2xl border border-line bg-card px-4 text-lg text-ink">
         Back to your path
       </Link>
