@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { useSignedIn } from "@/lib/account/use-access";
 import { readDevotionLikes, writeDevotionLike } from "@/lib/devotion/likes-client";
 import { likeTap } from "@/lib/devotion/likes";
+import { DevotionComments } from "@/components/DevotionComments";
 import { devotionSharePayload, shareDevotion, type SharePayload } from "@/lib/devotion/share";
 
 function HeartIcon({ filled }: { filled: boolean }) {
@@ -61,6 +62,8 @@ export function DevotionActions({
   const [liked, setLiked] = useState(false);
   const [count, setCount] = useState<number | null>(null);
   const [needsSignIn, setNeedsSignIn] = useState(false);
+  const [commentsOpen, setCommentsOpen] = useState(false);
+  const [commentCount, setCommentCount] = useState<number | null>(null);
   const [copied, setCopied] = useState(false);
   const busy = useRef(false);
   const copyTimer = useRef<number | null>(null);
@@ -174,14 +177,17 @@ export function DevotionActions({
           <button
             type="button"
             data-testid="devotion-comment"
-            disabled
-            aria-label="Comments coming soon"
-            className="flex flex-col items-center gap-1 rounded-2xl px-3 text-white/90 disabled:opacity-100"
+            aria-expanded={commentsOpen}
+            aria-label={commentCount === null ? "Comments" : `Comments, ${commentCount}`}
+            onClick={() => setCommentsOpen(true)}
+            className="flex flex-col items-center gap-1 rounded-2xl px-3 text-white"
           >
             <CommentIcon />
-            <span data-testid="devotion-comment-count" className="text-sm">
-              Coming soon
-            </span>
+            {commentCount !== null ? (
+              <span data-testid="devotion-comment-count" className="text-sm tabular-nums">
+                {commentCount}
+              </span>
+            ) : null}
           </button>
         </div>
         <div className="flex justify-center">
@@ -211,6 +217,13 @@ export function DevotionActions({
           Link copied
         </p>
       ) : null}
+      <DevotionComments
+        open={commentsOpen}
+        devotionId={devotionId}
+        devotionDate={devotionDate}
+        onClose={() => setCommentsOpen(false)}
+        onCount={setCommentCount}
+      />
     </div>
   );
 }

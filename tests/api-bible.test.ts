@@ -287,7 +287,11 @@ describe("API.Bible stays on the server", () => {
         else if (/\.(ts|tsx)$/.test(entry.name)) {
           const source = fs.readFileSync(full, "utf8");
           if (source.includes("SUPABASE_SECRET_KEY") || source.includes("SCRIPTURE_CACHE_KEY")) {
-            if (!full.endsWith(`${path.sep}scripture-cache.ts`)) secretHits.push(full);
+            const allowedSecret = new Set([
+              path.normalize(path.join(root, "lib/bible/scripture-cache.ts")),
+              path.normalize(path.join(root, "lib/account/service-role.ts")),
+            ]);
+            if (!allowedSecret.has(path.normalize(full))) secretHits.push(full);
           }
         }
       }

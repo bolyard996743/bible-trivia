@@ -314,7 +314,7 @@ describe("devotion content file", () => {
     );
   });
 
-  it("puts the card above the rest of home and leaves comments unstored", () => {
+  it("puts the card above the rest of home", () => {
     const home = fs.readFileSync(path.join(process.cwd(), "src/app/home/page.tsx"), "utf8");
     expect(home.indexOf("<DailyDevotionCard")).toBeLessThan(home.indexOf("<HomeClient"));
     const card = fs.readFileSync(path.join(process.cwd(), "src/components/DailyDevotionCard.tsx"), "utf8");
@@ -323,7 +323,8 @@ describe("devotion content file", () => {
     expect(card).not.toContain("thought");
     const actions = fs.readFileSync(path.join(process.cwd(), "src/components/DevotionActions.tsx"), "utf8");
     expect(actions).toContain("aria-pressed");
-    expect(actions).toContain("Coming soon");
+    expect(actions).toContain("DevotionComments");
+    expect(actions).not.toContain("Coming soon");
     expect(actions).toContain("Link copied");
     expect(actions).not.toMatch(/devotion_comments|comment_text/);
     const load = fs.readFileSync(path.join(process.cwd(), "src/lib/devotion/load.ts"), "utf8");
