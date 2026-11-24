@@ -108,10 +108,10 @@ describe("stage map hides badges the player has not reached", () => {
     expect(html).toContain('data-state="earned"');
     expect(html).toContain('data-state="empty"');
     expect(html).toContain('data-state="locked"');
-    expect(html).toContain('data-chip="check"');
+    expect(html).not.toContain('data-chip="check"');
     expect(html).not.toContain('data-chip="lock"');
     expect(html).toContain('data-chip="clock"');
-    expect(html).toContain("Creation. Earned");
+    expect(html).toContain("Creation, earned");
     expect(html).toContain("Noah, not earned yet");
     expect(html).toContain("Jonah, not earned yet. Locked for 24 hours");
     const noah = badgeSlice(html, "badge-seed-noah");
@@ -125,13 +125,14 @@ describe("stage map hides badges the player has not reached", () => {
     expect(jonah).not.toContain("data-icon");
     const earned = badgeSlice(html, "badge-seed-creation");
     expect(earned).toContain('data-icon="creation"');
+    expect(earned).not.toContain("data-chip");
     expect(html).not.toContain("badge-sprout-");
     expect(html).not.toContain("stage-block-sprout");
     expect(html).not.toContain("stage-block-fruitful");
     expect(html).not.toContain("stage-block-deep-roots");
     expect(html).not.toContain("Fruitful");
     expect(html).not.toContain("Deep Roots");
-    expect(badgeStatusLabel("Creation", "earned")).toBe("Creation. Earned");
+    expect(badgeStatusLabel("Creation", "earned")).toBe("Creation, earned");
     expect(badgeStatusLabel("Creation", "empty")).toBe("Creation, not earned yet");
     expect(badgeStatusLabel("Creation", "locked")).toBe("Creation, not earned yet. Locked for 24 hours");
   });
@@ -234,6 +235,7 @@ describe("earning a badge", () => {
     expect(html).toContain("Well done! You earned the Creation badge.");
     expect(html).toContain("Continue");
     expect(html).toContain('data-icon="creation"');
+    expect(html).not.toContain('data-chip="check"');
     expect(html.toLowerCase()).not.toMatch(/\b(seed|sprout|rooted|growing|established|fruitful|difficulty|easy|intermediate|advanced|expert|age)\b/);
   });
 });

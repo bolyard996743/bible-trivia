@@ -73,18 +73,7 @@ export function BadgeEmblem({
           <Glyph />
         </g>
       </svg>
-      <span className="badge-chip badge-chip-check" data-chip="check" role="img" aria-label="Earned">
-        <CheckIcon />
-      </span>
     </span>
-  );
-}
-
-function CheckIcon() {
-  return (
-    <svg viewBox="0 0 16 16" aria-hidden="true" className="badge-chip-icon">
-      <path d="M3.2 8.2 6.4 11.2 12.8 4.6" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
   );
 }
 

@@ -422,12 +422,6 @@ a.badge-link {
   height: 0.95rem;
 }
 
-.badge-chip-check {
-  border: 2px solid var(--badge-ring-to);
-  background: #fffef8;
-  color: var(--badge-ink);
-}
-
 .badge-chip-clock {
   border: 2px solid var(--gold);
   background: var(--card);

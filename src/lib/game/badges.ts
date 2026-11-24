@@ -91,7 +91,7 @@ export function badgeProgressLabel(badgeId: string, section: string, path: Knowl
 }
 
 export function badgeCircleName(name: string, earned: boolean): string {
-  return earned ? `${name}. Earned` : `${name}, not earned yet`;
+  return earned ? `${name}, earned` : `${name}, not earned yet`;
 }
 
 /** Link name for a badge. A 24-hour wait adds the clock. An empty badge has no chip. */
