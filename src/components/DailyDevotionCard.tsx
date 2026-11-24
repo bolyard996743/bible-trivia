@@ -7,8 +7,8 @@ import type { DailyDevotionView } from "@/lib/devotion/types";
 
 export function DailyDevotionCard({ devotion }: { devotion: DailyDevotionView }) {
   return (
-    <article aria-label="Daily Devotion" data-testid="daily-devotion" className="overflow-hidden rounded-3xl">
-      <div className="relative flex min-h-[36rem] flex-col sm:min-h-[34rem]">
+    <article aria-label="Daily Devotion" data-testid="daily-devotion" className="relative overflow-hidden rounded-3xl bg-black text-white">
+      <div className="pointer-events-none absolute inset-0">
         <Image
           src={devotion.imageSrc}
           alt={devotion.imageAlt}
@@ -17,7 +17,9 @@ export function DailyDevotionCard({ devotion }: { devotion: DailyDevotionView })
           sizes="(max-width: 768px) 100vw, 720px"
           className="object-cover"
         />
-        <header className="relative z-10 text-white">
+      </div>
+      <div className="relative z-10 flex min-h-[36rem] flex-col sm:min-h-[32rem]">
+        <header>
           <div className="bg-black/90 px-5 pt-5 pb-4">
             <p className="text-sm font-medium tracking-wide">Daily Devotion</p>
             <p className="text-sm">Verse of the Day</p>
@@ -25,11 +27,11 @@ export function DailyDevotionCard({ devotion }: { devotion: DailyDevotionView })
               {devotion.label}
             </p>
           </div>
-          <div aria-hidden="true" className="h-12 bg-gradient-to-b from-black/90 to-transparent" />
+          <div aria-hidden="true" className="h-16 bg-gradient-to-b from-black/90 to-transparent" />
         </header>
-        <div className="relative z-10 mt-auto">
-          <div aria-hidden="true" className="h-16 bg-gradient-to-t from-black/90 to-transparent" />
-          <div className="bg-black/90 px-5 pt-1 pb-5 text-white">
+        <div className="mt-auto">
+          <div aria-hidden="true" className="h-20 bg-gradient-to-t from-black/90 to-transparent" />
+          <div className="bg-black/90 px-5 pb-5">
             {devotion.text ? (
               <blockquote
                 data-testid="devotion-verse"
