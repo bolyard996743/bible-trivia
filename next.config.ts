@@ -13,6 +13,12 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   allowedDevOrigins: ["127.0.0.1"],
+  // Home and play read content/ while handling a request. Trace those files
+  // into the server bundle so a dynamic render does not crash looking for them.
+  outputFileTracingIncludes: {
+    "/home": ["./content/**/*"],
+    "/play": ["./content/**/*"],
+  },
 };
 
 export default nextConfig;
