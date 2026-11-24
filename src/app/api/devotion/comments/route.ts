@@ -1,4 +1,4 @@
-import { getUserClient } from "@/lib/account/user-client";
+import { getAnonClient, getUserClient } from "@/lib/account/user-client";
 import { commentFixturesAllowed, publicCommentFixtures } from "@/lib/devotion/comment-fixtures";
 import { reviewComment } from "@/lib/devotion/comment-filter";
 import {
@@ -47,17 +47,34 @@ export async function GET(request: Request) {
     });
   }
   const session = await player(request);
-  if (!session) return privateJson({ ok: false, signedIn: false }, 401);
   const date = new URL(request.url).searchParams.get("date") ?? "";
   if (!DATE.test(date)) return privateJson({ ok: false, message: "That day isn't available." }, 400);
-  const [listed, mayWrite] = await Promise.all([
-    session.client.rpc("devotion_comments_for_date", { for_date: date }),
-    session.client.rpc("devotion_comment_may_write"),
-  ]);
-  if (schemaMissing(listed.error) || schemaMissing(mayWrite.error)) {
-    return privateJson({ ok: true, available: false, signedIn: true });
+  const reader = session?.client ?? getAnonClient();
+  if (!reader) return privateJson({ ok: true, available: false, signedIn: false, comments: [] });
+  const listed = await reader.rpc("devotion_comments_for_date", { for_date: date });
+  if (schemaMissing(listed.error)) {
+    return privateJson({ ok: true, available: false, signedIn: Boolean(session), comments: [] });
   }
-  if (listed.error || mayWrite.error) return privateJson({ ok: true, available: false, signedIn: true });
+  if (listed.error) return privateJson({ ok: true, available: false, signedIn: Boolean(session), comments: [] });
+  const comments = (Array.isArray(listed.data) ? listed.data : []).flatMap((row) => {
+    const comment = asPublicComment(row);
+    return comment ? [comment] : [];
+  });
+  if (!session) {
+    return privateJson({
+      ok: true,
+      available: true,
+      signedIn: false,
+      canPost: false,
+      needsBirthDate: false,
+      under13: false,
+      comments: comments.map((comment) => ({ ...comment, mine: false })),
+    });
+  }
+  const mayWrite = await session.client.rpc("devotion_comment_may_write");
+  if (schemaMissing(mayWrite.error) || mayWrite.error) {
+    return privateJson({ ok: true, available: false, signedIn: true, comments });
+  }
   const profile = await session.client
     .from("profiles")
     .select("birth_date, comment_birth_year, comment_birth_month")
@@ -73,10 +90,6 @@ export async function GET(request: Request) {
     },
     chicagoToday(),
   );
-  const comments = (Array.isArray(listed.data) ? listed.data : []).flatMap((row) => {
-    const comment = asPublicComment(row);
-    return comment ? [comment] : [];
-  });
   const canPost = mayWrite.data === true;
   return privateJson({
     ok: true,

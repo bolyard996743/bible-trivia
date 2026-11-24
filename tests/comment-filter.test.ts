@@ -223,6 +223,22 @@ describe("comment posting rules", () => {
     expect(sql).toContain("interval '1 month'");
   });
 
+  it("lets guests read visible comments without private profile fields", () => {
+    const sql = fs.readFileSync(
+      path.join(process.cwd(), "supabase/migrations/20261124213000_comment_guest_read.sql"),
+      "utf8",
+    );
+    expect(sql).toContain("for select to anon");
+    expect(sql).toContain("hidden_at is null and removed_at is null");
+    expect(sql).toContain("grant select (id, devotion_id, devotion_date, body, created_at)");
+    expect(sql).not.toContain("grant select (id, user_id");
+    expect(sql).toContain("grant execute on function public.devotion_comments_for_date(date) to anon, authenticated");
+    const selected = sql.slice(sql.lastIndexOf("select"), sql.indexOf("from public.devotion_comments"));
+    expect(selected).not.toMatch(/birth_date|comment_birth|email/);
+    expect(sql).toContain("coalesce(nullif(p.username, ''), 'Player')");
+    expect(commentInsertDecision({ signedIn: false, countToday: 0 }, today).ok).toBe(false);
+  });
+
   it("allows three comments per player per day", () => {
     expect(COMMENT_DAILY_LIMIT).toBe(3);
     expect(withinCommentRateLimit(0)).toBe(true);

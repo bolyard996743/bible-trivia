@@ -27,7 +27,14 @@ type Load =
   | { status: "loading" }
   | { status: "signed-out" }
   | { status: "unavailable" }
-  | { status: "ready"; canPost: boolean; needsBirthDate: boolean; under13: boolean; comments: PublicComment[] };
+  | {
+      status: "ready";
+      canPost: boolean;
+      needsBirthDate: boolean;
+      under13: boolean;
+      guest: boolean;
+      comments: PublicComment[];
+    };
 
 async function authHeader(): Promise<string | null> {
   const supabase = getSupabaseBrowserClient();
@@ -81,9 +88,17 @@ export function DevotionComments({
           comments?: PublicComment[];
         };
         if (!active) return;
+        const comments = Array.isArray(body.comments) ? body.comments : [];
         if (body.signedIn === false || response.status === 401) {
-          onCount(null);
-          setLoad({ status: "signed-out" });
+          onCount(comments.length > 0 ? comments.length : null);
+          setLoad({
+            status: "ready",
+            canPost: false,
+            needsBirthDate: false,
+            under13: false,
+            guest: true,
+            comments,
+          });
           return;
         }
         if (body.available === false) {
@@ -91,13 +106,13 @@ export function DevotionComments({
           setLoad({ status: "unavailable" });
           return;
         }
-        const comments = Array.isArray(body.comments) ? body.comments : [];
         onCount(comments.length);
         setLoad({
           status: "ready",
           canPost: body.canPost === true,
           needsBirthDate: body.needsBirthDate === true,
           under13: body.under13 === true,
+          guest: false,
           comments,
         });
       } catch {
@@ -140,6 +155,7 @@ export function DevotionComments({
       canPost: body.canPost === true,
       needsBirthDate: body.needsBirthDate === true,
       under13: body.under13 === true,
+      guest: false,
       comments,
     });
   }
@@ -237,13 +253,6 @@ export function DevotionComments({
           </button>
         </div>
         {load.status === "loading" ? <p className="mt-4 text-lg text-ink-soft">Opening comments…</p> : null}
-        {load.status === "signed-out" ? (
-          <p className="mt-4 text-lg" data-testid="comment-signin-prompt">
-            <Link href="/account?mode=sign-in" className="font-semibold text-grove-deep underline">
-              Sign in to comment
-            </Link>
-          </p>
-        ) : null}
         {load.status === "unavailable" ? (
           <p className="mt-4 text-lg">Comments are not available on this copy yet.</p>
         ) : null}
@@ -263,6 +272,10 @@ export function DevotionComments({
                       <button type="button" className="text-base text-ink-soft underline" onClick={() => void change("delete", comment.id)}>
                         Delete
                       </button>
+                    ) : load.guest ? (
+                      <Link href="/account?mode=sign-in" className="text-base text-ink-soft underline">
+                        Report
+                      </Link>
                     ) : (
                       <button type="button" className="text-base text-ink-soft underline" onClick={() => void change("report", comment.id)}>
                         Report
@@ -368,7 +381,14 @@ export function DevotionComments({
                 </button>
               </form>
             ) : null}
-            {!load.canPost && !load.needsBirthDate && !load.under13 ? (
+            {load.guest ? (
+              <p className="text-lg" data-testid="comment-signin-prompt">
+                <Link href="/account?mode=sign-in" className="font-semibold text-grove-deep underline">
+                  Sign in to comment
+                </Link>
+              </p>
+            ) : null}
+            {!load.canPost && !load.needsBirthDate && !load.under13 && !load.guest ? (
               <p className="text-base text-ink-soft">Writing comments is not available on this account.</p>
             ) : null}
           </div>
