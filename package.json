@@ -7,6 +7,7 @@
     "validate-content": "tsx scripts/validate-content.ts",
     "prebuild": "tsx scripts/validate-content.ts",
     "build": "NEXT_TELEMETRY_DISABLED=1 next build",
+    "postbuild": "tsx scripts/check-content-trace.ts",
     "start": "NEXT_TELEMETRY_DISABLED=1 next start",
     "lint": "eslint .",
     "test": "vitest run",
