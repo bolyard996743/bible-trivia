@@ -1,16 +1,33 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getSupabaseBrowserClient } from "@/lib/account/supabase";
 import { reviewComment } from "@/lib/devotion/comment-filter";
 import type { PublicComment } from "@/lib/devotion/comment-types";
 import { MASCOTS, type MascotId } from "@/lib/game/types";
 
+const MONTHS = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+const YEARS = Array.from({ length: new Date().getFullYear() - 1899 }, (_, index) => new Date().getFullYear() - index);
+
 type Load =
   | { status: "loading" }
   | { status: "signed-out" }
   | { status: "unavailable" }
-  | { status: "ready"; canPost: boolean; comments: PublicComment[] };
+  | { status: "ready"; canPost: boolean; needsBirthDate: boolean; under13: boolean; comments: PublicComment[] };
 
 async function authHeader(): Promise<string | null> {
   const supabase = getSupabaseBrowserClient();
@@ -37,6 +54,9 @@ export function DevotionComments({
   const [draft, setDraft] = useState("");
   const [message, setMessage] = useState<string | null>(null);
   const [sending, setSending] = useState(false);
+  const [askingBirth, setAskingBirth] = useState(false);
+  const [birthMonth, setBirthMonth] = useState("1");
+  const [birthYear, setBirthYear] = useState(String(new Date().getFullYear() - 20));
 
   useEffect(() => {
     if (!open) return;
@@ -56,6 +76,8 @@ export function DevotionComments({
           signedIn?: boolean;
           available?: boolean;
           canPost?: boolean;
+          needsBirthDate?: boolean;
+          under13?: boolean;
           comments?: PublicComment[];
         };
         if (!active) return;
@@ -71,7 +93,13 @@ export function DevotionComments({
         }
         const comments = Array.isArray(body.comments) ? body.comments : [];
         onCount(comments.length);
-        setLoad({ status: "ready", canPost: body.canPost === true, comments });
+        setLoad({
+          status: "ready",
+          canPost: body.canPost === true,
+          needsBirthDate: body.needsBirthDate === true,
+          under13: body.under13 === true,
+          comments,
+        });
       } catch {
         if (!active) return;
         onCount(null);
@@ -93,7 +121,13 @@ export function DevotionComments({
       headers,
       cache: "no-store",
     });
-    const body = (await response.json()) as { available?: boolean; canPost?: boolean; comments?: PublicComment[] };
+    const body = (await response.json()) as {
+      available?: boolean;
+      canPost?: boolean;
+      needsBirthDate?: boolean;
+      under13?: boolean;
+      comments?: PublicComment[];
+    };
     if (body.available === false) {
       onCount(null);
       setLoad({ status: "unavailable" });
@@ -101,7 +135,13 @@ export function DevotionComments({
     }
     const comments = Array.isArray(body.comments) ? body.comments : [];
     onCount(comments.length);
-    setLoad({ status: "ready", canPost: body.canPost === true, comments });
+    setLoad({
+      status: "ready",
+      canPost: body.canPost === true,
+      needsBirthDate: body.needsBirthDate === true,
+      under13: body.under13 === true,
+      comments,
+    });
   }
 
   async function send() {
@@ -140,6 +180,33 @@ export function DevotionComments({
     }
   }
 
+  async function saveBirth() {
+    setSending(true);
+    setMessage(null);
+    try {
+      const auth = await authHeader();
+      const response = await fetch("/api/devotion/comments", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(auth ? { Authorization: auth } : {}),
+        },
+        body: JSON.stringify({ action: "save-birth", year: Number(birthYear), month: Number(birthMonth) }),
+      });
+      const body = (await response.json()) as { message?: string; available?: boolean };
+      if (!response.ok) {
+        setMessage(body.message ?? "Please try that again.");
+        return;
+      }
+      setAskingBirth(false);
+      await reload();
+    } catch {
+      setMessage("Please try that again.");
+    } finally {
+      setSending(false);
+    }
+  }
+
   async function change(action: "delete" | "report", id: string) {
     const auth = await authHeader();
     if (!auth) return;
@@ -171,7 +238,11 @@ export function DevotionComments({
         </div>
         {load.status === "loading" ? <p className="mt-4 text-lg text-ink-soft">Opening comments…</p> : null}
         {load.status === "signed-out" ? (
-          <p className="mt-4 text-lg">Sign in to see comments.</p>
+          <p className="mt-4 text-lg" data-testid="comment-signin-prompt">
+            <Link href="/account?mode=sign-in" className="font-semibold text-grove-deep underline">
+              Sign in to comment
+            </Link>
+          </p>
         ) : null}
         {load.status === "unavailable" ? (
           <p className="mt-4 text-lg">Comments are not available on this copy yet.</p>
@@ -201,6 +272,70 @@ export function DevotionComments({
                 </li>
               ))}
             </ul>
+            {load.under13 ? (
+              <p className="text-lg" data-testid="comment-under13">
+                Comments open up when you are 13. You can still read and like.
+              </p>
+            ) : null}
+            {load.needsBirthDate ? (
+              askingBirth ? (
+                <form
+                  className="grid gap-3"
+                  data-testid="comment-birthdate-prompt"
+                  onSubmit={(event) => {
+                    event.preventDefault();
+                    void saveBirth();
+                  }}
+                >
+                  <p className="text-base text-ink-soft">
+                    This stays private. We only use it to check that comments are for ages 13 and up.
+                  </p>
+                  <label className="grid gap-1 text-base">
+                    Birth month
+                    <select
+                      aria-label="Birth month"
+                      value={birthMonth}
+                      onChange={(event) => setBirthMonth(event.target.value)}
+                      className="rounded-2xl border border-line bg-card px-3 py-2 text-lg"
+                    >
+                      {MONTHS.map((name, index) => (
+                        <option key={name} value={index + 1}>
+                          {name}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <label className="grid gap-1 text-base">
+                    Birth year
+                    <select
+                      aria-label="Birth year"
+                      value={birthYear}
+                      onChange={(event) => setBirthYear(event.target.value)}
+                      className="rounded-2xl border border-line bg-card px-3 py-2 text-lg"
+                    >
+                      {YEARS.map((year) => (
+                        <option key={year} value={year}>
+                          {year}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  {message ? <p className="text-base">{message}</p> : null}
+                  <button type="submit" disabled={sending} className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+                    Save
+                  </button>
+                </form>
+              ) : (
+                <button
+                  type="button"
+                  data-testid="write-comment"
+                  className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white"
+                  onClick={() => setAskingBirth(true)}
+                >
+                  Write a comment
+                </button>
+              )
+            ) : null}
             {load.canPost ? (
               <form
                 className="grid gap-2"
@@ -232,9 +367,10 @@ export function DevotionComments({
                   Post
                 </button>
               </form>
-            ) : (
+            ) : null}
+            {!load.canPost && !load.needsBirthDate && !load.under13 ? (
               <p className="text-base text-ink-soft">Writing comments is not available on this account.</p>
-            )}
+            ) : null}
           </div>
         ) : null}
       </div>

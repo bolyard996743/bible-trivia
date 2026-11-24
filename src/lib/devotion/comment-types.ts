@@ -21,4 +21,6 @@ export type AdminComment = {
   removed: boolean;
   banned: boolean;
   reports: number;
+  birthYear: number | null;
+  birthMonth: number | null;
 };

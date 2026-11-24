@@ -39,7 +39,7 @@ export async function GET(request: Request) {
   const commentIds = listed.data.map((row) => row.id as string);
   const [profiles, bans, reports] = await Promise.all([
     userIds.length
-      ? service.from("profiles").select("user_id, username, mascot").in("user_id", userIds)
+      ? service.from("profiles").select("user_id, username, mascot, birth_date, comment_birth_year, comment_birth_month").in("user_id", userIds)
       : Promise.resolve({ data: [], error: null }),
     userIds.length
       ? service.from("devotion_comment_bans").select("user_id").in("user_id", userIds)
@@ -78,6 +78,7 @@ export async function GET(request: Request) {
       removed: row.removed_at != null,
       banned: banned.has(row.user_id as string),
       reports: reportCounts.get(row.id as string) ?? 0,
+      ...birthParts(profile),
     };
   });
   return privateJson({ ok: true, available: true, comments });
@@ -89,7 +90,7 @@ export async function POST(request: Request) {
   if (!user) return privateJson({ ok: false, signedIn: false }, 401);
   const service = getServiceRoleClient();
   if (!service) return privateJson({ ok: true, available: false });
-  let payload: { action?: unknown; commentId?: unknown; userId?: unknown };
+  let payload: { action?: unknown; commentId?: unknown; userId?: unknown; year?: unknown; month?: unknown };
   try {
     payload = (await request.json()) as typeof payload;
   } catch {
@@ -109,10 +110,34 @@ export async function POST(request: Request) {
     result = await service.from("devotion_comment_bans").upsert({ user_id: userId, banned_at: new Date().toISOString() });
   } else if (payload.action === "unban" && userId) {
     result = await service.from("devotion_comment_bans").delete().eq("user_id", userId);
+  } else if (payload.action === "set-birth" && userId) {
+    const year = Number(payload.year);
+    const month = Number(payload.month);
+    if (!Number.isInteger(year) || !Number.isInteger(month) || month < 1 || month > 12 || year < 1900 || year > 2200) {
+      return privateJson({ ok: false, message: "Choose a birth month and year." }, 400);
+    }
+    result = await service
+      .from("profiles")
+      .update({ comment_birth_year: year, comment_birth_month: month })
+      .eq("user_id", userId);
   } else {
     return privateJson({ ok: false, message: "That action isn't available." }, 400);
   }
   if (schemaMissing(result.error)) return privateJson({ ok: true, available: false });
   if (result.error) return privateJson({ ok: false, message: "Please try that again." }, 400);
   return privateJson({ ok: true, available: true });
+}
+
+function birthParts(profile: { birth_date?: unknown; comment_birth_year?: unknown; comment_birth_month?: unknown } | undefined): {
+  birthYear: number | null;
+  birthMonth: number | null;
+} {
+  if (typeof profile?.comment_birth_year === "number" && typeof profile.comment_birth_month === "number") {
+    return { birthYear: profile.comment_birth_year, birthMonth: profile.comment_birth_month };
+  }
+  if (typeof profile?.birth_date === "string") {
+    const match = /^(\d{4})-(\d{2})/.exec(profile.birth_date);
+    if (match) return { birthYear: Number(match[1]), birthMonth: Number(match[2]) };
+  }
+  return { birthYear: null, birthMonth: null };
 }

@@ -50,6 +50,24 @@ export function AdminComments() {
     };
   }, []);
 
+  async function correctBirth(comment: AdminComment, year: number, month: number) {
+    setMessage(null);
+    const auth = await authHeader();
+    const response = await fetch("/api/admin/comments", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        ...(auth ? { Authorization: auth } : {}),
+      },
+      body: JSON.stringify({ action: "set-birth", userId: comment.userId, year, month }),
+    });
+    if (!response.ok) {
+      setMessage("Please try that again.");
+      return;
+    }
+    await loadComments();
+  }
+
   async function act(action: "remove" | "restore" | "ban" | "unban", comment: AdminComment) {
     setMessage(null);
     const auth = await authHeader();
@@ -80,8 +98,8 @@ export function AdminComments() {
       {message ? <p className="text-lg">{message}</p> : null}
       {load.status === "ready" ? (
         <>
-          <CommentList title="Reported" comments={reported} onAct={act} />
-          <CommentList title="Recent" comments={recent} onAct={act} />
+          <CommentList title="Reported" comments={reported} onAct={act} onCorrect={correctBirth} />
+          <CommentList title="Recent" comments={recent} onAct={act} onCorrect={correctBirth} />
         </>
       ) : null}
     </section>
@@ -92,10 +110,12 @@ function CommentList({
   title,
   comments,
   onAct,
+  onCorrect,
 }: {
   title: string;
   comments: AdminComment[];
   onAct: (action: "remove" | "restore" | "ban" | "unban", comment: AdminComment) => Promise<void>;
+  onCorrect: (comment: AdminComment, year: number, month: number) => Promise<void>;
 }) {
   return (
     <div className="grid gap-3">
@@ -134,9 +154,54 @@ function CommentList({
                 </button>
               )}
             </div>
+            <BirthCorrector comment={comment} onSave={(year, month) => onCorrect(comment, year, month)} />
           </li>
         ))}
       </ul>
     </div>
+  );
+}
+
+function BirthCorrector({
+  comment,
+  onSave,
+}: {
+  comment: AdminComment;
+  onSave: (year: number, month: number) => Promise<void>;
+}) {
+  const [month, setMonth] = useState(String(comment.birthMonth ?? 1));
+  const [year, setYear] = useState(String(comment.birthYear ?? 2000));
+  return (
+    <form
+      className="mt-3 flex flex-wrap items-end gap-2"
+      onSubmit={(event) => {
+        event.preventDefault();
+        void onSave(Number(year), Number(month));
+      }}
+    >
+      <label className="grid text-base">
+        Month
+        <select aria-label={`Birth month for ${comment.username}`} value={month} onChange={(event) => setMonth(event.target.value)}>
+          {Array.from({ length: 12 }, (_, index) => (
+            <option key={index + 1} value={index + 1}>
+              {index + 1}
+            </option>
+          ))}
+        </select>
+      </label>
+      <label className="grid text-base">
+        Year
+        <input
+          aria-label={`Birth year for ${comment.username}`}
+          value={year}
+          onChange={(event) => setYear(event.target.value)}
+          inputMode="numeric"
+          className="w-24 rounded-xl border border-line px-2"
+        />
+      </label>
+      <button type="submit" className="rounded-2xl border border-line px-4">
+        Correct birth date
+      </button>
+    </form>
   );
 }

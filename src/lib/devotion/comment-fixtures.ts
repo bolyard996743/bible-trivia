@@ -33,6 +33,8 @@ export const adminCommentFixtures: AdminComment[] = [
     removed: false,
     banned: false,
     reports: 1,
+    birthYear: 2014,
+    birthMonth: 3,
   },
   {
     id: "fixture-admin-2",
@@ -46,6 +48,8 @@ export const adminCommentFixtures: AdminComment[] = [
     removed: false,
     banned: false,
     reports: 0,
+    birthYear: 1990,
+    birthMonth: 6,
   },
 ];
 

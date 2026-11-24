@@ -8,7 +8,14 @@ import {
   privateJson,
   schemaMissing,
 } from "@/lib/devotion/comment-http";
-import { COMMENT_CLOSED_MESSAGE, COMMENT_RATE_MESSAGE, withinCommentRateLimit } from "@/lib/devotion/comment-policy";
+import {
+  chicagoToday,
+  commentAccess,
+  commentInsertDecision,
+  COMMENT_CLOSED_MESSAGE,
+  COMMENT_RATE_MESSAGE,
+  withinCommentRateLimit,
+} from "@/lib/devotion/comment-policy";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
@@ -34,6 +41,8 @@ export async function GET(request: Request) {
       available: true,
       signedIn: true,
       canPost: true,
+      needsBirthDate: false,
+      under13: false,
       comments: publicCommentFixtures,
     });
   }
@@ -49,15 +58,33 @@ export async function GET(request: Request) {
     return privateJson({ ok: true, available: false, signedIn: true });
   }
   if (listed.error || mayWrite.error) return privateJson({ ok: true, available: false, signedIn: true });
+  const profile = await session.client
+    .from("profiles")
+    .select("birth_date, comment_birth_year, comment_birth_month")
+    .eq("user_id", session.userId)
+    .maybeSingle();
+  if (schemaMissing(profile.error)) return privateJson({ ok: true, available: false, signedIn: true });
+  const access = commentAccess(
+    {
+      signedIn: true,
+      birthDate: typeof profile.data?.birth_date === "string" ? profile.data.birth_date : null,
+      birthYear: typeof profile.data?.comment_birth_year === "number" ? profile.data.comment_birth_year : null,
+      birthMonth: typeof profile.data?.comment_birth_month === "number" ? profile.data.comment_birth_month : null,
+    },
+    chicagoToday(),
+  );
   const comments = (Array.isArray(listed.data) ? listed.data : []).flatMap((row) => {
     const comment = asPublicComment(row);
     return comment ? [comment] : [];
   });
+  const canPost = mayWrite.data === true;
   return privateJson({
     ok: true,
     available: true,
     signedIn: true,
-    canPost: mayWrite.data === true,
+    canPost,
+    needsBirthDate: access.needsBirthDate,
+    under13: access.under13 && !canPost,
     comments,
   });
 }
@@ -74,11 +101,44 @@ export async function POST(request: Request) {
     devotionDate?: unknown;
     body?: unknown;
     id?: unknown;
+    year?: unknown;
+    month?: unknown;
   };
   try {
     payload = (await request.json()) as typeof payload;
   } catch {
     return privateJson({ ok: false, message: "Please try that comment again." }, 400);
+  }
+
+  if (payload.action === "save-birth") {
+    const year = Number(payload.year);
+    const month = Number(payload.month);
+    const today = chicagoToday();
+    if (!Number.isInteger(year) || !Number.isInteger(month) || month < 1 || month > 12 || year < 1900 || year > today.year) {
+      return privateJson({ ok: false, message: "Choose a birth month and year." }, 400);
+    }
+    const existing = await session.client
+      .from("profiles")
+      .select("birth_date, comment_birth_year, comment_birth_month")
+      .eq("user_id", session.userId)
+      .maybeSingle();
+    if (schemaMissing(existing.error)) return privateJson({ ok: true, available: false });
+    if (existing.error || !existing.data) return privateJson({ ok: false, message: COMMENT_CLOSED_MESSAGE }, 400);
+    const already =
+      existing.data.birth_date != null ||
+      existing.data.comment_birth_year != null ||
+      existing.data.comment_birth_month != null;
+    if (already) return privateJson({ ok: false, message: "That birth date is already saved." }, 400);
+    const saved = await session.client
+      .from("profiles")
+      .update({ comment_birth_year: year, comment_birth_month: month })
+      .eq("user_id", session.userId)
+      .is("comment_birth_year", null)
+      .is("birth_date", null);
+    if (schemaMissing(saved.error)) return privateJson({ ok: true, available: false });
+    if (saved.error) return privateJson({ ok: false, message: "That birth date is already saved." }, 400);
+    const access = commentAccess({ signedIn: true, birthYear: year, birthMonth: month }, today);
+    return privateJson({ ok: true, available: true, ...access });
   }
 
   if (payload.action === "delete" || payload.action === "report") {
@@ -106,6 +166,24 @@ export async function POST(request: Request) {
   }
   const review = reviewComment(body);
   if (!review.ok) return privateJson({ ok: false, message: review.message }, 400);
+  const profile = await session.client
+    .from("profiles")
+    .select("birth_date, comment_birth_year, comment_birth_month")
+    .eq("user_id", session.userId)
+    .maybeSingle();
+  if (schemaMissing(profile.error)) return privateJson({ ok: true, available: false });
+  const countPreview = await session.client.rpc("devotion_comment_count_today");
+  const decision = commentInsertDecision(
+    {
+      signedIn: true,
+      birthDate: typeof profile.data?.birth_date === "string" ? profile.data.birth_date : null,
+      birthYear: typeof profile.data?.comment_birth_year === "number" ? profile.data.comment_birth_year : null,
+      birthMonth: typeof profile.data?.comment_birth_month === "number" ? profile.data.comment_birth_month : null,
+      countToday: typeof countPreview.data === "number" ? countPreview.data : 0,
+    },
+    chicagoToday(),
+  );
+  if (!decision.ok) return privateJson({ ok: false, message: decision.message }, 403);
   const mayWrite = await session.client.rpc("devotion_comment_may_write");
   if (schemaMissing(mayWrite.error)) return privateJson({ ok: true, available: false });
   if (mayWrite.error || mayWrite.data !== true) {

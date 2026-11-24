@@ -5,7 +5,10 @@ import { biblicalIdolNames, biblicalNames, commentBlocklist } from "../config/co
 import { biblicalNamesAreUnblocked, reviewComment } from "@/lib/devotion/comment-filter";
 import {
   COMMENT_DAILY_LIMIT,
-  commentPostAllowed,
+  birthFieldsChangeAllowed,
+  commentAccess,
+  commentAgeReached,
+  commentInsertDecision,
   hideOnReport,
   withinCommentRateLimit,
 } from "@/lib/devotion/comment-policy";
@@ -133,17 +136,91 @@ describe("comment posting rules", () => {
     expect(ageGroupFromBirthDate({ year: 2008, month: 11, day: 24 }, today)).toBe("adult");
   });
 
-  it("allows posting only at 13 or older", () => {
-    expect(commentPostAllowed({ birthDate: "2014-11-24", ageGroup: "teen" }, today)).toBe(false);
-    expect(commentPostAllowed({ birthDate: "2013-11-25", ageGroup: "teen" }, today)).toBe(false);
-    expect(commentPostAllowed({ birthDate: "2013-11-24", ageGroup: "teen" }, today)).toBe(true);
-    expect(commentPostAllowed({ birthDate: "1990-01-01", ageGroup: "adult" }, today)).toBe(true);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: "teen" }, today)).toBe(false);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: "adult" }, today)).toBe(false);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: "older" }, today)).toBe(false);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: "child" }, today)).toBe(false);
-    expect(commentPostAllowed({ birthDate: null, ageGroup: null }, today)).toBe(false);
-    expect(commentPostAllowed({ birthDate: "not-a-date", ageGroup: "adult" }, today)).toBe(false);
+  it("counts 13 only after the birth month has fully passed", () => {
+    expect(commentAgeReached(2013, 3, { year: 2026, month: 3, day: 31 })).toBe(false);
+    expect(commentAgeReached(2013, 3, { year: 2026, month: 4, day: 1 })).toBe(true);
+    expect(commentAgeReached(2013, 2, { year: 2026, month: 2, day: 28 })).toBe(false);
+    expect(commentAgeReached(2013, 2, { year: 2026, month: 3, day: 1 })).toBe(true);
+    expect(commentAgeReached(2012, 2, { year: 2025, month: 2, day: 28 })).toBe(false);
+    expect(commentAgeReached(2012, 2, { year: 2025, month: 3, day: 1 })).toBe(true);
+    expect(commentAgeReached(2013, 12, { year: 2026, month: 12, day: 31 })).toBe(false);
+    expect(commentAgeReached(2013, 12, { year: 2027, month: 1, day: 1 })).toBe(true);
+  });
+
+  it("keeps guests and players without a birth date from posting", () => {
+    expect(commentAccess({ signedIn: false }, today)).toEqual({
+      canPost: false,
+      needsBirthDate: false,
+      under13: false,
+    });
+    expect(commentInsertDecision({ signedIn: false, countToday: 0 }, today)).toEqual({
+      ok: false,
+      message: "Sign in to comment.",
+    });
+    const missing = commentAccess({ signedIn: true, birthDate: null, birthYear: null, birthMonth: null }, today);
+    expect(missing.needsBirthDate).toBe(true);
+    expect(missing.canPost).toBe(false);
+    expect(commentInsertDecision({ signedIn: true, countToday: 0 }, today).ok).toBe(false);
+  });
+
+  it("keeps under 13 read-only and lets 13+ post", () => {
+    const younger = commentAccess({ signedIn: true, birthYear: 2014, birthMonth: 3 }, today);
+    expect(younger).toEqual({ canPost: false, needsBirthDate: false, under13: true });
+    expect(commentInsertDecision({ signedIn: true, birthYear: 2014, birthMonth: 3, countToday: 0 }, today).ok).toBe(false);
+    const older = commentAccess({ signedIn: true, birthYear: 2013, birthMonth: 3 }, { year: 2026, month: 4, day: 1 });
+    expect(older.canPost).toBe(true);
+    expect(commentInsertDecision({ signedIn: true, birthYear: 2013, birthMonth: 3, countToday: 0 }, { year: 2026, month: 4, day: 1 }).ok).toBe(true);
+    const fromDate = commentAccess({ signedIn: true, birthDate: "2013-03-15" }, { year: 2026, month: 3, day: 31 });
+    expect(fromDate.canPost).toBe(false);
+    expect(commentAccess({ signedIn: true, birthDate: "2013-03-15" }, { year: 2026, month: 4, day: 1 }).canPost).toBe(true);
+  });
+
+  it("stops a player from changing a saved birth date", () => {
+    const saved = { birthDate: "2010-04-02", year: null, month: null };
+    expect(
+      birthFieldsChangeAllowed({
+        actor: "owner",
+        previous: saved,
+        next: { birthDate: "2000-01-01", year: null, month: null },
+      }),
+    ).toBe(false);
+    expect(
+      birthFieldsChangeAllowed({
+        actor: "owner",
+        previous: { birthDate: null, year: null, month: null },
+        next: { birthDate: null, year: 2010, month: 4 },
+      }),
+    ).toBe(true);
+    expect(
+      birthFieldsChangeAllowed({
+        actor: "owner",
+        previous: { birthDate: null, year: 2010, month: 4 },
+        next: { birthDate: null, year: 2000, month: 1 },
+      }),
+    ).toBe(false);
+    expect(
+      birthFieldsChangeAllowed({
+        actor: "service",
+        previous: saved,
+        next: { birthDate: "2000-01-01", year: 2000, month: 1 },
+      }),
+    ).toBe(true);
+    expect(
+      birthFieldsChangeAllowed({
+        actor: "other",
+        previous: { birthDate: null, year: null, month: null },
+        next: { birthDate: null, year: 2010, month: 4 },
+      }),
+    ).toBe(false);
+    const sql = fs.readFileSync(
+      path.join(process.cwd(), "supabase/migrations/20261124210000_comment_birth_month.sql"),
+      "utf8",
+    );
+    expect(sql).toContain("raise exception 'birth date is locked'");
+    expect(sql).toContain("if (select auth.uid()) is null then");
+    expect(sql).toContain("return public.comment_age_reached");
+    expect(sql).toContain("if birth is null then");
+    expect(sql).toContain("interval '1 month'");
   });
 
   it("allows three comments per player per day", () => {
