@@ -1,20 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { BadgeArt } from "@/components/BadgeArt";
+import { BadgeEmblem, type BadgeEmblemStatus } from "@/components/BadgeEmblem";
 import { STAGE_LEARNING, stageRank } from "@/lib/curriculum";
-import { badgeCircleName, badgeEarned, stageSlug, visibleMapStages } from "@/lib/game/badges";
+import { badgeEarned, badgeStatusLabel, stageSlug, visibleMapStages } from "@/lib/game/badges";
+import { isBadgeWaiting } from "@/lib/game/badge-retry";
 import { badgePlayHref, stagePath } from "@/lib/game/path";
 import type { GameProgress, KnowledgeStage } from "@/lib/game/types";
 
-export function StageMap({ progress }: { progress: GameProgress }) {
+export function StageMap({ progress, now = new Date() }: { progress: GameProgress; now?: Date }) {
   const stages = visibleMapStages(progress);
   const current = progress.stage ?? "Seed";
 
   return (
-    <div className="grid gap-8" data-testid="stage-map">
+    <div className="grid gap-5" data-testid="stage-map">
       {stages.map((stage) => (
-        <StageBlock key={stage} stage={stage} current={current} progress={progress} />
+        <StageBlock key={stage} stage={stage} current={current} progress={progress} now={now} />
       ))}
     </div>
   );
@@ -24,16 +25,18 @@ function StageBlock({
   stage,
   current,
   progress,
+  now,
 }: {
   stage: KnowledgeStage;
   current: KnowledgeStage;
   progress: GameProgress;
+  now: Date;
 }) {
   const block = stagePath(stage);
   const skipped = stageRank(stage) < stageRank(current);
   return (
     <section
-      className="grid gap-4"
+      className="stage-card grid gap-4"
       data-testid={`stage-block-${stageSlug(stage)}`}
       data-place={skipped ? "skipped" : "current"}
     >
@@ -43,23 +46,22 @@ function StageBlock({
           {STAGE_LEARNING[stage]}
         </p>
       </div>
-      <ul className="flex flex-wrap gap-3" aria-label={`${stage} badges`}>
+      <ul className="grid grid-cols-3 gap-x-2 gap-y-5 sm:grid-cols-4" aria-label={`${stage} badges`}>
         {(block?.badges ?? []).map((badge) => {
           const earned = badgeEarned(progress, badge);
+          const locked = !earned && isBadgeWaiting(progress, badge.id, now);
+          const status: BadgeEmblemStatus = earned ? "earned" : locked ? "locked" : "empty";
           return (
             <li key={badge.id}>
               <Link
                 href={badgePlayHref(badge.id)}
                 data-testid={`badge-${badge.id}`}
-                data-state={earned ? "earned" : "empty"}
-                aria-label={badgeCircleName(badge.name, earned)}
-                className={
-                  earned
-                    ? "badge-link inline-flex h-16 w-16 items-center justify-center rounded-full border-2 border-grove bg-gold-soft text-grove-deep"
-                    : "badge-link inline-flex h-16 w-16 rounded-full border-2 border-dashed border-ink-soft/40 bg-ink-soft/10"
-                }
+                data-state={status}
+                aria-label={badgeStatusLabel(badge.name, status)}
+                className="badge-link flex flex-col items-center gap-2 rounded-2xl px-1 py-1"
               >
-                {earned ? <BadgeArt topic={badge.art} /> : null}
+                <BadgeEmblem topic={badge.art} slug={badge.id} status={status} />
+                <span className={`badge-caption ${earned ? "text-grove-deep" : "text-ink"}`}>{badge.name}</span>
               </Link>
             </li>
           );

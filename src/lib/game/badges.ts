@@ -81,6 +81,13 @@ export function badgeCircleName(name: string, earned: boolean): string {
   return earned ? `${name}. Earned` : `${name}. Not earned yet`;
 }
 
+/** Link name for a badge. Earned and empty keep the original wording. A 24-hour lock adds the clock. */
+export function badgeStatusLabel(name: string, status: "earned" | "empty" | "locked"): string {
+  if (status === "earned") return badgeCircleName(name, true);
+  if (status === "locked") return `${badgeCircleName(name, false)}. Locked for 24 hours`;
+  return badgeCircleName(name, false);
+}
+
 /**
  * The questions a badge attempt asks, in path order, each with every choice.
  *

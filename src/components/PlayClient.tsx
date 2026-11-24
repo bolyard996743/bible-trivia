@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { BadgePageMark, type BadgeEmblemStatus } from "@/components/BadgeEmblem";
 import { BadgeRetryNotice } from "@/components/BadgeRetryNotice";
 import { QuestionSession } from "@/components/QuestionSession";
 import { attemptForQuestion, linesForPathPlay } from "@/lib/game";
@@ -65,7 +66,7 @@ export function PlayClient({
   if (badge && waiting && retryAt && !reviewingMiss) {
     return (
       <section className="grid gap-4" data-testid="badge-retry-screen">
-        <h1 className="text-3xl font-semibold text-grove-deep">{badge.name}</h1>
+        <BadgePageMark topic={badge.art} slug={badge.id} status="locked" title={badge.name} />
         <BadgeRetryNotice now={Date.now()} retryAt={retryAt} />
         <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
           See your stage map
@@ -76,7 +77,7 @@ export function PlayClient({
   if (badge && badge.questionIds.length === 0) {
     return (
       <section className="grid gap-4" data-testid="badge-unwritten">
-        <h1 className="text-3xl font-semibold text-grove-deep">{badge.name}</h1>
+        <BadgePageMark topic={badge.art} slug={badge.id} status="empty" title={badge.name} />
         <p className="text-lg text-ink">This story is still being written. The badge stays empty until its questions are ready.</p>
         <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
           Back to the map
@@ -93,9 +94,15 @@ export function PlayClient({
         : null
       : selectLadderQuestion(questions, state.progress);
   if (!pick) {
+    const earned = Boolean(badge && badgeEarned(state.progress, badge));
+    const status: BadgeEmblemStatus = earned ? "earned" : "empty";
     return (
       <section className="grid gap-4">
-        <h1 className="text-3xl font-semibold text-grove-deep">{badge ? badge.name : "You are caught up"}</h1>
+        {badge ? (
+          <BadgePageMark topic={badge.art} slug={badge.id} status={status} title={badge.name} />
+        ) : (
+          <h1 className="text-3xl font-semibold text-grove-deep">You are caught up</h1>
+        )}
         <p className="text-lg text-ink" data-testid={badge ? "badge-closed" : undefined}>
           {badge
             ? badgeEarned(state.progress, badge)
