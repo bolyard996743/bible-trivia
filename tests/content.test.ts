@@ -6,6 +6,7 @@ import { describe, expect, it } from "vitest";
 import { linesForPathPlay, pickMascotLine, selectPlacementQuestions } from "@/lib/game";
 import { explanationRevealIssues } from "@/lib/game/reveal";
 import { MOMENTS, TIERS } from "@/lib/game/types";
+import { validateDevotions } from "@/lib/content/devotions";
 import { loadCatalog } from "@/lib/content/load";
 import { questionBatchSchema } from "@/lib/content/schema";
 import { validateContentTree } from "@/lib/content/validate";
@@ -16,6 +17,7 @@ describe("sample content", () => {
   it("passes the schema check used by the build", () => {
     expect(result.errors).toEqual([]);
     expect(result.ok).toBe(true);
+    expect(validateDevotions(process.cwd()).errors).toEqual([]);
   });
 
   it("covers both testaments, every tier, and draft placeholder review", () => {

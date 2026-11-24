@@ -1,9 +1,12 @@
 import type { NextConfig } from "next";
+import { validateDevotions } from "./src/lib/content/devotions";
 import { validateContentTree } from "./src/lib/content/validate";
 
 const content = validateContentTree(process.cwd());
-if (!content.ok) {
-  throw new Error(`Content validation failed:\n${content.errors.join("\n")}`);
+const devotions = validateDevotions(process.cwd());
+const errors = [...content.errors, ...devotions.errors];
+if (!content.ok || !devotions.ok) {
+  throw new Error(`Content validation failed:\n${errors.join("\n")}`);
 }
 
 const nextConfig: NextConfig = {
