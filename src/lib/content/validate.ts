@@ -5,7 +5,7 @@ import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS, type MascotId, type MascotLine } f
 import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
 import { establishedLinesPath, readEstablishedLineFiles } from "./established-lines";
-import { fruitfulLinesPath, readFruitfulLineFiles } from "./fruitful-lines";
+import { fruitfulILinesPath, fruitfulLinesPath, readFruitfulILineFiles, readFruitfulLineFiles } from "./fruitful-lines";
 import { growingLinesPath, readGrowingLineFiles } from "./growing-lines";
 import { readRootedLineFiles, rootedLinesPath } from "./rooted-lines";
 import { ANSWER_MOMENTS, readSproutLineFiles, sproutLinesPath } from "./sprout-lines";
@@ -47,53 +47,6 @@ const GROWING_QUESTION_COUNT = 216;
 const ESTABLISHED_QUESTION_COUNT = 232;
 const FRUITFUL_QUESTION_COUNT = 552;
 
-/**
- * Badges 65-69 are in the path before their mascot lines exist.
- * Every other stage, and every earlier Fruitful question, still needs its lines.
- */
-export const FRUITFUL_BATCH_I_QUESTION_IDS = new Set<string>([
-  "c1-jas-0008",
-  "c2-jas-0002",
-  "c2-jas-0003",
-  "c2-jas-0004",
-  "c3-jas-0001",
-  "c3-jas-0002",
-  "c3-jas-0003",
-  "c3-jas-0004",
-  "c1-1pe-0002",
-  "c2-1pe-0006",
-  "c2-1pe-0007",
-  "c2-1pe-0008",
-  "c3-1pe-0003",
-  "c3-1pe-0004",
-  "c3-1pe-0005",
-  "c3-1pe-0006",
-  "c1-1jn-0002",
-  "c2-1jn-0006",
-  "c2-1jn-0007",
-  "c2-1jn-0008",
-  "c3-1jn-0003",
-  "c3-1jn-0004",
-  "c3-1jn-0005",
-  "c3-1jn-0006",
-  "c1-eph-0007",
-  "c2-eph-0001",
-  "c2-eph-0002",
-  "c2-eph-0003",
-  "c3-eph-0002",
-  "c3-eph-0003",
-  "c3-eph-0004",
-  "c3-eph-0005",
-  "c1-jud-0001",
-  "c2-jud-0001",
-  "c2-jud-0002",
-  "c2-jud-0003",
-  "c3-jud-0001",
-  "c3-jud-0002",
-  "c3-jud-0003",
-  "c3-jud-0004",
-]);
-
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
   /swallow(?:ed|s|ing)?\s+jonah/i,
@@ -129,7 +82,6 @@ function requireStageLines(
     );
   }
   for (const id of ids) {
-    if (stage === "Fruitful" && FRUITFUL_BATCH_I_QUESTION_IDS.has(id)) continue;
     const byMascot = answerLinesByQuestion.get(id) ?? new Map<string, Set<string>>();
     for (const mascot of MASCOT_IDS) {
       if (skipMascots.has(mascot)) continue;
@@ -381,6 +333,16 @@ export function validateContentTree(root: string): ValidationResult {
     questionIds,
     answerLinesByQuestion,
   );
+  const fruitfulI = readFruitfulILineFiles(root);
+  errors.push(...fruitfulI.errors);
+  lineCount += recordExpandedLines(
+    errors,
+    fruitfulI.lines,
+    fruitfulILinesPath,
+    lineIds,
+    questionIds,
+    answerLinesByQuestion,
+  );
   const fruitfulFileMissing = new Set(MASCOT_IDS.filter((mascot) => !fruitful.loaded.includes(mascot)));
 
   const pathFile = path.join(root, "content", "knowledge_path.json");
@@ -539,6 +501,14 @@ export function validateContentTree(root: string): ValidationResult {
       new Set(fruitfulQuestionIds),
       questionIds,
       fruitfulLinesPath,
+      "Fruitful",
+    );
+    rejectOffStageLines(
+      errors,
+      fruitfulI.lines,
+      new Set(fruitfulQuestionIds),
+      questionIds,
+      fruitfulILinesPath,
       "Fruitful",
     );
   }
