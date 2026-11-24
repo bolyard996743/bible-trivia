@@ -1,4 +1,5 @@
 import type { AgeGroup } from "../game/types";
+import type { SignupAgeGroup } from "./signup-metadata";
 import type { StoredState } from "../storage";
 
 export const AGE_GATE_KEY = "bible-trivia-age-gate-v1";
@@ -138,6 +139,15 @@ export function parseDeviceBirth(raw: string | null): DeviceBirth | null {
 export function loadDeviceBirthDate(): DeviceBirth | null {
   if (typeof window === "undefined") return null;
   return parseDeviceBirth(window.localStorage.getItem(DEVICE_BIRTH_KEY));
+}
+
+/** Birth date already saved on this device, when it can belong to an account. */
+export function accountBirth(): { birth: DeviceBirth; age: SignupAgeGroup } | null {
+  const birth = loadDeviceBirthDate();
+  if (!birth) return null;
+  const age = ageGroupFromBirthDate(birth);
+  if (age !== "teen" && age !== "adult" && age !== "older") return null;
+  return { birth, age };
 }
 
 /** The first saved birthday stays. Later tries do not replace it. */

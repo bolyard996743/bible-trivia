@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { KnowledgePath } from "@/components/KnowledgePath";
 import { MascotMark } from "@/components/MascotMark";
+import { SaveProgressPrompt } from "@/components/SaveProgressPrompt";
 import { STARTING_REASSURANCE } from "@/lib/copy";
 import { pickMascotLine } from "@/lib/game";
 import { currentSection } from "@/lib/game/progression";
@@ -39,7 +40,7 @@ export function ResultsClient({ questions, lines }: { questions: Question[]; lin
           <p className="text-lg text-ink">{line?.text}</p>
         </div>
       </div>
-      <div className="rounded-3xl border border-line bg-card p-5">
+      <div className="rounded-3xl border border-line bg-card p-5" data-testid="starting-place">
         <p className="text-lg text-ink">
           We will begin at <span className="font-semibold">Cycle {state.placement.cycle}</span>
           {section ? (
@@ -53,6 +54,7 @@ export function ResultsClient({ questions, lines }: { questions: Question[]; lin
           Your private path starts at {state.placement.stage}. That is a place to grow from, not a rank.
         </p>
       </div>
+      <SaveProgressPrompt />
       <KnowledgePath stage={state.placement.stage} />
       <Link href="/home" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
         Go to your path

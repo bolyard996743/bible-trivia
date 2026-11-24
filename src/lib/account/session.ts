@@ -1,8 +1,10 @@
 import { createVerseMarkStore } from "../bible/marks";
 import type { StoredState } from "../storage";
 import {
+  accountBirth,
   ageGateFromBracket,
   ageGroupFromBirthDate,
+  birthDateIso,
   calendarToday,
   loadDeviceBirthDate,
   stateWithBirthAge,
@@ -18,9 +20,13 @@ import {
   type PlayerRepository,
 } from "./repository";
 import { createSupabasePlayerRepository } from "./supabase-db";
-import { getSupabaseBrowserClient, isSupabaseConfigured } from "./supabase";
+import { createProfileForNewAccount, getSupabaseBrowserClient, isSupabaseConfigured } from "./supabase";
 
 const DECLINED_KEY = "bible-trivia-merge-declined";
+const PENDING_CARRY_KEY = "bible-trivia-pending-carry-email";
+
+const carriedUsers = new Set<string>();
+const settling = new Map<string, Promise<void>>();
 
 export type MergeOffer = {
   userId: string;
@@ -56,12 +62,35 @@ function localMarks() {
   return createVerseMarkStore(window.localStorage).list();
 }
 
-export async function acceptMerge(): Promise<void> {
-  const pending = offer;
-  if (!pending || typeof window === "undefined") return;
+export function rememberPendingCarry(email: string): void {
+  if (typeof window === "undefined") return;
+  window.localStorage.setItem(PENDING_CARRY_KEY, email.trim().toLowerCase());
+}
+
+export function clearPendingCarry(): void {
+  if (typeof window === "undefined") return;
+  window.localStorage.removeItem(PENDING_CARRY_KEY);
+}
+
+export function pendingCarryEmail(): string | null {
+  if (typeof window === "undefined") return null;
+  const value = window.localStorage.getItem(PENDING_CARRY_KEY);
+  return value ? value : null;
+}
+
+/** Clears in-memory carry bookkeeping so tests do not leak across cases. */
+export function resetAccountCarryForTests(): void {
+  carriedUsers.clear();
+  settling.clear();
+  offer = null;
+}
+
+async function commitMerge(userId: string, local: StoredState, remoteState: StoredState | null): Promise<void> {
+  const client = getSupabaseBrowserClient();
+  if (!client || typeof window === "undefined") return;
   const localRepo = createLocalPlayerRepository(window.localStorage);
-  const remote = createSupabasePlayerRepository(getSupabaseBrowserClient()!, pending.userId);
-  const merged = mergeAccountProgress(pending.local, pending.remote, localMarks(), await remote.loadMarks());
+  const remote = createSupabasePlayerRepository(client, userId);
+  const merged = mergeAccountProgress(local, remoteState, localMarks(), await remote.loadMarks());
   if (merged.state && merged.upload) {
     await remote.save(merged.state);
     await remote.saveMarks(merged.marks);
@@ -69,11 +98,36 @@ export async function acceptMerge(): Promise<void> {
     await localRepo.saveMarks(merged.marks);
   }
   window.localStorage.removeItem(DECLINED_KEY);
+  carriedUsers.add(userId);
+  clearPendingCarry();
   offer = null;
   setPlayerRepository(
     createSyncingRepository(localRepo, remote, Boolean(merged.state && canOfferAccount(merged.state.ageGroup))),
   );
   notify();
+}
+
+async function saveBirthThenCarry(userId: string, local: StoredState, remoteState: StoredState | null): Promise<void> {
+  const birth = accountBirth();
+  if (birth) {
+    const client = getSupabaseBrowserClient();
+    const user = client ? (await client.auth.getUser()).data.user : null;
+    const metaName = user?.user_metadata?.username;
+    const username = local.username || (typeof metaName === "string" ? metaName : "");
+    await createProfileForNewAccount({
+      username,
+      ageGroup: birth.age,
+      birthDate: birthDateIso(birth.birth),
+      mascot: local.mascot,
+    });
+  }
+  await commitMerge(userId, local, remoteState);
+}
+
+export async function acceptMerge(): Promise<void> {
+  const pending = offer;
+  if (!pending || typeof window === "undefined") return;
+  await commitMerge(pending.userId, pending.local, pending.remote);
 }
 
 export function declineMerge() {
@@ -101,18 +155,37 @@ async function adoptSession(userId: string) {
   if (local) await localRepo.save(local);
   if (local && !canOfferAccount(local.ageGroup)) {
     offer = null;
+    clearPendingCarry();
     setPlayerRepository(localRepo);
     return;
   }
   const client = getSupabaseBrowserClient();
   if (!client) return;
+  if (carriedUsers.has(userId)) {
+    offer = null;
+    setPlayerRepository(createSyncingRepository(localRepo, createSupabasePlayerRepository(client, userId), true));
+    notify();
+    return;
+  }
   const remoteRepo = createSupabasePlayerRepository(client, userId);
   let remote: StoredState | null = null;
+  let remoteUnreadable = false;
   try {
     remote = await remoteRepo.load();
   } catch {
     remote = null;
+    remoteUnreadable = true;
   }
+  const pending = pendingCarryEmail();
+  if (pending && local && !remoteUnreadable) {
+    const user = (await client.auth.getUser()).data.user;
+    const sessionEmail = user?.email?.trim().toLowerCase() ?? "";
+    if (sessionEmail && sessionEmail === pending) {
+      await saveBirthThenCarry(userId, local, remote);
+      return;
+    }
+  }
+  if (pending && !local) clearPendingCarry();
   const marks = localMarks();
   const shouldOffer = Boolean(local && declinedUser() !== userId && (hasDeviceProgress(local, marks) || remote));
   if (shouldOffer && local) {
@@ -130,6 +203,27 @@ async function adoptSession(userId: string) {
   notify();
 }
 
+export function settleSignedInPlayer(userId: string): Promise<void> {
+  const current = settling.get(userId);
+  if (current) return current;
+  const job = adoptSession(userId).finally(() => {
+    settling.delete(userId);
+  });
+  settling.set(userId, job);
+  return job;
+}
+
+/** Moves this device's progress after a sign-up that already has a session. */
+export async function carryGuestProgress(): Promise<void> {
+  if (typeof window === "undefined") return;
+  const client = getSupabaseBrowserClient();
+  if (!client) return;
+  const { data } = await client.auth.getUser();
+  const userId = data.user?.id;
+  if (!userId) return;
+  await settleSignedInPlayer(userId);
+}
+
 export function startAccountSync(): () => void {
   if (typeof window === "undefined" || !isSupabaseConfigured()) return () => {};
   const supabase = getSupabaseBrowserClient();
@@ -138,16 +232,17 @@ export function startAccountSync(): () => void {
   void supabase.auth.getSession().then(({ data }) => {
     if (!active) return;
     const userId = data.session?.user.id;
-    if (userId) void adoptSession(userId);
+    if (userId) void settleSignedInPlayer(userId);
   });
   const { data } = supabase.auth.onAuthStateChange((_event, session) => {
     if (!session) {
       offer = null;
+      carriedUsers.clear();
       setPlayerRepository(createLocalPlayerRepository(window.localStorage));
       notify();
       return;
     }
-    void adoptSession(session.user.id);
+    void settleSignedInPlayer(session.user.id);
   });
   return () => {
     active = false;
