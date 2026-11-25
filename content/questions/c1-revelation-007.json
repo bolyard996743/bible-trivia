@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-revelation-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-rev-0037",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 12",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How does Revelation 12:6 begin?",
+        "child": "What are the opening words of Revelation 12:6?",
+        "teen": "How do the first words of Revelation 12:6 run?",
+        "older": "According to Revelation 12:6, how does the verse begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Then the woman fled into the wilderness"
+        },
+        {
+          "id": "b",
+          "text": "Then the woman fled into the highlands"
+        },
+        {
+          "id": "c",
+          "text": "Then the woman fled into the hinterland"
+        },
+        {
+          "id": "d",
+          "text": "Then the woman fled into the countryside"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 12:6",
+            "text": "Then the woman fled into the wilderness, where she has a place prepared by God, that they should feed her there one thousand two hundred and sixty days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Revelation 12:6.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Start at the beginning of Revelation 12:6.",
+          "older": "It is the opening of Revelation 12:6."
+        },
+        "extended_explanation": "Read Revelation 12:6 in the cited passage.",
+        "takeaway": "Then the woman fled into the wilderness"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-rev-0038",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 20",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 13:5 is also cited. In Revelation 20:3, after “and set a seal on him,” how does the verse proceed?",
+        "child": "After “and set a seal on him,” how does Revelation 20:3 proceed?",
+        "teen": "What comes next in Revelation 20:3, just after “and set a seal on him,”? This question also cites Revelation 13:5.",
+        "older": "Read Revelation 20:3 with Revelation 13:5. After “and set a seal on him,” how does Revelation 20:3 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "so that he should deceive the peoples no more"
+        },
+        {
+          "id": "b",
+          "text": "so that he should deceive the nations no more"
+        },
+        {
+          "id": "c",
+          "text": "so that he should deceive the tongues no more"
+        },
+        {
+          "id": "d",
+          "text": "so that he should deceive the families no more"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 20:3",
+            "text": "and he cast him into the bottomless pit, and shut him up, and set a seal on him, so that he should deceive the nations no more till the thousand years were finished. But after these things he must be released for a little while.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 13:5",
+            "text": "And he was given a mouth speaking great things and blasphemies, and he was given authority to continue for forty-two months.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 20:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 13:5 is the companion citation. Continue in Revelation 20:3.",
+          "older": "The continuation is in Revelation 20:3."
+        },
+        "extended_explanation": "Revelation 13:5 is cited alongside Revelation 20:3. Read both verses.",
+        "takeaway": "so that he should deceive the nations no more"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0039",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 19",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 19:12 is also cited. In Revelation 19:11, after “And He who sat on him” how does the verse proceed?",
+        "child": "After “And He who sat on him” how does Revelation 19:11 proceed?",
+        "teen": "What comes next in Revelation 19:11, just after “And He who sat on him”? This question also cites Revelation 19:12.",
+        "older": "Read Revelation 19:11 with Revelation 19:12. After “And He who sat on him” how does Revelation 19:11 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "was called Faithful and Pure, and"
+        },
+        {
+          "id": "b",
+          "text": "was called Faithful and Kind, and"
+        },
+        {
+          "id": "c",
+          "text": "was called Faithful and True, and"
+        },
+        {
+          "id": "d",
+          "text": "was called Faithful and Wise, and"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 19:11",
+            "text": "Now I saw heaven opened, and behold, a white horse. And He who sat on him was called Faithful and True, and in righteousness He judges and makes war.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 19:12",
+            "text": "His eyes were like a flame of fire, and on His head were many crowns. He had a name written that no one knew except Himself.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 19:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 19:12 is the companion citation. Continue in Revelation 19:11.",
+          "older": "The continuation is in Revelation 19:11."
+        },
+        "extended_explanation": "Revelation 19:12 is cited alongside Revelation 19:11. Read both verses.",
+        "takeaway": "was called Faithful and True, and"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0040",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 20",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 12:11 is also cited. How does Revelation 20:6 begin?",
+        "child": "What are the opening words of Revelation 20:6?",
+        "teen": "How do the first words of Revelation 20:6 run? This question also cites Revelation 12:11.",
+        "older": "Read Revelation 20:6 with Revelation 12:11. How does Revelation 20:6 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blessed and holy is he who has part in the first proclamation"
+        },
+        {
+          "id": "b",
+          "text": "Blessed and holy is he who has part in the first confirmation"
+        },
+        {
+          "id": "c",
+          "text": "Blessed and holy is he who has part in the first inauguration"
+        },
+        {
+          "id": "d",
+          "text": "Blessed and holy is he who has part in the first resurrection"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 20:6",
+            "text": "Blessed and holy is he who has part in the first resurrection. Over such the second death has no power, but they shall be priests of God and of Christ, and shall reign with Him a thousand years.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 12:11",
+            "text": "And they overcame him by the blood of the Lamb and by the word of their testimony, and they did not love their lives to the death.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Revelation 20:6.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Revelation 12:11 is the companion citation. Start at the beginning of Revelation 20:6.",
+          "older": "It is the opening of Revelation 20:6."
+        },
+        "extended_explanation": "Revelation 12:11 is cited alongside Revelation 20:6. Read both verses.",
+        "takeaway": "Blessed and holy is he who has part in the first resurrection"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0041",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 20",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 20:5 is also cited. In Revelation 20:11, after “away.” how does the verse proceed?",
+        "child": "After “away.” how does Revelation 20:11 proceed?",
+        "teen": "What comes next in Revelation 20:11, just after “away.”? This question also cites Revelation 20:5.",
+        "older": "Read Revelation 20:11 with Revelation 20:5. After “away.” how does Revelation 20:11 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And there was found no place for them"
+        },
+        {
+          "id": "b",
+          "text": "And there was found no space for them"
+        },
+        {
+          "id": "c",
+          "text": "And there was found no refuge for them"
+        },
+        {
+          "id": "d",
+          "text": "And there was found no shelter for them"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 20:11",
+            "text": "Then I saw a great white throne and Him who sat on it, from whose face the earth and the heaven fled away. And there was found no place for them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 20:5",
+            "text": "But the rest of the dead did not live again until the thousand years were finished. This is the first resurrection.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 20:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 20:5 is the companion citation. Continue in Revelation 20:11.",
+          "older": "The continuation is in Revelation 20:11."
+        },
+        "extended_explanation": "Revelation 20:5 is cited alongside Revelation 20:11. Read both verses.",
+        "takeaway": "And there was found no place for them"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0042",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 13",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 12:2 is also cited. In Revelation 13:1, after “ten horns, and on his horns” how does the verse proceed?",
+        "child": "After “ten horns, and on his horns” how does Revelation 13:1 proceed?",
+        "teen": "What comes next in Revelation 13:1, just after “ten horns, and on his horns”? This question also cites Revelation 12:2.",
+        "older": "Read Revelation 13:1 with Revelation 12:2. After “ten horns, and on his horns” how does Revelation 13:1 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "ten crowns, and on his hands"
+        },
+        {
+          "id": "b",
+          "text": "ten crowns, and on his heads"
+        },
+        {
+          "id": "c",
+          "text": "ten crowns, and on his arms"
+        },
+        {
+          "id": "d",
+          "text": "ten crowns, and on his feet"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 13:1",
+            "text": "Then I stood on the sand of the sea. And I saw a beast rising up out of the sea, having seven heads and ten horns, and on his horns ten crowns, and on his heads a blasphemous name.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 12:2",
+            "text": "Then being with child, she cried out in labor and in pain to give birth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 13:1.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 12:2 is the companion citation. Continue in Revelation 13:1.",
+          "older": "The continuation is in Revelation 13:1."
+        },
+        "extended_explanation": "Revelation 12:2 is cited alongside Revelation 13:1. Read both verses.",
+        "takeaway": "ten crowns, and on his heads"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0043",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 19",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 13:13 is also cited. In Revelation 19:16, after “and on His thigh a name” how does the verse proceed?",
+        "child": "After “and on His thigh a name” how does Revelation 19:16 proceed?",
+        "teen": "What comes next in Revelation 19:16, just after “and on His thigh a name”? This question also cites Revelation 13:13.",
+        "older": "Read Revelation 19:16 with Revelation 13:13. After “and on His thigh a name” how does Revelation 19:16 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "written: KING OF KINGS AND LORD OF LORDS"
+        },
+        {
+          "id": "b",
+          "text": "written: KING OF KINGS AND LORD OF GLORY"
+        },
+        {
+          "id": "c",
+          "text": "written: KING OF KINGS AND LORD OF EARTH"
+        },
+        {
+          "id": "d",
+          "text": "written: KING OF KINGS AND LORD OF KINGS"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 19:16",
+            "text": "And He has on His robe and on His thigh a name written: KING OF KINGS AND LORD OF LORDS.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 13:13",
+            "text": "He performs great signs, so that he even makes fire come down from heaven on the earth in the sight of men.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 19:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 13:13 is the companion citation. Continue in Revelation 19:16.",
+          "older": "The continuation is in Revelation 19:16."
+        },
+        "extended_explanation": "Revelation 13:13 is cited alongside Revelation 19:16. Read both verses.",
+        "takeaway": "written: KING OF KINGS AND LORD OF LORDS"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0044",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 12",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 12:9 is also cited. How does Revelation 12:13 begin?",
+        "child": "What are the opening words of Revelation 12:13?",
+        "teen": "How do the first words of Revelation 12:13 run? This question also cites Revelation 12:9.",
+        "older": "Read Revelation 12:13 with Revelation 12:9. How does Revelation 12:13 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Now when the dragon ran"
+        },
+        {
+          "id": "b",
+          "text": "Now when the dragon saw"
+        },
+        {
+          "id": "c",
+          "text": "Now when the dragon hid"
+        },
+        {
+          "id": "d",
+          "text": "Now when the dragon sat"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 12:13",
+            "text": "Now when the dragon saw that he had been cast to the earth, he persecuted the woman who gave birth to the male Child.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 12:9",
+            "text": "So the great dragon was cast out, that serpent of old, called the Devil and Satan, who deceives the whole world; he was cast to the earth, and his angels were cast out with him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Revelation 12:13.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Revelation 12:9 is the companion citation. Start at the beginning of Revelation 12:13.",
+          "older": "It is the opening of Revelation 12:13."
+        },
+        "extended_explanation": "Revelation 12:9 is cited alongside Revelation 12:13. Read both verses.",
+        "takeaway": "Now when the dragon saw"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0045",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 20",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 19:19 is also cited. In Revelation 20:12, after “Book of Life. And the dead” how does the verse proceed?",
+        "child": "After “Book of Life. And the dead” how does Revelation 20:12 proceed?",
+        "teen": "What comes next in Revelation 20:12, just after “Book of Life. And the dead”? This question also cites Revelation 19:19.",
+        "older": "Read Revelation 20:12 with Revelation 19:19. After “Book of Life. And the dead” how does Revelation 20:12 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "were judged according to their words"
+        },
+        {
+          "id": "b",
+          "text": "were judged according to their plans"
+        },
+        {
+          "id": "c",
+          "text": "were judged according to their works"
+        },
+        {
+          "id": "d",
+          "text": "were judged according to their gifts"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 20:12",
+            "text": "And I saw the dead, small and great, standing before God, and books were opened. And another book was opened, which is the Book of Life. And the dead were judged according to their works, by the things which were written in the books.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 19:19",
+            "text": "And I saw the beast, the kings of the earth, and their armies, gathered together to make war against Him who sat on the horse and against His army.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 20:12.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 19:19 is the companion citation. Continue in Revelation 20:12.",
+          "older": "The continuation is in Revelation 20:12."
+        },
+        "extended_explanation": "Revelation 19:19 is cited alongside Revelation 20:12. Read both verses.",
+        "takeaway": "were judged according to their works"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0046",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 13",
+      "topics": [
+        "revelation-dragon-beast-and-victory"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 12:16 is also cited. In Revelation 13:3, after “as if it had been” how does the verse proceed?",
+        "child": "After “as if it had been” how does Revelation 13:3 proceed?",
+        "teen": "What comes next in Revelation 13:3, just after “as if it had been”? This question also cites Revelation 12:16.",
+        "older": "Read Revelation 13:3 with Revelation 12:16. After “as if it had been” how does Revelation 13:3 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "mortally wounded, and his deadly stroke"
+        },
+        {
+          "id": "b",
+          "text": "mortally wounded, and his deadly bruise"
+        },
+        {
+          "id": "c",
+          "text": "mortally wounded, and his deadly blow"
+        },
+        {
+          "id": "d",
+          "text": "mortally wounded, and his deadly wound"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 13:3",
+            "text": "And I saw one of his heads as if it had been mortally wounded, and his deadly wound was healed. And all the world marveled and followed the beast.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 12:16",
+            "text": "But the earth helped the woman, and the earth opened its mouth and swallowed up the flood which the dragon had spewed out of his mouth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 13:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 12:16 is the companion citation. Continue in Revelation 13:3.",
+          "older": "The continuation is in Revelation 13:3."
+        },
+        "extended_explanation": "Revelation 12:16 is cited alongside Revelation 13:3. Read both verses.",
+        "takeaway": "mortally wounded, and his deadly wound"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

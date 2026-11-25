@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-proverbs-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-pro-0023",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 1",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 1:6 explains what the sayings help a person understand. After “To understand a proverb and,” what does the verse name next?",
+        "child": "The opening of Proverbs names what these sayings help you understand. After “a proverb and,” what does 1:6 name?",
+        "teen": "Proverbs 1:6: “To understand a proverb and” what?",
+        "older": "According to Proverbs 1:6, after “To understand a proverb and,” what is named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "an enigma"
+        },
+        {
+          "id": "b",
+          "text": "an oracle"
+        },
+        {
+          "id": "c",
+          "text": "an edict"
+        },
+        {
+          "id": "d",
+          "text": "an anthem"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 1:6",
+            "text": "To understand a proverb and an enigma, The words of the wise and their riddles.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:6.",
+          "child": "Look right after “a proverb and” in verse 6.",
+          "teen": "1:6 names this next, after a proverb. Read that word.",
+          "older": "It follows “a proverb and” in 1:6."
+        },
+        "extended_explanation": "1:6 also says, “The words of the wise and their riddles.”",
+        "takeaway": "The sayings help a person understand a proverb and an enigma."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-pro-0024",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 30",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 30:29 says there are three which are majestic in pace. In 30:1, after “This man declared to Ithiel—,” to whom else was it declared?",
+        "child": "The chapter opens with a man’s utterance. After “to Ithiel—,” to whom does 30:1 also point?",
+        "teen": "Proverbs 30:1: “to Ithiel—” and to whom?",
+        "older": "Read with 30:29, to whom, after Ithiel, does 30:1 say the man declared?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to Ithiel and Uzal"
+        },
+        {
+          "id": "b",
+          "text": "to Ithiel and Ucal"
+        },
+        {
+          "id": "c",
+          "text": "to Ithiel and Ebal"
+        },
+        {
+          "id": "d",
+          "text": "to Ithiel and Obal"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 30:1",
+            "text": "The words of Agur the son of Jakeh, his utterance. This man declared to Ithiel—to Ithiel and Ucal:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 30:29",
+            "text": "There are three things which are majestic in pace, Yes, four which are stately in walk:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 30:1.",
+          "child": "Look right after “to Ithiel—” in verse 1.",
+          "teen": "30:29 names what is majestic in pace; 30:1 ends with this second name. Read that phrase.",
+          "older": "It follows “to Ithiel—” in 30:1."
+        },
+        "extended_explanation": "30:1 also calls this “his utterance.” 30:29 says, “There are three things which are majestic in pace.”",
+        "takeaway": "The man declared to Ithiel and Ucal."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0025",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 22",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 22:22 says, “Do not rob the poor because he is poor.” In 22:20, after “Have I not written to you,” what does the speaker say he has written?",
+        "child": "The speaker reminds the hearer of what was written. After “Have I not written to you,” what does 22:20 name?",
+        "teen": "Proverbs 22:20: “Have I not written to you” what?",
+        "older": "Read with 22:22, what does 22:20 say after “Have I not written to you”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "pleasant things"
+        },
+        {
+          "id": "b",
+          "text": "wonderful things"
+        },
+        {
+          "id": "c",
+          "text": "excellent things"
+        },
+        {
+          "id": "d",
+          "text": "ordinary things"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 22:20",
+            "text": "Have I not written to you excellent things Of counsels and knowledge,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 22:22",
+            "text": "Do not rob the poor because he is poor, Nor oppress the afflicted at the gate;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 22:20.",
+          "child": "Look right after “Have I not written to you” in verse 20.",
+          "teen": "22:22 warns against robbing the poor; 22:20 names what was written. Read that phrase.",
+          "older": "It follows “Have I not written to you” in 22:20."
+        },
+        "extended_explanation": "22:20 also says this was written “Of counsels and knowledge.” 22:22 also says, “Nor oppress the afflicted at the gate;”",
+        "takeaway": "He has written excellent things."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0026",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 22",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 22:23 says the LORD will plead the cause of the poor. In 22:25, after warning about an angry man, what does the verse say you may set?",
+        "child": "A warning follows the counsel about an angry companion. After “Lest you learn his ways And,” what does 22:25 say you may set?",
+        "teen": "Proverbs 22:25: “And” what, after “Lest you learn his ways”?",
+        "older": "Read with 22:23, what does 22:25 say after “Lest you learn his ways And”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And set a snare for your steps"
+        },
+        {
+          "id": "b",
+          "text": "And set a snare for your house"
+        },
+        {
+          "id": "c",
+          "text": "And set a snare for your name"
+        },
+        {
+          "id": "d",
+          "text": "And set a snare for your soul"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 22:25",
+            "text": "Lest you learn his ways And set a snare for your soul.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 22:23",
+            "text": "For the LORD will plead their cause, And plunder the soul of those who plunder them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:25.",
+          "child": "Look right after “And” in verse 25.",
+          "teen": "22:23 says the LORD will plead their cause; 22:25 ends with this warning. Read that phrase.",
+          "older": "It follows “And” in 22:25."
+        },
+        "extended_explanation": "22:25 begins, “Lest you learn his ways.” 22:23 says, “For the LORD will plead their cause.”",
+        "takeaway": "And set a snare for your soul."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0027",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 31",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 31:9 says, “judge righteously, And plead the cause of the poor and needy.” In 31:8, after “In the cause of,” whom does the verse name?",
+        "child": "The king’s mother urges him to speak for people in danger. After “In the cause of,” whom does 31:8 name?",
+        "teen": "Proverbs 31:8: “In the cause of” whom?",
+        "older": "Read with 31:9, whom does 31:8 name after “In the cause of”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "all who are appointed to die"
+        },
+        {
+          "id": "b",
+          "text": "all who are appointed to go"
+        },
+        {
+          "id": "c",
+          "text": "all who are appointed to watch"
+        },
+        {
+          "id": "d",
+          "text": "all who are appointed to serve"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 31:8",
+            "text": "Open your mouth for the speechless, In the cause of all who are appointed to die.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 31:9",
+            "text": "Open your mouth, judge righteously, And plead the cause of the poor and needy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 31:8.",
+          "child": "Look right after “In the cause of” in verse 8.",
+          "teen": "31:9 calls him to judge righteously; 31:8 ends with this group. Read that phrase.",
+          "older": "It follows “In the cause of” in 31:8."
+        },
+        "extended_explanation": "31:8 begins, “Open your mouth for the speechless.” 31:9 also says, “And plead the cause of the poor and needy.”",
+        "takeaway": "Open your mouth in the cause of all who are appointed to die."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0028",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 30",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 30:29 says there are three which are majestic in pace. In 30:24, after “There are four things which are,” how does the verse first describe them?",
+        "child": "A later saying names four small creatures. After “There are four things which are,” how does 30:24 first describe them?",
+        "teen": "Proverbs 30:24: “There are four things which are” what?",
+        "older": "Read with 30:29, how does 30:24 first describe the four?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "great in the palace"
+        },
+        {
+          "id": "b",
+          "text": "little on the earth"
+        },
+        {
+          "id": "c",
+          "text": "loud in the valley"
+        },
+        {
+          "id": "d",
+          "text": "swift on the mountain"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 30:24",
+            "text": "There are four things which are little on the earth, But they are exceedingly wise:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 30:29",
+            "text": "There are three things which are majestic in pace, Yes, four which are stately in walk:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 30:24.",
+          "child": "Look right after “four things which are” in verse 24.",
+          "teen": "30:29 names things majestic in pace; 30:24 first describes the four. Read that phrase.",
+          "older": "It follows “four things which are” in 30:24."
+        },
+        "extended_explanation": "30:24 also says, “But they are exceedingly wise.” 30:29 also says, “Yes, four which are stately in walk.”",
+        "takeaway": "They are little on the earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0029",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 30",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 30:2 says, “Surely I am more stupid than any man.” In 30:28, after naming the spider, what does the verse say it does with its hands?",
+        "child": "One of the small creatures is a spider. After naming it, what does 30:28 say it does with its hands?",
+        "teen": "Proverbs 30:28: after naming the spider, what does it do “with its hands”?",
+        "older": "Read with 30:2, what does 30:28 say the spider does with its hands?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "skillfully climbs with its hands"
+        },
+        {
+          "id": "b",
+          "text": "skillfully builds with its hands"
+        },
+        {
+          "id": "c",
+          "text": "skillfully grasps with its hands"
+        },
+        {
+          "id": "d",
+          "text": "skillfully spins with its hands"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 30:28",
+            "text": "The spider skillfully grasps with its hands, And it is in kings’ palaces.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 30:2",
+            "text": "Surely I am more stupid than any man, And do not have the understanding of a man.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 30:28.",
+          "child": "Look at what the spider does in verse 28.",
+          "teen": "30:2 is the speaker’s confession; 30:28 opens with this act. Read that phrase.",
+          "older": "It is the opening of 30:28."
+        },
+        "extended_explanation": "30:28 also says, “And it is in kings’ palaces.” 30:2 also says, “And do not have the understanding of a man.”",
+        "takeaway": "The spider skillfully grasps with its hands."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0030",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 22",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 1:2 says, “To know wisdom and instruction.” In 22:21, after “the certainty of the words of truth,” to whom does the last phrase point?",
+        "child": "The speaker explains why the sayings were written. After “the certainty of the words of truth,” to whom does 22:21 point at the end?",
+        "teen": "Proverbs 22:21: the last phrase names whom?",
+        "older": "Read with 1:2, to whom does the last phrase of 22:21 point?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To those who sit by you"
+        },
+        {
+          "id": "b",
+          "text": "To those who wait on you"
+        },
+        {
+          "id": "c",
+          "text": "To those who rule over you"
+        },
+        {
+          "id": "d",
+          "text": "To those who send to you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 22:21",
+            "text": "That I may make you know the certainty of the words of truth, That you may answer words of truth To those who send to you?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 1:2",
+            "text": "To know wisdom and instruction, To perceive the words of understanding,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:21.",
+          "child": "Look at the last words of verse 21.",
+          "teen": "1:2 names wisdom and instruction; 22:21 ends with this group. Read that phrase.",
+          "older": "It is the last phrase of 22:21."
+        },
+        "extended_explanation": "22:21 also says this is “That I may make you know the certainty of the words of truth.” 1:2 also says, “To perceive the words of understanding.”",
+        "takeaway": "To those who send to you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0031",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 24",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 22:22 says, “Do not rob the poor because he is poor.” In 24:13, after naming honey, what does the verse say of the honeycomb?",
+        "child": "A saying names honey and then the honeycomb. After naming honey, what does 24:13 say of the honeycomb?",
+        "teen": "Proverbs 24:13: after naming honey, what does the verse say of the honeycomb?",
+        "older": "Read with 22:22, what does 24:13 say after “And the honeycomb which is”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "sweet to your taste"
+        },
+        {
+          "id": "b",
+          "text": "sharp to your taste"
+        },
+        {
+          "id": "c",
+          "text": "plain to your taste"
+        },
+        {
+          "id": "d",
+          "text": "harsh to your taste"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 24:13",
+            "text": "My son, eat honey because it is good, And the honeycomb which is sweet to your taste;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 22:22",
+            "text": "Do not rob the poor because he is poor, Nor oppress the afflicted at the gate;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 24:13.",
+          "child": "Look right after “which is” in verse 13.",
+          "teen": "22:22 warns against robbing the poor; 24:13 ends with this description. Read that phrase.",
+          "older": "It follows “which is” in 24:13."
+        },
+        "extended_explanation": "24:13 begins, “My son, eat honey because it is good.” 22:22 also says, “Nor oppress the afflicted at the gate;”",
+        "takeaway": "The honeycomb is sweet to your taste."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0032",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 30",
+      "topics": [
+        "proverbs-collections-and-authors"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 1:1 names the proverbs of Solomon the son of David, king of Israel. In 30:32, after “Or if you have devised evil,” what does the verse tell you to do?",
+        "child": "A saying warns the person who has devised evil. After “Or if you have devised evil,” what does 30:32 say to do?",
+        "teen": "Proverbs 30:32: “Or if you have devised evil,” what?",
+        "older": "Read with 1:1, what does 30:32 say after “Or if you have devised evil”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "put your hand on your head"
+        },
+        {
+          "id": "b",
+          "text": "put your hand on your mouth"
+        },
+        {
+          "id": "c",
+          "text": "put your hand on your brow"
+        },
+        {
+          "id": "d",
+          "text": "put your hand on your chest"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 30:32",
+            "text": "If you have been foolish in exalting yourself, Or if you have devised evil, put your hand on your mouth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 1:1",
+            "text": "The proverbs of Solomon the son of David, king of Israel:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 30:32.",
+          "child": "Look right after “devised evil,” in verse 32.",
+          "teen": "1:1 names the proverbs of Solomon; 30:32 ends with this command. Read that phrase.",
+          "older": "It follows “devised evil,” in 30:32."
+        },
+        "extended_explanation": "30:32 begins, “If you have been foolish in exalting yourself.” 1:1 names “The proverbs of Solomon the son of David.”",
+        "takeaway": "Put your hand on your mouth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

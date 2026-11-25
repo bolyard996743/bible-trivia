@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1kings-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-1ki-0019",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 16",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Kings 16:21 says the people of Israel were divided into two parts. After “half of the people followed,” whom does the verse first name?",
+        "child": "Israel split between two men. After “half of the people followed,” whom does 16:21 first name?",
+        "teen": "1 Kings 16:21: “half of the people followed” whom first?",
+        "older": "According to 1 Kings 16:21, after “half of the people followed,” whom is first named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Tibni the son of Ginath"
+        },
+        {
+          "id": "b",
+          "text": "Zimri the son of Elah"
+        },
+        {
+          "id": "c",
+          "text": "Ethbaal the son of Ithobaal"
+        },
+        {
+          "id": "d",
+          "text": "Rezon the son of Eliada"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 16:21",
+            "text": "Then the people of Israel were divided into two parts: half of the people followed Tibni the son of Ginath, to make him king, and half followed Omri.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 16:21.",
+          "child": "Look right after “half of the people followed” in verse 21.",
+          "teen": "16:21 first names this man, then says half followed Omri. Read that name.",
+          "older": "It follows “half of the people followed” in 16:21."
+        },
+        "extended_explanation": "16:21 also says, “and half followed Omri.”",
+        "takeaway": "Half followed Tibni the son of Ginath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-1ki-0020",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 16",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Kings 16:8 names Elah the son of Baasha. In 16:24, after Omri bought it from Shemer, for how much did he buy it?",
+        "child": "Omri bought a place from Shemer. After naming Shemer, for how much does 16:24 say he bought it?",
+        "teen": "1 Kings 16:24: “from Shemer for” how much?",
+        "older": "Read with 16:8, for how much does 16:24 say Omri bought it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "two talents of gold"
+        },
+        {
+          "id": "b",
+          "text": "two talents of silver"
+        },
+        {
+          "id": "c",
+          "text": "two measures of barley"
+        },
+        {
+          "id": "d",
+          "text": "two measures of wheat"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 16:24",
+            "text": "And he bought the hill of Samaria from Shemer for two talents of silver; then he built on the hill, and called the name of the city which he built, Samaria, after the name of Shemer, owner of the hill.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 16:8",
+            "text": "In the twenty-sixth year of Asa king of Judah, Elah the son of Baasha became king over Israel, and reigned two years in Tirzah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 16:24.",
+          "child": "Look right after “from Shemer for” in verse 24.",
+          "teen": "16:8 names Elah; 16:24 names the price he paid. Read that phrase.",
+          "older": "It follows “from Shemer for” in 16:24."
+        },
+        "extended_explanation": "16:24 also says he “called the name of the city which he built, Samaria, after the name of Shemer.” 16:8 names Elah the son of Baasha.",
+        "takeaway": "He bought it for two talents of silver."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1ki-0021",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "1 Kings",
+      "section": "1 Kings 16",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Kings 16:10 names Zimri’s strike against Elah. In 16:23, in what year of Asa did Omri become king over Israel?",
+        "child": "Omri became king over Israel in a year of King Asa. Which year does 16:23 name?",
+        "teen": "1 Kings 16:23: in what year of Asa did Omri become king?",
+        "older": "Read with 16:10, in what year of Asa does 16:23 say Omri became king over Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the thirty-third year"
+        },
+        {
+          "id": "b",
+          "text": "the twenty-ninth year"
+        },
+        {
+          "id": "c",
+          "text": "the thirty-first year"
+        },
+        {
+          "id": "d",
+          "text": "the thirty-sixth year"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Kings 16:23",
+            "text": "In the thirty-first year of Asa king of Judah, Omri became king over Israel, and reigned twelve years. Six years he reigned in Tirzah.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Kings 16:10",
+            "text": "And Zimri went in and struck him and killed him in the twenty-seventh year of Asa king of Judah, and reigned in his place.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 16:23.",
+          "child": "Look right after “In the” at the start of verse 23.",
+          "teen": "16:10 names Zimri’s strike; 16:23 opens with this date. Read that phrase.",
+          "older": "It follows “In the” at the start of 16:23."
+        },
+        "extended_explanation": "16:23 also says Omri “reigned twelve years.” 16:10 says Zimri “reigned in his place.”",
+        "takeaway": "Omri became king in the thirty-first year of Asa."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ki-0021",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 15",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Kings 13:10 names Jehoash the son of Jehoahaz. In 15:13, after naming Shallum the son of Jabesh and the thirty-ninth year of Uzziah, how long was his time there?",
+        "child": "Shallum’s time is measured in 15:13. After naming the thirty-ninth year of Uzziah, how long does the verse say it was?",
+        "teen": "2 Kings 15:13: after naming Uzziah, how long does it say his time was?",
+        "older": "Read with 13:10, how long does 15:13 say Shallum’s time was?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "six full months"
+        },
+        {
+          "id": "b",
+          "text": "seven full days"
+        },
+        {
+          "id": "c",
+          "text": "a full year"
+        },
+        {
+          "id": "d",
+          "text": "a full month"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 15:13",
+            "text": "Shallum the son of Jabesh became king in the thirty-ninth year of Uzziah king of Judah; and he reigned a full month in Samaria.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 13:10",
+            "text": "In the thirty-seventh year of Joash king of Judah, Jehoash the son of Jehoahaz became king over Israel in Samaria, and reigned sixteen years.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 15:13.",
+          "child": "Look just before “in Samaria” in verse 13.",
+          "teen": "13:10 names Jehoash; 15:13 ends with Shallum’s time. Read that phrase.",
+          "older": "It comes just before “in Samaria” at the end of 15:13."
+        },
+        "extended_explanation": "15:13 begins, “Shallum the son of Jabesh became king in the thirty-ninth year of Uzziah.” 13:10 says Jehoash “reigned sixteen years.”",
+        "takeaway": "He reigned a full month in Samaria."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ki-0022",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 15",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Kings 15:14 tells of a man who went up from Tirzah. In 15:23, after “In the fiftieth year of Azariah,” who became king over Israel?",
+        "child": "A new king is named in the fiftieth year of Azariah. After that date is given, whom does 15:23 name as king over Israel?",
+        "teen": "2 Kings 15:23: after the fiftieth year of Azariah, who became king over Israel?",
+        "older": "Read with 15:14, whom does 15:23 name as king over Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pekahiah the son of Menahem"
+        },
+        {
+          "id": "b",
+          "text": "Zechariah the son of Jeroboam"
+        },
+        {
+          "id": "c",
+          "text": "Jeroboam the son of Joash"
+        },
+        {
+          "id": "d",
+          "text": "Hoshea the son of Elah"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 15:23",
+            "text": "In the fiftieth year of Azariah king of Judah, Pekahiah the son of Menahem became king over Israel in Samaria, and reigned two years.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 15:14",
+            "text": "For Menahem the son of Gadi went up from Tirzah, came to Samaria, and struck Shallum the son of Jabesh in Samaria and killed him; and he reigned in his place.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 15:23.",
+          "child": "Look after Azariah is named in verse 23.",
+          "teen": "15:14 names the man who went up; 15:23 names this king. Read that name.",
+          "older": "It follows the fiftieth year of Azariah in 15:23."
+        },
+        "extended_explanation": "15:23 also says he “reigned two years.” 15:14 says he struck Shallum in Samaria and killed him.",
+        "takeaway": "Pekahiah the son of Menahem became king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ki-0023",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 15",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Kings 13:3 says the LORD delivered Israel into the hand of Hazael king of Syria. In 15:27, after “In the fifty-second year of Azariah,” who became king over Israel?",
+        "child": "Another king is named in the fifty-second year of Azariah. After that year is given, whom does 15:27 name as king over Israel?",
+        "teen": "2 Kings 15:27: after the fifty-second year of Azariah, who became king over Israel?",
+        "older": "Read with 13:3, whom does 15:27 name as king over Israel?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hoshea the son of Elah"
+        },
+        {
+          "id": "b",
+          "text": "Pekah the son of Remaliah"
+        },
+        {
+          "id": "c",
+          "text": "Menahem the son of Gadi"
+        },
+        {
+          "id": "d",
+          "text": "Zechariah the son of Jeroboam"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 15:27",
+            "text": "In the fifty-second year of Azariah king of Judah, Pekah the son of Remaliah became king over Israel in Samaria, and reigned twenty years.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 13:3",
+            "text": "Then the anger of the LORD was aroused against Israel, and He delivered them into the hand of Hazael king of Syria, and into the hand of Ben-Hadad the son of Hazael, all their days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 15:27.",
+          "child": "Look after Azariah is named in verse 27.",
+          "teen": "13:3 names Hazael; 15:27 names this king. Read that name.",
+          "older": "It follows the fifty-second year of Azariah in 15:27."
+        },
+        "extended_explanation": "15:27 also says he “reigned twenty years.” 13:3 also names “Ben-Hadad the son of Hazael.”",
+        "takeaway": "Pekah the son of Remaliah became king."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ki-0024",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Kings",
+      "section": "2 Kings 15",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Kings 13:10 names Jehoash the son of Jehoahaz. In 15:5, after the LORD struck the king, where does the verse say he dwelt?",
+        "child": "The king became a leper until he died. After that, where does 15:5 say he dwelt?",
+        "teen": "2 Kings 15:5: after he was a leper, “so he dwelt” where?",
+        "older": "Read with 13:10, where does 15:5 say he dwelt?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "he dwelt in an isolated court"
+        },
+        {
+          "id": "b",
+          "text": "he dwelt in an isolated tower"
+        },
+        {
+          "id": "c",
+          "text": "he dwelt in an isolated house"
+        },
+        {
+          "id": "d",
+          "text": "he dwelt in an isolated camp"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Kings 15:5",
+            "text": "Then the LORD struck the king, so that he was a leper until the day of his death; so he dwelt in an isolated house. And Jotham the king’s son was over the royal house, judging the people of the land.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Kings 13:10",
+            "text": "In the thirty-seventh year of Joash king of Judah, Jehoash the son of Jehoahaz became king over Israel in Samaria, and reigned sixteen years.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 15:5.",
+          "child": "Look right after “so he dwelt” in verse 5.",
+          "teen": "13:10 names Jehoash; 15:5 names this dwelling. Read that phrase.",
+          "older": "It follows “so he dwelt” in 15:5."
+        },
+        "extended_explanation": "15:5 also says Jotham was “judging the people of the land.” 13:10 names Jehoash the son of Jehoahaz.",
+        "takeaway": "He dwelt in an isolated house."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ch-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 26",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Chronicles 26:5 says Uzziah sought God while Zechariah lived. In 26:9, after “And Uzziah built towers in Jerusalem at,” what gate does the verse name first?",
+        "child": "Uzziah built towers at named gates of Jerusalem. After “built towers in Jerusalem at,” what gate does 26:9 name first?",
+        "teen": "2 Chronicles 26:9: “built towers in Jerusalem at” what first?",
+        "older": "Read with 26:5, what gate does 26:9 name first?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Sheep Gate"
+        },
+        {
+          "id": "b",
+          "text": "the Eastern Gate"
+        },
+        {
+          "id": "c",
+          "text": "the Water Gate"
+        },
+        {
+          "id": "d",
+          "text": "the Corner Gate"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 26:9",
+            "text": "And Uzziah built towers in Jerusalem at the Corner Gate, at the Valley Gate, and at the corner buttress of the wall; then he fortified them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 26:5",
+            "text": "He sought God in the days of Zechariah, who had understanding in the visions of God; and as long as he sought the LORD, God made him prosper.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 26:9.",
+          "child": "Look right after “built towers in Jerusalem at” in verse 9.",
+          "teen": "26:5 names Zechariah; 26:9 first names this gate. Read that name.",
+          "older": "It follows “built towers in Jerusalem at” in 26:9."
+        },
+        "extended_explanation": "26:9 also names the Valley Gate and a buttress of the wall. 26:5 says, “and as long as he sought the LORD, God made him prosper.”",
+        "takeaway": "He first built at the Corner Gate."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ch-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 26",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Chronicles 27:4 says Jotham built cities in the mountains of Judah. In 26:15, after “And he made devices in Jerusalem,” how does the verse say they were invented?",
+        "child": "Uzziah made devices in Jerusalem. After “And he made devices in Jerusalem,” how does 26:15 say they were invented?",
+        "teen": "2 Chronicles 26:15: “And he made devices in Jerusalem,” how invented?",
+        "older": "Read with 27:4, how does 26:15 say the devices were invented?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "invented by skillful men"
+        },
+        {
+          "id": "b",
+          "text": "invented by visiting men"
+        },
+        {
+          "id": "c",
+          "text": "invented by hired sailors"
+        },
+        {
+          "id": "d",
+          "text": "invented by wandering shepherds"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 26:15",
+            "text": "And he made devices in Jerusalem, invented by skillful men, to be on the towers and the corners, to shoot arrows and large stones. So his fame spread far and wide, for he was marvelously helped till he became strong.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 27:4",
+            "text": "Moreover he built cities in the mountains of Judah, and in the forests he built fortresses and towers.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 26:15.",
+          "child": "Look right after “devices in Jerusalem,” in verse 15.",
+          "teen": "27:4 names Jotham’s building; 26:15 names how these devices were invented. Read that phrase.",
+          "older": "It follows “devices in Jerusalem,” in 26:15."
+        },
+        "extended_explanation": "26:15 also says they were “to shoot arrows and large stones.” 27:4 also says, “and in the forests he built fortresses and towers.”",
+        "takeaway": "They were invented by skillful men."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ch-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "2 Chronicles",
+      "section": "2 Chronicles 27",
+      "topics": [
+        "kings-of-israel-and-judah-in-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Chronicles 27:8 says Jotham was twenty-five when he became king. In 27:6, after “So Jotham became mighty, because,” why did he become mighty?",
+        "child": "The verse tells why Jotham became mighty. After “because,” what does 27:6 say?",
+        "teen": "2 Chronicles 27:6: “So Jotham became mighty, because” why?",
+        "older": "Read with 27:8, why does 27:6 say Jotham became mighty?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "he trained his army"
+        },
+        {
+          "id": "b",
+          "text": "he prepared his ways"
+        },
+        {
+          "id": "c",
+          "text": "he measured his tribute"
+        },
+        {
+          "id": "d",
+          "text": "he widened his borders"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Chronicles 27:6",
+            "text": "So Jotham became mighty, because he prepared his ways before the LORD his God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Chronicles 27:8",
+            "text": "He was twenty-five years old when he became king, and he reigned sixteen years in Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 27:6.",
+          "child": "Look right after “because” in verse 6.",
+          "teen": "27:8 names his length of rule; 27:6 names why he became mighty. Read that phrase.",
+          "older": "It follows “because” in 27:6."
+        },
+        "extended_explanation": "27:6 also says this was “before the LORD his God.” 27:8 also names his length of rule in Jerusalem.",
+        "takeaway": "He became mighty because he prepared his ways."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

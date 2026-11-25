@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-zephaniah-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-zep-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 1:4-5 announces judgment on Judah for mixed worship. In 1:5, people swear oaths by the LORD but also swear by whom?",
+        "child": "Some people in Judah made promises in the LORD’s name but also in the name of a false god. Which one?",
+        "teen": "Zephaniah 1:5: those who swear by the LORD, “But who also swear by” whom?",
+        "older": "According to Zephaniah 1:5, by whom did some also swear?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Dagon"
+        },
+        {
+          "id": "b",
+          "text": "Chemosh"
+        },
+        {
+          "id": "c",
+          "text": "Tammuz"
+        },
+        {
+          "id": "d",
+          "text": "Milcom"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:5",
+            "text": "Those who worship the host of heaven on the housetops; Those who worship and swear oaths by the LORD, But who also swear by Milcom;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:5.",
+          "child": "Look at the very end of verse 5.",
+          "teen": "1:5 names two groups. Read the end of the second.",
+          "older": "It follows “But who also swear by” in 1:5."
+        },
+        "extended_explanation": "1:5 also mentions those who worship the host of heaven on the housetops. 1:6 speaks of those who have turned back from following the LORD.",
+        "takeaway": "Some also swore by Milcom."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-zep-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 1:12 says the LORD will search Jerusalem closely and punish certain men who say He will do neither good nor evil. How does the verse describe those men?",
+        "child": "Some people in Jerusalem thought God would never do anything. How does God describe them?",
+        "teen": "Zephaniah 1:12: “And punish the men Who are” what?",
+        "older": "According to Zephaniah 1:12, how are the men the LORD will punish described?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "proud of their great riches"
+        },
+        {
+          "id": "b",
+          "text": "settled in complacency"
+        },
+        {
+          "id": "c",
+          "text": "eager for bribes"
+        },
+        {
+          "id": "d",
+          "text": "careless toward the poor"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:12",
+            "text": "“And it shall come to pass at that time That I will search Jerusalem with lamps, And punish the men Who are settled in complacency, Who say in their heart, ‘The LORD will not do good, Nor will He do evil.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 1:13",
+            "text": "Therefore their goods shall become booty, And their houses a desolation; They shall build houses, but not inhabit them; They shall plant vineyards, but not drink their wine.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:12.",
+          "child": "Look right after “And punish the men Who are” in verse 12.",
+          "teen": "1:12 tells how the search happens and then whom it punishes. Read the second part.",
+          "older": "It follows “And punish the men Who are” in 1:12."
+        },
+        "extended_explanation": "1:13 says their goods shall become booty. 1:12 quotes them saying, ‘The LORD will not do good, Nor will He do evil.’",
+        "takeaway": "The LORD will punish the men who are settled in complacency."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-zep-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 2",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 2:3 calls the humble of the land to seek the LORD, righteousness, and humility before His anger comes. What does it say may happen to them?",
+        "child": "Zephaniah tells humble people to seek the LORD before His anger comes. What might happen to them?",
+        "teen": "Zephaniah 2:3: “Seek righteousness, seek humility. It may be that” what?",
+        "older": "According to Zephaniah 2:3, what may happen to those who seek the LORD?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "you will be hidden"
+        },
+        {
+          "id": "b",
+          "text": "you will be rewarded"
+        },
+        {
+          "id": "c",
+          "text": "you will be honored"
+        },
+        {
+          "id": "d",
+          "text": "you will be gathered"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 2:2",
+            "text": "Before the decree is issued, Or the day passes like chaff, Before the LORD’s fierce anger comes upon you, Before the day of the LORD’s anger comes upon you!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 2:3",
+            "text": "Seek the LORD, all you meek of the earth, Who have upheld His justice. Seek righteousness, seek humility. It may be that you will be hidden In the day of the LORD’s anger.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last lines of 2:3.",
+          "child": "Look near the end of verse 3.",
+          "teen": "2:2 warns before the day; 2:3 gives three things to seek and then a hope. Read the hope.",
+          "older": "It follows “It may be that” in 2:3."
+        },
+        "extended_explanation": "2:2 says the day passes like chaff, before the LORD’s fierce anger comes.",
+        "takeaway": "Those who seek the LORD are told, “It may be that you will be hidden.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 3",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 3:4 says Jerusalem’s priests have polluted the sanctuary. In 3:3 her judges are evening wolves. What do they leave till morning?",
+        "child": "Jerusalem’s priests did violence to what is holy. Her judges were like hungry wolves at night. What did they leave by morning?",
+        "teen": "Zephaniah 3:3: the judges are evening wolves that leave what till morning?",
+        "older": "Read with 3:4, what does 3:3 say the evening wolves leave till morning?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "not a horn"
+        },
+        {
+          "id": "b",
+          "text": "not a hoof"
+        },
+        {
+          "id": "c",
+          "text": "not a bone"
+        },
+        {
+          "id": "d",
+          "text": "not a fleece"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 3:3",
+            "text": "Her princes in her midst are roaring lions; Her judges are evening wolves That leave not a bone till morning.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 3:4",
+            "text": "Her prophets are insolent, treacherous people; Her priests have polluted the sanctuary, They have done violence to the law.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:3.",
+          "child": "Look at the last words of verse 3.",
+          "teen": "3:4 describes the priests; 3:3 pictures princes and then judges. Read what the judges leave.",
+          "older": "It follows “Her judges are evening wolves That leave” in 3:3."
+        },
+        "extended_explanation": "3:2 says she has not obeyed His voice. 3:3 first calls her princes roaring lions.",
+        "takeaway": "Her judges are evening wolves that leave not a bone till morning."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 1:6 condemns those who have turned back from following the LORD. In 3:17, the Mighty One in your midst will save. What will He do with His love?",
+        "child": "Early in Zephaniah, people turned away from God. Near the end, God is in the middle of His people. What will He do with His love?",
+        "teen": "Zephaniah 3:17: “He will” do what “with His love”?",
+        "older": "Read with 1:6, what does 3:17 say the LORD will do with His love?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "quiet you"
+        },
+        {
+          "id": "b",
+          "text": "shelter you"
+        },
+        {
+          "id": "c",
+          "text": "guide you"
+        },
+        {
+          "id": "d",
+          "text": "crown you"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:6",
+            "text": "Those who have turned back from following the LORD, And have not sought the LORD, nor inquired of Him.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 3:17",
+            "text": "The LORD your God in your midst, The Mighty One, will save; He will rejoice over you with gladness, He will quiet you with His love, He will rejoice over you with singing.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:17.",
+          "child": "Find “with His love” in verse 17 and read just before it.",
+          "teen": "1:6 is about turning back; 3:17 says four things the LORD will do. Read the one tied to His love.",
+          "older": "It comes right before “with His love” in 3:17."
+        },
+        "extended_explanation": "3:17 says He will save. 3:15 says the King of Israel, the LORD, is in your midst.",
+        "takeaway": "He will quiet you with His love."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 2",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 2:1 calls the undesirable nation to gather itself together. In 3:8 the LORD tells the faithful to wait for Him. To what does He say He is determined to gather the nations?",
+        "child": "Zephaniah first tells a nation to gather together. Later God says He will gather all nations. Where will He gather them?",
+        "teen": "Zephaniah 3:8: “My determination is to gather the nations To” what?",
+        "older": "Read with 2:1, to what does 3:8 say the LORD will gather the nations?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My table in the wilderness"
+        },
+        {
+          "id": "b",
+          "text": "My winepress of wrath"
+        },
+        {
+          "id": "c",
+          "text": "My throne of judgment"
+        },
+        {
+          "id": "d",
+          "text": "My assembly of kingdoms"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 2:1",
+            "text": "Gather yourselves together, yes, gather together, O undesirable nation,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 3:8",
+            "text": "“Therefore wait for Me,” says the LORD, “Until the day I rise up for plunder; My determination is to gather the nations To My assembly of kingdoms, To pour on them My indignation, All My fierce anger; All the earth shall be devoured With the fire of My jealousy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:8.",
+          "child": "Look right after “to gather the nations To” in verse 8.",
+          "teen": "2:1 is a call to gather; 3:8 tells where the LORD gathers the nations. Read it.",
+          "older": "It follows “to gather the nations To” in 3:8."
+        },
+        "extended_explanation": "3:8 says all the earth shall be devoured with the fire of His jealousy. 2:2 warns before the LORD’s fierce anger comes.",
+        "takeaway": "His determination is to gather the nations “To My assembly of kingdoms.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 2",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 3:1 pronounces woe on the oppressing city. Earlier, 2:15 describes Nineveh as a city that dwelt securely and said in her heart, “I am it,” and what else?",
+        "child": "A proud city boasted in her heart. What did she say after “I am it”?",
+        "teen": "Zephaniah 2:15: the city said in her heart, “I am it,” and what?",
+        "older": "Read with 3:1, what does 2:15 quote the secure city saying after “I am it”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "no enemy can ever reach me"
+        },
+        {
+          "id": "b",
+          "text": "there is none besides me"
+        },
+        {
+          "id": "c",
+          "text": "my walls shall stand forever"
+        },
+        {
+          "id": "d",
+          "text": "my gods will keep me safe"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 2:15",
+            "text": "This is the rejoicing city That dwelt securely, That said in her heart, “I am it, and there is none besides me.” How has she become a desolation, A place for beasts to lie down! Everyone who passes by her Shall hiss and shake his fist.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 3:1",
+            "text": "Woe to her who is rebellious and polluted, To the oppressing city!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the quotation in 2:15.",
+          "child": "Look at what the city says in her heart in verse 15.",
+          "teen": "3:1 begins a woe; 2:15 gives the proud city’s words in two parts. Read the second.",
+          "older": "It follows “I am it, and” in 2:15."
+        },
+        "extended_explanation": "2:15 also says everyone who passes by her shall hiss. 3:2 says she has not obeyed His voice.",
+        "takeaway": "The city said, “I am it, and there is none besides me.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "zephaniah-rejoicing-over-you"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:4 the LORD stretches out His hand against Judah; in 2:13 He stretches it against the north and makes Nineveh a desolation. According to 2:14, which birds shall lodge on the capitals of her pillars?",
+        "child": "God said proud Nineveh would become empty ruins. Which birds would live on top of her broken pillars?",
+        "teen": "Zephaniah 2:14: which birds “Shall lodge on the capitals of her pillars”?",
+        "older": "Read with 1:4, which birds does 2:14 say will lodge on Nineveh’s pillars?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the ostrich and the eagle"
+        },
+        {
+          "id": "b",
+          "text": "the stork and the night heron"
+        },
+        {
+          "id": "c",
+          "text": "the pelican and the bittern"
+        },
+        {
+          "id": "d",
+          "text": "the owl and the hawk"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:4",
+            "text": "“I will stretch out My hand against Judah, And against all the inhabitants of Jerusalem. I will cut off every trace of Baal from this place, The names of the idolatrous priests with the pagan priests—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 2:14",
+            "text": "The herds shall lie down in her midst, Every beast of the nation. Both the pelican and the bittern Shall lodge on the capitals of her pillars; Their voice shall sing in the windows; Desolation shall be at the threshold; For He will lay bare the cedar work.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 2:14.",
+          "child": "Look right after “Both” in verse 14.",
+          "teen": "1:4 is the LORD’s hand against Judah; 2:14 says who lodges in the ruins. Read the pair named after “Both.”",
+          "older": "It follows “Both” in 2:14."
+        },
+        "extended_explanation": "2:14 says their voice shall sing in the windows. 2:13 says Nineveh will be as dry as the wilderness.",
+        "takeaway": "The pelican and the bittern shall lodge on her pillars."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

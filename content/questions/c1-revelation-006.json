@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-revelation-006",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-rev-0027",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 22",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Revelation 22:9, after “to me,” how does the verse proceed?",
+        "child": "After “to me,” how does Revelation 22:9 proceed?",
+        "teen": "What comes next in Revelation 22:9, just after “to me,”?",
+        "older": "According to Revelation 22:9, after “to me,” how does the verse proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "See that you do not do that"
+        },
+        {
+          "id": "b",
+          "text": "See that you do not do more"
+        },
+        {
+          "id": "c",
+          "text": "See that you do not do less"
+        },
+        {
+          "id": "d",
+          "text": "See that you do not do harm"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 22:9",
+            "text": "Then he said to me, “See that you do not do that. For I am your fellow servant, and of your brethren the prophets, and of those who keep the words of this book. Worship God.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 22:9.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Revelation 22:9.",
+          "older": "The continuation is in Revelation 22:9."
+        },
+        "extended_explanation": "Read Revelation 22:9 in the cited passage.",
+        "takeaway": "See that you do not do that"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-rev-0028",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 1",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 5:10 is also cited. How does Revelation 1:10 begin?",
+        "child": "What are the opening words of Revelation 1:10?",
+        "teen": "How do the first words of Revelation 1:10 run? This question also cites Revelation 5:10.",
+        "older": "Read Revelation 1:10 with Revelation 5:10. How does Revelation 1:10 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I was in the Spirit on the feast day"
+        },
+        {
+          "id": "b",
+          "text": "I was in the Spirit on the Lord’s Day"
+        },
+        {
+          "id": "c",
+          "text": "I was in the Spirit on the market day"
+        },
+        {
+          "id": "d",
+          "text": "I was in the Spirit on the holy day"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 1:10",
+            "text": "I was in the Spirit on the Lord’s Day, and I heard behind me a loud voice, as of a trumpet,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 5:10",
+            "text": "And have made us kings and priests to our God; And we shall reign on the earth.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Revelation 1:10.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Revelation 5:10 is the companion citation. Start at the beginning of Revelation 1:10.",
+          "older": "It is the opening of Revelation 1:10."
+        },
+        "extended_explanation": "Revelation 5:10 is cited alongside Revelation 1:10. Read both verses.",
+        "takeaway": "I was in the Spirit on the Lord’s Day"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0029",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 22",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 10:5 is also cited. In Revelation 22:12, after “behold, I am coming quickly,” how does the verse proceed?",
+        "child": "After “behold, I am coming quickly,” how does Revelation 22:12 proceed?",
+        "teen": "What comes next in Revelation 22:12, just after “behold, I am coming quickly,”? This question also cites Revelation 10:5.",
+        "older": "Read Revelation 22:12 with Revelation 10:5. After “behold, I am coming quickly,” how does Revelation 22:12 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "and My bounty is with Me"
+        },
+        {
+          "id": "b",
+          "text": "and My profit is with Me"
+        },
+        {
+          "id": "c",
+          "text": "and My reward is with Me"
+        },
+        {
+          "id": "d",
+          "text": "and My silver is with Me"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 22:12",
+            "text": "“And behold, I am coming quickly, and My reward is with Me, to give to every one according to his work.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 10:5",
+            "text": "The angel whom I saw standing on the sea and on the land raised up his hand to heaven",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 22:12.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 10:5 is the companion citation. Continue in Revelation 22:12.",
+          "older": "The continuation is in Revelation 22:12."
+        },
+        "extended_explanation": "Revelation 10:5 is cited alongside Revelation 22:12. Read both verses.",
+        "takeaway": "and My reward is with Me"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0030",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 7",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 7:15 is also cited. In Revelation 7:3, after “saying,” how does the verse proceed?",
+        "child": "After “saying,” how does Revelation 7:3 proceed?",
+        "teen": "What comes next in Revelation 7:3, just after “saying,”? This question also cites Revelation 7:15.",
+        "older": "Read Revelation 7:3 with Revelation 7:15. After “saying,” how does Revelation 7:3 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Do not harm the field"
+        },
+        {
+          "id": "b",
+          "text": "Do not harm the coast"
+        },
+        {
+          "id": "c",
+          "text": "Do not harm the plain"
+        },
+        {
+          "id": "d",
+          "text": "Do not harm the earth"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 7:3",
+            "text": "saying, “Do not harm the earth, the sea, or the trees till we have sealed the servants of our God on their foreheads.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 7:15",
+            "text": "Therefore they are before the throne of God, and serve Him day and night in His temple. And He who sits on the throne will dwell among them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 7:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 7:15 is the companion citation. Continue in Revelation 7:3.",
+          "older": "The continuation is in Revelation 7:3."
+        },
+        "extended_explanation": "Revelation 7:15 is cited alongside Revelation 7:3. Read both verses.",
+        "takeaway": "Do not harm the earth"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0031",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 15",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 15:6 is also cited. In Revelation 15:4, after “O Lord, and glorify Your name?” how does the verse proceed?",
+        "child": "After “O Lord, and glorify Your name?” how does Revelation 15:4 proceed?",
+        "teen": "What comes next in Revelation 15:4, just after “O Lord, and glorify Your name?”? This question also cites Revelation 15:6.",
+        "older": "Read Revelation 15:4 with Revelation 15:6. After “O Lord, and glorify Your name?” how does Revelation 15:4 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For You alone are holy"
+        },
+        {
+          "id": "b",
+          "text": "For You alone are good"
+        },
+        {
+          "id": "c",
+          "text": "For You alone are kind"
+        },
+        {
+          "id": "d",
+          "text": "For You alone are true"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 15:4",
+            "text": "Who shall not fear You, O Lord, and glorify Your name? For You alone are holy. For all nations shall come and worship before You, For Your judgments have been manifested.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 15:6",
+            "text": "And out of the temple came the seven angels having the seven plagues, clothed in pure bright linen, and having their chests girded with golden bands.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 15:4.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 15:6 is the companion citation. Continue in Revelation 15:4.",
+          "older": "The continuation is in Revelation 15:4."
+        },
+        "extended_explanation": "Revelation 15:6 is cited alongside Revelation 15:4. Read both verses.",
+        "takeaway": "For You alone are holy"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0032",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 7",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 10:11 is also cited. In Revelation 7:9, after “multitude which no one could number,” how does the verse proceed?",
+        "child": "After “multitude which no one could number,” how does Revelation 7:9 proceed?",
+        "teen": "What comes next in Revelation 7:9, just after “multitude which no one could number,”? This question also cites Revelation 10:11.",
+        "older": "Read Revelation 7:9 with Revelation 10:11. After “multitude which no one could number,” how does Revelation 7:9 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "of all nations, tribes, clans"
+        },
+        {
+          "id": "b",
+          "text": "of all nations, tribes, peoples"
+        },
+        {
+          "id": "c",
+          "text": "of all nations, tribes, kindreds"
+        },
+        {
+          "id": "d",
+          "text": "of all nations, tribes, regions"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 7:9",
+            "text": "After these things I looked, and behold, a great multitude which no one could number, of all nations, tribes, peoples, and tongues, standing before the throne and before the Lamb, clothed with white robes, with palm branches in their hands,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 10:11",
+            "text": "And he said to me, “You must prophesy again about many peoples, nations, tongues, and kings.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 7:9.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 10:11 is the companion citation. Continue in Revelation 7:9.",
+          "older": "The continuation is in Revelation 7:9."
+        },
+        "extended_explanation": "Revelation 10:11 is cited alongside Revelation 7:9. Read both verses.",
+        "takeaway": "of all nations, tribes, peoples"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0033",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 15",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 7:11 is also cited. In Revelation 15:2, after “fire,” how does the verse proceed?",
+        "child": "After “fire,” how does Revelation 15:2 proceed?",
+        "teen": "What comes next in Revelation 15:2, just after “fire,”? This question also cites Revelation 7:11.",
+        "older": "Read Revelation 15:2 with Revelation 7:11. After “fire,” how does Revelation 15:2 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "and those who have the victory"
+        },
+        {
+          "id": "b",
+          "text": "and those who have the comfort"
+        },
+        {
+          "id": "c",
+          "text": "and those who have the promise"
+        },
+        {
+          "id": "d",
+          "text": "and those who have the welcome"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 15:2",
+            "text": "And I saw something like a sea of glass mingled with fire, and those who have the victory over the beast, over his image and over his mark and over the number of his name, standing on the sea of glass, having harps of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 7:11",
+            "text": "All the angels stood around the throne and the elders and the four living creatures, and fell on their faces before the throne and worshiped God,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 15:2.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 7:11 is the companion citation. Continue in Revelation 15:2.",
+          "older": "The continuation is in Revelation 15:2."
+        },
+        "extended_explanation": "Revelation 7:11 is cited alongside Revelation 15:2. Read both verses.",
+        "takeaway": "and those who have the victory"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0034",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 7",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 15:7 is also cited. In Revelation 7:4, after “And I heard the number of” how does the verse proceed?",
+        "child": "After “And I heard the number of” how does Revelation 7:4 proceed?",
+        "teen": "What comes next in Revelation 7:4, just after “And I heard the number of”? This question also cites Revelation 15:7.",
+        "older": "Read Revelation 7:4 with Revelation 15:7. After “And I heard the number of” how does Revelation 7:4 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "those who were chosen"
+        },
+        {
+          "id": "b",
+          "text": "those who were sealed"
+        },
+        {
+          "id": "c",
+          "text": "those who were called"
+        },
+        {
+          "id": "d",
+          "text": "those who were listed"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 7:4",
+            "text": "And I heard the number of those who were sealed. One hundred and forty-four thousand of all the tribes of the children of Israel were sealed:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 15:7",
+            "text": "Then one of the four living creatures gave to the seven angels seven golden bowls full of the wrath of God who lives forever and ever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 7:4.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Revelation 15:7 is the companion citation. Continue in Revelation 7:4.",
+          "older": "The continuation is in Revelation 7:4."
+        },
+        "extended_explanation": "Revelation 15:7 is cited alongside Revelation 7:4. Read both verses.",
+        "takeaway": "those who were sealed"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0035",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 7",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 5:12 is also cited. How does Revelation 7:14 begin?",
+        "child": "What are the opening words of Revelation 7:14?",
+        "teen": "How do the first words of Revelation 7:14 run? This question also cites Revelation 5:12.",
+        "older": "Read Revelation 7:14 with Revelation 5:12. How does Revelation 7:14 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And I said to him, “Sir, you see.”"
+        },
+        {
+          "id": "b",
+          "text": "And I said to him, “Sir, you hear.”"
+        },
+        {
+          "id": "c",
+          "text": "And I said to him, “Sir, you know.”"
+        },
+        {
+          "id": "d",
+          "text": "And I said to him, “Sir, you speak.”"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 7:14",
+            "text": "And I said to him, “Sir, you know.” So he said to me, “These are the ones who come out of the great tribulation, and washed their robes and made them white in the blood of the Lamb.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 5:12",
+            "text": "saying with a loud voice: “Worthy is the Lamb who was slain To receive power and riches and wisdom, And strength and honor and glory and blessing!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Revelation 7:14.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Revelation 5:12 is the companion citation. Start at the beginning of Revelation 7:14.",
+          "older": "It is the opening of Revelation 7:14."
+        },
+        "extended_explanation": "Revelation 5:12 is cited alongside Revelation 7:14. Read both verses.",
+        "takeaway": "And I said to him, “Sir, you know.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0036",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 1",
+      "topics": [
+        "revelation-structure-and-settings"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 15:3 is also cited. How does Revelation 1:3 begin?",
+        "child": "What are the opening words of Revelation 1:3?",
+        "teen": "How do the first words of Revelation 1:3 run? This question also cites Revelation 15:3.",
+        "older": "Read Revelation 1:3 with Revelation 15:3. How does Revelation 1:3 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blessed is he who looks"
+        },
+        {
+          "id": "b",
+          "text": "Blessed is he who finds"
+        },
+        {
+          "id": "c",
+          "text": "Blessed is he who keeps"
+        },
+        {
+          "id": "d",
+          "text": "Blessed is he who reads"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 1:3",
+            "text": "Blessed is he who reads and those who hear the words of this prophecy, and keep those things which are written in it; for the time is near.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 15:3",
+            "text": "They sing the song of Moses, the servant of God, and the song of the Lamb, saying: “Great and marvelous are Your works, Lord God Almighty! Just and true are Your ways, O King of the saints!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Revelation 1:3.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Revelation 15:3 is the companion citation. Start at the beginning of Revelation 1:3.",
+          "older": "It is the opening of Revelation 1:3."
+        },
+        "extended_explanation": "Revelation 15:3 is cited alongside Revelation 1:3. Read both verses.",
+        "takeaway": "Blessed is he who reads"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

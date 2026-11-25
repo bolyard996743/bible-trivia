@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-013",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-exo-0022",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 19",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "At Sinai the LORD sent Moses to tell Israel what they would be if they kept His covenant. According to Exodus 19:6, what shall they be to Him, along with a holy nation?",
+        "child": "At Mount Sinai, God told Moses what Israel would be if they kept His covenant. Along with a holy nation, what would they be?",
+        "teen": "Exodus 19:6: “And you shall be to Me” what, “and a holy nation”?",
+        "older": "According to Exodus 19:6, what shall Israel be to the LORD besides a holy nation?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a kingdom of priests"
+        },
+        {
+          "id": "b",
+          "text": "a people of prophets"
+        },
+        {
+          "id": "c",
+          "text": "a city of judges"
+        },
+        {
+          "id": "d",
+          "text": "a family of kings"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 19:6",
+            "text": "And you shall be to Me a kingdom of priests and a holy nation.’ These are the words which you shall speak to the children of Israel.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 19:6.",
+          "child": "Look right after “And you shall be to Me” in verse 6.",
+          "teen": "19:6 names two things Israel shall be. Read the first.",
+          "older": "It follows “And you shall be to Me” in 19:6."
+        },
+        "extended_explanation": "19:5 calls Israel a special treasure if they keep His covenant. 19:8 records the people’s answer.",
+        "takeaway": "The LORD says, “And you shall be to Me a kingdom of priests.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-2sa-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 7",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2 Samuel 7:14 God promises David’s offspring, “he shall be My son.” If he commits iniquity, how will God chasten him?",
+        "child": "God made a promise about David’s son. If that son did wrong, how would God correct him?",
+        "teen": "2 Samuel 7:14: “If he commits iniquity, I will chasten him” how?",
+        "older": "According to 2 Samuel 7:14, how will God chasten David’s son if he sins?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with the loss of his throne"
+        },
+        {
+          "id": "b",
+          "text": "with enemies on every side"
+        },
+        {
+          "id": "c",
+          "text": "with the rod of men"
+        },
+        {
+          "id": "d",
+          "text": "with sickness and grief"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 7:14",
+            "text": "I will be his Father, and he shall be My son. If he commits iniquity, I will chasten him with the rod of men and with the blows of the sons of men.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 7:15",
+            "text": "But My mercy shall not depart from him, as I took it from Saul, whom I removed from before you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 7:14.",
+          "child": "Look right after “I will chasten him” in verse 14.",
+          "teen": "7:14 gives a promise and then a warning with two parts. Read the first part of the warning.",
+          "older": "It follows “I will chasten him” in 7:14."
+        },
+        "extended_explanation": "7:15 says His mercy shall not depart from him, as He took it from Saul. 7:13 speaks of building for My name.",
+        "takeaway": "God will chasten him with the rod of men."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jer-0013",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jeremiah",
+      "section": "Jeremiah 31",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jeremiah 31:32 says the new covenant will not be like the one made when the LORD took their fathers by the hand to lead them from Egypt, which they broke. How does the LORD describe what He was to them?",
+        "child": "God said His people broke the covenant He made with them after leaving Egypt. What does God say He had been to them?",
+        "teen": "Jeremiah 31:32: “My covenant which they broke, though I was” what?",
+        "older": "Read with 31:34, what does 31:32 say the LORD was to those who broke His covenant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a shepherd to them"
+        },
+        {
+          "id": "b",
+          "text": "a husband to them"
+        },
+        {
+          "id": "c",
+          "text": "a father to them"
+        },
+        {
+          "id": "d",
+          "text": "a fortress to them"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jeremiah 31:32",
+            "text": "not according to the covenant that I made with their fathers in the day that I took them by the hand to lead them out of the land of Egypt, My covenant which they broke, though I was a husband to them, says the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jeremiah 31:34",
+            "text": "No more shall every man teach his neighbor, and every man his brother, saying, ‘Know the LORD,’ for they all shall know Me, from the least of them to the greatest of them, says the LORD. For I will forgive their iniquity, and their sin I will remember no more.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 31:32.",
+          "child": "Look right after “though I was” in verse 32.",
+          "teen": "31:32 describes the old covenant, how they broke it, and what the LORD had been. Read the last.",
+          "older": "It follows “though I was” in 31:32."
+        },
+        "extended_explanation": "31:31 introduces the days that are coming. 31:32 names the covenant they broke.",
+        "takeaway": "The LORD was a husband to them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 8",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 8:7-8 explains why a second covenant was needed and then quotes Jeremiah’s promise. According to 8:8, in what way does God speak as He makes the promise?",
+        "child": "Hebrews says God promised a different covenant. How was God speaking about His people when He said it?",
+        "teen": "Hebrews 8:8: how is God described as He says, “Behold, the days are coming”?",
+        "older": "Read with 8:7, what does 8:8 say God was doing as He spoke of the coming covenant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "rejoicing over them"
+        },
+        {
+          "id": "b",
+          "text": "pleading with them"
+        },
+        {
+          "id": "c",
+          "text": "having pity on them all"
+        },
+        {
+          "id": "d",
+          "text": "finding fault with them"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 8:7",
+            "text": "For if that first covenant had been faultless, then no place would have been sought for a second.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 8:8",
+            "text": "Because finding fault with them, He says: “Behold, the days are coming, says the LORD, when I will make a new covenant with the house of Israel and with the house of Judah—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 8:8.",
+          "child": "Look at the first words of verse 8.",
+          "teen": "8:7 states a condition; 8:8 opens with a reason before the quotation. Read the opening words.",
+          "older": "It comes between “Because” and “He says” in 8:8."
+        },
+        "extended_explanation": "8:10 says He will put His laws in their mind. 8:12 says He will be merciful to their unrighteousness.",
+        "takeaway": "God spoke finding fault with them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2sa-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "2 Samuel",
+      "section": "2 Samuel 7",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2 Samuel 7:9 God reminds David that He has been with him and has cut off those who opposed him. In 7:10 He promises to plant His people, that they may dwell in what?",
+        "child": "God told David He would plant His people so they could live somewhere. Where?",
+        "teen": "2 Samuel 7:10: “that they may dwell in” what?",
+        "older": "According to 2 Samuel 7:10, where does God say His people may dwell?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a place of their own"
+        },
+        {
+          "id": "b",
+          "text": "a land of rest"
+        },
+        {
+          "id": "c",
+          "text": "cities they did not build"
+        },
+        {
+          "id": "d",
+          "text": "the desert of Sinai"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Samuel 7:9",
+            "text": "And I have been with you wherever you have gone, and have cut off all your enemies from before you, and have made you a great name, like the name of the great men who are on the earth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Samuel 7:10",
+            "text": "Moreover I will appoint a place for My people Israel, and will plant them, that they may dwell in a place of their own and move no more; nor shall the sons of wickedness oppress them anymore, as previously,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 7:10, after “that they may dwell in.”",
+          "child": "Look right after “that they may dwell in” in verse 10.",
+          "teen": "7:9 recalls what God has already done for David; 7:10 names where the people may dwell. Read after “dwell in.”",
+          "older": "It follows “that they may dwell in” in 7:10."
+        },
+        "extended_explanation": "7:10 also says they will move no more. 7:9 says God has made David a great name.",
+        "takeaway": "God says they may dwell in “a place of their own.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 9",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Genesis 15:18 the LORD makes a covenant with Abram about the land. In the earlier covenant with Noah, 9:12 names a sign between God and every living creature. For how long?",
+        "child": "God gave Noah a sign of His promise for all living creatures, and later made a promise to Abram. How long was Noah’s sign meant to last?",
+        "teen": "Genesis 9:12: the sign of the covenant with every living creature is “for” what?",
+        "older": "Read with 15:18, for how long does 9:12 say the sign is given?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "while the earth remains"
+        },
+        {
+          "id": "b",
+          "text": "for perpetual generations"
+        },
+        {
+          "id": "c",
+          "text": "as long as the heavens last"
+        },
+        {
+          "id": "d",
+          "text": "for seven generations only"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 9:12",
+            "text": "And God said: “This is the sign of the covenant which I make between Me and you, and every living creature that is with you, for perpetual generations:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 15:18",
+            "text": "On the same day the LORD made a covenant with Abram, saying: “To your descendants I have given this land, from the river of Egypt to the great river, the River Euphrates—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:12.",
+          "child": "Look at the last words of verse 12.",
+          "teen": "15:18 is the covenant with Abram; 9:12 names the sign and with whom it is made, then how long. Read the end.",
+          "older": "It follows “every living creature that is with you,” in 9:12."
+        },
+        "extended_explanation": "9:13 says, “I set My rainbow in the cloud.” 15:18 describes the land from the river of Egypt to the great river.",
+        "takeaway": "The sign is for perpetual generations."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 9",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 9:15 says the waters shall never again become a flood. In 17:4, God says His covenant is with Abram and that he shall be what?",
+        "child": "God made a promise with Noah. Later He made a promise with Abram. What did God say Abram would become?",
+        "teen": "Genesis 17:4: “My covenant is with you, and you shall be” what?",
+        "older": "Read with 9:15, what does 17:4 say Abram shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a ruler over many lands"
+        },
+        {
+          "id": "b",
+          "text": "a king over many peoples"
+        },
+        {
+          "id": "c",
+          "text": "a father of many nations"
+        },
+        {
+          "id": "d",
+          "text": "a prince among the nations"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 9:15",
+            "text": "and I will remember My covenant which is between Me and you and every living creature of all flesh; the waters shall never again become a flood to destroy all flesh.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 17:4",
+            "text": "“As for Me, behold, My covenant is with you, and you shall be a father of many nations.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 17:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "9:15 speaks of the waters never again becoming a flood; 17:4 states the covenant and then what Abram shall be. Read the end.",
+          "older": "It follows “and you shall be” in 17:4."
+        },
+        "extended_explanation": "17:5 says his name shall be Abraham. 9:13 says, “I set My rainbow in the cloud.”",
+        "takeaway": "Abram shall be a father of many nations."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 15",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 17:1 records the LORD appearing to Abram and calling him to walk before Him. In 15:7, from where does the LORD say He brought Abram to give him this land?",
+        "child": "God promised Abraham a land to live in. Where did God say He had brought Abram from?",
+        "teen": "Genesis 15:7: from where did the LORD bring Abram?",
+        "older": "Read with 17:1, from where does 15:7 say the LORD brought Abram?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nineveh, the Assyrian capital"
+        },
+        {
+          "id": "b",
+          "text": "Damascus of Syria"
+        },
+        {
+          "id": "c",
+          "text": "the land of Shinar"
+        },
+        {
+          "id": "d",
+          "text": "Ur of the Chaldeans"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 15:7",
+            "text": "Then He said to him, “I am the LORD, who brought you out of Ur of the Chaldeans, to give you this land to inherit it.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 17:1",
+            "text": "When Abram was ninety-nine years old, the LORD appeared to Abram and said to him, “I am Almighty God; walk before Me and be blameless.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 15:7.",
+          "child": "Look at the place named in the middle of verse 7.",
+          "teen": "17:1 is the LORD appearing to Abram; 15:7 names the LORD, the place He brought Abram from, and the purpose. Read the place.",
+          "older": "It is the place named just before “to give you this land” in 15:7."
+        },
+        "extended_explanation": "15:8 asks, “Lord GOD, how shall I know that I will inherit it?” 17:1 says, “I am Almighty God.”",
+        "takeaway": "The LORD brought Abram out of Ur of the Chaldeans."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0016",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 9",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 9:10 names the creatures included in God’s covenant with Noah. In 15:11, as Abram waited beside the divided sacrifice, what came down on the carcasses?",
+        "child": "Abram cut the animals in two for God’s covenant. What came down on them, so that he had to drive them away?",
+        "teen": "Genesis 15:11: what “came down on the carcasses”?",
+        "older": "Read with 9:10, what does 15:11 say came down on the carcasses?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the vultures"
+        },
+        {
+          "id": "b",
+          "text": "the eagles"
+        },
+        {
+          "id": "c",
+          "text": "the sparrows"
+        },
+        {
+          "id": "d",
+          "text": "the crows"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 9:10",
+            "text": "and with every living creature that is with you: the birds, the cattle, and every beast of the earth with you, of all that go out of the ark, every beast of the earth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 15:11",
+            "text": "And when the vultures came down on the carcasses, Abram drove them away.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 15:11.",
+          "child": "Look at the first words of verse 11.",
+          "teen": "9:10 lists creatures; 15:11 names what came down and what Abram did. Read what came down.",
+          "older": "It follows “And when” in 15:11."
+        },
+        "extended_explanation": "15:10 says Abram cut the animals in two. 15:12 says a deep sleep fell upon Abram.",
+        "takeaway": "The vultures came down on the carcasses, and Abram drove them away."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0017",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 15",
+      "topics": [
+        "covenants-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Genesis 15:8 Abram asks how he will know that he will inherit the land. Later, in 17:2, God says He will make His covenant between Himself and Abram. What else does He promise there?",
+        "child": "Abram once asked God how he could be sure of His promise. Later God promised to make a covenant with him. What else did God promise to do?",
+        "teen": "Genesis 17:2: “And I will make My covenant between Me and you, and will” do what?",
+        "older": "Read with 15:8, what does 17:2 say God will do for Abram besides making His covenant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bless you in all your ways"
+        },
+        {
+          "id": "b",
+          "text": "multiply you exceedingly"
+        },
+        {
+          "id": "c",
+          "text": "make you a great king"
+        },
+        {
+          "id": "d",
+          "text": "keep you from all harm"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 15:8",
+            "text": "And he said, “Lord GOD, how shall I know that I will inherit it?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 17:2",
+            "text": "And I will make My covenant between Me and you, and will multiply you exceedingly.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 17:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "15:8 is Abram’s question; 17:2 gives two promises. Read the second.",
+          "older": "It follows “and will” in 17:2."
+        },
+        "extended_explanation": "17:3 says God talked with him. 15:8 calls Him “Lord GOD.”",
+        "takeaway": "God says He will “multiply you exceedingly.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

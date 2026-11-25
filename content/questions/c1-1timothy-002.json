@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-1timothy-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-1ti-0005",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 1",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1 Timothy 1:12, after “I thank Christ Jesus our Lord,” how does the verse continue?",
+        "child": "After “I thank Christ Jesus our Lord,” how does 1 Timothy 1:12 continue?",
+        "teen": "What comes next in 1 Timothy 1:12, right after “I thank Christ Jesus our Lord”?",
+        "older": "According to 1 Timothy 1:12, after “I thank Christ Jesus our Lord,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who has enabled me"
+        },
+        {
+          "id": "b",
+          "text": "who has engaged me"
+        },
+        {
+          "id": "c",
+          "text": "who has elected me"
+        },
+        {
+          "id": "d",
+          "text": "who has invited me"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 1:12",
+            "text": "And I thank Christ Jesus our Lord who has enabled me, because He counted me faithful, putting me into the ministry,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 1 Timothy 1:12.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in 1 Timothy 1:12.",
+          "older": "The continuation is in 1 Timothy 1:12."
+        },
+        "extended_explanation": "Read the rest of 1 Timothy 1:12 as well.",
+        "takeaway": "who has enabled me."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-1ti-0006",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 3",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Timothy 1:4 is also cited. How does 1 Timothy 3:6 begin?",
+        "child": "What are the opening words of 1 Timothy 3:6?",
+        "teen": "How do the first words of 1 Timothy 3:6 run? This question also cites 1 Timothy 1:4.",
+        "older": "Read 1 Timothy 3:6 with 1 Timothy 1:4. How does 1 Timothy 3:6 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "not a deacon"
+        },
+        {
+          "id": "b",
+          "text": "not a novice"
+        },
+        {
+          "id": "c",
+          "text": "not a nobleman"
+        },
+        {
+          "id": "d",
+          "text": "not a newcomer"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 3:6",
+            "text": "not a novice, lest being puffed up with pride he fall into the same condemnation as the devil.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 1:4",
+            "text": "nor give heed to fables and endless genealogies, which cause disputes rather than godly edification which is in faith.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 1 Timothy 3:6.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "1 Timothy 1:4 is the companion citation. Start at the beginning of 1 Timothy 3:6.",
+          "older": "It is the opening of 1 Timothy 3:6."
+        },
+        "extended_explanation": "1 Timothy 1:4 is cited alongside 1 Timothy 3:6. Read both verses.",
+        "takeaway": "not a novice."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1ti-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 3",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Timothy 1:8 is also cited. In 1 Timothy 3:2, after “A bishop then must be blameless,” how does the verse continue?",
+        "child": "After “A bishop then must be blameless,” how does 1 Timothy 3:2 continue?",
+        "teen": "What comes next in 1 Timothy 3:2, right after “A bishop then must be blameless”? This question also cites 1 Timothy 1:8.",
+        "older": "Read 1 Timothy 3:2 with 1 Timothy 1:8. After “A bishop then must be blameless,” how does 1 Timothy 3:2 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the husband of one house"
+        },
+        {
+          "id": "b",
+          "text": "the husband of one tribe"
+        },
+        {
+          "id": "c",
+          "text": "the husband of one wife"
+        },
+        {
+          "id": "d",
+          "text": "the husband of one town"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 3:2",
+            "text": "A bishop then must be blameless, the husband of one wife, temperate, sober-minded, of good behavior, hospitable, able to teach;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 1:8",
+            "text": "But we know that the law is good if one uses it lawfully,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 1 Timothy 3:2.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "1 Timothy 1:8 is the companion citation. Continue in 1 Timothy 3:2.",
+          "older": "The continuation is in 1 Timothy 3:2."
+        },
+        "extended_explanation": "1 Timothy 1:8 is cited alongside 1 Timothy 3:2. Read both verses.",
+        "takeaway": "the husband of one wife."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ti-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 2",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Timothy 2:3 is also cited. How does 2 Timothy 2:5 begin?",
+        "child": "What are the opening words of 2 Timothy 2:5?",
+        "teen": "How do the first words of 2 Timothy 2:5 run? This question also cites 2 Timothy 2:3.",
+        "older": "Read 2 Timothy 2:5 with 2 Timothy 2:3. How does 2 Timothy 2:5 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And also if anyone competes in footraces"
+        },
+        {
+          "id": "b",
+          "text": "And also if anyone competes in wrestling"
+        },
+        {
+          "id": "c",
+          "text": "And also if anyone competes in banquets"
+        },
+        {
+          "id": "d",
+          "text": "And also if anyone competes in athletics"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 2:5",
+            "text": "And also if anyone competes in athletics, he is not crowned unless he competes according to the rules.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 2:3",
+            "text": "You therefore must endure hardship as a good soldier of Jesus Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 2 Timothy 2:5.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "2 Timothy 2:3 is the companion citation. Start at the beginning of 2 Timothy 2:5.",
+          "older": "It is the opening of 2 Timothy 2:5."
+        },
+        "extended_explanation": "2 Timothy 2:3 is cited alongside 2 Timothy 2:5. Read both verses.",
+        "takeaway": "And also if anyone competes in athletics."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ti-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 4",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Timothy 4:13 is also cited. In 2 Timothy 4:11, after “Only Luke is with me.” how does the verse continue?",
+        "child": "After “Only Luke is with me.” how does 2 Timothy 4:11 continue?",
+        "teen": "What comes next in 2 Timothy 4:11, right after “Only Luke is with me.”? This question also cites 2 Timothy 4:13.",
+        "older": "Read 2 Timothy 4:11 with 2 Timothy 4:13. After “Only Luke is with me.” how does 2 Timothy 4:11 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Get Mark and bring him with you"
+        },
+        {
+          "id": "b",
+          "text": "Get Mark and bring him with Luke"
+        },
+        {
+          "id": "c",
+          "text": "Get Mark and bring him with Titus"
+        },
+        {
+          "id": "d",
+          "text": "Get Mark and bring him with us"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 4:11",
+            "text": "Only Luke is with me. Get Mark and bring him with you, for he is useful to me for ministry.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 4:13",
+            "text": "Bring the cloak that I left with Carpus at Troas when you come—and the books, especially the parchments.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 2 Timothy 4:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "2 Timothy 4:13 is the companion citation. Continue in 2 Timothy 4:11.",
+          "older": "The continuation is in 2 Timothy 4:11."
+        },
+        "extended_explanation": "2 Timothy 4:13 is cited alongside 2 Timothy 4:11. Read both verses.",
+        "takeaway": "Get Mark and bring him with you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1ti-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 1",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Timothy 3:16 is also cited. How does 1 Timothy 1:7 begin?",
+        "child": "What are the opening words of 1 Timothy 1:7?",
+        "teen": "How do the first words of 1 Timothy 1:7 run? This question also cites 1 Timothy 3:16.",
+        "older": "Read 1 Timothy 1:7 with 1 Timothy 3:16. How does 1 Timothy 1:7 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "desiring to be speakers"
+        },
+        {
+          "id": "b",
+          "text": "desiring to be teachers"
+        },
+        {
+          "id": "c",
+          "text": "desiring to be trainers"
+        },
+        {
+          "id": "d",
+          "text": "desiring to be watchers"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 1:7",
+            "text": "desiring to be teachers of the law, understanding neither what they say nor the things which they affirm.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 3:16",
+            "text": "And without controversy great is the mystery of godliness: God was manifested in the flesh, Justified in the Spirit, Seen by angels, Preached among the Gentiles, Believed on in the world, Received up in glory.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 1 Timothy 1:7.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "1 Timothy 3:16 is the companion citation. Start at the beginning of 1 Timothy 1:7.",
+          "older": "It is the opening of 1 Timothy 1:7."
+        },
+        "extended_explanation": "1 Timothy 3:16 is cited alongside 1 Timothy 1:7. Read both verses.",
+        "takeaway": "desiring to be teachers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1ti-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 1",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Timothy 6:16 is also cited. In 1 Timothy 1:3, after “went into Macedonia—remain in Ephesus that,” how does the verse continue?",
+        "child": "After “went into Macedonia—remain in Ephesus that,” how does 1 Timothy 1:3 continue?",
+        "teen": "What comes next in 1 Timothy 1:3, right after “went into Macedonia—remain in Ephesus that”? This question also cites 1 Timothy 6:16.",
+        "older": "Read 1 Timothy 1:3 with 1 Timothy 6:16. After “went into Macedonia—remain in Ephesus that,” how does 1 Timothy 1:3 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "you may charge them"
+        },
+        {
+          "id": "b",
+          "text": "you may charge each"
+        },
+        {
+          "id": "c",
+          "text": "you may charge some"
+        },
+        {
+          "id": "d",
+          "text": "you may charge most"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 1:3",
+            "text": "As I urged you when I went into Macedonia—remain in Ephesus that you may charge some that they teach no other doctrine,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 6:16",
+            "text": "who alone has immortality, dwelling in unapproachable light, whom no man has seen or can see, to whom be honor and everlasting power. Amen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 1 Timothy 1:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "1 Timothy 6:16 is the companion citation. Continue in 1 Timothy 1:3.",
+          "older": "The continuation is in 1 Timothy 1:3."
+        },
+        "extended_explanation": "1 Timothy 6:16 is cited alongside 1 Timothy 1:3. Read both verses.",
+        "takeaway": "you may charge some."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1ti-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Timothy",
+      "section": "1 Timothy 3",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Timothy 6:20 is also cited. How does 1 Timothy 3:4 begin?",
+        "child": "What are the opening words of 1 Timothy 3:4?",
+        "teen": "How do the first words of 1 Timothy 3:4 run? This question also cites 1 Timothy 6:20.",
+        "older": "Read 1 Timothy 3:4 with 1 Timothy 6:20. How does 1 Timothy 3:4 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "one who leads his own house well"
+        },
+        {
+          "id": "b",
+          "text": "one who keeps his own house well"
+        },
+        {
+          "id": "c",
+          "text": "one who guides his own house well"
+        },
+        {
+          "id": "d",
+          "text": "one who rules his own house well"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Timothy 3:4",
+            "text": "one who rules his own house well, having his children in submission with all reverence",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Timothy 6:20",
+            "text": "O Timothy! Guard what was committed to your trust, avoiding the profane and idle babblings and contradictions of what is falsely called knowledge—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 1 Timothy 3:4.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "1 Timothy 6:20 is the companion citation. Start at the beginning of 1 Timothy 3:4.",
+          "older": "It is the opening of 1 Timothy 3:4."
+        },
+        "extended_explanation": "1 Timothy 6:20 is cited alongside 1 Timothy 3:4. Read both verses.",
+        "takeaway": "one who rules his own house well."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ti-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 1",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Timothy 2:11 is also cited. In 2 Timothy 1:12, after “nevertheless I am not ashamed, for,” how does the verse continue?",
+        "child": "After “nevertheless I am not ashamed, for,” how does 2 Timothy 1:12 continue?",
+        "teen": "What comes next in 2 Timothy 1:12, right after “nevertheless I am not ashamed, for”? This question also cites 2 Timothy 2:11.",
+        "older": "Read 2 Timothy 1:12 with 2 Timothy 2:11. After “nevertheless I am not ashamed, for,” how does 2 Timothy 1:12 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I know whom I have believed"
+        },
+        {
+          "id": "b",
+          "text": "I know whom I have betrayed"
+        },
+        {
+          "id": "c",
+          "text": "I know whom I have begotten"
+        },
+        {
+          "id": "d",
+          "text": "I know whom I have obeyed"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 1:12",
+            "text": "For this reason I also suffer these things; nevertheless I am not ashamed, for I know whom I have believed and am persuaded that He is able to keep what I have committed to Him until that Day.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 2:11",
+            "text": "This is a faithful saying: For if we died with Him, We shall also live with Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 2 Timothy 1:12.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "2 Timothy 2:11 is the companion citation. Continue in 2 Timothy 1:12.",
+          "older": "The continuation is in 2 Timothy 1:12."
+        },
+        "extended_explanation": "2 Timothy 2:11 is cited alongside 2 Timothy 1:12. Read both verses.",
+        "takeaway": "I know whom I have believed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2ti-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Timothy",
+      "section": "2 Timothy 2",
+      "topics": [
+        "the-pastoral-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Timothy 4:21 is also cited. How does 2 Timothy 2:12 begin?",
+        "child": "What are the opening words of 2 Timothy 2:12?",
+        "teen": "How do the first words of 2 Timothy 2:12 run? This question also cites 2 Timothy 4:21.",
+        "older": "Read 2 Timothy 2:12 with 2 Timothy 4:21. How does 2 Timothy 2:12 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "If we endure, We shall also rest with Him"
+        },
+        {
+          "id": "b",
+          "text": "If we endure, We shall also reign with Him"
+        },
+        {
+          "id": "c",
+          "text": "If we endure, We shall also rise with Him"
+        },
+        {
+          "id": "d",
+          "text": "If we endure, We shall also remain with Him"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Timothy 2:12",
+            "text": "If we endure, We shall also reign with Him. If we deny Him, He also will deny us.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Timothy 4:21",
+            "text": "Do your utmost to come before winter. Eubulus greets you, as well as Pudens, Linus, Claudia, and all the brethren.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 2 Timothy 2:12.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "2 Timothy 4:21 is the companion citation. Start at the beginning of 2 Timothy 2:12.",
+          "older": "It is the opening of 2 Timothy 2:12."
+        },
+        "extended_explanation": "2 Timothy 4:21 is cited alongside 2 Timothy 2:12. Read both verses.",
+        "takeaway": "If we endure, We shall also reign with Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

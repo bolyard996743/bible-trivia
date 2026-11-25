@@ -1,0 +1,607 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-hosea-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-hos-0009",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Hosea",
+      "section": "Hosea 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hosea 1:1 names the man to whom the word of the LORD came. After “Hosea,” how does the verse name him?",
+        "child": "The first verse of Hosea tells who received the word of the LORD. After his name, how is he named?",
+        "teen": "Hosea 1:1: after “Hosea,” how is he named?",
+        "older": "According to Hosea 1:1, after “Hosea,” how is he named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the son of Beeri"
+        },
+        {
+          "id": "b",
+          "text": "the son of Imlah"
+        },
+        {
+          "id": "c",
+          "text": "the son of Shemaiah"
+        },
+        {
+          "id": "d",
+          "text": "the son of Maaseiah"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hosea 1:1",
+            "text": "The word of the LORD that came to Hosea the son of Beeri, in the days of Uzziah, Jotham, Ahaz, and Hezekiah, kings of Judah, and in the days of Jeroboam the son of Joash, king of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:1.",
+          "child": "Look right after “Hosea” in verse 1.",
+          "teen": "1:1 names him, then his father. Read that phrase.",
+          "older": "It follows “Hosea” in 1:1."
+        },
+        "extended_explanation": "1:1 also names Uzziah, Jotham, Ahaz, and Hezekiah.",
+        "takeaway": "The word came to Hosea the son of Beeri."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-jol-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel’s first verse names the man who received the word of the LORD. After “Joel,” how is he named?",
+        "child": "The opening of Joel tells who received the word. After his name, how is he named?",
+        "teen": "Joel 1:1: after “Joel,” how is he named?",
+        "older": "According to Joel 1:1, after “Joel,” how is he named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the son of Iddo"
+        },
+        {
+          "id": "b",
+          "text": "the son of Pethuel"
+        },
+        {
+          "id": "c",
+          "text": "the son of Hilkiah"
+        },
+        {
+          "id": "d",
+          "text": "the son of Nebat"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 1:1",
+            "text": "The word of the LORD that came to Joel the son of Pethuel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:1.",
+          "child": "Look right after “Joel” in verse 1.",
+          "teen": "1:1 ends with his father. Read that phrase.",
+          "older": "It follows “Joel” in 1:1."
+        },
+        "extended_explanation": "1:1 begins, “The word of the LORD that came to Joel.”",
+        "takeaway": "The word came to Joel the son of Pethuel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jon-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jonah’s opening names the man to whom the word of the LORD came. After “Jonah,” how is he named?",
+        "child": "The first verse of Jonah tells who received the word of the LORD. After his name, how is he named?",
+        "teen": "Jonah 1:1: after “Jonah,” how is he named?",
+        "older": "According to Jonah 1:1, after “Jonah,” how is he named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the son of Amoz"
+        },
+        {
+          "id": "b",
+          "text": "the son of Hanani"
+        },
+        {
+          "id": "c",
+          "text": "the son of Amittai"
+        },
+        {
+          "id": "d",
+          "text": "the son of Jehoiada"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 1:1",
+            "text": "Now the word of the LORD came to Jonah the son of Amittai, saying,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:1.",
+          "child": "Look right after “Jonah” in verse 1.",
+          "teen": "1:1 ends with his father. Read that phrase.",
+          "older": "It follows “Jonah” in 1:1."
+        },
+        "extended_explanation": "1:1 begins, “Now the word of the LORD came to Jonah.”",
+        "takeaway": "The word came to Jonah the son of Amittai."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-nah-0004",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nahum",
+      "section": "Nahum 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nahum’s first verse names the man who wrote this book. After “The book of the vision of,” how is he named?",
+        "child": "The heading of Nahum names him at the end. After “The book of the vision of,” how is he named?",
+        "teen": "Nahum 1:1: “The book of the vision of” whom?",
+        "older": "According to Nahum 1:1, after “The book of the vision of,” how is he named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nahum the Tekoite"
+        },
+        {
+          "id": "b",
+          "text": "Nahum the Morasthite"
+        },
+        {
+          "id": "c",
+          "text": "Nahum the Gileadite"
+        },
+        {
+          "id": "d",
+          "text": "Nahum the Elkoshite"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nahum 1:1",
+            "text": "The burden against Nineveh. The book of the vision of Nahum the Elkoshite.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:1.",
+          "child": "Look at the last words of verse 1.",
+          "teen": "1:1 ends with this writer’s name. Read that name.",
+          "older": "It is the last name in 1:1."
+        },
+        "extended_explanation": "Nahum 1:1 also begins, “The burden against Nineveh.”",
+        "takeaway": "This is the vision of Nahum the Elkoshite."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah’s first verse names him and his family. After “Zephaniah,” how is he first named?",
+        "child": "The opening of Zephaniah names the man who received the word. After his name, how is he first named?",
+        "teen": "Zephaniah 1:1: after “Zephaniah,” how is he first named?",
+        "older": "According to Zephaniah 1:1, after “Zephaniah,” how is he first named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the son of Cushi"
+        },
+        {
+          "id": "b",
+          "text": "the son of Shaphan"
+        },
+        {
+          "id": "c",
+          "text": "the son of Neriah"
+        },
+        {
+          "id": "d",
+          "text": "the son of Buzi"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:1",
+            "text": "The word of the LORD which came to Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hezekiah, in the days of Josiah the son of Amon, king of Judah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:1.",
+          "child": "Look right after “Zephaniah” in verse 1.",
+          "teen": "1:1 first names this father. Read that phrase.",
+          "older": "It follows “Zephaniah” in 1:1."
+        },
+        "extended_explanation": "1:1 also names Josiah the son of Amon.",
+        "takeaway": "The word came to Zephaniah the son of Cushi."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-oba-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Obadiah",
+      "section": "Obadiah 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Obadiah 1:1 opens, “The vision of Obadiah.” After “We have heard a report from the LORD, And,” what does the verse say?",
+        "child": "The opening of Obadiah mentions a report from the LORD. After “And,” what does 1:1 say next?",
+        "teen": "Obadiah 1:1: after the report from the LORD, what does the verse say next?",
+        "older": "According to Obadiah 1:1, after “We have heard a report from the LORD, And,” what does the verse say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a messenger has been sent among the princes"
+        },
+        {
+          "id": "b",
+          "text": "a messenger has been sent among the nations"
+        },
+        {
+          "id": "c",
+          "text": "a messenger has been sent among the captains"
+        },
+        {
+          "id": "d",
+          "text": "a messenger has been sent among the families"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Obadiah 1:1",
+            "text": "The vision of Obadiah. Thus says the Lord GOD concerning Edom (We have heard a report from the LORD, And a messenger has been sent among the nations, saying, “Arise, and let us rise up against her for battle”):",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:1.",
+          "child": "Look right after “And” in verse 1, after the report from the LORD.",
+          "teen": "1:1 names the report, then this. Read that phrase.",
+          "older": "It follows “And” after the report from the LORD in 1:1."
+        },
+        "extended_explanation": "1:1 also opens, “The vision of Obadiah.”",
+        "takeaway": "A messenger has been sent among the nations."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mic-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Micah 1:2 opens with a call to the peoples. After “Hear, all you peoples! Listen,” what does the verse say next?",
+        "child": "The prophet calls everyone to hear. After “Hear, all you peoples! Listen,” what does 1:2 say?",
+        "teen": "Micah 1:2: after “Hear, all you peoples! Listen,” what comes next?",
+        "older": "According to Micah 1:2, after “Hear, all you peoples! Listen,” what does the verse say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Listen, O mountain"
+        },
+        {
+          "id": "b",
+          "text": "Listen, O valley"
+        },
+        {
+          "id": "c",
+          "text": "Listen, O earth"
+        },
+        {
+          "id": "d",
+          "text": "Listen, O river"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 1:2",
+            "text": "Hear, all you peoples! Listen, O earth, and all that is in it! Let the Lord GOD be a witness against you, The Lord from His holy temple.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:2.",
+          "child": "Look right after “Hear, all you peoples! Listen,” in verse 2.",
+          "teen": "1:2 next names this address. Read that phrase.",
+          "older": "It follows “Listen,” in 1:2."
+        },
+        "extended_explanation": "1:2 also says, “and all that is in it!”",
+        "takeaway": "Listen, O earth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-hab-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Habakkuk",
+      "section": "Habakkuk 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Habakkuk 1:4 describes what happens when the wicked surround the righteous. After “Therefore,” at the end of the verse, what does he say proceeds?",
+        "child": "The prophet names what comes forth in place of justice. After the last “Therefore,” what does 1:4 say proceeds?",
+        "teen": "Habakkuk 1:4: the last “Therefore” is followed by what?",
+        "older": "According to Habakkuk 1:4, after the last “Therefore,” what proceeds?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "perverse ordinances proceed"
+        },
+        {
+          "id": "b",
+          "text": "perverse rumor proceeds"
+        },
+        {
+          "id": "c",
+          "text": "perverse custom proceeds"
+        },
+        {
+          "id": "d",
+          "text": "perverse judgment proceeds"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Habakkuk 1:4",
+            "text": "Therefore the law is powerless, And justice never goes forth. For the wicked surround the righteous; Therefore perverse judgment proceeds.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:4.",
+          "child": "Look at the last clause of verse 4.",
+          "teen": "1:4 ends with this statement. Read that phrase.",
+          "older": "It is the last clause of 1:4."
+        },
+        "extended_explanation": "1:4 also says, “Therefore the law is powerless, And justice never goes forth.”",
+        "takeaway": "Perverse judgment proceeds."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jol-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 1:2 calls elders and others to hear. After addressing the elders, what does the verse ask?",
+        "child": "Joel opens with a call to hear. After that call, what does 1:2 ask?",
+        "teen": "Joel 1:2: after the call to hear, what does the verse ask?",
+        "older": "According to Joel 1:2, what does the verse ask after the call to hear?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Has anything like this happened in your days"
+        },
+        {
+          "id": "b",
+          "text": "Has anything like this happened in your years"
+        },
+        {
+          "id": "c",
+          "text": "Has anything like this happened in your time"
+        },
+        {
+          "id": "d",
+          "text": "Has anything like this happened in your span"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 1:2",
+            "text": "Hear this, you elders, And give ear, all you inhabitants of the land! Has anything like this happened in your days, Or even in the days of your fathers?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second half of 1:2.",
+          "child": "Look at the question that follows the call to hear.",
+          "teen": "1:2 next asks this. Read that question.",
+          "older": "It follows the call to hear in 1:2."
+        },
+        "extended_explanation": "1:2 also asks whether this has happened even among the fathers.",
+        "takeaway": "Has anything like this happened in your days."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jol-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 1",
+      "topics": [
+        "the-twelve-minor-prophets-order-and-setting"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 1:3 tells how the report is to be handed down. How does the verse end?",
+        "child": "Joel tells the people how far the report should go. How does 1:3 end?",
+        "teen": "Joel 1:3: how does the verse end?",
+        "older": "According to Joel 1:3, how does the verse end?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And their children another nation"
+        },
+        {
+          "id": "b",
+          "text": "And their children another generation"
+        },
+        {
+          "id": "c",
+          "text": "And their children another people"
+        },
+        {
+          "id": "d",
+          "text": "And their children another congregation"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 1:3",
+            "text": "Tell your children about it, Let your children tell their children, And their children another generation.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:3.",
+          "child": "Look at the last words of verse 3.",
+          "teen": "1:3 ends with this phrase. Read that phrase.",
+          "older": "It is the last phrase of 1:3."
+        },
+        "extended_explanation": "1:3 begins, “Tell your children about it, Let your children tell their children.”",
+        "takeaway": "And their children another generation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

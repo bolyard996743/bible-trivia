@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-revelation-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-rev-0023",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 1",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Revelation 1:18, after “He who lives, and was dead,” how does the verse proceed?",
+        "child": "After “He who lives, and was dead,” how does Revelation 1:18 proceed?",
+        "teen": "What comes next in Revelation 1:18, just after “He who lives, and was dead,”?",
+        "older": "According to Revelation 1:18, after “He who lives, and was dead,” how does the verse proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "and behold, I am alive"
+        },
+        {
+          "id": "b",
+          "text": "and behold, I am ready"
+        },
+        {
+          "id": "c",
+          "text": "and behold, I am awake"
+        },
+        {
+          "id": "d",
+          "text": "and behold, I am aware"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 1:18",
+            "text": "I am He who lives, and was dead, and behold, I am alive forevermore. Amen. And I have the keys of Hades and of Death.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 1:18.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Revelation 1:18.",
+          "older": "The continuation is in Revelation 1:18."
+        },
+        "extended_explanation": "Read Revelation 1:18 in the cited passage.",
+        "takeaway": "and behold, I am alive"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-ezk-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 47",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 47:3 is also cited. In Ezekiel 47:7, after “along the bank of the river,” how does the verse proceed?",
+        "child": "After “along the bank of the river,” how does Ezekiel 47:7 proceed?",
+        "teen": "What comes next in Ezekiel 47:7, just after “along the bank of the river,”? This question also cites Ezekiel 47:3.",
+        "older": "Read Ezekiel 47:7 with Ezekiel 47:3. After “along the bank of the river,” how does Ezekiel 47:7 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "were very many reeds on one side and the other"
+        },
+        {
+          "id": "b",
+          "text": "were very many trees on one side and the other"
+        },
+        {
+          "id": "c",
+          "text": "were very many vines on one side and the other"
+        },
+        {
+          "id": "d",
+          "text": "were very many palms on one side and the other"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 47:7",
+            "text": "When I returned, there, along the bank of the river, were very many trees on one side and the other.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 47:3",
+            "text": "And when the man went out to the east with the line in his hand, he measured one thousand cubits, and he brought me through the waters; the water came up to my ankles.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ezekiel 47:7.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ezekiel 47:3 is the companion citation. Continue in Ezekiel 47:7.",
+          "older": "The continuation is in Ezekiel 47:7."
+        },
+        "extended_explanation": "Ezekiel 47:3 is cited alongside Ezekiel 47:7. Read both verses.",
+        "takeaway": "were very many trees on one side and the other"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0024",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 1",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 1:6 is also cited. In Revelation 1:20, after “the seven churches, and the seven” how does the verse proceed?",
+        "child": "After “the seven churches, and the seven” how does Revelation 1:20 proceed?",
+        "teen": "What comes next in Revelation 1:20, just after “the seven churches, and the seven”? This question also cites Ezekiel 1:6.",
+        "older": "Read Revelation 1:20 with Ezekiel 1:6. After “the seven churches, and the seven” how does Revelation 1:20 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "lampstands which you hid"
+        },
+        {
+          "id": "b",
+          "text": "lampstands which you met"
+        },
+        {
+          "id": "c",
+          "text": "lampstands which you saw"
+        },
+        {
+          "id": "d",
+          "text": "lampstands which you set"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 1:20",
+            "text": "The mystery of the seven stars which you saw in My right hand, and the seven golden lampstands: The seven stars are the angels of the seven churches, and the seven lampstands which you saw are the seven churches.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 1:6",
+            "text": "Each one had four faces, and each one had four wings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Revelation 1:20.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ezekiel 1:6 is the companion citation. Continue in Revelation 1:20.",
+          "older": "The continuation is in Revelation 1:20."
+        },
+        "extended_explanation": "Ezekiel 1:6 is cited alongside Revelation 1:20. Read both verses.",
+        "takeaway": "lampstands which you saw"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-dan-0019",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 7",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 47:10 is also cited. In Daniel 7:12, after “prolonged” how does the verse proceed?",
+        "child": "After “prolonged” how does Daniel 7:12 proceed?",
+        "teen": "What comes next in Daniel 7:12, just after “prolonged”? This question also cites Ezekiel 47:10.",
+        "older": "Read Daniel 7:12 with Ezekiel 47:10. After “prolonged” how does Daniel 7:12 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "for a season and a year"
+        },
+        {
+          "id": "b",
+          "text": "for a season and a week"
+        },
+        {
+          "id": "c",
+          "text": "for a season and a term"
+        },
+        {
+          "id": "d",
+          "text": "for a season and a time"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 7:12",
+            "text": "As for the rest of the beasts, they had their dominion taken away, yet their lives were prolonged for a season and a time.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 47:10",
+            "text": "It shall be that fishermen will stand by it from En Gedi to En Eglaim; they will be places for spreading their nets. Their fish will be of the same kinds as the fish of the Great Sea, exceedingly many.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Daniel 7:12.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ezekiel 47:10 is the companion citation. Continue in Daniel 7:12.",
+          "older": "The continuation is in Daniel 7:12."
+        },
+        "extended_explanation": "Ezekiel 47:10 is cited alongside Daniel 7:12. Read both verses.",
+        "takeaway": "for a season and a time"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0032",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 65",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 65:18 is also cited. In Isaiah 65:17, after “heavens and a new earth; And” how does the verse proceed?",
+        "child": "After “heavens and a new earth; And” how does Isaiah 65:17 proceed?",
+        "teen": "What comes next in Isaiah 65:17, just after “heavens and a new earth; And”? This question also cites Isaiah 65:18.",
+        "older": "Read Isaiah 65:17 with Isaiah 65:18. After “heavens and a new earth; And” how does Isaiah 65:17 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the former shall not be remembered"
+        },
+        {
+          "id": "b",
+          "text": "the former shall not be commemorated"
+        },
+        {
+          "id": "c",
+          "text": "the former shall not be rehearsed"
+        },
+        {
+          "id": "d",
+          "text": "the former shall not be recounted"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 65:17",
+            "text": "“For behold, I create new heavens and a new earth; And the former shall not be remembered or come to mind.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 65:18",
+            "text": "But be glad and rejoice forever in what I create; For behold, I create Jerusalem as a rejoicing, And her people a joy.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Isaiah 65:17.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Isaiah 65:18 is the companion citation. Continue in Isaiah 65:17.",
+          "older": "The continuation is in Isaiah 65:17."
+        },
+        "extended_explanation": "Isaiah 65:18 is cited alongside Isaiah 65:17. Read both verses.",
+        "takeaway": "the former shall not be remembered"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0025",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 22",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 47:6 is also cited. How does Revelation 22:4 begin?",
+        "child": "What are the opening words of Revelation 22:4?",
+        "teen": "How do the first words of Revelation 22:4 run? This question also cites Ezekiel 47:6.",
+        "older": "Read Revelation 22:4 with Ezekiel 47:6. How does Revelation 22:4 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They shall see His form"
+        },
+        {
+          "id": "b",
+          "text": "They shall see His face"
+        },
+        {
+          "id": "c",
+          "text": "They shall see His hand"
+        },
+        {
+          "id": "d",
+          "text": "They shall see His work"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 22:4",
+            "text": "They shall see His face, and His name shall be on their foreheads.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 47:6",
+            "text": "He said to me, “Son of man, have you seen this?” Then he brought me and returned me to the bank of the river.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Revelation 22:4.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ezekiel 47:6 is the companion citation. Start at the beginning of Revelation 22:4.",
+          "older": "It is the opening of Revelation 22:4."
+        },
+        "extended_explanation": "Ezekiel 47:6 is cited alongside Revelation 22:4. Read both verses.",
+        "takeaway": "They shall see His face"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0018",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 1",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 1:25 is also cited. How does Ezekiel 1:11 begin?",
+        "child": "What are the opening words of Ezekiel 1:11?",
+        "teen": "How do the first words of Ezekiel 1:11 run? This question also cites Ezekiel 1:25.",
+        "older": "Read Ezekiel 1:11 with Ezekiel 1:25. How does Ezekiel 1:11 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thus were their faces"
+        },
+        {
+          "id": "b",
+          "text": "Thus were their hands"
+        },
+        {
+          "id": "c",
+          "text": "Thus were their heads"
+        },
+        {
+          "id": "d",
+          "text": "Thus were their forms"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 1:11",
+            "text": "Thus were their faces. Their wings stretched upward; two wings of each one touched one another, and two covered their bodies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 1:25",
+            "text": "A voice came from above the firmament that was over their heads; whenever they stood, they let down their wings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Ezekiel 1:11.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ezekiel 1:25 is the companion citation. Start at the beginning of Ezekiel 1:11.",
+          "older": "It is the opening of Ezekiel 1:11."
+        },
+        "extended_explanation": "Ezekiel 1:25 is cited alongside Ezekiel 1:11. Read both verses.",
+        "takeaway": "Thus were their faces"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0020",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 1",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 1:17 is also cited. In Ezekiel 1:23, after “wings spread out straight,” how does the verse proceed?",
+        "child": "After “wings spread out straight,” how does Ezekiel 1:23 proceed?",
+        "teen": "What comes next in Ezekiel 1:23, just after “wings spread out straight,”? This question also cites Ezekiel 1:17.",
+        "older": "Read Ezekiel 1:23 with Ezekiel 1:17. After “wings spread out straight,” how does Ezekiel 1:23 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "one beside another"
+        },
+        {
+          "id": "b",
+          "text": "one toward another"
+        },
+        {
+          "id": "c",
+          "text": "one behind another"
+        },
+        {
+          "id": "d",
+          "text": "one before another"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 1:23",
+            "text": "And under the firmament their wings spread out straight, one toward another. Each one had two which covered one side, and each one had two which covered the other side of the body.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 1:17",
+            "text": "When they moved, they went toward any one of four directions; they did not turn aside when they went.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ezekiel 1:23.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ezekiel 1:17 is the companion citation. Continue in Ezekiel 1:23.",
+          "older": "The continuation is in Ezekiel 1:23."
+        },
+        "extended_explanation": "Ezekiel 1:17 is cited alongside Ezekiel 1:23. Read both verses.",
+        "takeaway": "one toward another"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-dan-0020",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 7",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 1:22 is also cited. In Daniel 7:11, after “beast was slain, and its body” how does the verse proceed?",
+        "child": "After “beast was slain, and its body” how does Daniel 7:11 proceed?",
+        "teen": "What comes next in Daniel 7:11, just after “beast was slain, and its body”? This question also cites Ezekiel 1:22.",
+        "older": "Read Daniel 7:11 with Ezekiel 1:22. After “beast was slain, and its body” how does Daniel 7:11 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "destroyed and given to the waters"
+        },
+        {
+          "id": "b",
+          "text": "destroyed and given to the jackals"
+        },
+        {
+          "id": "c",
+          "text": "destroyed and given to the burning"
+        },
+        {
+          "id": "d",
+          "text": "destroyed and given to the furnace"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 7:11",
+            "text": "“I watched then because of the sound of the pompous words which the horn was speaking; I watched till the beast was slain, and its body destroyed and given to the burning flame.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 1:22",
+            "text": "The likeness of the firmament above the heads of the living creatures was like the color of an awesome crystal, stretched out over their heads.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Daniel 7:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ezekiel 1:22 is the companion citation. Continue in Daniel 7:11.",
+          "older": "The continuation is in Daniel 7:11."
+        },
+        "extended_explanation": "Ezekiel 1:22 is cited alongside Daniel 7:11. Read both verses.",
+        "takeaway": "destroyed and given to the burning"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0019",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 47",
+      "topics": [
+        "revelation-and-old-testament-imagery"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 1:9 is also cited. How does Ezekiel 47:11 begin?",
+        "child": "What are the opening words of Ezekiel 47:11?",
+        "teen": "How do the first words of Ezekiel 47:11 run? This question also cites Ezekiel 1:9.",
+        "older": "Read Ezekiel 47:11 with Ezekiel 1:9. How does Ezekiel 47:11 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "But its swamps and marshes will not be filled"
+        },
+        {
+          "id": "b",
+          "text": "But its swamps and marshes will not be farmed"
+        },
+        {
+          "id": "c",
+          "text": "But its swamps and marshes will not be mended"
+        },
+        {
+          "id": "d",
+          "text": "But its swamps and marshes will not be healed"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 47:11",
+            "text": "But its swamps and marshes will not be healed; they will be given over to salt.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 1:9",
+            "text": "Their wings touched one another. The creatures did not turn when they went, but each one went straight forward.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Ezekiel 47:11.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ezekiel 1:9 is the companion citation. Start at the beginning of Ezekiel 47:11.",
+          "older": "It is the opening of Ezekiel 47:11."
+        },
+        "extended_explanation": "Ezekiel 1:9 is cited alongside Ezekiel 47:11. Read both verses.",
+        "takeaway": "But its swamps and marshes will not be healed"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

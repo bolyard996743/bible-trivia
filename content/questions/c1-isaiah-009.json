@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-009",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-isa-0028",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 11",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "According to Isaiah 11:5, after “Righteousness shall be,” what is named first?",
+        "child": "Isaiah describes the coming ruler’s dress. After “Righteousness shall be,” what does 11:5 name first?",
+        "teen": "Isaiah 11:5: “Righteousness shall be” what first?",
+        "older": "According to Isaiah 11:5, what follows “Righteousness shall be”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the belt of His loins"
+        },
+        {
+          "id": "b",
+          "text": "the crown of His head"
+        },
+        {
+          "id": "c",
+          "text": "the robe of His back"
+        },
+        {
+          "id": "d",
+          "text": "the staff of His hand"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 11:5",
+            "text": "Righteousness shall be the belt of His loins, And faithfulness the belt of His waist.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 11:5.",
+          "child": "Look right after “Righteousness shall be” in verse 5.",
+          "teen": "11:5 opens with this phrase. Read that phrase.",
+          "older": "It follows “Righteousness shall be” in 11:5."
+        },
+        "extended_explanation": "11:5 also says, “And faithfulness” is about His waist.",
+        "takeaway": "Righteousness shall be the belt of His loins."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-isa-0029",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 10",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 10:21 says, “The remnant will return, the remnant of Jacob.” In 10:20, after “Will never again depend on him,” what does the verse say they will never do?",
+        "child": "Isaiah describes those who have escaped of the house of Jacob. After “Will never again depend on him,” what does 10:20 say?",
+        "teen": "Isaiah 10:20: “Will never again depend on him” what?",
+        "older": "Read with 10:21, what does 10:20 say after “Will never again depend on him”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Will never again depend on him who gathered them"
+        },
+        {
+          "id": "b",
+          "text": "Will never again depend on him who defeated them"
+        },
+        {
+          "id": "c",
+          "text": "Will never again depend on him who rescued them"
+        },
+        {
+          "id": "d",
+          "text": "Will never again depend on him who settled them"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 10:20",
+            "text": "And it shall come to pass in that day That the remnant of Israel, And such as have escaped of the house of Jacob, Will never again depend on him who defeated them, But will depend on the LORD, the Holy One of Israel, in truth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 10:21",
+            "text": "The remnant will return, the remnant of Jacob, To the Mighty God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 10:20.",
+          "child": "Look right after “Will never again depend on him” in verse 20.",
+          "teen": "10:21 names the remnant of Jacob; 10:20 names this dependence they will leave. Read that sentence.",
+          "older": "It follows “Will never again depend on him” in 10:20."
+        },
+        "extended_explanation": "10:20 also says they “Will depend on the LORD, the Holy One of Israel, in truth.” 10:21 also says, “To the Mighty God.”",
+        "takeaway": "Will never again depend on him who defeated them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mic-0011",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 5",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Micah 5:9 says, “Your hand shall be lifted against your adversaries.” In 5:11, after “I will cut off,” what does the LORD say He will cut off?",
+        "child": "The LORD promises to cut something off in the land. After “I will cut off,” what does 5:11 name?",
+        "teen": "Micah 5:11: “I will cut off” what?",
+        "older": "Read with 5:9, what does 5:11 say after “I will cut off”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the groves of your land"
+        },
+        {
+          "id": "b",
+          "text": "the rivers of your land"
+        },
+        {
+          "id": "c",
+          "text": "the cities of your land"
+        },
+        {
+          "id": "d",
+          "text": "the fields of your land"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 5:11",
+            "text": "I will cut off the cities of your land And throw down all your strongholds.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 5:9",
+            "text": "Your hand shall be lifted against your adversaries, And all your enemies shall be cut off.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 5:11.",
+          "child": "Look right after “I will cut off” in verse 11.",
+          "teen": "5:9 names the lifted hand; 5:11 opens with this. Read that phrase.",
+          "older": "It follows “I will cut off” in 5:11."
+        },
+        "extended_explanation": "5:11 also says, “And throw down all your strongholds.” 5:9 also says, “And all your enemies shall be cut off.”",
+        "takeaway": "The cities of your land."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 3",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 3:19 says, “I will save the lame.” In 3:18, after “Who are among you,” how does the verse describe the reproach?",
+        "child": "The LORD speaks of those who sorrow over the appointed assembly. After “To whom its reproach is,” what does 3:18 say?",
+        "teen": "Zephaniah 3:18: “To whom its reproach is” what?",
+        "older": "Read with 3:19, what does 3:18 say after “To whom its reproach is”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To whom its reproach is a wonder"
+        },
+        {
+          "id": "b",
+          "text": "To whom its reproach is a rumor"
+        },
+        {
+          "id": "c",
+          "text": "To whom its reproach is a proverb"
+        },
+        {
+          "id": "d",
+          "text": "To whom its reproach is a burden"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 3:18",
+            "text": "“I will gather those who sorrow over the appointed assembly, Who are among you, To whom its reproach is a burden.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 3:19",
+            "text": "Behold, at that time I will deal with all who afflict you; I will save the lame, And gather those who were driven out; I will appoint them for praise and fame In every land where they were put to shame.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:18.",
+          "child": "Look right after “To whom its reproach is” in verse 18.",
+          "teen": "3:19 names the lame; 3:18 ends with this description. Read that phrase.",
+          "older": "It follows “To whom its reproach is” in 3:18."
+        },
+        "extended_explanation": "3:18 begins, “I will gather those who sorrow over the appointed assembly.” 3:19 also says, “Behold, at that time I will deal with all who afflict you.”",
+        "takeaway": "To whom its reproach is a burden."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zec-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 8",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zechariah 8:16 says, “These are the things you shall do.” In 8:10, after “For before these days,” what does the verse say there were not for man?",
+        "child": "The LORD recalls the days before this promise. After “For before these days,” what does 8:10 say there were not for man?",
+        "teen": "Zechariah 8:10: “There were no” what “for man”?",
+        "older": "Read with 8:16, what does 8:10 say there were not for man?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "There were no wages for man"
+        },
+        {
+          "id": "b",
+          "text": "There were no watches for man"
+        },
+        {
+          "id": "c",
+          "text": "There were no wagons for man"
+        },
+        {
+          "id": "d",
+          "text": "There were no wells for man"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 8:10",
+            "text": "For before these days There were no wages for man nor any hire for beast; There was no peace from the enemy for whoever went out or came in; For I set all men, everyone, against his neighbor.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 8:16",
+            "text": "These are the things you shall do: Speak each man the truth to his neighbor; Give judgment in your gates for truth, justice, and peace;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 8:10.",
+          "child": "Look at what was missing for man in verse 10.",
+          "teen": "8:16 names what they shall do; 8:10 opens with this lack. Read that clause.",
+          "older": "It is in the opening of 8:10."
+        },
+        "extended_explanation": "8:10 also says, “There was no peace from the enemy for whoever went out or came in.” 8:16 also says, “Speak each man the truth to his neighbor.”",
+        "takeaway": "There were no wages for man."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0030",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 11",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 11:16 speaks of a highway for the remnant. In 11:11, after “From Assyria and Egypt, From,” which pair of places is named next?",
+        "child": "The LORD lists lands from which He will recover His people. After Egypt, which pair does 11:11 name next?",
+        "teen": "Isaiah 11:11: after Egypt, “From” which pair of places?",
+        "older": "Read with 11:16, which pair of places does 11:11 name after “From Assyria and Egypt, From”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "From Pathros and Edom"
+        },
+        {
+          "id": "b",
+          "text": "From Pathros and Cush"
+        },
+        {
+          "id": "c",
+          "text": "From Pathros and Moab"
+        },
+        {
+          "id": "d",
+          "text": "From Pathros and Midian"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 11:11",
+            "text": "It shall come to pass in that day That the Lord shall set His hand again the second time To recover the remnant of His people who are left, From Assyria and Egypt, From Pathros and Cush, From Elam and Shinar, From Hamath and the islands of the sea.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 11:16",
+            "text": "There will be a highway for the remnant of His people Who will be left from Assyria, As it was for Israel In the day that he came up from the land of Egypt.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 11:11.",
+          "child": "Look right after “From Assyria and Egypt, From” in verse 11.",
+          "teen": "11:16 speaks of a highway for the remnant; 11:11 next names this pair. Read that phrase.",
+          "older": "It follows “From Assyria and Egypt, From” in 11:11."
+        },
+        "extended_explanation": "11:11 also names Elam, Shinar, Hamath, and the islands of the sea. 11:16 also says there will be a highway from Assyria.",
+        "takeaway": "From Pathros and Cush."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mic-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 2",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Micah 2:12 says, “I will surely assemble all of you, O Jacob.” In 2:13, after “The one who breaks open will come up before them;” what does the verse say they will do?",
+        "child": "Micah describes the one who breaks open going up before them. After that, what does 2:13 say they will do?",
+        "teen": "Micah 2:13: after the one who breaks open comes up, what will they do?",
+        "older": "Read with 2:12, what does 2:13 say they will do after the one who breaks open comes up?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They will break in"
+        },
+        {
+          "id": "b",
+          "text": "They will break camp"
+        },
+        {
+          "id": "c",
+          "text": "They will break out"
+        },
+        {
+          "id": "d",
+          "text": "They will break ranks"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 2:13",
+            "text": "The one who breaks open will come up before them; They will break out, Pass through the gate, And go out by it; Their king will pass before them, With the LORD at their head.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Micah 2:12",
+            "text": "“I will surely assemble all of you, O Jacob, I will surely gather the remnant of Israel; I will put them together like sheep of the fold, Like a flock in the midst of their pasture; They shall make a loud noise because of so many people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:13.",
+          "child": "Look at what they will do after the one who breaks open comes up.",
+          "teen": "2:12 promises to assemble Jacob; 2:13 next names this act. Read that sentence.",
+          "older": "It follows “come up before them;” in 2:13."
+        },
+        "extended_explanation": "2:13 also says they will “Pass through the gate, And go out by it.” 2:12 also says, “I will surely gather the remnant of Israel.”",
+        "takeaway": "They will break out."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 3",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 3:12 says, “I will leave in your midst A meek and humble people.” In 3:20, after “At that time I will bring you back, Even at the time,” what does the verse say He will do?",
+        "child": "The LORD promises a return. After “Even at the time,” what does 3:20 say He will do?",
+        "teen": "Zephaniah 3:20: “Even at the time” what?",
+        "older": "Read with 3:12, what does 3:20 say after “Even at the time”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Even at the time I scatter you"
+        },
+        {
+          "id": "b",
+          "text": "Even at the time I number you"
+        },
+        {
+          "id": "c",
+          "text": "Even at the time I settle you"
+        },
+        {
+          "id": "d",
+          "text": "Even at the time I gather you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 3:20",
+            "text": "At that time I will bring you back, Even at the time I gather you; For I will give you fame and praise Among all the peoples of the earth, When I return your captives before your eyes,” Says the LORD.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 3:12",
+            "text": "I will leave in your midst A meek and humble people, And they shall trust in the name of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:20.",
+          "child": "Look right after “Even at the time” in verse 20.",
+          "teen": "3:12 names a meek and humble people; 3:20 next names this act. Read that phrase.",
+          "older": "It follows “Even at the time” in 3:20."
+        },
+        "extended_explanation": "3:20 also says, “For I will give you fame and praise Among all the peoples of the earth.” 3:12 also says, “And they shall trust in the name of the LORD.”",
+        "takeaway": "Even at the time I gather you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zec-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 8",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zechariah 8:16 says, “These are the things you shall do.” In 8:5, after “The streets of the city Shall be full of boys and girls,” what are they doing?",
+        "child": "The LORD pictures children in the city. After naming boys and girls, what does 8:5 say they are doing?",
+        "teen": "Zechariah 8:5: after the boys and girls, what are they doing?",
+        "older": "Read with 8:16, what does 8:5 say the boys and girls are doing?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Playing in its streets"
+        },
+        {
+          "id": "b",
+          "text": "Waiting in its streets"
+        },
+        {
+          "id": "c",
+          "text": "Working in its streets"
+        },
+        {
+          "id": "d",
+          "text": "Watching in its streets"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 8:5",
+            "text": "The streets of the city Shall be full of boys and girls Playing in its streets.’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zechariah 8:16",
+            "text": "These are the things you shall do: Speak each man the truth to his neighbor; Give judgment in your gates for truth, justice, and peace;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:5.",
+          "child": "Look at the last words of verse 5.",
+          "teen": "8:16 names what they shall do; 8:5 ends with this. Read that phrase.",
+          "older": "It is the last phrase of 8:5."
+        },
+        "extended_explanation": "8:5 begins, “The streets of the city Shall be full of boys and girls.” 8:16 also says, “Speak each man the truth to his neighbor.”",
+        "takeaway": "Playing in its streets."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0031",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 11",
+      "topics": [
+        "the-remnant-and-the-restoration"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 10:22 says a remnant of them will return. In 11:15, after “With His mighty wind,” what will the LORD do?",
+        "child": "Isaiah describes the LORD’s act. After “With His mighty wind,” what does 11:15 say He will do?",
+        "teen": "Isaiah 11:15: “With His mighty wind” what?",
+        "older": "Read with 10:22, what does 11:15 say after “With His mighty wind”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He will shake His fist over the reed"
+        },
+        {
+          "id": "b",
+          "text": "He will shake His fist over the River"
+        },
+        {
+          "id": "c",
+          "text": "He will shake His fist over the mountain"
+        },
+        {
+          "id": "d",
+          "text": "He will shake His fist over the desert"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 11:15",
+            "text": "The LORD will utterly destroy the tongue of the Sea of Egypt; With His mighty wind He will shake His fist over the River, And strike it in the seven streams, And make men cross over dry-shod.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 10:22",
+            "text": "For though your people, O Israel, be as the sand of the sea, A remnant of them will return; The destruction decreed shall overflow with righteousness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 11:15.",
+          "child": "Look right after “With His mighty wind” in verse 15.",
+          "teen": "10:22 names a remnant that will return; 11:15 names this act. Read that sentence.",
+          "older": "It follows “With His mighty wind” in 11:15."
+        },
+        "extended_explanation": "11:15 also says, “The LORD will utterly destroy the tongue of the Sea of Egypt.” 10:22 also says, “The destruction decreed shall overflow with righteousness.”",
+        "takeaway": "He will shake His fist over the River."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

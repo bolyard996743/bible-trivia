@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ephesians-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-php-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Philippians 1:7, after “think this of you all, because,” how does the verse continue?",
+        "child": "After “think this of you all, because,” how does Philippians 1:7 continue?",
+        "teen": "What comes next in Philippians 1:7, right after “think this of you all, because”?",
+        "older": "According to Philippians 1:7, after “think this of you all, because,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have you in my heart"
+        },
+        {
+          "id": "b",
+          "text": "I have you in my house"
+        },
+        {
+          "id": "c",
+          "text": "I have you in my hands"
+        },
+        {
+          "id": "d",
+          "text": "I have you in my hopes"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:7",
+            "text": "just as it is right for me to think this of you all, because I have you in my heart, inasmuch as both in my chains and in the defense and confirmation of the gospel, you all are partakers with me of grace.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:7.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Philippians 1:7.",
+          "older": "The continuation is in Philippians 1:7."
+        },
+        "extended_explanation": "Read the rest of Philippians 1:7 as well.",
+        "takeaway": "I have you in my heart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-col-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 1",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Colossians 4:2 is also cited. How does Colossians 1:2 begin?",
+        "child": "What are the opening words of Colossians 1:2?",
+        "teen": "How do the first words of Colossians 1:2 run? This question also cites Colossians 4:2.",
+        "older": "Read Colossians 1:2 with Colossians 4:2. How does Colossians 1:2 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To the saints and fearless"
+        },
+        {
+          "id": "b",
+          "text": "To the saints and faithful"
+        },
+        {
+          "id": "c",
+          "text": "To the saints and faultless"
+        },
+        {
+          "id": "d",
+          "text": "To the saints and fatherly"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 1:2",
+            "text": "To the saints and faithful brethren in Christ who are in Colosse: Grace to you and peace from God our Father and the Lord Jesus Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 4:2",
+            "text": "Continue earnestly in prayer, being vigilant in it with thanksgiving;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Colossians 1:2.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Colossians 4:2 is the companion citation. Start at the beginning of Colossians 1:2.",
+          "older": "It is the opening of Colossians 1:2."
+        },
+        "extended_explanation": "Colossians 4:2 is cited alongside Colossians 1:2. Read both verses.",
+        "takeaway": "To the saints and faithful."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 1:9 is also cited. In Philippians 1:10, after “the things that are excellent, that,” how does the verse continue?",
+        "child": "After “the things that are excellent, that,” how does Philippians 1:10 continue?",
+        "teen": "What comes next in Philippians 1:10, right after “the things that are excellent, that”? This question also cites Philippians 1:9.",
+        "older": "Read Philippians 1:10 with Philippians 1:9. After “the things that are excellent, that,” how does Philippians 1:10 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "you may be serious"
+        },
+        {
+          "id": "b",
+          "text": "you may be special"
+        },
+        {
+          "id": "c",
+          "text": "you may be sincere"
+        },
+        {
+          "id": "d",
+          "text": "you may be settled"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:10",
+            "text": "that you may approve the things that are excellent, that you may be sincere and without offense till the day of Christ,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 1:9",
+            "text": "And this I pray, that your love may abound still more and more in knowledge and all discernment,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:10.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 1:9 is the companion citation. Continue in Philippians 1:10.",
+          "older": "The continuation is in Philippians 1:10."
+        },
+        "extended_explanation": "Philippians 1:9 is cited alongside Philippians 1:10. Read both verses.",
+        "takeaway": "you may be sincere."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-phm-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philemon 1:23 is also cited. In Philemon 1:25, after “grace of our Lord Jesus Christ,” how does the verse continue?",
+        "child": "After “grace of our Lord Jesus Christ,” how does Philemon 1:25 continue?",
+        "teen": "What comes next in Philemon 1:25, right after “grace of our Lord Jesus Christ”? This question also cites Philemon 1:23.",
+        "older": "Read Philemon 1:25 with Philemon 1:23. After “grace of our Lord Jesus Christ,” how does Philemon 1:25 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "be with your speech"
+        },
+        {
+          "id": "b",
+          "text": "be with your steps"
+        },
+        {
+          "id": "c",
+          "text": "be with your style"
+        },
+        {
+          "id": "d",
+          "text": "be with your spirit"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:25",
+            "text": "The grace of our Lord Jesus Christ be with your spirit. Amen.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philemon 1:23",
+            "text": "Epaphras, my fellow prisoner in Christ Jesus, greets you,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philemon 1:25.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philemon 1:23 is the companion citation. Continue in Philemon 1:25.",
+          "older": "The continuation is in Philemon 1:25."
+        },
+        "extended_explanation": "Philemon 1:23 is cited alongside Philemon 1:25. Read both verses.",
+        "takeaway": "be with your spirit."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0040",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 28",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 28:16 is also cited. In Acts 28:20, after “because for the hope of Israel,” how does the verse continue?",
+        "child": "After “because for the hope of Israel,” how does Acts 28:20 continue?",
+        "teen": "What comes next in Acts 28:20, right after “because for the hope of Israel”? This question also cites Acts 28:16.",
+        "older": "Read Acts 28:20 with Acts 28:16. After “because for the hope of Israel,” how does Acts 28:20 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am bound with this chain"
+        },
+        {
+          "id": "b",
+          "text": "I am bound with this cord"
+        },
+        {
+          "id": "c",
+          "text": "I am bound with this cloth"
+        },
+        {
+          "id": "d",
+          "text": "I am bound with this clasp"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 28:20",
+            "text": "For this reason therefore I have called for you, to see you and speak with you, because for the hope of Israel I am bound with this chain.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 28:16",
+            "text": "Now when we came to Rome, the centurion delivered the prisoners to the captain of the guard; but Paul was permitted to dwell by himself with the soldier who guarded him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Acts 28:20.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Acts 28:16 is the companion citation. Continue in Acts 28:20.",
+          "older": "The continuation is in Acts 28:20."
+        },
+        "extended_explanation": "Acts 28:16 is cited alongside Acts 28:20. Read both verses.",
+        "takeaway": "I am bound with this chain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0019",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 6",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 1:1 is also cited. How does Ephesians 6:23 begin?",
+        "child": "What are the opening words of Ephesians 6:23?",
+        "teen": "How do the first words of Ephesians 6:23 run? This question also cites Ephesians 1:1.",
+        "older": "Read Ephesians 6:23 with Ephesians 1:1. How does Ephesians 6:23 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Peace to the elders"
+        },
+        {
+          "id": "b",
+          "text": "Peace to the brethren"
+        },
+        {
+          "id": "c",
+          "text": "Peace to the watchers"
+        },
+        {
+          "id": "d",
+          "text": "Peace to the builders"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 6:23",
+            "text": "Peace to the brethren, and love with faith, from God the Father and the Lord Jesus Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 1:1",
+            "text": "Paul, an apostle of Jesus Christ by the will of God, To the saints who are in Ephesus, and faithful in Christ Jesus:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Ephesians 6:23.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ephesians 1:1 is the companion citation. Start at the beginning of Ephesians 6:23.",
+          "older": "It is the opening of Ephesians 6:23."
+        },
+        "extended_explanation": "Ephesians 1:1 is cited alongside Ephesians 6:23. Read both verses.",
+        "takeaway": "Peace to the brethren."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-col-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 4",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Colossians 1:12 is also cited. In Colossians 4:5, after “wisdom toward those who are outside,” how does the verse continue?",
+        "child": "After “wisdom toward those who are outside,” how does Colossians 4:5 continue?",
+        "teen": "What comes next in Colossians 4:5, right after “wisdom toward those who are outside”? This question also cites Colossians 1:12.",
+        "older": "Read Colossians 4:5 with Colossians 1:12. After “wisdom toward those who are outside,” how does Colossians 4:5 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "redeeming the town"
+        },
+        {
+          "id": "b",
+          "text": "redeeming the task"
+        },
+        {
+          "id": "c",
+          "text": "redeeming the time"
+        },
+        {
+          "id": "d",
+          "text": "redeeming the talk"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 4:5",
+            "text": "Walk in wisdom toward those who are outside, redeeming the time.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 1:12",
+            "text": "giving thanks to the Father who has qualified us to be partakers of the inheritance of the saints in the light.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Colossians 4:5.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Colossians 1:12 is the companion citation. Continue in Colossians 4:5.",
+          "older": "The continuation is in Colossians 4:5."
+        },
+        "extended_explanation": "Colossians 1:12 is cited alongside Colossians 4:5. Read both verses.",
+        "takeaway": "redeeming the time."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 1:5 is also cited. In Philippians 1:1, after “Christ Jesus who are in Philippi,” how does the verse continue?",
+        "child": "After “Christ Jesus who are in Philippi,” how does Philippians 1:1 continue?",
+        "teen": "What comes next in Philippians 1:1, right after “Christ Jesus who are in Philippi”? This question also cites Philippians 1:5.",
+        "older": "Read Philippians 1:1 with Philippians 1:5. After “Christ Jesus who are in Philippi,” how does Philippians 1:1 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with the bishops and elders"
+        },
+        {
+          "id": "b",
+          "text": "with the bishops and Levites"
+        },
+        {
+          "id": "c",
+          "text": "with the bishops and scribes"
+        },
+        {
+          "id": "d",
+          "text": "with the bishops and deacons"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:1",
+            "text": "Paul and Timothy, bondservants of Jesus Christ, To all the saints in Christ Jesus who are in Philippi, with the bishops and deacons:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 1:5",
+            "text": "for your fellowship in the gospel from the first day until now,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:1.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 1:5 is the companion citation. Continue in Philippians 1:1.",
+          "older": "The continuation is in Philippians 1:1."
+        },
+        "extended_explanation": "Philippians 1:5 is cited alongside Philippians 1:1. Read both verses.",
+        "takeaway": "with the bishops and deacons."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0041",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 28",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 28:18 is also cited. In Acts 28:31, after “which concern the Lord Jesus Christ,” how does the verse continue?",
+        "child": "After “which concern the Lord Jesus Christ,” how does Acts 28:31 continue?",
+        "teen": "What comes next in Acts 28:31, right after “which concern the Lord Jesus Christ”? This question also cites Acts 28:18.",
+        "older": "Read Acts 28:31 with Acts 28:18. After “which concern the Lord Jesus Christ,” how does Acts 28:31 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with all confidence, no one forbidding him"
+        },
+        {
+          "id": "b",
+          "text": "with all confidence, no one forgetting him"
+        },
+        {
+          "id": "c",
+          "text": "with all confidence, no one forsaking him"
+        },
+        {
+          "id": "d",
+          "text": "with all confidence, no one following him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 28:31",
+            "text": "preaching the kingdom of God and teaching the things which concern the Lord Jesus Christ with all confidence, no one forbidding him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 28:18",
+            "text": "who, when they had examined me, wanted to let me go, because there was no cause for putting me to death.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Acts 28:31.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Acts 28:18 is the companion citation. Continue in Acts 28:31.",
+          "older": "The continuation is in Acts 28:31."
+        },
+        "extended_explanation": "Acts 28:18 is cited alongside Acts 28:31. Read both verses.",
+        "takeaway": "with all confidence, no one forbidding him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "the-prison-letters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 1:2 is also cited. In Philippians 1:8, after “For God is my witness,” how does the verse continue?",
+        "child": "After “For God is my witness,” how does Philippians 1:8 continue?",
+        "teen": "What comes next in Philippians 1:8, right after “For God is my witness”? This question also cites Philippians 1:2.",
+        "older": "Read Philippians 1:8 with Philippians 1:2. After “For God is my witness,” how does Philippians 1:8 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "how greatly I look for you all"
+        },
+        {
+          "id": "b",
+          "text": "how greatly I long for you all"
+        },
+        {
+          "id": "c",
+          "text": "how greatly I care for you all"
+        },
+        {
+          "id": "d",
+          "text": "how greatly I wait for you all"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:8",
+            "text": "For God is my witness, how greatly I long for you all with the affection of Jesus Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 1:2",
+            "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:8.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 1:2 is the companion citation. Continue in Philippians 1:8.",
+          "older": "The continuation is in Philippians 1:8."
+        },
+        "extended_explanation": "Philippians 1:2 is cited alongside Philippians 1:8. Read both verses.",
+        "takeaway": "how greatly I long for you all."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

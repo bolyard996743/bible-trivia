@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-philemon-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-phm-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul’s letter is addressed to Philemon, but 1:2 names others too: Apphia, Archippus, and whom?",
+        "child": "Paul wrote this letter to Philemon, Apphia, and Archippus. Who else did he write it to?",
+        "teen": "Philemon 1:2: to Apphia, Archippus, “and to” whom?",
+        "older": "According to Philemon 1:2, who else is addressed besides Apphia and Archippus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the church in your house"
+        },
+        {
+          "id": "b",
+          "text": "the saints in Colosse"
+        },
+        {
+          "id": "c",
+          "text": "the elders at Ephesus"
+        },
+        {
+          "id": "d",
+          "text": "the brethren in Laodicea"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:2",
+            "text": "to the beloved Apphia, Archippus our fellow soldier, and to the church in your house:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "1:2 names two people and then one more address. Read the last.",
+          "older": "It follows “and to” in 1:2."
+        },
+        "extended_explanation": "1:1 calls Philemon a beloved friend and fellow laborer. 1:3 sends grace and peace from God our Father.",
+        "takeaway": "Paul also wrote to “the church in your house.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-phm-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul thanks God for Philemon in his prayers (1:4). According to 1:5, Philemon’s love and faith are toward the Lord Jesus and toward whom?",
+        "child": "Paul heard about Philemon’s love and faith toward Jesus. Toward whom else?",
+        "teen": "Philemon 1:5: love and faith toward the Lord Jesus “and” toward whom?",
+        "older": "According to Philemon 1:5, toward whom besides the Lord Jesus is Philemon’s love and faith directed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "toward the apostles"
+        },
+        {
+          "id": "b",
+          "text": "toward his household"
+        },
+        {
+          "id": "c",
+          "text": "toward all the saints"
+        },
+        {
+          "id": "d",
+          "text": "toward the poor in Jerusalem"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:4",
+            "text": "I thank my God, making mention of you always in my prayers,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philemon 1:5",
+            "text": "hearing of your love and faith which you have toward the Lord Jesus and toward all the saints,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:5.",
+          "child": "Look at the last words of verse 5.",
+          "teen": "1:5 names two directions for Philemon’s love and faith. Read the second.",
+          "older": "It follows “toward the Lord Jesus and” in 1:5."
+        },
+        "extended_explanation": "1:4 says Paul makes mention of him always in his prayers. 1:6 speaks of the sharing of his faith.",
+        "takeaway": "His love and faith are toward all the saints."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-col-0004",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Colossians",
+      "section": "Colossians 4",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Colossians 4:7-9 says Tychicus is coming with Onesimus. How does 4:9 describe Onesimus in relation to the Colossians?",
+        "child": "Paul sent Onesimus back with Tychicus. What does Paul say about Onesimus and the people Paul was writing to?",
+        "teen": "Colossians 4:9: Onesimus, a faithful and beloved brother, “who is” what?",
+        "older": "According to Colossians 4:9, how is Onesimus connected to the readers?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who was sent from Rome"
+        },
+        {
+          "id": "b",
+          "text": "who is one of you"
+        },
+        {
+          "id": "c",
+          "text": "who came from Ephesus"
+        },
+        {
+          "id": "d",
+          "text": "who traveled with Luke"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Colossians 4:7",
+            "text": "Tychicus, a beloved brother, faithful minister, and fellow servant in the Lord, will tell you all the news about me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Colossians 4:9",
+            "text": "with Onesimus, a faithful and beloved brother, who is one of you. They will make known to you all things which are happening here.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 4:9.",
+          "child": "Look right after “a faithful and beloved brother,” in verse 9.",
+          "teen": "4:7 describes Tychicus; 4:9 gives Onesimus two titles and then one more phrase. Read it.",
+          "older": "It follows “a faithful and beloved brother,” in 4:9."
+        },
+        "extended_explanation": "4:8 says Tychicus is sent so he may know their circumstances. 4:9 says they will make known what is happening here.",
+        "takeaway": "Onesimus is a faithful and beloved brother, who is one of you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-phm-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:8 Paul says he might be bold enough to command Philemon. Yet in 1:14 he wants to do nothing without Philemon’s consent. How does he want Philemon’s good deed to be?",
+        "child": "Paul could have ordered Philemon what to do, but he didn’t. How did Paul want Philemon’s good deed to be done?",
+        "teen": "Philemon 1:14: “that your good deed might not be by compulsion, as it were, but” what?",
+        "older": "Read with 1:8, how does 1:14 say Paul wants Philemon’s good deed to be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "generous"
+        },
+        {
+          "id": "b",
+          "text": "public"
+        },
+        {
+          "id": "c",
+          "text": "immediate"
+        },
+        {
+          "id": "d",
+          "text": "voluntary"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:8",
+            "text": "Therefore, though I might be very bold in Christ to command you what is fitting,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philemon 1:14",
+            "text": "But without your consent I wanted to do nothing, that your good deed might not be by compulsion, as it were, but voluntary.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:14.",
+          "child": "Look at the last word of verse 14.",
+          "teen": "1:8 is about commanding; 1:14 contrasts two ways a deed might be done. Read the second.",
+          "older": "It follows “by compulsion, as it were, but” in 1:14."
+        },
+        "extended_explanation": "1:9 says Paul rather appeals for love’s sake. 1:13 says he wished to keep Onesimus with him.",
+        "takeaway": "Paul wanted Philemon’s good deed to be voluntary."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-phm-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul prays in 1:6 that the sharing of Philemon’s faith may become effective. In 1:21, writing with confidence in his obedience, what does Paul say he knows Philemon will do?",
+        "child": "Paul trusted Philemon to obey his request. What did Paul know Philemon would do?",
+        "teen": "Philemon 1:21: “knowing that you will do” what?",
+        "older": "Read with 1:6, what does 1:21 say Paul knows Philemon will do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "as the church decides"
+        },
+        {
+          "id": "b",
+          "text": "even more than I say"
+        },
+        {
+          "id": "c",
+          "text": "what Onesimus asks"
+        },
+        {
+          "id": "d",
+          "text": "what the law requires"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:6",
+            "text": "that the sharing of your faith may become effective by the acknowledgment of every good thing which is in you in Christ Jesus.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philemon 1:21",
+            "text": "Having confidence in your obedience, I write to you, knowing that you will do even more than I say.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:21.",
+          "child": "Look at the last words of verse 21.",
+          "teen": "1:6 is a prayer; 1:21 voices confidence and then what Paul knows. Read the end.",
+          "older": "It follows “knowing that you will do” in 1:21."
+        },
+        "extended_explanation": "1:22 asks Philemon to prepare a guest room. 1:20 asks him to refresh Paul in the Lord.",
+        "takeaway": "Paul knows Philemon will do “even more than I say.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-phm-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philemon 1:15 suggests Onesimus departed for a while so Philemon might receive him forever. In 1:18, what does Paul say to do if Onesimus has wronged Philemon or owes anything?",
+        "child": "Paul said that if Onesimus owed Philemon anything, Philemon should do something. What?",
+        "teen": "Philemon 1:18: “if he has wronged you or owes anything,” what?",
+        "older": "Read with 1:15, what does 1:18 tell Philemon to do with any debt?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "put that on my account"
+        },
+        {
+          "id": "b",
+          "text": "forgive it for the Lord"
+        },
+        {
+          "id": "c",
+          "text": "take it from his wages"
+        },
+        {
+          "id": "d",
+          "text": "write it off as a gift"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:15",
+            "text": "For perhaps he departed for a while for this purpose, that you might receive him forever,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philemon 1:18",
+            "text": "But if he has wronged you or owes anything, put that on my account.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:18.",
+          "child": "Look at the last words of verse 18.",
+          "teen": "1:15 is about receiving; 1:18 gives a condition and then Paul’s instruction. Read the instruction.",
+          "older": "It follows “or owes anything,” in 1:18."
+        },
+        "extended_explanation": "1:17 asks Philemon to count Paul as a partner. 1:12 says Paul is sending him back.",
+        "takeaway": "Paul says, “put that on my account.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-phm-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Paul calls himself a prisoner of Christ Jesus in 1:1. In 1:13, why does he say he wished to keep Onesimus with him on Philemon’s behalf?",
+        "child": "Paul wrote this letter to Philemon. Why did he want to keep Onesimus with him?",
+        "teen": "Philemon 1:13: Paul wished to keep him so that “on your behalf he might” do what?",
+        "older": "Read with 1:1, why does 1:13 say Paul wished to keep Onesimus?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "carry my letters to the churches"
+        },
+        {
+          "id": "b",
+          "text": "copy the Scriptures for me"
+        },
+        {
+          "id": "c",
+          "text": "speak for me before Caesar"
+        },
+        {
+          "id": "d",
+          "text": "minister to me in my chains"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:1",
+            "text": "Paul, a prisoner of Christ Jesus, and Timothy our brother, To Philemon our beloved friend and fellow laborer,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philemon 1:13",
+            "text": "whom I wished to keep with me, that on your behalf he might minister to me in my chains for the gospel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:13.",
+          "child": "Look at the second half of verse 13.",
+          "teen": "1:1 gives Paul’s situation; 1:13 gives a wish and its purpose. Read the purpose.",
+          "older": "It follows “on your behalf he might” in 1:13."
+        },
+        "extended_explanation": "1:10 calls Onesimus Paul’s son. 1:12 says Paul is sending him back.",
+        "takeaway": "Paul wished that Onesimus might “minister to me in my chains.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-phm-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philemon",
+      "section": "Philemon 1",
+      "topics": [
+        "philemon-a-brother-not-a-slave"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 1:7 Paul rejoices that Philemon has refreshed others. In 1:12, as he sends Onesimus back, how does Paul describe him?",
+        "child": "Paul sent Onesimus back to Philemon. What did Paul call Onesimus?",
+        "teen": "Philemon 1:12: “receive him, that is,” what?",
+        "older": "Read with 1:4, what does Paul call Onesimus in 1:12?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "my fellow soldier"
+        },
+        {
+          "id": "b",
+          "text": "my fellow prisoner"
+        },
+        {
+          "id": "c",
+          "text": "my own heart"
+        },
+        {
+          "id": "d",
+          "text": "my faithful helper"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philemon 1:4",
+            "text": "I thank my God, making mention of you always in my prayers,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philemon 1:12",
+            "text": "I am sending him back. You therefore receive him, that is, my own heart,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:12.",
+          "child": "Look at the last words of verse 12.",
+          "teen": "1:4 is Paul’s thanks in prayer; 1:12 sends Onesimus back and then describes him. Read the description.",
+          "older": "It follows “receive him, that is,” in 1:12."
+        },
+        "extended_explanation": "1:10 says Paul appeals for Onesimus. 1:20 asks Philemon to refresh Paul in the Lord.",
+        "takeaway": "Paul calls Onesimus “my own heart.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

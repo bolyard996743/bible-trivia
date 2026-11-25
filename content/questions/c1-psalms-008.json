@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-psa-0024",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 22",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 22 describes those who see the speaker and ridicule Him. According to 22:7, what do they do after they shoot out the lip?",
+        "child": "A psalm tells how others treated the one who was suffering. After they ridicule Him and shoot out the lip, what does 22:7 say they do?",
+        "teen": "Psalm 22:7: after “they shoot out the lip,” what, “saying”?",
+        "older": "According to Psalm 22:7, what do they do, after they shoot out the lip?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "they shake the head"
+        },
+        {
+          "id": "b",
+          "text": "they bow in the court"
+        },
+        {
+          "id": "c",
+          "text": "they cover the face"
+        },
+        {
+          "id": "d",
+          "text": "they lift the song"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 22:7",
+            "text": "All those who see Me ridicule Me; They shoot out the lip, they shake the head, saying,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:7, before “saying.”",
+          "child": "Look just before “saying” in verse 7.",
+          "teen": "22:7 names ridicule, then the lip, then this action. Read the last action.",
+          "older": "It comes just before “saying” in 22:7."
+        },
+        "extended_explanation": "22:7 also says, “All those who see Me ridicule Me.”",
+        "takeaway": "They shake the head."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-isa-0025",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 53",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 53:1 asks, “Who has believed our report?” In 53:4, what does Isaiah say He has surely borne?",
+        "child": "Isaiah speaks of one who suffered in the place of others. What does the verse say He has surely borne?",
+        "teen": "Isaiah 53:4: “Surely He has borne” what?",
+        "older": "Read with 53:1, what does 53:4 say He has surely borne?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "our honors"
+        },
+        {
+          "id": "b",
+          "text": "our griefs"
+        },
+        {
+          "id": "c",
+          "text": "our riches"
+        },
+        {
+          "id": "d",
+          "text": "our titles"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 53:1",
+            "text": "Who has believed our report? And to whom has the arm of the LORD been revealed?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 53:4",
+            "text": "Surely He has borne our griefs And carried our sorrows; Yet we esteemed Him stricken, Smitten by God, and afflicted.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 53:4.",
+          "child": "Look right after “Surely He has borne” in verse 4.",
+          "teen": "53:1 is the opening question; 53:4 names what He has borne. Read that phrase.",
+          "older": "It follows “Surely He has borne” in 53:4."
+        },
+        "extended_explanation": "53:4 also says He carried our sorrows. 53:1 asks, “And to whom has the arm of the LORD been revealed?”",
+        "takeaway": "Surely He has borne our griefs."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0016",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 22",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 22:11 asks that God not be far, for trouble is near. In 22:1, after “My God, My God,” what does the speaker ask?",
+        "child": "The psalm opens with a cry to God, spoken twice. What does the speaker ask next?",
+        "teen": "Psalm 22:1: “My God, My God, why” what?",
+        "older": "Read with 22:11, what does 22:1 ask after “My God, My God, why”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "have You forgotten the rest"
+        },
+        {
+          "id": "b",
+          "text": "have You hidden the light"
+        },
+        {
+          "id": "c",
+          "text": "have You forsaken Me"
+        },
+        {
+          "id": "d",
+          "text": "have You left Me"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 22:1",
+            "text": "My God, My God, why have You forsaken Me? Why are You so far from helping Me, And from the words of My groaning?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 22:11",
+            "text": "Be not far from Me, For trouble is near; For there is none to help.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first sentence of 22:1.",
+          "child": "Look right after “why” in the opening of verse 1.",
+          "teen": "22:11 asks that God not be far; 22:1 opens with a question. Read that question.",
+          "older": "It follows “My God, My God, why” in 22:1."
+        },
+        "extended_explanation": "22:1 also asks, “Why are You so far from helping Me?” 22:11 says, “For there is none to help.”",
+        "takeaway": "He asks, “why have You forsaken Me?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0018",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 53",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 53:11 says My righteous Servant shall justify many. In 53:8, from what does Isaiah say He was cut off?",
+        "child": "Isaiah says this Servant was taken from prison and from judgment. From what does the verse say He was cut off?",
+        "teen": "Isaiah 53:8: “For He was cut off from” what?",
+        "older": "Read with 53:11, from what does 53:8 say He was cut off?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the court of the priests"
+        },
+        {
+          "id": "b",
+          "text": "the valley of kings"
+        },
+        {
+          "id": "c",
+          "text": "the stalls of the horses"
+        },
+        {
+          "id": "d",
+          "text": "the land of the living"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 53:8",
+            "text": "He was taken from prison and from judgment, And who will declare His generation? For He was cut off from the land of the living; For the transgressions of My people He was stricken.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 53:11",
+            "text": "He shall see the labor of His soul, and be satisfied. By His knowledge My righteous Servant shall justify many, For He shall bear their iniquities.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 53:8.",
+          "child": "Look right after “cut off from” in verse 8.",
+          "teen": "53:11 speaks of justifying many; 53:8 names from what He was cut off. Read that phrase.",
+          "older": "It follows “cut off from” in 53:8."
+        },
+        "extended_explanation": "53:8 also says He was taken from prison and from judgment. 53:11 says He shall bear their iniquities.",
+        "takeaway": "He was cut off from the land of the living."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0013",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 19",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 19:29 says they filled a sponge with sour wine and put it to His mouth. In 19:23, after they took His garments and made four parts, how does the verse describe the tunic?",
+        "child": "The soldiers divided Jesus’ clothes at the cross. How does the verse describe His tunic?",
+        "teen": "John 19:23: “Now the tunic was” what, “woven from the top in one piece”?",
+        "older": "Read with 19:29, how does 19:23 say the tunic was?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "without seam"
+        },
+        {
+          "id": "b",
+          "text": "without stain"
+        },
+        {
+          "id": "c",
+          "text": "without hem"
+        },
+        {
+          "id": "d",
+          "text": "without sleeve"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 19:23",
+            "text": "Then the soldiers, when they had crucified Jesus, took His garments and made four parts, to each soldier a part, and also the tunic. Now the tunic was without seam, woven from the top in one piece.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 19:29",
+            "text": "Now a vessel full of sour wine was sitting there; and they filled a sponge with sour wine, put it on hyssop, and put it to His mouth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 19:23.",
+          "child": "Look right after “the tunic was” in verse 23.",
+          "teen": "19:29 tells of the sour wine; 19:23 describes the tunic. Read that description.",
+          "older": "It follows “the tunic was” in 19:23."
+        },
+        "extended_explanation": "19:23 also says it was woven from the top in one piece. 19:29 says they filled a sponge with sour wine and put it to His mouth.",
+        "takeaway": "The tunic was without seam."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0017",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 22",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 19:37 records another Scripture: “They shall look on Him whom they pierced.” In Psalm 22:16, after the wicked have enclosed Him, what does the verse say they pierced?",
+        "child": "A psalm speaks of dogs and of the wicked closing in. What does it say they pierced?",
+        "teen": "Psalm 22:16: “They pierced” what?",
+        "older": "Read with John 19:37, what does Psalm 22:16 say they pierced?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My side and My brow"
+        },
+        {
+          "id": "b",
+          "text": "My hands and My feet"
+        },
+        {
+          "id": "c",
+          "text": "My arms and My right side"
+        },
+        {
+          "id": "d",
+          "text": "My head and My bent back"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 22:16",
+            "text": "For dogs have surrounded Me; The congregation of the wicked has enclosed Me. They pierced My hands and My feet;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 19:37",
+            "text": "And again another Scripture says, “They shall look on Him whom they pierced.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:16.",
+          "child": "Look at the last words of verse 16.",
+          "teen": "19:37 quotes a Scripture about piercing; 22:16 names what was pierced. Read the end.",
+          "older": "It follows “They pierced” in 22:16."
+        },
+        "extended_explanation": "22:16 also says, “For dogs have surrounded Me.” 19:37 says, “They shall look on Him whom they pierced.”",
+        "takeaway": "They pierced My hands and My feet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 19",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 53:6 says the LORD has laid on Him the iniquity of us all. In John 19:33, when the soldiers came to Jesus and saw that He was already dead, what did they not do?",
+        "child": "The soldiers came to Jesus and saw that He was already dead. What did they not do?",
+        "teen": "John 19:33: “they did not” do what?",
+        "older": "Read with Isaiah 53:6, what does John 19:33 say they did not do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "take His cloak"
+        },
+        {
+          "id": "b",
+          "text": "move His body"
+        },
+        {
+          "id": "c",
+          "text": "break His legs"
+        },
+        {
+          "id": "d",
+          "text": "wash His face"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 19:33",
+            "text": "But when they came to Jesus and saw that He was already dead, they did not break His legs.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 53:6",
+            "text": "All we like sheep have gone astray; We have turned, every one, to his own way; And the LORD has laid on Him the iniquity of us all.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 19:33.",
+          "child": "Look at the last words of verse 33.",
+          "teen": "53:6 describes what was laid on Him; 19:33 names what the soldiers did not do. Read the end.",
+          "older": "It follows “they did not” in 19:33."
+        },
+        "extended_explanation": "19:33 also says they saw that He was already dead. 53:6 says, “We have turned, every one, to his own way.”",
+        "takeaway": "They did not break His legs."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0018",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 22",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 53:11 says the Servant shall justify many. In Psalm 22:6, after “A reproach of men, and,” how does the speaker next describe himself?",
+        "child": "The psalm’s speaker describes how low he has been brought. After “A reproach of men, and,” what does he say next?",
+        "teen": "Psalm 22:6: “A reproach of men, and” what?",
+        "older": "Read with Isaiah 53:11, what does Psalm 22:6 say after “A reproach of men, and”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "forgotten by the nations"
+        },
+        {
+          "id": "b",
+          "text": "praised by the princes"
+        },
+        {
+          "id": "c",
+          "text": "honored by the elders"
+        },
+        {
+          "id": "d",
+          "text": "despised by the people"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 22:6",
+            "text": "But I am a worm, and no man; A reproach of men, and despised by the people.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 53:11",
+            "text": "He shall see the labor of His soul, and be satisfied. By His knowledge My righteous Servant shall justify many, For He shall bear their iniquities.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:6.",
+          "child": "Look at the last words of verse 6.",
+          "teen": "53:11 speaks of justifying many; 22:6 ends with this phrase. Read the end.",
+          "older": "It follows “A reproach of men, and” in 22:6."
+        },
+        "extended_explanation": "22:6 also begins, “But I am a worm, and no man.” 53:11 says He shall bear their iniquities.",
+        "takeaway": "He is despised by the people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mic-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Micah",
+      "section": "Micah 5",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 22:4 says, “Our fathers trusted in You.” In Micah 5:5, how does the verse first describe this One, before it speaks of the Assyrian?",
+        "child": "Micah speaks of a coming One and of a time of trouble from Assyria. How does the verse first describe this One?",
+        "teen": "Micah 5:5: “And this One shall be” what?",
+        "older": "Read with Psalm 22:4, what does Micah 5:5 say this One shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "this One shall be peace"
+        },
+        {
+          "id": "b",
+          "text": "this One shall be fire"
+        },
+        {
+          "id": "c",
+          "text": "this One shall be stone"
+        },
+        {
+          "id": "d",
+          "text": "this One shall be wind"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Micah 5:5",
+            "text": "And this One shall be peace. When the Assyrian comes into our land, And when he treads in our palaces, Then we will raise against him Seven shepherds and eight princely men.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 22:4",
+            "text": "Our fathers trusted in You; They trusted, and You delivered them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 5:5.",
+          "child": "Look right after “this One shall be” in verse 5.",
+          "teen": "Psalm 22:4 remembers the fathers’ trust; 5:5 opens with what this One shall be. Read that word.",
+          "older": "It follows “this One shall be” in 5:5."
+        },
+        "extended_explanation": "5:5 also speaks of the Assyrian coming into the land. 22:4 says the fathers trusted in Him.",
+        "takeaway": "This One shall be peace."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mat-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 2",
+      "topics": [
+        "messianic-prophecy-and-fulfillment"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 53:1 asks who has believed our report. In Matthew 2:4, after Herod gathered the chief priests and scribes, what did he inquire of them?",
+        "child": "Herod called the chief priests and scribes together. What did he ask them?",
+        "teen": "Matthew 2:4: “he inquired of them” what?",
+        "older": "Read with Isaiah 53:1, what does Matthew 2:4 say he inquired of them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "when the feast was to begin"
+        },
+        {
+          "id": "b",
+          "text": "where the Christ was to be born"
+        },
+        {
+          "id": "c",
+          "text": "how the holy temple was to be built"
+        },
+        {
+          "id": "d",
+          "text": "why the whole people were to fast"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 2:4",
+            "text": "And when he had gathered all the chief priests and scribes of the people together, he inquired of them where the Christ was to be born.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 53:1",
+            "text": "Who has believed our report? And to whom has the arm of the LORD been revealed?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:4.",
+          "child": "Look at the last words of verse 4.",
+          "teen": "53:1 is Isaiah’s question; 2:4 ends with what Herod asked. Read the end.",
+          "older": "It follows “he inquired of them” in 2:4."
+        },
+        "extended_explanation": "2:4 also says he gathered all the chief priests and scribes of the people. 53:1 asks, “And to whom has the arm of the LORD been revealed?”",
+        "takeaway": "He inquired of them where the Christ was to be born."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

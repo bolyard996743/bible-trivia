@@ -4,7 +4,7 @@ Internal only. Do not show this guide, these ages, or these difficulty words to 
 
 Selection uses `TIER_MIX` in `src/lib/curriculum.ts`. Foundation is easy, intermediate is intermediate, and advanced plus expert are hard. A rolled tier with no questions borrows the next lower tier, then any tier that still has questions. Book targets below are the pool goals. A player is not blocked by a book that has no questions yet.
 
-The bank has 1444 questions.
+The bank has 1848 questions.
 
 ## Seed
 
@@ -1186,25 +1186,330 @@ New questions to write:
 
 All 66 books. Mostly hard.
 
-Questions now: 0. Books: 0. Target pool: about 198 questions.
+Questions now: 404. Books: 57. Target pool: about 198 questions.
 
 | Topic | Book | Section | Tier | Count |
 | --- | --- | --- | --- | ---: |
-| — | — | — | — | 0 |
+| Paul's Letters: Setting and Order | 1 Corinthians | 1 Corinthians 1 | advanced | 1 |
+| General Letters: James to Jude | 1 John | 1 John 1 | expert | 1 |
+| General Letters: James to Jude | 1 John | 1 John 2 | advanced | 1 |
+| Kings of Israel and Judah in Order | 1 Kings | 1 Kings 16 | advanced | 2 |
+| Kings of Israel and Judah in Order | 1 Kings | 1 Kings 16 | intermediate | 1 |
+| General Letters: James to Jude | 1 Peter | 1 Peter 1 | advanced | 1 |
+| Atonement and Justification | 1 Peter | 1 Peter 2 | advanced | 1 |
+| Atonement and Justification | 1 Peter | 1 Peter 2 | expert | 1 |
+| General Letters: James to Jude | 1 Peter | 1 Peter 5 | advanced | 1 |
+| The Pastoral Letters | 1 Timothy | 1 Timothy 1 | expert | 2 |
+| The Pastoral Letters | 1 Timothy | 1 Timothy 1 | intermediate | 1 |
+| The Pastoral Letters | 1 Timothy | 1 Timothy 3 | advanced | 2 |
+| The Pastoral Letters | 1 Timothy | 1 Timothy 3 | expert | 1 |
+| Kings of Israel and Judah in Order | 2 Chronicles | 2 Chronicles 26 | expert | 2 |
+| Kings of Israel and Judah in Order | 2 Chronicles | 2 Chronicles 27 | expert | 1 |
+| Atonement and Justification | 2 Corinthians | 2 Corinthians 5 | advanced | 1 |
+| Atonement and Justification | 2 Corinthians | 2 Corinthians 5 | expert | 1 |
+| 2 John: Truth and Love | 2 John | 2 John 1 | advanced | 3 |
+| 2 John: Truth and Love | 2 John | 2 John 1 | expert | 2 |
+| 2 John: Truth and Love | 2 John | 2 John 1 | intermediate | 1 |
+| Kings of Israel and Judah in Order | 2 Kings | 2 Kings 15 | advanced | 2 |
+| Kings of Israel and Judah in Order | 2 Kings | 2 Kings 15 | expert | 2 |
+| General Letters: James to Jude | 2 Peter | 2 Peter 1 | advanced | 1 |
+| General Letters: James to Jude | 2 Peter | 2 Peter 3 | expert | 2 |
+| Covenants Across Scripture | 2 Samuel | 2 Samuel 7 | advanced | 2 |
+| The Pastoral Letters | 2 Timothy | 2 Timothy 1 | expert | 1 |
+| The Pastoral Letters | 2 Timothy | 2 Timothy 2 | advanced | 1 |
+| The Pastoral Letters | 2 Timothy | 2 Timothy 2 | expert | 1 |
+| The Pastoral Letters | 2 Timothy | 2 Timothy 4 | advanced | 1 |
+| 3 John: Walking in the Truth | 3 John | 3 John 1 | advanced | 3 |
+| 3 John: Walking in the Truth | 3 John | 3 John 1 | expert | 2 |
+| 3 John: Walking in the Truth | 3 John | 3 John 1 | intermediate | 1 |
+| Paul's Letters: Setting and Order | Acts | Acts 13 | intermediate | 1 |
+| Paul's Letters: Setting and Order | Acts | Acts 14 | advanced | 1 |
+| Paul's Letters: Setting and Order | Acts | Acts 17 | expert | 1 |
+| Paul's Letters: Setting and Order | Acts | Acts 19 | expert | 1 |
+| The Holy Spirit Across Scripture | Acts | Acts 2 | advanced | 1 |
+| The Holy Spirit Across Scripture | Acts | Acts 2 | expert | 2 |
+| Paul's Letters: Setting and Order | Acts | Acts 22 | expert | 1 |
+| Paul's Letters: Setting and Order | Acts | Acts 25 | expert | 1 |
+| Paul's Letters: Setting and Order | Acts | Acts 27 | expert | 1 |
+| The Prison Letters | Acts | Acts 28 | advanced | 1 |
+| The Prison Letters | Acts | Acts 28 | expert | 1 |
+| The Day of the LORD | Amos | Amos 5 | advanced | 1 |
+| The Day of the LORD | Amos | Amos 5 | expert | 2 |
+| The Prison Letters | Colossians | Colossians 1 | advanced | 1 |
+| Philemon: A Brother, Not a Slave | Colossians | Colossians 4 | advanced | 1 |
+| The Prison Letters | Colossians | Colossians 4 | expert | 1 |
+| The Kingdom of God Across Scripture | Daniel | Daniel 2 | advanced | 2 |
+| The Kingdom of God Across Scripture | Daniel | Daniel 2 | expert | 2 |
+| Revelation and Old Testament Imagery | Daniel | Daniel 7 | advanced | 1 |
+| Revelation and Old Testament Imagery | Daniel | Daniel 7 | expert | 1 |
+| Christ in the Law | Deuteronomy | Deuteronomy 18 | intermediate | 1 |
+| Deuteronomy: Blessings and Curses | Deuteronomy | Deuteronomy 27 | intermediate | 1 |
+| Deuteronomy: Blessings and Curses | Deuteronomy | Deuteronomy 28 | advanced | 4 |
+| Deuteronomy: Blessings and Curses | Deuteronomy | Deuteronomy 28 | expert | 3 |
+| Deuteronomy: Blessings and Curses | Deuteronomy | Deuteronomy 30 | expert | 2 |
+| Wisdom Books Compared | Ecclesiastes | Ecclesiastes 12 | advanced | 1 |
+| Wisdom Books Compared | Ecclesiastes | Ecclesiastes 12 | expert | 1 |
+| Ephesians: In Christ | Ephesians | Ephesians 1 | advanced | 2 |
+| Ephesians: In Christ | Ephesians | Ephesians 1 | expert | 2 |
+| Ephesians: In Christ | Ephesians | Ephesians 1 | intermediate | 1 |
+| Ephesians: In Christ | Ephesians | Ephesians 2 | expert | 1 |
+| Ephesians: In Christ | Ephesians | Ephesians 3 | advanced | 2 |
+| Ephesians: In Christ | Ephesians | Ephesians 3 | expert | 1 |
+| Ephesians: In Christ | Ephesians | Ephesians 4 | expert | 1 |
+| The Prison Letters | Ephesians | Ephesians 6 | expert | 1 |
+| Exile and Return Timeline | Esther | Esther 1 | advanced | 1 |
+| Exile and Return Timeline | Esther | Esther 3 | advanced | 1 |
+| Exile and Return Timeline | Esther | Esther 9 | expert | 1 |
+| Christ in the Law | Exodus | Exodus 12 | advanced | 2 |
+| Covenants Across Scripture | Exodus | Exodus 19 | intermediate | 1 |
+| Revelation and Old Testament Imagery | Ezekiel | Ezekiel 1 | expert | 2 |
+| The Holy Spirit Across Scripture | Ezekiel | Ezekiel 36 | intermediate | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 40 | advanced | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 40 | expert | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 40 | intermediate | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 43 | advanced | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 43 | expert | 2 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 44 | advanced | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 44 | expert | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 47 | advanced | 1 |
+| Revelation and Old Testament Imagery | Ezekiel | Ezekiel 47 | advanced | 1 |
+| Ezekiel: The Temple and the Land | Ezekiel | Ezekiel 47 | expert | 1 |
+| Revelation and Old Testament Imagery | Ezekiel | Ezekiel 47 | expert | 1 |
+| Exile and Return Timeline | Ezra | Ezra 1 | expert | 1 |
+| Exile and Return Timeline | Ezra | Ezra 1 | intermediate | 1 |
+| Paul's Letters: Setting and Order | Galatians | Galatians 2 | advanced | 1 |
+| Atonement and Justification | Galatians | Galatians 3 | advanced | 1 |
+| Faith and Works: Paul and James | Galatians | Galatians 3 | advanced | 1 |
+| Faith and Works: Paul and James | Galatians | Galatians 3 | expert | 1 |
+| The Holy Spirit Across Scripture | Galatians | Galatians 5 | expert | 1 |
+| Eden to the New Creation | Genesis | Genesis 1 | advanced | 1 |
+| Eden to the New Creation | Genesis | Genesis 1 | expert | 2 |
+| Eden to the New Creation | Genesis | Genesis 1 | intermediate | 1 |
+| Faith and Works: Paul and James | Genesis | Genesis 15 | advanced | 1 |
+| Covenants Across Scripture | Genesis | Genesis 15 | expert | 2 |
+| Eden to the New Creation | Genesis | Genesis 2 | advanced | 2 |
+| Eden to the New Creation | Genesis | Genesis 2 | expert | 1 |
+| Christ in the Law | Genesis | Genesis 22 | expert | 1 |
+| Obadiah: Edom's Fall | Genesis | Genesis 25 | expert | 1 |
+| Covenants Across Scripture | Genesis | Genesis 9 | expert | 3 |
+| The Twelve Minor Prophets: Order and Setting | Habakkuk | Habakkuk 1 | expert | 1 |
+| Exile and Return Timeline | Haggai | Haggai 1 | expert | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 1 | advanced | 1 |
+| The Person of Christ and the Trinity | Hebrews | Hebrews 1 | advanced | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 1 | expert | 1 |
+| The Person of Christ and the Trinity | Hebrews | Hebrews 1 | expert | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 1 | intermediate | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 10 | expert | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 2 | advanced | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 2 | expert | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 3 | advanced | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 3 | expert | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 7 | advanced | 1 |
+| Hebrews' Use of the Old Testament | Hebrews | Hebrews 7 | expert | 1 |
+| Covenants Across Scripture | Hebrews | Hebrews 8 | advanced | 1 |
+| Atonement and Justification | Hebrews | Hebrews 9 | advanced | 1 |
+| Christ in the Law | Hebrews | Hebrews 9 | advanced | 1 |
+| Atonement and Justification | Hebrews | Hebrews 9 | expert | 2 |
+| Christ in the Law | Hebrews | Hebrews 9 | expert | 2 |
+| The Twelve Minor Prophets: Order and Setting | Hosea | Hosea 1 | intermediate | 1 |
+| The Remnant and the Restoration | Isaiah | Isaiah 10 | advanced | 1 |
+| The Remnant and the Restoration | Isaiah | Isaiah 11 | expert | 2 |
+| The Remnant and the Restoration | Isaiah | Isaiah 11 | intermediate | 1 |
+| Messianic Prophecy and Fulfillment | Isaiah | Isaiah 53 | advanced | 2 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 56 | advanced | 1 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 56 | expert | 2 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 58 | advanced | 1 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 58 | expert | 1 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 60 | expert | 1 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 60 | intermediate | 1 |
+| Eden to the New Creation | Isaiah | Isaiah 65 | advanced | 1 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 65 | advanced | 2 |
+| Revelation and Old Testament Imagery | Isaiah | Isaiah 65 | advanced | 1 |
+| Isaiah: The Final Chapters | Isaiah | Isaiah 65 | expert | 1 |
+| General Letters: James to Jude | James | James 1 | intermediate | 1 |
+| Faith and Works: Paul and James | James | James 2 | advanced | 1 |
+| Faith and Works: Paul and James | James | James 2 | expert | 2 |
+| Covenants Across Scripture | Jeremiah | Jeremiah 31 | advanced | 1 |
+| Job: Suffering and Sovereignty | Job | Job 2 | expert | 2 |
+| Wisdom Books Compared | Job | Job 28 | advanced | 2 |
+| Wisdom Books Compared | Job | Job 28 | expert | 2 |
+| Wisdom Books Compared | Job | Job 28 | intermediate | 1 |
+| Job: Suffering and Sovereignty | Job | Job 38 | advanced | 1 |
+| Job: Suffering and Sovereignty | Job | Job 38 | expert | 1 |
+| Job: Suffering and Sovereignty | Job | Job 39 | advanced | 1 |
+| Job: Suffering and Sovereignty | Job | Job 40 | intermediate | 1 |
+| Job: Suffering and Sovereignty | Job | Job 41 | expert | 2 |
+| Job: Suffering and Sovereignty | Job | Job 42 | advanced | 2 |
+| The Twelve Minor Prophets: Order and Setting | Joel | Joel 1 | advanced | 1 |
+| The Twelve Minor Prophets: Order and Setting | Joel | Joel 1 | expert | 2 |
+| The Day of the LORD | Joel | Joel 2 | advanced | 2 |
+| The Day of the LORD | Joel | Joel 2 | expert | 1 |
+| The Person of Christ and the Trinity | John | John 1 | advanced | 2 |
+| The Person of Christ and the Trinity | John | John 1 | expert | 2 |
+| The Person of Christ and the Trinity | John | John 1 | intermediate | 1 |
+| The Person of Christ and the Trinity | John | John 14 | advanced | 1 |
+| The Holy Spirit Across Scripture | John | John 14 | expert | 1 |
+| The Person of Christ and the Trinity | John | John 14 | expert | 2 |
+| The Holy Spirit Across Scripture | John | John 16 | advanced | 2 |
+| Messianic Prophecy and Fulfillment | John | John 19 | advanced | 1 |
+| Messianic Prophecy and Fulfillment | John | John 19 | expert | 1 |
+| Gospel Harmony: Four Portraits | John | John 20 | advanced | 1 |
+| Gospel Harmony: Four Portraits | John | John 20 | expert | 1 |
+| The Twelve Minor Prophets: Order and Setting | Jonah | Jonah 1 | advanced | 1 |
+| Nahum: Nineveh's Doom | Jonah | Jonah 3 | advanced | 1 |
+| Nahum: Nineveh's Doom | Jonah | Jonah 3 | expert | 1 |
+| General Letters: James to Jude | Jude | Jude 1 | expert | 2 |
+| Judges: The Cycle of Sin and Deliverance | Judges | Judges 11 | expert | 2 |
+| Judges: The Cycle of Sin and Deliverance | Judges | Judges 2 | advanced | 1 |
+| Judges: The Cycle of Sin and Deliverance | Judges | Judges 2 | intermediate | 1 |
+| Judges: The Cycle of Sin and Deliverance | Judges | Judges 3 | advanced | 3 |
+| Judges: The Cycle of Sin and Deliverance | Judges | Judges 3 | expert | 3 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 10 | advanced | 1 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 10 | expert | 2 |
+| Christ in the Law | Leviticus | Leviticus 16 | advanced | 1 |
+| Christ in the Law | Leviticus | Leviticus 16 | expert | 2 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 3 | advanced | 1 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 5 | expert | 1 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 6 | advanced | 1 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 6 | intermediate | 1 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 8 | advanced | 1 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 8 | expert | 1 |
+| Leviticus: Offerings and Priesthood | Leviticus | Leviticus 9 | expert | 1 |
+| Gospel Harmony: Four Portraits | Luke | Luke 23 | advanced | 1 |
+| Gospel Harmony: Four Portraits | Luke | Luke 23 | expert | 1 |
+| The Day of the LORD | Malachi | Malachi 4 | expert | 1 |
+| Gospel Harmony: Four Portraits | Mark | Mark 1 | expert | 1 |
+| The Kingdom of God Across Scripture | Mark | Mark 1 | intermediate | 1 |
+| Gospel Harmony: Four Portraits | Mark | Mark 14 | advanced | 1 |
+| Gospel Harmony: Four Portraits | Mark | Mark 14 | expert | 1 |
+| The Kingdom of God Across Scripture | Matthew | Matthew 13 | advanced | 1 |
+| The Kingdom of God Across Scripture | Matthew | Matthew 13 | expert | 2 |
+| Messianic Prophecy and Fulfillment | Matthew | Matthew 2 | expert | 1 |
+| Gospel Harmony: Four Portraits | Matthew | Matthew 3 | expert | 1 |
+| Gospel Harmony: Four Portraits | Matthew | Matthew 3 | intermediate | 1 |
+| Gospel Harmony: Four Portraits | Matthew | Matthew 4 | advanced | 1 |
+| The Twelve Minor Prophets: Order and Setting | Micah | Micah 1 | expert | 1 |
+| The Remnant and the Restoration | Micah | Micah 2 | expert | 1 |
+| The Remnant and the Restoration | Micah | Micah 5 | advanced | 1 |
+| Messianic Prophecy and Fulfillment | Micah | Micah 5 | expert | 1 |
+| Nahum: Nineveh's Doom | Nahum | Nahum 1 | advanced | 1 |
+| The Twelve Minor Prophets: Order and Setting | Nahum | Nahum 1 | advanced | 1 |
+| Nahum: Nineveh's Doom | Nahum | Nahum 1 | expert | 2 |
+| Nahum: Nineveh's Doom | Nahum | Nahum 1 | intermediate | 1 |
+| Nahum: Nineveh's Doom | Nahum | Nahum 2 | expert | 1 |
+| Nahum: Nineveh's Doom | Nahum | Nahum 3 | advanced | 1 |
+| Exile and Return Timeline | Nehemiah | Nehemiah 1 | advanced | 1 |
+| Exile and Return Timeline | Nehemiah | Nehemiah 2 | advanced | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 10 | expert | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 10 | intermediate | 1 |
+| Obadiah: Edom's Fall | Numbers | Numbers 20 | advanced | 2 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 22 | advanced | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 22 | expert | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 23 | advanced | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 23 | expert | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 3 | advanced | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 32 | expert | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 35 | expert | 1 |
+| Numbers: Census, Rebellion and Balaam | Numbers | Numbers 4 | advanced | 1 |
+| Obadiah: Edom's Fall | Obadiah | Obadiah 1 | advanced | 1 |
+| Obadiah: Edom's Fall | Obadiah | Obadiah 1 | expert | 3 |
+| The Twelve Minor Prophets: Order and Setting | Obadiah | Obadiah 1 | expert | 1 |
+| Obadiah: Edom's Fall | Obadiah | Obadiah 1 | intermediate | 1 |
+| Philemon: A Brother, Not a Slave | Philemon | Philemon 1 | advanced | 2 |
+| The Prison Letters | Philemon | Philemon 1 | advanced | 1 |
+| Philemon: A Brother, Not a Slave | Philemon | Philemon 1 | expert | 4 |
+| Philemon: A Brother, Not a Slave | Philemon | Philemon 1 | intermediate | 1 |
+| Philippians: The Mind of Christ | Philippians | Philippians 1 | advanced | 2 |
+| The Prison Letters | Philippians | Philippians 1 | advanced | 1 |
+| Philippians: The Mind of Christ | Philippians | Philippians 1 | expert | 3 |
+| The Prison Letters | Philippians | Philippians 1 | expert | 2 |
+| Philippians: The Mind of Christ | Philippians | Philippians 1 | intermediate | 1 |
+| The Prison Letters | Philippians | Philippians 1 | intermediate | 1 |
+| Philippians: The Mind of Christ | Philippians | Philippians 2 | advanced | 1 |
+| Philippians: The Mind of Christ | Philippians | Philippians 3 | advanced | 1 |
+| Philippians: The Mind of Christ | Philippians | Philippians 3 | expert | 2 |
+| Proverbs: Collections and Authors | Proverbs | Proverbs 1 | intermediate | 1 |
+| Proverbs: Collections and Authors | Proverbs | Proverbs 22 | advanced | 2 |
+| Proverbs: Collections and Authors | Proverbs | Proverbs 22 | expert | 1 |
+| Proverbs: Collections and Authors | Proverbs | Proverbs 24 | expert | 1 |
+| Proverbs: Collections and Authors | Proverbs | Proverbs 30 | advanced | 1 |
+| Proverbs: Collections and Authors | Proverbs | Proverbs 30 | expert | 3 |
+| Proverbs: Collections and Authors | Proverbs | Proverbs 31 | advanced | 1 |
+| Wisdom Books Compared | Proverbs | Proverbs 8 | advanced | 1 |
+| Wisdom Books Compared | Proverbs | Proverbs 8 | expert | 2 |
+| Psalms: The Five Books | Psalms | Psalm 106 | expert | 2 |
+| Psalms: The Five Books | Psalms | Psalm 107 | advanced | 1 |
+| Psalms: The Five Books | Psalms | Psalm 107 | expert | 1 |
+| Messianic Psalms | Psalms | Psalm 110 | expert | 2 |
+| Messianic Psalms | Psalms | Psalm 118 | expert | 1 |
+| The Kingdom of God Across Scripture | Psalms | Psalm 145 | advanced | 1 |
+| The Kingdom of God Across Scripture | Psalms | Psalm 145 | expert | 1 |
+| Messianic Psalms | Psalms | Psalm 2 | advanced | 4 |
+| Messianic Psalms | Psalms | Psalm 2 | expert | 2 |
+| Messianic Psalms | Psalms | Psalm 2 | intermediate | 1 |
+| Messianic Prophecy and Fulfillment | Psalms | Psalm 22 | advanced | 1 |
+| Messianic Prophecy and Fulfillment | Psalms | Psalm 22 | expert | 2 |
+| Messianic Prophecy and Fulfillment | Psalms | Psalm 22 | intermediate | 1 |
+| Psalms: The Five Books | Psalms | Psalm 41 | advanced | 1 |
+| Psalms: The Five Books | Psalms | Psalm 72 | advanced | 1 |
+| Psalms: The Five Books | Psalms | Psalm 73 | advanced | 1 |
+| Psalms: The Five Books | Psalms | Psalm 89 | expert | 2 |
+| Psalms: The Five Books | Psalms | Psalm 90 | intermediate | 1 |
+| Revelation and Old Testament Imagery | Revelation | Revelation 1 | advanced | 1 |
+| Revelation: Structure and Settings | Revelation | Revelation 1 | advanced | 1 |
+| Revelation: Structure and Settings | Revelation | Revelation 1 | expert | 1 |
+| Revelation and Old Testament Imagery | Revelation | Revelation 1 | intermediate | 1 |
+| Revelation: Dragon, Beast and Victory | Revelation | Revelation 12 | expert | 1 |
+| Revelation: Dragon, Beast and Victory | Revelation | Revelation 12 | intermediate | 1 |
+| Revelation: Dragon, Beast and Victory | Revelation | Revelation 13 | expert | 2 |
+| Revelation: Structure and Settings | Revelation | Revelation 15 | advanced | 1 |
+| Revelation: Structure and Settings | Revelation | Revelation 15 | expert | 1 |
+| Revelation: Dragon, Beast and Victory | Revelation | Revelation 19 | advanced | 1 |
+| Revelation: Dragon, Beast and Victory | Revelation | Revelation 19 | expert | 1 |
+| Revelation: Dragon, Beast and Victory | Revelation | Revelation 20 | advanced | 3 |
+| Revelation: Dragon, Beast and Victory | Revelation | Revelation 20 | expert | 1 |
+| Eden to the New Creation | Revelation | Revelation 21 | expert | 2 |
+| Revelation: Structure and Settings | Revelation | Revelation 22 | advanced | 1 |
+| Revelation and Old Testament Imagery | Revelation | Revelation 22 | expert | 1 |
+| Revelation: Structure and Settings | Revelation | Revelation 22 | intermediate | 1 |
+| Revelation: Structure and Settings | Revelation | Revelation 7 | advanced | 1 |
+| Revelation: Structure and Settings | Revelation | Revelation 7 | expert | 3 |
+| Paul's Letters: Setting and Order | Romans | Romans 1 | advanced | 1 |
+| Atonement and Justification | Romans | Romans 3 | expert | 1 |
+| Atonement and Justification | Romans | Romans 3 | intermediate | 1 |
+| Faith and Works: Paul and James | Romans | Romans 4 | advanced | 1 |
+| Faith and Works: Paul and James | Romans | Romans 4 | expert | 2 |
+| Faith and Works: Paul and James | Romans | Romans 4 | intermediate | 1 |
+| The Holy Spirit Across Scripture | Romans | Romans 8 | advanced | 1 |
+| The Holy Spirit Across Scripture | Romans | Romans 8 | expert | 1 |
+| Exile and Return Timeline | Zechariah | Zechariah 1 | expert | 2 |
+| The Remnant and the Restoration | Zechariah | Zechariah 8 | advanced | 1 |
+| The Remnant and the Restoration | Zechariah | Zechariah 8 | expert | 1 |
+| The Day of the LORD | Zephaniah | Zephaniah 1 | advanced | 1 |
+| The Twelve Minor Prophets: Order and Setting | Zephaniah | Zephaniah 1 | advanced | 1 |
+| Zephaniah: Rejoicing Over You | Zephaniah | Zephaniah 1 | advanced | 1 |
+| The Day of the LORD | Zephaniah | Zephaniah 1 | expert | 1 |
+| Zephaniah: Rejoicing Over You | Zephaniah | Zephaniah 1 | expert | 2 |
+| The Day of the LORD | Zephaniah | Zephaniah 1 | intermediate | 1 |
+| Zephaniah: Rejoicing Over You | Zephaniah | Zephaniah 1 | intermediate | 1 |
+| Zephaniah: Rejoicing Over You | Zephaniah | Zephaniah 2 | advanced | 1 |
+| Zephaniah: Rejoicing Over You | Zephaniah | Zephaniah 2 | expert | 2 |
+| The Remnant and the Restoration | Zephaniah | Zephaniah 3 | advanced | 1 |
+| Zephaniah: Rejoicing Over You | Zephaniah | Zephaniah 3 | advanced | 1 |
+| The Remnant and the Restoration | Zephaniah | Zephaniah 3 | expert | 1 |
 
 Tier totals against the mix:
 
-- intermediate: 0 now, about 20 wanted (10% of draws (intermediate)). About 20 more.
-- advanced: 0 now, about 59 wanted (30% of draws (hard)). About 59 more.
-- expert: 0 now, about 119 wanted (60% of draws (hard)). About 119 more.
+- intermediate: 42 now, about 20 wanted (10% of draws (intermediate)). Target met.
+- advanced: 162 now, about 59 wanted (30% of draws (hard)). Target met.
+- expert: 200 now, about 119 wanted (60% of draws (hard)). Target met.
 
-Book target: 66. Covered now: 0. About 66 more books need questions.
+Every curriculum topic for this stage has at least one question.
+
+Book target: 66. Covered now: 57 (Genesis, Exodus, Leviticus, Numbers, Deuteronomy, Judges, 2 Samuel, 1 Kings, 2 Kings, 2 Chronicles, Ezra, Nehemiah, Esther, Job, Psalms, Proverbs, Ecclesiastes, Isaiah, Jeremiah, Ezekiel, Daniel, Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi, Matthew, Mark, Luke, John, Acts, Romans, 1 Corinthians, 2 Corinthians, Galatians, Ephesians, Philippians, Colossians, 1 Timothy, 2 Timothy, Philemon, Hebrews, James, 1 Peter, 2 Peter, 1 John, 2 John, 3 John, Jude, Revelation). About 9 more books need questions.
+Books with none yet: Joshua, Ruth, 1 Samuel, 1 Chronicles, Song of Solomon, Lamentations, 1 Thessalonians, 2 Thessalonians, Titus.
 
 New questions to write:
 
-- About 20 more intermediate questions (intermediate).
-- About 59 more advanced questions (hard).
-- About 119 more expert questions (hard).
-- Spread new questions across about 66 more books (target 66).
-- This stage has no questions yet.
+- Spread new questions across about 9 more books (target 66).
 

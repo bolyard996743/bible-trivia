@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-obadiah-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-oba-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Obadiah",
+      "section": "Obadiah 1",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Obadiah warns Edom that its own allies will turn on it. According to 1:7, who shall deceive Edom and prevail against it?",
+        "child": "Obadiah says Edom will be tricked by people it thought it could count on. Who are they?",
+        "teen": "Obadiah 1:7: who “Shall deceive you and prevail against you”?",
+        "older": "According to Obadiah 1:7, who will deceive Edom and prevail against it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your hired soldiers"
+        },
+        {
+          "id": "b",
+          "text": "the men at peace with you"
+        },
+        {
+          "id": "c",
+          "text": "the chiefs who rule your towns"
+        },
+        {
+          "id": "d",
+          "text": "the people of the islands"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Obadiah 1:7",
+            "text": "All the men in your confederacy Shall force you to the border; The men at peace with you Shall deceive you and prevail against you. Those who eat your bread shall lay a trap for you. No one is aware of it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the second line of 1:7.",
+          "child": "Look at the middle of verse 7, after the border is mentioned.",
+          "teen": "1:7 names three groups who turn on Edom. Read the second.",
+          "older": "It comes right after “Shall force you to the border;” in 1:7."
+        },
+        "extended_explanation": "1:7 also says those who eat your bread shall lay a trap for you. 1:3 says the pride of Edom’s heart has deceived it.",
+        "takeaway": "The men at peace with you shall deceive Edom."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-oba-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Obadiah",
+      "section": "Obadiah 1",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Obadiah 1:12-14 lists what Edom should not have done in Judah’s day of distress. According to 1:14, where should Edom not have stood to cut off those who escaped?",
+        "child": "When Judah was attacked, Edom did several wrong things. Where did Edom stand to stop people who were running away?",
+        "teen": "Obadiah 1:14: “You should not have stood” where, “To cut off those among them who escaped”?",
+        "older": "According to Obadiah 1:14, where should Edom not have stood?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "at the river fords"
+        },
+        {
+          "id": "b",
+          "text": "on the high places"
+        },
+        {
+          "id": "c",
+          "text": "at the crossroads"
+        },
+        {
+          "id": "d",
+          "text": "by the sheep gate"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Obadiah 1:12",
+            "text": "“But you should not have gazed on the day of your brother In the day of his captivity; Nor should you have rejoiced over the children of Judah In the day of their destruction; Nor should you have spoken proudly In the day of distress.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Obadiah 1:14",
+            "text": "You should not have stood at the crossroads To cut off those among them who escaped; Nor should you have delivered up those among them who remained In the day of distress.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 1:14.",
+          "child": "Look right after “You should not have stood” in verse 14.",
+          "teen": "1:12 lists what Edom should not have done; 1:14 adds another wrong. Read its first line.",
+          "older": "It follows “You should not have stood” in 1:14."
+        },
+        "extended_explanation": "1:12 says Edom rejoiced over Judah’s people when they were destroyed. 1:14 says Edom also delivered up those who remained.",
+        "takeaway": "Edom should not have stood at the crossroads to cut off those who escaped."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-num-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 20",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Edom’s king refused Israel passage and threatened to come out against them. In Numbers 20:19, what did Israel promise if they or their livestock drank any of Edom’s water?",
+        "child": "Israel asked to walk through Edom’s land. What did they promise to do if their animals drank Edom’s water?",
+        "teen": "Numbers 20:19: “if I or my livestock drink any of your water, then” what?",
+        "older": "According to Numbers 20:19, what did Israel offer about any water they drank?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will pay for it"
+        },
+        {
+          "id": "b",
+          "text": "I will dig a new well"
+        },
+        {
+          "id": "c",
+          "text": "I will return it double"
+        },
+        {
+          "id": "d",
+          "text": "I will leave at once"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 20:17",
+            "text": "Please let us pass through your country. We will not pass through fields or vineyards, nor will we drink water from wells; we will go along the King’s Highway; we will not turn aside to the right hand or to the left until we have passed through your territory.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 20:19",
+            "text": "So the children of Israel said to him, “We will go by the Highway, and if I or my livestock drink any of your water, then I will pay for it; let me only pass through on foot, nothing more.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 20:19.",
+          "child": "Look right after “then” in verse 19.",
+          "teen": "20:17 is Israel’s request to pass through; 20:19 is Israel’s offer about water. Read what follows “then.”",
+          "older": "It follows “drink any of your water, then” in 20:19."
+        },
+        "extended_explanation": "20:19 also asks to pass through on foot, nothing more. 20:20 says Edom came out against them with many men.",
+        "takeaway": "Israel said, “I will pay for it.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 20",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 20:21 says Edom refused Israel passage through his territory. According to 20:20, Edom came out against them with many men and with what else?",
+        "child": "Edom would not let Israel through and came out against them. Besides many men, how else does 20:20 describe the attack?",
+        "teen": "Numbers 20:20: Edom came out against them with many men and what?",
+        "older": "Read with 20:21, what does 20:20 say Edom came with, besides many men?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with a raised banner"
+        },
+        {
+          "id": "b",
+          "text": "with a long trumpet"
+        },
+        {
+          "id": "c",
+          "text": "with a flying standard"
+        },
+        {
+          "id": "d",
+          "text": "with a strong hand"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 20:20",
+            "text": "Then he said, “You shall not pass through.” So Edom came out against them with many men and with a strong hand.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 20:21",
+            "text": "Thus Edom refused to give Israel passage through his territory; so Israel turned away from him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 20:20.",
+          "child": "Look at the last words of verse 20.",
+          "teen": "20:21 states the refusal; 20:20 describes how Edom came out, in two parts. Read the second.",
+          "older": "It follows “with many men and” in 20:20."
+        },
+        "extended_explanation": "20:20 also records Edom’s words, “You shall not pass through.” 20:14 had Israel sending messengers to the king of Edom.",
+        "takeaway": "Edom came out against them with many men and with a strong hand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-oba-0001",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Obadiah",
+      "section": "Obadiah 1",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Obadiah 1:2 says Edom will be made small among the nations. In 1:11, when strangers carried Judah’s forces captive, what did foreigners do for Jerusalem?",
+        "child": "God said Edom would be made small. On the day Jerusalem was taken, what did the foreigners do, according to 1:11?",
+        "teen": "Obadiah 1:11: “When foreigners entered his gates And” did what “for Jerusalem”?",
+        "older": "Read with 1:2, what does 1:11 say foreigners did for Jerusalem?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "cast lots for Jerusalem"
+        },
+        {
+          "id": "b",
+          "text": "tore down the palaces of Jerusalem"
+        },
+        {
+          "id": "c",
+          "text": "set fire to the temple in Jerusalem"
+        },
+        {
+          "id": "d",
+          "text": "sold the children of Jerusalem"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Obadiah 1:2",
+            "text": "“Behold, I will make you small among the nations; You shall be greatly despised.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Obadiah 1:11",
+            "text": "In the day that you stood on the other side— In the day that strangers carried captive his forces, When foreigners entered his gates And cast lots for Jerusalem— Even you were as one of them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:11.",
+          "child": "Look after “When foreigners entered his gates And” in verse 11.",
+          "teen": "1:2 speaks of Edom being made small; 1:11 names what strangers and foreigners did. Read the last of those acts.",
+          "older": "It follows “When foreigners entered his gates And” in 1:11."
+        },
+        "extended_explanation": "1:10 speaks of violence against your brother Jacob. 1:8 says the LORD will destroy the wise men from Edom.",
+        "takeaway": "Foreigners entered his gates and cast lots for Jerusalem."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-oba-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Obadiah",
+      "section": "Obadiah 1",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Obadiah 1:8 says the LORD will destroy the wise men from Edom. By contrast, what does 1:17 say the house of Jacob shall do?",
+        "child": "God said He would take wisdom away from Edom. What does Obadiah say Jacob’s family will do instead?",
+        "teen": "Obadiah 1:17: “The house of Jacob shall” what?",
+        "older": "Read with 1:8, what does 1:17 promise the house of Jacob?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "rebuild their ruined walls"
+        },
+        {
+          "id": "b",
+          "text": "gather their scattered flocks"
+        },
+        {
+          "id": "c",
+          "text": "possess their possessions"
+        },
+        {
+          "id": "d",
+          "text": "reclaim their lost cities"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Obadiah 1:8",
+            "text": "“Will I not in that day,” says the LORD, “Even destroy the wise men from Edom, And understanding from the mountains of Esau?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Obadiah 1:17",
+            "text": "“But on Mount Zion there shall be deliverance, And there shall be holiness; The house of Jacob shall possess their possessions.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last line of 1:17.",
+          "child": "Look at the end of verse 17.",
+          "teen": "1:8 is about wisdom taken from Edom; 1:17 names two things that shall be there and then what Jacob’s house will do. Read the end.",
+          "older": "It follows “The house of Jacob shall” in 1:17."
+        },
+        "extended_explanation": "1:17 says there shall be deliverance and holiness. 1:18 says the house of Jacob shall be a fire.",
+        "takeaway": "The house of Jacob shall possess their possessions."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-oba-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Obadiah",
+      "section": "Obadiah 1",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Obadiah 1:10 condemns Edom for violence against its brother Jacob. In 1:18, the house of Jacob is a fire and the house of Joseph a flame. What is the house of Esau?",
+        "child": "Obadiah pictures Jacob’s family as fire and Joseph’s family as flame. What does he picture Esau’s family as?",
+        "teen": "Obadiah 1:18: “But the house of Esau shall be” what?",
+        "older": "Read with 1:10, what does 1:18 say the house of Esau shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "thistles"
+        },
+        {
+          "id": "b",
+          "text": "brambles"
+        },
+        {
+          "id": "c",
+          "text": "cinders"
+        },
+        {
+          "id": "d",
+          "text": "stubble"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Obadiah 1:10",
+            "text": "“For violence against your brother Jacob, Shame shall cover you, And you shall be cut off forever.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Obadiah 1:18",
+            "text": "The house of Jacob shall be a fire, And the house of Joseph a flame; But the house of Esau shall be stubble; They shall kindle them and devour them, And no survivor shall remain of the house of Esau,” For the LORD has spoken.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:18.",
+          "child": "Look right after “But the house of Esau shall be” in verse 18.",
+          "teen": "1:10 names the wrong; 1:18 gives three pictures. Read the third.",
+          "older": "It follows “But the house of Esau shall be” in 1:18."
+        },
+        "extended_explanation": "1:10 says shame shall cover Edom. 1:9 says Teman’s mighty men shall be dismayed.",
+        "takeaway": "The house of Esau shall be stubble."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 25",
+      "topics": [
+        "obadiah-edoms-fall"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD told Rebekah, “Two nations are in your womb” (25:23). According to Genesis 36:33, Jobab the son of Zerah of which city reigned after Bela died?",
+        "child": "After a king named Bela died, Jobab the son of Zerah became king. What city was Jobab from?",
+        "teen": "Genesis 36:33: “Jobab the son of Zerah of” where?",
+        "older": "Read with 25:23, of what city was Jobab the son of Zerah (36:33)?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Teman"
+        },
+        {
+          "id": "b",
+          "text": "Bozrah"
+        },
+        {
+          "id": "c",
+          "text": "Avith"
+        },
+        {
+          "id": "d",
+          "text": "Dinhabah"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 25:23",
+            "text": "And the LORD said to her: “Two nations are in your womb, Two peoples shall be separated from your body; One people shall be stronger than the other, And the older shall serve the younger.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 36:33",
+            "text": "And when Bela died, Jobab the son of Zerah of Bozrah reigned in his place.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the place named in 36:33.",
+          "child": "Look at the city named in verse 33.",
+          "teen": "25:23 speaks of two nations; 36:33 names who reigned after Bela and from where. Read the place.",
+          "older": "It follows “Jobab the son of Zerah of” in 36:33."
+        },
+        "extended_explanation": "36:31 begins the list of kings who reigned in Edom. 25:23 says one people shall be stronger than the other.",
+        "takeaway": "Jobab the son of Zerah of Bozrah reigned in his place."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-acts-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-act-0033",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 13",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Acts 13:16, after “Then Paul stood up, and,” how does the verse continue?",
+        "child": "After “Then Paul stood up, and,” how does Acts 13:16 continue?",
+        "teen": "What comes next in Acts 13:16, right after “Then Paul stood up, and”?",
+        "older": "According to Acts 13:16, after “Then Paul stood up, and,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "motioning with his hand"
+        },
+        {
+          "id": "b",
+          "text": "motioning with his head"
+        },
+        {
+          "id": "c",
+          "text": "motioning with his staff"
+        },
+        {
+          "id": "d",
+          "text": "motioning with his arms"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 13:16",
+            "text": "Then Paul stood up, and motioning with his hand said, “Men of Israel, and you who fear God, listen:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Acts 13:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Acts 13:16.",
+          "older": "The continuation is in Acts 13:16."
+        },
+        "extended_explanation": "Read the rest of Acts 13:16 as well.",
+        "takeaway": "motioning with his hand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-act-0034",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 14",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 13:9 is also cited. How does Acts 14:1 begin?",
+        "child": "What are the opening words of Acts 14:1?",
+        "teen": "How do the first words of Acts 14:1 run? This question also cites Acts 13:9.",
+        "older": "Read Acts 14:1 with Acts 13:9. How does Acts 14:1 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Now it happened in Antioch"
+        },
+        {
+          "id": "b",
+          "text": "Now it happened in Iconium"
+        },
+        {
+          "id": "c",
+          "text": "Now it happened in Corinth"
+        },
+        {
+          "id": "d",
+          "text": "Now it happened in Miletus"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 14:1",
+            "text": "Now it happened in Iconium that they went together to the synagogue of the Jews, and so spoke that a great multitude both of the Jews and of the Greeks believed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 13:9",
+            "text": "Then Saul, who also is called Paul, filled with the Holy Spirit, looked intently at him",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Acts 14:1.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Acts 13:9 is the companion citation. Start at the beginning of Acts 14:1.",
+          "older": "It is the opening of Acts 14:1."
+        },
+        "extended_explanation": "Acts 13:9 is cited alongside Acts 14:1. Read both verses.",
+        "takeaway": "Now it happened in Iconium."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gal-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 2",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 1:18 is also cited. How does Galatians 2:2 begin?",
+        "child": "What are the opening words of Galatians 2:2?",
+        "teen": "How do the first words of Galatians 2:2 run? This question also cites Galatians 1:18.",
+        "older": "Read Galatians 2:2 with Galatians 1:18. How does Galatians 2:2 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And I went up by reputation"
+        },
+        {
+          "id": "b",
+          "text": "And I went up by permission"
+        },
+        {
+          "id": "c",
+          "text": "And I went up by revelation"
+        },
+        {
+          "id": "d",
+          "text": "And I went up by invitation"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 2:2",
+            "text": "And I went up by revelation, and communicated to them that gospel which I preach among the Gentiles, but privately to those who were of reputation, lest by any means I might run, or had run, in vain.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 1:18",
+            "text": "Then after three years I went up to Jerusalem to see Peter, and remained with him fifteen days.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Galatians 2:2.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Galatians 1:18 is the companion citation. Start at the beginning of Galatians 2:2.",
+          "older": "It is the opening of Galatians 2:2."
+        },
+        "extended_explanation": "Galatians 1:18 is cited alongside Galatians 2:2. Read both verses.",
+        "takeaway": "And I went up by revelation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rom-0021",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 1",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 1:8 is also cited. In Romans 1:14, after “to Greeks and to barbarians,” how does the verse continue?",
+        "child": "After “to Greeks and to barbarians,” how does Romans 1:14 continue?",
+        "teen": "What comes next in Romans 1:14, right after “to Greeks and to barbarians”? This question also cites Romans 1:8.",
+        "older": "Read Romans 1:14 with Romans 1:8. After “to Greeks and to barbarians,” how does Romans 1:14 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "both to wise and to unkind"
+        },
+        {
+          "id": "b",
+          "text": "both to wise and to untaught"
+        },
+        {
+          "id": "c",
+          "text": "both to wise and to unlearned"
+        },
+        {
+          "id": "d",
+          "text": "both to wise and to unwise"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 1:14",
+            "text": "I am a debtor both to Greeks and to barbarians, both to wise and to unwise.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 1:8",
+            "text": "First, I thank my God through Jesus Christ for you all, that your faith is spoken of throughout the whole world.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Romans 1:14.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Romans 1:8 is the companion citation. Continue in Romans 1:14.",
+          "older": "The continuation is in Romans 1:14."
+        },
+        "extended_explanation": "Romans 1:8 is cited alongside Romans 1:14. Read both verses.",
+        "takeaway": "both to wise and to unwise."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1co-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Corinthians",
+      "section": "1 Corinthians 1",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Corinthians 1:11 is also cited. In 1 Corinthians 1:16, after “Yes, I also baptized,” how does the verse continue?",
+        "child": "After “Yes, I also baptized,” how does 1 Corinthians 1:16 continue?",
+        "teen": "What comes next in 1 Corinthians 1:16, right after “Yes, I also baptized”? This question also cites 1 Corinthians 1:11.",
+        "older": "Read 1 Corinthians 1:16 with 1 Corinthians 1:11. After “Yes, I also baptized,” how does 1 Corinthians 1:16 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the household of Stephanas"
+        },
+        {
+          "id": "b",
+          "text": "the household of Aristarchus"
+        },
+        {
+          "id": "c",
+          "text": "the household of Demetrius"
+        },
+        {
+          "id": "d",
+          "text": "the household of Apollos"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Corinthians 1:16",
+            "text": "Yes, I also baptized the household of Stephanas. Besides, I do not know whether I baptized any other.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Corinthians 1:11",
+            "text": "For it has been declared to me concerning you, my brethren, by those of Chloe’s household, that there are contentions among you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 1 Corinthians 1:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "1 Corinthians 1:11 is the companion citation. Continue in 1 Corinthians 1:16.",
+          "older": "The continuation is in 1 Corinthians 1:16."
+        },
+        "extended_explanation": "1 Corinthians 1:11 is cited alongside 1 Corinthians 1:16. Read both verses.",
+        "takeaway": "the household of Stephanas."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0035",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 17",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 20:17 is also cited. How does Acts 17:11 begin?",
+        "child": "What are the opening words of Acts 17:11?",
+        "teen": "How do the first words of Acts 17:11 run? This question also cites Acts 20:17.",
+        "older": "Read Acts 17:11 with Acts 20:17. How does Acts 17:11 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "These were more open-handed"
+        },
+        {
+          "id": "b",
+          "text": "These were more fair-minded"
+        },
+        {
+          "id": "c",
+          "text": "These were more stiff-necked"
+        },
+        {
+          "id": "d",
+          "text": "These were more faint-hearted"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 17:11",
+            "text": "These were more fair-minded than those in Thessalonica, in that they received the word with all readiness, and searched the Scriptures daily to find out whether these things were so.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 20:17",
+            "text": "From Miletus he sent to Ephesus and called for the elders of the church.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Acts 17:11.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Acts 20:17 is the companion citation. Start at the beginning of Acts 17:11.",
+          "older": "It is the opening of Acts 17:11."
+        },
+        "extended_explanation": "Acts 20:17 is cited alongside Acts 17:11. Read both verses.",
+        "takeaway": "These were more fair-minded."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0036",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 19",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 21:8 is also cited. In Acts 19:12, after “so that even,” how does the verse continue?",
+        "child": "After “so that even,” how does Acts 19:12 continue?",
+        "teen": "What comes next in Acts 19:12, right after “so that even”? This question also cites Acts 21:8.",
+        "older": "Read Acts 19:12 with Acts 21:8. After “so that even,” how does Acts 19:12 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "handkerchiefs or towels"
+        },
+        {
+          "id": "b",
+          "text": "handkerchiefs or cloths"
+        },
+        {
+          "id": "c",
+          "text": "handkerchiefs or aprons"
+        },
+        {
+          "id": "d",
+          "text": "handkerchiefs or belts"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 19:12",
+            "text": "so that even handkerchiefs or aprons were brought from his body to the sick, and the diseases left them and the evil spirits went out of them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 21:8",
+            "text": "On the next day we who were Paul’s companions departed and came to Caesarea, and entered the house of Philip the evangelist, who was one of the seven, and stayed with him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Acts 19:12.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Acts 21:8 is the companion citation. Continue in Acts 19:12.",
+          "older": "The continuation is in Acts 19:12."
+        },
+        "extended_explanation": "Acts 21:8 is cited alongside Acts 19:12. Read both verses.",
+        "takeaway": "handkerchiefs or aprons."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0037",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 22",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 23:26 is also cited. In Acts 22:3, after “Cilicia, but brought up in this city at,” how does the verse continue?",
+        "child": "After “Cilicia, but brought up in this city at,” how does Acts 22:3 continue?",
+        "teen": "What comes next in Acts 22:3, right after “Cilicia, but brought up in this city at”? This question also cites Acts 23:26.",
+        "older": "Read Acts 22:3 with Acts 23:26. After “Cilicia, but brought up in this city at,” how does Acts 22:3 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the feet of Gedaliah"
+        },
+        {
+          "id": "b",
+          "text": "the feet of Gemariah"
+        },
+        {
+          "id": "c",
+          "text": "the feet of Hananiah"
+        },
+        {
+          "id": "d",
+          "text": "the feet of Gamaliel"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 22:3",
+            "text": "“I am indeed a Jew, born in Tarsus of Cilicia, but brought up in this city at the feet of Gamaliel, taught according to the strictness of our fathers’ law, and was zealous toward God as you all are today.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 23:26",
+            "text": "Claudius Lysias, To the most excellent governor Felix: Greetings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Acts 22:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Acts 23:26 is the companion citation. Continue in Acts 22:3.",
+          "older": "The continuation is in Acts 22:3."
+        },
+        "extended_explanation": "Acts 23:26 is cited alongside Acts 22:3. Read both verses.",
+        "takeaway": "the feet of Gamaliel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0038",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 25",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 26:32 is also cited. In Acts 25:10, after “where I ought to be judged.” how does the verse continue?",
+        "child": "After “where I ought to be judged.” how does Acts 25:10 continue?",
+        "teen": "What comes next in Acts 25:10, right after “where I ought to be judged.”? This question also cites Acts 26:32.",
+        "older": "Read Acts 25:10 with Acts 26:32. After “where I ought to be judged.” how does Acts 25:10 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "To the Jews I have done no wrong"
+        },
+        {
+          "id": "b",
+          "text": "To the Jews I have done no harm"
+        },
+        {
+          "id": "c",
+          "text": "To the Jews I have done no evil"
+        },
+        {
+          "id": "d",
+          "text": "To the Jews I have done no injury"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 25:10",
+            "text": "So Paul said, “I stand at Caesar’s judgment seat, where I ought to be judged. To the Jews I have done no wrong, as you very well know.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 26:32",
+            "text": "Then Agrippa said to Festus, “This man might have been set free if he had not appealed to Caesar.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Acts 25:10.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Acts 26:32 is the companion citation. Continue in Acts 25:10.",
+          "older": "The continuation is in Acts 25:10."
+        },
+        "extended_explanation": "Acts 26:32 is cited alongside Acts 25:10. Read both verses.",
+        "takeaway": "To the Jews I have done no wrong."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0039",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 27",
+      "topics": [
+        "pauls-letters-setting-and-order"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 18:1 is also cited. In Acts 27:5, after “and Pamphylia, we came to Myra,” how does the verse continue?",
+        "child": "After “and Pamphylia, we came to Myra,” how does Acts 27:5 continue?",
+        "teen": "What comes next in Acts 27:5, right after “and Pamphylia, we came to Myra”? This question also cites Acts 18:1.",
+        "older": "Read Acts 27:5 with Acts 18:1. After “and Pamphylia, we came to Myra,” how does Acts 27:5 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a city of Lydia"
+        },
+        {
+          "id": "b",
+          "text": "a city of Lycia"
+        },
+        {
+          "id": "c",
+          "text": "a city of Libya"
+        },
+        {
+          "id": "d",
+          "text": "a city of Mysia"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 27:5",
+            "text": "And when we had sailed over the sea which is off Cilicia and Pamphylia, we came to Myra, a city of Lycia.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 18:1",
+            "text": "After these things Paul departed from Athens and went to Corinth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Acts 27:5.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Acts 18:1 is the companion citation. Continue in Acts 27:5.",
+          "older": "The continuation is in Acts 27:5."
+        },
+        "extended_explanation": "Acts 18:1 is cited alongside Acts 27:5. Read both verses.",
+        "takeaway": "a city of Lycia."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

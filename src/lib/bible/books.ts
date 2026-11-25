@@ -73,7 +73,34 @@ const ALIASES: Record<string, string> = {
   psalm: "PSA",
   psalms: "PSA",
   "song of songs": "SNG",
+  // Question ids write Nahum as nah. API.Bible lists the book as NAM.
+  nah: "NAM",
 };
+
+/**
+ * Question ids use a short book code, as in c1-oba-0001.
+ * The code is the API.Bible book id in lowercase.
+ * Nahum is the one exception already listed in ALIASES.
+ */
+const QUESTION_BOOK_CODE_OVERRIDES: Record<string, string> = {
+  nah: "NAM",
+};
+
+/** Resolves a content book code such as oba, nah, zep, phm, 2jn, or 3jn. */
+export function bookFromCode(code: string): BibleBookSummary | undefined {
+  const normalized = code.trim().toLowerCase();
+  if (!normalized) return undefined;
+  const id = QUESTION_BOOK_CODE_OVERRIDES[normalized] ?? normalized.toUpperCase();
+  return BOOKS.find((book) => book.id === id);
+}
+
+/** Book code in a question id such as c3-nah-0004 or c1-3jn-0001. */
+export function bookFromQuestionId(questionId: string): BibleBookSummary | undefined {
+  const match = /^c\d+-([a-z0-9]+)-\d+$/.exec(questionId.trim());
+  const code = match?.[1];
+  if (!code) return undefined;
+  return bookFromCode(code);
+}
 
 export function findBook(bookIdOrName: string): BibleBookSummary | undefined {
   const needle = bookIdOrName.trim().toLowerCase();

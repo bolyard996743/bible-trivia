@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-016",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-deu-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 18",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD promised to raise up one like Moses from among their brethren. In Deuteronomy 18:18, what will He put in His mouth?",
+        "child": "God promised to raise up one like Moses. What did God say He would put in that one’s mouth?",
+        "teen": "Deuteronomy 18:18: “and will put” what “in His mouth”?",
+        "older": "In Deuteronomy 18:18, what will the LORD put in His mouth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "My words in His mouth"
+        },
+        {
+          "id": "b",
+          "text": "My dream in His mouth"
+        },
+        {
+          "id": "c",
+          "text": "My visions in His mouth"
+        },
+        {
+          "id": "d",
+          "text": "My riddles in His mouth"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 18:18",
+            "text": "I will raise up for them a Prophet like you from among their brethren, and will put My words in His mouth, and He shall speak to them all that I command Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 18:18.",
+          "child": "Look right after “and will put” in verse 18.",
+          "teen": "18:18 names the one like Moses, then what the LORD will put in His mouth. Read that phrase.",
+          "older": "It follows “and will put” in 18:18."
+        },
+        "extended_explanation": "18:18 also says, “He shall speak to them all that I command Him.” 18:17 says, “What they have spoken is good.”",
+        "takeaway": "The LORD will put “My words” in His mouth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-exo-0023",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 12",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Exodus 12:1 says the LORD spoke to Moses and Aaron while they were in Egypt. In 12:2, what does He say this month shall be to them?",
+        "child": "While they were in Egypt, the LORD spoke to Moses and Aaron about the calendar. What did He say this month would be?",
+        "teen": "Exodus 12:2: “This month shall be your” what?",
+        "older": "Read with 12:1, what does 12:2 say this month shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "ending of months"
+        },
+        {
+          "id": "b",
+          "text": "beginning of months"
+        },
+        {
+          "id": "c",
+          "text": "middle of months"
+        },
+        {
+          "id": "d",
+          "text": "remainder of months"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 12:1",
+            "text": "Now the LORD spoke to Moses and Aaron in the land of Egypt, saying,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 12:2",
+            "text": "“This month shall be your beginning of months; it shall be the first month of the year to you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 12:2.",
+          "child": "Look right after “shall be your” in verse 2.",
+          "teen": "12:1 sets the speakers and the place; 12:2 names what the month shall be. Read that phrase.",
+          "older": "It follows “shall be your” in 12:2."
+        },
+        "extended_explanation": "12:2 also says it shall be the first month to them. 12:1 names Moses and Aaron, spoken to in Egypt.",
+        "takeaway": "This month shall be your beginning of months."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 16",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 16:4 describes what Aaron shall put on his body. In 16:7, what shall he take and present before the LORD at the door of the tabernacle of meeting?",
+        "child": "Before the lots were cast, Aaron had something to bring and present before the LORD. What does 16:7 say he shall take?",
+        "teen": "Leviticus 16:7: “He shall take” what “and present them before the LORD”?",
+        "older": "Read with 16:4, what does 16:7 say he shall take?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the two rams"
+        },
+        {
+          "id": "b",
+          "text": "the two calves"
+        },
+        {
+          "id": "c",
+          "text": "the two goats"
+        },
+        {
+          "id": "d",
+          "text": "the two doves"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 16:4",
+            "text": "He shall put the holy linen tunic and the linen trousers on his body; he shall be girded with a linen sash, and with the linen turban he shall be attired. These are holy garments. Therefore he shall wash his body in water, and put them on.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 16:7",
+            "text": "He shall take the two goats and present them before the LORD at the door of the tabernacle of meeting.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 16:7.",
+          "child": "Look right after “He shall take” in verse 7.",
+          "teen": "16:4 names what he puts on; 16:7 names what he shall take. Read that phrase.",
+          "older": "It follows “He shall take” in 16:7."
+        },
+        "extended_explanation": "16:4 names what he puts on his body. 16:7 says he shall present them at the door of the tabernacle of meeting.",
+        "takeaway": "He shall take the two goats."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-exo-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Exodus",
+      "section": "Exodus 12",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Exodus 12:6 names when they shall keep it. In 12:4, after a neighbor is included, how is the animal to be counted?",
+        "child": "If one household was too small for the animal, they were to join with a neighbor. How does 12:4 say they shall count it?",
+        "teen": "Exodus 12:4: “take it according to the number of” what?",
+        "older": "Read with 12:6, how does 12:4 say they shall make their count?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "according to the number of the tribes"
+        },
+        {
+          "id": "b",
+          "text": "according to the number of the families"
+        },
+        {
+          "id": "c",
+          "text": "according to the number of the shepherds"
+        },
+        {
+          "id": "d",
+          "text": "according to the number of the persons"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Exodus 12:4",
+            "text": "And if the household is too small for the lamb, let him and his neighbor next to his house take it according to the number of the persons; according to each man’s need you shall make your count for the lamb.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Exodus 12:6",
+            "text": "Now you shall keep it until the fourteenth day of the same month. Then the whole assembly of the congregation of Israel shall kill it at twilight.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 12:4.",
+          "child": "Look after “take it according to the number of” in verse 4.",
+          "teen": "12:6 names the time they keep it; 12:4 names how they count it. Read that phrase.",
+          "older": "It follows “according to the number of” in 12:4."
+        },
+        "extended_explanation": "12:4 also says, “according to each man’s need you shall make your count for the lamb.” 12:6 names the whole assembly of the congregation of Israel.",
+        "takeaway": "They shall take it according to the number of the persons."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 9",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 9:6 says the priests always went into the first part of the tabernacle. In 9:1, what does the first covenant have, along with ordinances of divine service?",
+        "child": "Hebrews describes what the first covenant had. Besides ordinances of divine service, what else does it name?",
+        "teen": "Hebrews 9:1: “the first covenant had ordinances of divine service and” what?",
+        "older": "Read with 9:6, what does 9:1 say the first covenant had, besides ordinances of divine service?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the earthly sanctuary"
+        },
+        {
+          "id": "b",
+          "text": "the heavenly throne room"
+        },
+        {
+          "id": "c",
+          "text": "the desert altar"
+        },
+        {
+          "id": "d",
+          "text": "the mountain shrine court"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 9:1",
+            "text": "Then indeed, even the first covenant had ordinances of divine service and the earthly sanctuary.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:6",
+            "text": "Now when these things had been thus prepared, the priests always went into the first part of the tabernacle, performing the services.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:1.",
+          "child": "Look at the last words of verse 1.",
+          "teen": "9:6 speaks of the priests’ service; 9:1 names two things the first covenant had. Read the second.",
+          "older": "It follows “and” at the end of 9:1."
+        },
+        "extended_explanation": "9:1 begins, “Then indeed, even the first covenant had ordinances of divine service.” 9:6 says the priests were performing the services.",
+        "takeaway": "The first covenant had the earthly sanctuary."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 16",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 16:31 calls that day a sabbath of solemn rest. In 16:20, before he brings the live goat, what has he made an end of for the Holy Place, the tabernacle of meeting, and the altar?",
+        "child": "After the priest finished the work for those places, he still had one animal to bring. What does the verse say he has already made an end of, for those places?",
+        "teen": "Leviticus 16:20: “when he has” done what “for the Holy Place”?",
+        "older": "Read with 16:31, what does 16:20 say he has made, for the Holy Place?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "made an end of washing"
+        },
+        {
+          "id": "b",
+          "text": "made an end of atoning"
+        },
+        {
+          "id": "c",
+          "text": "made an end of waiting"
+        },
+        {
+          "id": "d",
+          "text": "made an end of walking"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 16:20",
+            "text": "“And when he has made an end of atoning for the Holy Place, the tabernacle of meeting, and the altar, he shall bring the live goat.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 16:31",
+            "text": "It is a sabbath of solemn rest for you, and you shall afflict your souls. It is a statute forever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 16:20.",
+          "child": "Look right after “made an end of” in verse 20.",
+          "teen": "16:31 names the kind of day; 16:20 opens with what he has made an end of. Read that word.",
+          "older": "It follows “made an end of” in 16:20."
+        },
+        "extended_explanation": "16:20 also names the Holy Place, the tabernacle of meeting, and the altar. 16:31 says, “you shall afflict your souls.”",
+        "takeaway": "He has made an end of atoning for the Holy Place."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 16",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 16:32 speaks of the priest who is anointed and consecrated. In 16:14, he shall sprinkle some of the blood of the bull on the mercy seat. How does the verse say he sprinkles it?",
+        "child": "Aaron sprinkled blood on the mercy seat. How does the verse say he was to sprinkle it?",
+        "teen": "Leviticus 16:14: “and sprinkle it” how “on the mercy seat”?",
+        "older": "Read with 16:32, how does 16:14 say he shall sprinkle the blood on the mercy seat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with his hand"
+        },
+        {
+          "id": "b",
+          "text": "with his linen sleeve"
+        },
+        {
+          "id": "c",
+          "text": "with his finger"
+        },
+        {
+          "id": "d",
+          "text": "with his outer cloak"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 16:14",
+            "text": "He shall take some of the blood of the bull and sprinkle it with his finger on the mercy seat on the east side; and before the mercy seat he shall sprinkle some of the blood with his finger seven times.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 16:32",
+            "text": "And the priest, who is anointed and consecrated to minister as priest in his father’s place, shall make atonement, and put on the linen clothes, the holy garments;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 16:14.",
+          "child": "Look right after “sprinkle it” in verse 14.",
+          "teen": "16:32 speaks of the consecrated priest; 16:14 names how he sprinkles the blood. Read that phrase.",
+          "older": "It follows “sprinkle it” in 16:14."
+        },
+        "extended_explanation": "16:32 also says he is anointed and consecrated to minister as priest in his father’s place. 16:30 says, “that you may be clean from all your sins before the LORD.”",
+        "takeaway": "He shall sprinkle it with his finger on the mercy seat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0023",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 22",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Genesis 22:16 the LORD says, “By Myself I have sworn.” In 22:10, as they reached the place, what did Abraham stretch out his hand and take?",
+        "child": "At the place of the offering, Abraham stretched out his hand. What does the verse say he took?",
+        "teen": "Genesis 22:10: “and Abraham stretched out his hand and took” what?",
+        "older": "Read with 22:16, what does 22:10 say Abraham took?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "took the staff to lead his son"
+        },
+        {
+          "id": "b",
+          "text": "took the fire to warm his son"
+        },
+        {
+          "id": "c",
+          "text": "took the wood to hide his son"
+        },
+        {
+          "id": "d",
+          "text": "took the knife to slay his son"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 22:10",
+            "text": "And Abraham stretched out his hand and took the knife to slay his son.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 22:16",
+            "text": "and said: “By Myself I have sworn, says the LORD, because you have done this thing, and have not withheld your son, your only son—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 22:10.",
+          "child": "Look right after “stretched out his hand and took” in verse 10.",
+          "teen": "22:16 is the LORD’s oath; 22:10 names what Abraham took. Read that phrase.",
+          "older": "It follows “and took” in 22:10."
+        },
+        "extended_explanation": "22:16 begins, “By Myself I have sworn, says the LORD.” 22:10 says Abraham stretched out his hand.",
+        "takeaway": "Abraham took the knife to slay his son."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 9",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 9:7 says the high priest went in alone once a year, not without blood. In 9:3, where is the part of the tabernacle which is called the Holiest of All?",
+        "child": "Hebrews describes two parts of the tabernacle. Where does 9:3 place the later of those parts?",
+        "teen": "Hebrews 9:3: where is the part of the tabernacle which is called the Holiest of All?",
+        "older": "Read with 9:7, where does 9:3 place that part?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "behind the second veil"
+        },
+        {
+          "id": "b",
+          "text": "beside the second altar"
+        },
+        {
+          "id": "c",
+          "text": "under the second lampstand"
+        },
+        {
+          "id": "d",
+          "text": "inside the second hall"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 9:3",
+            "text": "and behind the second veil, the part of the tabernacle which is called the Holiest of All,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:7",
+            "text": "But into the second part the high priest went alone once a year, not without blood, which he offered for himself and for the people’s sins committed in ignorance;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 9:3.",
+          "child": "Look at the opening words of verse 3.",
+          "teen": "9:7 describes the later part; 9:3 begins by placing it. Read that opening phrase.",
+          "older": "It is the opening phrase of 9:3."
+        },
+        "extended_explanation": "9:3 also names the part of the tabernacle after that opening phrase. 9:7 says he offered blood for himself and for the people’s sins.",
+        "takeaway": "That part is behind the second veil."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 9",
+      "topics": [
+        "christ-in-the-law"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 9:10 mentions foods and drinks, various washings, and fleshly ordinances. In 9:5, what were above the ark, overshadowing the mercy seat?",
+        "child": "Hebrews describes what stood above the mercy seat. What does the verse say was there, overshadowing it?",
+        "teen": "Hebrews 9:5: “and above it were” what “overshadowing the mercy seat”?",
+        "older": "Read with 9:10, what does 9:5 say was above it, overshadowing the mercy seat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the pillars of bronze"
+        },
+        {
+          "id": "b",
+          "text": "the cherubim of glory"
+        },
+        {
+          "id": "c",
+          "text": "the curtains of blue"
+        },
+        {
+          "id": "d",
+          "text": "the lamps of gold"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 9:5",
+            "text": "and above it were the cherubim of glory overshadowing the mercy seat. Of these things we cannot now speak in detail.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:10",
+            "text": "concerned only with foods and drinks, various washings, and fleshly ordinances imposed until the time of reformation.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 9:5.",
+          "child": "Look right after “and above it were” in verse 5.",
+          "teen": "9:10 names temporary ordinances; 9:5 names what stood above. Read that phrase.",
+          "older": "It follows “and above it were” in 9:5."
+        },
+        "extended_explanation": "9:5 also says, “Of these things we cannot now speak in detail.” 9:10 says these were imposed until the time of reformation.",
+        "takeaway": "Above it were the cherubim of glory."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

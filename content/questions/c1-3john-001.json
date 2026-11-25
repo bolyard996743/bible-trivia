@@ -1,0 +1,392 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-3john-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-3jn-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "3 John",
+      "section": "3 John 1",
+      "topics": [
+        "3-john-walking-in-the-truth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Elder wrote, but one man would not receive him. According to 3 John 1:9, who loves to have the preeminence among them?",
+        "child": "One leader loved being first and wouldn’t welcome John. What was his name?",
+        "teen": "3 John 1:9: who “loves to have the preeminence among them”?",
+        "older": "According to 3 John 1:9, who would not receive the Elder?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hermogenes"
+        },
+        {
+          "id": "b",
+          "text": "Alexander"
+        },
+        {
+          "id": "c",
+          "text": "Diotrephes"
+        },
+        {
+          "id": "d",
+          "text": "Hymenaeus"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "3 John 1:9",
+            "text": "I wrote to the church, but Diotrephes, who loves to have the preeminence among them, does not receive us.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:9.",
+          "child": "Look right after “but” in verse 9.",
+          "teen": "1:9 says the Elder wrote to the church and then names the man who resisted. Read the name.",
+          "older": "It follows “I wrote to the church, but” in 1:9."
+        },
+        "extended_explanation": "1:10 says if the Elder comes he will call to mind his deeds. 1:10 also says he does not receive the brethren.",
+        "takeaway": "Diotrephes loves to have the preeminence."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-3jn-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "3 John",
+      "section": "3 John 1",
+      "topics": [
+        "3-john-walking-in-the-truth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3 John 1:8 says we ought to receive such workers. In 1:10, the man who resists the Elder does not receive the brethren and forbids those who wish to. What else does he do to them?",
+        "child": "One leader refused to welcome traveling believers and stopped others from welcoming them. What else did he do?",
+        "teen": "3 John 1:10: he forbids those who wish to receive the brethren, and does what to them?",
+        "older": "Read with 1:8, what does 1:10 say the resisting leader does to those who wish to receive the brethren?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "putting them out of the church"
+        },
+        {
+          "id": "b",
+          "text": "keeping them from the Lord’s table"
+        },
+        {
+          "id": "c",
+          "text": "taking away their offerings"
+        },
+        {
+          "id": "d",
+          "text": "sending them away to Ephesus"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "3 John 1:8",
+            "text": "We therefore ought to receive such, that we may become fellow workers for the truth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "3 John 1:10",
+            "text": "Therefore, if I come, I will call to mind his deeds which he does, prating against us with malicious words. And not content with that, he himself does not receive the brethren, and forbids those who wish to, putting them out of the church.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:10.",
+          "child": "Look at the last words of verse 10.",
+          "teen": "1:8 says what we ought to do; 1:10 lists what one man does instead. Read the last item.",
+          "older": "It follows “and forbids those who wish to,” in 1:10."
+        },
+        "extended_explanation": "1:10 says he prates against us with malicious words. 1:8 speaks of becoming fellow workers for the truth.",
+        "takeaway": "He forbids them, putting them out of the church."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-3jn-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "3 John",
+      "section": "3 John 1",
+      "topics": [
+        "3-john-walking-in-the-truth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Gaius has been faithful to brethren and strangers (1:5). According to 1:6, how should he send them forward on their journey?",
+        "child": "Gaius helped traveling believers. How does John say Gaius should send them on their way?",
+        "teen": "3 John 1:6: “If you send them forward on their journey” how?",
+        "older": "According to 3 John 1:6, how should Gaius send travelers forward?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "with letters of commendation"
+        },
+        {
+          "id": "b",
+          "text": "with food for the road"
+        },
+        {
+          "id": "c",
+          "text": "in the company of elders"
+        },
+        {
+          "id": "d",
+          "text": "in a manner worthy of God"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "3 John 1:5",
+            "text": "Beloved, you do faithfully whatever you do for the brethren and for strangers,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "3 John 1:6",
+            "text": "who have borne witness of your love before the church. If you send them forward on their journey in a manner worthy of God, you will do well,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:6.",
+          "child": "Look right after “on their journey” in verse 6.",
+          "teen": "1:5 praises Gaius; 1:6 gives a condition and then a promise. Read how the sending should be done.",
+          "older": "It follows “send them forward on their journey” in 1:6."
+        },
+        "extended_explanation": "1:6 says they have borne witness of Gaius’s love before the church. 1:7 says they took nothing from the Gentiles.",
+        "takeaway": "Send them forward in a manner worthy of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-3jn-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "3 John",
+      "section": "3 John 1",
+      "topics": [
+        "3-john-walking-in-the-truth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "3 John 1:11 urges Gaius to imitate the good, not the evil. In 1:12 the Elder commends a man everyone speaks well of and adds his own witness. What does he say Gaius knows?",
+        "child": "John tells Gaius to copy good, not evil. Then he speaks up for a man everyone praised. What does he say Gaius knows about John’s word?",
+        "teen": "3 John 1:12: “And we also bear witness, and you know” what?",
+        "older": "Read with 1:11, what does 1:12 say Gaius knows?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "that our letters are urgent"
+        },
+        {
+          "id": "b",
+          "text": "that our testimony is true"
+        },
+        {
+          "id": "c",
+          "text": "that our journey is long"
+        },
+        {
+          "id": "d",
+          "text": "that our hearts are joined"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "3 John 1:11",
+            "text": "Beloved, do not imitate what is evil, but what is good. He who does good is of God, but he who does evil has not seen God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "3 John 1:12",
+            "text": "Demetrius has a good testimony from all, and from the truth itself. And we also bear witness, and you know that our testimony is true.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the last words of 1:12.",
+          "child": "Look at the very end of verse 12.",
+          "teen": "1:11 urges imitation of good; 1:12 commends a man, then adds the Elder’s own witness, then what Gaius knows. Read the end.",
+          "older": "It follows “and you know” in 1:12."
+        },
+        "extended_explanation": "1:11 contrasts the one who does good with the one who does evil. 1:12 says all speak well of the man.",
+        "takeaway": "You know that our testimony is true."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-3jn-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "3 John",
+      "section": "3 John 1",
+      "topics": [
+        "3-john-walking-in-the-truth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3 John 1:4 the Elder has no greater joy than hearing that his children walk in truth. In 1:7, why did the traveling brethren set out?",
+        "child": "John was overjoyed to hear his spiritual children were living right. Why had the traveling believers gone out?",
+        "teen": "3 John 1:7: the traveling brethren set out for what reason?",
+        "older": "Read with 1:4, why does 1:7 say the brethren set out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "for the sake of the poor"
+        },
+        {
+          "id": "b",
+          "text": "to escape persecution"
+        },
+        {
+          "id": "c",
+          "text": "for His name’s sake"
+        },
+        {
+          "id": "d",
+          "text": "to gather an offering"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "3 John 1:4",
+            "text": "I have no greater joy than to hear that my children walk in truth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "3 John 1:7",
+            "text": "because they went forth for His name’s sake, taking nothing from the Gentiles.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:7.",
+          "child": "Look at the first words of verse 7.",
+          "teen": "1:4 speaks of joy; 1:7 gives the reason they went and how they traveled. Read the reason.",
+          "older": "It ends the opening clause of 1:7."
+        },
+        "extended_explanation": "1:7 says they took nothing from the Gentiles. 1:8 says we ought to receive such.",
+        "takeaway": "They set out for His name’s sake."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-3jn-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "3 John",
+      "section": "3 John 1",
+      "topics": [
+        "3-john-walking-in-the-truth"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 3 John 1:11 the Elder urges Gaius to imitate the good. In 1:13 he says he has many things to write, but does not wish to write with what?",
+        "child": "John had more to say to Gaius but didn’t want to put it all in writing. What didn’t he want to write with?",
+        "teen": "3 John 1:13: “I do not wish to write to you with” what?",
+        "older": "Read with 1:11, what does 1:13 say the Elder does not wish to write with?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "pen and ink"
+        },
+        {
+          "id": "b",
+          "text": "reed and parchment"
+        },
+        {
+          "id": "c",
+          "text": "tablet and stylus"
+        },
+        {
+          "id": "d",
+          "text": "scroll and seal"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "3 John 1:11",
+            "text": "Beloved, do not imitate what is evil, but what is good. He who does good is of God, but he who does evil has not seen God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "3 John 1:13",
+            "text": "I had many things to write, but I do not wish to write to you with pen and ink;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:13.",
+          "child": "Look at the last words of verse 13.",
+          "teen": "1:11 gives counsel; 1:13 says what he has and what he does not wish to use. Read the end.",
+          "older": "It follows “write to you with” in 1:13."
+        },
+        "extended_explanation": "1:14 says he hopes to see Gaius shortly. 1:14 ends, “Peace to you.”",
+        "takeaway": "He did not wish to write with pen and ink."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

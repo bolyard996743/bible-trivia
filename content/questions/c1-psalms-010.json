@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-010",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-psa-0027",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 90",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 90:12 is a prayer. After “So teach us to,” what does the verse first ask?",
+        "child": "Moses prays in 90:12. After “So teach us to,” what does the verse first ask?",
+        "teen": "Psalm 90:12: after “So teach us to,” what is first asked?",
+        "older": "According to Psalm 90:12, after “So teach us to,” what does the verse first ask?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "teach us to number our days"
+        },
+        {
+          "id": "b",
+          "text": "teach us to number years"
+        },
+        {
+          "id": "c",
+          "text": "teach us to number our steps"
+        },
+        {
+          "id": "d",
+          "text": "teach us to number our words"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 90:12",
+            "text": "So teach us to number our days, That we may gain a heart of wisdom.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 90:12.",
+          "child": "Look just after “So teach us to” in verse 12.",
+          "teen": "90:12 opens with this request. Read that phrase.",
+          "older": "It follows “So teach us to” in 90:12."
+        },
+        "extended_explanation": "90:12 also says, “That we may gain a heart of wisdom.”",
+        "takeaway": "teach us to number our days."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-psa-0028",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 107",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 107:16 tells what He has broken. After “For He has broken,” what does the verse first name? Psalm 90:2 speaks of God from everlasting to everlasting.",
+        "child": "A claim is made about what has been broken. After “For He has broken,” what does 107:16 first name?",
+        "teen": "Psalm 107:16: after “For He has broken,” what is first named?",
+        "older": "Read with 90:2. According to Psalm 107:16, after “For He has broken,” what does the verse first name?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the gates of silver"
+        },
+        {
+          "id": "b",
+          "text": "the gates of bronze"
+        },
+        {
+          "id": "c",
+          "text": "the gates of marble"
+        },
+        {
+          "id": "d",
+          "text": "the gates of cedar"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 107:16",
+            "text": "For He has broken the gates of bronze, And cut the bars of iron in two.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 90:2",
+            "text": "Before the mountains were brought forth, Or ever You had formed the earth and the world, Even from everlasting to everlasting, You are God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 107:16. 90:2 names God from everlasting to everlasting.",
+          "child": "Look just after “For He has broken” in verse 16.",
+          "teen": "107:16 opens with this claim. Read that phrase.",
+          "older": "It follows “For He has broken” in 107:16."
+        },
+        "extended_explanation": "107:16 also says He has “cut the bars of iron in two.” 90:2 says, “Even from everlasting to everlasting, You are God.”",
+        "takeaway": "the gates of bronze."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0027",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 73",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 73:24 tells what God will do. After “You will guide me,” how does the verse say He will guide him?",
+        "child": "The psalmist speaks of being guided. After “You will guide me,” how does 73:24 say He will guide him?",
+        "teen": "Psalm 73:24: after “You will guide me,” how is he guided?",
+        "older": "According to Psalm 73:24, after “You will guide me,” how does the verse say He will guide him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You will guide me with Your great army"
+        },
+        {
+          "id": "b",
+          "text": "You will guide me with Your honor"
+        },
+        {
+          "id": "c",
+          "text": "You will guide me with Your counsel"
+        },
+        {
+          "id": "d",
+          "text": "You will guide me with Your anger"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 73:24",
+            "text": "You will guide me with Your counsel, And afterward receive me to glory.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 89:20",
+            "text": "I have found My servant David; With My holy oil I have anointed him,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 73:24.",
+          "child": "Look just after “You will guide me” in verse 24.",
+          "teen": "73:24 opens with this promise. Read that sentence.",
+          "older": "It follows “You will guide me” in 73:24."
+        },
+        "extended_explanation": "73:24 also says, “And afterward receive me to glory.”",
+        "takeaway": "You will guide me with Your counsel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0028",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 41",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 107:9 tells what He does for the longing soul. In 41:9, after “Even my own familiar friend in whom I trusted,,” what does the verse say next?",
+        "child": "A close companion is named. After “Even my own familiar friend in whom I trusted,,” what does 41:9 say next?",
+        "teen": "Psalm 41:9: after “Even my own familiar friend in whom I trusted,,” what comes next?",
+        "older": "Read with 107:9. According to Psalm 41:9, after “Even my own familiar friend in whom I trusted,,” what does the verse say next?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who ate my meat"
+        },
+        {
+          "id": "b",
+          "text": "Who took my cloak"
+        },
+        {
+          "id": "c",
+          "text": "Who held my hand"
+        },
+        {
+          "id": "d",
+          "text": "Who ate my bread"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 41:9",
+            "text": "Even my own familiar friend in whom I trusted, Who ate my bread, Has lifted up his heel against me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 107:9",
+            "text": "For He satisfies the longing soul, And fills the hungry soul with goodness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 41:9. 107:9 tells what He does for the longing soul.",
+          "child": "Look just after that opening clause in verse 9.",
+          "teen": "41:9 continues with this line. Read that phrase.",
+          "older": "It follows the opening clause of 41:9."
+        },
+        "extended_explanation": "41:9 also says, “Has lifted up his heel against me.” 107:9 says, “For He satisfies the longing soul.”",
+        "takeaway": "Who ate my bread."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0029",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 72",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 72:4 tells what the king will do for the poor. After “He will bring justice to,” whom does the verse name first?",
+        "child": "A prayer is made for the king’s justice. After “He will bring justice to,” whom does 72:4 name first?",
+        "teen": "Psalm 72:4: after “He will bring justice to,” whom is named first?",
+        "older": "According to Psalm 72:4, after “He will bring justice to,” whom is first named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He will bring justice to the poor of the people"
+        },
+        {
+          "id": "b",
+          "text": "He will bring justice to the poor of the high court"
+        },
+        {
+          "id": "c",
+          "text": "He will bring justice to the poor of the earth"
+        },
+        {
+          "id": "d",
+          "text": "He will bring justice to the poor of the gates"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 72:4",
+            "text": "He will bring justice to the poor of the people; He will save the children of the needy, And will break in pieces the oppressor.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 106:5",
+            "text": "That I may see the benefit of Your chosen ones, That I may rejoice in the gladness of Your nation, That I may glory with Your inheritance.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 72:4.",
+          "child": "Look just after “He will bring justice to” in verse 4.",
+          "teen": "72:4 opens with this claim. Read that sentence.",
+          "older": "It follows “He will bring justice to” in 72:4."
+        },
+        "extended_explanation": "72:4 also says, “He will save the children of the needy.”",
+        "takeaway": "He will bring justice to the poor of the people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0030",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 107",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 90:1 says, “Lord, You have been our dwelling place in all generations.” In 107:2, after the opening call, how does the verse continue?",
+        "child": "Some are told to speak. After the opening call of 107:2, how does the verse continue?",
+        "teen": "Psalm 107:2: after the opening call, how does it continue?",
+        "older": "Read with 90:1, how does 107:2 continue after the opening call?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Whom He has gathered from a far country"
+        },
+        {
+          "id": "b",
+          "text": "Whom He has redeemed from the hand of the enemy"
+        },
+        {
+          "id": "c",
+          "text": "Whom He has chosen from the tribes of Israel"
+        },
+        {
+          "id": "d",
+          "text": "Whom He has called from the midst of the nations"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 107:2",
+            "text": "Let the redeemed of the LORD say so, Whom He has redeemed from the hand of the enemy,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 90:1",
+            "text": "Lord, You have been our dwelling place in all generations.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 107:2.",
+          "child": "Look at the last clause of verse 2.",
+          "teen": "90:1 names our dwelling place; 107:2 continues after the call to speak. Read that phrase.",
+          "older": "It is the last clause of 107:2."
+        },
+        "extended_explanation": "90:1 says, “Lord, You have been our dwelling place in all generations.”",
+        "takeaway": "Whom He has redeemed from the hand of the enemy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0031",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 106",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 150:2 tells why He is honored for His mighty acts. In 106:2, after “Who can utter the mighty acts of the LORD?,” what does the verse ask next?",
+        "child": "The psalm asks a second question in 106:2. After the first question, what does it ask next?",
+        "teen": "Psalm 106:2: after the first question, what is asked next?",
+        "older": "Read with 150:2, what does 106:2 ask next after the first question?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who can declare all His mighty works"
+        },
+        {
+          "id": "b",
+          "text": "Who can declare all His ways"
+        },
+        {
+          "id": "c",
+          "text": "Who can declare all His praise"
+        },
+        {
+          "id": "d",
+          "text": "Who can declare all His laws"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 106:2",
+            "text": "Who can utter the mighty acts of the LORD? Who can declare all His praise?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 150:2",
+            "text": "Praise Him for His mighty acts; Praise Him according to His excellent greatness!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 106:2.",
+          "child": "Look at the last question of verse 2.",
+          "teen": "150:2 names His mighty acts; 106:2 ends with this question. Read that sentence.",
+          "older": "It is the last question of 106:2."
+        },
+        "extended_explanation": "106:2 begins, “Who can utter the mighty acts of the LORD?” 150:2 also speaks of “His excellent greatness.”",
+        "takeaway": "Who can declare all His praise."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0032",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 89",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 107:8 is a call to give thanks for His goodness. In 89:5, after “Your faithfulness also,” where does the verse say it is placed?",
+        "child": "The psalm speaks of the LORD’s faithfulness. After “Your faithfulness also,” where does 89:5 place it?",
+        "teen": "Psalm 89:5: after “Your faithfulness also,” where is it placed?",
+        "older": "Read with 107:8, where does 89:5 place His faithfulness after “Your faithfulness also”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in the assembly of the princes"
+        },
+        {
+          "id": "b",
+          "text": "in the assembly of the mighty"
+        },
+        {
+          "id": "c",
+          "text": "in the assembly of the nations"
+        },
+        {
+          "id": "d",
+          "text": "in the assembly of the saints"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 89:5",
+            "text": "And the heavens will praise Your wonders, O LORD; Your faithfulness also in the assembly of the saints.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 107:8",
+            "text": "Oh, that men would give thanks to the LORD for His goodness, And for His wonderful works to the children of men!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 89:5.",
+          "child": "Look at the last phrase of verse 5.",
+          "teen": "107:8 calls for thanks; 89:5 ends with this place. Read that phrase.",
+          "older": "It is the last phrase of 89:5."
+        },
+        "extended_explanation": "89:5 opens by naming His wonders. 107:8 also says, “And for His wonderful works to the children of men!”",
+        "takeaway": "in the assembly of the saints."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0033",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 106",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 72:7 looks ahead to a lasting peace. In 106:4, after “Oh, visit me with,” what does the verse ask?",
+        "child": "The psalmist asks to be remembered and visited. After “Oh, visit me with,” what does 106:4 ask?",
+        "teen": "Psalm 106:4: after “Oh, visit me with,” what is asked?",
+        "older": "Read with 72:7, what does 106:4 ask after “Oh, visit me with”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oh, visit me with Your salvation"
+        },
+        {
+          "id": "b",
+          "text": "Oh, visit me with Your sure justice"
+        },
+        {
+          "id": "c",
+          "text": "Oh, visit me with Your comfort"
+        },
+        {
+          "id": "d",
+          "text": "Oh, visit me with Your mercy"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 106:4",
+            "text": "Remember me, O LORD, with the favor You have toward Your people. Oh, visit me with Your salvation,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 72:7",
+            "text": "In His days the righteous shall flourish, And abundance of peace, Until the moon is no more.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 106:4.",
+          "child": "Look just after “Oh, visit me with” in verse 4.",
+          "teen": "72:7 looks ahead to a lasting peace; 106:4 ends with this request. Read that phrase.",
+          "older": "It follows “Oh, visit me with” in 106:4."
+        },
+        "extended_explanation": "106:4 opens with a request to be remembered.",
+        "takeaway": "Oh, visit me with Your salvation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0034",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 89",
+      "topics": [
+        "psalms-the-five-books"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 150:5 names “loud cymbals” and “clashing cymbals.” In 89:11, after “The heavens are Yours,,” what does the verse first say next?",
+        "child": "The psalmist speaks of what is the LORD’s. After “The heavens are Yours,,” what does 89:11 first say next?",
+        "teen": "Psalm 89:11: after “The heavens are Yours,,” what comes next?",
+        "older": "Read with 150:5, what does 89:11 first say after “The heavens are Yours,”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the sky also is Yours"
+        },
+        {
+          "id": "b",
+          "text": "the earth also is Yours"
+        },
+        {
+          "id": "c",
+          "text": "the sea also is Yours"
+        },
+        {
+          "id": "d",
+          "text": "the field also is Yours"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 89:11",
+            "text": "The heavens are Yours, the earth also is Yours; The world and all its fullness, You have founded them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 150:5",
+            "text": "Praise Him with loud cymbals; Praise Him with clashing cymbals!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 89:11.",
+          "child": "Look just after “The heavens are Yours,” in verse 11.",
+          "teen": "150:5 names loud and clashing cymbals; 89:11 continues after the heavens. Read that phrase.",
+          "older": "It follows “The heavens are Yours,” in 89:11."
+        },
+        "extended_explanation": "89:11 also says, “The world and all its fullness, You have founded them.” 150:5 names “loud cymbals” and “clashing cymbals.”",
+        "takeaway": "the earth also is Yours."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

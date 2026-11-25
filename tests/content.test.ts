@@ -926,8 +926,8 @@ describe("Fruitful questions", () => {
   it("wires all 69 Fruitful badges, including Batch I", () => {
     const result = validateContentTree(process.cwd());
     expect(result.ok).toBe(true);
-    expect(result.questionCount).toBe(1444);
-    expect(result.lineCount).toBe(21796);
+    expect(result.questionCount).toBe(1848);
+    expect(result.lineCount).toBe(27856);
 
     const pathFile = JSON.parse(fs.readFileSync(path.join(process.cwd(), "content/knowledge_path.json"), "utf8")) as {
       stages: { stage: string; badges: { id: string; name: string; questionIds: string[] }[] }[];
@@ -1056,7 +1056,7 @@ describe("Fruitful questions", () => {
       "c3-2pe-0004",
     ]);
     expect(questions.filter((question) => fruitfulIds.includes(question.id))).toHaveLength(552);
-    expect(lines).toHaveLength(21796);
+    expect(lines).toHaveLength(27856);
     const pathLines = linesForPathPlay(lines);
     const moments = ["wrong_intro", "correct", "correct_after_retry"] as const;
     const mascots = ["judah", "agnes", "shalom", "zion", "hunter"] as const;

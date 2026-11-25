@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-hebrews-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-heb-0013",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 1",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Hebrews 1:9, after “hated lawlessness; Therefore God, Your God,” how does the verse continue?",
+        "child": "After “hated lawlessness; Therefore God, Your God,” how does Hebrews 1:9 continue?",
+        "teen": "What comes next in Hebrews 1:9, right after “hated lawlessness; Therefore God, Your God”?",
+        "older": "According to Hebrews 1:9, after “hated lawlessness; Therefore God, Your God,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "has anointed You"
+        },
+        {
+          "id": "b",
+          "text": "has anointed her"
+        },
+        {
+          "id": "c",
+          "text": "has anointed him"
+        },
+        {
+          "id": "d",
+          "text": "has anointed them"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 1:9",
+            "text": "You have loved righteousness and hated lawlessness; Therefore God, Your God, has anointed You With the oil of gladness more than Your companions.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 1:9.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Hebrews 1:9.",
+          "older": "The continuation is in Hebrews 1:9."
+        },
+        "extended_explanation": "Read the rest of Hebrews 1:9 as well.",
+        "takeaway": "has anointed You."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-heb-0014",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 1",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 2:5 is also cited. In Hebrews 1:12, after “fold them up, And,” how does the verse continue?",
+        "child": "After “fold them up, And,” how does Hebrews 1:12 continue?",
+        "teen": "What comes next in Hebrews 1:12, right after “fold them up, And”? This question also cites Hebrews 2:5.",
+        "older": "Read Hebrews 1:12 with Hebrews 2:5. After “fold them up, And,” how does Hebrews 1:12 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "they will be charged"
+        },
+        {
+          "id": "b",
+          "text": "they will be changed"
+        },
+        {
+          "id": "c",
+          "text": "they will be chosen"
+        },
+        {
+          "id": "d",
+          "text": "they will be removed"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 1:12",
+            "text": "Like a cloak You will fold them up, And they will be changed. But You are the same, And Your years will not fail.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 2:5",
+            "text": "For He has not put the world to come, of which we speak, in subjection to angels.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 1:12.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 2:5 is the companion citation. Continue in Hebrews 1:12.",
+          "older": "The continuation is in Hebrews 1:12."
+        },
+        "extended_explanation": "Hebrews 2:5 is cited alongside Hebrews 1:12. Read both verses.",
+        "takeaway": "they will be changed."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0015",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 2",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 3:1 is also cited. How does Hebrews 2:11 begin?",
+        "child": "What are the opening words of Hebrews 2:11?",
+        "teen": "How do the first words of Hebrews 2:11 run? This question also cites Hebrews 3:1.",
+        "older": "Read Hebrews 2:11 with Hebrews 3:1. How does Hebrews 2:11 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For both He who satisfies"
+        },
+        {
+          "id": "b",
+          "text": "For both He who sacrifices"
+        },
+        {
+          "id": "c",
+          "text": "For both He who sanctifies"
+        },
+        {
+          "id": "d",
+          "text": "For both He who sanctions"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 2:11",
+            "text": "For both He who sanctifies and those who are being sanctified are all of one, for which reason He is not ashamed to call them brethren,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 3:1",
+            "text": "Therefore, holy brethren, partakers of the heavenly calling, consider the Apostle and High Priest of our confession, Christ Jesus,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Hebrews 2:11.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Hebrews 3:1 is the companion citation. Start at the beginning of Hebrews 2:11.",
+          "older": "It is the opening of Hebrews 2:11."
+        },
+        "extended_explanation": "Hebrews 3:1 is cited alongside Hebrews 2:11. Read both verses.",
+        "takeaway": "For both He who sanctifies."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0016",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 3",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 5:8 is also cited. How does Hebrews 3:2 begin?",
+        "child": "What are the opening words of Hebrews 3:2?",
+        "teen": "How do the first words of Hebrews 3:2 run? This question also cites Hebrews 5:8.",
+        "older": "Read Hebrews 3:2 with Hebrews 5:8. How does Hebrews 3:2 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who was faithful to Him who appointed them"
+        },
+        {
+          "id": "b",
+          "text": "who was faithful to Him who appointed us"
+        },
+        {
+          "id": "c",
+          "text": "who was faithful to Him who appointed you"
+        },
+        {
+          "id": "d",
+          "text": "who was faithful to Him who appointed Him"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 3:2",
+            "text": "who was faithful to Him who appointed Him, as Moses also was faithful in all His house.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 5:8",
+            "text": "though He was a Son, yet He learned obedience by the things which He suffered.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Hebrews 3:2.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Hebrews 5:8 is the companion citation. Start at the beginning of Hebrews 3:2.",
+          "older": "It is the opening of Hebrews 3:2."
+        },
+        "extended_explanation": "Hebrews 5:8 is cited alongside Hebrews 3:2. Read both verses.",
+        "takeaway": "who was faithful to Him who appointed Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0017",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 7",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 5:9 is also cited. In Hebrews 7:4, after “whom even the patriarch Abraham gave,” how does the verse continue?",
+        "child": "After “whom even the patriarch Abraham gave,” how does Hebrews 7:4 continue?",
+        "teen": "What comes next in Hebrews 7:4, right after “whom even the patriarch Abraham gave”? This question also cites Hebrews 5:9.",
+        "older": "Read Hebrews 7:4 with Hebrews 5:9. After “whom even the patriarch Abraham gave,” how does Hebrews 7:4 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a tenth of the spoils"
+        },
+        {
+          "id": "b",
+          "text": "a tenth of the spears"
+        },
+        {
+          "id": "c",
+          "text": "a tenth of the stones"
+        },
+        {
+          "id": "d",
+          "text": "a tenth of the stalls"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 7:4",
+            "text": "Now consider how great this man was, to whom even the patriarch Abraham gave a tenth of the spoils.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 5:9",
+            "text": "And having been perfected, He became the author of eternal salvation to all who obey Him,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 7:4.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 5:9 is the companion citation. Continue in Hebrews 7:4.",
+          "older": "The continuation is in Hebrews 7:4."
+        },
+        "extended_explanation": "Hebrews 5:9 is cited alongside Hebrews 7:4. Read both verses.",
+        "takeaway": "a tenth of the spoils."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0018",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 1",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 2:12 is also cited. In Hebrews 1:14, after “sent forth to minister for those,” how does the verse continue?",
+        "child": "After “sent forth to minister for those,” how does Hebrews 1:14 continue?",
+        "teen": "What comes next in Hebrews 1:14, right after “sent forth to minister for those”? This question also cites Hebrews 2:12.",
+        "older": "Read Hebrews 1:14 with Hebrews 2:12. After “sent forth to minister for those,” how does Hebrews 1:14 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who will inherit sanctuary"
+        },
+        {
+          "id": "b",
+          "text": "who will inherit salvation"
+        },
+        {
+          "id": "c",
+          "text": "who will inherit sacrifice"
+        },
+        {
+          "id": "d",
+          "text": "who will inherit blessing"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 1:14",
+            "text": "Are they not all ministering spirits sent forth to minister for those who will inherit salvation?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 2:12",
+            "text": "saying: “I will declare Your name to My brethren; In the midst of the assembly I will sing praise to You.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 1:14.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 2:12 is the companion citation. Continue in Hebrews 1:14.",
+          "older": "The continuation is in Hebrews 1:14."
+        },
+        "extended_explanation": "Hebrews 2:12 is cited alongside Hebrews 1:14. Read both verses.",
+        "takeaway": "who will inherit salvation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0019",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 3",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 1:8 is also cited. In Hebrews 3:6, after “and the rejoicing of the hope,” how does the verse continue?",
+        "child": "After “and the rejoicing of the hope,” how does Hebrews 3:6 continue?",
+        "teen": "What comes next in Hebrews 3:6, right after “and the rejoicing of the hope”? This question also cites Hebrews 1:8.",
+        "older": "Read Hebrews 3:6 with Hebrews 1:8. After “and the rejoicing of the hope,” how does Hebrews 3:6 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fast to the end"
+        },
+        {
+          "id": "b",
+          "text": "full to the end"
+        },
+        {
+          "id": "c",
+          "text": "firm to the end"
+        },
+        {
+          "id": "d",
+          "text": "near to the end"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 3:6",
+            "text": "but Christ as a Son over His own house, whose house we are if we hold fast the confidence and the rejoicing of the hope firm to the end.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 1:8",
+            "text": "But to the Son He says: “Your throne, O God, is forever and ever; A scepter of righteousness is the scepter of Your kingdom.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 3:6.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 1:8 is the companion citation. Continue in Hebrews 3:6.",
+          "older": "The continuation is in Hebrews 3:6."
+        },
+        "extended_explanation": "Hebrews 1:8 is cited alongside Hebrews 3:6. Read both verses.",
+        "takeaway": "firm to the end."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0020",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 7",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 3:3 is also cited. In Hebrews 7:13, after “another tribe, from which no man,” how does the verse continue?",
+        "child": "After “another tribe, from which no man,” how does Hebrews 7:13 continue?",
+        "teen": "What comes next in Hebrews 7:13, right after “another tribe, from which no man”? This question also cites Hebrews 3:3.",
+        "older": "Read Hebrews 7:13 with Hebrews 3:3. After “another tribe, from which no man,” how does Hebrews 7:13 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "has officiated at the court"
+        },
+        {
+          "id": "b",
+          "text": "has officiated at the porch"
+        },
+        {
+          "id": "c",
+          "text": "has officiated at the shrine"
+        },
+        {
+          "id": "d",
+          "text": "has officiated at the altar"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 7:13",
+            "text": "For He of whom these things are spoken belongs to another tribe, from which no man has officiated at the altar.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 3:3",
+            "text": "For this One has been counted worthy of more glory than Moses, inasmuch as He who built the house has more honor than the house.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 7:13.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 3:3 is the companion citation. Continue in Hebrews 7:13.",
+          "older": "The continuation is in Hebrews 7:13."
+        },
+        "extended_explanation": "Hebrews 3:3 is cited alongside Hebrews 7:13. Read both verses.",
+        "takeaway": "has officiated at the altar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0021",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 10",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 7:14 is also cited. In Hebrews 10:11, after “every priest stands ministering daily and,” how does the verse continue?",
+        "child": "After “every priest stands ministering daily and,” how does Hebrews 10:11 continue?",
+        "teen": "What comes next in Hebrews 10:11, right after “every priest stands ministering daily and”? This question also cites Hebrews 7:14.",
+        "older": "Read Hebrews 10:11 with Hebrews 7:14. After “every priest stands ministering daily and,” how does Hebrews 10:11 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "offering repeatedly the same sacrifices"
+        },
+        {
+          "id": "b",
+          "text": "offering repeatedly the same ceremonies"
+        },
+        {
+          "id": "c",
+          "text": "offering repeatedly the same ordinances"
+        },
+        {
+          "id": "d",
+          "text": "offering repeatedly the same festivals"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 10:11",
+            "text": "And every priest stands ministering daily and offering repeatedly the same sacrifices, which can never take away sins.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 7:14",
+            "text": "For it is evident that our Lord arose from Judah, of which tribe Moses spoke nothing concerning priesthood.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 10:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 7:14 is the companion citation. Continue in Hebrews 10:11.",
+          "older": "The continuation is in Hebrews 10:11."
+        },
+        "extended_explanation": "Hebrews 7:14 is cited alongside Hebrews 10:11. Read both verses.",
+        "takeaway": "offering repeatedly the same sacrifices."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0022",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 2",
+      "topics": [
+        "hebrews-use-of-the-old-testament"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 7:22 is also cited. In Hebrews 2:13, how does the first quotation after “And again:” begin?",
+        "child": "In Hebrews 2:13, what are the opening words of the first quotation after “And again:”?",
+        "teen": "How do the first words of the first quotation after “And again:” run in Hebrews 2:13? This question also cites Hebrews 7:22.",
+        "older": "Read Hebrews 2:13 with Hebrews 7:22. In Hebrews 2:13, how does the first quotation after “And again:” begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will put My trust in them"
+        },
+        {
+          "id": "b",
+          "text": "I will put My trust in Him"
+        },
+        {
+          "id": "c",
+          "text": "I will put My trust in us"
+        },
+        {
+          "id": "d",
+          "text": "I will put My trust in you"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 2:13",
+            "text": "And again: “I will put My trust in Him.” And again: “Here am I and the children whom God has given Me.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 7:22",
+            "text": "by so much more Jesus has become a surety of a better covenant.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 2:13.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 7:22 is the companion citation. Continue in Hebrews 2:13.",
+          "older": "The continuation is in Hebrews 2:13."
+        },
+        "extended_explanation": "Hebrews 7:22 is cited alongside Hebrews 2:13. Read both verses.",
+        "takeaway": "I will put My trust in Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

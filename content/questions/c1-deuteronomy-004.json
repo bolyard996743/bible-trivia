@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-deuteronomy-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-deu-0017",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 27",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 27:8 tells how the words of this law were to be written on the stones. After “And you shall write,” how does the verse say they were to write?",
+        "child": "Moses tells how the words were to be written on the stones. After “And you shall write,” how does 27:8 say to write?",
+        "teen": "Deuteronomy 27:8: “And you shall write” how?",
+        "older": "According to Deuteronomy 27:8, after “And you shall write,” how were they to write?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "very plainly"
+        },
+        {
+          "id": "b",
+          "text": "very quickly"
+        },
+        {
+          "id": "c",
+          "text": "very softly"
+        },
+        {
+          "id": "d",
+          "text": "very richly"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 27:8",
+            "text": "And you shall write very plainly on the stones all the words of this law.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 27:8.",
+          "child": "Look just after “And you shall write” in verse 8.",
+          "teen": "27:8 gives this manner of writing. Read that phrase.",
+          "older": "It follows “And you shall write” in 27:8."
+        },
+        "extended_explanation": "27:8 also says this writing was to be “on the stones all the words of this law.”",
+        "takeaway": "They were to write very plainly."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-deu-0018",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 28",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 28:6 names a blessing on the day’s travel. After “Blessed shall you be,” how does the verse finish? Deuteronomy 27:13 names who shall stand on Mount Ebal.",
+        "child": "A blessing covers both ends of a journey. After “Blessed shall you be,” how does 28:6 finish?",
+        "teen": "Deuteronomy 28:6: after “Blessed shall you be,” how does it finish?",
+        "older": "Read with 27:13. According to Deuteronomy 28:6, after “Blessed shall you be,” how does the verse finish?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "when you sit, and blessed shall you be when you rise"
+        },
+        {
+          "id": "b",
+          "text": "when you come in, and blessed shall you be when you go out"
+        },
+        {
+          "id": "c",
+          "text": "when you go out, and blessed shall you be when you return home"
+        },
+        {
+          "id": "d",
+          "text": "when you lie down, and blessed shall you be when you awaken"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 28:6",
+            "text": "“Blessed shall you be when you come in, and blessed shall you be when you go out.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 27:13",
+            "text": "and these shall stand on Mount Ebal to curse: Reuben, Gad, Asher, Zebulun, Dan, and Naphtali.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the whole of 28:6. 27:13 names the tribes on Mount Ebal.",
+          "child": "Look just after “Blessed shall you be” in verse 6.",
+          "teen": "28:6 is this two-part blessing. Read that line.",
+          "older": "It follows “Blessed shall you be” in 28:6."
+        },
+        "extended_explanation": "28:6 uses the same “blessed shall you be” pattern as the lines around it. 27:13 names Reuben, Gad, Asher, Zebulun, Dan, and Naphtali on Mount Ebal.",
+        "takeaway": "when you come in, and blessed shall you be when you go out."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 28",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 28:7 tells what the LORD will do to those who rise against Israel. After “who rise against you,” how does the verse first say they will be treated? Deuteronomy 27:26 names a curse on anyone who will not confirm the words of this law.",
+        "child": "Those who rise against Israel are described. After “who rise against you,” how does 28:7 first say they will be treated?",
+        "teen": "Deuteronomy 28:7: after “who rise against you,” how are they first treated?",
+        "older": "Read with 27:26. According to Deuteronomy 28:7, after “who rise against you,” how does the verse first say they will be treated?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to be ashamed before your people"
+        },
+        {
+          "id": "b",
+          "text": "to be silent before your gates"
+        },
+        {
+          "id": "c",
+          "text": "to be defeated before your face"
+        },
+        {
+          "id": "d",
+          "text": "to be afraid before your army"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 28:7",
+            "text": "“The LORD will cause your enemies who rise against you to be defeated before your face; they shall come out against you one way and flee before you seven ways.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 27:26",
+            "text": "‘Cursed is the one who does not confirm all the words of this law by observing them.’ “And all the people shall say, ‘Amen!’ ”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 28:7. 27:26 closes the curses of Mount Ebal.",
+          "child": "Look just after “who rise against you” in verse 7.",
+          "teen": "28:7 opens with this outcome. Read that phrase.",
+          "older": "It follows “who rise against you” in 28:7."
+        },
+        "extended_explanation": "28:7 also says they will “flee before you seven ways.” 27:26 says, “And all the people shall say, ‘Amen!’”",
+        "takeaway": "to be defeated before your face."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 28",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 28:12 tells what the LORD will open. After “The LORD will open to you,” what does the verse name first?",
+        "child": "A gift is described as something the LORD will open. After “The LORD will open to you,” what does 28:12 name first?",
+        "teen": "Deuteronomy 28:12: “The LORD will open to you” what first?",
+        "older": "According to Deuteronomy 28:12, after “The LORD will open to you,” what is named first?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His good pasture, the valleys"
+        },
+        {
+          "id": "b",
+          "text": "His good harvest, the fields"
+        },
+        {
+          "id": "c",
+          "text": "His good counsel, the elders there"
+        },
+        {
+          "id": "d",
+          "text": "His good treasure, the heavens"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 28:12",
+            "text": "The LORD will open to you His good treasure, the heavens, to give the rain to your land in its season, and to bless all the work of your hand. You shall lend to many nations, but you shall not borrow.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 29:10",
+            "text": "“All of you stand today before the LORD your God: your leaders and your tribes and your elders and your officers, all the men of Israel,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 28:12.",
+          "child": "Look just after “The LORD will open to you” in verse 12.",
+          "teen": "28:12 opens with this gift. Read that phrase.",
+          "older": "It follows “The LORD will open to you” in 28:12."
+        },
+        "extended_explanation": "28:12 also says this is “to give the rain to your land in its season.”",
+        "takeaway": "His good treasure, the heavens."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 28",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 27:1 records a charge to keep the commandments. In 28:8, after “in your storehouses and,” how does the verse continue?",
+        "child": "A second clause follows the storehouses. After “in your storehouses and,” how does 28:8 continue?",
+        "teen": "Deuteronomy 28:8: after “in your storehouses and,” what comes next?",
+        "older": "Read with 27:1. According to Deuteronomy 28:8, after “in your storehouses and,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in all to which you set your hand"
+        },
+        {
+          "id": "b",
+          "text": "in all to which you set your mind"
+        },
+        {
+          "id": "c",
+          "text": "in all to which you set your mark"
+        },
+        {
+          "id": "d",
+          "text": "in all to which you set your plans"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 28:8",
+            "text": "“The LORD will command the blessing on you in your storehouses and in all to which you set your hand, and He will bless you in the land which the LORD your God is giving you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 27:1",
+            "text": "Now Moses, with the elders of Israel, commanded the people, saying: “Keep all the commandments which I command you today.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 28:8.",
+          "child": "Look just after “in your storehouses and” in verse 8.",
+          "teen": "27:1 gives a charge; 28:8 continues with this clause. Read that phrase.",
+          "older": "It follows “in your storehouses and” in 28:8."
+        },
+        "extended_explanation": "27:1 says, “Keep all the commandments which I command you today.”",
+        "takeaway": "in all to which you set your hand."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 28",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 27:13 names those who shall stand on Mount Ebal to curse. In 28:23, after the first clause, how does the verse finish?",
+        "child": "A second clause follows in 28:23. After the first clause, how does the verse finish?",
+        "teen": "Deuteronomy 28:23: after the first clause, how does it finish?",
+        "older": "Read with 27:13, how does 28:23 finish after the first clause?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "shall be clay"
+        },
+        {
+          "id": "b",
+          "text": "shall be iron"
+        },
+        {
+          "id": "c",
+          "text": "shall be sand"
+        },
+        {
+          "id": "d",
+          "text": "shall be dust"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 28:23",
+            "text": "And your heavens which are over your head shall be bronze, and the earth which is under you shall be iron.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 27:13",
+            "text": "and these shall stand on Mount Ebal to curse: Reuben, Gad, Asher, Zebulun, Dan, and Naphtali.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 28:23.",
+          "child": "Look at the last words of verse 23.",
+          "teen": "27:13 names the tribes on Mount Ebal; 28:23 ends with this claim. Read that phrase.",
+          "older": "It is the close of 28:23."
+        },
+        "extended_explanation": "27:13 says those tribes “shall stand on Mount Ebal to curse.”",
+        "takeaway": "shall be iron."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 28",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 29:10 says all of them stand today before the LORD their God. In 28:13, after “And the LORD will make you,” what does the verse say He will make them?",
+        "child": "A promise is given about Israel’s place among others. After “And the LORD will make you,” what does 28:13 say He will make them?",
+        "teen": "Deuteronomy 28:13: “And the LORD will make you” what?",
+        "older": "Read with 29:10, what does 28:13 say after “And the LORD will make you”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the first and not the last"
+        },
+        {
+          "id": "b",
+          "text": "the horn and not the reed"
+        },
+        {
+          "id": "c",
+          "text": "the head and not the tail"
+        },
+        {
+          "id": "d",
+          "text": "the gate and not the wall"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 28:13",
+            "text": "And the LORD will make you the head and not the tail; you shall be above only, and not be beneath, if you heed the commandments of the LORD your God, which I command you today, and are careful to observe them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 29:10",
+            "text": "“All of you stand today before the LORD your God: your leaders and your tribes and your elders and your officers, all the men of Israel,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 28:13.",
+          "child": "Look just after “And the LORD will make you” in verse 13.",
+          "teen": "29:10 names who stands that day; 28:13 opens with this promise. Read that phrase.",
+          "older": "It follows “And the LORD will make you” in 28:13."
+        },
+        "extended_explanation": "28:13 also says, “you shall be above only, and not be beneath.” 29:10 says, “All of you stand today before the LORD your God.”",
+        "takeaway": "He will make them the head and not the tail."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 30",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 27:9 says, “This day you have become the people of the LORD your God.” In 30:4, after “will gather you,” how does the verse continue?",
+        "child": "Even if some are driven far away, a further promise is given. After “will gather you,” how does 30:4 continue?",
+        "teen": "Deuteronomy 30:4: after “will gather you,” how does it continue?",
+        "older": "Read with 27:9, how does 30:4 continue after “will gather you”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "and from there He will plant you"
+        },
+        {
+          "id": "b",
+          "text": "and from there He will number you"
+        },
+        {
+          "id": "c",
+          "text": "and from there He will chasten you"
+        },
+        {
+          "id": "d",
+          "text": "and from there He will bring you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 30:4",
+            "text": "If any of you are driven out to the farthest parts under heaven, from there the LORD your God will gather you, and from there He will bring you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 27:9",
+            "text": "Then Moses and the priests, the Levites, spoke to all Israel, saying, “Take heed and listen, O Israel: This day you have become the people of the LORD your God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 30:4.",
+          "child": "Look just after “will gather you” in verse 4.",
+          "teen": "27:9 names what they became that day; 30:4 continues after the first promise. Read that phrase.",
+          "older": "It follows “will gather you” in 30:4."
+        },
+        "extended_explanation": "30:4 also says some may be “driven out to the farthest parts under heaven.” 27:9 says, “Take heed and listen, O Israel.”",
+        "takeaway": "and from there He will bring you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 28",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 30:11 speaks of the commandment given that day. In 28:5, what two everyday vessels does the verse name?",
+        "child": "Two everyday vessels are named together. What two vessels does 28:5 name?",
+        "teen": "Deuteronomy 28:5: what two vessels are named?",
+        "older": "Read with 30:11, what two vessels does 28:5 name?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your basket and your kneading bowl"
+        },
+        {
+          "id": "b",
+          "text": "your pitcher and your drinking cup"
+        },
+        {
+          "id": "c",
+          "text": "your platter and your water jar"
+        },
+        {
+          "id": "d",
+          "text": "your pot and your serving dish"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 28:5",
+            "text": "“Blessed shall be your basket and your kneading bowl.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 30:11",
+            "text": "“For this commandment which I command you today is not too mysterious for you, nor is it far off.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read all of 28:5.",
+          "child": "Look at the two vessels named in verse 5.",
+          "teen": "30:11 speaks of the commandment; 28:5 names these vessels. Read that phrase.",
+          "older": "They are the two vessels named in 28:5."
+        },
+        "extended_explanation": "30:11 also says this commandment “is not too mysterious for you.”",
+        "takeaway": "your basket and your kneading bowl."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-deu-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Deuteronomy",
+      "section": "Deuteronomy 30",
+      "topics": [
+        "deuteronomy-blessings-and-curses"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Deuteronomy 29:2 says Moses called all Israel and reminded them of all that was done. In 30:5, after “He will prosper you and multiply you,” how does the verse finish that promise?",
+        "child": "A promise is given about how they will be multiplied. After “He will prosper you and multiply you,” how does 30:5 finish?",
+        "teen": "Deuteronomy 30:5: after “He will prosper you and multiply you,” how does it finish?",
+        "older": "Read with 29:2, how does 30:5 finish after “He will prosper you and multiply you”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "more than your neighbors"
+        },
+        {
+          "id": "b",
+          "text": "more than your fathers"
+        },
+        {
+          "id": "c",
+          "text": "more than your brothers"
+        },
+        {
+          "id": "d",
+          "text": "more than your princes"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Deuteronomy 30:5",
+            "text": "Then the LORD your God will bring you to the land which your fathers possessed, and you shall possess it. He will prosper you and multiply you more than your fathers.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Deuteronomy 29:2",
+            "text": "Now Moses called all Israel and said to them: “You have seen all that the LORD did before your eyes in the land of Egypt, to Pharaoh and to all his servants and to all his land—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 30:5.",
+          "child": "Look just after “He will prosper you and multiply you” in verse 5.",
+          "teen": "29:2 recalls what they had seen; 30:5 ends with this comparison. Read that phrase.",
+          "older": "It follows “He will prosper you and multiply you” in 30:5."
+        },
+        "extended_explanation": "30:5 also says, “you shall possess it.” 29:2 says, “You have seen all that the LORD did before your eyes.”",
+        "takeaway": "more than your fathers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

@@ -38,6 +38,9 @@ export const knowledgePath = pathFile as KnowledgePathFile;
  */
 export const BADGE_ID_ALIASES: Record<string, string> = {
   "fruitful-song-of-solomon-love-is-strong-narrow-careful-sc": "fruitful-song-of-solomon",
+  // Italic notes in the outline leaked into these ids. Reading maps the old id onto the outline name.
+  "deep-the-twelve-minor-prophets-order-and-setting-open": "deep-the-twelve-minor-prophets-order-and-setting",
+  "deep-judges-the-cycle-of-sin-and-deliverance-deborah-": "deep-judges-the-cycle-of-sin-and-deliverance",
 };
 
 export function canonicalBadgeId(id: string): string {

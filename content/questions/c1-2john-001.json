@@ -1,0 +1,392 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-2john-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-2jn-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "2 John",
+      "section": "2 John 1",
+      "topics": [
+        "2-john-truth-and-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The Elder writes to the elect lady. In 1:4, whom did he rejoice greatly to have found walking in truth?",
+        "child": "John was very happy about something he found. Who did he find walking in truth?",
+        "teen": "2 John 1:4: “I rejoiced greatly that I have found” whom walking in truth?",
+        "older": "In 2 John 1:4, whom did the Elder find walking in truth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "all of your workers"
+        },
+        {
+          "id": "b",
+          "text": "some of your children"
+        },
+        {
+          "id": "c",
+          "text": "many of your neighbors"
+        },
+        {
+          "id": "d",
+          "text": "the elders of your city"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 John 1:4",
+            "text": "I rejoiced greatly that I have found some of your children walking in truth, as we received commandment from the Father.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:4.",
+          "child": "Look right after “I have found” in verse 4.",
+          "teen": "1:4 says why he rejoiced and how it matches what we received. Read who was found.",
+          "older": "It follows “I have found” in 1:4."
+        },
+        "extended_explanation": "1:4 says this was as we received commandment from the Father. 1:1 says he loves them in truth.",
+        "takeaway": "He found some of your children walking in truth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-2jn-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 John",
+      "section": "2 John 1",
+      "topics": [
+        "2-john-truth-and-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2 John 1:5 the Elder pleads with the lady that what he writes is nothing new. In 1:6, what is love?",
+        "child": "John says that what he is writing isn’t new. What does he say love is?",
+        "teen": "2 John 1:6: “This is love, that we” do what?",
+        "older": "What does 2 John 1:6 say love is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "walk in kindness toward the strangers"
+        },
+        {
+          "id": "b",
+          "text": "walk in unity with one another"
+        },
+        {
+          "id": "c",
+          "text": "walk in prayer before the Father"
+        },
+        {
+          "id": "d",
+          "text": "walk according to His commandments"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 John 1:2",
+            "text": "because of the truth which abides in us and will be with us forever:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 John 1:6",
+            "text": "This is love, that we walk according to His commandments. This is the commandment, that as you have heard from the beginning, you should walk in it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:6.",
+          "child": "Look right after “This is love, that we” in verse 6.",
+          "teen": "1:5 says the call is not new; 1:6 defines love first. Read the definition.",
+          "older": "It follows “This is love, that we” in 1:6."
+        },
+        "extended_explanation": "1:5 is addressed to the lady and says the call is not new. 1:7 warns of many deceivers.",
+        "takeaway": "This is love, that we walk according to His commandments."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-2jn-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 John",
+      "section": "2 John 1",
+      "topics": [
+        "2-john-truth-and-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 John 1:10-11 deals with a visitor who does not bring the doctrine of Christ. What does the Elder tell the lady to do?",
+        "child": "John warns about visitors who teach wrong things about Jesus. What should the readers not do?",
+        "teen": "2 John 1:10: if anyone comes and does not bring this doctrine, what then?",
+        "older": "In 2 John 1:10, how should such a visitor be treated?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "do not receive him into your house"
+        },
+        {
+          "id": "b",
+          "text": "do not let him speak in the church"
+        },
+        {
+          "id": "c",
+          "text": "do not eat or drink with him"
+        },
+        {
+          "id": "d",
+          "text": "do not answer his questions"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 John 1:10",
+            "text": "If anyone comes to you and does not bring this doctrine, do not receive him into your house nor greet him;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 John 1:11",
+            "text": "for he who greets him shares in his evil deeds.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:10.",
+          "child": "Look right after “does not bring this doctrine,” in verse 10.",
+          "teen": "1:10 gives a condition and then two instructions. Read the first.",
+          "older": "It follows “does not bring this doctrine,” in 1:10."
+        },
+        "extended_explanation": "1:11 says he who greets him shares in his evil deeds. 1:9 speaks of abiding in the doctrine of Christ.",
+        "takeaway": "Do not receive him into your house."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2jn-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 John",
+      "section": "2 John 1",
+      "topics": [
+        "2-john-truth-and-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 John 1:8 tells readers to look to themselves so they do not lose what was worked for. What does 1:8 say they may receive instead?",
+        "child": "John tells his readers to be careful not to lose what they worked for. What could they receive?",
+        "teen": "2 John 1:8: “but that we may receive” what?",
+        "older": "According to 2 John 1:8, what may believers receive?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a place of honor"
+        },
+        {
+          "id": "b",
+          "text": "a quiet dwelling"
+        },
+        {
+          "id": "c",
+          "text": "a full reward"
+        },
+        {
+          "id": "d",
+          "text": "a lasting name"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 John 1:8",
+            "text": "Look to yourselves, that we do not lose those things we worked for, but that we may receive a full reward.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 John 1:11",
+            "text": "for he who greets him shares in his evil deeds.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:8.",
+          "child": "Look at the last words of verse 8.",
+          "teen": "1:11 warns about greeting a deceiver; 1:8 warns about losing and then says what to receive. Read the end.",
+          "older": "It follows “but that we may receive” in 1:8."
+        },
+        "extended_explanation": "1:11 says he who greets him shares in his evil deeds. 1:10 gives the warning about such a visitor.",
+        "takeaway": "That we may receive a full reward."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2jn-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 John",
+      "section": "2 John 1",
+      "topics": [
+        "2-john-truth-and-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 John 1:9 contrasts those who abide in the doctrine of Christ with those who do not. In the greeting of 1:3, how is the Lord Jesus Christ described?",
+        "child": "John’s letter opens with a blessing from God and from Jesus. What title does he give Jesus there?",
+        "teen": "2 John 1:3: from the Lord Jesus Christ, who is what?",
+        "older": "Read with 1:9, how does 1:3 describe the Lord Jesus Christ?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Image of the Father"
+        },
+        {
+          "id": "b",
+          "text": "the Son of the Father"
+        },
+        {
+          "id": "c",
+          "text": "the Word of the Father"
+        },
+        {
+          "id": "d",
+          "text": "the Glory of the Father"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 John 1:3",
+            "text": "Grace, mercy, and peace will be with you from God the Father and from the Lord Jesus Christ, the Son of the Father, in truth and love.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 John 1:9",
+            "text": "Whoever transgresses and does not abide in the doctrine of Christ does not have God. He who abides in the doctrine of Christ has both the Father and the Son.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:3.",
+          "child": "Look right after “the Lord Jesus Christ,” in verse 3.",
+          "teen": "1:9 is about abiding in His doctrine; 1:3 names Him and then adds a title. Read it.",
+          "older": "It follows “the Lord Jesus Christ,” in 1:3."
+        },
+        "extended_explanation": "1:3 sends grace, mercy, and peace “in truth and love.” 1:9 says the one who does not abide in His doctrine does not have God.",
+        "takeaway": "Jesus Christ is called the Son of the Father."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2jn-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 John",
+      "section": "2 John 1",
+      "topics": [
+        "2-john-truth-and-love"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In 2 John 1:13 the elect sister’s household sends greetings. In contrast, 1:7 describes many deceivers who have gone out. How do they fail to confess Jesus Christ?",
+        "child": "John warns that many deceivers have gone out. What do they refuse to say about Jesus Christ?",
+        "teen": "2 John 1:7: deceivers “who do not confess Jesus Christ” how?",
+        "older": "Read with 1:13, what does 1:7 say deceivers do not confess about Jesus Christ?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "as coming in the flesh"
+        },
+        {
+          "id": "b",
+          "text": "as risen from the dead"
+        },
+        {
+          "id": "c",
+          "text": "as seated on the throne"
+        },
+        {
+          "id": "d",
+          "text": "as the Son of David"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 John 1:13",
+            "text": "The children of your elect sister greet you. Amen.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 John 1:7",
+            "text": "For many deceivers have gone out into the world who do not confess Jesus Christ as coming in the flesh. This is a deceiver and an antichrist.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:7.",
+          "child": "Look right after “who do not confess Jesus Christ” in verse 7.",
+          "teen": "1:13 sends greetings; 1:7 describes the deceivers. Read what they do not confess.",
+          "older": "It follows “who do not confess Jesus Christ” in 1:7."
+        },
+        "extended_explanation": "1:7 calls such a person a deceiver and an antichrist. 1:8 tells readers to look to themselves.",
+        "takeaway": "They do not confess Jesus Christ as coming in the flesh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

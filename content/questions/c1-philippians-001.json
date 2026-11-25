@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-philippians-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-php-0006",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Philippians 1:13, after “that it has become evident to,” how does the verse continue?",
+        "child": "After “that it has become evident to,” how does Philippians 1:13 continue?",
+        "teen": "What comes next in Philippians 1:13, right after “that it has become evident to”?",
+        "older": "According to Philippians 1:13, after “that it has become evident to,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the whole palace guard"
+        },
+        {
+          "id": "b",
+          "text": "the whole palace court"
+        },
+        {
+          "id": "c",
+          "text": "the whole palace staff"
+        },
+        {
+          "id": "d",
+          "text": "the whole palace watch"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:13",
+            "text": "so that it has become evident to the whole palace guard, and to all the rest, that my chains are in Christ;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:13.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Philippians 1:13.",
+          "older": "The continuation is in Philippians 1:13."
+        },
+        "extended_explanation": "Read the rest of Philippians 1:13 as well.",
+        "takeaway": "the whole palace guard."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-php-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 1:17 is also cited. How does Philippians 1:12 begin?",
+        "child": "What are the opening words of Philippians 1:12?",
+        "teen": "How do the first words of Philippians 1:12 run? This question also cites Philippians 1:17.",
+        "older": "Read Philippians 1:12 with Philippians 1:17. How does Philippians 1:12 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "But I want you to wait"
+        },
+        {
+          "id": "b",
+          "text": "But I want you to know"
+        },
+        {
+          "id": "c",
+          "text": "But I want you to walk"
+        },
+        {
+          "id": "d",
+          "text": "But I want you to work"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:12",
+            "text": "But I want you to know, brethren, that the things which happened to me have actually turned out for the furtherance of the gospel,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 1:17",
+            "text": "but the latter out of love, knowing that I am appointed for the defense of the gospel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Philippians 1:12.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Philippians 1:17 is the companion citation. Start at the beginning of Philippians 1:12.",
+          "older": "It is the opening of Philippians 1:12."
+        },
+        "extended_explanation": "Philippians 1:17 is cited alongside Philippians 1:12. Read both verses.",
+        "takeaway": "But I want you to know."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 2",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 2:6 is also cited. In Philippians 2:8, after “became obedient to the point of death, even,” how does the verse continue?",
+        "child": "After “became obedient to the point of death, even,” how does Philippians 2:8 continue?",
+        "teen": "What comes next in Philippians 2:8, right after “became obedient to the point of death, even”? This question also cites Philippians 2:6.",
+        "older": "Read Philippians 2:8 with Philippians 2:6. After “became obedient to the point of death, even,” how does Philippians 2:8 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the death of the arrow"
+        },
+        {
+          "id": "b",
+          "text": "the death of the spear"
+        },
+        {
+          "id": "c",
+          "text": "the death of the cross"
+        },
+        {
+          "id": "d",
+          "text": "the death of the lance"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 2:8",
+            "text": "And being found in appearance as a man, He humbled Himself and became obedient to the point of death, even the death of the cross.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 2:6",
+            "text": "who, being in the form of God, did not consider it robbery to be equal with God,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 2:8.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 2:6 is the companion citation. Continue in Philippians 2:8.",
+          "older": "The continuation is in Philippians 2:8."
+        },
+        "extended_explanation": "Philippians 2:6 is cited alongside Philippians 2:8. Read both verses.",
+        "takeaway": "the death of the cross."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 3:4 is also cited. In Philippians 1:15, after “envy and strife, and,” how does the verse continue?",
+        "child": "After “envy and strife, and,” how does Philippians 1:15 continue?",
+        "teen": "What comes next in Philippians 1:15, right after “envy and strife, and”? This question also cites Philippians 3:4.",
+        "older": "Read Philippians 1:15 with Philippians 3:4. After “envy and strife, and,” how does Philippians 1:15 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "some also from kindness"
+        },
+        {
+          "id": "b",
+          "text": "some also from gladness"
+        },
+        {
+          "id": "c",
+          "text": "some also from fairness"
+        },
+        {
+          "id": "d",
+          "text": "some also from goodwill"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:15",
+            "text": "Some indeed preach Christ even from envy and strife, and some also from goodwill:",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 3:4",
+            "text": "though I also might have confidence in the flesh. If anyone else thinks he may have confidence in the flesh, I more so:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:15.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 3:4 is the companion citation. Continue in Philippians 1:15.",
+          "older": "The continuation is in Philippians 1:15."
+        },
+        "extended_explanation": "Philippians 3:4 is cited alongside Philippians 1:15. Read both verses.",
+        "takeaway": "some also from goodwill."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 3",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 1:26 is also cited. How does Philippians 3:12 begin?",
+        "child": "What are the opening words of Philippians 3:12?",
+        "teen": "How do the first words of Philippians 3:12 run? This question also cites Philippians 1:26.",
+        "older": "Read Philippians 3:12 with Philippians 1:26. How does Philippians 3:12 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Not that I have already attained"
+        },
+        {
+          "id": "b",
+          "text": "Not that I have already arranged"
+        },
+        {
+          "id": "c",
+          "text": "Not that I have already accepted"
+        },
+        {
+          "id": "d",
+          "text": "Not that I have already admitted"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 3:12",
+            "text": "Not that I have already attained, or am already perfected; but I press on, that I may lay hold of that for which Christ Jesus has also laid hold of me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 1:26",
+            "text": "that your rejoicing for me may be more abundant in Jesus Christ by my coming to you again.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Philippians 3:12.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Philippians 1:26 is the companion citation. Start at the beginning of Philippians 3:12.",
+          "older": "It is the opening of Philippians 3:12."
+        },
+        "extended_explanation": "Philippians 1:26 is cited alongside Philippians 3:12. Read both verses.",
+        "takeaway": "Not that I have already attained."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 3:2 is also cited. How does Philippians 1:14 begin?",
+        "child": "What are the opening words of Philippians 1:14?",
+        "teen": "How do the first words of Philippians 1:14 run? This question also cites Philippians 3:2.",
+        "older": "Read Philippians 1:14 with Philippians 3:2. How does Philippians 1:14 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "and most of the elders"
+        },
+        {
+          "id": "b",
+          "text": "and most of the brethren"
+        },
+        {
+          "id": "c",
+          "text": "and most of the soldiers"
+        },
+        {
+          "id": "d",
+          "text": "and most of the servants"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:14",
+            "text": "and most of the brethren in the Lord, having become confident by my chains, are much more bold to speak the word without fear.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 3:2",
+            "text": "Beware of dogs, beware of evil workers, beware of the mutilation!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Philippians 1:14.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Philippians 3:2 is the companion citation. Start at the beginning of Philippians 1:14.",
+          "older": "It is the opening of Philippians 1:14."
+        },
+        "extended_explanation": "Philippians 3:2 is cited alongside Philippians 1:14. Read both verses.",
+        "takeaway": "and most of the brethren."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 2:9 is also cited. In Philippians 1:23, after “I am hard-pressed between the two,” how does the verse continue?",
+        "child": "After “I am hard-pressed between the two,” how does Philippians 1:23 continue?",
+        "teen": "What comes next in Philippians 1:23, right after “I am hard-pressed between the two”? This question also cites Philippians 2:9.",
+        "older": "Read Philippians 1:23 with Philippians 2:9. After “I am hard-pressed between the two,” how does Philippians 1:23 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "having a desire to return"
+        },
+        {
+          "id": "b",
+          "text": "having a desire to reside"
+        },
+        {
+          "id": "c",
+          "text": "having a desire to depart"
+        },
+        {
+          "id": "d",
+          "text": "having a desire to remain"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:23",
+            "text": "For I am hard-pressed between the two, having a desire to depart and be with Christ, which is far better.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 2:9",
+            "text": "Therefore God also has highly exalted Him and given Him the name which is above every name,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:23.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 2:9 is the companion citation. Continue in Philippians 1:23.",
+          "older": "The continuation is in Philippians 1:23."
+        },
+        "extended_explanation": "Philippians 2:9 is cited alongside Philippians 1:23. Read both verses.",
+        "takeaway": "having a desire to depart."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 1",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 3:14 is also cited. In Philippians 1:16, after “Christ from selfish ambition, not sincerely,” how does the verse continue?",
+        "child": "After “Christ from selfish ambition, not sincerely,” how does Philippians 1:16 continue?",
+        "teen": "What comes next in Philippians 1:16, right after “Christ from selfish ambition, not sincerely”? This question also cites Philippians 3:14.",
+        "older": "Read Philippians 1:16 with Philippians 3:14. After “Christ from selfish ambition, not sincerely,” how does Philippians 1:16 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "supposing to add affliction to my trials"
+        },
+        {
+          "id": "b",
+          "text": "supposing to add affliction to my labors"
+        },
+        {
+          "id": "c",
+          "text": "supposing to add affliction to my griefs"
+        },
+        {
+          "id": "d",
+          "text": "supposing to add affliction to my chains"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 1:16",
+            "text": "The former preach Christ from selfish ambition, not sincerely, supposing to add affliction to my chains;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 3:14",
+            "text": "I press toward the goal for the prize of the upward call of God in Christ Jesus.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 1:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 3:14 is the companion citation. Continue in Philippians 1:16.",
+          "older": "The continuation is in Philippians 1:16."
+        },
+        "extended_explanation": "Philippians 3:14 is cited alongside Philippians 1:16. Read both verses.",
+        "takeaway": "supposing to add affliction to my chains."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 3",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 1:19 is also cited. In Philippians 3:7, after “were gain to me, these,” how does the verse continue?",
+        "child": "After “were gain to me, these,” how does Philippians 3:7 continue?",
+        "teen": "What comes next in Philippians 3:7, right after “were gain to me, these”? This question also cites Philippians 1:19.",
+        "older": "Read Philippians 3:7 with Philippians 1:19. After “were gain to me, these,” how does Philippians 3:7 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have counted loss"
+        },
+        {
+          "id": "b",
+          "text": "I have counted harm"
+        },
+        {
+          "id": "c",
+          "text": "I have counted dross"
+        },
+        {
+          "id": "d",
+          "text": "I have counted waste"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 3:7",
+            "text": "But what things were gain to me, these I have counted loss for Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 1:19",
+            "text": "For I know that this will turn out for my deliverance through your prayer and the supply of the Spirit of Jesus Christ,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 3:7.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 1:19 is the companion citation. Continue in Philippians 3:7.",
+          "older": "The continuation is in Philippians 3:7."
+        },
+        "extended_explanation": "Philippians 1:19 is cited alongside Philippians 3:7. Read both verses.",
+        "takeaway": "I have counted loss."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-php-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Philippians",
+      "section": "Philippians 3",
+      "topics": [
+        "philippians-the-mind-of-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Philippians 1:25 is also cited. In Philippians 3:13, after “but one thing I do, forgetting,” how does the verse continue?",
+        "child": "After “but one thing I do, forgetting,” how does Philippians 3:13 continue?",
+        "teen": "What comes next in Philippians 3:13, right after “but one thing I do, forgetting”? This question also cites Philippians 1:25.",
+        "older": "Read Philippians 3:13 with Philippians 1:25. After “but one thing I do, forgetting,” how does Philippians 3:13 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "those things which are beside"
+        },
+        {
+          "id": "b",
+          "text": "those things which are behind"
+        },
+        {
+          "id": "c",
+          "text": "those things which are beneath"
+        },
+        {
+          "id": "d",
+          "text": "those things which are between"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Philippians 3:13",
+            "text": "Brethren, I do not count myself to have apprehended; but one thing I do, forgetting those things which are behind and reaching forward to those things which are ahead,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Philippians 1:25",
+            "text": "And being confident of this, I know that I shall remain and continue with you all for your progress and joy of faith,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Philippians 3:13.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Philippians 1:25 is the companion citation. Continue in Philippians 3:13.",
+          "older": "The continuation is in Philippians 3:13."
+        },
+        "extended_explanation": "Philippians 1:25 is cited alongside Philippians 3:13. Read both verses.",
+        "takeaway": "those things which are behind."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

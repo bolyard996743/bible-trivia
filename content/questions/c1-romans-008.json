@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-rom-0024",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 4",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Romans 4:25, after “of our offenses, and” how does the verse proceed?",
+        "child": "After “of our offenses, and” how does Romans 4:25 proceed?",
+        "teen": "What comes next in Romans 4:25, just after “of our offenses, and”?",
+        "older": "According to Romans 4:25, after “of our offenses, and” how does the verse proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "was raised because of our justification"
+        },
+        {
+          "id": "b",
+          "text": "was raised because of our preservation"
+        },
+        {
+          "id": "c",
+          "text": "was raised because of our deliverance"
+        },
+        {
+          "id": "d",
+          "text": "was raised because of our own redemption"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 4:25",
+            "text": "who was delivered up because of our offenses, and was raised because of our justification.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Romans 4:25.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Romans 4:25.",
+          "older": "The continuation is in Romans 4:25."
+        },
+        "extended_explanation": "Read Romans 4:25 in the cited passage.",
+        "takeaway": "was raised because of our justification"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-jas-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James 2:19 is also cited. In James 2:16, after “but you do not give them” how does the verse proceed?",
+        "child": "After “but you do not give them” how does James 2:16 proceed?",
+        "teen": "What comes next in James 2:16, just after “but you do not give them”? This question also cites James 2:19.",
+        "older": "Read James 2:16 with James 2:19. After “but you do not give them” how does James 2:16 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the things which are useful"
+        },
+        {
+          "id": "b",
+          "text": "the things which are needed"
+        },
+        {
+          "id": "c",
+          "text": "the things which are fitting"
+        },
+        {
+          "id": "d",
+          "text": "the things which are proper"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:16",
+            "text": "and one of you says to them, “Depart in peace, be warmed and filled,” but you do not give them the things which are needed for the body, what does it profit?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 2:19",
+            "text": "You believe that there is one God. You do well. Even the demons believe—and tremble!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in James 2:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "James 2:19 is the companion citation. Continue in James 2:16.",
+          "older": "The continuation is in James 2:16."
+        },
+        "extended_explanation": "James 2:19 is cited alongside James 2:16. Read both verses.",
+        "takeaway": "the things which are needed"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0064",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 15",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 15:4 is also cited. In Genesis 15:2, after “You give me,” how does the verse proceed?",
+        "child": "After “You give me,” how does Genesis 15:2 proceed?",
+        "teen": "What comes next in Genesis 15:2, just after “You give me,”? This question also cites Genesis 15:4.",
+        "older": "Read Genesis 15:2 with Genesis 15:4. After “You give me,” how does Genesis 15:2 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "seeing I go fatherless"
+        },
+        {
+          "id": "b",
+          "text": "seeing I go heirless"
+        },
+        {
+          "id": "c",
+          "text": "seeing I go childless"
+        },
+        {
+          "id": "d",
+          "text": "seeing I go sonless"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 15:2",
+            "text": "But Abram said, “Lord GOD, what will You give me, seeing I go childless, and the heir of my house is Eliezer of Damascus?”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 15:4",
+            "text": "And behold, the word of the LORD came to him, saying, “This one shall not be your heir, but one who will come from your own body shall be your heir.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Genesis 15:2.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Genesis 15:4 is the companion citation. Continue in Genesis 15:2.",
+          "older": "The continuation is in Genesis 15:2."
+        },
+        "extended_explanation": "Genesis 15:4 is cited alongside Genesis 15:2. Read both verses.",
+        "takeaway": "seeing I go childless"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gal-0012",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 3",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 3:5 is also cited. In Galatians 3:3, after “Are you so foolish?” how does the verse proceed?",
+        "child": "After “Are you so foolish?” how does Galatians 3:3 proceed?",
+        "teen": "What comes next in Galatians 3:3, just after “Are you so foolish?”? This question also cites Galatians 3:5.",
+        "older": "Read Galatians 3:3 with Galatians 3:5. After “Are you so foolish?” how does Galatians 3:3 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Having begun in the Prayer"
+        },
+        {
+          "id": "b",
+          "text": "Having begun in the Temple"
+        },
+        {
+          "id": "c",
+          "text": "Having begun in the Shadow"
+        },
+        {
+          "id": "d",
+          "text": "Having begun in the Spirit"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 3:3",
+            "text": "Are you so foolish? Having begun in the Spirit, are you now being made perfect by the flesh?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 3:5",
+            "text": "Therefore He who supplies the Spirit to you and works miracles among you, does He do it by the works of the law, or by the hearing of faith?—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Galatians 3:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Galatians 3:5 is the companion citation. Continue in Galatians 3:3.",
+          "older": "The continuation is in Galatians 3:3."
+        },
+        "extended_explanation": "Galatians 3:5 is cited alongside Galatians 3:3. Read both verses.",
+        "takeaway": "Having begun in the Spirit"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rom-0025",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 4",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 4:15 is also cited. In Romans 4:21, after “what He had promised” how does the verse continue?",
+        "child": "In Romans 4:21, what comes right after “what He had promised”?",
+        "teen": "How does Romans 4:21 continue after “what He had promised”? This question also cites Romans 4:15.",
+        "older": "Read Romans 4:21 with Romans 4:15. What follows “what He had promised” in Romans 4:21?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He was also able to perform"
+        },
+        {
+          "id": "b",
+          "text": "He was also ready to reveal"
+        },
+        {
+          "id": "c",
+          "text": "He was also willing to send"
+        },
+        {
+          "id": "d",
+          "text": "He was also faithful to keep"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 4:21",
+            "text": "and being fully convinced that what He had promised He was also able to perform.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 4:15",
+            "text": "because the law brings about wrath; for where there is no law there is no transgression.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read what follows “what He had promised” in Romans 4:21.",
+          "child": "Look right after “what He had promised” in Romans 4:21.",
+          "teen": "Romans 4:15 is the companion citation. Read right after “what He had promised” in Romans 4:21.",
+          "older": "It continues after “what He had promised” in Romans 4:21."
+        },
+        "extended_explanation": "Romans 4:15 is cited alongside Romans 4:21. Read both verses.",
+        "takeaway": "He was also able to perform"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jas-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James 2:26 is also cited. In James 2:23, after “was accounted to him for righteousness.” how does the verse proceed?",
+        "child": "After “was accounted to him for righteousness.” how does James 2:23 proceed?",
+        "teen": "What comes next in James 2:23, just after “was accounted to him for righteousness.”? This question also cites James 2:26.",
+        "older": "Read James 2:23 with James 2:26. After “was accounted to him for righteousness.” how does James 2:23 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And he was called the master"
+        },
+        {
+          "id": "b",
+          "text": "And he was called the friend"
+        },
+        {
+          "id": "c",
+          "text": "And he was called the keeper"
+        },
+        {
+          "id": "d",
+          "text": "And he was called the writer"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:23",
+            "text": "And the Scripture was fulfilled which says, “Abraham believed God, and it was accounted to him for righteousness.” And he was called the friend of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 2:26",
+            "text": "For as the body without the spirit is dead, so faith without works is dead also.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in James 2:23.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "James 2:26 is the companion citation. Continue in James 2:23.",
+          "older": "The continuation is in James 2:23."
+        },
+        "extended_explanation": "James 2:26 is cited alongside James 2:23. Read both verses.",
+        "takeaway": "And he was called the friend"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rom-0026",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 4",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 4:18 is also cited. In Romans 4:7, after “lawless deeds are forgiven,” how does the verse proceed?",
+        "child": "After “lawless deeds are forgiven,” how does Romans 4:7 proceed?",
+        "teen": "What comes next in Romans 4:7, just after “lawless deeds are forgiven,”? This question also cites Romans 4:18.",
+        "older": "Read Romans 4:7 with Romans 4:18. After “lawless deeds are forgiven,” how does Romans 4:7 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And whose sins are covered"
+        },
+        {
+          "id": "b",
+          "text": "And whose sins are counted"
+        },
+        {
+          "id": "c",
+          "text": "And whose sins are carried"
+        },
+        {
+          "id": "d",
+          "text": "And whose sins are claimed"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 4:7",
+            "text": "“Blessed are those whose lawless deeds are forgiven, And whose sins are covered;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 4:18",
+            "text": "who, contrary to hope, in hope believed, so that he became the father of many nations, according to what was spoken, “So shall your descendants be.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Romans 4:7.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Romans 4:18 is the companion citation. Continue in Romans 4:7.",
+          "older": "The continuation is in Romans 4:7."
+        },
+        "extended_explanation": "Romans 4:18 is cited alongside Romans 4:7. Read both verses.",
+        "takeaway": "And whose sins are covered"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gal-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 3",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 3:7 is also cited. In Galatians 3:1, after “O foolish Galatians!” how does the verse proceed?",
+        "child": "After “O foolish Galatians!” how does Galatians 3:1 proceed?",
+        "teen": "What comes next in Galatians 3:1, just after “O foolish Galatians!”? This question also cites Galatians 3:7.",
+        "older": "Read Galatians 3:1 with Galatians 3:7. After “O foolish Galatians!” how does Galatians 3:1 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who has summoned you that you should"
+        },
+        {
+          "id": "b",
+          "text": "Who has bewitched you that you should"
+        },
+        {
+          "id": "c",
+          "text": "Who has welcomed you that you should"
+        },
+        {
+          "id": "d",
+          "text": "Who has requested you that you should"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 3:1",
+            "text": "O foolish Galatians! Who has bewitched you that you should not obey the truth, before whose eyes Jesus Christ was clearly portrayed among you as crucified?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 3:7",
+            "text": "Therefore know that only those who are of faith are sons of Abraham.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Galatians 3:1.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Galatians 3:7 is the companion citation. Continue in Galatians 3:1.",
+          "older": "The continuation is in Galatians 3:1."
+        },
+        "extended_explanation": "Galatians 3:7 is cited alongside Galatians 3:1. Read both verses.",
+        "takeaway": "Who has bewitched you that you should"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rom-0027",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 4",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 4:9 is also cited. In Romans 4:24, after “for us. It shall be imputed” how does the verse proceed?",
+        "child": "After “for us. It shall be imputed” how does Romans 4:24 proceed?",
+        "teen": "What comes next in Romans 4:24, just after “for us. It shall be imputed”? This question also cites Romans 4:9.",
+        "older": "Read Romans 4:24 with Romans 4:9. After “for us. It shall be imputed” how does Romans 4:24 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to us who confess"
+        },
+        {
+          "id": "b",
+          "text": "to us who receive"
+        },
+        {
+          "id": "c",
+          "text": "to us who believe"
+        },
+        {
+          "id": "d",
+          "text": "to us who observe"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 4:24",
+            "text": "but also for us. It shall be imputed to us who believe in Him who raised up Jesus our Lord from the dead,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 4:9",
+            "text": "Does this blessedness then come upon the circumcised only, or upon the uncircumcised also? For we say that faith was accounted to Abraham for righteousness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Romans 4:24.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Romans 4:9 is the companion citation. Continue in Romans 4:24.",
+          "older": "The continuation is in Romans 4:24."
+        },
+        "extended_explanation": "Romans 4:9 is cited alongside Romans 4:24. Read both verses.",
+        "takeaway": "to us who believe"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jas-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 2",
+      "topics": [
+        "faith-and-works-paul-and-james"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "James 2:24 is also cited. How does James 2:18 begin?",
+        "child": "What are the opening words of James 2:18?",
+        "teen": "How do the first words of James 2:18 run? This question also cites James 2:24.",
+        "older": "Read James 2:18 with James 2:24. How does James 2:18 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "But someone will ask"
+        },
+        {
+          "id": "b",
+          "text": "But someone will shout"
+        },
+        {
+          "id": "c",
+          "text": "But someone will write"
+        },
+        {
+          "id": "d",
+          "text": "But someone will say"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 2:18",
+            "text": "But someone will say, “You have faith, and I have works.” Show me your faith without your works, and I will show you my faith by my works.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "James 2:24",
+            "text": "You see then that a man is justified by works, and not by faith only.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of James 2:18.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "James 2:24 is the companion citation. Start at the beginning of James 2:18.",
+          "older": "It is the opening of James 2:18."
+        },
+        "extended_explanation": "James 2:24 is cited alongside James 2:18. Read both verses.",
+        "takeaway": "But someone will say"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}
