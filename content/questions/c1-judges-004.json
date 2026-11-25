@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-judges-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-jdg-0004",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 2",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 2:21 tells what the LORD will no longer do. After “I also will no longer,” what does the verse say He will no longer do?",
+        "child": "The LORD speaks of the nations Joshua left. After “I also will no longer,” what does 2:21 say He will no longer do?",
+        "teen": "Judges 2:21: after “I also will no longer,” what will He no longer do?",
+        "older": "According to Judges 2:21, after “I also will no longer,” what does the verse say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "drive out before them"
+        },
+        {
+          "id": "b",
+          "text": "gather them together"
+        },
+        {
+          "id": "c",
+          "text": "number them by their tribes"
+        },
+        {
+          "id": "d",
+          "text": "settle them in the land"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 2:21",
+            "text": "I also will no longer drive out before them any of the nations which Joshua left when he died,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 2:21.",
+          "child": "Look just after “I also will no longer” in verse 21.",
+          "teen": "2:21 opens with this claim. Read that sentence.",
+          "older": "It follows “I also will no longer” in 2:21."
+        },
+        "extended_explanation": "2:21 also says this concerns “any of the nations which Joshua left when he died.”",
+        "takeaway": "The LORD says He will no longer drive out before them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-jdg-0005",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 3",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 3:9 says the LORD raised up a helper when the children of Israel cried out. Whom does the verse name at its close? Judges 10:17 says the people of Ammon camped in Gilead.",
+        "child": "Israel cried out, and a helper was raised up. Whom does 3:9 name at its close?",
+        "teen": "Judges 3:9: whom does it name at its close?",
+        "older": "Read with 10:17. According to Judges 3:9, whom does the verse name at its close?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ehud the son of Gera"
+        },
+        {
+          "id": "b",
+          "text": "Othniel the son of Kenaz"
+        },
+        {
+          "id": "c",
+          "text": "Gideon the son of Joash"
+        },
+        {
+          "id": "d",
+          "text": "Barak the son of Abinoam"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 3:9",
+            "text": "When the children of Israel cried out to the LORD, the LORD raised up a deliverer for the children of Israel, who delivered them: Othniel the son of Kenaz, Caleb’s younger brother.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 10:17",
+            "text": "Then the people of Ammon gathered together and encamped in Gilead. And the children of Israel assembled together and encamped in Mizpah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:9. 10:17 names the camp in Gilead.",
+          "child": "Look at the name at the close of verse 9.",
+          "teen": "3:9 ends with this name. Read that phrase.",
+          "older": "It is the name at the close of 3:9."
+        },
+        "extended_explanation": "3:9 also calls him “Caleb’s younger brother.” 10:17 says the children of Israel camped in Mizpah.",
+        "takeaway": "Othniel the son of Kenaz."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 3",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 3:15 names the deliverer raised up when Israel cried out. After “the Benjamite,” how does the verse describe him?",
+        "child": "A Benjamite was raised up as a deliverer. After “the Benjamite,” how does 3:15 describe him?",
+        "teen": "Judges 3:15: after “the Benjamite,” how is he described?",
+        "older": "According to Judges 3:15, after “the Benjamite,” how does the verse describe him?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a sharp-eyed man"
+        },
+        {
+          "id": "b",
+          "text": "a strong-armed man"
+        },
+        {
+          "id": "c",
+          "text": "a left-handed man"
+        },
+        {
+          "id": "d",
+          "text": "a quick-footed man"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 3:15",
+            "text": "But when the children of Israel cried out to the LORD, the LORD raised up a deliverer for them: Ehud the son of Gera, the Benjamite, a left-handed man. By him the children of Israel sent tribute to Eglon king of Moab.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 11:10",
+            "text": "And the elders of Gilead said to Jephthah, “The LORD will be a witness between us, if we do not do according to your words.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:15.",
+          "child": "Look just after “the Benjamite” in verse 15.",
+          "teen": "3:15 gives this description next. Read that phrase.",
+          "older": "It follows “the Benjamite” in 3:15."
+        },
+        "extended_explanation": "3:15 also says, “By him the children of Israel sent tribute to Eglon king of Moab.”",
+        "takeaway": "The verse describes him as a left-handed man."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0002",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 3",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 3:16 tells what Ehud did with the dagger he made. After “and fastened it,” where does the verse say he fastened it?",
+        "child": "Ehud made a dagger and fastened it in a stated place. After “and fastened it,” where does 3:16 say he fastened it?",
+        "teen": "Judges 3:16: after “and fastened it,” where was it fastened?",
+        "older": "According to Judges 3:16, after “and fastened it,” where does the verse say he fastened it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "under his mantle on his left side"
+        },
+        {
+          "id": "b",
+          "text": "under his leather belt on his left arm"
+        },
+        {
+          "id": "c",
+          "text": "under his cloak on his right shin"
+        },
+        {
+          "id": "d",
+          "text": "under his clothes on his right thigh"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 3:16",
+            "text": "Now Ehud made himself a dagger (it was double-edged and a cubit in length) and fastened it under his clothes on his right thigh.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 12:2",
+            "text": "And Jephthah said to them, “My people and I were in a great struggle with the people of Ammon; and when I called you, you did not deliver me out of their hands.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:16.",
+          "child": "Look just after “and fastened it” in verse 16.",
+          "teen": "3:16 ends with this place. Read that phrase.",
+          "older": "It follows “and fastened it” in 3:16."
+        },
+        "extended_explanation": "3:16 also says, “Now Ehud made himself a dagger (it was double-edged and a cubit in length).”",
+        "takeaway": "He fastened it under his clothes on his right thigh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0003",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 2",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 2:10 tells what arose after that generation was gathered to their fathers. After “another generation arose after them,” what does the verse say of them?",
+        "child": "A later generation is described after the first was gone. After “another generation arose after them,” what does 2:10 say of them?",
+        "teen": "Judges 2:10: after “another generation arose after them,” what does it say of them?",
+        "older": "According to Judges 2:10, after “another generation arose after them,” what is said of them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who did not know the LORD"
+        },
+        {
+          "id": "b",
+          "text": "who did not keep the feast"
+        },
+        {
+          "id": "c",
+          "text": "who did not build the wall"
+        },
+        {
+          "id": "d",
+          "text": "who did not till the land"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 2:10",
+            "text": "When all that generation had been gathered to their fathers, another generation arose after them who did not know the LORD nor the work which He had done for Israel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 10:18",
+            "text": "And the people, the leaders of Gilead, said to one another, “Who is the man who will begin the fight against the people of Ammon? He shall be head over all the inhabitants of Gilead.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:10.",
+          "child": "Look at the close of verse 10.",
+          "teen": "2:10 ends with this description. Read that phrase.",
+          "older": "It is the last claim of 2:10."
+        },
+        "extended_explanation": "2:10 also mentions “the work which He had done for Israel.”",
+        "takeaway": "who did not know the LORD."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0004",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 3",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 11:12 says Jephthah sent messengers to the people of Ammon. In 3:20, after Ehud came to him, what did Ehud say?",
+        "child": "Ehud came to a ruler who rose from his seat. What does 3:20 say Ehud said?",
+        "teen": "Judges 3:20: what did Ehud say?",
+        "older": "Read with 11:12, what does 3:20 say Ehud said?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I have a present for you"
+        },
+        {
+          "id": "b",
+          "text": "I have a message from God for you"
+        },
+        {
+          "id": "c",
+          "text": "I have a tribute from Judah for you"
+        },
+        {
+          "id": "d",
+          "text": "I have a letter from Gilead for you"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 3:20",
+            "text": "So Ehud came to him (now he was sitting upstairs in his cool private chamber). Then Ehud said, “I have a message from God for you.” So he arose from his seat.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 11:12",
+            "text": "Now Jephthah sent messengers to the king of the people of Ammon, saying, “What do you have against me, that you have come to fight against me in my land?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:20.",
+          "child": "Look at what Ehud said in verse 20.",
+          "teen": "11:12 names Jephthah’s messengers; 3:20 gives Ehud’s words. Read that sentence.",
+          "older": "It is what Ehud said in 3:20."
+        },
+        "extended_explanation": "3:20 also says “now he was sitting upstairs in his cool private chamber.” 11:12 says, “What do you have against me, that you have come to fight against me in my land?”",
+        "takeaway": "Ehud said, “I have a message from God for you.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 11",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 12:1 says the men of Ephraim gathered together and crossed over toward Zaphon. In 11:6, after “Then they said to Jephthah,” what did they first ask him to do?",
+        "child": "The elders of Gilead came to Jephthah with a request. After “Then they said to Jephthah,” what does 11:6 first ask him to do?",
+        "teen": "Judges 11:6: after “Then they said to Jephthah,” what do they first ask?",
+        "older": "Read with 12:1, what does 11:6 first ask after “Then they said to Jephthah”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Come and be our prophet"
+        },
+        {
+          "id": "b",
+          "text": "Come and be our high priest"
+        },
+        {
+          "id": "c",
+          "text": "Come and be our commander"
+        },
+        {
+          "id": "d",
+          "text": "Come and be our watcher"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 11:6",
+            "text": "Then they said to Jephthah, “Come and be our commander, that we may fight against the people of Ammon.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 12:1",
+            "text": "Then the men of Ephraim gathered together, crossed over toward Zaphon, and said to Jephthah, “Why did you cross over to fight against the people of Ammon, and did not call us to go with you? We will burn your house down on you with fire!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 11:6.",
+          "child": "Look just after “Then they said to Jephthah” in verse 6.",
+          "teen": "12:1 names Ephraim’s gathering; 11:6 gives this request. Read that sentence.",
+          "older": "It follows “Then they said to Jephthah” in 11:6."
+        },
+        "extended_explanation": "11:6 also says, “that we may fight against the people of Ammon.” 12:1 says they “crossed over toward Zaphon.”",
+        "takeaway": "They said, “Come and be our commander.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 3",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 12:4 says the men of Gilead defeated Ephraim. In 3:8, after “He sold them into the hand of,” whom does the verse name?",
+        "child": "The LORD sold Israel into a foreign king’s hand. After “He sold them into the hand of,” whom does 3:8 name?",
+        "teen": "Judges 3:8: after “He sold them into the hand of,” whom does it name?",
+        "older": "Read with 12:4, whom does 3:8 name after “He sold them into the hand of”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jabin king of Canaan"
+        },
+        {
+          "id": "b",
+          "text": "Eglon king of Moab"
+        },
+        {
+          "id": "c",
+          "text": "Merodach-Baladan king of the Chaldeans"
+        },
+        {
+          "id": "d",
+          "text": "Cushan-Rishathaim king of Mesopotamia"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 3:8",
+            "text": "Therefore the anger of the LORD was hot against Israel, and He sold them into the hand of Cushan-Rishathaim king of Mesopotamia; and the children of Israel served Cushan-Rishathaim eight years.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 12:4",
+            "text": "Now Jephthah gathered together all the men of Gilead and fought against Ephraim. And the men of Gilead defeated Ephraim, because they said, “You Gileadites are fugitives of Ephraim among the Ephraimites and among the Manassites.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:8.",
+          "child": "Look just after “He sold them into the hand of” in verse 8.",
+          "teen": "12:4 names the victory in Gilead; 3:8 names this king. Read that title.",
+          "older": "It follows “He sold them into the hand of” in 3:8."
+        },
+        "extended_explanation": "3:8 also says this lasted “eight years.” 12:4 says, “the men of Gilead defeated Ephraim.”",
+        "takeaway": "Cushan-Rishathaim king of Mesopotamia."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 11",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 2:6 says that when Joshua had dismissed the people, each went to his own inheritance. In 11:5, after “the elders of Gilead went to get Jephthah from,” where does the verse say they went?",
+        "child": "The elders of Gilead went to get Jephthah. After “went to get Jephthah from,” where does 11:5 say they went?",
+        "teen": "Judges 11:5: “went to get Jephthah from” where?",
+        "older": "Read with 2:6, where does 11:5 say they went after “went to get Jephthah from”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the land of Tob"
+        },
+        {
+          "id": "b",
+          "text": "the land of Midian"
+        },
+        {
+          "id": "c",
+          "text": "the land of Goshen"
+        },
+        {
+          "id": "d",
+          "text": "the land of Ham"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 11:5",
+            "text": "And so it was, when the people of Ammon made war against Israel, that the elders of Gilead went to get Jephthah from the land of Tob.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 2:6",
+            "text": "And when Joshua had dismissed the people, the children of Israel went each to his own inheritance to possess the land.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 11:5.",
+          "child": "Look just after “went to get Jephthah from” in verse 5.",
+          "teen": "2:6 tells of the people going to their inheritance; 11:5 names this place. Read that phrase.",
+          "older": "It follows “went to get Jephthah from” in 11:5."
+        },
+        "extended_explanation": "11:5 begins, “when the people of Ammon made war against Israel.” 2:6 says they “went each to his own inheritance to possess the land.”",
+        "takeaway": "They went to get him from the land of Tob."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jdg-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Judges",
+      "section": "Judges 3",
+      "topics": [
+        "judges-the-cycle-of-sin-and-deliverance"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Judges 10:12 names those from whom Israel had been delivered. In 3:13, after he defeated Israel, what does the verse say he took possession of?",
+        "child": "Ammon and Amalek were gathered, and Israel was defeated. After that defeat, what does 3:13 say he took possession of?",
+        "teen": "Judges 3:13: after he defeated Israel, what did he take possession of?",
+        "older": "Read with 10:12, what does 3:13 say he took possession of?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the City of Salt"
+        },
+        {
+          "id": "b",
+          "text": "the City of Palms"
+        },
+        {
+          "id": "c",
+          "text": "the City of Brass"
+        },
+        {
+          "id": "d",
+          "text": "the City of Stone"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Judges 3:13",
+            "text": "Then he gathered to himself the people of Ammon and Amalek, went and defeated Israel, and took possession of the City of Palms.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Judges 10:12",
+            "text": "Also the Sidonians and Amalekites and Maonites oppressed you; and you cried out to Me, and I delivered you from their hand.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:13.",
+          "child": "Look at the last words of verse 13.",
+          "teen": "10:12 names earlier deliverances; 3:13 ends with this place. Read that phrase.",
+          "older": "It is the last phrase of 3:13."
+        },
+        "extended_explanation": "3:13 also says he “gathered to himself the people of Ammon and Amalek.” 10:12 names Sidonians, Amalek, and Maon.",
+        "takeaway": "He took possession of the City of Palms."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

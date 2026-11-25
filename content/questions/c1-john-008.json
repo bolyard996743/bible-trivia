@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-john-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-jhn-0035",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In John 1:11, after “He came to His own, and” how does the verse proceed?",
+        "child": "After “He came to His own, and” how does John 1:11 proceed?",
+        "teen": "What comes next in John 1:11, just after “He came to His own, and”?",
+        "older": "According to John 1:11, after “He came to His own, and” how does the verse proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "His own did not receive Him"
+        },
+        {
+          "id": "b",
+          "text": "His own did not invite Him"
+        },
+        {
+          "id": "c",
+          "text": "His own did not present Him"
+        },
+        {
+          "id": "d",
+          "text": "His own did not protect Him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:11",
+            "text": "He came to His own, and His own did not receive Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in John 1:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in John 1:11.",
+          "older": "The continuation is in John 1:11."
+        },
+        "extended_explanation": "Read John 1:11 in the cited passage.",
+        "takeaway": "His own did not receive Him"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-jhn-0036",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 1:16 is also cited. How does John 1:14 begin?",
+        "child": "What are the opening words of John 1:14?",
+        "teen": "How do the first words of John 1:14 run? This question also cites John 1:16.",
+        "older": "Read John 1:14 with John 1:16. How does John 1:14 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And the Word became bread"
+        },
+        {
+          "id": "b",
+          "text": "And the Word became flesh"
+        },
+        {
+          "id": "c",
+          "text": "And the Word became light"
+        },
+        {
+          "id": "d",
+          "text": "And the Word became dust"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:14",
+            "text": "And the Word became flesh and dwelt among us, and we beheld His glory, the glory as of the only begotten of the Father, full of grace and truth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 1:16",
+            "text": "And of His fullness we have all received, and grace for grace.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of John 1:14.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "John 1:16 is the companion citation. Start at the beginning of John 1:14.",
+          "older": "It is the opening of John 1:14."
+        },
+        "extended_explanation": "John 1:16 is cited alongside John 1:14. Read both verses.",
+        "takeaway": "And the Word became flesh"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0037",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 14",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 14:17 is also cited. In John 14:25, after “things I have spoken to you” how does the verse proceed?",
+        "child": "After “things I have spoken to you” how does John 14:25 proceed?",
+        "teen": "What comes next in John 14:25, just after “things I have spoken to you”? This question also cites John 14:17.",
+        "older": "Read John 14:25 with John 14:17. After “things I have spoken to you” how does John 14:25 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "while being distant with you"
+        },
+        {
+          "id": "b",
+          "text": "while being patient with you"
+        },
+        {
+          "id": "c",
+          "text": "while being present with you"
+        },
+        {
+          "id": "d",
+          "text": "while being seated with you"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 14:25",
+            "text": "“These things I have spoken to you while being present with you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 14:17",
+            "text": "the Spirit of truth, whom the world cannot receive, because it neither sees Him nor knows Him; but you know Him, for He dwells with you and will be in you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in John 14:25.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "John 14:17 is the companion citation. Continue in John 14:25.",
+          "older": "The continuation is in John 14:25."
+        },
+        "extended_explanation": "John 14:17 is cited alongside John 14:25. Read both verses.",
+        "takeaway": "while being present with you"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0026",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 1",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 14:15 is also cited. In Hebrews 1:1, after “various times and in various ways” how does the verse proceed?",
+        "child": "After “various times and in various ways” how does Hebrews 1:1 proceed?",
+        "teen": "What comes next in Hebrews 1:1, just after “various times and in various ways”? This question also cites John 14:15.",
+        "older": "Read Hebrews 1:1 with John 14:15. After “various times and in various ways” how does Hebrews 1:1 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "spoke in time past to the teachers"
+        },
+        {
+          "id": "b",
+          "text": "spoke in time past to the writers"
+        },
+        {
+          "id": "c",
+          "text": "spoke in time past to the princes"
+        },
+        {
+          "id": "d",
+          "text": "spoke in time past to the fathers"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 1:1",
+            "text": "God, who at various times and in various ways spoke in time past to the fathers by the prophets,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 14:15",
+            "text": "“If you love Me, keep My commandments.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 1:1.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "John 14:15 is the companion citation. Continue in Hebrews 1:1.",
+          "older": "The continuation is in Hebrews 1:1."
+        },
+        "extended_explanation": "John 14:15 is cited alongside Hebrews 1:1. Read both verses.",
+        "takeaway": "spoke in time past to the fathers"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0038",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 1:10 is also cited. In John 1:18, after “in the bosom of the Father,” how does the verse proceed?",
+        "child": "After “in the bosom of the Father,” how does John 1:18 proceed?",
+        "teen": "What comes next in John 1:18, just after “in the bosom of the Father,”? This question also cites John 1:10.",
+        "older": "Read John 1:18 with John 1:10. After “in the bosom of the Father,” how does John 1:18 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He has declared Him"
+        },
+        {
+          "id": "b",
+          "text": "He has presented Him"
+        },
+        {
+          "id": "c",
+          "text": "He has appointed Him"
+        },
+        {
+          "id": "d",
+          "text": "He has defended Him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:18",
+            "text": "No one has seen God at any time. The only begotten Son, who is in the bosom of the Father, He has declared Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 1:10",
+            "text": "He was in the world, and the world was made through Him, and the world did not know Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in John 1:18.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "John 1:10 is the companion citation. Continue in John 1:18.",
+          "older": "The continuation is in John 1:18."
+        },
+        "extended_explanation": "John 1:10 is cited alongside John 1:18. Read both verses.",
+        "takeaway": "He has declared Him"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0039",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 14:22 is also cited. In John 1:15, after “said, ‘He who comes after me” how does the verse proceed?",
+        "child": "After “said, ‘He who comes after me” how does John 1:15 proceed?",
+        "teen": "What comes next in John 1:15, just after “said, ‘He who comes after me”? This question also cites John 14:22.",
+        "older": "Read John 1:15 with John 14:22. After “said, ‘He who comes after me” how does John 1:15 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "is appointed before me"
+        },
+        {
+          "id": "b",
+          "text": "is preferred before me"
+        },
+        {
+          "id": "c",
+          "text": "is presented before me"
+        },
+        {
+          "id": "d",
+          "text": "is considered before me"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:15",
+            "text": "John bore witness of Him and cried out, saying, “This was He of whom I said, ‘He who comes after me is preferred before me, for He was before me.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 14:22",
+            "text": "Judas (not Iscariot) said to Him, “Lord, how is it that You will manifest Yourself to us, and not to the world?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in John 1:15.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "John 14:22 is the companion citation. Continue in John 1:15.",
+          "older": "The continuation is in John 1:15."
+        },
+        "extended_explanation": "John 14:22 is cited alongside John 1:15. Read both verses.",
+        "takeaway": "is preferred before me"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0040",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 14",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 1:2 is also cited. In John 14:23, after “come to him and” how does the verse proceed?",
+        "child": "After “come to him and” how does John 14:23 proceed?",
+        "teen": "What comes next in John 14:23, just after “come to him and”? This question also cites John 1:2.",
+        "older": "Read John 14:23 with John 1:2. After “come to him and” how does John 14:23 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "make Our home with him"
+        },
+        {
+          "id": "b",
+          "text": "make Our rest with him"
+        },
+        {
+          "id": "c",
+          "text": "make Our path with him"
+        },
+        {
+          "id": "d",
+          "text": "make Our stay with him"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 14:23",
+            "text": "Jesus answered and said to him, “If anyone loves Me, he will keep My word; and My Father will love him, and We will come to him and make Our home with him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 1:2",
+            "text": "He was in the beginning with God.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in John 14:23.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "John 1:2 is the companion citation. Continue in John 14:23.",
+          "older": "The continuation is in John 14:23."
+        },
+        "extended_explanation": "John 1:2 is cited alongside John 14:23. Read both verses.",
+        "takeaway": "make Our home with him"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0027",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 1",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 14:18 is also cited. In Hebrews 1:4, after “as He has by inheritance obtained” how does the verse proceed?",
+        "child": "After “as He has by inheritance obtained” how does Hebrews 1:4 proceed?",
+        "teen": "What comes next in Hebrews 1:4, just after “as He has by inheritance obtained”? This question also cites John 14:18.",
+        "older": "Read Hebrews 1:4 with John 14:18. After “as He has by inheritance obtained” how does Hebrews 1:4 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a more excellent word than they"
+        },
+        {
+          "id": "b",
+          "text": "a more excellent name than they"
+        },
+        {
+          "id": "c",
+          "text": "a more excellent place than they"
+        },
+        {
+          "id": "d",
+          "text": "a more excellent work than they"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 1:4",
+            "text": "having become so much better than the angels, as He has by inheritance obtained a more excellent name than they.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 14:18",
+            "text": "I will not leave you orphans; I will come to you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 1:4.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "John 14:18 is the companion citation. Continue in Hebrews 1:4.",
+          "older": "The continuation is in Hebrews 1:4."
+        },
+        "extended_explanation": "John 14:18 is cited alongside Hebrews 1:4. Read both verses.",
+        "takeaway": "a more excellent name than they"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0041",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 14",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 1:8 is also cited. How does John 14:20 begin?",
+        "child": "What are the opening words of John 14:20?",
+        "teen": "How do the first words of John 14:20 run? This question also cites John 1:8.",
+        "older": "Read John 14:20 with John 1:8. How does John 14:20 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "At that day you will think that"
+        },
+        {
+          "id": "b",
+          "text": "At that day you will hope that"
+        },
+        {
+          "id": "c",
+          "text": "At that day you will know that"
+        },
+        {
+          "id": "d",
+          "text": "At that day you will prove that"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 14:20",
+            "text": "At that day you will know that I am in My Father, and you in Me, and I in you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 1:8",
+            "text": "He was not that Light, but was sent to bear witness of that Light.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of John 14:20.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "John 1:8 is the companion citation. Start at the beginning of John 14:20.",
+          "older": "It is the opening of John 14:20."
+        },
+        "extended_explanation": "John 1:8 is cited alongside John 14:20. Read both verses.",
+        "takeaway": "At that day you will know that"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0042",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 1",
+      "topics": [
+        "the-person-of-christ-and-the-trinity"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 14:24 is also cited. How does John 1:13 begin?",
+        "child": "What are the opening words of John 1:13?",
+        "teen": "How do the first words of John 1:13 run? This question also cites John 14:24.",
+        "older": "Read John 1:13 with John 14:24. How does John 1:13 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who were born, not of earth"
+        },
+        {
+          "id": "b",
+          "text": "who were born, not of water"
+        },
+        {
+          "id": "c",
+          "text": "who were born, not of stone"
+        },
+        {
+          "id": "d",
+          "text": "who were born, not of blood"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 1:13",
+            "text": "who were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 14:24",
+            "text": "He who does not love Me does not keep My words; and the word which you hear is not Mine but the Father’s who sent Me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of John 1:13.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "John 14:24 is the companion citation. Start at the beginning of John 1:13.",
+          "older": "It is the opening of John 1:13."
+        },
+        "extended_explanation": "John 14:24 is cited alongside John 1:13. Read both verses.",
+        "takeaway": "who were born, not of blood"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

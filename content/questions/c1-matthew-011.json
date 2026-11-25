@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-matthew-011",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-mat-0039",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 3",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "How does Matthew 3:9 begin?",
+        "child": "What are the opening words of Matthew 3:9?",
+        "teen": "How do the first words of Matthew 3:9 run?",
+        "older": "According to Matthew 3:9, how does the verse begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "and do not think to say to yourselves"
+        },
+        {
+          "id": "b",
+          "text": "and do not think to call to yourselves"
+        },
+        {
+          "id": "c",
+          "text": "and do not think to cry to yourselves"
+        },
+        {
+          "id": "d",
+          "text": "and do not think to turn to yourselves"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 3:9",
+            "text": "and do not think to say to yourselves, ‘We have Abraham as our father.’ For I say to you that God is able to raise up children to Abraham from these stones.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Matthew 3:9.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Start at the beginning of Matthew 3:9.",
+          "older": "It is the opening of Matthew 3:9."
+        },
+        "extended_explanation": "Read Matthew 3:9 in the cited passage.",
+        "takeaway": "and do not think to say to yourselves"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-mrk-0024",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 14",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Mark 14:6 is also cited. How does Mark 14:8 begin?",
+        "child": "What are the opening words of Mark 14:8?",
+        "teen": "How do the first words of Mark 14:8 run? This question also cites Mark 14:6.",
+        "older": "Read Mark 14:8 with Mark 14:6. How does Mark 14:8 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "She has done what she asked"
+        },
+        {
+          "id": "b",
+          "text": "She has done what she could"
+        },
+        {
+          "id": "c",
+          "text": "She has done what she planned"
+        },
+        {
+          "id": "d",
+          "text": "She has done what she wished"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 14:8",
+            "text": "She has done what she could. She has come beforehand to anoint My body for burial.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 14:6",
+            "text": "But Jesus said, “Let her alone. Why do you trouble her? She has done a good work for Me.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Mark 14:8.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Mark 14:6 is the companion citation. Start at the beginning of Mark 14:8.",
+          "older": "It is the opening of Mark 14:8."
+        },
+        "extended_explanation": "Mark 14:6 is cited alongside Mark 14:8. Read both verses.",
+        "takeaway": "She has done what she could"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mat-0040",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 4",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 4:13 is also cited. In Matthew 4:11, after “the devil left Him, and behold,” how does the verse proceed?",
+        "child": "After “the devil left Him, and behold,” how does Matthew 4:11 proceed?",
+        "teen": "What comes next in Matthew 4:11, just after “the devil left Him, and behold,”? This question also cites Matthew 4:13.",
+        "older": "Read Matthew 4:11 with Matthew 4:13. After “the devil left Him, and behold,” how does Matthew 4:11 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "angels came and bowed down to Him"
+        },
+        {
+          "id": "b",
+          "text": "angels came and knelt down to Him"
+        },
+        {
+          "id": "c",
+          "text": "angels came and ministered to Him"
+        },
+        {
+          "id": "d",
+          "text": "angels came and sang songs to Him"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 4:11",
+            "text": "Then the devil left Him, and behold, angels came and ministered to Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 4:13",
+            "text": "And leaving Nazareth, He came and dwelt in Capernaum, which is by the sea, in the regions of Zebulun and Naphtali,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Matthew 4:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Matthew 4:13 is the companion citation. Continue in Matthew 4:11.",
+          "older": "The continuation is in Matthew 4:11."
+        },
+        "extended_explanation": "Matthew 4:13 is cited alongside Matthew 4:11. Read both verses.",
+        "takeaway": "angels came and ministered to Him"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-luk-0039",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 23",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Luke 24:16 is also cited. How does Luke 23:26 begin?",
+        "child": "What are the opening words of Luke 23:26?",
+        "teen": "How do the first words of Luke 23:26 run? This question also cites Luke 24:16.",
+        "older": "Read Luke 23:26 with Luke 24:16. How does Luke 23:26 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Now as they led Him back"
+        },
+        {
+          "id": "b",
+          "text": "Now as they led Him down"
+        },
+        {
+          "id": "c",
+          "text": "Now as they led Him forth"
+        },
+        {
+          "id": "d",
+          "text": "Now as they led Him away"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 23:26",
+            "text": "Now as they led Him away, they laid hold of a certain man, Simon a Cyrenian, who was coming from the country, and on him they laid the cross that he might bear it after Jesus.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 24:16",
+            "text": "But their eyes were restrained, so that they did not know Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Luke 23:26.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Luke 24:16 is the companion citation. Start at the beginning of Luke 23:26.",
+          "older": "It is the opening of Luke 23:26."
+        },
+        "extended_explanation": "Luke 24:16 is cited alongside Luke 23:26. Read both verses.",
+        "takeaway": "Now as they led Him away"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0043",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 20",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 20:4 is also cited. In John 20:13, after “to her,” how does the verse proceed?",
+        "child": "After “to her,” how does John 20:13 proceed?",
+        "teen": "What comes next in John 20:13, just after “to her,”? This question also cites John 20:4.",
+        "older": "Read John 20:13 with John 20:4. After “to her,” how does John 20:13 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Woman, why are you weeping"
+        },
+        {
+          "id": "b",
+          "text": "Woman, why are you waiting"
+        },
+        {
+          "id": "c",
+          "text": "Woman, why are you walking"
+        },
+        {
+          "id": "d",
+          "text": "Woman, why are you watching"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 20:13",
+            "text": "Then they said to her, “Woman, why are you weeping?” She said to them, “Because they have taken away my Lord, and I do not know where they have laid Him.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 20:4",
+            "text": "So they both ran together, and the other disciple outran Peter and came to the tomb first.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in John 20:13.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "John 20:4 is the companion citation. Continue in John 20:13.",
+          "older": "The continuation is in John 20:13."
+        },
+        "extended_explanation": "John 20:4 is cited alongside John 20:13. Read both verses.",
+        "takeaway": "Woman, why are you weeping"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mrk-0025",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Mark 1:12 is also cited. In Mark 1:22, after “And” how does the verse proceed?",
+        "child": "After “And” how does Mark 1:22 proceed?",
+        "teen": "What comes next in Mark 1:22, just after “And”? This question also cites Mark 1:12.",
+        "older": "Read Mark 1:22 with Mark 1:12. After “And” how does Mark 1:22 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "they were astonished at His clothing"
+        },
+        {
+          "id": "b",
+          "text": "they were astonished at His teaching"
+        },
+        {
+          "id": "c",
+          "text": "they were astonished at His journey"
+        },
+        {
+          "id": "d",
+          "text": "they were astonished at His company"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:22",
+            "text": "And they were astonished at His teaching, for He taught them as one having authority, and not as the scribes.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 1:12",
+            "text": "Immediately the Spirit drove Him into the wilderness.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Mark 1:22.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Mark 1:12 is the companion citation. Continue in Mark 1:22.",
+          "older": "The continuation is in Mark 1:22."
+        },
+        "extended_explanation": "Mark 1:12 is cited alongside Mark 1:22. Read both verses.",
+        "takeaway": "they were astonished at His teaching"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mat-0041",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 3",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 4:23 is also cited. In Matthew 3:4, after “his waist; and his food was” how does the verse proceed?",
+        "child": "After “his waist; and his food was” how does Matthew 3:4 proceed?",
+        "teen": "What comes next in Matthew 3:4, just after “his waist; and his food was”? This question also cites Matthew 4:23.",
+        "older": "Read Matthew 3:4 with Matthew 4:23. After “his waist; and his food was” how does Matthew 3:4 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "locusts and wild honey"
+        },
+        {
+          "id": "b",
+          "text": "locusts and wild barley"
+        },
+        {
+          "id": "c",
+          "text": "locusts and wild berries"
+        },
+        {
+          "id": "d",
+          "text": "locusts and dried figs"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 3:4",
+            "text": "Now John himself was clothed in camel’s hair, with a leather belt around his waist; and his food was locusts and wild honey.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 4:23",
+            "text": "And Jesus went about all Galilee, teaching in their synagogues, preaching the gospel of the kingdom, and healing all kinds of sickness and all kinds of disease among the people.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Matthew 3:4.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Matthew 4:23 is the companion citation. Continue in Matthew 3:4.",
+          "older": "The continuation is in Matthew 3:4."
+        },
+        "extended_explanation": "Matthew 4:23 is cited alongside Matthew 3:4. Read both verses.",
+        "takeaway": "locusts and wild honey"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-luk-0040",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Luke",
+      "section": "Luke 23",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Luke 22:42 is also cited. In Luke 23:46, after “Your hands I commit My spirit.’” how does the verse proceed?",
+        "child": "After “Your hands I commit My spirit.’” how does Luke 23:46 proceed?",
+        "teen": "What comes next in Luke 23:46, just after “Your hands I commit My spirit.’”? This question also cites Luke 22:42.",
+        "older": "Read Luke 23:46 with Luke 22:42. After “Your hands I commit My spirit.’” how does Luke 23:46 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Having said this, He breathed His fill"
+        },
+        {
+          "id": "b",
+          "text": "Having said this, He breathed His last"
+        },
+        {
+          "id": "c",
+          "text": "Having said this, He breathed His rest"
+        },
+        {
+          "id": "d",
+          "text": "Having said this, He breathed His peace"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Luke 23:46",
+            "text": "And when Jesus had cried out with a loud voice, He said, “Father, ‘into Your hands I commit My spirit.’ ” Having said this, He breathed His last.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Luke 22:42",
+            "text": "saying, “Father, if it is Your will, take this cup away from Me; nevertheless not My will, but Yours, be done.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Luke 23:46.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Luke 22:42 is the companion citation. Continue in Luke 23:46.",
+          "older": "The continuation is in Luke 23:46."
+        },
+        "extended_explanation": "Luke 22:42 is cited alongside Luke 23:46. Read both verses.",
+        "takeaway": "Having said this, He breathed His last"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0044",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 20",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 20:10 is also cited. How does John 20:31 begin?",
+        "child": "What are the opening words of John 20:31?",
+        "teen": "How do the first words of John 20:31 run? This question also cites John 20:10.",
+        "older": "Read John 20:31 with John 20:10. How does John 20:31 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "but these are written that you may consider"
+        },
+        {
+          "id": "b",
+          "text": "but these are written that you may remember"
+        },
+        {
+          "id": "c",
+          "text": "but these are written that you may believe"
+        },
+        {
+          "id": "d",
+          "text": "but these are written that you may confess"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 20:31",
+            "text": "but these are written that you may believe that Jesus is the Christ, the Son of God, and that believing you may have life in His name.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 20:10",
+            "text": "Then the disciples went away again to their own homes.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of John 20:31.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "John 20:10 is the companion citation. Start at the beginning of John 20:31.",
+          "older": "It is the opening of John 20:31."
+        },
+        "extended_explanation": "John 20:10 is cited alongside John 20:31. Read both verses.",
+        "takeaway": "but these are written that you may believe"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mrk-0026",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 14",
+      "topics": [
+        "gospel-harmony-four-portraits"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Mark 1:33 is also cited. In Mark 14:2, after “during the feast,” how does the verse proceed?",
+        "child": "After “during the feast,” how does Mark 14:2 proceed?",
+        "teen": "What comes next in Mark 14:2, just after “during the feast,”? This question also cites Mark 1:33.",
+        "older": "Read Mark 14:2 with Mark 1:33. After “during the feast,” how does Mark 14:2 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "lest there be an uproar of the rulers"
+        },
+        {
+          "id": "b",
+          "text": "lest there be an uproar of the soldiers"
+        },
+        {
+          "id": "c",
+          "text": "lest there be an uproar of the elders"
+        },
+        {
+          "id": "d",
+          "text": "lest there be an uproar of the people"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 14:2",
+            "text": "But they said, “Not during the feast, lest there be an uproar of the people.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 1:33",
+            "text": "And the whole city was gathered together at the door.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Mark 14:2.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Mark 1:33 is the companion citation. Continue in Mark 14:2.",
+          "older": "The continuation is in Mark 14:2."
+        },
+        "extended_explanation": "Mark 1:33 is cited alongside Mark 14:2. Read both verses.",
+        "takeaway": "lest there be an uproar of the people"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

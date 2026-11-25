@@ -1,0 +1,522 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-nahum-001",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c1-nah-0001",
+      "cycle": 1,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Nahum",
+      "section": "Nahum 1",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amid Nahum’s warnings of judgment on Nineveh, 1:7 calls the LORD good and a stronghold when trouble comes. Whom does He know?",
+        "child": "Nahum says the LORD is good and a safe place in hard times. Who does the LORD know?",
+        "teen": "Nahum 1:7: “And He knows” whom?",
+        "older": "According to Nahum 1:7, whom does the LORD know?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "those who seek His face"
+        },
+        {
+          "id": "b",
+          "text": "those who keep His law"
+        },
+        {
+          "id": "c",
+          "text": "those who trust in Him"
+        },
+        {
+          "id": "d",
+          "text": "those who call on Him"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nahum 1:7",
+            "text": "The LORD is good, A stronghold in the day of trouble; And He knows those who trust in Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:7.",
+          "child": "Look at the last line of verse 7.",
+          "teen": "1:7 says what the LORD is, twice, and then whom He knows. Read the end.",
+          "older": "It follows “And He knows” in 1:7."
+        },
+        "extended_explanation": "1:3 says the LORD is slow to anger and great in power. 1:6 asks who can stand before His indignation.",
+        "takeaway": "The LORD knows those who trust in Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-nah-0001",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nahum",
+      "section": "Nahum 1",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nahum 1:13 promises Judah that the LORD will break the yoke off them. In 1:15, after the feet of one who brings good tidings appear on the mountains, Judah is told to keep what?",
+        "child": "God promises to free Judah from its enemy, and a messenger brings good news. What is Judah told to keep?",
+        "teen": "Nahum 1:15: “O Judah, keep” what?",
+        "older": "According to Nahum 1:15, what is Judah to keep?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your appointed feasts"
+        },
+        {
+          "id": "b",
+          "text": "your new moons"
+        },
+        {
+          "id": "c",
+          "text": "your harvest offerings"
+        },
+        {
+          "id": "d",
+          "text": "your fathers’ customs"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nahum 1:13",
+            "text": "For now I will break off his yoke from you, And burst your bonds apart.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nahum 1:15",
+            "text": "Behold, on the mountains The feet of him who brings good tidings, Who proclaims peace! O Judah, keep your appointed feasts, Perform your vows. For the wicked one shall no more pass through you; He is utterly cut off.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:15.",
+          "child": "Look right after “O Judah, keep” in verse 15.",
+          "teen": "1:15 gives Judah two commands after the good news. Read the first.",
+          "older": "It follows “O Judah, keep” in 1:15."
+        },
+        "extended_explanation": "1:15 ends by saying the wicked one shall no more pass through Judah. 1:13 speaks of bonds burst apart.",
+        "takeaway": "Judah is told, “O Judah, keep your appointed feasts.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-nah-0002",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nahum",
+      "section": "Nahum 3",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nahum 3:8-9 compares Nineveh with another great city that had waters around her and Ethiopia and Egypt as her strength. Which city does Nahum name?",
+        "child": "Nahum asks Nineveh if it is better than another strong city surrounded by water. Which city?",
+        "teen": "Nahum 3:8: “Are you better than” which city?",
+        "older": "According to Nahum 3:8, Nineveh is compared with which city?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Memphis"
+        },
+        {
+          "id": "b",
+          "text": "Pithom"
+        },
+        {
+          "id": "c",
+          "text": "Zoan"
+        },
+        {
+          "id": "d",
+          "text": "No Amon"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nahum 3:8",
+            "text": "Are you better than No Amon That was situated by the River, That had the waters around her, Whose rampart was the sea, Whose wall was the sea?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nahum 3:9",
+            "text": "Ethiopia and Egypt were her strength, And it was boundless; Put and Lubim were your helpers.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 3:8.",
+          "child": "Look at the first words of verse 8.",
+          "teen": "3:8 asks a question and then describes a city. Read the name in the question.",
+          "older": "It follows “Are you better than” in 3:8."
+        },
+        "extended_explanation": "3:9 says Put and Lubim were your helpers. 3:12 says all of Nineveh’s strongholds are like fig trees with ripened figs.",
+        "takeaway": "Nahum asks Nineveh, “Are you better than No Amon?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jon-0001",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 3",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jonah 3:10, God saw that Nineveh turned from its evil way and relented. When word reached the king of Nineveh (3:6), he laid aside his robe and covered himself with sackcloth. Where did he sit?",
+        "child": "When the king of Nineveh heard Jonah’s message, he took off his royal robe and put on rough cloth. Where did he sit?",
+        "teen": "Jonah 3:6: the king covered himself with sackcloth and sat where?",
+        "older": "Read with 3:10, where does 3:6 say the king of Nineveh sat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "at the gate"
+        },
+        {
+          "id": "b",
+          "text": "in ashes"
+        },
+        {
+          "id": "c",
+          "text": "on the wall"
+        },
+        {
+          "id": "d",
+          "text": "by the river"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 3:6",
+            "text": "Then word came to the king of Nineveh; and he arose from his throne and laid aside his robe, covered himself with sackcloth and sat in ashes.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jonah 3:10",
+            "text": "Then God saw their works, that they turned from their evil way; and God relented from the disaster that He had said He would bring upon them, and He did not do it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:6.",
+          "child": "Look at the last words of verse 6.",
+          "teen": "3:6 lists what the king did after rising. Read the last action.",
+          "older": "It follows “covered himself with sackcloth and sat” in 3:6."
+        },
+        "extended_explanation": "3:7 says the decree came from the king and his nobles. 3:9 asks who can tell if God will turn and relent.",
+        "takeaway": "The king of Nineveh sat in ashes."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-nah-0001",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Nahum",
+      "section": "Nahum 1",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nahum 1:8 says that with an overflowing flood the LORD will make an utter end of Nineveh’s place. In the battle scene of 2:6, what are opened before the palace is dissolved?",
+        "child": "Nahum said God would bring a flood on Nineveh. Later, in the battle, what gets opened before the palace falls apart?",
+        "teen": "Nahum 2:6: what “are opened, And the palace is dissolved”?",
+        "older": "Read with 1:8, what does 2:6 say are opened?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the doors of the temple"
+        },
+        {
+          "id": "b",
+          "text": "the gates of the rivers"
+        },
+        {
+          "id": "c",
+          "text": "the walls of the city"
+        },
+        {
+          "id": "d",
+          "text": "the storehouses of the king"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nahum 1:8",
+            "text": "But with an overflowing flood He will make an utter end of its place, And darkness will pursue His enemies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nahum 2:6",
+            "text": "The gates of the rivers are opened, And the palace is dissolved.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 2:6.",
+          "child": "Look at the start of verse 6.",
+          "teen": "1:8 gives the threat; 2:6 gives two lines of what happens. Read the first.",
+          "older": "It comes before “are opened” in 2:6."
+        },
+        "extended_explanation": "2:4 says the chariots rage in the streets. 2:9 calls for spoil of silver and gold.",
+        "takeaway": "The gates of the rivers are opened."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-nah-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Nahum",
+      "section": "Nahum 1",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nahum 1:9 says affliction will not rise up a second time. The book’s final verse, 3:19, addresses Nineveh’s injury. What does it say about it?",
+        "child": "Nahum ends by talking to Nineveh about its injury. What does he say about it?",
+        "teen": "Nahum 3:19: “Your injury” what?",
+        "older": "Read with 1:9, what does 3:19 say of Nineveh’s injury?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "has no healing"
+        },
+        {
+          "id": "b",
+          "text": "has no witness"
+        },
+        {
+          "id": "c",
+          "text": "has no shelter"
+        },
+        {
+          "id": "d",
+          "text": "has no ending"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nahum 1:9",
+            "text": "What do you conspire against the LORD? He will make an utter end of it. Affliction will not rise up a second time.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nahum 3:19",
+            "text": "Your injury has no healing, Your wound is severe. All who hear news of you Will clap their hands over you, For upon whom has not your wickedness passed continually?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the first line of 3:19.",
+          "child": "Look right after “Your injury” in verse 19.",
+          "teen": "1:9 speaks of affliction; 3:19 begins with two short statements about Nineveh’s hurt. Read the first.",
+          "older": "It follows “Your injury” in 3:19."
+        },
+        "extended_explanation": "3:18 says, “Your shepherds slumber, O king of Assyria.” 1:12 says, “Though I have afflicted you, I will afflict you no more.”",
+        "takeaway": "Your injury has no healing."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-nah-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Nahum",
+      "section": "Nahum 2",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nahum 2:1 mocks Nineveh: “Man the fort! Watch the road!” In 3:14 the city is told to draw water for the siege and fortify its strongholds. Where is it told to go to tread the mortar?",
+        "child": "Nahum warns Nineveh to get ready for an attack by making bricks. Where are they told to go to tread the mortar?",
+        "teen": "Nahum 3:14: “Go” where “and tread the mortar”?",
+        "older": "Read with 2:1, where does 3:14 tell Nineveh to go?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "into the quarry"
+        },
+        {
+          "id": "b",
+          "text": "into the forest"
+        },
+        {
+          "id": "c",
+          "text": "into the clay"
+        },
+        {
+          "id": "d",
+          "text": "into the fields"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nahum 2:1",
+            "text": "He who scatters has come up before your face. Man the fort! Watch the road! Strengthen your flanks! Fortify your power mightily.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nahum 3:14",
+            "text": "Draw your water for the siege! Fortify your strongholds! Go into the clay and tread the mortar! Make strong the brick kiln!",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:14.",
+          "child": "Look right after “Fortify your strongholds!” in verse 14.",
+          "teen": "2:1 orders the defense; 3:14 gives four commands. Read the third.",
+          "older": "It follows “Go” and comes before “and tread the mortar!” in 3:14."
+        },
+        "extended_explanation": "3:15 says the fire will devour you there. 2:1 says, “Fortify your power mightily.”",
+        "takeaway": "Go into the clay and tread the mortar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jon-0002",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Jonah",
+      "section": "Jonah 3",
+      "topics": [
+        "nahum-ninevehs-doom"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Jonah 3:10 God relented from the disaster He had said He would bring on Nineveh. In 4:11 He asks whether He should not pity that great city. Besides the many persons there who cannot discern between their right hand and their left, what else does He mention?",
+        "child": "God chose not to destroy Nineveh. At the end of the book, God says He cares about the city’s people and what else?",
+        "teen": "Jonah 4:11 ends with what, besides the persons who cannot discern?",
+        "older": "Read with 3:10, what does 4:11 add to Nineveh’s persons as a reason for pity?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "many fine houses"
+        },
+        {
+          "id": "b",
+          "text": "great palaces"
+        },
+        {
+          "id": "c",
+          "text": "rich storehouses"
+        },
+        {
+          "id": "d",
+          "text": "much livestock"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jonah 3:10",
+            "text": "Then God saw their works, that they turned from their evil way; and God relented from the disaster that He had said He would bring upon them, and He did not do it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jonah 4:11",
+            "text": "And should I not pity Nineveh, that great city, in which are more than one hundred and twenty thousand persons who cannot discern between their right hand and their left—and much livestock?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 4:11.",
+          "child": "Look at the very last words of verse 11.",
+          "teen": "3:10 shows God relenting; 4:11 gives the city’s people and then one more thing after a dash. Read it.",
+          "older": "It follows the dash near the end of 4:11."
+        },
+        "extended_explanation": "4:4 asks Jonah, “Is it right for you to be angry?” 3:5 says the people of Nineveh believed God.",
+        "takeaway": "God mentions the persons of Nineveh and much livestock."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

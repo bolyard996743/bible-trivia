@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ephesians-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-eph-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 1",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Ephesians 1:8, after “to abound toward us in,” how does the verse continue?",
+        "child": "After “to abound toward us in,” how does Ephesians 1:8 continue?",
+        "teen": "What comes next in Ephesians 1:8, right after “to abound toward us in”?",
+        "older": "According to Ephesians 1:8, after “to abound toward us in,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "all wisdom and prudence"
+        },
+        {
+          "id": "b",
+          "text": "all wisdom and patience"
+        },
+        {
+          "id": "c",
+          "text": "all wisdom and kindness"
+        },
+        {
+          "id": "d",
+          "text": "all wisdom and courage"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 1:8",
+            "text": "which He made to abound toward us in all wisdom and prudence,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ephesians 1:8.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Ephesians 1:8.",
+          "older": "The continuation is in Ephesians 1:8."
+        },
+        "extended_explanation": "Read the rest of Ephesians 1:8 as well.",
+        "takeaway": "all wisdom and prudence."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-eph-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 1",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 2:4 is also cited. In Ephesians 1:7, after “redemption through His blood,” how does the verse continue?",
+        "child": "After “redemption through His blood,” how does Ephesians 1:7 continue?",
+        "teen": "What comes next in Ephesians 1:7, right after “redemption through His blood”? This question also cites Ephesians 2:4.",
+        "older": "Read Ephesians 1:7 with Ephesians 2:4. After “redemption through His blood,” how does Ephesians 1:7 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the abundance of wisdom"
+        },
+        {
+          "id": "b",
+          "text": "the forgiveness of sins"
+        },
+        {
+          "id": "c",
+          "text": "the fellowship of peace"
+        },
+        {
+          "id": "d",
+          "text": "the inheritance of joy"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 1:7",
+            "text": "In Him we have redemption through His blood, the forgiveness of sins, according to the riches of His grace",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 2:4",
+            "text": "But God, who is rich in mercy, because of His great love with which He loved us,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ephesians 1:7.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ephesians 2:4 is the companion citation. Continue in Ephesians 1:7.",
+          "older": "The continuation is in Ephesians 1:7."
+        },
+        "extended_explanation": "Ephesians 2:4 is cited alongside Ephesians 1:7. Read both verses.",
+        "takeaway": "the forgiveness of sins."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 1",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 3:1 is also cited. How does Ephesians 1:12 begin?",
+        "child": "What are the opening words of Ephesians 1:12?",
+        "teen": "How do the first words of Ephesians 1:12 run? This question also cites Ephesians 3:1.",
+        "older": "Read Ephesians 1:12 with Ephesians 3:1. How does Ephesians 1:12 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "that we who first traveled"
+        },
+        {
+          "id": "b",
+          "text": "that we who first trained"
+        },
+        {
+          "id": "c",
+          "text": "that we who first trusted"
+        },
+        {
+          "id": "d",
+          "text": "that we who first treated"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 1:12",
+            "text": "that we who first trusted in Christ should be to the praise of His glory.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 3:1",
+            "text": "For this reason I, Paul, the prisoner of Christ Jesus for you Gentiles—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Ephesians 1:12.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ephesians 3:1 is the companion citation. Start at the beginning of Ephesians 1:12.",
+          "older": "It is the opening of Ephesians 1:12."
+        },
+        "extended_explanation": "Ephesians 3:1 is cited alongside Ephesians 1:12. Read both verses.",
+        "takeaway": "that we who first trusted."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0011",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 3",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 2:1 is also cited. In Ephesians 3:6, after “that the Gentiles should be,” how does the verse continue?",
+        "child": "After “that the Gentiles should be,” how does Ephesians 3:6 continue?",
+        "teen": "What comes next in Ephesians 3:6, right after “that the Gentiles should be”? This question also cites Ephesians 2:1.",
+        "older": "Read Ephesians 3:6 with Ephesians 2:1. After “that the Gentiles should be,” how does Ephesians 3:6 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "fellow hosts"
+        },
+        {
+          "id": "b",
+          "text": "fellow guests"
+        },
+        {
+          "id": "c",
+          "text": "fellow guards"
+        },
+        {
+          "id": "d",
+          "text": "fellow heirs"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 3:6",
+            "text": "that the Gentiles should be fellow heirs, of the same body, and partakers of His promise in Christ through the gospel,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 2:1",
+            "text": "And you He made alive, who were dead in trespasses and sins,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ephesians 3:6.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ephesians 2:1 is the companion citation. Continue in Ephesians 3:6.",
+          "older": "The continuation is in Ephesians 3:6."
+        },
+        "extended_explanation": "Ephesians 2:1 is cited alongside Ephesians 3:6. Read both verses.",
+        "takeaway": "fellow heirs."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0012",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 3",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 4:3 is also cited. How does Ephesians 3:14 begin?",
+        "child": "What are the opening words of Ephesians 3:14?",
+        "teen": "How do the first words of Ephesians 3:14 run? This question also cites Ephesians 4:3.",
+        "older": "Read Ephesians 3:14 with Ephesians 4:3. How does Ephesians 3:14 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "For this reason I bow"
+        },
+        {
+          "id": "b",
+          "text": "For this reason I set"
+        },
+        {
+          "id": "c",
+          "text": "For this reason I bend"
+        },
+        {
+          "id": "d",
+          "text": "For this reason I fall"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 3:14",
+            "text": "For this reason I bow my knees to the Father of our Lord Jesus Christ,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 4:3",
+            "text": "endeavoring to keep the unity of the Spirit in the bond of peace.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Ephesians 3:14.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ephesians 4:3 is the companion citation. Start at the beginning of Ephesians 3:14.",
+          "older": "It is the opening of Ephesians 3:14."
+        },
+        "extended_explanation": "Ephesians 4:3 is cited alongside Ephesians 3:14. Read both verses.",
+        "takeaway": "For this reason I bow."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 2",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 1:14 is also cited. In Ephesians 2:14, after “For He Himself is our peace,” how does the verse continue?",
+        "child": "After “For He Himself is our peace,” how does Ephesians 2:14 continue?",
+        "teen": "What comes next in Ephesians 2:14, right after “For He Himself is our peace”? This question also cites Ephesians 1:14.",
+        "older": "Read Ephesians 2:14 with Ephesians 1:14. After “For He Himself is our peace,” how does Ephesians 2:14 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who has made both new"
+        },
+        {
+          "id": "b",
+          "text": "who has made both one"
+        },
+        {
+          "id": "c",
+          "text": "who has made both pure"
+        },
+        {
+          "id": "d",
+          "text": "who has made both free"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 2:14",
+            "text": "For He Himself is our peace, who has made both one, and has broken down the middle wall of separation,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 1:14",
+            "text": "who is the guarantee of our inheritance until the redemption of the purchased possession, to the praise of His glory.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ephesians 2:14.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ephesians 1:14 is the companion citation. Continue in Ephesians 2:14.",
+          "older": "The continuation is in Ephesians 2:14."
+        },
+        "extended_explanation": "Ephesians 1:14 is cited alongside Ephesians 2:14. Read both verses.",
+        "takeaway": "who has made both one."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 1",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 3:20 is also cited. How does Ephesians 1:5 begin?",
+        "child": "What are the opening words of Ephesians 1:5?",
+        "teen": "How do the first words of Ephesians 1:5 run? This question also cites Ephesians 3:20.",
+        "older": "Read Ephesians 1:5 with Ephesians 3:20. How does Ephesians 1:5 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "having predestined me"
+        },
+        {
+          "id": "b",
+          "text": "having predestined you"
+        },
+        {
+          "id": "c",
+          "text": "having predestined us"
+        },
+        {
+          "id": "d",
+          "text": "having predestined them"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 1:5",
+            "text": "having predestined us to adoption as sons by Jesus Christ to Himself, according to the good pleasure of His will,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 3:20",
+            "text": "Now to Him who is able to do exceedingly abundantly above all that we ask or think, according to the power that works in us,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Ephesians 1:5.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ephesians 3:20 is the companion citation. Start at the beginning of Ephesians 1:5.",
+          "older": "It is the opening of Ephesians 1:5."
+        },
+        "extended_explanation": "Ephesians 3:20 is cited alongside Ephesians 1:5. Read both verses.",
+        "takeaway": "having predestined us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 4",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 2:22 is also cited. In Ephesians 4:11, after “And He Himself gave,” how does the verse continue?",
+        "child": "After “And He Himself gave,” how does Ephesians 4:11 continue?",
+        "teen": "What comes next in Ephesians 4:11, right after “And He Himself gave”? This question also cites Ephesians 2:22.",
+        "older": "Read Ephesians 4:11 with Ephesians 2:22. After “And He Himself gave,” how does Ephesians 4:11 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "some to be elders"
+        },
+        {
+          "id": "b",
+          "text": "some to be deacons"
+        },
+        {
+          "id": "c",
+          "text": "some to be stewards"
+        },
+        {
+          "id": "d",
+          "text": "some to be apostles"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 4:11",
+            "text": "And He Himself gave some to be apostles, some prophets, some evangelists, and some pastors and teachers,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 2:22",
+            "text": "in whom you also are being built together for a dwelling place of God in the Spirit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ephesians 4:11.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ephesians 2:22 is the companion citation. Continue in Ephesians 4:11.",
+          "older": "The continuation is in Ephesians 4:11."
+        },
+        "extended_explanation": "Ephesians 2:22 is cited alongside Ephesians 4:11. Read both verses.",
+        "takeaway": "some to be apostles."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0016",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 1",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 4:2 is also cited. In Ephesians 1:3, after “blessed us with every spiritual blessing,” how does the verse continue?",
+        "child": "After “blessed us with every spiritual blessing,” how does Ephesians 1:3 continue?",
+        "teen": "What comes next in Ephesians 1:3, right after “blessed us with every spiritual blessing”? This question also cites Ephesians 4:2.",
+        "older": "Read Ephesians 1:3 with Ephesians 4:2. After “blessed us with every spiritual blessing,” how does Ephesians 1:3 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in the heavenly places"
+        },
+        {
+          "id": "b",
+          "text": "in the heavenly courts"
+        },
+        {
+          "id": "c",
+          "text": "in the heavenly realms"
+        },
+        {
+          "id": "d",
+          "text": "in the heavenly gates"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 1:3",
+            "text": "Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 4:2",
+            "text": "with all lowliness and gentleness, with longsuffering, bearing with one another in love,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Ephesians 1:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Ephesians 4:2 is the companion citation. Continue in Ephesians 1:3.",
+          "older": "The continuation is in Ephesians 1:3."
+        },
+        "extended_explanation": "Ephesians 4:2 is cited alongside Ephesians 1:3. Read both verses.",
+        "takeaway": "in the heavenly places."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-eph-0017",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Ephesians",
+      "section": "Ephesians 3",
+      "topics": [
+        "ephesians-in-christ"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ephesians 4:4 is also cited. How does Ephesians 3:18 begin?",
+        "child": "What are the opening words of Ephesians 3:18?",
+        "teen": "How do the first words of Ephesians 3:18 run? This question also cites Ephesians 4:4.",
+        "older": "Read Ephesians 3:18 with Ephesians 4:4. How does Ephesians 3:18 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "may be able to comprehend with all the chiefs"
+        },
+        {
+          "id": "b",
+          "text": "may be able to comprehend with all the saints"
+        },
+        {
+          "id": "c",
+          "text": "may be able to comprehend with all the guests"
+        },
+        {
+          "id": "d",
+          "text": "may be able to comprehend with all the elders"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ephesians 3:18",
+            "text": "may be able to comprehend with all the saints what is the width and length and depth and height—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ephesians 4:4",
+            "text": "There is one body and one Spirit, just as you were called in one hope of your calling;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Ephesians 3:18.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Ephesians 4:4 is the companion citation. Start at the beginning of Ephesians 3:18.",
+          "older": "It is the opening of Ephesians 3:18."
+        },
+        "extended_explanation": "Ephesians 4:4 is cited alongside Ephesians 3:18. Read both verses.",
+        "takeaway": "may be able to comprehend with all the saints."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

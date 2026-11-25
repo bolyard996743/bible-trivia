@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-romans-007",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-rom-0022",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 3",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Romans 3:25, after “to demonstrate His righteousness, because,” how does the verse continue?",
+        "child": "After “to demonstrate His righteousness, because,” how does Romans 3:25 continue?",
+        "teen": "What comes next in Romans 3:25, right after “to demonstrate His righteousness, because”?",
+        "older": "According to Romans 3:25, after “to demonstrate His righteousness, because,” how does the verse continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in His forbearance"
+        },
+        {
+          "id": "b",
+          "text": "in His forgiveness"
+        },
+        {
+          "id": "c",
+          "text": "in His faithfulness"
+        },
+        {
+          "id": "d",
+          "text": "in His gentleness"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 3:25",
+            "text": "whom God set forth as a propitiation by His blood, through faith, to demonstrate His righteousness, because in His forbearance God had passed over the sins that were previously committed,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Romans 3:25.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in Romans 3:25.",
+          "older": "The continuation is in Romans 3:25."
+        },
+        "extended_explanation": "Read the rest of Romans 3:25 as well.",
+        "takeaway": "in His forbearance."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-2co-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 5",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Corinthians 5:14 is also cited. In 2 Corinthians 5:16, after “Therefore, from now on,” how does the verse continue?",
+        "child": "After “Therefore, from now on,” how does 2 Corinthians 5:16 continue?",
+        "teen": "What comes next in 2 Corinthians 5:16, right after “Therefore, from now on”? This question also cites 2 Corinthians 5:14.",
+        "older": "Read 2 Corinthians 5:16 with 2 Corinthians 5:14. After “Therefore, from now on,” how does 2 Corinthians 5:16 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "we regard no one according to the flame"
+        },
+        {
+          "id": "b",
+          "text": "we regard no one according to the flesh"
+        },
+        {
+          "id": "c",
+          "text": "we regard no one according to the flood"
+        },
+        {
+          "id": "d",
+          "text": "we regard no one according to the flock"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 5:16",
+            "text": "Therefore, from now on, we regard no one according to the flesh. Even though we have known Christ according to the flesh, yet now we know Him thus no longer.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 5:14",
+            "text": "For the love of Christ compels us, because we judge thus: that if One died for all, then all died;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 2 Corinthians 5:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "2 Corinthians 5:14 is the companion citation. Continue in 2 Corinthians 5:16.",
+          "older": "The continuation is in 2 Corinthians 5:16."
+        },
+        "extended_explanation": "2 Corinthians 5:14 is cited alongside 2 Corinthians 5:16. Read both verses.",
+        "takeaway": "we regard no one according to the flesh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gal-0011",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 3",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 3:12 is also cited. How does Galatians 3:11 begin?",
+        "child": "What are the opening words of Galatians 3:11?",
+        "teen": "How do the first words of Galatians 3:11 run? This question also cites Galatians 3:12.",
+        "older": "Read Galatians 3:11 with Galatians 3:12. How does Galatians 3:11 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "But that no one is condemned"
+        },
+        {
+          "id": "b",
+          "text": "But that no one is pardoned"
+        },
+        {
+          "id": "c",
+          "text": "But that no one is justified"
+        },
+        {
+          "id": "d",
+          "text": "But that no one is acquitted"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 3:11",
+            "text": "But that no one is justified by the law in the sight of God is evident, for “the just shall live by faith.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 3:12",
+            "text": "Yet the law is not of faith, but “the man who does them shall live by them.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Galatians 3:11.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Galatians 3:12 is the companion citation. Start at the beginning of Galatians 3:11.",
+          "older": "It is the opening of Galatians 3:11."
+        },
+        "extended_explanation": "Galatians 3:12 is cited alongside Galatians 3:11. Read both verses.",
+        "takeaway": "But that no one is justified."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0023",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 9",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 9:18 is also cited. In Hebrews 9:16, after “there must also of necessity be,” how does the verse continue?",
+        "child": "After “there must also of necessity be,” how does Hebrews 9:16 continue?",
+        "teen": "What comes next in Hebrews 9:16, right after “there must also of necessity be”? This question also cites Hebrews 9:18.",
+        "older": "Read Hebrews 9:16 with Hebrews 9:18. After “there must also of necessity be,” how does Hebrews 9:16 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the death of the witness"
+        },
+        {
+          "id": "b",
+          "text": "the death of the guardian"
+        },
+        {
+          "id": "c",
+          "text": "the death of the receiver"
+        },
+        {
+          "id": "d",
+          "text": "the death of the testator"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 9:16",
+            "text": "For where there is a testament, there must also of necessity be the death of the testator.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:18",
+            "text": "Therefore not even the first covenant was dedicated without blood.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 9:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 9:18 is the companion citation. Continue in Hebrews 9:16.",
+          "older": "The continuation is in Hebrews 9:16."
+        },
+        "extended_explanation": "Hebrews 9:18 is cited alongside Hebrews 9:16. Read both verses.",
+        "takeaway": "the death of the testator."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1pe-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 2",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Peter 2:21 is also cited. In 1 Peter 2:22, after “Who committed no sin,” how does the verse continue?",
+        "child": "After “Who committed no sin,” how does 1 Peter 2:22 continue?",
+        "teen": "What comes next in 1 Peter 2:22, right after “Who committed no sin”? This question also cites 1 Peter 2:21.",
+        "older": "Read 1 Peter 2:22 with 1 Peter 2:21. After “Who committed no sin,” how does 1 Peter 2:22 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nor was deceit found in His mouth"
+        },
+        {
+          "id": "b",
+          "text": "Nor was deceit found in His heart"
+        },
+        {
+          "id": "c",
+          "text": "Nor was deceit found in His voice"
+        },
+        {
+          "id": "d",
+          "text": "Nor was deceit found in His deeds"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 2:22",
+            "text": "“Who committed no sin, Nor was deceit found in His mouth”;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 2:21",
+            "text": "For to this you were called, because Christ also suffered for us, leaving us an example, that you should follow His steps:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 1 Peter 2:22.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "1 Peter 2:21 is the companion citation. Continue in 1 Peter 2:22.",
+          "older": "The continuation is in 1 Peter 2:22."
+        },
+        "extended_explanation": "1 Peter 2:21 is cited alongside 1 Peter 2:22. Read both verses.",
+        "takeaway": "Nor was deceit found in His mouth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rom-0023",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 3",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 3:21 is also cited. In Romans 3:26, after “might be just and the justifier,” how does the verse continue?",
+        "child": "After “might be just and the justifier,” how does Romans 3:26 continue?",
+        "teen": "What comes next in Romans 3:26, right after “might be just and the justifier”? This question also cites Romans 3:21.",
+        "older": "Read Romans 3:26 with Romans 3:21. After “might be just and the justifier,” how does Romans 3:26 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "of the one who has favor"
+        },
+        {
+          "id": "b",
+          "text": "of the one who has faith"
+        },
+        {
+          "id": "c",
+          "text": "of the one who has fear"
+        },
+        {
+          "id": "d",
+          "text": "of the one who has fame"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 3:26",
+            "text": "to demonstrate at the present time His righteousness, that He might be just and the justifier of the one who has faith in Jesus.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 3:21",
+            "text": "But now the righteousness of God apart from the law is revealed, being witnessed by the Law and the Prophets,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Romans 3:26.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Romans 3:21 is the companion citation. Continue in Romans 3:26.",
+          "older": "The continuation is in Romans 3:26."
+        },
+        "extended_explanation": "Romans 3:21 is cited alongside Romans 3:26. Read both verses.",
+        "takeaway": "of the one who has faith."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2co-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Corinthians",
+      "section": "2 Corinthians 5",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Corinthians 5:15 is also cited. In 2 Corinthians 5:21, after “For He made,” how does the verse continue?",
+        "child": "After “For He made,” how does 2 Corinthians 5:21 continue?",
+        "teen": "What comes next in 2 Corinthians 5:21, right after “For He made”? This question also cites 2 Corinthians 5:15.",
+        "older": "Read 2 Corinthians 5:21 with 2 Corinthians 5:15. After “For He made,” how does 2 Corinthians 5:21 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Him who knew no ill"
+        },
+        {
+          "id": "b",
+          "text": "Him who knew no lie"
+        },
+        {
+          "id": "c",
+          "text": "Him who knew no sin"
+        },
+        {
+          "id": "d",
+          "text": "Him who knew no harm"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Corinthians 5:21",
+            "text": "For He made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Corinthians 5:15",
+            "text": "and He died for all, that those who live should live no longer for themselves, but for Him who died for them and rose again.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 2 Corinthians 5:21.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "2 Corinthians 5:15 is the companion citation. Continue in 2 Corinthians 5:21.",
+          "older": "The continuation is in 2 Corinthians 5:21."
+        },
+        "extended_explanation": "2 Corinthians 5:15 is cited alongside 2 Corinthians 5:21. Read both verses.",
+        "takeaway": "Him who knew no sin."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1pe-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 2",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Peter 2:23 is also cited. How does 1 Peter 2:24 begin?",
+        "child": "What are the opening words of 1 Peter 2:24?",
+        "teen": "How do the first words of 1 Peter 2:24 run? This question also cites 1 Peter 2:23.",
+        "older": "Read 1 Peter 2:24 with 1 Peter 2:23. How does 1 Peter 2:24 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "who Himself bore our sins in His own body on the path"
+        },
+        {
+          "id": "b",
+          "text": "who Himself bore our sins in His own body on the road"
+        },
+        {
+          "id": "c",
+          "text": "who Himself bore our sins in His own body on the post"
+        },
+        {
+          "id": "d",
+          "text": "who Himself bore our sins in His own body on the tree"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 2:24",
+            "text": "who Himself bore our sins in His own body on the tree, that we, having died to sins, might live for righteousness—by whose stripes you were healed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 2:23",
+            "text": "who, when He was reviled, did not revile in return; when He suffered, He did not threaten, but committed Himself to Him who judges righteously;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 1 Peter 2:24.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "1 Peter 2:23 is the companion citation. Start at the beginning of 1 Peter 2:24.",
+          "older": "It is the opening of 1 Peter 2:24."
+        },
+        "extended_explanation": "1 Peter 2:23 is cited alongside 1 Peter 2:24. Read both verses.",
+        "takeaway": "who Himself bore our sins in His own body on the tree."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0024",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 9",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 9:28 is also cited. How does Hebrews 9:15 begin?",
+        "child": "What are the opening words of Hebrews 9:15?",
+        "teen": "How do the first words of Hebrews 9:15 run? This question also cites Hebrews 9:28.",
+        "older": "Read Hebrews 9:15 with Hebrews 9:28. How does Hebrews 9:15 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And for this reason He is the Mediator"
+        },
+        {
+          "id": "b",
+          "text": "And for this reason He is the Messenger"
+        },
+        {
+          "id": "c",
+          "text": "And for this reason He is the Shepherd"
+        },
+        {
+          "id": "d",
+          "text": "And for this reason He is the Commander"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 9:15",
+            "text": "And for this reason He is the Mediator of the new covenant, by means of death, for the redemption of the transgressions under the first covenant, that those who are called may receive the promise of the eternal inheritance.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:28",
+            "text": "so Christ was offered once to bear the sins of many. To those who eagerly wait for Him He will appear a second time, apart from sin, for salvation.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Hebrews 9:15.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Hebrews 9:28 is the companion citation. Start at the beginning of Hebrews 9:15.",
+          "older": "It is the opening of Hebrews 9:15."
+        },
+        "extended_explanation": "Hebrews 9:28 is cited alongside Hebrews 9:15. Read both verses.",
+        "takeaway": "And for this reason He is the Mediator."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-heb-0025",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Hebrews",
+      "section": "Hebrews 9",
+      "topics": [
+        "atonement-and-justification"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Hebrews 9:23 is also cited. In Hebrews 9:27, after “for men to die once, but,” how does the verse continue?",
+        "child": "After “for men to die once, but,” how does Hebrews 9:27 continue?",
+        "teen": "What comes next in Hebrews 9:27, right after “for men to die once, but”? This question also cites Hebrews 9:23.",
+        "older": "Read Hebrews 9:27 with Hebrews 9:23. After “for men to die once, but,” how does Hebrews 9:27 continue?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "after this the sentence"
+        },
+        {
+          "id": "b",
+          "text": "after this the judgment"
+        },
+        {
+          "id": "c",
+          "text": "after this the jeopardy"
+        },
+        {
+          "id": "d",
+          "text": "after this the reckoning"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Hebrews 9:27",
+            "text": "And as it is appointed for men to die once, but after this the judgment,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Hebrews 9:23",
+            "text": "Therefore it was necessary that the copies of the things in the heavens should be purified with these, but the heavenly things themselves with better sacrifices than these.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Hebrews 9:27.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Hebrews 9:23 is the companion citation. Continue in Hebrews 9:27.",
+          "older": "The continuation is in Hebrews 9:27."
+        },
+        "extended_explanation": "Hebrews 9:23 is cited alongside Hebrews 9:27. Read both verses.",
+        "takeaway": "after this the judgment."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

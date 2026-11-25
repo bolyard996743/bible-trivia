@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-psalms-009",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-psa-0025",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 2",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 2:6 records what the LORD has set. After “Yet I have set,” what does the verse first say?",
+        "child": "A claim is made about what has been set. After “Yet I have set,” what does 2:6 first say?",
+        "teen": "Psalm 2:6: after “Yet I have set,” what does it first say?",
+        "older": "According to Psalm 2:6, after “Yet I have set,” what does the verse first say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Yet I have set My King"
+        },
+        {
+          "id": "b",
+          "text": "Yet I have set My Seer"
+        },
+        {
+          "id": "c",
+          "text": "Yet I have set My Judge"
+        },
+        {
+          "id": "d",
+          "text": "Yet I have set My Prophet"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 2:6",
+            "text": "“Yet I have set My King On My holy hill of Zion.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 2:6.",
+          "child": "Look just after “Yet I have set” in verse 6.",
+          "teen": "2:6 opens with this claim. Read that sentence.",
+          "older": "It follows “Yet I have set” in 2:6."
+        },
+        "extended_explanation": "2:6 also says, “On My holy hill of Zion.”",
+        "takeaway": "Yet I have set My King."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-psa-0026",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 2",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 2:7 opens a spoken line. How does the verse begin? Psalm 2:5 tells what He shall speak in His wrath.",
+        "child": "A spoken line is introduced. What does 2:7 first say at its opening?",
+        "teen": "Psalm 2:7: what does it first say at its opening?",
+        "older": "Read with 2:5. According to Psalm 2:7, what does the verse first say at its opening?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will declare the vision"
+        },
+        {
+          "id": "b",
+          "text": "I will declare the decree"
+        },
+        {
+          "id": "c",
+          "text": "I will declare the riddle"
+        },
+        {
+          "id": "d",
+          "text": "I will declare the proverb"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 2:7",
+            "text": "“I will declare the decree: The LORD has said to Me, ‘You are My Son, Today I have begotten You.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 2:5",
+            "text": "Then He shall speak to them in His wrath, And distress them in His deep displeasure:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 2:7. 2:5 names a speech in wrath.",
+          "child": "Look at the first sentence of verse 7.",
+          "teen": "2:7 opens with this claim. Read that sentence.",
+          "older": "It is the opening of 2:7."
+        },
+        "extended_explanation": "2:7 continues after that opening line. 2:5 says, “Then He shall speak to them in His wrath.”",
+        "takeaway": "I will declare the decree."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0019",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 2",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 2:12 ends with a blessing. After “Blessed are all those who,” what does the verse say?",
+        "child": "A blessing closes the psalm. After “Blessed are all those who,” what does 2:12 say?",
+        "teen": "Psalm 2:12: after “Blessed are all those who,” what is said?",
+        "older": "According to Psalm 2:12, after “Blessed are all those who,” what does the verse say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Blessed are all those who put their hope in Zion"
+        },
+        {
+          "id": "b",
+          "text": "Blessed are all those who put their hand to His work"
+        },
+        {
+          "id": "c",
+          "text": "Blessed are all those who put their trust in Him"
+        },
+        {
+          "id": "d",
+          "text": "Blessed are all those who put their feet in His paths"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 2:12",
+            "text": "Kiss the Son, lest He be angry, And you perish in the way, When His wrath is kindled but a little. Blessed are all those who put their trust in Him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 2:5",
+            "text": "Then He shall speak to them in His wrath, And distress them in His deep displeasure:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:12.",
+          "child": "Look at the last sentence of verse 12.",
+          "teen": "2:12 ends with this blessing. Read that sentence.",
+          "older": "It is the last sentence of 2:12."
+        },
+        "extended_explanation": "2:12 also says, “lest He be angry, And you perish in the way.”",
+        "takeaway": "Blessed are all those who put their trust in Him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0020",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 2",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 2:9 tells how the nations will be dealt with. After “You shall dash them to pieces,” how does the verse say they will be dashed?",
+        "child": "A comparison is given for how they will be dashed. After “You shall dash them to pieces,” how does 2:9 finish that line?",
+        "teen": "Psalm 2:9: after “You shall dash them to pieces,” how does it finish?",
+        "older": "According to Psalm 2:9, after “You shall dash them to pieces,” how does the verse finish?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You shall dash them to pieces like a cedar’s branch"
+        },
+        {
+          "id": "b",
+          "text": "You shall dash them to pieces like a shepherd’s staff"
+        },
+        {
+          "id": "c",
+          "text": "You shall dash them to pieces like a soldier’s shield"
+        },
+        {
+          "id": "d",
+          "text": "You shall dash them to pieces like a potter’s vessel"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 2:9",
+            "text": "You shall break them with a rod of iron; You shall dash them to pieces like a potter’s vessel.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 2:1",
+            "text": "Why do the nations rage, And the people plot a vain thing?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:9.",
+          "child": "Look at the last comparison in verse 9.",
+          "teen": "2:9 ends with this comparison. Read that phrase.",
+          "older": "It is the last phrase of 2:9."
+        },
+        "extended_explanation": "2:9 also says, “You shall break them with a rod of iron.”",
+        "takeaway": "You shall dash them to pieces like a potter’s vessel."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0021",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 2",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 2:3 records what the kings and rulers say. How does that verse end? Psalm 110:5 says the Lord is at Your right hand.",
+        "child": "The rulers speak of something they mean to throw off. How does 2:3 end?",
+        "teen": "Psalm 2:3: how does the verse end?",
+        "older": "Read with 110:5. According to Psalm 2:3, how does the verse end?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their cords from us"
+        },
+        {
+          "id": "b",
+          "text": "Their crowns from us"
+        },
+        {
+          "id": "c",
+          "text": "Their camps from us"
+        },
+        {
+          "id": "d",
+          "text": "Their courts from us"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 2:3",
+            "text": "“Let us break Their bonds in pieces And cast away Their cords from us.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 110:5",
+            "text": "The Lord is at Your right hand; He shall execute kings in the day of His wrath.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 2:3. 110:5 says, “The Lord is at Your right hand.”",
+          "child": "Look at the last phrase of verse 3.",
+          "teen": "2:3 ends with this phrase. Read that phrase.",
+          "older": "It is the last phrase of 2:3."
+        },
+        "extended_explanation": "2:3 opens with a call about bonds. 110:5 says, “The Lord is at Your right hand.”",
+        "takeaway": "Their cords from us."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0022",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 110",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 2:1 asks, “Why do the nations rage, And the people plot a vain thing?” In 110:7, after the first clause, what does the verse say He shall do?",
+        "child": "The psalm describes what He shall do. After the first clause, what does 110:7 say He shall do?",
+        "teen": "Psalm 110:7: after the first clause, what shall He do?",
+        "older": "Read with 2:1, what does 110:7 say after the first clause?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He shall lay the crown"
+        },
+        {
+          "id": "b",
+          "text": "He shall lift up the head"
+        },
+        {
+          "id": "c",
+          "text": "He shall take up the spear"
+        },
+        {
+          "id": "d",
+          "text": "He shall put down the spear"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 110:7",
+            "text": "He shall drink of the brook by the wayside; Therefore He shall lift up the head.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 2:1",
+            "text": "Why do the nations rage, And the people plot a vain thing?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 110:7.",
+          "child": "Look at the last clause of verse 7.",
+          "teen": "2:1 opens with a question about the nations; 110:7 ends with this act. Read that sentence.",
+          "older": "It is the last clause of 110:7."
+        },
+        "extended_explanation": "110:7 also says, “He shall drink of the brook by the wayside.” 2:1 asks, “Why do the nations rage, And the people plot a vain thing?”",
+        "takeaway": "He shall lift up the head."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0023",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 118",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 22:31 says they will come to “a people who will be born.” In 118:24, after the opening sentence, how does the verse end?",
+        "child": "The psalm speaks of a particular day. After the opening sentence of 118:24, how does the verse end?",
+        "teen": "Psalm 118:24: after the opening sentence, how does the verse end?",
+        "older": "Read with 22:31, how does 118:24 end after its opening sentence?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "and be still in it"
+        },
+        {
+          "id": "b",
+          "text": "and be first in it"
+        },
+        {
+          "id": "c",
+          "text": "and be glad in it"
+        },
+        {
+          "id": "d",
+          "text": "and be sure in it"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 118:24",
+            "text": "This is the day the LORD has made; We will rejoice and be glad in it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 22:31",
+            "text": "They will come and declare His righteousness to a people who will be born, That He has done this.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 118:24.",
+          "child": "Look at the last clause of verse 24.",
+          "teen": "22:31 looks ahead to a people yet to be born; 118:24 ends with this resolve. Read that phrase.",
+          "older": "It is the last clause of 118:24."
+        },
+        "extended_explanation": "118:24 is a resolve about a particular day. 22:31 ends, “That He has done this.”",
+        "takeaway": "and be glad in it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0024",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 2",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 110:5 says, “The Lord is at Your right hand.” In 2:4, after “He who sits in the heavens shall laugh;,” what does the verse say next?",
+        "child": "The psalm describes the One who sits in the heavens. After “shall laugh;,” what does 2:4 say next?",
+        "teen": "Psalm 2:4: after “shall laugh;,” what comes next?",
+        "older": "Read with 110:5, what does 2:4 say after “shall laugh;”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "hold them in deep silence"
+        },
+        {
+          "id": "b",
+          "text": "hold them in secret"
+        },
+        {
+          "id": "c",
+          "text": "hold them in wonder"
+        },
+        {
+          "id": "d",
+          "text": "hold them in derision"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 2:4",
+            "text": "He who sits in the heavens shall laugh; The Lord shall hold them in derision.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 110:5",
+            "text": "The Lord is at Your right hand; He shall execute kings in the day of His wrath.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 2:4.",
+          "child": "Look just after “shall laugh;” in verse 4.",
+          "teen": "110:5 names the Lord at Your right hand; 2:4 ends with this line. Read that phrase.",
+          "older": "It follows “shall laugh;” in 2:4."
+        },
+        "extended_explanation": "2:4 opens, “He who sits in the heavens shall laugh.” 110:5 also says, “The Lord is at Your right hand.”",
+        "takeaway": "hold them in derision."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0025",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 2",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 110:6 speaks of His judging. In 2:10, how does the verse begin, before the next address?",
+        "child": "The opening of 2:10 gives a charge. How does that verse begin, before the next address?",
+        "teen": "Psalm 2:10: how does the verse begin, before the next address?",
+        "older": "Read with 110:6. How does 2:10 begin, before the next address?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Now therefore, be wise"
+        },
+        {
+          "id": "b",
+          "text": "Now therefore, be strong"
+        },
+        {
+          "id": "c",
+          "text": "Now therefore, be still"
+        },
+        {
+          "id": "d",
+          "text": "Now therefore, be bold"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 2:10",
+            "text": "Now therefore, be wise, O kings; Be instructed, you judges of the earth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 110:6",
+            "text": "He shall judge among the nations, He shall fill the places with dead bodies, He shall execute the heads of many countries.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 2:10.",
+          "child": "Look at the first words of verse 10.",
+          "teen": "110:6 names a judgment; 2:10 opens with this charge. Read that phrase.",
+          "older": "It is the opening of 2:10."
+        },
+        "extended_explanation": "2:10 also says, “Be instructed, you judges of the earth.” 110:6 also says, “He shall execute the heads of many countries.”",
+        "takeaway": "Now therefore, be wise."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0026",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 110",
+      "topics": [
+        "messianic-psalms"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 22:27 says, “All the ends of the world Shall remember and turn to the LORD.” In 110:4, after “And will not relent,” what does the verse first say?",
+        "child": "An oath is recorded. After “And will not relent,” what does 110:4 first say?",
+        "teen": "Psalm 110:4: after “And will not relent,” what comes first?",
+        "older": "Read with 22:27, what does 110:4 first say after “And will not relent”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You are a prophet"
+        },
+        {
+          "id": "b",
+          "text": "You are a priest"
+        },
+        {
+          "id": "c",
+          "text": "You are a ruler"
+        },
+        {
+          "id": "d",
+          "text": "You are a judge"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 110:4",
+            "text": "The LORD has sworn And will not relent, “You are a priest forever According to the order of Melchizedek.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 22:27",
+            "text": "All the ends of the world Shall remember and turn to the LORD, And all the families of the nations Shall worship before You.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 110:4.",
+          "child": "Look just after “And will not relent” in verse 4.",
+          "teen": "22:27 names the ends of the world turning to the LORD; 110:4 continues after the oath. Read that phrase.",
+          "older": "It follows “And will not relent” in 110:4."
+        },
+        "extended_explanation": "110:4 also says this is “According to the order of Melchizedek.” 22:27 adds, “And all the families of the nations Shall worship before You.”",
+        "takeaway": "You are a priest."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

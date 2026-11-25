@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-james-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-jas-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "James",
+      "section": "James 1",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In James 1:1, after “Lord Jesus Christ, To the twelve” how does the verse proceed?",
+        "child": "After “Lord Jesus Christ, To the twelve” how does James 1:1 proceed?",
+        "teen": "What comes next in James 1:1, just after “Lord Jesus Christ, To the twelve”?",
+        "older": "According to James 1:1, after “Lord Jesus Christ, To the twelve” how does the verse proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "tribes which are scattered"
+        },
+        {
+          "id": "b",
+          "text": "houses which are scattered"
+        },
+        {
+          "id": "c",
+          "text": "cities which are scattered"
+        },
+        {
+          "id": "d",
+          "text": "regions which are scattered"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "James 1:1",
+            "text": "James, a bondservant of God and of the Lord Jesus Christ, To the twelve tribes which are scattered abroad: Greetings.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in James 1:1.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Go on from there in James 1:1.",
+          "older": "The continuation is in James 1:1."
+        },
+        "extended_explanation": "Read James 1:1 in the cited passage.",
+        "takeaway": "tribes which are scattered"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-1pe-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 1",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Peter 1:1 is also cited. In 1 Peter 1:2, after “the foreknowledge of God the Father,” how does the verse proceed?",
+        "child": "After “the foreknowledge of God the Father,” how does 1 Peter 1:2 proceed?",
+        "teen": "What comes next in 1 Peter 1:2, just after “the foreknowledge of God the Father,”? This question also cites 1 Peter 1:1.",
+        "older": "Read 1 Peter 1:2 with 1 Peter 1:1. After “the foreknowledge of God the Father,” how does 1 Peter 1:2 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in sanctification of the Spirit, for instruction"
+        },
+        {
+          "id": "b",
+          "text": "in sanctification of the Spirit, for obedience"
+        },
+        {
+          "id": "c",
+          "text": "in sanctification of the Spirit, for protection"
+        },
+        {
+          "id": "d",
+          "text": "in sanctification of the Spirit, for provision"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 1:2",
+            "text": "elect according to the foreknowledge of God the Father, in sanctification of the Spirit, for obedience and sprinkling of the blood of Jesus Christ: Grace to you and peace be multiplied.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 1:1",
+            "text": "Peter, an apostle of Jesus Christ, To the pilgrims of the Dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 1 Peter 1:2.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "1 Peter 1:1 is the companion citation. Continue in 1 Peter 1:2.",
+          "older": "The continuation is in 1 Peter 1:2."
+        },
+        "extended_explanation": "1 Peter 1:1 is cited alongside 1 Peter 1:2. Read both verses.",
+        "takeaway": "in sanctification of the Spirit, for obedience"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1jn-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 2",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 John 1:1 is also cited. How does 1 John 2:3 begin?",
+        "child": "What are the opening words of 1 John 2:3?",
+        "teen": "How do the first words of 1 John 2:3 run? This question also cites 1 John 1:1.",
+        "older": "Read 1 John 2:3 with 1 John 1:1. How does 1 John 2:3 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Now by this we know that we fear Him"
+        },
+        {
+          "id": "b",
+          "text": "Now by this we know that we serve Him"
+        },
+        {
+          "id": "c",
+          "text": "Now by this we know that we know Him"
+        },
+        {
+          "id": "d",
+          "text": "Now by this we know that we trust Him"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 2:3",
+            "text": "Now by this we know that we know Him, if we keep His commandments.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 John 1:1",
+            "text": "That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon, and our hands have handled, concerning the Word of life—",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 1 John 2:3.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "1 John 1:1 is the companion citation. Start at the beginning of 1 John 2:3.",
+          "older": "It is the opening of 1 John 2:3."
+        },
+        "extended_explanation": "1 John 1:1 is cited alongside 1 John 2:3. Read both verses.",
+        "takeaway": "Now by this we know that we know Him"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1pe-0012",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "1 Peter",
+      "section": "1 Peter 5",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude 1:2 is also cited. How does 1 Peter 5:12 begin?",
+        "child": "What are the opening words of 1 Peter 5:12?",
+        "teen": "How do the first words of 1 Peter 5:12 run? This question also cites Jude 1:2.",
+        "older": "Read 1 Peter 5:12 with Jude 1:2. How does 1 Peter 5:12 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By Silvanus, our faithful teacher"
+        },
+        {
+          "id": "b",
+          "text": "By Silvanus, our faithful keeper"
+        },
+        {
+          "id": "c",
+          "text": "By Silvanus, our faithful writer"
+        },
+        {
+          "id": "d",
+          "text": "By Silvanus, our faithful brother"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 Peter 5:12",
+            "text": "By Silvanus, our faithful brother as I consider him, I have written to you briefly, exhorting and testifying that this is the true grace of God in which you stand.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:2",
+            "text": "Mercy, peace, and love be multiplied to you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 1 Peter 5:12.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "Jude 1:2 is the companion citation. Start at the beginning of 1 Peter 5:12.",
+          "older": "It is the opening of 1 Peter 5:12."
+        },
+        "extended_explanation": "Jude 1:2 is cited alongside 1 Peter 5:12. Read both verses.",
+        "takeaway": "By Silvanus, our faithful brother"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2pe-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 1",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Peter 5:13 is also cited. In 2 Peter 1:15, after “Moreover” how does the verse proceed?",
+        "child": "After “Moreover” how does 2 Peter 1:15 proceed?",
+        "teen": "What comes next in 2 Peter 1:15, just after “Moreover”? This question also cites 1 Peter 5:13.",
+        "older": "Read 2 Peter 1:15 with 1 Peter 5:13. After “Moreover” how does 2 Peter 1:15 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I will be careful to ensure"
+        },
+        {
+          "id": "b",
+          "text": "I will be careful to record"
+        },
+        {
+          "id": "c",
+          "text": "I will be careful to explain"
+        },
+        {
+          "id": "d",
+          "text": "I will be careful to confirm"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 1:15",
+            "text": "Moreover I will be careful to ensure that you always have a reminder of these things after my decease.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 5:13",
+            "text": "She who is in Babylon, elect together with you, greets you; and so does Mark my son.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 2 Peter 1:15.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "1 Peter 5:13 is the companion citation. Continue in 2 Peter 1:15.",
+          "older": "The continuation is in 2 Peter 1:15."
+        },
+        "extended_explanation": "1 Peter 5:13 is cited alongside 2 Peter 1:15. Read both verses.",
+        "takeaway": "I will be careful to ensure"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2pe-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 3",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Peter 1:2 is also cited. In 2 Peter 3:16, after “in all his epistles,” how does the verse proceed?",
+        "child": "After “in all his epistles,” how does 2 Peter 3:16 proceed?",
+        "teen": "What comes next in 2 Peter 3:16, just after “in all his epistles,”? This question also cites 2 Peter 1:2.",
+        "older": "Read 2 Peter 3:16 with 2 Peter 1:2. After “in all his epistles,” how does 2 Peter 3:16 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "speaking in them of these events"
+        },
+        {
+          "id": "b",
+          "text": "speaking in them of these things"
+        },
+        {
+          "id": "c",
+          "text": "speaking in them of these words"
+        },
+        {
+          "id": "d",
+          "text": "speaking in them of these times"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 3:16",
+            "text": "as also in all his epistles, speaking in them of these things, in which are some things hard to understand, which untaught and unstable people twist to their own destruction, as they do also the rest of the Scriptures.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 1:2",
+            "text": "Grace and peace be multiplied to you in the knowledge of God and of Jesus our Lord,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 2 Peter 3:16.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "2 Peter 1:2 is the companion citation. Continue in 2 Peter 3:16.",
+          "older": "The continuation is in 2 Peter 3:16."
+        },
+        "extended_explanation": "2 Peter 1:2 is cited alongside 2 Peter 3:16. Read both verses.",
+        "takeaway": "speaking in them of these things"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-1jn-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "1 John",
+      "section": "1 John 1",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "1 Peter 5:14 is also cited. In 1 John 1:3, after “seen and heard” how does the verse proceed?",
+        "child": "After “seen and heard” how does 1 John 1:3 proceed?",
+        "teen": "What comes next in 1 John 1:3, just after “seen and heard”? This question also cites 1 Peter 5:14.",
+        "older": "Read 1 John 1:3 with 1 Peter 5:14. After “seen and heard” how does 1 John 1:3 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "we declare to you, that you also"
+        },
+        {
+          "id": "b",
+          "text": "we declare to you, that one also"
+        },
+        {
+          "id": "c",
+          "text": "we declare to you, that all also"
+        },
+        {
+          "id": "d",
+          "text": "we declare to you, that any also"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "1 John 1:3",
+            "text": "that which we have seen and heard we declare to you, that you also may have fellowship with us; and truly our fellowship is with the Father and with His Son Jesus Christ.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "1 Peter 5:14",
+            "text": "Greet one another with a kiss of love. Peace to you all who are in Christ Jesus. Amen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 1 John 1:3.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "1 Peter 5:14 is the companion citation. Continue in 1 John 1:3.",
+          "older": "The continuation is in 1 John 1:3."
+        },
+        "extended_explanation": "1 Peter 5:14 is cited alongside 1 John 1:3. Read both verses.",
+        "takeaway": "we declare to you, that you also"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-2pe-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "2 Peter",
+      "section": "2 Peter 3",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Peter 1:4 is also cited. In 2 Peter 3:15, after “Paul,” how does the verse proceed?",
+        "child": "After “Paul,” how does 2 Peter 3:15 proceed?",
+        "teen": "What comes next in 2 Peter 3:15, just after “Paul,”? This question also cites 2 Peter 1:4.",
+        "older": "Read 2 Peter 3:15 with 2 Peter 1:4. After “Paul,” how does 2 Peter 3:15 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "according to the wisdom given to her"
+        },
+        {
+          "id": "b",
+          "text": "according to the wisdom given to him"
+        },
+        {
+          "id": "c",
+          "text": "according to the wisdom given to you"
+        },
+        {
+          "id": "d",
+          "text": "according to the wisdom given to one"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "2 Peter 3:15",
+            "text": "and consider that the longsuffering of our Lord is salvation—as also our beloved brother Paul, according to the wisdom given to him, has written to you,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 1:4",
+            "text": "by which have been given to us exceedingly great and precious promises, that through these you may be partakers of the divine nature, having escaped the corruption that is in the world through lust.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in 2 Peter 3:15.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "2 Peter 1:4 is the companion citation. Continue in 2 Peter 3:15.",
+          "older": "The continuation is in 2 Peter 3:15."
+        },
+        "extended_explanation": "2 Peter 1:4 is cited alongside 2 Peter 3:15. Read both verses.",
+        "takeaway": "according to the wisdom given to him"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jud-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "2 Peter 1:1 is also cited. How does Jude 1:22 begin?",
+        "child": "What are the opening words of Jude 1:22?",
+        "teen": "How do the first words of Jude 1:22 run? This question also cites 2 Peter 1:1.",
+        "older": "Read Jude 1:22 with 2 Peter 1:1. How does Jude 1:22 begin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And on some have tenderness"
+        },
+        {
+          "id": "b",
+          "text": "And on some have forbearance"
+        },
+        {
+          "id": "c",
+          "text": "And on some have compassion"
+        },
+        {
+          "id": "d",
+          "text": "And on some have longsuffering"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:22",
+            "text": "And on some have compassion, making a distinction;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "2 Peter 1:1",
+            "text": "Simon Peter, a bondservant and apostle of Jesus Christ, To those who have obtained like precious faith with us by the righteousness of our God and Savior Jesus Christ:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of Jude 1:22.",
+          "child": "Look at the first words of the cited verse.",
+          "teen": "2 Peter 1:1 is the companion citation. Start at the beginning of Jude 1:22.",
+          "older": "It is the opening of Jude 1:22."
+        },
+        "extended_explanation": "2 Peter 1:1 is cited alongside Jude 1:22. Read both verses.",
+        "takeaway": "And on some have compassion"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jud-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Jude",
+      "section": "Jude 1",
+      "topics": [
+        "general-letters-james-to-jude"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Jude 1:23 is also cited. In Jude 1:25, after “To God our Savior,” how does the verse proceed?",
+        "child": "After “To God our Savior,” how does Jude 1:25 proceed?",
+        "teen": "What comes next in Jude 1:25, just after “To God our Savior,”? This question also cites Jude 1:23.",
+        "older": "Read Jude 1:25 with Jude 1:23. After “To God our Savior,” how does Jude 1:25 proceed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who alone is good"
+        },
+        {
+          "id": "b",
+          "text": "Who alone is kind"
+        },
+        {
+          "id": "c",
+          "text": "Who alone is true"
+        },
+        {
+          "id": "d",
+          "text": "Who alone is wise"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Jude 1:25",
+            "text": "To God our Savior, Who alone is wise, Be glory and majesty, Dominion and power, Both now and forever. Amen.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Jude 1:23",
+            "text": "but others save with fear, pulling them out of the fire, hating even the garment defiled by the flesh.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the next phrase in Jude 1:25.",
+          "child": "Keep reading in the cited verse.",
+          "teen": "Jude 1:23 is the companion citation. Continue in Jude 1:25.",
+          "older": "The continuation is in Jude 1:25."
+        },
+        "extended_explanation": "Jude 1:23 is cited alongside Jude 1:25. Read both verses.",
+        "takeaway": "Who alone is wise"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

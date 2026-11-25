@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-isaiah-008",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-isa-0026",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 60",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 60 opens as the city is in her light. According to 60:1, what does Isaiah speak first, before “For your light has come”?",
+        "child": "Isaiah speaks to a city as the light God has given her arrives. What does he say first?",
+        "teen": "Isaiah 60:1: what does he speak first, before “For your light has come”?",
+        "older": "According to Isaiah 60:1, what does Isaiah say first?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Arise, shine"
+        },
+        {
+          "id": "b",
+          "text": "Awake, sing"
+        },
+        {
+          "id": "c",
+          "text": "Return, rest"
+        },
+        {
+          "id": "d",
+          "text": "Hasten, run"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 60:1",
+            "text": "Arise, shine; For your light has come! And the glory of the LORD is risen upon you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 60:1.",
+          "child": "Look at the opening call of verse 1.",
+          "teen": "60:1 opens with a call, then a reason. Read the call.",
+          "older": "They open 60:1, before “For your light has come.”"
+        },
+        "extended_explanation": "60:1 also says, “And the glory of the LORD is risen upon you.”",
+        "takeaway": "Isaiah says, “Arise, shine.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-isa-0027",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 56",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 56:3 speaks of the foreigner who has joined himself to the LORD. In 56:5, what will the LORD give them in His house and within His walls, beyond that of sons and daughters?",
+        "child": "God makes a promise to people who might have felt left out. What does He say He will give them in His house, beyond that of sons and daughters?",
+        "teen": "Isaiah 56:5: “And within My walls” what?",
+        "older": "Read with 56:3, what does 56:5 say the LORD will give them in His house?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a throne and a crown"
+        },
+        {
+          "id": "b",
+          "text": "a place and a name"
+        },
+        {
+          "id": "c",
+          "text": "a field and a well"
+        },
+        {
+          "id": "d",
+          "text": "a sword and a shield"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 56:3",
+            "text": "Do not let the son of the foreigner Who has joined himself to the LORD Speak, saying, “The LORD has utterly separated me from His people”; Nor let the eunuch say, “Here I am, a dry tree.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 56:5",
+            "text": "Even to them I will give in My house And within My walls a place and a name Better than that of sons and daughters; I will give them an everlasting name That shall not be cut off.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 56:5.",
+          "child": "Look right after “within My walls” in verse 5.",
+          "teen": "56:3 speaks of the foreigner who has joined himself to the LORD; 56:5 states the gift in His house. Read that gift.",
+          "older": "It follows “within My walls” in 56:5."
+        },
+        "extended_explanation": "56:5 also says that gift shall not be cut off. 56:3 warns the foreigner not to say he is utterly separated.",
+        "takeaway": "The LORD will give them a place and a name."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0020",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 58",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 58:9 says, “You shall cry, and He will say, ‘Here I am.’ ” In 58:6, after “To loose the bonds of wickedness,” what does the LORD list as part of the fast He has chosen?",
+        "child": "The LORD describes the kind of fast He has chosen. After loosing the bonds of wickedness, what does He say to undo?",
+        "teen": "Isaiah 58:6: “To undo” what, “To let the oppressed go free”?",
+        "older": "Read with 58:9, what does 58:6 say to undo?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the golden altars"
+        },
+        {
+          "id": "b",
+          "text": "the silent watches"
+        },
+        {
+          "id": "c",
+          "text": "the heavy burdens"
+        },
+        {
+          "id": "d",
+          "text": "the distant borders"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 58:6",
+            "text": "“Is this not the fast that I have chosen: To loose the bonds of wickedness, To undo the heavy burdens, To let the oppressed go free, And that you break every yoke?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 58:9",
+            "text": "Then you shall call, and the LORD will answer; You shall cry, and He will say, ‘Here I am.’ “If you take away the yoke from your midst, The pointing of the finger, and speaking wickedness,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 58:6.",
+          "child": "Look right after “To undo” in verse 6.",
+          "teen": "58:9 promises an answer; 58:6 lists the chosen fast. Read the second item.",
+          "older": "It follows “To undo” in 58:6."
+        },
+        "extended_explanation": "58:6 also says, “To let the oppressed go free, And that you break every yoke.” 58:9 says, “You shall cry, and He will say, ‘Here I am.’ ”",
+        "takeaway": "The chosen fast is to undo the heavy burdens."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0021",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 65",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 65:1 says, “Here I am, here I am,” to a nation that had not sought Him. In 65:5, what do those people say after “Keep to yourself, Do not come near me, For”?",
+        "child": "Isaiah describes people who want others to stay away from them. What do they say after “Do not come near me, For”?",
+        "teen": "Isaiah 65:5: “Do not come near me, For” what?",
+        "older": "Read with 65:1, what does 65:5 say after “For”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "I am wiser than you"
+        },
+        {
+          "id": "b",
+          "text": "I am richer than you"
+        },
+        {
+          "id": "c",
+          "text": "I am stronger than you"
+        },
+        {
+          "id": "d",
+          "text": "I am holier than you"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 65:1",
+            "text": "“I was sought by those who did not ask for Me; I was found by those who did not seek Me. I said, ‘Here I am, here I am,’ To a nation that was not called by My name.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 65:5",
+            "text": "Who say, ‘Keep to yourself, Do not come near me, For I am holier than you!’ These are smoke in My nostrils, A fire that burns all the day.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 65:5.",
+          "child": "Look right after “For” in the quotation in verse 5.",
+          "teen": "65:1 is the LORD’s call; 65:5 quotes what these people say. Read the last claim.",
+          "older": "It follows “For” in 65:5."
+        },
+        "extended_explanation": "65:5 also says, “These are smoke in My nostrils.” 65:1 says He was found by those who did not seek Him.",
+        "takeaway": "They say, “I am holier than you!”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0022",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 65",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 65:14 says My servants shall sing for joy of heart. In 66:1, what does the LORD say first, before He speaks of the earth?",
+        "child": "The LORD speaks of where He sits. What does He say first in 66:1?",
+        "teen": "Isaiah 66:1: “Thus says the LORD:” what first?",
+        "older": "Read with 65:14, what does 66:1 say first?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heaven is My throne"
+        },
+        {
+          "id": "b",
+          "text": "Zion is My holy hill"
+        },
+        {
+          "id": "c",
+          "text": "Salem is My dwelling"
+        },
+        {
+          "id": "d",
+          "text": "Earth is My kingdom"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 65:14",
+            "text": "Behold, My servants shall sing for joy of heart, But you shall cry for sorrow of heart, And wail for grief of spirit.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 66:1",
+            "text": "Thus says the LORD: “Heaven is My throne, And earth is My footstool. Where is the house that you will build Me? And where is the place of My rest?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of the LORD’s words in 66:1.",
+          "child": "Look at the first claim in verse 1.",
+          "teen": "65:14 contrasts song and sorrow; 66:1 opens with where He sits. Read that opening claim.",
+          "older": "It is the first claim of 66:1."
+        },
+        "extended_explanation": "66:1 also asks, “Where is the house that you will build Me?” 65:14 says the others shall cry for sorrow of heart.",
+        "takeaway": "The LORD says, “Heaven is My throne.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0023",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 56",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 56:1 says, “Keep justice, and do righteousness.” In 58:10, after “Then your light shall dawn in the darkness,” how does the verse end?",
+        "child": "Isaiah describes kindness to the hungry. How does 58:10 end?",
+        "teen": "Isaiah 58:10: “And your darkness shall be as” what?",
+        "older": "Read with 56:1, how does 58:10 end?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "your darkness shall be as the moonlight"
+        },
+        {
+          "id": "b",
+          "text": "your darkness shall be as the noonday"
+        },
+        {
+          "id": "c",
+          "text": "your darkness shall be as the starlight"
+        },
+        {
+          "id": "d",
+          "text": "your darkness shall be as the sunrise"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 56:1",
+            "text": "Thus says the LORD: “Keep justice, and do righteousness, For My salvation is about to come, And My righteousness to be revealed.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 58:10",
+            "text": "If you extend your soul to the hungry And satisfy the afflicted soul, Then your light shall dawn in the darkness, And your darkness shall be as the noonday.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 58:10.",
+          "child": "Look at the last words of verse 10.",
+          "teen": "56:1 calls them to keep justice; 58:10 ends with this promise. Read the end.",
+          "older": "It follows “And your darkness shall be as” in 58:10."
+        },
+        "extended_explanation": "58:10 also says, “If you extend your soul to the hungry.” 56:1 says, “For My salvation is about to come.”",
+        "takeaway": "Your darkness shall be as the noonday."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0024",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 56",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 56:4 speaks of the eunuchs who keep His Sabbaths. In 60:18, after violence is no longer heard in the land, what shall they call their walls?",
+        "child": "Isaiah promises a day when violence is gone from the land. What does the verse say they shall call their walls?",
+        "teen": "Isaiah 60:18: “But you shall call your walls” what?",
+        "older": "Read with 56:4, what does 60:18 say they shall call their walls?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "you shall call your walls Strength"
+        },
+        {
+          "id": "b",
+          "text": "you shall call your walls Great Honor"
+        },
+        {
+          "id": "c",
+          "text": "you shall call your walls Salvation"
+        },
+        {
+          "id": "d",
+          "text": "you shall call your walls High Praise"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 56:4",
+            "text": "For thus says the LORD: “To the eunuchs who keep My Sabbaths, And choose what pleases Me, And hold fast My covenant,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 60:18",
+            "text": "Violence shall no longer be heard in your land, Neither wasting nor destruction within your borders; But you shall call your walls Salvation, And your gates Praise.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 60:18.",
+          "child": "Look right after “call your walls” in verse 18.",
+          "teen": "56:4 names those who keep His Sabbaths; 60:18 names what the walls shall be called. Read that name.",
+          "older": "It follows “call your walls” in 60:18."
+        },
+        "extended_explanation": "60:18 also says, “And your gates Praise.” 56:4 says they hold fast His covenant.",
+        "takeaway": "They shall call their walls Salvation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0025",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 58",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 58:14 says you shall delight yourself in the LORD. In 66:2, the LORD will look on him who is poor and of a contrite spirit. At what does that one tremble?",
+        "child": "The LORD says He will look on one who is poor and of a contrite spirit. At what does that person tremble?",
+        "teen": "Isaiah 66:2: “And who trembles at” what?",
+        "older": "Read with 58:14, at what does 66:2 say he trembles?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "trembles at My throne"
+        },
+        {
+          "id": "b",
+          "text": "trembles at My mountain"
+        },
+        {
+          "id": "c",
+          "text": "trembles at My name"
+        },
+        {
+          "id": "d",
+          "text": "trembles at My word"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 58:14",
+            "text": "Then you shall delight yourself in the LORD; And I will cause you to ride on the high hills of the earth, And feed you with the heritage of Jacob your father. The mouth of the LORD has spoken.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 66:2",
+            "text": "For all those things My hand has made, And all those things exist,” Says the LORD. “But on this one will I look: On him who is poor and of a contrite spirit, And who trembles at My word.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 66:2.",
+          "child": "Look at the last words of verse 2.",
+          "teen": "58:14 is delight in the LORD; 66:2 ends with what this person does. Read the last phrase.",
+          "older": "It follows “who trembles at” in 66:2."
+        },
+        "extended_explanation": "66:2 also says, “But on this one will I look: On him who is poor and of a contrite spirit.” 58:14 says, “I will cause you to ride on the high hills of the earth.”",
+        "takeaway": "The LORD looks on him who trembles at My word."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0026",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 60",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 66:22 speaks of what remains before the LORD. In 60:11, after the first clause about the gates, what does the next clause say of them?",
+        "child": "Isaiah describes a city’s gates in the time of her honor. After the first clause about those gates, what does the next clause say?",
+        "teen": "Isaiah 60:11: after “open continually,” what, “day or night”?",
+        "older": "Read with 66:22, what does 60:11 say next, after “open continually”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They shall not be shut"
+        },
+        {
+          "id": "b",
+          "text": "They shall not move"
+        },
+        {
+          "id": "c",
+          "text": "They shall not be hidden"
+        },
+        {
+          "id": "d",
+          "text": "They shall not be empty"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 60:11",
+            "text": "Therefore your gates shall be open continually; They shall not be shut day or night, That men may bring to you the wealth of the Gentiles, And their kings in procession.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 66:22",
+            "text": "“For as the new heavens and the new earth Which I will make shall remain before Me,” says the LORD, “So shall your descendants and your name remain.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 60:11.",
+          "child": "Look after “open continually” in verse 11.",
+          "teen": "66:22 speaks of what remains; 60:11 continues after the first clause about the gates. Read that clause.",
+          "older": "It follows “open continually;” in 60:11."
+        },
+        "extended_explanation": "60:11 also says men may bring the wealth of the Gentiles. 66:22 says your descendants shall remain.",
+        "takeaway": "They shall not be shut."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0027",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 65",
+      "topics": [
+        "isaiah-the-final-chapters"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 66:7 says, “Before she was in labor, she gave birth.” In 65:10, what shall Sharon be?",
+        "child": "Isaiah names Sharon in a promise for those who have sought the LORD. What does the verse say Sharon shall be?",
+        "teen": "Isaiah 65:10: “Sharon shall be” what?",
+        "older": "Read with 66:7, what does 65:10 say Sharon shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a hedge of stone"
+        },
+        {
+          "id": "b",
+          "text": "a fold of flocks"
+        },
+        {
+          "id": "c",
+          "text": "a bed of spices"
+        },
+        {
+          "id": "d",
+          "text": "a field of wheat"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 65:10",
+            "text": "Sharon shall be a fold of flocks, And the Valley of Achor a place for herds to lie down, For My people who have sought Me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 66:7",
+            "text": "“Before she was in labor, she gave birth; Before her pain came, She delivered a male child.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 65:10.",
+          "child": "Look right after “Sharon shall be” in verse 10.",
+          "teen": "66:7 speaks of birth before labor; 65:10 names what Sharon shall be. Read that phrase.",
+          "older": "It follows “Sharon shall be” in 65:10."
+        },
+        "extended_explanation": "65:10 also says the Valley of Achor shall be for herds to lie down. 66:7 says, “Before her pain came, She delivered a male child.”",
+        "takeaway": "Sharon shall be a fold of flocks."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ezekiel-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-ezk-0015",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 40",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel is taken to the gateway and sees a man. According to 40:3, what was that man’s appearance like?",
+        "child": "A man met Ezekiel at the gateway with a measuring tool. What did the man look like?",
+        "teen": "Ezekiel 40:3: “a man whose appearance was like” what?",
+        "older": "According to Ezekiel 40:3, what was the man’s appearance like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the appearance of bronze"
+        },
+        {
+          "id": "b",
+          "text": "the appearance of silver"
+        },
+        {
+          "id": "c",
+          "text": "the appearance of marble"
+        },
+        {
+          "id": "d",
+          "text": "the appearance of cedar"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 40:3",
+            "text": "He took me there, and behold, there was a man whose appearance was like the appearance of bronze. He had a line of flax and a measuring rod in his hand, and he stood in the gateway.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 40:3.",
+          "child": "Look right after “appearance was like” in verse 3.",
+          "teen": "40:3 describes the man, then his tools. Read the first description.",
+          "older": "It follows “appearance was like” in 40:3."
+        },
+        "extended_explanation": "40:3 also says he had a line of flax and a measuring rod in his hand, and he stood in the gateway.",
+        "takeaway": "His appearance was like the appearance of bronze."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-ezk-0016",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 40",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 40:4 tells him to look, hear, and fix his mind on everything shown him. In 40:1, after naming the dates, how does the verse say the hand of the LORD came upon him?",
+        "child": "Ezekiel dates this vision carefully, then marks the moment. How does 40:1 say that moment came, once the dates are given?",
+        "teen": "Ezekiel 40:1: “on the very same” what, “the hand of the LORD was upon me”?",
+        "older": "Read with 40:4, how does 40:1 say the hand of the LORD came upon him, once the dates are given?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "on the very next day"
+        },
+        {
+          "id": "b",
+          "text": "on the very same day"
+        },
+        {
+          "id": "c",
+          "text": "on the very first sabbath"
+        },
+        {
+          "id": "d",
+          "text": "on the very last evening"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 40:1",
+            "text": "In the twenty-fifth year of our captivity, at the beginning of the year, on the tenth day of the month, in the fourteenth year after the city was captured, on the very same day the hand of the LORD was upon me; and He took me there.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 40:4",
+            "text": "And the man said to me, “Son of man, look with your eyes and hear with your ears, and fix your mind on everything I show you; for you were brought here so that I might show them to you. Declare to the house of Israel everything you see.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 40:1.",
+          "child": "Look just before “the hand of the LORD was upon me” in verse 1.",
+          "teen": "40:4 is the charge to look and hear; 40:1 then marks the moment. Read that phrase.",
+          "older": "It comes just before “the hand of the LORD was upon me” in 40:1."
+        },
+        "extended_explanation": "40:1 also names the opening dates of the vision. 40:4 says, “Declare to the house of Israel everything you see.”",
+        "takeaway": "It was on the very same day."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 43",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 43:12 says, “This is the law of the temple.” In 43:10, after they may be ashamed of their iniquities, what are they to do with the pattern?",
+        "child": "The man tells Ezekiel to describe the house to the people, that they may be ashamed. What are they then to do with the pattern?",
+        "teen": "Ezekiel 43:10: “and let them” do what?",
+        "older": "Read with 43:12, what does 43:10 say they are to do with the pattern?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "guard the pattern"
+        },
+        {
+          "id": "b",
+          "text": "hide the pattern"
+        },
+        {
+          "id": "c",
+          "text": "measure the pattern"
+        },
+        {
+          "id": "d",
+          "text": "burn the whole pattern"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 43:10",
+            "text": "“Son of man, describe the temple to the house of Israel, that they may be ashamed of their iniquities; and let them measure the pattern.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 43:12",
+            "text": "This is the law of the temple: The whole area surrounding the mountaintop is most holy. Behold, this is the law of the temple.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 43:10.",
+          "child": "Look at the last words of verse 10.",
+          "teen": "43:12 states the law of the temple; 43:10 ends with what they are to do. Read the end.",
+          "older": "It follows “and let them” in 43:10."
+        },
+        "extended_explanation": "43:10 also says, “describe the temple to the house of Israel, that they may be ashamed of their iniquities.” 43:12 says the whole area surrounding the mountaintop is most holy.",
+        "takeaway": "Let them measure the pattern."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 44",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 44:17 says they shall put on linen garments in the inner court. In 44:1, when he is brought back to the outer gateway of the sanctuary that faces east, what does the verse say of it?",
+        "child": "Ezekiel was brought back to the outer gateway of the sanctuary that faces east. What does the end of 44:1 say of it?",
+        "teen": "Ezekiel 44:1: “but it was” what?",
+        "older": "Read with 44:17, what does 44:1 say at the end?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "it was torn"
+        },
+        {
+          "id": "b",
+          "text": "it was crowded"
+        },
+        {
+          "id": "c",
+          "text": "it was broken"
+        },
+        {
+          "id": "d",
+          "text": "it was shut"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 44:1",
+            "text": "Then He brought me back to the outer gate of the sanctuary which faces toward the east, but it was shut.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 44:17",
+            "text": "And it shall be, whenever they enter the gates of the inner court, that they shall put on linen garments; no wool shall come upon them while they minister within the gates of the inner court or within the house.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 44:1.",
+          "child": "Look at the last words of verse 1.",
+          "teen": "44:17 describes the priests’ linen garments; 44:1 ends with the state of what he was shown. Read the end.",
+          "older": "It follows “but it was” in 44:1."
+        },
+        "extended_explanation": "44:1 also says he was brought back to the outer gateway of the sanctuary that faces east. 44:17 says no wool shall come upon them.",
+        "takeaway": "It was shut."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0011",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 47",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 48:30 begins the north-side measurements of the city. In 47:14, how shall they inherit the land, with one another?",
+        "child": "The LORD promised the land to their fathers. How does the verse say they shall inherit it, with one another?",
+        "teen": "Ezekiel 47:14: “You shall inherit it” how “with one another”?",
+        "older": "Read with 48:30, how does 47:14 say they shall inherit it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "equally"
+        },
+        {
+          "id": "b",
+          "text": "slowly"
+        },
+        {
+          "id": "c",
+          "text": "in turn"
+        },
+        {
+          "id": "d",
+          "text": "by purchase"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 47:14",
+            "text": "You shall inherit it equally with one another; for I raised My hand in an oath to give it to your fathers, and this land shall fall to you as your inheritance.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 48:30",
+            "text": "“These are the exits of the city. On the north side, measuring four thousand five hundred cubits",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 47:14.",
+          "child": "Look right after “inherit it” in verse 14.",
+          "teen": "48:30 begins the north-side measurements; 47:14 states how they inherit. Read that word.",
+          "older": "It follows “inherit it” in 47:14."
+        },
+        "extended_explanation": "47:14 also says, “this land shall fall to you as your inheritance.” 48:30 begins the north-side measurements of the city.",
+        "takeaway": "They shall inherit it equally with one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 40",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 40:2 says he was set on a high mountain. In 43:11, if they are ashamed of all they have done, he is to make known the design of the temple and its arrangement, and also what, named just after that?",
+        "child": "If the people are ashamed of what they have done, Ezekiel must make the design known. What two things does the verse name just after “its arrangement”?",
+        "teen": "Ezekiel 43:11: “its arrangement,” then what two things, “its entire design and all its ordinances”?",
+        "older": "Read with 40:2, what does 43:11 name just after “its arrangement”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "its courts and its galleries"
+        },
+        {
+          "id": "b",
+          "text": "its exits and its entrances"
+        },
+        {
+          "id": "c",
+          "text": "its wells and its gardens"
+        },
+        {
+          "id": "d",
+          "text": "its steps and its porches"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 40:2",
+            "text": "In the visions of God He took me into the land of Israel and set me on a very high mountain; on it toward the south was something like the structure of a city.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 43:11",
+            "text": "And if they are ashamed of all that they have done, make known to them the design of the temple and its arrangement, its exits and its entrances, its entire design and all its ordinances, all its forms and all its laws. Write it down in their sight, so that they may keep its whole design and all its ordinances, and perform them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 43:11.",
+          "child": "Look right after “its arrangement,” in verse 11.",
+          "teen": "40:2 is the mountain vision; 43:11 lists what to make known. Read the next pair.",
+          "older": "It follows “its arrangement,” in 43:11."
+        },
+        "extended_explanation": "43:11 also says, “if they are ashamed of all that they have done.” 40:3 says the man stood in the gateway.",
+        "takeaway": "He is to make known its exits and its entrances."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 43",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 43:6 says he heard Him speaking from the temple. In 44:18, after naming linen turbans and linen trousers, what shall they not clothe themselves with?",
+        "child": "The priests had rules about what they could wear while they served. What does the verse say they shall not clothe themselves with?",
+        "teen": "Ezekiel 44:18: “they shall not clothe themselves with” what?",
+        "older": "Read with 43:6, what does 44:18 say they shall not clothe themselves with?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "anything that causes dust"
+        },
+        {
+          "id": "b",
+          "text": "anything that causes cold"
+        },
+        {
+          "id": "c",
+          "text": "anything that causes sweat"
+        },
+        {
+          "id": "d",
+          "text": "anything that causes itching"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 43:6",
+            "text": "Then I heard Him speaking to me from the temple, while a man stood beside me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 44:18",
+            "text": "They shall have linen turbans on their heads and linen trousers on their bodies; they shall not clothe themselves with anything that causes sweat.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 44:18.",
+          "child": "Look at the last words of verse 18.",
+          "teen": "43:6 is the speaking from the temple; 44:18 ends with what they must not wear. Read the end.",
+          "older": "It follows “clothe themselves with” in 44:18."
+        },
+        "extended_explanation": "44:18 also says they shall have linen turbans on their heads and linen trousers on their bodies. 43:10 says they may be ashamed of their iniquities.",
+        "takeaway": "They shall not clothe themselves with anything that causes sweat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 44",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 48:8 describes a district set apart, twenty-five thousand cubits in width. In 44:23, the priests shall teach the people the difference between the holy and the unholy, and cause them to discern between what?",
+        "child": "The priests had a teaching task among the people. Besides the holy and the unholy, what were they to help the people discern between?",
+        "teen": "Ezekiel 44:23: “and cause them to discern between” what?",
+        "older": "Read with 48:8, between what does 44:23 say they shall discern?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the strong and also the weak"
+        },
+        {
+          "id": "b",
+          "text": "the first and also the last"
+        },
+        {
+          "id": "c",
+          "text": "the near and also the far"
+        },
+        {
+          "id": "d",
+          "text": "the unclean and the clean"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 44:23",
+            "text": "“And they shall teach My people the difference between the holy and the unholy, and cause them to discern between the unclean and the clean.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 48:8",
+            "text": "by the border of Judah, from the east side to the west, shall be the district which you shall set apart, twenty-five thousand cubits in width, and in length the same as one of the other portions, from the east side to the west, with the sanctuary in the center.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 44:23.",
+          "child": "Look at the last words of verse 23.",
+          "teen": "48:8 describes the set-apart district; 44:23 ends with what they must discern. Read the end.",
+          "older": "It follows “discern between” in 44:23."
+        },
+        "extended_explanation": "44:23 also says they shall teach the difference between the holy and the unholy. 48:8 says the district is set apart from the east side to the west.",
+        "takeaway": "They shall discern between the unclean and the clean."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 47",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 47:21 says they shall divide this land among themselves according to the tribes of Israel. In 48:35, after the distance all the way around, what shall the name of the city be from that day?",
+        "child": "The last line of Ezekiel gives the city’s name. What shall the name of the city be from that day?",
+        "teen": "Ezekiel 48:35: “and the name of the city from that day shall be:” what?",
+        "older": "Read with 47:21, what does 48:35 say the name of the city shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "THE LORD IS THERE"
+        },
+        {
+          "id": "b",
+          "text": "THE LORD IS HOLY"
+        },
+        {
+          "id": "c",
+          "text": "THE LORD IS GREAT"
+        },
+        {
+          "id": "d",
+          "text": "THE LORD IS KING"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 47:21",
+            "text": "“Thus you shall divide this land among yourselves according to the tribes of Israel.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 48:35",
+            "text": "All the way around shall be eighteen thousand cubits; and the name of the city from that day shall be: THE LORD IS THERE.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 48:35.",
+          "child": "Look at the last words of verse 35.",
+          "teen": "47:21 is the charge to divide the land; 48:35 ends with the city’s name. Read that name.",
+          "older": "It follows “shall be:” in 48:35."
+        },
+        "extended_explanation": "48:35 also says, “All the way around shall be eighteen thousand cubits.” 47:21 says, “according to the tribes of Israel.”",
+        "takeaway": "The name of the city shall be THE LORD IS THERE."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezk-0016",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 43",
+      "topics": [
+        "ezekiel-the-temple-and-the-land"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezekiel 43:1 says he was brought toward the east. In 48:31, the three northward openings include one for Reuben, one for Judah, and one for whom?",
+        "child": "The city’s north side is named for three tribes. After Reuben and Judah, whom is the third north one for?",
+        "teen": "Ezekiel 48:31: “one gate for Reuben, one gate for Judah, and one gate for” whom?",
+        "older": "Read with 43:1, for whom is the third north one in 48:31?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "one gate for Dan"
+        },
+        {
+          "id": "b",
+          "text": "one gate for Levi"
+        },
+        {
+          "id": "c",
+          "text": "one gate for Gad"
+        },
+        {
+          "id": "d",
+          "text": "one gate for Asher"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 43:1",
+            "text": "Afterward he brought me to the gate, the gate that faces toward the east.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezekiel 48:31",
+            "text": "(the gates of the city shall be named after the tribes of Israel), the three gates northward: one gate for Reuben, one gate for Judah, and one gate for Levi;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 48:31.",
+          "child": "Look at the last name in verse 31.",
+          "teen": "43:1 says he was brought toward the east; 48:31 lists the three northward openings. Read the third name.",
+          "older": "It follows “and one gate for” at the end of 48:31."
+        },
+        "extended_explanation": "48:31 also says they shall be named after the tribes of Israel. 43:1 says he was brought toward the east.",
+        "takeaway": "The third north one is one gate for Levi."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

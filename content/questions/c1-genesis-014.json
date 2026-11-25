@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-014",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-gen-0027",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "On the fourth day God set lights in the firmament. According to Genesis 1:14, what were they also to be for, along with days and years?",
+        "child": "When God made the lights in the sky, they were for days and years. What else were they to be for?",
+        "teen": "Genesis 1:14: “and let them be for” what, “and for days and years”?",
+        "older": "According to Genesis 1:14, besides days and years, what were the lights to be for?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "signs and seasons"
+        },
+        {
+          "id": "b",
+          "text": "hours and moments"
+        },
+        {
+          "id": "c",
+          "text": "watches and months"
+        },
+        {
+          "id": "d",
+          "text": "feasts and sabbaths"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:14",
+            "text": "Then God said, “Let there be lights in the firmament of the heavens to divide the day from the night; and let them be for signs and seasons, and for days and years;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:14.",
+          "child": "Look right after “and let them be for” in verse 14.",
+          "teen": "1:14 names what the lights divide, then what they are for. Read the first pair.",
+          "older": "It follows “and let them be for” in 1:14."
+        },
+        "extended_explanation": "1:15 says they were to give light on the earth. 1:17 says God set them in the firmament.",
+        "takeaway": "God said the lights were to be for signs and seasons."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-gen-0028",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 2",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 2:11 names the first river from Eden. In 2:20, after Adam named the cattle, the birds, and the beasts, what was not found for him?",
+        "child": "Adam gave names to the animals. What does the verse say was still missing for him?",
+        "teen": "Genesis 2:20: “But for Adam there was not found” what?",
+        "older": "Read with 2:11, what does 2:20 say was not found for Adam?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a garden east of the river"
+        },
+        {
+          "id": "b",
+          "text": "a helper comparable to him"
+        },
+        {
+          "id": "c",
+          "text": "a name greater than theirs"
+        },
+        {
+          "id": "d",
+          "text": "a rest from all his work"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 2:11",
+            "text": "The name of the first is Pishon; it is the one which skirts the whole land of Havilah, where there is gold.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 2:20",
+            "text": "So Adam gave names to all cattle, to the birds of the air, and to every beast of the field. But for Adam there was not found a helper comparable to him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:20.",
+          "child": "Look at the last words of verse 20.",
+          "teen": "2:11 names the first river; 2:20 ends with what was not found. Read the end.",
+          "older": "It follows “there was not found” in 2:20."
+        },
+        "extended_explanation": "2:11 says the first river skirts the land of Havilah. 2:19 says God brought the beasts to Adam to see what he would call them.",
+        "takeaway": "There was not found a helper comparable to him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0018",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 1:4 says God divided the light from the darkness. Later, in 3:20, why did Adam call his wife’s name Eve?",
+        "child": "After God spoke to the man and the woman, Adam gave his wife a name. Why did he call her Eve?",
+        "teen": "Genesis 3:20: “Adam called his wife’s name Eve, because she was” what?",
+        "older": "Read with 1:4, why does 3:20 say Adam called his wife Eve?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the lady of the garden walk"
+        },
+        {
+          "id": "b",
+          "text": "the first of the women"
+        },
+        {
+          "id": "c",
+          "text": "the mother of all living"
+        },
+        {
+          "id": "d",
+          "text": "the giver of all the names"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:4",
+            "text": "And God saw the light, that it was good; and God divided the light from the darkness.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 3:20",
+            "text": "And Adam called his wife’s name Eve, because she was the mother of all living.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:20.",
+          "child": "Look at the last words of verse 20.",
+          "teen": "1:4 is the dividing of light; 3:20 gives the name and the reason. Read the reason.",
+          "older": "It follows “because she was” in 3:20."
+        },
+        "extended_explanation": "3:16 speaks of her bringing forth children. 1:4 says God saw the light, that it was good.",
+        "takeaway": "Adam called her Eve because she was the mother of all living."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-isa-0017",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Isaiah",
+      "section": "Isaiah 65",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Isaiah 65:24 speaks of His hearing them. In 65:23, after “the descendants of the blessed of the LORD,” what does the verse say last?",
+        "child": "Isaiah looks ahead to days of blessing for His people. After naming those descendants, what does 65:23 say last?",
+        "teen": "Isaiah 65:23: what does the verse say last?",
+        "older": "Read with 65:24, what does 65:23 say last?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And their servants with them"
+        },
+        {
+          "id": "b",
+          "text": "And their captains with them"
+        },
+        {
+          "id": "c",
+          "text": "And their shepherds with them"
+        },
+        {
+          "id": "d",
+          "text": "And their offspring with them"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Isaiah 65:23",
+            "text": "They shall not labor in vain, Nor bring forth children for trouble; For they shall be the descendants of the blessed of the LORD, And their offspring with them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Isaiah 65:24",
+            "text": "“It shall come to pass That before they call, I will answer; And while they are still speaking, I will hear.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 65:23.",
+          "child": "Look at the last words of verse 23.",
+          "teen": "65:24 speaks of His hearing; 65:23 ends with this last phrase. Read the end.",
+          "older": "It is the last clause of 65:23."
+        },
+        "extended_explanation": "65:24 also says, “while they are still speaking, I will hear.” 65:23 also says they shall not labor in vain.",
+        "takeaway": "And their offspring with them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0019",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 2",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Genesis 3:12 the man says the woman gave him of the tree. Earlier, in 2:23, what does Adam say of her first, in the opening of his words?",
+        "child": "When God first brought the woman to Adam, he spoke about her. What did he call her first?",
+        "teen": "Genesis 2:23: “This is now” what?",
+        "older": "Read with 3:12, what does 2:23 say she is, in the first phrase of his words?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "bone of my bones"
+        },
+        {
+          "id": "b",
+          "text": "breath of my breath"
+        },
+        {
+          "id": "c",
+          "text": "heart of my heart"
+        },
+        {
+          "id": "d",
+          "text": "life of my life"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 2:23",
+            "text": "And Adam said: “This is now bone of my bones And flesh of my flesh; She shall be called Woman, Because she was taken out of Man.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 3:12",
+            "text": "Then the man said, “The woman whom You gave to be with me, she gave me of the tree, and I ate.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:23.",
+          "child": "Look right after “This is now” in verse 23.",
+          "teen": "3:12 is the man’s later word; 2:23 gives two phrases about her. Read the first.",
+          "older": "It follows “This is now” in 2:23."
+        },
+        "extended_explanation": "2:23 also says, “She shall be called Woman.” 3:12 says, “she gave me of the tree, and I ate.”",
+        "takeaway": "Adam said, “This is now bone of my bones.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0020",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 1:17 says God set the lights in the firmament. In 2:1, when the heavens and the earth were finished, what else was finished with them?",
+        "child": "After the days of making, the heavens and the earth were finished. What else does the verse say was finished with them?",
+        "teen": "Genesis 2:1: “Thus the heavens and the earth, and” what, “were finished”?",
+        "older": "Read with 1:17, what does 2:1 say was finished along with the heavens and the earth?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "all the work of them"
+        },
+        {
+          "id": "b",
+          "text": "all the host of them"
+        },
+        {
+          "id": "c",
+          "text": "all the light of them"
+        },
+        {
+          "id": "d",
+          "text": "all the days of them"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:17",
+            "text": "God set them in the firmament of the heavens to give light on the earth,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 2:1",
+            "text": "Thus the heavens and the earth, and all the host of them, were finished.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:1.",
+          "child": "Look at the words between “and the earth, and” and “were finished.”",
+          "teen": "1:17 is the placing of the lights; 2:1 names what was finished. Read the middle phrase.",
+          "older": "It follows “and the earth, and” in 2:1."
+        },
+        "extended_explanation": "1:17 says the lights were to give light on the earth. 2:1 is the close of that work.",
+        "takeaway": "The heavens and the earth, and all the host of them, were finished."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0021",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 1",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 3:16 speaks to the woman of sorrow and conception. Earlier, in 1:27, after “So God created man,” how does the verse next describe that making?",
+        "child": "The first chapter tells how God made man. After “So God created man,” how does the verse next describe that making?",
+        "teen": "Genesis 1:27: after “So God created man,” what does it say next?",
+        "older": "Read with 3:16, after “So God created man,” what does 1:27 say next?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in His own garden"
+        },
+        {
+          "id": "b",
+          "text": "in His own heaven"
+        },
+        {
+          "id": "c",
+          "text": "in His own image"
+        },
+        {
+          "id": "d",
+          "text": "in His own time"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 1:27",
+            "text": "So God created man in His own image; in the image of God He created him; male and female He created them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 3:16",
+            "text": "To the woman He said: “I will greatly multiply your sorrow and your conception; In pain you shall bring forth children; Your desire shall be for your husband, And he shall rule over you.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:27.",
+          "child": "Look at the words just after “So God created man” in verse 27.",
+          "teen": "3:16 is the word to the woman; 1:27 names how God created man. Read the words after “So God created man.”",
+          "older": "It follows “So God created man” in 1:27."
+        },
+        "extended_explanation": "1:27 also says, “male and female He created them.” 3:16 says, “In pain you shall bring forth children.”",
+        "takeaway": "God created him in the image of God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gen-0022",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Genesis",
+      "section": "Genesis 2",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Genesis 3:12 records the man’s words after he ate. In 2:24, after a man is joined to his wife, what shall they become?",
+        "child": "God’s word about marriage comes just after Adam first saw his wife. What does it say the two shall become?",
+        "teen": "Genesis 2:24: “and they shall become” what?",
+        "older": "Read with 3:12, what does 2:24 say they shall become?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "one name"
+        },
+        {
+          "id": "b",
+          "text": "one house"
+        },
+        {
+          "id": "c",
+          "text": "one people"
+        },
+        {
+          "id": "d",
+          "text": "one flesh"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Genesis 2:24",
+            "text": "Therefore a man shall leave his father and mother and be joined to his wife, and they shall become one flesh.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Genesis 3:12",
+            "text": "Then the man said, “The woman whom You gave to be with me, she gave me of the tree, and I ate.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:24.",
+          "child": "Look at the last words of verse 24.",
+          "teen": "3:12 is the man’s later speech; 2:24 ends with what they shall become. Read the end.",
+          "older": "It follows “and they shall become” in 2:24."
+        },
+        "extended_explanation": "2:24 also says a man shall leave his father and mother. 3:12 says the woman gave him of the tree.",
+        "takeaway": "They shall become one flesh."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "In Revelation 21:26 they shall bring the glory and the honor of the nations into the city. In 21:15, what did the one who talked with John have to measure the city, its gates, and its wall?",
+        "child": "John was shown the holy city by someone ready to measure it. What did that one have for measuring the city, its gates, and its wall?",
+        "teen": "Revelation 21:15: “he who talked with me had” what “to measure the city, its gates, and its wall”?",
+        "older": "Read with 21:26, what does 21:15 say the one who talked with John had?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a gold reed"
+        },
+        {
+          "id": "b",
+          "text": "a bronze reed"
+        },
+        {
+          "id": "c",
+          "text": "a silver chain"
+        },
+        {
+          "id": "d",
+          "text": "an iron rod"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:15",
+            "text": "And he who talked with me had a gold reed to measure the city, its gates, and its wall.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 21:26",
+            "text": "And they shall bring the glory and the honor of the nations into it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 21:15.",
+          "child": "Look right after “had” in verse 15.",
+          "teen": "21:26 names what is brought into the city; 21:15 names the measuring tool. Read that tool.",
+          "older": "It follows “had” in 21:15."
+        },
+        "extended_explanation": "21:26 says they shall bring the glory and the honor of the nations into it. 21:16 says the city is laid out as a square.",
+        "takeaway": "He had a gold reed to measure the city."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rev-0007",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Revelation",
+      "section": "Revelation 21",
+      "topics": [
+        "eden-to-the-new-creation"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Revelation 21:27 says nothing that defiles shall enter the city. In 22:3, what does the verse say shall be no more, before it names the throne of God and of the Lamb?",
+        "child": "The last pages of Scripture describe the holy city. What does 22:3 say will be no more there?",
+        "teen": "Revelation 22:3: “And there shall be” what, “but the throne of God and of the Lamb shall be in it”?",
+        "older": "Read with 21:27, what does 22:3 say shall be no more?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "no more river"
+        },
+        {
+          "id": "b",
+          "text": "no more curse"
+        },
+        {
+          "id": "c",
+          "text": "no more wall"
+        },
+        {
+          "id": "d",
+          "text": "no more gate"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Revelation 21:27",
+            "text": "But there shall by no means enter it anything that defiles, or causes an abomination or a lie, but only those who are written in the Lamb’s Book of Life.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Revelation 22:3",
+            "text": "And there shall be no more curse, but the throne of God and of the Lamb shall be in it, and His servants shall serve Him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 22:3.",
+          "child": "Look at the first words of verse 3.",
+          "teen": "21:27 names who may enter; 22:3 opens with what shall be no more. Read the opening.",
+          "older": "It comes before “but the throne of God” in 22:3."
+        },
+        "extended_explanation": "22:3 also says His servants shall serve Him. 21:27 says only those written in the Lamb’s Book of Life enter.",
+        "takeaway": "There shall be no more curse."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

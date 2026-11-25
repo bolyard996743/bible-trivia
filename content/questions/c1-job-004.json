@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-job-004",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-job-0016",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 28",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 28:1 opens a search for wisdom by naming what is found in the earth. After “Surely there is,” what does the verse say there is?",
+        "child": "Job talks about something taken from the earth as he searches. After “Surely there is,” what does he name?",
+        "teen": "Job 28:1: “Surely there is” what?",
+        "older": "According to Job 28:1, after “Surely there is,” what does the verse name?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a mine for silver"
+        },
+        {
+          "id": "b",
+          "text": "a store for copper"
+        },
+        {
+          "id": "c",
+          "text": "a cave for spices"
+        },
+        {
+          "id": "d",
+          "text": "a well for water"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 28:1",
+            "text": "“Surely there is a mine for silver, And a place where gold is refined.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 28:1.",
+          "child": "Look right after “Surely there is” in verse 1.",
+          "teen": "28:1 names what is found first. Read that phrase.",
+          "older": "It follows “Surely there is” in 28:1."
+        },
+        "extended_explanation": "28:1 also says, “And a place where gold is refined.”",
+        "takeaway": "There is a mine for silver."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-job-0017",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 28",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 28:23 says God understands its way. In 28:8, after “The proud lions have not,” what does the verse say they have not done?",
+        "child": "Job describes a way the proud lions have not taken. After “The proud lions have not,” what does 28:8 say?",
+        "teen": "Job 28:8: “The proud lions have not” what?",
+        "older": "Read with 28:23, what does 28:8 say after “The proud lions have not”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The proud lions have not claimed it"
+        },
+        {
+          "id": "b",
+          "text": "The proud lions have not trodden it"
+        },
+        {
+          "id": "c",
+          "text": "The proud lions have not marked it"
+        },
+        {
+          "id": "d",
+          "text": "The proud lions have not crossed it"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 28:8",
+            "text": "The proud lions have not trodden it, Nor has the fierce lion passed over it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 28:23",
+            "text": "God understands its way, And He knows its place.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 28:8.",
+          "child": "Look right after “The proud lions have not” in verse 8.",
+          "teen": "28:23 says God understands its way; 28:8 opens with this claim. Read that sentence.",
+          "older": "It follows “The proud lions have not” in 28:8."
+        },
+        "extended_explanation": "28:8 also says, “Nor has the fierce lion passed over it.” 28:23 says, “God understands its way.”",
+        "takeaway": "The proud lions have not trodden it."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0018",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 28",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 28:23 says God understands its way. In 28:26, how does the verse first describe what He made?",
+        "child": "Job names what God set concerning the rain. How does 28:26 first describe it?",
+        "teen": "Job 28:26: how does the verse first describe what He made?",
+        "older": "Read with 28:23, how does 28:26 first describe what He made?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "When He made a bound for the rain"
+        },
+        {
+          "id": "b",
+          "text": "When He made a time for the rain"
+        },
+        {
+          "id": "c",
+          "text": "When He made a law for the rain"
+        },
+        {
+          "id": "d",
+          "text": "When He made a rod for the rain"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 28:26",
+            "text": "When He made a law for the rain, And a path for the thunderbolt,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 28:23",
+            "text": "God understands its way, And He knows its place.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 28:26.",
+          "child": "Look at the opening of verse 26.",
+          "teen": "28:23 says God understands its way; 28:26 opens with this. Read that phrase.",
+          "older": "It is the opening of 28:26."
+        },
+        "extended_explanation": "28:26 also says, “And a path for the thunderbolt.” 28:23 says, “God understands its way.”",
+        "takeaway": "When He made a law for the rain."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0020",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 8",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 8:2 says wisdom takes her stand on the top of the high hill. In 8:15, how does wisdom describe what kings do by her?",
+        "child": "Wisdom speaks of rulers. In 8:15, how does she say kings act by her?",
+        "teen": "Proverbs 8:15: “By me” what?",
+        "older": "Read with 8:2, what does 8:15 say, after “By me”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By me kings judge"
+        },
+        {
+          "id": "b",
+          "text": "By me kings tremble"
+        },
+        {
+          "id": "c",
+          "text": "By me kings stumble"
+        },
+        {
+          "id": "d",
+          "text": "By me kings reign"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 8:15",
+            "text": "By me kings reign, And rulers decree justice.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 8:2",
+            "text": "She takes her stand on the top of the high hill, Beside the way, where the paths meet.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 8:15.",
+          "child": "Look right after “By me” in verse 15.",
+          "teen": "8:2 tells where she stands; 8:15 opens with what kings do by her. Read that claim.",
+          "older": "It follows “By me” in 8:15."
+        },
+        "extended_explanation": "8:15 also says, “And rulers decree justice.” 8:2 says she stands “Beside the way, where the paths meet.”",
+        "takeaway": "Wisdom says, “By me kings reign.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ecc-0005",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 12",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ecclesiastes 12:10 says the Preacher sought to find acceptable words. In 12:12, after “And further, my son, be admonished by these. Of,” what does the verse say of many books?",
+        "child": "The Preacher warns his son after urging him to take the words to heart. After “Of,” what does 12:12 say of many books?",
+        "teen": "Ecclesiastes 12:12: “Of” what, after the warning to his son?",
+        "older": "Read with 12:10, what does 12:12 say after “Of”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "of making many books there is no end"
+        },
+        {
+          "id": "b",
+          "text": "of making many books there is no gain"
+        },
+        {
+          "id": "c",
+          "text": "of making many books there is no rest"
+        },
+        {
+          "id": "d",
+          "text": "of making many books there is no aim"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 12:12",
+            "text": "And further, my son, be admonished by these. Of making many books there is no end, and much study is wearisome to the flesh.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 12:10",
+            "text": "The Preacher sought to find acceptable words; and what was written was upright—words of truth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 12:12.",
+          "child": "Look right after “Of” in verse 12.",
+          "teen": "12:10 speaks of acceptable words; 12:12 next names this about many books. Read that phrase.",
+          "older": "It follows “Of” in 12:12."
+        },
+        "extended_explanation": "12:12 begins, “And further, my son, be admonished by these.” 12:10 says what was written was “upright—words of truth.”",
+        "takeaway": "Of making many books there is no end."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0019",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 28",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Proverbs 8:2 says wisdom takes her stand on the top of the high hill. In Job 28:7, after describing a way, what does the verse first say no bird does?",
+        "child": "Job describes a hidden way. What does 28:7 first say no bird does?",
+        "teen": "Job 28:7: what does it first say no bird does?",
+        "older": "Read with Proverbs 8:2, what does Job 28:7 first say no bird does?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "That path no bird sees"
+        },
+        {
+          "id": "b",
+          "text": "That path no bird knows"
+        },
+        {
+          "id": "c",
+          "text": "That path no bird follows"
+        },
+        {
+          "id": "d",
+          "text": "That path no bird watches"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 28:7",
+            "text": "That path no bird knows, Nor has the falcon’s eye seen it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Proverbs 8:2",
+            "text": "She takes her stand on the top of the high hill, Beside the way, where the paths meet.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 28:7.",
+          "child": "Look at the opening of verse 7.",
+          "teen": "8:2 tells where wisdom stands; 28:7 opens with this claim. Read that sentence.",
+          "older": "It is the opening of 28:7."
+        },
+        "extended_explanation": "28:7 also says, “Nor has the falcon’s eye seen it.” 8:2 says she stands “Beside the way, where the paths meet.”",
+        "takeaway": "That path no bird knows."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0021",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 8",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 28:2 says iron is taken from the earth, and copper is smelted from ore. In Proverbs 8:34, after “Blessed is the man who listens to me,” what does wisdom say he is doing?",
+        "child": "Wisdom blesses the one who listens. After that blessing, what does 8:34 say he is doing?",
+        "teen": "Proverbs 8:34: after the blessing, what does he do “daily at my gates”?",
+        "older": "Read with Job 28:2, what does Proverbs 8:34 say after “Blessed is the man who listens to me”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Standing daily at my gates"
+        },
+        {
+          "id": "b",
+          "text": "Walking daily at my gates"
+        },
+        {
+          "id": "c",
+          "text": "Watching daily at my gates"
+        },
+        {
+          "id": "d",
+          "text": "Working daily at my gates"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 8:34",
+            "text": "Blessed is the man who listens to me, Watching daily at my gates, Waiting at the posts of my doors.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 28:2",
+            "text": "Iron is taken from the earth, And copper is smelted from ore.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 8:34.",
+          "child": "Look at what follows the blessing in verse 34.",
+          "teen": "28:2 names iron and copper; 8:34 next names this daily act. Read that phrase.",
+          "older": "It follows the blessing in 8:34."
+        },
+        "extended_explanation": "8:34 also says, “Waiting at the posts of my doors.” 28:2 says, “copper is smelted from ore.”",
+        "takeaway": "Watching daily at my gates."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ecc-0006",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ecclesiastes",
+      "section": "Ecclesiastes 12",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 28:23 says God understands its way. In Ecclesiastes 12:11, how does the verse first describe the words of the wise?",
+        "child": "The Preacher compares the words of the wise to something. How does 12:11 first describe them?",
+        "teen": "Ecclesiastes 12:11: “The words of the wise are” what first?",
+        "older": "Read with Job 28:23, how does Ecclesiastes 12:11 first describe the words of the wise?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The words of the wise are like lamps"
+        },
+        {
+          "id": "b",
+          "text": "The words of the wise are like hooks"
+        },
+        {
+          "id": "c",
+          "text": "The words of the wise are like cords"
+        },
+        {
+          "id": "d",
+          "text": "The words of the wise are like goads"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ecclesiastes 12:11",
+            "text": "The words of the wise are like goads, and the words of scholars are like well-driven nails, given by one Shepherd.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 28:23",
+            "text": "God understands its way, And He knows its place.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 12:11.",
+          "child": "Look at the opening comparison in verse 11.",
+          "teen": "28:23 says God understands its way; 12:11 opens with this comparison. Read that clause.",
+          "older": "It is the opening of 12:11."
+        },
+        "extended_explanation": "12:11 also says they are “given by one Shepherd.” 28:23 says, “God understands its way.”",
+        "takeaway": "The words of the wise are like goads."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0020",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 28",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ecclesiastes 12:14 says God will bring every work into judgment. In Job 28:18, after “No mention shall be made of,” what two things does the verse name first?",
+        "child": "Job says some treasures should not even be mentioned next to wisdom. After “No mention shall be made of,” what does 28:18 name first?",
+        "teen": "Job 28:18: “No mention shall be made of” what?",
+        "older": "Read with Ecclesiastes 12:14, what does Job 28:18 say should not even be mentioned?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "coral or quartz"
+        },
+        {
+          "id": "b",
+          "text": "silver or copper"
+        },
+        {
+          "id": "c",
+          "text": "cedar or marble"
+        },
+        {
+          "id": "d",
+          "text": "ivory or amber"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 28:18",
+            "text": "No mention shall be made of coral or quartz, For the price of wisdom is above rubies.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 12:14",
+            "text": "For God will bring every work into judgment, Including every secret thing, Whether good or evil.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 28:18.",
+          "child": "Look right after “No mention shall be made of” in verse 18.",
+          "teen": "12:14 speaks of judgment; 28:18 opens with what should not be mentioned. Read that pair.",
+          "older": "It follows “No mention shall be made of” in 28:18."
+        },
+        "extended_explanation": "28:18 also says, “For the price of wisdom is above rubies.” 12:14 says God will bring “every secret thing” into judgment.",
+        "takeaway": "No mention shall be made of coral or quartz."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-pro-0022",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Proverbs",
+      "section": "Proverbs 8",
+      "topics": [
+        "wisdom-books-compared"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ecclesiastes 12:9 says the Preacher still taught the people knowledge. In Proverbs 8:22, after “The LORD possessed me at the beginning of His way,” when does wisdom say this was?",
+        "child": "Wisdom speaks of the start of the LORD’s way. After “at the beginning of His way,” what does 8:22 say next?",
+        "teen": "Proverbs 8:22: after “at the beginning of His way,” what comes next?",
+        "older": "Read with Ecclesiastes 12:9, what does Proverbs 8:22 say after “at the beginning of His way”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Before His words of old"
+        },
+        {
+          "id": "b",
+          "text": "Before His works of old"
+        },
+        {
+          "id": "c",
+          "text": "Before His signs of old"
+        },
+        {
+          "id": "d",
+          "text": "Before His days of old"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Proverbs 8:22",
+            "text": "“The LORD possessed me at the beginning of His way, Before His works of old.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ecclesiastes 12:9",
+            "text": "And moreover, because the Preacher was wise, he still taught the people knowledge; yes, he pondered and sought out and set in order many proverbs.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:22.",
+          "child": "Look at the last words of verse 22.",
+          "teen": "12:9 speaks of the Preacher’s teaching; 8:22 ends with when this was. Read that phrase.",
+          "older": "It is the last phrase of 8:22."
+        },
+        "extended_explanation": "8:22 begins, “The LORD possessed me at the beginning of His way.” 12:9 says he “set in order many proverbs.”",
+        "takeaway": "Wisdom was there before His works of old."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

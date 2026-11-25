@@ -5,6 +5,7 @@ import { KNOWLEDGE_PATH, MASCOT_IDS, MOMENTS, type MascotId, type MascotLine } f
 import { ADVANCE_RULES } from "../game/path";
 import { mascotBatchSchema, questionBatchSchema } from "./schema";
 import { establishedLinesPath, readEstablishedLineFiles } from "./established-lines";
+import { DEEP_ROOTS_LINE_BATCHES, deepRootsLinesPath, readDeepRootsBatch } from "./deep-roots-lines";
 import { fruitfulILinesPath, fruitfulLinesPath, readFruitfulILineFiles, readFruitfulLineFiles } from "./fruitful-lines";
 import { growingLinesPath, readGrowingLineFiles } from "./growing-lines";
 import { readRootedLineFiles, rootedLinesPath } from "./rooted-lines";
@@ -46,6 +47,7 @@ const ROOTED_QUESTION_COUNT = 200;
 const GROWING_QUESTION_COUNT = 216;
 const ESTABLISHED_QUESTION_COUNT = 232;
 const FRUITFUL_QUESTION_COUNT = 552;
+const DEEP_ROOTS_QUESTION_COUNT = 404;
 
 /** Hunter may hint at deep water. He may not say he swallowed Jonah. */
 const HUNTER_FORBIDDEN = [
@@ -70,7 +72,7 @@ function readJson(filePath: string): { value?: unknown; error?: string } {
 
 function requireStageLines(
   errors: string[],
-  stage: "Seed" | "Sprout" | "Rooted" | "Growing" | "Established" | "Fruitful",
+  stage: "Seed" | "Sprout" | "Rooted" | "Growing" | "Established" | "Fruitful" | "Deep Roots",
   ids: string[],
   expected: number,
   answerLinesByQuestion: Map<string, Map<string, Set<string>>>,
@@ -345,6 +347,22 @@ export function validateContentTree(root: string): ValidationResult {
   );
   const fruitfulFileMissing = new Set(MASCOT_IDS.filter((mascot) => !fruitful.loaded.includes(mascot)));
 
+  const deepRootsReads = DEEP_ROOTS_LINE_BATCHES.map((batch) => ({
+    batch,
+    read: readDeepRootsBatch(root, batch),
+  }));
+  for (const { batch, read } of deepRootsReads) {
+    errors.push(...read.errors);
+    lineCount += recordExpandedLines(
+      errors,
+      read.lines,
+      (mascot) => deepRootsLinesPath(mascot, batch),
+      lineIds,
+      questionIds,
+      answerLinesByQuestion,
+    );
+  }
+
   const pathFile = path.join(root, "content", "knowledge_path.json");
   const loaded = readJson(pathFile);
   if (loaded.error || loaded.value === undefined) {
@@ -369,6 +387,7 @@ export function validateContentTree(root: string): ValidationResult {
     const growingQuestionIds: string[] = [];
     const establishedQuestionIds: string[] = [];
     const fruitfulQuestionIds: string[] = [];
+    const deepRootsQuestionIds: string[] = [];
     let badgeCount = 0;
     stages.forEach((stage, index) => {
       const expected = KNOWLEDGE_PATH[index];
@@ -402,6 +421,7 @@ export function validateContentTree(root: string): ValidationResult {
           if (expected === "Growing") growingQuestionIds.push(id);
           if (expected === "Established") establishedQuestionIds.push(id);
           if (expected === "Fruitful") fruitfulQuestionIds.push(id);
+          if (expected === "Deep Roots") deepRootsQuestionIds.push(id);
         }
         const listed = (badge.questionIds ?? []).length;
         if (
@@ -417,6 +437,11 @@ export function validateContentTree(root: string): ValidationResult {
         if (expected === "Fruitful" && listed !== 0 && listed !== 8) {
           errors.push(
             `content/knowledge_path.json: ${badge.id} should list 8 questions or stay empty, found ${listed}`,
+          );
+        }
+        if (expected === "Deep Roots" && listed !== 6 && listed !== 8 && listed !== 10) {
+          errors.push(
+            `content/knowledge_path.json: ${badge.id} should list 6, 8, or 10 questions, found ${listed}`,
           );
         }
       }
@@ -511,6 +536,24 @@ export function validateContentTree(root: string): ValidationResult {
       fruitfulILinesPath,
       "Fruitful",
     );
+    requireStageLines(
+      errors,
+      "Deep Roots",
+      deepRootsQuestionIds,
+      DEEP_ROOTS_QUESTION_COUNT,
+      answerLinesByQuestion,
+      new Set(),
+    );
+    for (const { batch, read } of deepRootsReads) {
+      rejectOffStageLines(
+        errors,
+        read.lines,
+        new Set(deepRootsQuestionIds),
+        questionIds,
+        (mascot) => deepRootsLinesPath(mascot, batch),
+        "Deep Roots",
+      );
+    }
   }
 
   return { ok: errors.length === 0, errors, questionCount, lineCount };

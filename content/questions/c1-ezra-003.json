@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-ezra-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-ezr-0008",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 1",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra 1:8 names the man by whose hand Cyrus brought the articles out. After “by the hand of,” whom does the verse name?",
+        "child": "Cyrus brought the articles out by a named official. After “by the hand of,” whom does 1:8 name?",
+        "teen": "Ezra 1:8: “by the hand of” whom?",
+        "older": "According to Ezra 1:8, after “by the hand of,” whom is named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mithredath"
+        },
+        {
+          "id": "b",
+          "text": "Meshelemiah"
+        },
+        {
+          "id": "c",
+          "text": "Mattithiah"
+        },
+        {
+          "id": "d",
+          "text": "Malchijah"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 1:8",
+            "text": "and Cyrus king of Persia brought them out by the hand of Mithredath the treasurer, and counted them out to Sheshbazzar the prince of Judah.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:8.",
+          "child": "Look right after “by the hand of” in verse 8.",
+          "teen": "1:8 names this official. Read that name.",
+          "older": "It follows “by the hand of” in 1:8."
+        },
+        "extended_explanation": "1:8 also says the articles were counted out to Sheshbazzar the prince of Judah.",
+        "takeaway": "Mithredath."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-neh-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 1",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nehemiah 2:1 names the twentieth year of King Artaxerxes. In 1:1, after “The words of Nehemiah,” how does the verse name him?",
+        "child": "The book of Nehemiah opens by naming the speaker. After “The words of Nehemiah,” how does 1:1 name him?",
+        "teen": "Nehemiah 1:1: after “The words of Nehemiah,” how is he named?",
+        "older": "Read with 2:1, how does 1:1 name him, after “The words of Nehemiah”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the son of Neriah"
+        },
+        {
+          "id": "b",
+          "text": "the son of Hachaliah"
+        },
+        {
+          "id": "c",
+          "text": "the son of Hilkiah"
+        },
+        {
+          "id": "d",
+          "text": "the son of Jehoshaphat"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 1:1",
+            "text": "The words of Nehemiah the son of Hachaliah. It came to pass in the month of Chislev, in the twentieth year, as I was in Shushan the citadel,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 2:1",
+            "text": "And it came to pass in the month of Nisan, in the twentieth year of King Artaxerxes, when wine was before him, that I took the wine and gave it to the king. Now I had never been sad in his presence before.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:1.",
+          "child": "Look right after “The words of Nehemiah” in verse 1.",
+          "teen": "2:1 names Nisan and Artaxerxes; 1:1 opens with this name. Read that phrase.",
+          "older": "It follows “The words of Nehemiah” in 1:1."
+        },
+        "extended_explanation": "1:1 also names the month of Chislev, in the twentieth year, as he was in Shushan the citadel. 2:1 says, “when wine was before him, that I took the wine and gave it to the king.”",
+        "takeaway": "These are the words of Nehemiah the son of Hachaliah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-neh-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Nehemiah",
+      "section": "Nehemiah 2",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Nehemiah 2:6 says the king asked, “How long will your journey be?” In 2:8, after asking for timber for the gates and the wall, what else does Nehemiah name?",
+        "child": "Nehemiah asks Asaph for timber for more than the wall. After the city wall, what does 2:8 also name?",
+        "teen": "Nehemiah 2:8: after the city wall, “and for” what?",
+        "older": "Read with 2:6, what does 2:8 name after “for the city wall, and for”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the house that I will measure"
+        },
+        {
+          "id": "b",
+          "text": "the house that I will furnish"
+        },
+        {
+          "id": "c",
+          "text": "the house that I will occupy"
+        },
+        {
+          "id": "d",
+          "text": "the house that I will fill"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Nehemiah 2:8",
+            "text": "and a letter to Asaph the keeper of the king’s forest, that he must give me timber to make beams for the gates of the citadel which pertains to the temple, for the city wall, and for the house that I will occupy.” And the king granted them to me according to the good hand of my God upon me.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Nehemiah 2:6",
+            "text": "Then the king said to me (the queen also sitting beside him), “How long will your journey be? And when will you return?” So it pleased the king to send me; and I set him a time.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:8.",
+          "child": "Look after “for the city wall, and for” in verse 8.",
+          "teen": "2:6 asks how long the journey will be; 2:8 names this house. Read that phrase.",
+          "older": "It follows “and for” after the city wall in 2:8."
+        },
+        "extended_explanation": "2:8 also says, “And the king granted them to me according to the good hand of my God upon me.” 2:6 also says, “So it pleased the king to send me.”",
+        "takeaway": "The house that I will occupy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-est-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 1",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Esther 10:3 says Mordecai was well received by many of his people. In 1:1, after naming Ahasuerus, what does the verse say he reigned over?",
+        "child": "The book opens by describing Ahasuerus’s realm. After naming him, what does 1:1 say he reigned over?",
+        "teen": "Esther 1:1: he “reigned over” what?",
+        "older": "Read with 10:3, what does 1:1 say Ahasuerus reigned over?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "one hundred and twenty-seven cities"
+        },
+        {
+          "id": "b",
+          "text": "one hundred and twenty-seven islands"
+        },
+        {
+          "id": "c",
+          "text": "one hundred and twenty-seven territories"
+        },
+        {
+          "id": "d",
+          "text": "one hundred and twenty-seven provinces"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 1:1",
+            "text": "Now it came to pass in the days of Ahasuerus (this was the Ahasuerus who reigned over one hundred and twenty-seven provinces, from India to Ethiopia),",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Esther 10:3",
+            "text": "For Mordecai the Jew was second to King Ahasuerus, and was great among the Jews and well received by the multitude of his brethren, seeking the good of his people and speaking peace to all his countrymen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:1.",
+          "child": "Look at the number named in verse 1.",
+          "teen": "10:3 names Mordecai among his people; 1:1 names this number. Read that phrase.",
+          "older": "It is in the last part of 1:1."
+        },
+        "extended_explanation": "1:1 also sets this in Ahasuerus’s time. 10:3 also says he was “speaking peace to all his countrymen.”",
+        "takeaway": "One hundred and twenty-seven provinces."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-est-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 3",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Esther 10:3 says Mordecai was well received by many of his people. In 3:7, the lot was cast before Haman. What was it cast to determine?",
+        "child": "In 3:7, a lot was cast before Haman. What was it cast to determine?",
+        "teen": "Esther 3:7: cast “before Haman to determine” what?",
+        "older": "Read with 10:3, what does 3:7 say the lot was cast before Haman to determine?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the day and the month"
+        },
+        {
+          "id": "b",
+          "text": "the month and the hour"
+        },
+        {
+          "id": "c",
+          "text": "the hour and the week"
+        },
+        {
+          "id": "d",
+          "text": "the week and the day"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 3:7",
+            "text": "In the first month, which is the month of Nisan, in the twelfth year of King Ahasuerus, they cast Pur (that is, the lot), before Haman to determine the day and the month, until it fell on the twelfth month, which is the month of Adar.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Esther 10:3",
+            "text": "For Mordecai the Jew was second to King Ahasuerus, and was great among the Jews and well received by the multitude of his brethren, seeking the good of his people and speaking peace to all his countrymen.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 3:7.",
+          "child": "Look right after “before Haman to determine” in verse 7.",
+          "teen": "10:3 names Mordecai among his people; 3:7 names what the lot would set. Read that phrase.",
+          "older": "It follows “before Haman to determine” in 3:7."
+        },
+        "extended_explanation": "3:7 also says the lot fell “on the twelfth month, which is the month of Adar.” 10:3 also says he was “speaking peace to all his countrymen.”",
+        "takeaway": "The lot was cast to determine the day and the month."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-est-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Esther",
+      "section": "Esther 9",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Esther 9:20 says Mordecai wrote these things and sent letters to all the Jews. In 9:31, the days are confirmed concerning matters of what?",
+        "child": "The days were confirmed for the Jews and their descendants. In 9:31, concerning matters of what?",
+        "teen": "Esther 9:31: “concerning matters of” what?",
+        "older": "Read with 9:20, what does 9:31 say after “concerning matters of”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "their fasting and rejoicing"
+        },
+        {
+          "id": "b",
+          "text": "their fasting and lamenting"
+        },
+        {
+          "id": "c",
+          "text": "their fasting and praying"
+        },
+        {
+          "id": "d",
+          "text": "their fasting and singing"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Esther 9:31",
+            "text": "to confirm these days of Purim at their appointed time, as Mordecai the Jew and Queen Esther had prescribed for them, and as they had decreed for themselves and their descendants concerning matters of their fasting and lamenting.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Esther 9:20",
+            "text": "And Mordecai wrote these things and sent letters to all the Jews, near and far, who were in all the provinces of King Ahasuerus,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:31.",
+          "child": "Look right after “concerning matters of” in verse 31.",
+          "teen": "9:20 names Mordecai’s letters; 9:31 ends with these matters. Read that phrase.",
+          "older": "It follows “concerning matters of” in 9:31."
+        },
+        "extended_explanation": "9:31 also says this was “to confirm these days of Purim at their appointed time.” 9:20 says Mordecai sent letters to all the Jews, “near and far.”",
+        "takeaway": "The days were confirmed concerning matters of their fasting and lamenting."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-hag-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Haggai",
+      "section": "Haggai 1",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra 1:6 says those around them encouraged them with articles of silver and gold. In Haggai 1:1, after the second year of King Darius, in which month did the word come?",
+        "child": "Haggai dates the word that came to the leaders. After the second year of King Darius, which month does 1:1 name?",
+        "teen": "Haggai 1:1: after the second year of King Darius, “in the” which month?",
+        "older": "Read with Ezra 1:6, which month does Haggai 1:1 name after the second year of King Darius?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the fourth month"
+        },
+        {
+          "id": "b",
+          "text": "the eighth month"
+        },
+        {
+          "id": "c",
+          "text": "the sixth month"
+        },
+        {
+          "id": "d",
+          "text": "the tenth month"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Haggai 1:1",
+            "text": "In the second year of King Darius, in the sixth month, on the first day of the month, the word of the LORD came by Haggai the prophet to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Jehozadak, the high priest, saying,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 1:6",
+            "text": "And all those who were around them encouraged them with articles of silver and gold, with goods and livestock, and with precious things, besides all that was willingly offered.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 1:1.",
+          "child": "Look at the month named near the start of verse 1.",
+          "teen": "Ezra 1:6 names the gifts of those around them; Haggai 1:1 names this month. Read that phrase.",
+          "older": "It follows the second year of King Darius in 1:1."
+        },
+        "extended_explanation": "1:1 also says this was “on the first day of the month.” Ezra 1:6 also names “goods and livestock.”",
+        "takeaway": "The sixth month."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zec-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 1",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra 1:9 begins the count with thirty gold platters. In Zechariah 1:1, after “the word of the LORD came to Zechariah,” how is he first named?",
+        "child": "Zechariah’s first verse names the prophet’s family. After “came to Zechariah,” how is he first named?",
+        "teen": "Zechariah 1:1: after “came to Zechariah,” how is he first named?",
+        "older": "Read with Ezra 1:9, how does Zechariah 1:1 first name him, after “Zechariah”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the son of Azariah"
+        },
+        {
+          "id": "b",
+          "text": "the son of Pashhur"
+        },
+        {
+          "id": "c",
+          "text": "the son of Jehoshaphat"
+        },
+        {
+          "id": "d",
+          "text": "the son of Berechiah"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 1:1",
+            "text": "In the eighth month of the second year of Darius, the word of the LORD came to Zechariah the son of Berechiah, the son of Iddo the prophet, saying,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 1:9",
+            "text": "This is the number of them: thirty gold platters, one thousand silver platters, twenty-nine knives,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:1.",
+          "child": "Look right after “Zechariah” in verse 1.",
+          "teen": "Ezra 1:9 begins the count of the articles; 1:1 first names this father. Read that phrase.",
+          "older": "It follows “Zechariah” in 1:1."
+        },
+        "extended_explanation": "1:1 also says this was “In the eighth month of the second year of Darius.” Ezra 1:9 also names “one thousand silver platters, twenty-nine knives.”",
+        "takeaway": "The word came to Zechariah the son of Berechiah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zec-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zechariah",
+      "section": "Zechariah 1",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Malachi 1:1 names what came to Israel by Malachi. In Zechariah 1:5, what does the verse first ask?",
+        "child": "The LORD asks a question in Zechariah 1:5. What does the verse first ask?",
+        "teen": "Zechariah 1:5: what does the verse first ask?",
+        "older": "Read with Malachi 1:1, what does Zechariah 1:5 first ask?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Your fathers, where are they"
+        },
+        {
+          "id": "b",
+          "text": "Your brothers, where are they"
+        },
+        {
+          "id": "c",
+          "text": "Your neighbors, where are they"
+        },
+        {
+          "id": "d",
+          "text": "Your uncles, where are they"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zechariah 1:5",
+            "text": "“Your fathers, where are they? And the prophets, do they live forever?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Malachi 1:1",
+            "text": "The burden of the word of the LORD to Israel by Malachi.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of Zechariah 1:5.",
+          "child": "Look at the opening question in Zechariah 1:5.",
+          "teen": "Malachi 1:1 names what came to Israel; Zechariah 1:5 opens with this question. Read that clause.",
+          "older": "It is the opening of Zechariah 1:5."
+        },
+        "extended_explanation": "Zechariah 1:5 also says, “And the prophets, do they live forever?” Malachi 1:1 also says this came “to Israel by Malachi.”",
+        "takeaway": "Your fathers, where are they."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-ezr-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Ezra",
+      "section": "Ezra 1",
+      "topics": [
+        "exile-and-return-timeline"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Ezra 1:4 says the men of a person’s place should help him with silver and gold. In 1:11, after the count of the articles, what does the verse say Sheshbazzar did?",
+        "child": "The list of articles ends with Sheshbazzar. After that count, what does 1:11 say he did?",
+        "teen": "Ezra 1:11: after the count, “All these Sheshbazzar” what?",
+        "older": "Read with 1:4, what does 1:11 say after “All these Sheshbazzar”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "All these Sheshbazzar took with the soldiers"
+        },
+        {
+          "id": "b",
+          "text": "All these Sheshbazzar took with the captives"
+        },
+        {
+          "id": "c",
+          "text": "All these Sheshbazzar took with the singers"
+        },
+        {
+          "id": "d",
+          "text": "All these Sheshbazzar took with the keepers"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezra 1:11",
+            "text": "All the articles of gold and silver were five thousand four hundred. All these Sheshbazzar took with the captives who were brought from Babylon to Jerusalem.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Ezra 1:4",
+            "text": "And whoever is left in any place where he dwells, let the men of his place help him with silver and gold, with goods and livestock, besides the freewill offerings for the house of God which is in Jerusalem.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:11.",
+          "child": "Look after the count in verse 11.",
+          "teen": "1:4 names the help of silver and gold; 1:11 ends with this act. Read that sentence.",
+          "older": "It follows the count in 1:11."
+        },
+        "extended_explanation": "1:11 also says they “were brought from Babylon to Jerusalem.” 1:4 also says this was “besides the freewill offerings for the house of God which is in Jerusalem.”",
+        "takeaway": "All these Sheshbazzar took with the captives."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

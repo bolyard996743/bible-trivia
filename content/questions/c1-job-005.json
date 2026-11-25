@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-job-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-job-0018",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 40",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 40:17 describes a great creature the LORD names. After “He moves his tail,” how does the verse say he moves it?",
+        "child": "The LORD describes a creature’s tail. After “He moves his tail,” how does 40:17 say he moves it?",
+        "teen": "Job 40:17: “He moves his tail” how?",
+        "older": "According to Job 40:17, after “He moves his tail,” how does he move it?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He moves his tail like a cedar"
+        },
+        {
+          "id": "b",
+          "text": "He moves his tail like a thin reed"
+        },
+        {
+          "id": "c",
+          "text": "He moves his tail like a whip"
+        },
+        {
+          "id": "d",
+          "text": "He moves his tail like a rope"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 40:17",
+            "text": "He moves his tail like a cedar; The sinews of his thighs are tightly knit.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 40:17.",
+          "child": "Look at the opening of verse 17.",
+          "teen": "40:17 opens with this comparison. Read that sentence.",
+          "older": "It is the opening of 40:17."
+        },
+        "extended_explanation": "40:17 also says, “The sinews of his thighs are tightly knit.”",
+        "takeaway": "He moves his tail like a cedar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-job-0019",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 42",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 42:14 names three in order. After “And he called the name of the first,” what name does the verse give?",
+        "child": "Three names are given in order. After “the name of the first,” what name does 42:14 give?",
+        "teen": "Job 42:14: “the name of the first” was what?",
+        "older": "According to Job 42:14, after “the name of the first,” what name is given?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the name of the first Keziah"
+        },
+        {
+          "id": "b",
+          "text": "the name of the first Jemimah"
+        },
+        {
+          "id": "c",
+          "text": "the name of the first child Dinah"
+        },
+        {
+          "id": "d",
+          "text": "the name of the first Miriam"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 42:14",
+            "text": "And he called the name of the first Jemimah, the name of the second Keziah, and the name of the third Keren-Happuch.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 40:16",
+            "text": "See now, his strength is in his hips, And his power is in his stomach muscles.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 42:14.",
+          "child": "Look just after “the name of the first” in verse 14.",
+          "teen": "42:14 opens with this name. Read that phrase.",
+          "older": "It follows “the name of the first” in 42:14."
+        },
+        "extended_explanation": "42:14 also names “the second Keziah, and the name of the third Keren-Happuch.”",
+        "takeaway": "the name of the first Jemimah."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0021",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 42",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 42:15 tells what was said of Job’s daughters, and what their father did. After “In all the land were found,” how does the verse first describe them?",
+        "child": "A claim is made about Job’s daughters in all the land. After “In all the land were found,” how does 42:15 first describe them?",
+        "teen": "Job 42:15: after “In all the land were found,” how are they first described?",
+        "older": "According to Job 42:15, after “In all the land were found,” how are they first described?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "no women so widely famous as the daughters of Job"
+        },
+        {
+          "id": "b",
+          "text": "no women so wealthy as the daughters of Job"
+        },
+        {
+          "id": "c",
+          "text": "no women so beautiful as the daughters of Job"
+        },
+        {
+          "id": "d",
+          "text": "no women so learned as the daughters of Job"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 42:15",
+            "text": "In all the land were found no women so beautiful as the daughters of Job; and their father gave them an inheritance among their brothers.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 40:22",
+            "text": "The lotus trees cover him with their shade; The willows by the brook surround him.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 42:15.",
+          "child": "Look at the opening of verse 15.",
+          "teen": "42:15 opens with this claim. Read that clause.",
+          "older": "It is the opening of 42:15."
+        },
+        "extended_explanation": "42:15 also says “their father gave them an inheritance among their brothers.”",
+        "takeaway": "In all the land were found no women so beautiful as the daughters of Job."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0022",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 38",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 38:36 asks about wisdom. After “Who has put wisdom,” where does the verse say He has put it?",
+        "child": "The LORD asks Job a question about wisdom. After “Who has put wisdom,” where does 38:36 say He has put it?",
+        "teen": "Job 38:36: “Who has put wisdom” where?",
+        "older": "According to Job 38:36, after “Who has put wisdom,” where has it been put?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Who has put wisdom in the book"
+        },
+        {
+          "id": "b",
+          "text": "Who has put wisdom in the court"
+        },
+        {
+          "id": "c",
+          "text": "Who has put wisdom in the camp"
+        },
+        {
+          "id": "d",
+          "text": "Who has put wisdom in the mind"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 38:36",
+            "text": "Who has put wisdom in the mind? Or who has given understanding to the heart?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 2:9",
+            "text": "Then his wife said to him, “Do you still hold fast to your integrity? Curse God and die!”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 38:36.",
+          "child": "Look just after “Who has put wisdom” in verse 36.",
+          "teen": "38:36 opens with this question. Read that sentence.",
+          "older": "It follows “Who has put wisdom” in 38:36."
+        },
+        "extended_explanation": "38:36 also says, “Or who has given understanding to the heart?”",
+        "takeaway": "The question is, Who has put wisdom in the mind?"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0023",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 39",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 39:27 asks about the eagle. After “Does the eagle,” what does the verse first ask?",
+        "child": "The LORD asks Job about the eagle. After “Does the eagle,” what does 39:27 first ask?",
+        "teen": "Job 39:27: “Does the eagle” what first?",
+        "older": "According to Job 39:27, after “Does the eagle,” what is first asked?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Does the eagle mount up at your command"
+        },
+        {
+          "id": "b",
+          "text": "Does the eagle settle down at your command"
+        },
+        {
+          "id": "c",
+          "text": "Does the eagle turn back at your command"
+        },
+        {
+          "id": "d",
+          "text": "Does the eagle fly low at your command"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 39:27",
+            "text": "Does the eagle mount up at your command, And make its nest on high?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 42:16",
+            "text": "After this Job lived one hundred and forty years, and saw his children and grandchildren for four generations.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 39:27.",
+          "child": "Look at the opening of verse 27.",
+          "teen": "39:27 opens with this question. Read that sentence.",
+          "older": "It is the opening of 39:27."
+        },
+        "extended_explanation": "39:27 also says, “And make its nest on high?”",
+        "takeaway": "The question is, Does the eagle mount up at your command?"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0024",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 2",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 38:35 asks, “Can you send out lightnings, that they may go?” In 2:8, after “while,” what does the verse say he did?",
+        "child": "Job is shown after the blows. After “while,” what does 2:8 say he did?",
+        "teen": "Job 2:8: after “while,” what does he do?",
+        "older": "Read with 38:35, what does 2:8 say he did after “while”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "he sat in the midst of the ruins"
+        },
+        {
+          "id": "b",
+          "text": "he sat in the midst of the ashes"
+        },
+        {
+          "id": "c",
+          "text": "he sat in the midst of the stones"
+        },
+        {
+          "id": "d",
+          "text": "he sat in the midst of the dry heap"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 2:8",
+            "text": "And he took for himself a potsherd with which to scrape himself while he sat in the midst of the ashes.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 38:35",
+            "text": "Can you send out lightnings, that they may go, And say to you, ‘Here we are!’?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 2:8.",
+          "child": "Look just after “while” in verse 8.",
+          "teen": "38:35 asks about lightnings; 2:8 ends with this scene. Read that phrase.",
+          "older": "It follows “while” in 2:8."
+        },
+        "extended_explanation": "2:8 also says he took something “for himself.” 38:35 asks, “Can you send out lightnings, that they may go, And say to you, ‘Here we are!’?”",
+        "takeaway": "he sat in the midst of the ashes."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0025",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 38",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 1:4 says Job’s sons would feast in their houses, each on his appointed day. In 38:11, after “This far you may come, but,” what does the verse first say?",
+        "child": "The LORD speaks to the sea. After “This far you may come, but,” what does 38:11 first say?",
+        "teen": "Job 38:11: after “This far you may come, but,” what comes first?",
+        "older": "Read with 1:4, what does 38:11 first say after “This far you may come, but”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "no deeper still"
+        },
+        {
+          "id": "b",
+          "text": "no longer"
+        },
+        {
+          "id": "c",
+          "text": "no farther"
+        },
+        {
+          "id": "d",
+          "text": "no higher"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 38:11",
+            "text": "When I said, ‘This far you may come, but no farther, And here your proud waves must stop!’",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 1:4",
+            "text": "And his sons would go and feast in their houses, each on his appointed day, and would send and invite their three sisters to eat and drink with them.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 38:11.",
+          "child": "Look just after “This far you may come, but” in verse 11.",
+          "teen": "1:4 names the sons’ feasts; 38:11 continues after this limit. Read that phrase.",
+          "older": "It follows “This far you may come, but” in 38:11."
+        },
+        "extended_explanation": "38:11 also says, “And here your proud waves must stop!” 1:4 says Job’s sons would feast “each on his appointed day.”",
+        "takeaway": "no farther."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0026",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 41",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 42:16 says Job lived one hundred and forty years after this. In 41:23, after “The folds of his flesh are joined together;,” what does the verse say next?",
+        "child": "The LORD describes a creature’s flesh. After “The folds of his flesh are joined together;,” what does 41:23 say next?",
+        "teen": "Job 41:23: after “The folds of his flesh are joined together;,” what comes next?",
+        "older": "Read with 42:16, what does 41:23 say after “The folds of his flesh are joined together;”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "They are loose on him and cannot be bound"
+        },
+        {
+          "id": "b",
+          "text": "They are thin on him and cannot be seen"
+        },
+        {
+          "id": "c",
+          "text": "They are soft on him and cannot be pierced"
+        },
+        {
+          "id": "d",
+          "text": "They are firm on him and cannot be moved"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 41:23",
+            "text": "The folds of his flesh are joined together; They are firm on him and cannot be moved.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 42:16",
+            "text": "After this Job lived one hundred and forty years, and saw his children and grandchildren for four generations.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 41:23.",
+          "child": "Look just after “joined together;” in verse 23.",
+          "teen": "42:16 names those later years; 41:23 ends with this claim. Read that phrase.",
+          "older": "It follows “The folds of his flesh are joined together;” in 41:23."
+        },
+        "extended_explanation": "41:23 begins, “The folds of his flesh are joined together.” 42:16 also says he “saw his children and grandchildren for four generations.”",
+        "takeaway": "They are firm on him and cannot be moved."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0027",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 41",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 1:12 says, “all that he has is in your power; only do not lay a hand on his person.” In 41:21, after naming his breath, what does the verse say of a flame?",
+        "child": "The LORD describes a creature’s breath. After the first clause, what does 41:21 say of a flame?",
+        "teen": "Job 41:21: what does it say of a flame?",
+        "older": "Read with 1:12, what does 41:21 say of a flame?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "And a flame goes out of his mouth"
+        },
+        {
+          "id": "b",
+          "text": "And a flame rests over his head"
+        },
+        {
+          "id": "c",
+          "text": "And a flame falls at his feet"
+        },
+        {
+          "id": "d",
+          "text": "And a flame hides away in his secret den"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 41:21",
+            "text": "His breath kindles coals, And a flame goes out of his mouth.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 1:12",
+            "text": "And the LORD said to Satan, “Behold, all that he has is in your power; only do not lay a hand on his person.” So Satan went out from the presence of the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 41:21.",
+          "child": "Look at the last clause of verse 21.",
+          "teen": "1:12 names what is in Satan’s power; 41:21 ends with this claim. Read that sentence.",
+          "older": "It is the last clause of 41:21."
+        },
+        "extended_explanation": "41:21 begins, “His breath kindles coals.” 1:12 also says, “So Satan went out from the presence of the LORD.”",
+        "takeaway": "And a flame goes out of his mouth."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-job-0028",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Job",
+      "section": "Job 2",
+      "topics": [
+        "job-suffering-and-sovereignty"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Job 42:12 says the LORD blessed the latter days of Job more than his beginning. In 2:10, after “In all this,” what does the verse say Job did not do?",
+        "child": "Job answers his wife, and a closing claim is made. After “In all this,” what does 2:10 say he did not do?",
+        "teen": "Job 2:10: after “In all this,” what did he not do?",
+        "older": "Read with 42:12, what does 2:10 say after “In all this” that he did not do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Job did not sit with friends"
+        },
+        {
+          "id": "b",
+          "text": "Job did not sin with his lips"
+        },
+        {
+          "id": "c",
+          "text": "Job did not speak with his wife"
+        },
+        {
+          "id": "d",
+          "text": "Job did not walk with his sons"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Job 2:10",
+            "text": "But he said to her, “You speak as one of the foolish women speaks. Shall we indeed accept good from God, and shall we not accept adversity?” In all this Job did not sin with his lips.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Job 42:12",
+            "text": "Now the LORD blessed the latter days of Job more than his beginning; for he had fourteen thousand sheep, six thousand camels, one thousand yoke of oxen, and one thousand female donkeys.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 2:10.",
+          "child": "Look just after “In all this” in verse 10.",
+          "teen": "42:12 names later blessing; 2:10 ends with this claim. Read that phrase.",
+          "older": "It follows “In all this” in 2:10."
+        },
+        "extended_explanation": "2:10 also says, “Shall we indeed accept good from God, and shall we not accept adversity?” 42:12 lists sheep, camels, oxen, and female donkeys.",
+        "takeaway": "Job did not sin with his lips."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

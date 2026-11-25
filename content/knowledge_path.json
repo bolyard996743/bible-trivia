@@ -2938,253 +2938,699 @@
           "id": "deep-obadiah",
           "name": "Obadiah: Edom's Fall",
           "art": "fortress",
-          "questionIds": []
+          "questionIds": [
+            "c1-oba-0001",
+            "c2-oba-0001",
+            "c2-num-0011",
+            "c3-num-0005",
+            "c3-oba-0001",
+            "c3-oba-0002",
+            "c3-oba-0003",
+            "c3-gen-0012"
+          ]
         },
         {
           "id": "deep-nahum",
           "name": "Nahum: Nineveh's Doom",
           "art": "gate",
-          "questionIds": []
+          "questionIds": [
+            "c1-nah-0001",
+            "c2-nah-0001",
+            "c2-nah-0002",
+            "c3-jon-0001",
+            "c3-nah-0001",
+            "c3-nah-0002",
+            "c3-nah-0003",
+            "c3-jon-0002"
+          ]
         },
         {
           "id": "deep-zephaniah",
           "name": "Zephaniah: Rejoicing Over You",
           "art": "bird",
-          "questionIds": []
+          "questionIds": [
+            "c1-zep-0001",
+            "c2-zep-0001",
+            "c2-zep-0002",
+            "c3-zep-0001",
+            "c3-zep-0002",
+            "c3-zep-0003",
+            "c3-zep-0004",
+            "c3-zep-0005"
+          ]
         },
         {
           "id": "deep-philemon",
           "name": "Philemon: A Brother, Not a Slave",
           "art": "letter",
-          "questionIds": []
+          "questionIds": [
+            "c1-phm-0001",
+            "c2-phm-0001",
+            "c2-col-0004",
+            "c3-phm-0001",
+            "c3-phm-0002",
+            "c3-phm-0003",
+            "c3-phm-0004",
+            "c3-phm-0005"
+          ]
         },
         {
           "id": "deep-2john",
           "name": "2 John: Truth and Love",
           "art": "ring",
-          "questionIds": []
+          "questionIds": [
+            "c1-2jn-0001",
+            "c2-2jn-0001",
+            "c2-2jn-0002",
+            "c3-2jn-0001",
+            "c3-2jn-0002",
+            "c3-2jn-0003"
+          ]
         },
         {
           "id": "deep-3john",
           "name": "3 John: Walking in the Truth",
           "art": "sandals",
-          "questionIds": []
+          "questionIds": [
+            "c1-3jn-0001",
+            "c2-3jn-0001",
+            "c2-3jn-0002",
+            "c3-3jn-0001",
+            "c3-3jn-0002",
+            "c3-3jn-0003"
+          ]
         },
         {
           "id": "deep-covenants",
           "name": "Covenants Across Scripture",
           "art": "rainbow",
-          "questionIds": []
+          "questionIds": [
+            "c2-exo-0022",
+            "c2-2sa-0009",
+            "c3-jer-0013",
+            "c3-heb-0009",
+            "c3-2sa-0009",
+            "c3-gen-0013",
+            "c3-gen-0014",
+            "c3-gen-0015",
+            "c3-gen-0016",
+            "c3-gen-0017"
+          ]
         },
         {
           "id": "deep-eden-to-the-new-creation",
           "name": "Eden to the New Creation",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-gen-0027",
+            "c2-gen-0028",
+            "c3-gen-0018",
+            "c3-isa-0017",
+            "c3-gen-0019",
+            "c3-gen-0020",
+            "c3-gen-0021",
+            "c3-gen-0022",
+            "c3-rev-0006",
+            "c3-rev-0007"
+          ]
         },
         {
           "id": "deep-the-kingdom-of-god-across-scripture",
           "name": "The Kingdom of God Across Scripture",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-mrk-0010",
+            "c2-dan-0009",
+            "c3-dan-0007",
+            "c3-psa-0014",
+            "c3-mat-0012",
+            "c3-dan-0008",
+            "c3-dan-0009",
+            "c3-mat-0013",
+            "c3-psa-0015",
+            "c3-mat-0014"
+          ]
         },
         {
           "id": "deep-the-holy-spirit-across-scripture",
           "name": "The Holy Spirit Across Scripture",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-ezk-0014",
+            "c2-jhn-0022",
+            "c3-jhn-0011",
+            "c3-act-0007",
+            "c3-rom-0015",
+            "c3-jhn-0012",
+            "c3-act-0008",
+            "c3-act-0009",
+            "c3-rom-0016",
+            "c3-gal-0003"
+          ]
         },
         {
           "id": "deep-law",
           "name": "Christ in the Law",
           "art": "lamb",
-          "questionIds": []
+          "questionIds": [
+            "c2-deu-0016",
+            "c2-exo-0023",
+            "c3-lev-0005",
+            "c3-exo-0008",
+            "c3-heb-0010",
+            "c3-lev-0006",
+            "c3-lev-0007",
+            "c3-gen-0023",
+            "c3-heb-0011",
+            "c3-heb-0012"
+          ]
         },
         {
           "id": "deep-messianic",
           "name": "Messianic Prophecy and Fulfillment",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-psa-0024",
+            "c2-isa-0025",
+            "c3-psa-0016",
+            "c3-isa-0018",
+            "c3-jhn-0013",
+            "c3-psa-0017",
+            "c3-jhn-0014",
+            "c3-psa-0018",
+            "c3-mic-0009",
+            "c3-mat-0015"
+          ]
         },
         {
           "id": "deep-isaiah-the-final-chapters",
           "name": "Isaiah: The Final Chapters",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-isa-0026",
+            "c2-isa-0027",
+            "c3-isa-0020",
+            "c3-isa-0021",
+            "c3-isa-0022",
+            "c3-isa-0023",
+            "c3-isa-0024",
+            "c3-isa-0025",
+            "c3-isa-0026",
+            "c3-isa-0027"
+          ]
         },
         {
           "id": "deep-ezekiel-the-temple-and-the-land",
           "name": "Ezekiel: The Temple and the Land",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-ezk-0015",
+            "c2-ezk-0016",
+            "c3-ezk-0009",
+            "c3-ezk-0010",
+            "c3-ezk-0011",
+            "c3-ezk-0012",
+            "c3-ezk-0013",
+            "c3-ezk-0014",
+            "c3-ezk-0015",
+            "c3-ezk-0016"
+          ]
         },
         {
           "id": "deep-wisdom",
           "name": "Wisdom Books Compared",
           "art": "wisdom-books",
-          "questionIds": []
+          "questionIds": [
+            "c2-job-0016",
+            "c2-job-0017",
+            "c3-job-0018",
+            "c3-pro-0020",
+            "c3-ecc-0005",
+            "c3-job-0019",
+            "c3-pro-0021",
+            "c3-ecc-0006",
+            "c3-job-0020",
+            "c3-pro-0022"
+          ]
         },
         {
           "id": "deep-proverbs-collections-and-authors",
           "name": "Proverbs: Collections and Authors",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-pro-0023",
+            "c2-pro-0024",
+            "c3-pro-0025",
+            "c3-pro-0026",
+            "c3-pro-0027",
+            "c3-pro-0028",
+            "c3-pro-0029",
+            "c3-pro-0030",
+            "c3-pro-0031",
+            "c3-pro-0032"
+          ]
         },
         {
-          "id": "deep-the-twelve-minor-prophets-order-and-setting-open",
-          "name": "The Twelve Minor Prophets: Order and Setting _(Opening verses (author and setting) of each of the twelve.)_",
+          "id": "deep-the-twelve-minor-prophets-order-and-setting",
+          "name": "The Twelve Minor Prophets: Order and Setting",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-hos-0009",
+            "c2-jol-0005",
+            "c3-jon-0010",
+            "c3-nah-0004",
+            "c3-zep-0006",
+            "c3-oba-0004",
+            "c3-mic-0010",
+            "c3-hab-0005",
+            "c3-jol-0006",
+            "c3-jol-0010"
+          ]
         },
         {
           "id": "deep-the-day-of-the-lord",
           "name": "The Day of the LORD",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-zep-0011",
+            "c2-jol-0007",
+            "c3-amo-0010",
+            "c3-zep-0007",
+            "c3-jol-0008",
+            "c3-amo-0011",
+            "c3-jol-0009",
+            "c3-zep-0010",
+            "c3-mal-0005",
+            "c3-amo-0012"
+          ]
         },
         {
           "id": "deep-the-remnant-and-the-restoration",
           "name": "The Remnant and the Restoration",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-isa-0028",
+            "c2-isa-0029",
+            "c3-mic-0011",
+            "c3-zep-0008",
+            "c3-zec-0009",
+            "c3-isa-0030",
+            "c3-mic-0012",
+            "c3-zep-0009",
+            "c3-zec-0010",
+            "c3-isa-0031"
+          ]
         },
         {
           "id": "deep-kings",
           "name": "Kings of Israel and Judah in Order",
           "art": "crown",
-          "questionIds": []
+          "questionIds": [
+            "c2-1ki-0019",
+            "c2-1ki-0020",
+            "c3-1ki-0021",
+            "c3-2ki-0021",
+            "c3-2ki-0022",
+            "c3-2ki-0023",
+            "c3-2ki-0024",
+            "c3-2ch-0007",
+            "c3-2ch-0008",
+            "c3-2ch-0009"
+          ]
         },
         {
           "id": "deep-exile",
           "name": "Exile and Return Timeline",
           "art": "road",
-          "questionIds": []
+          "questionIds": [
+            "c2-ezr-0008",
+            "c2-neh-0009",
+            "c3-neh-0010",
+            "c3-est-0008",
+            "c3-est-0009",
+            "c3-est-0010",
+            "c3-hag-0005",
+            "c3-zec-0011",
+            "c3-zec-0012",
+            "c3-ezr-0009"
+          ]
         },
         {
-          "id": "deep-judges-the-cycle-of-sin-and-deliverance-deborah-",
-          "name": "Judges: The Cycle of Sin and Deliverance _(Deborah and Barak now live in Rooted. Judges 19-21 are excluded (sensitive-passage rule).)_",
+          "id": "deep-judges-the-cycle-of-sin-and-deliverance",
+          "name": "Judges: The Cycle of Sin and Deliverance",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-jdg-0004",
+            "c2-jdg-0005",
+            "c3-jdg-0001",
+            "c3-jdg-0002",
+            "c3-jdg-0003",
+            "c3-jdg-0004",
+            "c3-jdg-0005",
+            "c3-jdg-0006",
+            "c3-jdg-0007",
+            "c3-jdg-0008"
+          ]
         },
         {
           "id": "deep-deuteronomy",
           "name": "Deuteronomy: Blessings and Curses",
           "art": "mountains",
-          "questionIds": []
+          "questionIds": [
+            "c2-deu-0017",
+            "c2-deu-0018",
+            "c3-deu-0005",
+            "c3-deu-0006",
+            "c3-deu-0007",
+            "c3-deu-0008",
+            "c3-deu-0009",
+            "c3-deu-0010",
+            "c3-deu-0011",
+            "c3-deu-0012"
+          ]
         },
         {
           "id": "deep-leviticus",
           "name": "Leviticus: Offerings and Priesthood",
           "art": "censer",
-          "questionIds": []
+          "questionIds": [
+            "c2-lev-0010",
+            "c2-lev-0011",
+            "c3-lev-0008",
+            "c3-lev-0009",
+            "c3-lev-0010",
+            "c3-lev-0011",
+            "c3-lev-0012",
+            "c3-lev-0013",
+            "c3-lev-0014",
+            "c3-lev-0015"
+          ]
         },
         {
           "id": "deep-numbers",
           "name": "Numbers: Census, Rebellion and Balaam",
           "art": "banners",
-          "questionIds": []
+          "questionIds": [
+            "c2-num-0012",
+            "c2-num-0013",
+            "c3-num-0006",
+            "c3-num-0007",
+            "c3-num-0008",
+            "c3-num-0009",
+            "c3-num-0010",
+            "c3-num-0011",
+            "c3-num-0012",
+            "c3-num-0013"
+          ]
         },
         {
           "id": "deep-job",
           "name": "Job: Suffering and Sovereignty",
           "art": "storm",
-          "questionIds": []
+          "questionIds": [
+            "c2-job-0018",
+            "c2-job-0019",
+            "c3-job-0021",
+            "c3-job-0022",
+            "c3-job-0023",
+            "c3-job-0024",
+            "c3-job-0025",
+            "c3-job-0026",
+            "c3-job-0027",
+            "c3-job-0028"
+          ]
         },
         {
           "id": "deep-psalms",
           "name": "Messianic Psalms",
           "art": "crown",
-          "questionIds": []
+          "questionIds": [
+            "c2-psa-0025",
+            "c2-psa-0026",
+            "c3-psa-0019",
+            "c3-psa-0020",
+            "c3-psa-0021",
+            "c3-psa-0022",
+            "c3-psa-0023",
+            "c3-psa-0024",
+            "c3-psa-0025",
+            "c3-psa-0026"
+          ]
         },
         {
           "id": "deep-psalms-the-five-books",
           "name": "Psalms: The Five Books",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-psa-0027",
+            "c2-psa-0028",
+            "c3-psa-0027",
+            "c3-psa-0028",
+            "c3-psa-0029",
+            "c3-psa-0030",
+            "c3-psa-0031",
+            "c3-psa-0032",
+            "c3-psa-0033",
+            "c3-psa-0034"
+          ]
         },
         {
           "id": "deep-letters",
           "name": "Paul's Letters: Setting and Order",
           "art": "letter",
-          "questionIds": []
+          "questionIds": [
+            "c2-act-0033",
+            "c2-act-0034",
+            "c3-gal-0010",
+            "c3-rom-0021",
+            "c3-1co-0010",
+            "c3-act-0035",
+            "c3-act-0036",
+            "c3-act-0037",
+            "c3-act-0038",
+            "c3-act-0039"
+          ]
         },
         {
           "id": "deep-ephesians",
           "name": "Ephesians: In Christ",
           "art": "circles",
-          "questionIds": []
+          "questionIds": [
+            "c2-eph-0008",
+            "c2-eph-0009",
+            "c3-eph-0010",
+            "c3-eph-0011",
+            "c3-eph-0012",
+            "c3-eph-0013",
+            "c3-eph-0014",
+            "c3-eph-0015",
+            "c3-eph-0016",
+            "c3-eph-0017"
+          ]
         },
         {
           "id": "deep-the-prison-letters",
           "name": "The Prison Letters",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-php-0016",
+            "c2-col-0005",
+            "c3-php-0003",
+            "c3-phm-0006",
+            "c3-act-0040",
+            "c3-eph-0019",
+            "c3-col-0006",
+            "c3-php-0004",
+            "c3-act-0041",
+            "c3-php-0005"
+          ]
         },
         {
           "id": "deep-the-pastoral-letters",
           "name": "The Pastoral Letters",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-1ti-0005",
+            "c2-1ti-0006",
+            "c3-1ti-0007",
+            "c3-2ti-0006",
+            "c3-2ti-0007",
+            "c3-1ti-0008",
+            "c3-1ti-0009",
+            "c3-1ti-0010",
+            "c3-2ti-0008",
+            "c3-2ti-0009"
+          ]
         },
         {
           "id": "deep-philippians",
           "name": "Philippians: The Mind of Christ",
           "art": "basin",
-          "questionIds": []
+          "questionIds": [
+            "c2-php-0006",
+            "c2-php-0007",
+            "c3-php-0008",
+            "c3-php-0009",
+            "c3-php-0010",
+            "c3-php-0011",
+            "c3-php-0012",
+            "c3-php-0013",
+            "c3-php-0014",
+            "c3-php-0015"
+          ]
         },
         {
           "id": "deep-hebrews-use-of-the-old-testament",
           "name": "Hebrews' Use of the Old Testament",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-heb-0013",
+            "c2-heb-0014",
+            "c3-heb-0015",
+            "c3-heb-0016",
+            "c3-heb-0017",
+            "c3-heb-0018",
+            "c3-heb-0019",
+            "c3-heb-0020",
+            "c3-heb-0021",
+            "c3-heb-0022"
+          ]
         },
         {
           "id": "deep-atonement",
           "name": "Atonement and Justification",
           "art": "scales",
-          "questionIds": []
+          "questionIds": [
+            "c2-rom-0022",
+            "c2-2co-0009",
+            "c3-gal-0011",
+            "c3-heb-0023",
+            "c3-1pe-0009",
+            "c3-rom-0023",
+            "c3-2co-0010",
+            "c3-1pe-0010",
+            "c3-heb-0024",
+            "c3-heb-0025"
+          ]
         },
         {
           "id": "deep-faith-and-works-paul-and-james",
           "name": "Faith and Works: Paul and James",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-rom-0024",
+            "c2-jas-0009",
+            "c3-gen-0064",
+            "c3-gal-0012",
+            "c3-rom-0025",
+            "c3-jas-0010",
+            "c3-rom-0026",
+            "c3-gal-0013",
+            "c3-rom-0027",
+            "c3-jas-0011"
+          ]
         },
         {
           "id": "deep-trinity",
           "name": "The Person of Christ and the Trinity",
           "art": "circles",
-          "questionIds": []
+          "questionIds": [
+            "c2-jhn-0035",
+            "c2-jhn-0036",
+            "c3-jhn-0037",
+            "c3-heb-0026",
+            "c3-jhn-0038",
+            "c3-jhn-0039",
+            "c3-jhn-0040",
+            "c3-heb-0027",
+            "c3-jhn-0041",
+            "c3-jhn-0042"
+          ]
         },
         {
           "id": "deep-general",
           "name": "General Letters: James to Jude",
           "art": "letter",
-          "questionIds": []
+          "questionIds": [
+            "c2-jas-0012",
+            "c2-1pe-0011",
+            "c3-1jn-0009",
+            "c3-1pe-0012",
+            "c3-2pe-0005",
+            "c3-2pe-0006",
+            "c3-1jn-0010",
+            "c3-2pe-0007",
+            "c3-jud-0005",
+            "c3-jud-0006"
+          ]
         },
         {
           "id": "deep-gospels",
           "name": "Gospel Harmony: Four Portraits",
           "art": "panels",
-          "questionIds": []
+          "questionIds": [
+            "c2-mat-0039",
+            "c2-mrk-0024",
+            "c3-mat-0040",
+            "c3-luk-0039",
+            "c3-jhn-0043",
+            "c3-mrk-0025",
+            "c3-mat-0041",
+            "c3-luk-0040",
+            "c3-jhn-0044",
+            "c3-mrk-0026"
+          ]
         },
         {
           "id": "deep-imagery",
           "name": "Revelation and Old Testament Imagery",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-rev-0023",
+            "c2-ezk-0017",
+            "c3-rev-0024",
+            "c3-dan-0019",
+            "c3-isa-0032",
+            "c3-rev-0025",
+            "c3-ezk-0018",
+            "c3-ezk-0020",
+            "c3-dan-0020",
+            "c3-ezk-0019"
+          ]
         },
         {
           "id": "deep-revelation-structure-and-settings",
           "name": "Revelation: Structure and Settings",
           "art": "scroll",
-          "questionIds": []
+          "questionIds": [
+            "c2-rev-0027",
+            "c2-rev-0028",
+            "c3-rev-0029",
+            "c3-rev-0030",
+            "c3-rev-0031",
+            "c3-rev-0032",
+            "c3-rev-0033",
+            "c3-rev-0034",
+            "c3-rev-0035",
+            "c3-rev-0036"
+          ]
         },
         {
           "id": "deep-victory",
           "name": "Revelation: Dragon, Beast and Victory",
           "art": "horse",
-          "questionIds": []
+          "questionIds": [
+            "c2-rev-0037",
+            "c2-rev-0038",
+            "c3-rev-0039",
+            "c3-rev-0040",
+            "c3-rev-0041",
+            "c3-rev-0042",
+            "c3-rev-0043",
+            "c3-rev-0044",
+            "c3-rev-0045",
+            "c3-rev-0046"
+          ]
         }
       ]
     }

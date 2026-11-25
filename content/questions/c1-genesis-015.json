@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-genesis-015",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-ezk-0014",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Ezekiel",
+      "section": "Ezekiel 36",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "The LORD promises to take His people from among the nations. According to Ezekiel 36:24, from where will He gather them, before He brings them into their own land?",
+        "child": "God promised to bring His people home. After taking them from among the nations, from where did He say He would gather them?",
+        "teen": "Ezekiel 36:24: “gather you out of” what, “and bring you into your own land”?",
+        "older": "According to Ezekiel 36:24, out of what will the LORD gather them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "all countries"
+        },
+        {
+          "id": "b",
+          "text": "all deserts"
+        },
+        {
+          "id": "c",
+          "text": "all islands"
+        },
+        {
+          "id": "d",
+          "text": "all the cities"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Ezekiel 36:24",
+            "text": "For I will take you from among the nations, gather you out of all countries, and bring you into your own land.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 36:24.",
+          "child": "Look right after “gather you out of” in verse 24.",
+          "teen": "36:24 has three movements: take, gather, and bring. Read the middle one.",
+          "older": "It follows “gather you out of” in 36:24."
+        },
+        "extended_explanation": "36:24 also says He will take them from among the nations and bring them into their own land.",
+        "takeaway": "He will gather them out of all countries."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-jhn-0022",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 16",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 16:10 speaks of righteousness, because Jesus goes to the Father. In 16:12 He says He still has many things to say to them, but they are not able to do what now?",
+        "child": "Jesus told His disciples He still had many things to say. What did He say they were not able to do now?",
+        "teen": "John 16:12: what does He say they are not able to do now?",
+        "older": "Read with 16:10, what does 16:12 say they are not able to do now?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "keep them now"
+        },
+        {
+          "id": "b",
+          "text": "bear them now"
+        },
+        {
+          "id": "c",
+          "text": "hold them now"
+        },
+        {
+          "id": "d",
+          "text": "hide them now"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 16:10",
+            "text": "of righteousness, because I go to My Father and you see Me no more;",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 16:12",
+            "text": "“I still have many things to say to you, but you cannot bear them now.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 16:12.",
+          "child": "Look at the last words of verse 12.",
+          "teen": "16:10 speaks of His going; 16:12 ends with what they are not able to do now. Read the end.",
+          "older": "It is the last phrase of 16:12."
+        },
+        "extended_explanation": "16:12 also says, “I still have many things to say to you.” 16:10 says, “you see Me no more.”",
+        "takeaway": "They were not able to bear them now."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0011",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 16",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 16:14 says, “He will glorify Me.” In 16:7, Jesus says He tells them the truth. How does He describe His going away?",
+        "child": "Jesus told His disciples He was going away. How did He describe His going?",
+        "teen": "John 16:7: “It is” what “that I go away”?",
+        "older": "Read with 16:14, how does 16:7 describe His going away?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to your surprise"
+        },
+        {
+          "id": "b",
+          "text": "to your sorrow"
+        },
+        {
+          "id": "c",
+          "text": "to your advantage"
+        },
+        {
+          "id": "d",
+          "text": "to your great loss"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 16:7",
+            "text": "Nevertheless I tell you the truth. It is to your advantage that I go away; for if I do not go away, the Helper will not come to you; but if I depart, I will send Him to you.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 16:9",
+            "text": "of sin, because they do not believe in Me;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 16:7.",
+          "child": "Look right after “It is” in verse 7.",
+          "teen": "16:14 speaks of glorifying Him; 16:7 states why He must go. Read that claim.",
+          "older": "It follows “It is” in 16:7."
+        },
+        "extended_explanation": "16:7 also says, “if I depart, I will send Him to you.” 16:9 says, “of sin, because they do not believe in Me.”",
+        "takeaway": "Jesus said, “It is to your advantage that I go away.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 2:16 says this is what was spoken by Joel. In 2:1, when the Day of Pentecost had fully come, how does the verse describe where they were?",
+        "child": "On the day of Pentecost the disciples were together. How does the verse say they were gathered?",
+        "teen": "Acts 2:1: “they were all” how?",
+        "older": "Read with 2:16, how does 2:1 say they were all?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "in the temple in two groups"
+        },
+        {
+          "id": "b",
+          "text": "on the hillside in small pairs"
+        },
+        {
+          "id": "c",
+          "text": "in the streets in long lines"
+        },
+        {
+          "id": "d",
+          "text": "with one accord in one place"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:1",
+            "text": "When the Day of Pentecost had fully come, they were all with one accord in one place.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 2:16",
+            "text": "But this is what was spoken by the prophet Joel:",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:1.",
+          "child": "Look at the last words of verse 1.",
+          "teen": "2:16 points to Joel; 2:1 ends with how they were gathered. Read the end.",
+          "older": "It follows “they were all” in 2:1."
+        },
+        "extended_explanation": "2:1 begins, “When the Day of Pentecost had fully come.” 2:16 points back to what Joel had spoken.",
+        "takeaway": "They were all with one accord in one place."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rom-0015",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 8:25 speaks of hoping for what we do not see. In 8:24, after “For we were saved in this hope,” what does Paul say hope that is seen is not?",
+        "child": "Paul writes about the hope in which believers were saved. What does he say hope is not, if it is already seen?",
+        "teen": "Romans 8:24: “For we were saved in this hope, but” what?",
+        "older": "Read with 8:25, what does 8:24 say hope that is seen is not?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "hope that is seen is not hope"
+        },
+        {
+          "id": "b",
+          "text": "hope that is seen is not peace"
+        },
+        {
+          "id": "c",
+          "text": "hope that is seen is not sure"
+        },
+        {
+          "id": "d",
+          "text": "hope that is seen is not proof"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:24",
+            "text": "For we were saved in this hope, but hope that is seen is not hope; for why does one still hope for what he sees?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 8:25",
+            "text": "But if we hope for what we do not see, we eagerly wait for it with perseverance.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 8:24.",
+          "child": "Look right after “is not” in verse 24.",
+          "teen": "8:25 speaks of waiting; 8:24 defines hope that is seen. Read that word.",
+          "older": "It follows “is not” in 8:24."
+        },
+        "extended_explanation": "8:24 also asks, “for why does one still hope for what he sees?” 8:25 says, “we eagerly wait for it with perseverance.”",
+        "takeaway": "Hope that is seen is not hope."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jhn-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "John",
+      "section": "John 14",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "John 14:16 promises that the Father will give the Helper. In 16:14, after “He will glorify Me,” what will He take and declare to them?",
+        "child": "Jesus said the coming Helper would glorify Him. What did He say the Helper would take and then declare to the disciples?",
+        "teen": "John 16:14: “for He will take of” what “and declare it to you”?",
+        "older": "Read with 14:16, what does 16:14 say He will take of?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "what is lost"
+        },
+        {
+          "id": "b",
+          "text": "what is Mine"
+        },
+        {
+          "id": "c",
+          "text": "what is written"
+        },
+        {
+          "id": "d",
+          "text": "what is spoken"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "John 14:16",
+            "text": "And I will pray the Father, and He will give you another Helper, that He may abide with you forever—",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "John 16:14",
+            "text": "He will glorify Me, for He will take of what is Mine and declare it to you.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 16:14.",
+          "child": "Look right after “take of” in verse 14.",
+          "teen": "14:16 is the promise of the Helper; 16:14 names what He will take. Read that phrase.",
+          "older": "It follows “He will take of” in 16:14."
+        },
+        "extended_explanation": "16:14 begins, “He will glorify Me.” 14:16 says He may abide with them forever.",
+        "takeaway": "He will take of what is Mine and declare it to you."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 2:32 says, “This Jesus God has raised up, of which we are all witnesses.” In 2:7, as they marveled, what did they ask about the speakers, “Look, are not all these who speak” whom?",
+        "child": "The crowd was amazed at the speakers on that day. What did they say the speakers were?",
+        "teen": "Acts 2:7: “are not all these who speak” what?",
+        "older": "Read with 2:32, what does 2:7 say the speakers are?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judeans"
+        },
+        {
+          "id": "b",
+          "text": "Levites"
+        },
+        {
+          "id": "c",
+          "text": "Galileans"
+        },
+        {
+          "id": "d",
+          "text": "Nazarenes"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:7",
+            "text": "Then they were all amazed and marveled, saying to one another, “Look, are not all these who speak Galileans?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 2:32",
+            "text": "This Jesus God has raised up, of which we are all witnesses.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:7.",
+          "child": "Look at the last word of the question in verse 7.",
+          "teen": "2:32 is the witness statement; 2:7 names what the speakers are. Read that name.",
+          "older": "It follows “who speak” in 2:7."
+        },
+        "extended_explanation": "2:7 says they were all amazed and marveled. 2:32 says, “This Jesus God has raised up, of which we are all witnesses.”",
+        "takeaway": "They asked, “are not all these who speak Galileans?”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-act-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Acts",
+      "section": "Acts 2",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Acts 2:47 says they had favor with all the people. In 2:24, whom God raised up, what does Peter say He loosed, because it was not possible that He should be held by it?",
+        "child": "Peter preached that God raised Jesus. What did Peter say God had loosed?",
+        "teen": "Acts 2:24: “having loosed” what, “because it was not possible that He should be held by it”?",
+        "older": "Read with 2:47, what does 2:24 say God loosed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the bronze bars"
+        },
+        {
+          "id": "b",
+          "text": "the cords of the grave"
+        },
+        {
+          "id": "c",
+          "text": "the fear of the night"
+        },
+        {
+          "id": "d",
+          "text": "the pains of death"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Acts 2:24",
+            "text": "whom God raised up, having loosed the pains of death, because it was not possible that He should be held by it.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Acts 2:47",
+            "text": "praising God and having favor with all the people. And the Lord added to the church daily those who were being saved.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:24.",
+          "child": "Look right after “having loosed” in verse 24.",
+          "teen": "2:47 describes the people’s favor; 2:24 names what God loosed. Read that phrase.",
+          "older": "It follows “having loosed” in 2:24."
+        },
+        "extended_explanation": "2:24 also says it was not possible that He should be held by it. 2:47 says the Lord added to the church daily.",
+        "takeaway": "God raised Him, having loosed the pains of death."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-rom-0016",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Romans",
+      "section": "Romans 8",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Romans 8:20 says the creation was subjected to futility. In 8:8, what does Paul say those who are in the flesh cannot do?",
+        "child": "Paul writes about people who live only by the flesh. What does he say they cannot do?",
+        "teen": "Romans 8:8: “those who are in the flesh cannot” do what?",
+        "older": "Read with 8:20, what does 8:8 say those who are in the flesh cannot do?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "those who are in the flesh cannot please God"
+        },
+        {
+          "id": "b",
+          "text": "those who are in the flesh cannot feast"
+        },
+        {
+          "id": "c",
+          "text": "those who are in the flesh cannot build a tower"
+        },
+        {
+          "id": "d",
+          "text": "those who are in the flesh cannot know the law"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Romans 8:8",
+            "text": "So then, those who are in the flesh cannot please God.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Romans 8:20",
+            "text": "For the creation was subjected to futility, not willingly, but because of Him who subjected it in hope;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:8.",
+          "child": "Look at the last words of verse 8.",
+          "teen": "8:20 speaks of creation; 8:8 ends with what they cannot do. Read the end.",
+          "older": "It follows “cannot” in 8:8."
+        },
+        "extended_explanation": "8:8 begins, “So then, those who are in the flesh.” 8:20 says the creation was subjected to futility in hope.",
+        "takeaway": "Those who are in the flesh cannot please God."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-gal-0003",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Galatians",
+      "section": "Galatians 5",
+      "topics": [
+        "the-holy-spirit-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Galatians 5:26 warns, “Let us not become conceited.” In 5:17, Paul speaks of these two. How does he say these are to one another?",
+        "child": "Paul writes about these two. How does he describe the two?",
+        "teen": "Galatians 5:17: “and these are” what, “so that you do not do the things that you wish”?",
+        "older": "Read with 5:26, how does 5:17 say these are?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "kindred to one another"
+        },
+        {
+          "id": "b",
+          "text": "contrary to one another"
+        },
+        {
+          "id": "c",
+          "text": "faithful to one another"
+        },
+        {
+          "id": "d",
+          "text": "equal with one another"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Galatians 5:17",
+            "text": "For the flesh lusts against the Spirit, and the Spirit against the flesh; and these are contrary to one another, so that you do not do the things that you wish.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Galatians 5:26",
+            "text": "Let us not become conceited, provoking one another, envying one another.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 5:17.",
+          "child": "Look right after “and these are” in verse 17.",
+          "teen": "5:26 is a warning about conceit; 5:17 names how the two stand. Read that phrase.",
+          "older": "It follows “and these are” in 5:17."
+        },
+        "extended_explanation": "5:17 also says, “so that you do not do the things that you wish.” 5:26 also says, “provoking one another, envying one another.”",
+        "takeaway": "These are contrary to one another."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

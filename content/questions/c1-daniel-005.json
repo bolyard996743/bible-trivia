@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-daniel-005",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-mrk-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "NT",
+      "book": "Mark",
+      "section": "Mark 1",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "After John was held under guard, Jesus came to Galilee preaching. According to Mark 1:15, what does He say first, before He calls people to repent?",
+        "child": "Jesus began to speak in Galilee. What did He say first, right at the start of His message?",
+        "teen": "Mark 1:15: Jesus is “saying,” what first, before He speaks of God’s reign being at hand?",
+        "older": "According to Mark 1:15, what is the first clause Jesus speaks, after “saying,”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The time is fulfilled"
+        },
+        {
+          "id": "b",
+          "text": "The law is completed"
+        },
+        {
+          "id": "c",
+          "text": "The feast is appointed"
+        },
+        {
+          "id": "d",
+          "text": "The vow is performed"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Mark 1:15",
+            "text": "and saying, “The time is fulfilled, and the kingdom of God is at hand. Repent, and believe in the gospel.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of the quotation in 1:15.",
+          "child": "Look at the first words Jesus says in verse 15.",
+          "teen": "1:15 gives two opening claims, then a call to repent. Read the first claim.",
+          "older": "It is the first clause after “saying,” in 1:15."
+        },
+        "extended_explanation": "1:15 also says, “Repent, and believe.” 1:14 says He came preaching in Galilee.",
+        "takeaway": "Jesus said, “The time is fulfilled.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-dan-0009",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Daniel 2:37 says the king has been given a kingdom, power, strength, and glory. In 2:31, after it is called a great image, how does Daniel describe its splendor?",
+        "child": "Nebuchadnezzar saw a great image standing before him. After Daniel calls it a great image, how does he describe its splendor?",
+        "teen": "Daniel 2:31: “This great image, whose splendor was” what?",
+        "older": "Read with 2:37, how does 2:31 say its splendor was?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "whose splendor was hidden"
+        },
+        {
+          "id": "b",
+          "text": "whose splendor was excellent"
+        },
+        {
+          "id": "c",
+          "text": "whose splendor was faded and dim"
+        },
+        {
+          "id": "d",
+          "text": "whose splendor was fleeting and small"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:31",
+            "text": "“You, O king, were watching; and behold, a great image! This great image, whose splendor was excellent, stood before you; and its form was awesome.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:37",
+            "text": "You, O king, are a king of kings. For the God of heaven has given you a kingdom, power, strength, and glory;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:31.",
+          "child": "Look after “This great image,” in verse 31.",
+          "teen": "2:37 names the gifts given the king; 2:31 describes the splendor. Read that phrase.",
+          "older": "It follows “This great image,” in 2:31."
+        },
+        "extended_explanation": "2:31 also says it stood before him, and its form was awesome. 2:37 says the king has been given a kingdom, power, strength, and glory.",
+        "takeaway": "Daniel says it was a great image, whose splendor was excellent."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-dan-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Daniel 2:36 says they will tell the interpretation before the king. In 2:42, because the toes were partly of iron and partly of clay, how does Daniel describe the kingdom?",
+        "child": "The image had toes of iron and clay mixed. How does Daniel say the kingdom would be, in two parts?",
+        "teen": "Daniel 2:42: “so the kingdom shall be” what?",
+        "older": "Read with 2:36, how does 2:42 say the kingdom shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "partly rich and partly poor in trade"
+        },
+        {
+          "id": "b",
+          "text": "partly near and partly far from home"
+        },
+        {
+          "id": "c",
+          "text": "partly strong and partly fragile"
+        },
+        {
+          "id": "d",
+          "text": "partly old and partly new"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:36",
+            "text": "“This is the dream. Now we will tell the interpretation of it before the king.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:42",
+            "text": "And as the toes of the feet were partly of iron and partly of clay, so the kingdom shall be partly strong and partly fragile.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:42.",
+          "child": "Look at the last words of verse 42.",
+          "teen": "2:36 introduces the interpretation; 2:42 states how the kingdom shall be. Read the end.",
+          "older": "It follows “so the kingdom shall be” in 2:42."
+        },
+        "extended_explanation": "2:42 also mentions the toes of the feet. 2:36 says they will tell the interpretation before the king.",
+        "takeaway": "The kingdom shall be partly strong and partly fragile."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0014",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 145",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 145:4 says one generation shall praise His works to another. In 145:3, after “Great is the LORD,” how does the psalm say He is to be treated?",
+        "child": "A psalm of praise opens by calling the LORD great. How does the next phrase say He is to be treated?",
+        "teen": "Psalm 145:3: “Great is the LORD, and” what?",
+        "older": "Read with 145:4, what does 145:3 say, after “Great is the LORD, and”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "freely to be praised"
+        },
+        {
+          "id": "b",
+          "text": "humbly to be praised"
+        },
+        {
+          "id": "c",
+          "text": "quietly to be praised"
+        },
+        {
+          "id": "d",
+          "text": "greatly to be praised"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 145:3",
+            "text": "Great is the LORD, and greatly to be praised; And His greatness is unsearchable.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 145:4",
+            "text": "One generation shall praise Your works to another, And shall declare Your mighty acts.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 145:3.",
+          "child": "Look after “Great is the LORD, and” in verse 3.",
+          "teen": "145:4 speaks of His works; 145:3 continues after “Great is the LORD, and.” Read that phrase.",
+          "older": "It follows “Great is the LORD, and” in 145:3."
+        },
+        "extended_explanation": "145:3 also says, “And His greatness is unsearchable.” 145:4 says they shall declare His mighty acts.",
+        "takeaway": "He is greatly to be praised."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mat-0012",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 13",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Matthew 13:10 says the disciples asked why He spoke in parables. In 13:2, because great multitudes were gathered to Him, what did He do, so that He sat, and the multitude stood on the shore?",
+        "child": "A great crowd came to hear Jesus by the water. What did He do so that He could sit and teach while they stood on the shore?",
+        "teen": "Matthew 13:2: “so that He” did what, “and sat; and the whole multitude stood on the shore”?",
+        "older": "Read with 13:10, what does 13:2 say He did so that He sat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "got into a boat"
+        },
+        {
+          "id": "b",
+          "text": "walked up a hill"
+        },
+        {
+          "id": "c",
+          "text": "stood in the gate"
+        },
+        {
+          "id": "d",
+          "text": "sat in the gate"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 13:2",
+            "text": "And great multitudes were gathered together to Him, so that He got into a boat and sat; and the whole multitude stood on the shore.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Matthew 13:10",
+            "text": "And the disciples came and said to Him, “Why do You speak to them in parables?”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 13:2.",
+          "child": "Look right after “so that He” in verse 2.",
+          "teen": "13:10 records the disciples’ question; 13:2 names what He did before He sat. Read that action.",
+          "older": "It follows “so that He” in 13:2."
+        },
+        "extended_explanation": "13:2 also says the whole multitude stood on the shore. 13:10 says the disciples came and said to Him, “Why do You speak to them in parables?”",
+        "takeaway": "He got into a boat and sat."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-dan-0008",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 145:1 says, “I will extol You, my God, O King.” In Daniel 2:45, after the metals are broken in pieces, how does Daniel describe the dream itself, before “and its interpretation is sure”?",
+        "child": "Daniel finished telling the king what the image meant. How did he describe the dream, just before he spoke of its interpretation?",
+        "teen": "Daniel 2:45: “The dream is” what, “and its interpretation is sure”?",
+        "older": "Read with Psalm 145:1, how does Daniel 2:45 say the dream is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The dream is secret"
+        },
+        {
+          "id": "b",
+          "text": "The dream is certain"
+        },
+        {
+          "id": "c",
+          "text": "The dream is delayed"
+        },
+        {
+          "id": "d",
+          "text": "The dream is double"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:45",
+            "text": "Inasmuch as you saw that the stone was cut out of the mountain without hands, and that it broke in pieces the iron, the bronze, the clay, the silver, and the gold—the great God has made known to the king what will come to pass after this. The dream is certain, and its interpretation is sure.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 145:1",
+            "text": "I will extol You, my God, O King; And I will bless Your name forever and ever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:45.",
+          "child": "Look right after “The dream is” in verse 45.",
+          "teen": "Psalm 145:1 is praise to the King; 2:45 closes with two claims. Read the first.",
+          "older": "It follows “The dream is” in 2:45."
+        },
+        "extended_explanation": "2:45 also says the great God has made known what will follow. 145:1 says, “I will bless Your name forever and ever.”",
+        "takeaway": "Daniel says, “The dream is certain.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-dan-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Daniel",
+      "section": "Daniel 2",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Mark 1:14 says Jesus came to Galilee after John was held under guard. In Daniel 2:38, after God gives the beasts and birds to the king’s hand, what does Daniel tell him he is?",
+        "child": "Daniel told the king that God had given him rule over people and beasts. What did Daniel say the king himself was, in the image?",
+        "teen": "Daniel 2:38: “you are this” what?",
+        "older": "Read with Mark 1:14, what does Daniel 2:38 say the king is?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "chest of silver"
+        },
+        {
+          "id": "b",
+          "text": "belly of bronze"
+        },
+        {
+          "id": "c",
+          "text": "head of gold"
+        },
+        {
+          "id": "d",
+          "text": "legs of iron"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Daniel 2:38",
+            "text": "and wherever the children of men dwell, or the beasts of the field and the birds of the heaven, He has given them into your hand, and has made you ruler over them all—you are this head of gold.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Mark 1:14",
+            "text": "Now after John was put in prison, Jesus came to Galilee, preaching the gospel of the kingdom of God,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 2:38.",
+          "child": "Look at the last words of verse 38.",
+          "teen": "Mark 1:14 is Jesus coming to Galilee; 2:38 ends with what the king is. Read the end.",
+          "older": "It follows “you are this” in 2:38."
+        },
+        "extended_explanation": "2:38 also says He has made the king ruler over them all. 1:14 says Jesus came preaching in Galilee.",
+        "takeaway": "Daniel says, “you are this head of gold.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mat-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 13",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Daniel 2:40 says the fourth kingdom will break in pieces and crush all the others. In Matthew 13:47, what does Jesus say the kingdom of heaven is like?",
+        "child": "Jesus told a story about the sea. What did He say the kingdom of heaven is like?",
+        "teen": "Matthew 13:47: “Again, the kingdom of heaven is like” what?",
+        "older": "Read with Daniel 2:40, what does Matthew 13:47 say the kingdom of heaven is like?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a fish basket"
+        },
+        {
+          "id": "b",
+          "text": "a fish hook"
+        },
+        {
+          "id": "c",
+          "text": "an anchor"
+        },
+        {
+          "id": "d",
+          "text": "a dragnet"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 13:47",
+            "text": "“Again, the kingdom of heaven is like a dragnet that was cast into the sea and gathered some of every kind,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:40",
+            "text": "And the fourth kingdom shall be as strong as iron, inasmuch as iron breaks in pieces and shatters everything; and like iron that crushes, that kingdom will break in pieces and crush all the others.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 13:47.",
+          "child": "Look right after “is like” in verse 47.",
+          "teen": "2:40 describes the fourth kingdom; 13:47 names the comparison. Read that word.",
+          "older": "It follows “is like” in 13:47."
+        },
+        "extended_explanation": "13:47 also says it gathered some of every kind. 2:40 says the fourth kingdom shall be as strong as iron.",
+        "takeaway": "The kingdom of heaven is like a dragnet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-psa-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Psalms",
+      "section": "Psalm 145",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Daniel 2:39 speaks of another kingdom inferior to the first. In Psalm 145:13, after “Your kingdom is an everlasting kingdom,” how long does the psalm say His dominion endures?",
+        "child": "A psalm praises God’s rule. After it calls His kingdom everlasting, how long does it say His dominion lasts?",
+        "teen": "Psalm 145:13: “And Your dominion endures” for how long?",
+        "older": "Read with Daniel 2:39, how long does Psalm 145:13 say His dominion endures?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "throughout all generations"
+        },
+        {
+          "id": "b",
+          "text": "until the end of days"
+        },
+        {
+          "id": "c",
+          "text": "from the rise of the dawn"
+        },
+        {
+          "id": "d",
+          "text": "through the coming years only"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Psalm 145:13",
+            "text": "Your kingdom is an everlasting kingdom, And Your dominion endures throughout all generations.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Daniel 2:39",
+            "text": "But after you shall arise another kingdom inferior to yours; then another, a third kingdom of bronze, which shall rule over all the earth.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 145:13.",
+          "child": "Look at the last words of verse 13.",
+          "teen": "2:39 speaks of kingdoms after the first; 145:13 ends with how long the dominion endures. Read the end.",
+          "older": "It follows “endures” in 145:13."
+        },
+        "extended_explanation": "145:13 first says, “Your kingdom is an everlasting kingdom.” 2:39 says another kingdom shall arise, inferior to yours.",
+        "takeaway": "His dominion endures throughout all generations."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mat-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "NT",
+      "book": "Matthew",
+      "section": "Matthew 13",
+      "topics": [
+        "the-kingdom-of-god-across-scripture"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Psalm 145:21 says, “My mouth shall speak the praise of the LORD.” In Matthew 13:34, after Jesus spoke all these things to the multitude, how did He not speak to them?",
+        "child": "Matthew tells how Jesus taught the crowds that day. How did He not speak to them?",
+        "teen": "Matthew 13:34: “and” what “He did not speak to them”?",
+        "older": "Read with Psalm 145:21, after Jesus spoke all these things to the multitude, how did He not speak to them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "without a proverb"
+        },
+        {
+          "id": "b",
+          "text": "without a parable"
+        },
+        {
+          "id": "c",
+          "text": "without a riddle"
+        },
+        {
+          "id": "d",
+          "text": "without a psalm"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Matthew 13:34",
+            "text": "All these things Jesus spoke to the multitude in parables; and without a parable He did not speak to them,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Psalm 145:21",
+            "text": "My mouth shall speak the praise of the LORD, And all flesh shall bless His holy name Forever and ever.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 13:34.",
+          "child": "Look at the last clause of verse 34.",
+          "teen": "145:21 is praise from the mouth; 13:34 ends with how He did not speak. Read the last clause.",
+          "older": "It is the last clause of 13:34."
+        },
+        "extended_explanation": "13:34 first says He spoke all these things to the multitude. 145:21 also says all flesh shall bless His holy name.",
+        "takeaway": "Without a parable He did not speak to them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

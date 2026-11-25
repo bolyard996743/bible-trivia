@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-joel-002",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-zep-0011",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 1:15 piles up names for that day. After “A day of darkness and,” what does the verse name next?",
+        "child": "The prophet lists what that day will be like. After “A day of darkness and,” what does 1:15 name?",
+        "teen": "Zephaniah 1:15: “A day of darkness and” what?",
+        "older": "According to Zephaniah 1:15, after “A day of darkness and,” what is named?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "darkness and gloominess"
+        },
+        {
+          "id": "b",
+          "text": "darkness and emptiness"
+        },
+        {
+          "id": "c",
+          "text": "darkness and heaviness"
+        },
+        {
+          "id": "d",
+          "text": "darkness and loneliness"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:15",
+            "text": "That day is a day of wrath, A day of trouble and distress, A day of devastation and desolation, A day of darkness and gloominess, A day of clouds and thick darkness,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 1:15.",
+          "child": "Look right after “A day of darkness and” in verse 15.",
+          "teen": "1:15 names this next, after darkness. Read that phrase.",
+          "older": "It follows “A day of darkness and” in 1:15."
+        },
+        "extended_explanation": "1:15 also says, “A day of clouds and thick darkness.”",
+        "takeaway": "That day is a day of darkness and gloominess."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-jol-0007",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 2",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 2:11 says, “For strong is the One who executes His word.” In 2:5, how does the verse first describe the host’s noise?",
+        "child": "Joel describes the coming host by its sound. How does 2:5 first describe that noise?",
+        "teen": "Joel 2:5: how does the verse first describe the noise?",
+        "older": "Read with 2:11, how does 2:5 first describe the host’s noise?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "With a noise like trumpets"
+        },
+        {
+          "id": "b",
+          "text": "With a noise like chariots"
+        },
+        {
+          "id": "c",
+          "text": "With a noise like thunders"
+        },
+        {
+          "id": "d",
+          "text": "With a noise like cymbals"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 2:5",
+            "text": "With a noise like chariots Over mountaintops they leap, Like the noise of a flaming fire that devours the stubble, Like a strong people set in battle array.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 2:11",
+            "text": "The LORD gives voice before His army, For His camp is very great; For strong is the One who executes His word. For the day of the LORD is great and very terrible; Who can endure it?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 2:5.",
+          "child": "Look at the opening of verse 5.",
+          "teen": "2:11 says the One who executes His word is strong; 2:5 opens with this sound. Read that phrase.",
+          "older": "It is the opening of 2:5."
+        },
+        "extended_explanation": "2:5 also says, “Over mountaintops they leap.” 2:11 says, “The LORD gives voice before His army.”",
+        "takeaway": "With a noise like chariots."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-amo-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 5",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos 5:18 asks, “For what good is the day of the LORD to you?” In 5:19, after “It will be as though a man fled from a lion, And,” what happens next?",
+        "child": "Amos pictures a man who escapes one danger only to meet another. After he flees from a lion, what does 5:19 say next?",
+        "teen": "Amos 5:19: “a man fled from a lion, And” what?",
+        "older": "Read with 5:18, what does 5:19 say happens after a man fled from a lion?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a wolf met him"
+        },
+        {
+          "id": "b",
+          "text": "a horse met him"
+        },
+        {
+          "id": "c",
+          "text": "a bear met him"
+        },
+        {
+          "id": "d",
+          "text": "a camel met him"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 5:19",
+            "text": "It will be as though a man fled from a lion, And a bear met him! Or as though he went into the house, Leaned his hand on the wall, And a serpent bit him!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 5:18",
+            "text": "Woe to you who desire the day of the LORD! For what good is the day of the LORD to you? It will be darkness, and not light.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 5:19.",
+          "child": "Look right after “fled from a lion, And” in verse 19.",
+          "teen": "5:18 asks what good that day is; 5:19 names what meets the man next. Read that phrase.",
+          "older": "It follows “fled from a lion, And” in 5:19."
+        },
+        "extended_explanation": "5:19 also says he “Leaned his hand on the wall, And a serpent bit him.” 5:18 says, “It will be darkness, and not light.”",
+        "takeaway": "A bear met him."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos 5:20 says, “Is it not very dark, with no brightness in it?” In Zephaniah 1:16, after “Against the fortified cities And,” what else is named?",
+        "child": "The prophet names what that alarm is against. After “Against the fortified cities And,” what does 1:16 name?",
+        "teen": "Zephaniah 1:16: “And against” what, after the fortified cities?",
+        "older": "Read with Amos 5:20, what does Zephaniah 1:16 name after “Against the fortified cities And”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "against the high houses"
+        },
+        {
+          "id": "b",
+          "text": "against the high altars"
+        },
+        {
+          "id": "c",
+          "text": "against the high gardens"
+        },
+        {
+          "id": "d",
+          "text": "against the high towers"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:16",
+            "text": "A day of trumpet and alarm Against the fortified cities And against the high towers.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 5:20",
+            "text": "Is not the day of the LORD darkness, and not light? Is it not very dark, with no brightness in it?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:16.",
+          "child": "Look right after “And against” in verse 16.",
+          "teen": "Amos 5:20 asks whether that day has brightness; 1:16 ends with this target. Read that phrase.",
+          "older": "It follows “And against” in 1:16."
+        },
+        "extended_explanation": "1:16 begins, “A day of trumpet and alarm Against the fortified cities.” Amos 5:20 also says, “Is it not very dark, with no brightness in it?”",
+        "takeaway": "Against the high towers."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jol-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 2",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 2:11 says, “For strong is the One who executes His word.” In 2:7, after “They climb the wall,” how does the verse say each one moves?",
+        "child": "Joel describes how the host advances. After they climb the wall, how does 2:7 say each one moves?",
+        "teen": "Joel 2:7: after they climb the wall, “Every one marches” how?",
+        "older": "Read with 2:11, how does 2:7 say every one marches?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every one marches in formation"
+        },
+        {
+          "id": "b",
+          "text": "Every one marches in secret"
+        },
+        {
+          "id": "c",
+          "text": "Every one marches in silence"
+        },
+        {
+          "id": "d",
+          "text": "Every one marches in confusion"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 2:7",
+            "text": "They run like mighty men, They climb the wall like men of war; Every one marches in formation, And they do not break ranks.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 2:11",
+            "text": "The LORD gives voice before His army, For His camp is very great; For strong is the One who executes His word. For the day of the LORD is great and very terrible; Who can endure it?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 2:7.",
+          "child": "Look at how each one marches in verse 7.",
+          "teen": "2:11 says the One who executes His word is strong; 2:7 names this order. Read that sentence.",
+          "older": "It is in the middle of 2:7."
+        },
+        "extended_explanation": "2:7 also says, “They run like mighty men.” 2:11 says, “The LORD gives voice before His army.”",
+        "takeaway": "Every one marches in formation."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-amo-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 5",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 2:11 says, “For strong is the One who executes His word.” In Amos 5:26, after “You also carried Sikkuth your king And,” what does the verse name next?",
+        "child": "Amos names what the people carried. After “Sikkuth your king And,” what does 5:26 name?",
+        "teen": "Amos 5:26: after “Sikkuth your king And,” what is named?",
+        "older": "Read with Joel 2:11, what does Amos 5:26 name after “Sikkuth your king And”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chiun, your posts"
+        },
+        {
+          "id": "b",
+          "text": "Chiun, your idols"
+        },
+        {
+          "id": "c",
+          "text": "Chiun, your vessels"
+        },
+        {
+          "id": "d",
+          "text": "Chiun, your banners"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 5:26",
+            "text": "You also carried Sikkuth your king And Chiun, your idols, The star of your gods, Which you made for yourselves.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 2:11",
+            "text": "The LORD gives voice before His army, For His camp is very great; For strong is the One who executes His word. For the day of the LORD is great and very terrible; Who can endure it?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 5:26.",
+          "child": "Look right after “And” in verse 26.",
+          "teen": "Joel 2:11 says the One who executes His word is strong; 5:26 next names this. Read that phrase.",
+          "older": "It follows “And” in 5:26."
+        },
+        "extended_explanation": "5:26 also names what they made for themselves. Joel 2:11 also says, “The LORD gives voice before His army.”",
+        "takeaway": "Chiun, your idols."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-jol-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Joel",
+      "section": "Joel 2",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Amos 5:20 says, “Is it not very dark, with no brightness in it?” In Joel 2:21, before “Be glad and rejoice,” what does the verse first say?",
+        "child": "Joel speaks after the northern army is described. What does 2:21 first say?",
+        "teen": "Joel 2:21: what does the verse first say?",
+        "older": "Read with Amos 5:20, what does Joel 2:21 first say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Fear not, O moor"
+        },
+        {
+          "id": "b",
+          "text": "Fear not, O field"
+        },
+        {
+          "id": "c",
+          "text": "Fear not, O land"
+        },
+        {
+          "id": "d",
+          "text": "Fear not, O grove"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Joel 2:21",
+            "text": "Fear not, O land; Be glad and rejoice, For the LORD has done marvelous things!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Amos 5:20",
+            "text": "Is not the day of the LORD darkness, and not light? Is it not very dark, with no brightness in it?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 2:21.",
+          "child": "Look at the opening of verse 21.",
+          "teen": "Amos 5:20 asks whether that day has brightness; 2:21 opens with this call. Read that phrase.",
+          "older": "It is the opening of 2:21."
+        },
+        "extended_explanation": "2:21 also says, “Be glad and rejoice, For the LORD has done marvelous things!” Amos 5:20 also says, “Is it not very dark, with no brightness in it?”",
+        "takeaway": "Fear not, O land."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-zep-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Zephaniah",
+      "section": "Zephaniah 1",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Zephaniah 1:14 says, “The great day of the LORD is near.” In 1:17, after “Their blood shall be poured out like dust, And,” how does the verse describe their flesh?",
+        "child": "The prophet describes what will happen to men on that day. After “And,” at the end of 1:17, how is their flesh described?",
+        "teen": "Zephaniah 1:17: “And their flesh like” what?",
+        "older": "Read with 1:14, what does 1:17 say after “And their flesh like”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their flesh like stubble"
+        },
+        {
+          "id": "b",
+          "text": "Their flesh like ashes"
+        },
+        {
+          "id": "c",
+          "text": "Their flesh like cinders"
+        },
+        {
+          "id": "d",
+          "text": "Their flesh like refuse"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Zephaniah 1:17",
+            "text": "“I will bring distress upon men, And they shall walk like blind men, Because they have sinned against the LORD; Their blood shall be poured out like dust, And their flesh like refuse.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Zephaniah 1:14",
+            "text": "The great day of the LORD is near; It is near and hastens quickly. The noise of the day of the LORD is bitter; There the mighty men shall cry out.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 1:17.",
+          "child": "Look at the last comparison in verse 17.",
+          "teen": "1:14 says that day is near; 1:17 ends with this comparison. Read that phrase.",
+          "older": "It is the last comparison of 1:17."
+        },
+        "extended_explanation": "1:17 also says, “I will bring distress upon men, And they shall walk like blind men.” 1:14 says, “It is near and hastens quickly.”",
+        "takeaway": "Their flesh like refuse."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-mal-0005",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Malachi",
+      "section": "Malachi 4",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 2:26 says, “You shall eat in plenty and be satisfied.” In Malachi 4:3, after “You shall trample the wicked, For they shall be,” what does the verse say they shall be?",
+        "child": "Malachi speaks of what will become of the wicked. After “For they shall be,” what does 4:3 say?",
+        "teen": "Malachi 4:3: “For they shall be” what?",
+        "older": "Read with Joel 2:26, what does Malachi 4:3 say the wicked shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "ashes under the soles of your feet"
+        },
+        {
+          "id": "b",
+          "text": "dust under the walls of your house"
+        },
+        {
+          "id": "c",
+          "text": "sand under the stones of your path"
+        },
+        {
+          "id": "d",
+          "text": "smoke under the beams of your roof"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Malachi 4:3",
+            "text": "You shall trample the wicked, For they shall be ashes under the soles of your feet On the day that I do this,” Says the LORD of hosts.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 2:26",
+            "text": "You shall eat in plenty and be satisfied, And praise the name of the LORD your God, Who has dealt wondrously with you; And My people shall never be put to shame.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 4:3.",
+          "child": "Look right after “For they shall be” in verse 3.",
+          "teen": "Joel 2:26 speaks of eating in plenty; 4:3 names what the wicked shall be. Read that phrase.",
+          "older": "It follows “For they shall be” in 4:3."
+        },
+        "extended_explanation": "4:3 begins, “You shall trample the wicked.” Joel 2:26 also says, “And praise the name of the LORD your God.”",
+        "takeaway": "They shall be ashes under the soles of your feet."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-amo-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Amos",
+      "section": "Amos 5",
+      "topics": [
+        "the-day-of-the-lord"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Joel 2:11 says, “For strong is the One who executes His word.” In Amos 5:27, after “Therefore I will send you into captivity,” where does the verse say they will be sent?",
+        "child": "The LORD announces a captivity. After “I will send you into captivity,” where does Amos 5:27 say they will be sent?",
+        "teen": "Amos 5:27: “I will send you into captivity” where?",
+        "older": "Read with Joel 2:11, where does Amos 5:27 say they will be sent into captivity?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "beyond Beersheba"
+        },
+        {
+          "id": "b",
+          "text": "beyond Damascus"
+        },
+        {
+          "id": "c",
+          "text": "beyond Jericho"
+        },
+        {
+          "id": "d",
+          "text": "beyond Shechem"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Amos 5:27",
+            "text": "Therefore I will send you into captivity beyond Damascus,” Says the LORD, whose name is the God of hosts.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Joel 2:11",
+            "text": "The LORD gives voice before His army, For His camp is very great; For strong is the One who executes His word. For the day of the LORD is great and very terrible; Who can endure it?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 5:27.",
+          "child": "Look right after “into captivity” in verse 27.",
+          "teen": "Joel 2:11 says the One who executes His word is strong; 5:27 names this place. Read that phrase.",
+          "older": "It follows “into captivity” in 5:27."
+        },
+        "extended_explanation": "5:27 also says, “Says the LORD, whose name is the God of hosts.” Joel 2:11 also says, “The LORD gives voice before His army.”",
+        "takeaway": "Beyond Damascus."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

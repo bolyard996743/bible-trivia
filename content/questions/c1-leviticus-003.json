@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-leviticus-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-lev-0010",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 6",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 6:13 gives a rule about the altar. After “A fire shall,” how does the verse first say it shall be?",
+        "child": "A rule is given about the altar. After “A fire shall,” how does 6:13 first say it shall be?",
+        "teen": "Leviticus 6:13: after “A fire shall,” how does it first say it shall be?",
+        "older": "According to Leviticus 6:13, after “A fire shall,” how does the verse first say it shall be?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "always be burning on the altar"
+        },
+        {
+          "id": "b",
+          "text": "always be shining on the altar"
+        },
+        {
+          "id": "c",
+          "text": "always be standing on the altar"
+        },
+        {
+          "id": "d",
+          "text": "always be resting on the altar"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 6:13",
+            "text": "A fire shall always be burning on the altar; it shall never go out.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 6:13.",
+          "child": "Look just after “A fire shall” in verse 13.",
+          "teen": "6:13 opens with this rule. Read that phrase.",
+          "older": "It follows “A fire shall” in 6:13."
+        },
+        "extended_explanation": "6:13 also closes with a second clause about that fire.",
+        "takeaway": "always be burning on the altar."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-lev-0011",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 8",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 8:8 tells what Moses put in the breastplate. After “and he put,” what does the verse say he put in the breastplate?",
+        "child": "Moses placed something in the breastplate. After “and he put,” what does 8:8 say he put there?",
+        "teen": "Leviticus 8:8: after “and he put,” what was put in the breastplate?",
+        "older": "According to Leviticus 8:8, after “and he put,” what does the verse say he put in the breastplate?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the ephod and the woven sash"
+        },
+        {
+          "id": "b",
+          "text": "the Urim and the Thummim"
+        },
+        {
+          "id": "c",
+          "text": "the tunic and the robe"
+        },
+        {
+          "id": "d",
+          "text": "the crown and the plate"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 8:8",
+            "text": "Then he put the breastplate on him, and he put the Urim and the Thummim in the breastplate.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 7:31",
+            "text": "And the priest shall burn the fat on the altar, but the breast shall be Aaron’s and his sons’.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 8:8.",
+          "child": "Look just after “and he put” in verse 8.",
+          "teen": "8:8 ends with what was placed there. Read that phrase.",
+          "older": "It follows “and he put” in 8:8."
+        },
+        "extended_explanation": "8:8 begins, “Then he put the breastplate on him.”",
+        "takeaway": "He put the Urim and the Thummim in the breastplate."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 3",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 3:17 gives a lasting food rule. After “you shall eat neither,” what does the verse forbid? Leviticus 8:9 tells what Moses put on the turban.",
+        "child": "A perpetual statute names two things not to eat. After “you shall eat neither,” what does 3:17 forbid?",
+        "teen": "Leviticus 3:17: after “you shall eat neither,” what is forbidden?",
+        "older": "Read with 8:9. According to Leviticus 3:17, after “you shall eat neither,” what does the verse forbid?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "grain nor wine"
+        },
+        {
+          "id": "b",
+          "text": "wine nor oil"
+        },
+        {
+          "id": "c",
+          "text": "fat nor blood"
+        },
+        {
+          "id": "d",
+          "text": "milk nor honey"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 3:17",
+            "text": "‘This shall be a perpetual statute throughout your generations in all your dwellings: you shall eat neither fat nor blood.’ ”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 8:9",
+            "text": "And he put the turban on his head. Also on the turban, on its front, he put the golden plate, the holy crown, as the LORD had commanded Moses.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 3:17. 8:9 names what was put on the turban.",
+          "child": "Look just after “you shall eat neither” in verse 17.",
+          "teen": "3:17 names two things not to eat. Read that phrase.",
+          "older": "It follows “you shall eat neither” in 3:17."
+        },
+        "extended_explanation": "3:17 also calls this “a perpetual statute throughout your generations in all your dwellings.” 8:9 says Moses put “the golden plate, the holy crown,” on the turban.",
+        "takeaway": "fat nor blood."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0009",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 6",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 6:11 tells what the priest does with the ashes. After “and carry the ashes outside the camp,” where does the verse say to take them? Leviticus 10:5 tells how Nadab and Abihu were carried out.",
+        "child": "The ashes are taken outside the camp. After “and carry the ashes outside the camp,” where does 6:11 say to take them?",
+        "teen": "Leviticus 6:11: after “and carry the ashes outside the camp,” where?",
+        "older": "Read with 10:5. According to Leviticus 6:11, after “and carry the ashes outside the camp,” where does the verse say to take them?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "to a hidden place"
+        },
+        {
+          "id": "b",
+          "text": "to a lower place"
+        },
+        {
+          "id": "c",
+          "text": "to a higher place"
+        },
+        {
+          "id": "d",
+          "text": "to a clean place"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 6:11",
+            "text": "Then he shall take off his garments, put on other garments, and carry the ashes outside the camp to a clean place.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 10:5",
+            "text": "So they went near and carried them by their tunics out of the camp, as Moses had said.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the close of 6:11. 10:5 says they were carried by their tunics.",
+          "child": "Look just after “outside the camp” in verse 11.",
+          "teen": "6:11 ends with this destination. Read that phrase.",
+          "older": "It follows “and carry the ashes outside the camp” in 6:11."
+        },
+        "extended_explanation": "6:11 also says the priest shall “take off his garments, put on other garments.” 10:5 says, “So they went near and carried them by their tunics out of the camp, as Moses had said.”",
+        "takeaway": "to a clean place."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0010",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 10",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 10:1 tells what Nadab and Abihu brought. After naming what they brought, how does the verse close?",
+        "child": "Two sons of Aaron brought something before the LORD. After naming what they brought, how does 10:1 close?",
+        "teen": "Leviticus 10:1: after what they brought, how does the verse close?",
+        "older": "According to Leviticus 10:1, how does the verse close after naming what they brought?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "which He had not commanded them"
+        },
+        {
+          "id": "b",
+          "text": "which He had not shown to them"
+        },
+        {
+          "id": "c",
+          "text": "which He had not written for them"
+        },
+        {
+          "id": "d",
+          "text": "which He had not repeated to them"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 10:1",
+            "text": "Then Nadab and Abihu, the sons of Aaron, each took his censer and put fire in it, put incense on it, and offered profane fire before the LORD, which He had not commanded them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 1:1",
+            "text": "Now the LORD called to Moses, and spoke to him from the tabernacle of meeting, saying,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:1.",
+          "child": "Look at the last clause of verse 1.",
+          "teen": "10:1 ends with this clause. Read that phrase.",
+          "older": "It is the last clause of 10:1."
+        },
+        "extended_explanation": "10:1 also says they brought “profane fire before the LORD.”",
+        "takeaway": "which He had not commanded them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 10",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 4:7 describes what the priest does next in that rite. In 10:16, after Moses made careful inquiry, what does the verse say he inquired about?",
+        "child": "Moses made careful inquiry. After “made careful inquiry about,” what does 10:16 name?",
+        "teen": "Leviticus 10:16: after “made careful inquiry about,” what is named?",
+        "older": "Read with 4:7, what does 10:16 say Moses inquired about?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the ram of the offering"
+        },
+        {
+          "id": "b",
+          "text": "the goat of the sin offering"
+        },
+        {
+          "id": "c",
+          "text": "the bull of the peace offering"
+        },
+        {
+          "id": "d",
+          "text": "the lamb of the guilt offering"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 10:16",
+            "text": "Then Moses made careful inquiry about the goat of the sin offering, and there it was—burned up. And he was angry with Eleazar and Ithamar, the sons of Aaron who were left, saying,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 4:7",
+            "text": "And the priest shall put some of the blood on the horns of the altar of sweet incense before the LORD, which is in the tabernacle of meeting; and he shall pour the remaining blood of the bull at the base of the altar of the burnt offering, which is at the door of the tabernacle of meeting.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 10:16.",
+          "child": "Look just after “made careful inquiry about” in verse 16.",
+          "teen": "4:7 continues that rite; 10:16 names this. Read that phrase.",
+          "older": "It follows “made careful inquiry about” in 10:16."
+        },
+        "extended_explanation": "10:16 also says, “and there it was—burned up.” 4:7 says he shall pour what remains “at the base” of that place.",
+        "takeaway": "the goat of the sin offering."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 10",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 6:9 says it shall remain on the hearth all night until morning. In 10:3, after “By those who come near Me,” what does the LORD say must be true?",
+        "child": "The LORD speaks of those who come near Him. After “By those who come near Me,” what does 10:3 say must be true?",
+        "teen": "Leviticus 10:3: after “By those who come near Me,” what must be true?",
+        "older": "Read with 6:9, what does 10:3 say after “By those who come near Me”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "By those who come near Me I must be feared as Judge"
+        },
+        {
+          "id": "b",
+          "text": "By those who come near Me I must be served as their King"
+        },
+        {
+          "id": "c",
+          "text": "By those who come near Me I must be regarded as holy"
+        },
+        {
+          "id": "d",
+          "text": "By those who come near Me I must be praised as Lord"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 10:3",
+            "text": "And Moses said to Aaron, “This is what the LORD spoke, saying: ‘By those who come near Me I must be regarded as holy; And before all the people I must be glorified.’ ” So Aaron held his peace.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 6:9",
+            "text": "“Command Aaron and his sons, saying, ‘This is the law of the burnt offering: The burnt offering shall be on the hearth upon the altar all night until morning, and the fire of the altar shall be kept burning on it.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 10:3.",
+          "child": "Look just after “By those who come near Me” in verse 3.",
+          "teen": "6:9 names the hearth through the night; 10:3 gives this claim. Read that sentence.",
+          "older": "It follows “By those who come near Me” in 10:3."
+        },
+        "extended_explanation": "10:3 continues with a second claim after this one. 6:9 says it shall remain “all night until morning.”",
+        "takeaway": "By those who come near Me I must be regarded as holy."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 9",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 7:1 opens a stated law. In 9:23, after Moses and Aaron came out, how does the verse end?",
+        "child": "Moses and Aaron came out. After they came out, how does 9:23 end?",
+        "teen": "Leviticus 9:23: after they came out, how does the verse end?",
+        "older": "Read with 7:1, how does 9:23 end after they came out?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "rested over all the camp"
+        },
+        {
+          "id": "b",
+          "text": "spoke to all the elders"
+        },
+        {
+          "id": "c",
+          "text": "went before all the tribes"
+        },
+        {
+          "id": "d",
+          "text": "appeared to all the people"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 9:23",
+            "text": "And Moses and Aaron went into the tabernacle of meeting, and came out and blessed the people. Then the glory of the LORD appeared to all the people,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 7:1",
+            "text": "‘Likewise this is the law of the trespass offering (it is most holy):",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 9:23.",
+          "child": "Look at the last sentence of verse 23.",
+          "teen": "7:1 opens a stated law; 9:23 ends with this event. Read that sentence.",
+          "older": "It is the last sentence of 9:23."
+        },
+        "extended_explanation": "9:23 begins, “And Moses and Aaron went into the tabernacle of meeting.” 7:1 opens a stated law.",
+        "takeaway": "appeared to all the people."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0014",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 8",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 6:14 opens a stated law. In 8:7, after he put the tunic on him and girded him with the sash, what does the verse say he did next?",
+        "child": "Moses dressed Aaron in the priestly garments. After the tunic and the sash, what does 8:7 say he did next?",
+        "teen": "Leviticus 8:7: after the tunic and the sash, what comes next?",
+        "older": "Read with 6:14, what does 8:7 say after the tunic and the sash?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "clothed him with the robe"
+        },
+        {
+          "id": "b",
+          "text": "clothed him with the veil"
+        },
+        {
+          "id": "c",
+          "text": "clothed him with the cloak"
+        },
+        {
+          "id": "d",
+          "text": "clothed him with the coat"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 8:7",
+            "text": "And he put the tunic on him, girded him with the sash, clothed him with the robe, and put the ephod on him; and he girded him with the intricately woven band of the ephod, and with it tied the ephod on him.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 6:14",
+            "text": "‘This is the law of the grain offering: The sons of Aaron shall offer it on the altar before the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 8:7.",
+          "child": "Look after the sash in verse 7.",
+          "teen": "6:14 opens a stated law; 8:7 next names this garment. Read that phrase.",
+          "older": "It follows the sash in 8:7."
+        },
+        "extended_explanation": "8:7 also says he “put the ephod on him.”",
+        "takeaway": "clothed him with the robe."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-lev-0015",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Leviticus",
+      "section": "Leviticus 5",
+      "topics": [
+        "leviticus-offerings-and-priesthood"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Leviticus 4:15 describes an act done before the LORD with the bull. In 5:4, after “Or if a person swears,” how does the verse first describe the speaking?",
+        "child": "A person swears and later realizes it. After “Or if a person swears,” how does 5:4 first describe the speaking?",
+        "teen": "Leviticus 5:4: after “Or if a person swears,” how is the speaking first described?",
+        "older": "Read with 4:15, how does 5:4 first describe the speaking after “Or if a person swears”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "speaking bitterly with his own mouth"
+        },
+        {
+          "id": "b",
+          "text": "speaking thoughtlessly with his lips"
+        },
+        {
+          "id": "c",
+          "text": "speaking hastily with his tongue"
+        },
+        {
+          "id": "d",
+          "text": "speaking proudly with his throat"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Leviticus 5:4",
+            "text": "‘Or if a person swears, speaking thoughtlessly with his lips to do evil or to do good, whatever it is that a man may pronounce by an oath, and he is unaware of it—when he realizes it, then he shall be guilty in any of these matters.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Leviticus 4:15",
+            "text": "And the elders of the congregation shall lay their hands on the head of the bull before the LORD. Then the bull shall be killed before the LORD.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 5:4.",
+          "child": "Look just after “Or if a person swears” in verse 4.",
+          "teen": "4:15 names an act before the LORD; 5:4 opens with this kind of speaking. Read that phrase.",
+          "older": "It follows “Or if a person swears” in 5:4."
+        },
+        "extended_explanation": "5:4 also says, “when he realizes it, then he shall be guilty in any of these matters.” 4:15 says, “Then the bull shall be killed before the LORD.”",
+        "takeaway": "speaking thoughtlessly with his lips."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}

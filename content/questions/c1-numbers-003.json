@@ -1,0 +1,652 @@
+{
+  "format_version": 1,
+  "batch_id": "c1-numbers-003",
+  "author": "Content",
+  "questions": [
+    {
+      "id": "c2-num-0012",
+      "cycle": 2,
+      "tier": "intermediate",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 10",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 10:35 records what Moses said whenever the ark set out. After “Rise up, O LORD!,” what does he first say?",
+        "child": "When the ark set out, Moses spoke to the LORD. After “Rise up, O LORD!,” what does 10:35 first say?",
+        "teen": "Numbers 10:35: after “Rise up, O LORD!,” what comes first?",
+        "older": "According to Numbers 10:35, after “Rise up, O LORD!,” what does Moses first say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Let Your enemies be scattered"
+        },
+        {
+          "id": "b",
+          "text": "Let Your name be exalted"
+        },
+        {
+          "id": "c",
+          "text": "Let Your people be greatly helped"
+        },
+        {
+          "id": "d",
+          "text": "Let Your priests be clothed"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 10:35",
+            "text": "So it was, whenever the ark set out, that Moses said: “Rise up, O LORD! Let Your enemies be scattered, And let those who hate You flee before You.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 10:35.",
+          "child": "Look just after “Rise up, O LORD!” in verse 35.",
+          "teen": "10:35 gives this first request. Read that sentence.",
+          "older": "It follows “Rise up, O LORD!” in 10:35."
+        },
+        "extended_explanation": "10:35 also says, “And let those who hate You flee before You.”",
+        "takeaway": "Moses said, “Let Your enemies be scattered.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c2-num-0013",
+      "cycle": 2,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 23",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 23:19 speaks of what God will not do. After “God is not a man, that,” what does the verse first say? Numbers 14:20 records a pardon.",
+        "child": "A claim is made about truthfulness. After “God is not a man, that,” what does 23:19 first say?",
+        "teen": "Numbers 23:19: after “God is not a man, that,” what comes first?",
+        "older": "Read with 14:20. According to Numbers 23:19, after “God is not a man, that,” what does the verse first say?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "He should nap"
+        },
+        {
+          "id": "b",
+          "text": "He should lie"
+        },
+        {
+          "id": "c",
+          "text": "He should change"
+        },
+        {
+          "id": "d",
+          "text": "He should forget"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 23:19",
+            "text": "“God is not a man, that He should lie, Nor a son of man, that He should repent. Has He said, and will He not do? Or has He spoken, and will He not make it good?",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 14:20",
+            "text": "Then the LORD said: “I have pardoned, according to your word;",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the opening of 23:19. 14:20 records a pardon according to a word.",
+          "child": "Look just after “God is not a man, that” in verse 19.",
+          "teen": "23:19 opens with this claim. Read that phrase.",
+          "older": "It follows “God is not a man, that” in 23:19."
+        },
+        "extended_explanation": "23:19 also asks, “Has He said, and will He not do?” 14:20 says, “I have pardoned, according to your word.”",
+        "takeaway": "He should lie."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0006",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 22",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 22:12 records what God said to Balaam. After “And God said to Balaam,” what does the verse first command?",
+        "child": "God spoke to Balaam at night. After “And God said to Balaam,” what does 22:12 first command?",
+        "teen": "Numbers 22:12: after “And God said to Balaam,” what is first commanded?",
+        "older": "According to Numbers 22:12, after “And God said to Balaam,” what is first commanded?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "You shall not eat"
+        },
+        {
+          "id": "b",
+          "text": "You shall not stay with them"
+        },
+        {
+          "id": "c",
+          "text": "You shall not go with them"
+        },
+        {
+          "id": "d",
+          "text": "You shall not sit with them"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 22:12",
+            "text": "And God said to Balaam, “You shall not go with them; you shall not curse the people, for they are blessed.”",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 3:9",
+            "text": "And you shall give the Levites to Aaron and his sons; they are given entirely to him from among the children of Israel.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 22:12.",
+          "child": "Look just after “And God said to Balaam” in verse 12.",
+          "teen": "22:12 opens with this command. Read that sentence.",
+          "older": "It follows “And God said to Balaam” in 22:12."
+        },
+        "extended_explanation": "22:12 also says, “you shall not curse the people, for they are blessed.”",
+        "takeaway": "God said, “You shall not go with them.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0007",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 3",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 3:12 tells what the LORD has done with the Levites. After “Therefore,” what does the verse say of them?",
+        "child": "The LORD speaks of the Levites in place of every firstborn. After “Therefore,” what does 3:12 say of them?",
+        "teen": "Numbers 3:12: after “Therefore,” what is said of the Levites?",
+        "older": "According to Numbers 3:12, after “Therefore,” what does the verse say of the Levites?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "the Levites shall be first"
+        },
+        {
+          "id": "b",
+          "text": "the Levites shall be sent"
+        },
+        {
+          "id": "c",
+          "text": "the Levites shall be last"
+        },
+        {
+          "id": "d",
+          "text": "the Levites shall be Mine"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 3:12",
+            "text": "“Now behold, I Myself have taken the Levites from among the children of Israel instead of every firstborn who opens the womb among the children of Israel. Therefore the Levites shall be Mine,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 32:6",
+            "text": "And Moses said to the children of Gad and to the children of Reuben: “Shall your brethren go to war while you sit here?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 3:12.",
+          "child": "Look just after “Therefore” in verse 12.",
+          "teen": "3:12 ends with this claim. Read that sentence.",
+          "older": "It follows “Therefore” in 3:12."
+        },
+        "extended_explanation": "3:12 also says the Levites are taken “instead of every firstborn who opens the womb.”",
+        "takeaway": "Therefore the Levites shall be Mine."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0008",
+      "cycle": 3,
+      "tier": "advanced",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 4",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 4:15 gives a warning to the sons of Kohath. After they come to carry the holy things, what does the verse say they shall not do, and why?",
+        "child": "The sons of Kohath are to carry the furnishings. What does 4:15 say they shall not do, and why?",
+        "teen": "Numbers 4:15: what shall they not do, and why?",
+        "older": "According to Numbers 4:15, what shall the sons of Kohath not do, and why?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "they shall not touch any holy thing, lest they die"
+        },
+        {
+          "id": "b",
+          "text": "they shall not hide any holy thing, lest they fall"
+        },
+        {
+          "id": "c",
+          "text": "they shall not move any holy thing, lest they slip"
+        },
+        {
+          "id": "d",
+          "text": "they shall not name any holy thing, lest they fear"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 4:15",
+            "text": "And when Aaron and his sons have finished covering the sanctuary and all the furnishings of the sanctuary, when the camp is set to go, then the sons of Kohath shall come to carry them; but they shall not touch any holy thing, lest they die. “These are the things in the tabernacle of meeting which the sons of Kohath are to carry.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 24:11",
+            "text": "Now therefore, flee to your place. I said I would greatly honor you, but in fact, the LORD has kept you back from honor.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 4:15.",
+          "child": "Look at the warning in verse 15.",
+          "teen": "4:15 gives this warning about the holy things. Read that clause.",
+          "older": "It is the warning in 4:15."
+        },
+        "extended_explanation": "4:15 also says, “then the sons of Kohath shall come to carry them.”",
+        "takeaway": "The warning is, they shall not touch any holy thing, lest they die."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0009",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 10",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 23:8 says, “How shall I curse whom God has not cursed?” In 10:14, after the camp set out first, whom does the verse name over their army?",
+        "child": "A camp set out first according to its armies. Whom does 10:14 name over their army?",
+        "teen": "Numbers 10:14: whom does it name over their army?",
+        "older": "Read with 23:8, whom does 10:14 name over their army?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "Elizur the son of Shedeur"
+        },
+        {
+          "id": "b",
+          "text": "Nahshon the son of Amminadab"
+        },
+        {
+          "id": "c",
+          "text": "Shelumiel the son of Zurishaddai"
+        },
+        {
+          "id": "d",
+          "text": "Eliasaph the son of Deuel"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 10:14",
+            "text": "The standard of the camp of the children of Judah set out first according to their armies; over their army was Nahshon the son of Amminadab.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 23:8",
+            "text": "“How shall I curse whom God has not cursed? And how shall I denounce whom the LORD has not denounced?",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 10:14.",
+          "child": "Look at the close of verse 14.",
+          "teen": "23:8 asks how he could curse; 10:14 names this leader. Read that name.",
+          "older": "It is the last name in 10:14."
+        },
+        "extended_explanation": "10:14 also says, “The standard of the camp of the children of Judah set out first.” 23:8 also says, “And how shall I denounce whom the LORD has not denounced?”",
+        "takeaway": "Over their army was Nahshon the son of Amminadab."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0010",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 32",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 24:25 says Balaam departed and Balak also went his way. In 32:16, after “We will build sheepfolds here for our livestock, and,” what does the verse say they will build?",
+        "child": "The children of Reuben and Gad make a proposal. After naming sheepfolds for livestock, what does 32:16 say they will build?",
+        "teen": "Numbers 32:16: after the sheepfolds, what will they build?",
+        "older": "Read with 24:25, what does 32:16 say they will build after the sheepfolds?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "walls for our little ones"
+        },
+        {
+          "id": "b",
+          "text": "towers for our little ones"
+        },
+        {
+          "id": "c",
+          "text": "cities for our little ones"
+        },
+        {
+          "id": "d",
+          "text": "camps for our little ones"
+        }
+      ],
+      "answer": "c",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 32:16",
+            "text": "Then they came near to him and said: “We will build sheepfolds here for our livestock, and cities for our little ones,",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 24:25",
+            "text": "So Balaam rose and departed and returned to his place; Balak also went his way.",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 32:16.",
+          "child": "Look at the last phrase of verse 16.",
+          "teen": "24:25 records their departure; 32:16 ends with this plan. Read that phrase.",
+          "older": "It is the last phrase of 32:16."
+        },
+        "extended_explanation": "32:16 begins, “We will build sheepfolds here for our livestock.” 24:25 says, “So Balaam rose and departed and returned to his place; Balak also went his way.”",
+        "takeaway": "They said they would build “cities for our little ones.”"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0011",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 35",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 14:17 says, “let the power of my Lord be great, just as You have spoken.” In 35:6, after “you shall appoint,” what does the verse name as the purpose?",
+        "child": "A stated use is given after “you shall appoint.” What does 35:6 name as the purpose?",
+        "teen": "Numbers 35:6: after “you shall appoint,” what purpose is named?",
+        "older": "Read with 14:17, what purpose does 35:6 name after “you shall appoint”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "a deserter may hide"
+        },
+        {
+          "id": "b",
+          "text": "a stranger may rest"
+        },
+        {
+          "id": "c",
+          "text": "a servant may also stay"
+        },
+        {
+          "id": "d",
+          "text": "a manslayer may flee"
+        }
+      ],
+      "answer": "d",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 35:6",
+            "text": "“Now among the cities which you will give to the Levites you shall appoint six cities of refuge, to which a manslayer may flee. And to these you shall add forty-two cities.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 14:17",
+            "text": "And now, I pray, let the power of my Lord be great, just as You have spoken, saying,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the middle of 35:6.",
+          "child": "Look at the purpose named in verse 6.",
+          "teen": "14:17 asks that the Lord’s power be great; 35:6 names this purpose. Read that clause.",
+          "older": "It is the purpose named in 35:6."
+        },
+        "extended_explanation": "35:6 names six of these in particular. 14:17 says, “just as You have spoken.”",
+        "takeaway": "a manslayer may flee."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0012",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 23",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 32:1 says the children of Reuben and Gad saw the land of Jazer and the land of Gilead. In 23:21, after “The LORD his God is with him, And,” what does the verse say is among them?",
+        "child": "Balaam speaks of what is among Israel. After “The LORD his God is with him, And,” what does 23:21 say is among them?",
+        "teen": "Numbers 23:21: after “And,” what is among them?",
+        "older": "Read with 32:1, what does 23:21 say after “The LORD his God is with him, And”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "The shout of a King is among them"
+        },
+        {
+          "id": "b",
+          "text": "The song of a Priest is among them"
+        },
+        {
+          "id": "c",
+          "text": "The sign of a Judge is among them"
+        },
+        {
+          "id": "d",
+          "text": "The seal of a Ruler is among them"
+        }
+      ],
+      "answer": "a",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 23:21",
+            "text": "“He has not observed iniquity in Jacob, Nor has He seen wickedness in Israel. The LORD his God is with him, And the shout of a King is among them.",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 32:1",
+            "text": "Now the children of Reuben and the children of Gad had a very great multitude of livestock; and when they saw the land of Jazer and the land of Gilead, that indeed the region was a place for livestock,",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the end of 23:21.",
+          "child": "Look at the last clause of verse 21.",
+          "teen": "32:1 names the land they saw; 23:21 ends with this claim. Read that sentence.",
+          "older": "It is the last clause of 23:21."
+        },
+        "extended_explanation": "23:21 also says, “He has not observed iniquity in Jacob.” 32:1 says they “had a very great multitude of livestock.”",
+        "takeaway": "The shout of a King is among them."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    },
+    {
+      "id": "c3-num-0013",
+      "cycle": 3,
+      "tier": "expert",
+      "testament": "OT",
+      "book": "Numbers",
+      "section": "Numbers 22",
+      "topics": [
+        "numbers-census-rebellion-and-balaam"
+      ],
+      "placement_eligible": false,
+      "type": "multiple_choice",
+      "prompt": {
+        "adult": "Numbers 10:29 names Hobab the son of Reuel. In 22:5, after “Then he sent messengers to Balaam the son of Beor at,” where does the verse say he sent them?",
+        "child": "Messengers were sent to Balaam the son of Beor. After “at,” where does 22:5 say they were sent?",
+        "teen": "Numbers 22:5: after “Balaam the son of Beor at,” where were they sent?",
+        "older": "Read with 10:29, where does 22:5 say the messengers were sent, after “at”?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "text": "at Kedesh, which is near the border"
+        },
+        {
+          "id": "b",
+          "text": "at Pethor, which is near the River"
+        },
+        {
+          "id": "c",
+          "text": "at Haran, which is near the well"
+        },
+        {
+          "id": "d",
+          "text": "at Zoar, which is near the plain"
+        }
+      ],
+      "answer": "b",
+      "teaching": {
+        "verses": [
+          {
+            "ref": "Numbers 22:5",
+            "text": "Then he sent messengers to Balaam the son of Beor at Pethor, which is near the River in the land of the sons of his people, to call him, saying: “Look, a people has come from Egypt. See, they cover the face of the earth, and are settling next to me!",
+            "translation": "NKJV"
+          },
+          {
+            "ref": "Numbers 10:29",
+            "text": "Now Moses said to Hobab the son of Reuel the Midianite, Moses’ father-in-law, “We are setting out for the place of which the LORD said, ‘I will give it to you.’ Come with us, and we will treat you well; for the LORD has promised good things to Israel.”",
+            "translation": "NKJV"
+          }
+        ],
+        "explanation": {
+          "adult": "Read the start of 22:5.",
+          "child": "Look just after “at” in verse 5.",
+          "teen": "10:29 names Hobab; 22:5 names this place. Read that phrase.",
+          "older": "It follows “at” in 22:5."
+        },
+        "extended_explanation": "22:5 also says, “Look, a people has come from Egypt.” 10:29 says, “We are setting out for the place of which the LORD said, ‘I will give it to you.’”",
+        "takeaway": "at Pethor, which is near the River."
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Deep Roots stage. NKJV excerpt copied from _deeproots_nkjv.json (BibleGateway NKJV). Answer is in the cited verse."
+      },
+      "stage": "Deep Roots"
+    }
+  ]
+}
