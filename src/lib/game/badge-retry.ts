@@ -1,3 +1,4 @@
+import { isBadgeUnlocked } from "./badge-lock";
 import { MASCOT_IDS, type BadgeRetry, type GameProgress, type MascotId } from "./types";
 import { canonicalBadgeId, type PathBadge } from "./path";
 
@@ -168,6 +169,7 @@ export function recordBadgeAnswer(
   if (!badge.questionIds.includes(questionId)) return progress;
   if (badgeRunEarned(progress, badge) === true) return progress;
   if (!progress.badgeRetries?.[badge.id] && legacyEarned(progress, badge)) return progress;
+  if (!isBadgeUnlocked(progress, badge.id)) return progress;
   if (isBadgeWaiting(progress, badge.id, now)) return progress;
 
   const updatedAt = now.toISOString();

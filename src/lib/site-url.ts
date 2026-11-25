@@ -22,3 +22,8 @@ export function siteOrigin(): string {
 export function authCallbackUrl(): string {
   return `${siteOrigin()}/auth/callback`;
 }
+
+/** Where a password-reset email returns. The owner must allow this path in Supabase. */
+export function passwordResetRedirectUrl(): string {
+  return `${siteOrigin()}/auth/update-password`;
+}

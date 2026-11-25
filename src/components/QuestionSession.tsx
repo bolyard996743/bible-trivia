@@ -17,6 +17,7 @@ import {
   wasFirstAttempt,
 } from "@/lib/game";
 import { choicesForBadgeAsk } from "@/lib/game/badges";
+import { matchTypography } from "@/lib/game/typography";
 import { MASCOTS, type AgeGroup, type AttemptState, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
 
 type MasteryResult = {
@@ -61,24 +62,27 @@ export function QuestionSession({
 }) {
   const [attempt, setAttempt] = useState(() => resumeAttempt(question.id, initialAttempt));
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const prompt = pickWording(question.prompt, ageGroup);
-  const explanation = pickWording(question.teaching.explanation, ageGroup);
+  const prompt = matchTypography(pickWording(question.prompt, ageGroup));
+  const explanation = matchTypography(pickWording(question.teaching.explanation, ageGroup));
   const info = MASCOTS[mascot];
 
   const spoken = useMemo(() => {
-    if (attempt.phase === "teaching") {
-      return pickMascotLine(lines, mascot, "wrong_intro", ageGroup, { questionId: question.id });
-    }
-    if (attempt.phase === "mastered") {
-      const moment = shouldShowTakeaway(attempt) ? "correct_after_retry" : "correct";
-      return pickMascotLine(lines, mascot, moment, ageGroup, { questionId: question.id });
-    }
-    return null;
+    const line =
+      attempt.phase === "teaching"
+        ? pickMascotLine(lines, mascot, "wrong_intro", ageGroup, { questionId: question.id })
+        : attempt.phase === "mastered"
+          ? pickMascotLine(lines, mascot, shouldShowTakeaway(attempt) ? "correct_after_retry" : "correct", ageGroup, {
+              questionId: question.id,
+            })
+          : null;
+    if (!line) return null;
+    return { ...line, text: matchTypography(line.text) };
   }, [ageGroup, attempt, lines, mascot, question.id]);
 
   const retryLine = useMemo(() => {
     if (closeOnMiss || attempt.phase !== "teaching") return null;
-    return pickMascotLine(lines, mascot, "retry_prompt", ageGroup, { questionId: question.id });
+    const line = pickMascotLine(lines, mascot, "retry_prompt", ageGroup, { questionId: question.id });
+    return line ? { ...line, text: matchTypography(line.text) } : null;
   }, [ageGroup, attempt.phase, closeOnMiss, lines, mascot, question.id]);
 
   const verseKey = question.teaching.verses.map((verse) => verse.ref).join("\n");
@@ -158,9 +162,9 @@ export function QuestionSession({
                 data-testid={`choice-${choice.id}`}
                 disabled={attempt.phase !== "asking"}
                 onClick={() => choose(choice.id)}
-                className="rounded-2xl border border-line bg-parchment px-4 py-3 text-left text-lg text-ink enabled:hover:border-grove disabled:opacity-70"
+                className="min-w-0 break-words rounded-2xl border border-line bg-parchment px-4 py-3 text-left text-lg text-ink enabled:hover:border-grove disabled:opacity-70"
               >
-                {choice.text}
+                {matchTypography(choice.text)}
               </button>
             ))}
           </div>
@@ -170,10 +174,10 @@ export function QuestionSession({
       {attempt.phase === "teaching" && (spoken || closeOnMiss) ? (
         <div data-testid="teaching" className="grid gap-4 rounded-3xl border border-gold bg-card p-5">
           <h2 className="text-2xl font-semibold text-grove-deep">Let&apos;s look at this together</h2>
-          <div className="flex gap-3">
+          <div className="flex min-w-0 gap-3">
             <MascotMark mascot={mascot} />
             {spoken ? (
-              <p data-testid="mascot-line" className="text-lg text-ink">
+              <p data-testid="mascot-line" className="min-w-0 text-lg text-ink [overflow-wrap:anywhere]">
                 {spoken.text}
               </p>
             ) : null}
@@ -189,7 +193,7 @@ export function QuestionSession({
           {showExtended && question.teaching.extended_explanation ? (
             <div data-testid="extended-explanation" className="rounded-2xl border border-line px-4 py-3">
               <h3 className="text-lg font-semibold text-grove-deep">A little more help</h3>
-              <p className="mt-1 text-lg text-ink">{question.teaching.extended_explanation}</p>
+              <p className="mt-1 text-lg text-ink">{matchTypography(question.teaching.extended_explanation)}</p>
             </div>
           ) : null}
           {retryLine ? <p className="text-lg text-ink-soft">{retryLine.text}</p> : null}
@@ -232,7 +236,7 @@ export function QuestionSession({
           </div>
           {showTakeaway ? (
             <p data-testid="takeaway" className="text-lg font-semibold text-ink">
-              {question.teaching.takeaway}
+              {matchTypography(question.teaching.takeaway)}
             </p>
           ) : null}
           <button

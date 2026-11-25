@@ -57,7 +57,7 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
         <h1 className="text-3xl font-semibold text-grove-deep">Your Knowledge Path</h1>
         <p className="mt-2 text-base text-ink-soft">{PATH_PRIVACY}</p>
       </div>
-      <KnowledgePath stage={stage} />
+      <KnowledgePath progress={{ ...state.progress, stage }} />
       <div className="grid gap-2 rounded-3xl border border-line bg-card p-5 text-lg">
         <p data-testid="path-position">
           {stage} · Cycle {state.progress.cycle}
@@ -69,9 +69,9 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
             : "Streak: a new one starts with the next question you know on the first try. No rush."}
         </p>
       </div>
-      <div className="flex gap-3">
+      <div className="flex min-w-0 gap-3">
         <MascotMark mascot={state.mascot} />
-        <p className="text-lg text-ink">
+        <p className="min-w-0 text-lg text-ink [overflow-wrap:anywhere]">
           <span className="block text-base text-ink-soft">{MASCOTS[state.mascot].name}</span>
           {line?.text}
         </p>

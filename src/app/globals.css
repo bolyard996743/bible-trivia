@@ -133,9 +133,9 @@ body {
 .logo-lockup {
   position: relative;
   display: block;
-  height: 3.25rem;
+  height: 2.4rem;
   aspect-ratio: 462 / 160;
-  max-width: min(68vw, 16rem);
+  max-width: min(46vw, 11rem);
 }
 
 .logo-layer {
@@ -148,6 +148,7 @@ body {
 
 .scripture-prose {
   line-height: 1.85;
+  overflow-wrap: anywhere;
 }
 
 .verse-words,
@@ -189,8 +190,10 @@ a.badge-link {
 .mark-dot,
 .mark-pen {
   display: inline-flex;
-  height: 1.4rem;
-  width: 1.4rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  min-height: 2.75rem;
+  min-width: 2.75rem;
   align-items: center;
   justify-content: center;
   border-radius: 999px;
@@ -240,6 +243,13 @@ a.badge-link {
   background: var(--logo-accent);
   -webkit-mask-image: url("/brand/logo-accent-mask.png");
   mask-image: url("/brand/logo-accent-mask.png");
+}
+
+@media (min-width: 24rem) {
+  .logo-lockup {
+    height: 3.25rem;
+    max-width: min(62vw, 16rem);
+  }
 }
 
 @media (min-width: 40rem) {
@@ -436,6 +446,7 @@ a.badge-link {
   font-weight: 600;
   line-height: 1.2;
   text-wrap: balance;
+  overflow-wrap: anywhere;
 }
 
 @media (prefers-reduced-motion: no-preference) {

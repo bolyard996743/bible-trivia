@@ -14,6 +14,7 @@ import { signOut } from "@/lib/account/supabase";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { createState } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
+import { AuthLegalNotice } from "@/components/AuthLegalNotice";
 
 export function ProfileEditor({
   lines,
@@ -106,6 +107,7 @@ export function ProfileEditor({
             Create account
           </Link>
         ) : null}
+        {mode === "settings" && offerAccount ? <AuthLegalNotice /> : null}
       </div>
 
       {gate.value?.under13 ? (
@@ -117,7 +119,7 @@ export function ProfileEditor({
       <fieldset className="grid gap-3">
         <legend className="mb-2 text-xl font-semibold">Choose a guide</legend>
         {MASCOT_IDS.map((id) => (
-          <label key={id} className="flex cursor-pointer items-center gap-3 rounded-2xl border border-line bg-card px-4 py-3 text-lg">
+          <label key={id} className="flex min-w-0 cursor-pointer items-center gap-3 rounded-2xl border border-line bg-card px-4 py-3 text-lg">
             <input
               type="radio"
               name="mascot"
@@ -130,7 +132,7 @@ export function ProfileEditor({
               }}
             />
             <MascotMark mascot={id} />
-            <span>
+            <span className="min-w-0">
               <span className="font-semibold">{MASCOTS[id].name}</span>
               <span className="mt-0.5 block text-base text-ink-soft">{MASCOTS[id].trait}</span>
             </span>

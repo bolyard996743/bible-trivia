@@ -10,6 +10,9 @@ import { QuestionSession } from "@/components/QuestionSession";
 import { attemptForQuestion, linesForPathPlay } from "@/lib/game";
 import { showDifficultyLabels } from "@/lib/dev-flags";
 import { badgeEarned, badgeJustEarned, badgeProgressLabel, selectBadgeQuestion } from "@/lib/game/badges";
+import { BADGE_AHEAD_NOTE, BADGE_MISSING_NOTE } from "@/lib/game/badge-lock";
+import { openBadgeRunAction, type BadgeRunResponse } from "@/app/play/open-badge";
+import { citedSectionLabel } from "@/lib/game/section-label";
 import {
   BADGE_EARNED_NOTE,
   BADGE_PREPARING_NOTE,
@@ -29,10 +32,13 @@ export function PlayClient({
   questions,
   lines,
   audioFiles,
+  badgeId = null,
 }: {
   questions: Question[];
   lines: MascotLine[];
   audioFiles: string[];
+  /** Set by the server page. A badge link never falls through to the main path. */
+  badgeId?: string | null;
 }) {
   const router = useRouter();
   const search = useSearchParams();
@@ -44,8 +50,10 @@ export function PlayClient({
   const [now, setNow] = useState(() => Date.now());
   const [reviewingMiss, setReviewingMiss] = useState(false);
   const [earnedMoment, setEarnedMoment] = useState<{ id: string; name: string; art: string } | null>(null);
+  const [run, setRun] = useState<BadgeRunResponse | null>(null);
   const continueHref = useRef<string | null>(null);
-  const badge = findPathBadge(search.get("badge") ?? "");
+  const requestedBadge = badgeId ?? search.get("badge") ?? "";
+  const badge = requestedBadge ? findPathBadge(requestedBadge) : null;
   const retryAt = state && badge ? badgeRetryDeadline(state.progress, badge.id) : null;
   const waiting = Boolean(retryAt && Date.parse(retryAt) > now);
 
@@ -54,6 +62,23 @@ export function PlayClient({
     if (!state) router.replace("/profile");
     else if (!state.placementComplete) router.replace("/placement");
   }, [ready, state, router]);
+
+  useEffect(() => {
+    if (!requestedBadge || !state?.placementComplete) return;
+    let active = true;
+    void openBadgeRunAction(state.progress, requestedBadge)
+      .then((result) => {
+        if (active) setRun(result);
+      })
+      .catch(() => {
+        if (active) setRun({ status: "missing", message: BADGE_MISSING_NOTE });
+      });
+    return () => {
+      active = false;
+    };
+    // Load once for this badge. Later answers stay on this page.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [requestedBadge, state?.placementComplete]);
 
   useEffect(() => {
     if (!waiting && !reviewingMiss) return;
@@ -65,8 +90,36 @@ export function PlayClient({
 
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (requestedBadge && !run) return <p className="text-lg text-ink-soft">Opening…</p>;
 
-  if (badge && waiting && retryAt && !reviewingMiss) {
+  if (requestedBadge && run?.status === "missing") {
+    return (
+      <section className="grid gap-4" data-testid="badge-missing">
+        <h1 className="text-3xl font-semibold text-grove-deep">That badge is not on the path</h1>
+        <p className="text-lg text-ink">{run.message}</p>
+        <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+          Back to the map
+        </Link>
+      </section>
+    );
+  }
+
+  if (requestedBadge && run?.status === "locked" && badge) {
+    return (
+      <section className="grid gap-4" data-testid="badge-locked">
+        <BadgePageMark topic={badge.art} slug={badge.id} status="sealed" title={badge.name} />
+        <p className="text-lg text-ink">{run.message || BADGE_AHEAD_NOTE}</p>
+        <Link href="/path" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+          Back to the map
+        </Link>
+      </section>
+    );
+  }
+
+  const playQuestions = run?.status === "ready" ? run.questions : questions;
+  const playLines = run?.status === "ready" ? run.lines : lines;
+
+  if (badge && waiting && retryAt && !reviewingMiss && run?.status !== "locked") {
     return (
       <section className="grid gap-4" data-testid="badge-retry-screen">
         <BadgePageMark topic={badge.art} slug={badge.id} status="locked" title={badge.name} />
@@ -88,14 +141,14 @@ export function PlayClient({
       </section>
     );
   }
-  const focused = badge && !reviewingMiss ? selectBadgeQuestion(questions, state.progress, badge, new Date(now)) : null;
+  const focused = badge && run?.status === "ready" && !reviewingMiss ? selectBadgeQuestion(playQuestions, state.progress, badge, new Date(now)) : null;
   const pick = reviewingMiss && shownRef.current
     ? { question: shownRef.current, review: false }
     : badge
       ? focused
         ? { question: focused, review: false }
         : null
-      : selectLadderQuestion(questions, state.progress);
+      : selectLadderQuestion(playQuestions, state.progress);
   if (!pick) {
     const earned = Boolean(badge && badgeEarned(state.progress, badge));
     const status: BadgeEmblemStatus = earned ? "earned" : "empty";
@@ -162,10 +215,10 @@ export function PlayClient({
       question={question}
       ageGroup={state.ageGroup}
       mascot={state.mascot}
-      lines={linesForPathPlay(lines)}
+      lines={linesForPathPlay(playLines)}
       soundOn={state.soundOn}
       audioFiles={audioFiles}
-      progressLabel={badge ? badgeProgressLabel(badge.id, question.section) : `${state.progress.stage ?? "Seed"} · ${question.section}`}
+      progressLabel={badge ? badgeProgressLabel(badge.id, citedSectionLabel(question)) : `${state.progress.stage ?? "Seed"} · ${citedSectionLabel(question)}`}
       reviewLabel={markers.review}
       difficultyLabel={badge ? null : markers.difficulty}
       initialAttempt={badge ? null : attemptForQuestion(question.id, state.progress)}
@@ -222,7 +275,7 @@ export function PlayClient({
         if (badge) progress = recordBadgeAnswer(progress, badge, question.id, firstAttemptCorrect, new Date());
         const earnedNow = Boolean(badge && badgeJustEarned(wasEarned, badgeEarned(progress, badge)));
         const before = progress.stage;
-        progress = advanceStage(questions, progress);
+        progress = advanceStage(playQuestions, progress);
         const celebration: Celebration | null =
           progress.stage !== before
             ? { type: "level_up", from: { cycle: current.progress.cycle, tier: current.progress.tier }, to: { cycle: current.progress.cycle, tier: current.progress.tier } }

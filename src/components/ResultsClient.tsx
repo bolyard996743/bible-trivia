@@ -33,9 +33,9 @@ export function ResultsClient({ questions, lines }: { questions: Question[]; lin
       <p className="text-lg text-ink" data-testid="reassurance">
         {STARTING_REASSURANCE}
       </p>
-      <div className="flex gap-3 rounded-3xl border border-line bg-card p-5">
+      <div className="flex min-w-0 gap-3 rounded-3xl border border-line bg-card p-4 sm:p-5">
         <MascotMark mascot={state.mascot} size="lg" />
-        <div>
+        <div className="min-w-0">
           <p className="text-base text-ink-soft">{MASCOTS[state.mascot].name}</p>
           <p className="text-lg text-ink">{line?.text}</p>
         </div>
@@ -55,7 +55,7 @@ export function ResultsClient({ questions, lines }: { questions: Question[]; lin
         </p>
       </div>
       <SaveProgressPrompt />
-      <KnowledgePath stage={state.placement.stage} />
+      <KnowledgePath progress={{ ...state.progress, stage: state.placement.stage }} />
       <Link href="/home" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
         Go to your path
       </Link>

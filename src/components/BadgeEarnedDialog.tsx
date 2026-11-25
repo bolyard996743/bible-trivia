@@ -4,7 +4,8 @@ import { useEffect, useRef } from "react";
 import { BadgeEmblem } from "@/components/BadgeEmblem";
 
 export function badgeEarnedMessage(name: string): string {
-  return `Well done! You earned the ${name} badge.`;
+  const titled = /^(the|a|an)\b/i.test(name.trim());
+  return titled ? `Well done! You earned ${name} badge.` : `Well done! You earned the ${name} badge.`;
 }
 
 export function BadgeEarnedDialog({

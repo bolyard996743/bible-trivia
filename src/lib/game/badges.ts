@@ -1,8 +1,12 @@
 import { stageRank, STAGES } from "../curriculum";
+import { BADGE_AHEAD_NOTE, BADGE_MISSING_NOTE, isBadgeUnlocked } from "./badge-lock";
+
+export { BADGE_AHEAD_NOTE, BADGE_MISSING_NOTE };
 import { badgeRunEarned, isBadgeWaiting, openAttemptCorrectIds, passedFirstTry } from "./badge-retry";
 import type { GameProgress, KnowledgeStage, Question } from "./types";
 import {
   canonicalBadgeId,
+  findPathBadge,
   knowledgePath,
   stagePath,
   type AdvanceRule,
@@ -67,13 +71,50 @@ export function gateFromBadges(
 /**
  * Seed through the player's stage, top to bottom.
  * Placement is the only way to skip stages, and those skipped stages stay in the list.
- * Nothing after progress.stage is drawn, even when cycle and tier would name a later stage
- * or the current stage's written questions are already finished.
+ * The map still draws later stages, locked, via mapStageRows.
  */
 export function visibleMapStages(progress: { stage?: KnowledgeStage }): KnowledgeStage[] {
   const current = progress.stage ?? "Seed";
   const end = stageRank(current);
   return STAGES.filter((_, index) => index <= end);
+}
+
+/**
+ * Stages the player has reached, plus Fruitful and Deep Roots when those are still ahead.
+ * An ahead stage is locked. A badge already earned there is still listed.
+ */
+export function mapStageRows(progress: GameProgress): { stage: KnowledgeStage; ahead: boolean; earned: { id: string; name: string }[] }[] {
+  const current = stageRank(progress.stage ?? "Seed");
+  const open = visibleMapStages(progress);
+  const stages: KnowledgeStage[] = [...open];
+  for (const stage of ["Fruitful", "Deep Roots"] as const) {
+    if (!stages.includes(stage)) stages.push(stage);
+  }
+  return stages.map((stage) => ({
+    stage,
+    ahead: stageRank(stage) > current,
+    earned: visibleBadges(badgesFor(stage))
+      .filter((badge) => badgeEarned(progress, badge))
+      .map((badge) => ({ id: badge.id, name: badge.name })),
+  }));
+}
+
+export type BadgeRun =
+  | { status: "missing"; message: string }
+  | { status: "locked"; badge: PathBadge; message: string }
+  | { status: "earned"; badge: PathBadge }
+  | { status: "ready"; badge: PathBadge; questions: Question[] };
+
+/**
+ * What a badge link may show. A locked or missing id gets no question text.
+ * Aliases are resolved before the id is judged.
+ */
+export function openBadgeRun(progress: GameProgress, rawId: string, questions: Question[]): BadgeRun {
+  const badge = findPathBadge(rawId.trim());
+  if (!badge) return { status: "missing", message: BADGE_MISSING_NOTE };
+  if (badgeEarned(progress, badge)) return { status: "earned", badge };
+  if (!isBadgeUnlocked(progress, badge.id)) return { status: "locked", badge, message: BADGE_AHEAD_NOTE };
+  return { status: "ready", badge, questions: questionsForBadgeRun(questions, badge) };
 }
 
 export function stageForPathBadge(id: string, path: KnowledgePathFile = knowledgePath): KnowledgeStage | null {
@@ -95,9 +136,10 @@ export function badgeCircleName(name: string, earned: boolean): string {
 }
 
 /** Link name for a badge. A 24-hour wait adds the clock. An empty badge has no chip. */
-export function badgeStatusLabel(name: string, status: "earned" | "empty" | "locked"): string {
+export function badgeStatusLabel(name: string, status: "earned" | "empty" | "locked" | "sealed"): string {
   if (status === "earned") return badgeCircleName(name, true);
   if (status === "locked") return `${badgeCircleName(name, false)}. Locked for 24 hours`;
+  if (status === "sealed") return `${badgeCircleName(name, false)}. ${BADGE_AHEAD_NOTE}`;
   return badgeCircleName(name, false);
 }
 
@@ -144,6 +186,7 @@ export function selectBadgeQuestion(
   now: Date = new Date(),
 ): Question | null {
   if (badgeEarned(progress, badge)) return null;
+  if (!isBadgeUnlocked(progress, badge.id)) return null;
   if (isBadgeWaiting(progress, badge.id, now)) return null;
   const answered = new Set(openAttemptCorrectIds(progress, badge.id));
   for (const question of questionsForBadgeRun(questions, badge)) {

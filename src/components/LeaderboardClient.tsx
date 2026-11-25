@@ -15,12 +15,12 @@ function BoardList({ rows }: { rows: PublicBoardRow[] }) {
   return (
     <ol className="grid gap-2">
       {rows.map((row) => (
-        <li key={`${row.rank ?? "s"}-${row.username}`} className="flex items-center justify-between rounded-2xl border border-line bg-parchment px-4 py-3 text-lg">
-          <span>
+        <li key={`${row.rank ?? "s"}-${row.username}`} className="flex min-w-0 items-baseline justify-between gap-3 rounded-2xl border border-line bg-parchment px-4 py-3 text-lg">
+          <span className="min-w-0 [overflow-wrap:anywhere]">
             {row.rank ? <span className="mr-3 text-ink-soft">{row.rank}</span> : null}
             {row.username}
           </span>
-          <span>{row.points} pts</span>
+          <span className="shrink-0 tabular-nums">{row.points} pts</span>
         </li>
       ))}
     </ol>

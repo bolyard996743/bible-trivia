@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { BadgeEmblem, type BadgeEmblemStatus } from "@/components/BadgeEmblem";
 import { STAGE_LEARNING, stageRank } from "@/lib/curriculum";
-import { badgeEarned, badgeStatusLabel, stageSlug, visibleBadges, visibleMapStages } from "@/lib/game/badges";
+import { BADGE_AHEAD_NOTE, badgeEarned, badgeStatusLabel, mapStageRows, stageSlug, visibleBadges } from "@/lib/game/badges";
 import { isBadgeWaiting } from "@/lib/game/badge-retry";
 import { badgeAttention, hasSeenRecord, noticePlan, readSeenBadgesHere, writeSeenBadgesHere, type BadgeAttention } from "@/lib/game/badge-seen";
 import { badgePlayHref, stagePath } from "@/lib/game/path";
@@ -24,7 +24,7 @@ export function StageMap({
   seenBadgeIds?: readonly string[];
   reducedMotion?: boolean;
 }) {
-  const stages = visibleMapStages(progress);
+  const stages = mapStageRows(progress);
   const current = progress.stage ?? "Seed";
   const [storedSeen, setStoredSeen] = useState<string[] | null>(null);
   const [motion, setMotion] = useState(reducedMotion ?? false);
@@ -60,10 +60,11 @@ export function StageMap({
 
   return (
     <div className="grid gap-5" data-testid="stage-map">
-      {stages.map((stage) => (
+      {stages.map((row) => (
         <StageBlock
-          key={stage}
-          stage={stage}
+          key={row.stage}
+          stage={row.stage}
+          ahead={row.ahead}
           current={current}
           progress={progress}
           now={now}
@@ -77,8 +78,8 @@ export function StageMap({
 
 function earnedBadgeIds(progress: GameProgress): string[] {
   const ids: string[] = [];
-  for (const stage of visibleMapStages(progress)) {
-    for (const badge of visibleBadges(stagePath(stage)?.badges ?? [])) {
+  for (const stage of mapStageRows(progress)) {
+    for (const badge of visibleBadges(stagePath(stage.stage)?.badges ?? [])) {
       if (badgeEarned(progress, badge)) ids.push(badge.id);
     }
   }
@@ -91,6 +92,7 @@ function freshEarnedIds(progress: GameProgress, seen: readonly string[]): string
 
 function StageBlock({
   stage,
+  ahead,
   current,
   progress,
   now,
@@ -98,6 +100,7 @@ function StageBlock({
   reducedMotion,
 }: {
   stage: KnowledgeStage;
+  ahead: boolean;
   current: KnowledgeStage;
   progress: GameProgress;
   now: Date;
@@ -105,24 +108,29 @@ function StageBlock({
   reducedMotion: boolean;
 }) {
   const block = stagePath(stage);
-  const skipped = stageRank(stage) < stageRank(current);
+  const skipped = !ahead && stageRank(stage) < stageRank(current);
   return (
     <section
       className="stage-card grid gap-4"
       data-testid={`stage-block-${stageSlug(stage)}`}
-      data-place={skipped ? "skipped" : "current"}
+      data-place={ahead ? "locked" : skipped ? "skipped" : "current"}
     >
       <div>
         <h2 className="text-3xl font-semibold text-grove-deep">{stage}</h2>
         <p className="mt-1 text-lg text-ink" data-testid={`stage-learning-${stageSlug(stage)}`}>
           {STAGE_LEARNING[stage]}
         </p>
+        {ahead ? (
+          <p className="mt-1 text-base text-ink-soft" data-testid="badge-unlock-note">
+            {BADGE_AHEAD_NOTE}
+          </p>
+        ) : null}
       </div>
-      <ul className="grid grid-cols-3 gap-x-2 gap-y-5 sm:grid-cols-4" aria-label={`${stage} badges`}>
+      <ul className="grid grid-cols-2 gap-x-3 gap-y-5 min-[24rem]:grid-cols-3 sm:grid-cols-4" aria-label={`${stage} badges`}>
         {visibleBadges(block?.badges ?? []).map((badge) => {
           const earned = badgeEarned(progress, badge);
-          const locked = !earned && isBadgeWaiting(progress, badge.id, now);
-          const status: BadgeEmblemStatus = earned ? "earned" : locked ? "locked" : "empty";
+          const waiting = !earned && !ahead && isBadgeWaiting(progress, badge.id, now);
+          const status: BadgeEmblemStatus = earned ? "earned" : ahead ? "sealed" : waiting ? "locked" : "empty";
           const attention: BadgeAttention = seen
             ? badgeAttention(earned, seen.includes(badge.id), reducedMotion)
             : "none";
