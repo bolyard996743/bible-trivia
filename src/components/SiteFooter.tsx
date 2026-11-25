@@ -4,7 +4,7 @@ import { FOOTER_LINKS } from "@/lib/legal";
 export function SiteFooter() {
   return (
     <footer className="mt-10 border-t border-line pt-4" data-testid="site-footer">
-      <nav aria-label="Legal" className="flex flex-wrap gap-3">
+      <nav aria-label="Footer" className="flex flex-wrap gap-3">
         {FOOTER_LINKS.map((link) => (
           <Link
             key={link.href}
@@ -14,6 +14,13 @@ export function SiteFooter() {
             {link.label}
           </Link>
         ))}
+        <Link
+          href="/donate"
+          data-testid="footer-donate"
+          className="tap inline-flex min-w-11 items-center px-1 text-lg text-grove-deep underline"
+        >
+          Donate
+        </Link>
       </nav>
     </footer>
   );
