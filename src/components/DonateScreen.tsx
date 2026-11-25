@@ -19,12 +19,12 @@ export function DonateTierCard({ tier, verse }: { tier: DonateTier; verse: Shown
   const link = donateAnchorProps(tier.href);
   if (!link) return null;
   return (
-    <article data-testid="donate-tier" data-tier={tier.id} className="grid gap-3">
+    <article data-testid="donate-tier" data-tier={tier.id} className="h-full">
       <a
         href={link.href}
         target={link.target}
         rel={link.rel}
-        className="stage-card tap grid gap-3 text-ink no-underline"
+        className="stage-card tap flex h-full flex-col gap-3 text-ink no-underline"
       >
         <p className="text-3xl font-semibold text-grove-deep">{tier.amountLabel}</p>
         <h2 className="text-2xl font-semibold text-grove-deep">{tier.name}</h2>
@@ -35,18 +35,11 @@ export function DonateTierCard({ tier, verse }: { tier: DonateTier; verse: Shown
             <figcaption className="mt-2 text-base text-ink-soft">{tier.verse.label}</figcaption>
           </figure>
         ) : null}
-        <span className="donate-action inline-flex min-h-[3.25rem] items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+        <span className="donate-action mt-auto inline-flex min-h-[3.25rem] w-full items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
           Donate
           <span className="sr-only"> Opens in a new tab.</span>
         </span>
       </a>
-      {verse && tier.verse ? (
-        <ScriptureNotice
-          copyright={verse.copyright}
-          className="grid gap-1 text-base text-ink-soft [&_a]:inline-flex [&_a]:min-h-11 [&_a]:min-w-11 [&_a]:items-center [&_a]:underline"
-        />
-      ) : null}
-      {verse?.fumsToken ? <FumsTrack tokens={[verse.fumsToken]} /> : null}
     </article>
   );
 }
@@ -59,6 +52,10 @@ export function DonateScreen({
   tiers?: readonly DonateTier[];
 }) {
   const live = liveDonateTiers(tiers);
+  const shownVerses = live.flatMap((tier) => {
+    const verse = verseFor(tier, verses);
+    return verse && tier.verse ? [{ id: tier.id, verse }] : [];
+  });
   return (
     <article className="grid gap-6" data-testid="donate-page">
       <header className="grid gap-4">
@@ -80,12 +77,25 @@ export function DonateScreen({
         </div>
       </header>
       <section id="donate-tiers" aria-label="Gift amounts" className="grid scroll-mt-6 gap-4">
-        <div className="grid items-start gap-4 sm:grid-cols-2">
+        <div className="grid items-stretch gap-4 sm:grid-cols-2">
           {live.map((tier) => (
             <DonateTierCard key={tier.id} tier={tier} verse={verseFor(tier, verses)} />
           ))}
         </div>
       </section>
+      {shownVerses.length > 0 ? (
+        <div data-testid="donate-scripture" className="grid gap-4">
+          {shownVerses.map(({ id, verse }) => (
+            <div key={id}>
+              <ScriptureNotice
+                copyright={verse.copyright}
+                className="grid gap-1 text-base text-ink-soft [&_a]:inline-flex [&_a]:min-h-11 [&_a]:min-w-11 [&_a]:items-center [&_a]:underline"
+              />
+              {verse.fumsToken ? <FumsTrack tokens={[verse.fumsToken]} /> : null}
+            </div>
+          ))}
+        </div>
+      ) : null}
     </article>
   );
 }

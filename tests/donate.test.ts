@@ -148,7 +148,12 @@ describe("donate page", () => {
     expect(page.textContent).toContain("Psalm 119:105 (NKJV)");
     expect(page.textContent).toContain(NKJV_COPYRIGHT);
     expect(page.textContent).toContain("Scripture from");
-    expect(page.querySelector("[data-testid=scripture-notice]")).not.toBeNull();
+    const notice = page.querySelector("[data-testid=scripture-notice]");
+    expect(notice).not.toBeNull();
+    expect(notice?.closest("[data-testid=donate-tier]")).toBeNull();
+    const tierGrid = page.querySelector("#donate-tiers");
+    const position = tierGrid && notice ? tierGrid.compareDocumentPosition(notice) : 0;
+    expect(position & Node.DOCUMENT_POSITION_FOLLOWING).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
     expect(page.textContent).not.toContain("Give as You're Led");
     expect(page.textContent).not.toContain("Coming soon");
     expect(page.textContent).not.toMatch(
