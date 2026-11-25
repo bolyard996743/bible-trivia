@@ -3,7 +3,7 @@ import { BADGE_GLYPHS } from "@/components/badge-glyphs";
 import { badgeLook } from "@/lib/game/badge-look";
 import type { BadgeAttention } from "@/lib/game/badge-seen";
 
-export type BadgeEmblemStatus = "earned" | "empty" | "locked";
+export type BadgeEmblemStatus = "earned" | "empty" | "locked" | "sealed";
 
 export function BadgeEmblem({
   topic,
@@ -18,23 +18,6 @@ export function BadgeEmblem({
 }) {
   const rawId = useId().replace(/:/g, "");
   const attentionClass = attention === "flash" ? "badge-flash" : attention === "glow" ? "badge-glow" : "";
-  if (status !== "earned") {
-    return (
-      <span
-        className={`badge-emblem ${attentionClass}`.trim()}
-        data-blank="true"
-        data-attention={attention === "none" ? undefined : attention}
-      >
-        <span className="badge-blank" aria-hidden="true" />
-        {status === "locked" ? (
-          <span className="badge-chip badge-chip-clock" data-chip="clock" role="img" aria-label="Locked for 24 hours">
-            <ClockIcon />
-          </span>
-        ) : null}
-      </span>
-    );
-  }
-
   const look = badgeLook(topic, slug);
   const Glyph = BADGE_GLYPHS[look.icon];
   const style = {
@@ -73,7 +56,26 @@ export function BadgeEmblem({
           <Glyph />
         </g>
       </svg>
+      {status === "locked" ? (
+        <span className="badge-chip badge-chip-clock" data-chip="clock" role="img" aria-label="Locked for 24 hours">
+          <ClockIcon />
+        </span>
+      ) : null}
+      {status === "sealed" ? (
+        <span className="badge-chip badge-chip-clock" data-chip="lock" role="img" aria-label="Locked">
+          <LockIcon />
+        </span>
+      ) : null}
     </span>
+  );
+}
+
+function LockIcon() {
+  return (
+    <svg viewBox="0 0 16 16" aria-hidden="true" className="badge-chip-icon">
+      <rect x="3.2" y="7" width="9.6" height="6.2" rx="1.2" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M5.2 7V5.2a2.8 2.8 0 0 1 5.6 0V7" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
   );
 }
 

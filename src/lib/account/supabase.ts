@@ -1,5 +1,5 @@
 import { createClient, type SupabaseClient } from "@supabase/supabase-js";
-import { authCallbackUrl } from "../site-url";
+import { authCallbackUrl, passwordResetRedirectUrl } from "../site-url";
 import { signupUserMetadata, type SignupAgeGroup } from "./signup-metadata";
 
 let browserClient: SupabaseClient | null = null;
@@ -84,8 +84,15 @@ export async function sendPasswordReset(email: string): Promise<void> {
   const supabase = getSupabaseBrowserClient();
   if (!supabase) throw new Error("Sign-in is not configured.");
   const { error } = await supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: authCallbackUrl(),
+    redirectTo: passwordResetRedirectUrl(),
   });
+  if (error) throw error;
+}
+
+export async function updatePassword(password: string): Promise<void> {
+  const supabase = getSupabaseBrowserClient();
+  if (!supabase) throw new Error("Sign-in is not configured.");
+  const { error } = await supabase.auth.updateUser({ password });
   if (error) throw error;
 }
 

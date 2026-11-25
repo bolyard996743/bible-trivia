@@ -217,7 +217,7 @@ export function BibleScreen() {
                     type="button"
                     data-testid={`book-${item.id}`}
                     onClick={() => openBook(item)}
-                    className="rounded-2xl border border-line bg-card px-3 text-left text-base text-ink"
+                    className="min-w-0 break-words rounded-2xl border border-line bg-card px-3 text-left text-base leading-snug text-ink"
                   >
                     {item.name}
                   </button>
@@ -259,7 +259,7 @@ export function BibleScreen() {
             </p>
           ) : null}
           {chapterState.status === "ready" ? (
-            <div className="scripture-page rounded-3xl border border-line bg-card px-5 py-6 sm:px-8" data-testid="bible-page">
+            <div className="scripture-page rounded-3xl border border-line bg-card px-4 py-6 sm:px-8" data-testid="bible-page">
               <div className="scripture-prose text-lg text-ink">
                 {chapterState.chapter.verses.map((verse) => {
                   const mark = markFor(marks, book.id, chapterNumber, verse.verse);
@@ -294,8 +294,8 @@ export function BibleScreen() {
                         </button>
                       ) : null}
                       {selected ? (
-                        <span className="my-2 flex items-center gap-2" data-testid="verse-tools">
-                          <span className="flex items-center gap-1.5" role="group" aria-label="Highlight color">
+                        <span className="my-2 flex flex-wrap items-center gap-2" data-testid="verse-tools">
+                          <span className="flex flex-wrap items-center gap-2" role="group" aria-label="Highlight color">
                             {MARK_COLORS.map((color) => (
                               <button
                                 key={color.id}
@@ -361,7 +361,7 @@ export function BibleScreen() {
 
 function PenIcon() {
   return (
-    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-3.5 w-3.5" fill="none">
+    <svg viewBox="0 0 24 24" aria-hidden="true" className="h-5 w-5" fill="none">
       <path d="M4 20h4l10-10-4-4L4 16v4z" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
       <path d="M12 6l4 4" stroke="currentColor" strokeWidth="1.8" />
     </svg>

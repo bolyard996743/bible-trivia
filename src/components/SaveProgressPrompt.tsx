@@ -8,6 +8,7 @@ import { showCreateAccountLink } from "@/lib/account/policy";
 import { registerWithPassword } from "@/lib/account/register-account";
 import { resendSignupConfirmation } from "@/lib/account/supabase";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
+import { AuthLegalNotice } from "@/components/AuthLegalNotice";
 import type { AgeGroup } from "@/lib/game/types";
 import { useProfile } from "@/lib/use-profile";
 
@@ -93,11 +94,12 @@ export function SaveProgressPrompt() {
               .catch((error: unknown) => setMessage(signupErrorMessage(error)))
               .finally(() => setSending(false));
           }}
+          aria-busy={sending}
           className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-60"
         >
-          Resend confirmation email
+          {sending ? "Sending…" : "Resend confirmation email"}
         </button>
-        <Link href="/account?mode=sign-in" className="text-lg text-grove-deep">
+        <Link href="/account?mode=sign-in" className="tap inline-flex items-center text-lg text-grove-deep">
           Already have an account? Sign in
         </Link>
         {message ? (
@@ -160,10 +162,12 @@ export function SaveProgressPrompt() {
           type="submit"
           data-testid="save-progress-submit"
           disabled={sending}
+          aria-busy={sending}
           className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-60"
         >
-          Create account
+          {sending ? "Creating account…" : "Create account"}
         </button>
+        <AuthLegalNotice />
       </form>
       {message ? (
         <p className="text-lg text-ink" role="alert" data-testid="save-progress-message">
@@ -183,7 +187,7 @@ export function SaveProgressPrompt() {
           Not now
         </button>
       </div>
-      <Link href="/account?mode=sign-in" data-testid="save-progress-sign-in" className="text-lg text-grove-deep">
+      <Link href="/account?mode=sign-in" data-testid="save-progress-sign-in" className="tap inline-flex items-center text-lg text-grove-deep">
         Already have an account? Sign in
       </Link>
     </section>

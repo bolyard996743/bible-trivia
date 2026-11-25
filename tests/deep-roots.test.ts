@@ -140,9 +140,13 @@ describe("Deep Roots", () => {
     const hidden = renderToStaticMarkup(
       createElement(StageMap, { progress: almost, seenBadgeIds: [] }),
     );
-    expect(hidden).not.toContain("stage-block-deep-roots");
-    expect(hidden).not.toContain("badge-deep-obadiah");
-    expect(hidden).not.toContain("badge-deep-3john");
+    expect(hidden).toContain("stage-block-deep-roots");
+    expect(hidden).toContain("badge-deep-obadiah");
+    expect(hidden).toContain("badge-deep-3john");
+    expect(hidden).toContain('data-place="locked"');
+    expect(hidden).toContain("Unlocks after you earn every badge before it");
+    expect(hidden).not.toContain("Unlocks after Fruitful");
+    expect(hidden).not.toContain("Unlocks after Deep Roots");
 
     const shown = renderToStaticMarkup(
       createElement(StageMap, { progress: opened, seenBadgeIds: [] }),

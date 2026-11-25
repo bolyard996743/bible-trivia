@@ -5,7 +5,13 @@ import { useEffect, useState, type FormEvent } from "react";
 import { usePathname } from "next/navigation";
 import { accountModeHref, type AccountMode } from "@/lib/account/account-mode";
 import { accountBirth, birthDateIso } from "@/lib/account/age-gate";
-import { CONFIRM_EMAIL_MESSAGE, signupErrorMessage } from "@/lib/account/auth-errors";
+import {
+  CONFIRM_EMAIL_MESSAGE,
+  passwordResetFeedback,
+  RESET_EMAIL_SENT,
+  signInErrorMessage,
+  signupErrorMessage,
+} from "@/lib/account/auth-errors";
 import { registerWithPassword } from "@/lib/account/register-account";
 import { acceptMerge, declineMerge, getMergeOffer, subscribeAccount } from "@/lib/account/session";
 import {
@@ -19,6 +25,7 @@ import {
 } from "@/lib/account/supabase";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
+import { AuthLegalNotice } from "@/components/AuthLegalNotice";
 
 type Mode = AccountMode;
 
@@ -83,8 +90,12 @@ export function AccountScreen() {
     setMessage(null);
     try {
       if (mode === "reset") {
-        await sendPasswordReset(email.trim());
-        setMessage("Check your email for a link to choose a new password.");
+        try {
+          await sendPasswordReset(email.trim());
+          setMessage(RESET_EMAIL_SENT);
+        } catch (error) {
+          setMessage(passwordResetFeedback(error).message);
+        }
         return;
       }
       if (mode === "sign-up") {
@@ -119,11 +130,7 @@ export function AccountScreen() {
       }
       setMessage("You're signed in.");
     } catch (error) {
-      setMessage(
-        mode === "sign-in"
-          ? "We couldn't sign in. Check the email and password, and try again."
-          : signupErrorMessage(error),
-      );
+      setMessage(mode === "sign-in" ? signInErrorMessage(error) : signupErrorMessage(error));
     } finally {
       setSending(false);
     }
@@ -146,9 +153,10 @@ export function AccountScreen() {
               .catch((error: unknown) => setMessage(signupErrorMessage(error)))
               .finally(() => setSending(false));
           }}
+          aria-busy={sending}
           className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-60"
         >
-          Resend confirmation email
+          {sending ? "Sending…" : "Resend confirmation email"}
         </button>
         <button
           type="button"
@@ -160,7 +168,11 @@ export function AccountScreen() {
         >
           Sign in
         </button>
-        {message ? <p className="text-lg text-ink">{message}</p> : null}
+        {message ? (
+          <p className="text-lg text-ink" role="status">
+            {message}
+          </p>
+        ) : null}
       </section>
     );
   }
@@ -247,9 +259,26 @@ export function AccountScreen() {
               />
             </label>
           ) : null}
-          <button type="submit" disabled={sending || !isSupabaseConfigured()} className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-60">
-            {mode === "sign-up" ? "Create account" : mode === "reset" ? "Email me a reset link" : "Sign in"}
+          <button
+            type="submit"
+            data-testid="account-submit"
+            disabled={sending || !isSupabaseConfigured()}
+            aria-busy={sending}
+            className="rounded-2xl bg-grove px-4 text-lg font-semibold text-white disabled:opacity-60"
+          >
+            {sending
+              ? mode === "sign-up"
+                ? "Creating account…"
+                : mode === "reset"
+                  ? "Sending…"
+                  : "Signing in…"
+              : mode === "sign-up"
+                ? "Create account"
+                : mode === "reset"
+                  ? "Email me a reset link"
+                  : "Sign in"}
           </button>
+          {mode === "sign-up" ? <AuthLegalNotice /> : null}
         </form>
       ) : null}
       {!auth.email ? (
@@ -264,14 +293,18 @@ export function AccountScreen() {
               Create account
             </button>
           ) : null}
-          {mode !== "reset" ? (
-            <button type="button" className="text-grove-deep" onClick={() => selectMode("reset")}>
-              Reset password
-            </button>
+          {mode === "sign-in" ? (
+            <Link href="/auth/forgot-password" data-testid="forgot-password-link" className="tap inline-flex items-center text-grove-deep">
+              Forgot password?
+            </Link>
           ) : null}
         </div>
       ) : null}
-      {message ? <p className="text-lg text-ink">{message}</p> : null}
+      {message ? (
+        <p className="text-lg text-ink" role="alert" data-testid="account-message">
+          {message}
+        </p>
+      ) : null}
     </section>
   );
 }

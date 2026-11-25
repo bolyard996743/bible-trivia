@@ -1,0 +1,128 @@
+export const LEGAL_EFFECTIVE = "November 2026";
+
+export type LegalSection = {
+  heading: string;
+  paragraphs: string[];
+};
+
+export const PRIVACY_INTRO =
+  "Noble Bereans is a Bible learning game. This page says what the app keeps, why it keeps it, and where it lives. It is written in ordinary language.";
+
+export const PRIVACY_SECTIONS: LegalSection[] = [
+  {
+    heading: "An account",
+    paragraphs: [
+      "If you create an account, we keep your email address so you can sign in, and so we can send a confirmation message or a password reset.",
+      "Your password is stored by Supabase Auth so you can sign in. The app never shows it back to you.",
+      "You choose a username. That name is the display name on the leaderboard and next to devotion comments. It cannot be changed later. Your email is not shown there.",
+      "We ask for your birth date: the month, the day, and the year. We use it to tell whether an account is allowed, and to choose teaching words for your age. For comments, we also keep a birth month and year. That month and year are not shown on the leaderboard or next to comments.",
+      "We also keep the guide you pick and whether sound is on.",
+    ],
+  },
+  {
+    heading: "Game progress",
+    paragraphs: [
+      "For an account, we keep where you are on the path, which questions you have mastered, how many times you missed a question, your streak, and your points.",
+      "The leaderboard can show your username and your point total to other players. It does not show your email, your birth date, or your age.",
+    ],
+  },
+  {
+    heading: "Devotion likes and comments",
+    paragraphs: [
+      "A like stores which day's devotion you liked. It does not store the verse.",
+      "A comment stores the words you write and which devotion they belong to. It does not store the verse. Other people can read a comment that is still visible, along with your username.",
+      "If you report a comment, we store that you reported it. One report hides that comment.",
+    ],
+  },
+  {
+    heading: "Bible highlights and notes",
+    paragraphs: [
+      "A highlight or note stores the book, the chapter, the verse numbers, a color, and your own words. It does not store a copy of the verse.",
+    ],
+  },
+  {
+    heading: "Where it is stored",
+    paragraphs: [
+      "Account information is stored with Supabase, in their hosted database and their sign-in service. The website itself is hosted on Vercel.",
+      "Without an account, progress, the birth date, the guide, the sound setting, highlights, and notes stay in this browser. They are not uploaded unless you later create an account and choose to move the progress on this device.",
+    ],
+  },
+  {
+    heading: "Scripture",
+    paragraphs: [
+      "Verse wording is requested from API.Bible. Scripture quotations marked NKJV are taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
+      "When a passage is shown, the app reports that display to API.Bible. If you are signed in, that report can include your account id. It does not include your email, your notes, or the words of a comment.",
+      "A short-lived copy of a chapter may be kept on our server so the same chapter is not requested again and again. Highlights and notes still store the reference and your words, not the verse.",
+    ],
+  },
+  {
+    heading: "Children under 13",
+    paragraphs: [
+      "Children under 13 cannot create an account. Their progress stays on this device. We do not make a profile for them in Supabase.",
+    ],
+  },
+  {
+    heading: "Asking for deletion",
+    paragraphs: [
+      "The app does not yet have a button that deletes an account.",
+      "TODO for the owner: put a contact address here so a player can ask for an account to be deleted.",
+      "Progress that lives only on this device can be removed by clearing this site's data in the browser.",
+    ],
+  },
+  {
+    heading: "What this app does not do",
+    paragraphs: [
+      "There is no shop and no advertising in the app. There is no place in the app that sells your information.",
+    ],
+  },
+];
+
+export const TERMS_INTRO =
+  "These terms are a plain description of how Noble Bereans is meant to be used. The effective date is November 2026.";
+
+export const TERMS_SECTIONS: LegalSection[] = [
+  {
+    heading: "A place to learn",
+    paragraphs: [
+      "Noble Bereans is a free game for learning the Bible. You can play on this device, or, if you are 13 or older, you can create an account so your progress can move with you.",
+    ],
+  },
+  {
+    heading: "Accounts",
+    paragraphs: [
+      "An account needs an email, a password, a username, and a birth date. Children under 13 cannot create an account. Guest progress stays on the device.",
+      "Your username is shown on the leaderboard and next to comments. Choose one you are glad for other players to see. It cannot be changed later.",
+    ],
+  },
+  {
+    heading: "Kindness in comments",
+    paragraphs: [
+      "Comments are for encouragement about the day's devotion. Be kind. A reported comment is hidden. Commenting can be closed on an account that is unkind.",
+      "Do not put your email address, phone number, or another person's private information in a comment.",
+    ],
+  },
+  {
+    heading: "Scripture",
+    paragraphs: [
+      "The verse text is the New King James Version, brought in through API.Bible. Scripture quotations marked NKJV are taken from the New King James Version®. Copyright © 1982 by Thomas Nelson. Used by permission. All rights reserved.",
+      "The app shows a verse so you can find the answer yourself. A miss does not reveal the choice.",
+    ],
+  },
+  {
+    heading: "Your information",
+    paragraphs: [
+      "The Privacy page says what is collected, why, and that it is stored with Supabase. Please read it before you create an account.",
+    ],
+  },
+  {
+    heading: "Changes",
+    paragraphs: [
+      "These pages can be updated. The date at the top of each page is the effective date.",
+    ],
+  },
+];
+
+export const FOOTER_LINKS = [
+  { href: "/privacy", label: "Privacy" },
+  { href: "/terms", label: "Terms" },
+] as const;

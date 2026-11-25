@@ -12,10 +12,15 @@ import { UsernamePrompt } from "@/components/UsernamePrompt";
 import { useAgeGate } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
 import { savePlayerState } from "@/lib/account/repository";
+import { skipsAgeGate } from "@/lib/shell-routes";
+import { SiteFooter } from "@/components/SiteFooter";
+import { usePathname } from "next/navigation";
 
 export function Shell({ children }: { children: ReactNode }) {
   const { state, ready } = useProfile();
   const gate = useAgeGate();
+  const pathname = usePathname();
+  const openWithoutBirthday = skipsAgeGate(pathname || "/");
 
   function toggleSound() {
     if (!state) return;
@@ -23,7 +28,7 @@ export function Shell({ children }: { children: ReactNode }) {
   }
 
   return (
-    <div className="mx-auto flex min-h-screen w-full max-w-3xl flex-col px-4 py-4 sm:px-6">
+    <div className="mx-auto flex min-h-screen w-full max-w-3xl min-w-0 flex-col px-4 py-4 sm:px-6">
       <ThemeSync />
       <header className="site-header mb-6 flex flex-nowrap items-center justify-between gap-3">
         <Link href={state?.placementComplete ? "/home" : "/"} className="inline-flex min-w-0 items-center">
@@ -37,7 +42,7 @@ export function Shell({ children }: { children: ReactNode }) {
               aria-checked={state.soundOn}
               aria-label={state.soundOn ? "Sound on" : "Sound off"}
               onClick={toggleSound}
-              className="rounded-full border border-line bg-card px-4 text-base text-ink"
+              className="rounded-full border border-line bg-card px-3 text-sm text-ink sm:px-4 sm:text-base"
             >
               Sound {state.soundOn ? "on" : "off"}
             </button>
@@ -45,9 +50,16 @@ export function Shell({ children }: { children: ReactNode }) {
         </div>
       </header>
       {gate.ready && gate.value ? <MainNav /> : null}
-      <main className="flex-1">
-        {!gate.ready ? <p className="text-lg text-ink-soft">Opening…</p> : gate.value ? children : <AgeGate />}
+      <main className="min-w-0 flex-1">
+        {!gate.ready ? (
+          <p className="text-lg text-ink-soft">Opening…</p>
+        ) : gate.value || openWithoutBirthday ? (
+          children
+        ) : (
+          <AgeGate />
+        )}
       </main>
+      <SiteFooter />
       {gate.value && !gate.value.under13 ? <BirthDatePrompt /> : null}
       {gate.value && !gate.value.under13 ? <UsernamePrompt /> : null}
       {gate.value ? <Turn13Prompt /> : null}

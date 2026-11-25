@@ -20,7 +20,7 @@ export function DailyDevotionCard({ devotion }: { devotion: DailyDevotionView })
       </div>
       <div className="relative z-10 flex min-h-[36rem] flex-col sm:min-h-[32rem]">
         <header>
-          <div className="bg-black/90 px-5 pt-5 pb-4">
+          <div className="bg-black/90 px-4 pt-5 pb-4 sm:px-5">
             <p className="text-sm font-medium tracking-wide">Daily Devotion</p>
             <p className="text-sm">Verse of the Day</p>
             <p data-testid="devotion-reference" className="mt-1 text-xl font-semibold">
@@ -31,11 +31,11 @@ export function DailyDevotionCard({ devotion }: { devotion: DailyDevotionView })
         </header>
         <div className="mt-auto">
           <div aria-hidden="true" className="h-20 bg-gradient-to-t from-black/90 to-transparent" />
-          <div className="bg-black/90 px-5 pb-5">
+          <div className="bg-black/90 px-4 pb-5 sm:px-5">
             {devotion.text ? (
               <blockquote
                 data-testid="devotion-verse"
-                className="font-serif text-[1.65rem] leading-snug text-white sm:text-3xl"
+                className="font-serif text-[1.45rem] leading-snug break-words text-white min-[24rem]:text-[1.65rem] sm:text-3xl"
               >
                 {devotion.text}
               </blockquote>

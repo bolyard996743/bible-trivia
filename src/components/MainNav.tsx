@@ -51,7 +51,7 @@ export function MainNav() {
             key={link.href}
             href={link.href}
             aria-current={current ? "page" : undefined}
-            className={`tap inline-flex min-w-0 items-center justify-center rounded-2xl border px-1.5 text-center text-sm whitespace-nowrap ${
+            className={`tap inline-flex min-w-0 items-center justify-center rounded-2xl border px-2 text-center text-sm leading-tight ${
               current ? "border-grove bg-grove font-semibold text-white" : "border-line bg-card text-ink"
             }`}
           >

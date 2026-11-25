@@ -120,8 +120,9 @@ test("a placed Established player sees earlier stages above and not Fruitful", a
   await expect(page.getByTestId("stage-block-seed")).toHaveAttribute("data-place", "skipped");
   await expect(page.getByTestId("stage-block-growing")).toHaveAttribute("data-place", "skipped");
   await expect(page.getByTestId("stage-block-established")).toHaveAttribute("data-place", "current");
-  await expect(page.getByTestId("stage-block-fruitful")).toHaveCount(0);
-  await expect(page.getByTestId("stage-block-deep-roots")).toHaveCount(0);
+  await expect(page.getByTestId("stage-block-fruitful")).toHaveAttribute("data-place", "locked");
+  await expect(page.getByTestId("stage-block-deep-roots")).toHaveAttribute("data-place", "locked");
+  await expect(page.getByTestId("badge-unlock-note").first()).toHaveText("Unlocks after you earn every badge before it");
   const skipped = page.getByTestId("badge-seed-jonah");
   await expect(skipped).toHaveAttribute("data-state", "empty");
   await expect(skipped).toHaveAttribute("href", "/play?badge=seed-jonah");

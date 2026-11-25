@@ -206,7 +206,7 @@ export function DevotionActions({
       </div>
       {needsSignIn ? (
         <p role="status" data-testid="like-sign-in" className="mt-3 text-center text-sm text-white">
-          <Link href="/account?mode=sign-in" className="underline">
+          <Link href="/account?mode=sign-in" className="tap inline-flex items-center underline">
             Sign in
           </Link>{" "}
           to like this verse.
