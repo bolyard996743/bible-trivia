@@ -14,6 +14,7 @@ import { signOut } from "@/lib/account/supabase";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { createState } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
+import { AddToHomeSettings } from "@/components/AddToHomeScreen";
 import { AuthLegalNotice } from "@/components/AuthLegalNotice";
 import { DeleteAccountControl } from "@/components/DeleteAccountControl";
 import { HapticsToggle } from "@/components/HapticsToggle";
@@ -110,6 +111,7 @@ export function ProfileEditor({
           </Link>
         ) : null}
         {mode === "settings" && offerAccount ? <AuthLegalNotice /> : null}
+        {mode === "settings" ? <AddToHomeSettings /> : null}
       </div>
 
       {gate.value?.under13 ? (

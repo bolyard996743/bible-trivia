@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { describe, expect, it } from "vitest";
+import manifest from "../src/app/manifest";
 
 const root = process.cwd();
 
@@ -8,7 +9,7 @@ describe("Noble Bereans", () => {
   it("uses the game name in user-facing copy and keeps the package name", () => {
     const files = [
       "README.md",
-      "public/manifest.webmanifest",
+      "src/app/manifest.ts",
       "src/app/layout.tsx",
       "src/app/page.tsx",
       "src/components/SiteLogo.tsx",
@@ -19,17 +20,15 @@ describe("Noble Bereans", () => {
       expect(text, file).not.toMatch(/Lamp & Path/);
       expect(text, file).not.toMatch(/Bible Trivia/);
     }
-    const manifest = JSON.parse(fs.readFileSync(path.join(root, "public/manifest.webmanifest"), "utf8")) as {
-      name: string;
-      short_name: string;
-    };
-    expect(manifest.name).toBe("Noble Bereans");
-    expect(manifest.short_name).toBe("Noble Bereans");
-    const manifestIcons = (
-      JSON.parse(fs.readFileSync(path.join(root, "public/manifest.webmanifest"), "utf8")) as {
-        icons: { src: string; purpose: string }[];
-      }
-    ).icons;
+    const webManifest = manifest();
+    expect(webManifest.name).toBe("Noble Bereans");
+    expect(webManifest.short_name).toBe("Noble Bereans");
+    expect(webManifest.display).toBe("standalone");
+    expect(webManifest.start_url).toBe("/");
+    expect(webManifest.scope).toBe("/");
+    expect(webManifest.theme_color).toBe("#1a7a42");
+    expect(webManifest.background_color).toBe("#f8e6c6");
+    const manifestIcons = webManifest.icons ?? [];
     expect(manifestIcons.some((icon) => icon.purpose === "any" && icon.src.endsWith("icon-512.png"))).toBe(true);
     expect(manifestIcons.some((icon) => icon.purpose === "maskable")).toBe(true);
     for (const file of [

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: "Noble Bereans",
   description: "Noble Bereans teaches from Scripture and waits until you know the answer.",
   applicationName: "Noble Bereans",
-  manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
     title: "Noble Bereans",
@@ -39,6 +38,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
         <script dangerouslySetInnerHTML={{ __html: THEME_BOOT }} />
       </head>
       <body>

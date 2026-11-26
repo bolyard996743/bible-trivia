@@ -299,8 +299,10 @@ describe("API.Bible stays on the server", () => {
     walkSecrets(root);
     expect(secretHits).toEqual([]);
     const worker = fs.readFileSync(path.join(process.cwd(), "public/sw.js"), "utf8");
-    expect(worker).toContain('url.pathname.startsWith("/api/bible")');
-    expect(worker).toContain("no-store");
+    expect(worker).toContain("skipWaiting");
+    expect(worker).toContain("clients.claim");
+    expect(worker).not.toMatch(/cache\.put|caches\.open|caches\.match/);
+    expect(worker).not.toMatch(/addEventListener\(\s*["']fetch["']/);
   });
 });
 
