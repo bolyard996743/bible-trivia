@@ -108,6 +108,8 @@ function StageBlock({
   reducedMotion: boolean;
 }) {
   const block = stagePath(stage);
+  const badges = visibleBadges(block?.badges ?? []);
+  const earnedCount = badges.filter((badge) => badgeEarned(progress, badge)).length;
   const skipped = !ahead && stageRank(stage) < stageRank(current);
   return (
     <section
@@ -116,7 +118,16 @@ function StageBlock({
       data-place={ahead ? "locked" : skipped ? "skipped" : "current"}
     >
       <div>
-        <h2 className="text-3xl font-semibold text-grove-deep">{stage}</h2>
+        {ahead ? (
+          <h2 className="text-3xl font-semibold text-grove-deep">{stage}</h2>
+        ) : (
+          <h2 className="stage-heading text-3xl font-semibold text-grove-deep">
+            <span>{stage}</span>
+            <span className="stage-count" data-testid={`stage-count-${stageSlug(stage)}`}>
+              {earnedCount} of {badges.length}
+            </span>
+          </h2>
+        )}
         <p className="mt-1 text-lg text-ink" data-testid={`stage-learning-${stageSlug(stage)}`}>
           {STAGE_LEARNING[stage]}
         </p>
@@ -127,21 +138,22 @@ function StageBlock({
         ) : null}
       </div>
       <ul className="grid grid-cols-2 gap-x-3 gap-y-5 min-[24rem]:grid-cols-3 sm:grid-cols-4" aria-label={`${stage} badges`}>
-        {visibleBadges(block?.badges ?? []).map((badge) => {
+        {badges.map((badge) => {
           const earned = badgeEarned(progress, badge);
           const waiting = !earned && !ahead && isBadgeWaiting(progress, badge.id, now);
           const status: BadgeEmblemStatus = earned ? "earned" : ahead ? "sealed" : waiting ? "locked" : "empty";
           const attention: BadgeAttention = seen
             ? badgeAttention(earned, seen.includes(badge.id), reducedMotion)
             : "none";
+          const faded = !earned && !ahead;
           return (
-            <li key={badge.id}>
+            <li key={badge.id} className="min-w-0">
               <Link
                 href={badgePlayHref(badge.id)}
                 data-testid={`badge-${badge.id}`}
                 data-state={status}
                 aria-label={badgeStatusLabel(badge.name, status)}
-                className="badge-link flex flex-col items-center gap-2 rounded-2xl px-1 py-1"
+                className={`badge-link flex flex-col items-center gap-2 rounded-2xl px-1 py-1${faded ? " map-unearned" : ""}`}
               >
                 <BadgeEmblem topic={badge.art} slug={badge.id} status={status} attention={attention} />
                 <span className={`badge-caption ${earned ? "text-grove-deep" : "text-ink"}`}>{badge.name}</span>
