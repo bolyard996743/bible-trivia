@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { BadgeEarnedBar } from "@/components/BadgeEarnedBar";
+import { WeeklyGoalRing } from "@/components/WeeklyGoalRing";
 import { BadgeShelf } from "@/components/BadgeShelf";
 import { KnowledgePath } from "@/components/KnowledgePath";
 import { MascotMark } from "@/components/MascotMark";
@@ -17,6 +18,7 @@ import { loadPlayedDays } from "@/lib/account/daily-plays";
 import { ACCOUNT_DELETED_MESSAGE } from "@/lib/account/delete-account-copy";
 import { savePlayerState } from "@/lib/account/repository";
 import { impliedDays, recordFromDays, sameDaily, shouldWelcomeBack, visibleDailyStreak, WELCOME_BACK } from "@/lib/play/daily-streak";
+import { readWeeklyCount } from "@/lib/play/weekly-goal";
 import { todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
@@ -31,6 +33,8 @@ export function HomeClient({
 }) {
   const router = useRouter();
   const { state, ready } = useProfile();
+  const [weeklyCount, setWeeklyCount] = useState(0);
+  const [reducedMotion, setReducedMotion] = useState(false);
   const visitOnArrival = useRef<string | null | undefined>(undefined);
   if (state && visitOnArrival.current === undefined) {
     visitOnArrival.current = state.lastVisitedOn;
@@ -51,6 +55,20 @@ export function HomeClient({
     if (state.lastVisitedOn === today) return;
     savePlayerState({ ...state, lastVisitedOn: today });
   }, [accountDeleted, ready, state, router]);
+
+  useEffect(() => {
+    try {
+      setWeeklyCount(readWeeklyCount(window.localStorage, new Date()));
+    } catch {
+      setWeeklyCount(0);
+    }
+    if (typeof window.matchMedia !== "function") return;
+    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const apply = () => setReducedMotion(query.matches);
+    apply();
+    query.addEventListener("change", apply);
+    return () => query.removeEventListener("change", apply);
+  }, [state]);
 
   useEffect(() => {
     if (!state || state.ageGroup === "child") return;
@@ -111,6 +129,7 @@ export function HomeClient({
           {stage} · Cycle {state.progress.cycle}
         </p>
         <p>{section ? `Current section: ${section}` : "More of this part is still being written."}</p>
+        <WeeklyGoalRing count={weeklyCount} reducedMotion={reducedMotion} />
         <p data-testid="streak">
           {state.progress.streak > 0
             ? `Streak: ${state.progress.streak} first-try correct in a row`
