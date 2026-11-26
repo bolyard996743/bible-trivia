@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ContactUs } from "@/components/ContactUs";
 import type { LegalSection } from "@/lib/legal";
 import { LEGAL_EFFECTIVE } from "@/lib/legal";
 
@@ -28,6 +29,7 @@ export function LegalDocument({
               {paragraph}
             </p>
           ))}
+          {section.heading === "Contact" ? <ContactUs /> : null}
         </section>
       ))}
       <p className="text-lg text-ink">

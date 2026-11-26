@@ -1,9 +1,6 @@
 export const LEGAL_EFFECTIVE = "November 26, 2026";
 
-/**
- * TODO: Replace this placeholder with the real contact address before these pages are treated as final.
- */
-export const CONTACT_EMAIL = "CONTACT_EMAIL_PLACEHOLDER@example.com";
+export const CONTACT_LINE = "We would be glad to hear from you.";
 
 export type LegalSection = {
   heading: string;
@@ -118,7 +115,7 @@ export const PRIVACY_SECTIONS: LegalSection[] = [
   },
   {
     heading: "Contact",
-    paragraphs: [`You can write to us at ${CONTACT_EMAIL}.`],
+    paragraphs: [CONTACT_LINE],
   },
 ];
 
@@ -177,7 +174,7 @@ export const TERMS_SECTIONS: LegalSection[] = [
   },
   {
     heading: "Contact",
-    paragraphs: [`You can write to us at ${CONTACT_EMAIL}.`],
+    paragraphs: [CONTACT_LINE],
   },
 ];
 

@@ -1,13 +1,17 @@
 // @vitest-environment happy-dom
+import { readdirSync, readFileSync, statSync } from "node:fs";
+import path from "node:path";
 import { createElement, type ReactNode } from "react";
 import { createRoot, type Root } from "react-dom/client";
 import { act } from "react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { NKJV_COPYRIGHT } from "@/lib/bible/notice";
+import { buildContactMailto } from "@/components/ContactUs";
 import {
-  CONTACT_EMAIL,
+  CONTACT_LINE,
   FOOTER_LINKS,
   LEGAL_EFFECTIVE,
+  PRIVACY_INTRO,
   PRIVACY_SECTIONS,
   TERMS_INTRO,
   TERMS_SECTIONS,
@@ -41,6 +45,24 @@ afterEach(() => {
 
 function joined(sections: { heading: string; paragraphs: string[] }[]): string {
   return sections.flatMap((section) => [section.heading, ...section.paragraphs]).join(" ");
+}
+
+/** Assembled only in the test, so the suite can look for an address the app must not print. */
+function hiddenAddress(): string {
+  return ["BolyardGarage", "gmail.com"].join(String.fromCharCode(64));
+}
+
+function readSourceTree(dir: string): string {
+  let text = "";
+  for (const name of readdirSync(dir)) {
+    const full = path.join(dir, name);
+    if (statSync(full).isDirectory()) {
+      text += readSourceTree(full);
+      continue;
+    }
+    if (/\.(ts|tsx|js|jsx|css|json|md)$/.test(name)) text += readFileSync(full, "utf8");
+  }
+  return text;
 }
 
 describe("legal pages", () => {
@@ -87,7 +109,9 @@ describe("legal pages", () => {
     expect(privacy).toContain("aren't tax-deductible right now");
     expect(privacy).toContain("Payment is handled by Stripe, on Stripe's own site. We never see or store card numbers.");
     expect(privacy).toContain("The game stays free.");
-    expect(privacy).toContain(CONTACT_EMAIL);
+    expect(privacy).toContain(CONTACT_LINE);
+    expect(privacy).not.toContain(hiddenAddress());
+    expect(privacy).not.toContain("CONTACT_EMAIL_PLACEHOLDER");
     expect(privacy).not.toContain("There is no shop");
     expect(privacy).not.toContain("TODO");
     expect(privacy).not.toContain("does not yet have a button");
@@ -106,7 +130,9 @@ describe("legal pages", () => {
     expect(terms).toContain("Bolyard Garage");
     expect(terms).toContain("Payment is handled by Stripe, on Stripe's own site. We never see or store card numbers.");
     expect(terms).toContain("The game stays free.");
-    expect(terms).toContain(CONTACT_EMAIL);
+    expect(terms).toContain(CONTACT_LINE);
+    expect(terms).not.toContain(hiddenAddress());
+    expect(terms).not.toContain("CONTACT_EMAIL_PLACEHOLDER");
     expect(terms).not.toMatch(/attorney|warranty|arbitration/i);
   });
 
@@ -121,7 +147,7 @@ describe("legal pages", () => {
     );
     expect(privacy.querySelector("[data-testid=privacy-page] h1")?.textContent).toBe("Privacy");
     expect(privacy.textContent).toContain("Effective November 26, 2026");
-    expect(privacy.textContent).toContain(CONTACT_EMAIL);
+    expect(privacy.textContent).toContain(CONTACT_LINE);
     expect(privacy.querySelector('a[href="/terms"]')).not.toBeNull();
     act(() => root?.unmount());
 
@@ -130,5 +156,52 @@ describe("legal pages", () => {
     for (const link of FOOTER_LINKS) {
       expect(footer.querySelector(`a[href="${link.href}"]`)?.textContent).toBe(link.label);
     }
+  });
+
+  it("offers Contact us on both pages without printing the address", () => {
+    const address = hiddenAddress();
+    const pages = [
+      { title: "Privacy", intro: PRIVACY_INTRO, sections: PRIVACY_SECTIONS, testId: "privacy-page" },
+      { title: "Terms", intro: TERMS_INTRO, sections: TERMS_SECTIONS, testId: "terms-page" },
+    ];
+    for (const page of pages) {
+      const view = render(createElement(LegalDocument, page));
+      const control = view.querySelector("[data-testid=contact-us]");
+      expect(control?.tagName).toBe("BUTTON");
+      expect(control?.getAttribute("type")).toBe("button");
+      expect(control?.textContent).toBe("Contact us");
+      expect(view.textContent).toContain(CONTACT_LINE);
+      expect(view.textContent).not.toContain(address);
+      expect(view.innerHTML).not.toContain(address);
+      expect(view.innerHTML).not.toContain("mailto:");
+      expect(view.innerHTML).not.toContain(address.split("@")[0] ?? "");
+      act(() => root?.unmount());
+    }
+
+    const legalText = `${PRIVACY_INTRO} ${joined(PRIVACY_SECTIONS)} ${TERMS_INTRO} ${joined(TERMS_SECTIONS)}`;
+    expect(legalText).not.toContain(address);
+    expect(readSourceTree(path.join(process.cwd(), "src"))).not.toContain(address);
+
+    const assigned: string[] = [];
+    const assign = vi.spyOn(window.location, "assign").mockImplementation((url) => {
+      assigned.push(String(url));
+    });
+    const view = render(
+      createElement(LegalDocument, {
+        title: "Privacy",
+        intro: PRIVACY_INTRO,
+        sections: PRIVACY_SECTIONS,
+        testId: "privacy-page",
+      }),
+    );
+    const control = view.querySelector("[data-testid=contact-us]");
+    expect(control).toBeInstanceOf(HTMLButtonElement);
+    act(() => {
+      (control as HTMLButtonElement).click();
+    });
+    expect(assigned).toEqual([buildContactMailto()]);
+    expect(assigned[0]).toBe(`mailto:${address}?subject=Noble%20Bereans`);
+    expect(view.innerHTML).not.toContain(address);
+    assign.mockRestore();
   });
 });
