@@ -1,4 +1,6 @@
-export const LEGAL_EFFECTIVE = "November 2026";
+export const LEGAL_EFFECTIVE = "November 26, 2026";
+
+export const CONTACT_LINE = "We would be glad to hear from you.";
 
 export type LegalSection = {
   heading: string;
@@ -22,8 +24,42 @@ export const PRIVACY_SECTIONS: LegalSection[] = [
   {
     heading: "Game progress",
     paragraphs: [
-      "For an account, we keep where you are on the path, which questions you have mastered, how many times you missed a question, your streak, and your points.",
-      "The leaderboard can show your username and your point total to other players. It does not show your email, your birth date, or your age.",
+      "For an account, we keep where you are on the path, which questions you have mastered, how many times you missed a question, your streak of right answers, and your points.",
+      "If you are signed in, the account also keeps which days you played. That list is there for your daily streak. The weekly board does not use it. The weekly board adds up points earned this week.",
+      "The all-time board and the weekly board show a username, points, and a place in the list. They do not show an email, a birth date, or an age.",
+      "Guests and children keep the days they played on this device only. They are not listed on the boards, and their points stay on this device.",
+    ],
+  },
+  {
+    heading: "The daily question",
+    paragraphs: [
+      "The daily streak and the daily question are kept with your progress on this device.",
+      "The daily question record keeps the day, which question it was, whether the answer was right, and the verse references. It does not keep the wording of the question, the answer, or the verse text. That record stays on this device, even when you are signed in.",
+      "A share picture is drawn on this device when you choose Share. We do not post it. The app you pick receives the picture and a short line about the badge. If that app cannot take it, the picture can be saved on this device instead.",
+    ],
+  },
+  {
+    heading: "My Verses",
+    paragraphs: [
+      "My Verses lives on this device only. It keeps the verse references shown after a miss. It does not keep the question, the answer, or the verse text.",
+      "Opening one asks API.Bible for the wording, in the way the Scripture section describes.",
+      "Clearing this site's data in the browser removes the list.",
+    ],
+  },
+  {
+    heading: "On this device",
+    paragraphs: [
+      "You can turn vibration on or off. That choice stays on this device. It is not part of your score, and it is not saved on an account.",
+      "A glow can grow when answers in a row are right, and a ring can fill as you answer questions during the week. Those counts stay on this device. They are only for the display. They are not part of your score, and they do not change the boards.",
+      "Sound on or off is kept with the guide you pick. On an account, that setting is saved with the account. It is not part of your score.",
+    ],
+  },
+  {
+    heading: "Add to Home Screen",
+    paragraphs: [
+      "Add to Home Screen does not keep pages or progress for use offline.",
+      "If you dismiss the banner, that choice stays on this device.",
+      "To show the right steps, the site looks at the browser only. Nothing about that look is stored or sent.",
     ],
   },
   {
@@ -71,13 +107,20 @@ export const PRIVACY_SECTIONS: LegalSection[] = [
   {
     heading: "What this app does not do",
     paragraphs: [
-      "There is no shop and no advertising in the app. There is no place in the app that sells your information.",
+      "There is no advertising. We do not sell your information. Optional gifts are on the Donate page.",
+      "Noble Bereans is run by Bolyard Garage. We're working toward nonprofit status but aren't approved yet, so gifts aren't tax-deductible right now.",
+      "Payment is handled by Stripe, on Stripe's own site. We never see or store card numbers.",
+      "A gift is optional. It does not change your points, your progress, or what you can play. The game stays free.",
     ],
+  },
+  {
+    heading: "Contact",
+    paragraphs: [CONTACT_LINE],
   },
 ];
 
 export const TERMS_INTRO =
-  "These terms are a plain description of how Noble Bereans is meant to be used. The effective date is November 2026.";
+  `These terms are a plain description of how Noble Bereans is meant to be used. The effective date is ${LEGAL_EFFECTIVE}.`;
 
 export const TERMS_SECTIONS: LegalSection[] = [
   {
@@ -91,6 +134,7 @@ export const TERMS_SECTIONS: LegalSection[] = [
     paragraphs: [
       "An account needs an email, a password, a username, and a birth date. Children under 13 cannot create an account. Guest progress stays on the device.",
       "Your username is shown on the leaderboard and next to comments. Choose one you are glad for other players to see. It cannot be changed later.",
+      "If you are signed in, you can delete your account in Settings.",
     ],
   },
   {
@@ -114,10 +158,23 @@ export const TERMS_SECTIONS: LegalSection[] = [
     ],
   },
   {
+    heading: "Gifts",
+    paragraphs: [
+      "There is no advertising. We do not sell your information. Optional gifts are on the Donate page.",
+      "Noble Bereans is run by Bolyard Garage. We're working toward nonprofit status but aren't approved yet, so gifts aren't tax-deductible right now.",
+      "Payment is handled by Stripe, on Stripe's own site. We never see or store card numbers.",
+      "A gift is optional. It does not change your points, your progress, or what you can play. The game stays free.",
+    ],
+  },
+  {
     heading: "Changes",
     paragraphs: [
       "These pages can be updated. The date at the top of each page is the effective date.",
     ],
+  },
+  {
+    heading: "Contact",
+    paragraphs: [CONTACT_LINE],
   },
 ];
 
