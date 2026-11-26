@@ -13,6 +13,14 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   allowedDevOrigins: ["127.0.0.1"],
+  async headers() {
+    return [
+      {
+        source: "/sw.js",
+        headers: [{ key: "Cache-Control", value: "no-cache" }],
+      },
+    ];
+  },
   // /play awaits searchParams, so loadCatalog() reads content/ inside the
   // serverless function. Home is dynamic for the daily devotion too.
   outputFileTracingIncludes: {

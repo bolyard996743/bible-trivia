@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import { AddToHomeBanner } from "@/components/AddToHomeScreen";
 import { BadgeEarnedBar } from "@/components/BadgeEarnedBar";
 import { WeeklyGoalRing } from "@/components/WeeklyGoalRing";
 import { BadgeShelf } from "@/components/BadgeShelf";
@@ -122,6 +123,7 @@ export function HomeClient({
         <h1 className="text-3xl font-semibold text-grove-deep">Your Knowledge Path</h1>
         <p className="mt-2 text-base text-ink-soft">{PATH_PRIVACY}</p>
       </div>
+      <AddToHomeBanner />
       <BadgeEarnedBar earned={countEarnedBadges(state.progress)} total={countCatalogBadges()} />
       <KnowledgePath progress={{ ...state.progress, stage }} variant="reached" />
       <div className="grid gap-2 rounded-3xl border border-line bg-card p-5 text-lg">
