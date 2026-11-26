@@ -31,7 +31,11 @@ import { useProfile } from "@/lib/use-profile";
 export function DailyMissPanel({ refs }: { refs: string[] }) {
   const listed = refs.join("\n");
   useEffect(() => {
-    rememberMissedVersesHere(listed.split("\n"));
+    try {
+      rememberMissedVersesHere(listed.split("\n"));
+    } catch {
+      // A blocked browser still shows the verse for this miss.
+    }
   }, [listed]);
 
   return (

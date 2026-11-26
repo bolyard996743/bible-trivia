@@ -162,7 +162,11 @@ export function QuestionSession({
 
   useEffect(() => {
     if (attempt.phase !== "teaching") return;
-    rememberMissedVersesHere(verseKey.split("\n"));
+    try {
+      rememberMissedVersesHere(verseKey.split("\n"));
+    } catch {
+      // Saving a reference must not undo the miss that was just recorded.
+    }
   }, [attempt.phase, verseKey]);
 
   useEffect(() => {

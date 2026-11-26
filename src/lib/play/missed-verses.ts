@@ -31,9 +31,9 @@ export function addMissedVerses(existing: readonly string[], refs: readonly stri
 }
 
 export function readMissedVerses(storage: { getItem(key: string): string | null }): string[] {
-  const raw = storage.getItem(MISSED_VERSES_KEY);
-  if (!raw) return [];
   try {
+    const raw = storage.getItem(MISSED_VERSES_KEY);
+    if (!raw) return [];
     const value = JSON.parse(raw) as unknown;
     if (!Array.isArray(value)) return [];
     return addMissedVerses([], value.filter((item): item is string => typeof item === "string"));
@@ -46,12 +46,20 @@ export function writeMissedVerses(
   storage: { getItem(key: string): string | null; setItem(key: string, value: string): void },
   refs: readonly string[],
 ): string[] {
-  const next = addMissedVerses(readMissedVerses(storage), refs);
-  storage.setItem(MISSED_VERSES_KEY, JSON.stringify(next));
-  return next;
+  try {
+    const next = addMissedVerses(readMissedVerses(storage), refs);
+    storage.setItem(MISSED_VERSES_KEY, JSON.stringify(next));
+    return next;
+  } catch {
+    return [];
+  }
 }
 
 export function rememberMissedVersesHere(refs: readonly string[]): string[] {
-  if (typeof window === "undefined") return [];
-  return writeMissedVerses(window.localStorage, refs);
+  try {
+    if (typeof window === "undefined") return [];
+    return writeMissedVerses(window.localStorage, refs);
+  } catch {
+    return [];
+  }
 }

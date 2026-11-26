@@ -42,8 +42,11 @@ vi.mock("@/lib/bible/passage-client", () => ({
 
 import { MainNav } from "@/components/MainNav";
 import { MyVersesClient } from "@/components/MyVersesClient";
+import { QuestionSession } from "@/components/QuestionSession";
 import { NKJV_COPYRIGHT } from "@/lib/bible/notice";
+import type { MascotLine, Question } from "@/lib/game/types";
 import { addMissedVerses, MISSED_VERSES_KEY, readMissedVerses, verseReference, writeMissedVerses } from "@/lib/play/missed-verses";
+import { TAP_GUARD_MS } from "@/lib/play/tap-guard";
 
 let root: Root | null = null;
 
@@ -133,4 +136,92 @@ describe("missed verses", () => {
     const link = nav.querySelector('a[href="/verses"]');
     expect(link?.textContent).toBe("My Verses");
   });
+
+  it("still submits the miss when storage throws", async () => {
+    vi.useFakeTimers();
+    const blocked = {
+      getItem() {
+        throw new Error("blocked");
+      },
+      setItem() {
+        throw new Error("blocked");
+      },
+      removeItem() {
+        throw new Error("blocked");
+      },
+      clear() {
+        throw new Error("blocked");
+      },
+      key() {
+        return null;
+      },
+      length: 0,
+    };
+    const realStorage = window.localStorage;
+    Object.defineProperty(window, "localStorage", { configurable: true, value: blocked });
+    const onAttemptChange = vi.fn();
+    const line: MascotLine = {
+      id: "wrong",
+      mascot: "judah",
+      moment: "wrong_intro",
+      audience: "all",
+      text: "Let's look together.",
+      audio_file: null,
+      question_id: null,
+    };
+    try {
+      const view = mount(
+        createElement(QuestionSession, {
+          question: sampleQuestion(),
+          ageGroup: "adult",
+          mascot: "judah",
+          lines: [line],
+          soundOn: false,
+          audioFiles: [],
+          onAttemptChange,
+          onContinue: () => undefined,
+        }),
+      );
+      await act(async () => {
+        await vi.advanceTimersByTimeAsync(TAP_GUARD_MS);
+      });
+      const choice = view.querySelector('[data-testid="choice-a"]');
+      if (!(choice instanceof HTMLButtonElement)) throw new Error("missing choice");
+      act(() => {
+        choice.click();
+      });
+      expect(onAttemptChange).toHaveBeenCalledTimes(1);
+      expect(onAttemptChange.mock.calls[0]?.[0].phase).toBe("teaching");
+      expect(view.querySelector('[data-testid="teaching"]')).not.toBeNull();
+    } finally {
+      Object.defineProperty(window, "localStorage", { configurable: true, value: realStorage });
+      vi.useRealTimers();
+    }
+  });
 });
+
+function sampleQuestion(): Question {
+  return {
+    id: "q1",
+    cycle: 1,
+    tier: "foundation",
+    testament: "OT",
+    book: "Genesis",
+    section: "Creation",
+    topics: ["sample"],
+    placement_eligible: false,
+    type: "multiple_choice",
+    prompt: { adult: "Who made the world?" },
+    choices: [
+      { id: "a", text: "A neighbor" },
+      { id: "b", text: "God" },
+    ],
+    answer: "b",
+    teaching: {
+      verses: [{ ref: "Genesis 1:1", text: "", translation: "NKJV" }],
+      explanation: { adult: "The verse tells the story." },
+      takeaway: "God made the world.",
+    },
+    review: { status: "draft", notes: "" },
+  };
+}
