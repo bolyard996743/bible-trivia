@@ -22,6 +22,7 @@ import {
 } from "@/lib/game/daily-challenge";
 import { MASCOTS } from "@/lib/game/types";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
+import { buzzAnswerHere } from "@/lib/play/haptics";
 import { shouldWelcomeBack, visibleDailyStreak, WELCOME_BACK } from "@/lib/play/daily-streak";
 import { acceptGuardedTap } from "@/lib/play/tap-guard";
 import { todayKey } from "@/lib/storage";
@@ -106,6 +107,11 @@ export function DailyChallengeClient() {
       return;
     }
     playAnswerSound(graded.correct ? "correct" : "miss", state.soundOn);
+    try {
+      buzzAnswerHere(graded.correct);
+    } catch {
+      // Vibration and storage must not stop the daily answer.
+    }
     const next = finishDailyChallenge(state, {
       day: today,
       questionId: ask.id,
