@@ -12,8 +12,8 @@ export const NOBLE_BEREAN_DONATE_URL = "https://buy.stripe.com/5kQ00kbKS72zgNMc8
 
 export const PILLAR_SUPPORTER_DONATE_URL = "https://buy.stripe.com/9B67sMg18fz5fJIdd19k404";
 
-/** Custom amount. Null until a payment link exists. */
-export const GIVE_AS_LED_DONATE_URL: string | null = null;
+/** Custom amount. */
+export const GIVE_AS_LED_DONATE_URL: string | null = "https://buy.stripe.com/14A28saGOev12WWfl99k405";
 
 /** True only for a real https link. Empty, null, and TODO values stay off the page. */
 export function isLiveDonateUrl(url: string | null | undefined): url is string {
