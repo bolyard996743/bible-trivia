@@ -147,10 +147,25 @@ describe("stage map hides badges the player has not reached", () => {
     const ahead = badgeSlice(html, "badge-fruitful-jude");
     expect(ahead).toContain('data-state="sealed"');
     expect(ahead).toContain('data-chip="lock"');
-    expect(ahead).not.toContain("map-unearned");
+    expect(ahead).toContain("map-unearned");
+    expect(ahead).not.toContain("href=");
+    expect(ahead).not.toContain("<a ");
+    expect(ahead).not.toContain("<button");
+    expect(ahead.toLowerCase()).not.toMatch(/\b(difficulty|easy|intermediate|advanced|expert|ages?)\b/);
     expect(html).toContain("stage-block-fruitful");
     expect(html).toContain("stage-block-deep-roots");
     expect(html).toContain('data-place="locked"');
+    for (const chunk of html.split('data-testid="badge-').slice(1)) {
+      const state = /data-state="([^"]+)"/.exec(chunk)?.[1];
+      if (!state) continue;
+      if (state === "earned") {
+        expect(chunk).not.toContain("map-unearned");
+      } else {
+        expect(chunk, state).toContain("map-unearned");
+      }
+      if (state === "sealed") expect(chunk).not.toContain('href="/play?badge=');
+      if (state === "empty" || state === "locked") expect(chunk).toContain('href="/play?badge=');
+    }
     expect(badgeStatusLabel("Creation", "earned")).toBe("Creation, earned");
     expect(badgeStatusLabel("Creation", "empty")).toBe("Creation, not earned yet");
     expect(badgeStatusLabel("Creation", "locked")).toBe("Creation, not earned yet. Locked for 24 hours");
@@ -172,6 +187,10 @@ describe("stage map hides badges the player has not reached", () => {
     expect(html).not.toContain('data-testid="stage-count-deep-roots"');
     expect(html).toContain('data-place="locked"');
     expect(html).toContain("Unlocks after you earn every badge before it");
+    const lockedStage = html.slice(html.indexOf('data-testid="stage-block-fruitful"'), html.indexOf('data-testid="stage-block-deep-roots"'));
+    expect(lockedStage).toContain("map-unearned");
+    expect(lockedStage).toContain('data-chip="lock"');
+    expect(lockedStage).not.toContain('href="/play?badge=');
     const css = fs.readFileSync(path.join(process.cwd(), "src/app/globals.css"), "utf8");
     const faded = css.match(/\.map-unearned \.badge-art\s*\{[^}]+\}/)?.[0] ?? "";
     expect(faded).toContain("grayscale(1)");
