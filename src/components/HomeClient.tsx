@@ -11,6 +11,7 @@ import { StreakFlame } from "@/components/StreakFlame";
 import { PATH_PRIVACY } from "@/lib/copy";
 import { knowledgeStage, pickMascotLine } from "@/lib/game";
 import { countCatalogBadges, countEarnedBadges } from "@/lib/game/badges";
+import { shelfStages } from "@/lib/game/badge-shelf";
 import { currentSection } from "@/lib/game/progression";
 import { MASCOTS, type MascotLine, type Question } from "@/lib/game/types";
 import { loadPlayedDays } from "@/lib/account/daily-plays";
@@ -132,7 +133,7 @@ export function HomeClient({
           </p>
         </div>
       </div>
-      <BadgeShelf progress={state.progress} questions={questions} dailyBadges={state.dailyBadges} />
+      <BadgeShelf stages={shelfStages({ ...state.progress, stage }, questions)} dailyBadges={state.dailyBadges} />
       <Link href="/path" data-testid="stage-map-link" className="tap inline-flex items-center justify-center rounded-2xl border border-grove px-4 text-lg text-grove-deep">
         Stage map
       </Link>
