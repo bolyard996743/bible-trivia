@@ -15,6 +15,7 @@ import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { createState } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 import { AuthLegalNotice } from "@/components/AuthLegalNotice";
+import { DeleteAccountControl } from "@/components/DeleteAccountControl";
 
 export function ProfileEditor({
   lines,
@@ -177,6 +178,7 @@ export function ProfileEditor({
       >
         {mode === "setup" ? "Continue" : "Save"}
       </button>
+      {mode === "settings" && auth.email ? <DeleteAccountControl /> : null}
     </form>
   );
 }

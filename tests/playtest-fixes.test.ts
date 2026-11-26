@@ -48,7 +48,9 @@ describe("stage lists stop at the stage a player has reached", () => {
     const results = fs.readFileSync(path.join(process.cwd(), "src/components/ResultsClient.tsx"), "utf8");
     const pathList = fs.readFileSync(path.join(process.cwd(), "src/components/KnowledgePath.tsx"), "utf8");
     expect(home).toContain("<KnowledgePath");
+    expect(home).toContain('variant="reached"');
     expect(results).toContain("<KnowledgePath");
+    expect(results).not.toContain('variant="reached"');
     expect(pathList).toContain("mapStageRows");
     expect(pathList).not.toContain("KNOWLEDGE_PATH");
     expect(visibleMapStages({ stage: "Seed" })).toEqual(["Seed"]);

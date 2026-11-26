@@ -144,7 +144,7 @@ export function parseState(raw: string | null): StoredState | null {
   }
 }
 
-type LocalBucket = {
+export type LocalBucket = {
   getItem(key: string): string | null;
   setItem?(key: string, value: string): void;
   removeItem?(key: string): void;
