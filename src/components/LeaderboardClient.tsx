@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { STARTING_REASSURANCE } from "@/lib/copy";
 import type { MascotLine, Question } from "@/lib/game/types";
-import { fetchAroundScore, fetchSignedInBoards, fetchTopBoard, type PublicBoardRow } from "@/lib/account/leaderboard";
+import { fetchAroundScore, fetchSignedInBoards, fetchTopBoard, fetchWeeklyBoard, type PublicBoardRow } from "@/lib/account/leaderboard";
 import { useAgeGate, useSignedIn } from "@/lib/account/use-access";
 import { useProfile } from "@/lib/use-profile";
 
@@ -33,6 +33,8 @@ export function LeaderboardClient({ questions, lines }: { questions: Question[];
   const auth = useSignedIn();
   const [rows, setRows] = useState<PublicBoardRow[]>([]);
   const [near, setNear] = useState<PublicBoardRow[]>([]);
+  const [weekly, setWeekly] = useState<PublicBoardRow[]>([]);
+  const [tab, setTab] = useState<"all" | "week">("all");
   const points = state?.progress.points ?? 0;
   const under13 = gate.value?.under13 || state?.ageGroup === "child";
   const localBoard = !auth.email || under13;
@@ -63,7 +65,43 @@ export function LeaderboardClient({ questions, lines }: { questions: Question[];
     };
   }, [gate.ready, auth.ready, localBoard]);
 
+  useEffect(() => {
+    if (tab !== "week") return;
+    let active = true;
+    void fetchWeeklyBoard().then((next) => {
+      if (active) setWeekly(next);
+    });
+    return () => {
+      active = false;
+    };
+  }, [tab]);
+
   if (!ready || !gate.ready || !auth.ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+
+  const tabs = (
+    <div role="tablist" aria-label="Boards" className="grid grid-cols-2 gap-2">
+      <button
+        type="button"
+        role="tab"
+        aria-selected={tab === "all"}
+        data-testid="board-tab-all"
+        onClick={() => setTab("all")}
+        className={`min-h-12 rounded-2xl border px-3 text-lg ${tab === "all" ? "border-grove bg-grove font-semibold text-white" : "border-line bg-card text-ink"}`}
+      >
+        All-time
+      </button>
+      <button
+        type="button"
+        role="tab"
+        aria-selected={tab === "week"}
+        data-testid="board-tab-week"
+        onClick={() => setTab("week")}
+        className={`min-h-12 rounded-2xl border px-3 text-lg ${tab === "week" ? "border-grove bg-grove font-semibold text-white" : "border-line bg-card text-ink"}`}
+      >
+        This week
+      </button>
+    </div>
+  );
 
   return (
     <section className="grid gap-5" data-questions={questions.length} data-lines={lines.length}>
@@ -72,7 +110,14 @@ export function LeaderboardClient({ questions, lines }: { questions: Question[];
       <p className="text-base text-ink-soft">
         A first-try correct answer is 10 points, a correct answer after the verse is 5, and a later try is 2. Review of a question you already learned is 0. Placement does not add points.
       </p>
-      {localBoard ? (
+      {tabs}
+      {tab === "week" ? (
+        <div className="grid gap-3" data-testid="weekly-board">
+          <h2 className="text-2xl font-semibold text-grove-deep">This week</h2>
+          <p className="text-lg text-ink">This board starts fresh each Monday.</p>
+          <BoardList rows={weekly} />
+        </div>
+      ) : localBoard ? (
         <>
           <div className="grid gap-3" data-testid="top-board">
             <h2 className="text-2xl font-semibold text-grove-deep">Top 15</h2>

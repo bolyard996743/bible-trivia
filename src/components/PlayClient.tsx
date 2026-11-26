@@ -23,10 +23,12 @@ import {
 import { attemptPoints, questionMarkers, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
 import { findPathBadge } from "@/lib/game/path";
 import type { AttemptState, GameProgress, MascotLine, Question } from "@/lib/game/types";
+import { rememberPlayedDay } from "@/lib/account/daily-plays";
 import { awardQuestionPoints } from "@/lib/account/scoring";
 import { useSignedIn } from "@/lib/account/use-access";
+import { applyPlayedDay } from "@/lib/play/daily-streak";
 import type { Celebration, StoredState } from "@/lib/storage";
-import { saveState } from "@/lib/storage";
+import { saveState, todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
 export function PlayClient({
@@ -196,6 +198,18 @@ export function PlayClient({
     showDifficulty: showDifficultyLabels(state.showDifficulty === true, search.toString()),
   });
 
+  function notePlayed() {
+    const current = stateRef.current;
+    if (!current) return;
+    const today = todayKey();
+    const dailyPlay = applyPlayedDay(current.dailyPlay, today);
+    if (dailyPlay === current.dailyPlay) return;
+    const next = { ...current, dailyPlay };
+    stateRef.current = next;
+    save(next);
+    if (current.ageGroup !== "child") void rememberPlayedDay(today);
+  }
+
   function rememberAttempt(attempt: AttemptState) {
     const current = stateRef.current;
     if (!current) return;
@@ -227,6 +241,7 @@ export function PlayClient({
       onAttemptChange={badge ? undefined : rememberAttempt}
       closeOnMiss={Boolean(badge)}
       attemptCorrectIds={badge ? openAttemptCorrectIds(state.progress, badge.id) : null}
+      onAnswered={notePlayed}
       missFooter={badge && reviewingMiss && retryAt ? <BadgeRetryNotice now={now} retryAt={retryAt} /> : null}
       onMiss={(missCount) => {
         const current = stateRef.current;

@@ -4,7 +4,7 @@ import { NKJV_COPYRIGHT } from "@/lib/bible/notice";
 export function ScriptureNotice({ copyright, className }: { copyright: string; className?: string }) {
   const includesNkjv = /thomas nelson/i.test(copyright) && /new king james/i.test(copyright);
   return (
-    <footer data-testid="scripture-notice" className={className ?? "mt-3 grid gap-1 text-base text-ink-soft"}>
+    <footer data-testid="scripture-notice" className={className ?? "mt-3 grid gap-1 break-words text-base text-ink-soft"}>
       {copyright ? <p>{copyright}</p> : null}
       {includesNkjv ? null : <p>{NKJV_COPYRIGHT}</p>}
       <p>

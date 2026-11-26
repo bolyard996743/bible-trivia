@@ -3,6 +3,14 @@ import { earnedFirstTryIds } from "./game/badges";
 import { normalizeBadgeRetries } from "./game/badge-retry";
 import { emptyProgress, knowledgeStage } from "./game/progression";
 import {
+  normalizeDailyBadges,
+  normalizeDailyChallenge,
+  normalizeDailyPlay,
+  type DailyBadgeRecord,
+  type DailyChallengeRecord,
+  type DailyPlayRecord,
+} from "./play/daily-streak";
+import {
   AGE_GROUPS,
   KNOWLEDGE_PATH,
   MASCOT_IDS,
@@ -40,6 +48,12 @@ export type StoredState = {
   username?: string;
   /** Difficulty names on questions. Off unless the player turns them on. */
   showDifficulty?: boolean;
+  /** Consecutive days played on this device. */
+  dailyPlay?: DailyPlayRecord;
+  /** Today's bonus question, once it has been answered. Not a path badge. */
+  dailyChallenge?: DailyChallengeRecord | null;
+  /** Small daily badges. They are not part of the path. */
+  dailyBadges?: DailyBadgeRecord[];
 };
 
 export function createState(ageGroup: AgeGroup, mascot: MascotId): StoredState {
@@ -129,6 +143,15 @@ export function parseState(raw: string | null): StoredState | null {
     value.progress.draw ??= 0;
     value.progress.points ??= 0;
     value.showDifficulty = value.showDifficulty === true;
+    const dailyPlay = normalizeDailyPlay(value.dailyPlay);
+    if (dailyPlay) value.dailyPlay = dailyPlay;
+    else delete value.dailyPlay;
+    const dailyChallenge = normalizeDailyChallenge(value.dailyChallenge);
+    if (dailyChallenge) value.dailyChallenge = dailyChallenge;
+    else delete value.dailyChallenge;
+    const dailyBadges = normalizeDailyBadges(value.dailyBadges);
+    if (dailyBadges) value.dailyBadges = dailyBadges;
+    else delete value.dailyBadges;
     if (value.placement) {
       if (
         typeof value.placement.cycle !== "number" ||

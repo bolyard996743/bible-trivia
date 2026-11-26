@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import { openStageVerseAction } from "@/app/complete/stage-verse";
 import { MascotMark } from "@/components/MascotMark";
+import { StageUpCelebration } from "@/components/StageUpCelebration";
 import { pickMascotLine } from "@/lib/game";
-import { MASCOTS, type MascotLine, type Moment } from "@/lib/game/types";
+import { MASCOTS, type KnowledgeStage, type MascotLine, type Moment } from "@/lib/game/types";
 import { savePlayerState } from "@/lib/account/repository";
 import { useProfile } from "@/lib/use-profile";
 
@@ -19,15 +21,41 @@ function momentFor(type: string): Moment {
 export function CompleteClient({ lines }: { lines: MascotLine[] }) {
   const router = useRouter();
   const { state, ready } = useProfile();
+  const [verseRef, setVerseRef] = useState<string | null>(null);
 
   useEffect(() => {
     if (!ready) return;
     if (!state || !state.celebration) router.replace("/home");
   }, [ready, state, router]);
 
+  const stageName = (state?.progress.stage ?? "Seed") as KnowledgeStage;
+  useEffect(() => {
+    if (!state || state.celebration?.type !== "level_up") return;
+    let active = true;
+    void openStageVerseAction(stageName).then((result) => {
+      if (active) setVerseRef(result?.ref ?? null);
+    });
+    return () => {
+      active = false;
+    };
+  }, [stageName, state]);
+
   if (!ready || !state?.celebration) return <p className="text-lg text-ink-soft">Opening…</p>;
 
   const celebration = state.celebration;
+  if (celebration.type === "level_up") {
+    return (
+      <StageUpCelebration
+        mascot={state.mascot}
+        stage={stageName}
+        verseRef={verseRef}
+        onContinue={() => {
+          savePlayerState({ ...state, celebration: null });
+          router.push("/play");
+        }}
+      />
+    );
+  }
   const moment = momentFor(celebration.type);
   const line = pickMascotLine(lines, state.mascot, moment, state.ageGroup, { random: () => 0 });
 
@@ -36,9 +64,6 @@ export function CompleteClient({ lines }: { lines: MascotLine[] }) {
   if (celebration.type === "section_complete") {
     title = `${celebration.section} is complete`;
     detail = "Every question in this section was learned, not skipped.";
-  } else if (celebration.type === "level_up") {
-    title = `${state.progress.stage ?? "The next stage"} is open`;
-    detail = "The checklist for this stage is ready when you are.";
   } else if (celebration.type === "cycle_complete") {
     title = `Cycle ${celebration.cycle} is complete`;
     detail = `Cycle ${celebration.nextCycle} is ready when you are.`;

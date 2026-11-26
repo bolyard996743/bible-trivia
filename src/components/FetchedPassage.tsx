@@ -40,14 +40,14 @@ export function FetchedPassage({ reference }: { reference: string }) {
   }, [reference]);
 
   return (
-    <figure data-testid="verse" className="rounded-2xl bg-gold-soft px-4 py-3">
+    <figure data-testid="verse" className="min-w-0 rounded-2xl bg-gold-soft px-4 py-3">
       {loading && !passage ? (
         <p data-testid="verse-loading" className="text-lg text-ink">
           Opening this verse…
         </p>
       ) : null}
       {passage ? (
-        <blockquote data-testid="verse-text" className="text-lg text-ink">
+        <blockquote data-testid="verse-text" className="text-lg break-words text-ink">
           {passage.verses.map((verse) => (
             <span key={`${verse.chapter}:${verse.verse}`}>
               {passage.verses.length > 1 ? <sup className="mr-1">{verse.verse}</sup> : null}
@@ -61,10 +61,11 @@ export function FetchedPassage({ reference }: { reference: string }) {
           {message}
         </p>
       ) : null}
-      <figcaption className="mt-2 text-base text-ink-soft">
+      <figcaption className="mt-2 text-base break-words text-ink-soft">
         {reference} · NKJV
       </figcaption>
       {passage ? <ScriptureNotice copyright={passage.copyright} /> : null}
+      {!loading && !passage ? <ScriptureNotice copyright="" /> : null}
       {passage ? <FumsTrack tokens={[passage.fumsToken]} /> : null}
     </figure>
   );

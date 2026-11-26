@@ -4,6 +4,7 @@ import { mergeBadgeRetries } from "../game/badge-retry";
 import { knowledgeStage } from "../game/progression";
 import { TIERS, type AttemptState, type GameProgress, type KnowledgeStage, type Tier } from "../game/types";
 import type { VerseMark } from "../bible/marks";
+import { mergeDailyRecords, normalizeDailyBadges, type DailyBadgeRecord, type DailyChallengeRecord } from "../play/daily-streak";
 import type { StoredState } from "../storage";
 import { isAccountAge } from "./policy";
 
@@ -78,6 +79,19 @@ export function mergeLadderProgress(local: GameProgress, remote: GameProgress): 
   };
 }
 
+function laterChallenge(
+  local?: DailyChallengeRecord | null,
+  remote?: DailyChallengeRecord | null,
+): DailyChallengeRecord | null | undefined {
+  if (!local) return remote ?? undefined;
+  if (!remote) return local;
+  return local.day >= remote.day ? local : remote;
+}
+
+function unionDailyBadges(local?: DailyBadgeRecord[], remote?: DailyBadgeRecord[]): DailyBadgeRecord[] | undefined {
+  return normalizeDailyBadges([...(remote ?? []), ...(local ?? [])]);
+}
+
 function laterDate(left: string | null | undefined, right: string | null | undefined): string | null {
   if (!left) return right ?? null;
   if (!right) return left;
@@ -126,6 +140,9 @@ export function mergeAccountProgress(
   const further = localFurther >= remoteFurther ? local.progress : remote.progress;
   const placement = choosePlacement(local, remote);
   const ladder = mergeLadderProgress(local.progress, remote.progress);
+  const dailyPlay = mergeDailyRecords(local.dailyPlay, remote.dailyPlay);
+  const dailyChallenge = laterChallenge(local.dailyChallenge, remote.dailyChallenge);
+  const dailyBadges = unionDailyBadges(local.dailyBadges, remote.dailyBadges);
 
   const state: StoredState = {
     version: 1,
@@ -142,6 +159,9 @@ export function mergeAccountProgress(
     },
     lastVisitedOn: laterDate(local.lastVisitedOn, remote.lastVisitedOn),
     celebration: null,
+    ...(dailyPlay ? { dailyPlay } : {}),
+    ...(dailyChallenge ? { dailyChallenge } : {}),
+    ...(dailyBadges ? { dailyBadges } : {}),
   };
 
   return {

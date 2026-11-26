@@ -50,6 +50,7 @@ export function QuestionSession({
   onMiss,
   missFooter = null,
   attemptCorrectIds = null,
+  onAnswered,
 }: {
   question: Question;
   ageGroup: AgeGroup;
@@ -69,6 +70,8 @@ export function QuestionSession({
   missFooter?: ReactNode;
   /** Correct ids in the open badge attempt. Null keeps the streak flame off the main path. */
   attemptCorrectIds?: readonly string[] | null;
+  /** Called once when an answer is accepted, including a miss. */
+  onAnswered?: () => void;
 }) {
   const [attempt, setAttempt] = useState(() => resumeAttempt(question.id, initialAttempt));
   const [submitted, setSubmitted] = useState(false);
@@ -211,6 +214,7 @@ export function QuestionSession({
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
     updateAttempt(submitAnswer(attempt, correct));
+    onAnswered?.();
   }
 
   function continueAfterMiss() {
