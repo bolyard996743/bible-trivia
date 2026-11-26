@@ -688,6 +688,21 @@ a.badge-link {
   }
 }
 
+@keyframes mascot-lean {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  32% {
+    transform: translate(0, 1px) rotate(8deg) scale(1);
+  }
+  58% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  100% {
+    transform: translate(1px, 2px) rotate(0deg) scale(1.05);
+  }
+}
+
 @keyframes badge-shine {
   0% {
     transform: translateX(-120%);
@@ -736,6 +751,11 @@ a.badge-link {
 
   .mascot-soar {
     animation: mascot-soar 800ms ease-in-out;
+  }
+
+  .mascot-lean {
+    transform-origin: center bottom;
+    animation: mascot-lean 780ms ease-out forwards;
   }
 
   .badge-shine::after {
@@ -815,6 +835,7 @@ button.delete-account {
   .mascot-splash,
   .mascot-hop,
   .mascot-soar,
+  .mascot-lean,
   .badge-shine::after,
   .mascot-flourish,
   .ichthys-fill,
