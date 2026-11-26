@@ -2,11 +2,16 @@
 
 import { ADVANCE_MS, nextQuestionCountdown } from "@/lib/play/advance-clock";
 
-/** Classic ichthys: two arcs meeting at the tail and the head. */
-const ICHTHYS = "M18 44 C18 44 78 8 186 44 C78 80 18 44 18 44 Z";
+/**
+ * Classic ichthys. Two arcs meet at the head and cross again near the tail,
+ * so the tail is the pair of lines past that crossing.
+ */
+const OUTLINE =
+  "M6 38 C28 46 46 60 58 70 C100 128 180 136 248 70 C180 4 100 12 58 70 C46 80 28 94 6 102";
+const BODY = "M58 70 C100 128 180 136 248 70 C180 4 100 12 58 70 Z";
 
-const FISH_MASK = `url("data:image/svg+xml,${encodeURIComponent(
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 88"><path fill="white" d="${ICHTHYS}"/></svg>`,
+const BODY_MASK = `url("data:image/svg+xml,${encodeURIComponent(
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="58 0 190 140"><path fill="white" d="${BODY}"/></svg>`,
 )}")`;
 
 export function IchthysTimer({
@@ -26,13 +31,17 @@ export function IchthysTimer({
       data-reduced={reducedMotion ? "true" : "false"}
       className="grid justify-items-center gap-2"
     >
-      <div className="relative h-16 w-full max-w-48">
+      <div className="relative w-[7.5rem]" style={{ aspectRatio: "260 / 140" }}>
         {reducedMotion ? null : (
           <div
-            className="absolute inset-0"
+            className="absolute"
             style={{
-              WebkitMask: `${FISH_MASK} center / contain no-repeat`,
-              mask: `${FISH_MASK} center / contain no-repeat`,
+              left: "22.308%",
+              top: 0,
+              width: "73.077%",
+              height: "100%",
+              WebkitMask: `${BODY_MASK} center / 100% 100% no-repeat`,
+              mask: `${BODY_MASK} center / 100% 100% no-repeat`,
             }}
           >
             <div
@@ -41,8 +50,8 @@ export function IchthysTimer({
             />
           </div>
         )}
-        <svg viewBox="0 0 200 88" className="ichthys absolute inset-0 h-full w-full text-grove-deep" role="img" aria-label={label}>
-          <path d={ICHTHYS} fill="none" stroke="currentColor" strokeWidth="4" strokeLinejoin="round" />
+        <svg viewBox="0 0 260 140" className="ichthys absolute inset-0 h-full w-full overflow-visible text-grove-deep" role="img" aria-label={label}>
+          <path d={OUTLINE} fill="none" stroke="currentColor" strokeWidth="8" strokeLinecap="round" />
         </svg>
       </div>
       {reducedMotion ? (

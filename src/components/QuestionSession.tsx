@@ -296,12 +296,9 @@ export function QuestionSession({
       ) : null}
 
       {attempt.phase === "teaching" && (spoken || closeOnMiss) ? (
-        <div
-          data-testid="teaching"
-          className="flex max-h-[calc(100dvh-14.75rem)] flex-col gap-3 overflow-hidden rounded-3xl border border-gold bg-card p-5"
-        >
-          <h2 className="shrink-0 text-2xl font-semibold text-grove-deep">Let&apos;s look at this together</h2>
-          <div className="flex min-w-0 shrink-0 gap-3">
+        <div data-testid="teaching" className="grid gap-4 rounded-3xl border border-gold bg-card p-5">
+          <h2 className="text-2xl font-semibold text-grove-deep">Let&apos;s look at this together</h2>
+          <div className="flex min-w-0 gap-3">
             <MascotMark mascot={mascot} />
             {spoken ? (
               <p data-testid="mascot-line" className="min-w-0 text-lg text-ink [overflow-wrap:anywhere]">
@@ -309,12 +306,12 @@ export function QuestionSession({
               </p>
             ) : null}
           </div>
-          <div className="grid min-h-[4.75rem] flex-1 gap-3 overflow-y-auto">
+          <div className="grid gap-3">
             {question.teaching.verses.map((verse) => (
               <FetchedPassage key={verse.ref} reference={verse.ref} />
             ))}
           </div>
-          <div className="grid max-h-28 min-h-0 shrink gap-3 overflow-y-auto">
+          <div className="grid gap-3">
             <p data-testid="explanation" className="text-lg text-ink">
               {explanation}
             </p>
@@ -361,7 +358,7 @@ export function QuestionSession({
           <div
             ref={revealRef}
             data-testid="reveal-area"
-            className="grid max-h-32 gap-3 overflow-y-auto"
+            className="grid gap-3"
             onScroll={pauseAdvance}
             onWheel={pauseAdvance}
             onTouchMove={pauseAdvance}
