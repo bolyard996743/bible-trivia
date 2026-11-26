@@ -306,7 +306,11 @@ export function PlayClient({
           void awardQuestionPoints({ questionId: question.id, missCount, seasonId: progress.seasonId ?? "season-1" });
         }
         if (earnedNow && badge) {
-          buzzBadgeHere();
+          try {
+            buzzBadgeHere();
+          } catch {
+            // A blocked browser still shows the badge that was just earned.
+          }
           if (celebration) continueHref.current = "/complete";
           setEarnedMoment({ id: badge.id, name: badge.name, art: badge.art });
         } else if (celebration) {

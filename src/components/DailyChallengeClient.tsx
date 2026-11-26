@@ -107,7 +107,11 @@ export function DailyChallengeClient() {
       return;
     }
     playAnswerSound(graded.correct ? "correct" : "miss", state.soundOn);
-    buzzAnswerHere(graded.correct);
+    try {
+      buzzAnswerHere(graded.correct);
+    } catch {
+      // Vibration and storage must not stop the daily answer.
+    }
     const next = finishDailyChallenge(state, {
       day: today,
       questionId: ask.id,

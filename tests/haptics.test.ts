@@ -17,7 +17,20 @@ vi.mock("@/lib/account/use-access", () => ({
   useSignedIn: () => ({ email: null, ready: true, configured: false }),
 }));
 
+vi.mock("@/lib/bible/passage-client", () => ({
+  prefetchPassages: () => {},
+  peekPassage: () => null,
+  loadPassageCached: () => Promise.resolve({ ok: false, message: "" }),
+}));
+
+vi.mock("@/components/FetchedPassage", () => ({
+  FetchedPassage: () => null,
+}));
+
 import { HapticsToggle } from "@/components/HapticsToggle";
+import { QuestionSession } from "@/components/QuestionSession";
+import type { Question } from "@/lib/game/types";
+import { TAP_GUARD_MS } from "@/lib/play/tap-guard";
 import { ProfileEditor } from "@/components/ProfileEditor";
 import {
   HAPTICS_KEY,
@@ -135,4 +148,83 @@ describe("haptics", () => {
     expect(setup).not.toContain("haptics-toggle");
     expect(setup).not.toContain("Vibration");
   });
+
+  it("still submits the answer when storage throws", async () => {
+    vi.useFakeTimers();
+    const blocked = {
+      getItem() {
+        throw new Error("blocked");
+      },
+      setItem() {
+        throw new Error("blocked");
+      },
+      removeItem() {
+        throw new Error("blocked");
+      },
+      clear() {
+        throw new Error("blocked");
+      },
+      key() {
+        return null;
+      },
+      length: 0,
+    };
+    const realStorage = window.localStorage;
+    Object.defineProperty(window, "localStorage", { configurable: true, value: blocked });
+    const onAttemptChange = vi.fn();
+    try {
+      const view = mount(
+        createElement(QuestionSession, {
+          question: sampleQuestion(),
+          ageGroup: "adult",
+          mascot: "judah",
+          lines: [],
+          soundOn: false,
+          audioFiles: [],
+          onAttemptChange,
+          onContinue: () => undefined,
+        }),
+      );
+      await act(async () => {
+        await vi.advanceTimersByTimeAsync(TAP_GUARD_MS);
+      });
+      const choice = view.querySelector('[data-testid="choice-b"]');
+      if (!(choice instanceof HTMLButtonElement)) throw new Error("missing choice");
+      act(() => {
+        choice.click();
+      });
+      expect(onAttemptChange).toHaveBeenCalledTimes(1);
+      expect(onAttemptChange.mock.calls[0]?.[0].phase).toBe("mastered");
+      expect(view.querySelector('[data-testid="correct-panel"]')).not.toBeNull();
+    } finally {
+      Object.defineProperty(window, "localStorage", { configurable: true, value: realStorage });
+      vi.useRealTimers();
+    }
+  });
 });
+
+function sampleQuestion(): Question {
+  return {
+    id: "q1",
+    cycle: 1,
+    tier: "foundation",
+    testament: "OT",
+    book: "Genesis",
+    section: "Creation",
+    topics: ["sample"],
+    placement_eligible: false,
+    type: "multiple_choice",
+    prompt: { adult: "Who made the world?" },
+    choices: [
+      { id: "a", text: "A neighbor" },
+      { id: "b", text: "God" },
+    ],
+    answer: "b",
+    teaching: {
+      verses: [{ ref: "Genesis 1:1", text: "", translation: "NKJV" }],
+      explanation: { adult: "The verse tells the story." },
+      takeaway: "God made the world.",
+    },
+    review: { status: "draft", notes: "" },
+  };
+}

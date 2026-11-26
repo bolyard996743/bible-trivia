@@ -215,7 +215,11 @@ export function QuestionSession({
     setSubmitted(true);
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
-    buzzAnswerHere(correct);
+    try {
+      buzzAnswerHere(correct);
+    } catch {
+      // Vibration and storage must not stop the answer from registering.
+    }
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();
   }

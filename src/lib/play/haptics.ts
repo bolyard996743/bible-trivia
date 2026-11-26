@@ -15,14 +15,22 @@ const PATTERNS: Record<HapticsKind, number | number[]> = {
 };
 
 export function hapticsEnabled(storage: { getItem(key: string): string | null }): boolean {
-  return storage.getItem(HAPTICS_KEY) !== "off";
+  try {
+    return storage.getItem(HAPTICS_KEY) !== "off";
+  } catch {
+    return true;
+  }
 }
 
 export function writeHapticsEnabled(
   storage: { setItem(key: string, value: string): void },
   enabled: boolean,
 ): void {
-  storage.setItem(HAPTICS_KEY, enabled ? "on" : "off");
+  try {
+    storage.setItem(HAPTICS_KEY, enabled ? "on" : "off");
+  } catch {
+    // A blocked browser keeps the in-memory switch and must not affect play.
+  }
 }
 
 /**
@@ -44,22 +52,38 @@ export function buzzForAnswer(
   nav: Vibrator | null | undefined,
 ): boolean {
   if (!correct) return false;
-  return buzz("correct", hapticsEnabled(storage), nav);
+  try {
+    return buzz("correct", hapticsEnabled(storage), nav);
+  } catch {
+    return false;
+  }
 }
 
 export function buzzForBadge(
   storage: { getItem(key: string): string | null },
   nav: Vibrator | null | undefined,
 ): boolean {
-  return buzz("badge", hapticsEnabled(storage), nav);
+  try {
+    return buzz("badge", hapticsEnabled(storage), nav);
+  } catch {
+    return false;
+  }
 }
 
 export function buzzAnswerHere(correct: boolean): boolean {
-  if (typeof window === "undefined") return false;
-  return buzzForAnswer(correct, window.localStorage, window.navigator);
+  try {
+    if (typeof window === "undefined") return false;
+    return buzzForAnswer(correct, window.localStorage, window.navigator);
+  } catch {
+    return false;
+  }
 }
 
 export function buzzBadgeHere(): boolean {
-  if (typeof window === "undefined") return false;
-  return buzzForBadge(window.localStorage, window.navigator);
+  try {
+    if (typeof window === "undefined") return false;
+    return buzzForBadge(window.localStorage, window.navigator);
+  } catch {
+    return false;
+  }
 }
