@@ -314,6 +314,20 @@ main h1:not(.question-prompt),
   box-shadow: 0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
 }
 
+.season-christmas .stage-card {
+  border-top-color: #1f6b45;
+  background:
+    radial-gradient(circle at 8% 10%, color-mix(in srgb, #d9f0e2 75%, transparent) 0 2px, transparent 3px),
+    var(--card);
+}
+
+.season-easter .stage-card {
+  border-top-color: #c6a15a;
+  background:
+    radial-gradient(circle at 92% 12%, color-mix(in srgb, #f6e7c2 82%, transparent) 0 3px, transparent 4px),
+    var(--card);
+}
+
 .stage-card {
   border: 1px solid color-mix(in srgb, var(--gold) 28%, var(--line));
   border-top: 4px solid var(--gold);
@@ -950,6 +964,8 @@ button.delete-account {
   .mascot-splash,
   .mascot-hop,
   .mascot-soar,
+  .season-christmas .stage-card,
+  .season-easter .stage-card,
   .weekly-goal-ring circle,
   .question-card,
   .mascot-lean,
