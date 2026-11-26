@@ -11,6 +11,7 @@ const LINKS = [
   { href: "/home", label: "Home" },
   { href: "/play", label: "Play" },
   { href: "/bible", label: "Bible" },
+  { href: "/verses", label: "My Verses" },
   { href: "/leaderboards", label: "Leaderboards" },
   { href: "/settings", label: "Settings" },
 ] as const;
@@ -42,7 +43,7 @@ export function MainNav() {
     <nav
       id="main-nav"
       aria-label="Main"
-      className={`${open ? "mt-2 grid" : "hidden"} grid-cols-2 gap-1.5 sm:mt-0 sm:grid sm:grid-cols-3 ${showAccount ? "lg:grid-cols-6" : "lg:grid-cols-5"}`}
+      className={`${open ? "mt-2 grid" : "hidden"} grid-cols-2 gap-1.5 sm:mt-0 sm:grid sm:grid-cols-3 ${showAccount ? "lg:grid-cols-7" : "lg:grid-cols-6"}`}
     >
       {links.map((link) => {
         const current = pathname === link.href;

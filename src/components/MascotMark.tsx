@@ -8,20 +8,21 @@ export function MascotMark({
 }: {
   mascot: MascotId;
   size?: "md" | "lg";
-  /** Still, or a short celebration. Reduced motion turns the animation off. */
-  motion?: "still" | "correct" | "earned" | "celebrate";
+  /** Still, a lean while answering, or a short celebration. Reduced motion turns the animation off. */
+  motion?: "still" | "lean" | "correct" | "earned" | "celebrate";
 }) {
   const info = MASCOTS[mascot];
   const dimension = size === "lg" ? "h-16 w-16 text-3xl" : "h-12 w-12 text-2xl";
-  const celebration = motion === "still" ? "" : mascotCelebrationClass(mascot);
+  const cheering = motion === "correct" || motion === "earned" || motion === "celebrate";
+  const celebration = motion === "lean" ? "mascot-lean" : cheering ? mascotCelebrationClass(mascot) : "";
   return (
     <span
       className={`relative inline-flex ${dimension} ${celebration} shrink-0 items-center justify-center rounded-full bg-gold-soft`}
-      data-celebration={motion === "still" ? "still" : mascot}
+      data-celebration={motion === "still" ? "still" : motion === "lean" ? "lean" : mascot}
       aria-hidden="true"
     >
       {info.emoji}
-      {motion === "still" ? null : <MascotFlourish mascot={mascot} />}
+      {cheering ? <MascotFlourish mascot={mascot} /> : null}
     </span>
   );
 }

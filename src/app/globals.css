@@ -497,6 +497,61 @@ a.badge-link {
   }
 }
 
+.badge-unlock-glow,
+.badge-lock-still .badge-chip {
+  box-shadow: 0 0 0 3px var(--gold-soft);
+}
+
+@keyframes badge-unlock-flip {
+  0% {
+    transform: perspective(480px) rotateY(-86deg) scale(0.72);
+  }
+  62% {
+    transform: perspective(480px) rotateY(8deg) scale(1.05);
+  }
+  100% {
+    transform: perspective(480px) rotateY(0deg) scale(1);
+  }
+}
+
+@keyframes badge-lock-shake {
+  0%,
+  100% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  18% {
+    transform: translateX(-50%) rotate(-14deg);
+  }
+  40% {
+    transform: translateX(-50%) rotate(12deg);
+  }
+  62% {
+    transform: translateX(-50%) rotate(-7deg);
+  }
+  80% {
+    transform: translateX(-50%) rotate(3deg);
+  }
+}
+
+@keyframes badge-emblem-shake {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-7deg);
+  }
+  42% {
+    transform: rotate(6deg);
+  }
+  64% {
+    transform: rotate(-3deg);
+  }
+  82% {
+    transform: rotate(2deg);
+  }
+}
+
 .badge-chip {
   position: absolute;
   left: 50%;
@@ -688,6 +743,21 @@ a.badge-link {
   }
 }
 
+@keyframes mascot-lean {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  32% {
+    transform: translate(0, 1px) rotate(8deg) scale(1);
+  }
+  58% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  100% {
+    transform: translate(1px, 2px) rotate(0deg) scale(1.05);
+  }
+}
+
 @keyframes badge-shine {
   0% {
     transform: translateX(-120%);
@@ -742,8 +812,30 @@ a.badge-link {
     transition: stroke-dashoffset 400ms ease;
   }
 
+  .question-card {
+    transition: box-shadow 220ms ease;
+  }
+
+  .mascot-lean {
+    transform-origin: center bottom;
+    animation: mascot-lean 780ms ease-out forwards;
+  }
+
   .badge-shine::after {
     animation: badge-shine 2.8s ease-in-out infinite;
+  }
+
+  .badge-unlock-flip {
+    transform-origin: center center;
+    animation: badge-unlock-flip 720ms ease-out both;
+  }
+
+  .badge-lock-shake .badge-chip {
+    animation: badge-lock-shake 720ms ease-in-out 1;
+  }
+
+  .badge-lock-shake:not(:has(.badge-chip)) .badge-emblem {
+    animation: badge-emblem-shake 720ms ease-in-out 1;
   }
 
   .confetti-piece {
@@ -802,6 +894,42 @@ button.delete-account {
   }
 }
 
+.question-card[data-combo="1"].bg-card {
+  box-shadow:
+    0 0 10px color-mix(in srgb, var(--gold) 32%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="2"].bg-card {
+  box-shadow:
+    0 0 14px color-mix(in srgb, var(--gold) 42%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="3"].bg-card {
+  box-shadow:
+    0 0 18px color-mix(in srgb, var(--gold) 52%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="4"].bg-card {
+  box-shadow:
+    0 0 22px 1px color-mix(in srgb, var(--gold) 62%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="5"].bg-card {
+  box-shadow:
+    0 0 26px 2px color-mix(in srgb, var(--gold) 70%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="6"].bg-card {
+  box-shadow:
+    0 0 30px 3px color-mix(in srgb, var(--gold) 76%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     scroll-behavior: auto !important;
@@ -812,6 +940,9 @@ button.delete-account {
   button.bg-grove,
   .badge-flash,
   .badge-earned-pop,
+  .badge-unlock-flip,
+  .badge-lock-shake .badge-chip,
+  .badge-lock-shake .badge-emblem,
   .mascot-bounce,
   .mascot-bounce-sm,
   .mascot-roar,
@@ -820,6 +951,8 @@ button.delete-account {
   .mascot-hop,
   .mascot-soar,
   .weekly-goal-ring circle,
+  .question-card,
+  .mascot-lean,
   .badge-shine::after,
   .mascot-flourish,
   .ichthys-fill,
