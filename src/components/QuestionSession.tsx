@@ -24,6 +24,7 @@ import { choicesForBadgeAsk } from "@/lib/game/badges";
 import { matchTypography } from "@/lib/game/typography";
 import { schedulesAutoAdvance } from "@/lib/play/advance-clock";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
+import { rememberMissedVersesHere } from "@/lib/play/missed-verses";
 import { badgeStreakDisplay } from "@/lib/play/streak";
 import { acceptGuardedTap, TAP_GUARD_MS } from "@/lib/play/tap-guard";
 import { MASCOTS, type AgeGroup, type AttemptState, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
@@ -158,6 +159,11 @@ export function QuestionSession({
   useEffect(() => {
     prefetchPassages(verseKey.split("\n").filter((ref) => ref.length > 0));
   }, [verseKey]);
+
+  useEffect(() => {
+    if (attempt.phase !== "teaching") return;
+    rememberMissedVersesHere(verseKey.split("\n"));
+  }, [attempt.phase, verseKey]);
 
   useEffect(() => {
     const id = window.setTimeout(() => setGuardTick((tick) => tick + 1), TAP_GUARD_MS);
