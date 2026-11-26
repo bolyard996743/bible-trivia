@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { FetchedPassage } from "@/components/FetchedPassage";
 import { IchthysTimer } from "@/components/IchthysTimer";
 import { MascotMark } from "@/components/MascotMark";
+import { PromptText } from "@/components/PromptText";
 import { StreakFlame } from "@/components/StreakFlame";
 import { useFishAdvance } from "@/components/use-fish-advance";
 import { prefetchPassages } from "@/lib/bible/passage-client";
@@ -103,7 +104,7 @@ export function QuestionSession({
     }
   }
 
-  const prompt = matchTypography(pickWording(question.prompt, ageGroup));
+  const prompt = pickWording(question.prompt, ageGroup);
   const explanation = matchTypography(pickWording(question.teaching.explanation, ageGroup));
   const info = MASCOTS[mascot];
   const autoAdvance = schedulesAutoAdvance(attempt.phase);
@@ -277,8 +278,8 @@ export function QuestionSession({
 
       {attempt.phase === "asking" ? (
         <div className="grid gap-4 rounded-3xl border border-line bg-card p-5">
-          <h1 data-testid="prompt" className="text-2xl leading-snug font-semibold text-ink sm:text-3xl">
-            {prompt}
+          <h1 data-testid="prompt" className="question-prompt text-2xl leading-snug font-semibold text-ink sm:text-3xl">
+            <PromptText text={prompt} />
           </h1>
           <div className="grid gap-3" role="group" aria-label="Answers">
             {displayedChoices.map((choice) => (

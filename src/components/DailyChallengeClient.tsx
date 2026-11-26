@@ -7,6 +7,7 @@ import { gradeDailyChallengeAction, openDailyChallengeAction } from "@/app/daily
 import { BadgeEmblem } from "@/components/BadgeEmblem";
 import { FetchedPassage } from "@/components/FetchedPassage";
 import { MascotMark } from "@/components/MascotMark";
+import { PromptText } from "@/components/PromptText";
 import { ShareBadgeButton } from "@/components/ShareBadgeButton";
 import { StreakFlame } from "@/components/StreakFlame";
 import { rememberPlayedDay } from "@/lib/account/daily-plays";
@@ -157,8 +158,8 @@ export function DailyChallengeClient() {
 
       {!done && ask ? (
         <div className="grid gap-4 rounded-3xl border border-line bg-card p-5" data-testid="daily-ask">
-          <h2 data-testid="prompt" className="text-2xl leading-snug font-semibold text-ink">
-            {matchTypography(ask.prompt)}
+          <h2 data-testid="prompt" className="question-prompt text-2xl leading-snug font-semibold text-ink">
+            <PromptText text={ask.prompt} />
           </h2>
           <div className="grid gap-3" role="group" aria-label="Answers">
             {ask.choices.map((choice) => (

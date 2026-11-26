@@ -269,8 +269,8 @@ a.tap {
   outline-offset: 3px;
 }
 
-main h1,
-.stage-card h2 {
+main h1:not(.question-prompt),
+.stage-card h2:not(.question-prompt) {
   width: fit-content;
   max-width: 100%;
   padding-bottom: 0.28rem;
@@ -278,6 +278,30 @@ main h1,
   background-size: 3.25rem 3px;
   background-repeat: no-repeat;
   background-position: left bottom;
+}
+
+.question-prompt {
+  width: auto;
+  max-width: 100%;
+  padding-bottom: 0;
+  background-image: none;
+  overflow-wrap: break-word;
+}
+
+.prompt-blank-wrap {
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.prompt-blank {
+  display: inline-block;
+  width: 3.25rem;
+  max-width: 100%;
+  height: 0.82em;
+  border-bottom: 2px solid currentColor;
+  vertical-align: text-bottom;
 }
 
 .site-header {
