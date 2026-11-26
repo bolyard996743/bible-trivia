@@ -23,6 +23,7 @@ import {
 import { choicesForBadgeAsk } from "@/lib/game/badges";
 import { matchTypography } from "@/lib/game/typography";
 import { schedulesAutoAdvance } from "@/lib/play/advance-clock";
+import { applyCombo, readCombo, writeCombo } from "@/lib/play/combo";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
 import { buzzAnswerHere } from "@/lib/play/haptics";
 import { playReaction, reactionMotion } from "@/lib/play/mascot-reaction";
@@ -79,6 +80,7 @@ export function QuestionSession({
 }) {
   const [attempt, setAttempt] = useState(() => resumeAttempt(question.id, initialAttempt));
   const [submitted, setSubmitted] = useState(false);
+  const [combo, setCombo] = useState(0);
   const [reducedMotion, setReducedMotion] = useState(false);
   const [guardTick, setGuardTick] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -157,6 +159,15 @@ export function QuestionSession({
     const line = pickMascotLine(lines, mascot, "retry_prompt", ageGroup, { questionId: question.id });
     return line ? { ...line, text: matchTypography(line.text) } : null;
   }, [ageGroup, attempt.phase, closeOnMiss, lines, mascot, question.id]);
+
+  useEffect(() => {
+    if (attempt.phase !== "asking") return;
+    try {
+      setCombo(readCombo(window.localStorage));
+    } catch {
+      setCombo(0);
+    }
+  }, [attempt.phase, question.id]);
 
   useEffect(() => {
     if (typeof window.matchMedia !== "function") return;
@@ -239,9 +250,11 @@ export function QuestionSession({
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
     try {
+      const nextCombo = writeCombo(window.localStorage, applyCombo(readCombo(window.localStorage), correct));
+      setCombo(nextCombo);
       buzzAnswerHere(correct);
     } catch {
-      // Vibration and storage must not stop the answer from registering.
+      // Glow, vibration, and storage must not stop the answer from registering.
     }
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();
@@ -306,7 +319,7 @@ export function QuestionSession({
       </div>
 
       {attempt.phase === "asking" ? (
-        <div className="grid gap-4 rounded-3xl border border-line bg-card p-5">
+        <div className="question-card grid gap-4 rounded-3xl border border-line bg-card p-5" data-combo={combo} data-testid="question-card">
           <h1 data-testid="prompt" className="question-prompt text-2xl leading-snug font-semibold text-ink sm:text-3xl">
             <PromptText text={prompt} />
           </h1>

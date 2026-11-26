@@ -808,6 +808,10 @@ a.badge-link {
     animation: mascot-soar 800ms ease-in-out;
   }
 
+  .question-card {
+    transition: box-shadow 220ms ease;
+  }
+
   .mascot-lean {
     transform-origin: center bottom;
     animation: mascot-lean 780ms ease-out forwards;
@@ -886,6 +890,42 @@ button.delete-account {
   }
 }
 
+.question-card[data-combo="1"].bg-card {
+  box-shadow:
+    0 0 10px color-mix(in srgb, var(--gold) 32%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="2"].bg-card {
+  box-shadow:
+    0 0 14px color-mix(in srgb, var(--gold) 42%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="3"].bg-card {
+  box-shadow:
+    0 0 18px color-mix(in srgb, var(--gold) 52%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="4"].bg-card {
+  box-shadow:
+    0 0 22px 1px color-mix(in srgb, var(--gold) 62%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="5"].bg-card {
+  box-shadow:
+    0 0 26px 2px color-mix(in srgb, var(--gold) 70%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
+.question-card[data-combo="6"].bg-card {
+  box-shadow:
+    0 0 30px 3px color-mix(in srgb, var(--gold) 76%, transparent),
+    0 12px 28px color-mix(in srgb, var(--grove-deep) 8%, transparent);
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     scroll-behavior: auto !important;
@@ -906,6 +946,7 @@ button.delete-account {
   .mascot-splash,
   .mascot-hop,
   .mascot-soar,
+  .question-card,
   .mascot-lean,
   .badge-shine::after,
   .mascot-flourish,
