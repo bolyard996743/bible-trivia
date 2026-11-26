@@ -25,6 +25,9 @@ import { matchTypography } from "@/lib/game/typography";
 import { schedulesAutoAdvance } from "@/lib/play/advance-clock";
 import { applyCombo, readCombo, writeCombo } from "@/lib/play/combo";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
+import { buzzAnswerHere } from "@/lib/play/haptics";
+import { playReaction, reactionMotion } from "@/lib/play/mascot-reaction";
+import { rememberMissedVersesHere } from "@/lib/play/missed-verses";
 import { badgeStreakDisplay } from "@/lib/play/streak";
 import { acceptGuardedTap, TAP_GUARD_MS } from "@/lib/play/tap-guard";
 import { MASCOTS, type AgeGroup, type AttemptState, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
@@ -78,6 +81,7 @@ export function QuestionSession({
   const [attempt, setAttempt] = useState(() => resumeAttempt(question.id, initialAttempt));
   const [submitted, setSubmitted] = useState(false);
   const [combo, setCombo] = useState(0);
+  const [reducedMotion, setReducedMotion] = useState(false);
   const [guardTick, setGuardTick] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const submittedRef = useRef(false);
@@ -165,10 +169,30 @@ export function QuestionSession({
     }
   }, [attempt.phase, question.id]);
 
+  useEffect(() => {
+    if (typeof window.matchMedia !== "function") return;
+    const query = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const apply = () => setReducedMotion(query.matches);
+    apply();
+    query.addEventListener("change", apply);
+    return () => query.removeEventListener("change", apply);
+  }, []);
+
+  const reaction = playReaction(attempt.phase, reducedMotion);
+  const guideMotion = reactionMotion(reaction);
   const verseKey = question.teaching.verses.map((verse) => verse.ref).join("\n");
   useEffect(() => {
     prefetchPassages(verseKey.split("\n").filter((ref) => ref.length > 0));
   }, [verseKey]);
+
+  useEffect(() => {
+    if (attempt.phase !== "teaching") return;
+    try {
+      rememberMissedVersesHere(verseKey.split("\n"));
+    } catch {
+      // Saving a reference must not undo the miss that was just recorded.
+    }
+  }, [attempt.phase, verseKey]);
 
   useEffect(() => {
     const id = window.setTimeout(() => setGuardTick((tick) => tick + 1), TAP_GUARD_MS);
@@ -228,8 +252,9 @@ export function QuestionSession({
     try {
       const nextCombo = writeCombo(window.localStorage, applyCombo(readCombo(window.localStorage), correct));
       setCombo(nextCombo);
+      buzzAnswerHere(correct);
     } catch {
-      // The glow must not stop the answer from registering.
+      // Glow, vibration, and storage must not stop the answer from registering.
     }
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();
@@ -273,9 +298,9 @@ export function QuestionSession({
       : orderChoicesForRetry(question.choices, `${question.id}:${attempt.missCount}`);
 
   return (
-    <section data-testid="question-screen" data-auto-advance={autoAdvance ? "true" : "false"} className="grid gap-5">
+    <section data-testid="question-screen" data-auto-advance={autoAdvance ? "true" : "false"} data-reaction={reaction} className="grid gap-5">
       <div className="flex items-center gap-3">
-        <MascotMark mascot={mascot} motion={autoAdvance ? "correct" : "still"} />
+        <MascotMark mascot={mascot} motion={guideMotion} />
         <div className="min-w-0">
           <p className="text-base text-ink-soft">{info.name}</p>
           {progressLabel ? <p className="text-base text-ink-soft">{progressLabel}</p> : null}
@@ -360,7 +385,7 @@ export function QuestionSession({
       {autoAdvance ? (
         <div data-testid="correct-panel" className="grid gap-4 rounded-3xl border border-grove bg-card p-5">
           <div className="flex gap-3">
-            <MascotMark mascot={mascot} />
+            <MascotMark mascot={mascot} motion={guideMotion} />
             <div>
               <h2 className="text-2xl font-semibold text-grove-deep">
                 {wasFirstAttempt(attempt) ? "That's right" : "Yes — now you've got it"}

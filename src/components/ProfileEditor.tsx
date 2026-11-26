@@ -16,6 +16,7 @@ import { createState } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 import { AuthLegalNotice } from "@/components/AuthLegalNotice";
 import { DeleteAccountControl } from "@/components/DeleteAccountControl";
+import { HapticsToggle } from "@/components/HapticsToggle";
 
 export function ProfileEditor({
   lines,
@@ -96,8 +97,8 @@ export function ProfileEditor({
           {mode === "setup"
             ? "Pick a guide who will talk you through the verses."
             : gate.value?.under13
-              ? "You can change your guide or the sound."
-              : "You can change your guide or the sound. A username cannot be changed."}
+              ? "You can change your guide, the sound, or vibration."
+              : "You can change your guide, the sound, or vibration. A username cannot be changed."}
         </p>
         {mode === "settings" && offerAccount ? (
           <Link
@@ -154,6 +155,7 @@ export function ProfileEditor({
             {soundOn ? "On" : "Off"}
           </button>
         </label>
+        {mode === "settings" ? <HapticsToggle /> : null}
         <button
           type="button"
           onClick={hearGreeting}
