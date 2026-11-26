@@ -215,7 +215,11 @@ export function QuestionSession({
     setSubmitted(true);
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
-    recordAnsweredQuestion(window.localStorage, new Date());
+    try {
+      recordAnsweredQuestion(window.localStorage, new Date());
+    } catch {
+      // The weekly count must not stop the answer from registering.
+    }
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();
   }

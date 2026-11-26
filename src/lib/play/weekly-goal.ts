@@ -38,9 +38,13 @@ function parseWeekCount(raw: string | null): WeekCount | null {
 }
 
 export function readWeeklyCount(storage: { getItem(key: string): string | null }, now: Date): number {
-  const saved = parseWeekCount(storage.getItem(WEEKLY_GOAL_KEY));
-  if (!saved || saved.week !== weeklyGoalWeek(now)) return 0;
-  return saved.count;
+  try {
+    const saved = parseWeekCount(storage.getItem(WEEKLY_GOAL_KEY));
+    if (!saved || saved.week !== weeklyGoalWeek(now)) return 0;
+    return saved.count;
+  } catch {
+    return 0;
+  }
 }
 
 /** Counts one answered question. A new Los Angeles week starts again at zero. */
@@ -48,9 +52,13 @@ export function recordAnsweredQuestion(
   storage: { getItem(key: string): string | null; setItem(key: string, value: string): void },
   now: Date,
 ): number {
-  const week = weeklyGoalWeek(now);
-  const saved = parseWeekCount(storage.getItem(WEEKLY_GOAL_KEY));
-  const count = saved && saved.week === week ? saved.count + 1 : 1;
-  storage.setItem(WEEKLY_GOAL_KEY, JSON.stringify({ week, count }));
-  return count;
+  try {
+    const week = weeklyGoalWeek(now);
+    const saved = parseWeekCount(storage.getItem(WEEKLY_GOAL_KEY));
+    const count = saved && saved.week === week ? saved.count + 1 : 1;
+    storage.setItem(WEEKLY_GOAL_KEY, JSON.stringify({ week, count }));
+    return count;
+  } catch {
+    return 0;
+  }
 }

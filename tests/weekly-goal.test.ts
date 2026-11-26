@@ -1,9 +1,25 @@
-import { createElement } from "react";
+// @vitest-environment happy-dom
+import { act, createElement, type ReactNode } from "react";
+import { createRoot, type Root } from "react-dom/client";
 import { renderToStaticMarkup } from "react-dom/server";
 import fs from "fs";
 import path from "path";
-import { describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+
+vi.mock("@/lib/bible/passage-client", () => ({
+  prefetchPassages: () => {},
+  peekPassage: () => null,
+  loadPassageCached: () => Promise.resolve({ ok: false, message: "" }),
+}));
+
+vi.mock("@/components/FetchedPassage", () => ({
+  FetchedPassage: () => null,
+}));
+
+import { QuestionSession } from "@/components/QuestionSession";
 import { WeeklyGoalRing } from "@/components/WeeklyGoalRing";
+import type { Question } from "@/lib/game/types";
+import { TAP_GUARD_MS } from "@/lib/play/tap-guard";
 import { weekStartLosAngeles } from "@/lib/account/week";
 import {
   WEEKLY_GOAL,
@@ -13,6 +29,28 @@ import {
   recordAnsweredQuestion,
   weeklyGoalWeek,
 } from "@/lib/play/weekly-goal";
+
+let root: Root | null = null;
+
+beforeEach(() => {
+  (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
+});
+
+afterEach(() => {
+  act(() => root?.unmount());
+  root = null;
+  document.body.innerHTML = "";
+});
+
+function mount(node: ReactNode) {
+  const container = document.createElement("div");
+  document.body.appendChild(container);
+  root = createRoot(container);
+  act(() => {
+    root?.render(node);
+  });
+  return container;
+}
 
 function memory() {
   const bag = new Map<string, string>();
@@ -62,4 +100,82 @@ describe("weekly goal ring", () => {
     expect(reduced).toContain(".weekly-goal-ring circle");
     expect(reduced).toContain("transition: none");
   });
+
+  it("still submits the answer when storage throws", async () => {
+    vi.useFakeTimers();
+    const blocked = {
+      getItem() {
+        throw new Error("blocked");
+      },
+      setItem() {
+        throw new Error("blocked");
+      },
+      removeItem() {
+        throw new Error("blocked");
+      },
+      clear() {
+        throw new Error("blocked");
+      },
+      key() {
+        return null;
+      },
+      length: 0,
+    };
+    const realStorage = window.localStorage;
+    Object.defineProperty(window, "localStorage", { configurable: true, value: blocked });
+    const onAttemptChange = vi.fn();
+    try {
+      const view = mount(
+        createElement(QuestionSession, {
+          question: sampleQuestion(),
+          ageGroup: "adult",
+          mascot: "judah",
+          lines: [],
+          soundOn: false,
+          audioFiles: [],
+          onAttemptChange,
+          onContinue: () => undefined,
+        }),
+      );
+      await act(async () => {
+        await vi.advanceTimersByTimeAsync(TAP_GUARD_MS);
+      });
+      const choice = view.querySelector('[data-testid="choice-a"]');
+      if (!(choice instanceof HTMLButtonElement)) throw new Error("missing choice");
+      act(() => {
+        choice.click();
+      });
+      expect(onAttemptChange).toHaveBeenCalledTimes(1);
+      expect(onAttemptChange.mock.calls[0]?.[0].phase).toBe("teaching");
+    } finally {
+      Object.defineProperty(window, "localStorage", { configurable: true, value: realStorage });
+      vi.useRealTimers();
+    }
+  });
 });
+
+function sampleQuestion(): Question {
+  return {
+    id: "q1",
+    cycle: 1,
+    tier: "foundation",
+    testament: "OT",
+    book: "Genesis",
+    section: "Creation",
+    topics: ["sample"],
+    placement_eligible: false,
+    type: "multiple_choice",
+    prompt: { adult: "Who made the world?" },
+    choices: [
+      { id: "a", text: "A neighbor" },
+      { id: "b", text: "God" },
+    ],
+    answer: "b",
+    teaching: {
+      verses: [{ ref: "Genesis 1:1", text: "", translation: "NKJV" }],
+      explanation: { adult: "The verse tells the story." },
+      takeaway: "God made the world.",
+    },
+    review: { status: "draft", notes: "" },
+  };
+}

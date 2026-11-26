@@ -107,7 +107,11 @@ export function DailyChallengeClient() {
       return;
     }
     playAnswerSound(graded.correct ? "correct" : "miss", state.soundOn);
-    recordAnsweredQuestion(window.localStorage, new Date());
+    try {
+      recordAnsweredQuestion(window.localStorage, new Date());
+    } catch {
+      // The weekly count must not stop the daily answer.
+    }
     const next = finishDailyChallenge(state, {
       day: today,
       questionId: ask.id,

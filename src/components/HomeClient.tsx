@@ -57,7 +57,11 @@ export function HomeClient({
   }, [accountDeleted, ready, state, router]);
 
   useEffect(() => {
-    setWeeklyCount(readWeeklyCount(window.localStorage, new Date()));
+    try {
+      setWeeklyCount(readWeeklyCount(window.localStorage, new Date()));
+    } catch {
+      setWeeklyCount(0);
+    }
     if (typeof window.matchMedia !== "function") return;
     const query = window.matchMedia("(prefers-reduced-motion: reduce)");
     const apply = () => setReducedMotion(query.matches);
