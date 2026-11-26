@@ -56,6 +56,7 @@ describe("password reset and confirmation links", () => {
     expect(skipsAgeGate("/auth/update-password")).toBe(true);
     expect(skipsAgeGate("/privacy")).toBe(true);
     expect(skipsAgeGate("/terms")).toBe(true);
+    expect(skipsAgeGate("/donate")).toBe(true);
     expect(skipsAgeGate("/account")).toBe(false);
     expect(skipsAgeGate("/home")).toBe(false);
   });

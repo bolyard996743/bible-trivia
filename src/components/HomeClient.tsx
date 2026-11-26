@@ -85,6 +85,13 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
       <Link href="/leaderboards" className="tap inline-flex items-center justify-center rounded-2xl border border-line bg-card px-4 text-lg text-ink">
         Leaderboards
       </Link>
+      <Link
+        href="/donate"
+        data-testid="home-donate"
+        className="tap inline-flex min-w-11 items-center justify-center px-3 text-lg text-grove-deep underline"
+      >
+        Donate
+      </Link>
     </section>
   );
 }

@@ -308,7 +308,8 @@ main h1,
 }
 
 a.tap.bg-grove,
-button.bg-grove {
+button.bg-grove,
+.donate-action {
   box-shadow:
     inset 0 1px 0 color-mix(in srgb, white 34%, transparent),
     0 8px 16px color-mix(in srgb, var(--grove-deep) 22%, transparent);
