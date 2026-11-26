@@ -27,6 +27,7 @@ import { rememberPlayedDay } from "@/lib/account/daily-plays";
 import { awardQuestionPoints } from "@/lib/account/scoring";
 import { useSignedIn } from "@/lib/account/use-access";
 import { applyPlayedDay } from "@/lib/play/daily-streak";
+import { buzzBadgeHere } from "@/lib/play/haptics";
 import type { Celebration, StoredState } from "@/lib/storage";
 import { saveState, todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
@@ -305,6 +306,7 @@ export function PlayClient({
           void awardQuestionPoints({ questionId: question.id, missCount, seasonId: progress.seasonId ?? "season-1" });
         }
         if (earnedNow && badge) {
+          buzzBadgeHere();
           if (celebration) continueHref.current = "/complete";
           setEarnedMoment({ id: badge.id, name: badge.name, art: badge.art });
         } else if (celebration) {
