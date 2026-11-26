@@ -4,15 +4,19 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { BadgeEarnedBar } from "@/components/BadgeEarnedBar";
+import { BadgeShelf } from "@/components/BadgeShelf";
 import { KnowledgePath } from "@/components/KnowledgePath";
 import { MascotMark } from "@/components/MascotMark";
+import { StreakFlame } from "@/components/StreakFlame";
 import { PATH_PRIVACY } from "@/lib/copy";
 import { knowledgeStage, pickMascotLine } from "@/lib/game";
 import { countCatalogBadges, countEarnedBadges } from "@/lib/game/badges";
 import { currentSection } from "@/lib/game/progression";
 import { MASCOTS, type MascotLine, type Question } from "@/lib/game/types";
+import { loadPlayedDays } from "@/lib/account/daily-plays";
 import { ACCOUNT_DELETED_MESSAGE } from "@/lib/account/delete-account-copy";
 import { savePlayerState } from "@/lib/account/repository";
+import { impliedDays, recordFromDays, sameDaily, shouldWelcomeBack, visibleDailyStreak, WELCOME_BACK } from "@/lib/play/daily-streak";
 import { todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
@@ -47,6 +51,21 @@ export function HomeClient({
     if (state.lastVisitedOn === today) return;
     savePlayerState({ ...state, lastVisitedOn: today });
   }, [accountDeleted, ready, state, router]);
+
+  useEffect(() => {
+    if (!state || state.ageGroup === "child") return;
+    let active = true;
+    void loadPlayedDays().then((days) => {
+      if (!active || !days) return;
+      const next = recordFromDays([...days, ...impliedDays(state.dailyPlay)], state.dailyPlay?.welcomeOn ?? null);
+      if (next && state.dailyPlay) next.best = Math.max(next.best, state.dailyPlay.best);
+      if (!next || sameDaily(next, state.dailyPlay)) return;
+      savePlayerState({ ...state, dailyPlay: next });
+    });
+    return () => {
+      active = false;
+    };
+  }, [state]);
 
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
   if (accountDeleted && !state?.placementComplete) {
@@ -98,18 +117,30 @@ export function HomeClient({
             : "Streak: a new one starts with the next question you know on the first try. No rush."}
         </p>
       </div>
+      {shouldWelcomeBack(state.dailyPlay, todayKey()) ? (
+        <p data-testid="welcome-back" className="text-lg text-ink">
+          {WELCOME_BACK}
+        </p>
+      ) : null}
       <div className="flex min-w-0 gap-3">
         <MascotMark mascot={state.mascot} />
-        <p className="min-w-0 text-lg text-ink [overflow-wrap:anywhere]">
-          <span className="block text-base text-ink-soft">{MASCOTS[state.mascot].name}</span>
-          {line?.text}
-        </p>
+        <div className="min-w-0">
+          <StreakFlame count={visibleDailyStreak(state.dailyPlay, todayKey())} grow />
+          <p className="min-w-0 text-lg text-ink [overflow-wrap:anywhere]">
+            <span className="block text-base text-ink-soft">{MASCOTS[state.mascot].name}</span>
+            {line?.text}
+          </p>
+        </div>
       </div>
+      <BadgeShelf progress={state.progress} questions={questions} dailyBadges={state.dailyBadges} />
       <Link href="/path" data-testid="stage-map-link" className="tap inline-flex items-center justify-center rounded-2xl border border-grove px-4 text-lg text-grove-deep">
         Stage map
       </Link>
       <Link href="/play" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
         Play
+      </Link>
+      <Link href="/daily" data-testid="daily-link" className="tap inline-flex items-center justify-center rounded-2xl border border-grove px-4 text-lg text-grove-deep">
+        Daily question
       </Link>
       <Link href="/leaderboards" className="tap inline-flex items-center justify-center rounded-2xl border border-line bg-card px-4 text-lg text-ink">
         Leaderboards

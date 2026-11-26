@@ -4,6 +4,7 @@ import { useEffect, useRef } from "react";
 import { BadgeEmblem } from "@/components/BadgeEmblem";
 import { ConfettiBurst } from "@/components/ConfettiBurst";
 import { MascotMark } from "@/components/MascotMark";
+import { ShareBadgeButton } from "@/components/ShareBadgeButton";
 import type { MascotId } from "@/lib/game/types";
 
 export function badgeEarnedMessage(name: string): string {
@@ -47,19 +48,20 @@ export function BadgeEarnedDialog({
         data-testid="badge-earned-dialog"
         className="badge-earned-dialog"
       >
-        <MascotMark mascot={mascot} size="lg" motion="earned" />
+        <MascotMark mascot={mascot} size="lg" motion="celebrate" />
         <div className="badge-earned-pop">
           <BadgeEmblem topic={topic} slug={slug} status="earned" />
         </div>
         <h2 id={titleId} className="text-2xl font-semibold text-grove-deep">
           {badgeEarnedMessage(name)}
         </h2>
+        <ShareBadgeButton name={name} />
         <button
           ref={buttonRef}
           type="button"
           data-testid="badge-earned-continue"
           onClick={onContinue}
-          className="tap rounded-2xl bg-grove px-6 text-lg font-semibold text-white"
+          className="min-h-12 rounded-2xl bg-grove px-6 text-lg font-semibold text-white"
         >
           Continue
         </button>

@@ -15,6 +15,10 @@ export function topBoardUrl(supabaseUrl: string): string {
   return new URL("/rest/v1/rpc/leaderboard_top", supabaseUrl).toString();
 }
 
+export function weeklyBoardUrl(supabaseUrl: string): string {
+  return new URL("/rest/v1/rpc/leaderboard_weekly_top", supabaseUrl).toString();
+}
+
 /** GET URL for the read-only score window. The only query value is the point total. */
 export function aroundScoreUrl(supabaseUrl: string, points: number): string {
   const url = new URL("/rest/v1/rpc/leaderboard_around_score", supabaseUrl);
@@ -45,6 +49,15 @@ function anonHeaders(): Record<string, string> {
     Authorization: `Bearer ${key}`,
     Accept: "application/json",
   };
+}
+
+/** Read-only weekly top 15. GET only, so a signed-out player sends no identifier. */
+export async function fetchWeeklyBoard(): Promise<PublicBoardRow[]> {
+  if (!isSupabaseConfigured()) return [];
+  const base = process.env.NEXT_PUBLIC_SUPABASE_URL as string;
+  const response = await fetch(weeklyBoardUrl(base), { method: "GET", headers: anonHeaders() });
+  if (!response.ok) return [];
+  return rowsFromJson(await response.json());
 }
 
 /** Read-only top 15. GET only, so a signed-out player sends no identifier. */

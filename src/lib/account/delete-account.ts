@@ -30,6 +30,7 @@ export const ACCOUNT_ROW_DELETES = [
   { table: "devotion_comment_bans", column: "user_id" },
   { table: "verse_marks", column: "user_id" },
   { table: "question_awards", column: "user_id" },
+  { table: "daily_plays", column: "user_id" },
   { table: "question_progress", column: "user_id" },
   { table: "stage_progress", column: "user_id" },
   { table: "profiles", column: "user_id" },

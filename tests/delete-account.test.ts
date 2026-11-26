@@ -267,6 +267,7 @@ describe("foreign keys to auth.users", () => {
       "verse_marks",
       "stage_progress",
       "question_awards",
+      "daily_plays",
       "devotion_likes",
       "devotion_comments",
       "devotion_comment_bans",
