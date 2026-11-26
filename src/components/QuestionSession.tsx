@@ -23,6 +23,7 @@ import {
 import { choicesForBadgeAsk } from "@/lib/game/badges";
 import { matchTypography } from "@/lib/game/typography";
 import { schedulesAutoAdvance } from "@/lib/play/advance-clock";
+import { applyCombo, readCombo, writeCombo } from "@/lib/play/combo";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
 import { badgeStreakDisplay } from "@/lib/play/streak";
 import { acceptGuardedTap, TAP_GUARD_MS } from "@/lib/play/tap-guard";
@@ -76,6 +77,7 @@ export function QuestionSession({
 }) {
   const [attempt, setAttempt] = useState(() => resumeAttempt(question.id, initialAttempt));
   const [submitted, setSubmitted] = useState(false);
+  const [combo, setCombo] = useState(0);
   const [guardTick, setGuardTick] = useState(0);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const submittedRef = useRef(false);
@@ -154,6 +156,11 @@ export function QuestionSession({
     return line ? { ...line, text: matchTypography(line.text) } : null;
   }, [ageGroup, attempt.phase, closeOnMiss, lines, mascot, question.id]);
 
+  useEffect(() => {
+    if (attempt.phase !== "asking") return;
+    setCombo(readCombo(window.localStorage));
+  }, [attempt.phase, question.id]);
+
   const verseKey = question.teaching.verses.map((verse) => verse.ref).join("\n");
   useEffect(() => {
     prefetchPassages(verseKey.split("\n").filter((ref) => ref.length > 0));
@@ -214,6 +221,8 @@ export function QuestionSession({
     setSubmitted(true);
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
+    const nextCombo = writeCombo(window.localStorage, applyCombo(readCombo(window.localStorage), correct));
+    setCombo(nextCombo);
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();
   }
@@ -277,7 +286,7 @@ export function QuestionSession({
       </div>
 
       {attempt.phase === "asking" ? (
-        <div className="grid gap-4 rounded-3xl border border-line bg-card p-5">
+        <div className="question-card grid gap-4 rounded-3xl border border-line bg-card p-5" data-combo={combo} data-testid="question-card">
           <h1 data-testid="prompt" className="question-prompt text-2xl leading-snug font-semibold text-ink sm:text-3xl">
             <PromptText text={prompt} />
           </h1>
