@@ -17,14 +17,21 @@ export function applyCombo(current: number, correct: boolean): number {
 }
 
 export function readCombo(storage: { getItem(key: string): string | null }): number {
-  const raw = storage.getItem(COMBO_KEY);
-  if (!raw) return 0;
-  const value = Number(raw);
-  return comboLevel(value);
+  try {
+    const raw = storage.getItem(COMBO_KEY);
+    if (!raw) return 0;
+    return comboLevel(Number(raw));
+  } catch {
+    return 0;
+  }
 }
 
 export function writeCombo(storage: { setItem(key: string, value: string): void }, count: number): number {
   const next = comboLevel(count);
-  storage.setItem(COMBO_KEY, String(next));
+  try {
+    storage.setItem(COMBO_KEY, String(next));
+  } catch {
+    // The glow can be skipped. The answer still counts.
+  }
   return next;
 }

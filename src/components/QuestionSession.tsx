@@ -158,7 +158,11 @@ export function QuestionSession({
 
   useEffect(() => {
     if (attempt.phase !== "asking") return;
-    setCombo(readCombo(window.localStorage));
+    try {
+      setCombo(readCombo(window.localStorage));
+    } catch {
+      setCombo(0);
+    }
   }, [attempt.phase, question.id]);
 
   const verseKey = question.teaching.verses.map((verse) => verse.ref).join("\n");
@@ -221,8 +225,12 @@ export function QuestionSession({
     setSubmitted(true);
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
-    const nextCombo = writeCombo(window.localStorage, applyCombo(readCombo(window.localStorage), correct));
-    setCombo(nextCombo);
+    try {
+      const nextCombo = writeCombo(window.localStorage, applyCombo(readCombo(window.localStorage), correct));
+      setCombo(nextCombo);
+    } catch {
+      // The glow must not stop the answer from registering.
+    }
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();
   }
