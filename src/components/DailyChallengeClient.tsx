@@ -24,6 +24,7 @@ import { MASCOTS } from "@/lib/game/types";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
 import { buzzAnswerHere } from "@/lib/play/haptics";
 import { rememberMissedVersesHere } from "@/lib/play/missed-verses";
+import { recordAnsweredQuestion } from "@/lib/play/weekly-goal";
 import { shouldWelcomeBack, visibleDailyStreak, WELCOME_BACK } from "@/lib/play/daily-streak";
 import { acceptGuardedTap } from "@/lib/play/tap-guard";
 import { todayKey } from "@/lib/storage";
@@ -118,9 +119,10 @@ export function DailyChallengeClient() {
     }
     playAnswerSound(graded.correct ? "correct" : "miss", state.soundOn);
     try {
+      recordAnsweredQuestion(window.localStorage, new Date());
       buzzAnswerHere(graded.correct);
     } catch {
-      // Vibration and storage must not stop the daily answer.
+      // The weekly count, vibration, and storage must not stop the daily answer.
     }
     const next = finishDailyChallenge(state, {
       day: today,

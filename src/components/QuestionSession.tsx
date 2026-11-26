@@ -28,6 +28,7 @@ import { playAnswerSound } from "@/lib/play/feedback-sound";
 import { buzzAnswerHere } from "@/lib/play/haptics";
 import { playReaction, reactionMotion } from "@/lib/play/mascot-reaction";
 import { rememberMissedVersesHere } from "@/lib/play/missed-verses";
+import { recordAnsweredQuestion } from "@/lib/play/weekly-goal";
 import { badgeStreakDisplay } from "@/lib/play/streak";
 import { acceptGuardedTap, TAP_GUARD_MS } from "@/lib/play/tap-guard";
 import { MASCOTS, type AgeGroup, type AttemptState, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
@@ -250,11 +251,12 @@ export function QuestionSession({
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
     try {
+      recordAnsweredQuestion(window.localStorage, new Date());
       const nextCombo = writeCombo(window.localStorage, applyCombo(readCombo(window.localStorage), correct));
       setCombo(nextCombo);
       buzzAnswerHere(correct);
     } catch {
-      // Glow, vibration, and storage must not stop the answer from registering.
+      // The goal, glow, vibration, and storage must not stop the answer from registering.
     }
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();

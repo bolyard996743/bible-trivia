@@ -808,6 +808,10 @@ a.badge-link {
     animation: mascot-soar 800ms ease-in-out;
   }
 
+  .weekly-goal-ring circle:last-child {
+    transition: stroke-dashoffset 400ms ease;
+  }
+
   .question-card {
     transition: box-shadow 220ms ease;
   }
@@ -946,6 +950,7 @@ button.delete-account {
   .mascot-splash,
   .mascot-hop,
   .mascot-soar,
+  .weekly-goal-ring circle,
   .question-card,
   .mascot-lean,
   .badge-shine::after,
