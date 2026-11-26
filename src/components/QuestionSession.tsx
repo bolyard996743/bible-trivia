@@ -24,7 +24,9 @@ import { choicesForBadgeAsk } from "@/lib/game/badges";
 import { matchTypography } from "@/lib/game/typography";
 import { schedulesAutoAdvance } from "@/lib/play/advance-clock";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
+import { buzzAnswerHere } from "@/lib/play/haptics";
 import { playReaction, reactionMotion } from "@/lib/play/mascot-reaction";
+import { rememberMissedVersesHere } from "@/lib/play/missed-verses";
 import { badgeStreakDisplay } from "@/lib/play/streak";
 import { acceptGuardedTap, TAP_GUARD_MS } from "@/lib/play/tap-guard";
 import { MASCOTS, type AgeGroup, type AttemptState, type MascotId, type MascotLine, type Question } from "@/lib/game/types";
@@ -173,6 +175,15 @@ export function QuestionSession({
   }, [verseKey]);
 
   useEffect(() => {
+    if (attempt.phase !== "teaching") return;
+    try {
+      rememberMissedVersesHere(verseKey.split("\n"));
+    } catch {
+      // Saving a reference must not undo the miss that was just recorded.
+    }
+  }, [attempt.phase, verseKey]);
+
+  useEffect(() => {
     const id = window.setTimeout(() => setGuardTick((tick) => tick + 1), TAP_GUARD_MS);
     return () => window.clearTimeout(id);
   }, [guardKey]);
@@ -227,6 +238,11 @@ export function QuestionSession({
     setSubmitted(true);
     const correct = choiceId === question.answer;
     playAnswerSound(correct ? "correct" : "miss", soundOn);
+    try {
+      buzzAnswerHere(correct);
+    } catch {
+      // Vibration and storage must not stop the answer from registering.
+    }
     updateAttempt(submitAnswer(attempt, correct));
     onAnswered?.();
   }

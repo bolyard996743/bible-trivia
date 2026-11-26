@@ -7,6 +7,7 @@ import { STAGE_LEARNING, stageRank } from "@/lib/curriculum";
 import { BADGE_AHEAD_NOTE, badgeEarned, badgeStatusLabel, mapStageRows, stageSlug, visibleBadges } from "@/lib/game/badges";
 import { isBadgeWaiting } from "@/lib/game/badge-retry";
 import { badgeAttention, hasSeenRecord, noticePlan, readSeenBadgesHere, writeSeenBadgesHere, type BadgeAttention } from "@/lib/game/badge-seen";
+import { lockShakeMode, nextLockedBadgeId, planUnlock, readUnlockPlayed, writeUnlockPlayed, type LockShakeMode } from "@/lib/game/badge-unlock";
 import { badgePlayHref, stagePath } from "@/lib/game/path";
 import type { GameProgress, KnowledgeStage } from "@/lib/game/types";
 
@@ -16,6 +17,7 @@ export function StageMap({
   playerKey = "local",
   seenBadgeIds,
   reducedMotion,
+  shakeBadgeId,
 }: {
   progress: GameProgress;
   now?: Date;
@@ -23,14 +25,18 @@ export function StageMap({
   /** When set, the map does not read or write the seen list. Tests use this. */
   seenBadgeIds?: readonly string[];
   reducedMotion?: boolean;
+  /** When set, the map does not read or write the unlock list. Tests use this. */
+  shakeBadgeId?: string | null;
 }) {
   const stages = mapStageRows(progress);
   const current = progress.stage ?? "Seed";
   const [storedSeen, setStoredSeen] = useState<string[] | null>(null);
   const [motion, setMotion] = useState(reducedMotion ?? false);
+  const [liveShake, setLiveShake] = useState<string | null>(null);
+  const earnedKey = earnedBadgeIds(progress).join("|");
 
   useEffect(() => {
-    if (reducedMotion !== undefined) return;
+    if (reducedMotion !== undefined || typeof window.matchMedia !== "function") return;
     const query = window.matchMedia("(prefers-reduced-motion: reduce)");
     const apply = () => setMotion(query.matches);
     apply();
@@ -49,8 +55,21 @@ export function StageMap({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [playerKey, seenBadgeIds]);
 
+  useEffect(() => {
+    if (shakeBadgeId !== undefined) return;
+    if (typeof window === "undefined") return;
+    const earnedIds = earnedKey.length > 0 ? earnedKey.split("|") : [];
+    const stored = readUnlockPlayed(window.localStorage, playerKey, "map");
+    const plan = planUnlock(stored, earnedIds);
+    writeUnlockPlayed(window.localStorage, playerKey, "map", plan.played);
+    setLiveShake(plan.fresh.length > 0 ? nextLockedBadgeId(progress) : null);
+    // earnedKey already lists the badges that can unlock. Progress is read for the next lock.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [earnedKey, playerKey, shakeBadgeId]);
+
   const seen = seenBadgeIds ?? storedSeen;
   const reduce = reducedMotion ?? motion;
+  const shakeId = shakeBadgeId !== undefined ? shakeBadgeId : liveShake;
   const freshKey = (seen ? freshEarnedIds(progress, seen) : []).join("|");
 
   useEffect(() => {
@@ -70,6 +89,7 @@ export function StageMap({
           now={now}
           seen={seen}
           reducedMotion={reduce}
+          shakeId={shakeId}
         />
       ))}
     </div>
@@ -86,6 +106,12 @@ function earnedBadgeIds(progress: GameProgress): string[] {
   return ids;
 }
 
+function shakeClass(mode: LockShakeMode): string {
+  if (mode === "shake") return " badge-lock-shake";
+  if (mode === "still") return " badge-lock-still";
+  return "";
+}
+
 function freshEarnedIds(progress: GameProgress, seen: readonly string[]): string[] {
   return earnedBadgeIds(progress).filter((id) => !seen.includes(id));
 }
@@ -98,6 +124,7 @@ function StageBlock({
   now,
   seen,
   reducedMotion,
+  shakeId,
 }: {
   stage: KnowledgeStage;
   ahead: boolean;
@@ -106,6 +133,7 @@ function StageBlock({
   now: Date;
   seen: readonly string[] | null;
   reducedMotion: boolean;
+  shakeId: string | null;
 }) {
   const block = stagePath(stage);
   const badges = visibleBadges(block?.badges ?? []);
@@ -146,7 +174,9 @@ function StageBlock({
             ? badgeAttention(earned, seen.includes(badge.id), reducedMotion)
             : "none";
           const faded = !earned;
+          const shake = lockShakeMode(badge.id === shakeId, reducedMotion);
           const className = `badge-link flex flex-col items-center gap-2 rounded-2xl px-1 py-1${faded ? " map-unearned" : ""}`;
+          const itemClass = `min-w-0${shakeClass(shake)}`;
           const mark = (
             <>
               <BadgeEmblem topic={badge.art} slug={badge.id} status={status} attention={attention} />
@@ -155,7 +185,7 @@ function StageBlock({
           );
           if (ahead) {
             return (
-              <li key={badge.id} className="min-w-0">
+              <li key={badge.id} className={itemClass} data-lock-shake={shake === "none" ? undefined : shake}>
                 <div
                   data-testid={`badge-${badge.id}`}
                   data-state={status}
@@ -169,7 +199,7 @@ function StageBlock({
             );
           }
           return (
-            <li key={badge.id} className="min-w-0">
+            <li key={badge.id} className={itemClass} data-lock-shake={shake === "none" ? undefined : shake}>
               <Link
                 href={badgePlayHref(badge.id)}
                 data-testid={`badge-${badge.id}`}
