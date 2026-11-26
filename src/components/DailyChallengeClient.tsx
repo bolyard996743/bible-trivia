@@ -23,12 +23,22 @@ import {
 import { MASCOTS } from "@/lib/game/types";
 import { playAnswerSound } from "@/lib/play/feedback-sound";
 import { buzzAnswerHere } from "@/lib/play/haptics";
+import { rememberMissedVersesHere } from "@/lib/play/missed-verses";
 import { shouldWelcomeBack, visibleDailyStreak, WELCOME_BACK } from "@/lib/play/daily-streak";
 import { acceptGuardedTap } from "@/lib/play/tap-guard";
 import { todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
 export function DailyMissPanel({ refs }: { refs: string[] }) {
+  const listed = refs.join("\n");
+  useEffect(() => {
+    try {
+      rememberMissedVersesHere(listed.split("\n"));
+    } catch {
+      // A blocked browser still shows the verse for this miss.
+    }
+  }, [listed]);
+
   return (
     <div data-testid="daily-miss" className="grid min-w-0 gap-4 rounded-3xl border border-gold bg-card p-5">
       <h2 className="text-2xl font-semibold text-grove-deep">{DAILY_MISS_HEADING}</h2>
