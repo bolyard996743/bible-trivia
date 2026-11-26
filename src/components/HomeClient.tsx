@@ -11,11 +11,20 @@ import { knowledgeStage, pickMascotLine } from "@/lib/game";
 import { countCatalogBadges, countEarnedBadges } from "@/lib/game/badges";
 import { currentSection } from "@/lib/game/progression";
 import { MASCOTS, type MascotLine, type Question } from "@/lib/game/types";
+import { ACCOUNT_DELETED_MESSAGE } from "@/lib/account/delete-account-copy";
 import { savePlayerState } from "@/lib/account/repository";
 import { todayKey } from "@/lib/storage";
 import { useProfile } from "@/lib/use-profile";
 
-export function HomeClient({ questions, lines }: { questions: Question[]; lines: MascotLine[] }) {
+export function HomeClient({
+  questions,
+  lines,
+  accountDeleted = false,
+}: {
+  questions: Question[];
+  lines: MascotLine[];
+  accountDeleted?: boolean;
+}) {
   const router = useRouter();
   const { state, ready } = useProfile();
   const visitOnArrival = useRef<string | null | undefined>(undefined);
@@ -25,6 +34,7 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
 
   useEffect(() => {
     if (!ready) return;
+    if (accountDeleted && !state?.placementComplete) return;
     if (!state) {
       router.replace("/profile");
       return;
@@ -36,9 +46,20 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
     const today = todayKey();
     if (state.lastVisitedOn === today) return;
     savePlayerState({ ...state, lastVisitedOn: today });
-  }, [ready, state, router]);
+  }, [accountDeleted, ready, state, router]);
 
   if (!ready) return <p className="text-lg text-ink-soft">Opening…</p>;
+  if (accountDeleted && !state?.placementComplete) {
+    return (
+      <section className="grid gap-4" data-testid="account-deleted">
+        <h1 className="text-3xl font-semibold text-grove-deep">Home</h1>
+        <p className="text-lg text-ink">{ACCOUNT_DELETED_MESSAGE}</p>
+        <Link href="/profile" className="tap inline-flex items-center justify-center rounded-2xl bg-grove px-4 text-lg font-semibold text-white">
+          Choose a guide
+        </Link>
+      </section>
+    );
+  }
   if (!state?.placementComplete) return <p className="text-lg text-ink-soft">Opening…</p>;
 
   const stage = state.progress.stage ?? knowledgeStage(state.progress.cycle, state.progress.tier);
@@ -54,13 +75,18 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
 
   return (
     <section className="grid gap-6">
+      {accountDeleted ? (
+        <p className="text-lg text-ink" data-testid="account-deleted">
+          {ACCOUNT_DELETED_MESSAGE}
+        </p>
+      ) : null}
       <div>
         <p className="text-base text-gold">Private</p>
         <h1 className="text-3xl font-semibold text-grove-deep">Your Knowledge Path</h1>
         <p className="mt-2 text-base text-ink-soft">{PATH_PRIVACY}</p>
       </div>
       <BadgeEarnedBar earned={countEarnedBadges(state.progress)} total={countCatalogBadges()} />
-      <KnowledgePath progress={{ ...state.progress, stage }} />
+      <KnowledgePath progress={{ ...state.progress, stage }} variant="reached" />
       <div className="grid gap-2 rounded-3xl border border-line bg-card p-5 text-lg">
         <p data-testid="path-position">
           {stage} · Cycle {state.progress.cycle}

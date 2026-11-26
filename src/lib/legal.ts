@@ -64,8 +64,7 @@ export const PRIVACY_SECTIONS: LegalSection[] = [
   {
     heading: "Asking for deletion",
     paragraphs: [
-      "The app does not yet have a button that deletes an account.",
-      "TODO for the owner: put a contact address here so a player can ask for an account to be deleted.",
+      "To delete an account, sign in, open Settings, scroll to the bottom, and tap Delete account. Then tap Yes to confirm. The account and its data are deleted permanently.",
       "Progress that lives only on this device can be removed by clearing this site's data in the browser.",
     ],
   },

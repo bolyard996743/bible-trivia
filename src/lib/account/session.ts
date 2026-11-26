@@ -1,5 +1,6 @@
-import { createVerseMarkStore } from "../bible/marks";
-import type { StoredState } from "../storage";
+import { createVerseMarkStore, VERSE_MARKS_KEY } from "../bible/marks";
+import { BADGE_SEEN_KEY } from "../game/badge-seen";
+import { legacyProgressKeys, STORAGE_KEY, type LocalBucket, type StoredState } from "../storage";
 import {
   accountBirth,
   ageGateFromBracket,
@@ -27,6 +28,11 @@ const PENDING_CARRY_KEY = "bible-trivia-pending-carry-email";
 
 const carriedUsers = new Set<string>();
 const settling = new Map<string, Promise<void>>();
+let removalGeneration = 0;
+
+function removalStill(generation: number): boolean {
+  return removalGeneration === generation;
+}
 
 export type MergeOffer = {
   userId: string;
@@ -50,6 +56,35 @@ export function subscribeAccount(listener: Listener): () => void {
 function notify() {
   for (const listener of listeners) listener();
   if (typeof window !== "undefined") window.dispatchEvent(new Event("bible-trivia-storage"));
+}
+
+/** Stops an in-flight sync from writing this device's progress back onto a new account. */
+export function beginAccountRemoval(): void {
+  removalGeneration += 1;
+  offer = null;
+  carriedUsers.clear();
+  settling.clear();
+}
+
+export function clearStoredProgress(storage: LocalBucket): void {
+  const keys = new Set<string>([
+    STORAGE_KEY,
+    VERSE_MARKS_KEY,
+    BADGE_SEEN_KEY,
+    DECLINED_KEY,
+    PENDING_CARRY_KEY,
+    ...legacyProgressKeys(storage),
+  ]);
+  for (const key of keys) storage.removeItem?.(key);
+}
+
+/** Drops guest progress on this device so it cannot attach to another account. */
+export function discardLocalProgress(): void {
+  beginAccountRemoval();
+  if (typeof window === "undefined") return;
+  clearStoredProgress(window.localStorage);
+  setPlayerRepository(createLocalPlayerRepository());
+  notify();
 }
 
 function declinedUser(): string | null {
@@ -86,17 +121,22 @@ export function resetAccountCarryForTests(): void {
 }
 
 async function commitMerge(userId: string, local: StoredState, remoteState: StoredState | null): Promise<void> {
+  const generation = removalGeneration;
   const client = getSupabaseBrowserClient();
-  if (!client || typeof window === "undefined") return;
+  if (!client || typeof window === "undefined" || !removalStill(generation)) return;
   const localRepo = createLocalPlayerRepository(window.localStorage);
   const remote = createSupabasePlayerRepository(client, userId);
   const merged = mergeAccountProgress(local, remoteState, localMarks(), await remote.loadMarks());
+  if (!removalStill(generation)) return;
   if (merged.state && merged.upload) {
     await remote.save(merged.state);
+    if (!removalStill(generation)) return;
     await remote.saveMarks(merged.marks);
+    if (!removalStill(generation)) return;
     await localRepo.save(merged.state);
     await localRepo.saveMarks(merged.marks);
   }
+  if (!removalStill(generation)) return;
   window.localStorage.removeItem(DECLINED_KEY);
   carriedUsers.add(userId);
   clearPendingCarry();
@@ -149,10 +189,13 @@ function alignLocalAge(local: StoredState | null): StoredState | null {
 }
 
 async function adoptSession(userId: string) {
-  if (typeof window === "undefined") return;
+  const generation = removalGeneration;
+  if (typeof window === "undefined" || !removalStill(generation)) return;
   const localRepo = createLocalPlayerRepository(window.localStorage);
   const local = alignLocalAge(await localRepo.load());
+  if (!removalStill(generation)) return;
   if (local) await localRepo.save(local);
+  if (!removalStill(generation)) return;
   if (local && !canOfferAccount(local.ageGroup)) {
     offer = null;
     clearPendingCarry();
@@ -160,7 +203,7 @@ async function adoptSession(userId: string) {
     return;
   }
   const client = getSupabaseBrowserClient();
-  if (!client) return;
+  if (!client || !removalStill(generation)) return;
   if (carriedUsers.has(userId)) {
     offer = null;
     setPlayerRepository(createSyncingRepository(localRepo, createSupabasePlayerRepository(client, userId), true));
@@ -176,15 +219,18 @@ async function adoptSession(userId: string) {
     remote = null;
     remoteUnreadable = true;
   }
+  if (!removalStill(generation)) return;
   const pending = pendingCarryEmail();
   if (pending && local && !remoteUnreadable) {
     const user = (await client.auth.getUser()).data.user;
+    if (!removalStill(generation)) return;
     const sessionEmail = user?.email?.trim().toLowerCase() ?? "";
     if (sessionEmail && sessionEmail === pending) {
       await saveBirthThenCarry(userId, local, remote);
       return;
     }
   }
+  if (!removalStill(generation)) return;
   if (pending && !local) clearPendingCarry();
   const marks = localMarks();
   const shouldOffer = Boolean(local && declinedUser() !== userId && (hasDeviceProgress(local, marks) || remote));
@@ -196,7 +242,9 @@ async function adoptSession(userId: string) {
   }
   if (remote) {
     await localRepo.save(remote);
+    if (!removalStill(generation)) return;
     await localRepo.saveMarks(await remoteRepo.loadMarks());
+    if (!removalStill(generation)) return;
   }
   offer = null;
   setPlayerRepository(createSyncingRepository(localRepo, remoteRepo, true));

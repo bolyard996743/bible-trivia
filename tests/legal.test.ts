@@ -60,7 +60,12 @@ describe("legal pages", () => {
     expect(privacy).toContain("under 13");
     expect(privacy).toContain("cannot create an account");
     expect(privacy).toContain("stays on this device");
-    expect(privacy).toContain("TODO for the owner");
+    expect(privacy).toContain("sign in, open Settings, scroll to the bottom, and tap Delete account");
+    expect(privacy).toContain("tap Yes to confirm");
+    expect(privacy).toContain("deleted permanently");
+    expect(privacy).toContain("clearing this site's data in the browser");
+    expect(privacy).not.toContain("TODO");
+    expect(privacy).not.toContain("does not yet have a button");
     expect(privacy).not.toContain("we sell");
   });
 
