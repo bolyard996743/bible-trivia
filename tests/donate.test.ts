@@ -96,12 +96,13 @@ describe("donate page", () => {
     expect(FAITHFUL_SEARCHER_DONATE_URL).toBe("https://buy.stripe.com/9B67sMeX4cmTeFE8WL9k402");
     expect(NOBLE_BEREAN_DONATE_URL).toBe("https://buy.stripe.com/5kQ00kbKS72zgNMc8X9k403");
     expect(PILLAR_SUPPORTER_DONATE_URL).toBe("https://buy.stripe.com/9B67sMg18fz5fJIdd19k404");
-    expect(GIVE_AS_LED_DONATE_URL).toBeNull();
+    expect(GIVE_AS_LED_DONATE_URL).toBe("https://buy.stripe.com/14A28saGOev12WWfl99k405");
     expect(liveDonateTiers().map((item) => item.id)).toEqual([
       "lamp-lighter",
       "faithful-searcher",
       "noble-berean",
       "pillar-supporter",
+      "give-as-led",
     ]);
   });
 
@@ -118,7 +119,7 @@ describe("donate page", () => {
     expect(liveDonateTiers([{ ...custom, href: null }])).toEqual([]);
     expect(liveDonateTiers([{ ...custom, href: "" }])).toEqual([]);
 
-    const hidden = render(createElement(DonateTierCard, { tier: custom, verse: null }));
+    const hidden = render(createElement(DonateTierCard, { tier: { ...custom, href: null }, verse: null }));
     expect(hidden.querySelector("[data-testid=donate-tier]")).toBeNull();
     act(() => root?.unmount());
 
@@ -141,11 +142,14 @@ describe("donate page", () => {
     expect(donateAnchorProps(href)).toEqual({ href, target: "_blank", rel: "noopener noreferrer" });
   });
 
-  it("renders the four live gifts, the disclosure, and a new-tab link for each", () => {
+  it("renders the five live gifts, the disclosure, and a new-tab link for each", () => {
     const page = render(createElement(DonateScreen));
     expect(page.querySelector("[data-testid=donate-disclosure]")?.textContent).toBe(DONATE_DISCLOSURE);
     expect(page.textContent).toContain(LAMP_TEXT);
     expect(page.textContent).toContain("Psalm 119:105 (NKJV)");
+    expect(page.textContent).toContain(GIFT_TEXT);
+    expect(page.textContent).toContain("2 Corinthians 9:7 (NKJV)");
+    expect(page.textContent).toContain("Any amount is a blessing");
     expect(page.textContent).toContain(NKJV_COPYRIGHT);
     expect(page.textContent).toContain("Scripture from");
     const notice = page.querySelector("[data-testid=scripture-notice]");
@@ -154,7 +158,7 @@ describe("donate page", () => {
     const tierGrid = page.querySelector("#donate-tiers");
     const position = tierGrid && notice ? tierGrid.compareDocumentPosition(notice) : 0;
     expect(position & Node.DOCUMENT_POSITION_FOLLOWING).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
-    expect(page.textContent).not.toContain("Give as You're Led");
+    expect(page.textContent).toContain("Give as You're Led");
     expect(page.textContent).not.toContain("Coming soon");
     expect(page.textContent).not.toMatch(
       /\b(difficulty|easy|intermediate|advanced|expert|child|children|teen|teens|adult|adults|older|younger)\b/i,
@@ -168,7 +172,11 @@ describe("donate page", () => {
     expect(main?.getAttribute("target")).toBeNull();
 
     const cards = page.querySelectorAll("[data-testid=donate-tier]");
-    expect(cards).toHaveLength(4);
+    expect(cards).toHaveLength(5);
+    const custom = page.querySelector('[data-tier="give-as-led"] a');
+    expect(custom?.getAttribute("href")).toBe("https://buy.stripe.com/14A28saGOev12WWfl99k405");
+    expect(custom?.getAttribute("target")).toBe("_blank");
+    expect(custom?.getAttribute("rel")).toBe("noopener noreferrer");
     for (const item of liveDonateTiers()) {
       const card = page.querySelector(`[data-tier="${item.id}"]`);
       expect(card?.textContent).toContain(item.amountLabel);
@@ -201,7 +209,9 @@ describe("donate page", () => {
     expect(missing["lamp-lighter"]?.text).toBe(LAMP_TEXT);
     expect(missing["lamp-lighter"]?.copyright).toBe(NKJV_COPYRIGHT);
     expect(missing["lamp-lighter"]?.fumsToken).toBeNull();
-    expect(missing["give-as-led"]).toBeUndefined();
+    expect(missing["give-as-led"]?.text).toBe(GIFT_TEXT);
+    expect(missing["give-as-led"]?.copyright).toBe(NKJV_COPYRIGHT);
+    expect(missing["give-as-led"]?.fumsToken).toBeNull();
 
     const fetchImpl = async (input: string) => {
       const url = String(input);
@@ -242,7 +252,9 @@ describe("donate page", () => {
     expect(loaded["lamp-lighter"]?.text).toBe(LAMP_TEXT);
     expect(loaded["lamp-lighter"]?.fumsToken).toBe("fums-donate-test");
     expect(loaded["lamp-lighter"]?.copyright).toContain("Thomas Nelson");
-    expect(loaded["give-as-led"]).toBeUndefined();
+    expect(loaded["give-as-led"]?.text).toBe(GIFT_TEXT);
+    expect(loaded["give-as-led"]?.copyright).toBe(NKJV_COPYRIGHT);
+    expect(loaded["give-as-led"]?.fumsToken).toBeNull();
 
     const withToken = render(
       createElement(DonateScreen, {
@@ -273,6 +285,7 @@ describe("donate page", () => {
         FAITHFUL_SEARCHER_DONATE_URL,
         NOBLE_BEREAN_DONATE_URL,
         PILLAR_SUPPORTER_DONATE_URL,
+        GIVE_AS_LED_DONATE_URL,
       ].sort(),
     );
   });
