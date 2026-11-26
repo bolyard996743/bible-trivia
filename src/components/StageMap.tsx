@@ -145,7 +145,29 @@ function StageBlock({
           const attention: BadgeAttention = seen
             ? badgeAttention(earned, seen.includes(badge.id), reducedMotion)
             : "none";
-          const faded = !earned && !ahead;
+          const faded = !earned;
+          const className = `badge-link flex flex-col items-center gap-2 rounded-2xl px-1 py-1${faded ? " map-unearned" : ""}`;
+          const mark = (
+            <>
+              <BadgeEmblem topic={badge.art} slug={badge.id} status={status} attention={attention} />
+              <span className={`badge-caption ${earned ? "text-grove-deep" : "text-ink"}`}>{badge.name}</span>
+            </>
+          );
+          if (ahead) {
+            return (
+              <li key={badge.id} className="min-w-0">
+                <div
+                  data-testid={`badge-${badge.id}`}
+                  data-state={status}
+                  role="group"
+                  aria-label={badgeStatusLabel(badge.name, status)}
+                  className={className}
+                >
+                  {mark}
+                </div>
+              </li>
+            );
+          }
           return (
             <li key={badge.id} className="min-w-0">
               <Link
@@ -153,10 +175,9 @@ function StageBlock({
                 data-testid={`badge-${badge.id}`}
                 data-state={status}
                 aria-label={badgeStatusLabel(badge.name, status)}
-                className={`badge-link flex flex-col items-center gap-2 rounded-2xl px-1 py-1${faded ? " map-unearned" : ""}`}
+                className={className}
               >
-                <BadgeEmblem topic={badge.art} slug={badge.id} status={status} attention={attention} />
-                <span className={`badge-caption ${earned ? "text-grove-deep" : "text-ink"}`}>{badge.name}</span>
+                {mark}
               </Link>
             </li>
           );
