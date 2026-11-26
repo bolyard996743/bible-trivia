@@ -148,6 +148,33 @@ export function badgeJustEarned(wasEarned: boolean, isEarned: boolean): boolean 
   return !wasEarned && isEarned;
 }
 
+/** Every badge in the catalog, including ones still being written. */
+export function countCatalogBadges(path: KnowledgePathFile = knowledgePath): number {
+  let total = 0;
+  for (const stage of path.stages) total += stage.badges.length;
+  return total;
+}
+
+/** Badges this player has earned. An empty badge cannot be earned. */
+export function countEarnedBadges(progress: GameProgress, path: KnowledgePathFile = knowledgePath): number {
+  let earned = 0;
+  for (const stage of path.stages) {
+    for (const badge of stage.badges) {
+      if (badgeEarned(progress, badge)) earned += 1;
+    }
+  }
+  return earned;
+}
+
+export function badgesEarnedLabel(earned: number, total: number): string {
+  return `Badges earned ${earned}/${total}`;
+}
+
+export function badgeProgressRatio(earned: number, total: number): number {
+  if (total <= 0) return 0;
+  return Math.min(1, Math.max(0, earned / total));
+}
+
 /**
  * The questions a badge attempt asks, in path order, each with every choice.
  *

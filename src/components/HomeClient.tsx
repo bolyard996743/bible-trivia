@@ -3,10 +3,12 @@
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
+import { BadgeEarnedBar } from "@/components/BadgeEarnedBar";
 import { KnowledgePath } from "@/components/KnowledgePath";
 import { MascotMark } from "@/components/MascotMark";
 import { PATH_PRIVACY } from "@/lib/copy";
 import { knowledgeStage, pickMascotLine } from "@/lib/game";
+import { countCatalogBadges, countEarnedBadges } from "@/lib/game/badges";
 import { currentSection } from "@/lib/game/progression";
 import { MASCOTS, type MascotLine, type Question } from "@/lib/game/types";
 import { savePlayerState } from "@/lib/account/repository";
@@ -57,6 +59,7 @@ export function HomeClient({ questions, lines }: { questions: Question[]; lines:
         <h1 className="text-3xl font-semibold text-grove-deep">Your Knowledge Path</h1>
         <p className="mt-2 text-base text-ink-soft">{PATH_PRIVACY}</p>
       </div>
+      <BadgeEarnedBar earned={countEarnedBadges(state.progress)} total={countCatalogBadges()} />
       <KnowledgePath progress={{ ...state.progress, stage }} />
       <div className="grid gap-2 rounded-3xl border border-line bg-card p-5 text-lg">
         <p data-testid="path-position">
