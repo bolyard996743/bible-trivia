@@ -152,8 +152,12 @@ describe("donate page", () => {
     expect(page.textContent).toContain("Any amount is a blessing");
     expect(page.textContent).toContain(NKJV_COPYRIGHT);
     expect(page.textContent).toContain("Scripture from");
-    const notice = page.querySelector("[data-testid=scripture-notice]");
-    expect(notice).not.toBeNull();
+    const notices = page.querySelectorAll("[data-testid=scripture-notice]");
+    expect(notices).toHaveLength(1);
+    const notice = notices[0];
+    expect(notice?.textContent).toContain(NKJV_COPYRIGHT);
+    expect(notice?.textContent).toContain("Scripture from");
+    expect(notice?.textContent?.match(/API\.Bible/g)).toHaveLength(1);
     expect(notice?.closest("[data-testid=donate-tier]")).toBeNull();
     const tierGrid = page.querySelector("#donate-tiers");
     const position = tierGrid && notice ? tierGrid.compareDocumentPosition(notice) : 0;
@@ -268,7 +272,7 @@ describe("donate page", () => {
       }),
     );
     expect(withToken.textContent).toContain(LAMP_TEXT);
-    expect(withToken.querySelector("[data-testid=scripture-notice]")).not.toBeNull();
+    expect(withToken.querySelectorAll("[data-testid=scripture-notice]")).toHaveLength(1);
   });
 
   it("does not keep the combined payment link anywhere in the repo", () => {

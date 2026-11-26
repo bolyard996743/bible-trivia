@@ -56,6 +56,8 @@ export function DonateScreen({
     const verse = verseFor(tier, verses);
     return verse && tier.verse ? [{ id: tier.id, verse }] : [];
   });
+  const notice = shownVerses[0]?.verse ?? null;
+  const fumsTokens = shownVerses.flatMap(({ verse }) => (verse.fumsToken ? [verse.fumsToken] : []));
   return (
     <article className="grid gap-6" data-testid="donate-page">
       <header className="grid gap-4">
@@ -83,17 +85,13 @@ export function DonateScreen({
           ))}
         </div>
       </section>
-      {shownVerses.length > 0 ? (
-        <div data-testid="donate-scripture" className="grid gap-4">
-          {shownVerses.map(({ id, verse }) => (
-            <div key={id}>
-              <ScriptureNotice
-                copyright={verse.copyright}
-                className="grid gap-1 text-base text-ink-soft [&_a]:inline-flex [&_a]:min-h-11 [&_a]:min-w-11 [&_a]:items-center [&_a]:underline"
-              />
-              {verse.fumsToken ? <FumsTrack tokens={[verse.fumsToken]} /> : null}
-            </div>
-          ))}
+      {notice ? (
+        <div data-testid="donate-scripture">
+          <ScriptureNotice
+            copyright={notice.copyright}
+            className="grid gap-1 text-base text-ink-soft [&_a]:inline-flex [&_a]:min-h-11 [&_a]:min-w-11 [&_a]:items-center [&_a]:underline"
+          />
+          {fumsTokens.length > 0 ? <FumsTrack tokens={fumsTokens} /> : null}
         </div>
       ) : null}
     </article>
