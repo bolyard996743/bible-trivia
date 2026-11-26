@@ -8,6 +8,7 @@ import { BADGE_AHEAD_NOTE, badgeEarned, badgeStatusLabel, mapStageRows, stageSlu
 import { isBadgeWaiting } from "@/lib/game/badge-retry";
 import { badgeAttention, hasSeenRecord, noticePlan, readSeenBadgesHere, writeSeenBadgesHere, type BadgeAttention } from "@/lib/game/badge-seen";
 import { badgePlayHref, stagePath } from "@/lib/game/path";
+import { seasonClass, seasonFor } from "@/lib/season";
 import type { GameProgress, KnowledgeStage } from "@/lib/game/types";
 
 export function StageMap({
@@ -58,8 +59,11 @@ export function StageMap({
     writeSeenBadgesHere(playerKey, freshKey.split("|"));
   }, [playerKey, seenBadgeIds, seen, freshKey]);
 
+  const season = seasonFor(now);
+  const seasonName = seasonClass(season);
+
   return (
-    <div className="grid gap-5" data-testid="stage-map">
+    <div className={`grid gap-5${seasonName ? ` ${seasonName}` : ""}`} data-testid="stage-map" data-season={season}>
       {stages.map((row) => (
         <StageBlock
           key={row.stage}
