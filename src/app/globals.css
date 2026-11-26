@@ -450,6 +450,102 @@ a.badge-link {
   overflow-wrap: anywhere;
 }
 
+.tap-guard {
+  pointer-events: none;
+}
+
+.ichthys-fill {
+  height: 100%;
+  width: 100%;
+  background: var(--grove);
+  opacity: 0.9;
+  transform-origin: left center;
+  transform: scaleX(0);
+  animation: ichthys-fill 5s linear forwards;
+}
+
+.ichthys-fill.is-paused {
+  animation-play-state: paused;
+}
+
+@keyframes ichthys-fill {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes mascot-bounce-sm {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  45% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes mascot-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  55% {
+    transform: translateY(-2px);
+  }
+  75% {
+    transform: translateY(-6px);
+  }
+}
+
+.badge-earned-dialog {
+  position: relative;
+}
+
+.confetti {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  overflow: visible;
+}
+
+.confetti-piece {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  width: 0.65rem;
+  height: 0.95rem;
+  z-index: 3;
+  border-radius: 2px;
+  opacity: 0;
+}
+
+@keyframes confetti-burst {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, 0) rotate(0deg);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--x)), var(--y)) rotate(var(--r));
+  }
+}
+
+@keyframes badge-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   a.badge-link,
   a.tap.bg-grove,
@@ -461,6 +557,18 @@ a.badge-link {
   a.tap.bg-grove:hover,
   button.bg-grove:hover {
     transform: translateY(-2px);
+  }
+
+  .mascot-bounce-sm {
+    animation: mascot-bounce-sm 420ms ease-out;
+  }
+
+  .mascot-bounce {
+    animation: mascot-bounce 680ms ease-in-out;
+  }
+
+  .confetti-piece {
+    animation: confetti-burst 1.5s ease-out forwards;
   }
 }
 
@@ -524,8 +632,20 @@ button.delete-account {
   a.tap.bg-grove,
   button.bg-grove,
   .badge-flash,
-  .badge-earned-pop {
+  .badge-earned-pop,
+  .mascot-bounce,
+  .mascot-bounce-sm,
+  .ichthys-fill,
+  .confetti-piece {
     transition: none;
     animation: none;
+  }
+
+  .confetti {
+    display: none;
+  }
+
+  .badge-earned-dialog {
+    animation: badge-fade 180ms ease both;
   }
 }

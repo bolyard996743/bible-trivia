@@ -17,6 +17,7 @@ import {
   BADGE_EARNED_NOTE,
   BADGE_PREPARING_NOTE,
   badgeRetryDeadline,
+  openAttemptCorrectIds,
   recordBadgeAnswer,
 } from "@/lib/game/badge-retry";
 import { attemptPoints, questionMarkers, recordClear, advanceStage, selectLadderQuestion } from "@/lib/game/ladder";
@@ -174,6 +175,7 @@ export function PlayClient({
             name={earnedMoment.name}
             topic={earnedMoment.art}
             slug={earnedMoment.id}
+            mascot={state.mascot}
             onContinue={() => {
               setEarnedMoment(null);
               const href = continueHref.current;
@@ -224,6 +226,7 @@ export function PlayClient({
       initialAttempt={badge ? null : attemptForQuestion(question.id, state.progress)}
       onAttemptChange={badge ? undefined : rememberAttempt}
       closeOnMiss={Boolean(badge)}
+      attemptCorrectIds={badge ? openAttemptCorrectIds(state.progress, badge.id) : null}
       missFooter={badge && reviewingMiss && retryAt ? <BadgeRetryNotice now={now} retryAt={retryAt} /> : null}
       onMiss={(missCount) => {
         const current = stateRef.current;

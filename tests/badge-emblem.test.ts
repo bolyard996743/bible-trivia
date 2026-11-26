@@ -228,6 +228,7 @@ describe("earning a badge", () => {
         name: badge.name,
         topic: badge.art,
         slug: badge.id,
+        mascot: "judah",
         onContinue: () => undefined,
       }),
     );

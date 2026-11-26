@@ -2,6 +2,9 @@
 
 import { useEffect, useRef } from "react";
 import { BadgeEmblem } from "@/components/BadgeEmblem";
+import { ConfettiBurst } from "@/components/ConfettiBurst";
+import { MascotMark } from "@/components/MascotMark";
+import type { MascotId } from "@/lib/game/types";
 
 export function badgeEarnedMessage(name: string): string {
   const titled = /^(the|a|an)\b/i.test(name.trim());
@@ -12,11 +15,13 @@ export function BadgeEarnedDialog({
   name,
   topic,
   slug,
+  mascot,
   onContinue,
 }: {
   name: string;
   topic: string;
   slug: string;
+  mascot: MascotId;
   onContinue: () => void;
 }) {
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -42,6 +47,7 @@ export function BadgeEarnedDialog({
         data-testid="badge-earned-dialog"
         className="badge-earned-dialog"
       >
+        <MascotMark mascot={mascot} size="lg" motion="earned" />
         <div className="badge-earned-pop">
           <BadgeEmblem topic={topic} slug={slug} status="earned" />
         </div>
@@ -57,6 +63,7 @@ export function BadgeEarnedDialog({
         >
           Continue
         </button>
+        <ConfettiBurst />
       </div>
     </div>
   );
