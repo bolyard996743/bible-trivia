@@ -55,7 +55,7 @@ export function BadgeEarnedDialog({
         <h2 id={titleId} className="text-2xl font-semibold text-grove-deep">
           {badgeEarnedMessage(name)}
         </h2>
-        <ShareBadgeButton name={name} />
+        <ShareBadgeButton name={name} topic={topic} slug={slug} />
         <button
           ref={buttonRef}
           type="button"

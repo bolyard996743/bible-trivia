@@ -35,7 +35,7 @@ import {
   WELCOME_BACK,
 } from "@/lib/play/daily-streak";
 import { MASCOT_CELEBRATION } from "@/lib/play/mascot-celebration";
-import { presentBadgeShare, shareCardLine, drawBadgeShareCard, type ShareCardCanvas } from "@/lib/share/badge-card";
+import { badgeMedallionSvg, presentBadgeShare, shareCardLine, drawBadgeShareCard, type ShareCardCanvas } from "@/lib/share/badge-card";
 import { createState, parseState } from "@/lib/storage";
 
 function question(id: string, stage: KnowledgeStage, answer = "a"): Question {
@@ -282,6 +282,7 @@ describe("share card", () => {
   it("draws the badge line and the brand, and shares a file or downloads it", async () => {
     expect(shareCardLine("Creation")).toBe("I earned the Creation badge!");
     const texts: string[] = [];
+    const drawn: unknown[] = [];
     const ctx: ShareCardCanvas = {
       fillStyle: "",
       strokeStyle: "",
@@ -301,11 +302,40 @@ describe("share card", () => {
       measureText(text) {
         return { width: text.length * 20 };
       },
+      drawImage(image) {
+        drawn.push(image);
+      },
     };
-    drawBadgeShareCard(ctx, { name: "Creation", width: 720, height: 960 });
+    const svg = badgeMedallionSvg("creation", "seed-creation");
+    expect(svg).toContain("M8 46c8-14 14-16 24-6");
+    expect(svg).toContain('fill="#8a3b12"');
+    expect(svg).not.toContain("var(--badge-");
+    expect(svg).not.toContain("<image");
+    expect(svg).not.toContain("Alpha Unique Choice");
+    const ids = [...svg.matchAll(/id="([^"]+)"/g)].map((match) => match[1]);
+    const refs = [...svg.matchAll(/url\(#([^)]+)\)/g)].map((match) => match[1]);
+    expect(refs.length).toBeGreaterThan(0);
+    for (const ref of refs) expect(ids).toContain(ref);
+    const loaded: string[] = [];
+    await drawBadgeShareCard(ctx, {
+      name: "Creation",
+      topic: "creation",
+      slug: "seed-creation",
+      width: 720,
+      height: 960,
+      loadImage: async (src) => {
+        loaded.push(src);
+        return { src };
+      },
+    });
+    expect(drawn).toHaveLength(1);
+    expect(loaded[0]?.startsWith("data:image/svg+xml")).toBe(true);
+    const painted = decodeURIComponent(loaded[0]?.slice(loaded[0].indexOf(",") + 1) ?? "");
+    expect(painted).toContain("M8 46c8-14 14-16 24-6");
     expect(texts).toContain("Noble Bereans");
     expect(texts.join(" ")).toContain("I earned the Creation badge!");
     expect(texts.join(" ")).not.toContain("Alpha Unique Choice");
+    expect(painted).not.toContain("Alpha Unique Choice");
 
     const file = new File(["png"], "noble-bereans-badge.png", { type: "image/png" });
     const shared = await presentBadgeShare({

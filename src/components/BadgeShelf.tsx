@@ -95,7 +95,7 @@ function BadgeVerseDialog({ badge, onClose }: { badge: ShelfBadge; onClose: () =
         <div className="min-w-0 text-left">
           <FetchedPassage reference={badge.ref} />
         </div>
-        <ShareBadgeButton name={badge.name} />
+        <ShareBadgeButton name={badge.name} topic={badge.art} slug={badge.id} />
         <button
           ref={closeRef}
           type="button"

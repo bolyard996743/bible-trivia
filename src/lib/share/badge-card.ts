@@ -1,3 +1,9 @@
+import { createElement } from "react";
+import { flushSync } from "react-dom";
+import { createRoot } from "react-dom/client";
+import { BadgeEmblem } from "@/components/BadgeEmblem";
+import { badgeLook } from "@/lib/game/badge-look";
+
 export type ShareCardCanvas = {
   fillStyle: string;
   strokeStyle: string;
@@ -13,6 +19,11 @@ export type ShareCardCanvas = {
   stroke(): void;
   fillText(text: string, x: number, y: number): void;
   measureText(text: string): { width: number };
+  drawImage(image: unknown, x: number, y: number, width: number, height: number): void;
+};
+
+export type ShareCardImage = {
+  src?: string;
 };
 
 export function shareCardLine(name: string): string {
@@ -38,8 +49,68 @@ function wrapLine(ctx: ShareCardCanvas, text: string, maxWidth: number): string[
   return lines.length > 0 ? lines : [text];
 }
 
+/**
+ * The shelf medallion as one SVG document.
+ * Colors are written in, so the picture does not depend on the page stylesheet
+ * and does not fetch anything.
+ */
+export function badgeMedallionSvg(topic: string, slug = ""): string {
+  if (typeof document === "undefined") return "";
+  const look = badgeLook(topic, slug);
+  const host = document.createElement("div");
+  document.body.appendChild(host);
+  const root = createRoot(host);
+  flushSync(() => {
+    root.render(createElement(BadgeEmblem, { topic, slug, status: "earned" }));
+  });
+  const svg = host.querySelector("svg");
+  if (svg) {
+    svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+    svg.setAttribute("width", "240");
+    svg.setAttribute("height", "240");
+  }
+  const raw = svg?.outerHTML ?? "";
+  root.unmount();
+  host.remove();
+  const colored = raw
+    .replaceAll("var(--badge-ink)", look.palette.ink)
+    .replaceAll("var(--badge-wash)", look.palette.wash)
+    .replaceAll("var(--badge-accent)", look.palette.accent);
+  return colored
+    .replace(/id="([^"]+)"/g, (_, id: string) => `id="${safeSvgId(id)}"`)
+    .replace(/url\(#([^)]+)\)/g, (_, id: string) => `url(#${safeSvgId(id)})`);
+}
+
+function safeSvgId(id: string): string {
+  return `m${id.replace(/[^a-zA-Z0-9]/g, "")}`;
+}
+
+/** Inline SVG. A data URL stays on this device and does not taint the canvas. */
+export function badgeMedallionUrl(topic: string, slug = ""): string {
+  return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(badgeMedallionSvg(topic, slug))}`;
+}
+
+function loadInlineImage(src: string): Promise<ShareCardImage> {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = () => reject(new Error("badge art"));
+    image.src = src;
+  });
+}
+
 /** Draws the share image. The only words are the brand and the badge line. */
-export function drawBadgeShareCard(ctx: ShareCardCanvas, input: { name: string; width: number; height: number }): string[] {
+export async function drawBadgeShareCard(
+  ctx: ShareCardCanvas,
+  input: {
+    name: string;
+    topic: string;
+    slug: string;
+    width: number;
+    height: number;
+    loadImage?: (src: string) => Promise<ShareCardImage>;
+  },
+): Promise<string[]> {
   const line = shareCardLine(input.name);
   const drawn: string[] = ["Noble Bereans", line];
   ctx.fillStyle = "#f8e6c6";
@@ -56,13 +127,10 @@ export function drawBadgeShareCard(ctx: ShareCardCanvas, input: { name: string; 
   ctx.textBaseline = "middle";
   ctx.fillText("Noble Bereans", input.width / 2, 180);
 
-  ctx.beginPath();
-  ctx.arc(input.width / 2, 390, 92, 0, Math.PI * 2);
-  ctx.fillStyle = "#f6d48a";
-  ctx.fill();
-  ctx.strokeStyle = "#7a4e0c";
-  ctx.lineWidth = 8;
-  ctx.stroke();
+  const src = badgeMedallionUrl(input.topic, input.slug);
+  const image = await (input.loadImage ?? loadInlineImage)(src);
+  const size = 220;
+  ctx.drawImage(image, input.width / 2 - size / 2, 280, size, size);
 
   ctx.fillStyle = "#2a1c12";
   ctx.font = "600 40px Georgia, serif";
@@ -73,14 +141,14 @@ export function drawBadgeShareCard(ctx: ShareCardCanvas, input: { name: string; 
   return drawn;
 }
 
-export async function renderBadgeShareFile(name: string): Promise<File | null> {
+export async function renderBadgeShareFile(name: string, topic: string, slug: string): Promise<File | null> {
   if (typeof document === "undefined") return null;
   const canvas = document.createElement("canvas");
   canvas.width = 720;
   canvas.height = 960;
   const ctx = canvas.getContext("2d");
   if (!ctx) return null;
-  drawBadgeShareCard(ctx as unknown as ShareCardCanvas, { name, width: 720, height: 960 });
+  await drawBadgeShareCard(ctx as unknown as ShareCardCanvas, { name, topic, slug, width: 720, height: 960 });
   const blob = await new Promise<Blob | null>((resolve) => {
     canvas.toBlob((value) => resolve(value), "image/png");
   });

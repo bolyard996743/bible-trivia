@@ -147,7 +147,7 @@ export function DailyChallengeClient() {
               <FetchedPassage key={ref} reference={ref} />
             ))}
           </div>
-          <ShareBadgeButton name={DAILY_BADGE_NAME} />
+          <ShareBadgeButton name={DAILY_BADGE_NAME} topic="lamp" slug="daily-lamp" />
         </div>
       ) : null}
 

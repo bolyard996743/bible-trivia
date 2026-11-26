@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { downloadFile, presentBadgeShare, renderBadgeShareFile, shareCardLine } from "@/lib/share/badge-card";
 
-export function ShareBadgeButton({ name }: { name: string }) {
+export function ShareBadgeButton({ name, topic, slug }: { name: string; topic: string; slug: string }) {
   const [preview, setPreview] = useState<string | null>(null);
   const [note, setNote] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
@@ -14,7 +14,7 @@ export function ShareBadgeButton({ name }: { name: string }) {
     setBusy(true);
     setNote(null);
     try {
-      const file = await renderBadgeShareFile(name);
+      const file = await renderBadgeShareFile(name, topic, slug);
       if (!file) {
         setNote("This browser can't make the image.");
         return;
