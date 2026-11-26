@@ -319,8 +319,8 @@ describe("mis-tap guard", () => {
 });
 
 describe("correct-answer advance", () => {
-  it("advances a correct answer at 15s and never advances a miss", () => {
-    expect(ADVANCE_MS).toBe(15_000);
+  it("advances a correct answer at 5s and never advances a miss", () => {
+    expect(ADVANCE_MS).toBe(5_000);
     expect(schedulesAutoAdvance("mastered")).toBe(true);
     expect(schedulesAutoAdvance("teaching")).toBe(false);
     expect(schedulesAutoAdvance("asking")).toBe(false);
@@ -365,7 +365,7 @@ describe("correct-answer advance", () => {
     expect(consumeAdvance(once.clock).fire).toBe(false);
   });
 
-  it("auto-advances 15s after a correct answer, pauses, and does not advance twice", async () => {
+  it("auto-advances 5s after a correct answer, pauses, and does not advance twice", async () => {
     vi.useFakeTimers();
     const onContinue = vi.fn();
     const container = render(
@@ -485,7 +485,7 @@ describe("correct-answer advance", () => {
     expect(onContinue).not.toHaveBeenCalled();
   });
 
-  it("uses a static fish and the same 15s countdown when motion is reduced", async () => {
+  it("uses a static fish and the same 5s countdown when motion is reduced", async () => {
     vi.useFakeTimers();
     window.matchMedia = ((query: string) => ({
       matches: query.includes("reduce"),
@@ -516,11 +516,11 @@ describe("correct-answer advance", () => {
     const timer = container.querySelector("[data-testid='ichthys-timer']");
     expect(timer?.getAttribute("data-reduced")).toBe("true");
     expect(container.querySelector(".ichthys-fill")).toBeNull();
-    expect(container.querySelector("[data-testid='advance-countdown']")?.textContent).toBe(nextQuestionCountdown(15));
+    expect(container.querySelector("[data-testid='advance-countdown']")?.textContent).toBe(nextQuestionCountdown(5));
     await act(async () => {
       await vi.advanceTimersByTimeAsync(1_000);
     });
-    expect(container.querySelector("[data-testid='advance-countdown']")?.textContent).toBe(nextQuestionCountdown(14));
+    expect(container.querySelector("[data-testid='advance-countdown']")?.textContent).toBe(nextQuestionCountdown(4));
     await act(async () => {
       await vi.advanceTimersByTimeAsync(ADVANCE_MS - 1_000);
     });

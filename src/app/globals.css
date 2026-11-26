@@ -461,7 +461,7 @@ a.badge-link {
   opacity: 0.9;
   transform-origin: left center;
   transform: scaleX(0);
-  animation: ichthys-fill 15s linear forwards;
+  animation: ichthys-fill 5s linear forwards;
 }
 
 .ichthys-fill.is-paused {
