@@ -1,7 +1,7 @@
 import type { AttemptPhase } from "@/lib/game/types";
 
 /** How long a correct answer waits before the next question. */
-export const ADVANCE_MS = 5_000;
+export const ADVANCE_MS = 15_000;
 
 /** Quiet time after the player reads, then the fish continues from where it paused. */
 export const PAUSE_RESUME_MS = 3_000;
